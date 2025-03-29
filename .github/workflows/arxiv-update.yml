@@ -1,0 +1,52 @@
+name: Run Arxiv Papers Daily
+
+on:
+  schedule:
+    - cron: '30 2,14 * * *'  # 每天北京时间上午10点半和晚上10点半运行
+  workflow_dispatch:
+
+env:
+  GITHUB_USER_NAME: CYandYue      # 请替换为你的 GitHub 用户名
+  GITHUB_USER_EMAIL: 89253033@qq.com    # 请替换为你的电子邮件地址
+
+jobs:
+  update:
+    name: Update Arxiv Papers
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python Environment
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install arxiv tenacity
+
+      - name: Run arXiv Updater Script
+        run: |
+          python arxiv_updater.py
+
+      - name: Debug File Paths
+        run: |
+          echo "Current working directory: $(pwd)"
+          ls -la  # 列出工作目录中的文件
+
+      - name: Check File Contents
+        run: |
+          echo "article.json content:"
+          cat article.json | head -n 5
+          echo "README.md content change:"
+          git diff README.md
+
+      - name: Commit and Push Changes
+        run: |
+          git config user.name "${{ env.GITHUB_USER_NAME }}"
+          git config user.email "${{ env.GITHUB_USER_EMAIL }}"
+          git add article.json README.md arxiv_updater.py
+          git commit -m "Automatic update from GitHub Actions" || echo "No changes to commit"
+          git push origin main
