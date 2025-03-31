@@ -1,5 +1,326 @@
 [
   {
+    "title": "Q-Insight: Understanding Image Quality via Visual Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2503.22679v1",
+    "arxiv_id": "2503.22679v1",
+    "authors": [
+      "Weiqi Li",
+      "Xuanyu Zhang",
+      "Shijie Zhao",
+      "Yabin Zhang",
+      "Junlin Li",
+      "Li Zhang",
+      "Jian Zhang"
+    ],
+    "published": "2025-03-28T17:59:54+00:00",
+    "summary": "Image quality assessment (IQA) focuses on the perceptual visual quality of images, playing a crucial role in downstream tasks such as image reconstruction, compression, and generation. The rapid advancement of multi-modal large language models (MLLMs) has significantly broadened the scope of IQA, moving toward comprehensive image quality understanding that incorporates content analysis, degradation perception, and comparison reasoning beyond mere numerical scoring. Previous MLLM-based methods typically either generate numerical scores lacking interpretability or heavily rely on supervised fine-tuning (SFT) using large-scale annotated datasets to provide descriptive assessments, limiting their flexibility and applicability. In this paper, we propose Q-Insight, a reinforcement learning-based model built upon group relative policy optimization (GRPO), which demonstrates strong visual reasoning capability for image quality understanding while requiring only a limited amount of rating scores and degradation labels. By jointly optimizing score regression and degradation perception tasks with carefully designed reward functions, our approach effectively exploits their mutual benefits for enhanced performance. Extensive experiments demonstrate that Q-Insight substantially outperforms existing state-of-the-art methods in both score regression and degradation perception tasks, while exhibiting impressive zero-shot generalization to comparison reasoning tasks. Code will be available at https://github.com/lwq20020127/Q-Insight."
+  },
+  {
+    "title": "DSO: Aligning 3D Generators with Simulation Feedback for Physical Soundness",
+    "url": "http://arxiv.org/abs/2503.22677v1",
+    "arxiv_id": "2503.22677v1",
+    "authors": [
+      "Ruining Li",
+      "Chuanxia Zheng",
+      "Christian Rupprecht",
+      "Andrea Vedaldi"
+    ],
+    "published": "2025-03-28T17:59:53+00:00",
+    "summary": "Most 3D object generators focus on aesthetic quality, often neglecting physical constraints necessary in applications. One such constraint is that the 3D object should be self-supporting, i.e., remains balanced under gravity. Prior approaches to generating stable 3D objects used differentiable physics simulators to optimize geometry at test-time, which is slow, unstable, and prone to local optima. Inspired by the literature on aligning generative models to external feedback, we propose Direct Simulation Optimization (DSO), a framework to use the feedback from a (non-differentiable) simulator to increase the likelihood that the 3D generator outputs stable 3D objects directly. We construct a dataset of 3D objects labeled with a stability score obtained from the physics simulator. We can then fine-tune the 3D generator using the stability score as the alignment metric, via direct preference optimization (DPO) or direct reward optimization (DRO), a novel objective, which we introduce, to align diffusion models without requiring pairwise preferences. Our experiments show that the fine-tuned feed-forward generator, using either DPO or DRO objective, is much faster and more likely to produce stable objects than test-time optimization. Notably, the DSO framework works even without any ground-truth 3D objects for training, allowing the 3D generator to self-improve by automatically collecting simulation feedback on its own outputs."
+  },
+  {
+    "title": "Reinforcement Learning for Machine Learning Model Deployment: Evaluating Multi-Armed Bandits in ML Ops Environments",
+    "url": "http://arxiv.org/abs/2503.22595v1",
+    "arxiv_id": "2503.22595v1",
+    "authors": [
+      "S. Aaron McClendon",
+      "Vishaal Venkatesh",
+      "Juan Morinelli"
+    ],
+    "published": "2025-03-28T16:42:21+00:00",
+    "summary": "In modern ML Ops environments, model deployment is a critical process that traditionally relies on static heuristics such as validation error comparisons and A/B testing. However, these methods require human intervention to adapt to real-world deployment challenges, such as model drift or unexpected performance degradation. We investigate whether reinforcement learning, specifically multi-armed bandit (MAB) algorithms, can dynamically manage model deployment decisions more effectively. Our approach enables more adaptive production environments by continuously evaluating deployed models and rolling back underperforming ones in real-time. We test six model selection strategies across two real-world datasets and find that RL based approaches match or exceed traditional methods in performance. Our findings suggest that reinforcement learning (RL)-based model management can improve automation, reduce reliance on manual interventions, and mitigate risks associated with post-deployment model failures."
+  },
+  {
+    "title": "On the Mistaken Assumption of Interchangeable Deep Reinforcement Learning Implementations",
+    "url": "http://arxiv.org/abs/2503.22575v1",
+    "arxiv_id": "2503.22575v1",
+    "authors": [
+      "Rajdeep Singh Hundal",
+      "Yan Xiao",
+      "Xiaochun Cao",
+      "Jin Song Dong",
+      "Manuel Rigger"
+    ],
+    "published": "2025-03-28T16:25:06+00:00",
+    "summary": "Deep Reinforcement Learning (DRL) is a paradigm of artificial intelligence where an agent uses a neural network to learn which actions to take in a given environment. DRL has recently gained traction from being able to solve complex environments like driving simulators, 3D robotic control, and multiplayer-online-battle-arena video games. Numerous implementations of the state-of-the-art algorithms responsible for training these agents, like the Deep Q-Network (DQN) and Proximal Policy Optimization (PPO) algorithms, currently exist. However, studies make the mistake of assuming implementations of the same algorithm to be consistent and thus, interchangeable. In this paper, through a differential testing lens, we present the results of studying the extent of implementation inconsistencies, their effect on the implementations' performance, as well as their impact on the conclusions of prior studies under the assumption of interchangeable implementations. The outcomes of our differential tests showed significant discrepancies between the tested algorithm implementations, indicating that they are not interchangeable. In particular, out of the five PPO implementations tested on 56 games, three implementations achieved superhuman performance for 50% of their total trials while the other two implementations only achieved superhuman performance for less than 15% of their total trials. As part of a meticulous manual analysis of the implementations' source code, we analyzed implementation discrepancies and determined that code-level inconsistencies primarily caused these discrepancies. Lastly, we replicated a study and showed that this assumption of implementation interchangeability was sufficient to flip experiment outcomes. Therefore, this calls for a shift in how implementations are being used."
+  },
+  {
+    "title": "Scenario Dreamer: Vectorized Latent Diffusion for Generating Driving Simulation Environments",
+    "url": "http://arxiv.org/abs/2503.22496v1",
+    "arxiv_id": "2503.22496v1",
+    "authors": [
+      "Luke Rowe",
+      "Roger Girgis",
+      "Anthony Gosselin",
+      "Liam Paull",
+      "Christopher Pal",
+      "Felix Heide"
+    ],
+    "published": "2025-03-28T15:03:41+00:00",
+    "summary": "We introduce Scenario Dreamer, a fully data-driven generative simulator for autonomous vehicle planning that generates both the initial traffic scene - comprising a lane graph and agent bounding boxes - and closed-loop agent behaviours. Existing methods for generating driving simulation environments encode the initial traffic scene as a rasterized image and, as such, require parameter-heavy networks that perform unnecessary computation due to many empty pixels in the rasterized scene. Moreover, we find that existing methods that employ rule-based agent behaviours lack diversity and realism. Scenario Dreamer instead employs a novel vectorized latent diffusion model for initial scene generation that directly operates on the vectorized scene elements and an autoregressive Transformer for data-driven agent behaviour simulation. Scenario Dreamer additionally supports scene extrapolation via diffusion inpainting, enabling the generation of unbounded simulation environments. Extensive experiments show that Scenario Dreamer outperforms existing generative simulators in realism and efficiency: the vectorized scene-generation base model achieves superior generation quality with around 2x fewer parameters, 6x lower generation latency, and 10x fewer GPU training hours compared to the strongest baseline. We confirm its practical utility by showing that reinforcement learning planning agents are more challenged in Scenario Dreamer environments than traditional non-generative simulation environments, especially on long and adversarial driving environments."
+  },
+  {
+    "title": "Probabilistic Uncertain Reward Model: A Natural Generalization of Bradley-Terry Reward Model",
+    "url": "http://arxiv.org/abs/2503.22480v1",
+    "arxiv_id": "2503.22480v1",
+    "authors": [
+      "Wangtao Sun",
+      "Xiang Cheng",
+      "Xing Yu",
+      "Haotian Xu",
+      "Zhao Yang",
+      "Shizhu He",
+      "Jun Zhao",
+      "Kang Liu"
+    ],
+    "published": "2025-03-28T14:39:52+00:00",
+    "summary": "Reinforcement Learning from Human Feedback (RLHF) has emerged as a critical technique for training large language models. However, reward hacking-a phenomenon where models exploit flaws in the reward model-remains a significant barrier to achieving robust and scalable intelligence through long-term training. Existing studies have proposed uncertain reward model to address reward hacking, however, they often lack systematic or theoretical foundations, failing to model the uncertainty intrinsically emerging from preference data. In this paper, we propose the Probabilistic Uncertain Reward Model (PURM), a natural generalization of the classical Bradley-Terry reward model. PURM learns reward distributions directly from preference data and quantifies per-sample uncertainty via the average overlap area between reward distributions. To mitigate reward hacking, we further introduce an uncertainty-aware penalty into Proximal Policy Optimization (PPO), which leverages the learned uncertainty to dynamically balance reward optimization and exploration. We propose a lightweight and easy-to-use implementation of PURM. Experiments demonstrate that PURM significantly delays the onset of reward hacking while improving final reward performance, outperforming baseline methods in both stability and effectiveness."
+  },
+  {
+    "title": "Control of Humanoid Robots with Parallel Mechanisms using Kinematic Actuation Models",
+    "url": "http://arxiv.org/abs/2503.22459v1",
+    "arxiv_id": "2503.22459v1",
+    "authors": [
+      "Victor Lutz",
+      "Ludovic de Matte\u00efs",
+      "Virgile Batto",
+      "Nicolas Mansard"
+    ],
+    "published": "2025-03-28T14:13:00+00:00",
+    "summary": "Inspired by the mechanical design of Cassie, several recently released humanoid robots are using actuator configuration in which the motor is displaced from the joint location to optimize the leg inertia. This in turn induces a non linearity in the reduction ratio of the transmission which is often neglected when computing the robot motion (e.g. by trajectory optimization or reinforcement learning) and only accounted for at control time. This paper proposes an analytical method to efficiently handle this non-linearity. Using this actuation model, we demonstrate that we can leverage the dynamic abilities of the non-linear transmission while only modeling the inertia of the main serial chain of the leg, without approximating the motor capabilities nor the joint range. Based on analytical inverse kinematics, our method does not need any numerical routines dedicated to the closed-kinematics actuation, hence leading to very efficient computations. Our study focuses on two mechanisms widely used in recent humanoid robots; the four bar knee linkage as well as a parallel 2 DoF ankle mechanism. We integrate these models inside optimization based (DDP) and learning (PPO) control approaches. A comparison of our model against a simplified model that completely neglects closed chains is then shown in simulation."
+  },
+  {
+    "title": "Entropy-guided sequence weighting for efficient exploration in RL-based LLM fine-tuning",
+    "url": "http://arxiv.org/abs/2503.22456v1",
+    "arxiv_id": "2503.22456v1",
+    "authors": [
+      "Abdullah Vanlioglu"
+    ],
+    "published": "2025-03-28T14:07:51+00:00",
+    "summary": "We introduce Entropy-Guided Sequence Weighting (EGSW), a novel approach that enhances the exploration-exploitation tradeoff by dynamically assigning weights to generated outputs based on their advantage and entropy for Reinforcement Learning-based Large Language Model fine-tuning. EGSW integrates entropy regularization with advantage-based weighting to balance policy updates, enabling efficient exploration in high-dimensional state spaces. By employing temperature-scaled softmax weighting over sequences, EGSW prioritizing high-reward, high-uncertainty steps while maintaining training stability. Although originally developed to improve Group Relative Policy Optimization (GRPO) during large language model (LLM) fine-tuning, EGSW is generalizable to other reinforcement learning (RL) algorithms and can be implemented in both step-wise and trajectory-wise settings. Empirical evaluations demonstrate that EGSW enhances GRPO reasoning ability, yielding improvements in sample efficiency. Future work will explore the application of EGSW to advanced RL methodologies."
+  },
+  {
+    "title": "Reinforcement learning for efficient and robust multi-setpoint and multi-trajectory tracking in bioprocesses",
+    "url": "http://arxiv.org/abs/2503.22409v1",
+    "arxiv_id": "2503.22409v1",
+    "authors": [
+      "Sebasti\u00e1n Espinel-R\u00edos",
+      "Jos\u00e9 L. Avalos",
+      "Ehecatl Antonio del Rio Chanona",
+      "Dongda Zhang"
+    ],
+    "published": "2025-03-28T13:19:02+00:00",
+    "summary": "Efficient and robust bioprocess control is essential for maximizing performance and adaptability in advanced biotechnological systems. In this work, we present a reinforcement-learning framework for multi-setpoint and multi-trajectory tracking. Tracking multiple setpoints and time-varying trajectories in reinforcement learning is challenging due to the complexity of balancing multiple objectives, a difficulty further exacerbated by system uncertainties such as uncertain initial conditions and stochastic dynamics. This challenge is relevant, e.g., in bioprocesses involving microbial consortia, where precise control over population compositions is required. We introduce a novel return function based on multiplicative reciprocal saturation functions, which explicitly couples reward gains to the simultaneous satisfaction of multiple references. Through a case study involving light-mediated cybergenetic growth control in microbial consortia, we demonstrate via computational experiments that our approach achieves faster convergence, improved stability, and superior control compliance compared to conventional quadratic-cost-based return functions. Moreover, our method enables tuning of the saturation function's parameters, shaping the learning process and policy updates. By incorporating system uncertainties, our framework also demonstrates robustness, a key requirement in industrial bioprocessing. Overall, this work advances reinforcement-learning-based control strategies in bioprocess engineering, with implications in the broader field of process and systems engineering."
+  },
+  {
+    "title": "EllieSQL: Cost-Efficient Text-to-SQL with Complexity-Aware Routing",
+    "url": "http://arxiv.org/abs/2503.22402v1",
+    "arxiv_id": "2503.22402v1",
+    "authors": [
+      "Yizhang Zhu",
+      "Runzhi Jiang",
+      "Boyan Li",
+      "Nan Tang",
+      "Yuyu Luo"
+    ],
+    "published": "2025-03-28T13:11:27+00:00",
+    "summary": "Text-to-SQL automatically translates natural language queries to SQL, allowing non-technical users to retrieve data from databases without specialized SQL knowledge. Despite the success of advanced LLM-based Text-to-SQL approaches on leaderboards, their unsustainable computational costs--often overlooked--stand as the \"elephant in the room\" in current leaderboard-driven research, limiting their economic practicability for real-world deployment and widespread adoption. To tackle this, we exploratively propose EllieSQL, a complexity-aware routing framework that assigns queries to suitable SQL generation pipelines based on estimated complexity. We investigate multiple routers to direct simple queries to efficient approaches while reserving computationally intensive methods for complex cases. Drawing from economics, we introduce the Token Elasticity of Performance (TEP) metric, capturing cost-efficiency by quantifying the responsiveness of performance gains relative to token investment in SQL generation. Experiments show that compared to always using the most advanced methods in our study, EllieSQL with the Qwen2.5-0.5B-DPO router reduces token use by over 40% without compromising performance on Bird development set, achieving more than a 2x boost in TEP over non-routing approaches. This not only advances the pursuit of cost-efficient Text-to-SQL but also invites the community to weigh resource efficiency alongside performance, contributing to progress in sustainable Text-to-SQL."
+  },
+  {
+    "title": "CPPO: Accelerating the Training of Group Relative Policy Optimization-Based Reasoning Models",
+    "url": "http://arxiv.org/abs/2503.22342v1",
+    "arxiv_id": "2503.22342v1",
+    "authors": [
+      "Zhihang Lin",
+      "Mingbao Lin",
+      "Yuan Xie",
+      "Rongrong Ji"
+    ],
+    "published": "2025-03-28T11:30:05+00:00",
+    "summary": "This paper introduces Completion Pruning Policy Optimization (CPPO) to accelerate the training of reasoning models based on Group Relative Policy Optimization (GRPO). GRPO, while effective, incurs high training costs due to the need for sampling multiple completions for each question. Our experiment and theoretical analysis reveals that the number of completions impacts model accuracy yet increases training time multiplicatively, and not all completions contribute equally to policy training -- their contribution depends on their relative advantage. To address these issues, we propose CPPO, which prunes completions with low absolute advantages, significantly reducing the number needed for gradient calculation and updates. Additionally, we introduce a dynamic completion allocation strategy to maximize GPU utilization by incorporating additional questions, further enhancing training efficiency. Experimental results demonstrate that CPPO achieves up to $8.32\\times$ speedup on GSM8K and $3.51\\times$ on Math while preserving or even enhancing the accuracy compared to the original GRPO. We release our code at https://github.com/lzhxmu/CPPO."
+  },
+  {
+    "title": "FLAM: Foundation Model-Based Body Stabilization for Humanoid Locomotion and Manipulation",
+    "url": "http://arxiv.org/abs/2503.22249v1",
+    "arxiv_id": "2503.22249v1",
+    "authors": [
+      "Xianqi Zhang",
+      "Hongliang Wei",
+      "Wenrui Wang",
+      "Xingtao Wang",
+      "Xiaopeng Fan",
+      "Debin Zhao"
+    ],
+    "published": "2025-03-28T09:02:32+00:00",
+    "summary": "Humanoid robots have attracted significant attention in recent years. Reinforcement Learning (RL) is one of the main ways to control the whole body of humanoid robots. RL enables agents to complete tasks by learning from environment interactions, guided by task rewards. However, existing RL methods rarely explicitly consider the impact of body stability on humanoid locomotion and manipulation. Achieving high performance in whole-body control remains a challenge for RL methods that rely solely on task rewards. In this paper, we propose a Foundation model-based method for humanoid Locomotion And Manipulation (FLAM for short). FLAM integrates a stabilizing reward function with a basic policy. The stabilizing reward function is designed to encourage the robot to learn stable postures, thereby accelerating the learning process and facilitating task completion. Specifically, the robot pose is first mapped to the 3D virtual human model. Then, the human pose is stabilized and reconstructed through a human motion reconstruction model. Finally, the pose before and after reconstruction is used to compute the stabilizing reward. By combining this stabilizing reward with the task reward, FLAM effectively guides policy learning. Experimental results on a humanoid robot benchmark demonstrate that FLAM outperforms state-of-the-art RL methods, highlighting its effectiveness in improving stability and overall performance."
+  },
+  {
+    "title": "CRLLK: Constrained Reinforcement Learning for Lane Keeping in Autonomous Driving",
+    "url": "http://arxiv.org/abs/2503.22248v1",
+    "arxiv_id": "2503.22248v1",
+    "authors": [
+      "Xinwei Gao",
+      "Arambam James Singh",
+      "Gangadhar Royyuru",
+      "Michael Yuhas",
+      "Arvind Easwaran"
+    ],
+    "published": "2025-03-28T08:59:02+00:00",
+    "summary": "Lane keeping in autonomous driving systems requires scenario-specific weight tuning for different objectives. We formulate lane-keeping as a constrained reinforcement learning problem, where weight coefficients are automatically learned along with the policy, eliminating the need for scenario-specific tuning. Empirically, our approach outperforms traditional RL in efficiency and reliability. Additionally, real-world demonstrations validate its practical value for real-world autonomous driving."
+  },
+  {
+    "title": "Analysis of On-policy Policy Gradient Methods under the Distribution Mismatch",
+    "url": "http://arxiv.org/abs/2503.22244v1",
+    "arxiv_id": "2503.22244v1",
+    "authors": [
+      "Weizhen Wang",
+      "Jianping He",
+      "Xiaoming Duan"
+    ],
+    "published": "2025-03-28T08:52:41+00:00",
+    "summary": "Policy gradient methods are one of the most successful methods for solving challenging reinforcement learning problems. However, despite their empirical successes, many SOTA policy gradient algorithms for discounted problems deviate from the theoretical policy gradient theorem due to the existence of a distribution mismatch. In this work, we analyze the impact of this mismatch on the policy gradient methods. Specifically, we first show that in the case of tabular parameterizations, the methods under the mismatch remain globally optimal. Then, we extend this analysis to more general parameterizations by leveraging the theory of biased stochastic gradient descent. Our findings offer new insights into the robustness of policy gradient methods as well as the gap between theoretical foundations and practical implementations."
+  },
+  {
+    "title": "Exploring Data Scaling Trends and Effects in Reinforcement Learning from Human Feedback",
+    "url": "http://arxiv.org/abs/2503.22230v1",
+    "arxiv_id": "2503.22230v1",
+    "authors": [
+      "Wei Shen",
+      "Guanlin Liu",
+      "Zheng Wu",
+      "Ruofei Zhu",
+      "Qingping Yang",
+      "Chao Xin",
+      "Yu Yue",
+      "Lin Yan"
+    ],
+    "published": "2025-03-28T08:26:41+00:00",
+    "summary": "Reinforcement Learning from Human Feedback (RLHF) is crucial for aligning large language models with human preferences. While recent research has focused on algorithmic improvements, the importance of prompt-data construction has been overlooked. This paper addresses this gap by exploring data-driven bottlenecks in RLHF performance scaling, particularly reward hacking and decreasing response diversity. We introduce a hybrid reward system combining reasoning task verifiers (RTV) and a generative reward model (GenRM) to mitigate reward hacking. We also propose a novel prompt-selection method, Pre-PPO, to maintain response diversity and enhance learning effectiveness. Additionally, we find that prioritizing mathematical and coding tasks early in RLHF training significantly improves performance. Experiments across two model sizes validate our methods' effectiveness and scalability. Results show that RTV is most resistant to reward hacking, followed by GenRM with ground truth, and then GenRM with SFT Best-of-N responses. Our strategies enable rapid capture of subtle task-specific distinctions, leading to substantial improvements in overall RLHF performance. This work highlights the importance of careful data construction and provides practical methods to overcome performance barriers in RLHF."
+  },
+  {
+    "title": "Cooperative Hybrid Multi-Agent Pathfinding Based on Shared Exploration Maps",
+    "url": "http://arxiv.org/abs/2503.22162v1",
+    "arxiv_id": "2503.22162v1",
+    "authors": [
+      "Ning Liu",
+      "Sen Shen",
+      "Xiangrui Kong",
+      "Hongtao Zhang",
+      "Thomas Br\u00e4unl"
+    ],
+    "published": "2025-03-28T05:57:23+00:00",
+    "summary": "Multi-Agent Pathfinding is used in areas including multi-robot formations, warehouse logistics, and intelligent vehicles. However, many environments are incomplete or frequently change, making it difficult for standard centralized planning or pure reinforcement learning to maintain both global solution quality and local flexibility. This paper introduces a hybrid framework that integrates D* Lite global search with multi-agent reinforcement learning, using a switching mechanism and a freeze-prevention strategy to handle dynamic conditions and crowded settings. We evaluate the framework in the discrete POGEMA environment and compare it with baseline methods. Experimental outcomes indicate that the proposed framework substantially improves success rate, collision rate, and path efficiency. The model is further tested on the EyeSim platform, where it maintains feasible Pathfinding under frequent changes and large-scale robot deployments."
+  },
+  {
+    "title": "Sharpe Ratio-Guided Active Learning for Preference Optimization in RLHF",
+    "url": "http://arxiv.org/abs/2503.22137v1",
+    "arxiv_id": "2503.22137v1",
+    "authors": [
+      "Syrine Belakaria",
+      "Joshua Kazdan",
+      "Charles Marx",
+      "Chris Cundy",
+      "Willie Neiswanger",
+      "Sanmi Koyejo",
+      "Barbara E. Engelhardt",
+      "Stefano Ermon"
+    ],
+    "published": "2025-03-28T04:22:53+00:00",
+    "summary": "Reinforcement learning from human feedback (RLHF) has become a cornerstone of the training and alignment pipeline for large language models (LLMs). Recent advances, such as direct preference optimization (DPO), have simplified the preference learning step. However, collecting preference data remains a challenging and costly process, often requiring expert annotation. This cost can be mitigated by carefully selecting the data points presented for annotation. In this work, we propose an active learning approach to efficiently select prompt and preference pairs using a risk assessment strategy based on the Sharpe Ratio. To address the challenge of unknown preferences prior to annotation, our method evaluates the gradients of all potential preference annotations to assess their impact on model updates. These gradient-based evaluations enable risk assessment of data points regardless of the annotation outcome. By leveraging the DPO loss derivations, we derive a closed-form expression for computing these Sharpe ratios on a per-tuple basis, ensuring our approach remains both tractable and computationally efficient. We also introduce two variants of our method, each making different assumptions about prior information. Experimental results demonstrate that our method outperforms the baseline by up to 5% in win rates against the chosen completion with limited human preference data across several language models and real-world datasets."
+  },
+  {
+    "title": "Bresa: Bio-inspired Reflexive Safe Reinforcement Learning for Contact-Rich Robotic Tasks",
+    "url": "http://arxiv.org/abs/2503.21989v1",
+    "arxiv_id": "2503.21989v1",
+    "authors": [
+      "Heng Zhang",
+      "Gokhan Solak",
+      "Arash Ajoudani"
+    ],
+    "published": "2025-03-27T21:11:32+00:00",
+    "summary": "Ensuring safety in reinforcement learning (RL)-based robotic systems is a critical challenge, especially in contact-rich tasks within unstructured environments. While the state-of-the-art safe RL approaches mitigate risks through safe exploration or high-level recovery mechanisms, they often overlook low-level execution safety, where reflexive responses to potential hazards are crucial. Similarly, variable impedance control (VIC) enhances safety by adjusting the robot's mechanical response, yet lacks a systematic way to adapt parameters, such as stiffness and damping throughout the task. In this paper, we propose Bresa, a Bio-inspired Reflexive Hierarchical Safe RL method inspired by biological reflexes. Our method decouples task learning from safety learning, incorporating a safety critic network that evaluates action risks and operates at a higher frequency than the task solver. Unlike existing recovery-based methods, our safety critic functions at a low-level control layer, allowing real-time intervention when unsafe conditions arise. The task-solving RL policy, running at a lower frequency, focuses on high-level planning (decision-making), while the safety critic ensures instantaneous safety corrections. We validate Bresa on multiple tasks including a contact-rich robotic task, demonstrating its reflexive ability to enhance safety, and adaptability in unforeseen dynamic environments. Our results show that Bresa outperforms the baseline, providing a robust and reflexive safety mechanism that bridges the gap between high-level planning and low-level execution. Real-world experiments and supplementary material are available at project website https://jack-sherman01.github.io/Bresa."
+  },
+  {
+    "title": "Learning to Lie: Reinforcement Learning Attacks Damage Human-AI Teams and Teams of LLMs",
+    "url": "http://arxiv.org/abs/2503.21983v1",
+    "arxiv_id": "2503.21983v1",
+    "authors": [
+      "Abed Kareem Musaffar",
+      "Anand Gokhale",
+      "Sirui Zeng",
+      "Rasta Tadayon",
+      "Xifeng Yan",
+      "Ambuj Singh",
+      "Francesco Bullo"
+    ],
+    "published": "2025-03-27T21:01:02+00:00",
+    "summary": "As artificial intelligence (AI) assistants become more widely adopted in safety-critical domains, it becomes important to develop safeguards against potential failures or adversarial attacks. A key prerequisite to developing these safeguards is understanding the ability of these AI assistants to mislead human teammates. We investigate this attack problem within the context of an intellective strategy game where a team of three humans and one AI assistant collaborate to answer a series of trivia questions. Unbeknownst to the humans, the AI assistant is adversarial. Leveraging techniques from Model-Based Reinforcement Learning (MBRL), the AI assistant learns a model of the humans' trust evolution and uses that model to manipulate the group decision-making process to harm the team. We evaluate two models -- one inspired by literature and the other data-driven -- and find that both can effectively harm the human team. Moreover, we find that in this setting our data-driven model is capable of accurately predicting how human agents appraise their teammates given limited information on prior interactions. Finally, we compare the performance of state-of-the-art LLM models to human agents on our influence allocation task to evaluate whether the LLMs allocate influence similarly to humans or if they are more robust to our attack. These results enhance our understanding of decision-making dynamics in small human-AI teams and lay the foundation for defense strategies."
+  },
+  {
+    "title": "Pretrained Bayesian Non-parametric Knowledge Prior in Robotic Long-Horizon Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2503.21975v1",
+    "arxiv_id": "2503.21975v1",
+    "authors": [
+      "Yuan Meng",
+      "Xiangtong Yao",
+      "Kejia Chen",
+      "Yansong Wu",
+      "Liding Zhang",
+      "Zhenshan Bing",
+      "Alois Knoll"
+    ],
+    "published": "2025-03-27T20:43:36+00:00",
+    "summary": "Reinforcement learning (RL) methods typically learn new tasks from scratch, often disregarding prior knowledge that could accelerate the learning process. While some methods incorporate previously learned skills, they usually rely on a fixed structure, such as a single Gaussian distribution, to define skill priors. This rigid assumption can restrict the diversity and flexibility of skills, particularly in complex, long-horizon tasks. In this work, we introduce a method that models potential primitive skill motions as having non-parametric properties with an unknown number of underlying features. We utilize a Bayesian non-parametric model, specifically Dirichlet Process Mixtures, enhanced with birth and merge heuristics, to pre-train a skill prior that effectively captures the diverse nature of skills. Additionally, the learned skills are explicitly trackable within the prior space, enhancing interpretability and control. By integrating this flexible skill prior into an RL framework, our approach surpasses existing methods in long-horizon manipulation tasks, enabling more efficient skill transfer and task success in complex environments. Our findings show that a richer, non-parametric representation of skill priors significantly improves both the learning and execution of challenging robotic tasks. All data, code, and videos are available at https://ghiara.github.io/HELIOS/."
+  },
+  {
+    "title": "Data-Agnostic Robotic Long-Horizon Manipulation with Vision-Language-Guided Closed-Loop Feedback",
+    "url": "http://arxiv.org/abs/2503.21969v1",
+    "arxiv_id": "2503.21969v1",
+    "authors": [
+      "Yuan Meng",
+      "Xiangtong Yao",
+      "Haihui Ye",
+      "Yirui Zhou",
+      "Shengqiang Zhang",
+      "Zhenshan Bing",
+      "Alois Knoll"
+    ],
+    "published": "2025-03-27T20:32:58+00:00",
+    "summary": "Recent advances in language-conditioned robotic manipulation have leveraged imitation and reinforcement learning to enable robots to execute tasks from human commands. However, these methods often suffer from limited generalization, adaptability, and the lack of large-scale specialized datasets, unlike data-rich domains such as computer vision, making long-horizon task execution challenging. To address these gaps, we introduce DAHLIA, a data-agnostic framework for language-conditioned long-horizon robotic manipulation, leveraging large language models (LLMs) for real-time task planning and execution. DAHLIA employs a dual-tunnel architecture, where an LLM-powered planner collaborates with co-planners to decompose tasks and generate executable plans, while a reporter LLM provides closed-loop feedback, enabling adaptive re-planning and ensuring task recovery from potential failures. Moreover, DAHLIA integrates chain-of-thought (CoT) in task reasoning and temporal abstraction for efficient action execution, enhancing traceability and robustness. Our framework demonstrates state-of-the-art performance across diverse long-horizon tasks, achieving strong generalization in both simulated and real-world scenarios. Videos and code are available at https://ghiara.github.io/DAHLIA/."
+  },
+  {
+    "title": "Safety Verification and Optimization in Industrial Drive Systems",
+    "url": "http://arxiv.org/abs/2503.21965v1",
+    "arxiv_id": "2503.21965v1",
+    "authors": [
+      "Imran Riaz Hasrat",
+      "Eun-Young Kang",
+      "Christian Uldal Graulund"
+    ],
+    "published": "2025-03-27T20:27:19+00:00",
+    "summary": "Safety and reliability are crucial in industrial drive systems, where hazardous failures can have severe consequences. Detecting and mitigating dangerous faults on time is challenging due to the stochastic and unpredictable nature of fault occurrences, which can lead to limited diagnostic efficiency and compromise safety. This paper optimizes the safety and diagnostic performance of a real-world industrial Basic Drive Module(BDM) using Uppaal Stratego. We model the functional safety architecture of the BDM with timed automata and formally verify its key functional and safety requirements through model checking to eliminate unwanted behaviors. Considering the formally verified correct model as a baseline, we leverage the reinforcement learning facility in Uppaal Stratego to optimize the safe failure fraction to the 90 % threshold, improving fault detection ability. The promising results highlight strong potential for broader safety applications in industrial automation."
+  },
+  {
+    "title": "Reward Design for Reinforcement Learning Agents",
+    "url": "http://arxiv.org/abs/2503.21949v1",
+    "arxiv_id": "2503.21949v1",
+    "authors": [
+      "Rati Devidze"
+    ],
+    "published": "2025-03-27T19:48:02+00:00",
+    "summary": "Reward functions are central in reinforcement learning (RL), guiding agents towards optimal decision-making. The complexity of RL tasks requires meticulously designed reward functions that effectively drive learning while avoiding unintended consequences. Effective reward design aims to provide signals that accelerate the agent's convergence to optimal behavior. Crafting rewards that align with task objectives, foster desired behaviors, and prevent undesirable actions is inherently challenging. This thesis delves into the critical role of reward signals in RL, highlighting their impact on the agent's behavior and learning dynamics and addressing challenges such as delayed, ambiguous, or intricate rewards. In this thesis work, we tackle different aspects of reward shaping. First, we address the problem of designing informative and interpretable reward signals from a teacher's/expert's perspective (teacher-driven). Here, the expert, equipped with the optimal policy and the corresponding value function, designs reward signals that expedite the agent's convergence to optimal behavior. Second, we build on this teacher-driven approach by introducing a novel method for adaptive interpretable reward design. In this scenario, the expert tailors the rewards based on the learner's current policy, ensuring alignment and optimal progression. Third, we propose a meta-learning approach, enabling the agent to self-design its reward signals online without expert input (agent-driven). This self-driven method considers the agent's learning and exploration to establish a self-improving feedback loop."
+  },
+  {
     "title": "Video-R1: Reinforcing Video Reasoning in MLLMs",
     "url": "http://arxiv.org/abs/2503.21776v1",
     "arxiv_id": "2503.21776v1",
@@ -15,6 +336,20 @@
     ],
     "published": "2025-03-27T17:59:51+00:00",
     "summary": "Inspired by DeepSeek-R1's success in eliciting reasoning abilities through rule-based reinforcement learning (RL), we introduce Video-R1 as the first attempt to systematically explore the R1 paradigm for eliciting video reasoning within multimodal large language models (MLLMs). However, directly applying RL training with the GRPO algorithm to video reasoning presents two primary challenges: (i) a lack of temporal modeling for video reasoning, and (ii) the scarcity of high-quality video-reasoning data. To address these issues, we first propose the T-GRPO algorithm, which encourages models to utilize temporal information in videos for reasoning. Additionally, instead of relying solely on video data, we incorporate high-quality image-reasoning data into the training process. We have constructed two datasets: Video-R1-COT-165k for SFT cold start and Video-R1-260k for RL training, both comprising image and video data. Experimental results demonstrate that Video-R1 achieves significant improvements on video reasoning benchmarks such as VideoMMMU and VSI-Bench, as well as on general video benchmarks including MVBench and TempCompass, etc. Notably, Video-R1-7B attains a 35.8% accuracy on video spatial reasoning benchmark VSI-bench, surpassing the commercial proprietary model GPT-4o. All codes, models, data are released."
+  },
+  {
+    "title": "ManipTrans: Efficient Dexterous Bimanual Manipulation Transfer via Residual Learning",
+    "url": "http://arxiv.org/abs/2503.21860v1",
+    "arxiv_id": "2503.21860v1",
+    "authors": [
+      "Kailin Li",
+      "Puhao Li",
+      "Tengyu Liu",
+      "Yuyang Li",
+      "Siyuan Huang"
+    ],
+    "published": "2025-03-27T17:50:30+00:00",
+    "summary": "Human hands play a central role in interacting, motivating increasing research in dexterous robotic manipulation. Data-driven embodied AI algorithms demand precise, large-scale, human-like manipulation sequences, which are challenging to obtain with conventional reinforcement learning or real-world teleoperation. To address this, we introduce ManipTrans, a novel two-stage method for efficiently transferring human bimanual skills to dexterous robotic hands in simulation. ManipTrans first pre-trains a generalist trajectory imitator to mimic hand motion, then fine-tunes a specific residual module under interaction constraints, enabling efficient learning and accurate execution of complex bimanual tasks. Experiments show that ManipTrans surpasses state-of-the-art methods in success rate, fidelity, and efficiency. Leveraging ManipTrans, we transfer multiple hand-object datasets to robotic hands, creating DexManipNet, a large-scale dataset featuring previously unexplored tasks like pen capping and bottle unscrewing. DexManipNet comprises 3.3K episodes of robotic manipulation and is easily extensible, facilitating further policy training for dexterous hands and enabling real-world deployments."
   },
   {
     "title": "ReaRAG: Knowledge-guided Reasoning Enhances Factuality of Large Reasoning Models with Iterative Retrieval Augmented Generation",
@@ -146,6 +481,19 @@
       "Mechanical Engineering",
       "National University of Singapore",
       "Singapore"
+    ],
+    "published": "2025-03-27T11:47:20+00:00",
+    "summary": "Quadrupedal robots can learn versatile locomotion skills but remain vulnerable when one or more joints lose power. In contrast, dogs and cats can adopt limping gaits when injured, demonstrating their remarkable ability to adapt to physical conditions. Inspired by such adaptability, this paper presents Action Learner (AcL), a novel teacher-student reinforcement learning framework that enables quadrupeds to autonomously adapt their gait for stable walking under multiple joint faults. Unlike conventional teacher-student approaches that enforce strict imitation, AcL leverages teacher policies to generate style rewards, guiding the student policy without requiring precise replication. We train multiple teacher policies, each corresponding to a different fault condition, and subsequently distill them into a single student policy with an encoder-decoder architecture. While prior works primarily address single-joint faults, AcL enables quadrupeds to walk with up to four faulty joints across one or two legs, autonomously switching between different limping gaits when faults occur. We validate AcL on a real Go2 quadruped robot under single- and double-joint faults, demonstrating fault-tolerant, stable walking, smooth gait transitions between normal and lamb gaits, and robustness against external disturbances."
+  },
+  {
+    "title": "AcL: Action Learner for Fault-Tolerant Quadruped Locomotion Control",
+    "url": "http://arxiv.org/abs/2503.21401v2",
+    "arxiv_id": "2503.21401v2",
+    "authors": [
+      "Tianyu Xu",
+      "Yaoyu Cheng",
+      "Pinxi Shen",
+      "Lin Zhao"
     ],
     "published": "2025-03-27T11:47:20+00:00",
     "summary": "Quadrupedal robots can learn versatile locomotion skills but remain vulnerable when one or more joints lose power. In contrast, dogs and cats can adopt limping gaits when injured, demonstrating their remarkable ability to adapt to physical conditions. Inspired by such adaptability, this paper presents Action Learner (AcL), a novel teacher-student reinforcement learning framework that enables quadrupeds to autonomously adapt their gait for stable walking under multiple joint faults. Unlike conventional teacher-student approaches that enforce strict imitation, AcL leverages teacher policies to generate style rewards, guiding the student policy without requiring precise replication. We train multiple teacher policies, each corresponding to a different fault condition, and subsequently distill them into a single student policy with an encoder-decoder architecture. While prior works primarily address single-joint faults, AcL enables quadrupeds to walk with up to four faulty joints across one or two legs, autonomously switching between different limping gaits when faults occur. We validate AcL on a real Go2 quadruped robot under single- and double-joint faults, demonstrating fault-tolerant, stable walking, smooth gait transitions between normal and lamb gaits, and robustness against external disturbances."
