@@ -151,6 +151,20 @@
     "summary": "Reinforcement learning (RL) has recently shown strong potential in improving the reasoning capabilities of large language models and is now being actively extended to vision-language models (VLMs). However, existing RL applications in VLMs often rely on heavily engineered frameworks that hinder reproducibility and accessibility, while lacking standardized evaluation protocols, making it difficult to compare results or interpret training dynamics. This work introduces a transparent, from-scratch framework for RL in VLMs, offering a minimal yet functional four-step pipeline validated across multiple models and datasets. In addition, a standardized evaluation scheme is proposed to assess training dynamics and reflective behaviors. Extensive experiments on visual reasoning tasks uncover key empirical findings: response length is sensitive to random seeds, reflection correlates with output length, and RL consistently outperforms supervised fine-tuning (SFT) in generalization, even with high-quality data. These findings, together with the proposed framework, aim to establish a reproducible baseline and support broader engagement in RL-based VLM research."
   },
   {
+    "title": "Rethinking RL Scaling for Vision Language Models: A Transparent, From-Scratch Framework and Comprehensive Evaluation Scheme",
+    "url": "http://arxiv.org/abs/2504.02587v2",
+    "arxiv_id": "2504.02587v2",
+    "authors": [
+      "Yan Ma",
+      "Steffi Chern",
+      "Xuyang Shen",
+      "Yiran Zhong",
+      "Pengfei Liu"
+    ],
+    "published": "2025-04-03T13:53:28+00:00",
+    "summary": "Reinforcement learning (RL) has recently shown strong potential in improving the reasoning capabilities of large language models and is now being actively extended to vision-language models (VLMs). However, existing RL applications in VLMs often rely on heavily engineered frameworks that hinder reproducibility and accessibility, while lacking standardized evaluation protocols, making it difficult to compare results or interpret training dynamics. This work introduces a transparent, from-scratch framework for RL in VLMs, offering a minimal yet functional four-step pipeline validated across multiple models and datasets. In addition, a standardized evaluation scheme is proposed to assess training dynamics and reflective behaviors. Extensive experiments on visual reasoning tasks uncover key empirical findings: response length is sensitive to random seeds, reflection correlates with output length, and RL consistently outperforms supervised fine-tuning (SFT) in generalization, even with high-quality data. These findings, together with the proposed framework, aim to establish a reproducible baseline and support broader engagement in RL-based VLM research."
+  },
+  {
     "title": "MAD: A Magnitude And Direction Policy Parametrization for Stability Constrained Reinforcement Learning",
     "url": "http://arxiv.org/abs/2504.02565v1",
     "arxiv_id": "2504.02565v1",
@@ -440,6 +454,18 @@
     "title": "Overcoming Deceptiveness in Fitness Optimization with Unsupervised Quality-Diversity",
     "url": "http://arxiv.org/abs/2504.01915v1",
     "arxiv_id": "2504.01915v1",
+    "authors": [
+      "Lisa Coiffard",
+      "Paul Templier",
+      "Antoine Cully"
+    ],
+    "published": "2025-04-02T17:18:21+00:00",
+    "summary": "Policy optimization seeks the best solution to a control problem according to an objective or fitness function, serving as a fundamental field of engineering and research with applications in robotics. Traditional optimization methods like reinforcement learning and evolutionary algorithms struggle with deceptive fitness landscapes, where following immediate improvements leads to suboptimal solutions. Quality-diversity (QD) algorithms offer a promising approach by maintaining diverse intermediate solutions as stepping stones for escaping local optima. However, QD algorithms require domain expertise to define hand-crafted features, limiting their applicability where characterizing solution diversity remains unclear. In this paper, we show that unsupervised QD algorithms - specifically the AURORA framework, which learns features from sensory data - efficiently solve deceptive optimization problems without domain expertise. By enhancing AURORA with contrastive learning and periodic extinction events, we propose AURORA-XCon, which outperforms all traditional optimization baselines and matches, in some cases even improving by up to 34%, the best QD baseline with domain-specific hand-crafted features. This work establishes a novel application of unsupervised QD algorithms, shifting their focus from discovering novel solutions toward traditional optimization and expanding their potential to domains where defining feature spaces poses challenges."
+  },
+  {
+    "title": "Overcoming Deceptiveness in Fitness Optimization with Unsupervised Quality-Diversity",
+    "url": "http://arxiv.org/abs/2504.01915v2",
+    "arxiv_id": "2504.01915v2",
     "authors": [
       "Lisa Coiffard",
       "Paul Templier",
