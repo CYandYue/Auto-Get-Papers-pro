@@ -168,6 +168,21 @@
     "summary": "Recent advancements in Vision-Language Models (VLMs) have demonstrated strong potential for autonomous driving tasks. However, their spatial understanding and reasoning-key capabilities for autonomous driving-still exhibit significant limitations. Notably, none of the existing benchmarks systematically evaluate VLMs' spatial reasoning capabilities in driving scenarios. To fill this gap, we propose NuScenes-SpatialQA, the first large-scale ground-truth-based Question-Answer (QA) benchmark specifically designed to evaluate the spatial understanding and reasoning capabilities of VLMs in autonomous driving. Built upon the NuScenes dataset, the benchmark is constructed through an automated 3D scene graph generation pipeline and a QA generation pipeline. The benchmark systematically evaluates VLMs' performance in both spatial understanding and reasoning across multiple dimensions. Using this benchmark, we conduct extensive experiments on diverse VLMs, including both general and spatial-enhanced models, providing the first comprehensive evaluation of their spatial capabilities in autonomous driving. Surprisingly, the experimental results show that the spatial-enhanced VLM outperforms in qualitative QA but does not demonstrate competitiveness in quantitative QA. In general, VLMs still face considerable challenges in spatial understanding and reasoning."
   },
   {
+    "title": "NuScenes-SpatialQA: A Spatial Understanding and Reasoning Benchmark for Vision-Language Models in Autonomous Driving",
+    "url": "http://arxiv.org/abs/2504.03164v2",
+    "arxiv_id": "2504.03164v2",
+    "authors": [
+      "Kexin Tian",
+      "Jingrui Mao",
+      "Yunlong Zhang",
+      "Jiwan Jiang",
+      "Yang Zhou",
+      "Zhengzhong Tu"
+    ],
+    "published": "2025-04-04T04:43:10+00:00",
+    "summary": "Recent advancements in Vision-Language Models (VLMs) have demonstrated strong potential for autonomous driving tasks. However, their spatial understanding and reasoning-key capabilities for autonomous driving-still exhibit significant limitations. Notably, none of the existing benchmarks systematically evaluate VLMs' spatial reasoning capabilities in driving scenarios. To fill this gap, we propose NuScenes-SpatialQA, the first large-scale ground-truth-based Question-Answer (QA) benchmark specifically designed to evaluate the spatial understanding and reasoning capabilities of VLMs in autonomous driving. Built upon the NuScenes dataset, the benchmark is constructed through an automated 3D scene graph generation pipeline and a QA generation pipeline. The benchmark systematically evaluates VLMs' performance in both spatial understanding and reasoning across multiple dimensions. Using this benchmark, we conduct extensive experiments on diverse VLMs, including both general and spatial-enhanced models, providing the first comprehensive evaluation of their spatial capabilities in autonomous driving. Surprisingly, the experimental results show that the spatial-enhanced VLM outperforms in qualitative QA but does not demonstrate competitiveness in quantitative QA. In general, VLMs still face considerable challenges in spatial understanding and reasoning."
+  },
+  {
     "title": "Enhanced Penalty-based Bidirectional Reinforcement Learning Algorithms",
     "url": "http://arxiv.org/abs/2504.03163v1",
     "arxiv_id": "2504.03163v1",
@@ -184,6 +199,22 @@
     "title": "DeepResearcher: Scaling Deep Research via Reinforcement Learning in Real-world Environments",
     "url": "http://arxiv.org/abs/2504.03160v1",
     "arxiv_id": "2504.03160v1",
+    "authors": [
+      "Yuxiang Zheng",
+      "Dayuan Fu",
+      "Xiangkun Hu",
+      "Xiaojie Cai",
+      "Lyumanshan Ye",
+      "Pengrui Lu",
+      "Pengfei Liu"
+    ],
+    "published": "2025-04-04T04:41:28+00:00",
+    "summary": "Large Language Models (LLMs) equipped with web search capabilities have demonstrated impressive potential for deep research tasks. However, current approaches predominantly rely on either manually engineered prompts (prompt engineering-based) with brittle performance or reinforcement learning within controlled Retrieval-Augmented Generation (RAG) environments (RAG-based) that fail to capture the complexities of real-world interaction. In this paper, we introduce DeepResearcher, the first comprehensive framework for end-to-end training of LLM-based deep research agents through scaling reinforcement learning (RL) in real-world environments with authentic web search interactions. Unlike RAG-based approaches that assume all necessary information exists within a fixed corpus, our method trains agents to navigate the noisy, unstructured, and dynamic nature of the open web. We implement a specialized multi-agent architecture where browsing agents extract relevant information from various webpage structures and overcoming significant technical challenges. Extensive experiments on open-domain research tasks demonstrate that DeepResearcher achieves substantial improvements of up to 28.9 points over prompt engineering-based baselines and up to 7.2 points over RAG-based RL agents. Our qualitative analysis reveals emergent cognitive behaviors from end-to-end RL training, including the ability to formulate plans, cross-validate information from multiple sources, engage in self-reflection to redirect research, and maintain honesty when unable to find definitive answers. Our results highlight that end-to-end training in real-world web environments is not merely an implementation detail but a fundamental requirement for developing robust research capabilities aligned with real-world applications. We release DeepResearcher at https://github.com/GAIR-NLP/DeepResearcher."
+  },
+  {
+    "title": "DeepResearcher: Scaling Deep Research via Reinforcement Learning in Real-world Environments",
+    "url": "http://arxiv.org/abs/2504.03160v2",
+    "arxiv_id": "2504.03160v2",
     "authors": [
       "Yuxiang Zheng",
       "Dayuan Fu",
@@ -493,9 +524,40 @@
     "summary": "Without exact knowledge of the true system dynamics, optimal control of non-linear continuous-time systems requires careful treatment of epistemic uncertainty. In this work, we propose a probabilistic extension to Pontryagin's maximum principle by minimizing the mean Hamiltonian with respect to epistemic uncertainty. We show minimization of the mean Hamiltonian is a necessary optimality condition when optimizing the mean cost, and propose a multiple shooting numerical method scalable to large-scale probabilistic dynamical models, including ensemble neural ordinary differential equations. Comparisons against state-of-the-art methods in online and offline model-based reinforcement learning tasks show that our probabilistic Hamiltonian formulation leads to reduced trial costs in offline settings and achieves competitive performance in online scenarios. By bridging optimal control and reinforcement learning, our approach offers a principled and practical framework for controlling uncertain systems with learned dynamics."
   },
   {
+    "title": "Probabilistic Pontryagin's Maximum Principle for Continuous-Time Model-Based Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2504.02543v2",
+    "arxiv_id": "2504.02543v2",
+    "authors": [
+      "David Leeftink",
+      "\u00c7a\u011fatay Y\u0131ld\u0131z",
+      "Steffen Ridderbusch",
+      "Max Hinne",
+      "Marcel van Gerven"
+    ],
+    "published": "2025-04-03T12:51:20+00:00",
+    "summary": "Without exact knowledge of the true system dynamics, optimal control of non-linear continuous-time systems requires careful treatment of epistemic uncertainty. In this work, we propose a probabilistic extension to Pontryagin's maximum principle by minimizing the mean Hamiltonian with respect to epistemic uncertainty. We show minimization of the mean Hamiltonian is a necessary optimality condition when optimizing the mean cost, and propose a multiple shooting numerical method scalable to large-scale probabilistic dynamical models, including ensemble neural ordinary differential equations. Comparisons against state-of-the-art methods in online and offline model-based reinforcement learning tasks show that our probabilistic Hamiltonian formulation leads to reduced trial costs in offline settings and achieves competitive performance in online scenarios. By bridging optimal control and reinforcement learning, our approach offers a principled and practical framework for controlling uncertain systems with learned dynamics."
+  },
+  {
     "title": "Inference-Time Scaling for Generalist Reward Modeling",
     "url": "http://arxiv.org/abs/2504.02495v1",
     "arxiv_id": "2504.02495v1",
+    "authors": [
+      "Zijun Liu",
+      "Peiyi Wang",
+      "Runxin Xu",
+      "Shirong Ma",
+      "Chong Ruan",
+      "Peng Li",
+      "Yang Liu",
+      "Yu Wu"
+    ],
+    "published": "2025-04-03T11:19:49+00:00",
+    "summary": "Reinforcement learning (RL) has been widely adopted in post-training for large language models (LLMs) at scale. Recently, the incentivization of reasoning capabilities in LLMs from RL indicates that $\\textit{proper learning methods could enable effective inference-time scalability}$. A key challenge of RL is to obtain accurate reward signals for LLMs in various domains beyond verifiable questions or artificial rules. In this work, we investigate how to improve reward modeling (RM) with more inference compute for general queries, i.e. the $\\textbf{inference-time scalability of generalist RM}$, and further, how to improve the effectiveness of performance-compute scaling with proper learning methods. For the RM approach, we adopt pointwise generative reward modeling (GRM) to enable flexibility for different input types and potential for inference-time scaling. For the learning method, we propose Self-Principled Critique Tuning (SPCT) to foster scalable reward generation behaviors in GRMs through online RL, to generate principles adaptively and critiques accurately, resulting in $\\textbf{DeepSeek-GRM}$ models. Furthermore, for effective inference-time scaling, we use parallel sampling to expand compute usage, and introduce a meta RM to guide voting process for better scaling performance. Empirically, we show that SPCT significantly improves the quality and scalability of GRMs, outperforming existing methods and models in various RM benchmarks without severe biases, and could achieve better performance compared to training-time scaling. DeepSeek-GRM still meets challenges in some tasks, which we believe can be addressed by future efforts in generalist reward systems. The models will be released and open-sourced."
+  },
+  {
+    "title": "Inference-Time Scaling for Generalist Reward Modeling",
+    "url": "http://arxiv.org/abs/2504.02495v2",
+    "arxiv_id": "2504.02495v2",
     "authors": [
       "Zijun Liu",
       "Peiyi Wang",
@@ -592,6 +654,19 @@
     "title": "Improving turbulence control through explainable deep learning",
     "url": "http://arxiv.org/abs/2504.02354v1",
     "arxiv_id": "2504.02354v1",
+    "authors": [
+      "Miguel Beneitez",
+      "Andres Cremades",
+      "Luca Guastoni",
+      "Ricardo Vinuesa"
+    ],
+    "published": "2025-04-03T07:42:47+00:00",
+    "summary": "Turbulent-flow control aims to develop strategies that effectively manipulate fluid systems, such as the reduction of drag in transportation and enhancing energy efficiency, both critical steps towards reducing global CO$_2$ emissions. Deep reinforcement learning (DRL) offers novel tools to discover flow-control strategies, which we combine with our knowledge of the physics of turbulence. We integrate explainable deep learning (XDL) to objectively identify the coherent structures containing the most informative regions in the flow, with a DRL model trained to reduce them. The trained model targets the most relevant regions in the flow to sustain turbulence and produces a drag reduction which is higher than that of a model specifically trained to reduce the drag, while using only half its power consumption. Moreover, the XDL model results in a better drag reduction than other models focusing on specific classically identified coherent structures. This demonstrates that combining DRL with XDL can produce causal control strategies that precisely target the most influential features of turbulence. By directly addressing the core mechanisms that sustain turbulence, our approach offers a powerful pathway towards its efficient control, which is a long-standing challenge in physics with profound implications for energy systems, climate modeling and aerodynamics."
+  },
+  {
+    "title": "Improving turbulence control through explainable deep learning",
+    "url": "http://arxiv.org/abs/2504.02354v2",
+    "arxiv_id": "2504.02354v2",
     "authors": [
       "Miguel Beneitez",
       "Andres Cremades",
