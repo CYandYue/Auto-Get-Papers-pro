@@ -102,6 +102,42 @@
     "summary": "We present VAPO, Value-based Augmented Proximal Policy Optimization framework for reasoning models., a novel framework tailored for reasoning models within the value-based paradigm. Benchmarked the AIME 2024 dataset, VAPO, built on the Qwen 32B pre-trained model, attains a state-of-the-art score of $\\mathbf{60.4}$. In direct comparison under identical experimental settings, VAPO outperforms the previously reported results of DeepSeek-R1-Zero-Qwen-32B and DAPO by more than 10 points. The training process of VAPO stands out for its stability and efficiency. It reaches state-of-the-art performance within a mere 5,000 steps. Moreover, across multiple independent runs, no training crashes occur, underscoring its reliability. This research delves into long chain-of-thought (long-CoT) reasoning using a value-based reinforcement learning framework. We pinpoint three key challenges that plague value-based methods: value model bias, the presence of heterogeneous sequence lengths, and the sparsity of reward signals. Through systematic design, VAPO offers an integrated solution that effectively alleviates these challenges, enabling enhanced performance in long-CoT reasoning tasks."
   },
   {
+    "title": "VAPO: Efficient and Reliable Reinforcement Learning for Advanced Reasoning Tasks",
+    "url": "http://arxiv.org/abs/2504.05118v2",
+    "arxiv_id": "2504.05118v2",
+    "authors": [
+      "Yu Yue",
+      "Yufeng Yuan",
+      "Qiying Yu",
+      "Xiaochen Zuo",
+      "Ruofei Zhu",
+      "Wenyuan Xu",
+      "Jiaze Chen",
+      "Chengyi Wang",
+      "TianTian Fan",
+      "Zhengyin Du",
+      "Xiangpeng Wei",
+      "Xiangyu Yu",
+      "Gaohong Liu",
+      "Juncai Liu",
+      "Lingjun Liu",
+      "Haibin Lin",
+      "Zhiqi Lin",
+      "Bole Ma",
+      "Chi Zhang",
+      "Mofan Zhang",
+      "Wang Zhang",
+      "Hang Zhu",
+      "Ru Zhang",
+      "Xin Liu",
+      "Mingxuan Wang",
+      "Yonghui Wu",
+      "Lin Yan"
+    ],
+    "published": "2025-04-07T14:21:11+00:00",
+    "summary": "We present VAPO, Value-based Augmented Proximal Policy Optimization framework for reasoning models., a novel framework tailored for reasoning models within the value-based paradigm. Benchmarked the AIME 2024 dataset, VAPO, built on the Qwen 32B pre-trained model, attains a state-of-the-art score of $\\mathbf{60.4}$. In direct comparison under identical experimental settings, VAPO outperforms the previously reported results of DeepSeek-R1-Zero-Qwen-32B and DAPO by more than 10 points. The training process of VAPO stands out for its stability and efficiency. It reaches state-of-the-art performance within a mere 5,000 steps. Moreover, across multiple independent runs, no training crashes occur, underscoring its reliability. This research delves into long chain-of-thought (long-CoT) reasoning using a value-based reinforcement learning framework. We pinpoint three key challenges that plague value-based methods: value model bias, the presence of heterogeneous sequence lengths, and the sparsity of reward signals. Through systematic design, VAPO offers an integrated solution that effectively alleviates these challenges, enabling enhanced performance in long-CoT reasoning tasks."
+  },
+  {
     "title": "Algorithm Discovery With LLMs: Evolutionary Search Meets Reinforcement Learning",
     "url": "http://arxiv.org/abs/2504.05108v1",
     "arxiv_id": "2504.05108v1",
@@ -121,6 +157,18 @@
     "title": "Attention-Augmented Inverse Reinforcement Learning with Graph Convolutions for Multi-Agent Task Allocation",
     "url": "http://arxiv.org/abs/2504.05045v1",
     "arxiv_id": "2504.05045v1",
+    "authors": [
+      "Huilin Yin",
+      "Zhikun Yang",
+      "Daniel Watzenig"
+    ],
+    "published": "2025-04-07T13:14:45+00:00",
+    "summary": "Multi-agent task allocation (MATA) plays a vital role in cooperative multi-agent systems, with significant implications for applications such as logistics, search and rescue, and robotic coordination. Although traditional deep reinforcement learning (DRL) methods have been shown to be promising, their effectiveness is hindered by a reliance on manually designed reward functions and inefficiencies in dynamic environments. In this paper, an inverse reinforcement learning (IRL)-based framework is proposed, in which multi-head self-attention (MHSA) and graph attention mechanisms are incorporated to enhance reward function learning and task execution efficiency. Expert demonstrations are utilized to infer optimal reward densities, allowing dependence on handcrafted designs to be reduced and adaptability to be improved. Extensive experiments validate the superiority of the proposed method over widely used multi-agent reinforcement learning (MARL) algorithms in terms of both cumulative rewards and task execution efficiency."
+  },
+  {
+    "title": "Attention-Augmented Inverse Reinforcement Learning with Graph Convolutions for Multi-Agent Task Allocation",
+    "url": "http://arxiv.org/abs/2504.05045v2",
+    "arxiv_id": "2504.05045v2",
     "authors": [
       "Huilin Yin",
       "Zhikun Yang",
@@ -319,6 +367,22 @@
     "summary": "Recent advancements in large language models (LLMs) have revolutionized their ability to handle single-turn tasks, yet real-world applications demand sophisticated multi-turn interactions. This survey provides a comprehensive review of recent advancements in evaluating and enhancing multi-turn interactions in LLMs. Focusing on task-specific scenarios, from instruction following in diverse domains such as math and coding to complex conversational engagements in roleplay, healthcare, education, and even adversarial jailbreak settings, we systematically examine the challenges of maintaining context, coherence, fairness, and responsiveness over prolonged dialogues. The paper organizes current benchmarks and datasets into coherent categories that reflect the evolving landscape of multi-turn dialogue evaluation. In addition, we review a range of enhancement methodologies under multi-turn settings, including model-centric strategies (contextual learning, supervised fine-tuning, reinforcement learning, and new architectures), external integration approaches (memory-augmented, retrieval-based methods, and knowledge graph), and agent-based techniques for collaborative interactions. Finally, we discuss open challenges and propose future directions for research to further advance the robustness and effectiveness of multi-turn interactions in LLMs. Related resources and papers are available at https://github.com/yubol-cmu/Awesome-Multi-Turn-LLMs."
   },
   {
+    "title": "Beyond Single-Turn: A Survey on Multi-Turn Interactions with Large Language Models",
+    "url": "http://arxiv.org/abs/2504.04717v2",
+    "arxiv_id": "2504.04717v2",
+    "authors": [
+      "Yubo Li",
+      "Xiaobin Shen",
+      "Xinyu Yao",
+      "Xueying Ding",
+      "Yidi Miao",
+      "Ramayya Krishnan",
+      "Rema Padman"
+    ],
+    "published": "2025-04-07T04:00:08+00:00",
+    "summary": "Recent advancements in large language models (LLMs) have revolutionized their ability to handle single-turn tasks, yet real-world applications demand sophisticated multi-turn interactions. This survey provides a comprehensive review of recent advancements in evaluating and enhancing multi-turn interactions in LLMs. Focusing on task-specific scenarios, from instruction following in diverse domains such as math and coding to complex conversational engagements in roleplay, healthcare, education, and even adversarial jailbreak settings, we systematically examine the challenges of maintaining context, coherence, fairness, and responsiveness over prolonged dialogues. The paper organizes current benchmarks and datasets into coherent categories that reflect the evolving landscape of multi-turn dialogue evaluation. In addition, we review a range of enhancement methodologies under multi-turn settings, including model-centric strategies (contextual learning, supervised fine-tuning, reinforcement learning, and new architectures), external integration approaches (memory-augmented, retrieval-based methods, and knowledge graph), and agent-based techniques for collaborative interactions. Finally, we discuss open challenges and propose future directions for research to further advance the robustness and effectiveness of multi-turn interactions in LLMs. Related resources and papers are available at https://github.com/yubol-cmu/Awesome-Multi-Turn-LLMs."
+  },
+  {
     "title": "Generalising from Self-Produced Data: Model Training Beyond Human Constraints",
     "url": "http://arxiv.org/abs/2504.04711v1",
     "arxiv_id": "2504.04711v1",
@@ -372,6 +436,18 @@
     "title": "HypRL: Reinforcement Learning of Control Policies for Hyperproperties",
     "url": "http://arxiv.org/abs/2504.04675v1",
     "arxiv_id": "2504.04675v1",
+    "authors": [
+      "Tzu-Han Hsu",
+      "Arshia Rafieioskouei",
+      "Borzoo Bonakdarpour"
+    ],
+    "published": "2025-04-07T01:58:36+00:00",
+    "summary": "We study the problem of learning control policies for complex tasks whose requirements are given by a hyperproperty. The use of hyperproperties is motivated by their significant power to formally specify requirements of multi-agent systems as well as those that need expressiveness in terms of multiple execution traces (e.g., privacy and fairness). Given a Markov decision process M with unknown transitions (representing the environment) and a HyperLTL formula $\\varphi$, our approach first employs Skolemization to handle quantifier alternations in $\\varphi$. We introduce quantitative robustness functions for HyperLTL to define rewards of finite traces of M with respect to $\\varphi$. Finally, we utilize a suitable reinforcement learning algorithm to learn (1) a policy per trace quantifier in $\\varphi$, and (2) the probability distribution of transitions of M that together maximize the expected reward and, hence, probability of satisfaction of $\\varphi$ in M. We present a set of case studies on (1) safety-preserving multi-agent path planning, (2) fairness in resource allocation, and (3) the post-correspondence problem (PCP)."
+  },
+  {
+    "title": "HypRL: Reinforcement Learning of Control Policies for Hyperproperties",
+    "url": "http://arxiv.org/abs/2504.04675v2",
+    "arxiv_id": "2504.04675v2",
     "authors": [
       "Tzu-Han Hsu",
       "Arshia Rafieioskouei",
@@ -685,6 +761,18 @@
     "title": "Improving Offline Mixed-Criticality Scheduling with Reinforcement Learning",
     "url": "http://arxiv.org/abs/2504.03994v1",
     "arxiv_id": "2504.03994v1",
+    "authors": [
+      "Muhammad El-Mahdy",
+      "Nourhan Sakr",
+      "Rodrigo Carrasco"
+    ],
+    "published": "2025-04-04T23:28:48+00:00",
+    "summary": "This paper introduces a novel reinforcement learning (RL) approach to scheduling mixed-criticality (MC) systems on processors with varying speeds. Building upon the foundation laid by [1], we extend their work to address the non-preemptive scheduling problem, which is known to be NP-hard. By modeling this scheduling challenge as a Markov Decision Process (MDP), we develop an RL agent capable of generating near-optimal schedules for real-time MC systems. Our RL-based scheduler prioritizes high-critical tasks while maintaining overall system performance.   Through extensive experiments, we demonstrate the scalability and effectiveness of our approach. The RL scheduler significantly improves task completion rates, achieving around 80% overall and 85% for high-criticality tasks across 100,000 instances of synthetic data and real data under varying system conditions. Moreover, under stable conditions without degradation, the scheduler achieves 94% overall task completion and 93% for high-criticality tasks. These results highlight the potential of RL-based schedulers in real-time and safety-critical applications, offering substantial improvements in handling complex and dynamic scheduling scenarios."
+  },
+  {
+    "title": "Improving Mixed-Criticality Scheduling with Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2504.03994v2",
+    "arxiv_id": "2504.03994v2",
     "authors": [
       "Muhammad El-Mahdy",
       "Nourhan Sakr",
