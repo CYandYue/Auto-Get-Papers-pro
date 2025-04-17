@@ -71,6 +71,24 @@
     "summary": "The application of diffusion models in 3D LiDAR scene completion is limited due to diffusion's slow sampling speed. Score distillation accelerates diffusion sampling but with performance degradation, while post-training with direct policy optimization (DPO) boosts performance using preference data. This paper proposes Distillation-DPO, a novel diffusion distillation framework for LiDAR scene completion with preference aligment. First, the student model generates paired completion scenes with different initial noises. Second, using LiDAR scene evaluation metrics as preference, we construct winning and losing sample pairs. Such construction is reasonable, since most LiDAR scene metrics are informative but non-differentiable to be optimized directly. Third, Distillation-DPO optimizes the student model by exploiting the difference in score functions between the teacher and student models on the paired completion scenes. Such procedure is repeated until convergence. Extensive experiments demonstrate that, compared to state-of-the-art LiDAR scene completion diffusion models, Distillation-DPO achieves higher-quality scene completion while accelerating the completion speed by more than 5-fold. Our method is the first to explore adopting preference learning in distillation to the best of our knowledge and provide insights into preference-aligned distillation. Our code is public available on https://github.com/happyw1nd/DistillationDPO."
   },
   {
+    "title": "Diffusion Distillation With Direct Preference Optimization For Efficient 3D LiDAR Scene Completion",
+    "url": "http://arxiv.org/abs/2504.11447v2",
+    "arxiv_id": "2504.11447v2",
+    "authors": [
+      "An Zhao",
+      "Shengyuan Zhang",
+      "Ling Yang",
+      "Zejian Li",
+      "Jiale Wu",
+      "Haoran Xu",
+      "AnYang Wei",
+      "Perry Pengyun GU",
+      "Lingyun Sun"
+    ],
+    "published": "2025-04-15T17:57:13+00:00",
+    "summary": "The application of diffusion models in 3D LiDAR scene completion is limited due to diffusion's slow sampling speed. Score distillation accelerates diffusion sampling but with performance degradation, while post-training with direct policy optimization (DPO) boosts performance using preference data. This paper proposes Distillation-DPO, a novel diffusion distillation framework for LiDAR scene completion with preference aligment. First, the student model generates paired completion scenes with different initial noises. Second, using LiDAR scene evaluation metrics as preference, we construct winning and losing sample pairs. Such construction is reasonable, since most LiDAR scene metrics are informative but non-differentiable to be optimized directly. Third, Distillation-DPO optimizes the student model by exploiting the difference in score functions between the teacher and student models on the paired completion scenes. Such procedure is repeated until convergence. Extensive experiments demonstrate that, compared to state-of-the-art LiDAR scene completion diffusion models, Distillation-DPO achieves higher-quality scene completion while accelerating the completion speed by more than 5-fold. Our method is the first to explore adopting preference learning in distillation to the best of our knowledge and provide insights into preference-aligned distillation. Our code is public available on https://github.com/happyw1nd/DistillationDPO."
+  },
+  {
     "title": "Embodied World Models Emerge from Navigational Task in Open-Ended Environments",
     "url": "http://arxiv.org/abs/2504.11419v1",
     "arxiv_id": "2504.11419v1",
@@ -442,6 +460,17 @@
     "title": "Heimdall: test-time scaling on the generative verification",
     "url": "http://arxiv.org/abs/2504.10337v1",
     "arxiv_id": "2504.10337v1",
+    "authors": [
+      "Wenlei Shi",
+      "Xing Jin"
+    ],
+    "published": "2025-04-14T15:46:33+00:00",
+    "summary": "An AI system can create and maintain knowledge only to the extent that it can verify that knowledge itself. Recent work on long Chain-of-Thought reasoning has demonstrated great potential of LLMs on solving competitive problems, but their verification ability remains to be weak and not sufficiently investigated. In this paper, we propose Heimdall, the long CoT verification LLM that can accurately judge the correctness of solutions. With pure reinforcement learning, we boost the verification accuracy from 62.5% to 94.5% on competitive math problems. By scaling with repeated sampling, the accuracy further increases to 97.5%. Through human evaluation, Heimdall demonstrates impressive generalization capabilities, successfully detecting most issues in challenging math proofs, the type of which is not included during training. Furthermore, we propose Pessimistic Verification to extend the functionality of Heimdall to scaling up the problem solving. It calls Heimdall to judge the solutions from a solver model and based on the pessimistic principle, selects the most likely correct solution with the least uncertainty. Taking DeepSeek-R1-Distill-Qwen-32B as the solver model, Pessimistic Verification improves the solution accuracy on AIME2025 from 54.2% to 70.0% with 16x compute budget and to 83.3% with more compute budget. With the stronger solver Gemini 2.5 Pro, the score reaches 93.0%. Finally, we prototype an automatic knowledge discovery system, a ternary system where one poses questions, another provides solutions, and the third verifies the solutions. Using the data synthesis work NuminaMath for the first two components, Heimdall effectively identifies problematic records within the dataset and reveals that nearly half of the data is flawed, which interestingly aligns with the recent ablation studies from NuminaMath."
+  },
+  {
+    "title": "Heimdall: test-time scaling on the generative verification",
+    "url": "http://arxiv.org/abs/2504.10337v2",
+    "arxiv_id": "2504.10337v2",
     "authors": [
       "Wenlei Shi",
       "Xing Jin"
