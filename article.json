@@ -1,5 +1,330 @@
 [
   {
+    "title": "Energy-Based Reward Models for Robust Language Model Alignment",
+    "url": "http://arxiv.org/abs/2504.13134v1",
+    "arxiv_id": "2504.13134v1",
+    "authors": [
+      "Anamika Lochab",
+      "Ruqi Zhang"
+    ],
+    "published": "2025-04-17T17:47:15+00:00",
+    "summary": "Reward models (RMs) are essential for aligning Large Language Models (LLMs) with human preferences. However, they often struggle with capturing complex human preferences and generalizing to unseen data. To address these challenges, we introduce Energy-Based Reward Model (EBRM), a lightweight post-hoc refinement framework that enhances RM robustness and generalization. EBRM models the reward distribution explicitly, capturing uncertainty in human preferences and mitigating the impact of noisy or misaligned annotations. It achieves this through conflict-aware data filtering, label-noise-aware contrastive training, and hybrid initialization. Notably, EBRM enhances RMs without retraining, making it computationally efficient and adaptable across different models and tasks. Empirical evaluations on RM benchmarks demonstrate significant improvements in both robustness and generalization, achieving up to a 5.97% improvement in safety-critical alignment tasks compared to standard RMs. Furthermore, reinforcement learning experiments confirm that our refined rewards enhance alignment quality, effectively delaying reward hacking. These results demonstrate our approach as a scalable and effective enhancement for existing RMs and alignment pipelines. The code is available at EBRM."
+  },
+  {
+    "title": "LLMs Meet Finance: Fine-Tuning Foundation Models for the Open FinLLM Leaderboard",
+    "url": "http://arxiv.org/abs/2504.13125v1",
+    "arxiv_id": "2504.13125v1",
+    "authors": [
+      "Varun Rao",
+      "Youran Sun",
+      "Mahendra Kumar",
+      "Tejas Mutneja",
+      "Agastya Mukherjee",
+      "Haizhao Yang"
+    ],
+    "published": "2025-04-17T17:42:02+00:00",
+    "summary": "This paper investigates the application of large language models (LLMs) to financial tasks. We fine-tuned foundation models using the Open FinLLM Leaderboard as a benchmark. Building on Qwen2.5 and Deepseek-R1, we employed techniques including supervised fine-tuning (SFT), direct preference optimization (DPO), and reinforcement learning (RL) to enhance their financial capabilities. The fine-tuned models demonstrated substantial performance gains across a wide range of financial tasks. Moreover, we measured the data scaling law in the financial domain. Our work demonstrates the potential of large language models (LLMs) in financial applications."
+  },
+  {
+    "title": "Low-hallucination Synthetic Captions for Large-Scale Vision-Language Model Pre-training",
+    "url": "http://arxiv.org/abs/2504.13123v1",
+    "arxiv_id": "2504.13123v1",
+    "authors": [
+      "Xinsong Zhang",
+      "Yarong Zeng",
+      "Xinting Huang",
+      "Hu Hu",
+      "Runquan Xie",
+      "Han Hu",
+      "Zhanhui Kang"
+    ],
+    "published": "2025-04-17T17:40:06+00:00",
+    "summary": "In recent years, the field of vision-language model pre-training has experienced rapid advancements, driven primarily by the continuous enhancement of textual capabilities in large language models. However, existing training paradigms for multimodal large language models heavily rely on high-quality image-text pairs. As models and data scales grow exponentially, the availability of such meticulously curated data has become increasingly scarce and saturated, thereby severely limiting further advancements in this domain. This study investigates scalable caption generation techniques for vision-language model pre-training and demonstrates that large-scale low-hallucination synthetic captions can serve dual purposes: 1) acting as a viable alternative to real-world data for pre-training paradigms and 2) achieving superior performance enhancement when integrated into vision-language models through empirical validation. This paper presents three key contributions: 1) a novel pipeline for generating high-quality, low-hallucination, and knowledge-rich synthetic captions. Our continuous DPO methodology yields remarkable results in reducing hallucinations. Specifically, the non-hallucination caption rate on a held-out test set increases from 48.2% to 77.9% for a 7B-size model. 2) Comprehensive empirical validation reveals that our synthetic captions confer superior pre-training advantages over their counterparts. Across 35 vision language tasks, the model trained with our data achieves a significant performance gain of at least 6.2% compared to alt-text pairs and other previous work. Meanwhile, it also offers considerable support in the text-to-image domain. With our dataset, the FID score is reduced by 17.1 on a real-world validation benchmark and 13.3 on the MSCOCO validation benchmark. 3) We will release Hunyuan-Recap100M, a low-hallucination and knowledge-intensive synthetic caption dataset."
+  },
+  {
+    "title": "SkyReels-V2: Infinite-length Film Generative Model",
+    "url": "http://arxiv.org/abs/2504.13074v1",
+    "arxiv_id": "2504.13074v1",
+    "authors": [
+      "Guibin Chen",
+      "Dixuan Lin",
+      "Jiangping Yang",
+      "Chunze Lin",
+      "Juncheng Zhu",
+      "Mingyuan Fan",
+      "Hao Zhang",
+      "Sheng Chen",
+      "Zheng Chen",
+      "Chengchen Ma",
+      "Weiming Xiong",
+      "Wei Wang",
+      "Nuo Pang",
+      "Kang Kang",
+      "Zhiheng Xu",
+      "Yuzhe Jin",
+      "Yupeng Liang",
+      "Yubing Song",
+      "Peng Zhao",
+      "Boyuan Xu",
+      "Di Qiu",
+      "Debang Li",
+      "Zhengcong Fei",
+      "Yang Li",
+      "Yahui Zhou"
+    ],
+    "published": "2025-04-17T16:37:27+00:00",
+    "summary": "Recent advances in video generation have been driven by diffusion models and autoregressive frameworks, yet critical challenges persist in harmonizing prompt adherence, visual quality, motion dynamics, and duration: compromises in motion dynamics to enhance temporal visual quality, constrained video duration (5-10 seconds) to prioritize resolution, and inadequate shot-aware generation stemming from general-purpose MLLMs' inability to interpret cinematic grammar, such as shot composition, actor expressions, and camera motions. These intertwined limitations hinder realistic long-form synthesis and professional film-style generation. To address these limitations, we propose SkyReels-V2, an Infinite-length Film Generative Model, that synergizes Multi-modal Large Language Model (MLLM), Multi-stage Pretraining, Reinforcement Learning, and Diffusion Forcing Framework. Firstly, we design a comprehensive structural representation of video that combines the general descriptions by the Multi-modal LLM and the detailed shot language by sub-expert models. Aided with human annotation, we then train a unified Video Captioner, named SkyCaptioner-V1, to efficiently label the video data. Secondly, we establish progressive-resolution pretraining for the fundamental video generation, followed by a four-stage post-training enhancement: Initial concept-balanced Supervised Fine-Tuning (SFT) improves baseline quality; Motion-specific Reinforcement Learning (RL) training with human-annotated and synthetic distortion data addresses dynamic artifacts; Our diffusion forcing framework with non-decreasing noise schedules enables long-video synthesis in an efficient search space; Final high-quality SFT refines visual fidelity. All the code and models are available at https://github.com/SkyworkAI/SkyReels-V2."
+  },
+  {
+    "title": "NoisyRollout: Reinforcing Visual Reasoning with Data Augmentation",
+    "url": "http://arxiv.org/abs/2504.13055v1",
+    "arxiv_id": "2504.13055v1",
+    "authors": [
+      "Xiangyan Liu",
+      "Jinjie Ni",
+      "Zijian Wu",
+      "Chao Du",
+      "Longxu Dou",
+      "Haonan Wang",
+      "Tianyu Pang",
+      "Michael Qizhe Shieh"
+    ],
+    "published": "2025-04-17T16:10:13+00:00",
+    "summary": "Recent advances in reinforcement learning (RL) have strengthened the reasoning capabilities of vision-language models (VLMs). However, enhancing policy exploration to more effectively scale test-time compute remains underexplored in VLMs. In addition, VLMs continue to struggle with imperfect visual perception, which in turn affects the subsequent reasoning process. To this end, we propose NoisyRollout, a simple yet effective RL approach that mixes trajectories from both clean and moderately distorted images to introduce targeted diversity in visual perception and the resulting reasoning patterns. Without additional training cost, NoisyRollout enhances the exploration capabilities of VLMs by incorporating a vision-oriented inductive bias. Furthermore, NoisyRollout employs a noise annealing schedule that gradually reduces distortion strength over training, ensuring benefit from noisy signals early while maintaining training stability and scalability in later stages. With just 2.1K training samples, NoisyRollout achieves state-of-the-art performance among open-source RL-tuned models on 5 out-of-domain benchmarks spanning both reasoning and perception tasks, while preserving comparable or even better in-domain performance."
+  },
+  {
+    "title": "InstructRAG: Leveraging Retrieval-Augmented Generation on Instruction Graphs for LLM-Based Task Planning",
+    "url": "http://arxiv.org/abs/2504.13032v1",
+    "arxiv_id": "2504.13032v1",
+    "authors": [
+      "Zheng Wang",
+      "Shu Xian Teo",
+      "Jun Jie Chew",
+      "Wei Shi"
+    ],
+    "published": "2025-04-17T15:41:39+00:00",
+    "summary": "Recent advancements in large language models (LLMs) have enabled their use as agents for planning complex tasks. Existing methods typically rely on a thought-action-observation (TAO) process to enhance LLM performance, but these approaches are often constrained by the LLMs' limited knowledge of complex tasks. Retrieval-augmented generation (RAG) offers new opportunities by leveraging external databases to ground generation in retrieved information. In this paper, we identify two key challenges (enlargability and transferability) in applying RAG to task planning. We propose InstructRAG, a novel solution within a multi-agent meta-reinforcement learning framework, to address these challenges. InstructRAG includes a graph to organize past instruction paths (sequences of correct actions), an RL-Agent with Reinforcement Learning to expand graph coverage for enlargability, and an ML-Agent with Meta-Learning to improve task generalization for transferability. The two agents are trained end-to-end to optimize overall planning performance. Our experiments on four widely used task planning datasets demonstrate that InstructRAG significantly enhances performance and adapts efficiently to new tasks, achieving up to a 19.2% improvement over the best existing approach."
+  },
+  {
+    "title": "QLLM: Do We Really Need a Mixing Network for Credit Assignment in Multi-Agent Reinforcement Learning?",
+    "url": "http://arxiv.org/abs/2504.12961v1",
+    "arxiv_id": "2504.12961v1",
+    "authors": [
+      "Zhouyang Jiang",
+      "Bin Zhang",
+      "Airong Wei",
+      "Zhiwei Xu"
+    ],
+    "published": "2025-04-17T14:07:11+00:00",
+    "summary": "Credit assignment has remained a fundamental challenge in multi-agent reinforcement learning (MARL). Previous studies have primarily addressed this issue through value decomposition methods under the centralized training with decentralized execution paradigm, where neural networks are utilized to approximate the nonlinear relationship between individual Q-values and the global Q-value. Although these approaches have achieved considerable success in various benchmark tasks, they still suffer from several limitations, including imprecise attribution of contributions, limited interpretability, and poor scalability in high-dimensional state spaces. To address these challenges, we propose a novel algorithm, \\textbf{QLLM}, which facilitates the automatic construction of credit assignment functions using large language models (LLMs). Specifically, the concept of \\textbf{TFCAF} is introduced, wherein the credit allocation process is represented as a direct and expressive nonlinear functional formulation. A custom-designed \\textit{coder-evaluator} framework is further employed to guide the generation, verification, and refinement of executable code by LLMs, significantly mitigating issues such as hallucination and shallow reasoning during inference. Extensive experiments conducted on several standard MARL benchmarks demonstrate that the proposed method consistently outperforms existing state-of-the-art baselines. Moreover, QLLM exhibits strong generalization capability and maintains compatibility with a wide range of MARL algorithms that utilize mixing networks, positioning it as a promising and versatile solution for complex multi-agent scenarios."
+  },
+  {
+    "title": "RL-PINNs: Reinforcement Learning-Driven Adaptive Sampling for Efficient Training of PINNs",
+    "url": "http://arxiv.org/abs/2504.12949v1",
+    "arxiv_id": "2504.12949v1",
+    "authors": [
+      "Zhenao Song"
+    ],
+    "published": "2025-04-17T13:50:55+00:00",
+    "summary": "Physics-Informed Neural Networks (PINNs) have emerged as a powerful framework for solving partial differential equations (PDEs). However, their performance heavily relies on the strategy used to select training points. Conventional adaptive sampling methods, such as residual-based refinement, often require multi-round sampling and repeated retraining of PINNs, leading to computational inefficiency due to redundant points and costly gradient computations-particularly in high-dimensional or high-order derivative scenarios. To address these limitations, we propose RL-PINNs, a reinforcement learning(RL)-driven adaptive sampling framework that enables efficient training with only a single round of sampling. Our approach formulates adaptive sampling as a Markov decision process, where an RL agent dynamically selects optimal training points by maximizing a long-term utility metric. Critically, we replace gradient-dependent residual metrics with a computationally efficient function variation as the reward signal, eliminating the overhead of derivative calculations. Furthermore, we employ a delayed reward mechanism to prioritize long-term training stability over short-term gains. Extensive experiments across diverse PDE benchmarks, including low-regular, nonlinear, high-dimensional, and high-order problems, demonstrate that RL-PINNs significantly outperforms existing residual-driven adaptive methods in accuracy. Notably, RL-PINNs achieve this with negligible sampling overhead, making them scalable to high-dimensional and high-order problems."
+  },
+  {
+    "title": "Image-Editing Specialists: An RLAIF Approach for Diffusion Models",
+    "url": "http://arxiv.org/abs/2504.12833v1",
+    "arxiv_id": "2504.12833v1",
+    "authors": [
+      "Elior Benarous",
+      "Yilun Du",
+      "Heng Yang"
+    ],
+    "published": "2025-04-17T10:46:39+00:00",
+    "summary": "We present a novel approach to training specialized instruction-based image-editing diffusion models, addressing key challenges in structural preservation with input images and semantic alignment with user prompts. We introduce an online reinforcement learning framework that aligns the diffusion model with human preferences without relying on extensive human annotations or curating a large dataset. Our method significantly improves the realism and alignment with instructions in two ways. First, the proposed models achieve precise and structurally coherent modifications in complex scenes while maintaining high fidelity in instruction-irrelevant areas. Second, they capture fine nuances in the desired edit by leveraging a visual prompt, enabling detailed control over visual edits without lengthy textual prompts. This approach simplifies users' efforts to achieve highly specific edits, requiring only 5 reference images depicting a certain concept for training. Experimental results demonstrate that our models can perform intricate edits in complex scenes, after just 10 training steps. Finally, we showcase the versatility of our method by applying it to robotics, where enhancing the visual realism of simulated environments through targeted sim-to-real image edits improves their utility as proxies for real-world settings."
+  },
+  {
+    "title": "Multi-Agent Reinforcement Learning Simulation for Environmental Policy Synthesis",
+    "url": "http://arxiv.org/abs/2504.12777v1",
+    "arxiv_id": "2504.12777v1",
+    "authors": [
+      "James Rudd-Jones",
+      "Mirco Musolesi",
+      "Mar\u00eda P\u00e9rez-Ortiz"
+    ],
+    "published": "2025-04-17T09:18:04+00:00",
+    "summary": "Climate policy development faces significant challenges due to deep uncertainty, complex system dynamics, and competing stakeholder interests. Climate simulation methods, such as Earth System Models, have become valuable tools for policy exploration. However, their typical use is for evaluating potential polices, rather than directly synthesizing them. The problem can be inverted to optimize for policy pathways, but the traditional optimization approaches often struggle with non-linear dynamics, heterogeneous agents, and comprehensive uncertainty quantification. We propose a framework for augmenting climate simulations with Multi-Agent Reinforcement Learning (MARL) to address these limitations. We identify key challenges at the interface between climate simulations and the application of MARL in the context of policy synthesis, including reward definition, scalability with increasing agents and state spaces, uncertainty propagation across linked systems, and solution validation. Additionally, we discuss challenges in making MARL-derived solutions interpretable and useful for policy-makers. Our framework provides a foundation for more sophisticated climate policy exploration while acknowledging important limitations and areas for future research."
+  },
+  {
+    "title": "GraphOmni: A Comprehensive and Extendable Benchmark Framework for Large Language Models on Graph-theoretic Tasks",
+    "url": "http://arxiv.org/abs/2504.12764v1",
+    "arxiv_id": "2504.12764v1",
+    "authors": [
+      "Hao Xu",
+      "Xiangru Jian",
+      "Xinjian Zhao",
+      "Wei Pang",
+      "Chao Zhang",
+      "Suyuchen Wang",
+      "Qixin Zhang",
+      "Joao Monteiro",
+      "Qiuzhuang Sun",
+      "Tianshu Yu"
+    ],
+    "published": "2025-04-17T09:01:16+00:00",
+    "summary": "In this paper, we presented GraphOmni, a comprehensive benchmark framework for systematically evaluating the graph reasoning capabilities of LLMs. By analyzing critical dimensions, including graph types, serialization formats, and prompt schemes, we provided extensive insights into the strengths and limitations of current LLMs. Our empirical findings emphasize that no single serialization or prompting strategy consistently outperforms others. Motivated by these insights, we propose a reinforcement learning-based approach that dynamically selects the best serialization-prompt pairings, resulting in significant accuracy improvements. GraphOmni's modular and extensible design establishes a robust foundation for future research, facilitating advancements toward general-purpose graph reasoning models."
+  },
+  {
+    "title": "LAD-Reasoner: Tiny Multimodal Models are Good Reasoners for Logical Anomaly Detection",
+    "url": "http://arxiv.org/abs/2504.12749v1",
+    "arxiv_id": "2504.12749v1",
+    "authors": [
+      "Weijia Li",
+      "Guanglei Chu",
+      "Jiong Chen",
+      "Guo-Sen Xie",
+      "Caifeng Shan",
+      "Fang Zhao"
+    ],
+    "published": "2025-04-17T08:41:23+00:00",
+    "summary": "Recent advances in industrial anomaly detection have highlighted the need for deeper logical anomaly analysis, where unexpected relationships among objects, counts, and spatial configurations must be identified and explained. Existing approaches often rely on large-scale external reasoning modules or elaborate pipeline designs, hindering practical deployment and interpretability. To address these limitations, we introduce a new task, Reasoning Logical Anomaly Detection (RLAD), which extends traditional anomaly detection by incorporating logical reasoning. We propose a new framework, LAD-Reasoner, a customized tiny multimodal language model built on Qwen2.5-VL 3B. Our approach leverages a two-stage training paradigm that first employs Supervised Fine-Tuning (SFT) for fine-grained visual understanding, followed by Group Relative Policy Optimization (GRPO) to refine logical anomaly detection and enforce coherent, human-readable reasoning. Crucially, reward signals are derived from both the detection accuracy and the structural quality of the outputs, obviating the need for building chain of thought (CoT) reasoning data. Experiments on the MVTec LOCO AD dataset show that LAD-Reasoner, though significantly smaller, matches the performance of Qwen2.5-VL-72B in accuracy and F1 score, and further excels in producing concise and interpretable rationales. This unified design reduces reliance on large models and complex pipelines, while offering transparent and interpretable insights into logical anomaly detection. Code and data will be released."
+  },
+  {
+    "title": "Cross-environment Cooperation Enables Zero-shot Multi-agent Coordination",
+    "url": "http://arxiv.org/abs/2504.12714v1",
+    "arxiv_id": "2504.12714v1",
+    "authors": [
+      "Kunal Jha",
+      "Wilka Carvalho",
+      "Yancheng Liang",
+      "Simon S. Du",
+      "Max Kleiman-Weiner",
+      "Natasha Jaques"
+    ],
+    "published": "2025-04-17T07:41:25+00:00",
+    "summary": "Zero-shot coordination (ZSC), the ability to adapt to a new partner in a cooperative task, is a critical component of human-compatible AI. While prior work has focused on training agents to cooperate on a single task, these specialized models do not generalize to new tasks, even if they are highly similar. Here, we study how reinforcement learning on a distribution of environments with a single partner enables learning general cooperative skills that support ZSC with many new partners on many new problems. We introduce two Jax-based, procedural generators that create billions of solvable coordination challenges. We develop a new paradigm called Cross-Environment Cooperation (CEC), and show that it outperforms competitive baselines quantitatively and qualitatively when collaborating with real people. Our findings suggest that learning to collaborate across many unique scenarios encourages agents to develop general norms, which prove effective for collaboration with different partners. Together, our results suggest a new route toward designing generalist cooperative agents capable of interacting with humans without requiring human data."
+  },
+  {
+    "title": "Embodied Neuromorphic Control Applied on a 7-DOF Robotic Manipulator",
+    "url": "http://arxiv.org/abs/2504.12702v1",
+    "arxiv_id": "2504.12702v1",
+    "authors": [
+      "Ziqi Wang",
+      "Jingyue Zhao",
+      "Jichao Yang",
+      "Yaohua Wang",
+      "Xun Xiao",
+      "Yuan Li",
+      "Chao Xiao",
+      "Lei Wang"
+    ],
+    "published": "2025-04-17T07:13:37+00:00",
+    "summary": "The development of artificial intelligence towards real-time interaction with the environment is a key aspect of embodied intelligence and robotics. Inverse dynamics is a fundamental robotics problem, which maps from joint space to torque space of robotic systems. Traditional methods for solving it rely on direct physical modeling of robots which is difficult or even impossible due to nonlinearity and external disturbance. Recently, data-based model-learning algorithms are adopted to address this issue. However, they often require manual parameter tuning and high computational costs. Neuromorphic computing is inherently suitable to process spatiotemporal features in robot motion control at extremely low costs. However, current research is still in its infancy: existing works control only low-degree-of-freedom systems and lack performance quantification and comparison. In this paper, we propose a neuromorphic control framework to control 7 degree-of-freedom robotic manipulators. We use Spiking Neural Network to leverage the spatiotemporal continuity of the motion data to improve control accuracy, and eliminate manual parameters tuning. We validated the algorithm on two robotic platforms, which reduces torque prediction error by at least 60% and performs a target position tracking task successfully. This work advances embodied neuromorphic control by one step forward from proof of concept to applications in complex real-world tasks."
+  },
+  {
+    "title": "Embodied-R: Collaborative Framework for Activating Embodied Spatial Reasoning in Foundation Models via Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2504.12680v1",
+    "arxiv_id": "2504.12680v1",
+    "authors": [
+      "Baining Zhao",
+      "Ziyou Wang",
+      "Jianjie Fang",
+      "Chen Gao",
+      "Fanhang Man",
+      "Jinqiang Cui",
+      "Xin Wang",
+      "Xinlei Chen",
+      "Yong Li",
+      "Wenwu Zhu"
+    ],
+    "published": "2025-04-17T06:16:11+00:00",
+    "summary": "Humans can perceive and reason about spatial relationships from sequential visual observations, such as egocentric video streams. However, how pretrained models acquire such abilities, especially high-level reasoning, remains unclear. This paper introduces Embodied-R, a collaborative framework combining large-scale Vision-Language Models (VLMs) for perception and small-scale Language Models (LMs) for reasoning. Using Reinforcement Learning (RL) with a novel reward system considering think-answer logical consistency, the model achieves slow-thinking capabilities with limited computational resources. After training on only 5k embodied video samples, Embodied-R with a 3B LM matches state-of-the-art multimodal reasoning models (OpenAI-o1, Gemini-2.5-pro) on both in-distribution and out-of-distribution embodied spatial reasoning tasks. Embodied-R also exhibits emergent thinking patterns such as systematic analysis and contextual integration. We further explore research questions including response length, training on VLM, strategies for reward design, and differences in model generalization after SFT (Supervised Fine-Tuning) and RL training."
+  },
+  {
+    "title": "Autonomous Drone for Dynamic Smoke Plume Tracking",
+    "url": "http://arxiv.org/abs/2504.12664v1",
+    "arxiv_id": "2504.12664v1",
+    "authors": [
+      "Srijan Kumar Pal",
+      "Shashank Sharma",
+      "Nikil Krishnakumar",
+      "Jiarong Hong"
+    ],
+    "published": "2025-04-17T05:50:15+00:00",
+    "summary": "This paper presents a novel autonomous drone-based smoke plume tracking system capable of navigating and tracking plumes in highly unsteady atmospheric conditions. The system integrates advanced hardware and software and a comprehensive simulation environment to ensure robust performance in controlled and real-world settings. The quadrotor, equipped with a high-resolution imaging system and an advanced onboard computing unit, performs precise maneuvers while accurately detecting and tracking dynamic smoke plumes under fluctuating conditions. Our software implements a two-phase flight operation, i.e., descending into the smoke plume upon detection and continuously monitoring the smoke movement during in-plume tracking. Leveraging Proportional Integral-Derivative (PID) control and a Proximal Policy Optimization based Deep Reinforcement Learning (DRL) controller enables adaptation to plume dynamics. Unreal Engine simulation evaluates performance under various smoke-wind scenarios, from steady flow to complex, unsteady fluctuations, showing that while the PID controller performs adequately in simpler scenarios, the DRL-based controller excels in more challenging environments. Field tests corroborate these findings. This system opens new possibilities for drone-based monitoring in areas like wildfire management and air quality assessment. The successful integration of DRL for real-time decision-making advances autonomous drone control for dynamic environments."
+  },
+  {
+    "title": "Crossing the Human-Robot Embodiment Gap with Sim-to-Real RL using One Human Demonstration",
+    "url": "http://arxiv.org/abs/2504.12609v1",
+    "arxiv_id": "2504.12609v1",
+    "authors": [
+      "Tyler Ga Wei Lum",
+      "Olivia Y. Lee",
+      "C. Karen Liu",
+      "Jeannette Bohg"
+    ],
+    "published": "2025-04-17T03:15:20+00:00",
+    "summary": "Teaching robots dexterous manipulation skills often requires collecting hundreds of demonstrations using wearables or teleoperation, a process that is challenging to scale. Videos of human-object interactions are easier to collect and scale, but leveraging them directly for robot learning is difficult due to the lack of explicit action labels from videos and morphological differences between robot and human hands. We propose Human2Sim2Robot, a novel real-to-sim-to-real framework for training dexterous manipulation policies using only one RGB-D video of a human demonstrating a task. Our method utilizes reinforcement learning (RL) in simulation to cross the human-robot embodiment gap without relying on wearables, teleoperation, or large-scale data collection typically necessary for imitation learning methods. From the demonstration, we extract two task-specific components: (1) the object pose trajectory to define an object-centric, embodiment-agnostic reward function, and (2) the pre-manipulation hand pose to initialize and guide exploration during RL training. We found that these two components are highly effective for learning the desired task, eliminating the need for task-specific reward shaping and tuning. We demonstrate that Human2Sim2Robot outperforms object-aware open-loop trajectory replay by 55% and imitation learning with data augmentation by 68% across grasping, non-prehensile manipulation, and multi-step tasks. Project Site: https://human2sim2robot.github.io"
+  },
+  {
+    "title": "Robo-SGG: Exploiting Layout-Oriented Normalization and Restitution for Robust Scene Graph Generation",
+    "url": "http://arxiv.org/abs/2504.12606v1",
+    "arxiv_id": "2504.12606v1",
+    "authors": [
+      "Changsheng Lv",
+      "Mengshi Qi",
+      "Zijian Fu",
+      "Huadong Ma"
+    ],
+    "published": "2025-04-17T03:09:22+00:00",
+    "summary": "In this paper, we introduce a novel method named Robo-SGG, i.e., Layout-Oriented Normalization and Restitution for Robust Scene Graph Generation. Compared to the existing SGG setting, the robust scene graph generation aims to perform inference on a diverse range of corrupted images, with the core challenge being the domain shift between the clean and corrupted images. Existing SGG methods suffer from degraded performance due to compromised visual features e.g., corruption interference or occlusions. To obtain robust visual features, we exploit the layout information, which is domain-invariant, to enhance the efficacy of existing SGG methods on corrupted images. Specifically, we employ Instance Normalization(IN) to filter out the domain-specific feature and recover the unchangeable structural features, i.e., the positional and semantic relationships among objects by the proposed Layout-Oriented Restitution. Additionally, we propose a Layout-Embedded Encoder (LEE) that augments the existing object and predicate encoders within the SGG framework, enriching the robust positional and semantic features of objects and predicates. Note that our proposed Robo-SGG module is designed as a plug-and-play component, which can be easily integrated into any baseline SGG model. Extensive experiments demonstrate that by integrating the state-of-the-art method into our proposed Robo-SGG, we achieve relative improvements of 5.6%, 8.0%, and 6.5% in mR@50 for PredCls, SGCls, and SGDet tasks on the VG-C dataset, respectively, and achieve new state-of-the-art performance in corruption scene graph generation benchmark (VG-C and GQA-C). We will release our source code and model."
+  },
+  {
+    "title": "Evolutionary Policy Optimization",
+    "url": "http://arxiv.org/abs/2504.12568v1",
+    "arxiv_id": "2504.12568v1",
+    "authors": [
+      "Zelal Su \"Lain\" Mustafaoglu",
+      "Keshav Pingali",
+      "Risto Miikkulainen"
+    ],
+    "published": "2025-04-17T01:33:06+00:00",
+    "summary": "A key challenge in reinforcement learning (RL) is managing the exploration-exploitation trade-off without sacrificing sample efficiency. Policy gradient (PG) methods excel in exploitation through fine-grained, gradient-based optimization but often struggle with exploration due to their focus on local search. In contrast, evolutionary computation (EC) methods excel in global exploration, but lack mechanisms for exploitation. To address these limitations, this paper proposes Evolutionary Policy Optimization (EPO), a hybrid algorithm that integrates neuroevolution with policy gradient methods for policy optimization. EPO leverages the exploration capabilities of EC and the exploitation strengths of PG, offering an efficient solution to the exploration-exploitation dilemma in RL. EPO is evaluated on the Atari Pong and Breakout benchmarks. Experimental results show that EPO improves both policy quality and sample efficiency compared to standard PG and EC methods, making it effective for tasks that require both exploration and local optimization."
+  },
+  {
+    "title": "TraCeS: Trajectory Based Credit Assignment From Sparse Safety Feedback",
+    "url": "http://arxiv.org/abs/2504.12557v1",
+    "arxiv_id": "2504.12557v1",
+    "authors": [
+      "Siow Meng Low",
+      "Akshat Kumar"
+    ],
+    "published": "2025-04-17T01:11:08+00:00",
+    "summary": "In safe reinforcement learning (RL), auxiliary safety costs are used to align the agent to safe decision making. In practice, safety constraints, including cost functions and budgets, are unknown or hard to specify, as it requires anticipation of all possible unsafe behaviors. We therefore address a general setting where the true safety definition is unknown, and has to be learned from sparsely labeled data. Our key contributions are: first, we design a safety model that performs credit assignment to estimate each decision step's impact on the overall safety using a dataset of diverse trajectories and their corresponding binary safety labels (i.e., whether the corresponding trajectory is safe/unsafe). Second, we illustrate the architecture of our safety model to demonstrate its ability to learn a separate safety score for each timestep. Third, we reformulate the safe RL problem using the proposed safety model and derive an effective algorithm to optimize a safe yet rewarding policy. Finally, our empirical results corroborate our findings and show that this approach is effective in satisfying unknown safety definition, and scalable to various continuous control tasks."
+  },
+  {
+    "title": "Evaluating the Diversity and Quality of LLM Generated Content",
+    "url": "http://arxiv.org/abs/2504.12522v1",
+    "arxiv_id": "2504.12522v1",
+    "authors": [
+      "Alexander Shypula",
+      "Shuo Li",
+      "Botong Zhang",
+      "Vishakh Padmakumar",
+      "Kayo Yin",
+      "Osbert Bastani"
+    ],
+    "published": "2025-04-16T23:02:23+00:00",
+    "summary": "Recent work suggests that preference-tuning techniques--including Reinforcement Learning from Human Preferences (RLHF) methods like PPO and GRPO, as well as alternatives like DPO--reduce diversity, creating a dilemma given that such models are widely deployed in applications requiring diverse outputs. To address this, we introduce a framework for measuring effective semantic diversity--diversity among outputs that meet quality thresholds--which better reflects the practical utility of large language models (LLMs). Using open-ended tasks that require no human intervention, we find counterintuitive results: although preference-tuned models--especially those trained via RL--exhibit reduced lexical and syntactic diversity, they produce greater effective semantic diversity than SFT or base models, not from increasing diversity among high-quality outputs, but from generating more high-quality outputs overall. We discover that preference tuning reduces syntactic diversity while preserving semantic diversity--revealing a distinction between diversity in form and diversity in content that traditional metrics often overlook. Our analysis further shows that smaller models are consistently more parameter-efficient at generating unique content within a fixed sampling budget, offering insights into the relationship between model scaling and diversity. These findings have important implications for applications that require diverse yet high-quality outputs, from creative assistance to synthetic data generation."
+  },
+  {
+    "title": "Reinforcement Learning from Human Feedback",
+    "url": "http://arxiv.org/abs/2504.12501v1",
+    "arxiv_id": "2504.12501v1",
+    "authors": [
+      "Nathan Lambert"
+    ],
+    "published": "2025-04-16T21:36:46+00:00",
+    "summary": "Reinforcement learning from human feedback (RLHF) has become an important technical and storytelling tool to deploy the latest machine learning systems. In this book, we hope to give a gentle introduction to the core methods for people with some level of quantitative background. The book starts with the origins of RLHF -- both in recent literature and in a convergence of disparate fields of science in economics, philosophy, and optimal control. We then set the stage with definitions, problem formulation, data collection, and other common math used in the literature. The core of the book details every optimization stage in using RLHF, from starting with instruction tuning to training a reward model and finally all of rejection sampling, reinforcement learning, and direct alignment algorithms. The book concludes with advanced topics -- understudied research questions in synthetic data and evaluation -- and open questions for the field."
+  },
+  {
     "title": "d1: Scaling Reasoning in Diffusion Large Language Models via Reinforcement Learning",
     "url": "http://arxiv.org/abs/2504.12216v1",
     "arxiv_id": "2504.12216v1",
