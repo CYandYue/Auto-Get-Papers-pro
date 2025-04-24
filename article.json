@@ -1,5 +1,318 @@
 [
   {
+    "title": "Zero-shot Sim-to-Real Transfer for Reinforcement Learning-based Visual Servoing of Soft Continuum Arms",
+    "url": "http://arxiv.org/abs/2504.16916v1",
+    "arxiv_id": "2504.16916v1",
+    "authors": [
+      "Hsin-Jung Yang",
+      "Mahsa Khosravi",
+      "Benjamin Walt",
+      "Girish Krishnan",
+      "Soumik Sarkar"
+    ],
+    "published": "2025-04-23T17:41:55+00:00",
+    "summary": "Soft continuum arms (SCAs) soft and deformable nature presents challenges in modeling and control due to their infinite degrees of freedom and non-linear behavior. This work introduces a reinforcement learning (RL)-based framework for visual servoing tasks on SCAs with zero-shot sim-to-real transfer capabilities, demonstrated on a single section pneumatic manipulator capable of bending and twisting. The framework decouples kinematics from mechanical properties using an RL kinematic controller for motion planning and a local controller for actuation refinement, leveraging minimal sensing with visual feedback. Trained entirely in simulation, the RL controller achieved a 99.8% success rate. When deployed on hardware, it achieved a 67% success rate in zero-shot sim-to-real transfer, demonstrating robustness and adaptability. This approach offers a scalable solution for SCAs in 3D visual servoing, with potential for further refinement and expanded applications."
+  },
+  {
+    "title": "Hybrid Reinforcement Learning and Model Predictive Control for Adaptive Control of Hydrogen-Diesel Dual-Fuel Combustion",
+    "url": "http://arxiv.org/abs/2504.16875v1",
+    "arxiv_id": "2504.16875v1",
+    "authors": [
+      "Julian Bedei",
+      "Murray McBain",
+      "Charles Robert Koch",
+      "Jakob Andert",
+      "David Gordon"
+    ],
+    "published": "2025-04-23T16:51:49+00:00",
+    "summary": "Reinforcement Learning (RL) and Machine Learning Integrated Model Predictive Control (ML-MPC) are promising approaches for optimizing hydrogen-diesel dual-fuel engine control, as they can effectively control multiple-input multiple-output systems and nonlinear processes. ML-MPC is advantageous for providing safe and optimal controls, ensuring the engine operates within predefined safety limits. In contrast, RL is distinguished by its adaptability to changing conditions through its learning-based approach. However, the practical implementation of either method alone poses challenges. RL requires high variance in control inputs during early learning phases, which can pose risks to the system by potentially executing unsafe actions, leading to mechanical damage. Conversely, ML-MPC relies on an accurate system model to generate optimal control inputs and has limited adaptability to system drifts, such as injector aging, which naturally occur in engine applications. To address these limitations, this study proposes a hybrid RL and ML-MPC approach that uses an ML-MPC framework while incorporating an RL agent to dynamically adjust the ML-MPC load tracking reference in response to changes in the environment. At the same time, the ML-MPC ensures that actions stay safe throughout the RL agent's exploration. To evaluate the effectiveness of this approach, fuel pressure is deliberately varied to introduce a model-plant mismatch between the ML-MPC and the engine test bench. The result of this mismatch is a root mean square error (RMSE) in indicated mean effective pressure of 0.57 bar when running the ML-MPC. The experimental results demonstrate that RL successfully adapts to changing boundary conditions by altering the tracking reference while ML-MPC ensures safe control inputs. The quantitative improvement in load tracking by implementing RL is an RSME of 0.44 bar."
+  },
+  {
+    "title": "Monte Carlo Planning with Large Language Model for Text-Based Game Agents",
+    "url": "http://arxiv.org/abs/2504.16855v1",
+    "arxiv_id": "2504.16855v1",
+    "authors": [
+      "Zijing Shi",
+      "Meng Fang",
+      "Ling Chen"
+    ],
+    "published": "2025-04-23T16:23:15+00:00",
+    "summary": "Text-based games provide valuable environments for language-based autonomous agents. However, planning-then-learning paradigms, such as those combining Monte Carlo Tree Search (MCTS) and reinforcement learning (RL), are notably time-consuming due to extensive iterations. Additionally, these algorithms perform uncertainty-driven exploration but lack language understanding and reasoning abilities. In this paper, we introduce the Monte Carlo planning with Dynamic Memory-guided Large language model (MC-DML) algorithm. MC-DML leverages the language understanding and reasoning capabilities of Large Language Models (LLMs) alongside the exploratory advantages of tree search algorithms. Specifically, we enhance LLMs with in-trial and cross-trial memory mechanisms, enabling them to learn from past experiences and dynamically adjust action evaluations during planning. We conduct experiments on a series of text-based games from the Jericho benchmark. Our results demonstrate that the MC-DML algorithm significantly enhances performance across various games at the initial planning phase, outperforming strong contemporary methods that require multiple iterations. This demonstrates the effectiveness of our algorithm, paving the way for more efficient language-grounded planning in complex environments."
+  },
+  {
+    "title": "SMART: Tuning a symbolic music generation system with an audio domain aesthetic reward",
+    "url": "http://arxiv.org/abs/2504.16839v1",
+    "arxiv_id": "2504.16839v1",
+    "authors": [
+      "Nicolas Jonason",
+      "Luca Casini",
+      "Bob L. T. Sturm"
+    ],
+    "published": "2025-04-23T16:02:25+00:00",
+    "summary": "Recent work has proposed training machine learning models to predict aesthetic ratings for music audio. Our work explores whether such models can be used to finetune a symbolic music generation system with reinforcement learning, and what effect this has on the system outputs. To test this, we use group relative policy optimization to finetune a piano MIDI model with Meta Audiobox Aesthetics ratings of audio-rendered outputs as the reward. We find that this optimization has effects on multiple low-level features of the generated outputs, and improves the average subjective ratings in a preliminary listening study with $14$ participants. We also find that over-optimization dramatically reduces diversity of model outputs."
+  },
+  {
+    "title": "Graph2Nav: 3D Object-Relation Graph Generation to Robot Navigation",
+    "url": "http://arxiv.org/abs/2504.16782v1",
+    "arxiv_id": "2504.16782v1",
+    "authors": [
+      "Tixiao Shan",
+      "Abhinav Rajvanshi",
+      "Niluthpol Mithun",
+      "Han-Pang Chiu"
+    ],
+    "published": "2025-04-23T14:58:56+00:00",
+    "summary": "We propose Graph2Nav, a real-time 3D object-relation graph generation framework, for autonomous navigation in the real world. Our framework fully generates and exploits both 3D objects and a rich set of semantic relationships among objects in a 3D layered scene graph, which is applicable to both indoor and outdoor scenes. It learns to generate 3D semantic relations among objects, by leveraging and advancing state-of-the-art 2D panoptic scene graph works into the 3D world via 3D semantic mapping techniques. This approach avoids previous training data constraints in learning 3D scene graphs directly from 3D data. We conduct experiments to validate the accuracy in locating 3D objects and labeling object-relations in our 3D scene graphs. We also evaluate the impact of Graph2Nav via integration with SayNav, a state-of-the-art planner based on large language models, on an unmanned ground robot to object search tasks in real environments. Our results demonstrate that modeling object relations in our scene graphs improves search efficiency in these navigation tasks."
+  },
+  {
+    "title": "MEC Task Offloading in AIoT: A User-Centric DRL Model Splitting Inference Scheme",
+    "url": "http://arxiv.org/abs/2504.16729v1",
+    "arxiv_id": "2504.16729v1",
+    "authors": [
+      "Weixi Li",
+      "Rongzuo Guo",
+      "Yuning Wang",
+      "Fangying Chen"
+    ],
+    "published": "2025-04-23T14:01:36+00:00",
+    "summary": "With the rapid development of the Artificial Intelligence of Things (AIoT), mobile edge computing (MEC) becomes an essential technology underpinning AIoT applications. However, multi-angle resource constraints, multi-user task competition, and the complexity of task offloading decisions in dynamic MEC environments present new technical challenges. Therefore, a user-centric deep reinforcement learning (DRL) model splitting inference scheme is proposed to address the problem. This scheme combines model splitting inference technology and designs a UCMS_MADDPG-based offloading algorithm to realize efficient model splitting inference responses in the dynamic MEC environment with multi-angle resource constraints. Specifically, we formulate a joint optimization problem that integrates resource allocation, server selection, and task offloading, aiming to minimize the weighted sum of task execution delay and energy consumption. We also introduce a user-server co-selection algorithm to address the selection issue between users and servers. Furthermore, we design an algorithm centered on user pre-decision to coordinate the outputs of continuous and discrete hybrid decisions, and introduce a priority sampling mechanism based on reward-error trade-off to optimize the experience replay mechanism of the network. Simulation results show that the proposed UCMS_MADDPG-based offloading algorithm demonstrates superior overall performance compared with other benchmark algorithms in dynamic environments."
+  },
+  {
+    "title": "PIN-WM: Learning Physics-INformed World Models for Non-Prehensile Manipulation",
+    "url": "http://arxiv.org/abs/2504.16693v1",
+    "arxiv_id": "2504.16693v1",
+    "authors": [
+      "Wenxuan Li",
+      "Hang Zhao",
+      "Zhiyuan Yu",
+      "Yu Du",
+      "Qin Zou",
+      "Ruizhen Hu",
+      "Kai Xu"
+    ],
+    "published": "2025-04-23T13:27:07+00:00",
+    "summary": "While non-prehensile manipulation (e.g., controlled pushing/poking) constitutes a foundational robotic skill, its learning remains challenging due to the high sensitivity to complex physical interactions involving friction and restitution. To achieve robust policy learning and generalization, we opt to learn a world model of the 3D rigid body dynamics involved in non-prehensile manipulations and use it for model-based reinforcement learning. We propose PIN-WM, a Physics-INformed World Model that enables efficient end-to-end identification of a 3D rigid body dynamical system from visual observations. Adopting differentiable physics simulation, PIN-WM can be learned with only few-shot and task-agnostic physical interaction trajectories. Further, PIN-WM is learned with observational loss induced by Gaussian Splatting without needing state estimation. To bridge Sim2Real gaps, we turn the learned PIN-WM into a group of Digital Cousins via physics-aware randomizations which perturb physics and rendering parameters to generate diverse and meaningful variations of the PIN-WM. Extensive evaluations on both simulation and real-world tests demonstrate that PIN-WM, enhanced with physics-aware digital cousins, facilitates learning robust non-prehensile manipulation skills with Sim2Real transfer, surpassing the Real2Sim2Real state-of-the-arts."
+  },
+  {
+    "title": "Offline Robotic World Model: Learning Robotic Policies without a Physics Simulator",
+    "url": "http://arxiv.org/abs/2504.16680v1",
+    "arxiv_id": "2504.16680v1",
+    "authors": [
+      "Chenhao Li",
+      "Andreas Krause",
+      "Marco Hutter"
+    ],
+    "published": "2025-04-23T12:58:15+00:00",
+    "summary": "Reinforcement Learning (RL) has demonstrated impressive capabilities in robotic control but remains challenging due to high sample complexity, safety concerns, and the sim-to-real gap. While offline RL eliminates the need for risky real-world exploration by learning from pre-collected data, it suffers from distributional shift, limiting policy generalization. Model-Based RL (MBRL) addresses this by leveraging predictive models for synthetic rollouts, yet existing approaches often lack robust uncertainty estimation, leading to compounding errors in offline settings. We introduce Offline Robotic World Model (RWM-O), a model-based approach that explicitly estimates epistemic uncertainty to improve policy learning without reliance on a physics simulator. By integrating these uncertainty estimates into policy optimization, our approach penalizes unreliable transitions, reducing overfitting to model errors and enhancing stability. Experimental results show that RWM-O improves generalization and safety, enabling policy learning purely from real-world data and advancing scalable, data-efficient RL for robotics."
+  },
+  {
+    "title": "Skywork R1V2: Multimodal Hybrid Reinforcement Learning for Reasoning",
+    "url": "http://arxiv.org/abs/2504.16656v1",
+    "arxiv_id": "2504.16656v1",
+    "authors": [
+      "Chris",
+      "Yichen Wei",
+      "Yi Peng",
+      "Xiaokun Wang",
+      "Weijie Qiu",
+      "Wei Shen",
+      "Tianyidan Xie",
+      "Jiangbo Pei",
+      "Jianhao Zhang",
+      "Yunzhuo Hao",
+      "Xuchen Song",
+      "Yang Liu",
+      "Yahui Zhou"
+    ],
+    "published": "2025-04-23T12:24:10+00:00",
+    "summary": "We present Skywork R1V2, a next-generation multimodal reasoning model and a major leap forward from its predecessor, Skywork R1V. At its core, R1V2 introduces a hybrid reinforcement learning paradigm that harmonizes reward-model guidance with rule-based strategies, thereby addressing the long-standing challenge of balancing sophisticated reasoning capabilities with broad generalization. To further enhance training efficiency, we propose the Selective Sample Buffer (SSB) mechanism, which effectively counters the ``Vanishing Advantages'' dilemma inherent in Group Relative Policy Optimization (GRPO) by prioritizing high-value samples throughout the optimization process. Notably, we observe that excessive reinforcement signals can induce visual hallucinations--a phenomenon we systematically monitor and mitigate through calibrated reward thresholds throughout the training process. Empirical results affirm the exceptional capability of R1V2, with benchmark-leading performances such as 62.6 on OlympiadBench, 79.0 on AIME2024, 63.6 on LiveCodeBench, and 74.0 on MMMU. These results underscore R1V2's superiority over existing open-source models and demonstrate significant progress in closing the performance gap with premier proprietary systems, including Gemini 2.5 and OpenAI o4-mini. The Skywork R1V2 model weights have been publicly released to promote openness and reproducibility https://huggingface.co/Skywork/Skywork-R1V2-38B."
+  },
+  {
+    "title": "Bridging Econometrics and AI: VaR Estimation via Reinforcement Learning and GARCH Models",
+    "url": "http://arxiv.org/abs/2504.16635v1",
+    "arxiv_id": "2504.16635v1",
+    "authors": [
+      "Fredy Pokou",
+      "Jules Sadefo Kamdem",
+      "Fran\u00e7ois Benhmad"
+    ],
+    "published": "2025-04-23T11:54:22+00:00",
+    "summary": "In an environment of increasingly volatile financial markets, the accurate estimation of risk remains a major challenge. Traditional econometric models, such as GARCH and its variants, are based on assumptions that are often too rigid to adapt to the complexity of the current market dynamics. To overcome these limitations, we propose a hybrid framework for Value-at-Risk (VaR) estimation, combining GARCH volatility models with deep reinforcement learning. Our approach incorporates directional market forecasting using the Double Deep Q-Network (DDQN) model, treating the task as an imbalanced classification problem. This architecture enables the dynamic adjustment of risk-level forecasts according to market conditions. Empirical validation on daily Eurostoxx 50 data covering periods of crisis and high volatility shows a significant improvement in the accuracy of VaR estimates, as well as a reduction in the number of breaches and also in capital requirements, while respecting regulatory risk thresholds. The ability of the model to adjust risk levels in real time reinforces its relevance to modern and proactive risk management."
+  },
+  {
+    "title": "HERB: Human-augmented Efficient Reinforcement learning for Bin-packing",
+    "url": "http://arxiv.org/abs/2504.16595v1",
+    "arxiv_id": "2504.16595v1",
+    "authors": [
+      "Gojko Perovic",
+      "Nuno Ferreira Duarte",
+      "Atabak Dehban",
+      "Gon\u00e7alo Teixeira",
+      "Egidio Falotico",
+      "Jos\u00e9 Santos-Victor"
+    ],
+    "published": "2025-04-23T10:24:36+00:00",
+    "summary": "Packing objects efficiently is a fundamental problem in logistics, warehouse automation, and robotics. While traditional packing solutions focus on geometric optimization, packing irregular, 3D objects presents significant challenges due to variations in shape and stability. Reinforcement Learning~(RL) has gained popularity in robotic packing tasks, but training purely from simulation can be inefficient and computationally expensive. In this work, we propose HERB, a human-augmented RL framework for packing irregular objects. We first leverage human demonstrations to learn the best sequence of objects to pack, incorporating latent factors such as space optimization, stability, and object relationships that are difficult to model explicitly. Next, we train a placement algorithm that uses visual information to determine the optimal object positioning inside a packing container. Our approach is validated through extensive performance evaluations, analyzing both packing efficiency and latency. Finally, we demonstrate the real-world feasibility of our method on a robotic system. Experimental results show that our method outperforms geometric and purely RL-based approaches by leveraging human intuition, improving both packing robustness and adaptability. This work highlights the potential of combining human expertise-driven RL to tackle complex real-world packing challenges in robotic systems."
+  },
+  {
+    "title": "Algorithmic Pricing and Algorithmic Collusion",
+    "url": "http://arxiv.org/abs/2504.16592v1",
+    "arxiv_id": "2504.16592v1",
+    "authors": [
+      "Martin Bichler",
+      "Julius Durmann",
+      "Matthias Oberlechner"
+    ],
+    "published": "2025-04-23T10:18:57+00:00",
+    "summary": "The rise of algorithmic pricing in online retail platforms has attracted significant interest in how autonomous software agents interact under competition. This article explores the potential emergence of algorithmic collusion - supra-competitive pricing outcomes that arise without explicit agreements - as a consequence of repeated interactions between learning agents. Most of the literature focuses on oligopoly pricing environments modeled as repeated Bertrand competitions, where firms use online learning algorithms to adapt prices over time. While experimental research has demonstrated that specific reinforcement learning algorithms can learn to maintain prices above competitive equilibrium levels in simulated environments, theoretical understanding of when and why such outcomes occur remains limited. This work highlights the interdisciplinary nature of this challenge, which connects computer science concepts of online learning with game-theoretical literature on equilibrium learning. We examine implications for the Business & Information Systems Engineering (BISE) community and identify specific research opportunities to address challenges of algorithmic competition in digital marketplaces."
+  },
+  {
+    "title": "JEPA for RL: Investigating Joint-Embedding Predictive Architectures for Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2504.16591v1",
+    "arxiv_id": "2504.16591v1",
+    "authors": [
+      "Tristan Kenneweg",
+      "Philip Kenneweg",
+      "Barbara Hammer"
+    ],
+    "published": "2025-04-23T10:16:12+00:00",
+    "summary": "Joint-Embedding Predictive Architectures (JEPA) have recently become popular as promising architectures for self-supervised learning. Vision transformers have been trained using JEPA to produce embeddings from images and videos, which have been shown to be highly suitable for downstream tasks like classification and segmentation. In this paper, we show how to adapt the JEPA architecture to reinforcement learning from images. We discuss model collapse, show how to prevent it, and provide exemplary data on the classical Cart Pole task."
+  },
+  {
+    "title": "Data-Assimilated Model-Based Reinforcement Learning for Partially Observed Chaotic Flows",
+    "url": "http://arxiv.org/abs/2504.16588v1",
+    "arxiv_id": "2504.16588v1",
+    "authors": [
+      "Defne E. Ozan",
+      "Andrea N\u00f3voa",
+      "Luca Magri"
+    ],
+    "published": "2025-04-23T10:12:53+00:00",
+    "summary": "The goal of many applications in energy and transport sectors is to control turbulent flows. However, because of chaotic dynamics and high dimensionality, the control of turbulent flows is exceedingly difficult. Model-free reinforcement learning (RL) methods can discover optimal control policies by interacting with the environment, but they require full state information, which is often unavailable in experimental settings. We propose a data-assimilated model-based RL (DA-MBRL) framework for systems with partial observability and noisy measurements. Our framework employs a control-aware Echo State Network for data-driven prediction of the dynamics, and integrates data assimilation with an Ensemble Kalman Filter for real-time state estimation. An off-policy actor-critic algorithm is employed to learn optimal control strategies from state estimates. The framework is tested on the Kuramoto-Sivashinsky equation, demonstrating its effectiveness in stabilizing a spatiotemporally chaotic flow from noisy and partial measurements."
+  },
+  {
+    "title": "PIS: Linking Importance Sampling and Attention Mechanisms for Efficient Prompt Compression",
+    "url": "http://arxiv.org/abs/2504.16574v1",
+    "arxiv_id": "2504.16574v1",
+    "authors": [
+      "Lizhe Chen",
+      "Binjia Zhou",
+      "Yuyao Ge",
+      "Jiayi Chen",
+      "Shiguang NI"
+    ],
+    "published": "2025-04-23T09:53:01+00:00",
+    "summary": "Large language models (LLMs) have achieved remarkable progress, demonstrating unprecedented capabilities across various natural language processing tasks. However, the high costs associated with such exceptional performance limit the widespread adoption of LLMs, highlighting the need for prompt compression. Existing prompt compression methods primarily rely on heuristic truncation or abstractive summarization techniques, which fundamentally overlook the intrinsic mechanisms of LLMs and lack a systematic evaluation of token importance for generation. In this work, we introduce Prompt Importance Sampling (PIS), a novel compression framework that dynamically compresses prompts by sampling important tokens based on the analysis of attention scores of hidden states. PIS employs a dual-level compression mechanism: 1) at the token level, we quantify saliency using LLM-native attention scores and implement adaptive compression through a lightweight 9-layer reinforcement learning (RL) network; 2) at the semantic level, we propose a Russian roulette sampling strategy for sentence-level importance sampling. Comprehensive evaluations across multiple domain benchmarks demonstrate that our method achieves state-of-the-art compression performance. Notably, our framework serendipitously enhances reasoning efficiency through optimized context structuring. This work advances prompt engineering by offering both theoretical grounding and practical efficiency in context management for LLMs."
+  },
+  {
+    "title": "Private Federated Learning using Preference-Optimized Synthetic Data",
+    "url": "http://arxiv.org/abs/2504.16438v1",
+    "arxiv_id": "2504.16438v1",
+    "authors": [
+      "Charlie Hou",
+      "Mei-Yu Wang",
+      "Yige Zhu",
+      "Daniel Lazar",
+      "Giulia Fanti"
+    ],
+    "published": "2025-04-23T05:57:20+00:00",
+    "summary": "In practical settings, differentially private Federated learning (DP-FL) is the dominant method for training models from private, on-device client data. Recent work has suggested that DP-FL may be enhanced or outperformed by methods that use DP synthetic data (Wu et al., 2024; Hou et al., 2024). The primary algorithms for generating DP synthetic data for FL applications require careful prompt engineering based on public information and/or iterative private client feedback. Our key insight is that the private client feedback collected by prior DP synthetic data methods (Hou et al., 2024; Xie et al., 2024) can be viewed as a preference ranking. Our algorithm, Preference Optimization for Private Client Data (POPri) harnesses client feedback using preference optimization algorithms such as Direct Preference Optimization (DPO) to fine-tune LLMs to generate high-quality DP synthetic data. To evaluate POPri, we release LargeFedBench, a new federated text benchmark for uncontaminated LLM evaluations on federated client data. POPri substantially improves the utility of DP synthetic data relative to prior work on LargeFedBench datasets and an existing benchmark from Xie et al. (2024). POPri closes the gap between next-token prediction accuracy in the fully-private and non-private settings by up to 68%, compared to 52% for prior synthetic data methods, and 10% for state-of-the-art DP federated learning methods. The code and data are available at https://github.com/meiyuw/POPri."
+  },
+  {
+    "title": "Anytime Safe Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2504.16417v1",
+    "arxiv_id": "2504.16417v1",
+    "authors": [
+      "Pol Mestres",
+      "Arnau Marzabal",
+      "Jorge Cort\u00e9s"
+    ],
+    "published": "2025-04-23T04:51:31+00:00",
+    "summary": "This paper considers the problem of solving constrained   reinforcement learning problems with anytime guarantees, meaning   that the algorithmic solution returns a safe policy regardless of   when it is terminated. Drawing inspiration from anytime constrained   optimization, we introduce Reinforcement Learning-based Safe   Gradient Flow (RL-SGF), an on-policy algorithm which employs   estimates of the value functions and their respective gradients   associated with the objective and safety constraints for the current   policy, and updates the policy parameters by solving a convex   quadratically constrained quadratic program. We show that if the   estimates are computed with a sufficiently large number of episodes   (for which we provide an explicit bound), safe policies are updated   to safe policies with a probability higher than a prescribed   tolerance. We also show that iterates asymptotically converge to a   neighborhood of a KKT point, whose size can be arbitrarily reduced   by refining the estimates of the value function and their gradients.   We illustrate the performance of RL-SGF in a navigation example."
+  },
+  {
+    "title": "Natural Policy Gradient for Average Reward Non-Stationary RL",
+    "url": "http://arxiv.org/abs/2504.16415v1",
+    "arxiv_id": "2504.16415v1",
+    "authors": [
+      "Neharika Jali",
+      "Eshika Pathak",
+      "Pranay Sharma",
+      "Guannan Qu",
+      "Gauri Joshi"
+    ],
+    "published": "2025-04-23T04:37:26+00:00",
+    "summary": "We consider the problem of non-stationary reinforcement learning (RL) in the infinite-horizon average-reward setting. We model it by a Markov Decision Process with time-varying rewards and transition probabilities, with a variation budget of $\\Delta_T$. Existing non-stationary RL algorithms focus on model-based and model-free value-based methods. Policy-based methods despite their flexibility in practice are not theoretically well understood in non-stationary RL. We propose and analyze the first model-free policy-based algorithm, Non-Stationary Natural Actor-Critic (NS-NAC), a policy gradient method with a restart based exploration for change and a novel interpretation of learning rates as adapting factors. Further, we present a bandit-over-RL based parameter-free algorithm BORL-NS-NAC that does not require prior knowledge of the variation budget $\\Delta_T$. We present a dynamic regret of $\\tilde{\\mathscr O}(|S|^{1/2}|A|^{1/2}\\Delta_T^{1/6}T^{5/6})$ for both algorithms, where $T$ is the time horizon, and $|S|$, $|A|$ are the sizes of the state and action spaces. The regret analysis leverages a novel adaptation of the Lyapunov function analysis of NAC to dynamic environments and characterizes the effects of simultaneous updates in policy, value function estimate and changes in the environment."
+  },
+  {
+    "title": "SplitReason: Learning To Offload Reasoning",
+    "url": "http://arxiv.org/abs/2504.16379v1",
+    "arxiv_id": "2504.16379v1",
+    "authors": [
+      "Yash Akhauri",
+      "Anthony Fei",
+      "Chi-Chih Chang",
+      "Ahmed F. AbouElhamayed",
+      "Yueying Li",
+      "Mohamed S. Abdelfattah"
+    ],
+    "published": "2025-04-23T03:00:02+00:00",
+    "summary": "Reasoning in large language models (LLMs) tends to produce substantially longer token generation sequences than simpler language modeling tasks. This extended generation length reflects the multi-step, compositional nature of reasoning and is often correlated with higher solution accuracy. From an efficiency perspective, longer token generation exacerbates the inherently sequential and memory-bound decoding phase of LLMs. However, not all parts of this expensive reasoning process are equally difficult to generate. We leverage this observation by offloading only the most challenging parts of the reasoning process to a larger, more capable model, while performing most of the generation with a smaller, more efficient model; furthermore, we teach the smaller model to identify these difficult segments and independently trigger offloading when needed. To enable this behavior, we annotate difficult segments across 18k reasoning traces from the OpenR1-Math-220k chain-of-thought (CoT) dataset. We then apply supervised fine-tuning (SFT) and reinforcement learning fine-tuning (RLFT) to a 1.5B-parameter reasoning model, training it to learn to offload the most challenging parts of its own reasoning process to a larger model. This approach improves AIME24 reasoning accuracy by 24% and 28.3% while offloading 1.35% and 5% of the generated tokens respectively. We open-source our SplitReason model, data, code and logs."
+  },
+  {
+    "title": "Mining Software Repositories for Expert Recommendation",
+    "url": "http://arxiv.org/abs/2504.16343v1",
+    "arxiv_id": "2504.16343v1",
+    "authors": [
+      "Chad Marshall",
+      "Andrew Barovic",
+      "Armin Moin"
+    ],
+    "published": "2025-04-23T01:41:08+00:00",
+    "summary": "We propose an automated approach to bug assignment to developers in large open-source software projects. This way, we assist human bug triagers who are in charge of finding the best developer with the right level of expertise in a particular area to be assigned to a newly reported issue. Our approach is based on the history of software development as documented in the issue tracking systems. We deploy BERTopic and techniques from TopicMiner. Our approach works based on the bug reports' features, such as the corresponding products and components, as well as their priority and severity levels. We sort developers based on their experience with specific combinations of new reports. The evaluation is performed using Top-k accuracy, and the results are compared with the reported results in prior work, namely TopicMiner MTM, BUGZIE, Bug triaging via deep Reinforcement Learning BT-RL, and LDA-SVM. The evaluation data come from various Eclipse and Mozilla projects, such as JDT, Firefox, and Thunderbird."
+  },
+  {
+    "title": "SLiM-Gym: Reinforcement Learning for Population Genetics",
+    "url": "http://arxiv.org/abs/2504.16301v1",
+    "arxiv_id": "2504.16301v1",
+    "authors": [
+      "Niko Zuppas",
+      "Bryan C. Carstens"
+    ],
+    "published": "2025-04-22T22:41:35+00:00",
+    "summary": "We introduce SLiM-Gym, a Python package for integrating reinforcement learning (RL) with forward-time population genetic simulations. Wright-Fisher evolutionary dynamics offer a tractable framework for modeling populations across discrete generations, yet applying RL to these systems requires a compatible training environment. SLiM-Gym connects the standardized RL interface provided by Gymnasium with the high-fidelity evolutionary simulations of SLiM, allowing agents to interact with evolving populations in real time. This framework enables the development and evaluation of RL-based strategies for understanding evolutionary processes."
+  },
+  {
+    "title": "Learning Explainable Dense Reward Shapes via Bayesian Optimization",
+    "url": "http://arxiv.org/abs/2504.16272v1",
+    "arxiv_id": "2504.16272v1",
+    "authors": [
+      "Ryan Koo",
+      "Ian Yang",
+      "Vipul Raheja",
+      "Mingyi Hong",
+      "Kwang-Sung Jun",
+      "Dongyeop Kang"
+    ],
+    "published": "2025-04-22T21:09:33+00:00",
+    "summary": "Current reinforcement learning from human feedback (RLHF) pipelines for large language model (LLM) alignment typically assign scalar rewards to sequences, using the final token as a surrogate indicator for the quality of the entire sequence. However, this leads to sparse feedback and suboptimal token-level credit assignment. In this work, we frame reward shaping as an optimization problem focused on token-level credit assignment. We propose a reward-shaping function leveraging explainability methods such as SHAP and LIME to estimate per-token rewards from the reward model. To learn parameters of this shaping function, we employ a bilevel optimization framework that integrates Bayesian Optimization and policy training to handle noise from the token reward estimates. Our experiments show that achieving a better balance of token-level reward attribution leads to performance improvements over baselines on downstream tasks and finds an optimal policy faster during training. Furthermore, we show theoretically that explainability methods that are feature additive attribution functions maintain the optimal policy as the original reward."
+  },
+  {
+    "title": "Quantum reinforcement learning of classical rare dynamics: Enhancement by intrinsic Fourier features",
+    "url": "http://arxiv.org/abs/2504.16258v1",
+    "arxiv_id": "2504.16258v1",
+    "authors": [
+      "Alissa Wilms",
+      "Laura Ohff",
+      "Andrea Skolik",
+      "Jens Eisert",
+      "Sumeet Khatri",
+      "David A. Reiss"
+    ],
+    "published": "2025-04-22T20:34:09+00:00",
+    "summary": "Rare events are essential for understanding the behavior of non-equilibrium and industrial systems. It is of ongoing interest to develop methods for effectively searching for rare events. With the advent of quantum computing and its potential advantages over classical computing for applications like sampling certain probability distributions, the question arises whether quantum computers could also provide an advantage or inspire new methods for sampling the statistics of rare events. In this work, we propose a quantum reinforcement learning (QRL) method for studying rare dynamics, and we investigate their benefits over classical approaches based on neural networks. As a proof-of-concept example, we demonstrate that our QRL agents can learn and generate the rare dynamics of random walks, and we are able to explain this success as well as the different contributing factors to it via the intrinsic Fourier features of the parameterized quantum circuit. Furthermore, we show better learning behavior with fewer parameters compared to classical approaches. This is the first investigation of QRL applied to generating rare events and suggests that QRL is a promising method to study their dynamics and statistics."
+  },
+  {
     "title": "TTRL: Test-Time Reinforcement Learning",
     "url": "http://arxiv.org/abs/2504.16084v1",
     "arxiv_id": "2504.16084v1",
@@ -46,6 +359,16 @@
     "title": "AlphaGrad: Non-Linear Gradient Normalization Optimizer",
     "url": "http://arxiv.org/abs/2504.16020v1",
     "arxiv_id": "2504.16020v1",
+    "authors": [
+      "Soham Sane"
+    ],
+    "published": "2025-04-22T16:33:14+00:00",
+    "summary": "We introduce AlphaGrad, a memory-efficient, conditionally stateless optimizer addressing the memory overhead and hyperparameter complexity of adaptive methods like Adam. AlphaGrad enforces scale invariance via tensor-wise L2 gradient normalization followed by a smooth hyperbolic tangent transformation, $g' = \\tanh(\\alpha \\cdot \\tilde{g})$, controlled by a single steepness parameter $\\alpha$. Our contributions include: (1) the AlphaGrad algorithm formulation; (2) a formal non-convex convergence analysis guaranteeing stationarity; (3) extensive empirical evaluation on diverse RL benchmarks (DQN, TD3, PPO). Compared to Adam, AlphaGrad demonstrates a highly context-dependent performance profile. While exhibiting instability in off-policy DQN, it provides enhanced training stability with competitive results in TD3 (requiring careful $\\alpha$ tuning) and achieves substantially superior performance in on-policy PPO. These results underscore the critical importance of empirical $\\alpha$ selection, revealing strong interactions between the optimizer's dynamics and the underlying RL algorithm. AlphaGrad presents a compelling alternative optimizer for memory-constrained scenarios and shows significant promise for on-policy learning regimes where its stability and efficiency advantages can be particularly impactful."
+  },
+  {
+    "title": "AlphaGrad: Non-Linear Gradient Normalization Optimizer",
+    "url": "http://arxiv.org/abs/2504.16020v2",
+    "arxiv_id": "2504.16020v2",
     "authors": [
       "Soham Sane"
     ],
@@ -187,6 +510,36 @@
     ],
     "published": "2025-04-22T13:22:58+00:00",
     "summary": "In swarm robotics, confrontation scenarios, including strategic confrontations, require efficient decision-making that integrates discrete commands and continuous actions. Traditional task and motion planning methods separate decision-making into two layers, but their unidirectional structure fails to capture the interdependence between these layers, limiting adaptability in dynamic environments. Here, we propose a novel bidirectional approach based on hierarchical reinforcement learning, enabling dynamic interaction between the layers. This method effectively maps commands to task allocation and actions to path planning, while leveraging cross-training techniques to enhance learning across the hierarchical framework. Furthermore, we introduce a trajectory prediction model that bridges abstract task representations with actionable planning goals. In our experiments, it achieves over 80\\% in confrontation win rate and under 0.01 seconds in decision time, outperforming existing approaches. Demonstrations through large-scale tests and real-world robot experiments further emphasize the generalization capabilities and practical applicability of our method."
+  },
+  {
+    "title": "Bidirectional Task-Motion Planning Based on Hierarchical Reinforcement Learning for Strategic Confrontation",
+    "url": "http://arxiv.org/abs/2504.15876v2",
+    "arxiv_id": "2504.15876v2",
+    "authors": [
+      "Qizhen Wu",
+      "Lei Chen",
+      "Kexin Liu",
+      "Jinhu L\u00fc"
+    ],
+    "published": "2025-04-22T13:22:58+00:00",
+    "summary": "In swarm robotics, confrontation scenarios, including strategic confrontations, require efficient decision-making that integrates discrete commands and continuous actions. Traditional task and motion planning methods separate decision-making into two layers, but their unidirectional structure fails to capture the interdependence between these layers, limiting adaptability in dynamic environments. Here, we propose a novel bidirectional approach based on hierarchical reinforcement learning, enabling dynamic interaction between the layers. This method effectively maps commands to task allocation and actions to path planning, while leveraging cross-training techniques to enhance learning across the hierarchical framework. Furthermore, we introduce a trajectory prediction model that bridges abstract task representations with actionable planning goals. In our experiments, it achieves over 80% in confrontation win rate and under 0.01 seconds in decision time, outperforming existing approaches. Demonstrations through large-scale tests and real-world robot experiments further emphasize the generalization capabilities and practical applicability of our method."
+  },
+  {
+    "title": "Aerial Active STAR-RIS-assisted Satellite-Terrestrial Covert Communications",
+    "url": "http://arxiv.org/abs/2504.16146v1",
+    "arxiv_id": "2504.16146v1",
+    "authors": [
+      "Chuang Zhang",
+      "Geng Sun",
+      "Jiahui Li",
+      "Jiacheng Wang",
+      "Ruichen Zhang",
+      "Dusit Niyato",
+      "Shiwen Mao",
+      "Tony Q. S. Quek"
+    ],
+    "published": "2025-04-22T13:13:35+00:00",
+    "summary": "An integration of satellites and terrestrial networks is crucial for enhancing performance of next generation communication systems. However, the networks are hindered by the long-distance path loss and security risks in dense urban environments. In this work, we propose a satellite-terrestrial covert communication system assisted by the aerial active simultaneous transmitting and reflecting reconfigurable intelligent surface (AASTAR-RIS) to improve the channel capacity while ensuring the transmission covertness. Specifically, we first derive the minimal detection error probability (DEP) under the worst condition that the Warden has perfect channel state information (CSI). Then, we formulate an AASTAR-RIS-assisted satellite-terrestrial covert communication optimization problem (ASCCOP) to maximize the sum of the fair channel capacity for all ground users while meeting the strict covert constraint, by jointly optimizing the trajectory and active beamforming of the AASTAR-RIS. Due to the challenges posed by the complex and high-dimensional state-action spaces as well as the need for efficient exploration in dynamic environments, we propose a generative deterministic policy gradient (GDPG) algorithm, which is a generative deep reinforcement learning (DRL) method to solve the ASCCOP. Concretely, the generative diffusion model (GDM) is utilized as the policy representation of the algorithm to enhance the exploration process by generating diverse and high-quality samples through a series of denoising steps. Moreover, we incorporate an action gradient mechanism to accomplish the policy improvement of the algorithm, which refines the better state-action pairs through the gradient ascent. Simulation results demonstrate that the proposed approach significantly outperforms important benchmarks."
   },
   {
     "title": "Pre-DPO: Improving Data Utilization in Direct Preference Optimization Using a Guiding Reference Model",
