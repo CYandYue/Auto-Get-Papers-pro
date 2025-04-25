@@ -1,5 +1,243 @@
 [
   {
+    "title": "Integrating Learning-Based Manipulation and Physics-Based Locomotion for Whole-Body Badminton Robot Control",
+    "url": "http://arxiv.org/abs/2504.17771v1",
+    "arxiv_id": "2504.17771v1",
+    "authors": [
+      "Haochen Wang",
+      "Zhiwei Shi",
+      "Chengxi Zhu",
+      "Yafei Qiao",
+      "Cheng Zhang",
+      "Fan Yang",
+      "Pengjie Ren",
+      "Lan Lu",
+      "Dong Xuan"
+    ],
+    "published": "2025-04-24T17:46:29+00:00",
+    "summary": "Learning-based methods, such as imitation learning (IL) and reinforcement learning (RL), can produce excel control policies over challenging agile robot tasks, such as sports robot. However, no existing work has harmonized learning-based policy with model-based methods to reduce training complexity and ensure the safety and stability for agile badminton robot control. In this paper, we introduce \\ourmethod, a novel hybrid control system for agile badminton robots. Specifically, we propose a model-based strategy for chassis locomotion which provides a base for arm policy. We introduce a physics-informed ``IL+RL'' training framework for learning-based arm policy. In this train framework, a model-based strategy with privileged information is used to guide arm policy training during both IL and RL phases. In addition, we train the critic model during IL phase to alleviate the performance drop issue when transitioning from IL to RL. We present results on our self-engineered badminton robot, achieving 94.5% success rate against the serving machine and 90.7% success rate against human players. Our system can be easily generalized to other agile mobile manipulation tasks such as agile catching and table tennis. Our project website: https://dreamstarring.github.io/HAMLET/."
+  },
+  {
+    "title": "Federated Learning: A Survey on Privacy-Preserving Collaborative Intelligence",
+    "url": "http://arxiv.org/abs/2504.17703v1",
+    "arxiv_id": "2504.17703v1",
+    "authors": [
+      "Edward Collins",
+      "Michel Wang"
+    ],
+    "published": "2025-04-24T16:10:29+00:00",
+    "summary": "Federated Learning (FL) has emerged as a transformative paradigm in the field of distributed machine learning, enabling multiple clients such as mobile devices, edge nodes, or organizations to collaboratively train a shared global model without the need to centralize sensitive data. This decentralized approach addresses growing concerns around data privacy, security, and regulatory compliance, making it particularly attractive in domains such as healthcare, finance, and smart IoT systems. This survey provides a concise yet comprehensive overview of Federated Learning, beginning with its core architecture and communication protocol. We discuss the standard FL lifecycle, including local training, model aggregation, and global updates. A particular emphasis is placed on key technical challenges such as handling non-IID (non-independent and identically distributed) data, mitigating system and hardware heterogeneity, reducing communication overhead, and ensuring privacy through mechanisms like differential privacy and secure aggregation. Furthermore, we examine emerging trends in FL research, including personalized FL, cross-device versus cross-silo settings, and integration with other paradigms such as reinforcement learning and quantum computing. We also highlight real-world applications and summarize benchmark datasets and evaluation metrics commonly used in FL research. Finally, we outline open research problems and future directions to guide the development of scalable, efficient, and trustworthy FL systems."
+  },
+  {
+    "title": "Applied Sheaf Theory For Multi-agent Artificial Intelligence (Reinforcement Learning) Systems: A Prospectus",
+    "url": "http://arxiv.org/abs/2504.17700v1",
+    "arxiv_id": "2504.17700v1",
+    "authors": [
+      "Eric Schmid"
+    ],
+    "published": "2025-04-24T16:08:53+00:00",
+    "summary": "This paper provides a pedagogical introduction to classical sheaf theory and sheaf cohomology, followed by a research prospectus exploring potential applications to multi-agent artificial intelligence systems. The first section offers a comprehensive overview of fundamental sheaf-theoretic concepts-presheaves, sheaves, stalks, and cohomology-aimed at researchers in computer science and AI who may not have extensive background in algebraic topology. The second section presents a detailed research prospectus that outlines a roadmap for developing sheaf-theoretic approaches to model and analyze complex systems of interacting agents. We propose that sheaf theory's inherent local-to-global perspective may provide valuable mathematical tools for reasoning about how local agent behaviors collectively determine emergent system properties. The third section contains a literature review connecting sheaf theory with existing research in multi-agent systems, reinforcement learning, and economic modeling. This paper does not present a completed model but rather lays theoretical groundwork and identifies promising research directions that could bridge abstract mathematics with practical AI applications, potentially revealing new approaches to coordination and emergence in multi-agent systems."
+  },
+  {
+    "title": "SAPO-RL: Sequential Actuator Placement Optimization for Fuselage Assembly via Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2504.17603v1",
+    "arxiv_id": "2504.17603v1",
+    "authors": [
+      "Peng Ye",
+      "Juan Du"
+    ],
+    "published": "2025-04-24T14:28:42+00:00",
+    "summary": "Precise assembly of composite fuselages is critical for aircraft assembly to meet the ultra-high precision requirements. Due to dimensional variations, there is a gap when two fuselage assemble. In practice, actuators are required to adjust fuselage dimensions by applying forces to specific points on fuselage edge through pulling or pushing force actions. The positioning and force settings of these actuators significantly influence the efficiency of the shape adjustments. The current literature usually predetermines the fixed number of actuators, which is not optimal in terms of overall quality and corresponding actuator costs. However, optimal placement of actuators in terms of both locations and number is challenging due to compliant structures, complex material properties, and dimensional variabilities of incoming fuselages. To address these challenges, this paper introduces a reinforcement learning (RL) framework that enables sequential decision-making for actuator placement selection and optimal force computation. Specifically, our methodology employs the Dueling Double Deep Q-Learning (D3QN) algorithm to refine the decision-making capabilities of sequential actuator placements. The environment is meticulously crafted to enable sequential and incremental selection of an actuator based on system states. We formulate the actuator selection problem as a submodular function optimization problem, where the sub-modularity properties can be adopted to efficiently achieve near-optimal solutions. The proposed methodology has been comprehensively evaluated through numerical studies and comparison studies, demonstrating its effectiveness and outstanding performance in enhancing assembly precision with limited actuator numbers."
+  },
+  {
+    "title": "Mitigating xApp conflicts for efficient network slicing in 6G O-RAN: a graph convolutional-based attention network approach",
+    "url": "http://arxiv.org/abs/2504.17590v1",
+    "arxiv_id": "2504.17590v1",
+    "authors": [
+      "Sihem Bakri",
+      "Indrakshi Dey",
+      "Harun Siljak",
+      "Marco Ruffini",
+      "Nicola Marchetti"
+    ],
+    "published": "2025-04-24T14:20:11+00:00",
+    "summary": "O-RAN (Open-Radio Access Network) offers a flexible, open architecture for next-generation wireless networks. Network slicing within O-RAN allows network operators to create customized virtual networks, each tailored to meet the specific needs of a particular application or service. Efficiently managing these slices is crucial for future 6G networks. O-RAN introduces specialized software applications called xApps that manage different network functions. In network slicing, an xApp can be responsible for managing a separate network slice. To optimize resource allocation across numerous network slices, these xApps must coordinate. Traditional methods where all xApps communicate freely can lead to excessive overhead, hindering network performance. In this paper, we address the issue of xApp conflict mitigation by proposing an innovative Zero-Touch Management (ZTM) solution for radio resource management in O-RAN. Our approach leverages Multi-Agent Reinforcement Learning (MARL) to enable xApps to learn and optimize resource allocation without the need for constant manual intervention. We introduce a Graph Convolutional Network (GCN)-based attention mechanism to streamline communication among xApps, reducing overhead and improving overall system efficiency. Our results compare traditional MARL, where all xApps communicate, against our MARL GCN-based attention method. The findings demonstrate the superiority of our approach, especially as the number of xApps increases, ultimately providing a scalable and efficient solution for optimal network slicing management in O-RAN."
+  },
+  {
+    "title": "Advancing CMA-ES with Learning-Based Cooperative Coevolution for Scalable Optimization",
+    "url": "http://arxiv.org/abs/2504.17578v1",
+    "arxiv_id": "2504.17578v1",
+    "authors": [
+      "Hongshu Guo",
+      "Wenjie Qiu",
+      "Zeyuan Ma",
+      "Xinglin Zhang",
+      "Jun Zhang",
+      "Yue-Jiao Gong"
+    ],
+    "published": "2025-04-24T14:09:22+00:00",
+    "summary": "Recent research in Cooperative Coevolution~(CC) have achieved promising progress in solving large-scale global optimization problems. However, existing CC paradigms have a primary limitation in that they require deep expertise for selecting or designing effective variable decomposition strategies. Inspired by advancements in Meta-Black-Box Optimization, this paper introduces LCC, a pioneering learning-based cooperative coevolution framework that dynamically schedules decomposition strategies during optimization processes. The decomposition strategy selector is parameterized through a neural network, which processes a meticulously crafted set of optimization status features to determine the optimal strategy for each optimization step. The network is trained via the Proximal Policy Optimization method in a reinforcement learning manner across a collection of representative problems, aiming to maximize the expected optimization performance. Extensive experimental results demonstrate that LCC not only offers certain advantages over state-of-the-art baselines in terms of optimization effectiveness and resource consumption, but it also exhibits promising transferability towards unseen problems."
+  },
+  {
+    "title": "Cooperative Task Offloading through Asynchronous Deep Reinforcement Learning in Mobile Edge Computing for Future Networks",
+    "url": "http://arxiv.org/abs/2504.17526v1",
+    "arxiv_id": "2504.17526v1",
+    "authors": [
+      "Yuelin Liu",
+      "Haiyuan Li",
+      "Xenofon Vasilakos",
+      "Rasheed Hussain",
+      "Dimitra Simeonidou"
+    ],
+    "published": "2025-04-24T13:12:12+00:00",
+    "summary": "Future networks (including 6G) are poised to accelerate the realisation of Internet of Everything. However, it will result in a high demand for computing resources to support new services. Mobile Edge Computing (MEC) is a promising solution, enabling to offload computation-intensive tasks to nearby edge servers from the end-user devices, thereby reducing latency and energy consumption. However, relying solely on a single MEC server for task offloading can lead to uneven resource utilisation and suboptimal performance in complex scenarios. Additionally, traditional task offloading strategies specialise in centralised policy decisions, which unavoidably entail extreme transmission latency and reach computational bottleneck. To fill the gaps, we propose a latency and energy efficient Cooperative Task Offloading framework with Transformer-driven Prediction (CTO-TP), leveraging asynchronous multi-agent deep reinforcement learning to address these challenges. This approach fosters edge-edge cooperation and decreases the synchronous waiting time by performing asynchronous training, optimising task offloading, and resource allocation across distributed networks. The performance evaluation demonstrates that the proposed CTO-TP algorithm reduces up to 80% overall system latency and 87% energy consumption compared to the baseline schemes."
+  },
+  {
+    "title": "Plasticine: Accelerating Research in Plasticity-Motivated Deep Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2504.17490v1",
+    "arxiv_id": "2504.17490v1",
+    "authors": [
+      "Mingqi Yuan",
+      "Qi Wang",
+      "Guozheng Ma",
+      "Bo Li",
+      "Xin Jin",
+      "Yunbo Wang",
+      "Xiaokang Yang",
+      "Wenjun Zeng",
+      "Dacheng Tao"
+    ],
+    "published": "2025-04-24T12:32:13+00:00",
+    "summary": "Developing lifelong learning agents is crucial for artificial general intelligence. However, deep reinforcement learning (RL) systems often suffer from plasticity loss, where neural networks gradually lose their ability to adapt during training. Despite its significance, this field lacks unified benchmarks and evaluation protocols. We introduce Plasticine, the first open-source framework for benchmarking plasticity optimization in deep RL. Plasticine provides single-file implementations of over 13 mitigation methods, 10 evaluation metrics, and learning scenarios with increasing non-stationarity levels from standard to open-ended environments. This framework enables researchers to systematically quantify plasticity loss, evaluate mitigation strategies, and analyze plasticity dynamics across different contexts. Our documentation, examples, and source code are available at https://github.com/RLE-Foundation/Plasticine."
+  },
+  {
+    "title": "Comprehend, Divide, and Conquer: Feature Subspace Exploration via Multi-Agent Hierarchical Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2504.17356v1",
+    "arxiv_id": "2504.17356v1",
+    "authors": [
+      "Weiliang Zhang",
+      "Xiaohan Huang",
+      "Yi Du",
+      "Ziyue Qiao",
+      "Qingqing Long",
+      "Zhen Meng",
+      "Yuanchun Zhou",
+      "Meng Xiao"
+    ],
+    "published": "2025-04-24T08:16:36+00:00",
+    "summary": "Feature selection aims to preprocess the target dataset, find an optimal and most streamlined feature subset, and enhance the downstream machine learning task. Among filter, wrapper, and embedded-based approaches, the reinforcement learning (RL)-based subspace exploration strategy provides a novel objective optimization-directed perspective and promising performance. Nevertheless, even with improved performance, current reinforcement learning approaches face challenges similar to conventional methods when dealing with complex datasets. These challenges stem from the inefficient paradigm of using one agent per feature and the inherent complexities present in the datasets. This observation motivates us to investigate and address the above issue and propose a novel approach, namely HRLFS. Our methodology initially employs a Large Language Model (LLM)-based hybrid state extractor to capture each feature's mathematical and semantic characteristics. Based on this information, features are clustered, facilitating the construction of hierarchical agents for each cluster and sub-cluster. Extensive experiments demonstrate the efficiency, scalability, and robustness of our approach. Compared to contemporary or the one-feature-one-agent RL-based approaches, HRLFS improves the downstream ML performance with iterative feature subspace exploration while accelerating total run time by reducing the number of agents involved."
+  },
+  {
+    "title": "Collaborative Multi-Agent Reinforcement Learning for Automated Feature Transformation with Graph-Driven Path Optimization",
+    "url": "http://arxiv.org/abs/2504.17355v1",
+    "arxiv_id": "2504.17355v1",
+    "authors": [
+      "Xiaohan Huang",
+      "Dongjie Wang",
+      "Zhiyuan Ning",
+      "Ziyue Qiao",
+      "Qingqing Long",
+      "Haowei Zhu",
+      "Yi Du",
+      "Min Wu",
+      "Yuanchun Zhou",
+      "Meng Xiao"
+    ],
+    "published": "2025-04-24T08:16:13+00:00",
+    "summary": "Feature transformation methods aim to find an optimal mathematical feature-feature crossing process that generates high-value features and improves the performance of downstream machine learning tasks. Existing frameworks, though designed to mitigate manual costs, often treat feature transformations as isolated operations, ignoring dynamic dependencies between transformation steps. To address the limitations, we propose TCTO, a collaborative multi-agent reinforcement learning framework that automates feature engineering through graph-driven path optimization. The framework's core innovation lies in an evolving interaction graph that models features as nodes and transformations as edges. Through graph pruning and backtracking, it dynamically eliminates low-impact edges, reduces redundant operations, and enhances exploration stability. This graph also provides full traceability to empower TCTO to reuse high-utility subgraphs from historical transformations. To demonstrate the efficacy and adaptability of our approach, we conduct comprehensive experiments and case studies, which show superior performance across a range of datasets."
+  },
+  {
+    "title": "Cracking the Code of Action: a Generative Approach to Affordances for Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2504.17282v1",
+    "arxiv_id": "2504.17282v1",
+    "authors": [
+      "Lynn Cherif",
+      "Flemming Kondrup",
+      "David Venuto",
+      "Ankit Anand",
+      "Doina Precup",
+      "Khimya Khetarpal"
+    ],
+    "published": "2025-04-24T06:20:08+00:00",
+    "summary": "Agents that can autonomously navigate the web through a graphical user interface (GUI) using a unified action space (e.g., mouse and keyboard actions) can require very large amounts of domain-specific expert demonstrations to achieve good performance. Low sample efficiency is often exacerbated in sparse-reward and large-action-space environments, such as a web GUI, where only a few actions are relevant in any given situation. In this work, we consider the low-data regime, with limited or no access to expert behavior. To enable sample-efficient learning, we explore the effect of constraining the action space through $\\textit{intent-based affordances}$ -- i.e., considering in any situation only the subset of actions that achieve a desired outcome. We propose $\\textbf{Code as Generative Affordances}$ $(\\textbf{$\\texttt{CoGA}$})$, a method that leverages pre-trained vision-language models (VLMs) to generate code that determines affordable actions through implicit intent-completion functions and using a fully-automated program generation and verification pipeline. These programs are then used in-the-loop of a reinforcement learning agent to return a set of affordances given a pixel observation. By greatly reducing the number of actions that an agent must consider, we demonstrate on a wide range of tasks in the MiniWob++ benchmark that: $\\textbf{1)}$ $\\texttt{CoGA}$ is orders of magnitude more sample efficient than its RL agent, $\\textbf{2)}$ $\\texttt{CoGA}$'s programs can generalize within a family of tasks, and $\\textbf{3)}$ $\\texttt{CoGA}$ performs better or on par compared with behavior cloning when a small number of expert demonstrations is available."
+  },
+  {
+    "title": "Demonstrating Berkeley Humanoid Lite: An Open-source, Accessible, and Customizable 3D-printed Humanoid Robot",
+    "url": "http://arxiv.org/abs/2504.17249v1",
+    "arxiv_id": "2504.17249v1",
+    "authors": [
+      "Yufeng Chi",
+      "Qiayuan Liao",
+      "Junfeng Long",
+      "Xiaoyu Huang",
+      "Sophia Shao",
+      "Borivoje Nikolic",
+      "Zhongyu Li",
+      "Koushil Sreenath"
+    ],
+    "published": "2025-04-24T04:58:47+00:00",
+    "summary": "Despite significant interest and advancements in humanoid robotics, most existing commercially available hardware remains high-cost, closed-source, and non-transparent within the robotics community. This lack of accessibility and customization hinders the growth of the field and the broader development of humanoid technologies. To address these challenges and promote democratization in humanoid robotics, we demonstrate Berkeley Humanoid Lite, an open-source humanoid robot designed to be accessible, customizable, and beneficial for the entire community. The core of this design is a modular 3D-printed gearbox for the actuators and robot body. All components can be sourced from widely available e-commerce platforms and fabricated using standard desktop 3D printers, keeping the total hardware cost under $5,000 (based on U.S. market prices). The design emphasizes modularity and ease of fabrication. To address the inherent limitations of 3D-printed gearboxes, such as reduced strength and durability compared to metal alternatives, we adopted a cycloidal gear design, which provides an optimal form factor in this context. Extensive testing was conducted on the 3D-printed actuators to validate their durability and alleviate concerns about the reliability of plastic components. To demonstrate the capabilities of Berkeley Humanoid Lite, we conducted a series of experiments, including the development of a locomotion controller using reinforcement learning. These experiments successfully showcased zero-shot policy transfer from simulation to hardware, highlighting the platform's suitability for research validation. By fully open-sourcing the hardware design, embedded code, and training and deployment frameworks, we aim for Berkeley Humanoid Lite to serve as a pivotal step toward democratizing the development of humanoid robotics. All resources are available at https://lite.berkeley-humanoid.org."
+  },
+  {
+    "title": "Reinforcement learning framework for the mechanical design of microelectronic components under multiphysics constraints",
+    "url": "http://arxiv.org/abs/2504.17142v1",
+    "arxiv_id": "2504.17142v1",
+    "authors": [
+      "Siddharth Nair",
+      "Timothy F. Walsh",
+      "Greg Pickrell",
+      "Fabio Semperlotti"
+    ],
+    "published": "2025-04-23T23:20:44+00:00",
+    "summary": "This study focuses on the development of reinforcement learning based techniques for the design of microelectronic components under multiphysics constraints. While traditional design approaches based on global optimization approaches are effective when dealing with a small number of design parameters, as the complexity of the solution space and of the constraints increases different techniques are needed. This is an important reason that makes the design and optimization of microelectronic components (characterized by large solution space and multiphysics constraints) very challenging for traditional methods. By taking as prototypical elements an application-specific integrated circuit (ASIC) and a heterogeneously integrated (HI) interposer, we develop and numerically test an optimization framework based on reinforcement learning (RL). More specifically, we consider the optimization of the bonded interconnect geometry for an ASIC chip as well as the placement of components on a HI interposer while satisfying thermoelastic and design constraints. This placement problem is particularly interesting because it features a high-dimensional solution space."
+  },
+  {
+    "title": "Leveraging LLMs as Meta-Judges: A Multi-Agent Framework for Evaluating LLM Judgments",
+    "url": "http://arxiv.org/abs/2504.17087v1",
+    "arxiv_id": "2504.17087v1",
+    "authors": [
+      "Yuran Li",
+      "Jama Hussein Mohamud",
+      "Chongren Sun",
+      "Di Wu",
+      "Benoit Boulet"
+    ],
+    "published": "2025-04-23T20:32:12+00:00",
+    "summary": "Large language models (LLMs) are being widely applied across various fields, but as tasks become more complex, evaluating their responses is increasingly challenging. Compared to human evaluators, the use of LLMs to support performance evaluation offers a more efficient alternative. However, most studies focus mainly on aligning LLMs' judgments with human preferences, overlooking the existence of biases and mistakes in human judgment. Furthermore, how to select suitable LLM judgments given multiple potential LLM responses remains underexplored. To address these two aforementioned issues, we propose a three-stage meta-judge selection pipeline: 1) developing a comprehensive rubric with GPT-4 and human experts, 2) using three advanced LLM agents to score judgments, and 3) applying a threshold to filter out low-scoring judgments. Compared to methods using a single LLM as both judge and meta-judge, our pipeline introduces multi-agent collaboration and a more comprehensive rubric. Experimental results on the JudgeBench dataset show about 15.55\\% improvement compared to raw judgments and about 8.37\\% improvement over the single-agent baseline. Our work demonstrates the potential of LLMs as meta-judges and lays the foundation for future research on constructing preference datasets for LLM-as-a-judge reinforcement learning."
+  },
+  {
+    "title": "A Systematic Approach to Design Real-World Human-in-the-Loop Deep Reinforcement Learning: Salient Features, Challenges and Trade-offs",
+    "url": "http://arxiv.org/abs/2504.17006v1",
+    "arxiv_id": "2504.17006v1",
+    "authors": [
+      "Jalal Arabneydi",
+      "Saiful Islam",
+      "Srijita Das",
+      "Sai Krishna Gottipati",
+      "William Duguay",
+      "Cloderic Mars",
+      "Matthew E. Taylor",
+      "Matthew Guzdial",
+      "Antoine Fagette",
+      "Younes Zerouali"
+    ],
+    "published": "2025-04-23T18:00:08+00:00",
+    "summary": "With the growing popularity of deep reinforcement learning (DRL), human-in-the-loop (HITL) approach has the potential to revolutionize the way we approach decision-making problems and create new opportunities for human-AI collaboration. In this article, we introduce a novel multi-layered hierarchical HITL DRL algorithm that comprises three types of learning: self learning, imitation learning and transfer learning. In addition, we consider three forms of human inputs: reward, action and demonstration. Furthermore, we discuss main challenges, trade-offs and advantages of HITL in solving complex problems and how human information can be integrated in the AI solution systematically. To verify our technical results, we present a real-world unmanned aerial vehicles (UAV) problem wherein a number of enemy drones attack a restricted area. The objective is to design a scalable HITL DRL algorithm for ally drones to neutralize the enemy drones before they reach the area. To this end, we first implement our solution using an award-winning open-source HITL software called Cogment. We then demonstrate several interesting results such as (a) HITL leads to faster training and higher performance, (b) advice acts as a guiding direction for gradient methods and lowers variance, and (c) the amount of advice should neither be too large nor too small to avoid over-training and under-training. Finally, we illustrate the role of human-AI cooperation in solving two real-world complex scenarios, i.e., overloaded and decoy attacks."
+  },
+  {
+    "title": "(Im)possibility of Automated Hallucination Detection in Large Language Models",
+    "url": "http://arxiv.org/abs/2504.17004v1",
+    "arxiv_id": "2504.17004v1",
+    "authors": [
+      "Amin Karbasi",
+      "Omar Montasser",
+      "John Sous",
+      "Grigoris Velegkas"
+    ],
+    "published": "2025-04-23T18:00:07+00:00",
+    "summary": "Is automated hallucination detection possible? In this work, we introduce a theoretical framework to analyze the feasibility of automatically detecting hallucinations produced by large language models (LLMs). Inspired by the classical Gold-Angluin framework for language identification and its recent adaptation to language generation by Kleinberg and Mullainathan, we investigate whether an algorithm, trained on examples drawn from an unknown target language $K$ (selected from a countable collection) and given access to an LLM, can reliably determine whether the LLM's outputs are correct or constitute hallucinations.   First, we establish an equivalence between hallucination detection and the classical task of language identification. We prove that any hallucination detection method can be converted into a language identification method, and conversely, algorithms solving language identification can be adapted for hallucination detection. Given the inherent difficulty of language identification, this implies that hallucination detection is fundamentally impossible for most language collections if the detector is trained using only correct examples from the target language.   Second, we show that the use of expert-labeled feedback, i.e., training the detector with both positive examples (correct statements) and negative examples (explicitly labeled incorrect statements), dramatically changes this conclusion. Under this enriched training regime, automated hallucination detection becomes possible for all countable language collections.   These results highlight the essential role of expert-labeled examples in training hallucination detectors and provide theoretical support for feedback-based methods, such as reinforcement learning with human feedback (RLHF), which have proven critical for reliable LLM deployment."
+  },
+  {
     "title": "Zero-shot Sim-to-Real Transfer for Reinforcement Learning-based Visual Servoing of Soft Continuum Arms",
     "url": "http://arxiv.org/abs/2504.16916v1",
     "arxiv_id": "2504.16916v1",
