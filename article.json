@@ -1,5 +1,256 @@
 [
   {
+    "title": "Intelligent Attacks and Defense Methods in Federated Learning-enabled Energy-Efficient Wireless Networks",
+    "url": "http://arxiv.org/abs/2504.18519v1",
+    "arxiv_id": "2504.18519v1",
+    "authors": [
+      "Han Zhang",
+      "Hao Zhou",
+      "Medhat Elsayed",
+      "Majid Bavand",
+      "Raimundas Gaigalas",
+      "Yigit Ozcan",
+      "Melike Erol-Kantarci"
+    ],
+    "published": "2025-04-25T17:40:35+00:00",
+    "summary": "Federated learning (FL) is a promising technique for learning-based functions in wireless networks, thanks to its distributed implementation capability. On the other hand, distributed learning may increase the risk of exposure to malicious attacks where attacks on a local model may spread to other models by parameter exchange. Meanwhile, such attacks can be hard to detect due to the dynamic wireless environment, especially considering local models can be heterogeneous with non-independent and identically distributed (non-IID) data. Therefore, it is critical to evaluate the effect of malicious attacks and develop advanced defense techniques for FL-enabled wireless networks. In this work, we introduce a federated deep reinforcement learning-based cell sleep control scenario that enhances the energy efficiency of the network. We propose multiple intelligent attacks targeting the learning-based approach and we propose defense methods to mitigate such attacks. In particular, we have designed two attack models, generative adversarial network (GAN)-enhanced model poisoning attack and regularization-based model poisoning attack. As a counteraction, we have proposed two defense schemes, autoencoder-based defense, and knowledge distillation (KD)-enabled defense. The autoencoder-based defense method leverages an autoencoder to identify the malicious participants and only aggregate the parameters of benign local models during the global aggregation, while KD-based defense protects the model from attacks by controlling the knowledge transferred between the global model and local models."
+  },
+  {
+    "title": "Fast-Slow Thinking for Large Vision-Language Model Reasoning",
+    "url": "http://arxiv.org/abs/2504.18458v1",
+    "arxiv_id": "2504.18458v1",
+    "authors": [
+      "Wenyi Xiao",
+      "Leilei Gan",
+      "Weilong Dai",
+      "Wanggui He",
+      "Ziwei Huang",
+      "Haoyuan Li",
+      "Fangxun Shu",
+      "Zhelun Yu",
+      "Peng Zhang",
+      "Hao Jiang",
+      "Fei Wu"
+    ],
+    "published": "2025-04-25T16:11:23+00:00",
+    "summary": "Recent advances in large vision-language models (LVLMs) have revealed an \\textit{overthinking} phenomenon, where models generate verbose reasoning across all tasks regardless of questions. To address this issue, we present \\textbf{FAST}, a novel \\textbf{Fa}st-\\textbf{S}low \\textbf{T}hinking framework that dynamically adapts reasoning depth based on question characteristics. Through empirical analysis, we establish the feasibility of fast-slow thinking in LVLMs by investigating how response length and data distribution affect performance. We develop FAST-GRPO with three components: model-based metrics for question characterization, an adaptive thinking reward mechanism, and difficulty-aware KL regularization. Experiments across seven reasoning benchmarks demonstrate that FAST achieves state-of-the-art accuracy with over 10\\% relative improvement compared to the base model, while reducing token usage by 32.7-67.3\\% compared to previous slow-thinking approaches, effectively balancing reasoning length and accuracy."
+  },
+  {
+    "title": "Reason Like a Radiologist: Chain-of-Thought and Reinforcement Learning for Verifiable Report Generation",
+    "url": "http://arxiv.org/abs/2504.18453v1",
+    "arxiv_id": "2504.18453v1",
+    "authors": [
+      "Peiyuan Jing",
+      "Kinhei Lee",
+      "Zhenxuan Zhang",
+      "Huichi Zhou",
+      "Zhengqing Yuan",
+      "Zhifan Gao",
+      "Lei Zhu",
+      "Giorgos Papanastasiou",
+      "Yingying Fang",
+      "Guang Yang"
+    ],
+    "published": "2025-04-25T16:05:06+00:00",
+    "summary": "Radiology report generation is critical for efficiency but current models lack the structured reasoning of experts, hindering clinical trust and explainability by failing to link visual findings to precise anatomical locations. This paper introduces BoxMed-RL, a groundbreaking unified training framework for generating spatially verifiable and explainable radiology reports. Built on a large vision-language model, BoxMed-RL revolutionizes report generation through two integrated phases: (1) In the Pretraining Phase, we refine the model via medical concept learning, using Chain-of-Thought supervision to internalize the radiologist-like workflow, followed by spatially verifiable reinforcement, which applies reinforcement learning to align medical findings with bounding boxes. (2) In the Downstream Adapter Phase, we freeze the pretrained weights and train a downstream adapter to ensure fluent and clinically credible reports. This framework precisely mimics radiologists' workflow, compelling the model to connect high-level medical concepts with definitive anatomical evidence. Extensive experiments on public datasets demonstrate that BoxMed-RL achieves an average 7% improvement in both METEOR and ROUGE-L metrics compared to state-of-the-art methods. An average 5% improvement in large language model-based metrics further underscores BoxMed-RL's robustness in generating high-quality radiology reports."
+  },
+  {
+    "title": "Pushing the boundary on Natural Language Inference",
+    "url": "http://arxiv.org/abs/2504.18376v1",
+    "arxiv_id": "2504.18376v1",
+    "authors": [
+      "Pablo Miralles-Gonz\u00e1lez",
+      "Javier Huertas-Tato",
+      "Alejandro Mart\u00edn",
+      "David Camacho"
+    ],
+    "published": "2025-04-25T14:20:57+00:00",
+    "summary": "Natural Language Inference (NLI) is a central task in natural language understanding with applications in fact-checking, question answering, and information retrieval. Despite its importance, current NLI systems heavily rely on supervised learning with datasets that often contain annotation artifacts and biases, limiting generalization and real-world applicability. In this work, we apply a reinforcement learning-based approach using Group Relative Policy Optimization (GRPO) for Chain-of-Thought (CoT) learning in NLI, eliminating the need for labeled rationales and enabling this type of training on more challenging datasets such as ANLI. We fine-tune 7B, 14B, and 32B language models using parameter-efficient techniques (LoRA and QLoRA), demonstrating strong performance across standard and adversarial NLI benchmarks. Our 32B AWQ-quantized model surpasses state-of-the-art results on 7 out of 11 adversarial sets$\\unicode{x2013}$or on all of them considering our replication$\\unicode{x2013}$within a 22GB memory footprint, showing that robust reasoning can be retained under aggressive quantization. This work provides a scalable and practical framework for building robust NLI systems without sacrificing inference quality."
+  },
+  {
+    "title": "Explainable AI for UAV Mobility Management: A Deep Q-Network Approach for Handover Minimization",
+    "url": "http://arxiv.org/abs/2504.18371v1",
+    "arxiv_id": "2504.18371v1",
+    "authors": [
+      "Irshad A. Meer",
+      "Bruno H\u00f6rmann",
+      "Mustafa Ozger",
+      "Fabien Geyer",
+      "Alberto Viseras",
+      "Dominic Schupke",
+      "Cicek Cavdar"
+    ],
+    "published": "2025-04-25T14:11:51+00:00",
+    "summary": "The integration of unmanned aerial vehicles (UAVs) into cellular networks presents significant mobility management challenges, primarily due to frequent handovers caused by probabilistic line-of-sight conditions with multiple ground base stations (BSs). To tackle these challenges, reinforcement learning (RL)-based methods, particularly deep Q-networks (DQN), have been employed to optimize handover decisions dynamically. However, a major drawback of these learning-based approaches is their black-box nature, which limits interpretability in the decision-making process. This paper introduces an explainable AI (XAI) framework that incorporates Shapley Additive Explanations (SHAP) to provide deeper insights into how various state parameters influence handover decisions in a DQN-based mobility management system. By quantifying the impact of key features such as reference signal received power (RSRP), reference signal received quality (RSRQ), buffer status, and UAV position, our approach enhances the interpretability and reliability of RL-based handover solutions. To validate and compare our framework, we utilize real-world network performance data collected from UAV flight trials. Simulation results show that our method provides intuitive explanations for policy decisions, effectively bridging the gap between AI-driven models and human decision-makers."
+  },
+  {
+    "title": "Deep Reinforcement Learning Based Navigation with Macro Actions and Topological Maps",
+    "url": "http://arxiv.org/abs/2504.18300v1",
+    "arxiv_id": "2504.18300v1",
+    "authors": [
+      "Simon Hakenes",
+      "Tobias Glasmachers"
+    ],
+    "published": "2025-04-25T12:19:35+00:00",
+    "summary": "This paper addresses the challenge of navigation in large, visually complex environments with sparse rewards. We propose a method that uses object-oriented macro actions grounded in a topological map, allowing a simple Deep Q-Network (DQN) to learn effective navigation policies. The agent builds a map by detecting objects from RGBD input and selecting discrete macro actions that correspond to navigating to these objects. This abstraction drastically reduces the complexity of the underlying reinforcement learning problem and enables generalization to unseen environments. We evaluate our approach in a photorealistic 3D simulation and show that it significantly outperforms a random baseline under both immediate and terminal reward conditions. Our results demonstrate that topological structure and macro-level abstraction can enable sample-efficient learning even from pixel data."
+  },
+  {
+    "title": "Depth-Constrained ASV Navigation with Deep RL and Limited Sensing",
+    "url": "http://arxiv.org/abs/2504.18253v1",
+    "arxiv_id": "2504.18253v1",
+    "authors": [
+      "Amirhossein Zhalehmehrabi",
+      "Daniele Meli",
+      "Francesco Dal Santo",
+      "Francesco Trotti",
+      "Alessandro Farinelli"
+    ],
+    "published": "2025-04-25T10:56:56+00:00",
+    "summary": "Autonomous Surface Vehicles (ASVs) play a crucial role in maritime operations, yet their navigation in shallow-water environments remains challenging due to dynamic disturbances and depth constraints. Traditional navigation strategies struggle with limited sensor information, making safe and efficient operation difficult. In this paper, we propose a reinforcement learning (RL) framework for ASV navigation under depth constraints, where the vehicle must reach a target while avoiding unsafe areas with only a single depth measurement per timestep from a downward-facing Single Beam Echosounder (SBES). To enhance environmental awareness, we integrate Gaussian Process (GP) regression into the RL framework, enabling the agent to progressively estimate a bathymetric depth map from sparse sonar readings. This approach improves decision-making by providing a richer representation of the environment. Furthermore, we demonstrate effective sim-to-real transfer, ensuring that trained policies generalize well to real-world aquatic conditions. Experimental results validate our method's capability to improve ASV navigation performance while maintaining safety in challenging shallow-water environments."
+  },
+  {
+    "title": "Aligning Language Models for Icelandic Legal Text Summarization",
+    "url": "http://arxiv.org/abs/2504.18180v1",
+    "arxiv_id": "2504.18180v1",
+    "authors": [
+      "\u00de\u00f3rir Hrafn Har\u00f0arson",
+      "Hrafn Loftsson",
+      "Stef\u00e1n \u00d3lafsson"
+    ],
+    "published": "2025-04-25T08:55:15+00:00",
+    "summary": "The integration of language models in the legal domain holds considerable promise for streamlining processes and improving efficiency in managing extensive workloads. However, the specialized terminology, nuanced language, and formal style of legal texts can present substantial challenges. This study examines whether preference-based training techniques, specifically Reinforcement Learning from Human Feedback and Direct Preference Optimization, can enhance models' performance in generating Icelandic legal summaries that align with domain-specific language standards and user preferences. We compare models fine-tuned with preference training to those using conventional supervised learning. Results indicate that preference training improves the legal accuracy of generated summaries over standard fine-tuning but does not significantly enhance the overall quality of Icelandic language usage. Discrepancies between automated metrics and human evaluations further underscore the importance of qualitative assessment in developing language models for the legal domain."
+  },
+  {
+    "title": "Learning from Less: SINDy Surrogates in RL",
+    "url": "http://arxiv.org/abs/2504.18113v1",
+    "arxiv_id": "2504.18113v1",
+    "authors": [
+      "Aniket Dixit",
+      "Muhammad Ibrahim Khan",
+      "Faizan Ahmed",
+      "James Brusey"
+    ],
+    "published": "2025-04-25T06:34:19+00:00",
+    "summary": "This paper introduces an approach for developing surrogate environments in reinforcement learning (RL) using the Sparse Identification of Nonlinear Dynamics (SINDy) algorithm. We demonstrate the effectiveness of our approach through extensive experiments in OpenAI Gym environments, particularly Mountain Car and Lunar Lander. Our results show that SINDy-based surrogate models can accurately capture the underlying dynamics of these environments while reducing computational costs by 20-35%. With only 75 interactions for Mountain Car and 1000 for Lunar Lander, we achieve state-wise correlations exceeding 0.997, with mean squared errors as low as 3.11e-06 for Mountain Car velocity and 1.42e-06 for LunarLander position. RL agents trained in these surrogate environments require fewer total steps (65,075 vs. 100,000 for Mountain Car and 801,000 vs. 1,000,000 for Lunar Lander) while achieving comparable performance to those trained in the original environments, exhibiting similar convergence patterns and final performance metrics. This work contributes to the field of model-based RL by providing an efficient method for generating accurate, interpretable surrogate environments."
+  },
+  {
+    "title": "RL-Driven Data Generation for Robust Vision-Based Dexterous Grasping",
+    "url": "http://arxiv.org/abs/2504.18084v1",
+    "arxiv_id": "2504.18084v1",
+    "authors": [
+      "Atsushi Kanehira",
+      "Naoki Wake",
+      "Kazuhiro Sasabuchi",
+      "Jun Takamatsu",
+      "Katsushi Ikeuchi"
+    ],
+    "published": "2025-04-25T05:21:19+00:00",
+    "summary": "This work presents reinforcement learning (RL)-driven data augmentation to improve the generalization of vision-action (VA) models for dexterous grasping. While real-to-sim-to-real frameworks, where a few real demonstrations seed large-scale simulated data, have proven effective for VA models, applying them to dexterous settings remains challenging: obtaining stable multi-finger contacts is nontrivial across diverse object shapes. To address this, we leverage RL to generate contact-rich grasping data across varied geometries. In line with the real-to-sim-to-real paradigm, the grasp skill is formulated as a parameterized and tunable reference trajectory refined by a residual policy learned via RL. This modular design enables trajectory-level control that is both consistent with real demonstrations and adaptable to diverse object geometries. A vision-conditioned policy trained on simulation-augmented data demonstrates strong generalization to unseen objects, highlighting the potential of our approach to alleviate the data bottleneck in training VA models."
+  },
+  {
+    "title": "LLM-Guided Open RAN: Empowering Hierarchical RAN Intelligent Control",
+    "url": "http://arxiv.org/abs/2504.18062v1",
+    "arxiv_id": "2504.18062v1",
+    "authors": [
+      "Lingyan Bao",
+      "Sinwoong Yun",
+      "Jemin Lee",
+      "Tony Q. S. Quek"
+    ],
+    "published": "2025-04-25T04:18:23+00:00",
+    "summary": "Recent advancements in large language models (LLMs) have led to a significant interest in deploying LLMempowered algorithms for wireless communication networks. Meanwhile, open radio access network (O-RAN) techniques offer unprecedented flexibility, with the non-real-time (non-RT) radio access network (RAN) intelligent controller (RIC) (non-RT RIC) and near-real-time (near-RT) RIC (near-RT RIC) components enabling intelligent resource management across different time scales. In this paper, we propose the LLM empowered hierarchical RIC (LLM-hRIC) framework to improve the collaboration between RICs. This framework integrates LLMs with reinforcement learning (RL) for efficient network resource management. In this framework, LLMs-empowered non-RT RICs provide strategic guidance and high-level policies based on environmental context. Concurrently, RL-empowered near-RT RICs perform low-latency tasks based on strategic guidance and local near-RT observation. We evaluate the LLM-hRIC framework in an integrated access and backhaul (IAB) network setting. Simulation results demonstrate that the proposed framework achieves superior performance. Finally, we discuss the key future challenges in applying LLMs to O-RAN."
+  },
+  {
+    "title": "DREAM: Disentangling Risks to Enhance Safety Alignment in Multimodal Large Language Models",
+    "url": "http://arxiv.org/abs/2504.18053v1",
+    "arxiv_id": "2504.18053v1",
+    "authors": [
+      "Jianyu Liu",
+      "Hangyu Guo",
+      "Ranjie Duan",
+      "Xingyuan Bu",
+      "Yancheng He",
+      "Shilong Li",
+      "Hui Huang",
+      "Jiaheng Liu",
+      "Yucheng Wang",
+      "Chenchen Jing",
+      "Xingwei Qu",
+      "Xiao Zhang",
+      "Yingshui Tan",
+      "Yanan Wu",
+      "Jihao Gu",
+      "Yangguang Li",
+      "Jianke Zhu"
+    ],
+    "published": "2025-04-25T03:54:24+00:00",
+    "summary": "Multimodal Large Language Models (MLLMs) pose unique safety challenges due to their integration of visual and textual data, thereby introducing new dimensions of potential attacks and complex risk combinations. In this paper, we begin with a detailed analysis aimed at disentangling risks through step-by-step reasoning within multimodal inputs. We find that systematic multimodal risk disentanglement substantially enhances the risk awareness of MLLMs. Via leveraging the strong discriminative abilities of multimodal risk disentanglement, we further introduce \\textbf{DREAM} (\\textit{\\textbf{D}isentangling \\textbf{R}isks to \\textbf{E}nhance Safety \\textbf{A}lignment in \\textbf{M}LLMs}), a novel approach that enhances safety alignment in MLLMs through supervised fine-tuning and iterative Reinforcement Learning from AI Feedback (RLAIF). Experimental results show that DREAM significantly boosts safety during both inference and training phases without compromising performance on normal tasks (namely oversafety), achieving a 16.17\\% improvement in the SIUO safe\\&effective score compared to GPT-4V. The data and code are available at https://github.com/Kizna1ver/DREAM."
+  },
+  {
+    "title": "Sky-Drive: A Distributed Multi-Agent Simulation Platform for Socially-Aware and Human-AI Collaborative Future Transportation",
+    "url": "http://arxiv.org/abs/2504.18010v1",
+    "arxiv_id": "2504.18010v1",
+    "authors": [
+      "Zilin Huang",
+      "Zihao Sheng",
+      "Zhengyang Wan",
+      "Yansong Qu",
+      "Yuhao Luo",
+      "Boyue Wang",
+      "Pei Li",
+      "Yen-Jung Chen",
+      "Jiancong Chen",
+      "Keke Long",
+      "Jiayi Meng",
+      "Yue Leng",
+      "Sikai Chen"
+    ],
+    "published": "2025-04-25T01:33:26+00:00",
+    "summary": "Recent advances in autonomous system simulation platforms have significantly enhanced the safe and scalable testing of driving policies. However, existing simulators do not yet fully meet the needs of future transportation research, particularly in modeling socially-aware driving agents and enabling effective human-AI collaboration. This paper introduces Sky-Drive, a novel distributed multi-agent simulation platform that addresses these limitations through four key innovations: (a) a distributed architecture for synchronized simulation across multiple terminals; (b) a multi-modal human-in-the-loop framework integrating diverse sensors to collect rich behavioral data; (c) a human-AI collaboration mechanism supporting continuous and adaptive knowledge exchange; and (d) a digital twin (DT) framework for constructing high-fidelity virtual replicas of real-world transportation environments. Sky-Drive supports diverse applications such as autonomous vehicle (AV)-vulnerable road user (VRU) interaction modeling, human-in-the-loop training, socially-aware reinforcement learning, personalized driving policy, and customized scenario generation. Future extensions will incorporate foundation models for context-aware decision support and hardware-in-the-loop (HIL) testing for real-world validation. By bridging scenario generation, data collection, algorithm training, and hardware integration, Sky-Drive has the potential to become a foundational platform for the next generation of socially-aware and human-centered autonomous transportation research. The demo video and code are available at:https://sky-lab-uw.github.io/Sky-Drive-website/"
+  },
+  {
+    "title": "Do We Need Transformers to Play FPS Video Games?",
+    "url": "http://arxiv.org/abs/2504.17891v1",
+    "arxiv_id": "2504.17891v1",
+    "authors": [
+      "Karmanbir Batth",
+      "Krish Sethi",
+      "Aly Shariff",
+      "Leo Shi",
+      "Hetul Patel"
+    ],
+    "published": "2025-04-24T19:10:55+00:00",
+    "summary": "In this paper, we explore the Transformer based architectures for reinforcement learning in both online and offline settings within the Doom game environment. Our investigation focuses on two primary approaches: Deep Transformer Q- learning Networks (DTQN) for online learning and Decision Transformers (DT) for offline reinforcement learning. DTQN leverages the sequential modelling capabilities of Transformers to enhance Q-learning in partially observable environments,while Decision Transformers repurpose sequence modelling techniques to enable offline agents to learn from past trajectories without direct interaction with the environment. We conclude that while Transformers might have performed well in Atari games, more traditional methods perform better than Transformer based method in both the settings in the VizDoom environment."
+  },
+  {
+    "title": "High-Performance Reinforcement Learning on Spot: Optimizing Simulation Parameters with Distributional Measures",
+    "url": "http://arxiv.org/abs/2504.17857v1",
+    "arxiv_id": "2504.17857v1",
+    "authors": [
+      "A. J Miller",
+      "Fangzhou Yu",
+      "Michael Brauckmann",
+      "Farbod Farshidian"
+    ],
+    "published": "2025-04-24T18:01:36+00:00",
+    "summary": "This work presents an overview of the technical details behind a high performance reinforcement learning policy deployment with the Spot RL Researcher Development Kit for low level motor access on Boston Dynamics Spot. This represents the first public demonstration of an end to end end reinforcement learning policy deployed on Spot hardware with training code publicly available through Nvidia IsaacLab and deployment code available through Boston Dynamics. We utilize Wasserstein Distance and Maximum Mean Discrepancy to quantify the distributional dissimilarity of data collected on hardware and in simulation to measure our sim2real gap. We use these measures as a scoring function for the Covariance Matrix Adaptation Evolution Strategy to optimize simulated parameters that are unknown or difficult to measure from Spot. Our procedure for modeling and training produces high quality reinforcement learning policies capable of multiple gaits, including a flight phase. We deploy policies capable of over 5.2ms locomotion, more than triple Spots default controller maximum speed, robustness to slippery surfaces, disturbance rejection, and overall agility previously unseen on Spot. We detail our method and release our code to support future work on Spot with the low level API."
+  },
+  {
+    "title": "CaRL: Learning Scalable Planning Policies with Simple Rewards",
+    "url": "http://arxiv.org/abs/2504.17838v1",
+    "arxiv_id": "2504.17838v1",
+    "authors": [
+      "Bernhard Jaeger",
+      "Daniel Dauner",
+      "Jens Bei\u00dfwenger",
+      "Simon Gerstenecker",
+      "Kashyap Chitta",
+      "Andreas Geiger"
+    ],
+    "published": "2025-04-24T17:56:01+00:00",
+    "summary": "We investigate reinforcement learning (RL) for privileged planning in autonomous driving. State-of-the-art approaches for this task are rule-based, but these methods do not scale to the long tail. RL, on the other hand, is scalable and does not suffer from compounding errors like imitation learning. Contemporary RL approaches for driving use complex shaped rewards that sum multiple individual rewards, \\eg~progress, position, or orientation rewards. We show that PPO fails to optimize a popular version of these rewards when the mini-batch size is increased, which limits the scalability of these approaches. Instead, we propose a new reward design based primarily on optimizing a single intuitive reward term: route completion. Infractions are penalized by terminating the episode or multiplicatively reducing route completion. We find that PPO scales well with higher mini-batch sizes when trained with our simple reward, even improving performance. Training with large mini-batch sizes enables efficient scaling via distributed data parallelism. We scale PPO to 300M samples in CARLA and 500M samples in nuPlan with a single 8-GPU node. The resulting model achieves 64 DS on the CARLA longest6 v2 benchmark, outperforming other RL methods with more complex rewards by a large margin. Requiring only minimal adaptations from its use in CARLA, the same method is the best learning-based approach on nuPlan. It scores 91.3 in non-reactive and 90.6 in reactive traffic on the Val14 benchmark while being an order of magnitude faster than prior work."
+  },
+  {
     "title": "Integrating Learning-Based Manipulation and Physics-Based Locomotion for Whole-Body Badminton Robot Control",
     "url": "http://arxiv.org/abs/2504.17771v1",
     "arxiv_id": "2504.17771v1",
@@ -77,6 +328,19 @@
     ],
     "published": "2025-04-24T14:09:22+00:00",
     "summary": "Recent research in Cooperative Coevolution~(CC) have achieved promising progress in solving large-scale global optimization problems. However, existing CC paradigms have a primary limitation in that they require deep expertise for selecting or designing effective variable decomposition strategies. Inspired by advancements in Meta-Black-Box Optimization, this paper introduces LCC, a pioneering learning-based cooperative coevolution framework that dynamically schedules decomposition strategies during optimization processes. The decomposition strategy selector is parameterized through a neural network, which processes a meticulously crafted set of optimization status features to determine the optimal strategy for each optimization step. The network is trained via the Proximal Policy Optimization method in a reinforcement learning manner across a collection of representative problems, aiming to maximize the expected optimization performance. Extensive experimental results demonstrate that LCC not only offers certain advantages over state-of-the-art baselines in terms of optimization effectiveness and resource consumption, but it also exhibits promising transferability towards unseen problems."
+  },
+  {
+    "title": "The Role of Open-Source LLMs in Shaping the Future of GeoAI",
+    "url": "http://arxiv.org/abs/2504.17833v1",
+    "arxiv_id": "2504.17833v1",
+    "authors": [
+      "Xiao Huang",
+      "Zhengzhong Tu",
+      "Xinyue Ye",
+      "Michael Goodchild"
+    ],
+    "published": "2025-04-24T13:20:17+00:00",
+    "summary": "Large Language Models (LLMs) are transforming geospatial artificial intelligence (GeoAI), offering new capabilities in data processing, spatial analysis, and decision support. This paper examines the open-source paradigm's pivotal role in this transformation. While proprietary LLMs offer accessibility, they often limit the customization, interoperability, and transparency vital for specialized geospatial tasks. Conversely, open-source alternatives significantly advance Geographic Information Science (GIScience) by fostering greater adaptability, reproducibility, and community-driven innovation. Open frameworks empower researchers to tailor solutions, integrate cutting-edge methodologies (e.g., reinforcement learning, advanced spatial indexing), and align with FAIR principles. However, the growing reliance on any LLM necessitates careful consideration of security vulnerabilities, ethical risks, and robust governance for AI-generated geospatial outputs. Ongoing debates on accessibility, regulation, and misuse underscore the critical need for responsible AI development strategies. This paper argues that GIScience advances best not through a single model type, but by cultivating a diverse, interoperable ecosystem combining open-source foundations for innovation, bespoke geospatial models, and interdisciplinary collaboration. By critically evaluating the opportunities and challenges of open-source LLMs within the broader GeoAI landscape, this work contributes to a nuanced discourse on leveraging AI to effectively advance spatial research, policy, and decision-making in an equitable, sustainable, and scientifically rigorous manner."
   },
   {
     "title": "Cooperative Task Offloading through Asynchronous Deep Reinforcement Learning in Mobile Edge Computing for Future Networks",
