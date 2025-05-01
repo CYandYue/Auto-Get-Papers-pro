@@ -1,5 +1,440 @@
 [
   {
+    "title": "DeepSeek-Prover-V2: Advancing Formal Mathematical Reasoning via Reinforcement Learning for Subgoal Decomposition",
+    "url": "http://arxiv.org/abs/2504.21801v1",
+    "arxiv_id": "2504.21801v1",
+    "authors": [
+      "Z. Z. Ren",
+      "Zhihong Shao",
+      "Junxiao Song",
+      "Huajian Xin",
+      "Haocheng Wang",
+      "Wanjia Zhao",
+      "Liyue Zhang",
+      "Zhe Fu",
+      "Qihao Zhu",
+      "Dejian Yang",
+      "Z. F. Wu",
+      "Zhibin Gou",
+      "Shirong Ma",
+      "Hongxuan Tang",
+      "Yuxuan Liu",
+      "Wenjun Gao",
+      "Daya Guo",
+      "Chong Ruan"
+    ],
+    "published": "2025-04-30T16:57:48+00:00",
+    "summary": "We introduce DeepSeek-Prover-V2, an open-source large language model designed for formal theorem proving in Lean 4, with initialization data collected through a recursive theorem proving pipeline powered by DeepSeek-V3. The cold-start training procedure begins by prompting DeepSeek-V3 to decompose complex problems into a series of subgoals. The proofs of resolved subgoals are synthesized into a chain-of-thought process, combined with DeepSeek-V3's step-by-step reasoning, to create an initial cold start for reinforcement learning. This process enables us to integrate both informal and formal mathematical reasoning into a unified model. The resulting model, DeepSeek-Prover-V2-671B, achieves state-of-the-art performance in neural theorem proving, reaching 88.9% pass ratio on the MiniF2F-test and solving 49 out of 658 problems from PutnamBench. In addition to standard benchmarks, we introduce ProverBench, a collection of 325 formalized problems, to enrich our evaluation, including 15 selected problems from the recent AIME competitions (years 24-25). Further evaluation on these 15 AIME problems shows that the model successfully solves 6 of them. In comparison, DeepSeek-V3 solves 8 of these problems using majority voting, highlighting that the gap between formal and informal mathematical reasoning in large language models is substantially narrowing."
+  },
+  {
+    "title": "Reconciling Discrete-Time Mixed Policies and Continuous-Time Relaxed Controls in Reinforcement Learning and Stochastic Control",
+    "url": "http://arxiv.org/abs/2504.21793v1",
+    "arxiv_id": "2504.21793v1",
+    "authors": [
+      "Rene Carmona",
+      "Mathieu Lauriere"
+    ],
+    "published": "2025-04-30T16:50:52+00:00",
+    "summary": "Reinforcement learning (RL) is currently one of the most popular methods, with breakthrough results in a variety of fields. The framework relies on the concept of Markov decision process (MDP), which corresponds to a discrete time optimal control problem. In the RL literature, such problems are usually formulated with mixed policies, from which a random action is sampled at each time step. Recently, the optimal control community has studied continuous-time versions of RL algorithms, replacing MDPs with mixed policies by continuous time stochastic processes with relaxed controls. In this work, we rigorously connect the two problems: we prove the strong convergence of the former towards the latter when the time discretization goes to $0$."
+  },
+  {
+    "title": "MAGNET: an open-source library for mesh agglomeration by Graph Neural Networks",
+    "url": "http://arxiv.org/abs/2504.21780v1",
+    "arxiv_id": "2504.21780v1",
+    "authors": [
+      "Paola F. Antonietti",
+      "Matteo Caldana",
+      "Ilario Mazzieri",
+      "Andrea Re Fraschini"
+    ],
+    "published": "2025-04-30T16:33:22+00:00",
+    "summary": "We introduce MAGNET, an open-source Python library designed for mesh agglomeration in both two- and three-dimensions, based on employing Graph Neural Networks (GNN). MAGNET serves as a comprehensive solution for training a variety of GNN models, integrating deep learning and other advanced algorithms such as METIS and k-means to facilitate mesh agglomeration and quality metric computation. The library's introduction is outlined through its code structure and primary features. The GNN framework adopts a graph bisection methodology that capitalizes on connectivity and geometric mesh information via SAGE convolutional layers, in line with the methodology proposed by Antonietti et al. (2024). Additionally, the proposed MAGNET library incorporates reinforcement learning to enhance the accuracy and robustness of the model for predicting coarse partitions within a multilevel framework. A detailed tutorial is provided to guide the user through the process of mesh agglomeration and the training of a GNN bisection model. We present several examples of mesh agglomeration conducted by MAGNET, demonstrating the library's applicability across various scenarios. Furthermore, the performance of the newly introduced models is contrasted with that of METIS and k-means, illustrating that the proposed GNN models are competitive regarding partition quality and computational efficiency. Finally, we exhibit the versatility of MAGNET's interface through its integration with Lymph, an open-source library implementing discontinuous Galerkin methods on polytopal grids for the numerical discretization of multiphysics differential problems."
+  },
+  {
+    "title": "WebThinker: Empowering Large Reasoning Models with Deep Research Capability",
+    "url": "http://arxiv.org/abs/2504.21776v1",
+    "arxiv_id": "2504.21776v1",
+    "authors": [
+      "Xiaoxi Li",
+      "Jiajie Jin",
+      "Guanting Dong",
+      "Hongjin Qian",
+      "Yutao Zhu",
+      "Yongkang Wu",
+      "Ji-Rong Wen",
+      "Zhicheng Dou"
+    ],
+    "published": "2025-04-30T16:25:25+00:00",
+    "summary": "Large reasoning models (LRMs), such as OpenAI-o1 and DeepSeek-R1, demonstrate impressive long-horizon reasoning capabilities. However, their reliance on static internal knowledge limits their performance on complex, knowledge-intensive tasks and hinders their ability to produce comprehensive research reports requiring synthesis of diverse web information. To address this, we propose \\textbf{WebThinker}, a deep research agent that empowers LRMs to autonomously search the web, navigate web pages, and draft research reports during the reasoning process. WebThinker integrates a \\textbf{Deep Web Explorer} module, enabling LRMs to dynamically search, navigate, and extract information from the web when encountering knowledge gaps. It also employs an \\textbf{Autonomous Think-Search-and-Draft strategy}, allowing the model to seamlessly interleave reasoning, information gathering, and report writing in real time. To further enhance research tool utilization, we introduce an \\textbf{RL-based training strategy} via iterative online Direct Preference Optimization (DPO). Extensive experiments on complex reasoning benchmarks (GPQA, GAIA, WebWalkerQA, HLE) and scientific report generation tasks (Glaive) demonstrate that WebThinker significantly outperforms existing methods and strong proprietary systems. Our approach enhances LRM reliability and applicability in complex scenarios, paving the way for more capable and versatile deep research systems. The code is available at https://github.com/RUC-NLPIR/WebThinker."
+  },
+  {
+    "title": "LangWBC: Language-directed Humanoid Whole-Body Control via End-to-end Learning",
+    "url": "http://arxiv.org/abs/2504.21738v1",
+    "arxiv_id": "2504.21738v1",
+    "authors": [
+      "Yiyang Shao",
+      "Xiaoyu Huang",
+      "Bike Zhang",
+      "Qiayuan Liao",
+      "Yuman Gao",
+      "Yufeng Chi",
+      "Zhongyu Li",
+      "Sophia Shao",
+      "Koushil Sreenath"
+    ],
+    "published": "2025-04-30T15:37:23+00:00",
+    "summary": "General-purpose humanoid robots are expected to interact intuitively with humans, enabling seamless integration into daily life. Natural language provides the most accessible medium for this purpose. However, translating language into humanoid whole-body motion remains a significant challenge, primarily due to the gap between linguistic understanding and physical actions. In this work, we present an end-to-end, language-directed policy for real-world humanoid whole-body control. Our approach combines reinforcement learning with policy distillation, allowing a single neural network to interpret language commands and execute corresponding physical actions directly. To enhance motion diversity and compositionality, we incorporate a Conditional Variational Autoencoder (CVAE) structure. The resulting policy achieves agile and versatile whole-body behaviors conditioned on language inputs, with smooth transitions between various motions, enabling adaptation to linguistic variations and the emergence of novel motions. We validate the efficacy and generalizability of our method through extensive simulations and real-world experiments, demonstrating robust whole-body control. Please see our website at LangWBC.github.io for more information."
+  },
+  {
+    "title": "Adaptive 3D UI Placement in Mixed Reality Using Deep Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2504.21731v1",
+    "arxiv_id": "2504.21731v1",
+    "authors": [
+      "Feiyu Lu",
+      "Mengyu Chen",
+      "Hsiang Hsu",
+      "Pranav Deshpande",
+      "Cheng Yao Wang",
+      "Blair MacIntyre"
+    ],
+    "published": "2025-04-30T15:21:36+00:00",
+    "summary": "Mixed Reality (MR) could assist users' tasks by continuously integrating virtual content with their view of the physical environment. However, where and how to place these content to best support the users has been a challenging problem due to the dynamic nature of MR experiences. In contrast to prior work that investigates optimization-based methods, we are exploring how reinforcement learning (RL) could assist with continuous 3D content placement that is aware of users' poses and their surrounding environments. Through an initial exploration and preliminary evaluation, our results demonstrate the potential of RL to position content that maximizes the reward for users on the go. We further identify future directions for research that could harness the power of RL for personalized and optimized UI and content placement in MR."
+  },
+  {
+    "title": "MovementVR: An open-source tool for the study of motor control and learning in virtual reality",
+    "url": "http://arxiv.org/abs/2504.21696v1",
+    "arxiv_id": "2504.21696v1",
+    "authors": [
+      "Cristina Rossi",
+      "Rini Varghese",
+      "Amy J Bastian"
+    ],
+    "published": "2025-04-30T14:39:01+00:00",
+    "summary": "Virtual reality (VR) is increasingly used to enhance the ecological validity of motor control and learning studies by providing immersive, interactive environments with precise motion tracking. However, designing realistic VR-based motor tasks remains complex, requiring advanced programming skills and limiting accessibility in research and clinical settings. MovementVR is an open-source platform designed to address these challenges by enabling the creation of customizable, naturalistic reaching tasks in VR without coding expertise. It integrates physics-based hand-object interactions, real-time hand tracking, and flexible experimental paradigms, including motor adaptation and reinforcement learning. The intuitive graphical user interface (GUI) allows researchers to customize task parameters and paradigm structure. Unlike existing platforms, MovementVR eliminates the need for scripting while supporting extensive customization and preserving ecological validity and realism. In addition to reducing technical barriers, MovementVR lowers financial constraints by being compatible with consumer-grade VR headsets. It is freely available with comprehensive documentation, facilitating broader adoption in movement research and rehabilitation."
+  },
+  {
+    "title": "Designing Control Barrier Function via Probabilistic Enumeration for Safe Reinforcement Learning Navigation",
+    "url": "http://arxiv.org/abs/2504.21643v1",
+    "arxiv_id": "2504.21643v1",
+    "authors": [
+      "Luca Marzari",
+      "Francesco Trotti",
+      "Enrico Marchesini",
+      "Alessandro Farinelli"
+    ],
+    "published": "2025-04-30T13:47:25+00:00",
+    "summary": "Achieving safe autonomous navigation systems is critical for deploying robots in dynamic and uncertain real-world environments. In this paper, we propose a hierarchical control framework leveraging neural network verification techniques to design control barrier functions (CBFs) and policy correction mechanisms that ensure safe reinforcement learning navigation policies. Our approach relies on probabilistic enumeration to identify unsafe regions of operation, which are then used to construct a safe CBF-based control layer applicable to arbitrary policies. We validate our framework both in simulation and on a real robot, using a standard mobile robot benchmark and a highly dynamic aquatic environmental monitoring task. These experiments demonstrate the ability of the proposed solution to correct unsafe actions while preserving efficient navigation behavior. Our results show the promise of developing hierarchical verification-based systems to enable safe and robust navigation behaviors in complex scenarios."
+  },
+  {
+    "title": "Multi-Goal Dexterous Hand Manipulation using Probabilistic Model-based Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2504.21585v1",
+    "arxiv_id": "2504.21585v1",
+    "authors": [
+      "Yingzhuo Jiang",
+      "Wenjun Huang",
+      "Rongdun Lin",
+      "Chenyang Miao",
+      "Tianfu Sun",
+      "Yunduan Cui"
+    ],
+    "published": "2025-04-30T12:44:38+00:00",
+    "summary": "This paper tackles the challenge of learning multi-goal dexterous hand manipulation tasks using model-based Reinforcement Learning. We propose Goal-Conditioned Probabilistic Model Predictive Control (GC-PMPC) by designing probabilistic neural network ensembles to describe the high-dimensional dexterous hand dynamics and introducing an asynchronous MPC policy to meet the control frequency requirements in real-world dexterous hand systems. Extensive evaluations on four simulated Shadow Hand manipulation scenarios with randomly generated goals demonstrate GC-PMPC's superior performance over state-of-the-art baselines. It successfully drives a cable-driven Dexterous hand, DexHand 021 with 12 Active DOFs and 5 tactile sensors, to learn manipulating a cubic die to three goal poses within approximately 80 minutes of interactions, demonstrating exceptional learning efficiency and control performance on a cost-effective dexterous hand platform."
+  },
+  {
+    "title": "SimPRIVE: a Simulation framework for Physical Robot Interaction with Virtual Environments",
+    "url": "http://arxiv.org/abs/2504.21454v1",
+    "arxiv_id": "2504.21454v1",
+    "authors": [
+      "Federico Nesti",
+      "Gianluca D'Amico",
+      "Mauro Marinoni",
+      "Giorgio Buttazzo"
+    ],
+    "published": "2025-04-30T09:22:55+00:00",
+    "summary": "The use of machine learning in cyber-physical systems has attracted the interest of both industry and academia. However, no general solution has yet been found against the unpredictable behavior of neural networks and reinforcement learning agents. Nevertheless, the improvements of photo-realistic simulators have paved the way towards extensive testing of complex algorithms in different virtual scenarios, which would be expensive and dangerous to implement in the real world.   This paper presents SimPRIVE, a simulation framework for physical robot interaction with virtual environments, which operates as a vehicle-in-the-loop platform, rendering a virtual world while operating the vehicle in the real world.   Using SimPRIVE, any physical mobile robot running on ROS 2 can easily be configured to move its digital twin in a virtual world built with the Unreal Engine 5 graphic engine, which can be populated with objects, people, or other vehicles with programmable behavior.   SimPRIVE has been designed to accommodate custom or pre-built virtual worlds while being light-weight to contain execution times and allow fast rendering. Its main advantage lies in the possibility of testing complex algorithms on the full software and hardware stack while minimizing the risks and costs of a test campaign. The framework has been validated by testing a reinforcement learning agent trained for obstacle avoidance on an AgileX Scout Mini rover that navigates a virtual office environment where everyday objects and people are placed as obstacles. The physical rover moves with no collision in an indoor limited space, thanks to a LiDAR-based heuristic."
+  },
+  {
+    "title": "NGENT: Next-Generation AI Agents Must Integrate Multi-Domain Abilities to Achieve Artificial General Intelligence",
+    "url": "http://arxiv.org/abs/2504.21433v1",
+    "arxiv_id": "2504.21433v1",
+    "authors": [
+      "Zhicong Li",
+      "Hangyu Mao",
+      "Jiangjin Yin",
+      "Mingzhe Xing",
+      "Zhiwei Xu",
+      "Yuanxing Zhang",
+      "Yang Xiao"
+    ],
+    "published": "2025-04-30T08:46:14+00:00",
+    "summary": "This paper argues that the next generation of AI agent (NGENT) should integrate across-domain abilities to advance toward Artificial General Intelligence (AGI). Although current AI agents are effective in specialized tasks such as robotics, role-playing, and tool-using, they remain confined to narrow domains. We propose that future AI agents should synthesize the strengths of these specialized systems into a unified framework capable of operating across text, vision, robotics, reinforcement learning, emotional intelligence, and beyond. This integration is not only feasible but also essential for achieving the versatility and adaptability that characterize human intelligence. The convergence of technologies across AI domains, coupled with increasing user demand for cross-domain capabilities, suggests that such integration is within reach. Ultimately, the development of these versatile agents is a critical step toward realizing AGI. This paper explores the rationale for this shift, potential pathways for achieving it."
+  },
+  {
+    "title": "FAST-Q: Fast-track Exploration with Adversarially Balanced State Representations for Counterfactual Action Estimation in Offline Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2504.21383v1",
+    "arxiv_id": "2504.21383v1",
+    "authors": [
+      "Pulkit Agrawal",
+      "Rukma Talwadker",
+      "Aditya Pareek",
+      "Tridib Mukherjee"
+    ],
+    "published": "2025-04-30T07:32:40+00:00",
+    "summary": "Recent advancements in state-of-the-art (SOTA) offline reinforcement learning (RL) have primarily focused on addressing function approximation errors, which contribute to the overestimation of Q-values for out-of-distribution actions, a challenge that static datasets exacerbate. However, high stakes applications such as recommendation systems in online gaming, introduce further complexities due to player's psychology (intent) driven by gameplay experiences and the inherent volatility on the platform. These factors create highly sparse, partially overlapping state spaces across policies, further influenced by the experiment path selection logic which biases state spaces towards specific policies. Current SOTA methods constrain learning from such offline data by clipping known counterfactual actions as out-of-distribution due to poor generalization across unobserved states. Further aggravating conservative Q-learning and necessitating more online exploration. FAST-Q introduces a novel approach that (1) leverages Gradient Reversal Learning to construct balanced state representations, regularizing the policy-specific bias between the player's state and action thereby enabling counterfactual estimation; (2) supports offline counterfactual exploration in parallel with static data exploitation; and (3) proposes a Q-value decomposition strategy for multi-objective optimization, facilitating explainable recommendations over short and long-term objectives. These innovations demonstrate superiority of FAST-Q over prior SOTA approaches and demonstrates at least 0.15 percent increase in player returns, 2 percent improvement in lifetime value (LTV), 0.4 percent enhancement in the recommendation driven engagement, 2 percent improvement in the player's platform dwell time and an impressive 10 percent reduction in the costs associated with the recommendation, on our volatile gaming platform."
+  },
+  {
+    "title": "ShorterBetter: Guiding Reasoning Models to Find Optimal Inference Length for Efficient Reasoning",
+    "url": "http://arxiv.org/abs/2504.21370v1",
+    "arxiv_id": "2504.21370v1",
+    "authors": [
+      "Jingyang Yi",
+      "Jiazheng Wang"
+    ],
+    "published": "2025-04-30T07:04:19+00:00",
+    "summary": "Reasoning models such as OpenAI o3 and DeepSeek-R1 have demonstrated strong performance on reasoning-intensive tasks through extended Chain-of-Thought (CoT) prompting. While longer reasoning traces can facilitate a more thorough exploration of solution paths for complex problems, researchers have observed that these models often \"overthink\", leading to inefficient inference. In this paper, we introduce ShorterBetter, a simple yet effective reinforcement learning methed that enables reasoning language models to discover their own optimal CoT lengths without human intervention. By sampling multiple outputs per problem and defining the Sample Optimal Length (SOL) as the shortest correct response among all the outputs, our method dynamically guides the model toward optimal inference lengths. Applied to the DeepSeek-Distill-Qwen-1.5B model, ShorterBetter achieves up to an 80% reduction in output length on both in-domain and out-of-domain reasoning tasks while maintaining accuracy. Our analysis shows that overly long reasoning traces often reflect loss of reasoning direction, and thus suggests that the extended CoT produced by reasoning models is highly compressible."
+  },
+  {
+    "title": "Enhancing New-item Fairness in Dynamic Recommender Systems",
+    "url": "http://arxiv.org/abs/2504.21362v1",
+    "arxiv_id": "2504.21362v1",
+    "authors": [
+      "Huizhong Guo",
+      "Zhu Sun",
+      "Dongxia Wang",
+      "Tianjun Wei",
+      "Jinfeng Li",
+      "Jie Zhang"
+    ],
+    "published": "2025-04-30T06:49:36+00:00",
+    "summary": "New-items play a crucial role in recommender systems (RSs) for delivering fresh and engaging user experiences. However, traditional methods struggle to effectively recommend new-items due to their short exposure time and limited interaction records, especially in dynamic recommender systems (DRSs) where new-items get continuously introduced and users' preferences evolve over time. This leads to significant unfairness towards new-items, which could accumulate over the successive model updates, ultimately compromising the stability of the entire system. Therefore, we propose FairAgent, a reinforcement learning (RL)-based new-item fairness enhancement framework specifically designed for DRSs. It leverages knowledge distillation to extract collaborative signals from traditional models, retaining strong recommendation capabilities for old-items. In addition, FairAgent introduces a novel reward mechanism for recommendation tailored to the characteristics of DRSs, which consists of three components: 1) a new-item exploration reward to promote the exposure of dynamically introduced new-items, 2) a fairness reward to adapt to users' personalized fairness requirements for new-items, and 3) an accuracy reward which leverages users' dynamic feedback to enhance recommendation accuracy. Extensive experiments on three public datasets and backbone models demonstrate the superior performance of FairAgent. The results present that FairAgent can effectively boost new-item exposure, achieve personalized new-item fairness, while maintaining high recommendation accuracy."
+  },
+  {
+    "title": "ImaginateAR: AI-Assisted In-Situ Authoring in Augmented Reality",
+    "url": "http://arxiv.org/abs/2504.21360v1",
+    "arxiv_id": "2504.21360v1",
+    "authors": [
+      "Jaewook Lee",
+      "Filippo Aleotti",
+      "Diego Mazala",
+      "Guillermo Garcia-Hernando",
+      "Sara Vicente",
+      "Oliver James Johnston",
+      "Isabel Kraus-Liang",
+      "Jakub Powierza",
+      "Donghoon Shin",
+      "Jon E. Froehlich",
+      "Gabriel Brostow",
+      "Jessica Van Brummelen"
+    ],
+    "published": "2025-04-30T06:44:14+00:00",
+    "summary": "While augmented reality (AR) enables new ways to play, tell stories, and explore ideas rooted in the physical world, authoring personalized AR content remains difficult for non-experts, often requiring professional tools and time. Prior systems have explored AI-driven XR design but typically rely on manually-defined environments and fixed asset libraries, limiting creative flexibility and real-world relevance. We introduce ImaginateAR, a mobile AI-assisted AR authoring system that aims to let anyone build anything, anywhere -- simply by speaking their imagination. ImaginateAR is powered by custom pipelines for offline scene understanding, fast 3D asset generation, and LLM-driven speech interaction. Users might say \"a dragon enjoying a campfire\" (P7) and iteratively refine the scene using both AI and manual tools. Our technical evaluation shows that ImaginateAR produces more accurate outdoor scene graphs and generates 3D meshes faster than prior methods. A three-part user study (N=20) revealed preferred roles for AI in authoring, what and how users create in free-form use, and design implications for future AR authoring tools."
+  },
+  {
+    "title": "Mining and Intervention of Social Networks Information Cocoon Based on Multi-Layer Network Community Detection",
+    "url": "http://arxiv.org/abs/2504.21357v1",
+    "arxiv_id": "2504.21357v1",
+    "authors": [
+      "Yang Suwen",
+      "Shi Lei"
+    ],
+    "published": "2025-04-30T06:31:05+00:00",
+    "summary": "With the rapid development of information technology and the widespread utilization of recommendation algorithms, users are able to access information more conveniently, while the content they receive tends to be homogeneous. Homogeneous viewpoints and preferences tend to cluster users into sub-networks, leading to group polarization and increasing the likelihood of forming information cocoons. This paper aims to handle information cocoon phenomena in debates on social media. In order to investigate potential user connections, we construct a double-layer network that incorporates two dimensions: relational ties and feature-based similarity between users. Based on the structure of the multi-layer network, we promote two graph auto-encoder (GAE) based community detection algorithms, which can be applied to the partition and determination of information cocoons. This paper tests these two algorithms on Cora, Citeseer, and synthetic datasets, comparing them with existing multi-layer network unsupervised community detection algorithms. Numerical experiments illustrate that the algorithms proposed in this paper significantly improve prediction accuracy indicator NMI (normalized mutual information) and network topology indicator Q. Additionally, an influence-based intervention measure on which algorithms can operate is proposed. Through the Markov states transition model, we simulate the intervention effects, which illustrate that our community detection algorithms play a vital role in partitioning and determining information cocoons. Simultaneously, our intervention strategy alleviates the polarization of viewpoints and the formation of information cocoons with minimal intervention effort."
+  },
+  {
+    "title": "Q-function Decomposition with Intervention Semantics with Factored Action Spaces",
+    "url": "http://arxiv.org/abs/2504.21326v1",
+    "arxiv_id": "2504.21326v1",
+    "authors": [
+      "Junkyu Lee",
+      "Tian Gao",
+      "Elliot Nelson",
+      "Miao Liu",
+      "Debarun Bhattacharjya",
+      "Songtao Lu"
+    ],
+    "published": "2025-04-30T05:26:51+00:00",
+    "summary": "Many practical reinforcement learning environments have a discrete factored action space that induces a large combinatorial set of actions, thereby posing significant challenges. Existing approaches leverage the regular structure of the action space and resort to a linear decomposition of Q-functions, which avoids enumerating all combinations of factored actions. In this paper, we consider Q-functions defined over a lower dimensional projected subspace of the original action space, and study the condition for the unbiasedness of decomposed Q-functions using causal effect estimation from the no unobserved confounder setting in causal statistics. This leads to a general scheme which we call action decomposed reinforcement learning that uses the projected Q-functions to approximate the Q-function in standard model-free reinforcement learning algorithms. The proposed approach is shown to improve sample complexity in a model-based reinforcement learning setting. We demonstrate improvements in sample efficiency compared to state-of-the-art baselines in online continuous control environments and a real-world offline sepsis treatment environment."
+  },
+  {
+    "title": "Phi-4-reasoning Technical Report",
+    "url": "http://arxiv.org/abs/2504.21318v1",
+    "arxiv_id": "2504.21318v1",
+    "authors": [
+      "Marah Abdin",
+      "Sahaj Agarwal",
+      "Ahmed Awadallah",
+      "Vidhisha Balachandran",
+      "Harkirat Behl",
+      "Lingjiao Chen",
+      "Gustavo de Rosa",
+      "Suriya Gunasekar",
+      "Mojan Javaheripi",
+      "Neel Joshi",
+      "Piero Kauffmann",
+      "Yash Lara",
+      "Caio C\u00e9sar Teodoro Mendes",
+      "Arindam Mitra",
+      "Besmira Nushi",
+      "Dimitris Papailiopoulos",
+      "Olli Saarikivi",
+      "Shital Shah",
+      "Vaishnavi Shrivastava",
+      "Vibhav Vineet",
+      "Yue Wu",
+      "Safoora Yousefi",
+      "Guoqing Zheng"
+    ],
+    "published": "2025-04-30T05:05:09+00:00",
+    "summary": "We introduce Phi-4-reasoning, a 14-billion parameter reasoning model that achieves strong performance on complex reasoning tasks. Trained via supervised fine-tuning of Phi-4 on carefully curated set of \"teachable\" prompts-selected for the right level of complexity and diversity-and reasoning demonstrations generated using o3-mini, Phi-4-reasoning generates detailed reasoning chains that effectively leverage inference-time compute. We further develop Phi-4-reasoning-plus, a variant enhanced through a short phase of outcome-based reinforcement learning that offers higher performance by generating longer reasoning traces. Across a wide range of reasoning tasks, both models outperform significantly larger open-weight models such as DeepSeek-R1-Distill-Llama-70B model and approach the performance levels of full DeepSeek-R1 model. Our comprehensive evaluations span benchmarks in math and scientific reasoning, coding, algorithmic problem solving, planning, and spatial understanding. Interestingly, we observe a non-trivial transfer of improvements to general-purpose benchmarks as well. In this report, we provide insights into our training data, our training methodologies, and our evaluations. We show that the benefit of careful data curation for supervised fine-tuning (SFT) extends to reasoning language models, and can be further amplified by reinforcement learning (RL). Finally, our evaluation points to opportunities for improving how we assess the performance and robustness of reasoning models."
+  },
+  {
+    "title": "Covert Prompt Transmission for Secure Large Language Model Services",
+    "url": "http://arxiv.org/abs/2504.21311v1",
+    "arxiv_id": "2504.21311v1",
+    "authors": [
+      "Ruichen Zhang",
+      "Yinqiu Liu",
+      "Shunpu Tang",
+      "Jiacheng Wang",
+      "Dusit Niyato",
+      "Geng Sun",
+      "Yonghui Li",
+      "Sumei Sun"
+    ],
+    "published": "2025-04-30T04:53:11+00:00",
+    "summary": "This paper investigates covert prompt transmission for secure and efficient large language model (LLM) services over wireless networks. We formulate a latency minimization problem under fidelity and detectability constraints to ensure confidential and covert communication by jointly optimizing the transmit power and prompt compression ratio. To solve this problem, we first propose a prompt compression and encryption (PCAE) framework, performing surprisal-guided compression followed by lightweight permutation-based encryption. Specifically, PCAE employs a locally deployed small language model (SLM) to estimate token-level surprisal scores, selectively retaining semantically critical tokens while discarding redundant ones. This significantly reduces computational overhead and transmission duration. To further enhance covert wireless transmission, we then develop a group-based proximal policy optimization (GPPO) method that samples multiple candidate actions for each state, selecting the optimal one within each group and incorporating a Kullback-Leibler (KL) divergence penalty to improve policy stability and exploration. Simulation results show that PCAE achieves comparable LLM response fidelity to baseline methods while reducing preprocessing latency by over five orders of magnitude, enabling real-time edge deployment. We further validate PCAE effectiveness across diverse LLM backbones, including DeepSeek-32B, Qwen-32B, and their smaller variants. Moreover, GPPO reduces covert transmission latency by up to 38.6\\% compared to existing reinforcement learning strategies, with further analysis showing that increased transmit power provides additional latency benefits."
+  },
+  {
+    "title": "BiasGuard: A Reasoning-enhanced Bias Detection Tool For Large Language Models",
+    "url": "http://arxiv.org/abs/2504.21299v1",
+    "arxiv_id": "2504.21299v1",
+    "authors": [
+      "Zhiting Fan",
+      "Ruizhe Chen",
+      "Zuozhu Liu"
+    ],
+    "published": "2025-04-30T04:13:03+00:00",
+    "summary": "Identifying bias in LLM-generated content is a crucial prerequisite for ensuring fairness in LLMs. Existing methods, such as fairness classifiers and LLM-based judges, face limitations related to difficulties in understanding underlying intentions and the lack of criteria for fairness judgment. In this paper, we introduce BiasGuard, a novel bias detection tool that explicitly analyzes inputs and reasons through fairness specifications to provide accurate judgments. BiasGuard is implemented through a two-stage approach: the first stage initializes the model to explicitly reason based on fairness specifications, while the second stage leverages reinforcement learning to enhance its reasoning and judgment capabilities. Our experiments, conducted across five datasets, demonstrate that BiasGuard outperforms existing tools, improving accuracy and reducing over-fairness misjudgments. We also highlight the importance of reasoning-enhanced decision-making and provide evidence for the effectiveness of our two-stage optimization pipeline."
+  },
+  {
+    "title": "Robust Multi-agent Communication Based on Decentralization-Oriented Adversarial Training",
+    "url": "http://arxiv.org/abs/2504.21278v1",
+    "arxiv_id": "2504.21278v1",
+    "authors": [
+      "Xuyan Ma",
+      "Yawen Wang",
+      "Junjie Wang",
+      "Xiaofei Xie",
+      "Boyu Wu",
+      "Shoubin Li",
+      "Fanjiang Xu",
+      "Qing Wang"
+    ],
+    "published": "2025-04-30T03:14:50+00:00",
+    "summary": "In typical multi-agent reinforcement learning (MARL) problems, communication is important for agents to share information and make the right decisions. However, due to the complexity of training multi-agent communication, existing methods often fall into the dilemma of local optimization, which leads to the concentration of communication in a limited number of channels and presents an unbalanced structure. Such unbalanced communication policy are vulnerable to abnormal conditions, where the damage of critical communication channels can trigger the crash of the entire system. Inspired by decentralization theory in sociology, we propose DMAC, which enhances the robustness of multi-agent communication policies by retraining them into decentralized patterns. Specifically, we train an adversary DMAC\\_Adv which can dynamically identify and mask the critical communication channels, and then apply the adversarial samples generated by DMAC\\_Adv to the adversarial learning of the communication policy to force the policy in exploring other potential communication schemes and transition to a decentralized structure. As a training method to improve robustness, DMAC can be fused with any learnable communication policy algorithm. The experimental results in two communication policies and four multi-agent tasks demonstrate that DMAC achieves higher improvement on robustness and performance of communication policy compared with two state-of-the-art and commonly-used baselines. Also, the results demonstrate that DMAC can achieve decentralized communication structure with acceptable communication cost."
+  },
+  {
+    "title": "Reinforced MLLM: A Survey on RL-Based Reasoning in Multimodal Large Language Models",
+    "url": "http://arxiv.org/abs/2504.21277v1",
+    "arxiv_id": "2504.21277v1",
+    "authors": [
+      "Guanghao Zhou",
+      "Panjia Qiu",
+      "Cen Chen",
+      "Jie Wang",
+      "Zheming Yang",
+      "Jian Xu",
+      "Minghui Qiu"
+    ],
+    "published": "2025-04-30T03:14:28+00:00",
+    "summary": "The integration of reinforcement learning (RL) into the reasoning capabilities of Multimodal Large Language Models (MLLMs) has rapidly emerged as a transformative research direction. While MLLMs significantly extend Large Language Models (LLMs) to handle diverse modalities such as vision, audio, and video, enabling robust reasoning across multimodal inputs remains a major challenge. This survey systematically reviews recent advances in RL-based reasoning for MLLMs, covering key algorithmic designs, reward mechanism innovations, and practical applications. We highlight two main RL paradigms--value-free and value-based methods--and analyze how RL enhances reasoning abilities by optimizing reasoning trajectories and aligning multimodal information. Furthermore, we provide an extensive overview of benchmark datasets, evaluation protocols, and existing limitations, and propose future research directions to address current bottlenecks such as sparse rewards, inefficient cross-modal reasoning, and real-world deployment constraints. Our goal is to offer a comprehensive and structured guide to researchers interested in advancing RL-based reasoning in the multimodal era."
+  },
+  {
+    "title": "Phi-4-Mini-Reasoning: Exploring the Limits of Small Reasoning Language Models in Math",
+    "url": "http://arxiv.org/abs/2504.21233v1",
+    "arxiv_id": "2504.21233v1",
+    "authors": [
+      "Haoran Xu",
+      "Baolin Peng",
+      "Hany Awadalla",
+      "Dongdong Chen",
+      "Yen-Chun Chen",
+      "Mei Gao",
+      "Young Jin Kim",
+      "Yunsheng Li",
+      "Liliang Ren",
+      "Yelong Shen",
+      "Shuohang Wang",
+      "Weijian Xu",
+      "Jianfeng Gao",
+      "Weizhu Chen"
+    ],
+    "published": "2025-04-30T00:04:35+00:00",
+    "summary": "Chain-of-Thought (CoT) significantly enhances formal reasoning capabilities in Large Language Models (LLMs) by training them to explicitly generate intermediate reasoning steps. While LLMs readily benefit from such techniques, improving reasoning in Small Language Models (SLMs) remains challenging due to their limited model capacity. Recent work by Deepseek-R1 demonstrates that distillation from LLM-generated synthetic data can substantially improve the reasoning ability of SLM. However, the detailed modeling recipe is not disclosed. In this work, we present a systematic training recipe for SLMs that consists of four steps: (1) large-scale mid-training on diverse distilled long-CoT data, (2) supervised fine-tuning on high-quality long-CoT data, (3) Rollout DPO leveraging a carefully curated preference dataset, and (4) Reinforcement Learning (RL) with Verifiable Reward. We apply our method on Phi-4-Mini, a compact 3.8B-parameter model. The resulting Phi-4-Mini-Reasoning model exceeds, on math reasoning tasks, much larger reasoning models, e.g., outperforming DeepSeek-R1-Distill-Qwen-7B by 3.2 points and DeepSeek-R1-Distill-Llama-8B by 7.7 points on Math-500. Our results validate that a carefully designed training recipe, with large-scale high-quality CoT data, is effective to unlock strong reasoning capabilities even in resource-constrained small models."
+  },
+  {
+    "title": "Kimina Lean Server: Technical Report",
+    "url": "http://arxiv.org/abs/2504.21230v1",
+    "arxiv_id": "2504.21230v1",
+    "authors": [
+      "Marco Dos Santos",
+      "Haiming Wang",
+      "Hugues de Saxc\u00e9",
+      "Ran Wang",
+      "Mantas Baksys",
+      "Mert Unsal",
+      "Junqi Liu",
+      "Zhengying Liu",
+      "Jia Li"
+    ],
+    "published": "2025-04-29T23:43:59+00:00",
+    "summary": "We introduce the Kimina Lean Server, an open-source project that enables fast and scalable interaction with Lean 4 via a unified REST API, designed as a simple verifier for reinforcement learning pipelines. Built on top of the Lean FRO's LeanREPL, it combines server-side parallelization by managing multiple Lean REPL processes in parallel, with an LRU caching strategy that reuses Lean imports across multiple requests. These features help reduce initialization overhead and allow large-scale batch processing of Lean code. The client-side interface allows users to submit batches of proofs and receive Lean feedback, including extracted tactics and tactic states via infotree processing. These features enable a high-performance, scalable workflow for both interaction and extraction of proofs, tactics, and tactic states. We open source our implementation on GitHub."
+  },
+  {
+    "title": "CachePrune: Neural-Based Attribution Defense Against Indirect Prompt Injection Attacks",
+    "url": "http://arxiv.org/abs/2504.21228v1",
+    "arxiv_id": "2504.21228v1",
+    "authors": [
+      "Rui Wang",
+      "Junda Wu",
+      "Yu Xia",
+      "Tong Yu",
+      "Ruiyi Zhang",
+      "Ryan Rossi",
+      "Lina Yao",
+      "Julian McAuley"
+    ],
+    "published": "2025-04-29T23:42:21+00:00",
+    "summary": "Large Language Models (LLMs) are identified as being susceptible to indirect prompt injection attack, where the model undesirably deviates from user-provided instructions by executing tasks injected in the prompt context. This vulnerability stems from LLMs' inability to distinguish between data and instructions within a prompt. In this paper, we propose CachePrune that defends against this attack by identifying and pruning task-triggering neurons from the KV cache of the input prompt context. By pruning such neurons, we encourage the LLM to treat the text spans of input prompt context as only pure data, instead of any indicator of instruction following. These neurons are identified via feature attribution with a loss function induced from an upperbound of the Direct Preference Optimization (DPO) objective. We show that such a loss function enables effective feature attribution with only a few samples. We further improve on the quality of feature attribution, by exploiting an observed triggering effect in instruction following. Our approach does not impose any formatting on the original prompt or introduce extra test-time LLM calls. Experiments show that CachePrune significantly reduces attack success rates without compromising the response quality. Note: This paper aims to defend against indirect prompt injection attacks, with the goal of developing more secure and robust AI systems."
+  },
+  {
+    "title": "Learning Large-Scale Competitive Team Behaviors with Mean-Field Interactions",
+    "url": "http://arxiv.org/abs/2504.21164v1",
+    "arxiv_id": "2504.21164v1",
+    "authors": [
+      "Bhavini Jeloka",
+      "Yue Guan",
+      "Panagiotis Tsiotras"
+    ],
+    "published": "2025-04-29T20:31:59+00:00",
+    "summary": "State-of-the-art multi-agent reinforcement learning (MARL) algorithms such as MADDPG and MAAC fail to scale in situations where the number of agents becomes large. Mean-field theory has shown encouraging results in modeling macroscopic agent behavior for teams with a large number of agents through a continuum approximation of the agent population and its interaction with the environment. In this work, we extend proximal policy optimization (PPO) to the mean-field domain by introducing the Mean-Field Multi-Agent Proximal Policy Optimization (MF-MAPPO), a novel algorithm that utilizes the effectiveness of the finite-population mean-field approximation in the context of zero-sum competitive multi-agent games between two teams. The proposed algorithm can be easily scaled to hundreds and thousands of agents in each team as shown through numerical experiments. In particular, the algorithm is applied to realistic applications such as large-scale offense-defense battlefield scenarios."
+  },
+  {
+    "title": "How to Coordinate UAVs and UGVs for Efficient Mission Planning? Optimizing Energy-Constrained Cooperative Routing with a DRL Framework",
+    "url": "http://arxiv.org/abs/2504.21111v1",
+    "arxiv_id": "2504.21111v1",
+    "authors": [
+      "Md Safwan Mondal",
+      "Subramanian Ramasamy",
+      "Luca Russo",
+      "James D. Humann",
+      "James M. Dotterweich",
+      "Pranav Bhounsule"
+    ],
+    "published": "2025-04-29T18:43:59+00:00",
+    "summary": "Efficient mission planning for cooperative systems involving Unmanned Aerial Vehicles (UAVs) and Unmanned Ground Vehicles (UGVs) requires addressing energy constraints, scalability, and coordination challenges between agents. UAVs excel in rapidly covering large areas but are constrained by limited battery life, while UGVs, with their extended operational range and capability to serve as mobile recharging stations, are hindered by slower speeds. This heterogeneity makes coordination between UAVs and UGVs critical for achieving optimal mission outcomes. In this work, we propose a scalable deep reinforcement learning (DRL) framework to address the energy-constrained cooperative routing problem for multi-agent UAV-UGV teams, aiming to visit a set of task points in minimal time with UAVs relying on UGVs for recharging during the mission. The framework incorporates sortie-wise agent switching to efficiently manage multiple agents, by allocating task points and coordinating actions. Using an encoder-decoder transformer architecture, it optimizes routes and recharging rendezvous for the UAV-UGV team in the task scenario. Extensive computational experiments demonstrate the framework's superior performance over heuristic methods and a DRL baseline, delivering significant improvements in solution quality and runtime efficiency across diverse scenarios. Generalization studies validate its robustness, while dynamic scenario highlights its adaptability to real-time changes with a case study. This work advances UAV-UGV cooperative routing by providing a scalable, efficient, and robust solution for multi-agent mission planning."
+  },
+  {
     "title": "Toward Efficient Exploration by Large Language Model Agents",
     "url": "http://arxiv.org/abs/2504.20997v1",
     "arxiv_id": "2504.20997v1",
@@ -70,6 +505,21 @@
     ],
     "published": "2025-04-29T16:38:35+00:00",
     "summary": "Ensuring the safety of AI systems has recently emerged as a critical priority for real-world deployment, particularly in physical AI applications. Current approaches to AI safety typically address predefined domain-specific safety conditions, limiting their ability to generalize across contexts.   We propose a novel AI safety framework that ensures AI systems comply with \\textbf{any user-defined constraint}, with \\textbf{any desired probability}, and across \\textbf{various domains}.   In this framework, we combine an AI component (e.g., neural network) with an optimization problem to produce responses that minimize objectives while satisfying user-defined constraints with probabilities exceeding user-defined thresholds. For credibility assessment of the AI component, we propose \\textit{internal test data}, a supplementary set of safety-labeled data, and a \\textit{conservative testing} methodology that provides statistical validity of using internal test data. We also present an approximation method of a loss function and how to compute its gradient for training.   We mathematically prove that probabilistic constraint satisfaction is guaranteed under specific, mild conditions and prove a scaling law between safety and the number of internal test data. We demonstrate our framework's effectiveness through experiments in diverse domains: demand prediction for production decision, safe reinforcement learning within the SafetyGym simulator, and guarding AI chatbot outputs. Through these experiments, we demonstrate that our method guarantees safety for user-specified constraints, outperforms {for \\textbf{up to several order of magnitudes}} existing methods in low safety threshold regions, and scales effectively with respect to the size of internal test data."
+  },
+  {
+    "title": "Automated Parking Trajectory Generation Using Deep Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2504.21071v1",
+    "arxiv_id": "2504.21071v1",
+    "authors": [
+      "Zheyu Zhang",
+      "Yutong Luo",
+      "Yongzhou Chen",
+      "Haopeng Zhao",
+      "Zhichao Ma",
+      "Hao Liu"
+    ],
+    "published": "2025-04-29T15:25:34+00:00",
+    "summary": "Autonomous parking is a key technology in modern autonomous driving systems, requiring high precision, strong adaptability, and efficiency in complex environments. This paper proposes a Deep Reinforcement Learning (DRL) framework based on the Soft Actor-Critic (SAC) algorithm to optimize autonomous parking tasks. SAC, an off-policy method with entropy regularization, is particularly well-suited for continuous action spaces, enabling fine-grained vehicle control. We model the parking task as a Markov Decision Process (MDP) and train an agent to maximize cumulative rewards while balancing exploration and exploitation through entropy maximization. The proposed system integrates multiple sensor inputs into a high-dimensional state space and leverages SAC's dual critic networks and policy network to achieve stable learning. Simulation results show that the SAC-based approach delivers high parking success rates, reduced maneuver times, and robust handling of dynamic obstacles, outperforming traditional rule-based methods and other DRL algorithms. This study demonstrates SAC's potential in autonomous parking and lays the foundation for real-world applications."
   },
   {
     "title": "Reinforcement Learning for LLM Reasoning Under Memory Constraints",
@@ -255,6 +705,20 @@
     ],
     "published": "2025-04-29T01:01:14+00:00",
     "summary": "Embedding the intrinsic symmetry of a flow system in training its machine learning algorithms has become a significant trend in the recent surge of their application in fluid mechanics. This paper leverages the geometric symmetry of a four-roll mill (FRM) to enhance its training efficiency. Stabilizing and precisely controlling droplet trajectories in a FRM is challenging due to the unstable nature of the extensional flow with a saddle point. Extending the work of Vona & Lauga, this study applies Deep Reinforcement Learning (DRL) to effectively guide a displaced droplet to the center of the FRM. Through direct numerical simulations, we explore the applicability of DRL in controlling FRM flow with moderate inertial effects, i.e., Reynolds number $\\sim\\mathcal{O}(1)$, a nonlinear regime previously unexplored. The FRM's geometric symmetry allows control policies trained in one of the eight sub-quadrants to be extended to the entire domain, reducing training costs. Our results indicate that the DRL-based control method can successfully guide a displaced droplet to the target center with robust performance across various starting positions, even from substantially far distances. The work also highlights potential directions for future research, particularly focusing on efficiently addressing the delay effects in flow response caused by inertia. This study presents new advances in controlling droplet trajectories in more nonlinear and complex situations, with potential applications to other nonlinear flows. The geometric symmetry used in this cutting-edge reinforcement learning approach can also be applied to other control methods."
+  },
+  {
+    "title": "Multi-Agent Reinforcement Learning for Resources Allocation Optimization: A Survey",
+    "url": "http://arxiv.org/abs/2504.21048v1",
+    "arxiv_id": "2504.21048v1",
+    "authors": [
+      "Mohamad A. Hady",
+      "Siyi Hu",
+      "Mahardhika Pratama",
+      "Jimmy Cao",
+      "Ryszard Kowalczyk"
+    ],
+    "published": "2025-04-29T00:18:31+00:00",
+    "summary": "Multi-Agent Reinforcement Learning (MARL) has become a powerful framework for numerous real-world applications, modeling distributed decision-making and learning from interactions with complex environments. Resource Allocation Optimization (RAO) benefits significantly from MARL's ability to tackle dynamic and decentralized contexts. MARL-based approaches are increasingly applied to RAO challenges across sectors playing pivotal roles to Industry 4.0 developments. This survey provides a comprehensive review of recent MARL algorithms for RAO, encompassing core concepts, classifications, and a structured taxonomy. By outlining the current research landscape and identifying primary challenges and future directions, this survey aims to support researchers and practitioners in leveraging MARL's potential to advance resource allocation solutions."
   },
   {
     "title": "AI Recommendation Systems for Lane-Changing Using Adherence-Aware Reinforcement Learning",
