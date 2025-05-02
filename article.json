@@ -1,5 +1,250 @@
 [
   {
+    "title": "T2I-R1: Reinforcing Image Generation with Collaborative Semantic-level and Token-level CoT",
+    "url": "http://arxiv.org/abs/2505.00703v1",
+    "arxiv_id": "2505.00703v1",
+    "authors": [
+      "Dongzhi Jiang",
+      "Ziyu Guo",
+      "Renrui Zhang",
+      "Zhuofan Zong",
+      "Hao Li",
+      "Le Zhuo",
+      "Shilin Yan",
+      "Pheng-Ann Heng",
+      "Hongsheng Li"
+    ],
+    "published": "2025-05-01T17:59:46+00:00",
+    "summary": "Recent advancements in large language models have demonstrated how chain-of-thought (CoT) and reinforcement learning (RL) can improve performance. However, applying such reasoning strategies to the visual generation domain remains largely unexplored. In this paper, we present T2I-R1, a novel reasoning-enhanced text-to-image generation model, powered by RL with a bi-level CoT reasoning process. Specifically, we identify two levels of CoT that can be utilized to enhance different stages of generation: (1) the semantic-level CoT for high-level planning of the prompt and (2) the token-level CoT for low-level pixel processing during patch-by-patch generation. To better coordinate these two levels of CoT, we introduce BiCoT-GRPO with an ensemble of generation rewards, which seamlessly optimizes both generation CoTs within the same training step. By applying our reasoning strategies to the baseline model, Janus-Pro, we achieve superior performance with 13% improvement on T2I-CompBench and 19% improvement on the WISE benchmark, even surpassing the state-of-the-art model FLUX.1. Code is available at: https://github.com/CaraJ7/T2I-R1"
+  },
+  {
+    "title": "Multi-Constraint Safe Reinforcement Learning via Closed-form Solution for Log-Sum-Exp Approximation of Control Barrier Functions",
+    "url": "http://arxiv.org/abs/2505.00671v1",
+    "arxiv_id": "2505.00671v1",
+    "authors": [
+      "Chenggang Wang",
+      "Xinyi Wang",
+      "Yutong Dong",
+      "Lei Song",
+      "Xinping Guan"
+    ],
+    "published": "2025-05-01T17:22:11+00:00",
+    "summary": "The safety of training task policies and their subsequent application using reinforcement learning (RL) methods has become a focal point in the field of safe RL. A central challenge in this area remains the establishment of theoretical guarantees for safety during both the learning and deployment processes. Given the successful implementation of Control Barrier Function (CBF)-based safety strategies in a range of control-affine robotic systems, CBF-based safe RL demonstrates significant promise for practical applications in real-world scenarios. However, integrating these two approaches presents several challenges. First, embedding safety optimization within the RL training pipeline requires that the optimization outputs be differentiable with respect to the input parameters, a condition commonly referred to as differentiable optimization, which is non-trivial to solve. Second, the differentiable optimization framework confronts significant efficiency issues, especially when dealing with multi-constraint problems. To address these challenges, this paper presents a CBF-based safe RL architecture that effectively mitigates the issues outlined above. The proposed approach constructs a continuous AND logic approximation for the multiple constraints using a single composite CBF. By leveraging this approximation, a close-form solution of the quadratic programming is derived for the policy network in RL, thereby circumventing the need for differentiable optimization within the end-to-end safe RL pipeline. This strategy significantly reduces computational complexity because of the closed-form solution while maintaining safety guarantees. Simulation results demonstrate that, in comparison to existing approaches relying on differentiable optimization, the proposed method significantly reduces training computational costs while ensuring provable safety throughout the training process."
+  },
+  {
+    "title": "Deep Reinforcement Learning for Urban Air Quality Management: Multi-Objective Optimization of Pollution Mitigation Booth Placement in Metropolitan Environments",
+    "url": "http://arxiv.org/abs/2505.00668v1",
+    "arxiv_id": "2505.00668v1",
+    "authors": [
+      "Kirtan Rajesh",
+      "Suvidha Rupesh Kumar"
+    ],
+    "published": "2025-05-01T17:19:48+00:00",
+    "summary": "Urban air pollution remains a pressing global concern, particularly in densely populated and traffic-intensive metropolitan areas like Delhi, where exposure to harmful pollutants severely impacts public health. Delhi, being one of the most polluted cities globally, experiences chronic air quality issues due to vehicular emissions, industrial activities, and construction dust, which exacerbate its already fragile atmospheric conditions. Traditional pollution mitigation strategies, such as static air purifying installations, often fail to maximize their impact due to suboptimal placement and limited adaptability to dynamic urban environments. This study presents a novel deep reinforcement learning (DRL) framework to optimize the placement of air purification booths to improve the air quality index (AQI) in the city of Delhi. We employ Proximal Policy Optimization (PPO), a state-of-the-art reinforcement learning algorithm, to iteratively learn and identify high-impact locations based on multiple spatial and environmental factors, including population density, traffic patterns, industrial influence, and green space constraints. Our approach is benchmarked against conventional placement strategies, including random and greedy AQI-based methods, using multi-dimensional performance evaluation metrics such as AQI improvement, spatial coverage, population and traffic impact, and spatial entropy. Experimental results demonstrate that the RL-based approach outperforms baseline methods by achieving a balanced and effective distribution of air purification infrastructure. Notably, the DRL framework achieves an optimal trade-off between AQI reduction and high-coverage deployment, ensuring equitable environmental benefits across urban regions. The findings underscore the potential of AI-driven spatial optimization in advancing smart city initiatives and data-driven urban air quality management."
+  },
+  {
+    "title": "Wasserstein Policy Optimization",
+    "url": "http://arxiv.org/abs/2505.00663v1",
+    "arxiv_id": "2505.00663v1",
+    "authors": [
+      "David Pfau",
+      "Ian Davies",
+      "Diana Borsa",
+      "Joao G. M. Araujo",
+      "Brendan Tracey",
+      "Hado van Hasselt"
+    ],
+    "published": "2025-05-01T17:07:01+00:00",
+    "summary": "We introduce Wasserstein Policy Optimization (WPO), an actor-critic algorithm for reinforcement learning in continuous action spaces. WPO can be derived as an approximation to Wasserstein gradient flow over the space of all policies projected into a finite-dimensional parameter space (e.g., the weights of a neural network), leading to a simple and completely general closed-form update. The resulting algorithm combines many properties of deterministic and classic policy gradient methods. Like deterministic policy gradients, it exploits knowledge of the gradient of the action-value function with respect to the action. Like classic policy gradients, it can be applied to stochastic policies with arbitrary distributions over actions -- without using the reparameterization trick. We show results on the DeepMind Control Suite and a magnetic confinement fusion task which compare favorably with state-of-the-art continuous control methods."
+  },
+  {
+    "title": "DeepCritic: Deliberate Critique with Large Language Models",
+    "url": "http://arxiv.org/abs/2505.00662v1",
+    "arxiv_id": "2505.00662v1",
+    "authors": [
+      "Wenkai Yang",
+      "Jingwen Chen",
+      "Yankai Lin",
+      "Ji-Rong Wen"
+    ],
+    "published": "2025-05-01T17:03:17+00:00",
+    "summary": "As Large Language Models (LLMs) are rapidly evolving, providing accurate feedback and scalable oversight on their outputs becomes an urgent and critical problem. Leveraging LLMs as critique models to achieve automated supervision is a promising solution. In this work, we focus on studying and enhancing the math critique ability of LLMs. Current LLM critics provide critiques that are too shallow and superficial on each step, leading to low judgment accuracy and struggling to offer sufficient feedback for the LLM generator to correct mistakes. To tackle this issue, we propose a novel and effective two-stage framework to develop LLM critics that are capable of deliberately critiquing on each reasoning step of math solutions. In the first stage, we utilize Qwen2.5-72B-Instruct to generate 4.5K long-form critiques as seed data for supervised fine-tuning. Each seed critique consists of deliberate step-wise critiques that includes multi-perspective verifications as well as in-depth critiques of initial critiques for each reasoning step. Then, we perform reinforcement learning on the fine-tuned model with either existing human-labeled data from PRM800K or our automatically annotated data obtained via Monte Carlo sampling-based correctness estimation, to further incentivize its critique ability. Our developed critique model built on Qwen2.5-7B-Instruct not only significantly outperforms existing LLM critics (including the same-sized DeepSeek-R1-distill models and GPT-4o) on various error identification benchmarks, but also more effectively helps the LLM generator refine erroneous steps through more detailed feedback."
+  },
+  {
+    "title": "100 Days After DeepSeek-R1: A Survey on Replication Studies and More Directions for Reasoning Language Models",
+    "url": "http://arxiv.org/abs/2505.00551v1",
+    "arxiv_id": "2505.00551v1",
+    "authors": [
+      "Chong Zhang",
+      "Yue Deng",
+      "Xiang Lin",
+      "Bin Wang",
+      "Dianwen Ng",
+      "Hai Ye",
+      "Xingxuan Li",
+      "Yao Xiao",
+      "Zhanfeng Mo",
+      "Qi Zhang",
+      "Lidong Bing"
+    ],
+    "published": "2025-05-01T14:28:35+00:00",
+    "summary": "The recent development of reasoning language models (RLMs) represents a novel evolution in large language models. In particular, the recent release of DeepSeek-R1 has generated widespread social impact and sparked enthusiasm in the research community for exploring the explicit reasoning paradigm of language models. However, the implementation details of the released models have not been fully open-sourced by DeepSeek, including DeepSeek-R1-Zero, DeepSeek-R1, and the distilled small models. As a result, many replication studies have emerged aiming to reproduce the strong performance achieved by DeepSeek-R1, reaching comparable performance through similar training procedures and fully open-source data resources. These works have investigated feasible strategies for supervised fine-tuning (SFT) and reinforcement learning from verifiable rewards (RLVR), focusing on data preparation and method design, yielding various valuable insights. In this report, we provide a summary of recent replication studies to inspire future research. We primarily focus on SFT and RLVR as two main directions, introducing the details for data construction, method design and training procedure of current replication studies. Moreover, we conclude key findings from the implementation details and experimental results reported by these studies, anticipating to inspire future research. We also discuss additional techniques of enhancing RLMs, highlighting the potential of expanding the application scope of these models, and discussing the challenges in development. By this survey, we aim to help researchers and developers of RLMs stay updated with the latest advancements, and seek to inspire new ideas to further enhance RLMs."
+  },
+  {
+    "title": "Directly Forecasting Belief for Reinforcement Learning with Delays",
+    "url": "http://arxiv.org/abs/2505.00546v1",
+    "arxiv_id": "2505.00546v1",
+    "authors": [
+      "Qingyuan Wu",
+      "Yuhui Wang",
+      "Simon Sinong Zhan",
+      "Yixuan Wang",
+      "Chung-Wei Lin",
+      "Chen Lv",
+      "Qi Zhu",
+      "J\u00fcrgen Schmidhuber",
+      "Chao Huang"
+    ],
+    "published": "2025-05-01T14:20:48+00:00",
+    "summary": "Reinforcement learning (RL) with delays is challenging as sensory perceptions lag behind the actual events: the RL agent needs to estimate the real state of its environment based on past observations. State-of-the-art (SOTA) methods typically employ recursive, step-by-step forecasting of states. This can cause the accumulation of compounding errors. To tackle this problem, our novel belief estimation method, named Directly Forecasting Belief Transformer (DFBT), directly forecasts states from observations without incrementally estimating intermediate states step-by-step. We theoretically demonstrate that DFBT greatly reduces compounding errors of existing recursively forecasting methods, yielding stronger performance guarantees. In experiments with D4RL offline datasets, DFBT reduces compounding errors with remarkable prediction accuracy. DFBT's capability to forecast state sequences also facilitates multi-step bootstrapping, thus greatly improving learning efficiency. On the MuJoCo benchmark, our DFBT-based method substantially outperforms SOTA baselines."
+  },
+  {
+    "title": "Emergence of Roles in Robotic Teams with Model Sharing and Limited Communication",
+    "url": "http://arxiv.org/abs/2505.00540v1",
+    "arxiv_id": "2505.00540v1",
+    "authors": [
+      "Ian O'Flynn",
+      "Harun \u0160iljak"
+    ],
+    "published": "2025-05-01T14:05:46+00:00",
+    "summary": "We present a reinforcement learning strategy for use in multi-agent foraging systems in which the learning is centralised to a single agent and its model is periodically disseminated among the population of non-learning agents. In a domain where multi-agent reinforcement learning (MARL) is the common approach, this approach aims to significantly reduce the computational and energy demands compared to approaches such as MARL and centralised learning models. By developing high performing foraging agents, these approaches can be translated into real-world applications such as logistics, environmental monitoring, and autonomous exploration. A reward function was incorporated into this approach that promotes role development among agents, without explicit directives. This led to the differentiation of behaviours among the agents. The implicit encouragement of role differentiation allows for dynamic actions in which agents can alter roles dependent on their interactions with the environment without the need for explicit communication between agents."
+  },
+  {
+    "title": "Leveraging Partial SMILES Validation Scheme for Enhanced Drug Design in Reinforcement Learning Frameworks",
+    "url": "http://arxiv.org/abs/2505.00530v1",
+    "arxiv_id": "2505.00530v1",
+    "authors": [
+      "Xinyu Wang",
+      "Jinbo Bi",
+      "Minghu Song"
+    ],
+    "published": "2025-05-01T13:57:20+00:00",
+    "summary": "SMILES-based molecule generation has emerged as a powerful approach in drug discovery. Deep reinforcement learning (RL) using large language model (LLM) has been incorporated into the molecule generation process to achieve high matching score in term of likelihood of desired molecule candidates. However, a critical challenge in this approach is catastrophic forgetting during the RL phase, where knowledge such as molecule validity, which often exceeds 99\\% during pretraining, significantly deteriorates. Current RL algorithms applied in drug discovery, such as REINVENT, use prior models as anchors to retian pretraining knowledge, but these methods lack robust exploration mechanisms. To address these issues, we propose Partial SMILES Validation-PPO (PSV-PPO), a novel RL algorithm that incorporates real-time partial SMILES validation to prevent catastrophic forgetting while encouraging exploration. Unlike traditional RL approaches that validate molecule structures only after generating entire sequences, PSV-PPO performs stepwise validation at each auto-regressive step, evaluating not only the selected token candidate but also all potential branches stemming from the prior partial sequence. This enables early detection of invalid partial SMILES across all potential paths. As a result, PSV-PPO maintains high validity rates even during aggressive exploration of the vast chemical space. Our experiments on the PMO and GuacaMol benchmark datasets demonstrate that PSV-PPO significantly reduces the number of invalid generated structures while maintaining competitive exploration and optimization performance. While our work primarily focuses on maintaining validity, the framework of PSV-PPO can be extended in future research to incorporate additional forms of valuable domain knowledge, further enhancing reinforcement learning applications in drug discovery."
+  },
+  {
+    "title": "Variational OOD State Correction for Offline Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2505.00503v1",
+    "arxiv_id": "2505.00503v1",
+    "authors": [
+      "Ke Jiang",
+      "Wen Jiang",
+      "Xiaoyang Tan"
+    ],
+    "published": "2025-05-01T13:14:07+00:00",
+    "summary": "The performance of Offline reinforcement learning is significantly impacted by the issue of state distributional shift, and out-of-distribution (OOD) state correction is a popular approach to address this problem. In this paper, we propose a novel method named Density-Aware Safety Perception (DASP) for OOD state correction. Specifically, our method encourages the agent to prioritize actions that lead to outcomes with higher data density, thereby promoting its operation within or the return to in-distribution (safe) regions. To achieve this, we optimize the objective within a variational framework that concurrently considers both the potential outcomes of decision-making and their density, thus providing crucial contextual information for safe decision-making. Finally, we validate the effectiveness and feasibility of our proposed method through extensive experimental evaluations on the offline MuJoCo and AntMaze suites."
+  },
+  {
+    "title": "Implicit Neural-Representation Learning for Elastic Deformable-Object Manipulations",
+    "url": "http://arxiv.org/abs/2505.00500v1",
+    "arxiv_id": "2505.00500v1",
+    "authors": [
+      "Minseok Song",
+      "JeongHo Ha",
+      "Bonggyeong Park",
+      "Daehyung Park"
+    ],
+    "published": "2025-05-01T13:00:56+00:00",
+    "summary": "We aim to solve the problem of manipulating deformable objects, particularly elastic bands, in real-world scenarios. However, deformable object manipulation (DOM) requires a policy that works on a large state space due to the unlimited degree of freedom (DoF) of deformable objects. Further, their dense but partial observations (e.g., images or point clouds) may increase the sampling complexity and uncertainty in policy learning. To figure it out, we propose a novel implicit neural-representation (INR) learning for elastic DOMs, called INR-DOM. Our method learns consistent state representations associated with partially observable elastic objects reconstructing a complete and implicit surface represented as a signed distance function. Furthermore, we perform exploratory representation fine-tuning through reinforcement learning (RL) that enables RL algorithms to effectively learn exploitable representations while efficiently obtaining a DOM policy. We perform quantitative and qualitative analyses building three simulated environments and real-world manipulation studies with a Franka Emika Panda arm. Videos are available at http://inr-dom.github.io."
+  },
+  {
+    "title": "MULE: Multi-terrain and Unknown Load Adaptation for Effective Quadrupedal Locomotion",
+    "url": "http://arxiv.org/abs/2505.00488v1",
+    "arxiv_id": "2505.00488v1",
+    "authors": [
+      "Vamshi Kumar Kurva",
+      "Shishir Kolathaya"
+    ],
+    "published": "2025-05-01T12:41:35+00:00",
+    "summary": "Quadrupedal robots are increasingly deployed for load-carrying tasks across diverse terrains. While Model Predictive Control (MPC)-based methods can account for payload variations, they often depend on predefined gait schedules or trajectory generators, limiting their adaptability in unstructured environments. To address these limitations, we propose an Adaptive Reinforcement Learning (RL) framework that enables quadrupedal robots to dynamically adapt to both varying payloads and diverse terrains. The framework consists of a nominal policy responsible for baseline locomotion and an adaptive policy that learns corrective actions to preserve stability and improve command tracking under payload variations. We validate the proposed approach through large-scale simulation experiments in Isaac Gym and real-world hardware deployment on a Unitree Go1 quadruped. The controller was tested on flat ground, slopes, and stairs under both static and dynamic payload changes. Across all settings, our adaptive controller consistently outperformed the controller in tracking body height and velocity commands, demonstrating enhanced robustness and adaptability without requiring explicit gait design or manual tuning."
+  },
+  {
+    "title": "Approximation to Deep Q-Network by Stochastic Delay Differential Equations",
+    "url": "http://arxiv.org/abs/2505.00382v1",
+    "arxiv_id": "2505.00382v1",
+    "authors": [
+      "Jianya Lu",
+      "Yingjun Mo"
+    ],
+    "published": "2025-05-01T08:19:24+00:00",
+    "summary": "Despite the significant breakthroughs that the Deep Q-Network (DQN) has brought to reinforcement learning, its theoretical analysis remains limited. In this paper, we construct a stochastic differential delay equation (SDDE) based on the DQN algorithm and estimate the Wasserstein-1 distance between them. We provide an upper bound for the distance and prove that the distance between the two converges to zero as the step size approaches zero. This result allows us to understand DQN's two key techniques, the experience replay and the target network, from the perspective of continuous systems. Specifically, the delay term in the equation, corresponding to the target network, contributes to the stability of the system. Our approach leverages a refined Lindeberg principle and an operator comparison to establish these results."
+  },
+  {
+    "title": "Reinforcement Learning with Continuous Actions Under Unmeasured Confounding",
+    "url": "http://arxiv.org/abs/2505.00304v1",
+    "arxiv_id": "2505.00304v1",
+    "authors": [
+      "Yuhan Li",
+      "Eugene Han",
+      "Yifan Hu",
+      "Wenzhuo Zhou",
+      "Zhengling Qi",
+      "Yifan Cui",
+      "Ruoqing Zhu"
+    ],
+    "published": "2025-05-01T04:55:29+00:00",
+    "summary": "This paper addresses the challenge of offline policy learning in reinforcement learning with continuous action spaces when unmeasured confounders are present. While most existing research focuses on policy evaluation within partially observable Markov decision processes (POMDPs) and assumes discrete action spaces, we advance this field by establishing a novel identification result to enable the nonparametric estimation of policy value for a given target policy under an infinite-horizon framework. Leveraging this identification, we develop a minimax estimator and introduce a policy-gradient-based algorithm to identify the in-class optimal policy that maximizes the estimated policy value. Furthermore, we provide theoretical results regarding the consistency, finite-sample error bound, and regret bound of the resulting optimal policy. Extensive simulations and a real-world application using the German Family Panel data demonstrate the effectiveness of our proposed methodology."
+  },
+  {
+    "title": "Intelligent Task Scheduling for Microservices via A3C-Based Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2505.00299v1",
+    "arxiv_id": "2505.00299v1",
+    "authors": [
+      "Yang Wang",
+      "Tengda Tang",
+      "Zhou Fang",
+      "Yingnan Deng",
+      "Yifei Duan"
+    ],
+    "published": "2025-05-01T04:42:48+00:00",
+    "summary": "To address the challenges of high resource dynamism and intensive task concurrency in microservice systems, this paper proposes an adaptive resource scheduling method based on the A3C reinforcement learning algorithm. The scheduling problem is modeled as a Markov Decision Process, where policy and value networks are jointly optimized to enable fine-grained resource allocation under varying load conditions. The method incorporates an asynchronous multi-threaded learning mechanism, allowing multiple agents to perform parallel sampling and synchronize updates to the global network parameters. This design improves both policy convergence efficiency and model stability. In the experimental section, a real-world dataset is used to construct a scheduling scenario. The proposed method is compared with several typical approaches across multiple evaluation metrics, including task delay, scheduling success rate, resource utilization, and convergence speed. The results show that the proposed method delivers high scheduling performance and system stability in multi-task concurrent environments. It effectively alleviates the resource allocation bottlenecks faced by traditional methods under heavy load, demonstrating its practical value for intelligent scheduling in microservice systems."
+  },
+  {
+    "title": "Investigating Adaptive Tuning of Assistive Exoskeletons Using Offline Reinforcement Learning: Challenges and Insights",
+    "url": "http://arxiv.org/abs/2505.00201v1",
+    "arxiv_id": "2505.00201v1",
+    "authors": [
+      "Yasin Findik",
+      "Christopher Coco",
+      "Reza Azadeh"
+    ],
+    "published": "2025-04-30T21:59:56+00:00",
+    "summary": "Assistive exoskeletons have shown great potential in enhancing mobility for individuals with motor impairments, yet their effectiveness relies on precise parameter tuning for personalized assistance. In this study, we investigate the potential of offline reinforcement learning for optimizing effort thresholds in upper-limb assistive exoskeletons, aiming to reduce reliance on manual calibration. Specifically, we frame the problem as a multi-agent system where separate agents optimize biceps and triceps effort thresholds, enabling a more adaptive and data-driven approach to exoskeleton control. Mixed Q-Functionals (MQF) is employed to efficiently handle continuous action spaces while leveraging pre-collected data, thereby mitigating the risks associated with real-time exploration. Experiments were conducted using the MyoPro 2 exoskeleton across two distinct tasks involving horizontal and vertical arm movements. Our results indicate that the proposed approach can dynamically adjust threshold values based on learned patterns, potentially improving user interaction and control, though performance evaluation remains challenging due to dataset limitations."
+  },
+  {
+    "title": "Neuroevolution of Self-Attention Over Proto-Objects",
+    "url": "http://arxiv.org/abs/2505.00186v1",
+    "arxiv_id": "2505.00186v1",
+    "authors": [
+      "Rafael C. Pinto",
+      "Anderson R. Tavares"
+    ],
+    "published": "2025-04-30T21:01:20+00:00",
+    "summary": "Proto-objects - image regions that share common visual properties - offer a promising alternative to traditional attention mechanisms based on rectangular-shaped image patches in neural networks. Although previous work demonstrated that evolving a patch-based hard-attention module alongside a controller network could achieve state-of-the-art performance in visual reinforcement learning tasks, our approach leverages image segmentation to work with higher-level features. By operating on proto-objects rather than fixed patches, we significantly reduce the representational complexity: each image decomposes into fewer proto-objects than regular patches, and each proto-object can be efficiently encoded as a compact feature vector. This enables a substantially smaller self-attention module that processes richer semantic information. Our experiments demonstrate that this proto-object-based approach matches or exceeds the state-of-the-art performance of patch-based implementations with 62% less parameters and 2.6 times less training time."
+  },
+  {
+    "title": "Deep Reinforcement Learning Policies for Underactuated Satellite Attitude Control",
+    "url": "http://arxiv.org/abs/2505.00165v1",
+    "arxiv_id": "2505.00165v1",
+    "authors": [
+      "Matteo El Hariry",
+      "Andrea Cini",
+      "Giacomo Mellone",
+      "Alessandro Balossino"
+    ],
+    "published": "2025-04-30T20:24:49+00:00",
+    "summary": "Autonomy is a key challenge for future space exploration endeavours. Deep Reinforcement Learning holds the promises for developing agents able to learn complex behaviours simply by interacting with their environment. This paper investigates the use of Reinforcement Learning for the satellite attitude control problem, namely the angular reorientation of a spacecraft with respect to an in- ertial frame of reference. In the proposed approach, a set of control policies are implemented as neural networks trained with a custom version of the Proximal Policy Optimization algorithm to maneuver a small satellite from a random starting angle to a given pointing target. In particular, we address the problem for two working conditions: the nominal case, in which all the actuators (a set of 3 reac- tion wheels) are working properly, and the underactuated case, where an actuator failure is simulated randomly along with one of the axes. We show that the agents learn to effectively perform large-angle slew maneuvers with fast convergence and industry-standard pointing accuracy. Furthermore, we test the proposed method on representative hardware, showing that by taking adequate measures controllers trained in simulation can perform well in real systems."
+  },
+  {
     "title": "DeepSeek-Prover-V2: Advancing Formal Mathematical Reasoning via Reinforcement Learning for Subgoal Decomposition",
     "url": "http://arxiv.org/abs/2504.21801v1",
     "arxiv_id": "2504.21801v1",
@@ -139,6 +384,18 @@
     ],
     "published": "2025-04-30T12:44:38+00:00",
     "summary": "This paper tackles the challenge of learning multi-goal dexterous hand manipulation tasks using model-based Reinforcement Learning. We propose Goal-Conditioned Probabilistic Model Predictive Control (GC-PMPC) by designing probabilistic neural network ensembles to describe the high-dimensional dexterous hand dynamics and introducing an asynchronous MPC policy to meet the control frequency requirements in real-world dexterous hand systems. Extensive evaluations on four simulated Shadow Hand manipulation scenarios with randomly generated goals demonstrate GC-PMPC's superior performance over state-of-the-art baselines. It successfully drives a cable-driven Dexterous hand, DexHand 021 with 12 Active DOFs and 5 tactile sensors, to learn manipulating a cubic die to three goal poses within approximately 80 minutes of interactions, demonstrating exceptional learning efficiency and control performance on a cost-effective dexterous hand platform."
+  },
+  {
+    "title": "TinyMA-IEI-PPO: Exploration Incentive-Driven Multi-Agent DRL with Self-Adaptive Pruning for Vehicular Embodied AI Agent Twins Migration",
+    "url": "http://arxiv.org/abs/2505.00055v1",
+    "arxiv_id": "2505.00055v1",
+    "authors": [
+      "Zhuoqi Zeng",
+      "Yuxiang Wei",
+      "Jiawen Kang"
+    ],
+    "published": "2025-04-30T11:22:29+00:00",
+    "summary": "Embodied Artificial Intelligence (EAI) addresses autonomous driving challenges in Vehicular Embodied AI Networks (VEANETs) through multi-modal perception, adaptive decision-making, and hardware-software co-scheduling. However, the computational demands of virtual services and the inherent mobility of autonomous vehicles (AVs) necessitate real-time migration of Vehicular Embodied Agent AI Twins (VEAATs) between resource-constrained Roadside Units (RSUs). This paper proposes a novel framework for efficient VEAAT migration in VEANETs, combining a multi-leader multi-follower (MLMF) Stackelberg game-theoretic incentive mechanism with a tiny multi-agent deep reinforcement learning (MADRL) algorithm. First, We propose an virtual immersive experience-driven utility model that captures AV-RSU dynamic interactions by integrating AVs' social influence, service complementarity and substitutability, and RSUs' resource allocation strategies to optimize VEAAT migration decisions. Second, to enhance training efficiency and enable efficient deployment on computation-constrained AVs while preserving exploration-exploitation performance, we propose TinyMA-IEI-PPO, a self-adaptive dynamic structured pruning algorithm that dynamically adjusts neuron importance based on agents' exploration incentives. Numerical results demonstrate that our approach achieves convergence comparable to baseline models and closely approximates the Stackelberg equilibrium."
   },
   {
     "title": "SimPRIVE: a Simulation framework for Physical Robot Interaction with Virtual Environments",
@@ -315,6 +572,17 @@
     ],
     "published": "2025-04-30T04:13:03+00:00",
     "summary": "Identifying bias in LLM-generated content is a crucial prerequisite for ensuring fairness in LLMs. Existing methods, such as fairness classifiers and LLM-based judges, face limitations related to difficulties in understanding underlying intentions and the lack of criteria for fairness judgment. In this paper, we introduce BiasGuard, a novel bias detection tool that explicitly analyzes inputs and reasons through fairness specifications to provide accurate judgments. BiasGuard is implemented through a two-stage approach: the first stage initializes the model to explicitly reason based on fairness specifications, while the second stage leverages reinforcement learning to enhance its reasoning and judgment capabilities. Our experiments, conducted across five datasets, demonstrate that BiasGuard outperforms existing tools, improving accuracy and reducing over-fairness misjudgments. We also highlight the importance of reasoning-enhanced decision-making and provide evidence for the effectiveness of our two-stage optimization pipeline."
+  },
+  {
+    "title": "Base Models Beat Aligned Models at Randomness and Creativity",
+    "url": "http://arxiv.org/abs/2505.00047v1",
+    "arxiv_id": "2505.00047v1",
+    "authors": [
+      "Peter West",
+      "Christopher Potts"
+    ],
+    "published": "2025-04-30T03:41:55+00:00",
+    "summary": "Alignment has quickly become a default ingredient in LLM development, with techniques such as reinforcement learning from human feedback making models act safely, follow instructions, and perform ever-better on complex tasks. While these techniques are certainly useful, we propose that they should not be universally applied and demonstrate a range of tasks on which base language models consistently outperform their popular aligned forms. Particularly, we study tasks that require unpredictable outputs, such as random number generation, mixed strategy games (rock-paper-scissors and hide-and-seek), and creative writing. In each case, aligned models tend towards narrow behaviors that result in distinct disadvantages, for instance, preferring to generate \"7\" over other uniformly random numbers, becoming almost fully predictable in some game states, or prioritizing pleasant writing over creative originality. Across models tested, better performance on common benchmarks tends to correlate with worse performance on our tasks, suggesting an effective trade-off in the required capabilities."
   },
   {
     "title": "Robust Multi-agent Communication Based on Decentralization-Oriented Adversarial Training",
