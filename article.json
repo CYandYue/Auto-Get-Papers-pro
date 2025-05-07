@@ -1,5 +1,436 @@
 [
   {
+    "title": "AMO: Adaptive Motion Optimization for Hyper-Dexterous Humanoid Whole-Body Control",
+    "url": "http://arxiv.org/abs/2505.03738v1",
+    "arxiv_id": "2505.03738v1",
+    "authors": [
+      "Jialong Li",
+      "Xuxin Cheng",
+      "Tianshu Huang",
+      "Shiqi Yang",
+      "Ri-Zhao Qiu",
+      "Xiaolong Wang"
+    ],
+    "published": "2025-05-06T17:59:51+00:00",
+    "summary": "Humanoid robots derive much of their dexterity from hyper-dexterous whole-body movements, enabling tasks that require a large operational workspace: such as picking objects off the ground. However, achieving these capabilities on real humanoids remains challenging due to their high degrees of freedom (DoF) and nonlinear dynamics. We propose Adaptive Motion Optimization (AMO), a framework that integrates sim-to-real reinforcement learning (RL) with trajectory optimization for real-time, adaptive whole-body control. To mitigate distribution bias in motion imitation RL, we construct a hybrid AMO dataset and train a network capable of robust, on-demand adaptation to potentially O.O.D. commands. We validate AMO in simulation and on a 29-DoF Unitree G1 humanoid robot, demonstrating superior stability and an expanded workspace compared to strong baselines. Finally, we show that AMO's consistent performance supports autonomous task execution via imitation learning, underscoring the system's versatility and robustness."
+  },
+  {
+    "title": "Sustainable Smart Farm Networks: Enhancing Resilience and Efficiency with Decision Theory-Guided Deep Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2505.03721v1",
+    "arxiv_id": "2505.03721v1",
+    "authors": [
+      "Dian Chen",
+      "Zelin Wan",
+      "Dong Sam Ha",
+      "Jin-Hee Cho"
+    ],
+    "published": "2025-05-06T17:49:06+00:00",
+    "summary": "Solar sensor-based monitoring systems have become a crucial agricultural innovation, advancing farm management and animal welfare through integrating sensor technology, Internet-of-Things, and edge and cloud computing. However, the resilience of these systems to cyber-attacks and their adaptability to dynamic and constrained energy supplies remain largely unexplored. To address these challenges, we propose a sustainable smart farm network designed to maintain high-quality animal monitoring under various cyber and adversarial threats, as well as fluctuating energy conditions. Our approach utilizes deep reinforcement learning (DRL) to devise optimal policies that maximize both monitoring effectiveness and energy efficiency. To overcome DRL's inherent challenge of slow convergence, we integrate transfer learning (TL) and decision theory (DT) to accelerate the learning process. By incorporating DT-guided strategies, we optimize monitoring quality and energy sustainability, significantly reducing training time while achieving comparable performance rewards. Our experimental results prove that DT-guided DRL outperforms TL-enhanced DRL models, improving system performance and reducing training runtime by 47.5%."
+  },
+  {
+    "title": "Actor-Critics Can Achieve Optimal Sample Efficiency",
+    "url": "http://arxiv.org/abs/2505.03710v1",
+    "arxiv_id": "2505.03710v1",
+    "authors": [
+      "Kevin Tan",
+      "Wei Fan",
+      "Yuting Wei"
+    ],
+    "published": "2025-05-06T17:32:39+00:00",
+    "summary": "Actor-critic algorithms have become a cornerstone in reinforcement learning (RL), leveraging the strengths of both policy-based and value-based methods. Despite recent progress in understanding their statistical efficiency, no existing work has successfully learned an $\\epsilon$-optimal policy with a sample complexity of $O(1/\\epsilon^2)$ trajectories with general function approximation when strategic exploration is necessary.   We address this open problem by introducing a novel actor-critic algorithm that attains a sample-complexity of $O(dH^5 \\log|\\mathcal{A}|/\\epsilon^2 + d H^4 \\log|\\mathcal{F}|/ \\epsilon^2)$ trajectories, and accompanying $\\sqrt{T}$ regret when the Bellman eluder dimension $d$ does not increase with $T$ at more than a $\\log T$ rate.   Here, $\\mathcal{F}$ is the critic function class, $\\mathcal{A}$ is the action space, and $H$ is the horizon in the finite horizon MDP setting. Our algorithm integrates optimism, off-policy critic estimation targeting the optimal Q-function, and rare-switching policy resets.   We extend this to the setting of Hybrid RL, showing that initializing the critic with offline data yields sample efficiency gains compared to purely offline or online RL. Further, utilizing access to offline data, we provide a \\textit{non-optimistic} provably efficient actor-critic algorithm that only additionally requires $N_{\\text{off}} \\geq c_{\\text{off}}^*dH^4/\\epsilon^2$ in exchange for omitting optimism, where $c_{\\text{off}}^*$ is the single-policy concentrability coefficient and $N_{\\text{off}}$ is the number of offline samples. This addresses another open problem in the literature. We further provide numerical experiments to support our theoretical findings."
+  },
+  {
+    "title": "Policy Gradient Adaptive Control for the LQR: Indirect and Direct Approaches",
+    "url": "http://arxiv.org/abs/2505.03706v1",
+    "arxiv_id": "2505.03706v1",
+    "authors": [
+      "Feiran Zhao",
+      "Alessandro Chiuso",
+      "Florian D\u00f6rfler"
+    ],
+    "published": "2025-05-06T17:26:04+00:00",
+    "summary": "Motivated by recent advances of reinforcement learning and direct data-driven control, we propose policy gradient adaptive control (PGAC) for the linear quadratic regulator (LQR), which uses online closed-loop data to improve the control policy while maintaining stability. Our method adaptively updates the policy in feedback by descending the gradient of the LQR cost and is categorized as indirect, when gradients are computed via an estimated model, versus direct, when gradients are derived from data using sample covariance parameterization. Beyond the vanilla gradient, we also showcase the merits of the natural gradient and Gauss-Newton methods for the policy update. Notably, natural gradient descent bridges the indirect and direct PGAC, and the Gauss-Newton method of the indirect PGAC leads to an adaptive version of the celebrated Hewer's algorithm. To account for the uncertainty from noise, we propose a regularization method for both indirect and direct PGAC. For all the considered PGAC approaches, we show closed-loop stability and convergence of the policy to the optimal LQR gain. Simulations validate our theoretical findings and demonstrate the robustness and computational efficiency of PGAC."
+  },
+  {
+    "title": "RoboOS: A Hierarchical Embodied Framework for Cross-Embodiment and Multi-Agent Collaboration",
+    "url": "http://arxiv.org/abs/2505.03673v1",
+    "arxiv_id": "2505.03673v1",
+    "authors": [
+      "Huajie Tan",
+      "Xiaoshuai Hao",
+      "Minglan Lin",
+      "Pengwei Wang",
+      "Yaoxu Lyu",
+      "Mingyu Cao",
+      "Zhongyuan Wang",
+      "Shanghang Zhang"
+    ],
+    "published": "2025-05-06T16:11:49+00:00",
+    "summary": "The dawn of embodied intelligence has ushered in an unprecedented imperative for resilient, cognition-enabled multi-agent collaboration across next-generation ecosystems, revolutionizing paradigms in autonomous manufacturing, adaptive service robotics, and cyber-physical production architectures. However, current robotic systems face significant limitations, such as limited cross-embodiment adaptability, inefficient task scheduling, and insufficient dynamic error correction. While End-to-end VLA models demonstrate inadequate long-horizon planning and task generalization, hierarchical VLA models suffer from a lack of cross-embodiment and multi-agent coordination capabilities. To address these challenges, we introduce RoboOS, the first open-source embodied system built on a Brain-Cerebellum hierarchical architecture, enabling a paradigm shift from single-agent to multi-agent intelligence. Specifically, RoboOS consists of three key components: (1) Embodied Brain Model (RoboBrain), a MLLM designed for global perception and high-level decision-making; (2) Cerebellum Skill Library, a modular, plug-and-play toolkit that facilitates seamless execution of multiple skills; and (3) Real-Time Shared Memory, a spatiotemporal synchronization mechanism for coordinating multi-agent states. By integrating hierarchical information flow, RoboOS bridges Embodied Brain and Cerebellum Skill Library, facilitating robust planning, scheduling, and error correction for long-horizon tasks, while ensuring efficient multi-agent collaboration through Real-Time Shared Memory. Furthermore, we enhance edge-cloud communication and cloud-based distributed inference to facilitate high-frequency interactions and enable scalable deployment. Extensive real-world experiments across various scenarios, demonstrate RoboOS's versatility in supporting heterogeneous embodiments. Project website: https://github.com/FlagOpen/RoboOS"
+  },
+  {
+    "title": "Rainbow Delay Compensation: A Multi-Agent Reinforcement Learning Framework for Mitigating Delayed Observation",
+    "url": "http://arxiv.org/abs/2505.03586v1",
+    "arxiv_id": "2505.03586v1",
+    "authors": [
+      "Songchen Fu",
+      "Siang Chen",
+      "Shaojing Zhao",
+      "Letian Bai",
+      "Ta Li",
+      "Yonghong Yan"
+    ],
+    "published": "2025-05-06T14:47:56+00:00",
+    "summary": "In real-world multi-agent systems (MASs), observation delays are ubiquitous, preventing agents from making decisions based on the environment's true state. An individual agent's local observation often consists of multiple components from other agents or dynamic entities in the environment. These discrete observation components with varying delay characteristics pose significant challenges for multi-agent reinforcement learning (MARL). In this paper, we first formulate the decentralized stochastic individual delay partially observable Markov decision process (DSID-POMDP) by extending the standard Dec-POMDP. We then propose the Rainbow Delay Compensation (RDC), a MARL training framework for addressing stochastic individual delays, along with recommended implementations for its constituent modules. We implement the DSID-POMDP's observation generation pattern using standard MARL benchmarks, including MPE and SMAC. Experiments demonstrate that baseline MARL methods suffer severe performance degradation under fixed and unfixed delays. The RDC-enhanced approach mitigates this issue, remarkably achieving ideal delay-free performance in certain delay scenarios while maintaining generalization capability. Our work provides a novel perspective on multi-agent delayed observation problems and offers an effective solution framework."
+  },
+  {
+    "title": "DyGEnc: Encoding a Sequence of Textual Scene Graphs to Reason and Answer Questions in Dynamic Scenes",
+    "url": "http://arxiv.org/abs/2505.03581v1",
+    "arxiv_id": "2505.03581v1",
+    "authors": [
+      "Sergey Linok",
+      "Vadim Semenov",
+      "Anastasia Trunova",
+      "Oleg Bulichev",
+      "Dmitry Yudin"
+    ],
+    "published": "2025-05-06T14:41:42+00:00",
+    "summary": "The analysis of events in dynamic environments poses a fundamental challenge in the development of intelligent agents and robots capable of interacting with humans. Current approaches predominantly utilize visual models. However, these methods often capture information implicitly from images, lacking interpretable spatial-temporal object representations. To address this issue we introduce DyGEnc - a novel method for Encoding a Dynamic Graph. This method integrates compressed spatial-temporal structural observation representation with the cognitive capabilities of large language models. The purpose of this integration is to enable advanced question answering based on a sequence of textual scene graphs. Extended evaluations on the STAR and AGQA datasets indicate that DyGEnc outperforms existing visual methods by a large margin of 15-25% in addressing queries regarding the history of human-to-object interactions. Furthermore, the proposed method can be seamlessly extended to process raw input images utilizing foundational models for extracting explicit textual scene graphs, as substantiated by the results of a robotic experiment conducted with a wheeled manipulator platform. We hope that these findings will contribute to the implementation of robust and compressed graph-based robotic memory for long-horizon reasoning. Code is available at github.com/linukc/DyGEnc."
+  },
+  {
+    "title": "Ergodic Generative Flows",
+    "url": "http://arxiv.org/abs/2505.03561v1",
+    "arxiv_id": "2505.03561v1",
+    "authors": [
+      "Leo Maxime Brunswic",
+      "Mateo Clemente",
+      "Rui Heng Yang",
+      "Adam Sigal",
+      "Amir Rasouli",
+      "Yinchuan Li"
+    ],
+    "published": "2025-05-06T14:13:21+00:00",
+    "summary": "Generative Flow Networks (GFNs) were initially introduced on directed acyclic graphs to sample from an unnormalized distribution density. Recent works have extended the theoretical framework for generative methods allowing more flexibility and enhancing application range. However, many challenges remain in training GFNs in continuous settings and for imitation learning (IL), including intractability of flow-matching loss, limited tests of non-acyclic training, and the need for a separate reward model in imitation learning. The present work proposes a family of generative flows called Ergodic Generative Flows (EGFs) which are used to address the aforementioned issues. First, we leverage ergodicity to build simple generative flows with finitely many globally defined transformations (diffeomorphisms) with universality guarantees and tractable flow-matching loss (FM loss). Second, we introduce a new loss involving cross-entropy coupled to weak flow-matching control, coined KL-weakFM loss. It is designed for IL training without a separate reward model. We evaluate IL-EGFs on toy 2D tasks and real-world datasets from NASA on the sphere, using the KL-weakFM loss. Additionally, we conduct toy 2D reinforcement learning experiments with a target reward, using the FM loss."
+  },
+  {
+    "title": "Multi-Agent Reinforcement Learning Scheduling to Support Low Latency in Teleoperated Driving",
+    "url": "http://arxiv.org/abs/2505.03558v1",
+    "arxiv_id": "2505.03558v1",
+    "authors": [
+      "Giacomo Avanzi",
+      "Marco Giordani",
+      "Michele Zorzi"
+    ],
+    "published": "2025-05-06T14:11:21+00:00",
+    "summary": "The teleoperated driving (TD) scenario comes with stringent Quality of Service (QoS) communication constraints, especially in terms of end-to-end (E2E) latency and reliability. In this context, Predictive Quality of Service (PQoS), possibly combined with Reinforcement Learning (RL) techniques, is a powerful tool to estimate QoS degradation and react accordingly. For example, an intelligent agent can be trained to select the optimal compression configuration for automotive data, and reduce the file size whenever QoS conditions deteriorate. However, compression may inevitably compromise data quality, with negative implications for the TD application. An alternative strategy involves operating at the Radio Access Network (RAN) level to optimize radio parameters based on current network conditions, while preserving data quality. In this paper, we propose Multi-Agent Reinforcement Learning (MARL) scheduling algorithms, based on Proximal Policy Optimization (PPO), to dynamically and intelligently allocate radio resources to minimize E2E latency in a TD scenario. We evaluate two training paradigms, i.e., decentralized learning with local observations (IPPO) vs. centralized aggregation (MAPPO), in conjunction with two resource allocation strategies, i.e., proportional allocation (PA) and greedy allocation (GA). We prove via ns-3 simulations that MAPPO, combined with GA, achieves the best results in terms of latency, especially as the number of vehicles increases."
+  },
+  {
+    "title": "Small-Scale-Fading-Aware Resource Allocation in Wireless Federated Learning",
+    "url": "http://arxiv.org/abs/2505.03533v1",
+    "arxiv_id": "2505.03533v1",
+    "authors": [
+      "Jiacheng Wang",
+      "Le Liang",
+      "Hao Ye",
+      "Chongtao Guo",
+      "Shi Jin"
+    ],
+    "published": "2025-05-06T13:41:59+00:00",
+    "summary": "Judicious resource allocation can effectively enhance federated learning (FL) training performance in wireless networks by addressing both system and statistical heterogeneity. However, existing strategies typically rely on block fading assumptions, which overlooks rapid channel fluctuations within each round of FL gradient uploading, leading to a degradation in FL training performance. Therefore, this paper proposes a small-scale-fading-aware resource allocation strategy using a multi-agent reinforcement learning (MARL) framework. Specifically, we establish a one-step convergence bound of the FL algorithm and formulate the resource allocation problem as a decentralized partially observable Markov decision process (Dec-POMDP), which is subsequently solved using the QMIX algorithm. In our framework, each client serves as an agent that dynamically determines spectrum and power allocations within each coherence time slot, based on local observations and a reward derived from the convergence analysis. The MARL setting reduces the dimensionality of the action space and facilitates decentralized decision-making, enhancing the scalability and practicality of the solution. Experimental results demonstrate that our QMIX-based resource allocation strategy significantly outperforms baseline methods across various degrees of statistical heterogeneity. Additionally, ablation studies validate the critical importance of incorporating small-scale fading dynamics, highlighting its role in optimizing FL performance."
+  },
+  {
+    "title": "The Steganographic Potentials of Language Models",
+    "url": "http://arxiv.org/abs/2505.03439v1",
+    "arxiv_id": "2505.03439v1",
+    "authors": [
+      "Artem Karpov",
+      "Tinuade Adeleke",
+      "Seong Hah Cho",
+      "Natalia Perez-Campanero"
+    ],
+    "published": "2025-05-06T11:25:52+00:00",
+    "summary": "The potential for large language models (LLMs) to hide messages within plain text (steganography) poses a challenge to detection and thwarting of unaligned AI agents, and undermines faithfulness of LLMs reasoning. We explore the steganographic capabilities of LLMs fine-tuned via reinforcement learning (RL) to: (1) develop covert encoding schemes, (2) engage in steganography when prompted, and (3) utilize steganography in realistic scenarios where hidden reasoning is likely, but not prompted. In these scenarios, we detect the intention of LLMs to hide their reasoning as well as their steganography performance. Our findings in the fine-tuning experiments as well as in behavioral non fine-tuning evaluations reveal that while current models exhibit rudimentary steganographic abilities in terms of security and capacity, explicit algorithmic guidance markedly enhances their capacity for information concealment."
+  },
+  {
+    "title": "Wasserstein Convergence of Score-based Generative Models under Semiconvexity and Discontinuous Gradients",
+    "url": "http://arxiv.org/abs/2505.03432v1",
+    "arxiv_id": "2505.03432v1",
+    "authors": [
+      "Stefano Bruno",
+      "Sotirios Sabanis"
+    ],
+    "published": "2025-05-06T11:17:15+00:00",
+    "summary": "Score-based Generative Models (SGMs) approximate a data distribution by perturbing it with Gaussian noise and subsequently denoising it via a learned reverse diffusion process. These models excel at modeling complex data distributions and generating diverse samples, achieving state-of-the-art performance across domains such as computer vision, audio generation, reinforcement learning, and computational biology. Despite their empirical success, existing Wasserstein-2 convergence analysis typically assume strong regularity conditions-such as smoothness or strict log-concavity of the data distribution-that are rarely satisfied in practice. In this work, we establish the first non-asymptotic Wasserstein-2 convergence guarantees for SGMs targeting semiconvex distributions with potentially discontinuous gradients. Our upper bounds are explicit and sharp in key parameters, achieving optimal dependence of $O(\\sqrt{d})$ on the data dimension $d$ and convergence rate of order one. The framework accommodates a wide class of practically relevant distributions, including symmetric modified half-normal distributions, Gaussian mixtures, double-well potentials, and elastic net potentials. By leveraging semiconvexity without requiring smoothness assumptions on the potential such as differentiability, our results substantially broaden the theoretical foundations of SGMs, bridging the gap between empirical success and rigorous guarantees in non-smooth, complex data regimes."
+  },
+  {
+    "title": "Mitigating Image Captioning Hallucinations in Vision-Language Models",
+    "url": "http://arxiv.org/abs/2505.03420v1",
+    "arxiv_id": "2505.03420v1",
+    "authors": [
+      "Fei Zhao",
+      "Chengcui Zhang",
+      "Runlin Zhang",
+      "Tianyang Wang",
+      "Xi Li"
+    ],
+    "published": "2025-05-06T10:55:21+00:00",
+    "summary": "Hallucinations in vision-language models (VLMs) hinder reliability and real-world applicability, usually stemming from distribution shifts between pretraining data and test samples. Existing solutions, such as retraining or fine-tuning on additional data, demand significant computational resources and labor-intensive data collection, while ensemble-based methods incur additional costs by introducing auxiliary VLMs. To address these challenges, we propose a novel test-time adaptation framework using reinforcement learning to mitigate hallucinations during inference without retraining or any auxiliary VLMs. By updating only the learnable parameters in the layer normalization of the language model (approximately 0.003% of the model parameters), our method reduces distribution shifts between test samples and pretraining samples. A CLIP-based hallucination evaluation model is proposed to provide dual rewards to VLMs. Experimental results demonstrate a 15.4% and 17.3% reduction in hallucination rates on LLaVA and InstructBLIP, respectively. Our approach outperforms state-of-the-art baselines with a 68.3% improvement in hallucination mitigation, demonstrating its effectiveness."
+  },
+  {
+    "title": "Effective Reinforcement Learning Control using Conservative Soft Actor-Critic",
+    "url": "http://arxiv.org/abs/2505.03356v1",
+    "arxiv_id": "2505.03356v1",
+    "authors": [
+      "Xinyi Yuan",
+      "Zhiwei Shang",
+      "Wenjun Huang",
+      "Yunduan Cui",
+      "Di Chen",
+      "Meixin Zhu"
+    ],
+    "published": "2025-05-06T09:26:29+00:00",
+    "summary": "Reinforcement Learning (RL) has shown great potential in complex control tasks, particularly when combined with deep neural networks within the Actor-Critic (AC) framework. However, in practical applications, balancing exploration, learning stability, and sample efficiency remains a significant challenge. Traditional methods such as Soft Actor-Critic (SAC) and Proximal Policy Optimization (PPO) address these issues by incorporating entropy or relative entropy regularization, but often face problems of instability and low sample efficiency. In this paper, we propose the Conservative Soft Actor-Critic (CSAC) algorithm, which seamlessly integrates entropy and relative entropy regularization within the AC framework. CSAC improves exploration through entropy regularization while avoiding overly aggressive policy updates with the use of relative entropy regularization. Evaluations on benchmark tasks and real-world robotic simulations demonstrate that CSAC offers significant improvements in stability and efficiency over existing methods. These findings suggest that CSAC provides strong robustness and application potential in control tasks under dynamic environments."
+  },
+  {
+    "title": "RIFT: Closed-Loop RL Fine-Tuning for Realistic and Controllable Traffic Simulation",
+    "url": "http://arxiv.org/abs/2505.03344v1",
+    "arxiv_id": "2505.03344v1",
+    "authors": [
+      "Keyu Chen",
+      "Wenchao Sun",
+      "Hao Cheng",
+      "Sifa Zheng"
+    ],
+    "published": "2025-05-06T09:12:37+00:00",
+    "summary": "Achieving both realism and controllability in interactive closed-loop traffic simulation remains a key challenge in autonomous driving. Data-driven simulation methods reproduce realistic trajectories but suffer from covariate shift in closed-loop deployment, compounded by simplified dynamics models that further reduce reliability. Conversely, physics-based simulation methods enhance reliable and controllable closed-loop interactions but often lack expert demonstrations, compromising realism. To address these challenges, we introduce a dual-stage AV-centered simulation framework that conducts open-loop imitation learning pre-training in a data-driven simulator to capture trajectory-level realism and multimodality, followed by closed-loop reinforcement learning fine-tuning in a physics-based simulator to enhance controllability and mitigate covariate shift. In the fine-tuning stage, we propose RIFT, a simple yet effective closed-loop RL fine-tuning strategy that preserves the trajectory-level multimodality through a GRPO-style group-relative advantage formulation, while enhancing controllability and training stability by replacing KL regularization with the dual-clip mechanism. Extensive experiments demonstrate that RIFT significantly improves the realism and controllability of generated traffic scenarios, providing a robust platform for evaluating autonomous vehicle performance in diverse and interactive scenarios."
+  },
+  {
+    "title": "Absolute Zero: Reinforced Self-play Reasoning with Zero Data",
+    "url": "http://arxiv.org/abs/2505.03335v1",
+    "arxiv_id": "2505.03335v1",
+    "authors": [
+      "Andrew Zhao",
+      "Yiran Wu",
+      "Yang Yue",
+      "Tong Wu",
+      "Quentin Xu",
+      "Yang Yue",
+      "Matthieu Lin",
+      "Shenzhi Wang",
+      "Qingyun Wu",
+      "Zilong Zheng",
+      "Gao Huang"
+    ],
+    "published": "2025-05-06T09:08:00+00:00",
+    "summary": "Reinforcement learning with verifiable rewards (RLVR) has shown promise in enhancing the reasoning capabilities of large language models by learning directly from outcome-based rewards. Recent RLVR works that operate under the zero setting avoid supervision in labeling the reasoning process, but still depend on manually curated collections of questions and answers for training. The scarcity of high-quality, human-produced examples raises concerns about the long-term scalability of relying on human supervision, a challenge already evident in the domain of language model pretraining. Furthermore, in a hypothetical future where AI surpasses human intelligence, tasks provided by humans may offer limited learning potential for a superintelligent system. To address these concerns, we propose a new RLVR paradigm called Absolute Zero, in which a single model learns to propose tasks that maximize its own learning progress and improves reasoning by solving them, without relying on any external data. Under this paradigm, we introduce the Absolute Zero Reasoner (AZR), a system that self-evolves its training curriculum and reasoning ability by using a code executor to both validate proposed code reasoning tasks and verify answers, serving as an unified source of verifiable reward to guide open-ended yet grounded learning. Despite being trained entirely without external data, AZR achieves overall SOTA performance on coding and mathematical reasoning tasks, outperforming existing zero-setting models that rely on tens of thousands of in-domain human-curated examples. Furthermore, we demonstrate that AZR can be effectively applied across different model scales and is compatible with various model classes."
+  },
+  {
+    "title": "Unraveling the Rainbow: can value-based methods schedule?",
+    "url": "http://arxiv.org/abs/2505.03323v1",
+    "arxiv_id": "2505.03323v1",
+    "authors": [
+      "Arthur Corr\u00eaa",
+      "Alexandre Jesus",
+      "Crist\u00f3v\u00e3o Silva",
+      "Samuel Moniz"
+    ],
+    "published": "2025-05-06T08:51:17+00:00",
+    "summary": "Recently, deep reinforcement learning has emerged as a promising approach for solving complex combinatorial optimization problems. Broadly, deep reinforcement learning methods fall into two categories: policy-based and value-based. While value-based approaches have achieved notable success in domains such as the Arcade Learning Environment, the combinatorial optimization community has predominantly favored policy-based methods, often overlooking the potential of value-based algorithms. In this work, we conduct a comprehensive empirical evaluation of value-based algorithms, including the deep q-network and several of its advanced extensions, within the context of two complex combinatorial problems: the job-shop and the flexible job-shop scheduling problems, two fundamental challenges with multiple industrial applications. Our results challenge the assumption that policy-based methods are inherently superior for combinatorial optimization. We show that several value-based approaches can match or even outperform the widely adopted proximal policy optimization algorithm, suggesting that value-based strategies deserve greater attention from the combinatorial optimization community. Our code is openly available at: https://github.com/AJ-Correa/Unraveling-the-Rainbow."
+  },
+  {
+    "title": "Unified Multimodal Chain-of-Thought Reward Model through Reinforcement Fine-Tuning",
+    "url": "http://arxiv.org/abs/2505.03318v1",
+    "arxiv_id": "2505.03318v1",
+    "authors": [
+      "Yibin Wang",
+      "Zhimin Li",
+      "Yuhang Zang",
+      "Chunyu Wang",
+      "Qinglin Lu",
+      "Cheng Jin",
+      "Jiaqi Wang"
+    ],
+    "published": "2025-05-06T08:46:41+00:00",
+    "summary": "Recent advances in multimodal Reward Models (RMs) have shown significant promise in delivering reward signals to align vision models with human preferences. However, current RMs are generally restricted to providing direct responses or engaging in shallow reasoning processes with limited depth, often leading to inaccurate reward signals. We posit that incorporating explicit long chains of thought (CoT) into the reward reasoning process can significantly strengthen their reliability and robustness. Furthermore, we believe that once RMs internalize CoT reasoning, their direct response accuracy can also be improved through implicit reasoning capabilities. To this end, this paper proposes UnifiedReward-Think, the first unified multimodal CoT-based reward model, capable of multi-dimensional, step-by-step long-chain reasoning for both visual understanding and generation reward tasks. Specifically, we adopt an exploration-driven reinforcement fine-tuning approach to elicit and incentivize the model's latent complex reasoning ability: (1) We first use a small amount of image generation preference data to distill the reasoning process of GPT-4o, which is then used for the model's cold start to learn the format and structure of CoT reasoning. (2) Subsequently, by leveraging the model's prior knowledge and generalization capabilities, we prepare large-scale unified multimodal preference data to elicit the model's reasoning process across various vision tasks. During this phase, correct reasoning outputs are retained for rejection sampling to refine the model (3) while incorrect predicted samples are finally used for Group Relative Policy Optimization (GRPO) based reinforcement fine-tuning, enabling the model to explore diverse reasoning paths and optimize for correct and robust solutions. Extensive experiments across various vision reward tasks demonstrate the superiority of our model."
+  },
+  {
+    "title": "Multi-Agent Deep Reinforcement Learning for Zonal Ancillary Market Coupling",
+    "url": "http://arxiv.org/abs/2505.03288v1",
+    "arxiv_id": "2505.03288v1",
+    "authors": [
+      "Francesco Morri",
+      "H\u00e9l\u00e8ne Le Cadre",
+      "Pierre Gruet",
+      "Luce Brotcorne"
+    ],
+    "published": "2025-05-06T08:15:39+00:00",
+    "summary": "We characterize zonal ancillary market coupling relying on noncooperative game theory. To that purpose, we formulate the ancillary market as a multi-leader single follower bilevel problem, that we subsequently cast as a generalized Nash game with side constraints and nonconvex feasibility sets. We determine conditions for equilibrium existence and show that the game has a generalized potential game structure. To compute market equilibrium, we rely on two exact approaches: an integrated optimization approach and Gauss-Seidel best-response, that we compare against multi-agent deep reinforcement learning. On real data from Germany and Austria, simulations indicate that multi-agent deep reinforcement learning achieves the smallest convergence rate but requires pretraining, while best-response is the slowest. On the economics side, multi-agent deep reinforcement learning results in smaller market costs compared to the exact methods, but at the cost of higher variability in the profit allocation among stakeholders. Further, stronger coupling between zones tends to reduce costs for larger zones."
+  },
+  {
+    "title": "RobotxR1: Enabling Embodied Robotic Intelligence on Large Language Models through Closed-Loop Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2505.03238v1",
+    "arxiv_id": "2505.03238v1",
+    "authors": [
+      "Liam Boyle",
+      "Nicolas Baumann",
+      "Paviththiren Sivasothilingam",
+      "Michele Magno",
+      "Luca Benini"
+    ],
+    "published": "2025-05-06T07:07:28+00:00",
+    "summary": "Future robotic systems operating in real-world environments will require on-board embodied intelligence without continuous cloud connection, balancing capabilities with constraints on computational power and memory. This work presents an extension of the R1-zero approach, which enables the usage of low parameter-count Large Language Models (LLMs) in the robotic domain. The R1-Zero approach was originally developed to enable mathematical reasoning in LLMs using static datasets. We extend it to the robotics domain through integration in a closed-loop Reinforcement Learning (RL) framework. This extension enhances reasoning in Embodied Artificial Intelligence (Embodied AI) settings without relying solely on distillation of large models through Supervised Fine-Tuning (SFT). We show that small-scale LLMs can achieve effective reasoning performance by learning through closed-loop interaction with their environment, which enables tasks that previously required significantly larger models. In an autonomous driving setting, a performance gain of 20.2%-points over the SFT-based baseline is observed with a Qwen2.5-1.5B model. Using the proposed training procedure, Qwen2.5-3B achieves a 63.3% control adaptability score, surpassing the 58.5% obtained by the much larger, cloud-bound GPT-4o. These results highlight that practical, on-board deployment of small LLMs is not only feasible but can outperform larger models if trained through environmental feedback, underscoring the importance of an interactive learning framework for robotic Embodied AI, one grounded in practical experience rather than static supervision."
+  },
+  {
+    "title": "Joint Resource Management for Energy-efficient UAV-assisted SWIPT-MEC: A Deep Reinforcement Learning Approach",
+    "url": "http://arxiv.org/abs/2505.03230v1",
+    "arxiv_id": "2505.03230v1",
+    "authors": [
+      "Yue Chen",
+      "Hui Kang",
+      "Jiahui Li",
+      "Geng Su",
+      "Boxiong Wang",
+      "Jiacheng Wang",
+      "Cong Liang",
+      "Shuang Liang",
+      "Dusit Niyato"
+    ],
+    "published": "2025-05-06T06:46:19+00:00",
+    "summary": "The integration of simultaneous wireless information and power transfer (SWIPT) technology in 6G Internet of Things (IoT) networks faces significant challenges in remote areas and disaster scenarios where ground infrastructure is unavailable. This paper proposes a novel unmanned aerial vehicle (UAV)-assisted mobile edge computing (MEC) system enhanced by directional antennas to provide both computational resources and energy support for ground IoT terminals. However, such systems require multiple trade-off policies to balance UAV energy consumption, terminal battery levels, and computational resource allocation under various constraints, including limited UAV battery capacity, non-linear energy harvesting characteristics, and dynamic task arrivals. To address these challenges comprehensively, we formulate a bi-objective optimization problem that simultaneously considers system energy efficiency and terminal battery sustainability. We then reformulate this non-convex problem with a hybrid solution space as a Markov decision process (MDP) and propose an improved soft actor-critic (SAC) algorithm with an action simplification mechanism to enhance its convergence and generalization capabilities. Simulation results have demonstrated that our proposed approach outperforms various baselines in different scenarios, achieving efficient energy management while maintaining high computational performance. Furthermore, our method shows strong generalization ability across different scenarios, particularly in complex environments, validating the effectiveness of our designed boundary penalty and charging reward mechanisms."
+  },
+  {
+    "title": "DYSTIL: Dynamic Strategy Induction with Large Language Models for Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2505.03209v1",
+    "arxiv_id": "2505.03209v1",
+    "authors": [
+      "Borui Wang",
+      "Kathleen McKeown",
+      "Rex Ying"
+    ],
+    "published": "2025-05-06T05:53:09+00:00",
+    "summary": "Reinforcement learning from expert demonstrations has long remained a challenging research problem, and existing state-of-the-art methods using behavioral cloning plus further RL training often suffer from poor generalization, low sample efficiency, and poor model interpretability. Inspired by the strong reasoning abilities of large language models (LLMs), we propose a novel strategy-based reinforcement learning framework integrated with LLMs called DYnamic STrategy Induction with Llms for reinforcement learning (DYSTIL) to overcome these limitations. DYSTIL dynamically queries a strategy-generating LLM to induce textual strategies based on advantage estimations and expert demonstrations, and gradually internalizes induced strategies into the RL agent through policy optimization to improve its performance through boosting policy generalization and enhancing sample efficiency. It also provides a direct textual channel to observe and interpret the evolution of the policy's underlying strategies during training. We test DYSTIL over challenging RL environments from Minigrid and BabyAI, and empirically demonstrate that DYSTIL significantly outperforms state-of-the-art baseline methods by 17.75% in average success rate while also enjoying higher sample efficiency during the learning process."
+  },
+  {
+    "title": "VLM Q-Learning: Aligning Vision-Language Models for Interactive Decision-Making",
+    "url": "http://arxiv.org/abs/2505.03181v1",
+    "arxiv_id": "2505.03181v1",
+    "authors": [
+      "Jake Grigsby",
+      "Yuke Zhu",
+      "Michael Ryoo",
+      "Juan Carlos Niebles"
+    ],
+    "published": "2025-05-06T04:51:57+00:00",
+    "summary": "Recent research looks to harness the general knowledge and reasoning of large language models (LLMs) into agents that accomplish user-specified goals in interactive environments. Vision-language models (VLMs) extend LLMs to multi-modal data and provide agents with the visual reasoning necessary for new applications in areas such as computer automation. However, agent tasks emphasize skills where accessible open-weight VLMs lag behind their LLM equivalents. For example, VLMs are less capable of following an environment's strict output syntax requirements and are more focused on open-ended question answering. Overcoming these limitations requires supervised fine-tuning (SFT) on task-specific expert demonstrations. Our work approaches these challenges from an offline-to-online reinforcement learning (RL) perspective. RL lets us fine-tune VLMs to agent tasks while learning from the unsuccessful decisions of our own model or more capable (larger) models. We explore an off-policy RL solution that retains the stability and simplicity of the widely used SFT workflow while allowing our agent to self-improve and learn from low-quality datasets. We demonstrate this technique with two open-weight VLMs across three multi-modal agent domains."
+  },
+  {
+    "title": "Null Counterfactual Factor Interactions for Goal-Conditioned Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2505.03172v1",
+    "arxiv_id": "2505.03172v1",
+    "authors": [
+      "Caleb Chuck",
+      "Fan Feng",
+      "Carl Qi",
+      "Chang Shi",
+      "Siddhant Agarwal",
+      "Amy Zhang",
+      "Scott Niekum"
+    ],
+    "published": "2025-05-06T04:32:47+00:00",
+    "summary": "Hindsight relabeling is a powerful tool for overcoming sparsity in goal-conditioned reinforcement learning (GCRL), especially in certain domains such as navigation and locomotion. However, hindsight relabeling can struggle in object-centric domains. For example, suppose that the goal space consists of a robotic arm pushing a particular target block to a goal location. In this case, hindsight relabeling will give high rewards to any trajectory that does not interact with the block. However, these behaviors are only useful when the object is already at the goal -- an extremely rare case in practice. A dataset dominated by these kinds of trajectories can complicate learning and lead to failures. In object-centric domains, one key intuition is that meaningful trajectories are often characterized by object-object interactions such as pushing the block with the gripper. To leverage this intuition, we introduce Hindsight Relabeling using Interactions (HInt), which combines interactions with hindsight relabeling to improve the sample efficiency of downstream RL. However because interactions do not have a consensus statistical definition tractable for downstream GCRL, we propose a definition of interactions based on the concept of null counterfactual: a cause object is interacting with a target object if, in a world where the cause object did not exist, the target object would have different transition dynamics. We leverage this definition to infer interactions in Null Counterfactual Interaction Inference (NCII), which uses a \"nulling'' operation with a learned model to infer interactions. NCII is able to achieve significantly improved interaction inference accuracy in both simple linear dynamics domains and dynamic robotic domains in Robosuite, Robot Air Hockey, and Franka Kitchen and HInt improves sample efficiency by up to 4x."
+  },
+  {
+    "title": "Rethinking the Global Convergence of Softmax Policy Gradient with Linear Function Approximation",
+    "url": "http://arxiv.org/abs/2505.03155v1",
+    "arxiv_id": "2505.03155v1",
+    "authors": [
+      "Max Qiushi Lin",
+      "Jincheng Mei",
+      "Matin Aghaei",
+      "Michael Lu",
+      "Bo Dai",
+      "Alekh Agarwal",
+      "Dale Schuurmans",
+      "Csaba Szepesvari",
+      "Sharan Vaswani"
+    ],
+    "published": "2025-05-06T04:03:06+00:00",
+    "summary": "Policy gradient (PG) methods have played an essential role in the empirical successes of reinforcement learning. In order to handle large state-action spaces, PG methods are typically used with function approximation. In this setting, the approximation error in modeling problem-dependent quantities is a key notion for characterizing the global convergence of PG methods. We focus on Softmax PG with linear function approximation (referred to as $\\texttt{Lin-SPG}$) and demonstrate that the approximation error is irrelevant to the algorithm's global convergence even for the stochastic bandit setting. Consequently, we first identify the necessary and sufficient conditions on the feature representation that can guarantee the asymptotic global convergence of $\\texttt{Lin-SPG}$. Under these feature conditions, we prove that $T$ iterations of $\\texttt{Lin-SPG}$ with a problem-specific learning rate result in an $O(1/T)$ convergence to the optimal policy. Furthermore, we prove that $\\texttt{Lin-SPG}$ with any arbitrary constant learning rate can ensure asymptotic global convergence to the optimal policy."
+  },
+  {
+    "title": "HCOA*: Hierarchical Class-ordered A* for Navigation in Semantic Environments",
+    "url": "http://arxiv.org/abs/2505.03128v1",
+    "arxiv_id": "2505.03128v1",
+    "authors": [
+      "Evangelos Psomiadis",
+      "Panagiotis Tsiotras"
+    ],
+    "published": "2025-05-06T03:03:26+00:00",
+    "summary": "This paper addresses the problem of robot navigation in mixed geometric and semantic 3D environments. Given a hierarchical representation of the environment, the objective is to navigate from a start position to a goal while minimizing the computational cost. We introduce Hierarchical Class-ordered A* (HCOA*), an algorithm that leverages the environmental hierarchy for efficient path-planning in semantic graphs, significantly reducing computational effort. We use a total order over the semantic classes and prove theoretical performance guarantees for the algorithm. We propose two approaches for higher-layer node classification based on the node semantics of the lowest layer: a Graph Neural Network-based method and a Majority-Class method. We evaluate our approach through simulations on a 3D Scene Graph (3DSG), comparing it to the state-of-the-art and assessing its performance against our classification approaches. Results show that HCOA* can find the optimal path while reducing the number of expanded nodes by 25% and achieving a 16% reduction in computational time on the uHumans2 3DSG dataset."
+  },
+  {
+    "title": "Integrated Sensing, Computing, Communication, and Control for Time-Sequence-Based Semantic Communications",
+    "url": "http://arxiv.org/abs/2505.03127v1",
+    "arxiv_id": "2505.03127v1",
+    "authors": [
+      "Qingliang Li",
+      "Bo Chang",
+      "Weidong Mei",
+      "Zhi Chen"
+    ],
+    "published": "2025-05-06T03:01:39+00:00",
+    "summary": "In the upcoming industrial internet of things (IIoT) era, a surge of task-oriented applications will rely on real-time wireless control systems (WCSs). For these systems, ultra-reliable and low-latency wireless communication will be crucial to ensure the timely transmission of control information. To achieve this purpose, we propose a novel time-sequence-based semantic communication paradigm, where an integrated sensing, computing, communication, and control (ISC3) architecture is developed to make sensible semantic inference (SI) for the control information over time sequences, enabling adaptive control of the robot. However, due to the causal correlations in the time sequence, the control information does not present the Markov property. To address this challenge, we compute the mutual information of the control information sensed at the transmitter (Tx) over different time and identify their temporal semantic correlation via a semantic feature extractor (SFE) module. By this means, highly correlated information transmission can be avoided, thus greatly reducing the communication overhead. Meanwhile, a semantic feature reconstructor (SFR) module is employed at the receiver (Rx) to reconstruct the control information based on the previously received one if the information transmission is not activated at the Tx. Furthermore, a control gain policy is also employed at the Rx to adaptively adjust the control gain for the controlled target based on several practical aspects such as the quality of the information transmission from the Tx to the Rx. We design the neural network structures of the above modules/policies and train their parameters by a novel hybrid reward multi-agent deep reinforcement learning framework. On-site experiments are conducted to evaluate the performance of our proposed method in practice, which shows significant gains over other baseline schemes."
+  },
+  {
+    "title": "Direct Retrieval-augmented Optimization: Synergizing Knowledge Selection and Language Models",
+    "url": "http://arxiv.org/abs/2505.03075v1",
+    "arxiv_id": "2505.03075v1",
+    "authors": [
+      "Zhengliang Shi",
+      "Lingyong Yan",
+      "Weiwei Sun",
+      "Yue Feng",
+      "Pengjie Ren",
+      "Xinyu Ma",
+      "Shuaiqiang Wang",
+      "Dawei Yin",
+      "Maarten de Rijke",
+      "Zhaochun Ren"
+    ],
+    "published": "2025-05-05T23:54:53+00:00",
+    "summary": "Retrieval-augmented generation (RAG) integrates large language models ( LLM s) with retrievers to access external knowledge, improving the factuality of LLM generation in knowledge-grounded tasks. To optimize the RAG performance, most previous work independently fine-tunes the retriever to adapt to frozen LLM s or trains the LLMs to use documents retrieved by off-the-shelf retrievers, lacking end-to-end training supervision. Recent work addresses this limitation by jointly training these two components but relies on overly simplifying assumptions of document independence, which has been criticized for being far from real-world scenarios. Thus, effectively optimizing the overall RAG performance remains a critical challenge.   We propose a direct retrieval-augmented optimization framework, named DRO, that enables end-to-end training of two key components: (i) a generative knowledge selection model and (ii) an LLM generator. DRO alternates between two phases: (i) document permutation estimation and (ii) re-weighted maximization, progressively improving RAG components through a variational approach. In the estimation step, we treat document permutation as a latent variable and directly estimate its distribution from the selection model by applying an importance sampling strategy. In the maximization step, we calibrate the optimization expectation using importance weights and jointly train the selection model and LLM generator. Our theoretical analysis reveals that DRO is analogous to policy-gradient methods in reinforcement learning. Extensive experiments conducted on five datasets illustrate that DRO outperforms the best baseline with 5%-15% improvements in EM and F1. We also provide in-depth experiments to qualitatively analyze the stability, convergence, and variance of DRO."
+  },
+  {
+    "title": "MORE: Mobile Manipulation Rearrangement Through Grounded Language Reasoning",
+    "url": "http://arxiv.org/abs/2505.03035v1",
+    "arxiv_id": "2505.03035v1",
+    "authors": [
+      "Mohammad Mohammadi",
+      "Daniel Honerkamp",
+      "Martin B\u00fcchner",
+      "Matteo Cassinelli",
+      "Tim Welschehold",
+      "Fabien Despinoy",
+      "Igor Gilitschenski",
+      "Abhinav Valada"
+    ],
+    "published": "2025-05-05T21:26:03+00:00",
+    "summary": "Autonomous long-horizon mobile manipulation encompasses a multitude of challenges, including scene dynamics, unexplored areas, and error recovery. Recent works have leveraged foundation models for scene-level robotic reasoning and planning. However, the performance of these methods degrades when dealing with a large number of objects and large-scale environments. To address these limitations, we propose MORE, a novel approach for enhancing the capabilities of language models to solve zero-shot mobile manipulation planning for rearrangement tasks. MORE leverages scene graphs to represent environments, incorporates instance differentiation, and introduces an active filtering scheme that extracts task-relevant subgraphs of object and region instances. These steps yield a bounded planning problem, effectively mitigating hallucinations and improving reliability. Additionally, we introduce several enhancements that enable planning across both indoor and outdoor environments. We evaluate MORE on 81 diverse rearrangement tasks from the BEHAVIOR-1K benchmark, where it becomes the first approach to successfully solve a significant share of the benchmark, outperforming recent foundation model-based approaches. Furthermore, we demonstrate the capabilities of our approach in several complex real-world tasks, mimicking everyday activities. We make the code publicly available at https://more-model.cs.uni-freiburg.de."
+  },
+  {
+    "title": "A Fully Data-Driven Value Iteration for Stochastic LQR: Convergence, Robustness and Stability",
+    "url": "http://arxiv.org/abs/2505.02970v1",
+    "arxiv_id": "2505.02970v1",
+    "authors": [
+      "Leilei Cui",
+      "Zhong-Ping Jiang",
+      "Petter N. Kolm",
+      "Gr\u00e9goire G. Macqueron"
+    ],
+    "published": "2025-05-05T18:54:23+00:00",
+    "summary": "Unlike traditional model-based reinforcement learning approaches that extract the underlying system structure by estimating parameters from data, non-model-based data-driven control learns the optimal policy directly from input-state data without any intermediate model identification. Although this direct reinforcement learning approach offers increased adaptability and resilience to model misspecification, its reliance on raw data leaves it vulnerable to system noise and disturbances that may undermine convergence, robustness, and stability. In this article, we establish the convergence, robustness, and stability of value iteration (VI) for data-driven control of stochastic linear quadratic (LQ) systems in discrete-time with entirely unknown dynamics and cost. Our contributions are three-fold. First, we prove that VI is globally exponentially stable for any positive semidefinite initial value matrix in noise-free settings, thereby significantly relaxing restrictive assumptions on initial value functions in existing literature. Second, we extend our analysis to scenarios with external disturbances, proving that VI maintains small-disturbance input-to-state stability (ISS) and converges within a small neighborhood of the optimal solution when disturbances are sufficiently small. Third, we propose a new non-model-based robust adaptive dynamic programming (ADP) algorithm for adaptive optimal controller design, which, unlike existing procedures, requires no prior knowledge of an initial admissible control policy. Numerical experiments on a ``data center cooling'' problem demonstrate the convergence and stability of the algorithm compared to established methods, highlighting its robustness and adaptability for data-driven control in noisy environments. Finally, we present a fully data-driven solution to dynamic portfolio allocation, an important problem in quantitative finance."
+  },
+  {
     "title": "R1-Reward: Training Multimodal Reward Model Through Stable Reinforcement Learning",
     "url": "http://arxiv.org/abs/2505.02835v1",
     "arxiv_id": "2505.02835v1",
