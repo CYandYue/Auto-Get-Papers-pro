@@ -209,6 +209,20 @@
     "summary": "Recent advances in reinforcement learning (RL) for large language model (LLM) fine-tuning show promise in addressing multi-objective tasks but still face significant challenges, including complex objective balancing, low training efficiency, poor scalability, and limited explainability. Leveraging ensemble learning principles, we introduce an Ensemble Multi-Objective RL (EMORL) framework that fine-tunes multiple models with individual objectives while optimizing their aggregation after the training to improve efficiency and flexibility. Our method is the first to aggregate the last hidden states of individual models, incorporating contextual information from multiple objectives. This approach is supported by a hierarchical grid search algorithm that identifies optimal weighted combinations. We evaluate EMORL on counselor reflection generation tasks, using text-scoring LLMs to evaluate the generations and provide rewards during RL fine-tuning. Through comprehensive experiments on the PAIR and Psych8k datasets, we demonstrate the advantages of EMORL against existing baselines: significantly lower and more stable training consumption ($17,529\\pm 1,650$ data points and $6,573\\pm 147.43$ seconds), improved scalability and explainability, and comparable performance across multiple objectives."
   },
   {
+    "title": "EMORL: Ensemble Multi-Objective Reinforcement Learning for Efficient and Flexible LLM Fine-Tuning",
+    "url": "http://arxiv.org/abs/2505.02579v2",
+    "arxiv_id": "2505.02579v2",
+    "authors": [
+      "Lingxiao Kong",
+      "Cong Yang",
+      "Susanne Neufang",
+      "Oya Deniz Beyan",
+      "Zeyd Boukhers"
+    ],
+    "published": "2025-05-05T11:30:46+00:00",
+    "summary": "Recent advances in reinforcement learning (RL) for large language model (LLM) fine-tuning show promise in addressing multi-objective tasks but still face significant challenges, including complex objective balancing, low training efficiency, poor scalability, and limited explainability. Leveraging ensemble learning principles, we introduce an Ensemble Multi-Objective RL (EMORL) framework that fine-tunes multiple models with individual objectives while optimizing their aggregation after the training to improve efficiency and flexibility. Our method is the first to aggregate the last hidden states of individual models, incorporating contextual information from multiple objectives. This approach is supported by a hierarchical grid search algorithm that identifies optimal weighted combinations. We evaluate EMORL on counselor reflection generation tasks, using text-scoring LLMs to evaluate the generations and provide rewards during RL fine-tuning. Through comprehensive experiments on the PAIR and Psych8k datasets, we demonstrate the advantages of EMORL against existing baselines: significantly lower and more stable training consumption ($17,529\\pm 1,650$ data points and $6,573\\pm 147.43$ seconds), improved scalability and explainability, and comparable performance across multiple objectives."
+  },
+  {
     "title": "Automated Hybrid Reward Scheduling via Large Language Models for Robotic Skill Learning",
     "url": "http://arxiv.org/abs/2505.02483v1",
     "arxiv_id": "2505.02483v1",
@@ -420,6 +434,24 @@
     "summary": "Effective social intelligence simulation requires language agents to dynamically adjust reasoning depth, a capability notably absent in current approaches. While existing methods either lack this kind of reasoning capability or enforce uniform long chain-of-thought reasoning across all scenarios, resulting in excessive token usage and inappropriate social simulation. In this paper, we propose $\\textbf{A}$daptive $\\textbf{M}$ode $\\textbf{L}$earning ($\\textbf{AML}$) that strategically selects from four thinking modes (intuitive reaction $\\rightarrow$ deep contemplation) based on real-time context. Our framework's core innovation, the $\\textbf{A}$daptive $\\textbf{M}$ode $\\textbf{P}$olicy $\\textbf{O}$ptimization ($\\textbf{AMPO}$) algorithm, introduces three key advancements over existing methods: (1) Multi-granular thinking mode design, (2) Context-aware mode switching across social interaction, and (3) Token-efficient reasoning via depth-adaptive processing. Extensive experiments on social intelligence tasks confirm that AML achieves 15.6% higher task performance than state-of-the-art methods. Notably, our method outperforms GRPO by 7.0% with 32.8% shorter reasoning chains. These results demonstrate that context-sensitive thinking mode selection, as implemented in AMPO, enables more human-like adaptive reasoning than GRPO's fixed-depth approach"
   },
   {
+    "title": "Think on your Feet: Adaptive Thinking via Reinforcement Learning for Social Agents",
+    "url": "http://arxiv.org/abs/2505.02156v2",
+    "arxiv_id": "2505.02156v2",
+    "authors": [
+      "Minzheng Wang",
+      "Yongbin Li",
+      "Haobo Wang",
+      "Xinghua Zhang",
+      "Nan Xu",
+      "Bingli Wu",
+      "Fei Huang",
+      "Haiyang Yu",
+      "Wenji Mao"
+    ],
+    "published": "2025-05-04T15:39:58+00:00",
+    "summary": "Effective social intelligence simulation requires language agents to dynamically adjust reasoning depth, a capability notably absent in current approaches. While existing methods either lack this kind of reasoning capability or enforce uniform long chain-of-thought reasoning across all scenarios, resulting in excessive token usage and inappropriate social simulation. In this paper, we propose $\\textbf{A}$daptive $\\textbf{M}$ode $\\textbf{L}$earning ($\\textbf{AML}$) that strategically selects from four thinking modes (intuitive reaction $\\rightarrow$ deep contemplation) based on real-time context. Our framework's core innovation, the $\\textbf{A}$daptive $\\textbf{M}$ode $\\textbf{P}$olicy $\\textbf{O}$ptimization ($\\textbf{AMPO}$) algorithm, introduces three key advancements over existing methods: (1) Multi-granular thinking mode design, (2) Context-aware mode switching across social interaction, and (3) Token-efficient reasoning via depth-adaptive processing. Extensive experiments on social intelligence tasks confirm that AML achieves 15.6% higher task performance than state-of-the-art methods. Notably, our method outperforms GRPO by 7.0% with 32.8% shorter reasoning chains. These results demonstrate that context-sensitive thinking mode selection, as implemented in AMPO, enables more human-like adaptive reasoning than GRPO's fixed-depth approach."
+  },
+  {
     "title": "Exploring the Potential of Offline RL for Reasoning in LLMs: A Preliminary Study",
     "url": "http://arxiv.org/abs/2505.02142v1",
     "arxiv_id": "2505.02142v1",
@@ -471,6 +503,26 @@
     ],
     "published": "2025-05-04T06:03:12+00:00",
     "summary": "This paper introduces a novel framework integrating nonlinear acoustic computing and reinforcement learning to enhance advanced human-robot interaction under complex noise and reverberation. Leveraging physically informed wave equations (e.g., Westervelt, KZK), the approach captures higher-order phenomena such as harmonic generation and shock formation. By embedding these models in a reinforcement learning-driven control loop, the system adaptively optimizes key parameters (e.g., absorption, beamforming) to mitigate multipath interference and non-stationary noise. Experimental evaluations-covering far-field localization, weak signal detection, and multilingual speech recognition-demonstrate that this hybrid strategy surpasses traditional linear methods and purely data-driven baselines, achieving superior noise suppression, minimal latency, and robust accuracy in demanding real-world scenarios. The proposed system demonstrates broad application prospects in AI hardware, robot, machine audition, artificial audition, and brain-machine interfaces."
+  },
+  {
+    "title": "A Synergistic Framework of Nonlinear Acoustic Computing and Reinforcement Learning for Real-World Human-Robot Interaction",
+    "url": "http://arxiv.org/abs/2505.01998v2",
+    "arxiv_id": "2505.01998v2",
+    "authors": [
+      "Xiaoliang Chen",
+      "Xin Yu",
+      "Le Chang",
+      "Yunhe Huang",
+      "Jiashuai He",
+      "Shibo Zhang",
+      "Jin Li",
+      "Likai Lin",
+      "Ziyu Zeng",
+      "Xianling Tu",
+      "Shuyu Zhang"
+    ],
+    "published": "2025-05-04T06:03:12+00:00",
+    "summary": "This paper introduces a novel framework integrating nonlinear acoustic computing and reinforcement learning to enhance advanced human-robot interaction under complex noise and reverberation. Leveraging physically informed wave equations (e.g., Westervelt, KZK), the approach captures higher-order phenomena such as harmonic generation and shock formation. By embedding these models in a reinforcement learning-driven control loop, the system adaptively optimizes key parameters (e.g., absorption, beamforming) to mitigate multipath interference and non-stationary noise. Experimental evaluations, covering far-field localization, weak signal detection, and multilingual speech recognition, demonstrate that this hybrid strategy surpasses traditional linear methods and purely data-driven baselines, achieving superior noise suppression, minimal latency, and robust accuracy in demanding real-world scenarios. The proposed system demonstrates broad application prospects in AI hardware, robot, machine audition, artificial audition, and brain-machine interfaces."
   },
   {
     "title": "D3HRL: A Distributed Hierarchical Reinforcement Learning Approach Based on Causal Discovery and Spurious Correlation Detection",
@@ -678,6 +730,17 @@
     "title": "Understanding and Exploiting Plasticity for Non-stationary Network Resource Adaptation",
     "url": "http://arxiv.org/abs/2505.01584v1",
     "arxiv_id": "2505.01584v1",
+    "authors": [
+      "Zhiqiang He",
+      "Zhi Liu"
+    ],
+    "published": "2025-05-02T21:03:03+00:00",
+    "summary": "Adapting to non-stationary network conditions presents significant challenges for resource adaptation. However, current solutions primarily rely on stationary assumptions. While data-driven reinforcement learning approaches offer promising solutions for handling network dynamics, our systematic investigation reveals a critical limitation: neural networks suffer from plasticity loss, significantly impeding their ability to adapt to evolving network conditions. Through theoretical analysis of neural propagation mechanisms, we demonstrate that existing dormant neuron metrics inadequately characterize neural plasticity loss. To address this limitation, we have developed the Silent Neuron theory, which provides a more comprehensive framework for understanding plasticity degradation. Based on these theoretical insights, we propose the Reset Silent Neuron (ReSiN), which preserves neural plasticity through strategic neuron resets guided by both forward and backward propagation states. In our implementation of an adaptive video streaming system, ReSiN has shown significant improvements over existing solutions, achieving up to 168% higher bitrate and 108% better quality of experience (QoE) while maintaining comparable smoothness. Furthermore, ReSiN consistently outperforms in stationary environments, demonstrating its robust adaptability across different network conditions."
+  },
+  {
+    "title": "Understanding and Exploiting Plasticity for Non-stationary Network Resource Adaptation",
+    "url": "http://arxiv.org/abs/2505.01584v2",
+    "arxiv_id": "2505.01584v2",
     "authors": [
       "Zhiqiang He",
       "Zhi Liu"
