@@ -312,6 +312,18 @@
     "summary": "Polar codes with large kernels achieve optimal error exponents but are difficult to construct when low decoding complexity is also required. We address this challenge under recursive maximum likelihood decoding (RMLD) using a rein- forcement learning approach based on the Gumbel AlphaZero algorithm. The resulting method, PolarZero, consistently matches exhaustive search in identifying low-complexity kernels, and discovers a size-16 kernel with complexity comparable to handcrafted designs. Our results suggest that PolarZero is a scalable tool for large-kernel design, where brute-force search is no longer feasible."
   },
   {
+    "title": "Reinforcement Learning-Aided Design of Efficient Polarization Kernels",
+    "url": "http://arxiv.org/abs/2505.04127v2",
+    "arxiv_id": "2505.04127v2",
+    "authors": [
+      "Yi-Ting Hong",
+      "Stefano Rini",
+      "Luca Barletta"
+    ],
+    "published": "2025-05-07T04:48:26+00:00",
+    "summary": "Polar codes with large kernels achieve optimal error exponents but are difficult to construct when low decoding complexity is also required. We address this challenge under recursive maximum likelihood decoding (RMLD) using a rein-forcement learning approach based on the Gumbel AlphaZero algorithm. The resulting method, PolarZero, consistently matches exhaustive search in identifying low-complexity kernels, and discovers a size-16 kernel with complexity comparable to handcrafted designs. Our results suggest that PolarZero is a scalable tool for large-kernel design, where brute-force search is no longer feasible."
+  },
+  {
     "title": "Advancing Zero-shot Text-to-Speech Intelligibility across Diverse Domains via Preference Alignment",
     "url": "http://arxiv.org/abs/2505.04113v1",
     "arxiv_id": "2505.04113v1",
