@@ -1,5 +1,437 @@
 [
   {
+    "title": "3D Scene Generation: A Survey",
+    "url": "http://arxiv.org/abs/2505.05474v1",
+    "arxiv_id": "2505.05474v1",
+    "authors": [
+      "Beichen Wen",
+      "Haozhe Xie",
+      "Zhaoxi Chen",
+      "Fangzhou Hong",
+      "Ziwei Liu"
+    ],
+    "published": "2025-05-08T17:59:54+00:00",
+    "summary": "3D scene generation seeks to synthesize spatially structured, semantically meaningful, and photorealistic environments for applications such as immersive media, robotics, autonomous driving, and embodied AI. Early methods based on procedural rules offered scalability but limited diversity. Recent advances in deep generative models (e.g., GANs, diffusion models) and 3D representations (e.g., NeRF, 3D Gaussians) have enabled the learning of real-world scene distributions, improving fidelity, diversity, and view consistency. Recent advances like diffusion models bridge 3D scene synthesis and photorealism by reframing generation as image or video synthesis problems. This survey provides a systematic overview of state-of-the-art approaches, organizing them into four paradigms: procedural generation, neural 3D-based generation, image-based generation, and video-based generation. We analyze their technical foundations, trade-offs, and representative results, and review commonly used datasets, evaluation protocols, and downstream applications. We conclude by discussing key challenges in generation capacity, 3D representation, data and annotations, and evaluation, and outline promising directions including higher fidelity, physics-aware and interactive generation, and unified perception-generation models. This review organizes recent advances in 3D scene generation and highlights promising directions at the intersection of generative AI, 3D vision, and embodied intelligence. To track ongoing developments, we maintain an up-to-date project page: https://github.com/hzxie/Awesome-3D-Scene-Generation."
+  },
+  {
+    "title": "Flow-GRPO: Training Flow Matching Models via Online RL",
+    "url": "http://arxiv.org/abs/2505.05470v1",
+    "arxiv_id": "2505.05470v1",
+    "authors": [
+      "Jie Liu",
+      "Gongye Liu",
+      "Jiajun Liang",
+      "Yangguang Li",
+      "Jiaheng Liu",
+      "Xintao Wang",
+      "Pengfei Wan",
+      "Di Zhang",
+      "Wanli Ouyang"
+    ],
+    "published": "2025-05-08T17:58:45+00:00",
+    "summary": "We propose Flow-GRPO, the first method integrating online reinforcement learning (RL) into flow matching models. Our approach uses two key strategies: (1) an ODE-to-SDE conversion that transforms a deterministic Ordinary Differential Equation (ODE) into an equivalent Stochastic Differential Equation (SDE) that matches the original model's marginal distribution at all timesteps, enabling statistical sampling for RL exploration; and (2) a Denoising Reduction strategy that reduces training denoising steps while retaining the original inference timestep number, significantly improving sampling efficiency without performance degradation. Empirically, Flow-GRPO is effective across multiple text-to-image tasks. For complex compositions, RL-tuned SD3.5 generates nearly perfect object counts, spatial relations, and fine-grained attributes, boosting GenEval accuracy from $63\\%$ to $95\\%$. In visual text rendering, its accuracy improves from $59\\%$ to $92\\%$, significantly enhancing text generation. Flow-GRPO also achieves substantial gains in human preference alignment. Notably, little to no reward hacking occurred, meaning rewards did not increase at the cost of image quality or diversity, and both remained stable in our experiments."
+  },
+  {
+    "title": "RL-DAUNCE: Reinforcement Learning-Driven Data Assimilation with Uncertainty-Aware Constrained Ensembles",
+    "url": "http://arxiv.org/abs/2505.05452v1",
+    "arxiv_id": "2505.05452v1",
+    "authors": [
+      "Pouria Behnoudfar",
+      "Nan Chen"
+    ],
+    "published": "2025-05-08T17:43:35+00:00",
+    "summary": "Machine learning has become a powerful tool for enhancing data assimilation. While supervised learning remains the standard method, reinforcement learning (RL) offers unique advantages through its sequential decision-making framework, which naturally fits the iterative nature of data assimilation by dynamically balancing model forecasts with observations. We develop RL-DAUNCE, a new RL-based method that enhances data assimilation with physical constraints through three key aspects. First, RL-DAUNCE inherits the computational efficiency of machine learning while it uniquely structures its agents to mirror ensemble members in conventional data assimilation methods. Second, RL-DAUNCE emphasizes uncertainty quantification by advancing multiple ensemble members, moving beyond simple mean-state optimization. Third, RL-DAUNCE's ensemble-as-agents design facilitates the enforcement of physical constraints during the assimilation process, which is crucial to improving the state estimation and subsequent forecasting. A primal-dual optimization strategy is developed to enforce constraints, which dynamically penalizes the reward function to ensure constraint satisfaction throughout the learning process. Also, state variable bounds are respected by constraining the RL action space. Together, these features ensure physical consistency without sacrificing efficiency. RL-DAUNCE is applied to the Madden-Julian Oscillation, an intermittent atmospheric phenomenon characterized by strongly non-Gaussian features and multiple physical constraints. RL-DAUNCE outperforms the standard ensemble Kalman filter (EnKF), which fails catastrophically due to the violation of physical constraints. Notably, RL-DAUNCE matches the performance of constrained EnKF, particularly in recovering intermittent signals, capturing extreme events, and quantifying uncertainties, while requiring substantially less computational effort."
+  },
+  {
+    "title": "Reasoning Models Don't Always Say What They Think",
+    "url": "http://arxiv.org/abs/2505.05410v1",
+    "arxiv_id": "2505.05410v1",
+    "authors": [
+      "Yanda Chen",
+      "Joe Benton",
+      "Ansh Radhakrishnan",
+      "Jonathan Uesato",
+      "Carson Denison",
+      "John Schulman",
+      "Arushi Somani",
+      "Peter Hase",
+      "Misha Wagner",
+      "Fabien Roger",
+      "Vlad Mikulik",
+      "Samuel R. Bowman",
+      "Jan Leike",
+      "Jared Kaplan",
+      "Ethan Perez"
+    ],
+    "published": "2025-05-08T16:51:43+00:00",
+    "summary": "Chain-of-thought (CoT) offers a potential boon for AI safety as it allows monitoring a model's CoT to try to understand its intentions and reasoning processes. However, the effectiveness of such monitoring hinges on CoTs faithfully representing models' actual reasoning processes. We evaluate CoT faithfulness of state-of-the-art reasoning models across 6 reasoning hints presented in the prompts and find: (1) for most settings and models tested, CoTs reveal their usage of hints in at least 1% of examples where they use the hint, but the reveal rate is often below 20%, (2) outcome-based reinforcement learning initially improves faithfulness but plateaus without saturating, and (3) when reinforcement learning increases how frequently hints are used (reward hacking), the propensity to verbalize them does not increase, even without training against a CoT monitor. These results suggest that CoT monitoring is a promising way of noticing undesired behaviors during training and evaluations, but that it is not sufficient to rule them out. They also suggest that in settings like ours where CoT reasoning is not necessary, test-time monitoring of CoTs is unlikely to reliably catch rare and catastrophic unexpected behaviors."
+  },
+  {
+    "title": "Scalable Chain of Thoughts via Elastic Reasoning",
+    "url": "http://arxiv.org/abs/2505.05315v1",
+    "arxiv_id": "2505.05315v1",
+    "authors": [
+      "Yuhui Xu",
+      "Hanze Dong",
+      "Lei Wang",
+      "Doyen Sahoo",
+      "Junnan Li",
+      "Caiming Xiong"
+    ],
+    "published": "2025-05-08T15:01:06+00:00",
+    "summary": "Large reasoning models (LRMs) have achieved remarkable progress on complex tasks by generating extended chains of thought (CoT). However, their uncontrolled output lengths pose significant challenges for real-world deployment, where inference-time budgets on tokens, latency, or compute are strictly constrained. We propose Elastic Reasoning, a novel framework for scalable chain of thoughts that explicitly separates reasoning into two phases--thinking and solution--with independently allocated budgets. At test time, Elastic Reasoning prioritize that completeness of solution segments, significantly improving reliability under tight resource constraints. To train models that are robust to truncated thinking, we introduce a lightweight budget-constrained rollout strategy, integrated into GRPO, which teaches the model to reason adaptively when the thinking process is cut short and generalizes effectively to unseen budget constraints without additional training. Empirical results on mathematical (AIME, MATH500) and programming (LiveCodeBench, Codeforces) benchmarks demonstrate that Elastic Reasoning performs robustly under strict budget constraints, while incurring significantly lower training cost than baseline methods. Remarkably, our approach also produces more concise and efficient reasoning even in unconstrained settings. Elastic Reasoning offers a principled and practical solution to the pressing challenge of controllable reasoning at scale."
+  },
+  {
+    "title": "Repair Crew Routing for Infrastructure Network Restoration under Incomplete Information",
+    "url": "http://arxiv.org/abs/2505.05297v1",
+    "arxiv_id": "2505.05297v1",
+    "authors": [
+      "Subhojit Biswas",
+      "Bahar Cavdar",
+      "Joseph Geunes"
+    ],
+    "published": "2025-05-08T14:39:45+00:00",
+    "summary": "This paper considers a disrupted infrastructure network where the repair crew knows the locations of service outages but not the locations of actual faults. Our goal is to determine a route for a single crew to visit and repair the disruptions to restore service with minimum negative impact. We call this problem the Traveling Repairman Network Restoration Problem (TRNRP). This problem presents strong computational challenges due to the combinatorial nature of the decisions, inter-dependencies within the underlying infrastructure network, and incomplete information. Considering the dynamic nature of the decisions as a result of dynamic information revelation on the status of the nodes, we model this problem as a finite-horizon Markov decision process. Our solution approach uses value approximation based on reinforcement learning, which is strengthened by structural results that identify a set of suboptimal moves. In addition, we propose state aggregation methods to reduce the size of the state space. We perform extensive computational studies to characterize the performance of our solution methods under different parameter settings and to compare them with benchmark solution approaches."
+  },
+  {
+    "title": "Morphologically Symmetric Reinforcement Learning for Ambidextrous Bimanual Manipulation",
+    "url": "http://arxiv.org/abs/2505.05287v1",
+    "arxiv_id": "2505.05287v1",
+    "authors": [
+      "Zechu Li",
+      "Yufeng Jin",
+      "Daniel Ordonez Apraez",
+      "Claudio Semini",
+      "Puze Liu",
+      "Georgia Chalvatzaki"
+    ],
+    "published": "2025-05-08T14:29:00+00:00",
+    "summary": "Humans naturally exhibit bilateral symmetry in their gross manipulation skills, effortlessly mirroring simple actions between left and right hands. Bimanual robots-which also feature bilateral symmetry-should similarly exploit this property to perform tasks with either hand. Unlike humans, who often favor a dominant hand for fine dexterous skills, robots should ideally execute ambidextrous manipulation with equal proficiency. To this end, we introduce SYMDEX (SYMmetric DEXterity), a reinforcement learning framework for ambidextrous bi-manipulation that leverages the robot's inherent bilateral symmetry as an inductive bias. SYMDEX decomposes complex bimanual manipulation tasks into per-hand subtasks and trains dedicated policies for each. By exploiting bilateral symmetry via equivariant neural networks, experience from one arm is inherently leveraged by the opposite arm. We then distill the subtask policies into a global ambidextrous policy that is independent of the hand-task assignment. We evaluate SYMDEX on six challenging simulated manipulation tasks and demonstrate successful real-world deployment on two of them. Our approach strongly outperforms baselines on complex task in which the left and right hands perform different roles. We further demonstrate SYMDEX's scalability by extending it to a four-arm manipulation setup, where our symmetry-aware policies enable effective multi-arm collaboration and coordination. Our results highlight how structural symmetry as inductive bias in policy learning enhances sample efficiency, robustness, and generalization across diverse dexterous manipulation tasks."
+  },
+  {
+    "title": "Enhancing Cooperative Multi-Agent Reinforcement Learning with State Modelling and Adversarial Exploration",
+    "url": "http://arxiv.org/abs/2505.05262v1",
+    "arxiv_id": "2505.05262v1",
+    "authors": [
+      "Andreas Kontogiannis",
+      "Konstantinos Papathanasiou",
+      "Yi Shen",
+      "Giorgos Stamou",
+      "Michael M. Zavlanos",
+      "George Vouros"
+    ],
+    "published": "2025-05-08T14:07:20+00:00",
+    "summary": "Learning to cooperate in distributed partially observable environments with no communication abilities poses significant challenges for multi-agent deep reinforcement learning (MARL). This paper addresses key concerns in this domain, focusing on inferring state representations from individual agent observations and leveraging these representations to enhance agents' exploration and collaborative task execution policies. To this end, we propose a novel state modelling framework for cooperative MARL, where agents infer meaningful belief representations of the non-observable state, with respect to optimizing their own policies, while filtering redundant and less informative joint state information. Building upon this framework, we propose the MARL SMPE algorithm. In SMPE, agents enhance their own policy's discriminative abilities under partial observability, explicitly by incorporating their beliefs into the policy network, and implicitly by adopting an adversarial type of exploration policies which encourages agents to discover novel, high-value states while improving the discriminative abilities of others. Experimentally, we show that SMPE outperforms state-of-the-art MARL algorithms in complex fully cooperative tasks from the MPE, LBF, and RWARE benchmarks."
+  },
+  {
+    "title": "High Altitude Platform-Based Caching and Multicasting for Rural Connectivity",
+    "url": "http://arxiv.org/abs/2505.05251v1",
+    "arxiv_id": "2505.05251v1",
+    "authors": [
+      "Yongqiang Zhang",
+      "Mustafa A. Kishk",
+      "Mohamed-Slim Alouini"
+    ],
+    "published": "2025-05-08T13:56:20+00:00",
+    "summary": "Providing efficient and reliable content delivery in rural areas remains a significant challenge due to the lack of communication infrastructure. To bridge the digital divide, this paper investigates the potential of leveraging multiple high-altitude platforms (HAPs) for energy-efficient content delivery in wide rural regions. Each caching-enabled HAP is equipped with both Free-Space Optical (FSO) transceivers for backhaul links and Radio Frequency (RF) antenna arrays for access links. To further enhance network efficiency, we consider a network coding-based multicasting scheme, where different types of content are treated as distinct multicast sessions. With the objective of minimizing long-term power cost, we propose a hierarchical framework that integrates deep reinforcement learn-ing (DRL) and convex optimization to jointly optimize dynamic caching strategies and resource allocation across the network. Simulation results demonstrate that our approach significantly reduces power cost compared to several baseline approaches, providing a practical solution for improving rural connectivity."
+  },
+  {
+    "title": "Advancing Neural Network Verification through Hierarchical Safety Abstract Interpretation",
+    "url": "http://arxiv.org/abs/2505.05235v1",
+    "arxiv_id": "2505.05235v1",
+    "authors": [
+      "Luca Marzari",
+      "Isabella Mastroeni",
+      "Alessandro Farinelli"
+    ],
+    "published": "2025-05-08T13:29:46+00:00",
+    "summary": "Traditional methods for formal verification (FV) of deep neural networks (DNNs) are constrained by a binary encoding of safety properties, where a model is classified as either safe or unsafe (robust or not robust). This binary encoding fails to capture the nuanced safety levels within a model, often resulting in either overly restrictive or too permissive requirements. In this paper, we introduce a novel problem formulation called Abstract DNN-Verification, which verifies a hierarchical structure of unsafe outputs, providing a more granular analysis of the safety aspect for a given DNN. Crucially, by leveraging abstract interpretation and reasoning about output reachable sets, our approach enables assessing multiple safety levels during the FV process, requiring the same (in the worst case) or even potentially less computational effort than the traditional binary verification approach. Specifically, we demonstrate how this formulation allows rank adversarial inputs according to their abstract safety level violation, offering a more detailed evaluation of the model's safety and robustness. Our contributions include a theoretical exploration of the relationship between our novel abstract safety formulation and existing approaches that employ abstract interpretation for robustness verification, complexity analysis of the novel problem introduced, and an empirical evaluation considering both a complex deep reinforcement learning task (based on Habitat 3.0) and standard DNN-Verification benchmarks."
+  },
+  {
+    "title": "Adaptive Biased User Scheduling for Heterogeneous Wireless Federate Learning Network",
+    "url": "http://arxiv.org/abs/2505.05231v1",
+    "arxiv_id": "2505.05231v1",
+    "authors": [
+      "Changxiang Wu",
+      "Yijing Ren",
+      "Daniel K. C. So",
+      "Jie Tang"
+    ],
+    "published": "2025-05-08T13:26:09+00:00",
+    "summary": "Federated Learning (FL) has revolutionized collaborative model training in distributed networks, prioritizing data privacy and communication efficiency. This paper investigates efficient deployment of FL in wireless heterogeneous networks, focusing on strategies to accelerate convergence despite stragglers. The primary objective is to minimize long-term convergence wall-clock time through optimized user scheduling and resource allocation. While stragglers may introduce delays in a single round, their inclusion can expedite subsequent rounds, particularly when they possess critical information. Moreover, balancing single-round duration with the number of cumulative rounds, compounded by dynamic training and transmission conditions, necessitates a novel approach beyond conventional optimization solutions. To tackle these challenges, convergence analysis with respect to adaptive and biased scheduling is derived. Then, by factoring in real-time system and statistical information, including diverse energy constraints and users' energy harvesting capabilities, a deep reinforcement learning approach, empowered by proximal policy optimization, is employed to adaptively select user sets. For the scheduled users, Lagrangian decomposition is applied to optimize local resource utilization, further enhancing system efficiency. Simulation results validate the effectiveness and robustness of the proposed framework for various FL tasks, demonstrating reduced task time compared to existing benchmarks under various settings."
+  },
+  {
+    "title": "Multi-Objective Reinforcement Learning for Adaptive Personalized Autonomous Driving",
+    "url": "http://arxiv.org/abs/2505.05223v1",
+    "arxiv_id": "2505.05223v1",
+    "authors": [
+      "Hendrik Surmann",
+      "Jorge de Heuvel",
+      "Maren Bennewitz"
+    ],
+    "published": "2025-05-08T13:16:37+00:00",
+    "summary": "Human drivers exhibit individual preferences regarding driving style. Adapting autonomous vehicles to these preferences is essential for user trust and satisfaction. However, existing end-to-end driving approaches often rely on predefined driving styles or require continuous user feedback for adaptation, limiting their ability to support dynamic, context-dependent preferences. We propose a novel approach using multi-objective reinforcement learning (MORL) with preference-driven optimization for end-to-end autonomous driving that enables runtime adaptation to driving style preferences. Preferences are encoded as continuous weight vectors to modulate behavior along interpretable style objectives$\\unicode{x2013}$including efficiency, comfort, speed, and aggressiveness$\\unicode{x2013}$without requiring policy retraining. Our single-policy agent integrates vision-based perception in complex mixed-traffic scenarios and is evaluated in diverse urban environments using the CARLA simulator. Experimental results demonstrate that the agent dynamically adapts its driving behavior according to changing preferences while maintaining performance in terms of collision avoidance and route completion."
+  },
+  {
+    "title": "Taming OOD Actions for Offline Reinforcement Learning: An Advantage-Based Approach",
+    "url": "http://arxiv.org/abs/2505.05126v1",
+    "arxiv_id": "2505.05126v1",
+    "authors": [
+      "Xuyang Chen",
+      "Keyu Yan",
+      "Lin Zhao"
+    ],
+    "published": "2025-05-08T10:57:28+00:00",
+    "summary": "Offline reinforcement learning (RL) aims to learn decision-making policies from fixed datasets without online interactions, providing a practical solution where online data collection is expensive or risky. However, offline RL often suffers from distribution shift, resulting in inaccurate evaluation and substantial overestimation on out-of-distribution (OOD) actions. To address this, existing approaches incorporate conservatism by indiscriminately discouraging all OOD actions, thereby hindering the agent's ability to generalize and exploit beneficial ones. In this paper, we propose Advantage-based Diffusion Actor-Critic (ADAC), a novel method that systematically evaluates OOD actions using the batch-optimal value function. Based on this evaluation, ADAC defines an advantage function to modulate the Q-function update, enabling more precise assessment of OOD action quality. We design a custom PointMaze environment and collect datasets to visually reveal that advantage modulation can effectively identify and select superior OOD actions. Extensive experiments show that ADAC achieves state-of-the-art performance on almost all tasks in the D4RL benchmark, with particularly clear margins on the more challenging tasks."
+  },
+  {
+    "title": "USPR: Learning a Unified Solver for Profiled Routing",
+    "url": "http://arxiv.org/abs/2505.05119v1",
+    "arxiv_id": "2505.05119v1",
+    "authors": [
+      "Chuanbo Hua",
+      "Federico Berto",
+      "Zhikai Zhao",
+      "Jiwoo Son",
+      "Changhyun Kwon",
+      "Jinkyoo Park"
+    ],
+    "published": "2025-05-08T10:42:57+00:00",
+    "summary": "The Profiled Vehicle Routing Problem (PVRP) extends the classical VRP by incorporating vehicle-client-specific preferences and constraints, reflecting real-world requirements such as zone restrictions and service-level preferences. While recent reinforcement learning (RL) solvers have shown promise, they require retraining for each new profile distribution, suffer from poor representation ability, and struggle to generalize to out-of-distribution instances. In this paper, we address these limitations by introducing USPR (Unified Solver for Profiled Routing), a novel framework that natively handles arbitrary profile types. USPR introduces three key innovations: (i) Profile Embeddings (PE) to encode any combination of profile types; (ii) Multi-Head Profiled Attention (MHPA), an attention mechanism that models rich interactions between vehicles and clients; (iii) Profile-aware Score Reshaping (PSR), which dynamically adjusts decoder logits using profile scores to improve generalization. Empirical results on diverse PVRP benchmarks demonstrate that USPR achieves state-of-the-art results among learning-based methods while offering significant gains in flexibility and computational efficiency. We make our source code publicly available to foster future research at https://github.com/ai4co/uspr."
+  },
+  {
+    "title": "Multi-agent Embodied AI: Advances and Future Directions",
+    "url": "http://arxiv.org/abs/2505.05108v1",
+    "arxiv_id": "2505.05108v1",
+    "authors": [
+      "Zhaohan Feng",
+      "Ruiqi Xue",
+      "Lei Yuan",
+      "Yang Yu",
+      "Ning Ding",
+      "Meiqin Liu",
+      "Bingzhao Gao",
+      "Jian Sun",
+      "Gang Wang"
+    ],
+    "published": "2025-05-08T10:13:53+00:00",
+    "summary": "Embodied artificial intelligence (Embodied AI) plays a pivotal role in the application of advanced technologies in the intelligent era, where AI systems are integrated with physical bodies that enable them to perceive, reason, and interact with their environments. Through the use of sensors for input and actuators for action, these systems can learn and adapt based on real-world feedback, allowing them to perform tasks effectively in dynamic and unpredictable environments. As techniques such as deep learning (DL), reinforcement learning (RL), and large language models (LLMs) mature, embodied AI has become a leading field in both academia and industry, with applications spanning robotics, healthcare, transportation, and manufacturing. However, most research has focused on single-agent systems that often assume static, closed environments, whereas real-world embodied AI must navigate far more complex scenarios. In such settings, agents must not only interact with their surroundings but also collaborate with other agents, necessitating sophisticated mechanisms for adaptation, real-time learning, and collaborative problem-solving. Despite increasing interest in multi-agent systems, existing research remains narrow in scope, often relying on simplified models that fail to capture the full complexity of dynamic, open environments for multi-agent embodied AI. Moreover, no comprehensive survey has systematically reviewed the advancements in this area. As embodied AI rapidly evolves, it is crucial to deepen our understanding of multi-agent embodied AI to address the challenges presented by real-world applications. To fill this gap and foster further development in the field, this paper reviews the current state of research, analyzes key contributions, and identifies challenges and future directions, providing insights to guide innovation and progress in this field."
+  },
+  {
+    "title": "Enhancing Reinforcement Learning for the Floorplanning of Analog ICs with Beam Search",
+    "url": "http://arxiv.org/abs/2505.05059v1",
+    "arxiv_id": "2505.05059v1",
+    "authors": [
+      "Sandro Junior Della Rovere",
+      "Davide Basso",
+      "Luca Bortolussi",
+      "Mirjana Videnovic-Misic",
+      "Husni Habal"
+    ],
+    "published": "2025-05-08T08:50:32+00:00",
+    "summary": "The layout of analog ICs requires making complex trade-offs, while addressing device physics and variability of the circuits. This makes full automation with learning-based solutions hard to achieve. However, reinforcement learning (RL) has recently reached significant results, particularly in solving the floorplanning problem. This paper presents a hybrid method that combines RL with a beam (BS) strategy. The BS algorithm enhances the agent's inference process, allowing for the generation of flexible floorplans by accomodating various objective weightings, and addressing congestion without without the need for policy retraining or fine-tuning. Moreover, the RL agent's generalization ability stays intact, along with its efficient handling of circuit features and constraints. Experimental results show approx. 5-85% improvement in area, dead space and half-perimeter wire length compared to a standard RL application, along with higher rewards for the agent. Moreover, performance and efficiency align closely with those of existing state-of-the-art techniques."
+  },
+  {
+    "title": "LSRP: A Leader-Subordinate Retrieval Framework for Privacy-Preserving Cloud-Device Collaboration",
+    "url": "http://arxiv.org/abs/2505.05031v1",
+    "arxiv_id": "2505.05031v1",
+    "authors": [
+      "Yingyi Zhang",
+      "Pengyue Jia",
+      "Xianneng Li",
+      "Derong Xu",
+      "Maolin Wang",
+      "Yichao Wang",
+      "Zhaocheng Du",
+      "Huifeng Guo",
+      "Yong Liu",
+      "Ruiming Tang",
+      "Xiangyu Zhao"
+    ],
+    "published": "2025-05-08T08:06:34+00:00",
+    "summary": "Cloud-device collaboration leverages on-cloud Large Language Models (LLMs) for handling public user queries and on-device Small Language Models (SLMs) for processing private user data, collectively forming a powerful and privacy-preserving solution. However, existing approaches often fail to fully leverage the scalable problem-solving capabilities of on-cloud LLMs while underutilizing the advantage of on-device SLMs in accessing and processing personalized data. This leads to two interconnected issues: 1) Limited utilization of the problem-solving capabilities of on-cloud LLMs, which fail to align with personalized user-task needs, and 2) Inadequate integration of user data into on-device SLM responses, resulting in mismatches in contextual user information.   In this paper, we propose a Leader-Subordinate Retrieval framework for Privacy-preserving cloud-device collaboration (LSRP), a novel solution that bridges these gaps by: 1) enhancing on-cloud LLM guidance to on-device SLM through a dynamic selection of task-specific leader strategies named as user-to-user retrieval-augmented generation (U-U-RAG), and 2) integrating the data advantages of on-device SLMs through small model feedback Direct Preference Optimization (SMFB-DPO) for aligning the on-cloud LLM with the on-device SLM. Experiments on two datasets demonstrate that LSRP consistently outperforms state-of-the-art baselines, significantly improving question-answer relevance and personalization, while preserving user privacy through efficient on-device retrieval. Our code is available at: https://github.com/Zhang-Yingyi/LSRP."
+  },
+  {
+    "title": "Diffusion-enabled Secure Semantic Communication Against Eavesdropping",
+    "url": "http://arxiv.org/abs/2505.05018v1",
+    "arxiv_id": "2505.05018v1",
+    "authors": [
+      "Boxiang He",
+      "Zihan Chen",
+      "Fanggang Wang",
+      "Shilian Wang",
+      "Zhijin Qin",
+      "Tony Q. S. Quek"
+    ],
+    "published": "2025-05-08T07:47:52+00:00",
+    "summary": "In this paper, AN is introduced into semantic communication systems for the first time to prevent semantic eavesdropping. However, the introduction of AN also poses challenges for the legitimate receiver in extracting semantic information. Recently, denoising diffusion probabilistic models (DDPM) have demonstrated their powerful capabilities in generating multimedia content. Here, the paired pluggable modules are carefully designed using DDPM. Specifically, the pluggable encryption module generates AN and adds it to the output of the semantic transmitter, while the pluggable decryption module before semantic receiver uses DDPM to generate the detailed semantic information by removing both AN and the channel noise. In the scenario where the transmitter lacks eavesdropper's knowledge, the artificial Gaussian noise (AGN) is used as AN. We first model a power allocation optimization problem to determine the power of AGN, in which the objective is to minimize the weighted sum of data reconstruction error of legal link, the mutual information of illegal link, and the channel input distortion. Then, a deep reinforcement learning framework using deep deterministic policy gradient is proposed to solve the optimization problem. In the scenario where the transmitter is aware of the eavesdropper's knowledge, we propose an AN generation method based on adversarial residual networks (ARN). Unlike the previous scenario, the mutual information term in the objective function is replaced by the confidence of eavesdropper correctly   retrieving private information. The adversarial residual network is then trained to minimize the modified objective function. The simulation results show that the diffusion-enabled pluggable encryption module prevents semantic eavesdropping while the pluggable decryption module achieves the high-quality semantic communication."
+  },
+  {
+    "title": "Latent Preference Coding: Aligning Large Language Models via Discrete Latent Codes",
+    "url": "http://arxiv.org/abs/2505.04993v1",
+    "arxiv_id": "2505.04993v1",
+    "authors": [
+      "Zhuocheng Gong",
+      "Jian Guan",
+      "Wei Wu",
+      "Huishuai Zhang",
+      "Dongyan Zhao"
+    ],
+    "published": "2025-05-08T06:59:06+00:00",
+    "summary": "Large language models (LLMs) have achieved remarkable success, yet aligning their generations with human preferences remains a critical challenge. Existing approaches to preference modeling often rely on an explicit or implicit reward function, overlooking the intricate and multifaceted nature of human preferences that may encompass conflicting factors across diverse tasks and populations. To address this limitation, we introduce Latent Preference Coding (LPC), a novel framework that models the implicit factors as well as their combinations behind holistic preferences using discrete latent codes. LPC seamlessly integrates with various offline alignment algorithms, automatically inferring the underlying factors and their importance from data without relying on pre-defined reward functions and hand-crafted combination weights. Extensive experiments on multiple benchmarks demonstrate that LPC consistently improves upon three alignment algorithms (DPO, SimPO, and IPO) using three base models (Mistral-7B, Llama3-8B, and Llama3-8B-Instruct). Furthermore, deeper analysis reveals that the learned latent codes effectively capture the differences in the distribution of human preferences and significantly enhance the robustness of alignment against noise in data. By providing a unified representation for the multifarious preference factors, LPC paves the way towards developing more robust and versatile alignment techniques for the responsible deployment of powerful LLMs."
+  },
+  {
+    "title": "CPP-DIP: Multi-objective Coverage Path Planning for MAVs in Dispersed and Irregular Plantations",
+    "url": "http://arxiv.org/abs/2505.04989v1",
+    "arxiv_id": "2505.04989v1",
+    "authors": [
+      "Weijie Kuang",
+      "Hann Woei Ho",
+      "Ye Zhou"
+    ],
+    "published": "2025-05-08T06:52:22+00:00",
+    "summary": "Coverage Path Planning (CPP) is vital in precision agriculture to improve efficiency and resource utilization. In irregular and dispersed plantations, traditional grid-based CPP often causes redundant coverage over non-vegetated areas, leading to waste and pollution. To overcome these limitations, we propose CPP-DIP, a multi-objective CPP framework designed for Micro Air Vehicles (MAVs). The framework transforms the CPP task into a Traveling Salesman Problem (TSP) and optimizes flight paths by minimizing travel distance, turning angles, and intersection counts. Unlike conventional approaches, our method does not rely on GPS-based environmental modeling. Instead, it uses aerial imagery and a Histogram of Oriented Gradients (HOG)-based approach to detect trees and extract image coordinates. A density-aware waypoint strategy is applied: Kernel Density Estimation (KDE) is used to reduce redundant waypoints in dense regions, while a greedy algorithm ensures complete coverage in sparse areas. To verify the generality of the framework, we solve the resulting TSP using three different methods: Greedy Heuristic Insertion (GHI), Ant Colony Optimization (ACO), and Monte Carlo Reinforcement Learning (MCRL). Then an object-based optimization is applied to further refine the resulting path. Additionally, CPP-DIP integrates ForaNav, our insect-inspired navigation method, for accurate tree localization and tracking. The experimental results show that MCRL offers a balanced solution, reducing the travel distance by 16.9 % compared to ACO while maintaining a similar performance to GHI. It also improves path smoothness by reducing turning angles by 28.3 % and 59.9 % relative to ACO and GHI, respectively, and effectively eliminates intersections. These results confirm the robustness and effectiveness of CPP-DIP in different TSP solvers."
+  },
+  {
+    "title": "Graph Neural Network Aided Deep Reinforcement Learning for Resource Allocation in Dynamic Terahertz UAV Networks",
+    "url": "http://arxiv.org/abs/2505.04981v1",
+    "arxiv_id": "2505.04981v1",
+    "authors": [
+      "Zhifeng Hu",
+      "Chong Han"
+    ],
+    "published": "2025-05-08T06:36:17+00:00",
+    "summary": "Terahertz (THz) unmanned aerial vehicle (UAV) networks with flexible topologies and ultra-high data rates are expected to empower numerous applications in security surveillance, disaster response, and environmental monitoring, among others. However, the dynamic topologies hinder the efficient long-term joint power and antenna array resource allocation for THz links among UAVs. Furthermore, the continuous nature of power and the discrete nature of antennas cause this joint resource allocation problem to be a mixed-integer nonlinear programming (MINLP) problem with non-convexity and NP-hardness. Inspired by recent rapid advancements in deep reinforcement learning (DRL), a graph neural network (GNN) aided DRL algorithm for resource allocation in the dynamic THz UAV network with an emphasis on self-node features (GLOVE) is proposed in this paper, with the aim of resource efficiency (RE) maximization. When training the allocation policy for each UAV, GLOVE learns the relationship between this UAV and its neighboring UAVs via GNN, while also emphasizing the important self-node features of this UAV. In addition, a multi-task structure is leveraged by GLOVE to cooperatively train resource allocation decisions for the power and sub-arrays of all UAVs. Experimental results illustrate that GLOVE outperforms benchmark schemes in terms of the highest RE and the lowest latency. Moreover, unlike the benchmark methods with severe packet loss, GLOVE maintains zero packet loss during the entire training process, demonstrating its better robustness under the highly dynamic THz UAV network."
+  },
+  {
+    "title": "An Efficient Method for Accurate Pose Estimation and Error Correction of Cuboidal Objects",
+    "url": "http://arxiv.org/abs/2505.04962v1",
+    "arxiv_id": "2505.04962v1",
+    "authors": [
+      "Utsav Rai",
+      "Hardik Mehta",
+      "Vismay Vakharia",
+      "Aditya Choudhary",
+      "Amit Parmar",
+      "Rolif Lima",
+      "Kaushik Das"
+    ],
+    "published": "2025-05-08T05:43:31+00:00",
+    "summary": "The proposed system outlined in this paper is a solution to a use case that requires the autonomous picking of cuboidal objects from an organized or unorganized pile with high precision. This paper presents an efficient method for precise pose estimation of cuboid-shaped objects, which aims to reduce errors in target pose in a time-efficient manner. Typical pose estimation methods like global point cloud registrations are prone to minor pose errors for which local registration algorithms are generally used to improve pose accuracy. However, due to the execution time overhead and uncertainty in the error of the final achieved pose, an alternate, linear time approach is proposed for pose error estimation and correction. This paper presents an overview of the solution followed by a detailed description of individual modules of the proposed algorithm."
+  },
+  {
+    "title": "ADD: Physics-Based Motion Imitation with Adversarial Differential Discriminators",
+    "url": "http://arxiv.org/abs/2505.04961v1",
+    "arxiv_id": "2505.04961v1",
+    "authors": [
+      "Ziyu Zhang",
+      "Sergey Bashkirov",
+      "Dun Yang",
+      "Michael Taylor",
+      "Xue Bin Peng"
+    ],
+    "published": "2025-05-08T05:42:33+00:00",
+    "summary": "Multi-objective optimization problems, which require the simultaneous optimization of multiple terms, are prevalent across numerous applications. Existing multi-objective optimization methods often rely on manually tuned aggregation functions to formulate a joint optimization target. The performance of such hand-tuned methods is heavily dependent on careful weight selection, a time-consuming and laborious process. These limitations also arise in the setting of reinforcement-learning-based motion tracking for physically simulated characters, where intricately crafted reward functions are typically used to achieve high-fidelity results. Such solutions not only require domain expertise and significant manual adjustment, but also limit the applicability of the resulting reward function across diverse skills. To bridge this gap, we present a novel adversarial multi-objective optimization technique that is broadly applicable to a range of multi-objective optimization problems, including motion tracking. The proposed adversarial differential discriminator receives a single positive sample, yet is still effective at guiding the optimization process. We demonstrate that our technique can enable characters to closely replicate a variety of acrobatic and agile behaviors, achieving comparable quality to state-of-the-art motion-tracking methods, without relying on manually tuned reward functions. Results are best visualized through https://youtu.be/rz8BYCE9E2w."
+  },
+  {
+    "title": "Perception, Reason, Think, and Plan: A Survey on Large Multimodal Reasoning Models",
+    "url": "http://arxiv.org/abs/2505.04921v1",
+    "arxiv_id": "2505.04921v1",
+    "authors": [
+      "Yunxin Li",
+      "Zhenyu Liu",
+      "Zitao Li",
+      "Xuanyu Zhang",
+      "Zhenran Xu",
+      "Xinyu Chen",
+      "Haoyuan Shi",
+      "Shenyuan Jiang",
+      "Xintong Wang",
+      "Jifang Wang",
+      "Shouzheng Huang",
+      "Xinping Zhao",
+      "Borui Jiang",
+      "Lanqing Hong",
+      "Longyue Wang",
+      "Zhuotao Tian",
+      "Baoxing Huai",
+      "Wenhan Luo",
+      "Weihua Luo",
+      "Zheng Zhang",
+      "Baotian Hu",
+      "Min Zhang"
+    ],
+    "published": "2025-05-08T03:35:23+00:00",
+    "summary": "Reasoning lies at the heart of intelligence, shaping the ability to make decisions, draw conclusions, and generalize across domains. In artificial intelligence, as systems increasingly operate in open, uncertain, and multimodal environments, reasoning becomes essential for enabling robust and adaptive behavior. Large Multimodal Reasoning Models (LMRMs) have emerged as a promising paradigm, integrating modalities such as text, images, audio, and video to support complex reasoning capabilities and aiming to achieve comprehensive perception, precise understanding, and deep reasoning. As research advances, multimodal reasoning has rapidly evolved from modular, perception-driven pipelines to unified, language-centric frameworks that offer more coherent cross-modal understanding. While instruction tuning and reinforcement learning have improved model reasoning, significant challenges remain in omni-modal generalization, reasoning depth, and agentic behavior. To address these issues, we present a comprehensive and structured survey of multimodal reasoning research, organized around a four-stage developmental roadmap that reflects the field's shifting design philosophies and emerging capabilities. First, we review early efforts based on task-specific modules, where reasoning was implicitly embedded across stages of representation, alignment, and fusion. Next, we examine recent approaches that unify reasoning into multimodal LLMs, with advances such as Multimodal Chain-of-Thought (MCoT) and multimodal reinforcement learning enabling richer and more structured reasoning chains. Finally, drawing on empirical insights from challenging benchmarks and experimental cases of OpenAI O3 and O4-mini, we discuss the conceptual direction of native large multimodal reasoning models (N-LMRMs), which aim to support scalable, agentic, and adaptive reasoning and planning in complex, real-world environments."
+  },
+  {
+    "title": "Large Language Models are Autonomous Cyber Defenders",
+    "url": "http://arxiv.org/abs/2505.04843v1",
+    "arxiv_id": "2505.04843v1",
+    "authors": [
+      "Sebasti\u00e1n R. Castro",
+      "Roberto Campbell",
+      "Nancy Lau",
+      "Octavio Villalobos",
+      "Jiaqi Duan",
+      "Alvaro A. Cardenas"
+    ],
+    "published": "2025-05-07T22:42:37+00:00",
+    "summary": "Fast and effective incident response is essential to prevent adversarial cyberattacks. Autonomous Cyber Defense (ACD) aims to automate incident response through Artificial Intelligence (AI) agents that plan and execute actions. Most ACD approaches focus on single-agent scenarios and leverage Reinforcement Learning (RL). However, ACD RL-trained agents depend on costly training, and their reasoning is not always explainable or transferable. Large Language Models (LLMs) can address these concerns by providing explainable actions in general security contexts. Researchers have explored LLM agents for ACD but have not evaluated them on multi-agent scenarios or interacting with other ACD agents. In this paper, we show the first study on how LLMs perform in multi-agent ACD environments by proposing a new integration to the CybORG CAGE 4 environment. We examine how ACD teams of LLM and RL agents can interact by proposing a novel communication protocol. Our results highlight the strengths and weaknesses of LLMs and RL and help us identify promising research directions to create, train, and deploy future teams of ACD agents."
+  },
+  {
+    "title": "Putting the Value Back in RL: Better Test-Time Scaling by Unifying LLM Reasoners With Verifiers",
+    "url": "http://arxiv.org/abs/2505.04842v1",
+    "arxiv_id": "2505.04842v1",
+    "authors": [
+      "Kusha Sareen",
+      "Morgane M Moss",
+      "Alessandro Sordoni",
+      "Rishabh Agarwal",
+      "Arian Hosseini"
+    ],
+    "published": "2025-05-07T22:41:26+00:00",
+    "summary": "Prevalent reinforcement learning~(RL) methods for fine-tuning LLM reasoners, such as GRPO or Leave-one-out PPO, abandon the learned value function in favor of empirically estimated returns. This hinders test-time compute scaling that relies on using the value-function for verification. In this work, we propose RL$^V$ that augments any ``value-free'' RL method by jointly training the LLM as both a reasoner and a generative verifier using RL-generated data, adding verification capabilities without significant overhead. Empirically, RL$^V$ boosts MATH accuracy by over 20\\% with parallel sampling and enables $8-32\\times$ efficient test-time compute scaling compared to the base RL method. RL$^V$ also exhibits strong generalization capabilities for both easy-to-hard and out-of-domain tasks. Furthermore, RL$^V$ achieves $1.2-1.6\\times$ higher performance when jointly scaling parallel and sequential test-time compute with a long reasoning R1 model."
+  },
+  {
+    "title": "Steerable Scene Generation with Post Training and Inference-Time Search",
+    "url": "http://arxiv.org/abs/2505.04831v1",
+    "arxiv_id": "2505.04831v1",
+    "authors": [
+      "Nicholas Pfaff",
+      "Hongkai Dai",
+      "Sergey Zakharov",
+      "Shun Iwase",
+      "Russ Tedrake"
+    ],
+    "published": "2025-05-07T22:07:42+00:00",
+    "summary": "Training robots in simulation requires diverse 3D scenes that reflect the specific challenges of downstream tasks. However, scenes that satisfy strict task requirements, such as high-clutter environments with plausible spatial arrangement, are rare and costly to curate manually. Instead, we generate large-scale scene data using procedural models that approximate realistic environments for robotic manipulation, and adapt it to task-specific goals. We do this by training a unified diffusion-based generative model that predicts which objects to place from a fixed asset library, along with their SE(3) poses. This model serves as a flexible scene prior that can be adapted using reinforcement learning-based post training, conditional generation, or inference-time search, steering generation toward downstream objectives even when they differ from the original data distribution. Our method enables goal-directed scene synthesis that respects physical feasibility and scales across scene types. We introduce a novel MCTS-based inference-time search strategy for diffusion models, enforce feasibility via projection and simulation, and release a dataset of over 44 million SE(3) scenes spanning five diverse environments. Website with videos, code, data, and model weights: https://steerable-scene-generation.github.io/"
+  },
+  {
+    "title": "Is there Value in Reinforcement Learning?",
+    "url": "http://arxiv.org/abs/2505.04822v1",
+    "arxiv_id": "2505.04822v1",
+    "authors": [
+      "Lior Fox",
+      "Yonatan Loewenstein"
+    ],
+    "published": "2025-05-07T21:50:27+00:00",
+    "summary": "Action-values play a central role in popular Reinforcement Learing (RL) models of behavior. Yet, the idea that action-values are explicitly represented has been extensively debated. Critics had therefore repeatedly suggested that policy-gradient (PG) models should be favored over value-based (VB) ones, as a potential solution for this dilemma. Here we argue that this solution is unsatisfying. This is because PG methods are not, in fact, \"Value-free\" -- while they do not rely on an explicit representation of Value for acting (stimulus-response mapping), they do require it for learning. Hence, switching to PG models is, per se, insufficient for eliminating Value from models of behavior. More broadly, the requirement for a representation of Value stems from the underlying assumptions regarding the optimization objective posed by the standard RL framework, not from the particular algorithm chosen to solve it. Previous studies mostly took these standard RL assumptions for granted, as part of their conceptualization or problem modeling, while debating the different methods used to optimize it (i.e., PG or VB). We propose that, instead, the focus of the debate should shift to critically evaluating the underlying modeling assumptions. Such evaluation is particularly important from an experimental perspective. Indeed, the very notion of Value must be reconsidered when standard assumptions (e.g., risk neutrality, full-observability, Markovian environment, exponential discounting) are relaxed, as is likely in natural settings. Finally, we use the Value debate as a case study to argue in favor of a more nuanced, algorithmic rather than statistical, view of what constitutes \"a model\" in cognitive sciences. Our analysis suggests that besides \"parametric\" statistical complexity, additional aspects such as computational complexity must also be taken into account when evaluating model complexity."
+  },
+  {
+    "title": "Reinforcement Learning-Based Closed-Loop Airfoil Flow Control",
+    "url": "http://arxiv.org/abs/2505.04818v1",
+    "arxiv_id": "2505.04818v1",
+    "authors": [
+      "Qiong Liu",
+      "Luis Javier Trujillo Corona",
+      "Fangjun Shu",
+      "Andreas Gross"
+    ],
+    "published": "2025-05-07T21:38:29+00:00",
+    "summary": "We systematically investigated a reinforcement learning (RL)-based closed-loop active flow control strategy to enhance the lift-to-drag ratio of a wing section with an NLF(1)-0115 airfoil at an angle of attack 5 degree. The effects of key control parameters, including actuation location, observed state, reward function, and control update interval, are evaluated at a chord-based Reynolds number of Re=20,000. Results show that all parameters significantly influence control performance, with the update interval playing a particularly critical role. Properly chosen update intervals introduce a broader spectrum of actuation frequencies, enabling more effective interactions with a wider range of flow structures and contributing to improved control effectiveness. The optimally trained RL controller is further evaluated in a three-dimensional numerical setup at the same Reynolds number. Actuation is applied using both spanwise-uniform and spanwise-varying control profiles. The results demonstrate that the pretrained controller, combined with a physics-informed spanwise distribution, achieves substantial performance gains. These findings extend the feasibility and scalability of a pretrained RL-based control strategy to more complex airfoil flows."
+  },
+  {
     "title": "EchoInk-R1: Exploring Audio-Visual Reasoning in Multimodal LLMs via Reinforcement Learning",
     "url": "http://arxiv.org/abs/2505.04623v1",
     "arxiv_id": "2505.04623v1",
@@ -248,6 +680,22 @@
     ],
     "published": "2025-05-07T09:20:12+00:00",
     "summary": "Egocentric video grounding is a crucial task for embodied intelligence applications, distinct from exocentric video moment localization. Existing methods primarily focus on the distributional differences between egocentric and exocentric videos but often neglect key characteristics of egocentric videos and the fine-grained information emphasized by question-type queries. To address these limitations, we propose OSGNet, an Object-Shot enhanced Grounding Network for egocentric video. Specifically, we extract object information from videos to enrich video representation, particularly for objects highlighted in the textual query but not directly captured in the video features. Additionally, we analyze the frequent shot movements inherent to egocentric videos, leveraging these features to extract the wearer's attention information, which enhances the model's ability to perform modality alignment. Experiments conducted on three datasets demonstrate that OSGNet achieves state-of-the-art performance, validating the effectiveness of our approach. Our code can be found at https://github.com/Yisen-Feng/OSGNet."
+  },
+  {
+    "title": "Reward-SQL: Boosting Text-to-SQL via Stepwise Reasoning and Process-Supervised Rewards",
+    "url": "http://arxiv.org/abs/2505.04671v1",
+    "arxiv_id": "2505.04671v1",
+    "authors": [
+      "Yuxin Zhang",
+      "Meihao Fan",
+      "Ju Fan",
+      "Mingyang Yi",
+      "Yuyu Luo",
+      "Jian Tan",
+      "Guoliang Li"
+    ],
+    "published": "2025-05-07T08:32:22+00:00",
+    "summary": "Recent advances in large language models (LLMs) have significantly improved performance on the Text-to-SQL task by leveraging their powerful reasoning capabilities. To enhance accuracy during the reasoning process, external Process Reward Models (PRMs) can be introduced during training and inference to provide fine-grained supervision. However, if misused, PRMs may distort the reasoning trajectory and lead to suboptimal or incorrect SQL generation.To address this challenge, we propose Reward-SQL, a framework that systematically explores how to incorporate PRMs into the Text-to-SQL reasoning process effectively. Our approach follows a \"cold start, then PRM supervision\" paradigm. Specifically, we first train the model to decompose SQL queries into structured stepwise reasoning chains using common table expressions (Chain-of-CTEs), establishing a strong and interpretable reasoning baseline. Then, we investigate four strategies for integrating PRMs, and find that combining PRM as an online training signal (GRPO) with PRM-guided inference (e.g., best-of-N sampling) yields the best results. Empirically, on the BIRD benchmark, Reward-SQL enables models supervised by a 7B PRM to achieve a 13.1% performance gain across various guidance strategies. Notably, our GRPO-aligned policy model based on Qwen2.5-Coder-7B-Instruct achieves 68.9% accuracy on the BIRD development set, outperforming all baseline methods under the same model size. These results demonstrate the effectiveness of Reward-SQL in leveraging reward-based supervision for Text-to-SQL reasoning. Our code is publicly available."
   },
   {
     "title": "Multi-Agent Reinforcement Learning-based Cooperative Autonomous Driving in Smart Intersections",
