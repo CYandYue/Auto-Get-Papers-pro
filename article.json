@@ -1,5 +1,354 @@
 [
   {
+    "title": "VTLA: Vision-Tactile-Language-Action Model with Preference Learning for Insertion Manipulation",
+    "url": "http://arxiv.org/abs/2505.09577v1",
+    "arxiv_id": "2505.09577v1",
+    "authors": [
+      "Chaofan Zhang",
+      "Peng Hao",
+      "Xiaoge Cao",
+      "Xiaoshuai Hao",
+      "Shaowei Cui",
+      "Shuo Wang"
+    ],
+    "published": "2025-05-14T17:29:35+00:00",
+    "summary": "While vision-language models have advanced significantly, their application in language-conditioned robotic manipulation is still underexplored, especially for contact-rich tasks that extend beyond visually dominant pick-and-place scenarios. To bridge this gap, we introduce Vision-Tactile-Language-Action model, a novel framework that enables robust policy generation in contact-intensive scenarios by effectively integrating visual and tactile inputs through cross-modal language grounding. A low-cost, multi-modal dataset has been constructed in a simulation environment, containing vision-tactile-action-instruction pairs specifically designed for the fingertip insertion task. Furthermore, we introduce Direct Preference Optimization (DPO) to offer regression-like supervision for the VTLA model, effectively bridging the gap between classification-based next token prediction loss and continuous robotic tasks. Experimental results show that the VTLA model outperforms traditional imitation learning methods (e.g., diffusion policies) and existing multi-modal baselines (TLA/VLA), achieving over 90% success rates on unseen peg shapes. Finally, we conduct real-world peg-in-hole experiments to demonstrate the exceptional Sim2Real performance of the proposed VTLA model. For supplementary videos and results, please visit our project website: https://sites.google.com/view/vtla"
+  },
+  {
+    "title": "Ethics and Persuasion in Reinforcement Learning from Human Feedback: A Procedural Rhetorical Approach",
+    "url": "http://arxiv.org/abs/2505.09576v1",
+    "arxiv_id": "2505.09576v1",
+    "authors": [
+      "Shannon Lodoen",
+      "Alexi Orchard"
+    ],
+    "published": "2025-05-14T17:29:19+00:00",
+    "summary": "Since 2022, versions of generative AI chatbots such as ChatGPT and Claude have been trained using a specialized technique called Reinforcement Learning from Human Feedback (RLHF) to fine-tune language model output using feedback from human annotators. As a result, the integration of RLHF has greatly enhanced the outputs of these large language models (LLMs) and made the interactions and responses appear more \"human-like\" than those of previous versions using only supervised learning. The increasing convergence of human and machine-written text has potentially severe ethical, sociotechnical, and pedagogical implications relating to transparency, trust, bias, and interpersonal relations. To highlight these implications, this paper presents a rhetorical analysis of some of the central procedures and processes currently being reshaped by RLHF-enhanced generative AI chatbots: upholding language conventions, information seeking practices, and expectations for social relationships. Rhetorical investigations of generative AI and LLMs have, to this point, focused largely on the persuasiveness of the content generated. Using Ian Bogost's concept of procedural rhetoric, this paper shifts the site of rhetorical investigation from content analysis to the underlying mechanisms of persuasion built into RLHF-enhanced LLMs. In doing so, this theoretical investigation opens a new direction for further inquiry in AI ethics that considers how procedures rerouted through AI-driven technologies might reinforce hegemonic language use, perpetuate biases, decontextualize learning, and encroach upon human relationships. It will therefore be of interest to educators, researchers, scholars, and the growing number of users of generative AI chatbots."
+  },
+  {
+    "title": "WavReward: Spoken Dialogue Models With Generalist Reward Evaluators",
+    "url": "http://arxiv.org/abs/2505.09558v1",
+    "arxiv_id": "2505.09558v1",
+    "authors": [
+      "Shengpeng Ji",
+      "Tianle Liang",
+      "Yangzhuo Li",
+      "Jialong Zuo",
+      "Minghui Fang",
+      "Jinzheng He",
+      "Yifu Chen",
+      "Zhengqing Liu",
+      "Ziyue Jiang",
+      "Xize Cheng",
+      "Siqi Zheng",
+      "Jin Xu",
+      "Junyang Lin",
+      "Zhou Zhao"
+    ],
+    "published": "2025-05-14T16:54:15+00:00",
+    "summary": "End-to-end spoken dialogue models such as GPT-4o-audio have recently garnered significant attention in the speech domain. However, the evaluation of spoken dialogue models' conversational performance has largely been overlooked. This is primarily due to the intelligent chatbots convey a wealth of non-textual information which cannot be easily measured using text-based language models like ChatGPT. To address this gap, we propose WavReward, a reward feedback model based on audio language models that can evaluate both the IQ and EQ of spoken dialogue systems with speech input. Specifically, 1) based on audio language models, WavReward incorporates the deep reasoning process and the nonlinear reward mechanism for post-training. By utilizing multi-sample feedback via the reinforcement learning algorithm, we construct a specialized evaluator tailored to spoken dialogue models. 2) We introduce ChatReward-30K, a preference dataset used to train WavReward. ChatReward-30K includes both comprehension and generation aspects of spoken dialogue models. These scenarios span various tasks, such as text-based chats, nine acoustic attributes of instruction chats, and implicit chats. WavReward outperforms previous state-of-the-art evaluation models across multiple spoken dialogue scenarios, achieving a substantial improvement about Qwen2.5-Omni in objective accuracy from 55.1$\\%$ to 91.5$\\%$. In subjective A/B testing, WavReward also leads by a margin of 83$\\%$. Comprehensive ablation studies confirm the necessity of each component of WavReward. All data and code will be publicly at https://github.com/jishengpeng/WavReward after the paper is accepted."
+  },
+  {
+    "title": "Distilling Realizable Students from Unrealizable Teachers",
+    "url": "http://arxiv.org/abs/2505.09546v1",
+    "arxiv_id": "2505.09546v1",
+    "authors": [
+      "Yujin Kim",
+      "Nathaniel Chin",
+      "Arnav Vasudev",
+      "Sanjiban Choudhury"
+    ],
+    "published": "2025-05-14T16:45:51+00:00",
+    "summary": "We study policy distillation under privileged information, where a student policy with only partial observations must learn from a teacher with full-state access. A key challenge is information asymmetry: the student cannot directly access the teacher's state space, leading to distributional shifts and policy degradation. Existing approaches either modify the teacher to produce realizable but sub-optimal demonstrations or rely on the student to explore missing information independently, both of which are inefficient. Our key insight is that the student should strategically interact with the teacher --querying only when necessary and resetting from recovery states --to stay on a recoverable path within its own observation space. We introduce two methods: (i) an imitation learning approach that adaptively determines when the student should query the teacher for corrections, and (ii) a reinforcement learning approach that selects where to initialize training for efficient exploration. We validate our methods in both simulated and real-world robotic tasks, demonstrating significant improvements over standard teacher-student baselines in training efficiency and final performance. The project website is available at : https://portal-cornell.github.io/CritiQ_ReTRy/"
+  },
+  {
+    "title": "Reinforcement Learning for Individual Optimal Policy from Heterogeneous Data",
+    "url": "http://arxiv.org/abs/2505.09496v1",
+    "arxiv_id": "2505.09496v1",
+    "authors": [
+      "Rui Miao",
+      "Babak Shahbaba",
+      "Annie Qu"
+    ],
+    "published": "2025-05-14T15:44:10+00:00",
+    "summary": "Offline reinforcement learning (RL) aims to find optimal policies in dynamic environments in order to maximize the expected total rewards by leveraging pre-collected data. Learning from heterogeneous data is one of the fundamental challenges in offline RL. Traditional methods focus on learning an optimal policy for all individuals with pre-collected data from a single episode or homogeneous batch episodes, and thus, may result in a suboptimal policy for a heterogeneous population. In this paper, we propose an individualized offline policy optimization framework for heterogeneous time-stationary Markov decision processes (MDPs). The proposed heterogeneous model with individual latent variables enables us to efficiently estimate the individual Q-functions, and our Penalized Pessimistic Personalized Policy Learning (P4L) algorithm guarantees a fast rate on the average regret under a weak partial coverage assumption on behavior policies. In addition, our simulation studies and a real data application demonstrate the superior numerical performance of the proposed method compared with existing methods."
+  },
+  {
+    "title": "Preserving Plasticity in Continual Learning with Adaptive Linearity Injection",
+    "url": "http://arxiv.org/abs/2505.09486v1",
+    "arxiv_id": "2505.09486v1",
+    "authors": [
+      "Seyed Roozbeh Razavi Rohani",
+      "Khashayar Khajavi",
+      "Wesley Chung",
+      "Mo Chen",
+      "Sharan Vaswani"
+    ],
+    "published": "2025-05-14T15:36:51+00:00",
+    "summary": "Loss of plasticity in deep neural networks is the gradual reduction in a model's capacity to incrementally learn and has been identified as a key obstacle to learning in non-stationary problem settings. Recent work has shown that deep linear networks tend to be resilient towards loss of plasticity. Motivated by this observation, we propose Adaptive Linearization (AdaLin), a general approach that dynamically adapts each neuron's activation function to mitigate plasticity loss. Unlike prior methods that rely on regularization or periodic resets, AdaLin equips every neuron with a learnable parameter and a gating mechanism that injects linearity into the activation function based on its gradient flow. This adaptive modulation ensures sufficient gradient signal and sustains continual learning without introducing additional hyperparameters or requiring explicit task boundaries. When used with conventional activation functions like ReLU, Tanh, and GeLU, we demonstrate that AdaLin can significantly improve performance on standard benchmarks, including Random Label and Permuted MNIST, Random Label and Shuffled CIFAR-10, and Class-Split CIFAR-100. Furthermore, its efficacy is shown in more complex scenarios, such as class-incremental learning on CIFAR-100 with a ResNet-18 backbone, and in mitigating plasticity loss in off-policy reinforcement learning agents. We perform a systematic set of ablations that show that neuron-level adaptation is crucial for good performance and analyze a number of metrics in the network that might be correlated to loss of plasticity."
+  },
+  {
+    "title": "Quantum state-agnostic work extraction (almost) without dissipation",
+    "url": "http://arxiv.org/abs/2505.09456v1",
+    "arxiv_id": "2505.09456v1",
+    "authors": [
+      "Josep Lumbreras",
+      "Ruo Cheng Huang",
+      "Yanglin Hu",
+      "Mile Gu",
+      "Marco Tomamichel"
+    ],
+    "published": "2025-05-14T15:07:58+00:00",
+    "summary": "We investigate work extraction protocols designed to transfer the maximum possible energy to a battery using sequential access to $N$ copies of an unknown pure qubit state. The core challenge is designing interactions to optimally balance two competing goals: charging of the battery optimally using the qubit in hand, and acquiring more information by qubit to improve energy harvesting in subsequent rounds. Here, we leverage exploration-exploitation trade-off in reinforcement learning to develop adaptive strategies achieving energy dissipation that scales only poly-logarithmically in $N$. This represents an exponential improvement over current protocols based on full state tomography."
+  },
+  {
+    "title": "Omni-R1: Do You Really Need Audio to Fine-Tune Your Audio LLM?",
+    "url": "http://arxiv.org/abs/2505.09439v1",
+    "arxiv_id": "2505.09439v1",
+    "authors": [
+      "Andrew Rouditchenko",
+      "Saurabhchand Bhati",
+      "Edson Araujo",
+      "Samuel Thomas",
+      "Hilde Kuehne",
+      "Rogerio Feris",
+      "James Glass"
+    ],
+    "published": "2025-05-14T14:47:16+00:00",
+    "summary": "We propose Omni-R1 which fine-tunes a recent multi-modal LLM, Qwen2.5-Omni, on an audio question answering dataset with the reinforcement learning method GRPO. This leads to new State-of-the-Art performance on the recent MMAU benchmark. Omni-R1 achieves the highest accuracies on the sounds, music, speech, and overall average categories, both on the Test-mini and Test-full splits. To understand the performance improvement, we tested models both with and without audio and found that much of the performance improvement from GRPO could be attributed to better text-based reasoning. We also made a surprising discovery that fine-tuning without audio on a text-only dataset was effective at improving the audio-based performance."
+  },
+  {
+    "title": "Quantum-Enhanced Parameter-Efficient Learning for Typhoon Trajectory Forecasting",
+    "url": "http://arxiv.org/abs/2505.09395v1",
+    "arxiv_id": "2505.09395v1",
+    "authors": [
+      "Chen-Yu Liu",
+      "Kuan-Cheng Chen",
+      "Yi-Chien Chen",
+      "Samuel Yen-Chi Chen",
+      "Wei-Hao Huang",
+      "Wei-Jia Huang",
+      "Yen-Jui Chang"
+    ],
+    "published": "2025-05-14T13:50:44+00:00",
+    "summary": "Typhoon trajectory forecasting is essential for disaster preparedness but remains computationally demanding due to the complexity of atmospheric dynamics and the resource requirements of deep learning models. Quantum-Train (QT), a hybrid quantum-classical framework that leverages quantum neural networks (QNNs) to generate trainable parameters exclusively during training, eliminating the need for quantum hardware at inference time. Building on QT's success across multiple domains, including image classification, reinforcement learning, flood prediction, and large language model (LLM) fine-tuning, we introduce Quantum Parameter Adaptation (QPA) for efficient typhoon forecasting model learning. Integrated with an Attention-based Multi-ConvGRU model, QPA enables parameter-efficient training while maintaining predictive accuracy. This work represents the first application of quantum machine learning (QML) to large-scale typhoon trajectory prediction, offering a scalable and energy-efficient approach to climate modeling. Our results demonstrate that QPA significantly reduces the number of trainable parameters while preserving performance, making high-performance forecasting more accessible and sustainable through hybrid quantum-classical learning."
+  },
+  {
+    "title": "TensorRL-QAS: Reinforcement learning with tensor networks for scalable quantum architecture search",
+    "url": "http://arxiv.org/abs/2505.09371v1",
+    "arxiv_id": "2505.09371v1",
+    "authors": [
+      "Akash Kundu",
+      "Stefano Mangini"
+    ],
+    "published": "2025-05-14T13:23:34+00:00",
+    "summary": "Variational quantum algorithms hold the promise to address meaningful quantum problems already on noisy intermediate-scale quantum hardware, but they face the challenge of designing quantum circuits that both solve the target problem and comply with device limitations. Quantum architecture search (QAS) automates this design process, with reinforcement learning (RL) emerging as a promising approach. Yet, RL-based QAS methods encounter significant scalability issues, as computational and training costs grow rapidly with the number of qubits, circuit depth, and noise, severely impacting performance. To address these challenges, we introduce $\\textit{TensorRL-QAS}$, a scalable framework that combines tensor network (TN) methods with RL for designing quantum circuits. By warm-starting the architecture search with a matrix product state approximation of the target solution, TensorRL-QAS effectively narrows the search space to physically meaningful circuits, accelerating convergence to the desired solution. Tested on several quantum chemistry problems of up to 12-qubit, TensorRL-QAS achieves up to a 10-fold reduction in CNOT count and circuit depth compared to baseline methods, while maintaining or surpassing chemical accuracy. It reduces function evaluations by up to 100-fold, accelerates training episodes by up to $98\\%$, and achieves up to $50\\%$ success probability for 10-qubit systems-far exceeding the $<1\\%$ rates of baseline approaches. Robustness and versatility are demonstrated both in the noiseless and noisy scenarios, where we report a simulation of up to 8-qubit. These advancements establish TensorRL-QAS as a promising candidate for a scalable and efficient quantum circuit discovery protocol on near-term quantum hardware."
+  },
+  {
+    "title": "Scent of Knowledge: Optimizing Search-Enhanced Reasoning with Information Foraging",
+    "url": "http://arxiv.org/abs/2505.09316v1",
+    "arxiv_id": "2505.09316v1",
+    "authors": [
+      "Hongjin Qian",
+      "Zheng Liu"
+    ],
+    "published": "2025-05-14T12:13:38+00:00",
+    "summary": "Augmenting large language models (LLMs) with external retrieval has become a standard method to address their inherent knowledge cutoff limitations. However, traditional retrieval-augmented generation methods employ static, pre-inference retrieval strategies, making them inadequate for complex tasks involving ambiguous, multi-step, or evolving information needs. Recent advances in test-time scaling techniques have demonstrated significant potential in enabling LLMs to dynamically interact with external tools, motivating the shift toward adaptive inference-time retrieval. Inspired by Information Foraging Theory (IFT), we propose InForage, a reinforcement learning framework that formalizes retrieval-augmented reasoning as a dynamic information-seeking process. Unlike existing approaches, InForage explicitly rewards intermediate retrieval quality, encouraging LLMs to iteratively gather and integrate information through adaptive search behaviors. To facilitate training, we construct a human-guided dataset capturing iterative search and reasoning trajectories for complex, real-world web tasks. Extensive evaluations across general question answering, multi-hop reasoning tasks, and a newly developed real-time web QA dataset demonstrate InForage's superior performance over baseline methods. These results highlight InForage's effectiveness in building robust, adaptive, and efficient reasoning agents."
+  },
+  {
+    "title": "Neural Multivariate Regression: Qualitative Insights from the Unconstrained Feature Model",
+    "url": "http://arxiv.org/abs/2505.09308v1",
+    "arxiv_id": "2505.09308v1",
+    "authors": [
+      "George Andriopoulos",
+      "Soyuj Jung Basnet",
+      "Juan Guevara",
+      "Li Guo",
+      "Keith Ross"
+    ],
+    "published": "2025-05-14T11:52:45+00:00",
+    "summary": "The Unconstrained Feature Model (UFM) is a mathematical framework that enables closed-form approximations for minimal training loss and related performance measures in deep neural networks (DNNs). This paper leverages the UFM to provide qualitative insights into neural multivariate regression, a critical task in imitation learning, robotics, and reinforcement learning. Specifically, we address two key questions: (1) How do multi-task models compare to multiple single-task models in terms of training performance? (2) Can whitening and normalizing regression targets improve training performance? The UFM theory predicts that multi-task models achieve strictly smaller training MSE than multiple single-task models when the same or stronger regularization is applied to the latter, and our empirical results confirm these findings. Regarding whitening and normalizing regression targets, the UFM theory predicts that they reduce training MSE when the average variance across the target dimensions is less than one, and our empirical results once again confirm these findings. These findings highlight the UFM as a powerful framework for deriving actionable insights into DNN design and data pre-processing strategies."
+  },
+  {
+    "title": "Embodied Intelligent Industrial Robotics: Concepts and Techniques",
+    "url": "http://arxiv.org/abs/2505.09305v1",
+    "arxiv_id": "2505.09305v1",
+    "authors": [
+      "Chaoran Zhang",
+      "Chenhao Zhang",
+      "Zhaobo Xu",
+      "Qinghongbing Xie",
+      "Pingfa Feng",
+      "Long Zeng"
+    ],
+    "published": "2025-05-14T11:41:55+00:00",
+    "summary": "In recent years, embodied intelligent robotics (EIR) has made significant progress in multi-modal perception, autonomous decision-making, and physical interaction. Some robots have already been tested in general-purpose scenarios such as homes and shopping malls. We aim to advance the research and application of embodied intelligence in industrial scenes. However, current EIR lacks a deep understanding of industrial environment semantics and the normative constraints between industrial operating objects. To address this gap, this paper first reviews the history of industrial robotics and the mainstream EIR frameworks. We then introduce the concept of the embodied intelligent industrial robotics (EIIR) and propose a knowledge-driven EIIR technology framework for industrial environments. The framework includes four main modules: world model, high-level task planner, low-level skill controller, and simulator. We also review the current development of technologies related to each module and highlight recent progress in adapting them to industrial applications. Finally, we summarize the key challenges EIIR faces in industrial scenarios and suggest future research directions. We believe that EIIR technology will shape the next generation of industrial robotics. Industrial systems based on embodied intelligent industrial robots offer strong potential for enabling intelligent manufacturing. We will continue to track and summarize new research in this area and hope this review will serve as a valuable reference for scholars and engineers interested in industrial embodied intelligence. Together, we can help drive the rapid advancement and application of this technology. The associated project can be found at https://github.com/jackeyzengl/Embodied_Intelligent_Industrial_Robotics_Paper_List."
+  },
+  {
+    "title": "A drone that learns to efficiently find objects in agricultural fields: from simulation to the real world",
+    "url": "http://arxiv.org/abs/2505.09278v1",
+    "arxiv_id": "2505.09278v1",
+    "authors": [
+      "Rick van Essen",
+      "Gert Kootstra"
+    ],
+    "published": "2025-05-14T10:59:09+00:00",
+    "summary": "Drones are promising for data collection in precision agriculture, however, they are limited by their battery capacity. Efficient path planners are therefore required. This paper presents a drone path planner trained using Reinforcement Learning (RL) on an abstract simulation that uses object detections and uncertain prior knowledge. The RL agent controls the flight direction and can terminate the flight. By using the agent in combination with the drone's flight controller and a detection network to process camera images, it is possible to evaluate the performance of the agent on real-world data. In simulation, the agent yielded on average a 78% shorter flight path compared to a full coverage planner, at the cost of a 14% lower recall. On real-world data, the agent showed a 72% shorter flight path compared to a full coverage planner, however, at the cost of a 25% lower recall. The lower performance on real-world data was attributed to the real-world object distribution and the lower accuracy of prior knowledge, and shows potential for improvement. Overall, we concluded that for applications where it is not crucial to find all objects, such as weed detection, the learned-based path planner is suitable and efficient."
+  },
+  {
+    "title": "Seeing Beyond the Scene: Enhancing Vision-Language Models with Interactional Reasoning",
+    "url": "http://arxiv.org/abs/2505.09118v1",
+    "arxiv_id": "2505.09118v1",
+    "authors": [
+      "Dayong Liang",
+      "Changmeng Zheng",
+      "Zhiyuan Wen",
+      "Yi Cai",
+      "Xiao-Yong Wei",
+      "Qing Li"
+    ],
+    "published": "2025-05-14T04:04:23+00:00",
+    "summary": "Traditional scene graphs primarily focus on spatial relationships, limiting vision-language models' (VLMs) ability to reason about complex interactions in visual scenes. This paper addresses two key challenges: (1) conventional detection-to-construction methods produce unfocused, contextually irrelevant relationship sets, and (2) existing approaches fail to form persistent memories for generalizing interaction reasoning to new scenes. We propose Interaction-augmented Scene Graph Reasoning (ISGR), a framework that enhances VLMs' interactional reasoning through three complementary components. First, our dual-stream graph constructor combines SAM-powered spatial relation extraction with interaction-aware captioning to generate functionally salient scene graphs with spatial grounding. Second, we employ targeted interaction queries to activate VLMs' latent knowledge of object functionalities, converting passive recognition into active reasoning about how objects work together. Finally, we introduce a lone-term memory reinforcement learning strategy with a specialized interaction-focused reward function that transforms transient patterns into long-term reasoning heuristics. Extensive experiments demonstrate that our approach significantly outperforms baseline methods on interaction-heavy reasoning benchmarks, with particularly strong improvements on complex scene understanding tasks. The source code can be accessed at https://github.com/open_upon_acceptance."
+  },
+  {
+    "title": "Beyond the Known: Decision Making with Counterfactual Reasoning Decision Transformer",
+    "url": "http://arxiv.org/abs/2505.09114v1",
+    "arxiv_id": "2505.09114v1",
+    "authors": [
+      "Minh Hoang Nguyen",
+      "Linh Le Pham Van",
+      "Thommen George Karimpanal",
+      "Sunil Gupta",
+      "Hung Le"
+    ],
+    "published": "2025-05-14T03:45:16+00:00",
+    "summary": "Decision Transformers (DT) play a crucial role in modern reinforcement learning, leveraging offline datasets to achieve impressive results across various domains. However, DT requires high-quality, comprehensive data to perform optimally. In real-world applications, the lack of training data and the scarcity of optimal behaviours make training on offline datasets challenging, as suboptimal data can hinder performance. To address this, we propose the Counterfactual Reasoning Decision Transformer (CRDT), a novel framework inspired by counterfactual reasoning. CRDT enhances DT ability to reason beyond known data by generating and utilizing counterfactual experiences, enabling improved decision-making in unseen scenarios. Experiments across Atari and D4RL benchmarks, including scenarios with limited data and altered dynamics, demonstrate that CRDT outperforms conventional DT approaches. Additionally, reasoning counterfactually allows the DT agent to obtain stitching abilities, combining suboptimal trajectories, without architectural modifications. These results highlight the potential of counterfactual reasoning to enhance reinforcement learning agents' performance and generalization capabilities."
+  },
+  {
+    "title": "Imitation Learning for Adaptive Control of a Virtual Soft Exoglove",
+    "url": "http://arxiv.org/abs/2505.09099v1",
+    "arxiv_id": "2505.09099v1",
+    "authors": [
+      "Shirui Lyu",
+      "Vittorio Caggiano",
+      "Matteo Leonetti",
+      "Dario Farina",
+      "Letizia Gionfrida"
+    ],
+    "published": "2025-05-14T03:09:21+00:00",
+    "summary": "The use of wearable robots has been widely adopted in rehabilitation training for patients with hand motor impairments. However, the uniqueness of patients' muscle loss is often overlooked. Leveraging reinforcement learning and a biologically accurate musculoskeletal model in simulation, we propose a customized wearable robotic controller that is able to address specific muscle deficits and to provide compensation for hand-object manipulation tasks. Video data of a same subject performing human grasping tasks is used to train a manipulation model through learning from demonstration. This manipulation model is subsequently fine-tuned to perform object-specific interaction tasks. The muscle forces in the musculoskeletal manipulation model are then weakened to simulate neurological motor impairments, which are later compensated by the actuation of a virtual wearable robotics glove. Results shows that integrating the virtual wearable robotic glove provides shared assistance to support the hand manipulator with weakened muscle forces. The learned exoglove controller achieved an average of 90.5\\% of the original manipulation proficiency."
+  },
+  {
+    "title": "CEC-Zero: Chinese Error Correction Solution Based on LLM",
+    "url": "http://arxiv.org/abs/2505.09082v1",
+    "arxiv_id": "2505.09082v1",
+    "authors": [
+      "Sophie Zhang",
+      "Zhiming Lin"
+    ],
+    "published": "2025-05-14T02:35:47+00:00",
+    "summary": "Recent advancements in large language models (LLMs) demonstrate exceptional Chinese text processing capabilities, particularly in Chinese Spelling Correction (CSC). While LLMs outperform traditional BERT-based models in accuracy and robustness, challenges persist in reliability and generalization. This paper proposes CEC-Zero, a novel reinforcement learning (RL) framework enabling LLMs to self-correct through autonomous error strategy learning without external supervision. By integrating RL with LLMs' generative power, the method eliminates dependency on annotated data or auxiliary models. Experiments reveal RL-enhanced LLMs achieve industry-viable accuracy and superior cross-domain generalization, offering a scalable solution for reliability optimization in Chinese NLP applications. This breakthrough facilitates LLM deployment in practical Chinese text correction scenarios while establishing a new paradigm for self-improving language models."
+  },
+  {
+    "title": "Monte Carlo Beam Search for Actor-Critic Reinforcement Learning in Continuous Control",
+    "url": "http://arxiv.org/abs/2505.09029v1",
+    "arxiv_id": "2505.09029v1",
+    "authors": [
+      "Hazim Alzorgan",
+      "Abolfazl Razi"
+    ],
+    "published": "2025-05-13T23:56:12+00:00",
+    "summary": "Actor-critic methods, like Twin Delayed Deep Deterministic Policy Gradient (TD3), depend on basic noise-based exploration, which can result in less than optimal policy convergence. In this study, we introduce Monte Carlo Beam Search (MCBS), a new hybrid method that combines beam search and Monte Carlo rollouts with TD3 to improve exploration and action selection. MCBS produces several candidate actions around the policy's output and assesses them through short-horizon rollouts, enabling the agent to make better-informed choices. We test MCBS across various continuous-control benchmarks, including HalfCheetah-v4, Walker2d-v5, and Swimmer-v5, showing enhanced sample efficiency and performance compared to standard TD3 and other baseline methods like SAC, PPO, and A2C. Our findings emphasize MCBS's capability to enhance policy learning through structured look-ahead search while ensuring computational efficiency. Additionally, we offer a detailed analysis of crucial hyperparameters, such as beam width and rollout depth, and explore adaptive strategies to optimize MCBS for complex control tasks. Our method shows a higher convergence rate across different environments compared to TD3, SAC, PPO, and A2C. For instance, we achieved 90% of the maximum achievable reward within around 200 thousand timesteps compared to 400 thousand timesteps for the second-best method."
+  },
+  {
+    "title": "Automated Meta Prompt Engineering for Alignment with the Theory of Mind",
+    "url": "http://arxiv.org/abs/2505.09024v1",
+    "arxiv_id": "2505.09024v1",
+    "authors": [
+      "Aaron Baughman",
+      "Rahul Agarwal",
+      "Eduardo Morales",
+      "Gozde Akay"
+    ],
+    "published": "2025-05-13T23:42:36+00:00",
+    "summary": "We introduce a method of meta-prompting that jointly produces fluent text for complex tasks while optimizing the similarity of neural states between a human's mental expectation and a Large Language Model's (LLM) neural processing. A technique of agentic reinforcement learning is applied, in which an LLM as a Judge (LLMaaJ) teaches another LLM, through in-context learning, how to produce content by interpreting the intended and unintended generated text traits. To measure human mental beliefs around content production, users modify long form AI-generated text articles before publication at the US Open 2024 tennis Grand Slam. Now, an LLMaaJ can solve the Theory of Mind (ToM) alignment problem by anticipating and including human edits within the creation of text from an LLM. Throughout experimentation and by interpreting the results of a live production system, the expectations of human content reviewers had 100% of alignment with AI 53.8% of the time with an average iteration count of 4.38. The geometric interpretation of content traits such as factualness, novelty, repetitiveness, and relevancy over a Hilbert vector space combines spatial volume (all trait importance) with vertices alignment (individual trait relevance) enabled the LLMaaJ to optimize on Human ToM. This resulted in an increase in content quality by extending the coverage of tennis action. Our work that was deployed at the US Open 2024 has been used across other live events within sports and entertainment."
+  },
+  {
+    "title": "Deep Reinforcement Learning for Power Grid Multi-Stage Cascading Failure Mitigation",
+    "url": "http://arxiv.org/abs/2505.09012v1",
+    "arxiv_id": "2505.09012v1",
+    "authors": [
+      "Bo Meng",
+      "Chenghao Xu",
+      "Yongli Zhu"
+    ],
+    "published": "2025-05-13T23:01:34+00:00",
+    "summary": "Cascading failures in power grids can lead to grid collapse, causing severe disruptions to social operations and economic activities. In certain cases, multi-stage cascading failures can occur. However, existing cascading-failure-mitigation strategies are usually single-stage-based, overlooking the complexity of the multi-stage scenario. This paper treats the multi-stage cascading failure problem as a reinforcement learning task and develops a simulation environment. The reinforcement learning agent is then trained via the deterministic policy gradient algorithm to achieve continuous actions. Finally, the effectiveness of the proposed approach is validated on the IEEE 14-bus and IEEE 118-bus systems."
+  },
+  {
+    "title": "Continual Reinforcement Learning via Autoencoder-Driven Task and New Environment Recognition",
+    "url": "http://arxiv.org/abs/2505.09003v1",
+    "arxiv_id": "2505.09003v1",
+    "authors": [
+      "Zeki Doruk Erden",
+      "Donia Gasmi",
+      "Boi Faltings"
+    ],
+    "published": "2025-05-13T22:38:54+00:00",
+    "summary": "Continual learning for reinforcement learning agents remains a significant challenge, particularly in preserving and leveraging existing information without an external signal to indicate changes in tasks or environments. In this study, we explore the effectiveness of autoencoders in detecting new tasks and matching observed environments to previously encountered ones. Our approach integrates policy optimization with familiarity autoencoders within an end-to-end continual learning system. This system can recognize and learn new tasks or environments while preserving knowledge from earlier experiences and can selectively retrieve relevant knowledge when re-encountering a known environment. Initial results demonstrate successful continual learning without external signals to indicate task changes or reencounters, showing promise for this methodology."
+  },
+  {
+    "title": "Enhancing Aerial Combat Tactics through Hierarchical Multi-Agent Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2505.08995v1",
+    "arxiv_id": "2505.08995v1",
+    "authors": [
+      "Ardian Selmonaj",
+      "Oleg Szehr",
+      "Giacomo Del Rio",
+      "Alessandro Antonucci",
+      "Adrian Schneider",
+      "Michael R\u00fcegsegger"
+    ],
+    "published": "2025-05-13T22:13:48+00:00",
+    "summary": "This work presents a Hierarchical Multi-Agent Reinforcement Learning framework for analyzing simulated air combat scenarios involving heterogeneous agents. The objective is to identify effective Courses of Action that lead to mission success within preset simulations, thereby enabling the exploration of real-world defense scenarios at low cost and in a safe-to-fail setting. Applying deep Reinforcement Learning in this context poses specific challenges, such as complex flight dynamics, the exponential size of the state and action spaces in multi-agent systems, and the capability to integrate real-time control of individual units with look-ahead planning. To address these challenges, the decision-making process is split into two levels of abstraction: low-level policies control individual units, while a high-level commander policy issues macro commands aligned with the overall mission targets. This hierarchical structure facilitates the training process by exploiting policy symmetries of individual agents and by separating control from command tasks. The low-level policies are trained for individual combat control in a curriculum of increasing complexity. The high-level commander is then trained on mission targets given pre-trained control policies. The empirical validation confirms the advantages of the proposed framework."
+  },
+  {
+    "title": "Generalization in Monitored Markov Decision Processes (Mon-MDPs)",
+    "url": "http://arxiv.org/abs/2505.08988v1",
+    "arxiv_id": "2505.08988v1",
+    "authors": [
+      "Montaser Mohammedalamen",
+      "Michael Bowling"
+    ],
+    "published": "2025-05-13T21:58:25+00:00",
+    "summary": "Reinforcement learning (RL) typically models the interaction between the agent and environment as a Markov decision process (MDP), where the rewards that guide the agent's behavior are always observable. However, in many real-world scenarios, rewards are not always observable, which can be modeled as a monitored Markov decision process (Mon-MDP). Prior work on Mon-MDPs have been limited to simple, tabular cases, restricting their applicability to real-world problems. This work explores Mon-MDPs using function approximation (FA) and investigates the challenges involved. We show that combining function approximation with a learned reward model enables agents to generalize from monitored states with observable rewards, to unmonitored environment states with unobservable rewards. Therefore, we demonstrate that such generalization with a reward model achieves near-optimal policies in environments formally defined as unsolvable. However, we identify a critical limitation of such function approximation, where agents incorrectly extrapolate rewards due to overgeneralization, resulting in undesirable behaviors. To mitigate overgeneralization, we propose a cautious police optimization method leveraging reward uncertainty. This work serves as a step towards bridging this gap between Mon-MDP theory and real-world applications."
+  },
+  {
+    "title": "Adaptive Entanglement Generation for Quantum Routing",
+    "url": "http://arxiv.org/abs/2505.08958v1",
+    "arxiv_id": "2505.08958v1",
+    "authors": [
+      "Tasdiqul Islam",
+      "Md Arifuzzaman",
+      "Engin Arslan"
+    ],
+    "published": "2025-05-13T20:51:59+00:00",
+    "summary": "Entanglement generation in long-distance quantum networks is a difficult process due to resource limitations and the probabilistic nature of entanglement swapping. To maximize success probability, existing quantum routing algorithms employ computationally expensive solutions (e.g., linear programming) to determine which links to entangle and use for end-to-end entanglement generation. Such optimization methods, however, cannot meet the delay requirements of real-world quantum networks, necessitating swift yet efficient real-time optimization models. In this paper, we propose reinforcement learning (RL)-based models to determine which links to entangle and proactively swap to meet connection requests. We show that the proposed RL-based approach is 20x faster compared to linear programming. Moreover, we show that one can take advantage of the longevity of entanglements to (i) cache entangled links for future use and (ii) proactively swap entanglement on high-demand path segments, thereby increasing the likelihood of request success. Through comprehensive simulations, we demonstrate that caching unused entanglements leads to a 10-15% improvement in the performance of state-of-the-art quantum routing algorithms. Complementing caching with proactive entanglement swapping further enhances the request success rate by up to 52.55%."
+  },
+  {
+    "title": "Deep reinforcement learning-based longitudinal control strategy for automated vehicles at signalised intersections",
+    "url": "http://arxiv.org/abs/2505.08896v1",
+    "arxiv_id": "2505.08896v1",
+    "authors": [
+      "Pankaj Kumar",
+      "Aditya Mishra",
+      "Pranamesh Chakraborty",
+      "Subrahmanya Swamy Peruru"
+    ],
+    "published": "2025-05-13T18:38:42+00:00",
+    "summary": "Developing an autonomous vehicle control strategy for signalised intersections (SI) is one of the challenging tasks due to its inherently complex decision-making process. This study proposes a Deep Reinforcement Learning (DRL) based longitudinal vehicle control strategy at SI. A comprehensive reward function has been formulated with a particular focus on (i) distance headway-based efficiency reward, (ii) decision-making criteria during amber light, and (iii) asymmetric acceleration/ deceleration response, along with the traditional safety and comfort criteria. This reward function has been incorporated with two popular DRL algorithms, Deep Deterministic Policy Gradient (DDPG) and Soft-Actor Critic (SAC), which can handle the continuous action space of acceleration/deceleration. The proposed models have been trained on the combination of real-world leader vehicle (LV) trajectories and simulated trajectories generated using the Ornstein-Uhlenbeck (OU) process. The overall performance of the proposed models has been tested using Cumulative Distribution Function (CDF) plots and compared with the real-world trajectory data. The results show that the RL models successfully maintain lower distance headway (i.e., higher efficiency) and jerk compared to human-driven vehicles without compromising safety. Further, to assess the robustness of the proposed models, we evaluated the model performance on diverse safety-critical scenarios, in terms of car-following and traffic signal compliance. Both DDPG and SAC models successfully handled the critical scenarios, while the DDPG model showed smoother action profiles compared to the SAC model. Overall, the results confirm that DRL-based longitudinal vehicle control strategy at SI can help to improve traffic safety, efficiency, and comfort."
+  },
+  {
     "title": "Generative Molecular Design with Steerable and Granular Synthesizability Control",
     "url": "http://arxiv.org/abs/2505.08774v1",
     "arxiv_id": "2505.08774v1",
@@ -28,6 +377,19 @@
     ],
     "published": "2025-05-13T16:47:00+00:00",
     "summary": "Reinforcement Learning (RL) has emerged as a powerful tool for neural combinatorial optimization, enabling models to learn heuristics that solve complex problems without requiring expert knowledge. Despite significant progress, existing RL approaches face challenges such as diminishing reward signals and inefficient exploration in vast combinatorial action spaces, leading to inefficiency. In this paper, we propose Preference Optimization, a novel method that transforms quantitative reward signals into qualitative preference signals via statistical comparison modeling, emphasizing the superiority among sampled solutions. Methodologically, by reparameterizing the reward function in terms of policy and utilizing preference models, we formulate an entropy-regularized RL objective that aligns the policy directly with preferences while avoiding intractable computations. Furthermore, we integrate local search techniques into the fine-tuning rather than post-processing to generate high-quality preference pairs, helping the policy escape local optima. Empirical results on various benchmarks, such as the Traveling Salesman Problem (TSP), the Capacitated Vehicle Routing Problem (CVRP) and the Flexible Flow Shop Problem (FFSP), demonstrate that our method significantly outperforms existing RL algorithms, achieving superior convergence efficiency and solution quality."
+  },
+  {
+    "title": "Improved Algorithms for Differentially Private Language Model Alignment",
+    "url": "http://arxiv.org/abs/2505.08849v1",
+    "arxiv_id": "2505.08849v1",
+    "authors": [
+      "Keyu Chen",
+      "Hao Tang",
+      "Qinglin Liu",
+      "Yizhao Xu"
+    ],
+    "published": "2025-05-13T16:18:59+00:00",
+    "summary": "Language model alignment is crucial for ensuring that large language models (LLMs) align with human preferences, yet it often involves sensitive user data, raising significant privacy concerns. While prior work has integrated differential privacy (DP) with alignment techniques, their performance remains limited. In this paper, we propose novel algorithms for privacy-preserving alignment and rigorously analyze their effectiveness across varying privacy budgets and models. Our framework can be deployed on two celebrated alignment techniques, namely direct preference optimization (DPO) and reinforcement learning from human feedback (RLHF). Through systematic experiments on large-scale language models, we demonstrate that our approach achieves state-of-the-art performance. Notably, one of our algorithms, DP-AdamW, combined with DPO, surpasses existing methods, improving alignment quality by up to 15% under moderate privacy budgets ({\\epsilon}=2-5). We further investigate the interplay between privacy guarantees, alignment efficacy, and computational demands, providing practical guidelines for optimizing these trade-offs."
   },
   {
     "title": "A Study of Data-driven Methods for Inventory Optimization",
@@ -258,6 +620,19 @@
     ],
     "published": "2025-05-13T07:19:16+00:00",
     "summary": "Deep reinforcement learning (DRL) has emerged as a powerful framework for solving sequential decision-making problems, achieving remarkable success in a wide range of applications, including game AI, autonomous driving, biomedicine, and large language models. However, the diversity of algorithms and the complexity of theoretical foundations often pose significant challenges for beginners seeking to enter the field. This tutorial aims to provide a concise, intuitive, and practical introduction to DRL, with a particular focus on the Proximal Policy Optimization (PPO) algorithm, which is one of the most widely used and effective DRL methods. To facilitate learning, we organize all algorithms under the Generalized Policy Iteration (GPI) framework, offering readers a unified and systematic perspective. Instead of lengthy theoretical proofs, we emphasize intuitive explanations, illustrative examples, and practical engineering techniques. This work serves as an efficient and accessible guide, helping readers rapidly progress from basic concepts to the implementation of advanced DRL algorithms."
+  },
+  {
+    "title": "Adaptive Security Policy Management in Cloud Environments Using Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2505.08837v1",
+    "arxiv_id": "2505.08837v1",
+    "authors": [
+      "Muhammad Saqib",
+      "Dipkumar Mehta",
+      "Fnu Yashu",
+      "Shubham Malhotra"
+    ],
+    "published": "2025-05-13T06:34:54+00:00",
+    "summary": "The security of cloud environments, such as Amazon Web Services (AWS), is complex and dynamic. Static security policies have become inadequate as threats evolve and cloud resources exhibit elasticity [1]. This paper addresses the limitations of static policies by proposing a security policy management framework that uses reinforcement learning (RL) to adapt dynamically. Specifically, we employ deep reinforcement learning algorithms, including deep Q Networks and proximal policy optimization, enabling the learning and continuous adjustment of controls such as firewall rules and Identity and Access Management (IAM) policies. The proposed RL based solution leverages cloud telemetry data (AWS Cloud Trail logs, network traffic data, threat intelligence feeds) to continuously refine security policies, maximizing threat mitigation, and compliance while minimizing resource impact. Experimental results demonstrate that our adaptive RL based framework significantly outperforms static policies, achieving higher intrusion detection rates (92% compared to 82% for static policies) and substantially reducing incident detection and response times by 58%. In addition, it maintains high conformity with security requirements and efficient resource usage. These findings validate the effectiveness of adaptive reinforcement learning approaches in improving cloud security policy management."
   },
   {
     "title": "Automatic Curriculum Learning for Driving Scenarios: Towards Robust and Efficient Reinforcement Learning",
