@@ -1,5 +1,774 @@
 [
   {
+    "title": "Mind the Gap: Bridging Thought Leap for Improved Chain-of-Thought Tuning",
+    "url": "http://arxiv.org/abs/2505.14684v1",
+    "arxiv_id": "2505.14684v1",
+    "authors": [
+      "Haolei Xu",
+      "Yuchen Yan",
+      "Yongliang Shen",
+      "Wenqi Zhang",
+      "Guiyang Hou",
+      "Shengpei Jiang",
+      "Kaitao Song",
+      "Weiming Lu",
+      "Jun Xiao",
+      "Yueting Zhuang"
+    ],
+    "published": "2025-05-20T17:59:31+00:00",
+    "summary": "Large language models (LLMs) have achieved remarkable progress on mathemati-cal tasks through Chain-of-Thought (CoT) reasoning. However, existing mathematical CoT datasets often suffer from Thought Leaps due to experts omitting intermediate steps, which negatively impacts model learning and generalization. We propose the CoT Thought Leap Bridge Task, which aims to automatically detect leaps and generate missing intermediate reasoning steps to restore the completeness and coherence of CoT. To facilitate this, we constructed a specialized training dataset called ScaleQM+, based on the structured ScaleQuestMath dataset, and trained CoT-Bridge to bridge thought leaps. Through comprehensive experiments on mathematical reasoning benchmarks, we demonstrate that models fine-tuned on bridged datasets consistently outperform those trained on original datasets, with improvements of up to +5.87% on NuminaMath. Our approach effectively enhances distilled data (+3.02%) and provides better starting points for reinforcement learning (+3.1%), functioning as a plug-and-play module compatible with existing optimization techniques. Furthermore, CoT-Bridge demonstrate improved generalization to out-of-domain logical reasoning tasks, confirming that enhancing reasoning completeness yields broadly applicable benefits."
+  },
+  {
+    "title": "Visionary-R1: Mitigating Shortcuts in Visual Reasoning with Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2505.14677v1",
+    "arxiv_id": "2505.14677v1",
+    "authors": [
+      "Jiaer Xia",
+      "Yuhang Zang",
+      "Peng Gao",
+      "Yixuan Li",
+      "Kaiyang Zhou"
+    ],
+    "published": "2025-05-20T17:58:35+00:00",
+    "summary": "Learning general-purpose reasoning capabilities has long been a challenging problem in AI. Recent research in large language models (LLMs), such as DeepSeek-R1, has shown that reinforcement learning techniques like GRPO can enable pre-trained LLMs to develop reasoning capabilities using simple question-answer pairs. In this paper, we aim to train visual language models (VLMs) to perform reasoning on image data through reinforcement learning and visual question-answer pairs, without any explicit chain-of-thought (CoT) supervision. Our findings indicate that simply applying reinforcement learning to a VLM -- by prompting the model to produce a reasoning chain before providing an answer -- can lead the model to develop shortcuts from easy questions, thereby reducing its ability to generalize across unseen data distributions. We argue that the key to mitigating shortcut learning is to encourage the model to interpret images prior to reasoning. Therefore, we train the model to adhere to a caption-reason-answer output format: initially generating a detailed caption for an image, followed by constructing an extensive reasoning chain. When trained on 273K CoT-free visual question-answer pairs and using only reinforcement learning, our model, named Visionary-R1, outperforms strong multimodal models, such as GPT-4o, Claude3.5-Sonnet, and Gemini-1.5-Pro, on multiple visual reasoning benchmarks."
+  },
+  {
+    "title": "Reward Reasoning Model",
+    "url": "http://arxiv.org/abs/2505.14674v1",
+    "arxiv_id": "2505.14674v1",
+    "authors": [
+      "Jiaxin Guo",
+      "Zewen Chi",
+      "Li Dong",
+      "Qingxiu Dong",
+      "Xun Wu",
+      "Shaohan Huang",
+      "Furu Wei"
+    ],
+    "published": "2025-05-20T17:58:03+00:00",
+    "summary": "Reward models play a critical role in guiding large language models toward outputs that align with human expectations. However, an open challenge remains in effectively utilizing test-time compute to enhance reward model performance. In this work, we introduce Reward Reasoning Models (RRMs), which are specifically designed to execute a deliberate reasoning process before generating final rewards. Through chain-of-thought reasoning, RRMs leverage additional test-time compute for complex queries where appropriate rewards are not immediately apparent. To develop RRMs, we implement a reinforcement learning framework that fosters self-evolved reward reasoning capabilities without requiring explicit reasoning traces as training data. Experimental results demonstrate that RRMs achieve superior performance on reward modeling benchmarks across diverse domains. Notably, we show that RRMs can adaptively exploit test-time compute to further improve reward accuracy. The pretrained reward reasoning models are available at https://huggingface.co/Reward-Reasoning."
+  },
+  {
+    "title": "General-Reasoner: Advancing LLM Reasoning Across All Domains",
+    "url": "http://arxiv.org/abs/2505.14652v1",
+    "arxiv_id": "2505.14652v1",
+    "authors": [
+      "Xueguang Ma",
+      "Qian Liu",
+      "Dongfu Jiang",
+      "Ge Zhang",
+      "Zejun Ma",
+      "Wenhu Chen"
+    ],
+    "published": "2025-05-20T17:41:33+00:00",
+    "summary": "Reinforcement learning (RL) has recently demonstrated strong potential in enhancing the reasoning capabilities of large language models (LLMs). Particularly, the \"Zero\" reinforcement learning introduced by Deepseek-R1-Zero, enables direct RL training of base LLMs without relying on an intermediate supervised fine-tuning stage. Despite these advancements, current works for LLM reasoning mainly focus on mathematical and coding domains, largely due to data abundance and the ease of answer verification. This limits the applicability and generalization of such models to broader domains, where questions often have diverse answer representations, and data is more scarce. In this paper, we propose General-Reasoner, a novel training paradigm designed to enhance LLM reasoning capabilities across diverse domains. Our key contributions include: (1) constructing a large-scale, high-quality dataset of questions with verifiable answers curated by web crawling, covering a wide range of disciplines; and (2) developing a generative model-based answer verifier, which replaces traditional rule-based verification with the capability of chain-of-thought and context-awareness. We train a series of models and evaluate them on a wide range of datasets covering wide domains like physics, chemistry, finance, electronics etc. Our comprehensive evaluation across these 12 benchmarks (e.g. MMLU-Pro, GPQA, SuperGPQA, TheoremQA, BBEH and MATH AMC) demonstrates that General-Reasoner outperforms existing baseline methods, achieving robust and generalizable reasoning performance while maintaining superior effectiveness in mathematical reasoning tasks."
+  },
+  {
+    "title": "Think Only When You Need with Large Hybrid-Reasoning Models",
+    "url": "http://arxiv.org/abs/2505.14631v1",
+    "arxiv_id": "2505.14631v1",
+    "authors": [
+      "Lingjie Jiang",
+      "Xun Wu",
+      "Shaohan Huang",
+      "Qingxiu Dong",
+      "Zewen Chi",
+      "Li Dong",
+      "Xingxing Zhang",
+      "Tengchao Lv",
+      "Lei Cui",
+      "Furu Wei"
+    ],
+    "published": "2025-05-20T17:23:25+00:00",
+    "summary": "Recent Large Reasoning Models (LRMs) have shown substantially improved reasoning capabilities over traditional Large Language Models (LLMs) by incorporating extended thinking processes prior to producing final responses. However, excessively lengthy thinking introduces substantial overhead in terms of token consumption and latency, which is particularly unnecessary for simple queries. In this work, we introduce Large Hybrid-Reasoning Models (LHRMs), the first kind of model capable of adaptively determining whether to perform thinking based on the contextual information of user queries. To achieve this, we propose a two-stage training pipeline comprising Hybrid Fine-Tuning (HFT) as a cold start, followed by online reinforcement learning with the proposed Hybrid Group Policy Optimization (HGPO) to implicitly learn to select the appropriate thinking mode. Furthermore, we introduce a metric called Hybrid Accuracy to quantitatively assess the model's capability for hybrid thinking. Extensive experimental results show that LHRMs can adaptively perform hybrid thinking on queries of varying difficulty and type. It outperforms existing LRMs and LLMs in reasoning and general capabilities while significantly improving efficiency. Together, our work advocates for a reconsideration of the appropriate use of extended thinking processes and provides a solid starting point for building hybrid thinking systems."
+  },
+  {
+    "title": "TinyV: Reducing False Negatives in Verification Improves RL for LLM Reasoning",
+    "url": "http://arxiv.org/abs/2505.14625v1",
+    "arxiv_id": "2505.14625v1",
+    "authors": [
+      "Zhangchen Xu",
+      "Yuetai Li",
+      "Fengqing Jiang",
+      "Bhaskar Ramasubramanian",
+      "Luyao Niu",
+      "Bill Yuchen Lin",
+      "Radha Poovendran"
+    ],
+    "published": "2025-05-20T17:16:44+00:00",
+    "summary": "Reinforcement Learning (RL) has become a powerful tool for enhancing the reasoning abilities of large language models (LLMs) by optimizing their policies with reward signals. Yet, RL's success relies on the reliability of rewards, which are provided by verifiers. In this paper, we expose and analyze a widespread problem--false negatives--where verifiers wrongly reject correct model outputs. Our in-depth study of the Big-Math-RL-Verified dataset reveals that over 38% of model-generated responses suffer from false negatives, where the verifier fails to recognize correct answers. We show, both empirically and theoretically, that these false negatives severely impair RL training by depriving the model of informative gradient signals and slowing convergence. To mitigate this, we propose tinyV, a lightweight LLM-based verifier that augments existing rule-based methods, which dynamically identifies potential false negatives and recovers valid responses to produce more accurate reward estimates. Across multiple math-reasoning benchmarks, integrating TinyV boosts pass rates by up to 10% and accelerates convergence relative to the baseline. Our findings highlight the critical importance of addressing verifier false negatives and offer a practical approach to improve RL-based fine-tuning of LLMs. Our code is available at https://github.com/uw-nsl/TinyV."
+  },
+  {
+    "title": "Context Reasoner: Incentivizing Reasoning Capability for Contextualized Privacy and Safety Compliance via Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2505.14585v1",
+    "arxiv_id": "2505.14585v1",
+    "authors": [
+      "Wenbin Hu",
+      "Haoran Li",
+      "Huihao Jing",
+      "Qi Hu",
+      "Ziqian Zeng",
+      "Sirui Han",
+      "Heli Xu",
+      "Tianshu Chu",
+      "Peizhao Hu",
+      "Yangqiu Song"
+    ],
+    "published": "2025-05-20T16:40:09+00:00",
+    "summary": "While Large Language Models (LLMs) exhibit remarkable capabilities, they also introduce significant safety and privacy risks. Current mitigation strategies often fail to preserve contextual reasoning capabilities in risky scenarios. Instead, they rely heavily on sensitive pattern matching to protect LLMs, which limits the scope. Furthermore, they overlook established safety and privacy standards, leading to systemic risks for legal compliance. To address these gaps, we formulate safety and privacy issues into contextualized compliance problems following the Contextual Integrity (CI) theory. Under the CI framework, we align our model with three critical regulatory standards: GDPR, EU AI Act, and HIPAA. Specifically, we employ reinforcement learning (RL) with a rule-based reward to incentivize contextual reasoning capabilities while enhancing compliance with safety and privacy norms. Through extensive experiments, we demonstrate that our method not only significantly enhances legal compliance (achieving a +17.64% accuracy improvement in safety/privacy benchmarks) but also further improves general reasoning capability. For OpenThinker-7B, a strong reasoning model that significantly outperforms its base model Qwen2.5-7B-Instruct across diverse subjects, our method enhances its general reasoning capabilities, with +2.05% and +8.98% accuracy improvement on the MMLU and LegalBench benchmark, respectively."
+  },
+  {
+    "title": "Performance Optimization of Energy-Harvesting Underlay Cognitive Radio Networks Using Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2505.14581v1",
+    "arxiv_id": "2505.14581v1",
+    "authors": [
+      "Deemah H. Tashman",
+      "Soumaya Cherkaoui",
+      "Walaa Hamouda"
+    ],
+    "published": "2025-05-20T16:38:32+00:00",
+    "summary": "In this paper, a reinforcement learning technique is employed to maximize the performance of a cognitive radio network (CRN). In the presence of primary users (PUs), it is presumed that two secondary users (SUs) access the licensed band within underlay mode. In addition, the SU transmitter is assumed to be an energy-constrained device that requires harvesting energy in order to transmit signals to their intended destination. Therefore, we propose that there are two main sources of energy; the interference of PUs' transmissions and ambient radio frequency (RF) sources. The SU will select whether to gather energy from PUs or only from ambient sources based on a predetermined threshold. The process of energy harvesting from the PUs' messages is accomplished via the time switching approach. In addition, based on a deep Q-network (DQN) approach, the SU transmitter determines whether to collect energy or transmit messages during each time slot as well as selects the suitable transmission power in order to maximize its average data rate. Our approach outperforms a baseline strategy and converges, as shown by our findings."
+  },
+  {
+    "title": "KIPPO: Koopman-Inspired Proximal Policy Optimization",
+    "url": "http://arxiv.org/abs/2505.14566v1",
+    "arxiv_id": "2505.14566v1",
+    "authors": [
+      "Andrei Cozma",
+      "Landon Harris",
+      "Hairong Qi"
+    ],
+    "published": "2025-05-20T16:25:41+00:00",
+    "summary": "Reinforcement Learning (RL) has made significant strides in various domains, and policy gradient methods like Proximal Policy Optimization (PPO) have gained popularity due to their balance in performance, training stability, and computational efficiency. These methods directly optimize policies through gradient-based updates. However, developing effective control policies for environments with complex and non-linear dynamics remains a challenge. High variance in gradient estimates and non-convex optimization landscapes often lead to unstable learning trajectories. Koopman Operator Theory has emerged as a powerful framework for studying non-linear systems through an infinite-dimensional linear operator that acts on a higher-dimensional space of measurement functions. In contrast with their non-linear counterparts, linear systems are simpler, more predictable, and easier to analyze. In this paper, we present Koopman-Inspired Proximal Policy Optimization (KIPPO), which learns an approximately linear latent-space representation of the underlying system's dynamics while retaining essential features for effective policy learning. This is achieved through a Koopman-approximation auxiliary network that can be added to the baseline policy optimization algorithms without altering the architecture of the core policy or value function. Extensive experimental results demonstrate consistent improvements over the PPO baseline with 6-60% increased performance while reducing variability by up to 91% when evaluated on various continuous control tasks."
+  },
+  {
+    "title": "Bellman operator convergence enhancements in reinforcement learning algorithms",
+    "url": "http://arxiv.org/abs/2505.14564v1",
+    "arxiv_id": "2505.14564v1",
+    "authors": [
+      "David Krame Kadurha",
+      "Domini Jocema Leko Moutouo",
+      "Yae Ulrich Gaba"
+    ],
+    "published": "2025-05-20T16:24:42+00:00",
+    "summary": "This paper reviews the topological groundwork for the study of reinforcement learning (RL) by focusing on the structure of state, action, and policy spaces. We begin by recalling key mathematical concepts such as complete metric spaces, which form the foundation for expressing RL problems. By leveraging the Banach contraction principle, we illustrate how the Banach fixed-point theorem explains the convergence of RL algorithms and how Bellman operators, expressed as operators on Banach spaces, ensure this convergence. The work serves as a bridge between theoretical mathematics and practical algorithm design, offering new approaches to enhance the efficiency of RL. In particular, we investigate alternative formulations of Bellman operators and demonstrate their impact on improving convergence rates and performance in standard RL environments such as MountainCar, CartPole, and Acrobot. Our findings highlight how a deeper mathematical understanding of RL can lead to more effective algorithms for decision-making problems."
+  },
+  {
+    "title": "KORGym: A Dynamic Game Platform for LLM Reasoning Evaluation",
+    "url": "http://arxiv.org/abs/2505.14552v1",
+    "arxiv_id": "2505.14552v1",
+    "authors": [
+      "Jiajun Shi",
+      "Jian Yang",
+      "Jiaheng Liu",
+      "Xingyuan Bu",
+      "Jiangjie Chen",
+      "Junting Zhou",
+      "Kaijing Ma",
+      "Zhoufutu Wen",
+      "Bingli Wang",
+      "Yancheng He",
+      "Liang Song",
+      "Hualei Zhu",
+      "Shilong Li",
+      "Xingjian Wang",
+      "Wei Zhang",
+      "Ruibin Yuan",
+      "Yifan Yao",
+      "Wenjun Yang",
+      "Yunli Wang",
+      "Siyuan Fang",
+      "Siyu Yuan",
+      "Qianyu He",
+      "Xiangru Tang",
+      "Yingshui Tan",
+      "Wangchunshu Zhou",
+      "Zhaoxiang Zhang",
+      "Zhoujun Li",
+      "Wenhao Huang",
+      "Ge Zhang"
+    ],
+    "published": "2025-05-20T16:06:32+00:00",
+    "summary": "Recent advancements in large language models (LLMs) underscore the need for more comprehensive evaluation methods to accurately assess their reasoning capabilities. Existing benchmarks are often domain-specific and thus cannot fully capture an LLM's general reasoning potential. To address this limitation, we introduce the Knowledge Orthogonal Reasoning Gymnasium (KORGym), a dynamic evaluation platform inspired by KOR-Bench and Gymnasium. KORGym offers over fifty games in either textual or visual formats and supports interactive, multi-turn assessments with reinforcement learning scenarios. Using KORGym, we conduct extensive experiments on 19 LLMs and 8 VLMs, revealing consistent reasoning patterns within model families and demonstrating the superior performance of closed-source models. Further analysis examines the effects of modality, reasoning strategies, reinforcement learning techniques, and response length on model performance. We expect KORGym to become a valuable resource for advancing LLM reasoning research and developing evaluation methodologies suited to complex, interactive environments."
+  },
+  {
+    "title": "Multi-agent Reinforcement Learning vs. Fixed-Time Control for Traffic Signal Optimization: A Simulation Study",
+    "url": "http://arxiv.org/abs/2505.14544v1",
+    "arxiv_id": "2505.14544v1",
+    "authors": [
+      "Saahil Mahato"
+    ],
+    "published": "2025-05-20T15:59:44+00:00",
+    "summary": "Urban traffic congestion, particularly at intersections, significantly impacts travel time, fuel consumption, and emissions. Traditional fixed-time signal control systems often lack the adaptability to manage dynamic traffic patterns effectively. This study explores the application of multi-agent reinforcement learning (MARL) to optimize traffic signal coordination across multiple intersections within a simulated environment. Utilizing Pygame, a simulation was developed to model a network of interconnected intersections with randomly generated vehicle flows to reflect realistic traffic variability. A decentralized MARL controller was implemented, in which each traffic signal operates as an autonomous agent, making decisions based on local observations and information from neighboring agents. Performance was evaluated against a baseline fixed-time controller using metrics such as average vehicle wait time and overall throughput. The MARL approach demonstrated statistically significant improvements, including reduced average waiting times and improved throughput. These findings suggest that MARL-based dynamic control strategies hold substantial promise for improving urban traffic management efficiency. More research is recommended to address scalability and real-world implementation challenges."
+  },
+  {
+    "title": "Energy-Efficient Deep Reinforcement Learning with Spiking Transformers",
+    "url": "http://arxiv.org/abs/2505.14533v1",
+    "arxiv_id": "2505.14533v1",
+    "authors": [
+      "Mohammad Irfan Uddin",
+      "Nishad Tasnim",
+      "Md Omor Faruk",
+      "Zejian Zhou"
+    ],
+    "published": "2025-05-20T15:52:43+00:00",
+    "summary": "Agent-based Transformers have been widely adopted in recent reinforcement learning advances due to their demonstrated ability to solve complex tasks. However, the high computational complexity of Transformers often results in significant energy consumption, limiting their deployment in real-world autonomous systems. Spiking neural networks (SNNs), with their biologically inspired structure, offer an energy-efficient alternative for machine learning. In this paper, a novel Spike-Transformer Reinforcement Learning (STRL) algorithm that combines the energy efficiency of SNNs with the powerful decision-making capabilities of reinforcement learning is developed. Specifically, an SNN using multi-step Leaky Integrate-and-Fire (LIF) neurons and attention mechanisms capable of processing spatio-temporal patterns over multiple time steps is designed. The architecture is further enhanced with state, action, and reward encodings to create a Transformer-like structure optimized for reinforcement learning tasks. Comprehensive numerical experiments conducted on state-of-the-art benchmarks demonstrate that the proposed SNN Transformer achieves significantly improved policy performance compared to conventional agent-based Transformers. With both enhanced energy efficiency and policy optimality, this work highlights a promising direction for deploying bio-inspired, low-cost machine learning models in complex real-world decision-making scenarios."
+  },
+  {
+    "title": "NavBench: A Unified Robotics Benchmark for Reinforcement Learning-Based Autonomous Navigation",
+    "url": "http://arxiv.org/abs/2505.14526v1",
+    "arxiv_id": "2505.14526v1",
+    "authors": [
+      "Matteo El-Hariry",
+      "Antoine Richard",
+      "Ricard M. Castan",
+      "Luis F. W. Batista",
+      "Matthieu Geist",
+      "Cedric Pradalier",
+      "Miguel Olivares-Mendez"
+    ],
+    "published": "2025-05-20T15:48:23+00:00",
+    "summary": "Autonomous robots must navigate and operate in diverse environments, from terrestrial and aquatic settings to aerial and space domains. While Reinforcement Learning (RL) has shown promise in training policies for specific autonomous robots, existing benchmarks are often constrained to unique platforms, limiting generalization and fair comparisons across different mobility systems. In this paper, we present NavBench, a multi-domain benchmark for training and evaluating RL-based navigation policies across diverse robotic platforms and operational environments. Built on IsaacLab, our framework standardizes task definitions, enabling different robots to tackle various navigation challenges without the need for ad-hoc task redesigns or custom evaluation metrics. Our benchmark addresses three key challenges: (1) Unified cross-medium benchmarking, enabling direct evaluation of diverse actuation methods (thrusters, wheels, water-based propulsion) in realistic environments; (2) Scalable and modular design, facilitating seamless robot-task interchangeability and reproducible training pipelines; and (3) Robust sim-to-real validation, demonstrated through successful policy transfer to multiple real-world robots, including a satellite robotic simulator, an unmanned surface vessel, and a wheeled ground vehicle. By ensuring consistency between simulation and real-world deployment, NavBench simplifies the development of adaptable RL-based navigation strategies. Its modular design allows researchers to easily integrate custom robots and tasks by following the framework's predefined templates, making it accessible for a wide range of applications. Our code is publicly available at NavBench."
+  },
+  {
+    "title": "Personalised Insulin Adjustment with Reinforcement Learning: An In-Silico Validation for People with Diabetes on Intensive Insulin Treatment",
+    "url": "http://arxiv.org/abs/2505.14477v1",
+    "arxiv_id": "2505.14477v1",
+    "authors": [
+      "Maria Panagiotou",
+      "Lorenzo Brigato",
+      "Vivien Streit",
+      "Amanda Hayoz",
+      "Stephan Proennecke",
+      "Stavros Athanasopoulos",
+      "Mikkel T. Olsen",
+      "Elizabeth J. den Brok",
+      "Cecilie H. Svensson",
+      "Konstantinos Makrilakis",
+      "Maria Xatzipsalti",
+      "Andriani Vazeou",
+      "Peter R. Mertens",
+      "Ulrik Pedersen-Bjergaard",
+      "Bastiaan E. de Galan",
+      "Stavroula Mougiakakou"
+    ],
+    "published": "2025-05-20T15:10:06+00:00",
+    "summary": "Despite recent advances in insulin preparations and technology, adjusting insulin remains an ongoing challenge for the majority of people with type 1 diabetes (T1D) and longstanding type 2 diabetes (T2D). In this study, we propose the Adaptive Basal-Bolus Advisor (ABBA), a personalised insulin treatment recommendation approach based on reinforcement learning for individuals with T1D and T2D, performing self-monitoring blood glucose measurements and multiple daily insulin injection therapy. We developed and evaluated the ability of ABBA to achieve better time-in-range (TIR) for individuals with T1D and T2D, compared to a standard basal-bolus advisor (BBA). The in-silico test was performed using an FDA-accepted population, including 101 simulated adults with T1D and 101 with T2D. An in-silico evaluation shows that ABBA significantly improved TIR and significantly reduced both times below- and above-range, compared to BBA. ABBA's performance continued to improve over two months, whereas BBA exhibited only modest changes. This personalised method for adjusting insulin has the potential to further optimise glycaemic control and support people with T1D and T2D in their daily self-management. Our results warrant ABBA to be trialed for the first time in humans."
+  },
+  {
+    "title": "VisualQuality-R1: Reasoning-Induced Image Quality Assessment via Reinforcement Learning to Rank",
+    "url": "http://arxiv.org/abs/2505.14460v1",
+    "arxiv_id": "2505.14460v1",
+    "authors": [
+      "Tianhe Wu",
+      "Jian Zou",
+      "Jie Liang",
+      "Lei Zhang",
+      "Kede Ma"
+    ],
+    "published": "2025-05-20T14:56:50+00:00",
+    "summary": "DeepSeek-R1 has demonstrated remarkable effectiveness in incentivizing reasoning and generalization capabilities of large language models (LLMs) through reinforcement learning. Nevertheless, the potential of reasoning-induced computational modeling has not been thoroughly explored in the context of image quality assessment (IQA), a task critically dependent on visual reasoning. In this paper, we introduce VisualQuality-R1, a reasoning-induced no-reference IQA (NR-IQA) model, and we train it with reinforcement learning to rank, a learning algorithm tailored to the intrinsically relative nature of visual quality. Specifically, for a pair of images, we employ group relative policy optimization to generate multiple quality scores for each image. These estimates are then used to compute comparative probabilities of one image having higher quality than the other under the Thurstone model. Rewards for each quality estimate are defined using continuous fidelity measures rather than discretized binary labels. Extensive experiments show that the proposed VisualQuality-R1 consistently outperforms discriminative deep learning-based NR-IQA models as well as a recent reasoning-induced quality regression method. Moreover, VisualQuality-R1 is capable of generating contextually rich, human-aligned quality descriptions, and supports multi-dataset training without requiring perceptual scale realignment. These features make VisualQuality-R1 especially well-suited for reliably measuring progress in a wide range of image processing tasks like super-resolution and image generation."
+  },
+  {
+    "title": "Interpretable Reinforcement Learning for Load Balancing using Kolmogorov-Arnold Networks",
+    "url": "http://arxiv.org/abs/2505.14459v1",
+    "arxiv_id": "2505.14459v1",
+    "authors": [
+      "Kamal Singh",
+      "Sami Marouani",
+      "Ahmad Al Sheikh",
+      "Pham Tran Anh Quang",
+      "Amaury Habrard"
+    ],
+    "published": "2025-05-20T14:56:31+00:00",
+    "summary": "Reinforcement learning (RL) has been increasingly applied to network control problems, such as load balancing. However, existing RL approaches often suffer from lack of interpretability and difficulty in extracting controller equations. In this paper, we propose the use of Kolmogorov-Arnold Networks (KAN) for interpretable RL in network control. We employ a PPO agent with a 1-layer actor KAN model and an MLP Critic network to learn load balancing policies that maximise throughput utility, minimize loss as well as delay. Our approach allows us to extract controller equations from the learned neural networks, providing insights into the decision-making process. We evaluate our approach using different reward functions demonstrating its effectiveness in improving network performance while providing interpretable policies."
+  },
+  {
+    "title": "Adaptive Estimation of the Transition Density of Controlled Markov Chains",
+    "url": "http://arxiv.org/abs/2505.14458v1",
+    "arxiv_id": "2505.14458v1",
+    "authors": [
+      "Imon Banerjee",
+      "Vinayak Rao",
+      "Harsha Honnappa"
+    ],
+    "published": "2025-05-20T14:55:42+00:00",
+    "summary": "Estimating the transition dynamics of controlled Markov chains is crucial in fields such as time series analysis, reinforcement learning, and system exploration. Traditional non-parametric density estimation methods often assume independent samples and require oracle knowledge of smoothness parameters like the H\\\"older continuity coefficient. These assumptions are unrealistic in controlled Markovian settings, especially when the controls are non-Markovian, since such parameters need to hold uniformly over all control values. To address this gap, we propose an adaptive estimator for the transition densities of controlled Markov chains that does not rely on prior knowledge of smoothness parameters or assumptions about the control sequence distribution. Our method builds upon recent advances in adaptive density estimation by selecting an estimator that minimizes a loss function {and} fitting the observed data well, using a constrained minimax criterion over a dense class of estimators. We validate the performance of our estimator through oracle risk bounds, employing both randomized and deterministic versions of the Hellinger distance as loss functions. This approach provides a robust and flexible framework for estimating transition densities in controlled Markovian systems without imposing strong assumptions."
+  },
+  {
+    "title": "CtrlDiff: Boosting Large Diffusion Language Models with Dynamic Block Prediction and Controllable Generation",
+    "url": "http://arxiv.org/abs/2505.14455v1",
+    "arxiv_id": "2505.14455v1",
+    "authors": [
+      "Chihan Huang",
+      "Hao Tang"
+    ],
+    "published": "2025-05-20T14:52:41+00:00",
+    "summary": "Although autoregressive models have dominated language modeling in recent years, there has been a growing interest in exploring alternative paradigms to the conventional next-token prediction framework. Diffusion-based language models have emerged as a compelling alternative due to their powerful parallel generation capabilities and inherent editability. However, these models are often constrained by fixed-length generation. A promising direction is to combine the strengths of both paradigms, segmenting sequences into blocks, modeling autoregressive dependencies across blocks while leveraging discrete diffusion to estimate the conditional distribution within each block given the preceding context. Nevertheless, their practical application is often hindered by two key limitations: rigid fixed-length outputs and a lack of flexible control mechanisms. In this work, we address the critical limitations of fixed granularity and weak controllability in current large diffusion language models. We propose CtrlDiff, a dynamic and controllable semi-autoregressive framework that adaptively determines the size of each generation block based on local semantics using reinforcement learning. Furthermore, we introduce a classifier-guided control mechanism tailored to discrete diffusion, which significantly reduces computational overhead while facilitating efficient post-hoc conditioning without retraining. Extensive experiments demonstrate that CtrlDiff sets a new standard among hybrid diffusion models, narrows the performance gap to state-of-the-art autoregressive approaches, and enables effective conditional text generation across diverse tasks."
+  },
+  {
+    "title": "Semantically-driven Deep Reinforcement Learning for Inspection Path Planning",
+    "url": "http://arxiv.org/abs/2505.14443v1",
+    "arxiv_id": "2505.14443v1",
+    "authors": [
+      "Grzegorz Malczyk",
+      "Mihir Kulkarni",
+      "Kostas Alexis"
+    ],
+    "published": "2025-05-20T14:45:16+00:00",
+    "summary": "This paper introduces a novel semantics-aware inspection planning policy derived through deep reinforcement learning. Reflecting the fact that within autonomous informative path planning missions in unknown environments, it is often only a sparse set of objects of interest that need to be inspected, the method contributes an end-to-end policy that simultaneously performs semantic object visual inspection combined with collision-free navigation. Assuming access only to the instantaneous depth map, the associated segmentation image, the ego-centric local occupancy, and the history of past positions in the robot's neighborhood, the method demonstrates robust generalizability and successful crossing of the sim2real gap. Beyond simulations and extensive comparison studies, the approach is verified in experimental evaluations onboard a flying robot deployed in novel environments with previously unseen semantics and overall geometric configurations."
+  },
+  {
+    "title": "PRL: Prompts from Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2505.14412v1",
+    "arxiv_id": "2505.14412v1",
+    "authors": [
+      "Pawe\u0142 Batorski",
+      "Adrian Kosmala",
+      "Paul Swoboda"
+    ],
+    "published": "2025-05-20T14:26:19+00:00",
+    "summary": "Effective prompt engineering remains a central challenge in fully harnessing the capabilities of LLMs. While well-designed prompts can dramatically enhance performance, crafting them typically demands expert intuition and a nuanced understanding of the task. Moreover, the most impactful prompts often hinge on subtle semantic cues, ones that may elude human perception but are crucial for guiding LLM behavior. In this paper, we introduce PRL (Prompts from Reinforcement Learning), a novel RL-based approach for automatic prompt generation. Unlike previous methods, PRL can produce novel few-shot examples that were not seen during training. Our approach achieves state-of-the-art performance across a range of benchmarks, including text classification, simplification, and summarization. On the classification task, it surpasses prior methods by 2.58% over APE and 1.00% over EvoPrompt. Additionally, it improves the average ROUGE scores on the summarization task by 4.32 over APE and by 2.12 over EvoPrompt and the SARI score on simplification by 6.93 over APE and by 6.01 over EvoPrompt. Our code is available at https://github.com/Batorskq/prl ."
+  },
+  {
+    "title": "DeepEyes: Incentivizing \"Thinking with Images\" via Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2505.14362v1",
+    "arxiv_id": "2505.14362v1",
+    "authors": [
+      "Ziwei Zheng",
+      "Michael Yang",
+      "Jack Hong",
+      "Chenxiao Zhao",
+      "Guohai Xu",
+      "Le Yang",
+      "Chao Shen",
+      "Xing Yu"
+    ],
+    "published": "2025-05-20T13:48:11+00:00",
+    "summary": "Large Vision-Language Models (VLMs) have shown strong capabilities in multimodal understanding and reasoning, yet they are primarily constrained by text-based reasoning processes. However, achieving seamless integration of visual and textual reasoning which mirrors human cognitive processes remains a significant challenge. In particular, effectively incorporating advanced visual input processing into reasoning mechanisms is still an open question. Thus, in this paper, we explore the interleaved multimodal reasoning paradigm and introduce DeepEyes, a model with \"thinking with images\" capabilities incentivized through end-to-end reinforcement learning without the need for cold-start SFT. Notably, this ability emerges natively within the model itself, leveraging its inherent grounding ability as a tool instead of depending on separate specialized models. Specifically, we propose a tool-use-oriented data selection mechanism and a reward strategy to encourage successful tool-assisted reasoning trajectories. DeepEyes achieves significant performance gains on fine-grained perception and reasoning benchmarks and also demonstrates improvement in grounding, hallucination, and mathematical reasoning tasks. Interestingly, we observe the distinct evolution of tool-calling behavior from initial exploration to efficient and accurate exploitation, and diverse thinking patterns that closely mirror human visual reasoning processes. Code is available at https://github.com/Visual-Agent/DeepEyes."
+  },
+  {
+    "title": "Empowering LLMs in Task-Oriented Dialogues: A Domain-Independent Multi-Agent Framework and Fine-Tuning Strategy",
+    "url": "http://arxiv.org/abs/2505.14299v1",
+    "arxiv_id": "2505.14299v1",
+    "authors": [
+      "Zihao Feng",
+      "Xiaoxue Wang",
+      "Bowen Wu",
+      "Weihong Zhong",
+      "Zhen Xu",
+      "Hailong Cao",
+      "Tiejun Zhao",
+      "Ying Li",
+      "Baoxun Wang"
+    ],
+    "published": "2025-05-20T12:47:43+00:00",
+    "summary": "Task-oriented dialogue systems based on Large Language Models (LLMs) have gained increasing attention across various industries and achieved significant results. Current approaches condense complex procedural workflows into a single agent to achieve satisfactory performance on large-scale LLMs. However, these approaches face challenges to achieve comparable performance on fine-tuned lightweight LLMs, due to their limited capabilities in handling multiple complex logic. In this work, we design a Domain-Independent Multi-Agent Framework (DIMF), which contains Intent Classification Agent, Slot Filling Agent and Response Agent. This approach simplifies the learning complexity and enhances the generalization ability by separating the tasks into domain-independent components. In this framework, we enhance the capabilities in contextual understanding using the Direct Preference Optimisation (DPO) method, and propose a simple and effective Data Distribution Adaptation (DDA) method to mitigate degradation issues during DPO training. Experiments conducted on the MultiWOZ datasets show that our proposed method achieves a better average performance among all the baselines. Extensive analysis also demonstrates that our proposed framework exhibits excellent generalizability and zero-shot capability."
+  },
+  {
+    "title": "YESciEval: Robust LLM-as-a-Judge for Scientific Question Answering",
+    "url": "http://arxiv.org/abs/2505.14279v1",
+    "arxiv_id": "2505.14279v1",
+    "authors": [
+      "Jennifer D'Souza",
+      "Hamed Babaei Giglou",
+      "Quentin M\u00fcnch"
+    ],
+    "published": "2025-05-20T12:30:46+00:00",
+    "summary": "Large Language Models (LLMs) drive scientific question-answering on modern search engines, yet their evaluation robustness remains underexplored. We introduce YESciEval, an open-source framework that combines fine-grained rubric-based assessment with reinforcement learning to mitigate optimism bias in LLM evaluators. We release multidisciplinary scienceQ&A datasets, including adversarial variants, with evaluation scores from multiple LLMs. Independent of proprietary models and human feedback, our approach enables scalable, cost-free evaluation. By advancing reliable LLM-as-a-judge models, this work supports AI alignment and fosters robust, transparent evaluation essential for scientific inquiry and artificial general intelligence."
+  },
+  {
+    "title": "Think-J: Learning to Think for Generative LLM-as-a-Judge",
+    "url": "http://arxiv.org/abs/2505.14268v1",
+    "arxiv_id": "2505.14268v1",
+    "authors": [
+      "Hui Huang",
+      "Yancheng He",
+      "Hongli Zhou",
+      "Rui Zhang",
+      "Wei Liu",
+      "Weixun Wang",
+      "Wenbo Su",
+      "Bo Zheng",
+      "Jiaheng Liu"
+    ],
+    "published": "2025-05-20T12:19:10+00:00",
+    "summary": "LLM-as-a-Judge refers to the automatic modeling of preferences for responses generated by Large Language Models (LLMs), which is of significant importance for both LLM evaluation and reward modeling. Although generative LLMs have made substantial progress in various tasks, their performance as LLM-Judge still falls short of expectations. In this work, we propose Think-J, which improves generative LLM-as-a-Judge by learning how to think. We first utilized a small amount of curated data to develop the model with initial judgment thinking capabilities. Subsequently, we optimize the judgment thinking traces based on reinforcement learning (RL). We propose two methods for judgment thinking optimization, based on offline and online RL, respectively. The offline RL requires training a critic model to construct positive and negative examples for learning. The online method defines rule-based reward as feedback for optimization. Experimental results showed that our approach can significantly enhance the evaluation capability of generative LLM-Judge, surpassing both generative and classifier-based LLM-Judge without requiring extra human annotations."
+  },
+  {
+    "title": "AAPO: Enhance the Reasoning Capabilities of LLMs with Advantage Momentum",
+    "url": "http://arxiv.org/abs/2505.14264v1",
+    "arxiv_id": "2505.14264v1",
+    "authors": [
+      "Jian Xiong",
+      "Jingbo Zhou",
+      "Jingyong Ye",
+      "Dejing Dou"
+    ],
+    "published": "2025-05-20T12:13:44+00:00",
+    "summary": "Reinforcement learning (RL) has emerged as an effective approach for enhancing the reasoning capabilities of large language models (LLMs), especially in scenarios where supervised fine-tuning (SFT) falls short due to limited chain-of-thought (CoT) data. Among RL-based post-training methods, group relative advantage estimation, as exemplified by Group Relative Policy Optimization (GRPO), has attracted considerable attention for eliminating the dependency on the value model, thereby simplifying training compared to traditional approaches like Proximal Policy Optimization (PPO). However, we observe that exsiting group relative advantage estimation method still suffers from training inefficiencies, particularly when the estimated advantage approaches zero. To address this limitation, we propose Advantage-Augmented Policy Optimization (AAPO), a novel RL algorithm that optimizes the cross-entropy (CE) loss using advantages enhanced through a momentum-based estimation scheme. This approach effectively mitigates the inefficiencies associated with group relative advantage estimation. Experimental results on multiple mathematical reasoning benchmarks demonstrate the superior performance of AAPO."
+  },
+  {
+    "title": "UniVG-R1: Reasoning Guided Universal Visual Grounding with Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2505.14231v1",
+    "arxiv_id": "2505.14231v1",
+    "authors": [
+      "Sule Bai",
+      "Mingxing Li",
+      "Yong Liu",
+      "Jing Tang",
+      "Haoji Zhang",
+      "Lei Sun",
+      "Xiangxiang Chu",
+      "Yansong Tang"
+    ],
+    "published": "2025-05-20T11:40:43+00:00",
+    "summary": "Traditional visual grounding methods primarily focus on single-image scenarios with simple textual references. However, extending these methods to real-world scenarios that involve implicit and complex instructions, particularly in conjunction with multiple images, poses significant challenges, which is mainly due to the lack of advanced reasoning ability across diverse multi-modal contexts. In this work, we aim to address the more practical universal grounding task, and propose UniVG-R1, a reasoning guided multimodal large language model (MLLM) for universal visual grounding, which enhances reasoning capabilities through reinforcement learning (RL) combined with cold-start data. Specifically, we first construct a high-quality Chain-of-Thought (CoT) grounding dataset, annotated with detailed reasoning chains, to guide the model towards correct reasoning paths via supervised fine-tuning. Subsequently, we perform rule-based reinforcement learning to encourage the model to identify correct reasoning chains, thereby incentivizing its reasoning capabilities. In addition, we identify a difficulty bias arising from the prevalence of easy samples as RL training progresses, and we propose a difficulty-aware weight adjustment strategy to further strengthen the performance. Experimental results demonstrate the effectiveness of UniVG-R1, which achieves state-of-the-art performance on MIG-Bench with a 9.1% improvement over the previous method. Furthermore, our model exhibits strong generalizability, achieving an average improvement of 23.4% in zero-shot performance across four image and video reasoning grounding benchmarks. The project page can be accessed at https://amap-ml.github.io/UniVG-R1-page/."
+  },
+  {
+    "title": "Reinforcement Learning vs. Distillation: Understanding Accuracy and Capability in LLM Reasoning",
+    "url": "http://arxiv.org/abs/2505.14216v1",
+    "arxiv_id": "2505.14216v1",
+    "authors": [
+      "Minwu Kim",
+      "Anubhav Shrestha",
+      "Safal Shrestha",
+      "Aadim Nepal",
+      "Keith Ross"
+    ],
+    "published": "2025-05-20T11:22:34+00:00",
+    "summary": "Recent studies have shown that reinforcement learning with verifiable rewards (RLVR) enhances overall accuracy but fails to improve capability, while distillation can improve both. In this paper, we investigate the mechanisms behind these phenomena. First, we demonstrate that RLVR does not improve capability because it focuses on improving the accuracy of the less-difficult questions to the detriment of the accuracy of the most difficult questions, thereby leading to no improvement in capability. Second, we find that RLVR does not merely increase the success probability for the less difficult questions, but in our small model settings produces quality responses that were absent in its output distribution before training. In addition, we show these responses are neither noticeably longer nor feature more reflection-related keywords, underscoring the need for more reliable indicators of response quality. Third, we show that while distillation reliably improves accuracy by learning strong reasoning patterns, it only improves capability when new knowledge is introduced. Moreover, when distilling only with reasoning patterns and no new knowledge, the accuracy of the less-difficult questions improves to the detriment of the most difficult questions, similar to RLVR. Together, these findings offer a clearer understanding of how RLVR and distillation shape reasoning behavior in language models."
+  },
+  {
+    "title": "Embedded Mean Field Reinforcement Learning for Perimeter-defense Game",
+    "url": "http://arxiv.org/abs/2505.14209v1",
+    "arxiv_id": "2505.14209v1",
+    "authors": [
+      "Li Wang",
+      "Xin Yu",
+      "Xuxin Lv",
+      "Gangzheng Ai",
+      "Wenjun Wu"
+    ],
+    "published": "2025-05-20T11:11:46+00:00",
+    "summary": "With the rapid advancement of unmanned aerial vehicles (UAVs) and missile technologies, perimeter-defense game between attackers and defenders for the protection of critical regions have become increasingly complex and strategically significant across a wide range of domains. However, existing studies predominantly focus on small-scale, simplified two-dimensional scenarios, often overlooking realistic environmental perturbations, motion dynamics, and inherent heterogeneity--factors that pose substantial challenges to real-world applicability. To bridge this gap, we investigate large-scale heterogeneous perimeter-defense game in a three-dimensional setting, incorporating realistic elements such as motion dynamics and wind fields. We derive the Nash equilibrium strategies for both attackers and defenders, characterize the victory regions, and validate our theoretical findings through extensive simulations. To tackle large-scale heterogeneous control challenges in defense strategies, we propose an Embedded Mean-Field Actor-Critic (EMFAC) framework. EMFAC leverages representation learning to enable high-level action aggregation in a mean-field manner, supporting scalable coordination among defenders. Furthermore, we introduce a lightweight agent-level attention mechanism based on reward representation, which selectively filters observations and mean-field information to enhance decision-making efficiency and accelerate convergence in large-scale tasks. Extensive simulations across varying scales demonstrate the effectiveness and adaptability of EMFAC, which outperforms established baselines in both convergence speed and overall performance. To further validate practicality, we test EMFAC in small-scale real-world experiments and conduct detailed analyses, offering deeper insights into the framework's effectiveness in complex scenarios."
+  },
+  {
+    "title": "Towards Omnidirectional Reasoning with 360-R1: A Dataset, Benchmark, and GRPO-based Method",
+    "url": "http://arxiv.org/abs/2505.14197v1",
+    "arxiv_id": "2505.14197v1",
+    "authors": [
+      "Xinshen Zhang",
+      "Zhen Ye",
+      "Xu Zheng"
+    ],
+    "published": "2025-05-20T10:55:26+00:00",
+    "summary": "Omnidirectional images (ODIs), with their 360{\\deg} field of view, provide unparalleled spatial awareness for immersive applications like augmented reality and embodied AI. However, the capability of existing multi-modal large language models (MLLMs) to comprehend and reason about such panoramic scenes remains underexplored. This paper addresses this gap by introducing OmniVQA, the first dataset and conducting the first benchmark for omnidirectional visual question answering. Our evaluation of state-of-the-art MLLMs reveals significant limitations in handling omnidirectional visual question answering, highlighting persistent challenges in object localization, feature extraction, and hallucination suppression within panoramic contexts. These results underscore the disconnect between current MLLM capabilities and the demands of omnidirectional visual understanding, which calls for dedicated architectural or training innovations tailored to 360{\\deg} imagery. Building on the OmniVQA dataset and benchmark, we further introduce a rule-based reinforcement learning method, 360-R1, based on Qwen2.5-VL-Instruct. Concretely, we modify the group relative policy optimization (GRPO) by proposing three novel reward functions: (1) reasoning process similarity reward, (2) answer semantic accuracy reward, and (3) structured format compliance reward. Extensive experiments on our OmniVQA demonstrate the superiority of our proposed method in omnidirectional space (+6% improvement)."
+  },
+  {
+    "title": "Safety Subspaces are Not Distinct: A Fine-Tuning Case Study",
+    "url": "http://arxiv.org/abs/2505.14185v1",
+    "arxiv_id": "2505.14185v1",
+    "authors": [
+      "Kaustubh Ponkshe",
+      "Shaan Shah",
+      "Raghav Singhal",
+      "Praneeth Vepakomma"
+    ],
+    "published": "2025-05-20T10:41:49+00:00",
+    "summary": "Large Language Models (LLMs) rely on safety alignment to produce socially acceptable responses. This is typically achieved through instruction tuning and reinforcement learning from human feedback. However, this alignment is known to be brittle: further fine-tuning, even on benign or lightly contaminated data, can degrade safety and reintroduce harmful behaviors. A growing body of work suggests that alignment may correspond to identifiable geometric directions in weight space, forming subspaces that could, in principle, be isolated or preserved to defend against misalignment. In this work, we conduct a comprehensive empirical study of this geometric perspective. We examine whether safety-relevant behavior is concentrated in specific subspaces, whether it can be separated from general-purpose learning, and whether harmfulness arises from distinguishable patterns in internal representations. Across both parameter and activation space, our findings are consistent: subspaces that amplify safe behaviors also amplify unsafe ones, and prompts with different safety implications activate overlapping representations. We find no evidence of a subspace that selectively governs safety. These results challenge the assumption that alignment is geometrically localized. Rather than residing in distinct directions, safety appears to emerge from entangled, high-impact components of the model's broader learning dynamics. This suggests that subspace-based defenses may face fundamental limitations and underscores the need for alternative strategies to preserve alignment under continued training. We corroborate these findings through multiple experiments on five open-source LLMs. Our code is publicly available at: https://github.com/CERT-Lab/safety-subspaces."
+  },
+  {
+    "title": "SHARP: Synthesizing High-quality Aligned Reasoning Problems for Large Reasoning Models Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2505.14147v1",
+    "arxiv_id": "2505.14147v1",
+    "authors": [
+      "Xiong Jun Wu",
+      "Zhenduo Zhang",
+      "ZuJie Wen",
+      "Zhiqiang Zhang",
+      "Wang Ren",
+      "Lei Shi",
+      "Cai Chen",
+      "Deng Zhao",
+      "Dingnan Jin",
+      "Qing Cui",
+      "Jun Zhou"
+    ],
+    "published": "2025-05-20T09:54:42+00:00",
+    "summary": "Training large reasoning models (LRMs) with reinforcement learning in STEM domains is hindered by the scarcity of high-quality, diverse, and verifiable problem sets. Existing synthesis methods, such as Chain-of-Thought prompting, often generate oversimplified or uncheckable data, limiting model advancement on complex tasks. To address these challenges, we introduce SHARP, a unified approach to Synthesizing High-quality Aligned Reasoning Problems for LRMs reinforcement learning with verifiable rewards (RLVR). SHARP encompasses a strategic set of self-alignment principles -- targeting graduate and Olympiad-level difficulty, rigorous logical consistency, and unambiguous, verifiable answers -- and a structured three-phase framework (Alignment, Instantiation, Inference) that ensures thematic diversity and fine-grained control over problem generation. We implement SHARP by leveraging a state-of-the-art LRM to infer and verify challenging STEM questions, then employ a reinforcement learning loop to refine the model's reasoning through verifiable reward signals. Experiments on benchmarks such as GPQA demonstrate that SHARP-augmented training substantially outperforms existing methods, markedly improving complex reasoning accuracy and pushing LRM performance closer to expert-level proficiency. Our contributions include the SHARP strategy, framework design, end-to-end implementation, and experimental evaluation of its effectiveness in elevating LRM reasoning capabilities."
+  },
+  {
+    "title": "s3: You Don't Need That Much Data to Train a Search Agent via RL",
+    "url": "http://arxiv.org/abs/2505.14146v1",
+    "arxiv_id": "2505.14146v1",
+    "authors": [
+      "Pengcheng Jiang",
+      "Xueqiang Xu",
+      "Jiacheng Lin",
+      "Jinfeng Xiao",
+      "Zifeng Wang",
+      "Jimeng Sun",
+      "Jiawei Han"
+    ],
+    "published": "2025-05-20T09:53:56+00:00",
+    "summary": "Retrieval-augmented generation (RAG) systems empower large language models (LLMs) to access external knowledge during inference. Recent advances have enabled LLMs to act as search agents via reinforcement learning (RL), improving information acquisition through multi-turn interactions with retrieval engines. However, existing approaches either optimize retrieval using search-only metrics (e.g., NDCG) that ignore downstream utility or fine-tune the entire LLM to jointly reason and retrieve-entangling retrieval with generation and limiting the real search utility and compatibility with frozen or proprietary models. In this work, we propose s3, a lightweight, model-agnostic framework that decouples the searcher from the generator and trains the searcher using a Gain Beyond RAG reward: the improvement in generation accuracy over naive RAG. s3 requires only 2.4k training samples to outperform baselines trained on over 70x more data, consistently delivering stronger downstream performance across six general QA and five medical QA benchmarks."
+  },
+  {
+    "title": "RL of Thoughts: Navigating LLM Reasoning with Inference-time Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2505.14140v1",
+    "arxiv_id": "2505.14140v1",
+    "authors": [
+      "Qianyue Hao",
+      "Sibo Li",
+      "Jian Yuan",
+      "Yong Li"
+    ],
+    "published": "2025-05-20T09:43:33+00:00",
+    "summary": "Despite rapid advancements in large language models (LLMs), the token-level autoregressive nature constrains their complex reasoning capabilities. To enhance LLM reasoning, inference-time techniques, including Chain/Tree/Graph-of-Thought(s), successfully improve the performance, as they are fairly cost-effective by guiding reasoning through sophisticated logical structures without modifying LLMs' parameters. However, these manually predefined, task-agnostic frameworks are applied uniformly across diverse tasks, lacking adaptability. To improve this, we propose RL-of-Thoughts (RLoT), where we train a lightweight navigator model with reinforcement learning (RL) to adaptively enhance LLM reasoning at inference time. Specifically, we design five basic logic blocks from the perspective of human cognition. During the reasoning process, the trained RL navigator dynamically selects the suitable logic blocks and combines them into task-specific logical structures according to problem characteristics. Experiments across multiple reasoning benchmarks (AIME, MATH, GPQA, etc.) with multiple LLMs (GPT, Llama, Qwen, and DeepSeek) illustrate that RLoT outperforms established inference-time techniques by up to 13.4%. Remarkably, with less than 3K parameters, our RL navigator is able to make sub-10B LLMs comparable to 100B-scale counterparts. Moreover, the RL navigator demonstrates strong transferability: a model trained on one specific LLM-task pair can effectively generalize to unseen LLMs and tasks. Our code is open-source at https://anonymous.4open.science/r/RL-LLM-Reasoning-1A30 for reproducibility."
+  },
+  {
+    "title": "FlowQ: Energy-Guided Flow Policies for Offline Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2505.14139v1",
+    "arxiv_id": "2505.14139v1",
+    "authors": [
+      "Marvin Alles",
+      "Nutan Chen",
+      "Patrick van der Smagt",
+      "Botond Cseke"
+    ],
+    "published": "2025-05-20T09:43:05+00:00",
+    "summary": "The use of guidance to steer sampling toward desired outcomes has been widely explored within diffusion models, especially in applications such as image and trajectory generation. However, incorporating guidance during training remains relatively underexplored. In this work, we introduce energy-guided flow matching, a novel approach that enhances the training of flow models and eliminates the need for guidance at inference time. We learn a conditional velocity field corresponding to the flow policy by approximating an energy-guided probability path as a Gaussian path. Learning guided trajectories is appealing for tasks where the target distribution is defined by a combination of data and an energy function, as in reinforcement learning. Diffusion-based policies have recently attracted attention for their expressive power and ability to capture multi-modal action distributions. Typically, these policies are optimized using weighted objectives or by back-propagating gradients through actions sampled by the policy. As an alternative, we propose FlowQ, an offline reinforcement learning algorithm based on energy-guided flow matching. Our method achieves competitive performance while the policy training time is constant in the number of flow sampling steps."
+  },
+  {
+    "title": "Process vs. Outcome Reward: Which is Better for Agentic RAG Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2505.14069v1",
+    "arxiv_id": "2505.14069v1",
+    "authors": [
+      "Wenlin Zhang",
+      "Xiangyang Li",
+      "Kuicai Dong",
+      "Yichao Wang",
+      "Pengyue Jia",
+      "Xiaopeng Li",
+      "Yingyi Zhang",
+      "Derong Xu",
+      "Zhaocheng Du",
+      "Huifeng Guo",
+      "Ruiming Tang",
+      "Xiangyu Zhao"
+    ],
+    "published": "2025-05-20T08:21:00+00:00",
+    "summary": "Retrieval-augmented generation (RAG) enhances the text generation capabilities of large language models (LLMs) by integrating external knowledge and up-to-date information. However, traditional RAG systems are limited by static workflows and lack the adaptability required for multistep reasoning and complex task management. To address these limitations, agentic RAG systems (e.g., DeepResearch) have been proposed, enabling dynamic retrieval strategies, iterative context refinement, and adaptive workflows for handling complex search queries beyond the capabilities of conventional RAG. Recent advances, such as Search-R1, have demonstrated promising gains using outcome-based reinforcement learning, where the correctness of the final answer serves as the reward signal. Nevertheless, such outcome-supervised agentic RAG methods face challenges including low exploration efficiency, gradient conflict, and sparse reward signals. To overcome these challenges, we propose to utilize fine-grained, process-level rewards to improve training stability, reduce computational costs, and enhance efficiency. Specifically, we introduce a novel method ReasonRAG that automatically constructs RAG-ProGuide, a high-quality dataset providing process-level rewards for (i) query generation, (ii) evidence extraction, and (iii) answer generation, thereby enhancing model inherent capabilities via process-supervised reinforcement learning. With the process-level policy optimization, the proposed framework empowers LLMs to autonomously invoke search, generate queries, extract relevant evidence, and produce final answers. Compared to existing approaches such as Search-R1 and traditional RAG systems, ReasonRAG, leveraging RAG-ProGuide, achieves superior performance on five benchmark datasets using only 5k training instances, significantly fewer than the 90k training instances required by Search-R1."
+  },
+  {
+    "title": "Improved Methods for Model Pruning and Knowledge Distillation",
+    "url": "http://arxiv.org/abs/2505.14052v1",
+    "arxiv_id": "2505.14052v1",
+    "authors": [
+      "Wei Jiang",
+      "Anying Fu",
+      "Youling Zhang"
+    ],
+    "published": "2025-05-20T07:53:40+00:00",
+    "summary": "Model pruning is a performance optimization technique for large language models like R1 or o3-mini. However, existing pruning methods often lead to significant performance degradation or require extensive retraining and fine-tuning. This technique aims to identify and remove neurons, connections unlikely leading to the contribution during the human-computer interaction phase. Our goal is to obtain a much smaller and faster knowledge distilled model that can quickly generate content almost as good as those of the unpruned ones. We propose MAMA Pruning, short for Movement and Magnitude Analysis, an improved pruning method that effectively reduces model size and computational complexity while maintaining performance comparable to the original unpruned model even at extreme pruned levels. The improved method is based on weights, bias fixed in the pre-training phase and GRPO rewards verified during the post-training phase as our novel pruning indicators. Preliminary experimental results show that our method outperforms and be comparable to state-of-the-art methods across various pruning levels and different downstream computational linguistics tasks."
+  },
+  {
+    "title": "Solving Normalized Cut Problem with Constrained Action Space",
+    "url": "http://arxiv.org/abs/2505.13986v1",
+    "arxiv_id": "2505.13986v1",
+    "authors": [
+      "Qize Jiang",
+      "Linsey Pang",
+      "Alice Gatti",
+      "Mahima Aggarwa",
+      "Giovanna Vantin",
+      "Xiaosong Ma",
+      "Weiwei Sun",
+      "Sanjay Chawla"
+    ],
+    "published": "2025-05-20T06:33:39+00:00",
+    "summary": "Reinforcement Learning (RL) has emerged as an important paradigm to solve combinatorial optimization problems primarily due to its ability to learn heuristics that can generalize across problem instances. However, integrating external knowledge that will steer combinatorial optimization problem solutions towards domain appropriate outcomes remains an extremely challenging task. In this paper, we propose the first RL solution that uses constrained action spaces to guide the normalized cut problem towards pre-defined template instances. Using transportation networks as an example domain, we create a Wedge and Ring Transformer that results in graph partitions that are shaped in form of Wedges and Rings and which are likely to be closer to natural optimal partitions. However, our approach is general as it is based on principles that can be generalized to other domains."
+  },
+  {
+    "title": "Toward Effective Reinforcement Learning Fine-Tuning for Medical VQA in Vision-Language Models",
+    "url": "http://arxiv.org/abs/2505.13973v1",
+    "arxiv_id": "2505.13973v1",
+    "authors": [
+      "Wenhui Zhu",
+      "Xuanzhao Dong",
+      "Xin Li",
+      "Peijie Qiu",
+      "Xiwen Chen",
+      "Abolfazl Razi",
+      "Aris Sotiras",
+      "Yi Su",
+      "Yalin Wang"
+    ],
+    "published": "2025-05-20T06:12:20+00:00",
+    "summary": "Recently, reinforcement learning (RL)-based tuning has shifted the trajectory of Multimodal Large Language Models (MLLMs), particularly following the introduction of Group Relative Policy Optimization (GRPO). However, directly applying it to medical tasks remains challenging for achieving clinically grounded model behavior. Motivated by the need to align model response with clinical expectations, we investigate four critical dimensions that affect the effectiveness of RL-based tuning in medical visual question answering (VQA): base model initialization strategy, the role of medical semantic alignment, the impact of length-based rewards on long-chain reasoning, and the influence of bias. We conduct extensive experiments to analyze these factors for medical MLLMs, providing new insights into how models are domain-specifically fine-tuned. Additionally, our results also demonstrate that GRPO-based RL tuning consistently outperforms standard supervised fine-tuning (SFT) in both accuracy and reasoning quality."
+  },
+  {
+    "title": "RLVR-World: Training World Models with Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2505.13934v1",
+    "arxiv_id": "2505.13934v1",
+    "authors": [
+      "Jialong Wu",
+      "Shaofeng Yin",
+      "Ningya Feng",
+      "Mingsheng Long"
+    ],
+    "published": "2025-05-20T05:02:53+00:00",
+    "summary": "World models predict state transitions in response to actions and are increasingly developed across diverse modalities. However, standard training objectives such as maximum likelihood estimation (MLE) often misalign with task-specific goals of world models, i.e., transition prediction metrics like accuracy or perceptual quality. In this paper, we present RLVR-World, a unified framework that leverages reinforcement learning with verifiable rewards (RLVR) to directly optimize world models for such metrics. Despite formulating world modeling as autoregressive prediction of tokenized sequences, RLVR-World evaluates metrics of decoded predictions as verifiable rewards. We demonstrate substantial performance gains on both language- and video-based world models across domains, including text games, web navigation, and robot manipulation. Our work indicates that, beyond recent advances in reasoning language models, RLVR offers a promising post-training paradigm for enhancing the utility of generative models more broadly."
+  },
+  {
+    "title": "A new tellurium-loaded liquid scintillator based on p-dioxane",
+    "url": "http://arxiv.org/abs/2505.13926v1",
+    "arxiv_id": "2505.13926v1",
+    "authors": [
+      "Ye Liang",
+      "Haozhe Sun",
+      "Zhe Wang"
+    ],
+    "published": "2025-05-20T04:42:24+00:00",
+    "summary": "Tellurium-loaded liquid scintillators are essential for neutrinoless double-beta decay experiments, but conventional organic scintillator systems face inherent limitations on tellurium loading due to solubility constraints. In this work, we developed and characterized a novel surfactant-free, water-compatible liquid scintillator based on p-dioxane, incorporating telluric acid, water, and naphthalene. Fluorescence measurements confirmed efficient stepwise energy transfer from p-dioxane through naphthalene to PPO, and UV-Vis absorption studies showed no intrinsic absorption features above 400 nm. At a tellurium mass fraction of 0.5%, the scintillator achieved approximately 60% of the light yield of a reference organic scintillator. These results demonstrate the feasibility of surfactant-free, water-compatible tellurium-loaded scintillators, providing a proof of concept for future development of high-loading liquid scintillator systems."
+  },
+  {
+    "title": "Time Reversal Symmetry for Efficient Robotic Manipulations in Deep Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2505.13925v1",
+    "arxiv_id": "2505.13925v1",
+    "authors": [
+      "Yunpeng Jiang",
+      "Jianshu Hu",
+      "Paul Weng",
+      "Yutong Ban"
+    ],
+    "published": "2025-05-20T04:40:49+00:00",
+    "summary": "Symmetry is pervasive in robotics and has been widely exploited to improve sample efficiency in deep reinforcement learning (DRL). However, existing approaches primarily focus on spatial symmetries, such as reflection, rotation, and translation, while largely neglecting temporal symmetries. To address this gap, we explore time reversal symmetry, a form of temporal symmetry commonly found in robotics tasks such as door opening and closing. We propose Time Reversal symmetry enhanced Deep Reinforcement Learning (TR-DRL), a framework that combines trajectory reversal augmentation and time reversal guided reward shaping to efficiently solve temporally symmetric tasks. Our method generates reversed transitions from fully reversible transitions, identified by a proposed dynamics-consistent filter, to augment the training data. For partially reversible transitions, we apply reward shaping to guide learning, according to successful trajectories from the reversed task. Extensive experiments on the Robosuite and MetaWorld benchmarks demonstrate that TR-DRL is effective in both single-task and multi-task settings, achieving higher sample efficiency and stronger final performance compared to baseline methods."
+  },
+  {
+    "title": "APEX: Empowering LLMs with Physics-Based Task Planning for Real-time Insight",
+    "url": "http://arxiv.org/abs/2505.13921v1",
+    "arxiv_id": "2505.13921v1",
+    "authors": [
+      "Wanjing Huang",
+      "Weixiang Yan",
+      "Zhen Zhang",
+      "Ambuj Singh"
+    ],
+    "published": "2025-05-20T04:34:58+00:00",
+    "summary": "Large Language Models (LLMs) demonstrate strong reasoning and task planning capabilities but remain fundamentally limited in physical interaction modeling. Existing approaches integrate perception via Vision-Language Models (VLMs) or adaptive decision-making through Reinforcement Learning (RL), but they fail to capture dynamic object interactions or require task-specific training, limiting their real-world applicability. We introduce APEX (Anticipatory Physics-Enhanced Execution), a framework that equips LLMs with physics-driven foresight for real-time task planning. APEX constructs structured graphs to identify and model the most relevant dynamic interactions in the environment, providing LLMs with explicit physical state updates. Simultaneously, APEX provides low-latency forward simulations of physically feasible actions, allowing LLMs to select optimal strategies based on predictive outcomes rather than static observations. We evaluate APEX on three benchmarks designed to assess perception, prediction, and decision-making: (1) Physics Reasoning Benchmark, testing causal inference and object motion prediction; (2) Tetris, evaluating whether physics-informed prediction enhances decision-making performance in long-horizon planning tasks; (3) Dynamic Obstacle Avoidance, assessing the immediate integration of perception and action feasibility analysis. APEX significantly outperforms standard LLMs and VLM-based models, demonstrating the necessity of explicit physics reasoning for bridging the gap between language-based intelligence and real-world task execution. The source code and experiment setup are publicly available at https://github.com/hwj20/APEX_EXP ."
+  },
+  {
+    "title": "InfiFPO: Implicit Model Fusion via Preference Optimization in Large Language Models",
+    "url": "http://arxiv.org/abs/2505.13878v1",
+    "arxiv_id": "2505.13878v1",
+    "authors": [
+      "Yanggan Gu",
+      "Zhaoyi Yan",
+      "Yuanyi Wang",
+      "Yiming Zhang",
+      "Qi Zhou",
+      "Fei Wu",
+      "Hongxia Yang"
+    ],
+    "published": "2025-05-20T03:32:37+00:00",
+    "summary": "Model fusion combines multiple Large Language Models (LLMs) with different strengths into a more powerful, integrated model through lightweight training methods. Existing works on model fusion focus primarily on supervised fine-tuning (SFT), leaving preference alignment (PA) --a critical phase for enhancing LLM performance--largely unexplored. The current few fusion methods on PA phase, like WRPO, simplify the process by utilizing only response outputs from source models while discarding their probability information. To address this limitation, we propose InfiFPO, a preference optimization method for implicit model fusion. InfiFPO replaces the reference model in Direct Preference Optimization (DPO) with a fused source model that synthesizes multi-source probabilities at the sequence level, circumventing complex vocabulary alignment challenges in previous works and meanwhile maintaining the probability information. By introducing probability clipping and max-margin fusion strategies, InfiFPO enables the pivot model to align with human preferences while effectively distilling knowledge from source models. Comprehensive experiments on 11 widely-used benchmarks demonstrate that InfiFPO consistently outperforms existing model fusion and preference optimization methods. When using Phi-4 as the pivot model, InfiFPO improve its average performance from 79.95 to 83.33 on 11 benchmarks, significantly improving its capabilities in mathematics, coding, and reasoning tasks."
+  },
+  {
+    "title": "Enhancing Robot Navigation Policies with Task-Specific Uncertainty Managements",
+    "url": "http://arxiv.org/abs/2505.13837v1",
+    "arxiv_id": "2505.13837v1",
+    "authors": [
+      "Gokul Puthumanaillam",
+      "Paulo Padrao",
+      "Jose Fuentes",
+      "Leonardo Bobadilla",
+      "Melkior Ornik"
+    ],
+    "published": "2025-05-20T02:23:15+00:00",
+    "summary": "Robots navigating complex environments must manage uncertainty from sensor noise, environmental changes, and incomplete information, with different tasks requiring varying levels of precision in different areas. For example, precise localization may be crucial near obstacles but less critical in open spaces. We present GUIDE (Generalized Uncertainty Integration for Decision-Making and Execution), a framework that integrates these task-specific requirements into navigation policies via Task-Specific Uncertainty Maps (TSUMs). By assigning acceptable uncertainty levels to different locations, TSUMs enable robots to adapt uncertainty management based on context. When combined with reinforcement learning, GUIDE learns policies that balance task completion and uncertainty management without extensive reward engineering. Real-world tests show significant performance gains over methods lacking task-specific uncertainty awareness."
+  },
+  {
+    "title": "Toward Real-World Cooperative and Competitive Soccer with Quadrupedal Robot Teams",
+    "url": "http://arxiv.org/abs/2505.13834v1",
+    "arxiv_id": "2505.13834v1",
+    "authors": [
+      "Zhi Su",
+      "Yuman Gao",
+      "Emily Lukas",
+      "Yunfei Li",
+      "Jiaze Cai",
+      "Faris Tulbah",
+      "Fei Gao",
+      "Chao Yu",
+      "Zhongyu Li",
+      "Yi Wu",
+      "Koushil Sreenath"
+    ],
+    "published": "2025-05-20T02:20:54+00:00",
+    "summary": "Achieving coordinated teamwork among legged robots requires both fine-grained locomotion control and long-horizon strategic decision-making. Robot soccer offers a compelling testbed for this challenge, combining dynamic, competitive, and multi-agent interactions. In this work, we present a hierarchical multi-agent reinforcement learning (MARL) framework that enables fully autonomous and decentralized quadruped robot soccer. First, a set of highly dynamic low-level skills is trained for legged locomotion and ball manipulation, such as walking, dribbling, and kicking. On top of these, a high-level strategic planning policy is trained with Multi-Agent Proximal Policy Optimization (MAPPO) via Fictitious Self-Play (FSP). This learning framework allows agents to adapt to diverse opponent strategies and gives rise to sophisticated team behaviors, including coordinated passing, interception, and dynamic role allocation. With an extensive ablation study, the proposed learning method shows significant advantages in the cooperative and competitive multi-agent soccer game. We deploy the learned policies to real quadruped robots relying solely on onboard proprioception and decentralized localization, with the resulting system supporting autonomous robot-robot and robot-human soccer matches on indoor and outdoor soccer courts."
+  },
+  {
+    "title": "TelePlanNet: An AI-Driven Framework for Efficient Telecom Network Planning",
+    "url": "http://arxiv.org/abs/2505.13831v1",
+    "arxiv_id": "2505.13831v1",
+    "authors": [
+      "Zongyuan Deng",
+      "Yujie Cai",
+      "Qing Liu",
+      "Shiyao Mu",
+      "Bin Lyu",
+      "Zhen Yang"
+    ],
+    "published": "2025-05-20T02:19:10+00:00",
+    "summary": "The selection of base station sites is a critical challenge in 5G network planning, which requires efficient optimization of coverage, cost, user satisfaction, and practical constraints. Traditional manual methods, reliant on human expertise, suffer from inefficiencies and are limited to an unsatisfied planning-construction consistency. Existing AI tools, despite improving efficiency in certain aspects, still struggle to meet the dynamic network conditions and multi-objective needs of telecom operators' networks. To address these challenges, we propose TelePlanNet, an AI-driven framework tailored for the selection of base station sites, integrating a three-layer architecture for efficient planning and large-scale automation. By leveraging large language models (LLMs) for real-time user input processing and intent alignment with base station planning, combined with training the planning model using the improved group relative policy optimization (GRPO) reinforcement learning, the proposed TelePlanNet can effectively address multi-objective optimization, evaluates candidate sites, and delivers practical solutions. Experiments results show that the proposed TelePlanNet can improve the consistency to 78%, which is superior to the manual methods, providing telecom operators with an efficient and scalable tool that significantly advances cellular network planning."
+  },
+  {
+    "title": "Preference Learning with Lie Detectors can Induce Honesty or Evasion",
+    "url": "http://arxiv.org/abs/2505.13787v1",
+    "arxiv_id": "2505.13787v1",
+    "authors": [
+      "Chris Cundy",
+      "Adam Gleave"
+    ],
+    "published": "2025-05-20T00:31:53+00:00",
+    "summary": "As AI systems become more capable, deceptive behaviors can undermine evaluation and mislead users at deployment. Recent work has shown that lie detectors can accurately classify deceptive behavior, but they are not typically used in the training pipeline due to concerns around contamination and objective hacking. We examine these concerns by incorporating a lie detector into the labelling step of LLM post-training and evaluating whether the learned policy is genuinely more honest, or instead learns to fool the lie detector while remaining deceptive. Using DolusChat, a novel 65k-example dataset with paired truthful/deceptive responses, we identify three key factors that determine the honesty of learned policies: amount of exploration during preference learning, lie detector accuracy, and KL regularization strength. We find that preference learning with lie detectors and GRPO can lead to policies which evade lie detectors, with deception rates of over 85\\%. However, if the lie detector true positive rate (TPR) or KL regularization is sufficiently high, GRPO learns honest policies. In contrast, off-policy algorithms (DPO) consistently lead to deception rates under 25\\% for realistic TPRs. Our results illustrate a more complex picture than previously assumed: depending on the context, lie-detector-enhanced training can be a powerful tool for scalable oversight, or a counterproductive method encouraging undetectable misalignment."
+  },
+  {
+    "title": "CoIn: Counting the Invisible Reasoning Tokens in Commercial Opaque LLM APIs",
+    "url": "http://arxiv.org/abs/2505.13778v1",
+    "arxiv_id": "2505.13778v1",
+    "authors": [
+      "Guoheng Sun",
+      "Ziyao Wang",
+      "Bowei Tian",
+      "Meng Liu",
+      "Zheyu Shen",
+      "Shwai He",
+      "Yexiao He",
+      "Wanghao Ye",
+      "Yiting Wang",
+      "Ang Li"
+    ],
+    "published": "2025-05-19T23:39:23+00:00",
+    "summary": "As post-training techniques evolve, large language models (LLMs) are increasingly augmented with structured multi-step reasoning abilities, often optimized through reinforcement learning. These reasoning-enhanced models outperform standard LLMs on complex tasks and now underpin many commercial LLM APIs. However, to protect proprietary behavior and reduce verbosity, providers typically conceal the reasoning traces while returning only the final answer. This opacity introduces a critical transparency gap: users are billed for invisible reasoning tokens, which often account for the majority of the cost, yet have no means to verify their authenticity. This opens the door to token count inflation, where providers may overreport token usage or inject synthetic, low-effort tokens to inflate charges. To address this issue, we propose CoIn, a verification framework that audits both the quantity and semantic validity of hidden tokens. CoIn constructs a verifiable hash tree from token embedding fingerprints to check token counts, and uses embedding-based relevance matching to detect fabricated reasoning content. Experiments demonstrate that CoIn, when deployed as a trusted third-party auditor, can effectively detect token count inflation with a success rate reaching up to 94.7%, showing the strong ability to restore billing transparency in opaque LLM services. The dataset and code are available at https://github.com/CASE-Lab-UMD/LLM-Auditing-CoIn."
+  },
+  {
+    "title": "Augmenting Online RL with Offline Data is All You Need: A Unified Hybrid RL Algorithm Design and Analysis",
+    "url": "http://arxiv.org/abs/2505.13768v1",
+    "arxiv_id": "2505.13768v1",
+    "authors": [
+      "Ruiquan Huang",
+      "Donghao Li",
+      "Chengshuai Shi",
+      "Cong Shen",
+      "Jing Yang"
+    ],
+    "published": "2025-05-19T22:58:54+00:00",
+    "summary": "This paper investigates a hybrid learning framework for reinforcement learning (RL) in which the agent can leverage both an offline dataset and online interactions to learn the optimal policy. We present a unified algorithm and analysis and show that augmenting confidence-based online RL algorithms with the offline dataset outperforms any pure online or offline algorithm alone and achieves state-of-the-art results under two learning metrics, i.e., sub-optimality gap and online learning regret. Specifically, we show that our algorithm achieves a sub-optimality gap $\\tilde{O}(\\sqrt{1/(N_0/\\mathtt{C}(\\pi^*|\\rho)+N_1}) )$, where $\\mathtt{C}(\\pi^*|\\rho)$ is a new concentrability coefficient, $N_0$ and $N_1$ are the numbers of offline and online samples, respectively. For regret minimization, we show that it achieves a constant $\\tilde{O}( \\sqrt{N_1/(N_0/\\mathtt{C}(\\pi^{-}|\\rho)+N_1)} )$ speed-up compared to pure online learning, where $\\mathtt{C}(\\pi^-|\\rho)$ is the concentrability coefficient over all sub-optimal policies. Our results also reveal an interesting separation on the desired coverage properties of the offline dataset for sub-optimality gap minimization and regret minimization. We further validate our theoretical findings in several experiments in special RL models such as linear contextual bandits and Markov decision processes (MDPs)."
+  },
+  {
     "title": "Trust, But Verify: A Self-Verification Approach to Reinforcement Learning with Verifiable Rewards",
     "url": "http://arxiv.org/abs/2505.13445v1",
     "arxiv_id": "2505.13445v1",
