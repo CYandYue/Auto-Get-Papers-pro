@@ -764,6 +764,48 @@
     "summary": "The current state-of-the-art backdoor attacks against Reinforcement Learning (RL) rely upon unrealistically permissive access models, that assume the attacker can read (or even write) the victim's policy parameters, observations, or rewards. In this work, we question whether such a strong assumption is required to launch backdoor attacks against RL. To answer this question, we propose the \\underline{S}upply-\\underline{C}h\\underline{a}in \\underline{B}ackdoor (SCAB) attack, which targets a common RL workflow: training agents using external agents that are provided separately or embedded within the environment. In contrast to prior works, our attack only relies on legitimate interactions of the RL agent with the supplied agents. Despite this limited access model, by poisoning a mere $3\\%$ of training experiences, our attack can successfully activate over $90\\%$ of triggered actions, reducing the average episodic return by $80\\%$ for the victim. Our novel attack demonstrates that RL attacks are likely to become a reality under untrusted RL training supply-chains."
   },
   {
+    "title": "Learning Dynamics under Environmental Constraints via Measurement-Induced Bundle Structures",
+    "url": "http://arxiv.org/abs/2505.19521v1",
+    "arxiv_id": "2505.19521v1",
+    "authors": [
+      "Dongzhe Zheng",
+      "Wenjie Mei"
+    ],
+    "published": "2025-05-26T05:07:57+00:00",
+    "summary": "Learning unknown dynamics under environmental (or external) constraints is fundamental to many fields (e.g., modern robotics), particularly challenging when constraint information is only locally available and uncertain. Existing approaches requiring global constraints or using probabilistic filtering fail to fully exploit the geometric structure inherent in local measurements (by using, e.g., sensors) and constraints. This paper presents a geometric framework unifying measurements, constraints, and dynamics learning through a fiber bundle structure over the state space. This naturally induced geometric structure enables measurement-aware Control Barrier Functions that adapt to local sensing (or measurement) conditions. By integrating Neural ODEs, our framework learns continuous-time dynamics while preserving geometric constraints, with theoretical guarantees of learning convergence and constraint satisfaction dependent on sensing quality. The geometric framework not only enables efficient dynamics learning but also suggests promising directions for integration with reinforcement learning approaches. Extensive simulations demonstrate significant improvements in both learning efficiency and constraint satisfaction over traditional methods, especially under limited and uncertain sensing conditions."
+  },
+  {
+    "title": "DiffE2E: Rethinking End-to-End Driving with a Hybrid Action Diffusion and Supervised Policy",
+    "url": "http://arxiv.org/abs/2505.19516v1",
+    "arxiv_id": "2505.19516v1",
+    "authors": [
+      "Rui Zhao",
+      "Yuze Fan",
+      "Ziguo Chen",
+      "Fei Gao",
+      "Zhenhai Gao"
+    ],
+    "published": "2025-05-26T04:58:41+00:00",
+    "summary": "End-to-end learning has emerged as a transformative paradigm in autonomous driving. However, the inherently multimodal nature of driving behaviors and the generalization challenges in long-tail scenarios remain critical obstacles to robust deployment. We propose DiffE2E, a diffusion-based end-to-end autonomous driving framework. This framework first performs multi-scale alignment of multi-sensor perception features through a hierarchical bidirectional cross-attention mechanism. It then introduces a novel class of hybrid diffusion-supervision decoders based on the Transformer architecture, and adopts a collaborative training paradigm that seamlessly integrates the strengths of both diffusion and supervised policy. DiffE2E models structured latent spaces, where diffusion captures the distribution of future trajectories and supervision enhances controllability and robustness. A global condition integration module enables deep fusion of perception features with high-level targets, significantly improving the quality of trajectory generation. Subsequently, a cross-attention mechanism facilitates efficient interaction between integrated features and hybrid latent variables, promoting the joint optimization of diffusion and supervision objectives for structured output generation, ultimately leading to more robust control. Experiments demonstrate that DiffE2E achieves state-of-the-art performance in both CARLA closed-loop evaluations and NAVSIM benchmarks. The proposed integrated diffusion-supervision policy offers a generalizable paradigm for hybrid action representation, with strong potential for extension to broader domains including embodied intelligence. More details and visualizations are available at \\href{https://infinidrive.github.io/DiffE2E/}{project website}."
+  },
+  {
+    "title": "LLM Meets Scene Graph: Can Large Language Models Understand and Generate Scene Graphs? A Benchmark and Empirical Study",
+    "url": "http://arxiv.org/abs/2505.19510v1",
+    "arxiv_id": "2505.19510v1",
+    "authors": [
+      "Dongil Yang",
+      "Minjin Kim",
+      "Sunghwan Kim",
+      "Beong-woo Kwak",
+      "Minjun Park",
+      "Jinseok Hong",
+      "Woontack Woo",
+      "Jinyoung Yeo"
+    ],
+    "published": "2025-05-26T04:45:12+00:00",
+    "summary": "The remarkable reasoning and generalization capabilities of Large Language Models (LLMs) have paved the way for their expanding applications in embodied AI, robotics, and other real-world tasks. To effectively support these applications, grounding in spatial and temporal understanding in multimodal environments is essential. To this end, recent works have leveraged scene graphs, a structured representation that encodes entities, attributes, and their relationships in a scene. However, a comprehensive evaluation of LLMs' ability to utilize scene graphs remains limited. In this work, we introduce Text-Scene Graph (TSG) Bench, a benchmark designed to systematically assess LLMs' ability to (1) understand scene graphs and (2) generate them from textual narratives. With TSG Bench we evaluate 11 LLMs and reveal that, while models perform well on scene graph understanding, they struggle with scene graph generation, particularly for complex narratives. Our analysis indicates that these models fail to effectively decompose discrete scenes from a complex narrative, leading to a bottleneck when generating scene graphs. These findings underscore the need for improved methodologies in scene graph generation and provide valuable insights for future research. The demonstration of our benchmark is available at https://tsg-bench.netlify.app. Additionally, our code and evaluation data are publicly available at https://anonymous.4open.science/r/TSG-Bench."
+  },
+  {
     "title": "One RL to See Them All: Visual Triple Unified Reinforcement Learning",
     "url": "http://arxiv.org/abs/2505.18129v1",
     "arxiv_id": "2505.18129v1",
