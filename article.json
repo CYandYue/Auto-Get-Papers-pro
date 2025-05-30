@@ -1,5 +1,756 @@
 [
   {
+    "title": "ZeroGUI: Automating Online GUI Learning at Zero Human Cost",
+    "url": "http://arxiv.org/abs/2505.23762v1",
+    "arxiv_id": "2505.23762v1",
+    "authors": [
+      "Chenyu Yang",
+      "Shiqian Su",
+      "Shi Liu",
+      "Xuan Dong",
+      "Yue Yu",
+      "Weijie Su",
+      "Xuehui Wang",
+      "Zhaoyang Liu",
+      "Jinguo Zhu",
+      "Hao Li",
+      "Wenhai Wang",
+      "Yu Qiao",
+      "Xizhou Zhu",
+      "Jifeng Dai"
+    ],
+    "published": "2025-05-29T17:59:51+00:00",
+    "summary": "The rapid advancement of large Vision-Language Models (VLMs) has propelled the development of pure-vision-based GUI Agents, capable of perceiving and operating Graphical User Interfaces (GUI) to autonomously fulfill user instructions. However, existing approaches usually adopt an offline learning framework, which faces two core limitations: (1) heavy reliance on high-quality manual annotations for element grounding and action supervision, and (2) limited adaptability to dynamic and interactive environments. To address these limitations, we propose ZeroGUI, a scalable, online learning framework for automating GUI Agent training at Zero human cost. Specifically, ZeroGUI integrates (i) VLM-based automatic task generation to produce diverse training goals from the current environment state, (ii) VLM-based automatic reward estimation to assess task success without hand-crafted evaluation functions, and (iii) two-stage online reinforcement learning to continuously interact with and learn from GUI environments. Experiments on two advanced GUI Agents (UI-TARS and Aguvis) demonstrate that ZeroGUI significantly boosts performance across OSWorld and AndroidLab environments. The code is available at https://github.com/OpenGVLab/ZeroGUI."
+  },
+  {
+    "title": "Differential Information: An Information-Theoretic Perspective on Preference Optimization",
+    "url": "http://arxiv.org/abs/2505.23761v1",
+    "arxiv_id": "2505.23761v1",
+    "authors": [
+      "Yunjae Won",
+      "Hyunji Lee",
+      "Hyeonbin Hwang",
+      "Minjoon Seo"
+    ],
+    "published": "2025-05-29T17:59:50+00:00",
+    "summary": "Direct Preference Optimization (DPO) has become a standard technique for aligning language models with human preferences in a supervised manner. Despite its empirical success, the theoretical justification behind its log-ratio reward parameterization remains incomplete. In this work, we address this gap by utilizing the Differential Information Distribution (DID): a distribution over token sequences that captures the information gained during policy updates. First, we show that when preference labels encode the differential information required to transform a reference policy into a target policy, the log-ratio reward in DPO emerges as the uniquely optimal form for learning the target policy via preference optimization. This result naturally yields a closed-form expression for the optimal sampling distribution over rejected responses. Second, we find that the condition for preferences to encode differential information is fundamentally linked to an implicit assumption regarding log-margin ordered policies-an inductive bias widely used in preference optimization yet previously unrecognized. Finally, by analyzing the entropy of the DID, we characterize how learning low-entropy differential information reinforces the policy distribution, while high-entropy differential information induces a smoothing effect, which explains the log-likelihood displacement phenomenon. We validate our theoretical findings in synthetic experiments and extend them to real-world instruction-following datasets. Our results suggest that learning high-entropy differential information is crucial for general instruction-following, while learning low-entropy differential information benefits knowledge-intensive question answering. Overall, our work presents a unifying perspective on the DPO objective, the structure of preference data, and resulting policy behaviors through the lens of differential information."
+  },
+  {
+    "title": "DeepTheorem: Advancing LLM Reasoning for Theorem Proving Through Natural Language and Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2505.23754v1",
+    "arxiv_id": "2505.23754v1",
+    "authors": [
+      "Ziyin Zhang",
+      "Jiahao Xu",
+      "Zhiwei He",
+      "Tian Liang",
+      "Qiuzhi Liu",
+      "Yansi Li",
+      "Linfeng Song",
+      "Zhengwen Liang",
+      "Zhuosheng Zhang",
+      "Rui Wang",
+      "Zhaopeng Tu",
+      "Haitao Mi",
+      "Dong Yu"
+    ],
+    "published": "2025-05-29T17:59:39+00:00",
+    "summary": "Theorem proving serves as a major testbed for evaluating complex reasoning abilities in large language models (LLMs). However, traditional automated theorem proving (ATP) approaches rely heavily on formal proof systems that poorly align with LLMs' strength derived from informal, natural language knowledge acquired during pre-training. In this work, we propose DeepTheorem, a comprehensive informal theorem-proving framework exploiting natural language to enhance LLM mathematical reasoning. DeepTheorem includes a large-scale benchmark dataset consisting of 121K high-quality IMO-level informal theorems and proofs spanning diverse mathematical domains, rigorously annotated for correctness, difficulty, and topic categories, accompanied by systematically constructed verifiable theorem variants. We devise a novel reinforcement learning strategy (RL-Zero) explicitly tailored to informal theorem proving, leveraging the verified theorem variants to incentivize robust mathematical inference. Additionally, we propose comprehensive outcome and process evaluation metrics examining proof correctness and the quality of reasoning steps. Extensive experimental analyses demonstrate DeepTheorem significantly improves LLM theorem-proving performance compared to existing datasets and supervised fine-tuning protocols, achieving state-of-the-art accuracy and reasoning quality. Our findings highlight DeepTheorem's potential to fundamentally advance automated informal theorem proving and mathematical exploration."
+  },
+  {
+    "title": "Distortion of AI Alignment: Does Preference Optimization Optimize for Preferences?",
+    "url": "http://arxiv.org/abs/2505.23749v1",
+    "arxiv_id": "2505.23749v1",
+    "authors": [
+      "Paul G\u00f6lz",
+      "Nika Haghtalab",
+      "Kunhe Yang"
+    ],
+    "published": "2025-05-29T17:59:20+00:00",
+    "summary": "After pre-training, large language models are aligned with human preferences based on pairwise comparisons. State-of-the-art alignment methods (such as PPO-based RLHF and DPO) are built on the assumption of aligning with a single preference model, despite being deployed in settings where users have diverse preferences. As a result, it is not even clear that these alignment methods produce models that satisfy users on average -- a minimal requirement for pluralistic alignment. Drawing on social choice theory and modeling users' comparisons through individual Bradley-Terry (BT) models, we introduce an alignment method's distortion: the worst-case ratio between the optimal achievable average utility, and the average utility of the learned policy.   The notion of distortion helps draw sharp distinctions between alignment methods: Nash Learning from Human Feedback achieves the minimax optimal distortion of $(\\frac{1}{2} + o(1)) \\cdot \\beta$ (for the BT temperature $\\beta$), robustly across utility distributions, distributions of comparison pairs, and permissible KL divergences from the reference policy. RLHF and DPO, by contrast, suffer $\\geq (1 - o(1)) \\cdot \\beta$ distortion already without a KL constraint, and $e^{\\Omega(\\beta)}$ or even unbounded distortion in the full setting, depending on how comparison pairs are sampled."
+  },
+  {
+    "title": "Spatial-MLLM: Boosting MLLM Capabilities in Visual-based Spatial Intelligence",
+    "url": "http://arxiv.org/abs/2505.23747v1",
+    "arxiv_id": "2505.23747v1",
+    "authors": [
+      "Diankun Wu",
+      "Fangfu Liu",
+      "Yi-Hsin Hung",
+      "Yueqi Duan"
+    ],
+    "published": "2025-05-29T17:59:04+00:00",
+    "summary": "Recent advancements in Multimodal Large Language Models (MLLMs) have significantly enhanced performance on 2D visual tasks. However, improving their spatial intelligence remains a challenge. Existing 3D MLLMs always rely on additional 3D or 2.5D data to incorporate spatial awareness, restricting their utility in scenarios with only 2D inputs, such as images or videos. In this paper, we present Spatial-MLLM, a novel framework for visual-based spatial reasoning from purely 2D observations. Unlike conventional video MLLMs which rely on CLIP-based visual encoders optimized for semantic understanding, our key insight is to unleash the strong structure prior from the feed-forward visual geometry foundation model. Specifically, we propose a dual-encoder architecture: a pretrained 2D visual encoder to extract semantic features, and a spatial encoder-initialized from the backbone of the visual geometry model-to extract 3D structure features. A connector then integrates both features into unified visual tokens for enhanced spatial understanding. Furthermore, we propose a space-aware frame sampling strategy at inference time, which selects the spatially informative frames of a video sequence, ensuring that even under limited token length, the model focuses on frames critical for spatial reasoning. Beyond architecture improvements, we construct the Spatial-MLLM-120k dataset and train the model on it using supervised fine-tuning and GRPO. Extensive experiments on various real-world datasets demonstrate that our spatial-MLLM achieves state-of-the-art performance in a wide range of visual-based spatial understanding and reasoning tasks. Project page: https://diankun-wu.github.io/Spatial-MLLM/."
+  },
+  {
+    "title": "PixelThink: Towards Efficient Chain-of-Pixel Reasoning",
+    "url": "http://arxiv.org/abs/2505.23727v1",
+    "arxiv_id": "2505.23727v1",
+    "authors": [
+      "Song Wang",
+      "Gongfan Fang",
+      "Lingdong Kong",
+      "Xiangtai Li",
+      "Jianyun Xu",
+      "Sheng Yang",
+      "Qiang Li",
+      "Jianke Zhu",
+      "Xinchao Wang"
+    ],
+    "published": "2025-05-29T17:55:49+00:00",
+    "summary": "Existing reasoning segmentation approaches typically fine-tune multimodal large language models (MLLMs) using image-text pairs and corresponding mask labels. However, they exhibit limited generalization to out-of-distribution scenarios without an explicit reasoning process. Although recent efforts leverage reinforcement learning through group-relative policy optimization (GRPO) to enhance reasoning ability, they often suffer from overthinking - producing uniformly verbose reasoning chains irrespective of task complexity. This results in elevated computational costs and limited control over reasoning quality. To address this problem, we propose PixelThink, a simple yet effective scheme that integrates externally estimated task difficulty and internally measured model uncertainty to regulate reasoning generation within a reinforcement learning paradigm. The model learns to compress reasoning length in accordance with scene complexity and predictive confidence. To support comprehensive evaluation, we introduce ReasonSeg-Diff, an extended benchmark with annotated reasoning references and difficulty scores, along with a suite of metrics designed to assess segmentation accuracy, reasoning quality, and efficiency jointly. Experimental results demonstrate that the proposed approach improves both reasoning efficiency and overall segmentation performance. Our work contributes novel perspectives towards efficient and interpretable multimodal understanding. The code and model will be publicly available."
+  },
+  {
+    "title": "ML-Agent: Reinforcing LLM Agents for Autonomous Machine Learning Engineering",
+    "url": "http://arxiv.org/abs/2505.23723v1",
+    "arxiv_id": "2505.23723v1",
+    "authors": [
+      "Zexi Liu",
+      "Jingyi Chai",
+      "Xinyu Zhu",
+      "Shuo Tang",
+      "Rui Ye",
+      "Bo Zhang",
+      "Lei Bai",
+      "Siheng Chen"
+    ],
+    "published": "2025-05-29T17:54:44+00:00",
+    "summary": "The emergence of large language model (LLM)-based agents has significantly advanced the development of autonomous machine learning (ML) engineering. However, most existing approaches rely heavily on manual prompt engineering, failing to adapt and optimize based on diverse experimental experiences. Focusing on this, for the first time, we explore the paradigm of learning-based agentic ML, where an LLM agent learns through interactive experimentation on ML tasks using online reinforcement learning (RL). To realize this, we propose a novel agentic ML training framework with three key components: (1) exploration-enriched fine-tuning, which enables LLM agents to generate diverse actions for enhanced RL exploration; (2) step-wise RL, which enables training on a single action step, accelerating experience collection and improving training efficiency; (3) an agentic ML-specific reward module, which unifies varied ML feedback signals into consistent rewards for RL optimization. Leveraging this framework, we train ML-Agent, driven by a 7B-sized Qwen-2.5 LLM for autonomous ML. Remarkably, despite being trained on merely 9 ML tasks, our 7B-sized ML-Agent outperforms the 671B-sized DeepSeek-R1 agent. Furthermore, it achieves continuous performance improvements and demonstrates exceptional cross-task generalization capabilities."
+  },
+  {
+    "title": "AMOR: Adaptive Character Control through Multi-Objective Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2505.23708v1",
+    "arxiv_id": "2505.23708v1",
+    "authors": [
+      "Lucas N. Alegre",
+      "Agon Serifi",
+      "Ruben Grandia",
+      "David M\u00fcller",
+      "Espen Knoop",
+      "Moritz B\u00e4cher"
+    ],
+    "published": "2025-05-29T17:41:48+00:00",
+    "summary": "Reinforcement learning (RL) has significantly advanced the control of physics-based and robotic characters that track kinematic reference motion. However, methods typically rely on a weighted sum of conflicting reward functions, requiring extensive tuning to achieve a desired behavior. Due to the computational cost of RL, this iterative process is a tedious, time-intensive task. Furthermore, for robotics applications, the weights need to be chosen such that the policy performs well in the real world, despite inevitable sim-to-real gaps. To address these challenges, we propose a multi-objective reinforcement learning framework that trains a single policy conditioned on a set of weights, spanning the Pareto front of reward trade-offs. Within this framework, weights can be selected and tuned after training, significantly speeding up iteration time. We demonstrate how this improved workflow can be used to perform highly dynamic motions with a robot character. Moreover, we explore how weight-conditioned policies can be leveraged in hierarchical settings, using a high-level policy to dynamically select weights according to the current task. We show that the multi-objective policy encodes a diverse spectrum of behaviors, facilitating efficient adaptation to novel tasks."
+  },
+  {
+    "title": "Let's Reason Formally: Natural-Formal Hybrid Reasoning Enhances LLM's Math Capability",
+    "url": "http://arxiv.org/abs/2505.23703v1",
+    "arxiv_id": "2505.23703v1",
+    "authors": [
+      "Ruida Wang",
+      "Yuxin Li",
+      "Yi R.",
+      "Fung",
+      "Tong Zhang"
+    ],
+    "published": "2025-05-29T17:39:30+00:00",
+    "summary": "Enhancing the mathematical reasoning capabilities of LLMs has garnered significant attention in both the mathematical and computer science communities. Recent works have made substantial progress in both Natural Language (NL) reasoning and Formal Language (FL) reasoning by leveraging the potential of pure Reinforcement Learning (RL) methods on base models. However, RL approaches struggle to impart new capabilities not presented in the base model, highlighting the need to integrate more knowledge like FL into NL math reasoning effectively. Yet, this integration is challenging due to inherent disparities in problem structure and reasoning format between NL and FL. To address these challenges, we introduce **NL-FL HybridReasoning**, an end-to-end framework designed to incorporate the FL expert into NL math problem-solving. To bridge the NL and FL input format gap, we propose the *NL-FL Problem Alignment* method, which reformulates the Question-Answering (QA) problems in NL as existence theorems in FL. Subsequently, the *Mixed Problem Input* technique we provide enables the FL reasoner to handle both QA and existence problems concurrently. Lastly, we mitigate the NL and FL output format gap in reasoning through an LLM-based *Answer Extraction* mechanism. Comprehensive experiments demonstrate that the **HybridReasoning** framework achieves **89.80%** and **84.34%** accuracy rates on the MATH-500 and the AMC benchmarks, surpassing the NL baseline by 4.60% and 4.82%, respectively. Notably, some problems resolved by our framework remain unsolved by the NL baseline model even under a larger number of trials."
+  },
+  {
+    "title": "Grounded Reinforcement Learning for Visual Reasoning",
+    "url": "http://arxiv.org/abs/2505.23678v1",
+    "arxiv_id": "2505.23678v1",
+    "authors": [
+      "Gabriel Sarch",
+      "Snigdha Saha",
+      "Naitik Khandelwal",
+      "Ayush Jain",
+      "Michael J. Tarr",
+      "Aviral Kumar",
+      "Katerina Fragkiadaki"
+    ],
+    "published": "2025-05-29T17:20:26+00:00",
+    "summary": "While reinforcement learning (RL) over chains of thought has significantly advanced language models in tasks such as mathematics and coding, visual reasoning introduces added complexity by requiring models to direct visual attention, interpret perceptual inputs, and ground abstract reasoning in spatial evidence. We introduce ViGoRL (Visually Grounded Reinforcement Learning), a vision-language model trained with RL to explicitly anchor each reasoning step to specific visual coordinates. Inspired by human visual decision-making, ViGoRL learns to produce spatially grounded reasoning traces, guiding visual attention to task-relevant regions at each step. When fine-grained exploration is required, our novel multi-turn RL framework enables the model to dynamically zoom into predicted coordinates as reasoning unfolds. Across a diverse set of visual reasoning benchmarks--including SAT-2 and BLINK for spatial reasoning, V*bench for visual search, and ScreenSpot and VisualWebArena for web-based grounding--ViGoRL consistently outperforms both supervised fine-tuning and conventional RL baselines that lack explicit grounding mechanisms. Incorporating multi-turn RL with zoomed-in visual feedback significantly improves ViGoRL's performance on localizing small GUI elements and visual search, achieving 86.4% on V*Bench. Additionally, we find that grounding amplifies other visual behaviors such as region exploration, grounded subgoal setting, and visual verification. Finally, human evaluations show that the model's visual references are not only spatially accurate but also helpful for understanding model reasoning steps. Our results show that visually grounded RL is a strong paradigm for imbuing models with general-purpose visual reasoning."
+  },
+  {
+    "title": "Fortune: Formula-Driven Reinforcement Learning for Symbolic Table Reasoning in Language Models",
+    "url": "http://arxiv.org/abs/2505.23667v1",
+    "arxiv_id": "2505.23667v1",
+    "authors": [
+      "Lang Cao",
+      "Jingxian Xu",
+      "Hanbing Liu",
+      "Jinyu Wang",
+      "Mengyu Zhou",
+      "Haoyu Dong",
+      "Shi Han",
+      "Dongmei Zhang"
+    ],
+    "published": "2025-05-29T17:13:40+00:00",
+    "summary": "Tables are a fundamental structure for organizing and analyzing data, making effective table understanding a critical capability for intelligent systems. While large language models (LMs) demonstrate strong general reasoning abilities, they continue to struggle with accurate numerical or symbolic reasoning over tabular data, especially in complex scenarios. Spreadsheet formulas provide a powerful and expressive medium for representing executable symbolic operations, encoding rich reasoning patterns that remain largely underutilized. In this paper, we propose Formula Tuning (Fortune), a reinforcement learning (RL) framework that trains LMs to generate executable spreadsheet formulas for question answering over general tabular data. Formula Tuning reduces the reliance on supervised formula annotations by using binary answer correctness as a reward signal, guiding the model to learn formula derivation through reasoning. We provide a theoretical analysis of its advantages and demonstrate its effectiveness through extensive experiments on seven table reasoning benchmarks. Formula Tuning substantially enhances LM performance, particularly on multi-step numerical and symbolic reasoning tasks, enabling a 7B model to outperform O1 on table understanding. This highlights the potential of formula-driven RL to advance symbolic table reasoning in LMs."
+  },
+  {
+    "title": "AMBER: Adaptive Mesh Generation by Iterative Mesh Resolution Prediction",
+    "url": "http://arxiv.org/abs/2505.23663v1",
+    "arxiv_id": "2505.23663v1",
+    "authors": [
+      "Niklas Freymuth",
+      "Tobias W\u00fcrth",
+      "Nicolas Schreiber",
+      "Balazs Gyenes",
+      "Andreas Boltres",
+      "Johannes Mitsch",
+      "Aleksandar Taranovic",
+      "Tai Hoang",
+      "Philipp Dahlinger",
+      "Philipp Becker",
+      "Luise K\u00e4rger",
+      "Gerhard Neumann"
+    ],
+    "published": "2025-05-29T17:10:44+00:00",
+    "summary": "The cost and accuracy of simulating complex physical systems using the Finite Element Method (FEM) scales with the resolution of the underlying mesh. Adaptive meshes improve computational efficiency by refining resolution in critical regions, but typically require task-specific heuristics or cumbersome manual design by a human expert. We propose Adaptive Meshing By Expert Reconstruction (AMBER), a supervised learning approach to mesh adaptation. Starting from a coarse mesh, AMBER iteratively predicts the sizing field, i.e., a function mapping from the geometry to the local element size of the target mesh, and uses this prediction to produce a new intermediate mesh using an out-of-the-box mesh generator. This process is enabled through a hierarchical graph neural network, and relies on data augmentation by automatically projecting expert labels onto AMBER-generated data during training. We evaluate AMBER on 2D and 3D datasets, including classical physics problems, mechanical components, and real-world industrial designs with human expert meshes. AMBER generalizes to unseen geometries and consistently outperforms multiple recent baselines, including ones using Graph and Convolutional Neural Networks, and Reinforcement Learning-based approaches."
+  },
+  {
+    "title": "Active Layer-Contrastive Decoding Reduces Hallucination in Large Language Model Generation",
+    "url": "http://arxiv.org/abs/2505.23657v1",
+    "arxiv_id": "2505.23657v1",
+    "authors": [
+      "Hongxiang Zhang",
+      "Hao Chen",
+      "Tianyi Zhang",
+      "Muhao Chen"
+    ],
+    "published": "2025-05-29T17:07:24+00:00",
+    "summary": "Recent decoding methods improve the factuality of large language models~(LLMs) by refining how the next token is selected during generation. These methods typically operate at the token level, leveraging internal representations to suppress superficial patterns. Nevertheless, LLMs remain prone to hallucinations, especially over longer contexts. In this paper, we propose Active Layer-Contrastive Decoding (ActLCD), a novel decoding strategy that actively decides when to apply contrasting layers during generation. By casting decoding as a sequential decision-making problem, ActLCD employs a reinforcement learning policy guided by a reward-aware classifier to optimize factuality beyond the token level. Our experiments demonstrate that ActLCD surpasses state-of-the-art methods across five benchmarks, showcasing its effectiveness in mitigating hallucinations in diverse generation scenarios."
+  },
+  {
+    "title": "MCP Safety Training: Learning to Refuse Falsely Benign MCP Exploits using Improved Preference Alignment",
+    "url": "http://arxiv.org/abs/2505.23634v1",
+    "arxiv_id": "2505.23634v1",
+    "authors": [
+      "John Halloran"
+    ],
+    "published": "2025-05-29T16:44:29+00:00",
+    "summary": "The model context protocol (MCP) has been widely adapted as an open standard enabling the seamless integration of generative AI agents. However, recent work has shown the MCP is susceptible to retrieval-based \"falsely benign\" attacks (FBAs), allowing malicious system access and credential theft, but requiring that users download compromised files directly to their systems. Herein, we show that the threat model of MCP-based attacks is significantly broader than previously thought, i.e., attackers need only post malicious content online to deceive MCP agents into carrying out their attacks on unsuspecting victims' systems.   To improve alignment guardrails against such attacks, we introduce a new MCP dataset of FBAs and (truly) benign samples to explore the effectiveness of direct preference optimization (DPO) for the refusal training of large language models (LLMs). While DPO improves model guardrails against such attacks, we show that the efficacy of refusal learning varies drastically depending on the model's original post-training alignment scheme--e.g., GRPO-based LLMs learn to refuse extremely poorly. Thus, to further improve FBA refusals, we introduce Retrieval Augmented Generation for Preference alignment (RAG-Pref), a novel preference alignment strategy based on RAG. We show that RAG-Pref significantly improves the ability of LLMs to refuse FBAs, particularly when combined with DPO alignment, thus drastically improving guardrails against MCP-based attacks."
+  },
+  {
+    "title": "Table-R1: Inference-Time Scaling for Table Reasoning",
+    "url": "http://arxiv.org/abs/2505.23621v1",
+    "arxiv_id": "2505.23621v1",
+    "authors": [
+      "Zheyuan Yang",
+      "Lyuhao Chen",
+      "Arman Cohan",
+      "Yilun Zhao"
+    ],
+    "published": "2025-05-29T16:28:50+00:00",
+    "summary": "In this work, we present the first study to explore inference-time scaling on table reasoning tasks. We develop and evaluate two post-training strategies to enable inference-time scaling: distillation from frontier model reasoning traces and reinforcement learning with verifiable rewards (RLVR). For distillation, we introduce a large-scale dataset of reasoning traces generated by DeepSeek-R1, which we use to fine-tune LLMs into the Table-R1-SFT model. For RLVR, we propose task-specific verifiable reward functions and apply the GRPO algorithm to obtain the Table-R1-Zero model. We evaluate our Table-R1-series models across diverse table reasoning tasks, including short-form QA, fact verification, and free-form QA. Notably, the Table-R1-Zero model matches or exceeds the performance of GPT-4.1 and DeepSeek-R1, while using only a 7B-parameter LLM. It also demonstrates strong generalization to out-of-domain datasets. Extensive ablation and qualitative analyses reveal the benefits of instruction tuning, model architecture choices, and cross-task generalization, as well as emergence of essential table reasoning skills during RL training."
+  },
+  {
+    "title": "Inference-time Scaling of Diffusion Models through Classical Search",
+    "url": "http://arxiv.org/abs/2505.23614v1",
+    "arxiv_id": "2505.23614v1",
+    "authors": [
+      "Xiangcheng Zhang",
+      "Haowei Lin",
+      "Haotian Ye",
+      "James Zou",
+      "Jianzhu Ma",
+      "Yitao Liang",
+      "Yilun Du"
+    ],
+    "published": "2025-05-29T16:22:40+00:00",
+    "summary": "Classical search algorithms have long underpinned modern artificial intelligence. In this work, we tackle the challenge of inference-time control in diffusion models -- adapting generated outputs to meet diverse test-time objectives -- using principles from classical search. We propose a general framework that orchestrates local and global search to efficiently navigate the generative space. It employs a theoretically grounded local search via annealed Langevin MCMC and performs compute-efficient global exploration using breadth-first and depth-first tree search. We evaluate our approach on a range of challenging domains, including planning, offline reinforcement learning, and image generation. Across all tasks, we observe significant gains in both performance and efficiency. These results show that classical search provides a principled and practical foundation for inference-time scaling in diffusion models. Project page at diffusion-inference-scaling.github.io."
+  },
+  {
+    "title": "Satori-SWE: Evolutionary Test-Time Scaling for Sample-Efficient Software Engineering",
+    "url": "http://arxiv.org/abs/2505.23604v1",
+    "arxiv_id": "2505.23604v1",
+    "authors": [
+      "Guangtao Zeng",
+      "Maohao Shen",
+      "Delin Chen",
+      "Zhenting Qi",
+      "Subhro Das",
+      "Dan Gutfreund",
+      "David Cox",
+      "Gregory Wornell",
+      "Wei Lu",
+      "Zhang-Wei Hong",
+      "Chuang Gan"
+    ],
+    "published": "2025-05-29T16:15:36+00:00",
+    "summary": "Language models (LMs) perform well on standardized coding benchmarks but struggle with real-world software engineering tasks such as resolving GitHub issues in SWE-Bench, especially when model parameters are less than 100B. While smaller models are preferable in practice due to their lower computational cost, improving their performance remains challenging. Existing approaches primarily rely on supervised fine-tuning (SFT) with high-quality data, which is expensive to curate at scale. An alternative is test-time scaling: generating multiple outputs, scoring them using a verifier, and selecting the best one. Although effective, this strategy often requires excessive sampling and costly scoring, limiting its practical application. We propose Evolutionary Test-Time Scaling (EvoScale), a sample-efficient method that treats generation as an evolutionary process. By iteratively refining outputs via selection and mutation, EvoScale shifts the output distribution toward higher-scoring regions, reducing the number of samples needed to find correct solutions. To reduce the overhead from repeatedly sampling and selection, we train the model to self-evolve using reinforcement learning (RL). Rather than relying on external verifiers at inference time, the model learns to self-improve the scores of its own generations across iterations. Evaluated on SWE-Bench-Verified, EvoScale enables our 32B model, Satori-SWE-32B, to match or exceed the performance of models with over 100B parameters while using a few samples. Code, data, and models will be fully open-sourced."
+  },
+  {
+    "title": "Jigsaw-R1: A Study of Rule-based Visual Reinforcement Learning with Jigsaw Puzzles",
+    "url": "http://arxiv.org/abs/2505.23590v1",
+    "arxiv_id": "2505.23590v1",
+    "authors": [
+      "Zifu Wang",
+      "Junyi Zhu",
+      "Bo Tang",
+      "Zhiyu Li",
+      "Feiyu Xiong",
+      "Jiaqian Yu",
+      "Matthew B. Blaschko"
+    ],
+    "published": "2025-05-29T16:01:22+00:00",
+    "summary": "The application of rule-based reinforcement learning (RL) to multimodal large language models (MLLMs) introduces unique challenges and potential deviations from findings in text-only domains, particularly for perception-heavy tasks. This paper provides a comprehensive study of rule-based visual RL using jigsaw puzzles as a structured experimental framework, revealing several key findings. \\textit{Firstly,} we find that MLLMs, initially performing near to random guessing on simple puzzles, achieve near-perfect accuracy and generalize to complex, unseen configurations through fine-tuning. \\textit{Secondly,} training on jigsaw puzzles can induce generalization to other visual tasks, with effectiveness tied to specific task configurations. \\textit{Thirdly,} MLLMs can learn and generalize with or without explicit reasoning, though open-source models often favor direct answering. Consequently, even when trained for step-by-step reasoning, they can ignore the thinking process in deriving the final answer. \\textit{Fourthly,} we observe that complex reasoning patterns appear to be pre-existing rather than emergent, with their frequency increasing alongside training and task difficulty. \\textit{Finally,} our results demonstrate that RL exhibits more effective generalization than Supervised Fine-Tuning (SFT), and an initial SFT cold start phase can hinder subsequent RL optimization. Although these observations are based on jigsaw puzzles and may vary across other visual tasks, this research contributes a valuable piece of jigsaw to the larger puzzle of collective understanding rule-based visual RL and its potential in multimodal learning. The code is available at: \\href{https://github.com/zifuwanggg/Jigsaw-R1}{https://github.com/zifuwanggg/Jigsaw-R1}."
+  },
+  {
+    "title": "On-Policy RL with Optimal Reward Baseline",
+    "url": "http://arxiv.org/abs/2505.23585v1",
+    "arxiv_id": "2505.23585v1",
+    "authors": [
+      "Yaru Hao",
+      "Li Dong",
+      "Xun Wu",
+      "Shaohan Huang",
+      "Zewen Chi",
+      "Furu Wei"
+    ],
+    "published": "2025-05-29T15:58:04+00:00",
+    "summary": "Reinforcement learning algorithms are fundamental to align large language models with human preferences and to enhance their reasoning capabilities. However, current reinforcement learning algorithms often suffer from training instability due to loose on-policy constraints and computational inefficiency due to auxiliary models. In this work, we propose On-Policy RL with Optimal reward baseline (OPO), a novel and simplified reinforcement learning algorithm designed to address these challenges. OPO emphasizes the importance of exact on-policy training, which empirically stabilizes the training process and enhances exploration. Moreover, OPO introduces the optimal reward baseline that theoretically minimizes gradient variance. We evaluate OPO on mathematical reasoning benchmarks. The results demonstrate its superior performance and training stability without additional models or regularization terms. Furthermore, OPO achieves lower policy shifts and higher output entropy, encouraging more diverse and less repetitive responses. These results highlight OPO as a promising direction for stable and effective reinforcement learning in large language model alignment and reasoning tasks. The implementation is provided at https://github.com/microsoft/LMOps/tree/main/opo."
+  },
+  {
+    "title": "BioReason: Incentivizing Multimodal Biological Reasoning within a DNA-LLM Model",
+    "url": "http://arxiv.org/abs/2505.23579v1",
+    "arxiv_id": "2505.23579v1",
+    "authors": [
+      "Adibvafa Fallahpour",
+      "Andrew Magnuson",
+      "Purav Gupta",
+      "Shihao Ma",
+      "Jack Naimer",
+      "Arnav Shah",
+      "Haonan Duan",
+      "Omar Ibrahim",
+      "Hani Goodarzi",
+      "Chris J. Maddison",
+      "Bo Wang"
+    ],
+    "published": "2025-05-29T15:49:27+00:00",
+    "summary": "Unlocking deep, interpretable biological reasoning from complex genomic data is a major AI challenge hindering scientific discovery. Current DNA foundation models, despite strong sequence representation, struggle with multi-step reasoning and lack inherent transparent, biologically intuitive explanations. We introduce BioReason, a pioneering architecture that, for the first time, deeply integrates a DNA foundation model with a Large Language Model (LLM). This novel connection enables the LLM to directly process and reason with genomic information as a fundamental input, fostering a new form of multimodal biological understanding. BioReason's sophisticated multi-step reasoning is developed through supervised fine-tuning and targeted reinforcement learning, guiding the system to generate logical, biologically coherent deductions. On biological reasoning benchmarks including KEGG-based disease pathway prediction - where accuracy improves from 88% to 97% - and variant effect prediction, BioReason demonstrates an average 15% performance gain over strong single-modality baselines. BioReason reasons over unseen biological entities and articulates decision-making through interpretable, step-by-step biological traces, offering a transformative approach for AI in biology that enables deeper mechanistic insights and accelerates testable hypothesis generation from genomic data. Data, code, and checkpoints are publicly available at https://github.com/bowang-lab/BioReason"
+  },
+  {
+    "title": "Segment Policy Optimization: Effective Segment-Level Credit Assignment in RL for Large Language Models",
+    "url": "http://arxiv.org/abs/2505.23564v1",
+    "arxiv_id": "2505.23564v1",
+    "authors": [
+      "Yiran Guo",
+      "Lijie Xu",
+      "Jie Liu",
+      "Dan Ye",
+      "Shuang Qiu"
+    ],
+    "published": "2025-05-29T15:38:19+00:00",
+    "summary": "Enhancing the reasoning capabilities of large language models effectively using reinforcement learning (RL) remains a crucial challenge. Existing approaches primarily adopt two contrasting advantage estimation granularities: Token-level methods (e.g., PPO) aim to provide the fine-grained advantage signals but suffer from inaccurate estimation due to difficulties in training an accurate critic model. On the other extreme, trajectory-level methods (e.g., GRPO) solely rely on a coarse-grained advantage signal from the final reward, leading to imprecise credit assignment. To address these limitations, we propose Segment Policy Optimization (SPO), a novel RL framework that leverages segment-level advantage estimation at an intermediate granularity, achieving a better balance by offering more precise credit assignment than trajectory-level methods and requiring fewer estimation points than token-level methods, enabling accurate advantage estimation based on Monte Carlo (MC) without a critic model. SPO features three components with novel strategies: (1) flexible segment partition; (2) accurate segment advantage estimation; and (3) policy optimization using segment advantages, including a novel probability-mask strategy. We further instantiate SPO for two specific scenarios: (1) SPO-chain for short chain-of-thought (CoT), featuring novel cutpoint-based partition and chain-based advantage estimation, achieving $6$-$12$ percentage point improvements in accuracy over PPO and GRPO on GSM8K. (2) SPO-tree for long CoT, featuring novel tree-based advantage estimation, which significantly reduces the cost of MC estimation, achieving $7$-$11$ percentage point improvements over GRPO on MATH500 under 2K and 4K context evaluation. We make our code publicly available at https://github.com/AIFrameResearch/SPO."
+  },
+  {
+    "title": "Qwen Look Again: Guiding Vision-Language Reasoning Models to Re-attention Visual Information",
+    "url": "http://arxiv.org/abs/2505.23558v1",
+    "arxiv_id": "2505.23558v1",
+    "authors": [
+      "Xu Chu",
+      "Xinrong Chen",
+      "Guanyu Wang",
+      "Zhijie Tan",
+      "Kui Huang",
+      "Wenyu Lv",
+      "Tong Mo",
+      "Weiping Li"
+    ],
+    "published": "2025-05-29T15:34:15+00:00",
+    "summary": "Inference time scaling drives extended reasoning to enhance the performance of Vision-Language Models (VLMs), thus forming powerful Vision-Language Reasoning Models (VLRMs). However, long reasoning dilutes visual tokens, causing visual information to receive less attention and may trigger hallucinations. Although introducing text-only reflection processes shows promise in language models, we demonstrate that it is insufficient to suppress hallucinations in VLMs. To address this issue, we introduce Qwen-LookAgain (Qwen-LA), a novel VLRM designed to mitigate hallucinations by incorporating a vision-text reflection process that guides the model to re-attention visual information during reasoning. We first propose a reinforcement learning method Balanced Reflective Policy Optimization (BRPO), which guides the model to decide when to generate vision-text reflection on its own and balance the number and length of reflections. Then, we formally prove that VLRMs lose attention to visual tokens as reasoning progresses, and demonstrate that supplementing visual information during reflection enhances visual attention. Therefore, during training and inference, Visual Token COPY and Visual Token ROUTE are introduced to force the model to re-attention visual information at the visual level, addressing the limitations of text-only reflection. Experiments on multiple visual QA datasets and hallucination metrics indicate that Qwen-LA achieves leading accuracy performance while reducing hallucinations. Our code is available at: https://github.com/Liar406/Look_Again."
+  },
+  {
+    "title": "Normalizing Flows are Capable Models for RL",
+    "url": "http://arxiv.org/abs/2505.23527v1",
+    "arxiv_id": "2505.23527v1",
+    "authors": [
+      "Raj Ghugare",
+      "Benjamin Eysenbach"
+    ],
+    "published": "2025-05-29T15:06:22+00:00",
+    "summary": "Modern reinforcement learning (RL) algorithms have found success by using powerful probabilistic models, such as transformers, energy-based models, and diffusion/flow-based models. To this end, RL researchers often choose to pay the price of accommodating these models into their algorithms -- diffusion models are expressive, but are computationally intensive due to their reliance on solving differential equations, while autoregressive transformer models are scalable but typically require learning discrete representations. Normalizing flows (NFs), by contrast, seem to provide an appealing alternative, as they enable likelihoods and sampling without solving differential equations or autoregressive architectures. However, their potential in RL has received limited attention, partly due to the prevailing belief that normalizing flows lack sufficient expressivity. We show that this is not the case. Building on recent work in NFs, we propose a single NF architecture which integrates seamlessly into RL algorithms, serving as a policy, Q-function, and occupancy measure. Our approach leads to much simpler algorithms, and achieves higher performance in imitation learning, offline, goal conditioned RL and unsupervised RL."
+  },
+  {
+    "title": "Individual differences in the cognitive mechanisms of planning strategy discovery",
+    "url": "http://arxiv.org/abs/2505.23519v1",
+    "arxiv_id": "2505.23519v1",
+    "authors": [
+      "Ruiqi He",
+      "Falk Lieder"
+    ],
+    "published": "2025-05-29T14:57:34+00:00",
+    "summary": "People employ efficient planning strategies. But how are these strategies acquired? Previous research suggests that people can discover new planning strategies through learning from reinforcements, a process known as metacognitive reinforcement learning (MCRL). While prior work has shown that MCRL models can learn new planning strategies and explain more participants' experience-driven discovery better than alternative mechanisms, it also revealed significant individual differences in metacognitive learning. Furthermore, when fitted to human data, these models exhibit a slower rate of strategy discovery than humans. In this study, we investigate whether incorporating cognitive mechanisms that might facilitate human strategy discovery can bring models of MCRL closer to human performance. Specifically, we consider intrinsically generated metacognitive pseudo-rewards, subjective effort valuation, and termination deliberation. Analysis of planning task data shows that a larger proportion of participants used at least one of these mechanisms, with significant individual differences in their usage and varying impacts on strategy discovery. Metacognitive pseudo-rewards, subjective effort valuation, and learning the value of acting without further planning were found to facilitate strategy discovery. While these enhancements provided valuable insights into individual differences and the effect of these mechanisms on strategy discovery, they did not fully close the gap between model and human performance, prompting further exploration of additional factors that people might use to discover new planning strategies."
+  },
+  {
+    "title": "On Global Convergence Rates for Federated Policy Gradient under Heterogeneous Environment",
+    "url": "http://arxiv.org/abs/2505.23459v1",
+    "arxiv_id": "2505.23459v1",
+    "authors": [
+      "Safwan Labbi",
+      "Paul Mangold",
+      "Daniil Tiapkin",
+      "Eric Moulines"
+    ],
+    "published": "2025-05-29T14:08:35+00:00",
+    "summary": "Ensuring convergence of policy gradient methods in federated reinforcement learning (FRL) under environment heterogeneity remains a major challenge. In this work, we first establish that heterogeneity, perhaps counter-intuitively, can necessitate optimal policies to be non-deterministic or even time-varying, even in tabular environments. Subsequently, we prove global convergence results for federated policy gradient (FedPG) algorithms employing local updates, under a {\\L}ojasiewicz condition that holds only for each individual agent, in both entropy-regularized and non-regularized scenarios. Crucially, our theoretical analysis shows that FedPG attains linear speed-up with respect to the number of agents, a property central to efficient federated learning. Leveraging insights from our theoretical findings, we introduce b-RS-FedPG, a novel policy gradient method that employs a carefully constructed softmax-inspired parameterization coupled with an appropriate regularization scheme. We further demonstrate explicit convergence rates for b-RS-FedPG toward near-optimal stationary policies. Finally, we demonstrate that empirically both FedPG and b-RS-FedPG consistently outperform federated Q-learning on heterogeneous settings."
+  },
+  {
+    "title": "Diffusion Guidance Is a Controllable Policy Improvement Operator",
+    "url": "http://arxiv.org/abs/2505.23458v1",
+    "arxiv_id": "2505.23458v1",
+    "authors": [
+      "Kevin Frans",
+      "Seohong Park",
+      "Pieter Abbeel",
+      "Sergey Levine"
+    ],
+    "published": "2025-05-29T14:06:50+00:00",
+    "summary": "At the core of reinforcement learning is the idea of learning beyond the performance in the data. However, scaling such systems has proven notoriously tricky. In contrast, techniques from generative modeling have proven remarkably scalable and are simple to train. In this work, we combine these strengths, by deriving a direct relation between policy improvement and guidance of diffusion models. The resulting framework, CFGRL, is trained with the simplicity of supervised learning, yet can further improve on the policies in the data. On offline RL tasks, we observe a reliable trend -- increased guidance weighting leads to increased performance. Of particular importance, CFGRL can operate without explicitly learning a value function, allowing us to generalize simple supervised methods (e.g., goal-conditioned behavioral cloning) to further prioritize optimality, gaining performance for \"free\" across the board."
+  },
+  {
+    "title": "A Reverse Causal Framework to Mitigate Spurious Correlations for Debiasing Scene Graph Generation",
+    "url": "http://arxiv.org/abs/2505.23451v1",
+    "arxiv_id": "2505.23451v1",
+    "authors": [
+      "Shuzhou Sun",
+      "Li Liu",
+      "Tianpeng Liu",
+      "Shuaifeng Zhi",
+      "Ming-Ming Cheng",
+      "Janne Heikkil\u00e4",
+      "Yongxiang Liu"
+    ],
+    "published": "2025-05-29T13:57:01+00:00",
+    "summary": "Existing two-stage Scene Graph Generation (SGG) frameworks typically incorporate a detector to extract relationship features and a classifier to categorize these relationships; therefore, the training paradigm follows a causal chain structure, where the detector's inputs determine the classifier's inputs, which in turn influence the final predictions. However, such a causal chain structure can yield spurious correlations between the detector's inputs and the final predictions, i.e., the prediction of a certain relationship may be influenced by other relationships. This influence can induce at least two observable biases: tail relationships are predicted as head ones, and foreground relationships are predicted as background ones; notably, the latter bias is seldom discussed in the literature. To address this issue, we propose reconstructing the causal chain structure into a reverse causal structure, wherein the classifier's inputs are treated as the confounder, and both the detector's inputs and the final predictions are viewed as causal variables. Specifically, we term the reconstructed causal paradigm as the Reverse causal Framework for SGG (RcSGG). RcSGG initially employs the proposed Active Reverse Estimation (ARE) to intervene on the confounder to estimate the reverse causality, \\ie the causality from final predictions to the classifier's inputs. Then, the Maximum Information Sampling (MIS) is suggested to enhance the reverse causality estimation further by considering the relationship information. Theoretically, RcSGG can mitigate the spurious correlations inherent in the SGG framework, subsequently eliminating the induced biases. Comprehensive experiments on popular benchmarks and diverse SGG frameworks show the state-of-the-art mean recall rate."
+  },
+  {
+    "title": "Diversity-Aware Policy Optimization for Large Language Model Reasoning",
+    "url": "http://arxiv.org/abs/2505.23433v1",
+    "arxiv_id": "2505.23433v1",
+    "authors": [
+      "Jian Yao",
+      "Ran Cheng",
+      "Xingyu Wu",
+      "Jibin Wu",
+      "Kay Chen Tan"
+    ],
+    "published": "2025-05-29T13:27:44+00:00",
+    "summary": "The reasoning capabilities of large language models (LLMs) have advanced rapidly, particularly following the release of DeepSeek R1, which has inspired a surge of research into data quality and reinforcement learning (RL) algorithms. Despite the pivotal role diversity plays in RL, its influence on LLM reasoning remains largely underexplored. To bridge this gap, this work presents a systematic investigation into the impact of diversity in RL-based training for LLM reasoning, and proposes a novel diversity-aware policy optimization method. Across evaluations on 12 LLMs, we observe a strong positive correlation between the solution diversity and Potential at k (a novel metric quantifying an LLM's reasoning potential) in high-performing models. This finding motivates our method to explicitly promote diversity during RL training. Specifically, we design a token-level diversity and reformulate it into a practical objective, then we selectively apply it to positive samples. Integrated into the R1-zero training framework, our method achieves a 3.5 percent average improvement across four mathematical reasoning benchmarks, while generating more diverse and robust solutions."
+  },
+  {
+    "title": "Afterburner: Reinforcement Learning Facilitates Self-Improving Code Efficiency Optimization",
+    "url": "http://arxiv.org/abs/2505.23387v1",
+    "arxiv_id": "2505.23387v1",
+    "authors": [
+      "Mingzhe Du",
+      "Luu Tuan Tuan",
+      "Yue Liu",
+      "Yuhao Qing",
+      "Dong Huang",
+      "Xinyi He",
+      "Qian Liu",
+      "Zejun Ma",
+      "See-kiong Ng"
+    ],
+    "published": "2025-05-29T12:14:29+00:00",
+    "summary": "Large Language Models (LLMs) generate functionally correct solutions but often fall short in code efficiency, a critical bottleneck for real-world deployment. In this paper, we introduce a novel test-time iterative optimization framework to address this, employing a closed-loop system where LLMs iteratively refine code based on empirical performance feedback from an execution sandbox. We explore three training strategies: Supervised Fine-Tuning (SFT), Direct Preference Optimization (DPO), and Group Relative Policy Optimization~(GRPO). Experiments on our Venus dataset and the APPS benchmark show that SFT and DPO rapidly saturate in efficiency gains. In contrast, GRPO, using reinforcement learning (RL) with execution feedback, continuously optimizes code performance, significantly boosting both pass@1 (from 47% to 62%) and the likelihood of outperforming human submissions in efficiency (from 31% to 45%). Our work demonstrates effective test-time code efficiency improvement and critically reveals the power of RL in teaching LLMs to truly self-improve code efficiency."
+  },
+  {
+    "title": "UniRL: Self-Improving Unified Multimodal Models via Supervised and Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2505.23380v1",
+    "arxiv_id": "2505.23380v1",
+    "authors": [
+      "Weijia Mao",
+      "Zhenheng Yang",
+      "Mike Zheng Shou"
+    ],
+    "published": "2025-05-29T12:00:15+00:00",
+    "summary": "Unified multimodal large language models such as Show-o and Janus have achieved strong performance across both generation and understanding tasks. However, these models typically rely on large-scale datasets and require substantial computation during the pretraining stage. In addition, several post-training methods have been proposed, but they often depend on external data or are limited to task-specific customization. In this work, we introduce UniRL, a self-improving post-training approach. Our approach enables the model to generate images from prompts and use them as training data in each iteration, without relying on any external image data. Moreover, it enables the two tasks to enhance each other: the generated images are used for understanding, and the understanding results are used to supervise generation. We explore supervised fine-tuning (SFT) and Group Relative Policy Optimization (GRPO) to optimize the models. UniRL offers three key advantages: (1) it requires no external image data, as all training samples are generated by the model itself during training; (2) it not only improves individual task performance, but also reduces the imbalance between generation and understanding; and (3) it requires only several additional training steps during the post-training stage. We evaluate UniRL on top of Show-o and Janus, achieving a GenEval score of 0.77 for Show-o and 0.65 for Janus. Code and models will be released in https://github.com/showlab/UniRL."
+  },
+  {
+    "title": "Discriminative Policy Optimization for Token-Level Reward Models",
+    "url": "http://arxiv.org/abs/2505.23363v1",
+    "arxiv_id": "2505.23363v1",
+    "authors": [
+      "Hongzhan Chen",
+      "Tao Yang",
+      "Shiping Gao",
+      "Ruijun Chen",
+      "Xiaojun Quan",
+      "Hongtao Tian",
+      "Ting Yao"
+    ],
+    "published": "2025-05-29T11:40:34+00:00",
+    "summary": "Process reward models (PRMs) provide more nuanced supervision compared to outcome reward models (ORMs) for optimizing policy models, positioning them as a promising approach to enhancing the capabilities of LLMs in complex reasoning tasks. Recent efforts have advanced PRMs from step-level to token-level granularity by integrating reward modeling into the training of generative models, with reward scores derived from token generation probabilities. However, the conflict between generative language modeling and reward modeling may introduce instability and lead to inaccurate credit assignments. To address this challenge, we revisit token-level reward assignment by decoupling reward modeling from language generation and derive a token-level reward model through the optimization of a discriminative policy, termed the Q-function Reward Model (Q-RM). We theoretically demonstrate that Q-RM explicitly learns token-level Q-functions from preference data without relying on fine-grained annotations. In our experiments, Q-RM consistently outperforms all baseline methods across various benchmarks. For example, when integrated into PPO/REINFORCE algorithms, Q-RM enhances the average Pass@1 score by 5.85/4.70 points on mathematical reasoning tasks compared to the ORM baseline, and by 4.56/5.73 points compared to the token-level PRM counterpart. Moreover, reinforcement learning with Q-RM significantly enhances training efficiency, achieving convergence 12 times faster than ORM on GSM8K and 11 times faster than step-level PRM on MATH. Code and data are available at https://github.com/homzer/Q-RM."
+  },
+  {
+    "title": "Grower-in-the-Loop Interactive Reinforcement Learning for Greenhouse Climate Control",
+    "url": "http://arxiv.org/abs/2505.23355v1",
+    "arxiv_id": "2505.23355v1",
+    "authors": [
+      "Maxiu Xiao",
+      "Jianglin Lan",
+      "Jingxing Yu",
+      "Eldert van Henten",
+      "Congcong Sun"
+    ],
+    "published": "2025-05-29T11:30:35+00:00",
+    "summary": "Climate control is crucial for greenhouse production as it directly affects crop growth and resource use. Reinforcement learning (RL) has received increasing attention in this field, but still faces challenges, including limited training efficiency and high reliance on initial learning conditions. Interactive RL, which combines human (grower) input with the RL agent's learning, offers a potential solution to overcome these challenges. However, interactive RL has not yet been applied to greenhouse climate control and may face challenges related to imperfect inputs. Therefore, this paper aims to explore the possibility and performance of applying interactive RL with imperfect inputs into greenhouse climate control, by: (1) developing three representative interactive RL algorithms tailored for greenhouse climate control (reward shaping, policy shaping and control sharing); (2) analyzing how input characteristics are often contradicting, and how the trade-offs between them make grower's inputs difficult to perfect; (3) proposing a neural network-based approach to enhance the robustness of interactive RL agents under limited input availability; (4) conducting a comprehensive evaluation of the three interactive RL algorithms with imperfect inputs in a simulated greenhouse environment. The demonstration shows that interactive RL incorporating imperfect grower inputs has the potential to improve the performance of the RL agent. RL algorithms that influence action selection, such as policy shaping and control sharing, perform better when dealing with imperfect inputs, achieving 8.4% and 6.8% improvement in profit, respectively. In contrast, reward shaping, an algorithm that manipulates the reward function, is sensitive to imperfect inputs and leads to a 9.4% decrease in profit. This highlights the importance of selecting an appropriate mechanism when incorporating imperfect inputs."
+  },
+  {
+    "title": "Towards Reward Fairness in RLHF: From a Resource Allocation Perspective",
+    "url": "http://arxiv.org/abs/2505.23349v1",
+    "arxiv_id": "2505.23349v1",
+    "authors": [
+      "Sheng Ouyang",
+      "Yulan Hu",
+      "Ge Chen",
+      "Qingyang Li",
+      "Fuzheng Zhang",
+      "Yong Liu"
+    ],
+    "published": "2025-05-29T11:12:00+00:00",
+    "summary": "Rewards serve as proxies for human preferences and play a crucial role in Reinforcement Learning from Human Feedback (RLHF). However, if these rewards are inherently imperfect, exhibiting various biases, they can adversely affect the alignment of large language models (LLMs). In this paper, we collectively define the various biases present in rewards as the problem of reward unfairness. We propose a bias-agnostic method to address the issue of reward fairness from a resource allocation perspective, without specifically designing for each type of bias, yet effectively mitigating them. Specifically, we model preference learning as a resource allocation problem, treating rewards as resources to be allocated while considering the trade-off between utility and fairness in their distribution. We propose two methods, Fairness Regularization and Fairness Coefficient, to achieve fairness in rewards. We apply our methods in both verification and reinforcement learning scenarios to obtain a fairness reward model and a policy model, respectively. Experiments conducted in these scenarios demonstrate that our approach aligns LLMs with human preferences in a more fair manner."
+  },
+  {
+    "title": "Graph Positional Autoencoders as Self-supervised Learners",
+    "url": "http://arxiv.org/abs/2505.23345v1",
+    "arxiv_id": "2505.23345v1",
+    "authors": [
+      "Yang Liu",
+      "Deyu Bo",
+      "Wenxuan Cao",
+      "Yuan Fang",
+      "Yawen Li",
+      "Chuan Shi"
+    ],
+    "published": "2025-05-29T11:10:11+00:00",
+    "summary": "Graph self-supervised learning seeks to learn effective graph representations without relying on labeled data. Among various approaches, graph autoencoders (GAEs) have gained significant attention for their efficiency and scalability. Typically, GAEs take incomplete graphs as input and predict missing elements, such as masked nodes or edges. While effective, our experimental investigation reveals that traditional node or edge masking paradigms primarily capture low-frequency signals in the graph and fail to learn the expressive structural information. To address these issues, we propose Graph Positional Autoencoders (GraphPAE), which employs a dual-path architecture to reconstruct both node features and positions. Specifically, the feature path uses positional encoding to enhance the message-passing processing, improving GAE's ability to predict the corrupted information. The position path, on the other hand, leverages node representations to refine positions and approximate eigenvectors, thereby enabling the encoder to learn diverse frequency information. We conduct extensive experiments to verify the effectiveness of GraphPAE, including heterophilic node classification, graph property prediction, and transfer learning. The results demonstrate that GraphPAE achieves state-of-the-art performance and consistently outperforms baselines by a large margin."
+  },
+  {
+    "title": "Fine-Tuning Next-Scale Visual Autoregressive Models with Group Relative Policy Optimization",
+    "url": "http://arxiv.org/abs/2505.23331v1",
+    "arxiv_id": "2505.23331v1",
+    "authors": [
+      "Matteo Gallici",
+      "Haitz S\u00e1ez de Oc\u00e1riz Borde"
+    ],
+    "published": "2025-05-29T10:45:38+00:00",
+    "summary": "Fine-tuning pre-trained generative models with Reinforcement Learning (RL) has emerged as an effective approach for aligning outputs more closely with nuanced human preferences. In this paper, we investigate the application of Group Relative Policy Optimization (GRPO) to fine-tune next-scale visual autoregressive (VAR) models. Our empirical results demonstrate that this approach enables alignment to intricate reward signals derived from aesthetic predictors and CLIP embeddings, significantly enhancing image quality and enabling precise control over the generation style. Interestingly, by leveraging CLIP, our method can help VAR models generalize beyond their initial ImageNet distribution: through RL-driven exploration, these models can generate images aligned with prompts referencing image styles that were absent during pre-training. In summary, we show that RL-based fine-tuning is both efficient and effective for VAR models, benefiting particularly from their fast inference speeds, which are advantageous for online sampling, an aspect that poses significant challenges for diffusion-based alternatives."
+  },
+  {
+    "title": "Proximalized Preference Optimization for Diverse Feedback Types: A Decomposed Perspective on DPO",
+    "url": "http://arxiv.org/abs/2505.23316v1",
+    "arxiv_id": "2505.23316v1",
+    "authors": [
+      "Kaiyang Guo",
+      "Yinchuan Li",
+      "Zhitang Chen"
+    ],
+    "published": "2025-05-29T10:23:22+00:00",
+    "summary": "Direct alignment methods typically optimize large language models (LLMs) by contrasting the likelihoods of preferred versus dispreferred responses. While effective in steering LLMs to match relative preference, these methods are frequently noted for decreasing the absolute likelihoods of example responses. As a result, aligned models tend to generate outputs that deviate from the expected patterns, exhibiting reward-hacking effect even without a reward model. This undesired consequence exposes a fundamental limitation in contrastive alignment, which we characterize as likelihood underdetermination. In this work, we revisit direct preference optimization (DPO) -- the seminal direct alignment method -- and demonstrate that its loss theoretically admits a decomposed reformulation. The reformulated loss not only broadens applicability to a wider range of feedback types, but also provides novel insights into the underlying cause of likelihood underdetermination. Specifically, the standard DPO implementation implicitly oversimplifies a regularizer in the reformulated loss, and reinstating its complete version effectively resolves the underdetermination issue. Leveraging these findings, we introduce PRoximalized PReference Optimization (PRO), a unified method to align with diverse feeback types, eliminating likelihood underdetermination through an efficient approximation of the complete regularizer. Comprehensive experiments show the superiority of PRO over existing methods in scenarios involving pairwise, binary and scalar feedback."
+  },
+  {
+    "title": "Wireless Agentic AI with Retrieval-Augmented Multimodal Semantic Perception",
+    "url": "http://arxiv.org/abs/2505.23275v1",
+    "arxiv_id": "2505.23275v1",
+    "authors": [
+      "Guangyuan Liu",
+      "Yinqiu Liu",
+      "Ruichen Zhang",
+      "Hongyang Du",
+      "Dusit Niyato",
+      "Zehui Xiong",
+      "Sumei Sun",
+      "Abbas Jamalipour"
+    ],
+    "published": "2025-05-29T09:23:11+00:00",
+    "summary": "The rapid development of multimodal AI and Large Language Models (LLMs) has greatly enhanced real-time interaction, decision-making, and collaborative tasks. However, in wireless multi-agent scenarios, limited bandwidth poses significant challenges to exchanging semantically rich multimodal information efficiently. Traditional semantic communication methods, though effective, struggle with redundancy and loss of crucial details. To overcome these challenges, we propose a Retrieval-Augmented Multimodal Semantic Communication (RAMSemCom) framework. RAMSemCom incorporates iterative, retrieval-driven semantic refinement tailored for distributed multi-agent environments, enabling efficient exchange of critical multimodal elements through local caching and selective transmission. Our approach dynamically optimizes retrieval using deep reinforcement learning (DRL) to balance semantic fidelity with bandwidth constraints. A comprehensive case study on multi-agent autonomous driving demonstrates that our DRL-based retrieval strategy significantly improves task completion efficiency and reduces communication overhead compared to baseline methods."
+  },
+  {
+    "title": "Unsupervised Transcript-assisted Video Summarization and Highlight Detection",
+    "url": "http://arxiv.org/abs/2505.23268v1",
+    "arxiv_id": "2505.23268v1",
+    "authors": [
+      "Spyros Barbakos",
+      "Charalampos Antoniadis",
+      "Gerasimos Potamianos",
+      "Gianluca Setti"
+    ],
+    "published": "2025-05-29T09:16:19+00:00",
+    "summary": "Video consumption is a key part of daily life, but watching entire videos can be tedious. To address this, researchers have explored video summarization and highlight detection to identify key video segments. While some works combine video frames and transcripts, and others tackle video summarization and highlight detection using Reinforcement Learning (RL), no existing work, to the best of our knowledge, integrates both modalities within an RL framework. In this paper, we propose a multimodal pipeline that leverages video frames and their corresponding transcripts to generate a more condensed version of the video and detect highlights using a modality fusion mechanism. The pipeline is trained within an RL framework, which rewards the model for generating diverse and representative summaries while ensuring the inclusion of video segments with meaningful transcript content. The unsupervised nature of the training allows for learning from large-scale unannotated datasets, overcoming the challenge posed by the limited size of existing annotated datasets. Our experiments show that using the transcript in video summarization and highlight detection achieves superior results compared to relying solely on the visual content of the video."
+  },
+  {
+    "title": "Image Aesthetic Reasoning: A New Benchmark for Medical Image Screening with MLLMs",
+    "url": "http://arxiv.org/abs/2505.23265v1",
+    "arxiv_id": "2505.23265v1",
+    "authors": [
+      "Zheng Sun",
+      "Yi Wei",
+      "Long Yu"
+    ],
+    "published": "2025-05-29T09:14:16+00:00",
+    "summary": "Multimodal Large Language Models (MLLMs) are of great application across many domains, such as multimodal understanding and generation. With the development of diffusion models (DM) and unified MLLMs, the performance of image generation has been significantly improved, however, the study of image screening is rare and its performance with MLLMs is unsatisfactory due to the lack of data and the week image aesthetic reasoning ability in MLLMs. In this work, we propose a complete solution to address these problems in terms of data and methodology. For data, we collect a comprehensive medical image screening dataset with 1500+ samples, each sample consists of a medical image, four generated images, and a multiple-choice answer. The dataset evaluates the aesthetic reasoning ability under four aspects: \\textit{(1) Appearance Deformation, (2) Principles of Physical Lighting and Shadow, (3) Placement Layout, (4) Extension Rationality}. For methodology, we utilize long chains of thought (CoT) and Group Relative Policy Optimization with Dynamic Proportional Accuracy reward, called DPA-GRPO, to enhance the image aesthetic reasoning ability of MLLMs. Our experimental results reveal that even state-of-the-art closed-source MLLMs, such as GPT-4o and Qwen-VL-Max, exhibit performance akin to random guessing in image aesthetic reasoning. In contrast, by leveraging the reinforcement learning approach, we are able to surpass the score of both large-scale models and leading closed-source models using a much smaller model. We hope our attempt on medical image screening will serve as a regular configuration in image aesthetic reasoning in the future."
+  },
+  {
+    "title": "SealOS+: A Sealos-based Approach for Adaptive Resource Optimization Under Dynamic Workloads for Securities Trading System",
+    "url": "http://arxiv.org/abs/2505.23258v1",
+    "arxiv_id": "2505.23258v1",
+    "authors": [
+      "Haojie Jia",
+      "Zhenhao Li",
+      "Gen Li",
+      "Minxian Xu",
+      "Kejiang Ye"
+    ],
+    "published": "2025-05-29T09:06:01+00:00",
+    "summary": "As securities trading systems transition to a microservices architecture, optimizing system performance presents challenges such as inefficient resource scheduling and high service response delays. Existing container orchestration platforms lack tailored performance optimization mechanisms for trading scenarios, making it difficult to meet the stringent 50ms response time requirement imposed by exchanges. This paper introduces SealOS+, a Sealos-based performance optimization approach for securities trading, incorporating an adaptive resource scheduling algorithm leveraging deep reinforcement learning, a three-level caching mechanism for trading operations, and a Long Short-Term Memory (LSTM) based load prediction model. Real-world deployment at a securities exchange demonstrates that the optimized system achieves an average CPU utilization of 78\\%, reduces transaction response time to 105ms, and reaches a peak processing capacity of 15,000 transactions per second, effectively meeting the rigorous performance and reliability demands of securities trading."
+  },
+  {
+    "title": "Context-Aware Semantic Communication for the Wireless Networks",
+    "url": "http://arxiv.org/abs/2505.23249v1",
+    "arxiv_id": "2505.23249v1",
+    "authors": [
+      "Guangyuan Liu",
+      "Yinqiu Liu",
+      "Jiacheng Wang",
+      "Hongyang Du",
+      "Dusit Niyato",
+      "Jiawen Kang",
+      "Zehui Xiong",
+      "Abbas Jamalipour"
+    ],
+    "published": "2025-05-29T08:55:29+00:00",
+    "summary": "In next-generation wireless networks, supporting real-time applications such as augmented reality, autonomous driving, and immersive Metaverse services demands stringent constraints on bandwidth, latency, and reliability. Existing semantic communication (SemCom) approaches typically rely on static models, overlooking dynamic conditions and contextual cues vital for efficient transmission. To address these challenges, we propose CaSemCom, a context-aware SemCom framework that leverages a Large Language Model (LLM)-based gating mechanism and a Mixture of Experts (MoE) architecture to adaptively select and encode only high-impact semantic features across multiple data modalities. Our multimodal, multi-user case study demonstrates that CaSemCom significantly improves reconstructed image fidelity while reducing bandwidth usage, outperforming single-agent deep reinforcement learning (DRL) methods and traditional baselines in convergence speed, semantic accuracy, and retransmission overhead."
+  },
+  {
+    "title": "Accelerating RLHF Training with Reward Variance Increase",
+    "url": "http://arxiv.org/abs/2505.23247v1",
+    "arxiv_id": "2505.23247v1",
+    "authors": [
+      "Zonglin Yang",
+      "Zhexuan Gu",
+      "Houduo Qi",
+      "Yancheng Yuan"
+    ],
+    "published": "2025-05-29T08:54:06+00:00",
+    "summary": "Reinforcement learning from human feedback (RLHF) is an essential technique for ensuring that large language models (LLMs) are aligned with human values and preferences during the post-training phase. As an effective RLHF approach, group relative policy optimization (GRPO) has demonstrated success in many LLM-based applications. However, efficient GRPO-based RLHF training remains a challenge. Recent studies reveal that a higher reward variance of the initial policy model leads to faster RLHF training. Inspired by this finding, we propose a practical reward adjustment model to accelerate RLHF training by provably increasing the reward variance and preserving the relative preferences and reward expectation. Our reward adjustment method inherently poses a nonconvex optimization problem, which is NP-hard to solve in general. To overcome the computational challenges, we design a novel $O(n \\log n)$ algorithm to find a global solution of the nonconvex reward adjustment model by explicitly characterizing the extreme points of the feasible set. As an important application, we naturally integrate this reward adjustment model into the GRPO algorithm, leading to a more efficient GRPO with reward variance increase (GRPOVI) algorithm for RLHF training. As an interesting byproduct, we provide an indirect explanation for the empirical effectiveness of GRPO with rule-based reward for RLHF training, as demonstrated in DeepSeek-R1. Experiment results demonstrate that the GRPOVI algorithm can significantly improve the RLHF training efficiency compared to the original GRPO algorithm."
+  },
+  {
+    "title": "MMBoundary: Advancing MLLM Knowledge Boundary Awareness through Reasoning Step Confidence Calibration",
+    "url": "http://arxiv.org/abs/2505.23224v1",
+    "arxiv_id": "2505.23224v1",
+    "authors": [
+      "Zhitao He",
+      "Sandeep Polisetty",
+      "Zhiyuan Fan",
+      "Yuchen Huang",
+      "Shujin Wu",
+      "Yi R.",
+      "Fung"
+    ],
+    "published": "2025-05-29T08:14:40+00:00",
+    "summary": "In recent years, multimodal large language models (MLLMs) have made significant progress but continue to face inherent challenges in multimodal reasoning, which requires multi-level (e.g., perception, reasoning) and multi-granular (e.g., multi-step reasoning chain) advanced inferencing. Prior work on estimating model confidence tends to focus on the overall response for training and calibration, but fails to assess confidence in each reasoning step, leading to undesirable hallucination snowballing. In this work, we present MMBoundary, a novel framework that advances the knowledge boundary awareness of MLLMs through reasoning step confidence calibration. To achieve this, we propose to incorporate complementary textual and cross-modal self-rewarding signals to estimate confidence at each step of the MLLM reasoning process. In addition to supervised fine-tuning MLLM on this set of self-rewarded confidence estimation signal for initial confidence expression warm-up, we introduce a reinforcement learning stage with multiple reward functions for further aligning model knowledge and calibrating confidence at each reasoning step, enhancing reasoning chain self-correction. Empirical results show that MMBoundary significantly outperforms existing methods across diverse domain datasets and metrics, achieving an average of 7.5% reduction in multimodal confidence calibration errors and up to 8.3% improvement in task performance."
+  },
+  {
+    "title": "DIP-R1: Deep Inspection and Perception with RL Looking Through and Understanding Complex Scenes",
+    "url": "http://arxiv.org/abs/2505.23179v1",
+    "arxiv_id": "2505.23179v1",
+    "authors": [
+      "Sungjune Park",
+      "Hyunjun Kim",
+      "Junho Kim",
+      "Seongho Kim",
+      "Yong Man Ro"
+    ],
+    "published": "2025-05-29T07:16:16+00:00",
+    "summary": "Multimodal Large Language Models (MLLMs) have demonstrated significant visual understanding capabilities, yet their fine-grained visual perception in complex real-world scenarios, such as densely crowded public areas, remains limited. Inspired by the recent success of reinforcement learning (RL) in both LLMs and MLLMs, in this paper, we explore how RL can enhance visual perception ability of MLLMs. Then we develop a novel RL-based framework, Deep Inspection and Perception with RL (DIP-R1) designed to enhance the visual perception capabilities of MLLMs, by comprehending complex scenes and looking through visual instances closely. DIP-R1 guides MLLMs through detailed inspection of visual scene via three simply designed rule-based reward modelings. First, we adopt a standard reasoning reward encouraging the model to include three step-by-step processes: 1) reasoning for understanding visual scenes, 2) observing for looking through interested but ambiguous regions, and 3) decision-making for predicting answer. Second, a variance-guided looking reward is designed to examine uncertain regions for the second observing process. It explicitly enables the model to inspect ambiguous areas, improving its ability to mitigate perceptual uncertainties. Third, we model a weighted precision-recall accuracy reward enhancing accurate decision-making. We explore its effectiveness across diverse fine-grained object detection data consisting of challenging real-world environments, such as densely crowded scenes. Built upon existing MLLMs, DIP-R1 achieves consistent and significant improvement across various in-domain and out-of-domain scenarios. It also outperforms various existing baseline models and supervised fine-tuning methods. Our findings highlight the substantial potential of integrating RL into MLLMs for enhancing capabilities in complex real-world perception tasks."
+  },
+  {
+    "title": "Bigger, Regularized, Categorical: High-Capacity Value Functions are Efficient Multi-Task Learners",
+    "url": "http://arxiv.org/abs/2505.23150v1",
+    "arxiv_id": "2505.23150v1",
+    "authors": [
+      "Michal Nauman",
+      "Marek Cygan",
+      "Carmelo Sferrazza",
+      "Aviral Kumar",
+      "Pieter Abbeel"
+    ],
+    "published": "2025-05-29T06:41:45+00:00",
+    "summary": "Recent advances in language modeling and vision stem from training large models on diverse, multi-task data. This paradigm has had limited impact in value-based reinforcement learning (RL), where improvements are often driven by small models trained in a single-task context. This is because in multi-task RL sparse rewards and gradient conflicts make optimization of temporal difference brittle. Practical workflows for generalist policies therefore avoid online training, instead cloning expert trajectories or distilling collections of single-task policies into one agent. In this work, we show that the use of high-capacity value models trained via cross-entropy and conditioned on learnable task embeddings addresses the problem of task interference in online RL, allowing for robust and scalable multi-task training. We test our approach on 7 multi-task benchmarks with over 280 unique tasks, spanning high degree-of-freedom humanoid control and discrete vision-based RL. We find that, despite its simplicity, the proposed approach leads to state-of-the-art single and multi-task performance, as well as sample-efficient transfer to new tasks."
+  },
+  {
+    "title": "DOPPLER: Dual-Policy Learning for Device Assignment in Asynchronous Dataflow Graphs",
+    "url": "http://arxiv.org/abs/2505.23131v1",
+    "arxiv_id": "2505.23131v1",
+    "authors": [
+      "Xinyu Yao",
+      "Daniel Bourgeois",
+      "Abhinav Jain",
+      "Yuxin Tang",
+      "Jiawen Yao",
+      "Zhimin Ding",
+      "Arlei Silva",
+      "Chris Jermaine"
+    ],
+    "published": "2025-05-29T06:04:32+00:00",
+    "summary": "We study the problem of assigning operations in a dataflow graph to devices to minimize execution time in a work-conserving system, with emphasis on complex machine learning workloads. Prior learning-based methods often struggle due to three key limitations: (1) reliance on bulk-synchronous systems like TensorFlow, which under-utilize devices due to barrier synchronization; (2) lack of awareness of the scheduling mechanism of underlying systems when designing learning-based methods; and (3) exclusive dependence on reinforcement learning, ignoring the structure of effective heuristics designed by experts. In this paper, we propose \\textsc{Doppler}, a three-stage framework for training dual-policy networks consisting of 1) a $\\mathsf{SEL}$ policy for selecting operations and 2) a $\\mathsf{PLC}$ policy for placing chosen operations on devices. Our experiments show that \\textsc{Doppler} outperforms all baseline methods across tasks by reducing system execution time and additionally demonstrates sampling efficiency by reducing per-episode training time."
+  },
+  {
+    "title": "Generating Diverse Training Samples for Relation Extraction with Large Language Models",
+    "url": "http://arxiv.org/abs/2505.23108v1",
+    "arxiv_id": "2505.23108v1",
+    "authors": [
+      "Zexuan Li",
+      "Hongliang Dai",
+      "Piji Li"
+    ],
+    "published": "2025-05-29T05:21:54+00:00",
+    "summary": "Using Large Language Models (LLMs) to generate training data can potentially be a preferable way to improve zero or few-shot NLP tasks. However, many problems remain to be investigated for this direction. For the task of Relation Extraction (RE), we find that samples generated by directly prompting LLMs may easily have high structural similarities with each other. They tend to use a limited variety of phrasing while expressing the relation between a pair of entities. Therefore, in this paper, we study how to effectively improve the diversity of the training samples generated with LLMs for RE, while also maintaining their correctness. We first try to make the LLMs produce dissimilar samples by directly giving instructions in In-Context Learning (ICL) prompts. Then, we propose an approach to fine-tune LLMs for diversity training sample generation through Direct Preference Optimization (DPO). Our experiments on commonly used RE datasets show that both attempts can improve the quality of the generated training data. We also find that comparing with directly performing RE with an LLM, training a non-LLM RE model with its generated samples may lead to better performance."
+  },
+  {
+    "title": "CURVE: CLIP-Utilized Reinforcement Learning for Visual Image Enhancement via Simple Image Processing",
+    "url": "http://arxiv.org/abs/2505.23102v1",
+    "arxiv_id": "2505.23102v1",
+    "authors": [
+      "Yuka Ogino",
+      "Takahiro Toizumi",
+      "Atsushi Ito"
+    ],
+    "published": "2025-05-29T05:09:13+00:00",
+    "summary": "Low-Light Image Enhancement (LLIE) is crucial for improving both human perception and computer vision tasks. This paper addresses two challenges in zero-reference LLIE: obtaining perceptually 'good' images using the Contrastive Language-Image Pre-Training (CLIP) model and maintaining computational efficiency for high-resolution images. We propose CLIP-Utilized Reinforcement learning-based Visual image Enhancement (CURVE). CURVE employs a simple image processing module which adjusts global image tone based on B\\'ezier curve and estimates its processing parameters iteratively. The estimator is trained by reinforcement learning with rewards designed using CLIP text embeddings. Experiments on low-light and multi-exposure datasets demonstrate the performance of CURVE in terms of enhancement quality and processing speed compared to conventional methods."
+  },
+  {
+    "title": "Learning to Search for Vehicle Routing with Multiple Time Windows",
+    "url": "http://arxiv.org/abs/2505.23098v1",
+    "arxiv_id": "2505.23098v1",
+    "authors": [
+      "Kuan Xu",
+      "Zhiguang Cao",
+      "Chenlong Zheng",
+      "Linong Liu"
+    ],
+    "published": "2025-05-29T05:03:28+00:00",
+    "summary": "In this study, we propose a reinforcement learning-based adaptive variable neighborhood search (RL-AVNS) method designed for effectively solving the Vehicle Routing Problem with Multiple Time Windows (VRPMTW). Unlike traditional adaptive approaches that rely solely on historical operator performance, our method integrates a reinforcement learning framework to dynamically select neighborhood operators based on real-time solution states and learned experience. We introduce a fitness metric that quantifies customers' temporal flexibility to improve the shaking phase, and employ a transformer-based neural policy network to intelligently guide operator selection during the local search. Extensive computational experiments are conducted on realistic scenarios derived from the replenishment of unmanned vending machines, characterized by multiple clustered replenishment windows. Results demonstrate that RL-AVNS significantly outperforms traditional variable neighborhood search (VNS), adaptive VNS (AVNS), and state-of-the-art learning-based heuristics, achieving substantial improvements in solution quality and computational efficiency across various instance scales and time window complexities. Particularly notable is the algorithm's capability to generalize effectively to problem instances not encountered during training, underscoring its practical utility for complex logistics scenarios."
+  },
+  {
+    "title": "Infi-MMR: Curriculum-based Unlocking Multimodal Reasoning via Phased Reinforcement Learning in Multimodal Small Language Models",
+    "url": "http://arxiv.org/abs/2505.23091v1",
+    "arxiv_id": "2505.23091v1",
+    "authors": [
+      "Zeyu Liu",
+      "Yuhang Liu",
+      "Guanghao Zhu",
+      "Congkai Xie",
+      "Zhen Li",
+      "Jianbo Yuan",
+      "Xinyao Wang",
+      "Qing Li",
+      "Shing-Chi Cheung",
+      "Shengyu Zhang",
+      "Fei Wu",
+      "Hongxia Yang"
+    ],
+    "published": "2025-05-29T04:51:56+00:00",
+    "summary": "Recent advancements in large language models (LLMs) have demonstrated substantial progress in reasoning capabilities, such as DeepSeek-R1, which leverages rule-based reinforcement learning to enhance logical reasoning significantly. However, extending these achievements to multimodal large language models (MLLMs) presents critical challenges, which are frequently more pronounced for Multimodal Small Language Models (MSLMs) given their typically weaker foundational reasoning abilities: (1) the scarcity of high-quality multimodal reasoning datasets, (2) the degradation of reasoning capabilities due to the integration of visual processing, and (3) the risk that direct application of reinforcement learning may produce complex yet incorrect reasoning processes. To address these challenges, we design a novel framework Infi-MMR to systematically unlock the reasoning potential of MSLMs through a curriculum of three carefully structured phases and propose our multimodal reasoning model Infi-MMR-3B. The first phase, Foundational Reasoning Activation, leverages high-quality textual reasoning datasets to activate and strengthen the model's logical reasoning capabilities. The second phase, Cross-Modal Reasoning Adaptation, utilizes caption-augmented multimodal data to facilitate the progressive transfer of reasoning skills to multimodal contexts. The third phase, Multimodal Reasoning Enhancement, employs curated, caption-free multimodal data to mitigate linguistic biases and promote robust cross-modal reasoning. Infi-MMR-3B achieves both state-of-the-art multimodal math reasoning ability (43.68% on MathVerse testmini, 27.04% on MathVision test, and 21.33% on OlympiadBench) and general reasoning ability (67.2% on MathVista testmini)."
+  },
+  {
     "title": "Maximizing Confidence Alone Improves Reasoning",
     "url": "http://arxiv.org/abs/2505.22660v1",
     "arxiv_id": "2505.22660v1",
