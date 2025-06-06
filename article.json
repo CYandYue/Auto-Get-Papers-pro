@@ -404,6 +404,22 @@
     "summary": "Autonomous driving promises significant advancements in mobility, road safety and traffic efficiency, yet reinforcement learning and imitation learning face safe-exploration and distribution-shift challenges. Although human-AI collaboration alleviates these issues, it often relies heavily on extensive human intervention, which increases costs and reduces efficiency. This paper develops a confidence-guided human-AI collaboration (C-HAC) strategy to overcome these limitations. First, C-HAC employs a distributional proxy value propagation method within the distributional soft actor-critic (DSAC) framework. By leveraging return distributions to represent human intentions C-HAC achieves rapid and stable learning of human-guided policies with minimal human interaction. Subsequently, a shared control mechanism is activated to integrate the learned human-guided policy with a self-learning policy that maximizes cumulative rewards. This enables the agent to explore independently and continuously enhance its performance beyond human guidance. Finally, a policy confidence evaluation algorithm capitalizes on DSAC's return distribution networks to facilitate dynamic switching between human-guided and self-learning policies via a confidence-based intervention function. This ensures the agent can pursue optimal policies while maintaining safety and performance guarantees. Extensive experiments across diverse driving scenarios reveal that C-HAC significantly outperforms conventional methods in terms of safety, efficiency, and overall performance, achieving state-of-the-art results. The effectiveness of the proposed method is further validated through real-world road tests in complex traffic conditions. The videos and code are available at: https://github.com/lzqw/C-HAC."
   },
   {
+    "title": "Confidence-Guided Human-AI Collaboration: Reinforcement Learning with Distributional Proxy Value Propagation for Autonomous Driving",
+    "url": "http://arxiv.org/abs/2506.03568v2",
+    "arxiv_id": "2506.03568v2",
+    "authors": [
+      "Li Zeqiao",
+      "Wang Yijing",
+      "Wang Haoyu",
+      "Li Zheng",
+      "Li Peng",
+      "Zuo zhiqiang",
+      "Hu Chuan"
+    ],
+    "published": "2025-06-04T04:31:10+00:00",
+    "summary": "Autonomous driving promises significant advancements in mobility, road safety and traffic efficiency, yet reinforcement learning and imitation learning face safe-exploration and distribution-shift challenges. Although human-AI collaboration alleviates these issues, it often relies heavily on extensive human intervention, which increases costs and reduces efficiency. This paper develops a confidence-guided human-AI collaboration (C-HAC) strategy to overcome these limitations. First, C-HAC employs a distributional proxy value propagation method within the distributional soft actor-critic (DSAC) framework. By leveraging return distributions to represent human intentions C-HAC achieves rapid and stable learning of human-guided policies with minimal human interaction. Subsequently, a shared control mechanism is activated to integrate the learned human-guided policy with a self-learning policy that maximizes cumulative rewards. This enables the agent to explore independently and continuously enhance its performance beyond human guidance. Finally, a policy confidence evaluation algorithm capitalizes on DSAC's return distribution networks to facilitate dynamic switching between human-guided and self-learning policies via a confidence-based intervention function. This ensures the agent can pursue optimal policies while maintaining safety and performance guarantees. Extensive experiments across diverse driving scenarios reveal that C-HAC significantly outperforms conventional methods in terms of safety, efficiency, and overall performance, achieving state-of-the-art results. The effectiveness of the proposed method is further validated through real-world road tests in complex traffic conditions. The videos and code are available at: https://github.com/lzqw/C-HAC."
+  },
+  {
     "title": "BPO: Revisiting Preference Modeling in Direct Preference Optimization",
     "url": "http://arxiv.org/abs/2506.03557v1",
     "arxiv_id": "2506.03557v1",
@@ -466,9 +482,58 @@
     "summary": "Code data in large language model (LLM) pretraining is recognized crucial not only for code-related tasks but also for enhancing general intelligence of LLMs. Current open-source LLMs often heavily rely on human effort to produce their code pretraining data, such as employing hand-crafted filtering rules tailored to individual programming languages, or using human-annotated data to train quality filters. However, these approaches are inherently limited in scalability, prone to subjective biases, and costly to extend and maintain across diverse programming languages. To address these challenges, we introduce Seed-Coder, a series of open-source LLMs comprising base, instruct and reasoning models of 8B size, minimizing human involvement in data construction. Our code pretraining data is produced by a model-centric data pipeline, which predominantly leverages LLMs for scoring and filtering code data. The instruct model is further trained via supervised fine-tuning and preference optimization, and the reasoning model leverages Long-Chain-of-Thought (LongCoT) reinforcement learning to improve multi-step code reasoning. Seed-Coder achieves state-of-the-art results among open-source models of similar size and even surpasses some much larger models, demonstrating superior performance in code generation, code completion, code editing, code reasoning, and software engineering tasks."
   },
   {
+    "title": "Seed-Coder: Let the Code Model Curate Data for Itself",
+    "url": "http://arxiv.org/abs/2506.03524v2",
+    "arxiv_id": "2506.03524v2",
+    "authors": [
+      "ByteDance Seed",
+      "Yuyu Zhang",
+      "Jing Su",
+      "Yifan Sun",
+      "Chenguang Xi",
+      "Xia Xiao",
+      "Shen Zheng",
+      "Anxiang Zhang",
+      "Kaibo Liu",
+      "Daoguang Zan",
+      "Tao Sun",
+      "Jinhua Zhu",
+      "Shulin Xin",
+      "Dong Huang",
+      "Yetao Bai",
+      "Lixin Dong",
+      "Chao Li",
+      "Jianchong Chen",
+      "Hanzhi Zhou",
+      "Yifan Huang",
+      "Guanghan Ning",
+      "Xierui Song",
+      "Jiaze Chen",
+      "Siyao Liu",
+      "Kai Shen",
+      "Liang Xiang",
+      "Yonghui Wu"
+    ],
+    "published": "2025-06-04T03:17:19+00:00",
+    "summary": "Code data in large language model (LLM) pretraining is recognized crucial not only for code-related tasks but also for enhancing general intelligence of LLMs. Current open-source LLMs often heavily rely on human effort to produce their code pretraining data, such as employing hand-crafted filtering rules tailored to individual programming languages, or using human-annotated data to train quality filters. However, these approaches are inherently limited in scalability, prone to subjective biases, and costly to extend and maintain across diverse programming languages. To address these challenges, we introduce Seed-Coder, a series of open-source LLMs comprising base, instruct and reasoning models of 8B size, minimizing human involvement in data construction. Our code pretraining data is produced by a model-centric data pipeline, which predominantly leverages LLMs for scoring and filtering code data. The instruct model is further trained via supervised fine-tuning and preference optimization, and the reasoning model leverages Long-Chain-of-Thought (LongCoT) reinforcement learning to improve multi-step code reasoning. Seed-Coder achieves state-of-the-art results among open-source models of similar size and even surpasses some much larger models, demonstrating superior performance in code generation, code completion, code editing, code reasoning, and software engineering tasks."
+  },
+  {
     "title": "An Efficient Task-Oriented Dialogue Policy: Evolutionary Reinforcement Learning Injected by Elite Individuals",
     "url": "http://arxiv.org/abs/2506.03519v1",
     "arxiv_id": "2506.03519v1",
+    "authors": [
+      "Yangyang Zhao",
+      "Ben Niu",
+      "Libo Qin",
+      "Shihan Wang"
+    ],
+    "published": "2025-06-04T03:07:55+00:00",
+    "summary": "Deep Reinforcement Learning (DRL) is widely used in task-oriented dialogue systems to optimize dialogue policy, but it struggles to balance exploration and exploitation due to the high dimensionality of state and action spaces. This challenge often results in local optima or poor convergence. Evolutionary Algorithms (EAs) have been proven to effectively explore the solution space of neural networks by maintaining population diversity. Inspired by this, we innovatively combine the global search capabilities of EA with the local optimization of DRL to achieve a balance between exploration and exploitation. Nevertheless, the inherent flexibility of natural language in dialogue tasks complicates this direct integration, leading to prolonged evolutionary times. Thus, we further propose an elite individual injection mechanism to enhance EA's search efficiency by adaptively introducing best-performing individuals into the population. Experiments across four datasets show that our approach significantly improves the balance between exploration and exploitation, boosting performance. Moreover, the effectiveness of the EII mechanism in reducing exploration time has been demonstrated, achieving an efficient integration of EA and DRL on task-oriented dialogue policy tasks."
+  },
+  {
+    "title": "An Efficient Task-Oriented Dialogue Policy: Evolutionary Reinforcement Learning Injected by Elite Individuals",
+    "url": "http://arxiv.org/abs/2506.03519v2",
+    "arxiv_id": "2506.03519v2",
     "authors": [
       "Yangyang Zhao",
       "Ben Niu",
@@ -628,6 +693,20 @@
     "title": "Unleashing the Reasoning Potential of Pre-trained LLMs by Critique Fine-Tuning on One Problem",
     "url": "http://arxiv.org/abs/2506.03295v1",
     "arxiv_id": "2506.03295v1",
+    "authors": [
+      "Yubo Wang",
+      "Ping Nie",
+      "Kai Zou",
+      "Lijun Wu",
+      "Wenhu Chen"
+    ],
+    "published": "2025-06-03T18:35:52+00:00",
+    "summary": "We have witnessed that strong LLMs like Qwen-Math, MiMo, and Phi-4 possess immense reasoning potential inherited from the pre-training stage. With reinforcement learning (RL), these models can improve dramatically on reasoning tasks. Recent studies have shown that even RL on a single problem can unleash these models' reasoning capabilities. However, RL is not only expensive but also unstable. Even one-shot RL requires hundreds of GPU hours. This raises a critical question: Is there a more efficient way to unleash the reasoning potential of these powerful base LLMs? In this work, we demonstrate that Critique Fine-Tuning (CFT) on only one problem can effectively unleash the reasoning potential of LLMs. Our method constructs critique data by collecting diverse model-generated solutions to a single problem and using teacher LLMs to provide detailed critiques. We fine-tune Qwen and Llama family models, ranging from 1.5B to 14B parameters, on the CFT data and observe significant performance gains across diverse reasoning tasks. For example, with just 5 GPU hours of training, Qwen-Math-7B-CFT show an average improvement of 15% on six math benchmarks and 16% on three logic reasoning benchmarks. These results are comparable to or even surpass the results from RL with 20x less compute. Ablation studies reveal the robustness of one-shot CFT across different prompt problems. These results highlight one-shot CFT as a simple, general, and compute-efficient approach to unleashing the reasoning capabilities of modern LLMs."
+  },
+  {
+    "title": "Unleashing the Reasoning Potential of Pre-trained LLMs by Critique Fine-Tuning on One Problem",
+    "url": "http://arxiv.org/abs/2506.03295v2",
+    "arxiv_id": "2506.03295v2",
     "authors": [
       "Yubo Wang",
       "Ping Nie",
