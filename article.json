@@ -1,5 +1,766 @@
 [
   {
+    "title": "VIKI-R: Coordinating Embodied Multi-Agent Cooperation via Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2506.09049v1",
+    "arxiv_id": "2506.09049v1",
+    "authors": [
+      "Li Kang",
+      "Xiufeng Song",
+      "Heng Zhou",
+      "Yiran Qin",
+      "Jie Yang",
+      "Xiaohong Liu",
+      "Philip Torr",
+      "Lei Bai",
+      "Zhenfei Yin"
+    ],
+    "published": "2025-06-10T17:59:44+00:00",
+    "summary": "Coordinating multiple embodied agents in dynamic environments remains a core challenge in artificial intelligence, requiring both perception-driven reasoning and scalable cooperation strategies. While recent works have leveraged large language models (LLMs) for multi-agent planning, a few have begun to explore vision-language models (VLMs) for visual reasoning. However, these VLM-based approaches remain limited in their support for diverse embodiment types. In this work, we introduce VIKI-Bench, the first hierarchical benchmark tailored for embodied multi-agent cooperation, featuring three structured levels: agent activation, task planning, and trajectory perception. VIKI-Bench includes diverse robot embodiments, multi-view visual observations, and structured supervision signals to evaluate reasoning grounded in visual inputs. To demonstrate the utility of VIKI-Bench, we propose VIKI-R, a two-stage framework that fine-tunes a pretrained vision-language model (VLM) using Chain-of-Thought annotated demonstrations, followed by reinforcement learning under multi-level reward signals. Our extensive experiments show that VIKI-R significantly outperforms baselines method across all task levels. Furthermore, we show that reinforcement learning enables the emergence of compositional cooperation patterns among heterogeneous agents. Together, VIKI-Bench and VIKI-R offer a unified testbed and method for advancing multi-agent, visual-driven cooperation in embodied AI systems."
+  },
+  {
+    "title": "Deep Reinforcement Learning-Based RAN Slicing with Efficient Inter-Slice Isolation in Tactical Wireless Networks",
+    "url": "http://arxiv.org/abs/2506.09039v1",
+    "arxiv_id": "2506.09039v1",
+    "authors": [
+      "Abderrahime Filali",
+      "Diala Naboulsi",
+      "Georges Kaddoum"
+    ],
+    "published": "2025-06-10T17:57:33+00:00",
+    "summary": "The next generation of tactical networks (TNs) is poised to further leverage the key enablers of 5G and beyond 5G (B5G) technology, such as radio access network (RAN) slicing and the open RAN (O-RAN) paradigm, to unlock multiple architectural options and opportunities for a wide range of innovative applications. RAN slicing and the O-RAN paradigm are considered game changers in TNs, where the former makes it possible to tailor user services to users requirements, and the latter brings openness and intelligence to the management of the RAN. In TNs, bandwidth scarcity requires a dynamic bandwidth slicing strategy. Although this type of strategy ensures efficient bandwidth utilization, it compromises RAN slicing isolation in terms of quality of service (QoS) performance. To deal with this challenge, we propose a deep reinforcement learning (DRL)-based RAN slicing mechanism that achieves a trade-off between efficient RAN bandwidth sharing and appropriate inter- and intra-slice isolation. The proposed mechanism performs bandwidth allocation in two stages. In the first stage, the bandwidth is allocated to the RAN slices. In the second stage, each slice partitions its bandwidth among its associated users. In both stages, the slicing operation is constrained by several considerations related to improving the QoS of slices and users that in turn foster inter- and intra-slice isolation. The proposed RAN slicing mechanism is based on DRL algorithms to perform the bandwidth sharing operation in each stage. We propose to deploy the mechanism in an O-RAN architecture and describe the O-RAN functional blocks and the main DRL model lifecycle management phases involved. We also develop three different implementations of the proposed mechanism, each based on a different DRL algorithm, and evaluate their performance against multiple baselines across various parameters."
+  },
+  {
+    "title": "Router-R1: Teaching LLMs Multi-Round Routing and Aggregation via Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2506.09033v1",
+    "arxiv_id": "2506.09033v1",
+    "authors": [
+      "Haozhen Zhang",
+      "Tao Feng",
+      "Jiaxuan You"
+    ],
+    "published": "2025-06-10T17:56:45+00:00",
+    "summary": "The rapid emergence of diverse large language models (LLMs) has spurred the development of LLM routers that assign user queries to the most suitable model. However, existing LLM routers typically perform a single-round, one-to-one mapping (\\textit{i.e.}, assigning each query to a single model in isolation), which limits their capability to tackle complex tasks that demand the complementary strengths of multiple LLMs. In this paper, we present \\textbf{Router-R1}, a reinforcement learning (RL)-based framework that formulates multi-LLM routing and aggregation as a sequential decision process. Router-R1 instantiates the router itself as a capable LLM, leveraging its reasoning ability to interleave \"think\" actions (internal deliberation) with \"route\" actions (dynamic model invocation), and integrates each response into its evolving context. To guide learning, we employ a lightweight rule-based reward comprising format rewards, final outcome rewards, and a novel cost reward for performance and cost trade-off optimization, opening a pathway toward optimizing performance-cost tradeoffs via RL. Router-R1 also conditions only on simple model descriptors such as pricing, latency, and example performance, enabling strong generalization to unseen model selection. Experiments on seven general and multi-hop QA benchmarks show that Router-R1 outperforms over several strong baselines, achieving superior performance while maintaining robust generalization and cost management.Code is available at https://github.com/ulab-uiuc/Router-R1."
+  },
+  {
+    "title": "SPEED-RL: Faster Training of Reasoning Models via Online Curriculum Learning",
+    "url": "http://arxiv.org/abs/2506.09016v1",
+    "arxiv_id": "2506.09016v1",
+    "authors": [
+      "Ruiqi Zhang",
+      "Daman Arora",
+      "Song Mei",
+      "Andrea Zanette"
+    ],
+    "published": "2025-06-10T17:42:42+00:00",
+    "summary": "Training large language models with reinforcement learning (RL) against verifiable rewards significantly enhances their reasoning abilities, yet remains computationally expensive due to inefficient uniform prompt sampling. We introduce Selective Prompting with Efficient Estimation of Difficulty (SPEED), an adaptive online RL curriculum that selectively chooses training examples of intermediate difficulty to maximize learning efficiency. Theoretically, we establish that intermediate-difficulty prompts improve the gradient estimator's signal-to-noise ratio, accelerating convergence. Empirically, our efficient implementation leads to 2x to 6x faster training without degrading accuracy, requires no manual tuning, and integrates seamlessly into standard RL algorithms."
+  },
+  {
+    "title": "Learning to Reason Across Parallel Samples for LLM Reasoning",
+    "url": "http://arxiv.org/abs/2506.09014v1",
+    "arxiv_id": "2506.09014v1",
+    "authors": [
+      "Jianing Qi",
+      "Xi Ye",
+      "Hao Tang",
+      "Zhigang Zhu",
+      "Eunsol Choi"
+    ],
+    "published": "2025-06-10T17:42:35+00:00",
+    "summary": "Scaling test-time compute brings substantial performance gains for large language models (LLMs). By sampling multiple answers and heuristically aggregate their answers (e.g., either through majority voting or using verifiers to rank the answers), one can achieve consistent performance gains in math domains. In this paper, we propose a new way to leverage such multiple sample set. We train a compact LLM, called Sample Set Aggregator (SSA), that takes a concatenated sequence of multiple samples and output the final answer, optimizing it for the answer accuracy with reinforcement learning. Experiments on multiple reasoning datasets show that SSA outperforms other test-time scaling methods such as reward model-based re-ranking. Our approach also shows a promising generalization ability, across sample set sizes, base model families and scales, and tasks. By separating LLMs to generate answers and LLMs to analyze and aggregate sampled answers, our approach can work with the outputs from premier black box models easily and efficiently."
+  },
+  {
+    "title": "On Monotonicity in AI Alignment",
+    "url": "http://arxiv.org/abs/2506.08998v1",
+    "arxiv_id": "2506.08998v1",
+    "authors": [
+      "Gilles Bareilles",
+      "Julien Fageot",
+      "L\u00ea-Nguy\u00ean Hoang",
+      "Peva Blanchard",
+      "Wassim Bouaziz",
+      "S\u00e9bastien Rouault",
+      "El-Mahdi El-Mhamdi"
+    ],
+    "published": "2025-06-10T17:17:48+00:00",
+    "summary": "Comparison-based preference learning has become central to the alignment of AI models with human preferences. However, these methods may behave counterintuitively. After empirically observing that, when accounting for a preference for response $y$ over $z$, the model may actually decrease the probability (and reward) of generating $y$ (an observation also made by others), this paper investigates the root causes of (non) monotonicity, for a general comparison-based preference learning framework that subsumes Direct Preference Optimization (DPO), Generalized Preference Optimization (GPO) and Generalized Bradley-Terry (GBT). Under mild assumptions, we prove that such methods still satisfy what we call local pairwise monotonicity. We also provide a bouquet of formalizations of monotonicity, and identify sufficient conditions for their guarantee, thereby providing a toolbox to evaluate how prone learning models are to monotonicity violations. These results clarify the limitations of current methods and provide guidance for developing more trustworthy preference learning algorithms."
+  },
+  {
+    "title": "SwS: Self-aware Weakness-driven Problem Synthesis in Reinforcement Learning for LLM Reasoning",
+    "url": "http://arxiv.org/abs/2506.08989v1",
+    "arxiv_id": "2506.08989v1",
+    "authors": [
+      "Xiao Liang",
+      "Zhong-Zhi Li",
+      "Yeyun Gong",
+      "Yang Wang",
+      "Hengyuan Zhang",
+      "Yelong Shen",
+      "Ying Nian Wu",
+      "Weizhu Chen"
+    ],
+    "published": "2025-06-10T17:02:00+00:00",
+    "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) has proven effective for training large language models (LLMs) on complex reasoning tasks, such as mathematical problem solving. A prerequisite for the scalability of RLVR is a high-quality problem set with precise and verifiable answers. However, the scarcity of well-crafted human-labeled math problems and limited-verification answers in existing distillation-oriented synthetic datasets limit their effectiveness in RL. Additionally, most problem synthesis strategies indiscriminately expand the problem set without considering the model's capabilities, leading to low efficiency in generating useful questions. To mitigate this issue, we introduce a Self-aware Weakness-driven problem Synthesis framework (SwS) that systematically identifies model deficiencies and leverages them for problem augmentation. Specifically, we define weaknesses as questions that the model consistently fails to learn through its iterative sampling during RL training. We then extract the core concepts from these failure cases and synthesize new problems to strengthen the model's weak areas in subsequent augmented training, enabling it to focus on and gradually overcome its weaknesses. Without relying on external knowledge distillation, our framework enables robust generalization byempowering the model to self-identify and address its weaknesses in RL, yielding average performance gains of 10.0% and 7.7% on 7B and 32B models across eight mainstream reasoning benchmarks."
+  },
+  {
+    "title": "Step-Audio-AQAA: a Fully End-to-End Expressive Large Audio Language Model",
+    "url": "http://arxiv.org/abs/2506.08967v1",
+    "arxiv_id": "2506.08967v1",
+    "authors": [
+      "Ailin Huang",
+      "Bingxin Li",
+      "Bruce Wang",
+      "Boyong Wu",
+      "Chao Yan",
+      "Chengli Feng",
+      "Heng Wang",
+      "Hongyu Zhou",
+      "Hongyuan Wang",
+      "Jingbei Li",
+      "Jianjian Sun",
+      "Joanna Wang",
+      "Mingrui Chen",
+      "Peng Liu",
+      "Ruihang Miao",
+      "Shilei Jiang",
+      "Tian Fei",
+      "Wang You",
+      "Xi Chen",
+      "Xuerui Yang",
+      "Yechang Huang",
+      "Yuxiang Zhang",
+      "Zheng Ge",
+      "Zheng Gong",
+      "Zhewei Huang",
+      "Zixin Zhang",
+      "Bin Wang",
+      "Bo Li",
+      "Buyun Ma",
+      "Changxin Miao",
+      "Changyi Wan",
+      "Chen Xu",
+      "Dapeng Shi",
+      "Dingyuan Hu",
+      "Enle Liu",
+      "Guanzhe Huang",
+      "Gulin Yan",
+      "Hanpeng Hu",
+      "Haonan Jia",
+      "Jiahao Gong",
+      "Jiaoren Wu",
+      "Jie Wu",
+      "Jie Yang",
+      "Junzhe Lin",
+      "Kaixiang Li",
+      "Lei Xia",
+      "Longlong Gu",
+      "Ming Li",
+      "Nie Hao",
+      "Ranchen Ming",
+      "Shaoliang Pang",
+      "Siqi Liu",
+      "Song Yuan",
+      "Tiancheng Cao",
+      "Wen Li",
+      "Wenqing He",
+      "Xu Zhao",
+      "Xuelin Zhang",
+      "Yanbo Yu",
+      "Yinmin Zhong",
+      "Yu Zhou",
+      "Yuanwei Liang",
+      "Yuanwei Lu",
+      "Yuxiang Yang",
+      "Zidong Yang",
+      "Zili Zhang",
+      "Binxing Jiao",
+      "Heung-Yeung Shum",
+      "Jiansheng Chen",
+      "Jing Li",
+      "Xiangyu Zhang",
+      "Xinhao Zhang",
+      "Yibo Zhu",
+      "Daxin Jiang",
+      "Shuchang Zhou",
+      "Chen Hu"
+    ],
+    "published": "2025-06-10T16:37:39+00:00",
+    "summary": "Large Audio-Language Models (LALMs) have significantly advanced intelligent human-computer interaction, yet their reliance on text-based outputs limits their ability to generate natural speech responses directly, hindering seamless audio interactions. To address this, we introduce Step-Audio-AQAA, a fully end-to-end LALM designed for Audio Query-Audio Answer (AQAA) tasks. The model integrates a dual-codebook audio tokenizer for linguistic and semantic feature extraction, a 130-billion-parameter backbone LLM and a neural vocoder for high-fidelity speech synthesis. Our post-training approach employs interleaved token-output of text and audio to enhance semantic coherence and combines Direct Preference Optimization (DPO) with model merge to improve performance. Evaluations on the StepEval-Audio-360 benchmark demonstrate that Step-Audio-AQAA excels especially in speech control, outperforming the state-of-art LALMs in key areas. This work contributes a promising solution for end-to-end LALMs and highlights the critical role of token-based vocoder in enhancing overall performance for AQAA tasks."
+  },
+  {
+    "title": "GFRIEND: Generative Few-shot Reward Inference through EfficieNt DPO",
+    "url": "http://arxiv.org/abs/2506.08965v1",
+    "arxiv_id": "2506.08965v1",
+    "authors": [
+      "Yiyang Zhao",
+      "Huiyu Bai",
+      "Xuejiao Zhao"
+    ],
+    "published": "2025-06-10T16:37:13+00:00",
+    "summary": "The ability to train high-performing reward models with few-shot data is critical for enhancing the efficiency and scalability of Reinforcement Learning from Human Feedback (RLHF). We propose a data augmentation and expansion framework that enables generative reward models trained on small datasets to achieve comparable performance to those trained on large-scale datasets. Traditional methods to train a generative reward model, such as Direct Preference Optimization (DPO), are constrained by inefficiencies in sample pairing and limited data diversity. This work introduces preference refinement, which employs Chain-of-Thought (CoT) sampling to uncover diverse and high-quality preference relationships. It also incorporates a perplexity-based scoring mechanism to assign nuanced preference levels and utilizes Multi-level Direct Preference Optimization (M-DPO) to enable the model to capture finer-grained preference differences between samples. Experimental results demonstrate that the proposed method significantly enhances data efficiency and model performance, enabling reward models trained in a few-shot setting to achieve results on par with those trained on large-scale datasets. This study underscores the potential of data-efficient strategies in advancing reward model optimization, offering a robust solution for low-resource RLHF applications."
+  },
+  {
+    "title": "Towards Robust Deep Reinforcement Learning against Environmental State Perturbation",
+    "url": "http://arxiv.org/abs/2506.08961v1",
+    "arxiv_id": "2506.08961v1",
+    "authors": [
+      "Chenxu Wang",
+      "Huaping Liu"
+    ],
+    "published": "2025-06-10T16:32:31+00:00",
+    "summary": "Adversarial attacks and robustness in Deep Reinforcement Learning (DRL) have been widely studied in various threat models; however, few consider environmental state perturbations, which are natural in embodied scenarios. To improve the robustness of DRL agents, we formulate the problem of environmental state perturbation, introducing a preliminary non-targeted attack method as a calibration adversary, and then propose a defense framework, named Boosted Adversarial Training (BAT), which first tunes the agents via supervised learning to avoid catastrophic failure and subsequently adversarially trains the agent with reinforcement learning. Extensive experimental results substantiate the vulnerability of mainstream agents under environmental state perturbations and the effectiveness of our proposed attack. The defense results demonstrate that while existing robust reinforcement learning algorithms may not be suitable, our BAT framework can significantly enhance the robustness of agents against environmental state perturbations across various situations."
+  },
+  {
+    "title": "Can A Gamer Train A Mathematical Reasoning Model?",
+    "url": "http://arxiv.org/abs/2506.08935v1",
+    "arxiv_id": "2506.08935v1",
+    "authors": [
+      "Andrew Shin"
+    ],
+    "published": "2025-06-10T16:00:12+00:00",
+    "summary": "While large language models (LLMs) have achieved remarkable performance in various tasks including mathematical reasoning, their development typically demands prohibitive computational resources. Recent advancements have reduced costs for training capable models, yet even these approaches rely on high-end hardware clusters. In this paper, we demonstrate that a single average gaming GPU can train a solid mathematical reasoning model, by integrating reinforcement learning and memory optimization techniques. Specifically, we train a 1.5B parameter mathematical reasoning model on RTX 3080 Ti of 16GB memory that achieves comparable or better performance on mathematical reasoning benchmarks than models several times larger, in resource-constrained environments. Our results challenge the paradigm that state-of-the-art mathematical reasoning necessitates massive infrastructure, democratizing access to high-performance AI research. https://github.com/shinandrew/YouronMath."
+  },
+  {
+    "title": "Socratic-MCTS: Test-Time Visual Reasoning by Asking the Right Questions",
+    "url": "http://arxiv.org/abs/2506.08927v1",
+    "arxiv_id": "2506.08927v1",
+    "authors": [
+      "David Acuna",
+      "Ximing Lu",
+      "Jaehun Jung",
+      "Hyunwoo Kim",
+      "Amlan Kar",
+      "Sanja Fidler",
+      "Yejin Choi"
+    ],
+    "published": "2025-06-10T15:51:16+00:00",
+    "summary": "Recent research in vision-language models (VLMs) has centered around the possibility of equipping them with implicit long-form chain-of-thought reasoning -- akin to the success observed in language models -- via distillation and reinforcement learning. But what about the non-reasoning models already trained and deployed across the internet? Should we simply abandon them, or is there hope for a search mechanism that can elicit hidden knowledge and induce long reasoning traces -- without any additional training or supervision? In this paper, we explore this possibility using a Monte Carlo Tree Search (MCTS)-inspired algorithm, which injects subquestion-subanswer pairs into the model's output stream. We show that framing reasoning as a search process -- where subquestions act as latent decisions within a broader inference trajectory -- helps the model \"connect the dots\" between fragmented knowledge and produce extended reasoning traces in non-reasoning models. We evaluate our method across three benchmarks and observe consistent improvements. Notably, our approach yields a 2% overall improvement on MMMU-PRO, including a significant 9% gain in Liberal Arts."
+  },
+  {
+    "title": "Intention-Conditioned Flow Occupancy Models",
+    "url": "http://arxiv.org/abs/2506.08902v1",
+    "arxiv_id": "2506.08902v1",
+    "authors": [
+      "Chongyi Zheng",
+      "Seohong Park",
+      "Sergey Levine",
+      "Benjamin Eysenbach"
+    ],
+    "published": "2025-06-10T15:27:46+00:00",
+    "summary": "Large-scale pre-training has fundamentally changed how machine learning research is done today: large foundation models are trained once, and then can be used by anyone in the community (including those without data or compute resources to train a model from scratch) to adapt and fine-tune to specific tasks. Applying this same framework to reinforcement learning (RL) is appealing because it offers compelling avenues for addressing core challenges in RL, including sample efficiency and robustness. However, there remains a fundamental challenge to pre-train large models in the context of RL: actions have long-term dependencies, so training a foundation model that reasons across time is important. Recent advances in generative AI have provided new tools for modeling highly complex distributions. In this paper, we build a probabilistic model to predict which states an agent will visit in the temporally distant future (i.e., an occupancy measure) using flow matching. As large datasets are often constructed by many distinct users performing distinct tasks, we include in our model a latent variable capturing the user intention. This intention increases the expressivity of our model, and enables adaptation with generalized policy improvement. We call our proposed method intention-conditioned flow occupancy models (InFOM). Comparing with alternative methods for pre-training, our experiments on $36$ state-based and $4$ image-based benchmark tasks demonstrate that the proposed method achieves $1.8 \\times$ median improvement in returns and increases success rates by $36\\%$. Website: https://chongyi-zheng.github.io/infom Code: https://github.com/chongyi-zheng/infom"
+  },
+  {
+    "title": "Preference-Driven Multi-Objective Combinatorial Optimization with Conditional Computation",
+    "url": "http://arxiv.org/abs/2506.08898v1",
+    "arxiv_id": "2506.08898v1",
+    "authors": [
+      "Mingfeng Fan",
+      "Jianan Zhou",
+      "Yifeng Zhang",
+      "Yaoxin Wu",
+      "Jinbiao Chen",
+      "Guillaume Adrien Sartoretti"
+    ],
+    "published": "2025-06-10T15:25:06+00:00",
+    "summary": "Recent deep reinforcement learning methods have achieved remarkable success in solving multi-objective combinatorial optimization problems (MOCOPs) by decomposing them into multiple subproblems, each associated with a specific weight vector. However, these methods typically treat all subproblems equally and solve them using a single model, hindering the effective exploration of the solution space and thus leading to suboptimal performance. To overcome the limitation, we propose POCCO, a novel plug-and-play framework that enables adaptive selection of model structures for subproblems, which are subsequently optimized based on preference signals rather than explicit reward values. Specifically, we design a conditional computation block that routes subproblems to specialized neural architectures. Moreover, we propose a preference-driven optimization algorithm that learns pairwise preferences between winning and losing solutions. We evaluate the efficacy and versatility of POCCO by applying it to two state-of-the-art neural methods for MOCOPs. Experimental results across four classic MOCOP benchmarks demonstrate its significant superiority and strong generalization."
+  },
+  {
+    "title": "Real-Time Cascade Mitigation in Power Systems Using Influence Graph Improved by Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2506.08893v1",
+    "arxiv_id": "2506.08893v1",
+    "authors": [
+      "Kai Zhou",
+      "Youbiao He",
+      "Chong Zhong",
+      "Yifu Wu"
+    ],
+    "published": "2025-06-10T15:20:39+00:00",
+    "summary": "Despite high reliability, modern power systems with growing renewable penetration face an increasing risk of cascading outages. Real-time cascade mitigation requires fast, complex operational decisions under uncertainty. In this work, we extend the influence graph into a Markov decision process model (MDP) for real-time mitigation of cascading outages in power transmission systems, accounting for uncertainties in generation, load, and initial contingencies. The MDP includes a do-nothing action to allow for conservative decision-making and is solved using reinforcement learning. We present a policy gradient learning algorithm initialized with a policy corresponding to the unmitigated case and designed to handle invalid actions. The proposed learning method converges faster than the conventional algorithm. Through careful reward design, we learn a policy that takes conservative actions without deteriorating system conditions. The model is validated on the IEEE 14-bus and IEEE 118-bus systems. The results show that proactive line disconnections can effectively reduce cascading risk, and certain lines consistently emerge as critical in mitigating cascade propagation."
+  },
+  {
+    "title": "AdversariaL attacK sAfety aLIgnment(ALKALI): Safeguarding LLMs through GRACE: Geometric Representation-Aware Contrastive Enhancement- Introducing Adversarial Vulnerability Quality Index (AVQI)",
+    "url": "http://arxiv.org/abs/2506.08885v1",
+    "arxiv_id": "2506.08885v1",
+    "authors": [
+      "Danush Khanna",
+      "Krishna Kumar",
+      "Basab Ghosh",
+      "Vinija Jain",
+      "Vasu Sharma",
+      "Aman Chadha",
+      "Amitava Das"
+    ],
+    "published": "2025-06-10T15:14:17+00:00",
+    "summary": "Adversarial threats against LLMs are escalating faster than current defenses can adapt. We expose a critical geometric blind spot in alignment: adversarial prompts exploit latent camouflage, embedding perilously close to the safe representation manifold while encoding unsafe intent thereby evading surface level defenses like Direct Preference Optimization (DPO), which remain blind to the latent geometry. We introduce ALKALI, the first rigorously curated adversarial benchmark and the most comprehensive to date spanning 9,000 prompts across three macro categories, six subtypes, and fifteen attack families. Evaluation of 21 leading LLMs reveals alarmingly high Attack Success Rates (ASRs) across both open and closed source models, exposing an underlying vulnerability we term latent camouflage, a structural blind spot where adversarial completions mimic the latent geometry of safe ones. To mitigate this vulnerability, we introduce GRACE - Geometric Representation Aware Contrastive Enhancement, an alignment framework coupling preference learning with latent space regularization. GRACE enforces two constraints: latent separation between safe and adversarial completions, and adversarial cohesion among unsafe and jailbreak behaviors. These operate over layerwise pooled embeddings guided by a learned attention profile, reshaping internal geometry without modifying the base model, and achieve up to 39% ASR reduction. Moreover, we introduce AVQI, a geometry aware metric that quantifies latent alignment failure via cluster separation and compactness. AVQI reveals when unsafe completions mimic the geometry of safe ones, offering a principled lens into how models internally encode safety. We make the code publicly available at https://anonymous.4open.science/r/alkali-B416/README.md."
+  },
+  {
+    "title": "Agile Reinforcement Learning for Real-Time Task Scheduling in Edge Computing",
+    "url": "http://arxiv.org/abs/2506.08850v1",
+    "arxiv_id": "2506.08850v1",
+    "authors": [
+      "Amin Avan",
+      "Akramul Azim",
+      "Qusay Mahmoud"
+    ],
+    "published": "2025-06-10T14:38:07+00:00",
+    "summary": "Soft real-time applications are becoming increasingly complex, posing significant challenges for scheduling offloaded tasks in edge computing environments while meeting task timing constraints. Moreover, the exponential growth of the search space, presence of multiple objectives and parameters, and highly dynamic nature of edge computing environments further exacerbate the complexity of task scheduling. As a result, schedulers based on heuristic and metaheuristic algorithms frequently encounter difficulties in generating optimal or near-optimal task schedules due to their constrained ability to adapt to the dynamic conditions and complex environmental characteristics of edge computing. Accordingly, reinforcement learning algorithms have been incorporated into schedulers to address the complexity and dynamic conditions inherent in task scheduling in edge computing. However, a significant limitation of reinforcement learning algorithms is the prolonged learning time required to adapt to new environments and to address medium- and large-scale problems. This challenge arises from the extensive global action space and frequent random exploration of irrelevant actions. Therefore, this study proposes Agile Reinforcement learning (aRL), in which the RL-agent performs informed exploration and executes only relevant actions. Consequently, the predictability of the RL-agent is enhanced, leading to rapid adaptation and convergence, which positions aRL as a suitable candidate for scheduling the tasks of soft real-time applications in edge computing. The experiments demonstrate that the combination of informed exploration and action-masking methods enables aRL to achieve a higher hit-ratio and converge faster than the baseline approaches."
+  },
+  {
+    "title": "MoRE: Mixture of Residual Experts for Humanoid Lifelike Gaits Learning on Complex Terrains",
+    "url": "http://arxiv.org/abs/2506.08840v1",
+    "arxiv_id": "2506.08840v1",
+    "authors": [
+      "Dewei Wang",
+      "Xinmiao Wang",
+      "Xinzhe Liu",
+      "Jiyuan Shi",
+      "Yingnan Zhao",
+      "Chenjia Bai",
+      "Xuelong Li"
+    ],
+    "published": "2025-06-10T14:25:58+00:00",
+    "summary": "Humanoid robots have demonstrated robust locomotion capabilities using Reinforcement Learning (RL)-based approaches. Further, to obtain human-like behaviors, existing methods integrate human motion-tracking or motion prior in the RL framework. However, these methods are limited in flat terrains with proprioception only, restricting their abilities to traverse challenging terrains with human-like gaits. In this work, we propose a novel framework using a mixture of latent residual experts with multi-discriminators to train an RL policy, which is capable of traversing complex terrains in controllable lifelike gaits with exteroception. Our two-stage training pipeline first teaches the policy to traverse complex terrains using a depth camera, and then enables gait-commanded switching between human-like gait patterns. We also design gait rewards to adjust human-like behaviors like robot base height. Simulation and real-world experiments demonstrate that our framework exhibits exceptional performance in traversing complex terrains, and achieves seamless transitions between multiple human-like gait patterns."
+  },
+  {
+    "title": "Consistent Paths Lead to Truth: Self-Rewarding Reinforcement Learning for LLM Reasoning",
+    "url": "http://arxiv.org/abs/2506.08745v1",
+    "arxiv_id": "2506.08745v1",
+    "authors": [
+      "Kongcheng Zhang",
+      "Qi Yao",
+      "Shunyu Liu",
+      "Yingjie Wang",
+      "Baisheng Lai",
+      "Jieping Ye",
+      "Mingli Song",
+      "Dacheng Tao"
+    ],
+    "published": "2025-06-10T12:40:39+00:00",
+    "summary": "Recent advances of Reinforcement Learning (RL) have highlighted its potential in complex reasoning tasks, yet effective training often relies on external supervision, which limits the broader applicability. In this work, we propose a novel self-rewarding reinforcement learning framework to enhance Large Language Model (LLM) reasoning by leveraging the consistency of intermediate reasoning states across different reasoning trajectories. Our key insight is that correct responses often exhibit consistent trajectory patterns in terms of model likelihood: their intermediate reasoning states tend to converge toward their own final answers (high consistency) with minimal deviation toward other candidates (low volatility). Inspired by this observation, we introduce CoVo, an intrinsic reward mechanism that integrates Consistency and Volatility via a robust vector-space aggregation strategy, complemented by a curiosity bonus to promote diverse exploration. CoVo enables LLMs to perform RL in a self-rewarding manner, offering a scalable pathway for learning to reason without external supervision. Extensive experiments on diverse reasoning benchmarks show that CoVo achieves performance comparable to or even surpassing supervised RL. Our code is available at https://github.com/sastpg/CoVo."
+  },
+  {
+    "title": "Exploration by Random Reward Perturbation",
+    "url": "http://arxiv.org/abs/2506.08737v1",
+    "arxiv_id": "2506.08737v1",
+    "authors": [
+      "Haozhe Ma",
+      "Guoji Fu",
+      "Zhengding Luo",
+      "Jiele Wu",
+      "Tze-Yun Leong"
+    ],
+    "published": "2025-06-10T12:34:00+00:00",
+    "summary": "We introduce Random Reward Perturbation (RRP), a novel exploration strategy for reinforcement learning (RL). Our theoretical analyses demonstrate that adding zero-mean noise to environmental rewards effectively enhances policy diversity during training, thereby expanding the range of exploration. RRP is fully compatible with the action-perturbation-based exploration strategies, such as $\\epsilon$-greedy, stochastic policies, and entropy regularization, providing additive improvements to exploration effects. It is general, lightweight, and can be integrated into existing RL algorithms with minimal implementation effort and negligible computational overhead. RRP establishes a theoretical connection between reward shaping and noise-driven exploration, highlighting their complementary potential. Experiments show that RRP significantly boosts the performance of Proximal Policy Optimization and Soft Actor-Critic, achieving higher sample efficiency and escaping local optima across various tasks, under both sparse and dense reward scenarios."
+  },
+  {
+    "title": "ConfPO: Exploiting Policy Model Confidence for Critical Token Selection in Large Language Model Preference Optimization",
+    "url": "http://arxiv.org/abs/2506.08712v1",
+    "arxiv_id": "2506.08712v1",
+    "authors": [
+      "Hee Suk Yoon",
+      "Eunseop Yoon",
+      "Mark A. Hasegawa-Johnson",
+      "Sungwoong Kim",
+      "Chang D. Yoo"
+    ],
+    "published": "2025-06-10T11:54:22+00:00",
+    "summary": "We introduce ConfPO, a method for preference learning in Large Language Models (LLMs) that identifies and optimizes preference-critical tokens based solely on the training policy's confidence, without requiring any auxiliary models or compute. Unlike prior Direct Alignment Algorithms (DAAs) such as Direct Preference Optimization (DPO), which uniformly adjust all token probabilities regardless of their relevance to preference, ConfPO focuses optimization on the most impactful tokens. This targeted approach improves alignment quality while mitigating overoptimization (i.e., reward hacking) by using the KL divergence budget more efficiently. In contrast to recent token-level methods that rely on credit-assignment models or AI annotators, raising concerns about scalability and reliability, ConfPO is simple, lightweight, and model-free. Experimental results on challenging alignment benchmarks, including AlpacaEval 2 and Arena-Hard, demonstrate that ConfPO consistently outperforms uniform DAAs across various LLMs, delivering better alignment with zero additional computational overhead."
+  },
+  {
+    "title": "Mitigating Reward Over-optimization in Direct Alignment Algorithms with Importance Sampling",
+    "url": "http://arxiv.org/abs/2506.08681v1",
+    "arxiv_id": "2506.08681v1",
+    "authors": [
+      "Phuc Minh Nguyen",
+      "Ngoc-Hieu Nguyen",
+      "Duy H. M. Nguyen",
+      "Anji Liu",
+      "An Mai",
+      "Binh T. Nguyen",
+      "Daniel Sonntag",
+      "Khoa D. Doan"
+    ],
+    "published": "2025-06-10T10:45:26+00:00",
+    "summary": "Direct Alignment Algorithms (DAAs) such as Direct Preference Optimization (DPO) have emerged as alternatives to the standard Reinforcement Learning from Human Feedback (RLHF) for aligning large language models (LLMs) with human values. However, these methods are more susceptible to over-optimization, in which the model drifts away from the reference policy, leading to degraded performance as training progresses. This paper proposes a novel importance-sampling approach to mitigate the over-optimization problem of offline DAAs. This approach, called (IS-DAAs), multiplies the DAA objective with an importance ratio that accounts for the reference policy distribution. IS-DAAs additionally avoid the high variance issue associated with importance sampling by clipping the importance ratio to a maximum value. Our extensive experiments demonstrate that IS-DAAs can effectively mitigate over-optimization, especially under low regularization strength, and achieve better performance than other methods designed to address this problem. Our implementations are provided publicly at this link."
+  },
+  {
+    "title": "RuleReasoner: Reinforced Rule-based Reasoning via Domain-aware Dynamic Sampling",
+    "url": "http://arxiv.org/abs/2506.08672v1",
+    "arxiv_id": "2506.08672v1",
+    "authors": [
+      "Yang Liu",
+      "Jiaqi Li",
+      "Zilong Zheng"
+    ],
+    "published": "2025-06-10T10:31:21+00:00",
+    "summary": "Rule-based reasoning has been acknowledged as one of the fundamental problems in reasoning, while deviations in rule formats, types, and complexity in real-world applications pose severe challenges. Recent studies have shown that large reasoning models (LRMs) have remarkable reasoning capabilities, and their performance is substantially enhanced by reinforcement learning (RL). However, it remains an open question whether small reasoning models (SRMs) can learn rule-based reasoning effectively with robust generalization across diverse tasks and domains. To address this, we introduce Reinforced Rule-based Reasoning, a.k.a. RuleReasoner, a simple yet effective method to conduct rule-based reasoning via a wide collection of curated tasks and a novel domain-aware dynamic sampling approach. Specifically, RuleReasoner resamples each training batch by updating the sampling weights of different domains based on historical rewards. This facilitates domain augmentation and flexible online learning schedules for RL, obviating the need for pre-hoc human-engineered mix-training recipes used in existing methods. Empirical evaluations on in-distribution (ID) and out-of-distribution (OOD) benchmarks reveal that RuleReasoner outperforms frontier LRMs by a significant margin ($\\Delta$4.1% average points on eight ID tasks and $\\Delta$10.4% average points on three OOD tasks over OpenAI-o1). Notably, our approach also exhibits higher computational efficiency compared to prior dynamic sampling methods for RL."
+  },
+  {
+    "title": "Semi-gradient DICE for Offline Constrained Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2506.08644v1",
+    "arxiv_id": "2506.08644v1",
+    "authors": [
+      "Woosung Kim",
+      "JunHo Seo",
+      "Jongmin Lee",
+      "Byung-Jun Lee"
+    ],
+    "published": "2025-06-10T09:57:25+00:00",
+    "summary": "Stationary Distribution Correction Estimation (DICE) addresses the mismatch between the stationary distribution induced by a policy and the target distribution required for reliable off-policy evaluation (OPE) and policy optimization. DICE-based offline constrained RL particularly benefits from the flexibility of DICE, as it simultaneously maximizes return while estimating costs in offline settings. However, we have observed that recent approaches designed to enhance the offline RL performance of the DICE framework inadvertently undermine its ability to perform OPE, making them unsuitable for constrained RL scenarios. In this paper, we identify the root cause of this limitation: their reliance on a semi-gradient optimization, which solves a fundamentally different optimization problem and results in failures in cost estimation. Building on these insights, we propose a novel method to enable OPE and constrained RL through semi-gradient DICE. Our method ensures accurate cost estimation and achieves state-of-the-art performance on the offline constrained RL benchmark, DSRL."
+  },
+  {
+    "title": "Deep Reinforcement Learning-Based Motion Planning and PDE Control for Flexible Manipulators",
+    "url": "http://arxiv.org/abs/2506.08639v1",
+    "arxiv_id": "2506.08639v1",
+    "authors": [
+      "Amir Hossein Barjini",
+      "Seyed Adel Alizadeh Kolagar",
+      "Sadeq Yaqubi",
+      "Jouni Mattila"
+    ],
+    "published": "2025-06-10T09:53:57+00:00",
+    "summary": "This article presents a motion planning and control framework for flexible robotic manipulators, integrating deep reinforcement learning (DRL) with a nonlinear partial differential equation (PDE) controller. Unlike conventional approaches that focus solely on control, we demonstrate that the desired trajectory significantly influences endpoint vibrations. To address this, a DRL motion planner, trained using the soft actor-critic (SAC) algorithm, generates optimized trajectories that inherently minimize vibrations. The PDE nonlinear controller then computes the required torques to track the planned trajectory while ensuring closed-loop stability using Lyapunov analysis. The proposed methodology is validated through both simulations and real-world experiments, demonstrating superior vibration suppression and tracking accuracy compared to traditional methods. The results underscore the potential of combining learning-based motion planning with model-based control for enhancing the precision and stability of flexible robotic manipulators."
+  },
+  {
+    "title": "Modular Recurrence in Contextual MDPs for Universal Morphology Control",
+    "url": "http://arxiv.org/abs/2506.08630v1",
+    "arxiv_id": "2506.08630v1",
+    "authors": [
+      "Laurens Engwegen",
+      "Daan Brinks",
+      "Wendelin B\u00f6hmer"
+    ],
+    "published": "2025-06-10T09:44:30+00:00",
+    "summary": "A universal controller for any robot morphology would greatly improve computational and data efficiency. By utilizing contextual information about the properties of individual robots and exploiting their modular structure in the architecture of deep reinforcement learning agents, steps have been made towards multi-robot control. Generalization to new, unseen robots, however, remains a challenge. In this paper we hypothesize that the relevant contextual information is partially observable, but that it can be inferred through interactions for better generalization to contexts that are not seen during training. To this extent, we implement a modular recurrent architecture and evaluate its generalization performance on a large set of MuJoCo robots. The results show a substantial improved performance on robots with unseen dynamics, kinematics, and topologies, in four different environments."
+  },
+  {
+    "title": "HGFormer: A Hierarchical Graph Transformer Framework for Two-Stage Colonel Blotto Games via Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2506.08580v1",
+    "arxiv_id": "2506.08580v1",
+    "authors": [
+      "Yang Lv",
+      "Jinlong Lei",
+      "Peng Yi"
+    ],
+    "published": "2025-06-10T08:51:18+00:00",
+    "summary": "Two-stage Colonel Blotto game represents a typical adversarial resource allocation problem, in which two opposing agents sequentially allocate resources in a network topology across two phases: an initial resource deployment followed by multiple rounds of dynamic reallocation adjustments. The sequential dependency between game stages and the complex constraints imposed by the graph topology make it difficult for traditional approaches to attain a globally optimal strategy. To address these challenges, we propose a hierarchical graph Transformer framework called HGformer. By incorporating an enhanced graph Transformer encoder with structural biases and a two-agent hierarchical decision model, our approach enables efficient policy generation in large-scale adversarial environments. Moreover, we design a layer-by-layer feedback reinforcement learning algorithm that feeds the long-term returns from lower-level decisions back into the optimization of the higher-level strategy, thus bridging the coordination gap between the two decision-making stages. Experimental results demonstrate that, compared to existing hierarchical decision-making or graph neural network methods, HGformer significantly improves resource allocation efficiency and adversarial payoff, achieving superior overall performance in complex dynamic game scenarios."
+  },
+  {
+    "title": "From Pixels to Graphs: using Scene and Knowledge Graphs for HD-EPIC VQA Challenge",
+    "url": "http://arxiv.org/abs/2506.08553v1",
+    "arxiv_id": "2506.08553v1",
+    "authors": [
+      "Agnese Taluzzi",
+      "Davide Gesualdi",
+      "Riccardo Santambrogio",
+      "Chiara Plizzari",
+      "Francesca Palermo",
+      "Simone Mentasti",
+      "Matteo Matteucci"
+    ],
+    "published": "2025-06-10T08:21:38+00:00",
+    "summary": "This report presents SceneNet and KnowledgeNet, our approaches developed for the HD-EPIC VQA Challenge 2025. SceneNet leverages scene graphs generated with a multi-modal large language model (MLLM) to capture fine-grained object interactions, spatial relationships, and temporally grounded events. In parallel, KnowledgeNet incorporates ConceptNet's external commonsense knowledge to introduce high-level semantic connections between entities, enabling reasoning beyond directly observable visual evidence. Each method demonstrates distinct strengths across the seven categories of the HD-EPIC benchmark, and their combination within our framework results in an overall accuracy of 44.21% on the challenge, highlighting its effectiveness for complex egocentric VQA tasks."
+  },
+  {
+    "title": "DeepForm: Reasoning Large Language Model for Communication System Formulation",
+    "url": "http://arxiv.org/abs/2506.08551v1",
+    "arxiv_id": "2506.08551v1",
+    "authors": [
+      "Panlong Wu",
+      "Ting Wang",
+      "Yifei Zhong",
+      "Haoqi Zhang",
+      "Zitong Wang",
+      "Fangxin Wang"
+    ],
+    "published": "2025-06-10T08:16:24+00:00",
+    "summary": "Communication system formulation is critical for advancing 6G and future wireless technologies, yet it remains a complex, expertise-intensive task. While Large Language Models (LLMs) offer potential, existing general-purpose models often lack the specialized domain knowledge, nuanced reasoning capabilities, and access to high-quality, domain-specific training data required for adapting a general LLM into an LLM specially for communication system formulation. To bridge this gap, we introduce DeepForm, the first reasoning LLM specially for automated communication system formulation. We propose the world-first large-scale, open-source dataset meticulously curated for this domain called Communication System Formulation Reasoning Corpus (CSFRC). Our framework employs a two-stage training strategy: first, Supervised Fine-Tuning (SFT) with Chain-of-Thought (CoT) data to distill domain knowledge; second, a novel rule-based Reinforcement Learning (RL) algorithm, C-ReMax based on ReMax, to cultivate advanced modeling capabilities and elicit sophisticated reasoning patterns like self-correction and verification. Extensive experiments demonstrate that our model achieves state-of-the-art performance, significantly outperforming larger proprietary LLMs on diverse senerios. We will release related resources to foster further research in this area after the paper is accepted."
+  },
+  {
+    "title": "Robust Evolutionary Multi-Objective Network Architecture Search for Reinforcement Learning (EMNAS-RL)",
+    "url": "http://arxiv.org/abs/2506.08533v1",
+    "arxiv_id": "2506.08533v1",
+    "authors": [
+      "Nihal Acharya Adde",
+      "Alexandra Gianzina",
+      "Hanno Gottschalk",
+      "Andreas Ebert"
+    ],
+    "published": "2025-06-10T07:52:35+00:00",
+    "summary": "This paper introduces Evolutionary Multi-Objective Network Architecture Search (EMNAS) for the first time to optimize neural network architectures in large-scale Reinforcement Learning (RL) for Autonomous Driving (AD). EMNAS uses genetic algorithms to automate network design, tailored to enhance rewards and reduce model size without compromising performance. Additionally, parallelization techniques are employed to accelerate the search, and teacher-student methodologies are implemented to ensure scalable optimization. This research underscores the potential of transfer learning as a robust framework for optimizing performance across iterative learning processes by effectively leveraging knowledge from earlier generations to enhance learning efficiency and stability in subsequent generations. Experimental results demonstrate that tailored EMNAS outperforms manually designed models, achieving higher rewards with fewer parameters. The findings of these strategies contribute positively to EMNAS for RL in autonomous driving, advancing the field toward better-performing networks suitable for real-world scenarios."
+  },
+  {
+    "title": "Safe and Economical UAV Trajectory Planning in Low-Altitude Airspace: A Hybrid DRL-LLM Approach with Compliance Awareness",
+    "url": "http://arxiv.org/abs/2506.08532v1",
+    "arxiv_id": "2506.08532v1",
+    "authors": [
+      "Yanwei Gong",
+      "Xiaolin Chang"
+    ],
+    "published": "2025-06-10T07:51:29+00:00",
+    "summary": "The rapid growth of the low-altitude economy has driven the widespread adoption of unmanned aerial vehicles (UAVs). This growing deployment presents new challenges for UAV trajectory planning in complex urban environments. However, existing studies often overlook key factors, such as urban airspace constraints and economic efficiency, which are essential in low-altitude economy contexts. Deep reinforcement learning (DRL) is regarded as a promising solution to these issues, while its practical adoption remains limited by low learning efficiency. To overcome this limitation, we propose a novel UAV trajectory planning framework that combines DRL with large language model (LLM) reasoning to enable safe, compliant, and economically viable path planning. Experimental results demonstrate that our method significantly outperforms existing baselines across multiple metrics, including data collection rate, collision avoidance, successful landing, regulatory compliance, and energy efficiency. These results validate the effectiveness of our approach in addressing UAV trajectory planning key challenges under constraints of the low-altitude economy networking."
+  },
+  {
+    "title": "Predictive reinforcement learning based adaptive PID controller",
+    "url": "http://arxiv.org/abs/2506.08509v1",
+    "arxiv_id": "2506.08509v1",
+    "authors": [
+      "Chaoqun Ma",
+      "Zhiyong Zhang"
+    ],
+    "published": "2025-06-10T07:09:45+00:00",
+    "summary": "Purpose: This study aims to address the challenges of controlling unstable and nonlinear systems by proposing an adaptive PID controller based on predictive reinforcement learning (PRL-PID), where the PRL-PID combines the advantages of both data-driven and model-driven approaches. Design/methodology/approach: A predictive reinforcement learning framework is introduced, incorporating action smooth strategy to suppress overshoot and oscillations, and a hierarchical reward function to support training. Findings: Experimental results show that the PRL-PID controller achieves superior stability and tracking accuracy in nonlinear, unstable, and strongly coupled systems, consistently outperforming existing RL-tuned PID methods while maintaining excellent robustness and adaptability across diverse operating conditions. Originality/Value: By adopting predictive learning, the proposed PRL-PID integrates system model priors into data-driven control, enhancing both the control framework's training efficiency and the controller's stability. As a result, PRL-PID provides a balanced blend of model-based and data-driven approaches, delivering robust, high-performance control."
+  },
+  {
+    "title": "MasHost Builds It All: Autonomous Multi-Agent System Directed by Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2506.08507v1",
+    "arxiv_id": "2506.08507v1",
+    "authors": [
+      "Kuo Yang",
+      "Xingjie Yang",
+      "Linhui Yu",
+      "Qing Xu",
+      "Yan Fang",
+      "Xu Wang",
+      "Zhengyang Zhou",
+      "Yang Wang"
+    ],
+    "published": "2025-06-10T07:04:25+00:00",
+    "summary": "Large Language Model (LLM)-driven Multi-agent systems (Mas) have recently emerged as a powerful paradigm for tackling complex real-world tasks. However, existing Mas construction methods typically rely on manually crafted interaction mechanisms or heuristic rules, introducing human biases and constraining the autonomous ability. Even with recent advances in adaptive Mas construction, existing systems largely remain within the paradigm of semi-autonomous patterns. In this work, we propose MasHost, a Reinforcement Learning (RL)-based framework for autonomous and query-adaptive Mas design. By formulating Mas construction as a graph search problem, our proposed MasHost jointly samples agent roles and their interactions through a unified probabilistic sampling mechanism. Beyond the accuracy and efficiency objectives pursued in prior works, we introduce component rationality as an additional and novel design principle in Mas. To achieve this multi-objective optimization, we propose Hierarchical Relative Policy Optimization (HRPO), a novel RL strategy that collaboratively integrates group-relative advantages and action-wise rewards. To our knowledge, our proposed MasHost is the first RL-driven framework for autonomous Mas graph construction. Extensive experiments on six benchmarks demonstrate that MasHost consistently outperforms most competitive baselines, validating its effectiveness, efficiency, and structure rationality."
+  },
+  {
+    "title": "How to Provably Improve Return Conditioned Supervised Learning?",
+    "url": "http://arxiv.org/abs/2506.08463v1",
+    "arxiv_id": "2506.08463v1",
+    "authors": [
+      "Zhishuai Liu",
+      "Yu Yang",
+      "Ruhan Wang",
+      "Pan Xu",
+      "Dongruo Zhou"
+    ],
+    "published": "2025-06-10T05:37:51+00:00",
+    "summary": "In sequential decision-making problems, Return-Conditioned Supervised Learning (RCSL) has gained increasing recognition for its simplicity and stability in modern decision-making tasks. Unlike traditional offline reinforcement learning (RL) algorithms, RCSL frames policy learning as a supervised learning problem by taking both the state and return as input. This approach eliminates the instability often associated with temporal difference (TD) learning in offline RL. However, RCSL has been criticized for lacking the stitching property, meaning its performance is inherently limited by the quality of the policy used to generate the offline dataset. To address this limitation, we propose a principled and simple framework called Reinforced RCSL. The key innovation of our framework is the introduction of a concept we call the in-distribution optimal return-to-go. This mechanism leverages our policy to identify the best achievable in-dataset future return based on the current state, avoiding the need for complex return augmentation techniques. Our theoretical analysis demonstrates that Reinforced RCSL can consistently outperform the standard RCSL approach. Empirical results further validate our claims, showing significant performance improvements across a range of benchmarks."
+  },
+  {
+    "title": "MOBODY: Model Based Off-Dynamics Offline Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2506.08460v1",
+    "arxiv_id": "2506.08460v1",
+    "authors": [
+      "Yihong Guo",
+      "Yu Yang",
+      "Pan Xu",
+      "Anqi Liu"
+    ],
+    "published": "2025-06-10T05:36:54+00:00",
+    "summary": "We study the off-dynamics offline reinforcement learning problem, where the goal is to learn a policy from offline datasets collected from source and target domains with mismatched transition. Existing off-dynamics offline RL methods typically either filter source transitions that resemble those of the target domain or apply reward augmentation to source data, both constrained by the limited transitions available from the target domain. As a result, the learned policy is unable to explore target domain beyond the offline datasets. We propose MOBODY, a Model-Based Off-Dynamics offline RL algorithm that addresses this limitation by enabling exploration of the target domain via learned dynamics. MOBODY generates new synthetic transitions in the target domain through model rollouts, which are used as data augmentation during offline policy learning. Unlike existing model-based methods that learn dynamics from a single domain, MOBODY tackles the challenge of mismatched dynamics by leveraging both source and target datasets. Directly merging these datasets can bias the learned model toward source dynamics. Instead, MOBODY learns target dynamics by discovering a shared latent representation of states and transitions across domains through representation learning. To stabilize training, MOBODY incorporates a behavior cloning loss that regularizes the policy. Specifically, we introduce a Q-weighted behavior cloning loss that regularizes the policy toward actions with high target-domain Q-values, rather than uniformly imitating all actions in the dataset. These Q-values are learned from an enhanced target dataset composed of offline target data, augmented source data, and rollout data from the learned target dynamics. We evaluate MOBODY on MuJoCo benchmarks and show that it significantly outperforms state-of-the-art baselines, with especially pronounced improvements in challenging scenarios."
+  },
+  {
+    "title": "A Survey on Large Language Models for Mathematical Reasoning",
+    "url": "http://arxiv.org/abs/2506.08446v1",
+    "arxiv_id": "2506.08446v1",
+    "authors": [
+      "Peng-Yuan Wang",
+      "Tian-Shuo Liu",
+      "Chenyang Wang",
+      "Yi-Di Wang",
+      "Shu Yan",
+      "Cheng-Xing Jia",
+      "Xu-Hui Liu",
+      "Xin-Wei Chen",
+      "Jia-Cheng Xu",
+      "Ziniu Li",
+      "Yang Yu"
+    ],
+    "published": "2025-06-10T04:44:28+00:00",
+    "summary": "Mathematical reasoning has long represented one of the most fundamental and challenging frontiers in artificial intelligence research. In recent years, large language models (LLMs) have achieved significant advances in this area. This survey examines the development of mathematical reasoning abilities in LLMs through two high-level cognitive phases: comprehension, where models gain mathematical understanding via diverse pretraining strategies, and answer generation, which has progressed from direct prediction to step-by-step Chain-of-Thought (CoT) reasoning. We review methods for enhancing mathematical reasoning, ranging from training-free prompting to fine-tuning approaches such as supervised fine-tuning and reinforcement learning, and discuss recent work on extended CoT and \"test-time scaling\". Despite notable progress, fundamental challenges remain in terms of capacity, efficiency, and generalization. To address these issues, we highlight promising research directions, including advanced pretraining and knowledge augmentation techniques, formal reasoning frameworks, and meta-generalization through principled learning paradigms. This survey tries to provide some insights for researchers interested in enhancing reasoning capabilities of LLMs and for those seeking to apply these techniques to other domains."
+  },
+  {
+    "title": "GPS Spoofing Attacks on AI-based Navigation Systems with Obstacle Avoidance in UAV",
+    "url": "http://arxiv.org/abs/2506.08445v1",
+    "arxiv_id": "2506.08445v1",
+    "authors": [
+      "Ji Hyuk Jung",
+      "Mi Yeon Hong",
+      "Ji Won Yoon"
+    ],
+    "published": "2025-06-10T04:42:55+00:00",
+    "summary": "Recently, approaches using Deep Reinforcement Learning (DRL) have been proposed to solve UAV navigation systems in complex and unknown environments. However, despite extensive research and attention, systematic studies on various security aspects have not yet been conducted. Therefore, in this paper, we conduct research on security vulnerabilities in DRL-based navigation systems, particularly focusing on GPS spoofing attacks against the system. Many recent basic DRL-based navigation systems fundamentally share an efficient structure. This paper presents an attack model that operates through GPS spoofing attacks briefly modeling the range of spoofing attack against EKF sensor fusion of PX4 autopilot, and combine this with the DRL-based system to design attack scenarios that are closer to reality. Finally, this paper experimentally demonstrated that attacks are possible both in the basic DRL system and in attack models combining the DRL system with PX4 autopilot system."
+  },
+  {
+    "title": "TGRPO :Fine-tuning Vision-Language-Action Model via Trajectory-wise Group Relative Policy Optimization",
+    "url": "http://arxiv.org/abs/2506.08440v1",
+    "arxiv_id": "2506.08440v1",
+    "authors": [
+      "Zengjue Chen",
+      "Runliang Niu",
+      "He Kong",
+      "Qi Wang"
+    ],
+    "published": "2025-06-10T04:27:49+00:00",
+    "summary": "Recent advances in Vision-Language-Action (VLA) model have demonstrated strong generalization capabilities across diverse scenes, tasks, and robotic platforms when pretrained at large-scale datasets. However, these models still require task-specific fine-tuning in novel environments, a process that relies almost exclusively on supervised fine-tuning (SFT) using static trajectory datasets. Such approaches neither allow robot to interact with environment nor do they leverage feedback from live execution. Also, their success is critically dependent on the size and quality of the collected trajectories. Reinforcement learning (RL) offers a promising alternative by enabling closed-loop interaction and aligning learned policies directly with task objectives. In this work, we draw inspiration from the ideas of GRPO and propose the Trajectory-wise Group Relative Policy Optimization (TGRPO) method. By fusing step-level and trajectory-level advantage signals, this method improves GRPO's group-level advantage estimation, thereby making the algorithm more suitable for online reinforcement learning training of VLA. Experimental results on ten manipulation tasks from the libero-object benchmark demonstrate that TGRPO consistently outperforms various baseline methods, capable of generating more robust and efficient policies across multiple tested scenarios. Our source codes are available at: https://github.com/hahans/TGRPO"
+  },
+  {
+    "title": "Attention-based Learning for 3D Informative Path Planning",
+    "url": "http://arxiv.org/abs/2506.08434v1",
+    "arxiv_id": "2506.08434v1",
+    "authors": [
+      "Rui Zhao",
+      "Xingjian Zhang",
+      "Yuhong Cao",
+      "Yizhuo Wang",
+      "Guillaume Sartoretti"
+    ],
+    "published": "2025-06-10T04:16:10+00:00",
+    "summary": "In this work, we propose an attention-based deep reinforcement learning approach to address the adaptive informative path planning (IPP) problem in 3D space, where an aerial robot equipped with a downward-facing sensor must dynamically adjust its 3D position to balance sensing footprint and accuracy, and finally obtain a high-quality belief of an underlying field of interest over a given domain (e.g., presence of specific plants, hazardous gas, geological structures, etc.). In adaptive IPP tasks, the agent is tasked with maximizing information collected under time/distance constraints, continuously adapting its path based on newly acquired sensor data. To this end, we leverage attention mechanisms for their strong ability to capture global spatial dependencies across large action spaces, allowing the agent to learn an implicit estimation of environmental transitions. Our model builds a contextual belief representation over the entire domain, guiding sequential movement decisions that optimize both short- and long-term search objectives. Comparative evaluations against state-of-the-art planners demonstrate that our approach significantly reduces environmental uncertainty within constrained budgets, thus allowing the agent to effectively balance exploration and exploitation. We further show our model generalizes well to environments of varying sizes, highlighting its potential for many real-world applications."
+  },
+  {
+    "title": "Offline RL with Smooth OOD Generalization in Convex Hull and its Neighborhood",
+    "url": "http://arxiv.org/abs/2506.08417v1",
+    "arxiv_id": "2506.08417v1",
+    "authors": [
+      "Qingmao Yao",
+      "Zhichao Lei",
+      "Tianyuan Chen",
+      "Ziyue Yuan",
+      "Xuefan Chen",
+      "Jianxiang Liu",
+      "Faguo Wu",
+      "Xiao Zhang"
+    ],
+    "published": "2025-06-10T03:43:22+00:00",
+    "summary": "Offline Reinforcement Learning (RL) struggles with distributional shifts, leading to the $Q$-value overestimation for out-of-distribution (OOD) actions. Existing methods address this issue by imposing constraints; however, they often become overly conservative when evaluating OOD regions, which constrains the $Q$-function generalization. This over-constraint issue results in poor $Q$-value estimation and hinders policy improvement. In this paper, we introduce a novel approach to achieve better $Q$-value estimation by enhancing $Q$-function generalization in OOD regions within Convex Hull and its Neighborhood (CHN). Under the safety generalization guarantees of the CHN, we propose the Smooth Bellman Operator (SBO), which updates OOD $Q$-values by smoothing them with neighboring in-sample $Q$-values. We theoretically show that SBO approximates true $Q$-values for both in-sample and OOD actions within the CHN. Our practical algorithm, Smooth Q-function OOD Generalization (SQOG), empirically alleviates the over-constraint issue, achieving near-accurate $Q$-value estimation. On the D4RL benchmarks, SQOG outperforms existing state-of-the-art methods in both performance and computational efficiency."
+  },
+  {
+    "title": "Periodic Bipedal Gait Learning Using Reward Composition Based on a Novel Gait Planner for Humanoid Robots",
+    "url": "http://arxiv.org/abs/2506.08416v1",
+    "arxiv_id": "2506.08416v1",
+    "authors": [
+      "Bolin Li",
+      "Linwei Sun",
+      "Xuecong Huang",
+      "Yuzhi Jiang",
+      "Lijun Zhu"
+    ],
+    "published": "2025-06-10T03:42:04+00:00",
+    "summary": "This paper presents a periodic bipedal gait learning method using reward composition, integrated with a real-time gait planner for humanoid robots. First, we introduce a novel gait planner that incorporates dynamics to design the desired joint trajectory. In the gait design process, the 3D robot model is decoupled into two 2D models, which are then approximated as hybrid inverted pendulums (H-LIP) for trajectory planning. The gait planner operates in parallel in real time within the robot's learning environment. Second, based on this gait planner, we design three effective reward functions within a reinforcement learning framework, forming a reward composition to achieve periodic bipedal gait. This reward composition reduces the robot's learning time and enhances locomotion performance. Finally, a gait design example and performance comparison are presented to demonstrate the effectiveness of the proposed method."
+  },
+  {
+    "title": "Reinforcement Learning Teachers of Test Time Scaling",
+    "url": "http://arxiv.org/abs/2506.08388v1",
+    "arxiv_id": "2506.08388v1",
+    "authors": [
+      "Edoardo Cetin",
+      "Tianyu Zhao",
+      "Yujin Tang"
+    ],
+    "published": "2025-06-10T02:53:24+00:00",
+    "summary": "Training reasoning language models (LMs) with reinforcement learning (RL) for one-hot correctness inherently relies on the LM being able to explore and solve its task with some chance at initialization. Furthermore, a key use case of reasoning LMs is to act as teachers for distilling new students and cold-starting future RL iterations rather than being deployed themselves. From these considerations, we introduce a new framework that avoids RL's exploration challenge by training a new class of Reinforcement-Learned Teachers (RLTs) focused on yielding the most effective downstream distillation. RLTs are prompted with both the question and solution to each problem, and tasked to simply \"connect-the-dots\" with detailed explanations tailored for their students. We train RLTs with dense rewards obtained by feeding each explanation to the student and testing its understanding of the problem's solution. In practice, the raw outputs of a 7B RLT provide higher final performance on competition and graduate-level tasks than existing distillation and cold-starting pipelines that collect and postprocess the reasoning traces of orders of magnitude larger LMs. Furthermore, RLTs maintain their effectiveness when training larger students and when applied zero-shot to out-of-distribution tasks, unlocking new levels of efficiency and re-usability for the RL reasoning framework."
+  },
+  {
+    "title": "Reinforce LLM Reasoning through Multi-Agent Reflection",
+    "url": "http://arxiv.org/abs/2506.08379v1",
+    "arxiv_id": "2506.08379v1",
+    "authors": [
+      "Yurun Yuan",
+      "Tengyang Xie"
+    ],
+    "published": "2025-06-10T02:43:47+00:00",
+    "summary": "Leveraging more test-time computation has proven to be an effective way to boost the reasoning capabilities of large language models (LLMs). Among various methods, the verify-and-improve paradigm stands out for enabling dynamic solution exploration and feedback incorporation. However, existing approaches often suffer from restricted feedback spaces and lack of coordinated training of different parties, leading to suboptimal performance. To address this, we model this multi-turn refinement process as a Markov Decision Process and introduce DPSDP (Direct Policy Search by Dynamic Programming), a reinforcement learning algorithm that trains an actor-critic LLM system to iteratively refine answers via direct preference learning on self-generated data. Theoretically, DPSDP can match the performance of any policy within the training distribution. Empirically, we instantiate DPSDP with various base models and show improvements on both in- and out-of-distribution benchmarks. For example, on benchmark MATH 500, majority voting over five refinement steps increases first-turn accuracy from 58.2% to 63.2% with Ministral-based models. An ablation study further confirms the benefits of multi-agent collaboration and out-of-distribution generalization."
+  },
+  {
+    "title": "Reinforcement Fine-Tuning for Reasoning towards Multi-Step Multi-Source Search in Large Language Models",
+    "url": "http://arxiv.org/abs/2506.08352v1",
+    "arxiv_id": "2506.08352v1",
+    "authors": [
+      "Wentao Shi",
+      "Yiqing Shen"
+    ],
+    "published": "2025-06-10T02:09:57+00:00",
+    "summary": "Large language models (LLMs) can face factual limitations when responding to time-sensitive queries about recent events that arise after their knowledge thresholds in the training corpus. Existing search-augmented approaches fall into two categories, each with distinct limitations: multi-agent search frameworks incur substantial computational overhead by separating search planning and response synthesis across multiple LLMs, while single-LLM tool-calling methods restrict themselves to sequential planned, single-query searches from sole search sources. We present Reasoning-Search (R-Search), a single-LLM search framework that unifies multi-step planning, multi-source search execution, and answer synthesis within one coherent inference process. Innovatively, it structure the output into four explicitly defined components, including reasoning steps that guide the search process (<think>), a natural-language directed acyclic graph that represents the search plans with respect to diverse sources (<search>), retrieved results from executing the search plans (<result>), and synthesized final answers (<answer>). To enable effective generation of these structured outputs, we propose a specialized Reinforcement Fine-Tuning (ReFT) method based on GRPO, together with a multi-component reward function that optimizes LLM's answer correctness, structural validity of the generated DAG, and adherence to the defined output format. Experimental evaluation on FinSearchBench-24, SearchExpertBench-25, and seven Q and A benchmarks demonstrates that R-Search outperforms state-of-the-art methods, while achieving substantial efficiency gains through 70% reduction in context token usage and approximately 50% decrease in execution latency. Code is available at https://github.com/wentao0429/Reasoning-search."
+  },
+  {
+    "title": "Re4MPC: Reactive Nonlinear MPC for Multi-model Motion Planning via Deep Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2506.08344v1",
+    "arxiv_id": "2506.08344v1",
+    "authors": [
+      "Ne\u015fet \u00dcnver Akmandor",
+      "Sarvesh Prajapati",
+      "Mark Zolotas",
+      "Ta\u015fk\u0131n Pad\u0131r"
+    ],
+    "published": "2025-06-10T01:58:32+00:00",
+    "summary": "Traditional motion planning methods for robots with many degrees-of-freedom, such as mobile manipulators, are often computationally prohibitive for real-world settings. In this paper, we propose a novel multi-model motion planning pipeline, termed Re4MPC, which computes trajectories using Nonlinear Model Predictive Control (NMPC). Re4MPC generates trajectories in a computationally efficient manner by reactively selecting the model, cost, and constraints of the NMPC problem depending on the complexity of the task and robot state. The policy for this reactive decision-making is learned via a Deep Reinforcement Learning (DRL) framework. We introduce a mathematical formulation to integrate NMPC into this DRL framework. To validate our methodology and design choices, we evaluate DRL training and test outcomes in a physics-based simulation involving a mobile manipulator. Experimental results demonstrate that Re4MPC is more computationally efficient and achieves higher success rates in reaching end-effector goals than the NMPC baseline, which computes whole-body trajectories without our learning mechanism."
+  },
+  {
+    "title": "Dynamical System Optimization",
+    "url": "http://arxiv.org/abs/2506.08340v1",
+    "arxiv_id": "2506.08340v1",
+    "authors": [
+      "Emo Todorov"
+    ],
+    "published": "2025-06-10T01:50:38+00:00",
+    "summary": "We develop an optimization framework centered around a core idea: once a (parametric) policy is specified, control authority is transferred to the policy, resulting in an autonomous dynamical system. Thus we should be able to optimize policy parameters without further reference to controls or actions, and without directly using the machinery of approximate Dynamic Programming and Reinforcement Learning. Here we derive simpler algorithms at the autonomous system level, and show that they compute the same quantities as policy gradients and Hessians, natural gradients, proximal methods. Analogs to approximate policy iteration and off-policy learning are also available. Since policy parameters and other system parameters are treated uniformly, the same algorithms apply to behavioral cloning, mechanism design, system identification, learning of state estimators. Tuning of generative AI models is not only possible, but is conceptually closer to the present framework than to Reinforcement Learning."
+  },
+  {
+    "title": "From Debate to Equilibrium: Belief-Driven Multi-Agent LLM Reasoning via Bayesian Nash Equilibrium",
+    "url": "http://arxiv.org/abs/2506.08292v1",
+    "arxiv_id": "2506.08292v1",
+    "authors": [
+      "Xie Yi",
+      "Zhanke Zhou",
+      "Chentao Cao",
+      "Qiyu Niu",
+      "Tongliang Liu",
+      "Bo Han"
+    ],
+    "published": "2025-06-09T23:49:14+00:00",
+    "summary": "Multi-agent frameworks can substantially boost the reasoning power of large language models (LLMs), but they typically incur heavy computational costs and lack convergence guarantees. To overcome these challenges, we recast multi-LLM coordination as an incomplete-information game and seek a Bayesian Nash equilibrium (BNE), in which each agent optimally responds to its probabilistic beliefs about the strategies of others. We introduce Efficient Coordination via Nash Equilibrium (ECON), a hierarchical reinforcement-learning paradigm that marries distributed reasoning with centralized final output. Under ECON, each LLM independently selects responses that maximize its expected reward, conditioned on its beliefs about co-agents, without requiring costly inter-agent exchanges. We mathematically prove that ECON attains a markedly tighter regret bound than non-equilibrium multi-agent schemes. Empirically, ECON outperforms existing multi-LLM approaches by 11.2% on average across six benchmarks spanning complex reasoning and planning tasks. Further experiments demonstrate ECON's ability to flexibly incorporate additional models, confirming its scalability and paving the way toward larger, more powerful multi-LLM ensembles. The code is publicly available at: https://github.com/tmlr-group/ECON."
+  },
+  {
+    "title": "Reinforcement Learning from Human Feedback with High-Confidence Safety Constraints",
+    "url": "http://arxiv.org/abs/2506.08266v1",
+    "arxiv_id": "2506.08266v1",
+    "authors": [
+      "Yaswanth Chittepu",
+      "Blossom Metevier",
+      "Will Schwarzer",
+      "Austin Hoag",
+      "Scott Niekum",
+      "Philip S. Thomas"
+    ],
+    "published": "2025-06-09T22:03:56+00:00",
+    "summary": "Existing approaches to language model alignment often treat safety as a tradeoff against helpfulness, which can lead to unacceptable responses in sensitive domains. To ensure reliable performance in such settings, we propose High-Confidence Safe Reinforcement Learning from Human Feedback (HC-RLHF), a method that provides high-confidence safety guarantees while maximizing helpfulness. Similar to previous methods, HC-RLHF explicitly decouples human preferences into helpfulness and harmlessness (safety), which are learned by training a reward model and a cost model, respectively. It then employs a two-step process to find safe solutions. In the first step, it optimizes the reward function under an intentionally pessimistic version of the cost constraint. In the second step, the trained model undergoes a safety test to verify whether its performance stays within an upper-confidence bound of the actual cost constraint. We provide a theoretical analysis of HC-RLHF, including proof that it will not return an unsafe solution with a probability greater than a user-specified threshold. For our empirical analysis, we apply HC-RLHF to align three different language models (Qwen2-1.5B, Qwen2.5-3B, and LLaMa3.2-3B) with human preferences. Our results demonstrate that HC-RLHF produces safe models with high probability and can improve harmlessness and helpfulness compared to previous methods."
+  },
+  {
+    "title": "Compound AI Systems Optimization: A Survey of Methods, Challenges, and Future Directions",
+    "url": "http://arxiv.org/abs/2506.08234v1",
+    "arxiv_id": "2506.08234v1",
+    "authors": [
+      "Yu-Ang Lee",
+      "Guan-Ting Yi",
+      "Mei-Yi Liu",
+      "Jui-Chao Lu",
+      "Guan-Bo Yang",
+      "Yun-Nung Chen"
+    ],
+    "published": "2025-06-09T21:04:14+00:00",
+    "summary": "Recent advancements in large language models (LLMs) and AI systems have led to a paradigm shift in the design and optimization of complex AI workflows. By integrating multiple components, compound AI systems have become increasingly adept at performing sophisticated tasks. However, as these systems grow in complexity, new challenges arise in optimizing not only individual components but also their interactions. While traditional optimization methods such as supervised fine-tuning (SFT) and reinforcement learning (RL) remain foundational, the rise of natural language feedback introduces promising new approaches, especially for optimizing non-differentiable systems. This paper provides a systematic review of recent progress in optimizing compound AI systems, encompassing both numerical and language-based techniques. We formalize the notion of compound AI system optimization, classify existing methods along several key dimensions, and highlight open research challenges and future directions in this rapidly evolving field. A list of surveyed papers is publicly available at https://github.com/MiuLab/AISysOpt-Survey."
+  },
+  {
+    "title": "Interpreting Agent Behaviors in Reinforcement-Learning-Based Cyber-Battle Simulation Platforms",
+    "url": "http://arxiv.org/abs/2506.08192v1",
+    "arxiv_id": "2506.08192v1",
+    "authors": [
+      "Jared Claypoole",
+      "Steven Cheung",
+      "Ashish Gehani",
+      "Vinod Yegneswaran",
+      "Ahmad Ridley"
+    ],
+    "published": "2025-06-09T20:07:26+00:00",
+    "summary": "We analyze two open source deep reinforcement learning agents submitted to the CAGE Challenge 2 cyber defense challenge, where each competitor submitted an agent to defend a simulated network against each of several provided rules-based attack agents. We demonstrate that one can gain interpretability of agent successes and failures by simplifying the complex state and action spaces and by tracking important events, shedding light on the fine-grained behavior of both the defense and attack agents in each experimental scenario. By analyzing important events within an evaluation episode, we identify patterns in infiltration and clearing events that tell us how well the attacker and defender played their respective roles; for example, defenders were generally able to clear infiltrations within one or two timesteps of a host being exploited. By examining transitions in the environment's state caused by the various possible actions, we determine which actions tended to be effective and which did not, showing that certain important actions are between 40% and 99% ineffective. We examine how decoy services affect exploit success, concluding for instance that decoys block up to 94% of exploits that would directly grant privileged access to a host. Finally, we discuss the realism of the challenge and ways that the CAGE Challenge 4 has addressed some of our concerns."
+  },
+  {
     "title": "Play to Generalize: Learning to Reason Through Game Play",
     "url": "http://arxiv.org/abs/2506.08011v1",
     "arxiv_id": "2506.08011v1",
