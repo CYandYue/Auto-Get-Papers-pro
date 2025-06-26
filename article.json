@@ -1,5 +1,421 @@
 [
   {
+    "title": "MMSearch-R1: Incentivizing LMMs to Search",
+    "url": "http://arxiv.org/abs/2506.20670v1",
+    "arxiv_id": "2506.20670v1",
+    "authors": [
+      "Jinming Wu",
+      "Zihao Deng",
+      "Wei Li",
+      "Yiding Liu",
+      "Bo You",
+      "Bo Li",
+      "Zejun Ma",
+      "Ziwei Liu"
+    ],
+    "published": "2025-06-25T17:59:42+00:00",
+    "summary": "Robust deployment of large multimodal models (LMMs) in real-world scenarios requires access to external knowledge sources, given the complexity and dynamic nature of real-world information. Existing approaches such as retrieval-augmented generation (RAG) and prompt engineered search agents rely on rigid pipelines, often leading to inefficient or excessive search behaviors. We present MMSearch-R1, the first end-to-end reinforcement learning framework that enables LMMs to perform on-demand, multi-turn search in real-world Internet environments. Our framework integrates both image and text search tools, allowing the model to reason about when and how to invoke them guided by an outcome-based reward with a search penalty. To support training, We collect a multimodal search VQA dataset through a semi-automated pipeline that covers diverse visual and textual knowledge needs and curate a search-balanced subset with both search-required and search-free samples, which proves essential for shaping efficient and on-demand search behavior. Extensive experiments on knowledge-intensive and info-seeking VQA tasks show that our model not only outperforms RAG-based baselines of the same model size, but also matches the performance of a larger RAG-based model while reducing search calls by over 30%. We further analyze key empirical findings to offer actionable insights for advancing research in multimodal search."
+  },
+  {
+    "title": "DemoDiffusion: One-Shot Human Imitation using pre-trained Diffusion Policy",
+    "url": "http://arxiv.org/abs/2506.20668v1",
+    "arxiv_id": "2506.20668v1",
+    "authors": [
+      "Sungjae Park",
+      "Homanga Bharadhwaj",
+      "Shubham Tulsiani"
+    ],
+    "published": "2025-06-25T17:59:01+00:00",
+    "summary": "We propose DemoDiffusion, a simple and scalable method for enabling robots to perform manipulation tasks in natural environments by imitating a single human demonstration. Our approach is based on two key insights. First, the hand motion in a human demonstration provides a useful prior for the robot's end-effector trajectory, which we can convert into a rough open-loop robot motion trajectory via kinematic retargeting. Second, while this retargeted motion captures the overall structure of the task, it may not align well with plausible robot actions in-context. To address this, we leverage a pre-trained generalist diffusion policy to modify the trajectory, ensuring it both follows the human motion and remains within the distribution of plausible robot actions. Our approach avoids the need for online reinforcement learning or paired human-robot data, enabling robust adaptation to new tasks and scenes with minimal manual effort. Experiments in both simulation and real-world settings show that DemoDiffusion outperforms both the base policy and the retargeted trajectory, enabling the robot to succeed even on tasks where the pre-trained generalist policy fails entirely. Project page: https://demodiffusion.github.io/"
+  },
+  {
+    "title": "The Decrypto Benchmark for Multi-Agent Reasoning and Theory of Mind",
+    "url": "http://arxiv.org/abs/2506.20664v1",
+    "arxiv_id": "2506.20664v1",
+    "authors": [
+      "Andrei Lupu",
+      "Timon Willi",
+      "Jakob Foerster"
+    ],
+    "published": "2025-06-25T17:55:27+00:00",
+    "summary": "As Large Language Models (LLMs) gain agentic abilities, they will have to navigate complex multi-agent scenarios, interacting with human users and other agents in cooperative and competitive settings. This will require new reasoning skills, chief amongst them being theory of mind (ToM), or the ability to reason about the \"mental\" states of other agents. However, ToM and other multi-agent abilities in LLMs are poorly understood, since existing benchmarks suffer from narrow scope, data leakage, saturation, and lack of interactivity. We thus propose Decrypto, a game-based benchmark for multi-agent reasoning and ToM drawing inspiration from cognitive science, computational pragmatics and multi-agent reinforcement learning. It is designed to be as easy as possible in all other dimensions, eliminating confounding factors commonly found in other benchmarks. To our knowledge, it is also the first platform for designing interactive ToM experiments.   We validate the benchmark design through comprehensive empirical evaluations of frontier LLMs, robustness studies, and human-AI cross-play experiments. We find that LLM game-playing abilities lag behind humans and simple word-embedding baselines. We then create variants of two classic cognitive science experiments within Decrypto to evaluate three key ToM abilities. Surprisingly, we find that state-of-the-art reasoning models are significantly worse at those tasks than their older counterparts. This demonstrates that Decrypto addresses a crucial gap in current reasoning and ToM evaluations, and paves the path towards better artificial agents."
+  },
+  {
+    "title": "DiffuCoder: Understanding and Improving Masked Diffusion Models for Code Generation",
+    "url": "http://arxiv.org/abs/2506.20639v1",
+    "arxiv_id": "2506.20639v1",
+    "authors": [
+      "Shansan Gong",
+      "Ruixiang Zhang",
+      "Huangjie Zheng",
+      "Jiatao Gu",
+      "Navdeep Jaitly",
+      "Lingpeng Kong",
+      "Yizhe Zhang"
+    ],
+    "published": "2025-06-25T17:35:47+00:00",
+    "summary": "Diffusion large language models (dLLMs) are compelling alternatives to autoregressive (AR) models because their denoising models operate over the entire sequence. The global planning and iterative refinement features of dLLMs are particularly useful for code generation. However, current training and inference mechanisms for dLLMs in coding are still under-explored. To demystify the decoding behavior of dLLMs and unlock their potential for coding, we systematically investigate their denoising processes and reinforcement learning (RL) methods. We train a 7B dLLM, \\textbf{DiffuCoder}, on 130B tokens of code. Using this model as a testbed, we analyze its decoding behavior, revealing how it differs from that of AR models: (1) dLLMs can decide how causal their generation should be without relying on semi-AR decoding, and (2) increasing the sampling temperature diversifies not only token choices but also their generation order. This diversity creates a rich search space for RL rollouts. For RL training, to reduce the variance of token log-likelihood estimates and maintain training efficiency, we propose \\textbf{coupled-GRPO}, a novel sampling scheme that constructs complementary mask noise for completions used in training. In our experiments, coupled-GRPO significantly improves DiffuCoder's performance on code generation benchmarks (+4.4\\% on EvalPlus) and reduces reliance on AR causal during decoding. Our work provides deeper insight into the machinery of dLLM generation and offers an effective, diffusion-native RL training framework. https://github.com/apple/ml-diffucoder."
+  },
+  {
+    "title": "PLoP: Precise LoRA Placement for Efficient Finetuning of Large Models",
+    "url": "http://arxiv.org/abs/2506.20629v1",
+    "arxiv_id": "2506.20629v1",
+    "authors": [
+      "Soufiane Hayou",
+      "Nikhil Ghosh",
+      "Bin Yu"
+    ],
+    "published": "2025-06-25T17:25:02+00:00",
+    "summary": "Low-Rank Adaptation (LoRA) is a widely used finetuning method for large models. Its small memory footprint allows practitioners to adapt large models to specific tasks at a fraction of the cost of full finetuning. Different modifications have been proposed to enhance its efficiency by, for example, setting the learning rate, the rank, and the initialization. Another improvement axis is adapter placement strategy: when using LoRA, practitioners usually pick module types to adapt with LoRA, such as Query and Key modules. Few works have studied the problem of adapter placement, with nonconclusive results: original LoRA paper suggested placing adapters in attention modules, while other works suggested placing them in the MLP modules. Through an intuitive theoretical analysis, we introduce PLoP (Precise LoRA Placement), a lightweight method that allows automatic identification of module types where LoRA adapters should be placed, given a pretrained model and a finetuning task. We demonstrate that PLoP consistently outperforms, and in the worst case competes, with commonly used placement strategies through comprehensive experiments on supervised finetuning and reinforcement learning for reasoning."
+  },
+  {
+    "title": "Reinforcement Learning Increases Wind Farm Power Production by Enabling Closed-Loop Collaborative Control",
+    "url": "http://arxiv.org/abs/2506.20554v1",
+    "arxiv_id": "2506.20554v1",
+    "authors": [
+      "Andrew Mole",
+      "Max Weissenbacher",
+      "Georgios Rigas",
+      "Sylvain Laizet"
+    ],
+    "published": "2025-06-25T15:53:12+00:00",
+    "summary": "Traditional wind farm control operates each turbine independently to maximize individual power output. However, coordinated wake steering across the entire farm can substantially increase the combined wind farm energy production. Although dynamic closed-loop control has proven effective in flow control applications, wind farm optimization has relied primarily on static, low-fidelity simulators that ignore critical turbulent flow dynamics. In this work, we present the first reinforcement learning (RL) controller integrated directly with high-fidelity large-eddy simulation (LES), enabling real-time response to atmospheric turbulence through collaborative, dynamic control strategies. Our RL controller achieves a 4.30% increase in wind farm power output compared to baseline operation, nearly doubling the 2.19% gain from static optimal yaw control obtained through Bayesian optimization. These results establish dynamic flow-responsive control as a transformative approach to wind farm optimization, with direct implications for accelerating renewable energy deployment to net-zero targets."
+  },
+  {
+    "title": "Demonstration of effective UCB-based routing in skill-based queues on real-world data",
+    "url": "http://arxiv.org/abs/2506.20543v1",
+    "arxiv_id": "2506.20543v1",
+    "authors": [
+      "Sanne van Kempen",
+      "Jaron Sanders",
+      "Fiona Sloothaak",
+      "Maarten G. Wolf"
+    ],
+    "published": "2025-06-25T15:36:43+00:00",
+    "summary": "This paper is about optimally controlling skill-based queueing systems such as data centers, cloud computing networks, and service systems. By means of a case study using a real-world data set, we investigate the practical implementation of a recently developed reinforcement learning algorithm for optimal customer routing. Our experiments show that the algorithm efficiently learns and adapts to changing environments and outperforms static benchmark policies, indicating its potential for live implementation. We also augment the real-world applicability of this algorithm by introducing a new heuristic routing rule to reduce delays. Moreover, we show that the algorithm can optimize for multiple objectives: next to payoff maximization, secondary objectives such as server load fairness and customer waiting time reduction can be incorporated. Tuning parameters are used for balancing inherent performance trade--offs. Lastly, we investigate the sensitivity to estimation errors and parameter tuning, providing valuable insights for implementing adaptive routing algorithms in complex real-world queueing systems."
+  },
+  {
+    "title": "Asymmetric REINFORCE for off-Policy Reinforcement Learning: Balancing positive and negative rewards",
+    "url": "http://arxiv.org/abs/2506.20520v1",
+    "arxiv_id": "2506.20520v1",
+    "authors": [
+      "Charles Arnal",
+      "Ga\u00ebtan Narozniak",
+      "Vivien Cabannes",
+      "Yunhao Tang",
+      "Julia Kempe",
+      "Remi Munos"
+    ],
+    "published": "2025-06-25T15:07:16+00:00",
+    "summary": "Reinforcement learning (RL) is increasingly used to align large language models (LLMs). Off-policy methods offer greater implementation simplicity and data efficiency than on-policy techniques, but often result in suboptimal performance. In this work, we study the intermediate range of algorithms between off-policy RL and supervised fine-tuning by analyzing a simple off-policy REINFORCE algorithm, where the advantage is defined as $A=r-V$, with $r$ a reward and $V$ some tunable baseline. Intuitively, lowering $V$ emphasizes high-reward samples, while raising it penalizes low-reward ones more heavily. We first provide a theoretical analysis of this off-policy REINFORCE algorithm, showing that when the baseline $V$ lower-bounds the expected reward, the algorithm enjoys a policy improvement guarantee. Our analysis reveals that while on-policy updates can safely leverage both positive and negative signals, off-policy updates benefit from focusing more on positive rewards than on negative ones. We validate our findings experimentally in a controlled stochastic bandit setting and through fine-tuning state-of-the-art LLMs on reasoning tasks."
+  },
+  {
+    "title": "OctoThinker: Mid-training Incentivizes Reinforcement Learning Scaling",
+    "url": "http://arxiv.org/abs/2506.20512v1",
+    "arxiv_id": "2506.20512v1",
+    "authors": [
+      "Zengzhi Wang",
+      "Fan Zhou",
+      "Xuefeng Li",
+      "Pengfei Liu"
+    ],
+    "published": "2025-06-25T14:58:13+00:00",
+    "summary": "Different base language model families, such as Llama and Qwen, exhibit divergent behaviors during post-training with reinforcement learning (RL), especially on reasoning-intensive tasks. What makes a base language model suitable for reinforcement learning? Gaining deeper insight into this question is essential for developing RL-scalable foundation models of the next generation. In this work, we investigate how mid-training strategies shape RL dynamics, focusing on two representative model families: Qwen and Llama. Our study reveals that (1) high-quality mathematical corpora, such as MegaMath-Web-Pro, significantly improve both base model and RL performance, while existing alternatives (e.g., FineMath-4plus) fail to do so; (2) further adding QA-style data, particularly long chain-of-thought (CoT) reasoning examples, enhances RL outcomes, and instruction data further unlocks this effect; (3) while long-CoT improves reasoning depth, it can also induce verbosity of model responses and unstability of RL training, underscoring the importance of data formatting; (4) scaling mid-training consistently leads to stronger downstream RL performance. Building on these insights, we introduce a two-stage mid-training strategy, Stable-then-Decay, in which base models are first trained on 200B tokens with a constant learning rate, followed by 20B tokens across three CoT-focused branches with learning rate decay. This yields OctoThinker, a family of models demonstrating strong RL compatibility and closing the performance gap with more RL-friendly model families, i.e., Qwen. We hope our work will help shape pre-training strategies for foundation models in the RL era. To support further research, we release our open-source models along with a curated math reasoning-intensive corpus of over 70 billion tokens (i.e., MegaMath-Web-Pro-Max)."
+  },
+  {
+    "title": "ReCode: Updating Code API Knowledge with Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2506.20495v1",
+    "arxiv_id": "2506.20495v1",
+    "authors": [
+      "Haoze Wu",
+      "Yunzhi Yao",
+      "Wenhao Yu",
+      "Huajun Chen",
+      "Ningyu Zhang"
+    ],
+    "published": "2025-06-25T14:41:13+00:00",
+    "summary": "Large Language Models (LLMs) exhibit remarkable code generation capabilities but falter when adapting to frequent updates in external library APIs. This critical limitation, stemming from reliance on outdated API knowledge from their training data, even with access to current documentation, impedes reliable code generation in dynamic environments. To tackle this issue, we propose ReCode (rule-based Reinforcement learning for Code Update), a novel framework that mimics human programmer adaptation to API changes. Specifically, we construct a dataset of approximately 2,000 data entries to train the LLMs to perform version migration based on updated information. Then, we introduce a modified string similarity metric for code evaluation as the reward for reinforcement learning. Our experiments demonstrate that ReCode substantially boosts LLMs' code generation performance in dynamic API scenarios, especially on the unseen CodeUpdateArena task. Crucially, compared to supervised fine-tuning, ReCode has less impact on LLMs' general code generation abilities. We apply ReCode on various LLMs and reinforcement learning algorithms (GRPO and DAPO), all achieving consistent improvements. Notably, after training, Qwen2.5-Coder-7B outperforms that of the 32B parameter code instruction-tuned model and the reasoning model with the same architecture. Code is available at https://github.com/zjunlp/ReCode."
+  },
+  {
+    "title": "POLAR: A Pessimistic Model-based Policy Learning Algorithm for Dynamic Treatment Regimes",
+    "url": "http://arxiv.org/abs/2506.20406v1",
+    "arxiv_id": "2506.20406v1",
+    "authors": [
+      "Ruijia Zhang",
+      "Zhengling Qi",
+      "Yue Wu",
+      "Xiangyu Zhang",
+      "Yanxun Xu"
+    ],
+    "published": "2025-06-25T13:22:57+00:00",
+    "summary": "Dynamic treatment regimes (DTRs) provide a principled framework for optimizing sequential decision-making in domains where decisions must adapt over time in response to individual trajectories, such as healthcare, education, and digital interventions. However, existing statistical methods often rely on strong positivity assumptions and lack robustness under partial data coverage, while offline reinforcement learning approaches typically focus on average training performance, lack statistical guarantees, and require solving complex optimization problems. To address these challenges, we propose POLAR, a novel pessimistic model-based policy learning algorithm for offline DTR optimization. POLAR estimates the transition dynamics from offline data and quantifies uncertainty for each history-action pair. A pessimistic penalty is then incorporated into the reward function to discourage actions with high uncertainty. Unlike many existing methods that focus on average training performance, POLAR directly targets the suboptimality of the final learned policy and offers theoretical guarantees, without relying on computationally intensive minimax or constrained optimization procedures. To the best of our knowledge, POLAR is the first model-based DTR method to provide both statistical and computational guarantees, including finite-sample bounds on policy suboptimality. Empirical results on both synthetic data and the MIMIC-III dataset demonstrate that POLAR outperforms state-of-the-art methods and yields near-optimal, history-aware treatment strategies."
+  },
+  {
+    "title": "GymPN: A Library for Decision-Making in Process Management Systems",
+    "url": "http://arxiv.org/abs/2506.20404v1",
+    "arxiv_id": "2506.20404v1",
+    "authors": [
+      "Riccardo Lo Bianco",
+      "Willem van Jaarsveld",
+      "Remco Dijkman"
+    ],
+    "published": "2025-06-25T13:19:42+00:00",
+    "summary": "Process management systems support key decisions about the way work is allocated in organizations. This includes decisions on which task to perform next, when to execute the task, and who to assign the task to. Suitable software tools are required to support these decisions in a way that is optimal for the organization. This paper presents a software library, called GymPN, that supports optimal decision-making in business processes using Deep Reinforcement Learning. GymPN builds on previous work that supports task assignment in business processes, introducing two key novelties: support for partial process observability and the ability to model multiple decisions in a business process. These novel elements address fundamental limitations of previous work and thus enable the representation of more realistic process decisions. We evaluate the library on eight typical business process decision-making problem patterns, showing that GymPN allows for easy modeling of the desired problems, as well as learning optimal decision policies."
+  },
+  {
+    "title": "SPARK: Graph-Based Online Semantic Integration System for Robot Task Planning",
+    "url": "http://arxiv.org/abs/2506.20394v1",
+    "arxiv_id": "2506.20394v1",
+    "authors": [
+      "Mimo Shirasaka",
+      "Yuya Ikeda",
+      "Tatsuya Matsushima",
+      "Yutaka Matsuo",
+      "Yusuke Iwasawa"
+    ],
+    "published": "2025-06-25T13:02:59+00:00",
+    "summary": "The ability to update information acquired through various means online during task execution is crucial for a general-purpose service robot. This information includes geometric and semantic data. While SLAM handles geometric updates on 2D maps or 3D point clouds, online updates of semantic information remain unexplored. We attribute the challenge to the online scene graph representation, for its utility and scalability. Building on previous works regarding offline scene graph representations, we study online graph representations of semantic information in this work. We introduce SPARK: Spatial Perception and Robot Knowledge Integration. This framework extracts semantic information from environment-embedded cues and updates the scene graph accordingly, which is then used for subsequent task planning. We demonstrate that graph representations of spatial relationships enhance the robot system's ability to perform tasks in dynamic environments and adapt to unconventional spatial cues, like gestures."
+  },
+  {
+    "title": "Mobile-R1: Towards Interactive Reinforcement Learning for VLM-Based Mobile Agent via Task-Level Rewards",
+    "url": "http://arxiv.org/abs/2506.20332v1",
+    "arxiv_id": "2506.20332v1",
+    "authors": [
+      "Jihao Gu",
+      "Qihang Ai",
+      "Yingyao Wang",
+      "Pi Bu",
+      "Jingxuan Xing",
+      "Zekun Zhu",
+      "Wei Jiang",
+      "Ziming Wang",
+      "Yingxiu Zhao",
+      "Ming-Liang Zhang",
+      "Jun Song",
+      "Yuning Jiang",
+      "Bo Zheng"
+    ],
+    "published": "2025-06-25T11:34:43+00:00",
+    "summary": "Vision-language model-based mobile agents have gained the ability to not only understand complex instructions and mobile screenshots, but also optimize their action outputs via thinking and reasoning, benefiting from reinforcement learning, such as Group Relative Policy Optimization (GRPO). However, existing research centers on offline reinforcement learning training or online optimization using action-level rewards, which limits the agent's dynamic interaction with the environment. This often results in agents settling into local optima, thereby weakening their ability for exploration and error action correction. To address these challenges, we introduce an approach called Mobile-R1, which employs interactive multi-turn reinforcement learning with task-level rewards for mobile agents. Our training framework consists of three stages: initial format finetuning, single-step online training via action-level reward, followed by online training via task-level reward based on multi-turn trajectories. This strategy is designed to enhance the exploration and error correction capabilities of Mobile-R1, leading to significant performance improvements. Moreover, we have collected a dataset covering 28 Chinese applications with 24,521 high-quality manual annotations and established a new benchmark with 500 trajectories. We will open source all resources, including the dataset, benchmark, model weight, and codes: https://mobile-r1.github.io/Mobile-R1/."
+  },
+  {
+    "title": "Robust estimation of a Markov chain transition matrix from multiple sample paths",
+    "url": "http://arxiv.org/abs/2506.20325v1",
+    "arxiv_id": "2506.20325v1",
+    "authors": [
+      "Lasse Leskel\u00e4",
+      "Maximilien Dreveton"
+    ],
+    "published": "2025-06-25T11:08:33+00:00",
+    "summary": "Markov chains are fundamental models for stochastic dynamics, with applications in a wide range of areas such as population dynamics, queueing systems, reinforcement learning, and Monte Carlo methods. Estimating the transition matrix and stationary distribution from observed sample paths is a core statistical challenge, particularly when multiple independent trajectories are available. While classical theory typically assumes identical chains with known stationary distributions, real-world data often arise from heterogeneous chains whose transition kernels and stationary measures might differ from a common target. We analyse empirical estimators for such parallel Markov processes and establish sharp concentration inequalities that generalise Bernstein-type bounds from standard time averages to ensemble-time averages. Our results provide nonasymptotic error bounds and consistency guarantees in high-dimensional regimes, accommodating sparse or weakly mixing chains, model mismatch, nonstationary initialisations, and partially corrupted data. These findings offer rigorous foundations for statistical inference in heterogeneous Markov chain settings common in modern computational applications."
+  },
+  {
+    "title": "Beyond-Expert Performance with Limited Demonstrations: Efficient Imitation Learning with Double Exploration",
+    "url": "http://arxiv.org/abs/2506.20307v1",
+    "arxiv_id": "2506.20307v1",
+    "authors": [
+      "Heyang Zhao",
+      "Xingrui Yu",
+      "David M. Bossens",
+      "Ivor W. Tsang",
+      "Quanquan Gu"
+    ],
+    "published": "2025-06-25T10:39:32+00:00",
+    "summary": "Imitation learning is a central problem in reinforcement learning where the goal is to learn a policy that mimics the expert's behavior. In practice, it is often challenging to learn the expert policy from a limited number of demonstrations accurately due to the complexity of the state space. Moreover, it is essential to explore the environment and collect data to achieve beyond-expert performance. To overcome these challenges, we propose a novel imitation learning algorithm called Imitation Learning with Double Exploration (ILDE), which implements exploration in two aspects: (1) optimistic policy optimization via an exploration bonus that rewards state-action pairs with high uncertainty to potentially improve the convergence to the expert policy, and (2) curiosity-driven exploration of the states that deviate from the demonstration trajectories to potentially yield beyond-expert performance. Empirically, we demonstrate that ILDE outperforms the state-of-the-art imitation learning algorithms in terms of sample efficiency and achieves beyond-expert performance on Atari and MuJoCo tasks with fewer demonstrations than in previous work. We also provide a theoretical justification of ILDE as an uncertainty-regularized policy optimization method with optimistic exploration, leading to a regret growing sublinearly in the number of episodes."
+  },
+  {
+    "title": "Interfacial reconstruction effects in insulating double perovskite Nd$_2$NiMnO$_6$/SrTiO$_3$ and Nd$_2$NiMnO$_6$/NdGaO$_3$ thin films",
+    "url": "http://arxiv.org/abs/2506.20264v1",
+    "arxiv_id": "2506.20264v1",
+    "authors": [
+      "Nandana Bhattacharya",
+      "Ranjan Kumar Patel",
+      "Siddharth Kumar",
+      "Prithwijit Mandal",
+      "Jyotirmay Maity",
+      "Christoph Klewe",
+      "Zhan Zhang",
+      "Hua Zhou",
+      "Srimanta Middey"
+    ],
+    "published": "2025-06-25T09:17:00+00:00",
+    "summary": "Ferromagnetic insulating (FMI) double perovskite oxides (DPOs) $A_2BB'$O$_6$ with near-room-temperature Curie temperatures are promising candidates for ambient-temperature spintronics applications. To realize their potential, epitaxial stabilization of DPO films and understanding the effect of multiple broken symmetries across the film/substrate interface are crucial. This study investigates ultrathin films of the FMI Nd$_2$NiMnO$_6$ (NNMO) grown on SrTiO$_3$ (STO) and NdGaO$_3$ (NGO) substrates. By comparing growth on these substrates, we examine the influence of polarity and structural symmetry mismatches, which are absent in the NGO system. The interface exhibits immeasurable resistance in both cases. Using synchrotron X-ray diffraction, we show that films have three octahedral rotational domains because of the structural symmetry mismatch with the STO substrate. Furthermore, our coherent Bragg rod analysis of specular X-ray diffraction reveals a significant modification of the out-of-plane lattice parameter within a few unit cells at the film/substrate interface and the surface. This arises from polarity compensation and surface symmetry breaking, respectively. These structural alterations influence the Mn orbital symmetry, a dependence that we further confirm through X-ray linear dichroism measurements. Since the ferromagnetism in insulating DPOs is mediated by orbital-dependent superexchange interactions [Phys. Rev. Lett. 100, 186402 (2008)], our study provides a framework for understanding the evolution of magnetism in ultrathin geometry."
+  },
+  {
+    "title": "Exploration-Exploitation Tradeoff in Universal Lossy Compression",
+    "url": "http://arxiv.org/abs/2506.20261v1",
+    "arxiv_id": "2506.20261v1",
+    "authors": [
+      "Nir Weinberger",
+      "Ram Zamir"
+    ],
+    "published": "2025-06-25T09:08:29+00:00",
+    "summary": "Universal compression can learn the source and adapt to it either in a batch mode (forward adaptation), or in a sequential mode (backward adaptation). We recast the sequential mode as a multi-armed bandit problem, a fundamental model in reinforcement-learning, and study the trade-off between exploration and exploitation in the lossy compression case. We show that a previously proposed \"natural type selection\" scheme can be cast as a reconstruction-directed MAB algorithm, for sequential lossy compression, and explain its limitations in terms of robustness and short-block performance. We then derive and analyze robust cost-directed MAB algorithms, which work at any block length."
+  },
+  {
+    "title": "Enhancing Large Language Models through Structured Reasoning",
+    "url": "http://arxiv.org/abs/2506.20241v1",
+    "arxiv_id": "2506.20241v1",
+    "authors": [
+      "Yubo Dong",
+      "Hehe Fan"
+    ],
+    "published": "2025-06-25T08:36:12+00:00",
+    "summary": "Recent Large Language Models (LLMs) have significantly advanced natural language processing and automated decision-making. However, these models still encounter difficulties when performing complex reasoning tasks involving logical deduction and systematic planning, primarily due to their reliance on implicit statistical relationships without structured knowledge representation.Inspired by cognitive science and neurosymbolic AI, we introduce a novel approach to enhance LLMs through explicit structured reasoning. First, we convert unstructured data into structured formats by explicitly annotating reasoning steps. We then employ this structured dataset to train LLMs through Supervised Fine-Tuning (SFT). Additionally, we enhance the structured reasoning capabilities of LLMs using Group Relative Policy Optimization (GRPO), incorporating two innovative algorithms--MAX-Flow and Longest Common Subsequence (LCS)--which notably improve reasoning effectiveness and reduce computational complexity. Experimental results from fine-tuning a DeepSeek-R1-Distill-Qwen-1.5B model demonstrate concise reasoning, robust performance across various scenarios, and improved compatibility with optimization techniques, validating the efficacy of structured reasoning integration in LLMs."
+  },
+  {
+    "title": "Seeing is Believing? Mitigating OCR Hallucinations in Multimodal Large Language Models",
+    "url": "http://arxiv.org/abs/2506.20168v1",
+    "arxiv_id": "2506.20168v1",
+    "authors": [
+      "Zhentao He",
+      "Can Zhang",
+      "Ziheng Wu",
+      "Zhenghao Chen",
+      "Yufei Zhan",
+      "Yifan Li",
+      "Zhao Zhang",
+      "Xian Wang",
+      "Minghui Qiu"
+    ],
+    "published": "2025-06-25T06:44:07+00:00",
+    "summary": "Recent advancements in multimodal large language models have enhanced document understanding by integrating textual and visual information. However, existing models exhibit incompleteness within their paradigm in real-world scenarios, particularly under visual degradation. In such conditions, the current response paradigm often fails to adequately perceive visual degradation and ambiguity, leading to overreliance on linguistic priors or misaligned visual-textual reasoning. This difficulty in recognizing uncertainty frequently results in the generation of hallucinatory content, especially when a precise answer is not feasible. To better demonstrate and analyze this phenomenon and problem, we propose KIE-HVQA, the first benchmark dedicated to evaluating OCR hallucination in degraded document understanding. This dataset includes test samples spanning identity cards and invoices, with simulated real-world degradations for OCR reliability. This setup allows for evaluating models' capacity, under degraded input, to distinguish reliable visual information and answer accordingly, thereby highlighting the challenge of avoiding hallucination on uncertain data. To achieve vision-faithful reasoning and thereby avoid the aforementioned issues, we further introduce a GRPO-based framework featuring a novel reward mechanism. By incorporating a self-awareness of visual uncertainty and an analysis method that initiates refusal to answer to increase task difficulty within our supervised fine-tuning and reinforcement learning framework, we successfully mitigated hallucinations in ambiguous regions. Experiments on Qwen2.5-VL demonstrate that our 7B-parameter model achieves a 22\\% absolute improvement in hallucination-free accuracy over GPT-4o on KIE-HVQA and there is no significant performance drop in standard tasks, highlighting both effectiveness and robustness."
+  },
+  {
+    "title": "AALC: Large Language Model Efficient Reasoning via Adaptive Accuracy-Length Control",
+    "url": "http://arxiv.org/abs/2506.20160v1",
+    "arxiv_id": "2506.20160v1",
+    "authors": [
+      "Ruosen Li",
+      "Ziming Luo",
+      "Quan Zhang",
+      "Ruochen Li",
+      "Ben Zhou",
+      "Ali Payani",
+      "Xinya Du"
+    ],
+    "published": "2025-06-25T06:29:18+00:00",
+    "summary": "Large reasoning models (LRMs) achieve impressive reasoning capabilities by generating lengthy chain-of-thoughts, but this \"overthinking\" incurs high latency and cost without commensurate accuracy gains. In this work, we introduce AALC, a lightweight, accuracy-aware length reward integrated into reinforcement learning that dynamically balances correctness and brevity during training. By incorporating validation accuracy into the reward and employing a smooth, dynamically scheduled length penalty, AALC delays length penalty until target performance is met. Through extensive experiments across standard and out-of-distribution math benchmarks, we show that our approach reduces response length by over 50% while maintaining or even improving the original accuracy. Furthermore, qualitative analysis reveals that our method curbs redundant reasoning patterns such as excessive subgoal setting and verification, leading to structurally refined outputs rather than naive truncation. We also identify that efficiency gains are accompanied by reduced interpretability: models trained with AALC omit some narrative framing and explanatory context. These findings highlight the potential of reward-based strategies to guide LRMs toward more efficient, generalizable reasoning paths."
+  },
+  {
+    "title": "Learning Instruction-Following Policies through Open-Ended Instruction Relabeling with Large Language Models",
+    "url": "http://arxiv.org/abs/2506.20061v1",
+    "arxiv_id": "2506.20061v1",
+    "authors": [
+      "Zhicheng Zhang",
+      "Ziyan Wang",
+      "Yali Du",
+      "Fei Fang"
+    ],
+    "published": "2025-06-24T23:49:28+00:00",
+    "summary": "Developing effective instruction-following policies in reinforcement learning remains challenging due to the reliance on extensive human-labeled instruction datasets and the difficulty of learning from sparse rewards. In this paper, we propose a novel approach that leverages the capabilities of large language models (LLMs) to automatically generate open-ended instructions retrospectively from previously collected agent trajectories. Our core idea is to employ LLMs to relabel unsuccessful trajectories by identifying meaningful subtasks the agent has implicitly accomplished, thereby enriching the agent's training data and substantially alleviating reliance on human annotations. Through this open-ended instruction relabeling, we efficiently learn a unified instruction-following policy capable of handling diverse tasks within a single policy. We empirically evaluate our proposed method in the challenging Craftax environment, demonstrating clear improvements in sample efficiency, instruction coverage, and overall policy performance compared to state-of-the-art baselines. Our results highlight the effectiveness of utilizing LLM-guided open-ended instruction relabeling to enhance instruction-following reinforcement learning."
+  },
+  {
+    "title": "DiaLLMs: EHR Enhanced Clinical Conversational System for Clinical Test Recommendation and Diagnosis Prediction",
+    "url": "http://arxiv.org/abs/2506.20059v1",
+    "arxiv_id": "2506.20059v1",
+    "authors": [
+      "Weijieying Ren",
+      "Tianxiang Zhao",
+      "Lei Wang",
+      "Tianchun Wang",
+      "Vasant Honavar"
+    ],
+    "published": "2025-06-24T23:47:21+00:00",
+    "summary": "Recent advances in Large Language Models (LLMs) have led to remarkable progresses in medical consultation. However, existing medical LLMs overlook the essential role of Electronic Health Records (EHR) and focus primarily on diagnosis recommendation, limiting their clinical applicability. We propose DiaLLM, the first medical LLM that integrates heterogeneous EHR data into clinically grounded dialogues, enabling clinical test recommendation, result interpretation, and diagnosis prediction to better align with real-world medical practice. To construct clinically grounded dialogues from EHR, we design a Clinical Test Reference (CTR) strategy that maps each clinical code to its corresponding description and classifies test results as \"normal\" or \"abnormal\". Additionally, DiaLLM employs a reinforcement learning framework for evidence acquisition and automated diagnosis. To handle the large action space, we introduce a reject sampling strategy to reduce redundancy and improve exploration efficiency. Furthermore, a confirmation reward and a class-sensitive diagnosis reward are designed to guide accurate diagnosis prediction. Extensive experimental results demonstrate that DiaLLM outperforms baselines in clinical test recommendation and diagnosis prediction."
+  },
+  {
+    "title": "Machine-Learning-Assisted Photonic Device Development: A Multiscale Approach from Theory to Characterization",
+    "url": "http://arxiv.org/abs/2506.20056v1",
+    "arxiv_id": "2506.20056v1",
+    "authors": [
+      "Yuheng Chen",
+      "Alexander Montes McNeil",
+      "Taehyuk Park",
+      "Blake A. Wilson",
+      "Vaishnavi Iyer",
+      "Michael Bezick",
+      "Jae-Ik Choi",
+      "Rohan Ojha",
+      "Pravin Mahendran",
+      "Daksh Kumar Singh",
+      "Geetika Chitturi",
+      "Peigang Chen",
+      "Trang Do",
+      "Alexander V. Kildishev",
+      "Vladimir M. Shalaev",
+      "Michael Moebius",
+      "Wenshan Cai",
+      "Yongmin Liu",
+      "Alexandra Boltasseva"
+    ],
+    "published": "2025-06-24T23:32:54+00:00",
+    "summary": "Photonic device development (PDD) has achieved remarkable success in designing and implementing new devices for controlling light across various wavelengths, scales, and applications, including telecommunications, imaging, sensing, and quantum information processing. PDD is an iterative, five-step process that consists of: i) deriving device behavior from design parameters, ii) simulating device performance, iii) finding the optimal candidate designs from simulations, iv) fabricating the optimal device, and v) measuring device performance. Classically, all these steps involve Bayesian optimization, material science, control theory, and direct physics-driven numerical methods. However, many of these techniques are computationally intractable, monetarily costly, or difficult to implement at scale. In addition, PDD suffers from large optimization landscapes, uncertainties in structural or optical characterization, and difficulties in implementing robust fabrication processes. However, the advent of machine learning over the past decade has provided novel, data-driven strategies for tackling these challenges, including surrogate estimators for speeding up computations, generative modeling for noisy measurement modeling and data augmentation, reinforcement learning for fabrication, and active learning for experimental physical discovery. In this review, we present a comprehensive perspective on these methods to enable machine-learning-assisted PDD (ML-PDD) for efficient design optimization with powerful generative models, fast simulation and characterization modeling under noisy measurements, and reinforcement learning for fabrication. This review will provide researchers from diverse backgrounds with valuable insights into this emerging topic, fostering interdisciplinary efforts to accelerate the development of complex photonic devices and systems."
+  },
+  {
+    "title": "A Principled Path to Fitted Distributional Evaluation",
+    "url": "http://arxiv.org/abs/2506.20048v1",
+    "arxiv_id": "2506.20048v1",
+    "authors": [
+      "Sungee Hong",
+      "Jiayi Wang",
+      "Zhengling Qi",
+      "Raymond Ka Wai Wong"
+    ],
+    "published": "2025-06-24T23:08:56+00:00",
+    "summary": "In reinforcement learning, distributional off-policy evaluation (OPE) focuses on estimating the return distribution of a target policy using offline data collected under a different policy. This work focuses on extending the widely used fitted-Q evaluation -- developed for expectation-based reinforcement learning -- to the distributional OPE setting. We refer to this extension as fitted distributional evaluation (FDE). While only a few related approaches exist, there remains no unified framework for designing FDE methods. To fill this gap, we present a set of guiding principles for constructing theoretically grounded FDE methods. Building on these principles, we develop several new FDE methods with convergence analysis and provide theoretical justification for existing methods, even in non-tabular environments. Extensive experiments, including simulations on linear quadratic regulators and Atari games, demonstrate the superior performance of the FDE methods."
+  },
+  {
+    "title": "Learning Bilateral Team Formation in Cooperative Multi-Agent Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2506.20039v1",
+    "arxiv_id": "2506.20039v1",
+    "authors": [
+      "Koorosh Moslemi",
+      "Chi-Guhn Lee"
+    ],
+    "published": "2025-06-24T22:40:05+00:00",
+    "summary": "Team formation and the dynamics of team-based learning have drawn significant interest in the context of Multi-Agent Reinforcement Learning (MARL). However, existing studies primarily focus on unilateral groupings, predefined teams, or fixed-population settings, leaving the effects of algorithmic bilateral grouping choices in dynamic populations underexplored. To address this gap, we introduce a framework for learning two-sided team formation in dynamic multi-agent systems. Through this study, we gain insight into what algorithmic properties in bilateral team formation influence policy performance and generalization. We validate our approach using widely adopted multi-agent scenarios, demonstrating competitive performance and improved generalization in most scenarios."
+  },
+  {
+    "title": "Hierarchical Reinforcement Learning and Value Optimization for Challenging Quadruped Locomotion",
+    "url": "http://arxiv.org/abs/2506.20036v1",
+    "arxiv_id": "2506.20036v1",
+    "authors": [
+      "Jeremiah Coholich",
+      "Muhammad Ali Murtaza",
+      "Seth Hutchinson",
+      "Zsolt Kira"
+    ],
+    "published": "2025-06-24T22:19:15+00:00",
+    "summary": "We propose a novel hierarchical reinforcement learning framework for quadruped locomotion over challenging terrain. Our approach incorporates a two-layer hierarchy in which a high-level policy (HLP) selects optimal goals for a low-level policy (LLP). The LLP is trained using an on-policy actor-critic RL algorithm and is given footstep placements as goals. We propose an HLP that does not require any additional training or environment samples and instead operates via an online optimization process over the learned value function of the LLP. We demonstrate the benefits of this framework by comparing it with an end-to-end reinforcement learning (RL) approach. We observe improvements in its ability to achieve higher rewards with fewer collisions across an array of different terrains, including terrains more difficult than any encountered during training."
+  },
+  {
+    "title": "TRACED: Transition-aware Regret Approximation with Co-learnability for Environment Design",
+    "url": "http://arxiv.org/abs/2506.19997v1",
+    "arxiv_id": "2506.19997v1",
+    "authors": [
+      "Geonwoo Cho",
+      "Jaegyun Im",
+      "Jihwan Lee",
+      "Hojun Yi",
+      "Sejin Kim",
+      "Sundong Kim"
+    ],
+    "published": "2025-06-24T20:29:24+00:00",
+    "summary": "Generalizing deep reinforcement learning agents to unseen environments remains a significant challenge. One promising solution is Unsupervised Environment Design (UED), a co-evolutionary framework in which a teacher adaptively generates tasks with high learning potential, while a student learns a robust policy from this evolving curriculum. Existing UED methods typically measure learning potential via regret, the gap between optimal and current performance, approximated solely by value-function loss. Building on these approaches, we introduce the transition prediction error as an additional term in our regret approximation. To capture how training on one task affects performance on others, we further propose a lightweight metric called co-learnability. By combining these two measures, we present Transition-aware Regret Approximation with Co-learnability for Environment Design (TRACED). Empirical evaluations show that TRACED yields curricula that improve zero-shot generalization across multiple benchmarks while requiring up to 2x fewer environment interactions than strong baselines. Ablation studies confirm that the transition prediction error drives rapid complexity ramp-up and that co-learnability delivers additional gains when paired with the transition prediction error. These results demonstrate how refined regret approximation and explicit modeling of task relationships can be leveraged for sample-efficient curriculum design in UED."
+  },
+  {
+    "title": "A Comparative Analysis of Reinforcement Learning and Conventional Deep Learning Approaches for Bearing Fault Diagnosis",
+    "url": "http://arxiv.org/abs/2506.19929v1",
+    "arxiv_id": "2506.19929v1",
+    "authors": [
+      "Efe \u00c7ak\u0131r",
+      "Patrick Dumond"
+    ],
+    "published": "2025-06-24T18:06:57+00:00",
+    "summary": "Bearing faults in rotating machinery can lead to significant operational disruptions and maintenance costs. Modern methods for bearing fault diagnosis rely heavily on vibration analysis and machine learning techniques, which often require extensive labeled data and may not adapt well to dynamic environments. This study explores the feasibility of reinforcement learning (RL), specifically Deep Q-Networks (DQNs), for bearing fault classification tasks in machine condition monitoring to enhance the accuracy and adaptability of bearing fault diagnosis. The results demonstrate that while RL models developed in this study can match the performance of traditional supervised learning models under controlled conditions, they excel in adaptability when equipped with optimized reward structures. However, their computational demands highlight areas for further improvement. These findings demonstrate RL's potential to complement traditional methods, paving the way for adaptive diagnostic frameworks."
+  },
+  {
     "title": "JoyAgents-R1: Joint Evolution Dynamics for Versatile Multi-LLM Agents with Reinforcement Learning",
     "url": "http://arxiv.org/abs/2506.19846v1",
     "arxiv_id": "2506.19846v1",
