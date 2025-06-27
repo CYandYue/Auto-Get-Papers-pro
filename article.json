@@ -1,5 +1,350 @@
 [
   {
+    "title": "Joint Scheduling of DER under Demand Charges: Structure and Approximation",
+    "url": "http://arxiv.org/abs/2506.21510v1",
+    "arxiv_id": "2506.21510v1",
+    "authors": [
+      "Ruixiao Yang",
+      "Gulai Shen",
+      "Ahmed S. Alahmed",
+      "Chuchu Fan"
+    ],
+    "published": "2025-06-26T17:35:55+00:00",
+    "summary": "We study the joint scheduling of behind-the-meter distributed energy resources (DERs), including flexible loads, renewable generation, and battery energy storage systems, under net energy metering frameworks with demand charges. The problem is formulated as a stochastic dynamic program aimed at maximizing expected operational surplus while accounting for renewable generation uncertainty. We analytically characterize the structure of the optimal control policy and show that it admits a threshold-based form. However, due to the strong temporal coupling of the storage and demand charge constraints, the number of conditional branches in the policy scales combinatorially with the scheduling horizon, as it requires a look-ahead over future states. To overcome the high computational complexity in the general formulation, an efficient approximation algorithm is proposed, which searches for the peak demand under a mildly relaxed problem. We show that the algorithm scales linearly with the scheduling horizon. Extensive simulations using two open-source datasets validate the proposed algorithm and compare its performance against different DER control strategies, including a reinforcement learning-based one. Under varying storage and tariff parameters, the results show that the proposed algorithm outperforms various benchmarks in achieving a relatively small solution gap compared to the theoretical upper bound."
+  },
+  {
+    "title": "Enhancing User Engagement in Socially-Driven Dialogue through Interactive LLM Alignments",
+    "url": "http://arxiv.org/abs/2506.21497v1",
+    "arxiv_id": "2506.21497v1",
+    "authors": [
+      "Jiashuo Wang",
+      "Kaitao Song",
+      "Chunpu Xu",
+      "Changhe Song",
+      "Yang Xiao",
+      "Dongsheng Li",
+      "Lili Qiu",
+      "Wenjie Li"
+    ],
+    "published": "2025-06-26T17:26:17+00:00",
+    "summary": "Enhancing user engagement through interactions plays an essential role in socially-driven dialogues. While prior works have optimized models to reason over relevant knowledge or plan a dialogue act flow, the relationship between user engagement and knowledge or dialogue acts is subtle and does not guarantee user engagement in socially-driven dialogues. To this end, we enable interactive LLMs to learn user engagement by leveraging signals from the future development of conversations. Specifically, we adopt a more direct and relevant indicator of user engagement, i.e., the user's reaction related to dialogue intention after the interaction, as a reward to align interactive LLMs. To achieve this, we develop a user simulator to interact with target interactive LLMs and explore interactions between the user and the interactive LLM system via \\textit{i$\\times$MCTS} (\\textit{M}onte \\textit{C}arlo \\textit{T}ree \\textit{S}earch for \\textit{i}nteraction). In this way, we collect a dataset containing pairs of higher and lower-quality experiences using \\textit{i$\\times$MCTS}, and align interactive LLMs for high-level user engagement by direct preference optimization (DPO) accordingly. Experiments conducted on two socially-driven dialogue scenarios (emotional support conversations and persuasion for good) demonstrate that our method effectively enhances user engagement in interactive LLMs."
+  },
+  {
+    "title": "Bridging Offline and Online Reinforcement Learning for LLMs",
+    "url": "http://arxiv.org/abs/2506.21495v1",
+    "arxiv_id": "2506.21495v1",
+    "authors": [
+      "Jack Lanchantin",
+      "Angelica Chen",
+      "Janice Lan",
+      "Xian Li",
+      "Swarnadeep Saha",
+      "Tianlu Wang",
+      "Jing Xu",
+      "Ping Yu",
+      "Weizhe Yuan",
+      "Jason E Weston",
+      "Sainbayar Sukhbaatar",
+      "Ilia Kulikov"
+    ],
+    "published": "2025-06-26T17:25:49+00:00",
+    "summary": "We investigate the effectiveness of reinforcement learning methods for finetuning large language models when transitioning from offline to semi-online to fully online regimes for both verifiable and non-verifiable tasks. Our experiments cover training on verifiable math as well as non-verifiable instruction following with a set of benchmark evaluations for both. Across these settings, we extensively compare online and semi-online Direct Preference Optimization and Group Reward Policy Optimization objectives, and surprisingly find similar performance and convergence between these variants, which all strongly outperform offline methods. We provide a detailed analysis of the training dynamics and hyperparameter selection strategies to achieve optimal results. Finally, we show that multi-tasking with verifiable and non-verifiable rewards jointly yields improved performance across both task types."
+  },
+  {
+    "title": "Reinforcement Learning for Optimal Control of Spin Magnetometers",
+    "url": "http://arxiv.org/abs/2506.21475v1",
+    "arxiv_id": "2506.21475v1",
+    "authors": [
+      "Logan W. Cooke",
+      "Stefanie Czischek"
+    ],
+    "published": "2025-06-26T17:04:51+00:00",
+    "summary": "Quantum optimal control in the presence of decoherence is difficult, particularly when not all Hamiltonian parameters are known precisely, as in quantum sensing applications. In this context, maximizing the sensitivity of the system is the objective, for which the optimal target state or unitary transformations are unknown, especially in the case of multi-parameter estimation. Here, we investigate the use of reinforcement learning (RL), specifically the soft actor-critic (SAC) algorithm, for problems in quantum optimal control. We adopt a spin-based magnetometer as a benchmarking system for the efficacy of the SAC algorithm. In such systems, the magnitude of a background magnetic field acting on a spin can be determined via projective measurements. The precision of the determined magnitude can be optimized by applying pulses of transverse fields with different strengths. We train an RL agent on numerical simulations of the spin system to determine a transverse-field pulse sequence that optimizes the precision and compare it to existing sensing strategies. We evaluate the agent's performance against various Hamiltonian parameters, including values not seen in training, to investigate the agent's ability to generalize to different situations. We find that the RL agents are sensitive to certain parameters of the system, such as the pulse duration and the purity of the initial state, but overall are able to generalize well, supporting the use of RL in quantum optimal control settings."
+  },
+  {
+    "title": "Optimising 4th-Order Runge-Kutta Methods: A Dynamic Heuristic Approach for Efficiency and Low Storage",
+    "url": "http://arxiv.org/abs/2506.21465v1",
+    "arxiv_id": "2506.21465v1",
+    "authors": [
+      "Gavin Lee Goodship",
+      "Luis Miralles-Pechuan",
+      "Stephen O'Sullivan"
+    ],
+    "published": "2025-06-26T16:51:22+00:00",
+    "summary": "Extended Stability Runge-Kutta (ESRK) methods are crucial for solving large-scale computational problems in science and engineering, including weather forecasting, aerodynamic analysis, and complex biological modelling. However, balancing accuracy, stability, and computational efficiency remains challenging, particularly for high-order, low-storage schemes. This study introduces a hybrid Genetic Algorithm (GA) and Reinforcement Learning (RL) approach for automated heuristic discovery, optimising low-storage ESRK methods. Unlike traditional approaches that rely on manually designed heuristics or exhaustive numerical searches, our method leverages GA-driven mutations for search-space exploration and an RL-inspired state transition mechanism to refine heuristic selection dynamically. This enables systematic parameter reduction, preserving fourth-order accuracy while significantly improving computational efficiency.The proposed GA-RL heuristic optimisation framework is validated through rigorous testing on benchmark problems, including the 1D and 2D Brusselator systems and the steady-state Navier-Stokes equations. The best-performing heuristic achieves a 25\\% reduction in IPOPT runtime compared to traditional ESRK optimisation processes while maintaining numerical stability and accuracy. These findings demonstrate the potential of adaptive heuristic discovery to improve resource efficiency in high-fidelity simulations and broaden the applicability of low-storage Runge-Kutta methods in real-world computational fluid dynamics, physics simulations, and other demanding fields. This work establishes a new paradigm in heuristic optimisation for numerical methods, opening pathways for further exploration using Deep RL and AutoML-based heuristic search"
+  },
+  {
+    "title": "Spatial Mental Modeling from Limited Views",
+    "url": "http://arxiv.org/abs/2506.21458v1",
+    "arxiv_id": "2506.21458v1",
+    "authors": [
+      "Baiqiao Yin",
+      "Qineng Wang",
+      "Pingyue Zhang",
+      "Jianshu Zhang",
+      "Kangrui Wang",
+      "Zihan Wang",
+      "Jieyu Zhang",
+      "Keshigeyan Chandrasegaran",
+      "Han Liu",
+      "Ranjay Krishna",
+      "Saining Xie",
+      "Manling Li",
+      "Jiajun Wu",
+      "Li Fei-Fei"
+    ],
+    "published": "2025-06-26T16:38:19+00:00",
+    "summary": "Can Vision Language Models (VLMs) imagine the full scene from just a few views, like humans do? Humans form spatial mental models, internal representations of unseen space, to reason about layout, perspective, and motion. Our new MindCube benchmark with 21,154 questions across 3,268 images exposes this critical gap, where existing VLMs exhibit near-random performance. Using MindCube, we systematically evaluate how well VLMs build robust spatial mental models through representing positions (cognitive mapping), orientations (perspective-taking), and dynamics (mental simulation for \"what-if\" movements). We then explore three approaches to help VLMs approximate spatial mental models, including unseen intermediate views, natural language reasoning chains, and cognitive maps. The significant improvement comes from a synergistic approach, \"map-then-reason\", that jointly trains the model to first generate a cognitive map and then reason upon it. By training models to reason over these internal maps, we boosted accuracy from 37.8% to 60.8% (+23.0%). Adding reinforcement learning pushed performance even further to 70.7% (+32.9%). Our key insight is that such scaffolding of spatial mental models, actively constructing and utilizing internal structured spatial representations with flexible reasoning processes, significantly improves understanding of unobservable space."
+  },
+  {
+    "title": "Flow-Based Single-Step Completion for Efficient and Expressive Policy Learning",
+    "url": "http://arxiv.org/abs/2506.21427v1",
+    "arxiv_id": "2506.21427v1",
+    "authors": [
+      "Prajwal Koirala",
+      "Cody Fleming"
+    ],
+    "published": "2025-06-26T16:09:53+00:00",
+    "summary": "Generative models such as diffusion and flow-matching offer expressive policies for offline reinforcement learning (RL) by capturing rich, multimodal action distributions, but their iterative sampling introduces high inference costs and training instability due to gradient propagation across sampling steps. We propose the \\textit{Single-Step Completion Policy} (SSCP), a generative policy trained with an augmented flow-matching objective to predict direct completion vectors from intermediate flow samples, enabling accurate, one-shot action generation. In an off-policy actor-critic framework, SSCP combines the expressiveness of generative models with the training and inference efficiency of unimodal policies, without requiring long backpropagation chains. Our method scales effectively to offline, offline-to-online, and online RL settings, offering substantial gains in speed and adaptability over diffusion-based baselines. We further extend SSCP to goal-conditioned RL, enabling flat policies to exploit subgoal structures without explicit hierarchical inference. SSCP achieves strong results across standard offline RL and behavior cloning benchmarks, positioning it as a versatile, expressive, and efficient framework for deep RL and sequential decision-making."
+  },
+  {
+    "title": "rQdia: Regularizing Q-Value Distributions With Image Augmentation",
+    "url": "http://arxiv.org/abs/2506.21367v1",
+    "arxiv_id": "2506.21367v1",
+    "authors": [
+      "Sam Lerman",
+      "Jing Bi"
+    ],
+    "published": "2025-06-26T15:16:35+00:00",
+    "summary": "rQdia regularizes Q-value distributions with augmented images in pixel-based deep reinforcement learning. With a simple auxiliary loss, that equalizes these distributions via MSE, rQdia boosts DrQ and SAC on 9/12 and 10/12 tasks respectively in the MuJoCo Continuous Control Suite from pixels, and Data-Efficient Rainbow on 18/26 Atari Arcade environments. Gains are measured in both sample efficiency and longer-term training. Moreover, the addition of rQdia finally propels model-free continuous control from pixels over the state encoding baseline."
+  },
+  {
+    "title": "CoPa-SG: Dense Scene Graphs with Parametric and Proto-Relations",
+    "url": "http://arxiv.org/abs/2506.21357v1",
+    "arxiv_id": "2506.21357v1",
+    "authors": [
+      "Julian Lorenz",
+      "Mrunmai Phatak",
+      "Robin Sch\u00f6n",
+      "Katja Ludwig",
+      "Nico H\u00f6rmann",
+      "Annemarie Friedrich",
+      "Rainer Lienhart"
+    ],
+    "published": "2025-06-26T15:09:23+00:00",
+    "summary": "2D scene graphs provide a structural and explainable framework for scene understanding. However, current work still struggles with the lack of accurate scene graph data. To overcome this data bottleneck, we present CoPa-SG, a synthetic scene graph dataset with highly precise ground truth and exhaustive relation annotations between all objects. Moreover, we introduce parametric and proto-relations, two new fundamental concepts for scene graphs. The former provides a much more fine-grained representation than its traditional counterpart by enriching relations with additional parameters such as angles or distances. The latter encodes hypothetical relations in a scene graph and describes how relations would form if new objects are placed in the scene. Using CoPa-SG, we compare the performance of various scene graph generation models. We demonstrate how our new relation types can be integrated in downstream applications to enhance planning and reasoning capabilities."
+  },
+  {
+    "title": "HumanOmniV2: From Understanding to Omni-Modal Reasoning with Context",
+    "url": "http://arxiv.org/abs/2506.21277v1",
+    "arxiv_id": "2506.21277v1",
+    "authors": [
+      "Qize Yang",
+      "Shimin Yao",
+      "Weixuan Chen",
+      "Shenghao Fu",
+      "Detao Bai",
+      "Jiaxing Zhao",
+      "Boyuan Sun",
+      "Bowen Yin",
+      "Xihan Wei",
+      "Jingren Zhou"
+    ],
+    "published": "2025-06-26T14:01:03+00:00",
+    "summary": "With the rapid evolution of multimodal large language models, the capacity to deeply understand and interpret human intentions has emerged as a critical capability, which demands detailed and thoughtful reasoning. In recent studies, Reinforcement Learning (RL) has demonstrated potential in enhancing the reasoning capabilities of Large Language Models (LLMs). Nonetheless, the challenges associated with adapting RL to multimodal data and formats remain largely unaddressed. In this paper, we identify two issues in existing multimodal reasoning models: insufficient global context understanding and shortcut problems. Insufficient context understanding can happen when a model misinterprets multimodal context, resulting in incorrect answers. The shortcut problem occurs when the model overlooks crucial clues in multimodal inputs, directly addressing the query without considering the multimodal information. To tackle these issues, we emphasize the necessity for the model to reason with a clear understanding of the global context within multimodal inputs. This global context understanding can effectively prevent the model from overlooking key multimodal cues and ensure a thorough reasoning process. To ensure the accurate interpretation of multimodal context information, we implement a context reward judged by a large language model, alongside format and accuracy rewards. Additionally, to improve complex reasoning capability, we employ the LLM to assess the logical reward, determining whether the reasoning process successfully integrates multimodal information with logical methods. We also introduce a reasoning omni-modal benchmark, IntentBench, aimed at evaluating models in understanding complex human intentions and emotions. Our proposed method demonstrates advanced performance across multiple omni-modal benchmarks compared to other open-source omni-modal models."
+  },
+  {
+    "title": "Agent-RewardBench: Towards a Unified Benchmark for Reward Modeling across Perception, Planning, and Safety in Real-World Multimodal Agents",
+    "url": "http://arxiv.org/abs/2506.21252v1",
+    "arxiv_id": "2506.21252v1",
+    "authors": [
+      "Tianyi Men",
+      "Zhuoran Jin",
+      "Pengfei Cao",
+      "Yubo Chen",
+      "Kang Liu",
+      "Jun Zhao"
+    ],
+    "published": "2025-06-26T13:36:12+00:00",
+    "summary": "As Multimodal Large Language Models (MLLMs) advance, multimodal agents show promise in real-world tasks like web navigation and embodied intelligence. However, due to limitations in a lack of external feedback, these agents struggle with self-correction and generalization. A promising approach is to use reward models as external feedback, but there is no clear on how to select reward models for agents. Thus, there is an urgent need to build a reward bench targeted at agents. To address these challenges, we propose Agent-RewardBench, a benchmark designed to evaluate reward modeling ability in MLLMs. The benchmark is characterized by three key features: (1) Multiple dimensions and real-world agent scenarios evaluation. It covers perception, planning, and safety with 7 scenarios; (2) Step-level reward evaluation. It allows for the assessment of agent capabilities at the individual steps of a task, providing a more granular view of performance during the planning process; and (3) Appropriately difficulty and high-quality. We carefully sample from 10 diverse models, difficulty control to maintain task challenges, and manual verification to ensure the integrity of the data. Experiments demonstrate that even state-of-the-art multimodal models show limited performance, highlighting the need for specialized training in agent reward modeling. Code is available at github."
+  },
+  {
+    "title": "Diverse Mini-Batch Selection in Reinforcement Learning for Efficient Chemical Exploration in de novo Drug Design",
+    "url": "http://arxiv.org/abs/2506.21158v1",
+    "arxiv_id": "2506.21158v1",
+    "authors": [
+      "Hampus Gummesson Svensson",
+      "Ola Engkvist",
+      "Jon Paul Janet",
+      "Christian Tyrchan",
+      "Morteza Haghir Chehreghani"
+    ],
+    "published": "2025-06-26T11:31:30+00:00",
+    "summary": "In many real-world applications, evaluating the goodness of instances is often costly and time-consuming, e.g., human feedback and physics simulations, in contrast to proposing new instances. In particular, this is even more critical in reinforcement learning, as new interactions with the environment (i.e., new instances) need to be evaluated to provide a reward signal to learn from. As sufficient exploration is crucial, learning from a diverse mini-batch can have a large impact and help mitigate mode collapse. In this paper, we introduce diverse mini-batch selection for reinforcement learning and propose to use determinantal point processes for this task. We study this framework in the context of a real-world problem, namely drug discovery. We experimentally study how our proposed framework can improve the effectiveness of chemical exploration in de novo drug design, where finding diverse and high-quality solutions is essential. We conduct a comprehensive evaluation with three well-established molecular generation oracles over numerous generative steps. Our experiments conclude that our diverse mini-batch selection framework can substantially improve the diversity of the solutions, while still obtaining solutions of high quality. In drug discovery, such outcome can potentially lead to fulfilling unmet medication needs faster."
+  },
+  {
+    "title": "Curriculum-Guided Antifragile Reinforcement Learning for Secure UAV Deconfliction under Observation-Space Attacks",
+    "url": "http://arxiv.org/abs/2506.21129v1",
+    "arxiv_id": "2506.21129v1",
+    "authors": [
+      "Deepak Kumar Panda",
+      "Adolfo Perrusquia",
+      "Weisi Guo"
+    ],
+    "published": "2025-06-26T10:10:41+00:00",
+    "summary": "Reinforcement learning (RL) policies deployed in safety-critical systems, such as unmanned aerial vehicle (UAV) navigation in dynamic airspace, are vulnerable to out-ofdistribution (OOD) adversarial attacks in the observation space. These attacks induce distributional shifts that significantly degrade value estimation, leading to unsafe or suboptimal decision making rendering the existing policy fragile. To address this vulnerability, we propose an antifragile RL framework designed to adapt against curriculum of incremental adversarial perturbations. The framework introduces a simulated attacker which incrementally increases the strength of observation-space perturbations which enables the RL agent to adapt and generalize across a wider range of OOD observations and anticipate previously unseen attacks. We begin with a theoretical characterization of fragility, formally defining catastrophic forgetting as a monotonic divergence in value function distributions with increasing perturbation strength. Building on this, we define antifragility as the boundedness of such value shifts and derive adaptation conditions under which forgetting is stabilized. Our method enforces these bounds through iterative expert-guided critic alignment using Wasserstein distance minimization across incrementally perturbed observations. We empirically evaluate the approach in a UAV deconfliction scenario involving dynamic 3D obstacles. Results show that the antifragile policy consistently outperforms standard and robust RL baselines when subjected to both projected gradient descent (PGD) and GPS spoofing attacks, achieving up to 15% higher cumulative reward and over 30% fewer conflict events. These findings demonstrate the practical and theoretical viability of antifragile reinforcement learning for secure and resilient decision-making in environments with evolving threat scenarios."
+  },
+  {
+    "title": "Robust Policy Switching for Antifragile Reinforcement Learning for UAV Deconfliction in Adversarial Environments",
+    "url": "http://arxiv.org/abs/2506.21127v1",
+    "arxiv_id": "2506.21127v1",
+    "authors": [
+      "Deepak Kumar Panda",
+      "Weisi Guo"
+    ],
+    "published": "2025-06-26T10:06:29+00:00",
+    "summary": "The increasing automation of navigation for unmanned aerial vehicles (UAVs) has exposed them to adversarial attacks that exploit vulnerabilities in reinforcement learning (RL) through sensor manipulation. Although existing robust RL methods aim to mitigate such threats, their effectiveness has limited generalization to out-of-distribution shifts from the optimal value distribution, as they are primarily designed to handle fixed perturbation. To address this limitation, this paper introduces an antifragile RL framework that enhances adaptability to broader distributional shifts by incorporating a switching mechanism based on discounted Thompson sampling (DTS). This mechanism dynamically selects among multiple robust policies to minimize adversarially induced state-action-value distribution shifts. The proposed approach first derives a diverse ensemble of action robust policies by accounting for a range of perturbations in the policy space. These policies are then modeled as a multiarmed bandit (MAB) problem, where DTS optimally selects policies in response to nonstationary Bernoulli rewards, effectively adapting to evolving adversarial strategies. Theoretical framework has also been provided where by optimizing the DTS to minimize the overall regrets due to distributional shift, results in effective adaptation against unseen adversarial attacks thus inducing antifragility. Extensive numerical simulations validate the effectiveness of the proposed framework in complex navigation environments with multiple dynamic three-dimensional obstacles and with stronger projected gradient descent (PGD) and spoofing attacks. Compared to conventional robust, non-adaptive RL methods, the antifragile approach achieves superior performance, demonstrating shorter navigation path lengths and a higher rate of conflict-free navigation trajectories compared to existing robust RL techniques"
+  },
+  {
+    "title": "GoIRL: Graph-Oriented Inverse Reinforcement Learning for Multimodal Trajectory Prediction",
+    "url": "http://arxiv.org/abs/2506.21121v1",
+    "arxiv_id": "2506.21121v1",
+    "authors": [
+      "Muleilan Pei",
+      "Shaoshuai Shi",
+      "Lu Zhang",
+      "Peiliang Li",
+      "Shaojie Shen"
+    ],
+    "published": "2025-06-26T09:46:53+00:00",
+    "summary": "Trajectory prediction for surrounding agents is a challenging task in autonomous driving due to its inherent uncertainty and underlying multimodality. Unlike prevailing data-driven methods that primarily rely on supervised learning, in this paper, we introduce a novel Graph-oriented Inverse Reinforcement Learning (GoIRL) framework, which is an IRL-based predictor equipped with vectorized context representations. We develop a feature adaptor to effectively aggregate lane-graph features into grid space, enabling seamless integration with the maximum entropy IRL paradigm to infer the reward distribution and obtain the policy that can be sampled to induce multiple plausible plans. Furthermore, conditioned on the sampled plans, we implement a hierarchical parameterized trajectory generator with a refinement module to enhance prediction accuracy and a probability fusion strategy to boost prediction confidence. Extensive experimental results showcase our approach not only achieves state-of-the-art performance on the large-scale Argoverse & nuScenes motion forecasting benchmarks but also exhibits superior generalization abilities compared to existing supervised models."
+  },
+  {
+    "title": "Homogenization of Multi-agent Learning Dynamics in Finite-state Markov Games",
+    "url": "http://arxiv.org/abs/2506.21079v1",
+    "arxiv_id": "2506.21079v1",
+    "authors": [
+      "Yann Kerzreho"
+    ],
+    "published": "2025-06-26T08:08:49+00:00",
+    "summary": "This paper introduces a new approach for approximating the learning dynamics of multiple reinforcement learning (RL) agents interacting in a finite-state Markov game. The idea is to rescale the learning process by simultaneously reducing the learning rate and increasing the update frequency, effectively treating the agent's parameters as a slow-evolving variable influenced by the fast-mixing game state. Under mild assumptions-ergodicity of the state process and continuity of the updates-we prove the convergence of this rescaled process to an ordinary differential equation (ODE). This ODE provides a tractable, deterministic approximation of the agent's learning dynamics. An implementation of the framework is available at\\,: https://github.com/yannKerzreho/MarkovGameApproximation"
+  },
+  {
+    "title": "Efficient Skill Discovery via Regret-Aware Optimization",
+    "url": "http://arxiv.org/abs/2506.21044v1",
+    "arxiv_id": "2506.21044v1",
+    "authors": [
+      "He Zhang",
+      "Ming Zhou",
+      "Shaopeng Zhai",
+      "Ying Sun",
+      "Hui Xiong"
+    ],
+    "published": "2025-06-26T06:45:59+00:00",
+    "summary": "Unsupervised skill discovery aims to learn diverse and distinguishable behaviors in open-ended reinforcement learning. For existing methods, they focus on improving diversity through pure exploration, mutual information optimization, and learning temporal representation. Despite that they perform well on exploration, they remain limited in terms of efficiency, especially for the high-dimensional situations. In this work, we frame skill discovery as a min-max game of skill generation and policy learning, proposing a regret-aware method on top of temporal representation learning that expands the discovered skill space along the direction of upgradable policy strength. The key insight behind the proposed method is that the skill discovery is adversarial to the policy learning, i.e., skills with weak strength should be further explored while less exploration for the skills with converged strength. As an implementation, we score the degree of strength convergence with regret, and guide the skill discovery with a learnable skill generator. To avoid degeneration, skill generation comes from an up-gradable population of skill generators. We conduct experiments on environments with varying complexities and dimension sizes. Empirical results show that our method outperforms baselines in both efficiency and diversity. Moreover, our method achieves a 15% zero shot improvement in high-dimensional environments, compared to existing methods."
+  },
+  {
+    "title": "Strict Subgoal Execution: Reliable Long-Horizon Planning in Hierarchical Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2506.21039v1",
+    "arxiv_id": "2506.21039v1",
+    "authors": [
+      "Jaebak Hwang",
+      "Sanghyeon Lee",
+      "Jeongmo Kim",
+      "Seungyul Han"
+    ],
+    "published": "2025-06-26T06:35:42+00:00",
+    "summary": "Long-horizon goal-conditioned tasks pose fundamental challenges for reinforcement learning (RL), particularly when goals are distant and rewards are sparse. While hierarchical and graph-based methods offer partial solutions, they often suffer from subgoal infeasibility and inefficient planning. We introduce Strict Subgoal Execution (SSE), a graph-based hierarchical RL framework that enforces single-step subgoal reachability by structurally constraining high-level decision-making. To enhance exploration, SSE employs a decoupled exploration policy that systematically traverses underexplored regions of the goal space. Furthermore, a failure-aware path refinement, which refines graph-based planning by dynamically adjusting edge costs according to observed low-level success rates, thereby improving subgoal reliability. Experimental results across diverse long-horizon benchmarks demonstrate that SSE consistently outperforms existing goal-conditioned RL and hierarchical RL approaches in both efficiency and success rate."
+  },
+  {
+    "title": "RL-Selector: Reinforcement Learning-Guided Data Selection via Redundancy Assessment",
+    "url": "http://arxiv.org/abs/2506.21037v1",
+    "arxiv_id": "2506.21037v1",
+    "authors": [
+      "Suorong Yang",
+      "Peijia Li",
+      "Furao Shen",
+      "Jian Zhao"
+    ],
+    "published": "2025-06-26T06:28:56+00:00",
+    "summary": "Modern deep architectures often rely on large-scale datasets, but training on these datasets incurs high computational and storage overhead. Real-world datasets often contain substantial redundancies, prompting the need for more data-efficient training paradigms. Data selection has shown promise to mitigate redundancy by identifying the most representative samples, thereby reducing training costs without compromising performance. Existing methods typically rely on static scoring metrics or pretrained models, overlooking the combined effect of selected samples and their evolving dynamics during training. We introduce the concept of epsilon-sample cover, which quantifies sample redundancy based on inter-sample relationships, capturing the intrinsic structure of the dataset. Based on this, we reformulate data selection as a reinforcement learning (RL) process and propose RL-Selector, where a lightweight RL agent optimizes the selection policy by leveraging epsilon-sample cover derived from evolving dataset distribution as a reward signal. Extensive experiments across benchmark datasets and diverse architectures demonstrate that our method consistently outperforms existing state-of-the-art baselines. Models trained with our selected datasets show enhanced generalization performance with improved training efficiency."
+  },
+  {
+    "title": "Quantum Reinforcement Learning Trading Agent for Sector Rotation in the Taiwan Stock Market",
+    "url": "http://arxiv.org/abs/2506.20930v1",
+    "arxiv_id": "2506.20930v1",
+    "authors": [
+      "Chi-Sheng Chen",
+      "Xinyu Zhang",
+      "Ya-Chuan Chen"
+    ],
+    "published": "2025-06-26T01:29:19+00:00",
+    "summary": "We propose a hybrid quantum-classical reinforcement learning framework for sector rotation in the Taiwan stock market. Our system employs Proximal Policy Optimization (PPO) as the backbone algorithm and integrates both classical architectures (LSTM, Transformer) and quantum-enhanced models (QNN, QRWKV, QASA) as policy and value networks. An automated feature engineering pipeline extracts financial indicators from capital share data to ensure consistent model input across all configurations. Empirical backtesting reveals a key finding: although quantum-enhanced models consistently achieve higher training rewards, they underperform classical models in real-world investment metrics such as cumulative return and Sharpe ratio. This discrepancy highlights a core challenge in applying reinforcement learning to financial domains -- namely, the mismatch between proxy reward signals and true investment objectives. Our analysis suggests that current reward designs may incentivize overfitting to short-term volatility rather than optimizing risk-adjusted returns. This issue is compounded by the inherent expressiveness and optimization instability of quantum circuits under Noisy Intermediate-Scale Quantum (NISQ) constraints. We discuss the implications of this reward-performance gap and propose directions for future improvement, including reward shaping, model regularization, and validation-based early stopping. Our work offers a reproducible benchmark and critical insights into the practical challenges of deploying quantum reinforcement learning in real-world finance."
+  },
+  {
+    "title": "Explainable AI for Radar Resource Management: Modified LIME in Deep Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2506.20916v1",
+    "arxiv_id": "2506.20916v1",
+    "authors": [
+      "Ziyang Lu",
+      "M. Cenk Gursoy",
+      "Chilukuri K. Mohan",
+      "Pramod K. Varshney"
+    ],
+    "published": "2025-06-26T00:49:25+00:00",
+    "summary": "Deep reinforcement learning has been extensively studied in decision-making processes and has demonstrated superior performance over conventional approaches in various fields, including radar resource management (RRM). However, a notable limitation of neural networks is their ``black box\" nature and recent research work has increasingly focused on explainable AI (XAI) techniques to describe the rationale behind neural network decisions. One promising XAI method is local interpretable model-agnostic explanations (LIME). However, the sampling process in LIME ignores the correlations between features. In this paper, we propose a modified LIME approach that integrates deep learning (DL) into the sampling process, which we refer to as DL-LIME. We employ DL-LIME within deep reinforcement learning for radar resource management. Numerical results show that DL-LIME outperforms conventional LIME in terms of both fidelity and task performance, demonstrating superior performance with both metrics. DL-LIME also provides insights on which factors are more important in decision making for radar resource management."
+  },
+  {
+    "title": "Optimal Single-Policy Sample Complexity and Transient Coverage for Average-Reward Offline RL",
+    "url": "http://arxiv.org/abs/2506.20904v1",
+    "arxiv_id": "2506.20904v1",
+    "authors": [
+      "Matthew Zurek",
+      "Guy Zamir",
+      "Yudong Chen"
+    ],
+    "published": "2025-06-26T00:22:39+00:00",
+    "summary": "We study offline reinforcement learning in average-reward MDPs, which presents increased challenges from the perspectives of distribution shift and non-uniform coverage, and has been relatively underexamined from a theoretical perspective. While previous work obtains performance guarantees under single-policy data coverage assumptions, such guarantees utilize additional complexity measures which are uniform over all policies, such as the uniform mixing time. We develop sharp guarantees depending only on the target policy, specifically the bias span and a novel policy hitting radius, yielding the first fully single-policy sample complexity bound for average-reward offline RL. We are also the first to handle general weakly communicating MDPs, contrasting restrictive structural assumptions made in prior work. To achieve this, we introduce an algorithm based on pessimistic discounted value iteration enhanced by a novel quantile clipping technique, which enables the use of a sharper empirical-span-based penalty function. Our algorithm also does not require any prior parameter knowledge for its implementation. Remarkably, we show via hard examples that learning under our conditions requires coverage assumptions beyond the stationary distribution of the target policy, distinguishing single-policy complexity measures from previously examined cases. We also develop lower bounds nearly matching our main result."
+  },
+  {
+    "title": "Complex Model Transformations by Reinforcement Learning with Uncertain Human Guidance",
+    "url": "http://arxiv.org/abs/2506.20883v1",
+    "arxiv_id": "2506.20883v1",
+    "authors": [
+      "Kyanna Dagenais",
+      "Istvan David"
+    ],
+    "published": "2025-06-25T23:10:12+00:00",
+    "summary": "Model-driven engineering problems often require complex model transformations (MTs), i.e., MTs that are chained in extensive sequences. Pertinent examples of such problems include model synchronization, automated model repair, and design space exploration. Manually developing complex MTs is an error-prone and often infeasible process. Reinforcement learning (RL) is an apt way to alleviate these issues. In RL, an autonomous agent explores the state space through trial and error to identify beneficial sequences of actions, such as MTs. However, RL methods exhibit performance issues in complex problems. In these situations, human guidance can be of high utility. In this paper, we present an approach and technical framework for developing complex MT sequences through RL, guided by potentially uncertain human advice. Our framework allows user-defined MTs to be mapped onto RL primitives, and executes them as RL programs to find optimal MT sequences. Our evaluation shows that human guidance, even if uncertain, substantially improves RL performance, and results in more efficient development of complex MTs. Through a trade-off between the certainty and timeliness of human advice, our method takes a step towards RL-driven human-in-the-loop engineering methods."
+  },
+  {
+    "title": "Multi-Objective Reinforcement Learning for Cognitive Radar Resource Management",
+    "url": "http://arxiv.org/abs/2506.20853v1",
+    "arxiv_id": "2506.20853v1",
+    "authors": [
+      "Ziyang Lu",
+      "Subodh Kalia",
+      "M. Cenk Gursoy",
+      "Chilukuri K. Mohan",
+      "Pramod K. Varshney"
+    ],
+    "published": "2025-06-25T21:56:30+00:00",
+    "summary": "The time allocation problem in multi-function cognitive radar systems focuses on the trade-off between scanning for newly emerging targets and tracking the previously detected targets. We formulate this as a multi-objective optimization problem and employ deep reinforcement learning to find Pareto-optimal solutions and compare deep deterministic policy gradient (DDPG) and soft actor-critic (SAC) algorithms. Our results demonstrate the effectiveness of both algorithms in adapting to various scenarios, with SAC showing improved stability and sample efficiency compared to DDPG. We further employ the NSGA-II algorithm to estimate an upper bound on the Pareto front of the considered problem. This work contributes to the development of more efficient and adaptive cognitive radar systems capable of balancing multiple competing objectives in dynamic environments."
+  },
+  {
+    "title": "Learning-Based Resource Management in Integrated Sensing and Communication Systems",
+    "url": "http://arxiv.org/abs/2506.20849v1",
+    "arxiv_id": "2506.20849v1",
+    "authors": [
+      "Ziyang Lu",
+      "M. Cenk Gursoy",
+      "Chilukuri K. Mohan",
+      "Pramod K. Varshney"
+    ],
+    "published": "2025-06-25T21:44:07+00:00",
+    "summary": "In this paper, we tackle the task of adaptive time allocation in integrated sensing and communication systems equipped with radar and communication units. The dual-functional radar-communication system's task involves allocating dwell times for tracking multiple targets and utilizing the remaining time for data transmission towards estimated target locations. We introduce a novel constrained deep reinforcement learning (CDRL) approach, designed to optimize resource allocation between tracking and communication under time budget constraints, thereby enhancing target communication quality. Our numerical results demonstrate the efficiency of our proposed CDRL framework, confirming its ability to maximize communication quality in highly dynamic environments while adhering to time constraints."
+  },
+  {
     "title": "MMSearch-R1: Incentivizing LMMs to Search",
     "url": "http://arxiv.org/abs/2506.20670v1",
     "arxiv_id": "2506.20670v1",
@@ -55,6 +400,22 @@
     ],
     "published": "2025-06-25T17:35:47+00:00",
     "summary": "Diffusion large language models (dLLMs) are compelling alternatives to autoregressive (AR) models because their denoising models operate over the entire sequence. The global planning and iterative refinement features of dLLMs are particularly useful for code generation. However, current training and inference mechanisms for dLLMs in coding are still under-explored. To demystify the decoding behavior of dLLMs and unlock their potential for coding, we systematically investigate their denoising processes and reinforcement learning (RL) methods. We train a 7B dLLM, \\textbf{DiffuCoder}, on 130B tokens of code. Using this model as a testbed, we analyze its decoding behavior, revealing how it differs from that of AR models: (1) dLLMs can decide how causal their generation should be without relying on semi-AR decoding, and (2) increasing the sampling temperature diversifies not only token choices but also their generation order. This diversity creates a rich search space for RL rollouts. For RL training, to reduce the variance of token log-likelihood estimates and maintain training efficiency, we propose \\textbf{coupled-GRPO}, a novel sampling scheme that constructs complementary mask noise for completions used in training. In our experiments, coupled-GRPO significantly improves DiffuCoder's performance on code generation benchmarks (+4.4\\% on EvalPlus) and reduces reliance on AR causal during decoding. Our work provides deeper insight into the machinery of dLLM generation and offers an effective, diffusion-native RL training framework. https://github.com/apple/ml-diffucoder."
+  },
+  {
+    "title": "DiffuCoder: Understanding and Improving Masked Diffusion Models for Code Generation",
+    "url": "http://arxiv.org/abs/2506.20639v2",
+    "arxiv_id": "2506.20639v2",
+    "authors": [
+      "Shansan Gong",
+      "Ruixiang Zhang",
+      "Huangjie Zheng",
+      "Jiatao Gu",
+      "Navdeep Jaitly",
+      "Lingpeng Kong",
+      "Yizhe Zhang"
+    ],
+    "published": "2025-06-25T17:35:47+00:00",
+    "summary": "Diffusion large language models (dLLMs) are compelling alternatives to autoregressive (AR) models because their denoising models operate over the entire sequence. The global planning and iterative refinement features of dLLMs are particularly useful for code generation. However, current training and inference mechanisms for dLLMs in coding are still under-explored. To demystify the decoding behavior of dLLMs and unlock their potential for coding, we systematically investigate their denoising processes and reinforcement learning (RL) methods. We train a 7B dLLM, \\textbf{DiffuCoder}, on 130B tokens of code. Using this model as a testbed, we analyze its decoding behavior, revealing how it differs from that of AR models: (1) dLLMs can decide how causal their generation should be without relying on semi-AR decoding, and (2) increasing the sampling temperature diversifies not only token choices but also their generation order. This diversity creates a rich search space for RL rollouts. For RL training, to reduce the variance of token log-likelihood estimates and maintain training efficiency, we propose \\textbf{coupled-GRPO}, a novel sampling scheme that constructs complementary mask noise for completions used in training. In our experiments, coupled-GRPO significantly improves DiffuCoder's performance on code generation benchmarks (+4.4\\% on EvalPlus) and reduces reliance on AR bias during decoding. Our work provides deeper insight into the machinery of dLLM generation and offers an effective, diffusion-native RL training framework. https://github.com/apple/ml-diffucoder."
   },
   {
     "title": "PLoP: Precise LoRA Placement for Efficient Finetuning of Large Models",
@@ -262,6 +623,19 @@
     ],
     "published": "2025-06-25T08:36:12+00:00",
     "summary": "Recent Large Language Models (LLMs) have significantly advanced natural language processing and automated decision-making. However, these models still encounter difficulties when performing complex reasoning tasks involving logical deduction and systematic planning, primarily due to their reliance on implicit statistical relationships without structured knowledge representation.Inspired by cognitive science and neurosymbolic AI, we introduce a novel approach to enhance LLMs through explicit structured reasoning. First, we convert unstructured data into structured formats by explicitly annotating reasoning steps. We then employ this structured dataset to train LLMs through Supervised Fine-Tuning (SFT). Additionally, we enhance the structured reasoning capabilities of LLMs using Group Relative Policy Optimization (GRPO), incorporating two innovative algorithms--MAX-Flow and Longest Common Subsequence (LCS)--which notably improve reasoning effectiveness and reduce computational complexity. Experimental results from fine-tuning a DeepSeek-R1-Distill-Qwen-1.5B model demonstrate concise reasoning, robust performance across various scenarios, and improved compatibility with optimization techniques, validating the efficacy of structured reasoning integration in LLMs."
+  },
+  {
+    "title": "E-ABIN: an Explainable module for Anomaly detection in BIological Networks",
+    "url": "http://arxiv.org/abs/2506.20693v1",
+    "arxiv_id": "2506.20693v1",
+    "authors": [
+      "Ugo Lomoio",
+      "Tommaso Mazza",
+      "Pierangelo Veltri",
+      "Pietro Hiram Guzzi"
+    ],
+    "published": "2025-06-25T08:25:17+00:00",
+    "summary": "The increasing availability of large-scale omics data calls for robust analytical frameworks capable of handling complex gene expression datasets while offering interpretable results. Recent advances in artificial intelligence have enabled the identification of aberrant molecular patterns distinguishing disease states from healthy controls. Coupled with improvements in model interpretability, these tools now support the identification of genes potentially driving disease phenotypes. However, current approaches to gene anomaly detection often remain limited to single datasets and lack accessible graphical interfaces. Here, we introduce E-ABIN, a general-purpose, explainable framework for Anomaly detection in Biological Networks. E-ABIN combines classical machine learning and graph-based deep learning techniques within a unified, user-friendly platform, enabling the detection and interpretation of anomalies from gene expression or methylation-derived networks. By integrating algorithms such as Support Vector Machines, Random Forests, Graph Autoencoders (GAEs), and Graph Adversarial Attributed Networks (GAANs), E-ABIN ensures a high predictive accuracy while maintaining interpretability. We demonstrate the utility of E-ABIN through case studies of bladder cancer and coeliac disease, where it effectively uncovers biologically relevant anomalies and offers insights into disease mechanisms."
   },
   {
     "title": "Seeing is Believing? Mitigating OCR Hallucinations in Multimodal Large Language Models",
