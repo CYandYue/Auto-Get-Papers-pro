@@ -35,8 +35,8 @@ QUERY_TERMS = {
     ],
     'exclude': []
 }
-MAX_NEW_PAPERS = 50
-LATEST_PAPERS_COUNT = 20
+MAX_NEW_PAPERS = 10
+LATEST_PAPERS_COUNT = 5
 
 def extract_arxiv_id(url):
     """从arXiv URL中提取基础ID（不含版本号）"""
