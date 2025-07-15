@@ -29,15 +29,9 @@ QUERY_TERMS = {
         # "o1",
         # "o3",
         # "o3-mini",
-        "reinforcement learning",
-        "embodied intelligence",
-        "Long Chain-of-Thought Reasoning",
-        "CoT-enabled models",
         "scene graph",
-        "GAE",
-        "PPO",
-        "DPO",
-        "GRPO",
+        "concept graph",
+        "uncertainty",
     ],
     'exclude': []
 }
