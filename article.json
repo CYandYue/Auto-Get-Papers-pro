@@ -1,5 +1,145 @@
 [
   {
+    "title": "Missing baryons recovered: a measurement of the gas fraction in galaxies and groups with the kinematic Sunyaev-Zel'dovich effect and CMB lensing",
+    "url": "http://arxiv.org/abs/2507.14136v1",
+    "arxiv_id": "2507.14136v1",
+    "authors": [
+      "Boryana Hadzhiyska",
+      "Simone Ferraro",
+      "Gerrit S. Farren",
+      "Noah Sailer",
+      "Rongpu Zhou"
+    ],
+    "published": "2025-07-18T17:59:24+00:00",
+    "summary": "We present new constraints on the halo masses and matter density profiles of DESI galaxy groups by cross-correlating samples of Luminous Red Galaxies (LRGs) and Bright Galaxy Survey (BGS) galaxies with the publicly available CMB lensing convergence map from ACT DR6. This provides an independent, lensing-based calibration of halo masses, complementary to methods relying on clustering or dynamics. We derive constraints on the mean halo mass for three DESI-selected samples, finding $\\log(M_{\\rm halo}/(M_\\odot/h)) \\approx 13.18$, 13.03 and 13.02 for the Main LRG, Extended LRG, and BGS samples, respectively. Using a halo model approach, we also compare the projected galaxy-matter density profiles with previously reported gas profiles inferred from measurements of the kinematic Sunyaev-Zel'dovich (kSZ) effect. This work addresses one of the key uncertainties in interpreting kSZ signals -- the unknown host halo mass distribution -- by providing an independent and consistent mass calibration. The agreement between the gas and total mass profiles at large aperture suggests that sufficiently far from the group center (2--3 virial radii), we recover all the baryons, offering a resolution to the 'missing baryon' problem. We further study the cumulative gas fractions for all galaxies as well as for the most massive galaxy groups in the sample ($\\log(M_{\\rm halo}/(M_\\odot/h)) \\approx 13.5$), finding values that are physically sensible and in agreement with previous findings using kSZ and X-ray data: compared to the TNG300 simulation, the observed gas fractions are systematically lower at fixed radius by $\\gtrsim$4$\\sigma$, providing compelling, independent evidence for stronger baryonic feedback in the real Universe. These findings highlight the power of combining CMB lensing with galaxy surveys to probe the interplay between baryons and dark matter in group-sized halos."
+  },
+  {
+    "title": "On the relation between perspective-neutral, algebraic, and effective quantum reference frames",
+    "url": "http://arxiv.org/abs/2507.14131v1",
+    "arxiv_id": "2507.14131v1",
+    "authors": [
+      "Philipp A. Hoehn",
+      "Julian De Vuyst",
+      "Artur Tsobanjan"
+    ],
+    "published": "2025-07-18T17:58:04+00:00",
+    "summary": "The framework of internal quantum reference frames (QRFs) constitutes a universal toolset for dealing with symmetries in quantum theory and has led to new revelations in quantum gravity, gauge theories and foundational physics. Multiple approaches have emerged, sometimes differing in scope and the way symmetries are implemented, raising the question as to their relation. Here, we investigate the relation between three approaches to QRFs for gauge symmetries, namely the effective semiclassical, algebraic, and perspective-neutral (PN) approaches. Rather than constructing Hilbert spaces, as the PN approach, the effective approach is based on a quantum phase space parametrized by expectation values and fluctuations, while the emphasis of the algebraic approach is on the state space of complex linear functionals on a kinematical algebra. Nevertheless, external frame information is treated as gauge in all three formalisms, manifested in constraints on states and algebra. We show that these three approaches are, in fact, equivalent for ideal QRFs, distinguished by sharp orientations, which is the previous setting of the first two approaches. Our demonstration pertains to single constraints, including relativistic ones, and encompasses QRF changes. In particular, the QRF transformations of the PN framework agree semiclassically with those of the older effective approach, by which it was inspired. As a physical application, we explore the QRF covariance of uncertainties and fluctuations, which turn out to be frame-dependent. This is particularly well-suited for the effective and algebraic approaches, for which these quantities form a natural basis. Finally, we pave the way towards extending these two approaches to non-ideal QRFs by studying the projection and gauge-fixing operations of the Page-Wootters formalism, built into the PN framework, on algebraic states."
+  },
+  {
+    "title": "Integrating Forecasting Models Within Steady-State Analysis and Optimization",
+    "url": "http://arxiv.org/abs/2507.14117v1",
+    "arxiv_id": "2507.14117v1",
+    "authors": [
+      "Aayushya Agarwal",
+      "Larry Pileggi"
+    ],
+    "published": "2025-07-18T17:48:04+00:00",
+    "summary": "Extreme weather variations and the increasing unpredictability of load behavior make it difficult to determine power grid dispatches that are robust to uncertainties. While machine learning (ML) methods have improved the ability to model uncertainty caused by loads and renewables, accurately integrating these forecasts and their sensitivities into steady-state analyses and decision-making strategies remains an open challenge. Toward this goal, we present a generalized methodology that seamlessly embeds ML-based forecasting engines within physics-based power flow and grid optimization tools. By coupling physics-based grid modeling with black-box ML methods, we accurately capture the behavior and sensitivity of loads and weather events by directly integrating the inputs and outputs of trained ML forecasting models into the numerical methods of power flow and grid optimization. Without fitting surrogate load models, our approach obtains the sensitivities directly from data to accurately predict the response of forecasted devices to changes in the grid. Our approach combines the sensitivities of forecasted devices attained via backpropagation and the sensitivities of physics-defined grid devices. We demonstrate the efficacy of our method by showcasing improvements in sensitivity calculations and leveraging them to design a robust power dispatch that improves grid reliability under stochastic weather events. Our approach enables the computation of system sensitivities to exogenous factors which supports broader analyses that improve grid reliability in the presence of load variability and extreme weather conditions."
+  },
+  {
+    "title": "UGPL: Uncertainty-Guided Progressive Learning for Evidence-Based Classification in Computed Tomography",
+    "url": "http://arxiv.org/abs/2507.14102v1",
+    "arxiv_id": "2507.14102v1",
+    "authors": [
+      "Shravan Venkatraman",
+      "Pavan Kumar S",
+      "Rakesh Raj Madavan",
+      "Chandrakala S"
+    ],
+    "published": "2025-07-18T17:30:56+00:00",
+    "summary": "Accurate classification of computed tomography (CT) images is essential for diagnosis and treatment planning, but existing methods often struggle with the subtle and spatially diverse nature of pathological features. Current approaches typically process images uniformly, limiting their ability to detect localized abnormalities that require focused analysis. We introduce UGPL, an uncertainty-guided progressive learning framework that performs a global-to-local analysis by first identifying regions of diagnostic ambiguity and then conducting detailed examination of these critical areas. Our approach employs evidential deep learning to quantify predictive uncertainty, guiding the extraction of informative patches through a non-maximum suppression mechanism that maintains spatial diversity. This progressive refinement strategy, combined with an adaptive fusion mechanism, enables UGPL to integrate both contextual information and fine-grained details. Experiments across three CT datasets demonstrate that UGPL consistently outperforms state-of-the-art methods, achieving improvements of 3.29%, 2.46%, and 8.08% in accuracy for kidney abnormality, lung cancer, and COVID-19 detection, respectively. Our analysis shows that the uncertainty-guided component provides substantial benefits, with performance dramatically increasing when the full progressive learning pipeline is implemented. Our code is available at: https://github.com/shravan-18/UGPL"
+  },
+  {
+    "title": "Context-Aware Behavior Learning with Heuristic Motion Memory for Underwater Manipulation",
+    "url": "http://arxiv.org/abs/2507.14099v1",
+    "arxiv_id": "2507.14099v1",
+    "authors": [
+      "Markus Buchholz",
+      "Ignacio Carlucho",
+      "Michele Grimaldi",
+      "Maria Koskinopoulou",
+      "Yvan R. Petillot"
+    ],
+    "published": "2025-07-18T17:25:54+00:00",
+    "summary": "Autonomous motion planning is critical for efficient and safe underwater manipulation in dynamic marine environments. Current motion planning methods often fail to effectively utilize prior motion experiences and adapt to real-time uncertainties inherent in underwater settings. In this paper, we introduce an Adaptive Heuristic Motion Planner framework that integrates a Heuristic Motion Space (HMS) with Bayesian Networks to enhance motion planning for autonomous underwater manipulation. Our approach employs the Probabilistic Roadmap (PRM) algorithm within HMS to optimize paths by minimizing a composite cost function that accounts for distance, uncertainty, energy consumption, and execution time. By leveraging HMS, our framework significantly reduces the search space, thereby boosting computational performance and enabling real-time planning capabilities. Bayesian Networks are utilized to dynamically update uncertainty estimates based on real-time sensor data and environmental conditions, thereby refining the joint probability of path success. Through extensive simulations and real-world test scenarios, we showcase the advantages of our method in terms of enhanced performance and robustness. This probabilistic approach significantly advances the capability of autonomous underwater robots, ensuring optimized motion planning in the face of dynamic marine challenges."
+  },
+  {
+    "title": "Global Bayesian Analysis of $\\mathrm{J}/\u03c8$ Photoproduction on Proton and Lead Targets",
+    "url": "http://arxiv.org/abs/2507.14087v1",
+    "arxiv_id": "2507.14087v1",
+    "authors": [
+      "Heikki M\u00e4ntysaari",
+      "Hendrik Roch",
+      "Farid Salazar",
+      "Bj\u00f6rn Schenke",
+      "Chun Shen",
+      "Wenbin Zhao"
+    ],
+    "published": "2025-07-18T17:12:19+00:00",
+    "summary": "We perform a global Bayesian analysis of diffractive $\\mathrm{J}/\\psi$ production in $\\gamma+p$ and $\\gamma+\\mathrm{Pb}$ collisions using a color glass condensate (CGC) based calculation framework. As past calculations have shown that CGC-based models typically overpredict the $\\mathrm{J}/\\psi$ production in $\\gamma+\\mathrm{Pb}$ collisions at high center of mass energy, we address the question of whether it is possible to describe coherent and incoherent diffractive $\\mathrm{J}/\\psi$ data from $\\gamma+p$ collisions at HERA and the LHC, and from $\\gamma+\\mathrm{Pb}$ collisions at the LHC simultaneously. Our results indicate that a simultaneous description of $\\gamma+p$ and $\\gamma+\\mathrm{Pb}$ data is challenging, with results improving when an overall $K$-factor -- scaling $\\gamma+p$ and $\\gamma+\\mathrm{Pb}$ cross sections to absorb model uncertainties -- is introduced."
+  },
+  {
+    "title": "Direct Measurement of the Accretion Disk Formed in Prompt Collapse Mergers with Future Gravitational-Wave Observatories",
+    "url": "http://arxiv.org/abs/2507.14071v1",
+    "arxiv_id": "2507.14071v1",
+    "authors": [
+      "Arnab Dhani",
+      "Alessandro Camilletti",
+      "Alessio Ludovico De Santis",
+      "Andrea Cozzumbo",
+      "David Radice",
+      "Domenico Logoteta",
+      "Albino Perego",
+      "Jan Harms",
+      "Marica Branchesi"
+    ],
+    "published": "2025-07-18T16:49:25+00:00",
+    "summary": "The production site of heavy r-process elements, such as Gold and Uranium, is uncertain. Neutron star mergers are the only astrophysical phenomenon in which we have witnessed their formation. However, the amount of heavy elements resulting from the merger remains poorly constrained, mainly due to uncertainties on the mass and angular momentum of the disk formed in the merger remnant. Matter accretion from the disk is also thought to power gamma ray-bursts. We discover from numerical relativity simulations that the accretion disk influences the ringdown gravitational-wave signal produced by binaries that promptly collapse to black-hole at merger. We propose a method to \\emph{directly} measure the mass of the accretion disk left during black hole formation in binary mergers using observatories such as the Einstein Telescope or Cosmic Explorer with a relative error of 10\\% for binaries at a distance of up to 30~Mpc, corresponding to an event rate of 0.001 to 0.25 events per year."
+  },
+  {
+    "title": "VLA-Mark: A cross modal watermark for large vision-language alignment model",
+    "url": "http://arxiv.org/abs/2507.14067v1",
+    "arxiv_id": "2507.14067v1",
+    "authors": [
+      "Shuliang Liu",
+      "Qi Zheng",
+      "Jesse Jiaxi Xu",
+      "Yibo Yan",
+      "He Geng",
+      "Aiwei Liu",
+      "Peijie Jiang",
+      "Jia Liu",
+      "Yik-Cheung Tam",
+      "Xuming Hu"
+    ],
+    "published": "2025-07-18T16:44:41+00:00",
+    "summary": "Vision-language models demand watermarking solutions that protect intellectual property without compromising multimodal coherence. Existing text watermarking methods disrupt visual-textual alignment through biased token selection and static strategies, leaving semantic-critical concepts vulnerable. We propose VLA-Mark, a vision-aligned framework that embeds detectable watermarks while preserving semantic fidelity through cross-modal coordination. Our approach integrates multiscale visual-textual alignment metrics, combining localized patch affinity, global semantic coherence, and contextual attention patterns, to guide watermark injection without model retraining. An entropy-sensitive mechanism dynamically balances watermark strength and semantic preservation, prioritizing visual grounding during low-uncertainty generation phases. Experiments show 7.4% lower PPL and 26.6% higher BLEU than conventional methods, with near-perfect detection (98.8% AUC). The framework demonstrates 96.1\\% attack resilience against attacks such as paraphrasing and synonym substitution, while maintaining text-visual consistency, establishing new standards for quality-preserving multimodal watermarking"
+  },
+  {
+    "title": "Noradrenergic-inspired gain modulation attenuates the stability gap in joint training",
+    "url": "http://arxiv.org/abs/2507.14056v1",
+    "arxiv_id": "2507.14056v1",
+    "authors": [
+      "Alejandro Rodriguez-Garcia",
+      "Anindya Ghosh",
+      "Srikanth Ramaswamy"
+    ],
+    "published": "2025-07-18T16:34:06+00:00",
+    "summary": "Recent studies in continual learning have identified a transient drop in performance on mastered tasks when assimilating new ones, known as the stability gap. Such dynamics contradict the objectives of continual learning, revealing a lack of robustness in mitigating forgetting, and notably, persisting even under an ideal joint-loss regime. Examining this gap within this idealized joint training context is critical to isolate it from other sources of forgetting. We argue that it reflects an imbalance between rapid adaptation and robust retention at task boundaries, underscoring the need to investigate mechanisms that reconcile plasticity and stability within continual learning frameworks. Biological brains navigate a similar dilemma by operating concurrently on multiple timescales, leveraging neuromodulatory signals to modulate synaptic plasticity. However, artificial networks lack native multitimescale dynamics, and although optimizers like momentum-SGD and Adam introduce implicit timescale regularization, they still exhibit stability gaps. Inspired by locus coeruleus mediated noradrenergic bursts, which transiently enhance neuronal gain under uncertainty to facilitate sensory assimilation, we propose uncertainty-modulated gain dynamics - an adaptive mechanism that approximates a two-timescale optimizer and dynamically balances integration of knowledge with minimal interference on previously consolidated information. We evaluate our mechanism on domain-incremental and class-incremental variants of the MNIST and CIFAR benchmarks under joint training, demonstrating that uncertainty-modulated gain dynamics effectively attenuate the stability gap. Finally, our analysis elucidates how gain modulation replicates noradrenergic functions in cortical circuits, offering mechanistic insights into reducing stability gaps and enhance performance in continual learning tasks."
+  },
+  {
+    "title": "Architecting Human-AI Cocreation for Technical Services -- Interaction Modes and Contingency Factors",
+    "url": "http://arxiv.org/abs/2507.14034v1",
+    "arxiv_id": "2507.14034v1",
+    "authors": [
+      "Jochen Wulf",
+      "Jurg Meierhofer",
+      "Frank Hannich"
+    ],
+    "published": "2025-07-18T16:06:03+00:00",
+    "summary": "Agentic AI systems, powered by Large Language Models (LLMs), offer transformative potential for value co-creation in technical services. However, persistent challenges like hallucinations and operational brittleness limit their autonomous use, creating a critical need for robust frameworks to guide human-AI collaboration. Drawing on established Human-AI teaming research and analogies from fields like autonomous driving, this paper develops a structured taxonomy of human-agent interaction. Based on case study research within technical support platforms, we propose a six-mode taxonomy that organizes collaboration across a spectrum of AI autonomy. This spectrum is anchored by the Human-Out-of-the-Loop (HOOTL) model for full automation and the Human-Augmented Model (HAM) for passive AI assistance. Between these poles, the framework specifies four distinct intermediate structures. These include the Human-in-Command (HIC) model, where AI proposals re-quire mandatory human approval, and the Human-in-the-Process (HITP) model for structured work-flows with deterministic human tasks. The taxonomy further delineates the Human-in-the-Loop (HITL) model, which facilitates agent-initiated escalation upon uncertainty, and the Human-on-the-Loop (HOTL) model, which enables discretionary human oversight of an autonomous AI. The primary contribution of this work is a comprehensive framework that connects this taxonomy to key contingency factors -- such as task complexity, operational risk, and system reliability -- and their corresponding conceptual architectures. By providing a systematic method for selecting and designing an appropriate level of human oversight, our framework offers practitioners a crucial tool to navigate the trade-offs between automation and control, thereby fostering the development of safer, more effective, and context-aware technical service systems."
+  },
+  {
     "title": "$\\texttt{raccoon}$: A Python package for removing wiggle artifacts in the JWST NIRSpec integral field spectroscopy",
     "url": "http://arxiv.org/abs/2507.13341v1",
     "arxiv_id": "2507.13341v1",
