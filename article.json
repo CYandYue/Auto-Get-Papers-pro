@@ -1,5 +1,134 @@
 [
   {
+    "title": "Beyond Binary Rewards: Training LMs to Reason About Their Uncertainty",
+    "url": "http://arxiv.org/abs/2507.16806v1",
+    "arxiv_id": "2507.16806v1",
+    "authors": [
+      "Mehul Damani",
+      "Isha Puri",
+      "Stewart Slocum",
+      "Idan Shenfeld",
+      "Leshem Choshen",
+      "Yoon Kim",
+      "Jacob Andreas"
+    ],
+    "published": "2025-07-22T17:56:01+00:00",
+    "summary": "When language models (LMs) are trained via reinforcement learning (RL) to generate natural language \"reasoning chains\", their performance improves on a variety of difficult question answering tasks. Today, almost all successful applications of RL for reasoning use binary reward functions that evaluate the correctness of LM outputs. Because such reward functions do not penalize guessing or low-confidence outputs, they often have the unintended side-effect of degrading calibration and increasing the rate at which LMs generate incorrect responses (or \"hallucinate\") in other problem domains. This paper describes RLCR (Reinforcement Learning with Calibration Rewards), an approach to training reasoning models that jointly improves accuracy and calibrated confidence estimation. During RLCR, LMs generate both predictions and numerical confidence estimates after reasoning. They are trained to optimize a reward function that augments a binary correctness score with a Brier score -- a scoring rule for confidence estimates that incentivizes calibrated prediction. We first prove that this reward function (or any analogous reward function that uses a bounded, proper scoring rule) yields models whose predictions are both accurate and well-calibrated. We next show that across diverse datasets, RLCR substantially improves calibration with no loss in accuracy, on both in-domain and out-of-domain evaluations -- outperforming both ordinary RL training and classifiers trained to assign post-hoc confidence scores. While ordinary RL hurts calibration, RLCR improves it. Finally, we demonstrate that verbalized confidence can be leveraged at test time to improve accuracy and calibration via confidence-weighted scaling methods. Our results show that explicitly optimizing for calibration can produce more generally reliable reasoning models."
+  },
+  {
+    "title": "Uncertainty-Aware Knowledge Transformers for Peer-to-Peer Energy Trading with Multi-Agent Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2507.16796v1",
+    "arxiv_id": "2507.16796v1",
+    "authors": [
+      "Mian Ibad Ali Shah",
+      "Enda Barrett",
+      "Karl Mason"
+    ],
+    "published": "2025-07-22T17:46:28+00:00",
+    "summary": "This paper presents a novel framework for Peer-to-Peer (P2P) energy trading that integrates uncertainty-aware prediction with multi-agent reinforcement learning (MARL), addressing a critical gap in current literature. In contrast to previous works relying on deterministic forecasts, the proposed approach employs a heteroscedastic probabilistic transformer-based prediction model called Knowledge Transformer with Uncertainty (KTU) to explicitly quantify prediction uncertainty, which is essential for robust decision-making in the stochastic environment of P2P energy trading. The KTU model leverages domain-specific features and is trained with a custom loss function that ensures reliable probabilistic forecasts and confidence intervals for each prediction. Integrating these uncertainty-aware forecasts into the MARL framework enables agents to optimize trading strategies with a clear understanding of risk and variability. Experimental results show that the uncertainty-aware Deep Q-Network (DQN) reduces energy purchase costs by up to 5.7% without P2P trading and 3.2% with P2P trading, while increasing electricity sales revenue by 6.4% and 44.7%, respectively. Additionally, peak hour grid demand is reduced by 38.8% without P2P and 45.6% with P2P. These improvements are even more pronounced when P2P trading is enabled, highlighting the synergy between advanced forecasting and market mechanisms for resilient, economically efficient energy communities."
+  },
+  {
+    "title": "Quantum teleportation of an elemental silicon nanophotonic CNOT gate",
+    "url": "http://arxiv.org/abs/2507.16783v1",
+    "arxiv_id": "2507.16783v1",
+    "authors": [
+      "Kai-Chi Chang",
+      "Xiang Cheng",
+      "Felix Ribuot-Hirsch",
+      "Murat Can Sarihan",
+      "Yujie Chen",
+      "Jaime Gonzalo Flor Flores",
+      "Mingbin Yu",
+      "Patrick Guo-Qiang Lo",
+      "Dim-Lee Kwong",
+      "Chee Wei Wong"
+    ],
+    "published": "2025-07-22T17:29:49+00:00",
+    "summary": "Large-scale quantum computers possess the capacity to effectively tackle practical problems that can be insurmountable for classical computers. The main challenge in building these quantum computers is to realize scalable modules for remote qubits and entanglement. By assembling small, specialized parts into a larger architecture, the modular approach mitigates complexity and uncertainty. Such a distributed architecture requires non-local quantum gate operations between remote qubits. An essential method for implementing such operations, known as quantum gate teleportation, requires only local operations, classical communication, and shared entanglement. Till today, the quantum gate teleportation using a photonic chip has remained elusive. Here we experimentally demonstrate the quantum teleportation of an on-chip controlled-NOT (CNOT) gate, assisted with the scalable silicon chip platform, high-fidelity local quantum logic gates, linear optical components, post-selected entanglement, and coincidence measurements from photonic qubits. First, we measure and characterize our teleported chip-scale CNOT gate with an average truth table fidelity of 93.1 +- 0.3%. Second, for different input polarization states, we obtain an average quantum state fidelity of 87.0 +- 2.2% with our teleported on-chip CNOT gate. Third, we use our non-local CNOT gate for remote entanglement creation of four Bell states, with an average quantum state fidelity of 86.2 +- 0.8%. Fourthly, we fully characterize our teleported on-chip CNOT gate with a quantum process fidelity 83.1 +- 2.0%, and an average non-local CNOT gate fidelity of 86.5 +- 2.2%. Our teleported photonic on-chip quantum logic gate could be extended both to multiple qubits and chip-scale modules towards fault-tolerant and large-scale distributed quantum computation."
+  },
+  {
+    "title": "A Partitioned Sparse Variational Gaussian Process for Fast, Distributed Spatial Modeling",
+    "url": "http://arxiv.org/abs/2507.16771v1",
+    "arxiv_id": "2507.16771v1",
+    "authors": [
+      "Michael Grosskopf",
+      "Kellin Rumsey",
+      "Ayan Biswas",
+      "Earl Lawrence"
+    ],
+    "published": "2025-07-22T17:20:07+00:00",
+    "summary": "The next generation of Department of Energy supercomputers will be capable of exascale computation. For these machines, far more computation will be possible than that which can be saved to disk. As a result, users will be unable to rely on post-hoc access to data for uncertainty quantification and other statistical analyses and there will be an urgent need for sophisticated machine learning algorithms which can be trained in situ. Algorithms deployed in this setting must be highly scalable, memory efficient and capable of handling data which is distributed across nodes as spatially contiguous partitions. One suitable approach involves fitting a sparse variational Gaussian process (SVGP) model independently and in parallel to each spatial partition. The resulting model is scalable, efficient and generally accurate, but produces the undesirable effect of constructing discontinuous response surfaces due to the disagreement between neighboring models at their shared boundary. In this paper, we extend this idea by allowing for a small amount of communication between neighboring spatial partitions which encourages better alignment of the local models, leading to smoother spatial predictions and a better fit in general. Due to our decentralized communication scheme, the proposed extension remains highly scalable and adds very little overhead in terms of computation (and none, in terms of memory). We demonstrate this Partitioned SVGP (PSVGP) approach for the Energy Exascale Earth System Model (E3SM) and compare the results to the independent SVGP case."
+  },
+  {
+    "title": "Planck constraints on the scale dependence of isotropic cosmic birefringence",
+    "url": "http://arxiv.org/abs/2507.16714v1",
+    "arxiv_id": "2507.16714v1",
+    "authors": [
+      "M. Ballardini",
+      "A. Gruppuso",
+      "S. Paradiso",
+      "S. S. Sirletti",
+      "P. Natoli"
+    ],
+    "published": "2025-07-22T15:50:28+00:00",
+    "summary": "The rotation of the linear polarisation plane of photons during propagation, also known as cosmic birefringence, is a powerful probe of parity-violating extensions of standard electromagnetism. Using Planck legacy data, we confirm previous estimates of the isotropic birefringence angle, finding $\\beta \\simeq 0.30 \\pm 0.05$ [deg] at 68% CL, not including the systematic error from the instrumental polarisation angle. If this is a genuine signal, it could be explained by theories of Chern--Simons-type coupled to electromagnetism, which could lead to a harmonic scale-dependent birefringence signal, if the hypothesis of an ultra-light (pseudo) scalar field does not hold. To investigate these models, we pursue two complementary approaches: first, we fit the birefringence angle estimated at different multipoles, $\\beta_{\\ell}$, with a power-law model and second, we perform a non-parametric Bayesian reconstruction of it. Both methods yield results consistent with a non-vanishing constant birefringence angle. The first method shows no significant dependence on the harmonic scale (up to $1.8\\sigma$ CL), while the second method demonstrates that a constant model is favored by Bayesian evidence. This conclusion is robust across all four published Planck CMB solutions. Finally, we forecast that upcoming CMB observations by Simons Observatory, LiteBIRD and a wishful CMB-Stage 4 experiment could reduce current uncertainties by a factor of approximately 7."
+  },
+  {
+    "title": "Adaptive Inventory Strategies using Deep Reinforcement Learning for Dynamic Agri-Food Supply Chains",
+    "url": "http://arxiv.org/abs/2507.16670v1",
+    "arxiv_id": "2507.16670v1",
+    "authors": [
+      "Amandeep Kaur",
+      "Gyan Prakash"
+    ],
+    "published": "2025-07-22T15:02:54+00:00",
+    "summary": "Agricultural products are often subject to seasonal fluctuations in production and demand. Predicting and managing inventory levels in response to these variations can be challenging, leading to either excess inventory or stockouts. Additionally, the coordination among stakeholders at various level of food supply chain is not considered in the existing body of literature. To bridge these research gaps, this study focuses on inventory management of agri-food products under demand and lead time uncertainties. By implementing effective inventory replenishment policy results in maximize the overall profit throughout the supply chain. However, the complexity of the problem increases due to these uncertainties and shelf-life of the product, that makes challenging to implement traditional approaches to generate optimal set of solutions. Thus, the current study propose a novel Deep Reinforcement Learning (DRL) algorithm that combines the benefits of both value- and policy-based DRL approaches for inventory optimization under uncertainties. The proposed algorithm can incentivize collaboration among stakeholders by aligning their interests and objectives through shared optimization goal of maximizing profitability along the agri-food supply chain while considering perishability, and uncertainty simultaneously. By selecting optimal order quantities with continuous action space, the proposed algorithm effectively addresses the inventory optimization challenges. To rigorously evaluate this algorithm, the empirical data from fresh agricultural products supply chain inventory is considered. Experimental results corroborate the improved performance of the proposed inventory replenishment policy under stochastic demand patterns and lead time scenarios. The research findings hold managerial implications for policymakers to manage the inventory of agricultural products more effectively under uncertainty."
+  },
+  {
+    "title": "FOGNITE: Federated Learning-Enhanced Fog-Cloud Architecture",
+    "url": "http://arxiv.org/abs/2507.16668v1",
+    "arxiv_id": "2507.16668v1",
+    "authors": [
+      "Somayeh Sobati-M"
+    ],
+    "published": "2025-07-22T15:01:16+00:00",
+    "summary": "Modern smart grids demand fast, intelligent, and energy-aware computing at the edge to manage real time fluctuations and ensure reliable operation. This paper introduces FOGNITE Fog-based Grid In intelligence with Neural Integration and Twin based Execution a next-generation fog cloud framework designed to enhance autonomy, resilience, and efficiency in distributed energy systems. FOGNITE combines three core components: federated learning, reinforcement learning, and digital twin validation. Each fog node trains a local CNN LSTM model on private energy consumption data, enabling predictive intelligence while preserving data privacy through federated aggregation. A reinforcement learning agent dynamically schedules tasks based on current system load and energy conditions, optimizing for performance under uncertainty.   To prevent unsafe or inefficient decisions, a hierarchical digital twin layer simulates potential actions before deployment, significantly reducing execution errors and energy waste. We evaluate FOGNITE on a real world testbed of Raspberry Pi devices, showing up to a 93.7% improvement in load balancing accuracy and a 63.2% reduction in energy waste compared to conventional architectures. By shifting smart grid control from reactive correction to proactive optimization, FOGNITE represents a step toward more intelligent, adaptive, and sustainable energy infrastructures"
+  },
+  {
+    "title": "A comparison between behavioral similarity methods vs standard deviation method in predicting time series dataset, case study of finance market",
+    "url": "http://arxiv.org/abs/2507.16655v1",
+    "arxiv_id": "2507.16655v1",
+    "authors": [
+      "Mahdi Goldani"
+    ],
+    "published": "2025-07-22T14:51:45+00:00",
+    "summary": "In statistical modeling, prediction and explanation are two fundamental objectives. When the primary goal is forecasting, it is important to account for the inherent uncertainty associated with estimating unknown outcomes. Traditionally, confidence intervals constructed using standard deviations have served as a formal means to quantify this uncertainty and evaluate the closeness of predicted values to their true counterparts. This approach reflects an implicit aim to capture the behavioral similarity between observed and estimated values. However, advances in similarity based approaches present promising alternatives to conventional variance based techniques, particularly in contexts characterized by large datasets or a high number of explanatory variables. This study aims to investigate which methods either traditional or similarity based are capable of producing narrower confidence intervals under comparable conditions, thereby offering more precise and informative intervals. The dataset utilized in this study consists of U.S. mega cap companies, comprising 42 firms. Due to the high number of features, interdependencies among predictors are common, therefore, Ridge Regression is applied to address this issue. The research findings indicate that variance based method and LCSS exhibit the highest coverage among the analyzed methods, although they produce broader intervals. Conversely, DTW, Hausdorff, and TWED deliver narrower intervals, positioning them as the most accurate methods, despite their medium coverage rates. Ultimately, the trade off between interval width and coverage underscores the necessity for context aware decision making when selecting similarity based methods for confidence interval estimation in time series analysis."
+  },
+  {
+    "title": "Bayesian Variational Inference for Mixed Data Mixture Models",
+    "url": "http://arxiv.org/abs/2507.16545v1",
+    "arxiv_id": "2507.16545v1",
+    "authors": [
+      "Junyang Wang",
+      "James Bennett",
+      "Victor Lhoste",
+      "Sarah Filippi"
+    ],
+    "published": "2025-07-22T12:54:03+00:00",
+    "summary": "Heterogeneous, mixed type datasets including both continuous and categorical variables are ubiquitous, and enriches data analysis by allowing for more complex relationships and interactions to be modelled. Mixture models offer a flexible framework for capturing the underlying heterogeneity and relationships in mixed type datasets. Most current approaches for modelling mixed data either forgo uncertainty quantification and only conduct point estimation, and some use MCMC which incurs a very high computational cost that is not scalable to large datasets. This paper develops a coordinate ascent variational inference algorithm (CAVI) for mixture models on mixed (continuous and categorical) data, which circumvents the high computational cost of MCMC while retaining uncertainty quantification. We demonstrate our approach through simulation studies as well as an applied case study of the NHANES risk factor dataset. In addition, we show that the posterior means from CAVI for this model converge to the true parameter value as the sample size n tends to infinity, providing theoretical justification for our method."
+  },
+  {
+    "title": "A Distributed Actor-Critic Algorithm for Fixed-Time Consensus in Nonlinear Multi-Agent Systems",
+    "url": "http://arxiv.org/abs/2507.16520v1",
+    "arxiv_id": "2507.16520v1",
+    "authors": [
+      "Aria Delshad",
+      "Maryam Babazadeh"
+    ],
+    "published": "2025-07-22T12:30:06+00:00",
+    "summary": "This paper proposes a reinforcement learning (RL)-based backstepping control strategy to achieve fixed time consensus in nonlinear multi-agent systems with strict feedback dynamics. Agents exchange only output information with their neighbors over a directed communication graph, without requiring full state measurements or symmetric communication. Achieving fixed time consensus, where convergence occurs within a pre-specified time bound that is independent of initial conditions is faced with significant challenges due to the presence of unknown nonlinearities, inter-agent couplings, and external disturbances. This work addresses these challenges by integrating actor critic reinforcement learning with a novel fixed time adaptation mechanism. Each agent employs an actor critic architecture supported by two estimator networks designed to handle system uncertainties and unknown perturbations. The adaptation laws are developed to ensure that all agents track the leader within a fixed time regardless of their initial conditions. The consensus and tracking errors are guaranteed to converge to a small neighborhood of the origin, with the convergence radius adjustable through control parameters. Simulation results demonstrate the effectiveness of the proposed approach and highlight its advantages over state-of-the-art methods in terms of convergence speed and robustness."
+  },
+  {
     "title": "Euclid preparation: Expected constraints on initial conditions",
     "url": "http://arxiv.org/abs/2507.15819v1",
     "arxiv_id": "2507.15819v1",
