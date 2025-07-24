@@ -1,5 +1,130 @@
 [
   {
+    "title": "A narrowband burst from FRB 20190520B simultaneously observed by FAST and Parkes",
+    "url": "http://arxiv.org/abs/2507.17696v1",
+    "arxiv_id": "2507.17696v1",
+    "authors": [
+      "Yuhao Zhu",
+      "Chenhui Niu",
+      "Shi Dai",
+      "Di Li",
+      "Pei Wang",
+      "Yi Feng",
+      "Jingwen Wu",
+      "Yongkun Zhang",
+      "Xianghan Cui",
+      "Junshuo Zhang",
+      "Jinhuang Cao"
+    ],
+    "published": "2025-07-23T17:03:01+00:00",
+    "summary": "Fast Radio Bursts (FRBs) are short-duration radio transients with mysterious origins. Since its uncertainty, there are very few FRBs that are observed by different instruments, simultaneously. This study presents a detailed analysis of a burst from FRB 20190520B observed by FAST and Parkes at the same time. The spectrum of this individual burst ended at the upper limit of the FAST frequency band and was simultaneously detected by the Parkes telescope in the 1.5-1.8 GHz range. By employing spectral energy distribution (SED) and spectral sharpness methods, we confirmed the presence of narrowband radiation in FRB 20190520B, which is crucial for understanding its radiation mechanisms. Our findings support the narrowband characteristics that most repeaters exhibit. This work also highlights the necessity of continued multiband observations to explore its periodicity and frequency-dependent properties, contributing to an in-depth understanding of FRB phenomena."
+  },
+  {
+    "title": "Symbiotic Agents: A Novel Paradigm for Trustworthy AGI-driven Networks",
+    "url": "http://arxiv.org/abs/2507.17695v1",
+    "arxiv_id": "2507.17695v1",
+    "authors": [
+      "Ilias Chatzistefanidis",
+      "Navid Nikaein"
+    ],
+    "published": "2025-07-23T17:01:23+00:00",
+    "summary": "Large Language Model (LLM)-based autonomous agents are expected to play a vital role in the evolution of 6G networks, by empowering real-time decision-making related to management and service provisioning to end-users. This shift facilitates the transition from a specialized intelligence approach, where artificial intelligence (AI) algorithms handle isolated tasks, to artificial general intelligence (AGI)-driven networks, where agents possess broader reasoning capabilities and can manage diverse network functions. In this paper, we introduce a novel agentic paradigm that combines LLMs with real-time optimization algorithms towards Trustworthy AI, defined as symbiotic agents. Optimizers at the LLM's input-level provide bounded uncertainty steering for numerically precise tasks, whereas output-level optimizers supervised by the LLM enable adaptive real-time control. We design and implement two novel agent types including: (i) Radio Access Network optimizers, and (ii) multi-agent negotiators for Service-Level Agreements (SLAs). We further propose an end-to-end architecture for AGI networks and evaluate it on a 5G testbed capturing channel fluctuations from moving vehicles. Results show that symbiotic agents reduce decision errors fivefold compared to standalone LLM-based agents, while smaller language models (SLM) achieve similar accuracy with a 99.9% reduction in GPU resource overhead and in near-real-time loops of 82 ms. A multi-agent demonstration for collaborative RAN on the real-world testbed highlights significant flexibility in service-level agreement and resource allocation, reducing RAN over-utilization by approximately 44%. Drawing on our findings and open-source implementations, we introduce the symbiotic paradigm as the foundation for next-generation, AGI-driven networks-systems designed to remain adaptable, efficient, and trustworthy even as LLMs advance."
+  },
+  {
+    "title": "The Joint Asymptotic Distribution of Entropy and Complexity",
+    "url": "http://arxiv.org/abs/2507.17625v1",
+    "arxiv_id": "2507.17625v1",
+    "authors": [
+      "Angelika Silbernagel",
+      "Christian Wei\u00df"
+    ],
+    "published": "2025-07-23T15:53:30+00:00",
+    "summary": "We derive the asymptotic distribution of ordinal-pattern frequencies under weak dependence conditions and investigate the long-run covariance matrix not only analytically for moving-average, Gaussian, and the novel generalized coin-tossing processes, but also approximately by a simulation-based approach. Then, we deduce the asymptotic distribution of the entropy-complexity pair, which emerged as a popular tool for summarizing the time-series dynamics. Here, we make the necessary distinction between a uniform and a non-uniform ordinal pattern distribution and, thus, obtain two different limit theorems. On this basis, we consider a test for serial dependence and check its finite-sample performance. Moreover, we use our asymptotic results to approximate the estimation uncertainty of entropy-complexity pairs."
+  },
+  {
+    "title": "Integrating Physics-Based and Data-Driven Approaches for Probabilistic Building Energy Modeling",
+    "url": "http://arxiv.org/abs/2507.17526v1",
+    "arxiv_id": "2507.17526v1",
+    "authors": [
+      "Leandro Von Krannichfeldt",
+      "Kristina Orehounig",
+      "Olga Fink"
+    ],
+    "published": "2025-07-23T14:07:33+00:00",
+    "summary": "Building energy modeling is a key tool for optimizing the performance of building energy systems. Historically, a wide spectrum of methods has been explored -- ranging from conventional physics-based models to purely data-driven techniques. Recently, hybrid approaches that combine the strengths of both paradigms have gained attention. These include strategies such as learning surrogates for physics-based models, modeling residuals between simulated and observed data, fine-tuning surrogates with real-world measurements, using physics-based outputs as additional inputs for data-driven models, and integrating the physics-based output into the loss function the data-driven model. Despite this progress, two significant research gaps remain. First, most hybrid methods focus on deterministic modeling, often neglecting the inherent uncertainties caused by factors like weather fluctuations and occupant behavior. Second, there has been little systematic comparison within a probabilistic modeling framework. This study addresses these gaps by evaluating five representative hybrid approaches for probabilistic building energy modeling, focusing on quantile predictions of building thermodynamics in a real-world case study. Our results highlight two main findings. First, the performance of hybrid approaches varies across different building room types, but residual learning with a Feedforward Neural Network performs best on average. Notably, the residual approach is the only model that produces physically intuitive predictions when applied to out-of-distribution test data. Second, Quantile Conformal Prediction is an effective procedure for calibrating quantile predictions in case of indoor temperature modeling."
+  },
+  {
+    "title": "An Uncertainty-Driven Adaptive Self-Alignment Framework for Large Language Models",
+    "url": "http://arxiv.org/abs/2507.17477v1",
+    "arxiv_id": "2507.17477v1",
+    "authors": [
+      "Haoran Sun",
+      "Zekun Zhang",
+      "Shaoning Zeng"
+    ],
+    "published": "2025-07-23T13:00:00+00:00",
+    "summary": "Large Language Models (LLMs) have demonstrated remarkable progress in instruction following and general-purpose reasoning. However, achieving high-quality alignment with human intent and safety norms without human annotations remains a fundamental challenge. In this work, we propose an Uncertainty-Driven Adaptive Self-Alignment (UDASA) framework designed to improve LLM alignment in a fully automated manner. UDASA first generates multiple responses for each input and quantifies output uncertainty across three dimensions: semantics, factuality, and value alignment. Based on these uncertainty scores, the framework constructs preference pairs and categorizes training samples into three stages, conservative, moderate, and exploratory, according to their uncertainty difference. The model is then optimized progressively across these stages. In addition, we conduct a series of preliminary studies to validate the core design assumptions and provide strong empirical motivation for the proposed framework. Experimental results show that UDASA outperforms existing alignment methods across multiple tasks, including harmlessness, helpfulness, truthfulness, and controlled sentiment generation, significantly improving model performance."
+  },
+  {
+    "title": "Analysing Models for Volatility Clustering with Subordinated Processes: VGSA and Beyond",
+    "url": "http://arxiv.org/abs/2507.17431v1",
+    "arxiv_id": "2507.17431v1",
+    "authors": [
+      "Sourojyoti Barick",
+      "Sudip Ratan Chandra"
+    ],
+    "published": "2025-07-23T11:41:46+00:00",
+    "summary": "This paper explores a comprehensive class of time-changed stochastic processes constructed by subordinating Brownian motion with Levy processes, where the subordination is further governed by stochastic arrival mechanisms such as the Cox Ingersoll Ross (CIR) and Chan Karolyi Longstaff Sanders (CKLS) processes. These models extend classical jump frameworks like the Variance Gamma (VG) and CGMY processes, allowing for more flexible modeling of market features such as jump clustering, heavy tails, and volatility persistence. We first revisit the theory of Levy subordinators and establish strong consistency results for the VG process under Gamma subordination. Building on this, we prove asymptotic normality for both the VG and VGSA (VG with stochastic arrival) processes when the arrival process follows CIR or CKLS dynamics. The analysis is then extended to the more general CGMY process under stochastic arrival, for which we derive analogous consistency and limit theorems under positivity and regularity conditions on the arrival process. A simulation study accompanies the theoretical work, confirming our results through Monte Carlo experiments, with visualizations and normality testing (via Shapiro-Wilk statistics) that show approximate Gaussian behavior even for processes driven by heavy-tailed jumps. This work provides a rigorous and unified probabilistic framework for analyzing subordinated models with stochastic time changes, with applications to financial modeling and inference under uncertainty."
+  },
+  {
+    "title": "Confidence Calibration in Vision-Language-Action Models",
+    "url": "http://arxiv.org/abs/2507.17383v1",
+    "arxiv_id": "2507.17383v1",
+    "authors": [
+      "Thomas P Zollo",
+      "Richard Zemel"
+    ],
+    "published": "2025-07-23T10:26:10+00:00",
+    "summary": "Trustworthy robot behavior requires not only high levels of task success but also that the robot can reliably quantify how likely it is to succeed. To this end, we present the first systematic study of confidence calibration in vision-language-action (VLA) foundation models, which map visual observations and natural-language instructions to low-level robot motor commands. We begin with extensive benchmarking to understand the critical relationship between task success and calibration error across multiple datasets and VLA variants, finding that task performance and calibration are not in tension. Next, we introduce prompt ensembles for VLAs, a lightweight, Bayesian-inspired algorithm that averages confidence across paraphrased instructions and consistently improves calibration. We further analyze calibration over the task time horizon, showing that confidence is often most reliable after making some progress, suggesting natural points for risk-aware intervention. Finally, we reveal differential miscalibration across action dimensions and propose action-wise Platt scaling, a method to recalibrate each action dimension independently to produce better confidence estimates. Our aim in this study is to begin to develop the tools and conceptual understanding necessary to render VLAs both highly performant and highly trustworthy via reliable uncertainty quantification."
+  },
+  {
+    "title": "Exploring Spatial Diversity for Region-based Active Learning",
+    "url": "http://arxiv.org/abs/2507.17367v1",
+    "arxiv_id": "2507.17367v1",
+    "authors": [
+      "Lile Cai",
+      "Xun Xu",
+      "Lining Zhang",
+      "Chuan-Sheng Foo"
+    ],
+    "published": "2025-07-23T10:04:25+00:00",
+    "summary": "State-of-the-art methods for semantic segmentation are based on deep neural networks trained on large-scale labeled datasets. Acquiring such datasets would incur large annotation costs, especially for dense pixel-level prediction tasks like semantic segmentation. We consider region-based active learning as a strategy to reduce annotation costs while maintaining high performance. In this setting, batches of informative image regions instead of entire images are selected for labeling. Importantly, we propose that enforcing local spatial diversity is beneficial for active learning in this case, and to incorporate spatial diversity along with the traditional active selection criterion, e.g., data sample uncertainty, in a unified optimization framework for region-based active learning. We apply this framework to the Cityscapes and PASCAL VOC datasets and demonstrate that the inclusion of spatial diversity effectively improves the performance of uncertainty-based and feature diversity-based active learning methods. Our framework achieves $95\\%$ performance of fully supervised methods with only $5-9\\%$ of the labeled pixels, outperforming all state-of-the-art region-based active learning methods for semantic segmentation."
+  },
+  {
+    "title": "On Distributionally Robust Lossy Source Coding",
+    "url": "http://arxiv.org/abs/2507.17366v1",
+    "arxiv_id": "2507.17366v1",
+    "authors": [
+      "Giuseppe Serra",
+      "Photios A. Stavrou",
+      "Marios Kountouris"
+    ],
+    "published": "2025-07-23T10:01:59+00:00",
+    "summary": "In this paper, we investigate the problem of distributionally robust source coding, i.e., source coding under uncertainty in the source distribution, discussing both the coding and computational aspects of the problem. We propose two extensions of the so-called Strong Functional Representation Lemma (SFRL), considering the cases where, for a fixed conditional distribution, the marginal inducing the joint coupling belongs to either a finite set of distributions or a Kullback-Leibler divergence sphere (KL-Sphere) centered at a fixed nominal distribution. Using these extensions, we derive distributionally robust coding schemes for both the one-shot and asymptotic regimes, generalizing previous results in the literature. Focusing on the case where the source distribution belongs to a given KL-Sphere, we derive an implicit characterization of the points attaining the robust rate-distortion function (R-RDF), which we later exploit to implement a novel algorithm for computing the R-RDF. Finally, we characterize the analytical expression of the R-RDF for Bernoulli sources, providing a theoretical benchmark to evaluate the estimation performance of the proposed algorithm."
+  },
+  {
+    "title": "Integrating Belief Domains into Probabilistic Logic Programs",
+    "url": "http://arxiv.org/abs/2507.17291v1",
+    "arxiv_id": "2507.17291v1",
+    "authors": [
+      "Damiano Azzolini",
+      "Fabrizio Riguzzi",
+      "Theresa Swift"
+    ],
+    "published": "2025-07-23T07:52:09+00:00",
+    "summary": "Probabilistic Logic Programming (PLP) under the Distribution Semantics is a leading approach to practical reasoning under uncertainty. An advantage of the Distribution Semantics is its suitability for implementation as a Prolog or Python library, available through two well-maintained implementations, namely ProbLog and cplint/PITA. However, current formulations of the Distribution Semantics use point-probabilities, making it difficult to express epistemic uncertainty, such as arises from, for example, hierarchical classifications from computer vision models. Belief functions generalize probability measures as non-additive capacities, and address epistemic uncertainty via interval probabilities. This paper introduces interval-based Capacity Logic Programs based on an extension of the Distribution Semantics to include belief functions, and describes properties of the new framework that make it amenable to practical applications."
+  },
+  {
     "title": "Beyond Binary Rewards: Training LMs to Reason About Their Uncertainty",
     "url": "http://arxiv.org/abs/2507.16806v1",
     "arxiv_id": "2507.16806v1",
