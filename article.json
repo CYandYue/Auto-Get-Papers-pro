@@ -1,5 +1,145 @@
 [
   {
+    "title": "Partial-State DADS Control for Matched Unmodeled Dynamics",
+    "url": "http://arxiv.org/abs/2507.18609v1",
+    "arxiv_id": "2507.18609v1",
+    "authors": [
+      "Iasson Karafyllis",
+      "Miroslav Krstic"
+    ],
+    "published": "2025-07-24T17:44:56+00:00",
+    "summary": "We extend the Deadzone-Adapted Disturbance Suppression (DADS) control to time-invariant systems with dynamic uncertainties that satisfy the matching condition and for which no bounds for the disturbance and the unknown parameters are known. This problem is equivalent to partial-state adaptive feedback, where the states modeling the dynamic uncertainty are unmeasured. We show that the DADS controller can bypass small-gain conditions and achieve robust regulation for systems in spite of the fact that the strength of the interconnections has no known bound. Moreover, no gain and state drift arise, regardless of the size of the disturbances and unknown parameters. Finally, the paper provides the detailed analysis of a control system where the unmeasured state (or the dynamic uncertainty) is infinite-dimensional and described by a reaction-diffusion Partial Differential Equation, where the diffusion coefficient and the reaction term are unknown. It is shown that even in the infinite-dimensional case, a DADS controller can be designed and guarantees robust regulation of the plant state."
+  },
+  {
+    "title": "Searching for Gravitational Waves with Gaia and its Cross-Correlation with PTA: Absolute vs Relative Astrometry",
+    "url": "http://arxiv.org/abs/2507.18593v1",
+    "arxiv_id": "2507.18593v1",
+    "authors": [
+      "Massimo Vaglio",
+      "Mikel Falxa",
+      "Giorgio Mentasti",
+      "Arianna I. Renzini",
+      "Adrien Kuntz",
+      "Enrico Barausse",
+      "Carlo Contaldi",
+      "Alberto Sesana"
+    ],
+    "published": "2025-07-24T17:24:43+00:00",
+    "summary": "Astrometric missions like Gaia provide exceptionally precise measurements of stellar positions and proper motions. Gravitational waves traveling between the observer and distant stars can induce small, correlated shifts in these apparent positions, a phenomenon known as astrometric deflection. The precision and scale of astrometric datasets make them well-suited for searching for a stochastic gravitational wave background, whose signature appears in the two-point correlation function of the deflection field across the sky. Although Gaia achieves high accuracy in measuring angular separations in its focal plane, systematic uncertainties in the satellite's absolute orientation limit the precision of absolute position measurements. These orientation errors can be mitigated by focusing on relative angles between star pairs, which effectively cancel out common-mode orientation noise. In this work, we compute the astrometric response and the overlap reduction functions for this relative astrometry approach, correcting previous expressions presented in the literature. We use a Fisher matrix analysis to compare the sensitivity of relative astrometry to that of conventional absolute astrometry. Our analysis shows that while the relative method is theoretically sound, its sensitivity is limited for closely spaced star pairs within a single Gaia field of view. Pairs with large angular separations could provide competitive sensitivity, but are practically inaccessible due to Gaia's scanning law. Finally, we demonstrate that combining astrometric data with observations from pulsar timing arrays leads to slight improvements in sensitivity at frequencies greater than approximately 10^-7 Hz."
+  },
+  {
+    "title": "GIIFT: Graph-guided Inductive Image-free Multimodal Machine Translation",
+    "url": "http://arxiv.org/abs/2507.18562v1",
+    "arxiv_id": "2507.18562v1",
+    "authors": [
+      "Jiafeng Xiong",
+      "Yuting Zhao"
+    ],
+    "published": "2025-07-24T16:36:47+00:00",
+    "summary": "Multimodal Machine Translation (MMT) has demonstrated the significant help of visual information in machine translation. However, existing MMT methods face challenges in leveraging the modality gap by enforcing rigid visual-linguistic alignment whilst being confined to inference within their trained multimodal domains. In this work, we construct novel multimodal scene graphs to preserve and integrate modality-specific information and introduce GIIFT, a two-stage Graph-guided Inductive Image-Free MMT framework that uses a cross-modal Graph Attention Network adapter to learn multimodal knowledge in a unified fused space and inductively generalize it to broader image-free translation domains. Experimental results on the Multi30K dataset of English-to-French and English-to-German tasks demonstrate that our GIIFT surpasses existing approaches and achieves the state-of-the-art, even without images during inference. Results on the WMT benchmark show significant improvements over the image-free translation baselines, demonstrating the strength of GIIFT towards inductive image-free inference."
+  },
+  {
+    "title": "Large deviations of ionic currents in dilute electrolytes",
+    "url": "http://arxiv.org/abs/2507.18556v1",
+    "arxiv_id": "2507.18556v1",
+    "authors": [
+      "Jafar Farhadi",
+      "David T. Limmer"
+    ],
+    "published": "2025-07-24T16:29:45+00:00",
+    "summary": "We evaluate the exponentially rare fluctuations of the ionic current for a dilute electrolyte by means of macroscopic fluctuation theory. We consider the fluctuating hydrodynamics of a fluid electrolyte described by a stochastic Poisson-Nernst-Planck equation. We derive the Euler-Lagrange equations that dictate the optimal concentration profiles of ions conditioned on exhibiting a given current, whose form determines the likelihood of that current in the long-time limit. For a symmetric electrolyte under small applied voltages, number density fluctuations are small, and ionic current fluctuations are Gaussian with a variance determined by the Nernst-Einstein conductivity. Under large applied potentials, where number densities vary, the ionic current distribution is generically non-Gaussian. Its structure is constrained thermodynamically by Gallavotti-Cohen symmetry and the thermodynamic uncertainty principle."
+  },
+  {
+    "title": "Delving into Mapping Uncertainty for Mapless Trajectory Prediction",
+    "url": "http://arxiv.org/abs/2507.18498v1",
+    "arxiv_id": "2507.18498v1",
+    "authors": [
+      "Zongzheng Zhang",
+      "Xuchong Qiu",
+      "Boran Zhang",
+      "Guantian Zheng",
+      "Xunjiang Gu",
+      "Guoxuan Chi",
+      "Huan-ang Gao",
+      "Leichen Wang",
+      "Ziming Liu",
+      "Xinrun Li",
+      "Igor Gilitschenski",
+      "Hongyang Li",
+      "Hang Zhao",
+      "Hao Zhao"
+    ],
+    "published": "2025-07-24T15:13:11+00:00",
+    "summary": "Recent advances in autonomous driving are moving towards mapless approaches, where High-Definition (HD) maps are generated online directly from sensor data, reducing the need for expensive labeling and maintenance. However, the reliability of these online-generated maps remains uncertain. While incorporating map uncertainty into downstream trajectory prediction tasks has shown potential for performance improvements, current strategies provide limited insights into the specific scenarios where this uncertainty is beneficial. In this work, we first analyze the driving scenarios in which mapping uncertainty has the greatest positive impact on trajectory prediction and identify a critical, previously overlooked factor: the agent's kinematic state. Building on these insights, we propose a novel Proprioceptive Scenario Gating that adaptively integrates map uncertainty into trajectory prediction based on forecasts of the ego vehicle's future kinematics. This lightweight, self-supervised approach enhances the synergy between online mapping and trajectory prediction, providing interpretability around where uncertainty is advantageous and outperforming previous integration methods. Additionally, we introduce a Covariance-based Map Uncertainty approach that better aligns with map geometry, further improving trajectory prediction. Extensive ablation studies confirm the effectiveness of our approach, achieving up to 23.6% improvement in mapless trajectory prediction performance over the state-of-the-art method using the real-world nuScenes driving dataset. Our code, data, and models are publicly available at https://github.com/Ethan-Zheng136/Map-Uncertainty-for-Trajectory-Prediction."
+  },
+  {
+    "title": "A Robust Predictive Control Method for Pump Scheduling in Water Distribution Networks",
+    "url": "http://arxiv.org/abs/2507.18492v1",
+    "arxiv_id": "2507.18492v1",
+    "authors": [
+      "Mirhan \u00dcrkmez",
+      "Carsten Kalles\u00f8e",
+      "Jan Dimon Bendtsen",
+      "Eric C. Kerrigan",
+      "John Leth"
+    ],
+    "published": "2025-07-24T15:04:53+00:00",
+    "summary": "Water utilities aim to reduce the high electrical costs of Water Distribution Networks (WDNs), primarily driven by pumping. However, pump scheduling is challenging due to model uncertainties and water demand forecast errors. This paper presents a Robust Model Predictive Control (RMPC) method for optimal and reliable pump scheduling, extending a previous efficient robust control method tailored to our model. A linear model with bounded additive disturbances is used to represent tank water level evolution, with uncertainty bounds derived from WDN simulation and demand data. At each time step, a pump scheduling policy, affine in past disturbances, is optimized to satisfy system constraints over a prediction horizon. The resulting policies are then applied in a receding horizon fashion. The optimization problem is formulated to require $\\mathcal{O}(N^6)$ computations per iteration with an interior-point method, which is reduced to $\\mathcal{O}(N^3)$ by reformulating it into a sparse form. When evaluated on a model representing the water distribution network of Randers, a medium-sized town in Denmark, the method surpasses nominal and constraint-tightening model predictive control (MPC) approaches in terms of meeting constraints and provides comparable economic outcomes."
+  },
+  {
+    "title": "Relativistic Calculations of Energy Levels, Field Shift Factors, and Polarizabilities of Mercury and Copernicium",
+    "url": "http://arxiv.org/abs/2507.18490v1",
+    "arxiv_id": "2507.18490v1",
+    "authors": [
+      "Hongxu Liu",
+      "Jize Han",
+      "Yanmei Yu",
+      "Yanfeng Ge",
+      "Yong Liu",
+      "Zhiguo Huang"
+    ],
+    "published": "2025-07-24T15:03:31+00:00",
+    "summary": "Mercury (Hg) and superheavy element copernicium (Cn) are investigated using equation-of-motion relativistic coupled-cluster (EOM-RCC) and configuration interaction plus many-body perturbation theory (CI+MBPT) methods. Key atomic properties including ionization potentials (IP), excitation energies (EEs), isotope field shift factors (F), and static electric dipole polarizabilities ({\\alpha}) are calculated for ground and low-lying excited states. To evaluate the theoretical accuracy, calculations for both Hg and Cn are performed, with experimental data of Hg serving as benchmarks. Furthermore, basis set dependence has been systematically evaluated in the EOM-RCC calculations, with corresponding uncertainty estimates having been provided. The calculated atomic properties could provide valuable insights into the electronic structure and chemical behavior of superheavy elements."
+  },
+  {
+    "title": "INLA-RF: A Hybrid Modeling Strategy for Spatio-Temporal Environmental Data",
+    "url": "http://arxiv.org/abs/2507.18488v1",
+    "arxiv_id": "2507.18488v1",
+    "authors": [
+      "Mario Figueira",
+      "Michela Cameletti",
+      "Luca Patelli"
+    ],
+    "published": "2025-07-24T15:01:28+00:00",
+    "summary": "Environmental processes often exhibit complex, non-linear patterns and discontinuities across space and time, posing significant challenges for traditional geostatistical modeling approaches. In this paper, we propose a hybrid spatio-temporal modeling framework that combines the interpretability and uncertainty quantification of Bayesian models -- estimated using the INLA-SPDE approach -- with the predictive power and flexibility of Random Forest (RF). Specifically, we introduce two novel algorithms, collectively named INLA-RF, which integrate a statistical spatio-temporal model with RF in an iterative two-stage framework. The first algorithm (INLA-RF1) incorporates RF predictions as an offset in the INLA-SPDE model, while the second (INLA-RF2) uses RF to directly correct selected latent field nodes. Both hybrid strategies enable uncertainty propagation between modeling stages, an aspect often overlooked in existing hybrid approaches. In addition, we propose a Kullback-Leibler divergence-based stopping criterion. We evaluate the predictive performance and uncertainty quantification capabilities of the proposed algorithms through two simulation studies. Results suggest that our hybrid approach enhances spatio-temporal prediction while maintaining interpretability and coherence in uncertainty estimates."
+  },
+  {
+    "title": "Reinforced Embodied Active Defense: Exploiting Adaptive Interaction for Robust Visual Perception in Adversarial 3D Environments",
+    "url": "http://arxiv.org/abs/2507.18484v1",
+    "arxiv_id": "2507.18484v1",
+    "authors": [
+      "Xiao Yang",
+      "Lingxuan Wu",
+      "Lizhong Wang",
+      "Chengyang Ying",
+      "Hang Su",
+      "Jun Zhu"
+    ],
+    "published": "2025-07-24T14:56:21+00:00",
+    "summary": "Adversarial attacks in 3D environments have emerged as a critical threat to the reliability of visual perception systems, particularly in safety-sensitive applications such as identity verification and autonomous driving. These attacks employ adversarial patches and 3D objects to manipulate deep neural network (DNN) predictions by exploiting vulnerabilities within complex scenes. Existing defense mechanisms, such as adversarial training and purification, primarily employ passive strategies to enhance robustness. However, these approaches often rely on pre-defined assumptions about adversarial tactics, limiting their adaptability in dynamic 3D settings. To address these challenges, we introduce Reinforced Embodied Active Defense (Rein-EAD), a proactive defense framework that leverages adaptive exploration and interaction with the environment to improve perception robustness in 3D adversarial contexts. By implementing a multi-step objective that balances immediate prediction accuracy with predictive entropy minimization, Rein-EAD optimizes defense strategies over a multi-step horizon. Additionally, Rein-EAD involves an uncertainty-oriented reward-shaping mechanism that facilitates efficient policy updates, thereby reducing computational overhead and supporting real-world applicability without the need for differentiable environments. Comprehensive experiments validate the effectiveness of Rein-EAD, demonstrating a substantial reduction in attack success rates while preserving standard accuracy across diverse tasks. Notably, Rein-EAD exhibits robust generalization to unseen and adaptive attacks, making it suitable for real-world complex tasks, including 3D object classification, face recognition and autonomous driving."
+  },
+  {
+    "title": "Multi-Model Ensemble and Reservoir Computing for River Discharge Prediction in Ungauged Basins",
+    "url": "http://arxiv.org/abs/2507.18423v1",
+    "arxiv_id": "2507.18423v1",
+    "authors": [
+      "Mizuki Funato",
+      "Yohei Sawada"
+    ],
+    "published": "2025-07-24T14:00:18+00:00",
+    "summary": "Despite the critical need for accurate flood prediction and water management, many regions lack sufficient river discharge observations, limiting the skill of rainfall-runoff analyses. Although numerous physically based and machine learning models exist, achieving high accuracy, interpretability, and computational efficiency under data-scarce conditions remains a major challenge. We address this challenge with a novel method, HYdrological Prediction with multi-model Ensemble and Reservoir computing (HYPER) that leverages multi-model ensemble and reservoir computing (RC). Our approach first applies Bayesian model averaging (BMA) to 43 \"uncalibrated\" catchment-based conceptual hydrological models. An RC model is then trained via linear regression to correct errors in the BMA output, a non-iterative process that ensures high computational efficiency. For ungauged basins, we infer the required BMA and RC weights by linking them to catchment attributes from gauged basins, creating a generalizable framework. We evaluated HYPER using data from 87 river basins in Japan. In a data-rich scenario, HYPER (median Kling-Gupta Efficiency, KGE, of 0.56) performed comparably to a benchmark LSTM (KGE 0.55) but required only 5% of its computational time. In a data-scarce scenario (23% of basins gauged), HYPER maintained robust performance (KGE 0.55) and lower uncertainty, whereas the LSTM's performance degraded significantly (KGE -0.04). These results reveal that individual conceptual hydrological models do not necessarily need to be calibrated when an effectively large ensemble is assembled and combined with machine-learning-based bias correction. HYPER provides a robust, efficient, and generalizable solution for discharge prediction, particularly in ungauged basins, making it applicable to a wide range of regions."
+  },
+  {
     "title": "A narrowband burst from FRB 20190520B simultaneously observed by FAST and Parkes",
     "url": "http://arxiv.org/abs/2507.17696v1",
     "arxiv_id": "2507.17696v1",
