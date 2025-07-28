@@ -1,5 +1,129 @@
 [
   {
+    "title": "Hierarchical Deep Reinforcement Learning Framework for Multi-Year Asset Management Under Budget Constraints",
+    "url": "http://arxiv.org/abs/2507.19458v1",
+    "arxiv_id": "2507.19458v1",
+    "authors": [
+      "Amir Fard",
+      "Arnold X. -X. Yuan"
+    ],
+    "published": "2025-07-25T17:42:34+00:00",
+    "summary": "Budget planning and maintenance optimization are crucial for infrastructure asset management, ensuring cost-effectiveness and sustainability. However, the complexity arising from combinatorial action spaces, diverse asset deterioration, stringent budget constraints, and environmental uncertainty significantly limits existing methods' scalability. This paper proposes a Hierarchical Deep Reinforcement Learning methodology specifically tailored to multi-year infrastructure planning. Our approach decomposes the problem into two hierarchical levels: a high-level Budget Planner allocating annual budgets within explicit feasibility bounds, and a low-level Maintenance Planner prioritizing assets within the allocated budget. By structurally separating macro-budget decisions from asset-level prioritization and integrating linear programming projection within a hierarchical Soft Actor-Critic framework, the method efficiently addresses exponential growth in the action space and ensures rigorous budget compliance. A case study evaluating sewer networks of varying sizes (10, 15, and 20 sewersheds) illustrates the effectiveness of the proposed approach. Compared to conventional Deep Q-Learning and enhanced genetic algorithms, our methodology converges more rapidly, scales effectively, and consistently delivers near-optimal solutions even as network size grows."
+  },
+  {
+    "title": "DEFNet: Multitasks-based Deep Evidential Fusion Network for Blind Image Quality Assessment",
+    "url": "http://arxiv.org/abs/2507.19418v1",
+    "arxiv_id": "2507.19418v1",
+    "authors": [
+      "Yiwei Lou",
+      "Yuanpeng He",
+      "Rongchao Zhang",
+      "Yongzhi Cao",
+      "Hanpin Wang",
+      "Yu Huang"
+    ],
+    "published": "2025-07-25T16:36:45+00:00",
+    "summary": "Blind image quality assessment (BIQA) methods often incorporate auxiliary tasks to improve performance. However, existing approaches face limitations due to insufficient integration and a lack of flexible uncertainty estimation, leading to suboptimal performance. To address these challenges, we propose a multitasks-based Deep Evidential Fusion Network (DEFNet) for BIQA, which performs multitask optimization with the assistance of scene and distortion type classification tasks. To achieve a more robust and reliable representation, we design a novel trustworthy information fusion strategy. It first combines diverse features and patterns across sub-regions to enhance information richness, and then performs local-global information fusion by balancing fine-grained details with coarse-grained context. Moreover, DEFNet exploits advanced uncertainty estimation technique inspired by evidential learning with the help of normal-inverse gamma distribution mixture. Extensive experiments on both synthetic and authentic distortion datasets demonstrate the effectiveness and robustness of the proposed framework. Additional evaluation and analysis are carried out to highlight its strong generalization capability and adaptability to previously unseen scenarios."
+  },
+  {
+    "title": "Measurement of the Inelastic Proton-Proton Cross-Section at $\\sqrt{s} \\geq 40$ TeV Using the Hybrid Data of the Pierre Auger Observatory",
+    "url": "http://arxiv.org/abs/2507.19326v1",
+    "arxiv_id": "2507.19326v1",
+    "authors": [
+      "Olena Tkachenko"
+    ],
+    "published": "2025-07-25T14:38:02+00:00",
+    "summary": "Measuring proton-proton interaction cross-sections at center-of-mass energies above 40 TeV remains a significant challenge in particle physics. The Pierre Auger Observatory provides a unique opportunity to study the interactions at the highest energies through the distribution of the depth of maximum shower development ($X_\\mathrm{max}$) observed by its Fluorescence Detector. In previous studies, the determination of the interaction cross-section at ultrahigh energies has relied on the assumption that the tail of the $X_\\mathrm{max}$ distribution is proton-dominated, which restricts the analysis to a limited energy range below the ankle and introduces related systematic uncertainties. In this contribution, we adopt a novel method for the simultaneous estimation of the proton-proton interaction cross-section and the primary cosmic-ray mass composition using data from the Pierre Auger Observatory, avoiding assumptions about one quantity to infer the other and thus improving the accuracy and robustness of our analysis. In addition, a systematic shift in the $X_\\mathrm{max}$ scale is fitted to account for both experimental uncertainties and theoretical constraints on the modeling of particle interactions. The obtained results are consistent with previous analyses and provide additional constraints on hadronic interaction models. The measured proton-proton inelastic cross-section at ultra-high energies agrees well with extrapolations of accelerator data. The inferred cosmic-ray composition and the $X_\\mathrm{max}$-scale shift are also compatible with previous estimates."
+  },
+  {
+    "title": "Modeling Uncertainty: Constraint-Based Belief States in Imperfect-Information Games",
+    "url": "http://arxiv.org/abs/2507.19263v1",
+    "arxiv_id": "2507.19263v1",
+    "authors": [
+      "Achille Morenville",
+      "\u00c9ric Piette"
+    ],
+    "published": "2025-07-25T13:38:44+00:00",
+    "summary": "In imperfect-information games, agents must make decisions based on partial knowledge of the game state. The Belief Stochastic Game model addresses this challenge by delegating state estimation to the game model itself. This allows agents to operate on externally provided belief states, thereby reducing the need for game-specific inference logic. This paper investigates two approaches to represent beliefs in games with hidden piece identities: a constraint-based model using Constraint Satisfaction Problems and a probabilistic extension using Belief Propagation to estimate marginal probabilities. We evaluated the impact of both representations using general-purpose agents across two different games. Our findings indicate that constraint-based beliefs yield results comparable to those of probabilistic inference, with minimal differences in agent performance. This suggests that constraint-based belief states alone may suffice for effective decision-making in many settings."
+  },
+  {
+    "title": "Multi-Level Monte Carlo sampling with Parallel-in-Time Integration for Uncertainty Quantification in Electric Machine Simulation",
+    "url": "http://arxiv.org/abs/2507.19246v1",
+    "arxiv_id": "2507.19246v1",
+    "authors": [
+      "Robert Hahn",
+      "Sebastian Sch\u00f6ps"
+    ],
+    "published": "2025-07-25T13:12:58+00:00",
+    "summary": "While generally considered computationally expensive, Uncertainty Quantification using Monte Carlo sampling remains beneficial for applications with uncertainties of high dimension. As an extension of the naive Monte Carlo method, the Multi-Level Monte Carlo method reduces the overall computational effort, but is unable to reduce the time to solution in a sufficiently parallel computing environment. In this work, we propose a Uncertainty Quantification method combining Multi-Level Monte Carlo sampling and Parallel-in-Time integration for select samples, exploiting remaining parallel computing capacity to accelerate the computation. While effective at reducing the time-to-solution, Parallel-in-Time integration methods greatly increase the total computational effort. We investigate the tradeoff between time-to-solution and total computational effort of the combined method, starting from theoretical considerations and comparing our findings to two numerical examples. There, a speedup of 12 - 45% compared to Multi-Level Monte Carlo sampling is observed, with an increase of 15 - 18% in computational effort."
+  },
+  {
+    "title": "Constraining the origin of the highest-energy cosmic-ray events detected by the Pierre Auger Observatory: a three-dimensional approach",
+    "url": "http://arxiv.org/abs/2507.19216v1",
+    "arxiv_id": "2507.19216v1",
+    "authors": [
+      "Marta Bianciotto"
+    ],
+    "published": "2025-07-25T12:37:32+00:00",
+    "summary": "Unveiling the sources of ultra-high-energy cosmic rays remains one of the main challenges of high-energy astrophysics. Measurements of anisotropies in their arrival directions are key to identifying their sources, yet magnetic deflections obscure direct associations. In this work, we reconstruct the sky regions of possible origin of the highest-energy cosmic-ray events detected by the Pierre Auger Observatory by tracing their trajectories through Galactic magnetic fields using up-to-date models, while fully accounting for energy and directional uncertainties. A mixed composition at injection is assumed to model the detected charge distributions of such events. Different classes of astrophysical sources are investigated and tested for a correlation with the inferred regions of origin of the events. By incorporating constraints on the maximum propagation distances, we also allow for a three-dimensional localization of the possible source regions. Our findings provide new constraints on the sources of the highest-energy cosmic particles and offer fresh insights into the role of Galactic magnetic fields in shaping the observed ultra-high-energy cosmic-ray sky."
+  },
+  {
+    "title": "Emulating redshift-mixing due to blending in weak gravitational lensing",
+    "url": "http://arxiv.org/abs/2507.19130v1",
+    "arxiv_id": "2507.19130v1",
+    "authors": [
+      "Zekang Zhang",
+      "Daniel Gruen",
+      "Luca Tortorelli",
+      "Shun-Sheng Li",
+      "Jamie McCullough"
+    ],
+    "published": "2025-07-25T10:11:40+00:00",
+    "summary": "Galaxies whose images overlap in the focal plane of a telescope, commonly referred to as blends, are often located at different redshifts. Blending introduces a challenge to weak lensing cosmology probes, as such blends are subject to shear signals from multiple redshifts. This effect can be described by joining shear bias and redshift characterisation in the effective redshift distribution, $n_{\\gamma}(z)$, which includes the response of apparent shapes of detected objects to shear of galaxies at redshift $z$. In this work, we propose a novel method to correct $n_{\\gamma}(z)$ for redshift-mixed blending by emulating the shear response to neighbouring galaxies. Specifically, we design a ``half-sky-shearing'' simulation with HSC-Wide-like specifications, in which we extract the response of a detected object's measured ellipticity to shear of neighbouring galaxies among numerous galaxy pairs. We demonstrate the feasibility of accurately emulating these pairwise responses and validate the robustness of our approach under varying observing conditions and galaxy population uncertainties. We find that the effective redshift of sources at the high-redshift tail of the distribution is about 0.05 lower than expected when not modelling the effect. Given appropriately processed image simulations, our correction method can be readily incorporated into future cosmological analyses to mitigate this source of systematic error."
+  },
+  {
+    "title": "Boundary-layer transition in the age of data: from a comprehensive dataset to fine-grained prediction",
+    "url": "http://arxiv.org/abs/2507.19120v1",
+    "arxiv_id": "2507.19120v1",
+    "authors": [
+      "Wenhui Chang",
+      "Hongyuan Hu",
+      "Youcheng Xi",
+      "Markus Kloker",
+      "Honghui Teng",
+      "Jie Ren"
+    ],
+    "published": "2025-07-25T09:57:06+00:00",
+    "summary": "The laminar-to-turbulent transition remains a fundamental and enduring challenge in fluid mechanics. Its complexity arises from the intrinsic nonlinearity and extreme sensitivity to external disturbances. This transition is critical in a wide range of applications, including aerospace, marine engineering, geophysical flows, and energy systems. While the governing physics can be well described by the Navier-Stokes equations, practical prediction efforts often fall short due to the lack of comprehensive models for perturbation initialization and turbulence generation in numerical simulations. To address the uncertainty introduced by unforeseeable environmental perturbations, we propose a fine-grained predictive framework that accurately predicts the transition location. The framework generates an extensive dataset using nonlinear parabolized stability equations (NPSE). NPSE simulations are performed over a wide range of randomly prescribed initial conditions for the generic zero-pressure-gradient flat-plate boundary-layer flow, resulting in a large dataset that captures the nonlinear evolution of instability waves across three canonical transition pathways (Type-K, -H, and -O). From a database of 3000 simulation cases, we extract diagnostic quantities (e.g., wall pressure signals and skin-friction coefficients) from each simulation to construct a feature set that links pre-transition flow characteristics to transition onset locations. Machine learning models are systematically evaluated, with ensemble methods-particularly XGBoost-demonstrating exceptional predictive accuracy (mean relative error of approximately 0.001). Compared to methods currently available (e.g., N-factor, transitional turbulence model), this approach accounts for the physical process and achieves transition prediction without relying on any empirical parameters."
+  },
+  {
+    "title": "Objectifying the Subjective: Cognitive Biases in Topic Interpretations",
+    "url": "http://arxiv.org/abs/2507.19117v1",
+    "arxiv_id": "2507.19117v1",
+    "authors": [
+      "Swapnil Hingmire",
+      "Ze Shi Li",
+      "Shiyu",
+      "Zeng",
+      "Ahmed Musa Awon",
+      "Luiz Franciscatto Guerra",
+      "Neil Ernst"
+    ],
+    "published": "2025-07-25T09:51:42+00:00",
+    "summary": "Interpretation of topics is crucial for their downstream applications. State-of-the-art evaluation measures of topic quality such as coherence and word intrusion do not measure how much a topic facilitates the exploration of a corpus. To design evaluation measures grounded on a task, and a population of users, we do user studies to understand how users interpret topics. We propose constructs of topic quality and ask users to assess them in the context of a topic and provide rationale behind evaluations. We use reflexive thematic analysis to identify themes of topic interpretations from rationales. Users interpret topics based on availability and representativeness heuristics rather than probability. We propose a theory of topic interpretation based on the anchoring-and-adjustment heuristic: users anchor on salient words and make semantic adjustments to arrive at an interpretation. Topic interpretation can be viewed as making a judgment under uncertainty by an ecologically rational user, and hence cognitive biases aware user models and evaluation frameworks are needed."
+  },
+  {
+    "title": "Radio Map Assisted Routing and Predictive Resource Allocation over Dynamic Low Altitude Networks",
+    "url": "http://arxiv.org/abs/2507.19111v1",
+    "arxiv_id": "2507.19111v1",
+    "authors": [
+      "Bowen Li",
+      "Junting Chen"
+    ],
+    "published": "2025-07-25T09:48:30+00:00",
+    "summary": "Dynamic low altitude networks offer significant potential for efficient and reliable data transport via unmanned aerial vehicles (UAVs) relays which usually operate with predetermined trajectories. However, it is challenging to optimize the data routing and resource allocation due to the time-varying topology and the need to control interference with terrestrial systems. Traditional schemes rely on time-expanded graphs with uniform and fine time subdivisions, making them impractical for interference-aware applications. This paper develops a dynamic space-time graph model with a cross-layer optimization framework that converts a joint routing and predictive resource allocation problem into a joint bottleneck path planning and resource allocation problem. We develop explicit deterministic bounds to handle the channel uncertainty and prove a monotonicity property in the problem structure that enables us to efficiently reach the globally optimal solution to the predictive resource allocation subproblem. Then, this approach is extended to multi-commodity transmission tasks through time-frequency allocation, and a bisection search algorithm is developed to find the optimum solution by leveraging the monotonicity of the feasible set family. Simulations verify that the single-commodity algorithm approaches global optimality with more than 30 dB performance gain over the classical graph-based methods for delay-sensitive and large data transportation. At the same time, the multi-commodity method achieves 100X improvements in dense service scenarios and enables an additional 20 dB performance gain by data segmenting."
+  },
+  {
     "title": "Partial-State DADS Control for Matched Unmodeled Dynamics",
     "url": "http://arxiv.org/abs/2507.18609v1",
     "arxiv_id": "2507.18609v1",
