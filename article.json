@@ -1,5 +1,181 @@
 [
   {
+    "title": "Planning Persuasive Trajectories Based on a Leader-Follower Game Model",
+    "url": "http://arxiv.org/abs/2507.22022v1",
+    "arxiv_id": "2507.22022v1",
+    "authors": [
+      "Chaozhe R. He",
+      "Yichen Dong",
+      "Nan Li"
+    ],
+    "published": "2025-07-29T17:16:00+00:00",
+    "summary": "We propose a framework that enables autonomous vehicles (AVs) to proactively shape the intentions and behaviors of interacting human drivers. The framework employs a leader-follower game model with an adaptive role mechanism to predict human interaction intentions and behaviors. It then utilizes a branch model predictive control (MPC) algorithm to plan the AV trajectory, persuading the human to adopt the desired intention. The proposed framework is demonstrated in an intersection scenario. Simulation results illustrate the effectiveness of the framework for generating persuasive AV trajectories despite uncertainties."
+  },
+  {
+    "title": "Uncertainty Estimation of the Optimal Decision with Application to Cure Process Optimization",
+    "url": "http://arxiv.org/abs/2507.21995v1",
+    "arxiv_id": "2507.21995v1",
+    "authors": [
+      "Yezhuo Li",
+      "Qiong Zhang",
+      "Madhura Limaye",
+      "Gang Li"
+    ],
+    "published": "2025-07-29T16:45:01+00:00",
+    "summary": "Decision-making in manufacturing often involves optimizing key process parameters using data collected from simulation experiments. Gaussian processes are widely used to surrogate the underlying system and guide optimization. Uncertainty often inherent in the decisions given by the surrogate model due to limited data and model assumptions. This paper proposes a surrogate model-based framework for estimating the uncertainty of optimal decisions and analyzing its sensitivity with respect to the objective function. The proposed approach is applied to the composite cure process simulation in manufacturing."
+  },
+  {
+    "title": "Post-Training Large Language Models via Reinforcement Learning from Self-Feedback",
+    "url": "http://arxiv.org/abs/2507.21931v1",
+    "arxiv_id": "2507.21931v1",
+    "authors": [
+      "Carel van Niekerk",
+      "Renato Vukovic",
+      "Benjamin Matthias Ruppik",
+      "Hsien-chin Lin",
+      "Milica Ga\u0161i\u0107"
+    ],
+    "published": "2025-07-29T15:46:26+00:00",
+    "summary": "Large Language Models (LLMs) often produce plausible but poorly-calibrated answers, limiting their reliability on reasoning-intensive tasks. We present Reinforcement Learning from Self-Feedback (RLSF), a post-training stage that uses the model's own confidence as an intrinsic reward, mimicking how humans learn in the absence of external feedback. After a frozen LLM generates several chain-of-thought solutions, we define and compute the confidence of each final answer span and rank the traces accordingly. These synthetic preferences are then used to fine-tune the policy with standard preference optimization, similar to RLHF yet requiring no human labels, gold answers, or externally curated rewards.   RLSF simultaneously (i) refines the model's probability estimates -- restoring well-behaved calibration -- and (ii) strengthens step-by-step reasoning, yielding improved performance on arithmetic reasoning and multiple-choice question answering.   By turning a model's own uncertainty into useful self-feedback, RLSF affirms reinforcement learning on intrinsic model behaviour as a principled and data-efficient component of the LLM post-training pipeline and warrents further research in intrinsic rewards for LLM post-training."
+  },
+  {
+    "title": "Aether Weaver: Multimodal Affective Narrative Co-Generation with Dynamic Scene Graphs",
+    "url": "http://arxiv.org/abs/2507.21893v1",
+    "arxiv_id": "2507.21893v1",
+    "authors": [
+      "Saeed Ghorbani"
+    ],
+    "published": "2025-07-29T15:01:31+00:00",
+    "summary": "We introduce Aether Weaver, a novel, integrated framework for multimodal narrative co-generation that overcomes limitations of sequential text-to-visual pipelines. Our system concurrently synthesizes textual narratives, dynamic scene graph representations, visual scenes, and affective soundscapes, driven by a tightly integrated, co-generation mechanism. At its core, the Narrator, a large language model, generates narrative text and multimodal prompts, while the Director acts as a dynamic scene graph manager, and analyzes the text to build and maintain a structured representation of the story's world, ensuring spatio-temporal and relational consistency for visual rendering and subsequent narrative generation. Additionally, a Narrative Arc Controller guides the high-level story structure, influencing multimodal affective consistency, further complemented by an Affective Tone Mapper that ensures congruent emotional expression across all modalities. Through qualitative evaluations on a diverse set of narrative prompts encompassing various genres, we demonstrate that Aether Weaver significantly enhances narrative depth, visual fidelity, and emotional resonance compared to cascaded baseline approaches. This integrated framework provides a robust platform for rapid creative prototyping and immersive storytelling experiences."
+  },
+  {
+    "title": "Multi-Gap superconductivity in HgS under pressure",
+    "url": "http://arxiv.org/abs/2507.21869v1",
+    "arxiv_id": "2507.21869v1",
+    "authors": [
+      "Pietro Maria Forcella",
+      "Cesare Tresca",
+      "Antonio Sanna",
+      "Gianni Profeta"
+    ],
+    "published": "2025-07-29T14:41:19+00:00",
+    "summary": "Mercury chalcogenides are a class of materials that exhibit diverse structural phases under pressure, leading to a range of exotic physical properties, including topological phases and chiral phonons. In particular, the phase diagram of mercury sulfide (HgS) remains difficult to characterize, with significant uncertainty surrounding the transition pressure between phases. Based on recent experimental results, we employ Density Functional Theory and Superconducting Density Functional Theory to investigate the pressure-induced structural phase transition in HgS and its interplay with the emergence of superconductivity as the crystal transitions from the cinnabar phase (space group P3$_1$21) to the rock salt phase (space group Fm$\\bar{3}$m). Remarkably, the rocksalt phase hosts a multigap superconducting state driven by distinct Fermi surface sheets, with two dominant gaps; the unusually high critical temperature of $\\sim$11 K emerges naturally within this multiband scenario, highlighting the role of interband coupling beyond isotropic models. These results place HgS among the few systems where multiband superconducting gap structures emerge under pressure."
+  },
+  {
+    "title": "Two-neutrino $\u03b2\u03b2$ decay to excited states at next-to-leading order",
+    "url": "http://arxiv.org/abs/2507.21868v1",
+    "arxiv_id": "2507.21868v1",
+    "authors": [
+      "Daniel Castillo",
+      "Dorian Frycz",
+      "Beatriz Benavente",
+      "Javier Men\u00e9ndez"
+    ],
+    "published": "2025-07-29T14:40:58+00:00",
+    "summary": "We study two-neutrino double-beta decay ($2\\nu\\beta\\beta$) into first-excited $0^+_2$ states of nuclei used in $\\beta\\beta$ decay experiments, including $^{76}$Ge, $^{82}$Se, $^{130}$Te, and $^{136}$Xe. We calculate the corresponding nuclear matrix elements (NMEs) within the nuclear shell model, using various Hamiltonians that describe well the spectroscopy of the initial and final nuclei. We evaluate the next-to-leading order (NLO) long-range NMEs recently introduced within chiral effective field theory, keeping three terms in the expansion of the energy denominator. In most cases, NLO contributions to the half-life are below 5%, but they can increase to 25% due to cancellations in the leading-order Gamow-Teller NME. A detailed analysis in terms of nuclear deformation, including triaxiality, indicates that larger deformation differences between the initial and final states generally lead to smaller NMEs, but the seniority structure of the states also plays a relevant role. The lower range of our predicted half-lives, with uncertainties dominated by the nuclear Hamiltonian used, are slightly longer than the current experimental limit in $^{76}$Ge and the very recent half-life indication in $^{82}$Se."
+  },
+  {
+    "title": "The Lyman-$\u03b1$ Forest from LBGs: First 3D Correlation Measurement with DESI and Prospects for Cosmology",
+    "url": "http://arxiv.org/abs/2507.21852v1",
+    "arxiv_id": "2507.21852v1",
+    "authors": [
+      "Hiram K. Herrera-Alcantar",
+      "Eric Armengaud",
+      "Christophe Y\u00e8che",
+      "Calum Gordon",
+      "Laura Casas",
+      "Andreu Font-Ribera",
+      "Christophe Magneville",
+      "Corentin Ravoux",
+      "J. Aguilar",
+      "S. Ahlen",
+      "A. Anand",
+      "D. Brooks",
+      "E. Chaussidon",
+      "T. Claybaugh",
+      "A. Cuceu",
+      "K. S. Dawson",
+      "A. de la Macorra",
+      "P. Doel",
+      "S. Ferraro",
+      "J. E. Forero-Romero",
+      "E. Gazta\u00f1aga",
+      "S. Gontcho A Gontcho",
+      "A. X. Gonzalez-Morales",
+      "G. Gutierrez",
+      "J. Guy",
+      "C. Hahn",
+      "D. Kirkby",
+      "A. Kremin",
+      "O. Lahav",
+      "A. Lambert",
+      "M. Landriau",
+      "L. Le Guillou",
+      "M. Manera",
+      "P. Martini",
+      "A. Meisner",
+      "R. Miquel",
+      "A. Mu\u00f1oz-Guti\u00e9rrez",
+      "S. Nadathur",
+      "N. Palanque-Delabrouille",
+      "W. J. Percival",
+      "F. Prada",
+      "I. P\u00e9rez-R\u00e0fols",
+      "G. Rossi",
+      "E. Sanchez",
+      "D. Schlegel",
+      "M. Schubnell",
+      "J. Silber",
+      "D. Sprayberry",
+      "G. Tarl\u00e9",
+      "B. A. Weaver",
+      "R. Zhou",
+      "H. Zou"
+    ],
+    "published": "2025-07-29T14:26:36+00:00",
+    "summary": "The Lyman-$\\alpha$ (Ly$\\alpha$) forest is a key tracer of large-scale structure at redshifts z > 2, traditionally studied using spectra of quasars. Here, we explore the viability Lyman Break Galaxies (LBGs) as alternative background sources for Ly$\\alpha$ forest studies. We analyze 4,151 Ly$\\alpha$ forest skewers extracted from LBG spectra obtained in the DESI pilot surveys in the COSMOS and XMM-LSS fields. We present the first measurement of the Ly$\\alpha$ forest auto-correlation function derived exclusively from LBG spectra, probing comoving separations up to 48 $h^{-1}$Mpc at an effective redshift of $z_\\mathrm{eff}$ = 2.70. The measured signal is consistent with that from DESI DR2 quasar Ly$\\alpha$ forest spectra at a comparable redshift, validating LBGs as reliable background sources. We also measure the cross-correlation between the LBG Ly$\\alpha$ forest and 13,362 galaxy positions, showing that this observable serves as a sensitive diagnostic for galaxy redshift uncertainties and systematic offsets. Finally, using synthetic LBG spectra and Fisher forecasts, we show that a future wide-area survey over 5000 deg$^2$, targeting 1000 LBGs per deg$^2$ at similar signal-to-noise than our dataset, could enable Ly$\\alpha$ forest baryon acoustic oscillation (BAO) measurements with 0.4% precision on the isotropic BAO scale and 1.3% on the anisotropic (Alcock-Paczynski) scale. Combining BAO with a Ly$\\alpha$ forest full-shape analysis improves the AP constraint to 0.6%. These results open a new path for precision cosmology at high redshift using dense LBG samples."
+  },
+  {
+    "title": "Probabilistic Active Goal Recognition",
+    "url": "http://arxiv.org/abs/2507.21846v1",
+    "arxiv_id": "2507.21846v1",
+    "authors": [
+      "Chenyuan Zhang",
+      "Cristian Rojas Cardenas",
+      "Hamid Rezatofighi",
+      "Mor Vered",
+      "Buser Say"
+    ],
+    "published": "2025-07-29T14:22:29+00:00",
+    "summary": "In multi-agent environments, effective interaction hinges on understanding the beliefs and intentions of other agents. While prior work on goal recognition has largely treated the observer as a passive reasoner, Active Goal Recognition (AGR) focuses on strategically gathering information to reduce uncertainty. We adopt a probabilistic framework for Active Goal Recognition and propose an integrated solution that combines a joint belief update mechanism with a Monte Carlo Tree Search (MCTS) algorithm, allowing the observer to plan efficiently and infer the actor's hidden goal without requiring domain-specific knowledge. Through comprehensive empirical evaluation in a grid-based domain, we show that our joint belief update significantly outperforms passive goal recognition, and that our domain-independent MCTS performs comparably to our strong domain-specific greedy baseline. These results establish our solution as a practical and robust framework for goal inference, advancing the field toward more interactive and adaptive multi-agent systems."
+  },
+  {
+    "title": "Distribution-Based Masked Medical Vision-Language Model Using Structured Reports",
+    "url": "http://arxiv.org/abs/2507.21794v1",
+    "arxiv_id": "2507.21794v1",
+    "authors": [
+      "Shreyank N Gowda",
+      "Ruichi Zhang",
+      "Xiao Gu",
+      "Ying Weng",
+      "Lu Yang"
+    ],
+    "published": "2025-07-29T13:31:24+00:00",
+    "summary": "Medical image-language pre-training aims to align medical images with clinically relevant text to improve model performance on various downstream tasks. However, existing models often struggle with the variability and ambiguity inherent in medical data, limiting their ability to capture nuanced clinical information and uncertainty. This work introduces an uncertainty-aware medical image-text pre-training model that enhances generalization capabilities in medical image analysis. Building on previous methods and focusing on Chest X-Rays, our approach utilizes structured text reports generated by a large language model (LLM) to augment image data with clinically relevant context. These reports begin with a definition of the disease, followed by the `appearance' section to highlight critical regions of interest, and finally `observations' and `verdicts' that ground model predictions in clinical semantics. By modeling both inter- and intra-modal uncertainty, our framework captures the inherent ambiguity in medical images and text, yielding improved representations and performance on downstream tasks. Our model demonstrates significant advances in medical image-text pre-training, obtaining state-of-the-art performance on multiple downstream tasks."
+  },
+  {
+    "title": "The impact of large-scale EV charging on the real-time operation of distribution systems: A comprehensive review",
+    "url": "http://arxiv.org/abs/2507.21759v1",
+    "arxiv_id": "2507.21759v1",
+    "authors": [
+      "Zhe Yu",
+      "Chuang Yang",
+      "Qin Wang"
+    ],
+    "published": "2025-07-29T12:42:54+00:00",
+    "summary": "With the large-scale integration of electric vehicles (EVs) in the distribution grid, the unpredictable nature of EV charging introduces considerable uncertainties to the grid's real-time operations. This can exacerbate load fluctuations, compromise power quality, and pose risks to the grid's stability and security. However, due to their dual role as controllable loads and energy storage devices, EVs have the potential to mitigate these fluctuations, balance the variability of renewable energy sources, and provide ancillary services that support grid stability. By leveraging the bidirectional flow of information and energy in smart grids, the adverse effects of EV charging can be minimized and even converted into beneficial outcomes through effective real-time management strategies. This paper explores the negative impacts of EV charging on the distribution system's real-time operations and outlines methods to transform these challenges into positive contributions. Additionally, it provides an in-depth analysis of the real-time management system for EV charging, focusing on state estimation and management strategies."
+  },
+  {
     "title": "Locally Adaptive Conformal Inference for Operator Models",
     "url": "http://arxiv.org/abs/2507.20975v1",
     "arxiv_id": "2507.20975v1",
