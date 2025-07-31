@@ -1,5 +1,125 @@
 [
   {
+    "title": "Solitons, chaos, and quantum phenomena: a deterministic approach to the Schr\u00f6dinger equation",
+    "url": "http://arxiv.org/abs/2507.22868v1",
+    "arxiv_id": "2507.22868v1",
+    "authors": [
+      "Dami\u00e0 Gomila"
+    ],
+    "published": "2025-07-30T17:43:06+00:00",
+    "summary": "We show that the Schr\\\"odinger equation describes the ensemble mean dynamics of solitons in a Galilean invariant field theory where we interpret solitons as particles. On a zero background, solitons move classically, following Newton`s second law, however, on a non-zero amplitude chaotic background, their momentum and position fluctuate fulfilling an exact uncertainty relation, which give rise to the emergence of quantum phenomena. The Schrodinger equation for the ensemble of solitons is obtained from this exact uncertainty relation, and the amplitude of the background fluctuations is what corresponds to the value of $\\hbar$. We confirm our analytical results running simulations of solitons moving against a potential barrier and comparing the ensemble probabilities with the predictions of the time dependent Schr\\\"odinger equation, providing a deterministic version of the quantum tunneling effect. We conclude with a discussion of how our theory does not present statistical independence between measurement and experiment outcome."
+  },
+  {
+    "title": "A Bit of Freedom Goes a Long Way: Classical and Quantum Algorithms for Reinforcement Learning under a Generative Model",
+    "url": "http://arxiv.org/abs/2507.22854v1",
+    "arxiv_id": "2507.22854v1",
+    "authors": [
+      "Andris Ambainis",
+      "Joao F. Doriguello",
+      "Debbie Lim"
+    ],
+    "published": "2025-07-30T17:24:23+00:00",
+    "summary": "We propose novel classical and quantum online algorithms for learning finite-horizon and infinite-horizon average-reward Markov Decision Processes (MDPs). Our algorithms are based on a hybrid exploration-generative reinforcement learning (RL) model wherein the agent can, from time to time, freely interact with the environment in a generative sampling fashion, i.e., by having access to a \"simulator\". By employing known classical and new quantum algorithms for approximating optimal policies under a generative model within our learning algorithms, we show that it is possible to avoid several paradigms from RL like \"optimism in the face of uncertainty\" and \"posterior sampling\" and instead compute and use optimal policies directly, which yields better regret bounds compared to previous works. For finite-horizon MDPs, our quantum algorithms obtain regret bounds which only depend logarithmically on the number of time steps $T$, thus breaking the $O(\\sqrt{T})$ classical barrier. This matches the time dependence of the prior quantum works of Ganguly et al. (arXiv'23) and Zhong et al. (ICML'24), but with improved dependence on other parameters like state space size $S$ and action space size $A$. For infinite-horizon MDPs, our classical and quantum bounds still maintain the $O(\\sqrt{T})$ dependence but with better $S$ and $A$ factors. Nonetheless, we propose a novel measure of regret for infinite-horizon MDPs with respect to which our quantum algorithms have $\\operatorname{poly}\\log{T}$ regret, exponentially better compared to classical algorithms. Finally, we generalise all of our results to compact state spaces."
+  },
+  {
+    "title": "Robust Contract with Career Concerns",
+    "url": "http://arxiv.org/abs/2507.22852v1",
+    "arxiv_id": "2507.22852v1",
+    "authors": [
+      "Tan Gan",
+      "Hongcheng Li"
+    ],
+    "published": "2025-07-30T17:22:58+00:00",
+    "summary": "An employer contracts with a worker to incentivize efforts whose productivity depends on ability; the worker then enters a market that pays him contingent on ability evaluation. With non-additive monitoring technology, the interdependence between market expectations and worker efforts can lead to multiple equilibria (contrasting Holmstrom (1982/1999); Gibbons and Murphy (1992)). We identify a sufficient and necessary criterion for the employer to face such strategic uncertainty--one linked to skill-effort complementarity, a pervasive feature of labor markets. To fully implement work, the employer optimally creates private wage discrimination to iteratively eliminate pessimistic market expectations and low worker efforts. Our result suggests that present contractual privacy, employers' coordination motives generate within-group pay inequality. The comparative statics further explain several stylized facts about residual wage dispersion."
+  },
+  {
+    "title": "An Uncertainty Principle for Probabilistic Computation in the Retina",
+    "url": "http://arxiv.org/abs/2507.22785v1",
+    "arxiv_id": "2507.22785v1",
+    "authors": [
+      "Jayanth R Taranath",
+      "Salim M'Jahad"
+    ],
+    "published": "2025-07-30T15:51:13+00:00",
+    "summary": "We introduce a probabilistic model of early visual processing, beginning with the interaction between a light wavefront and the retina. We argue that perception originates not with deterministic transduction, but with probabilistic threshold crossings shaped by quantum photon arrival statistics and biological variability. We formalize this with an uncertainty relation, \\( \\Delta \\alpha \\cdot \\Delta t \\geq \\eta \\), through the transformation of light into symbolic neural code through the layered retinal architecture. Our model is supported by previous experimental results, which show intrinsic variability in retinal responses even under fixed stimuli. We contrast this with a classical null hypothesis of deterministic encoding and propose experiments to further test our uncertainty relation. By re-framing the retina as a probabilistic measurement device, we lay the foundation for future models of cortical dynamics rooted in quantum-like computation. We are not claiming that the brain could be working as a quantum-system, but rather putting forth the argument that the brain as a classical system could still implement quantum-inspired computations. We define quantum-inspired computation as a scheme that includes both probabilistic and time-sensitive computation, clearly separating it from classically implementable probabilistic systems."
+  },
+  {
+    "title": "A comparison of variable selection methods and predictive models for postoperative bowel surgery complications",
+    "url": "http://arxiv.org/abs/2507.22771v1",
+    "arxiv_id": "2507.22771v1",
+    "authors": [
+      "\u00d6zge \u015eahin",
+      "Annemiek Kwast",
+      "Annemieke Witteveen",
+      "Tina Nane"
+    ],
+    "published": "2025-07-30T15:35:11+00:00",
+    "summary": "Accurate prediction of postoperative complications can support personalized perioperative care. However, in surgical settings, data collection is often constrained, and identifying which variables to prioritize remains an open question. We analyzed 767 elective bowel surgeries performed under an Enhanced Recovery After Surgery protocol at Medisch Spectrum Twente (Netherlands) between March 2020 and December 2023. Although hundreds of variables were available, most had substantial missingness or near-constant values and were therefore excluded. After data preprocessing, 34 perioperative predictors were selected for further analysis. Surgeries from 2020 to 2022 ($n=580$) formed the development set, and 2023 cases ($n=187$) provided temporal validation. We modeled two binary endpoints: any and serious postoperative complications (Clavien Dindo $\\ge$ IIIa). We compared weighted logistic regression, stratified random forests, and Naive Bayes under class imbalance (serious complication rate $\\approx$11\\%; any complication rate $\\approx$35\\%). Probabilistic performance was assessed using class-specific Brier scores. We advocate reporting probabilistic risk estimates to guide monitoring based on uncertainty. Random forests yielded better calibration across outcomes. Variable selection modestly improved weighted logistic regression and Naive Bayes but had minimal effect on random forests. Despite single-center data, our findings underscore the value of careful preprocessing and ensemble methods in perioperative risk modeling."
+  },
+  {
+    "title": "Bayesian Optimization of Process Parameters of a Sensor-Based Sorting System using Gaussian Processes as Surrogate Models",
+    "url": "http://arxiv.org/abs/2507.22766v1",
+    "arxiv_id": "2507.22766v1",
+    "authors": [
+      "Felix Kronenwett",
+      "Georg Maier",
+      "Thomas Laengle"
+    ],
+    "published": "2025-07-30T15:31:39+00:00",
+    "summary": "Sensor-based sorting systems enable the physical separation of a material stream into two fractions. The sorting decision is based on the image data evaluation of the sensors used and is carried out using actuators. Various process parameters must be set depending on the properties of the material stream, the dimensioning of the system, and the required sorting accuracy. However, continuous verification and re-adjustment are necessary due to changing requirements and material stream compositions. In this paper, we introduce an approach for optimizing, recurrently monitoring and adjusting the process parameters of a sensor-based sorting system. Based on Bayesian Optimization, Gaussian process regression models are used as surrogate models to achieve specific requirements for system behavior with the uncertainties contained therein. This method minimizes the number of necessary experiments while simultaneously considering two possible optimization targets based on the requirements for both material output streams. In addition, uncertainties are considered during determining sorting accuracies in the model calculation. We evaluated the method with three example process parameters."
+  },
+  {
+    "title": "Pionic gluons from global QCD analysis of experimental and lattice data",
+    "url": "http://arxiv.org/abs/2507.22730v1",
+    "arxiv_id": "2507.22730v1",
+    "authors": [
+      "William Good",
+      "Patrick C. Barry",
+      "Huey-Wen Lin",
+      "W. Melnitchouk",
+      "Alex NieMiera",
+      "Nobuo Sato"
+    ],
+    "published": "2025-07-30T14:50:23+00:00",
+    "summary": "We perform the first global QCD analysis of parton distribution functions (PDFs) in the pion, with lattice-QCD data on gluonic pseudo--Ioffe-time distributions fitted simultaneously with experimental Drell-Yan and leading neutron electroproduction data. Inclusion of the lattice results with parametrized systematic corrections significantly reduces the uncertainties on the gluon PDF at parton momentum fractions $x \\gtrsim 0.2$, revealing a higher gluon density in the pion at large $x$ than in the proton. The similar gluon momentum fractions in the pion and proton further suggests a relative suppression of the pion gluon density at small $x$."
+  },
+  {
+    "title": "Malleability-Resistant Encrypted Control System with Disturbance Compensation and Real-Time Attack Detection",
+    "url": "http://arxiv.org/abs/2507.22693v1",
+    "arxiv_id": "2507.22693v1",
+    "authors": [
+      "Naoki Aizawa",
+      "Keita Emura",
+      "Kiminao Kogiso"
+    ],
+    "published": "2025-07-30T13:59:03+00:00",
+    "summary": "This study proposes an encrypted PID control system with a disturbance observer (DOB) using a keyed-homomorphic encryption (KHE) scheme, aiming to achieve control performance while providing resistance to malleability-based attacks. The controller integrates a DOB with a PID structure to compensate for modeling uncertainties by estimating and canceling external disturbances. To enhance security, the system is designed to output error symbols when ciphertexts are falsified during decryption or evaluation, enabling real-time detection of malleability-based signal or parameter falsification. To validate the proposed method, we conduct stage positioning control experiments and attack detection tests using an industrial linear stage. The results show that the encrypted DOB-based PID controller outperforms a conventional encrypted PID controller in terms of tracking accuracy. Furthermore, the system successfully detects two types of malleability-based attacks: one that destabilizes the control system, and another that degrades its performance. The primary contributions of this study are: (i) the implementation of a KHE-based encrypted DOB-PID controller, (ii) the improvement of control performance under uncertainties, and (iii) the experimental demonstration of attack detection capabilities in encrypted control systems."
+  },
+  {
+    "title": "Designing for Self-Regulation in Informal Programming Learning: Insights from a Storytelling-Centric Approach",
+    "url": "http://arxiv.org/abs/2507.22671v1",
+    "arxiv_id": "2507.22671v1",
+    "authors": [
+      "Sami Saeed Alghamdi",
+      "Christopher Bull",
+      "Ahmed Kharrufa"
+    ],
+    "published": "2025-07-30T13:30:04+00:00",
+    "summary": "Many people learn programming independently from online resources and often report struggles in achieving their personal learning goals. Learners frequently describe their experiences as isolating and frustrating, challenged by abundant uncertainties, information overload, and distraction, compounded by limited guidance. At the same time, social media serves as a personal space where many engage in diverse self-regulation practices, including help-seeking, using external memory aids (e.g., self-notes), self-reflection, emotion regulation, and self-motivation. For instance, learners often mark achievements and set milestones through their posts. In response, we developed a system consisting of a web platform and browser extensions to support self-regulation online. The design aims to add learner-defined structure to otherwise unstructured experiences and bring meaning to curation and reflection activities by translating them into learning stories with AI-generated feedback. We position storytelling as an integrative approach to design that connects resource curation, reflective and sensemaking practice, and narrative practices learners already use across social platforms. We recruited 15 informal programming learners who are regular social media users to engage with the system in a self-paced manner; participation concluded upon submitting a learning story and survey. We used three quantitative scales and a qualitative survey to examine users' characteristics and perceptions of the system's support for their self-regulation. User feedback suggests the system's viability as a self-regulation aid. Learners particularly valued in-situ reflection, automated story feedback, and video annotation, while other features received mixed views. We highlight perceived benefits, friction points, and design opportunities for future AI-augmented self-regulation tools."
+  },
+  {
+    "title": "Robust Voting under Uncertainty",
+    "url": "http://arxiv.org/abs/2507.22655v1",
+    "arxiv_id": "2507.22655v1",
+    "authors": [
+      "Satoshi Nakada",
+      "Shmuel Nitzan",
+      "Takashi Ui"
+    ],
+    "published": "2025-07-30T13:15:12+00:00",
+    "summary": "This paper proposes normative criteria for voting rules under uncertainty about individual preferences. The criteria emphasize the importance of responsiveness, i.e., the probability that the social outcome coincides with the realized individual preferences. Given a convex set of probability distributions of preferences, denoted by $P$, a voting rule is said to be $P$-robust if, for each probability distribution in $P$, at least one individual's responsiveness exceeds one-half. Our main result establishes that a voting rule is $P$-robust if and only if there exists a nonnegative weight vector such that the weighted average of individual responsiveness is strictly greater than one-half under every extreme point of $P$. In particular, if the set $P$ includes all degenerate distributions, a $P$-robust rule is a weighted majority rule without ties."
+  },
+  {
     "title": "Planning Persuasive Trajectories Based on a Leader-Follower Game Model",
     "url": "http://arxiv.org/abs/2507.22022v1",
     "arxiv_id": "2507.22022v1",
