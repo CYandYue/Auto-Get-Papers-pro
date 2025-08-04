@@ -1,5 +1,138 @@
 [
   {
+    "title": "Numerical Uncertainty in Linear Registration: An Experimental Study",
+    "url": "http://arxiv.org/abs/2508.00781v1",
+    "arxiv_id": "2508.00781v1",
+    "authors": [
+      "Niusha Mirhakimi",
+      "Yohan Chatelain",
+      "Jean-Baptiste Poline",
+      "Tristan Glatard"
+    ],
+    "published": "2025-08-01T17:02:29+00:00",
+    "summary": "While linear registration is a critical step in MRI preprocessing pipelines, its numerical uncertainty is understudied. Using Monte-Carlo Arithmetic (MCA) simulations, we assessed the most commonly used linear registration tools within major software packages (SPM, FSL, and ANTs) across multiple image similarity measures, two brain templates, and both healthy control (HC, n=50) and Parkinson's Disease (PD, n=50) cohorts. Our findings highlight the influence of linear registration tools and similarity measures on numerical stability. Among the evaluated tools and with default similarity measures, SPM exhibited the highest stability. FSL and ANTs showed greater and similar ranges of variability, with ANTs demonstrating particular sensitivity to numerical perturbations that occasionally led to registration failure. Furthermore, no significant differences were observed between healthy and PD cohorts, suggesting that numerical stability analyses obtained with healthy subjects may generalise to clinical populations. Finally, we also demonstrated how numerical uncertainty measures may support automated quality control (QC) of linear registration results. Overall, our experimental results characterize the numerical stability of linear registration experimentally and can serve as a basis for future uncertainty analyses."
+  },
+  {
+    "title": "A Simple and Effective Method for Uncertainty Quantification and OOD Detection",
+    "url": "http://arxiv.org/abs/2508.00754v1",
+    "arxiv_id": "2508.00754v1",
+    "authors": [
+      "Yaxin Ma",
+      "Benjamin Colburn",
+      "Jose C. Principe"
+    ],
+    "published": "2025-08-01T16:31:23+00:00",
+    "summary": "Bayesian neural networks and deep ensemble methods have been proposed for uncertainty quantification; however, they are computationally intensive and require large storage. By utilizing a single deterministic model, we can solve the above issue. We propose an effective method based on feature space density to quantify uncertainty for distributional shifts and out-of-distribution (OOD) detection. Specifically, we leverage the information potential field derived from kernel density estimation to approximate the feature space density of the training set. By comparing this density with the feature space representation of test samples, we can effectively determine whether a distributional shift has occurred. Experiments were conducted on a 2D synthetic dataset (Two Moons and Three Spirals) as well as an OOD detection task (CIFAR-10 vs. SVHN). The results demonstrate that our method outperforms baseline models."
+  },
+  {
+    "title": "SU-ESRGAN: Semantic and Uncertainty-Aware ESRGAN for Super-Resolution of Satellite and Drone Imagery with Fine-Tuning for Cross Domain Evaluation",
+    "url": "http://arxiv.org/abs/2508.00750v1",
+    "arxiv_id": "2508.00750v1",
+    "authors": [
+      "Prerana Ramkumar"
+    ],
+    "published": "2025-08-01T16:25:21+00:00",
+    "summary": "Generative Adversarial Networks (GANs) have achieved realistic super-resolution (SR) of images however, they lack semantic consistency and per-pixel confidence, limiting their credibility in critical remote sensing applications such as disaster response, urban planning and agriculture. This paper introduces Semantic and Uncertainty-Aware ESRGAN (SU-ESRGAN), the first SR framework designed for satellite imagery to integrate the ESRGAN, segmentation loss via DeepLabv3 for class detail preservation and Monte Carlo dropout to produce pixel-wise uncertainty maps. The SU-ESRGAN produces results (PSNR, SSIM, LPIPS) comparable to the Baseline ESRGAN on aerial imagery. This novel model is valuable in satellite systems or UAVs that use wide field-of-view (FoV) cameras, trading off spatial resolution for coverage. The modular design allows integration in UAV data pipelines for on-board or post-processing SR to enhance imagery resulting due to motion blur, compression and sensor limitations. Further, the model is fine-tuned to evaluate its performance on cross domain applications. The tests are conducted on two drone based datasets which differ in altitude and imaging perspective. Performance evaluation of the fine-tuned models show a stronger adaptation to the Aerial Maritime Drone Dataset, whose imaging characteristics align with the training data, highlighting the importance of domain-aware training in SR-applications."
+  },
+  {
+    "title": "Adaptive Machine Learning-Driven Multi-Fidelity Stratified Sampling for Failure Analysis of Nonlinear Stochastic Systems",
+    "url": "http://arxiv.org/abs/2508.00734v1",
+    "arxiv_id": "2508.00734v1",
+    "authors": [
+      "Liuyun Xu",
+      "Seymour M. J. Spence"
+    ],
+    "published": "2025-08-01T16:04:21+00:00",
+    "summary": "Existing variance reduction techniques used in stochastic simulations for rare event analysis still require a substantial number of model evaluations to estimate small failure probabilities. In the context of complex, nonlinear finite element modeling environments, this can become computationally challenging-particularly for systems subjected to stochastic excitation. To address this challenge, a multi-fidelity stratified sampling scheme with adaptive machine learning metamodels is introduced for efficiently propagating uncertainties and estimating small failure probabilities. In this approach, a high-fidelity dataset generated through stratified sampling is used to train a deep learning-based metamodel, which then serves as a cost-effective and highly correlated low-fidelity model. An adaptive training scheme is proposed to balance the trade-off between approximation quality and computational demand associated with the development of the low-fidelity model. By integrating the low-fidelity outputs with additional high-fidelity results, an unbiased estimate of the strata-wise failure probabilities is obtained using a multi-fidelity Monte Carlo framework. The overall probability of failure is then computed using the total probability theorem. Application to a full-scale high-rise steel building subjected to stochastic wind excitation demonstrates that the proposed scheme can accurately estimate exceedance probability curves for nonlinear responses of interest, while achieving significant computational savings compared to single-fidelity variance reduction approaches."
+  },
+  {
+    "title": "Efficient Solution and Learning of Robust Factored MDPs",
+    "url": "http://arxiv.org/abs/2508.00707v1",
+    "arxiv_id": "2508.00707v1",
+    "authors": [
+      "Yannik Schnitzer",
+      "Alessandro Abate",
+      "David Parker"
+    ],
+    "published": "2025-08-01T15:23:15+00:00",
+    "summary": "Robust Markov decision processes (r-MDPs) extend MDPs by explicitly modelling epistemic uncertainty about transition dynamics. Learning r-MDPs from interactions with an unknown environment enables the synthesis of robust policies with provable (PAC) guarantees on performance, but this can require a large number of sample interactions. We propose novel methods for solving and learning r-MDPs based on factored state-space representations that leverage the independence between model uncertainty across system components. Although policy synthesis for factored r-MDPs leads to hard, non-convex optimisation problems, we show how to reformulate these into tractable linear programs. Building on these, we also propose methods to learn factored model representations directly. Our experimental results show that exploiting factored structure can yield dimensional gains in sample efficiency, producing more effective robust policies with tighter performance guarantees than state-of-the-art methods."
+  },
+  {
+    "title": "Chemical abundances of seven stars in the GD-1 stream",
+    "url": "http://arxiv.org/abs/2508.00671v1",
+    "arxiv_id": "2508.00671v1",
+    "authors": [
+      "Jing-Kun Zhao",
+      "Guang-Wei Li",
+      "Wako Aoki",
+      "Gang Zhao",
+      "Guo-Chao Yang",
+      "Jian-Rong Shi",
+      "Hai-Ning Li",
+      "Tadafumi Matsuno",
+      "Miho Ishigaki",
+      "Takuma Suda",
+      "Satoshi Honda",
+      "Yu-Qin Chen",
+      "Qian-Fan Xing",
+      "Hong-Liang Yan",
+      "Yong Yang",
+      "Xian-Hao Ye"
+    ],
+    "published": "2025-08-01T14:46:09+00:00",
+    "summary": "We present the first detailed chemical abundances for seven GD-1 stream stars from Subaru/HDS spectroscopy. Atmospheric parameters were derived via color calibrations ($T\\rm_{eff}$) and iterative spectroscopic analysis. LTE abundances for 14 elements ($\\alpha$, odd-Z, iron-peak, n-capture) were measured. Six stars trace the main orbit, one resides in a `blob'. All exhibit tightly clustered metallicities ([Fe/H] = -2.38, {\\bf intrinsic dispersion smaller than 0.05 dex, average uncertainty is about 0.13 dex}). While one star shows binary mass transfer signatures, the other six display consistent abundance patterns (dispersions $<$ uncertainties). Their iron-peak elements (Sc, Cr, Mn, Ni) match Milky Way halo stars. In contrast, Y and Sr are systematically lower than halo stars of similar [Fe/H]. Significantly, six stars show consistently enhanced [Eu/Fe] $\\sim$ 0.60 ($\\sigma$ = 0.08). A tight Ba-Eu correlation (r = 0.83, p=0.04) exists, with [Ba/Fe] = -0.03 $\\pm$ 0.05, indicating a common r-process origin. This extreme chemical homogeneity strongly supports an origin from a single disrupted globular cluster. The lack of light-element anti-correlations may stem from our sample size or the progenitor's low mass."
+  },
+  {
+    "title": "Uncertainty Relation for Pseudo-Hermitian Quantum Systems",
+    "url": "http://arxiv.org/abs/2508.00648v1",
+    "arxiv_id": "2508.00648v1",
+    "authors": [
+      "Boubakeur Khantoul",
+      "Bilel Hamil",
+      "Amar Benchikha"
+    ],
+    "published": "2025-08-01T14:06:05+00:00",
+    "summary": "This study investigates pseudo-Hermitian quantum mechanics, where the Hamiltonian satisfies a modified Hermiticity condition. We extend the uncertainty relation for such systems, demonstrating its equivalence to the standard Hermitian case within a pseudo-Hermitian inner product. Analytical solutions to the time-dependent Schr\\\"odinger equation with a linearly evolving potential are derived. Furthermore, we show that the uncertainty relation for position and momentum remains real and greater than 1/2, highlighting the significance of non-Hermitian systems in quantum mechanics."
+  },
+  {
+    "title": "Light-Weight Diffusion Multiplier and Uncertainty Quantification for Fourier Neural Operators",
+    "url": "http://arxiv.org/abs/2508.00643v1",
+    "arxiv_id": "2508.00643v1",
+    "authors": [
+      "Albert Matveev",
+      "Sanmitra Ghosh",
+      "Aamal Hussain",
+      "James-Michael Leahy",
+      "Michalis Michaelides"
+    ],
+    "published": "2025-08-01T13:57:19+00:00",
+    "summary": "Operator learning is a powerful paradigm for solving partial differential equations, with Fourier Neural Operators serving as a widely adopted foundation. However, FNOs face significant scalability challenges due to overparameterization and offer no native uncertainty quantification -- a key requirement for reliable scientific and engineering applications. Instead, neural operators rely on post hoc UQ methods that ignore geometric inductive biases. In this work, we introduce DINOZAUR: a diffusion-based neural operator parametrization with uncertainty quantification. Inspired by the structure of the heat kernel, DINOZAUR replaces the dense tensor multiplier in FNOs with a dimensionality-independent diffusion multiplier that has a single learnable time parameter per channel, drastically reducing parameter count and memory footprint without compromising predictive performance. By defining priors over those time parameters, we cast DINOZAUR as a Bayesian neural operator to yield spatially correlated outputs and calibrated uncertainty estimates. Our method achieves competitive or superior performance across several PDE benchmarks while providing efficient uncertainty quantification."
+  },
+  {
+    "title": "A Context-Aware Dual-Metric Framework for Confidence Estimation in Large Language Models",
+    "url": "http://arxiv.org/abs/2508.00600v1",
+    "arxiv_id": "2508.00600v1",
+    "authors": [
+      "Mingruo Yuan",
+      "Shuyi Zhang",
+      "Ben Kao"
+    ],
+    "published": "2025-08-01T12:58:34+00:00",
+    "summary": "Accurate confidence estimation is essential for trustworthy large language models (LLMs) systems, as it empowers the user to determine when to trust outputs and enables reliable deployment in safety-critical applications. Current confidence estimation methods for LLMs neglect the relevance between responses and contextual information, a crucial factor in output quality evaluation, particularly in scenarios where background knowledge is provided. To bridge this gap, we propose CRUX (Context-aware entropy Reduction and Unified consistency eXamination), the first framework that integrates context faithfulness and consistency for confidence estimation via two novel metrics. First, contextual entropy reduction represents data uncertainty with the information gain through contrastive sampling with and without context. Second, unified consistency examination captures potential model uncertainty through the global consistency of the generated answers with and without context. Experiments across three benchmark datasets (CoQA, SQuAD, QuAC) and two domain-specific datasets (BioASQ, EduQG) demonstrate CRUX's effectiveness, achieving the highest AUROC than existing baselines."
+  },
+  {
+    "title": "Output-recurrent gated state space model for multiphase flows modeling and uncertainty quantification of exhaust vehicles",
+    "url": "http://arxiv.org/abs/2508.00588v1",
+    "arxiv_id": "2508.00588v1",
+    "authors": [
+      "Ruilin Chen",
+      "Ming Fang",
+      "Guihui Ma"
+    ],
+    "published": "2025-08-01T12:41:40+00:00",
+    "summary": "This paper presents an Output-Recurrent Gated State Space Model (OR-GSSM) for complex multiphase flows modeling and uncertainty quantification of exhaust vehicles during motion. By establishing the state-space formulation of the gas-liquid Navier-Stokes equations applying semigroup theory and Galerkin projection, explicitly characterizing the dynamic coupling evolution between the velocity, pressure, and volume fraction fields. A novel Gated State Space Transition (GSST) unit is designed to learn parameterized transition and input matrices with adaptive timescales, enhancing physical interpretability and computational efficiency. The output recursion mechanism aligns with the numerical solution characteristics of state-space equations, mitigating long-term error accumulation and addressing training-inference pattern mismatch issues inherent in teacher forcing and scheduled sampling. Validations on the underwater cone-head and water-exit hemisphere-head vehicles demonstrate that: OR-GSSM outperforms OR-ConvLSTM and OR-ConvGRU baselines in accuracy and computational efficiency through its physics-informed adaptive state-space unit design and parallel matrix operations; The output recursion mechanism ensures more stable training, better generalization, and higher prediction accuracy than teacher forcing and scheduled sampling; OR-GSSM accurately captures the gas-phase expansion, gas-liquid mixing formation, backflow jet generation, bubble shedding, and entire water-exit process, etc, showcasing outstanding modeling capability; Its uncertainty quantification effectively characterizes flow features and uncertainty distributions, validating prediction reliability. The proposed method resolves the accuracy-real-time trade-off in traditional computational fluid dynamics, advancing machine learning for multiphase flow modeling and uncertainty quantification in exhaust vehicles."
+  },
+  {
     "title": "Formal Bayesian Transfer Learning via the Total Risk Prior",
     "url": "http://arxiv.org/abs/2507.23768v1",
     "arxiv_id": "2507.23768v1",
