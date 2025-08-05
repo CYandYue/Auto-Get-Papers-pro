@@ -1,5 +1,139 @@
 [
   {
+    "title": "DeepKoopFormer: A Koopman Enhanced Transformer Based Architecture for Time Series Forecasting",
+    "url": "http://arxiv.org/abs/2508.02616v1",
+    "arxiv_id": "2508.02616v1",
+    "authors": [
+      "Ali Forootani",
+      "Mohammad Khosravi",
+      "Masoud Barati"
+    ],
+    "published": "2025-08-04T17:05:55+00:00",
+    "summary": "Time series forecasting plays a vital role across scientific, industrial, and environmental domains, especially when dealing with high-dimensional and nonlinear systems. While Transformer-based models have recently achieved state-of-the-art performance in long-range forecasting, they often suffer from interpretability issues and instability in the presence of noise or dynamical uncertainty. In this work, we propose DeepKoopFormer, a principled forecasting framework that combines the representational power of Transformers with the theoretical rigor of Koopman operator theory. Our model features a modular encoder-propagator-decoder structure, where temporal dynamics are learned via a spectrally constrained, linear Koopman operator in a latent space. We impose structural guarantees-such as bounded spectral radius, Lyapunov based energy regularization, and orthogonal parameterization to ensure stability and interpretability. Comprehensive evaluations are conducted on both synthetic dynamical systems, real-world climate dataset (wind speed and surface pressure), financial time series (cryptocurrency), and electricity generation dataset using the Python package that is prepared for this purpose. Across all experiments, DeepKoopFormer consistently outperforms standard LSTM and baseline Transformer models in terms of accuracy, robustness to noise, and long-term forecasting stability. These results establish DeepKoopFormer as a flexible, interpretable, and robust framework for forecasting in high dimensional and dynamical settings."
+  },
+  {
+    "title": "Quark mass corrections in di-Higgs production amplitude at high-energy",
+    "url": "http://arxiv.org/abs/2508.02589v1",
+    "arxiv_id": "2508.02589v1",
+    "authors": [
+      "Sebastian Jaskiewicz"
+    ],
+    "published": "2025-08-04T16:44:00+00:00",
+    "summary": "A large theoretical uncertainty due to the choice of the top-quark mass renormalisation scheme is present in QCD predictions for Higgs boson pair production. In these proceedings, we report on the recent progress in tackling these uncertainties for the $gg\\to HH$ amplitude in the high-energy limit $s,|t|,|u| \\gg m_t^2 \\gg m_H^2$. Using the Method of Regions and Soft-Collinear Effective Theory, the leading power in $m_t$ behaviour of the amplitude is understood to all orders in the strong coupling expansion, and leading logarithmic resummation leads to a significant reduction in the scheme choice uncertainty in the virtual amplitude for di-Higgs production at high energies."
+  },
+  {
+    "title": "Dynamic Feature Selection based on Rule-based Learning for Explainable Classification with Uncertainty Quantification",
+    "url": "http://arxiv.org/abs/2508.02566v1",
+    "arxiv_id": "2508.02566v1",
+    "authors": [
+      "Javier Fumanal-Idocin",
+      "Raquel Fernandez-Peralta",
+      "Javier Andreu-Perez"
+    ],
+    "published": "2025-08-04T16:21:43+00:00",
+    "summary": "Dynamic feature selection (DFS) offers a compelling alternative to traditional, static feature selection by adapting the selected features to each individual sample. Unlike classical methods that apply a uniform feature set, DFS customizes feature selection per sample, providing insight into the decision-making process for each case. DFS is especially significant in settings where decision transparency is key, i.e., clinical decisions; however, existing methods use opaque models, which hinder their applicability in real-life scenarios. This paper introduces a novel approach leveraging a rule-based system as a base classifier for the DFS process, which enhances decision interpretability compared to neural estimators. We also show how this method provides a quantitative measure of uncertainty for each feature query and can make the feature selection process computationally lighter by constraining the feature search space. We also discuss when greedy selection of conditional mutual information is equivalent to selecting features that minimize the difference with respect to the global model predictions. Finally, we demonstrate the competitive performance of our rule-based DFS approach against established and state-of-the-art greedy and RL methods, which are mostly considered opaque, compared to our explainable rule-based system."
+  },
+  {
+    "title": "From Pixels to Pathology: Restoration Diffusion for Diagnostic-Consistent Virtual IHC",
+    "url": "http://arxiv.org/abs/2508.02528v1",
+    "arxiv_id": "2508.02528v1",
+    "authors": [
+      "Jingsong Liu",
+      "Xiaofeng Deng",
+      "Han Li",
+      "Azar Kazemi",
+      "Christian Grashei",
+      "Gesa Wilkens",
+      "Xin You",
+      "Tanja Groll",
+      "Nassir Navab",
+      "Carolin Mogler",
+      "Peter J. Sch\u00fcffler"
+    ],
+    "published": "2025-08-04T15:36:58+00:00",
+    "summary": "Hematoxylin and eosin (H&E) staining is the clinical standard for assessing tissue morphology, but it lacks molecular-level diagnostic information. In contrast, immunohistochemistry (IHC) provides crucial insights into biomarker expression, such as HER2 status for breast cancer grading, but remains costly and time-consuming, limiting its use in time-sensitive clinical workflows. To address this gap, virtual staining from H&E to IHC has emerged as a promising alternative, yet faces two core challenges: (1) Lack of fair evaluation of synthetic images against misaligned IHC ground truths, and (2) preserving structural integrity and biological variability during translation. To this end, we present an end-to-end framework encompassing both generation and evaluation in this work. We introduce Star-Diff, a structure-aware staining restoration diffusion model that reformulates virtual staining as an image restoration task. By combining residual and noise-based generation pathways, Star-Diff maintains tissue structure while modeling realistic biomarker variability. To evaluate the diagnostic consistency of the generated IHC patches, we propose the Semantic Fidelity Score (SFS), a clinical-grading-task-driven metric that quantifies class-wise semantic degradation based on biomarker classification accuracy. Unlike pixel-level metrics such as SSIM and PSNR, SFS remains robust under spatial misalignment and classifier uncertainty. Experiments on the BCI dataset demonstrate that Star-Diff achieves state-of-the-art (SOTA) performance in both visual fidelity and diagnostic relevance. With rapid inference and strong clinical alignment,it presents a practical solution for applications such as intraoperative virtual IHC synthesis."
+  },
+  {
+    "title": "Quantitative and Predictive Folding Models from Limited Single-Molecule Data Using Simulation-Based Inference",
+    "url": "http://arxiv.org/abs/2508.02509v1",
+    "arxiv_id": "2508.02509v1",
+    "authors": [
+      "Lars Dingeldein",
+      "Aaron Lyons",
+      "Pilar Cossio",
+      "Michael Woodside",
+      "Roberto Covino"
+    ],
+    "published": "2025-08-04T15:16:39+00:00",
+    "summary": "The study of biomolecular folding has been greatly advanced by single-molecule force spectroscopy (SMFS), which enables the observation of the dynamics of individual molecules. However, extracting quantitative models of fundamental properties such as folding landscapes from SNFS data is very challenging due to instrumental noise, linker artifacts, and the inherent stochasticity of the process, often requiring extensive datasets and complex calibration experiments. Here, we introduce a framework based on simulation-based inference (SBI) that overcomes these limitations by integrating physics-based modeling with deep learning. We apply this framework to analyze constant-force measurements of a DNA hairpin. From a single, short experimental trajectory of only two seconds, we successfully reconstruct the hairpin's free energy landscape and folding dynamics, obtaining results that are in close agreement with established deconvolution methods that require approximately 100 times more data. Furthermore, the Bayesian nature of this approach robustly quantifies uncertainties for inferred parameter values, including the free-energy profile, diffusion coefficients, and linker stiffness, without needing independent measurements of instrumental properties. The inferred model is predictive, generating simulated trajectories that quantitatively reproduce the thermodynamic and kinetic properties of the experimental data. This work establishes SBI as a highly efficient and powerful tool for analyzing single-molecule experiments. The ability to derive statistically robust models from minimal datasets is crucial for investigating complex biomolecular systems where extensive data collection is impractical or impossible. Consequently, our SBI framework enables the rigorous quantitative analysis of previously intractable biomolecular systems, paving the way for novel applications of SMFS."
+  },
+  {
+    "title": "OptiHive: Ensemble Selection for LLM-Based Optimization via Statistical Modeling",
+    "url": "http://arxiv.org/abs/2508.02503v1",
+    "arxiv_id": "2508.02503v1",
+    "authors": [
+      "Maxime Bouscary",
+      "Saurabh Amin"
+    ],
+    "published": "2025-08-04T15:11:51+00:00",
+    "summary": "LLM-based solvers have emerged as a promising means of automating problem modeling and solving. However, they remain unreliable and often depend on iterative repair loops that result in significant latency. We introduce OptiHive, an LLM-based framework that produces high-quality solvers for optimization problems from natural-language descriptions without iterative self-correction. OptiHive uses a single batched LLM query to generate diverse components (solvers, problem instances, and validation tests) and filters out erroneous components to ensure fully interpretable outputs. Taking into account the imperfection of the generated components, we employ a statistical model to infer their true performance, enabling principled uncertainty quantification and solver selection. On tasks ranging from traditional optimization problems to challenging variants of the Multi-Depot Vehicle Routing Problem, OptiHive significantly outperforms baselines, increasing the optimality rate from 5\\% to 92\\% on the most complex problems."
+  },
+  {
+    "title": "Pre-discovery TESS Observations of Interstellar Object 3I/ATLAS",
+    "url": "http://arxiv.org/abs/2508.02499v1",
+    "arxiv_id": "2508.02499v1",
+    "authors": [
+      "Jorge Martinez-Palomera",
+      "Amy Tuson",
+      "Christina Hedges",
+      "Jessie Dotson",
+      "Thomas Barclay",
+      "Brian Powell"
+    ],
+    "published": "2025-08-04T15:07:55+00:00",
+    "summary": "3I/ATLAS, also known as C/2025 N1 (ATLAS), is the third known interstellar object to pass through our Solar System. We report serendipitous Transiting Exoplanet Survey Satellite (TESS) observations of 3I/ATLAS taken between 2025-05-07 and 2025-06-02,, 55 days prior to the discovery date (2025-07-01) and 14 days prior to the current earliest observation (2025-05-21). We retrieve the TESS pixel data, perform a robust background correction and use a data-driven approach to refine the object's ephemeris. We find a statistically significant offset between the target's observed and predicted positions and we show that this is dominated by uncertainty in the TESS World Coordinate System (WCS) rather than the ephemeris. 3I/ATLAS is too faint to be detected in the individual 200\\,second TESS integrations, so we perform image stacking to improve detectability. After co-adding the TESS image data, we performed aperture and Pixel Response Function (PRF) photometry to create two light curves for 3I/ATLAS. Each light curve consists of 15 measurements with $\\text{SNR}>3$, collected across two different TESS cameras during the 26\\,days that the object was observed, but the PRF light curve is more robust against image noise. The PRF light curve in the TESS bandpass shows a gradual increase in brightness from $T_{\\text{mag}} = 20.9 \\pm 0.29$ to $T_{\\text{mag}} = 19.57 \\pm 0.15$. This is expected as 3I/ATLAS approaches the inner Solar System. This paper highlights the power of using TESS for Solar System science; by increasing the photometric observing baseline, future studies will be able to investigate the long-term behavior of 3I/ATLAS"
+  },
+  {
+    "title": "Clinical Expert Uncertainty Guided Generalized Label Smoothing for Medical Noisy Label Learning",
+    "url": "http://arxiv.org/abs/2508.02495v1",
+    "arxiv_id": "2508.02495v1",
+    "authors": [
+      "Kunyu Zhang",
+      "Lin Gu",
+      "Liangchen Liu",
+      "Yingke Chen",
+      "Bingyang Wang",
+      "Jin Yan",
+      "Yingying Zhu"
+    ],
+    "published": "2025-08-04T15:05:27+00:00",
+    "summary": "Many previous studies have proposed extracting image labels from clinical notes to create large-scale medical image datasets at a low cost. However, these approaches inherently suffer from label noise due to uncertainty from the clinical experts. When radiologists and physicians analyze medical images to make diagnoses, they often include uncertainty-aware notes such as ``maybe'' or ``not excluded''. Unfortunately, current text-mining methods overlook these nuances, resulting in the creation of noisy labels. Existing methods for handling noisy labels in medical image analysis, which typically address the problem through post-processing techniques, have largely ignored the important issue of expert-driven uncertainty contributing to label noise. To better incorporate the expert-written uncertainty in clinical notes into medical image analysis and address the label noise issue, we first examine the impact of clinical expert uncertainty on label noise. We then propose a clinical expert uncertainty-aware benchmark, along with a label smoothing method, which significantly improves performance compared to current state-of-the-art approaches."
+  },
+  {
+    "title": "Uncertainty-Aware Perception-Based Control for Autonomous Racing",
+    "url": "http://arxiv.org/abs/2508.02494v1",
+    "arxiv_id": "2508.02494v1",
+    "authors": [
+      "Jelena Trisovic",
+      "Andrea Carron",
+      "Melanie N. Zeilinger"
+    ],
+    "published": "2025-08-04T15:04:39+00:00",
+    "summary": "Autonomous systems operating in unknown environments often rely heavily on visual sensor data, yet making safe and informed control decisions based on these measurements remains a significant challenge. To facilitate the integration of perception and control in autonomous vehicles, we propose a novel perception-based control approach that incorporates road estimation, quantification of its uncertainty, and uncertainty-aware control based on this estimate. At the core of our method is a parametric road curvature model, optimized using visual measurements of the road through a constrained nonlinear optimization problem. This process ensures adherence to constraints on both model parameters and curvature. By leveraging the Frenet frame formulation, we embed the estimated track curvature into the system dynamics, allowing the controller to explicitly account for perception uncertainty and enhancing robustness to estimation errors based on visual input. We validate our approach in a simulated environment, using a high-fidelity 3D rendering engine, and demonstrate its effectiveness in achieving reliable and uncertainty-aware control for autonomous racing."
+  },
+  {
+    "title": "Gauge theory approach to describe ice crystals habit evolution in ice clouds",
+    "url": "http://arxiv.org/abs/2508.02472v1",
+    "arxiv_id": "2508.02472v1",
+    "authors": [
+      "Gianluca Di Natale",
+      "Francesco Pio De Cosmo",
+      "Leandro Cieri"
+    ],
+    "published": "2025-08-04T14:36:37+00:00",
+    "summary": "Ice clouds, particularly cirrus clouds, significantly influence Earth's radiative balance but remain poorly characterized in current climate models. A major uncertainty arises from the variability of their microphysical properties, especially the evolution of ice crystal habits under depositional growth. We propose a heuristic method to describe habit evolution based on four fundamental shapes identified in the literature and from in situ observations: droxtals, plates, columns, and rosettes. These represent the primary forms that are relevant under depositional growth, excluding aggregation. In this study, we employ a non-Abelian gauge theory within a field-theoretical framework, imposing an SU(2) $\\otimes$ U(1) symmetry on the fields associated with each habit probability growth. This symmetry enables the derivation of a modified system of coupled Fokker-Planck equations, capturing the stochastic growth dynamics of ice crystals while incorporating phenomenological mutual influences among habits. This framework outlines a novel theoretical direction for integrating symmetry principles and field-theoretical tools into the modelling of habit dynamics in ice clouds."
+  },
+  {
     "title": "Numerical Uncertainty in Linear Registration: An Experimental Study",
     "url": "http://arxiv.org/abs/2508.00781v1",
     "arxiv_id": "2508.00781v1",
