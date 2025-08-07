@@ -1,5 +1,137 @@
 [
   {
+    "title": "Occupancy Learning with Spatiotemporal Memory",
+    "url": "http://arxiv.org/abs/2508.04705v1",
+    "arxiv_id": "2508.04705v1",
+    "authors": [
+      "Ziyang Leng",
+      "Jiawei Yang",
+      "Wenlong Yi",
+      "Bolei Zhou"
+    ],
+    "published": "2025-08-06T17:59:52+00:00",
+    "summary": "3D occupancy becomes a promising perception representation for autonomous driving to model the surrounding environment at a fine-grained scale. However, it remains challenging to efficiently aggregate 3D occupancy over time across multiple input frames due to the high processing cost and the uncertainty and dynamics of voxels. To address this issue, we propose ST-Occ, a scene-level occupancy representation learning framework that effectively learns the spatiotemporal feature with temporal consistency. ST-Occ consists of two core designs: a spatiotemporal memory that captures comprehensive historical information and stores it efficiently through a scene-level representation and a memory attention that conditions the current occupancy representation on the spatiotemporal memory with a model of uncertainty and dynamic awareness. Our method significantly enhances the spatiotemporal representation learned for 3D occupancy prediction tasks by exploiting the temporal dependency between multi-frame inputs. Experiments show that our approach outperforms the state-of-the-art methods by a margin of 3 mIoU and reduces the temporal inconsistency by 29%."
+  },
+  {
+    "title": "Open Scene Graphs for Open-World Object-Goal Navigation",
+    "url": "http://arxiv.org/abs/2508.04678v1",
+    "arxiv_id": "2508.04678v1",
+    "authors": [
+      "Joel Loo",
+      "Zhanxin Wu",
+      "David Hsu"
+    ],
+    "published": "2025-08-06T17:43:29+00:00",
+    "summary": "How can we build general-purpose robot systems for open-world semantic navigation, e.g., searching a novel environment for a target object specified in natural language? To tackle this challenge, we introduce OSG Navigator, a modular system composed of foundation models, for open-world Object-Goal Navigation (ObjectNav). Foundation models provide enormous semantic knowledge about the world, but struggle to organise and maintain spatial information effectively at scale. Key to OSG Navigator is the Open Scene Graph representation, which acts as spatial memory for OSG Navigator. It organises spatial information hierarchically using OSG schemas, which are templates, each describing the common structure of a class of environments. OSG schemas can be automatically generated from simple semantic labels of a given environment, e.g., \"home\" or \"supermarket\". They enable OSG Navigator to adapt zero-shot to new environment types. We conducted experiments using both Fetch and Spot robots in simulation and in the real world, showing that OSG Navigator achieves state-of-the-art performance on ObjectNav benchmarks and generalises zero-shot over diverse goals, environments, and robot embodiments."
+  },
+  {
+    "title": "Stochastic Calculus for Pathwise Observables of Markov-Jump Processes: Unification of Diffusion and Jump Dynamics",
+    "url": "http://arxiv.org/abs/2508.04647v1",
+    "arxiv_id": "2508.04647v1",
+    "authors": [
+      "Lars Torbj\u00f8rn Stutzer",
+      "Cai Dieball",
+      "Alja\u017e Godec"
+    ],
+    "published": "2025-08-06T17:15:03+00:00",
+    "summary": "Path-wise observables--functionals of stochastic trajectories--are at the heart of time-average statistical mechanics and are central to thermodynamic inequalities such as uncertainty relations, speed limits, and correlation-bounds. They provide a means of thermodynamic inference in the typical situation, when not all dissipative degrees of freedom in a system are experimentally accessible. So far, theories focusing on path-wise observables have been developing in two major directions, diffusion processes and Markov-jump dynamics, in a virtually disjoint manner. Moreover, even the respective results for diffusion and jump dynamics were derived with a patchwork of different approaches that are predominantly indirect. Stochastic calculus was recently shown to provide a direct approach to path-wise observables of diffusion processes, while a corresponding framework for jump dynamics remained elusive. In our work we develop, in an exact parallelism with continuous-space diffusion, a complete stochastic calculus for path-wise observables of Markov-jump processes. We formulate a \"Langevin equation\" for jump processes, define general path-wise observables, and establish their covariation structure, whereby we fully account for transients and time-inhomogeneous dynamics. We prove the known kinds of thermodynamic inequalities in their most general form and discus saturation conditions. We determine the response of path-wise observables to general (incl. thermal) perturbations and carry out the continuum limit to achieve the complete unification of diffusion and jump dynamics. Our results open new avenues in the direction of discrete-state analogs of generative diffusion models and the learning of stochastic thermodynamics from fluctuating trajectories."
+  },
+  {
+    "title": "Bias in Meta-Analytic Modeling of Surrogate Endpoints in Cancer Screening Trials",
+    "url": "http://arxiv.org/abs/2508.04633v1",
+    "arxiv_id": "2508.04633v1",
+    "authors": [
+      "James P. Long",
+      "Abhishikta Roy",
+      "Ehsan Irajizad",
+      "Kim-Anh Do",
+      "Yu Shen"
+    ],
+    "published": "2025-08-06T17:01:15+00:00",
+    "summary": "In meta-analytic modeling, the functional relationship between a primary and surrogate endpoint is estimated using summary data from a set of completed clinical trials. Parameters in the meta-analytic model are used to assess the quality of the proposed surrogate. Recently, meta-analytic models have been employed to evaluate whether late-stage cancer incidence can serve as a surrogate for cancer mortality in cancer screening trials. A major challenge in meta-analytic models is that uncertainty of trial-level estimates affects the evaluation of surrogacy, since each trial provides only estimates of the primary and surrogate endpoints rather than their true parameter values. In this work, we show via simulation and theory that trial-level estimate uncertainty may bias the results of meta-analytic models towards positive findings of the quality of the surrogate. We focus on cancer screening trials and the late stage incidence surrogate. We reassess correlations between primary and surrogate endpoints in Ovarian cancer screening trials. Our findings indicate that completed trials provide limited information regarding quality of the late-stage incidence surrogate. These results support restricting meta-analytic regression usage to settings where trial-level estimate uncertainty is incorporated into the model."
+  },
+  {
+    "title": "A Comprehensive Framework for Uncertainty Quantification of Voxel-wise Supervised Models in IVIM MRI",
+    "url": "http://arxiv.org/abs/2508.04588v1",
+    "arxiv_id": "2508.04588v1",
+    "authors": [
+      "Nicola Casali",
+      "Alessandro Brusaferri",
+      "Giuseppe Baselli",
+      "Stefano Fumagalli",
+      "Edoardo Micotti",
+      "Gianluigi Forloni",
+      "Riaz Hussein",
+      "Giovanna Rizzo",
+      "Alfonso Mastropietro"
+    ],
+    "published": "2025-08-06T16:08:55+00:00",
+    "summary": "Accurate estimation of intravoxel incoherent motion (IVIM) parameters from diffusion-weighted MRI remains challenging due to the ill-posed nature of the inverse problem and high sensitivity to noise, particularly in the perfusion compartment. In this work, we propose a probabilistic deep learning framework based on Deep Ensembles (DE) of Mixture Density Networks (MDNs), enabling estimation of total predictive uncertainty and decomposition into aleatoric (AU) and epistemic (EU) components. The method was benchmarked against non probabilistic neural networks, a Bayesian fitting approach and a probabilistic network with single Gaussian parametrization. Supervised training was performed on synthetic data, and evaluation was conducted on both simulated and two in vivo datasets. The reliability of the quantified uncertainties was assessed using calibration curves, output distribution sharpness, and the Continuous Ranked Probability Score (CRPS). MDNs produced more calibrated and sharper predictive distributions for the D and f parameters, although slight overconfidence was observed in D*. The Robust Coefficient of Variation (RCV) indicated smoother in vivo estimates for D* with MDNs compared to Gaussian model. Despite the training data covering the expected physiological range, elevated EU in vivo suggests a mismatch with real acquisition conditions, highlighting the importance of incorporating EU, which was allowed by DE. Overall, we present a comprehensive framework for IVIM fitting with uncertainty quantification, which enables the identification and interpretation of unreliable estimates. The proposed approach can also be adopted for fitting other physical models through appropriate architectural and simulation adjustments."
+  },
+  {
+    "title": "Joint Communication and Indoor Positioning Based on Visible Light in the Presence of Dimming",
+    "url": "http://arxiv.org/abs/2508.04570v1",
+    "arxiv_id": "2508.04570v1",
+    "authors": [
+      "A. Tarik Leblebici",
+      "Sumeyra Hassan",
+      "Erdal Panayirci",
+      "H. Vincent Poor"
+    ],
+    "published": "2025-08-06T15:53:40+00:00",
+    "summary": "This paper proposes a joint communication and indoor positioning (JCP) system based on visible light communication (VLC) designed for high-precision indoor environments. The framework supports 2D and 3D positioning using received signal strength (RSS) from pilot transmissions, enhanced by the radical axis theorem to improve accuracy under measurement uncertainties. Communication is achieved using spatial modulation (SM) with M-ary pulse amplitude modulation (PAM), where data is conveyed through the modulation symbol and the active light-emitting diode (LED) index, improving spectral efficiency while maintaining low complexity. A pilot-aided least squares (LS) estimator is employed for joint channel and dimming coefficient estimation, enabling robust symbol detection in multipath environments characterized by both line-of-sight (LOS) and diffuse non-line-of-sight (NLOS) components, modeled using Rician fading. The proposed system incorporates a dimming control mechanism to meet lighting requirements while maintaining reliable communication and positioning performance. Simulation results demonstrate sub-centimeter localization accuracy at high signal-to-noise ratios (SNRs) and bit error rates (BERs) below 10^{-6} for low-order PAM schemes. Additionally, comparative analysis across user locations reveals that positioning and communication performance improve significantly near the geometric center of the LED layout. These findings validate the effectiveness of the proposed system for future 6G indoor networks requiring integrated localization and communication under practical channel conditions."
+  },
+  {
+    "title": "Behaviorally Adaptive Multi-Robot Hazard Localization in Failure-Prone, Communication-Denied Environments",
+    "url": "http://arxiv.org/abs/2508.04537v1",
+    "arxiv_id": "2508.04537v1",
+    "authors": [
+      "Alkesh K. Srivastava",
+      "Aamodh Suresh",
+      "Carlos Nieto-Granda"
+    ],
+    "published": "2025-08-06T15:23:22+00:00",
+    "summary": "We address the challenge of multi-robot autonomous hazard mapping in high-risk, failure-prone, communication-denied environments such as post-disaster zones, underground mines, caves, and planetary surfaces. In these missions, robots must explore and map hazards while minimizing the risk of failure due to environmental threats or hardware limitations. We introduce a behavior-adaptive, information-theoretic planning framework for multi-robot teams grounded in the concept of Behavioral Entropy (BE), that generalizes Shannon entropy (SE) to capture diverse human-like uncertainty evaluations. Building on this formulation, we propose the Behavior-Adaptive Path Planning (BAPP) framework, which modulates information gathering strategies via a tunable risk-sensitivity parameter, and present two planning algorithms: BAPP-TID for intelligent triggering of high-fidelity robots, and BAPP-SIG for safe deployment under high risk. We provide theoretical insights on the informativeness of the proposed BAPP framework and validate its effectiveness through both single-robot and multi-robot simulations. Our results show that the BAPP stack consistently outperforms Shannon-based and random strategies: BAPP-TID accelerates entropy reduction, while BAPP-SIG improves robot survivability with minimal loss in information gain. In multi-agent deployments, BAPP scales effectively through spatial partitioning, mobile base relocation, and role-aware heterogeneity. These findings underscore the value of behavior-adaptive planning for robust, risk-sensitive exploration in complex, failure-prone environments."
+  },
+  {
+    "title": "Metric Learning in an RKHS",
+    "url": "http://arxiv.org/abs/2508.04476v1",
+    "arxiv_id": "2508.04476v1",
+    "authors": [
+      "Gokcan Tatli",
+      "Yi Chen",
+      "Blake Mason",
+      "Robert Nowak",
+      "Ramya Korlakai Vinayak"
+    ],
+    "published": "2025-08-06T14:29:04+00:00",
+    "summary": "Metric learning from a set of triplet comparisons in the form of \"Do you think item h is more similar to item i or item j?\", indicating similarity and differences between items, plays a key role in various applications including image retrieval, recommendation systems, and cognitive psychology. The goal is to learn a metric in the RKHS that reflects the comparisons. Nonlinear metric learning using kernel methods and neural networks have shown great empirical promise. While previous works have addressed certain aspects of this problem, there is little or no theoretical understanding of such methods. The exception is the special (linear) case in which the RKHS is the standard Euclidean space $\\mathbb{R}^d$; there is a comprehensive theory for metric learning in $\\mathbb{R}^d$. This paper develops a general RKHS framework for metric learning and provides novel generalization guarantees and sample complexity bounds. We validate our findings through a set of simulations and experiments on real datasets. Our code is publicly available at https://github.com/RamyaLab/metric-learning-RKHS."
+  },
+  {
+    "title": "Case Studies of Generative Machine Learning Models for Dynamical Systems",
+    "url": "http://arxiv.org/abs/2508.04459v1",
+    "arxiv_id": "2508.04459v1",
+    "authors": [
+      "Nachiket U. Bapat",
+      "Randy C. Paffenroth",
+      "Raghvendra V. Cowlagi"
+    ],
+    "published": "2025-08-06T13:59:14+00:00",
+    "summary": "Systems like aircraft and spacecraft are expensive to operate in the real world. The design, validation, and testing for such systems therefore relies on a combination of mathematical modeling, abundant numerical simulations, and a relatively small set of real-world experiments. Due to modeling errors, simplifications, and uncertainties, the data synthesized by simulation models often does not match data from the system's real-world operation. We consider the broad research question of whether this model mismatch can be significantly reduced by generative artificial intelligence models (GAIMs). Unlike text- or image-processing, where generative models have attained recent successes, GAIM development for aerospace engineering applications must not only train with scarce operational data, but their outputs must also satisfy governing equations based on natural laws, e.g., conservation laws. The scope of this paper primarily focuses on two case studies of optimally controlled systems that are commonly understood and employed in aircraft guidance, namely: minimum-time navigation in a wind field and minimum-exposure navigation in a threat field. We report GAIMs that are trained with a relatively small set, of the order of a few hundred, of examples and with underlying governing equations. By focusing on optimally controlled systems, we formulate training loss functions based on invariance of the Hamiltonian function along system trajectories. We investigate three GAIM architectures, namely: the generative adversarial network (GAN) and two variants of the variational autoencoder (VAE). We provide architectural details and thorough performance analyses of these models. The main finding is that our new models, especially the VAE-based models, are able to synthesize data that satisfy the governing equations and are statistically similar to the training data despite small volumes of training data."
+  },
+  {
+    "title": "Benchmarking Uncertainty and its Disentanglement in multi-label Chest X-Ray Classification",
+    "url": "http://arxiv.org/abs/2508.04457v1",
+    "arxiv_id": "2508.04457v1",
+    "authors": [
+      "Simon Baur",
+      "Wojciech Samek",
+      "Jackie Ma"
+    ],
+    "published": "2025-08-06T13:58:17+00:00",
+    "summary": "Reliable uncertainty quantification is crucial for trustworthy decision-making and the deployment of AI models in medical imaging. While prior work has explored the ability of neural networks to quantify predictive, epistemic, and aleatoric uncertainties using an information-theoretical approach in synthetic or well defined data settings like natural image classification, its applicability to real life medical diagnosis tasks remains underexplored. In this study, we provide an extensive uncertainty quantification benchmark for multi-label chest X-ray classification using the MIMIC-CXR-JPG dataset. We evaluate 13 uncertainty quantification methods for convolutional (ResNet) and transformer-based (Vision Transformer) architectures across a wide range of tasks. Additionally, we extend Evidential Deep Learning, HetClass NNs, and Deep Deterministic Uncertainty to the multi-label setting. Our analysis provides insights into uncertainty estimation effectiveness and the ability to disentangle epistemic and aleatoric uncertainties, revealing method- and architecture-specific strengths and limitations."
+  },
+  {
     "title": "LiDARCrafter: Dynamic 4D World Modeling from LiDAR Sequences",
     "url": "http://arxiv.org/abs/2508.03692v1",
     "arxiv_id": "2508.03692v1",
