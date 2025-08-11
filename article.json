@@ -1,5 +1,147 @@
 [
   {
+    "title": "An Online Multi-dimensional Knapsack Approach for Slice Admission Control",
+    "url": "http://arxiv.org/abs/2508.06468v1",
+    "arxiv_id": "2508.06468v1",
+    "authors": [
+      "Jesutofunmi Ajayi",
+      "Antonio Di Maio",
+      "Torsten Braun",
+      "Dimitrios Xenakis"
+    ],
+    "published": "2025-08-08T17:16:28+00:00",
+    "summary": "Network Slicing has emerged as a powerful technique to enable cost-effective, multi-tenant communications and services over a shared physical mobile network infrastructure. One major challenge of service provisioning in slice-enabled networks is the uncertainty in the demand for the limited network resources that must be shared among existing slices and potentially new Network Slice Requests. In this paper, we consider admission control of Network Slice Requests in an online setting, with the goal of maximizing the long-term revenue received from admitted requests. We model the Slice Admission Control problem as an Online Multidimensional Knapsack Problem and present two reservation-based policies and their algorithms, which have a competitive performance for Online Multidimensional Knapsack Problems. Through Monte Carlo simulations, we evaluate the performance of our online admission control method in terms of average revenue gained by the Infrastructure Provider, system resource utilization, and the ratio of accepted slice requests. We compare our approach with those of the online First Come First Serve greedy policy. The simulation's results prove that our proposed online policies increase revenues for Infrastructure Providers by up to 12.9 % while reducing the average resource consumption by up to 1.7% In particular, when the tenants' economic inequality increases, an Infrastructure Provider who adopts our proposed online admission policies gains higher revenues compared to an Infrastructure Provider who adopts First Come First Serve."
+  },
+  {
+    "title": "Comparative study of ensemble-based uncertainty quantification methods for neural network interatomic potentials",
+    "url": "http://arxiv.org/abs/2508.06456v1",
+    "arxiv_id": "2508.06456v1",
+    "authors": [
+      "Yonatan Kurniawan",
+      "Mingjian Wen",
+      "Ellad B. Tadmor",
+      "Mark K. Transtrum"
+    ],
+    "published": "2025-08-08T16:58:51+00:00",
+    "summary": "Machine learning interatomic potentials (MLIPs) enable atomistic simulations with near first-principles accuracy at substantially reduced computational cost, making them powerful tools for large-scale materials modeling. The accuracy of MLIPs is typically validated on a held-out dataset of \\emph{ab initio} energies and atomic forces. However, accuracy on these small-scale properties does not guarantee reliability for emergent, system-level behavior -- precisely the regime where atomistic simulations are most needed, but for which direct validation is often computationally prohibitive. As a practical heuristic, predictive precision -- quantified as inverse uncertainty -- is commonly used as a proxy for accuracy, but its reliability remains poorly understood, particularly for system-level predictions. In this work, we systematically assess the relationship between predictive precision and accuracy in both in-distribution (ID) and out-of-distribution (OOD) regimes, focusing on ensemble-based uncertainty quantification methods for neural network potentials, including bootstrap, dropout, random initialization, and snapshot ensembles. We use held-out cross-validation for ID assessment and calculate cold curve energies and phonon dispersion relations for OOD testing. These evaluations are performed across various carbon allotropes as representative test systems. We find that uncertainty estimates can behave counterintuitively in OOD settings, often plateauing or even decreasing as predictive errors grow. These results highlight fundamental limitations of current uncertainty quantification approaches and underscore the need for caution when using predictive precision as a stand-in for accuracy in large-scale, extrapolative applications."
+  },
+  {
+    "title": "TRUST: Leveraging Text Robustness for Unsupervised Domain Adaptation",
+    "url": "http://arxiv.org/abs/2508.06452v1",
+    "arxiv_id": "2508.06452v1",
+    "authors": [
+      "Mattia Litrico",
+      "Mario Valerio Giuffrida",
+      "Sebastiano Battiato",
+      "Devis Tuia"
+    ],
+    "published": "2025-08-08T16:51:44+00:00",
+    "summary": "Recent unsupervised domain adaptation (UDA) methods have shown great success in addressing classical domain shifts (e.g., synthetic-to-real), but they still suffer under complex shifts (e.g. geographical shift), where both the background and object appearances differ significantly across domains. Prior works showed that the language modality can help in the adaptation process, exhibiting more robustness to such complex shifts. In this paper, we introduce TRUST, a novel UDA approach that exploits the robustness of the language modality to guide the adaptation of a vision model. TRUST generates pseudo-labels for target samples from their captions and introduces a novel uncertainty estimation strategy that uses normalised CLIP similarity scores to estimate the uncertainty of the generated pseudo-labels. Such estimated uncertainty is then used to reweight the classification loss, mitigating the adverse effects of wrong pseudo-labels obtained from low-quality captions. To further increase the robustness of the vision model, we propose a multimodal soft-contrastive learning loss that aligns the vision and language feature spaces, by leveraging captions to guide the contrastive training of the vision model on target images. In our contrastive loss, each pair of images acts as both a positive and a negative pair and their feature representations are attracted and repulsed with a strength proportional to the similarity of their captions. This solution avoids the need for hardly determining positive and negative pairs, which is critical in the UDA setting. Our approach outperforms previous methods, setting the new state-of-the-art on classical (DomainNet) and complex (GeoNet) domain shifts. The code will be available upon acceptance."
+  },
+  {
+    "title": "$b \\to c$ semileptonic sum rule: Current status and prospects",
+    "url": "http://arxiv.org/abs/2508.06322v1",
+    "arxiv_id": "2508.06322v1",
+    "authors": [
+      "Motoi Endo",
+      "Syuhei Iguro",
+      "Satoshi Mishima",
+      "Ryoutaro Watanabe"
+    ],
+    "published": "2025-08-08T13:53:51+00:00",
+    "summary": "The $b \\to c$ semileptonic sum rules provide relations between the decay rates of $B \\to D^{(*)} \\tau\\bar\\nu$ and $\\Lambda_b \\to \\Lambda_c \\tau\\bar\\nu$. Starting from the heavy quark and zero-recoil limits, we revisit the derivation of the sum rule for total decay rates. We then examine deviations from the limits and investigate corrections arising from realistic hadron masses and higher-order contributions to form factors, taking account of uncertainties. We show that these corrections are negligible compared to current experimental uncertainties, indicating that the sum rule is useful for cross-checking experimental consistency and testing the validity of the Standard Model predictions. In future, precise determinations of the form factors particularly for the tensor operator will be necessary to compare the sum rule predictions with $\\Lambda_b \\to \\Lambda_c \\tau\\bar\\nu$ data from the LHCb experiment and the Tera-Z projects."
+  },
+  {
+    "title": "Uncertainty-quantified Rollout Policy Adaptation for Unlabelled Cross-domain Temporal Grounding",
+    "url": "http://arxiv.org/abs/2508.06317v1",
+    "arxiv_id": "2508.06317v1",
+    "authors": [
+      "Jian Hu",
+      "Zixu Cheng",
+      "Shaogang Gong",
+      "Isabel Guan",
+      "Jianye Hao",
+      "Jun Wang",
+      "Kun Shao"
+    ],
+    "published": "2025-08-08T13:47:00+00:00",
+    "summary": "Video Temporal Grounding (TG) aims to temporally locate video segments matching a natural language description (a query) in a long video. While Vision-Language Models (VLMs) are effective at holistic semantic matching, they often struggle with fine-grained temporal localisation. Recently, Group Relative Policy Optimisation (GRPO) reformulates the inference process as a reinforcement learning task, enabling fine-grained grounding and achieving strong in-domain performance. However, GRPO relies on labelled data, making it unsuitable in unlabelled domains. Moreover, because videos are large and expensive to store and process, performing full-scale adaptation introduces prohibitive latency and computational overhead, making it impractical for real-time deployment. To overcome both problems, we introduce a Data-Efficient Unlabelled Cross-domain Temporal Grounding method, from which a model is first trained on a labelled source domain, then adapted to a target domain using only a small number of unlabelled videos from the target domain. This approach eliminates the need for target annotation and keeps both computational and storage overhead low enough to run in real time. Specifically, we introduce. Uncertainty-quantified Rollout Policy Adaptation (URPA) for cross-domain knowledge transfer in learning video temporal grounding without target labels. URPA generates multiple candidate predictions using GRPO rollouts, averages them to form a pseudo label, and estimates confidence from the variance across these rollouts. This confidence then weights the training rewards, guiding the model to focus on reliable supervision. Experiments on three datasets across six cross-domain settings show that URPA generalises well using only a few unlabelled target videos. Codes will be released once published."
+  },
+  {
+    "title": "A Tensor Train Approach for Deterministic Arithmetic Operations on Discrete Representations of Probability Distributions",
+    "url": "http://arxiv.org/abs/2508.06303v1",
+    "arxiv_id": "2508.06303v1",
+    "authors": [
+      "Gerhard Kirsten",
+      "Bilgesu Bilgin",
+      "Janith Petangoda",
+      "Phillip Stanley-Marbell"
+    ],
+    "published": "2025-08-08T13:27:35+00:00",
+    "summary": "Computing with discrete representations of high-dimensional probability distributions is fundamental to uncertainty quantification, Bayesian inference, and stochastic modeling. However, storing and manipulating such distributions suffers from the curse of dimensionality, as memory and computational costs grow exponentially with dimension. Monte Carlo methods require thousands to billions of samples, incurring high computational costs and producing inconsistent results due to stochasticity. We present an efficient tensor train method for performing exact arithmetic operations on discretizations of continuous probability distributions while avoiding exponential growth. Our approach leverages low-rank tensor train decomposition to represent latent random variables compactly using Dirac deltas, enabling deterministic addition, subtraction and multiplication operations directly in the compressed format. We develop an efficient implementation using sparse matrices and specialized data structures that further enhances performance. Theoretical analysis demonstrates polynomial scaling of memory and computational complexity under rank assumptions, and shows how statistics of latent variables can be computed with polynomial complexity. Numerical experiments spanning randomized linear algebra to stochastic differential equations demonstrate orders-of-magnitude improvements in memory usage and computational time compared to conventional approaches, enabling tractable deterministic computations on discretized random variables in previously intractable dimensions."
+  },
+  {
+    "title": "Situationally-aware Path Planning Exploiting 3D Scene Graphs",
+    "url": "http://arxiv.org/abs/2508.06283v1",
+    "arxiv_id": "2508.06283v1",
+    "authors": [
+      "Saad Ejaz",
+      "Marco Giberna",
+      "Muhammad Shaheer",
+      "Jose Andres Millan-Romera",
+      "Ali Tourani",
+      "Paul Kremer",
+      "Holger Voos",
+      "Jose Luis Sanchez-Lopez"
+    ],
+    "published": "2025-08-08T13:03:44+00:00",
+    "summary": "3D Scene Graphs integrate both metric and semantic information, yet their structure remains underutilized for improving path planning efficiency and interpretability. In this work, we present S-Path, a situationally-aware path planner that leverages the metric-semantic structure of indoor 3D Scene Graphs to significantly enhance planning efficiency. S-Path follows a two-stage process: it first performs a search over a semantic graph derived from the scene graph to yield a human-understandable high-level path. This also identifies relevant regions for planning, which later allows the decomposition of the problem into smaller, independent subproblems that can be solved in parallel. We also introduce a replanning mechanism that, in the event of an infeasible path, reuses information from previously solved subproblems to update semantic heuristics and prioritize reuse to further improve the efficiency of future planning attempts. Extensive experiments on both real-world and simulated environments show that S-Path achieves average reductions of 5.7x in planning time while maintaining comparable path optimality to classical sampling-based planners and surpassing them in complex scenarios, making it an efficient and interpretable path planner for environments represented by indoor 3D Scene Graphs."
+  },
+  {
+    "title": "Thermodynamic uncertainty relation for feedback cooling",
+    "url": "http://arxiv.org/abs/2508.06174v1",
+    "arxiv_id": "2508.06174v1",
+    "authors": [
+      "Kousuke Kumasaki",
+      "Kaito Tojo",
+      "Takahiro Sagawa",
+      "Ken Funo"
+    ],
+    "published": "2025-08-08T09:44:06+00:00",
+    "summary": "Feedback cooling enables a system to achieve low temperatures through measurement-based control. Determining the thermodynamic cost required to achieve the ideal cooling efficiency within a finite time remains an important problem. In this work, we establish a thermodynamic uncertainty relation (TUR) for feedback cooling in classical underdamped Langevin systems, thereby deriving a trade-off between the cooling efficiency and the entropy reduction rate. The obtained TUR implies that simultaneous achievement of the ideal cooling efficiency and finite entropy reduction rate is asymptotically possible by letting the fluctuation of the reversible local mean velocity diverge. This is shown to be feasible by using a feedback control based on the Kalman filter. Our results clarify the thermodynamic costs of achieving the fundamental cooling limit of feedback control from the perspective of the TUR."
+  },
+  {
+    "title": "UW-3DGS: Underwater 3D Reconstruction with Physics-Aware Gaussian Splatting",
+    "url": "http://arxiv.org/abs/2508.06169v1",
+    "arxiv_id": "2508.06169v1",
+    "authors": [
+      "Wenpeng Xing",
+      "Jie Chen",
+      "Zaifeng Yang",
+      "Changting Lin",
+      "Jianfeng Dong",
+      "Chaochao Chen",
+      "Xun Zhou",
+      "Meng Han"
+    ],
+    "published": "2025-08-08T09:36:32+00:00",
+    "summary": "Underwater 3D scene reconstruction faces severe challenges from light absorption, scattering, and turbidity, which degrade geometry and color fidelity in traditional methods like Neural Radiance Fields (NeRF). While NeRF extensions such as SeaThru-NeRF incorporate physics-based models, their MLP reliance limits efficiency and spatial resolution in hazy environments. We introduce UW-3DGS, a novel framework adapting 3D Gaussian Splatting (3DGS) for robust underwater reconstruction. Key innovations include: (1) a plug-and-play learnable underwater image formation module using voxel-based regression for spatially varying attenuation and backscatter; and (2) a Physics-Aware Uncertainty Pruning (PAUP) branch that adaptively removes noisy floating Gaussians via uncertainty scoring, ensuring artifact-free geometry. The pipeline operates in training and rendering stages. During training, noisy Gaussians are optimized end-to-end with underwater parameters, guided by PAUP pruning and scattering modeling. In rendering, refined Gaussians produce clean Unattenuated Radiance Images (URIs) free from media effects, while learned physics enable realistic Underwater Images (UWIs) with accurate light transport. Experiments on SeaThru-NeRF and UWBundle datasets show superior performance, achieving PSNR of 27.604, SSIM of 0.868, and LPIPS of 0.104 on SeaThru-NeRF, with ~65% reduction in floating artifacts."
+  },
+  {
+    "title": "Retrieval Augmented Large Language Model System for Comprehensive Drug Contraindications",
+    "url": "http://arxiv.org/abs/2508.06145v1",
+    "arxiv_id": "2508.06145v1",
+    "authors": [
+      "Byeonghun Bang",
+      "Jongsuk Yoon",
+      "Dong-Jin Chang",
+      "Seho Park",
+      "Yong Oh Lee"
+    ],
+    "published": "2025-08-08T09:09:03+00:00",
+    "summary": "The versatility of large language models (LLMs) has been explored across various sectors, but their application in healthcare poses challenges, particularly in the domain of pharmaceutical contraindications where accurate and reliable information is required. This study enhances the capability of LLMs to address contraindications effectively by implementing a Retrieval Augmented Generation (RAG) pipeline. Utilizing OpenAI's GPT-4o-mini as the base model, and the text-embedding-3-small model for embeddings, our approach integrates Langchain to orchestrate a hybrid retrieval system with re-ranking. This system leverages Drug Utilization Review (DUR) data from public databases, focusing on contraindications for specific age groups, pregnancy, and concomitant drug use. The dataset includes 300 question-answer pairs across three categories, with baseline model accuracy ranging from 0.49 to 0.57. Post-integration of the RAG pipeline, we observed a significant improvement in model accuracy, achieving rates of 0.94, 0.87, and 0.89 for contraindications related to age groups, pregnancy, and concomitant drug use, respectively. The results indicate that augmenting LLMs with a RAG framework can substantially reduce uncertainty in prescription and drug intake decisions by providing more precise and reliable drug contraindication information."
+  },
+  {
     "title": "Towards Generalizable Safety in Crowd Navigation via Conformal Uncertainty Handling",
     "url": "http://arxiv.org/abs/2508.05634v1",
     "arxiv_id": "2508.05634v1",
