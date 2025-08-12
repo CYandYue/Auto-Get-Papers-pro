@@ -1,5 +1,174 @@
 [
   {
+    "title": "Autonomous Air-Ground Vehicle Operations Optimization in Hazardous Environments: A Multi-Armed Bandit Approach",
+    "url": "http://arxiv.org/abs/2508.08217v1",
+    "arxiv_id": "2508.08217v1",
+    "authors": [
+      "Jimin Choi",
+      "Max Z. Li"
+    ],
+    "published": "2025-08-11T17:37:36+00:00",
+    "summary": "Hazardous environments such as chemical spills, radiological zones, and bio-contaminated sites pose significant threats to human safety and public infrastructure. Rapid and reliable hazard mitigation in these settings often unsafe for humans, calling for autonomous systems that can adaptively sense and respond to evolving risks. This paper presents a decision-making framework for autonomous vehicle dispatch in hazardous environments with uncertain and evolving risk levels. The system integrates a Bayesian Upper Confidence Bound (BUCB) sensing strategy with task-specific vehicle routing problems with profits (VRPP), enabling adaptive coordination of unmanned aerial vehicles (UAVs) for hazard sensing and unmanned ground vehicles (UGVs) for cleaning. Using VRPP allows selective site visits under resource constraints by assigning each site a visit value that reflects sensing or cleaning priorities. Site-level hazard beliefs are maintained through a time-weighted Bayesian update. BUCB scores guide UAV routing to balance exploration and exploitation under uncertainty, while UGV routes are optimized to maximize expected hazard reduction under resource constraints. Simulation results demonstrate that our framework reduces the number of dispatch cycles to resolve hazards by around 30% on average compared to baseline dispatch strategies, underscoring the value of uncertainty-aware vehicle dispatch for reliable hazard mitigation."
+  },
+  {
+    "title": "Adaptive Learning for IRS-Assisted Wireless Networks: Securing Opportunistic Communications Against Byzantine Eavesdroppers",
+    "url": "http://arxiv.org/abs/2508.08206v1",
+    "arxiv_id": "2508.08206v1",
+    "authors": [
+      "Amirhossein Taherpour",
+      "Abbas Taherpour",
+      "Tamer Khattab"
+    ],
+    "published": "2025-08-11T17:28:25+00:00",
+    "summary": "We propose a joint learning framework for Byzantine-resilient spectrum sensing and secure intelligent reflecting surface (IRS)--assisted opportunistic access under channel state information (CSI) uncertainty. The sensing stage performs logit-domain Bayesian updates with trimmed aggregation and attention-weighted consensus, and the base station (BS) fuses network beliefs with a conservative minimum rule, preserving detection accuracy under a bounded number of Byzantine users. Conditioned on the sensing outcome, we pose downlink design as sum mean-squared error (MSE) minimization under transmit-power and signal-leakage constraints and jointly optimize the BS precoder, IRS phase shifts, and user equalizers. With partial (or known) CSI, we develop an augmented-Lagrangian alternating algorithm with projected updates and provide provable sublinear convergence, with accelerated rates under mild local curvature. With unknown CSI, we perform constrained Bayesian optimization (BO) in a geometry-aware low-dimensional latent space using Gaussian process (GP) surrogates; we prove regret bounds for a constrained upper confidence bound (UCB) variant of the BO module, and demonstrate strong empirical performance of the implemented procedure. Simulations across diverse network conditions show higher detection probability at fixed false-alarm rate under adversarial attacks, large reductions in sum MSE for honest users, strong suppression of eavesdropper signal power, and fast convergence. The framework offers a practical path to secure opportunistic communication that adapts to CSI availability while coherently coordinating sensing and transmission through joint learning."
+  },
+  {
+    "title": "Human-Alignment and Calibration of Inference-Time Uncertainty in Large Language Models",
+    "url": "http://arxiv.org/abs/2508.08204v1",
+    "arxiv_id": "2508.08204v1",
+    "authors": [
+      "Kyle Moore",
+      "Jesse Roberts",
+      "Daryl Watson"
+    ],
+    "published": "2025-08-11T17:22:45+00:00",
+    "summary": "There has been much recent interest in evaluating large language models for uncertainty calibration to facilitate model control and modulate user trust. Inference time uncertainty, which may provide a real-time signal to the model or external control modules, is particularly important for applying these concepts to improve LLM-user experience in practice. While many of the existing papers consider model calibration, comparatively little work has sought to evaluate how closely model uncertainty aligns to human uncertainty. In this work, we evaluate a collection of inference-time uncertainty measures, using both established metrics and novel variations, to determine how closely they align with both human group-level uncertainty and traditional notions of model calibration. We find that numerous measures show evidence of strong alignment to human uncertainty, even despite the lack of alignment to human answer preference. For those successful metrics, we find moderate to strong evidence of model calibration in terms of both correctness correlation and distributional analysis."
+  },
+  {
+    "title": "Atomic thermometry in optical lattice clocks",
+    "url": "http://arxiv.org/abs/2508.08164v1",
+    "arxiv_id": "2508.08164v1",
+    "authors": [
+      "Irene Goti",
+      "Tommaso Petrucciani",
+      "Stefano Condio",
+      "Filippo Levi",
+      "Davide Calonico",
+      "Marco Pizzocaro"
+    ],
+    "published": "2025-08-11T16:40:27+00:00",
+    "summary": "Accurate measurement of atomic temperature is essential for a wide range of applications, from quantum sensing to precision metrology. In optical lattice clocks, precise characterization of atomic temperature is required to minimize systematic uncertainties at the $10^{-18}$ level. In this work, we investigate atomic temperature measurements in the ytterbium optical lattice clock developed at INRIM, IT-Yb1, employing sideband and Doppler spectroscopy across a wide range of trapping conditions. By implementing clock-line-mediated Sisyphus cooling, we reduce the atomic temperature and enable operation at shallower lattice depths down to $D = 50E_{R}$. We compare temperature estimates obtained from the harmonic oscillator model with those derived using a Born-Oppenheimer-based approach, which is expected to provide a more accurate description of atomic motion in both longitudinal and radial directions, especially for hotter atoms whose motion deviates from the harmonic regime. Discrepancies up to a factor of two in extracted temperatures are observed depending on the chosen model. We assess the impact of these modeling differences on the evaluation of lattice frequency shifts and find deviations up to $8\\times10^{-17}$. Even though extended Sisyphus cooling reduces these inconsistencies to the $1\\times10^{-18}$ level or below, residual biases may still limit the accuracy of optical lattice clocks."
+  },
+  {
+    "title": "Precision Test of Bound-State QED at Intermediate-Z with Kaonic Neon",
+    "url": "http://arxiv.org/abs/2508.08161v1",
+    "arxiv_id": "2508.08161v1",
+    "authors": [
+      "Manti S.",
+      "Sgaramella F.",
+      "Abbene L.",
+      "Amsler C.",
+      "Artibani F.",
+      "Bazzi M.",
+      "Borghi G.",
+      "Bosnar D.",
+      "Bragadireanu M.",
+      "Buttacavoli A.",
+      "Carminati M.",
+      "Clozza A.",
+      "Clozza F.",
+      "Del Grande R.",
+      "De Paolis L.",
+      "Dulski K.",
+      "Fabbietti L.",
+      "Fiorini C.",
+      "Fri\u0161\u010di\u0107 I.",
+      "Guaraldo C.",
+      "Iliescu M.",
+      "Indelicato P.",
+      "Iwasaki M.",
+      "Khreptak A.",
+      "Marton J.",
+      "Moskal P.",
+      "Napolitano F.",
+      "Nied\u017awiecki S.",
+      "Ohnishi H.",
+      "Piscicchia K.",
+      "Principato F.",
+      "Scordo A.",
+      "Silarski M.",
+      "Sirghi D.",
+      "Sirghi F.",
+      "Skurzok M.",
+      "Spallone A.",
+      "Sommerfeldt J.",
+      "Toscano L. G.",
+      "Toho K.",
+      "Vazquez Doce O.",
+      "Zmeskal J.",
+      "Curceanu C"
+    ],
+    "published": "2025-08-11T16:38:09+00:00",
+    "summary": "We report Dirac-Fock calculations of transition energies for kaonic neon (KNe). For the most intense line, the 7-6 transition, the calculated energy is 9450.28 eV, which includes a bound-state QED (BSQED) contribution of 12.66 eV. This is in excellent agreement with the recent SIDDHARTHA-2 measurement at DA$\\Phi$NE of 9450.23 $\\pm$ 0.37 (stat.) $\\pm$ 1.50 (syst.) eV. With the QED shift far exceeding experimental uncertainty, these results establish kaonic atoms as powerful platforms for precision tests of BSQED in intermediate-Z systems."
+  },
+  {
+    "title": "Robust Adaptive Discrete-Time Control Barrier Certificate",
+    "url": "http://arxiv.org/abs/2508.08153v1",
+    "arxiv_id": "2508.08153v1",
+    "authors": [
+      "Changrui Liu",
+      "Anil Alan",
+      "Shengling Shi",
+      "Bart De Schutter"
+    ],
+    "published": "2025-08-11T16:30:17+00:00",
+    "summary": "This work develops a robust adaptive control strategy for discrete-time systems using Control Barrier Functions (CBFs) to ensure safety under parametric model uncertainty and disturbances. A key contribution of this work is establishing a barrier function certificate in discrete time for general online parameter estimation algorithms. This barrier function certificate guarantees positive invariance of the safe set despite disturbances and parametric uncertainty without access to the true system parameters. In addition, real-time implementation and inherent robustness guarantees are provided. Our approach demonstrates that, using the proposed robust adaptive CBF framework, the parameter estimation module can be designed separately from the CBF-based safety filter, simplifying the development of safe adaptive controllers for discrete-time systems. The resulting safety filter guarantees that the system remains within the safe set while adapting to model uncertainties, making it a promising strategy for real-world applications involving discrete-time safety-critical systems."
+  },
+  {
+    "title": "Can LLMs Detect Their Confabulations? Estimating Reliability in Uncertainty-Aware Language Models",
+    "url": "http://arxiv.org/abs/2508.08139v1",
+    "arxiv_id": "2508.08139v1",
+    "authors": [
+      "Tianyi Zhou",
+      "Johanne Medina",
+      "Sanjay Chawla"
+    ],
+    "published": "2025-08-11T16:12:36+00:00",
+    "summary": "Large Language Models (LLMs) are prone to generating fluent but incorrect content, known as confabulation, which poses increasing risks in multi-turn or agentic applications where outputs may be reused as context. In this work, we investigate how in-context information influences model behavior and whether LLMs can identify their unreliable responses. We propose a reliability estimation that leverages token-level uncertainty to guide the aggregation of internal model representations. Specifically, we compute aleatoric and epistemic uncertainty from output logits to identify salient tokens and aggregate their hidden states into compact representations for response-level reliability prediction. Through controlled experiments on open QA benchmarks, we find that correct in-context information improves both answer accuracy and model confidence, while misleading context often induces confidently incorrect responses, revealing a misalignment between uncertainty and correctness. Our probing-based method captures these shifts in model behavior and improves the detection of unreliable outputs across multiple open-source LLMs. These results underscore the limitations of direct uncertainty signals and highlight the potential of uncertainty-guided probing for reliability-aware generation."
+  },
+  {
+    "title": "OFAL: An Oracle-Free Active Learning Framework",
+    "url": "http://arxiv.org/abs/2508.08126v1",
+    "arxiv_id": "2508.08126v1",
+    "authors": [
+      "Hadi Khorsand",
+      "Vahid Pourahmadi"
+    ],
+    "published": "2025-08-11T16:04:29+00:00",
+    "summary": "In the active learning paradigm, using an oracle to label data has always been a complex and expensive task, and with the emersion of large unlabeled data pools, it would be highly beneficial If we could achieve better results without relying on an oracle. This research introduces OFAL, an oracle-free active learning scheme that utilizes neural network uncertainty. OFAL uses the model's own uncertainty to transform highly confident unlabeled samples into informative uncertain samples. First, we start with separating and quantifying different parts of uncertainty and introduce Monte Carlo Dropouts as an approximation of the Bayesian Neural Network model. Secondly, by adding a variational autoencoder, we go on to generate new uncertain samples by stepping toward the uncertain part of latent space starting from a confidence seed sample. By generating these new informative samples, we can perform active learning and enhance the model's accuracy. Lastly, we try to compare and integrate our method with other widely used active learning sampling methods."
+  },
+  {
+    "title": "Robust Design of Beyond-Diagonal Reconfigurable Intelligent Surface Empowered RSMA-SWIPT System Under Channel Estimation Errors",
+    "url": "http://arxiv.org/abs/2508.08097v1",
+    "arxiv_id": "2508.08097v1",
+    "authors": [
+      "Muhammad Asif",
+      "Zain Ali",
+      "Asim Ihsan",
+      "Ali Ranjha",
+      "Zhu Shoujin",
+      "Manzoor Ahmed",
+      "Xingwang Li",
+      "Symeon Chatzinotas"
+    ],
+    "published": "2025-08-11T15:37:01+00:00",
+    "summary": "This work explores the integration of rate-splitting multiple access (RSMA), simultaneous wireless information and power transfer (SWIPT), and beyond-diagonal reconfigurable intelligent surface (BD-RIS) to enhance the spectral-efficiency, energy-efficiency, coverage, and connectivity of future sixth-generation (6G) communication networks. Specifically, with a multiuser BD-RIS-empowered RSMA-SWIPT system, we jointly optimize the transmit precoding vectors, the common rate proportion of users, the power-splitting ratios, and scattering matrix of BD-RIS node, under the assumption of imperfect channel state information (CSI). Additionally, to better capture practical hardware behavior, we incorporate a nonlinear energy harvesting model under energy harvesting constraints. We design a robust optimization framework to maximize the system sum-rate, while explicitly accounting for the worst-case impact of CSI uncertainties. Further, we introduce an alternating optimization framework that partitions the problem into several blocks, which are optimized iteratively. More specifically, the transmit precoding vectors are optimized by reformulating the problem as a convex semidefinite programming through successive-convex approximation (SCA), whereas the power-splitting problem is solved using the MOSEK-enabled CVX toolbox. Subsequently, to optimize the scattering matrix of the BD-RIS, we first employ SCA to reformulate the problem into a convex form, and then design a manifold optimization strategy based on the Conjugate-Gradient method. Finally, numerical simulation results reveal that the proposed scheme provides significant performance improvements over existing benchmarks and demonstrates rapid convergence within a reasonable number of iterations."
+  },
+  {
+    "title": "FNBT: Full Negation Belief Transformation for Open-World Information Fusion Based on Dempster-Shafer Theory of Evidence",
+    "url": "http://arxiv.org/abs/2508.08075v1",
+    "arxiv_id": "2508.08075v1",
+    "authors": [
+      "Meishen He",
+      "Wenjun Ma",
+      "Jiao Wang",
+      "Huijun Yue",
+      "Xiaoma Fan"
+    ],
+    "published": "2025-08-11T15:21:48+00:00",
+    "summary": "The Dempster-Shafer theory of evidence has been widely applied in the field of information fusion under uncertainty. Most existing research focuses on combining evidence within the same frame of discernment. However, in real-world scenarios, trained algorithms or data often originate from different regions or organizations, where data silos are prevalent. As a result, using different data sources or models to generate basic probability assignments may lead to heterogeneous frames, for which traditional fusion methods often yield unsatisfactory results. To address this challenge, this study proposes an open-world information fusion method, termed Full Negation Belief Transformation (FNBT), based on the Dempster-Shafer theory. More specially, a criterion is introduced to determine whether a given fusion task belongs to the open-world setting. Then, by extending the frames, the method can accommodate elements from heterogeneous frames. Finally, a full negation mechanism is employed to transform the mass functions, so that existing combination rules can be applied to the transformed mass functions for such information fusion. Theoretically, the proposed method satisfies three desirable properties, which are formally proven: mass function invariance, heritability, and essential conflict elimination. Empirically, FNBT demonstrates superior performance in pattern classification tasks on real-world datasets and successfully resolves Zadeh's counterexample, thereby validating its practical effectiveness."
+  },
+  {
     "title": "An Online Multi-dimensional Knapsack Approach for Slice Admission Control",
     "url": "http://arxiv.org/abs/2508.06468v1",
     "arxiv_id": "2508.06468v1",
