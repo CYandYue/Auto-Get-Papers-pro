@@ -1,5 +1,156 @@
 [
   {
+    "title": "Data-driven analyses and model-independent fits for present $b\\to s \\ell \\ell$ results",
+    "url": "http://arxiv.org/abs/2508.09986v1",
+    "arxiv_id": "2508.09986v1",
+    "authors": [
+      "T. Hurth",
+      "F. Mahmoudi",
+      "Y. Monceaux",
+      "S. Neshatpour"
+    ],
+    "published": "2025-08-13T17:59:03+00:00",
+    "summary": "We present a critical assessment of the present $B$ anomalies in the exclusive $b \\to s \\ell\\ell$ mode based on the QCD factorisation approach (QCDf). In particular, we analyse the impact of different local form factor calculations and of the largest bin in the low-$q^2$ region.   We also present a model-independent analysis of the new results of the CMS experiment on the $B \\to K^* \\mu^+\\mu^-$ angular observables and compare them with the corresponding LHCb data. In addition, we update the global fit by including all $b \\to s$ observables incorporating the new data from CMS. In these analyses, we use 10% or higher guesstimates of the non-factorisable power corrections as additional uncertainties, serving as a placeholder for robust estimates of these contributions.   Updating earlier results, we also analyse the combined LHCb and CMS data on the $B \\to K^* \\mu^+\\mu^-$ angular observables using data-driven approaches to find indications whether these tensions between the QCDf predictions and the present data are due to underestimated subleading hadronic contributions or due to new physics effects."
+  },
+  {
+    "title": "Laboratory Measurements of Ca XIX Dielectronic Recombination Satellites",
+    "url": "http://arxiv.org/abs/2508.09975v1",
+    "arxiv_id": "2508.09975v1",
+    "authors": [
+      "Filipe Grilo",
+      "Marc Botz",
+      "Chintan Shah",
+      "Thomas Pfeifer",
+      "Jos\u00e9 R. Crespo L\u00f3pez-Urrutia",
+      "Pedro Amaro"
+    ],
+    "published": "2025-08-13T17:41:54+00:00",
+    "summary": "We report measurements of the K$\\alpha$ emission from the astrophysically very abundant Ca XIX (He-like ion) and its satellite lines resonantly excited by dielectronic recombination (DR). We achieve an electron-energy resolution of 8 eV in a cryogenic electron beam ion trap, and determine the energies of the exciting electrons and the emitted photons up to the KLn ($n\\le 8$) manifold with $0.05\\%$ and $0.1\\%$ respective uncertainties. For the KLL satellites, energies agree very well with our predictions using the Flexible Atomic Code (FAC) and previous state-of-the-art calculations. Our calculations also agree with our experimental direct excitation cross-sections for K$\\alpha$ within their $10\\%$ uncertainty. We extract DR coefficient rates and find good agreement with values tabulated in the OPEN-ADAS database. As an application, we experimentally benchmark Ca XIX atomic data used to model high-temperature astrophysical plasmas by comparing FAC synthetic spectra with recent XRISM observations revealing the contributions of DR satellites to the Ca XIX lines."
+  },
+  {
+    "title": "Collision-Free Bearing-Driven Formation Tracking for Euler-Lagrange Systems",
+    "url": "http://arxiv.org/abs/2508.09908v1",
+    "arxiv_id": "2508.09908v1",
+    "authors": [
+      "Haoshu Cheng",
+      "Martin Guay",
+      "Shimin Wang",
+      "Yunhong Che"
+    ],
+    "published": "2025-08-13T16:05:16+00:00",
+    "summary": "In this paper, we investigate the problem of tracking formations driven by bearings for heterogeneous Euler-Lagrange systems with parametric uncertainty in the presence of multiple moving leaders. To estimate the leaders' velocities and accelerations, we first design a distributed observer for the leader system, utilizing a bearing-based localization condition in place of the conventional connectivity assumption. This observer, coupled with an adaptive mechanism, enables the synthesis of a novel distributed control law that guides the formation towards the target formation, without requiring prior knowledge of the system parameters. Furthermore, we establish a sufficient condition, dependent on the initial formation configuration, that ensures collision avoidance throughout the formation evolution. The effectiveness of the proposed approach is demonstrated through a numerical example."
+  },
+  {
+    "title": "Multi-head committees enable direct uncertainty prediction for atomistic foundation models",
+    "url": "http://arxiv.org/abs/2508.09907v1",
+    "arxiv_id": "2508.09907v1",
+    "authors": [
+      "Hubert Beck",
+      "Pavol Simko",
+      "Lars L. Schaaf",
+      "Ondrej Marsalek",
+      "Christoph Schran"
+    ],
+    "published": "2025-08-13T16:04:20+00:00",
+    "summary": "Machine learning potentials have become a standard tool for atomistic materials modelling. While models continue to become more generalisable, an open challenge relates to efficient uncertainty predictions for active learning and robust error analysis. In this work, we utilise MACE and its multi-head mechanism to implement a committee neural network potential for message-passing architectures, where the committee comprises multiple output modules attached to the same atomic environment descriptors. As with traditional committees of independent networks, the standard deviation of the predictions functions as an estimate of the model's uncertainty. We show for a range of datasets in custom-build models that the uncertainty of the force predictions correlates well with the true errors. We subsequently apply this concept to foundation models, specifically MACE-MP-0, where we train only the newly attached output heads while keeping the remaining part of the model fixed. We use this approach in an active learning workflow to condense the training set of the foundation model to just 5\\% of its original size. The foundation model multi-head committee trained on the condensed training set enables reliable uncertainty estimation without any substantial decrease in prediction accuracy."
+  },
+  {
+    "title": "$gg \\to ZH$ : updated predictions at NLO QCD",
+    "url": "http://arxiv.org/abs/2508.09905v1",
+    "arxiv_id": "2508.09905v1",
+    "authors": [
+      "Benjamin Campillo Aveleira",
+      "Long Chen",
+      "Joshua Davies",
+      "Giuseppe Degrassi",
+      "Pier Paolo Giardino",
+      "Ramona Gr\u00f6ber",
+      "Gudrun Heinrich",
+      "Stephen Jones",
+      "Matthias Kerner",
+      "Johannes Schlenk",
+      "Matthias Steinhauser",
+      "Marco Vitti"
+    ],
+    "published": "2025-08-13T16:03:22+00:00",
+    "summary": "We present state-of-the-art predictions for the inclusive cross section of gluon-initiated $ZH$ production, following the recommendations of the LHC Higgs Working Group. In particular, we include NLO QCD corrections, where the virtual corrections are obtained from the combination of a forward expansion and a high-energy expansion, and the real corrections are exact. The expanded results for the virtual corrections are compared in detail to full numerical results. The updated predictions show a reduction of the scale uncertainties to the level of 15%, and they include an estimate of the top-mass-scheme uncertainty."
+  },
+  {
+    "title": "Predictive Uncertainty for Runtime Assurance of a Real-Time Computer Vision-Based Landing System",
+    "url": "http://arxiv.org/abs/2508.09732v1",
+    "arxiv_id": "2508.09732v1",
+    "authors": [
+      "Romeo Valentin",
+      "Sydney M. Katz",
+      "Artur B. Carneiro",
+      "Don Walker",
+      "Mykel J. Kochenderfer"
+    ],
+    "published": "2025-08-13T11:56:22+00:00",
+    "summary": "Recent advances in data-driven computer vision have enabled robust autonomous navigation capabilities for civil aviation, including automated landing and runway detection. However, ensuring that these systems meet the robustness and safety requirements for aviation applications remains a major challenge. In this work, we present a practical vision-based pipeline for aircraft pose estimation from runway images that represents a step toward the ability to certify these systems for use in safety-critical aviation applications. Our approach features three key innovations: (i) an efficient, flexible neural architecture based on a spatial Soft Argmax operator for probabilistic keypoint regression, supporting diverse vision backbones with real-time inference; (ii) a principled loss function producing calibrated predictive uncertainties, which are evaluated via sharpness and calibration metrics; and (iii) an adaptation of Residual-based Receiver Autonomous Integrity Monitoring (RAIM), enabling runtime detection and rejection of faulty model outputs. We implement and evaluate our pose estimation pipeline on a dataset of runway images. We show that our model outperforms baseline architectures in terms of accuracy while also producing well-calibrated uncertainty estimates with sub-pixel precision that can be used downstream for fault detection."
+  },
+  {
+    "title": "CKFNet: Neural Network Aided Cubature Kalman filtering",
+    "url": "http://arxiv.org/abs/2508.09727v1",
+    "arxiv_id": "2508.09727v1",
+    "authors": [
+      "Jinhui Hu",
+      "Haiquan Zhao",
+      "Yi Peng"
+    ],
+    "published": "2025-08-13T11:45:16+00:00",
+    "summary": "The cubature Kalman filter (CKF), while theoretically rigorous for nonlinear estimation, often suffers performance degradation due to model-environment mismatches in practice. To address this limitation, we propose CKFNet-a hybrid architecture that synergistically integrates recurrent neural networks (RNN) with the CKF framework while preserving its cubature principles. Unlike conventional model-driven approaches, CKFNet embeds RNN modules in the prediction phase to dynamically adapt to unmodeled uncertainties, effectively reducing cumulative error propagation through temporal noise correlation learning. Crucially, the architecture maintains CKF's analytical interpretability via constrained optimization of cubature point distributions. Numerical simulation experiments have confirmed that our proposed CKFNet exhibits superior accuracy and robustness compared to conventional model-based methods and existing KalmanNet algorithms."
+  },
+  {
+    "title": "UbiQTree: Uncertainty Quantification in XAI with Tree Ensembles",
+    "url": "http://arxiv.org/abs/2508.09639v1",
+    "arxiv_id": "2508.09639v1",
+    "authors": [
+      "Akshat Dubey",
+      "Aleksandar An\u017eel",
+      "Bahar \u0130lgen",
+      "Georges Hattab"
+    ],
+    "published": "2025-08-13T09:20:33+00:00",
+    "summary": "Explainable Artificial Intelligence (XAI) techniques, such as SHapley Additive exPlanations (SHAP), have become essential tools for interpreting complex ensemble tree-based models, especially in high-stakes domains such as healthcare analytics. However, SHAP values are usually treated as point estimates, which disregards the inherent and ubiquitous uncertainty in predictive models and data. This uncertainty has two primary sources: aleatoric and epistemic. The aleatoric uncertainty, which reflects the irreducible noise in the data. The epistemic uncertainty, which arises from a lack of data. In this work, we propose an approach for decomposing uncertainty in SHAP values into aleatoric, epistemic, and entanglement components. This approach integrates Dempster-Shafer evidence theory and hypothesis sampling via Dirichlet processes over tree ensembles. We validate the method across three real-world use cases with descriptive statistical analyses that provide insight into the nature of epistemic uncertainty embedded in SHAP explanations. The experimentations enable to provide more comprehensive understanding of the reliability and interpretability of SHAP-based attributions. This understanding can guide the development of robust decision-making processes and the refinement of models in high-stakes applications. Through our experiments with multiple datasets, we concluded that features with the highest SHAP values are not necessarily the most stable. This epistemic uncertainty can be reduced through better, more representative data and following appropriate or case-desired model development techniques. Tree-based models, especially bagging, facilitate the effective quantification of epistemic uncertainty."
+  },
+  {
+    "title": "Scalable h-adaptive probabilistic solver for time-independent and time-dependent systems",
+    "url": "http://arxiv.org/abs/2508.09623v1",
+    "arxiv_id": "2508.09623v1",
+    "authors": [
+      "Akshay Thakur",
+      "Sawan Kumar",
+      "Matthew Zahr",
+      "Souvik Chakraborty"
+    ],
+    "published": "2025-08-13T08:54:18+00:00",
+    "summary": "Solving partial differential equations (PDEs) within the framework of probabilistic numerics offers a principled approach to quantifying epistemic uncertainty arising from discretization. By leveraging Gaussian process regression and imposing the governing PDE as a constraint at a finite set of collocation points, probabilistic numerics delivers mesh-free solutions at arbitrary locations. However, the high computational cost, which scales cubically with the number of collocation points, remains a critical bottleneck, particularly for large-scale or high-dimensional problems. We propose a scalable enhancement to this paradigm through two key innovations. First, we develop a stochastic dual descent algorithm that reduces the per-iteration complexity from cubic to linear in the number of collocation points, enabling tractable inference. Second, we exploit a clustering-based active learning strategy that adaptively selects collocation points to maximize information gain while minimizing computational expense. Together, these contributions result in an $h$-adaptive probabilistic solver that can scale to a large number of collocation points. We demonstrate the efficacy of the proposed solver on benchmark PDEs, including two- and three-dimensional steady-state elliptic problems, as well as a time-dependent parabolic PDE formulated in a space-time setting."
+  },
+  {
+    "title": "Edge General Intelligence Through World Models and Agentic AI: Fundamentals, Solutions, and Challenges",
+    "url": "http://arxiv.org/abs/2508.09561v1",
+    "arxiv_id": "2508.09561v1",
+    "authors": [
+      "Changyuan Zhao",
+      "Guangyuan Liu",
+      "Ruichen Zhang",
+      "Yinqiu Liu",
+      "Jiacheng Wang",
+      "Jiawen Kang",
+      "Dusit Niyato",
+      "Zan Li",
+      "Xuemin",
+      "Shen",
+      "Zhu Han",
+      "Sumei Sun",
+      "Chau Yuen",
+      "Dong In Kim"
+    ],
+    "published": "2025-08-13T07:29:40+00:00",
+    "summary": "Edge General Intelligence (EGI) represents a transformative evolution of edge computing, where distributed agents possess the capability to perceive, reason, and act autonomously across diverse, dynamic environments. Central to this vision are world models, which act as proactive internal simulators that not only predict but also actively imagine future trajectories, reason under uncertainty, and plan multi-step actions with foresight. This proactive nature allows agents to anticipate potential outcomes and optimize decisions ahead of real-world interactions. While prior works in robotics and gaming have showcased the potential of world models, their integration into the wireless edge for EGI remains underexplored. This survey bridges this gap by offering a comprehensive analysis of how world models can empower agentic artificial intelligence (AI) systems at the edge. We first examine the architectural foundations of world models, including latent representation learning, dynamics modeling, and imagination-based planning. Building on these core capabilities, we illustrate their proactive applications across EGI scenarios such as vehicular networks, unmanned aerial vehicle (UAV) networks, the Internet of Things (IoT) systems, and network functions virtualization, thereby highlighting how they can enhance optimization under latency, energy, and privacy constraints. We then explore their synergy with foundation models and digital twins, positioning world models as the cognitive backbone of EGI. Finally, we highlight open challenges, such as safety guarantees, efficient training, and constrained deployment, and outline future research directions. This survey provides both a conceptual foundation and a practical roadmap for realizing the next generation of intelligent, autonomous edge systems."
+  },
+  {
     "title": "Efficient Statistical Estimation for Sequential Adaptive Experiments with Implications for Adaptive Designs",
     "url": "http://arxiv.org/abs/2508.09135v1",
     "arxiv_id": "2508.09135v1",
