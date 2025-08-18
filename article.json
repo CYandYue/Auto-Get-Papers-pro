@@ -1,5 +1,133 @@
 [
   {
+    "title": "Nominal Evaluation Of Automatic Multi-Sections Control Potential In Comparison To A Simpler One- Or Two-Sections Alternative With Predictive Spray Switching",
+    "url": "http://arxiv.org/abs/2508.11573v1",
+    "arxiv_id": "2508.11573v1",
+    "authors": [
+      "Mogens Plessen"
+    ],
+    "published": "2025-08-15T16:27:44+00:00",
+    "summary": "Automatic Section Control (ASC) is a long-standing trend for spraying in agriculture. It promises to minimise spray overlap areas. The core idea is to (i) switch off spray nozzles on areas that have already been sprayed, and (ii) to dynamically adjust nozzle flow rates along the boom bar that holds the spray nozzles when velocities of boom sections vary during turn maneuvers. ASC is not possible without sensors, in particular for accurate positioning data. Spraying and the movement of modern wide boom bars are highly dynamic processes. In addition, many uncertainty factors have an effect such as cross wind drift, boom height, nozzle clogging in open-field conditions, and so forth. In view of this complexity, the natural question arises if a simpler alternative exist. Therefore, an Automatic Multi-Sections Control method is compared to a proposed simpler one- or two-sections alternative that uses predictive spray switching. The comparison is provided under nominal conditions. Agricultural spraying is intrinsically linked to area coverage path planning and spray switching logic. Combinations of two area coverage path planning and switching logics as well as three sections-setups are compared. The three sections-setups differ by controlling 48 sections, 2 sections or controlling all nozzles uniformly with the same control signal as one single section. Methods are evaluated on 10 diverse real-world field examples, including non-convex field contours, freeform mainfield lanes and multiple obstacle areas. A preferred method is suggested that (i) minimises area coverage pathlength, (ii) offers intermediate overlap, (iii) is suitable for manual driving by following a pre-planned predictive spray switching logic for an area coverage path plan, and (iv) and in contrast to ASC can be implemented sensor-free and therefore at low cost."
+  },
+  {
+    "title": "Towards Fully Onboard State Estimation and Trajectory Tracking for UAVs with Suspended Payloads",
+    "url": "http://arxiv.org/abs/2508.11547v1",
+    "arxiv_id": "2508.11547v1",
+    "authors": [
+      "Martin Jirou\u0161ek",
+      "Tom\u00e1\u0161 B\u00e1\u010da",
+      "Martin Saska"
+    ],
+    "published": "2025-08-15T15:48:42+00:00",
+    "summary": "This paper addresses the problem of tracking the position of a cable-suspended payload carried by an unmanned aerial vehicle, with a focus on real-world deployment and minimal hardware requirements. In contrast to many existing approaches that rely on motion-capture systems, additional onboard cameras, or instrumented payloads, we propose a framework that uses only standard onboard sensors--specifically, real-time kinematic global navigation satellite system measurements and data from the onboard inertial measurement unit--to estimate and control the payload's position. The system models the full coupled dynamics of the aerial vehicle and payload, and integrates a linear Kalman filter for state estimation, a model predictive contouring control planner, and an incremental model predictive controller. The control architecture is designed to remain effective despite sensing limitations and estimation uncertainty. Extensive simulations demonstrate that the proposed system achieves performance comparable to control based on ground-truth measurements, with only minor degradation (< 6%). The system also shows strong robustness to variations in payload parameters. Field experiments further validate the framework, confirming its practical applicability and reliable performance in outdoor environments using only off-the-shelf aerial vehicle hardware."
+  },
+  {
+    "title": "Integrating Uncertainties for Koopman-Based Stabilization",
+    "url": "http://arxiv.org/abs/2508.11533v1",
+    "arxiv_id": "2508.11533v1",
+    "authors": [
+      "Yicheng Lin",
+      "Bingxian Wu",
+      "Nan Bai",
+      "Zhiyong Sun",
+      "Yunxiao Ren",
+      "Chuanze Chen",
+      "Zhisheng Duan"
+    ],
+    "published": "2025-08-15T15:20:48+00:00",
+    "summary": "Over the past decades, the Koopman operator has been widely applied in data-driven control, yet its theoretical foundations remain underexplored. This paper establishes a unified framework to address the robust stabilization problem in data-driven control via the Koopman operator, fully accounting for three uncertainties: projection error, estimation error, and process disturbance. It comprehensively investigates both direct and indirect data-driven control approaches, facilitating flexible methodology selection for analysis and control. For the direct approach, considering process disturbances, the lifted-state feedback controller, designed via a linear matrix inequality (LMI), robustly stabilizes all lifted bilinear systems consistent with noisy data. For the indirect approach requiring system identification, the feedback controller, designed using a nonlinear matrix inequality convertible to an LMI, ensures closed-loop stability under worst-case process disturbances. Numerical simulations via cross-validation validate the effectiveness of both approaches, highlighting their theoretical significance and practical utility."
+  },
+  {
+    "title": "Calibrated and uncertain? Evaluating uncertainty estimates in binary classification models",
+    "url": "http://arxiv.org/abs/2508.11460v1",
+    "arxiv_id": "2508.11460v1",
+    "authors": [
+      "Aurora Grefsrud",
+      "Nello Blaser",
+      "Trygve Buanes"
+    ],
+    "published": "2025-08-15T13:17:32+00:00",
+    "summary": "Rigorous statistical methods, including parameter estimation with accompanying uncertainties, underpin the validity of scientific discovery, especially in the natural sciences. With increasingly complex data models such as deep learning techniques, uncertainty quantification has become exceedingly difficult and a plethora of techniques have been proposed. In this case study, we use the unifying framework of approximate Bayesian inference combined with empirical tests on carefully created synthetic classification datasets to investigate qualitative properties of six different probabilistic machine learning algorithms for class probability and uncertainty estimation: (i) a neural network ensemble, (ii) neural network ensemble with conflictual loss, (iii) evidential deep learning, (iv) a single neural network with Monte Carlo Dropout, (v) Gaussian process classification and (vi) a Dirichlet process mixture model. We check if the algorithms produce uncertainty estimates which reflect commonly desired properties, such as being well calibrated and exhibiting an increase in uncertainty for out-of-distribution data points. Our results indicate that all algorithms are well calibrated, but none of the deep learning based algorithms provide uncertainties that consistently reflect lack of experimental evidence for out-of-distribution data points. We hope our study may serve as a clarifying example for researchers developing new methods of uncertainty estimation for scientific data-driven modeling."
+  },
+  {
+    "title": "Improving Air Shower Simulations by Tuning Pythia 8/Angantyr with Accelerator Data",
+    "url": "http://arxiv.org/abs/2508.11458v1",
+    "arxiv_id": "2508.11458v1",
+    "authors": [
+      "Michael Windau",
+      "Chlo\u00e9 Gaudu",
+      "Karl-Heinz Kampert",
+      "Kevin Kr\u00f6ninger"
+    ],
+    "published": "2025-08-15T13:16:00+00:00",
+    "summary": "We present a combined analysis of the Pythia 8 event generator using accelerator data and evaluate its impact on air shower observables. Reliable simulations with event generators are essential for particle physics analyses, achievable through advanced tuning to experimental data. Pythia 8 has emerged as a promising high-energy interaction model for cosmic ray air shower simulations, offering well-documented parameter settings and a user-friendly interface to enable automatic tuning efforts. Using data from collider and fixed-target experiments, we first derive tunes for each domain separately, before tuning both domains simultaneously. To achieve this, we define a core set of observables and quantify their dependence on selected parameters. The tuning efforts are based on gradient descent and Bayesian methods, the latter providing a full uncertainty propagation of the parameters to the observables. Results for the impact of a combined analysis for the Pythia 8/Angantyr event generator on air shower observables, such as particle densities at ground level and energy deposit profiles, are presented."
+  },
+  {
+    "title": "EvoPSF: Online Evolution of Autonomous Driving Models via Planning-State Feedback",
+    "url": "http://arxiv.org/abs/2508.11453v1",
+    "arxiv_id": "2508.11453v1",
+    "authors": [
+      "Jiayue Jin",
+      "Lang Qian",
+      "Jingyu Zhang",
+      "Chuanyu Ju",
+      "Liang Song"
+    ],
+    "published": "2025-08-15T13:00:55+00:00",
+    "summary": "Recent years have witnessed remarkable progress in autonomous driving, with systems evolving from modular pipelines to end-to-end architectures. However, most existing methods are trained offline and lack mechanisms to adapt to new environments during deployment. As a result, their generalization ability diminishes when faced with unseen variations in real-world driving scenarios. In this paper, we break away from the conventional \"train once, deploy forever\" paradigm and propose EvoPSF, a novel online Evolution framework for autonomous driving based on Planning-State Feedback. We argue that planning failures are primarily caused by inaccurate object-level motion predictions, and such failures are often reflected in the form of increased planner uncertainty. To address this, we treat planner uncertainty as a trigger for online evolution, using it as a diagnostic signal to initiate targeted model updates. Rather than performing blind updates, we leverage the planner's agent-agent attention to identify the specific objects that the ego vehicle attends to most, which are primarily responsible for the planning failures. For these critical objects, we compute a targeted self-supervised loss by comparing their predicted waypoints from the prediction module with their actual future positions, selected from the perception module's outputs with high confidence scores. This loss is then backpropagated to adapt the model online. As a result, our method improves the model's robustness to environmental changes, leads to more precise motion predictions, and therefore enables more accurate and stable planning behaviors. Experiments on both cross-region and corrupted variants of the nuScenes dataset demonstrate that EvoPSF consistently improves planning performance under challenging conditions."
+  },
+  {
+    "title": "Conformal Prediction Meets Long-tail Classification",
+    "url": "http://arxiv.org/abs/2508.11345v1",
+    "arxiv_id": "2508.11345v1",
+    "authors": [
+      "Shuqi Liu",
+      "Jianguo Huang",
+      "Luke Ong"
+    ],
+    "published": "2025-08-15T09:14:46+00:00",
+    "summary": "Conformal Prediction (CP) is a popular method for uncertainty quantification that converts a pretrained model's point prediction into a prediction set, with the set size reflecting the model's confidence. Although existing CP methods are guaranteed to achieve marginal coverage, they often exhibit imbalanced coverage across classes under long-tail label distributions, tending to over cover the head classes at the expense of under covering the remaining tail classes. This under coverage is particularly concerning, as it undermines the reliability of the prediction sets for minority classes, even with coverage ensured on average. In this paper, we propose the Tail-Aware Conformal Prediction (TACP) method to mitigate the under coverage of the tail classes by utilizing the long-tail structure and narrowing the head-tail coverage gap. Theoretical analysis shows that it consistently achieves a smaller head-tail coverage gap than standard methods. To further improve coverage balance across all classes, we introduce an extension of TACP: soft TACP (sTACP) via a reweighting mechanism. The proposed framework can be combined with various non-conformity scores, and experiments on multiple long-tail benchmark datasets demonstrate the effectiveness of our methods."
+  },
+  {
+    "title": "Cost-Effective Active Labeling for Data-Efficient Cervical Cell Classification",
+    "url": "http://arxiv.org/abs/2508.11340v1",
+    "arxiv_id": "2508.11340v1",
+    "authors": [
+      "Yuanlin Liu",
+      "Zhihan Zhou",
+      "Mingqiang Wei",
+      "Youyi Song"
+    ],
+    "published": "2025-08-15T09:11:15+00:00",
+    "summary": "Information on the number and category of cervical cells is crucial for the diagnosis of cervical cancer. However, existing classification methods capable of automatically measuring this information require the training dataset to be representative, which consumes an expensive or even unaffordable human cost. We herein propose active labeling that enables us to construct a representative training dataset using a much smaller human cost for data-efficient cervical cell classification. This cost-effective method efficiently leverages the classifier's uncertainty on the unlabeled cervical cell images to accurately select images that are most beneficial to label. With a fast estimation of the uncertainty, this new algorithm exhibits its validity and effectiveness in enhancing the representative ability of the constructed training dataset. The extensive empirical results confirm its efficacy again in navigating the usage of human cost, opening the avenue for data-efficient cervical cell classification."
+  },
+  {
+    "title": "RegimeNAS: Regime-Aware Differentiable Architecture Search With Theoretical Guarantees for Financial Trading",
+    "url": "http://arxiv.org/abs/2508.11338v1",
+    "arxiv_id": "2508.11338v1",
+    "authors": [
+      "Prathamesh Devadiga",
+      "Yashmitha Shailesh"
+    ],
+    "published": "2025-08-15T09:09:54+00:00",
+    "summary": "We introduce RegimeNAS, a novel differentiable architecture search framework specifically designed to enhance cryptocurrency trading performance by explicitly integrating market regime awareness. Addressing the limitations of static deep learning models in highly dynamic financial environments, RegimeNAS features three core innovations: (1) a theoretically grounded Bayesian search space optimizing architectures with provable convergence properties; (2) specialized, dynamically activated neural modules (Volatility, Trend, and Range blocks) tailored for distinct market conditions; and (3) a multi-objective loss function incorporating market-specific penalties (e.g., volatility matching, transition smoothness) alongside mathematically enforced Lipschitz stability constraints. Regime identification leverages multi-head attention across multiple timeframes for improved accuracy and uncertainty estimation. Rigorous empirical evaluation on extensive real-world cryptocurrency data demonstrates that RegimeNAS significantly outperforms state-of-the-art benchmarks, achieving an 80.3% Mean Absolute Error reduction compared to the best traditional recurrent baseline and converging substantially faster (9 vs. 50+ epochs). Ablation studies and regime-specific analysis confirm the critical contribution of each component, particularly the regime-aware adaptation mechanism. This work underscores the imperative of embedding domain-specific knowledge, such as market regimes, directly within the NAS process to develop robust and adaptive models for challenging financial applications."
+  },
+  {
+    "title": "Demonstrating the velocity response of a table-top EPR Speedmeter",
+    "url": "http://arxiv.org/abs/2508.11316v1",
+    "arxiv_id": "2508.11316v1",
+    "authors": [
+      "S. L. Kranzhoff",
+      "S. L. Danilishin",
+      "S. Steinlechner",
+      "M. Vardaro",
+      "T. Zhang",
+      "S. Hild"
+    ],
+    "published": "2025-08-15T08:35:28+00:00",
+    "summary": "The sensitivity of gravitational-wave interferometers is fundamentally limited by quantum noise, as dictated by the Heisenberg uncertainty principle, due to their continuous position measurement of the end mirrors. Speedmeter configurations, which measure mirror velocity rather than position, have been proposed as a means to suppress quantum back-action noise, but practical implementations remain at an early stage. In this work, we present a table-top realisation of the Einstein- Podolsky-Rosen (EPR) Speedmeter concept, employing an optical readout scheme based on two orthogonal polarisation modes that probe the interferometer with different effective bandwidths. Using a triangular cavity, we demonstrate that the differential optical response between the linear p- and s-polarised modes exhibits a speed-like frequency dependence: vanishing at DC and increasing linearly with signal frequency, up to the bandwidth of the slower mode. With this we show that an optical system equivalent to the EPR Speedmeter indeed performs a velocity readout of the end mirror."
+  },
+  {
     "title": "The Dark Energy Bedrock All-Sky Supernova Program: Cross Calibration, Simulations, and Cosmology Forecasts",
     "url": "http://arxiv.org/abs/2508.10877v1",
     "arxiv_id": "2508.10877v1",
