@@ -1,5 +1,175 @@
 [
   {
+    "title": "Signal and Noise: A Framework for Reducing Uncertainty in Language Model Evaluation",
+    "url": "http://arxiv.org/abs/2508.13144v1",
+    "arxiv_id": "2508.13144v1",
+    "authors": [
+      "David Heineman",
+      "Valentin Hofmann",
+      "Ian Magnusson",
+      "Yuling Gu",
+      "Noah A. Smith",
+      "Hannaneh Hajishirzi",
+      "Kyle Lo",
+      "Jesse Dodge"
+    ],
+    "published": "2025-08-18T17:56:04+00:00",
+    "summary": "Developing large language models is expensive and involves making decisions with small experiments, typically by evaluating on large, multi-task evaluation suites. In this work, we analyze specific properties which make a benchmark more reliable for such decisions, and interventions to design higher-quality evaluation benchmarks. We introduce two key metrics that show differences in current benchmarks: signal, a benchmark's ability to separate better models from worse models, and noise, a benchmark's sensitivity to random variability between training steps. We demonstrate that benchmarks with a better signal-to-noise ratio are more reliable when making decisions at small scale, and those with less noise have lower scaling law prediction error. These results suggest that improving signal or noise will lead to more useful benchmarks, so we introduce three interventions designed to directly affect signal or noise. For example, we propose that switching to a metric that has better signal and noise (e.g., perplexity rather than accuracy) leads to better reliability and improved scaling law error. We also find that filtering noisy subtasks, to improve an aggregate signal-to-noise ratio, leads to more reliable multi-task evaluations. We also find that averaging the output of a model's intermediate checkpoints to reduce noise leads to consistent improvements. We conclude by recommending that those creating new benchmarks, or selecting which existing benchmarks to use, aim for high signal and low noise. We use 30 benchmarks for these experiments, and 375 open-weight language models from 60M to 32B parameters, resulting in a new, publicly available dataset of 900K evaluation benchmark results, totaling 200M instances."
+  },
+  {
+    "title": "The ALPINE-CRISTAL-JWST survey: spatially resolved star formation relations at $z\\sim5$",
+    "url": "http://arxiv.org/abs/2508.13136v1",
+    "arxiv_id": "2508.13136v1",
+    "authors": [
+      "C. Accard",
+      "M. B\u00e9thermin",
+      "M. Boquien",
+      "V. Buat",
+      "L. Vallini",
+      "F. Renaud",
+      "K. Kraljic",
+      "M. Aravena",
+      "P. Cassata",
+      "E. da Cunha",
+      "P. Dam",
+      "I. de Looze",
+      "M. Dessauges-Zavadsky",
+      "Y. Dubois",
+      "A. Faisst",
+      "Y. Fudamoto",
+      "M. Ginolfi",
+      "C. Gruppioni",
+      "S. Han",
+      "R. Herrera-Camus",
+      "H. Inami",
+      "A. M. Koekemoer",
+      "B. C. Lemaux",
+      "J. Li",
+      "Y. Li",
+      "B. Mobasher",
+      "J. Molina",
+      "A. Nanni",
+      "M. Palla",
+      "F. Pozzi",
+      "M. Rela\u00f1o",
+      "M. Romano",
+      "P. Sawant",
+      "J. Spilker",
+      "A. Tsujita",
+      "E. Veraldi",
+      "V. Villanueva",
+      "W. Wang",
+      "S. K. Yi",
+      "G. Zamorani"
+    ],
+    "published": "2025-08-18T17:49:25+00:00",
+    "summary": "Star formation governs galaxy evolution, shaping stellar mass assembly and gas consumption across cosmic time. The Kennicutt-Schmidt (KS) relation, linking star formation rate (SFR) and gas surface densities, is fundamental to understand star formation regulation, yet remains poorly constrained at $z > 2$ due to observational limitations and uncertainties in locally calibrated gas tracers. The [CII] $158 {\\rm \\mu m}$ line has recently emerged as a key probe of the cold ISM and star formation in the early Universe. We investigate whether the resolved [CII]-SFR and KS relations established at low redshift remain valid at $4 < z < 6$ by analysing 13 main-sequence galaxies from the ALPINE and CRISTAL surveys, using multi-wavelength data (HST, JWST, ALMA) at $\\sim2$ kpc resolution. We perform pixel-by-pixel spectral energy distribution (SED) modelling with CIGALE on resolution-homogenised images. We develop a statistical framework to fit the [CII]-SFR relation that accounts for pixel covariance and compare our results to classical fitting methods. We test two [CII]-to-gas conversion prescriptions to assess their impact on inferred gas surface densities and depletion times. We find a resolved [CII]-SFR relation with a slope of $0.87 \\pm 0.15$ and intrinsic scatter of $0.19 \\pm 0.03$ dex, which is shallower and tighter than previous studies at $z\\sim5$. The resolved KS relation is highly sensitive to the [CII]-to-gas conversion factor: using a fixed global $\\alpha_{\\rm [CII]}$ yields depletion times of $0.5$-$1$ Gyr, while a surface brightness-dependent $W_{\\rm [CII]}$, places some galaxies with high gas density in the starburst regime ($<0.1$ Gyr). Future inputs from both simulations and observations are required to better understand how the [CII]-to-gas conversion factor depends on local ISM properties. We need to break this fundamental limit to properly study the KS relation at $z\\gtrsim4$."
+  },
+  {
+    "title": "Bayesian Optimization-based Search for Agent Control in Automated Game Testing",
+    "url": "http://arxiv.org/abs/2508.13121v1",
+    "arxiv_id": "2508.13121v1",
+    "authors": [
+      "Carlos Celemin"
+    ],
+    "published": "2025-08-18T17:24:46+00:00",
+    "summary": "This work introduces an automated testing approach that employs agents controlling game characters to detect potential bugs within a game level. Harnessing the power of Bayesian Optimization (BO) to execute sample-efficient search, the method determines the next sampling point by analyzing the data collected so far and calculates the data point that will maximize information acquisition. To support the BO process, we introduce a game testing-specific model built on top of a grid map, that features the smoothness and uncertainty estimation required by BO, however and most importantly, it does not suffer the scalability issues that traditional models carry. The experiments demonstrate that the approach significantly improves map coverage capabilities in both time efficiency and exploration distribution."
+  },
+  {
+    "title": "Reasonable uncertainty: Confidence intervals in empirical Bayes discrimination detection",
+    "url": "http://arxiv.org/abs/2508.13110v1",
+    "arxiv_id": "2508.13110v1",
+    "authors": [
+      "Jiaying Gu",
+      "Nikolaos Ignatiadis",
+      "Azeem M. Shaikh"
+    ],
+    "published": "2025-08-18T17:15:12+00:00",
+    "summary": "We revisit empirical Bayes discrimination detection, focusing on uncertainty arising from both partial identification and sampling variability. While prior work has mostly focused on partial identification, we find that some empirical findings are not robust to sampling uncertainty. To better connect statistical evidence to the magnitude of real-world discriminatory behavior, we propose a counterfactual odds-ratio estimand with a attractive properties and interpretation. Our analysis reveals the importance of careful attention to uncertainty quantification and downstream goals in empirical Bayes analyses."
+  },
+  {
+    "title": "Surrogate-based Bayesian calibration methods for climate models: a comparison of traditional and non-traditional approaches",
+    "url": "http://arxiv.org/abs/2508.13071v1",
+    "arxiv_id": "2508.13071v1",
+    "authors": [
+      "Maike F. Holthuijzen",
+      "Atlanta Chakraborty",
+      "Elizabeth Krath",
+      "Tommie Catanach"
+    ],
+    "published": "2025-08-18T16:43:26+00:00",
+    "summary": "Parameter calibration is crucial for reducing uncertainty and improving simulation accuracy in physics-based models, yet computational constraints pose significant challenges. Bayesian calibration methods offer a principled framework for combining prior knowledge with data while rigorously quantifying uncertainty. In this work, we compare four emulator-based Bayesian calibration methods: Calibrate-Emulate-Sample (CES), History Matching (HM), Bayesian Optimal Experimental Design (BOED), and a novel Goal-Oriented BOED (GBOED) approach, using the Lorenz '96 multiscale system as a testbed. Our GBOED formulation explicitly targets calibration-relevant quantities and leverages information-theoretic criteria for data selection. We assess each method in terms of calibration accuracy, uncertainty quantification, computational cost, and convergence behavior. We evaluate each method's performance in balancing computational cost, implementation complexity, and uncertainty quantification (UQ), with additional insights into convergence behavior as model evaluations increase. We find CES offers excellent performance but at high computational expense, while GBOED achieves comparable accuracy using fewer model evaluations. Standard BOED underperforms with respect to calibration accuracy, and HM shows moderate effectiveness but can be useful as a precursor. Our results highlight trade-offs among Bayesian strategies and demonstrate the promise of goal-oriented design in calibration workflows."
+  },
+  {
+    "title": "Hierarchical Evaluation Function (HEF): A Multi-Metric Approach for Optimizing Demand Forecasting Models",
+    "url": "http://arxiv.org/abs/2508.13057v1",
+    "arxiv_id": "2508.13057v1",
+    "authors": [
+      "Adolfo Gonz\u00e1lez",
+      "V\u00edctor Parada"
+    ],
+    "published": "2025-08-18T16:25:49+00:00",
+    "summary": "Demand forecasting is essential for strategic planning in competitive environments, enabling resource optimization and improved responsiveness to market dynamics. However, multivariate time series modeling faces challenges due to data complexity, uncertainty, and frequent regime shifts. Traditional evaluation metrics can introduce biases and limit generalization. This work compares two custom evaluation functions: FMAE (Focused Mean Absolute Error), focused on minimizing absolute errors, and HEF (Hierarchical Evaluation Function), designed to weight global metrics and penalize large deviations. Experiments were conducted under different data splits (91:9, 80:20, 70:30) using three optimizers (Grid Search, PSO, Optuna), assessing fit, relative accuracy, robustness, and computational efficiency. Results show that HEF consistently outperforms FMAE in global metrics (R2, Relative Accuracy, RMSE, RMSSE), enhancing model robustness and explanatory power. These findings were confirmed via visualizations and statistical tests. Conversely, FMAE offers advantages in local metrics (MAE, MASE) and execution time, making it suitable for short-term scenarios. The study highlights a methodological trade-off: HEF is ideal for strategic planning, while FMAE is better suited for operational efficiency. A replicable framework is proposed for optimizing predictive models in dynamic environments."
+  },
+  {
+    "title": "A test of Ca ii H & K photometry for isolating massive globular clusters below the metallicity floor",
+    "url": "http://arxiv.org/abs/2508.13031v1",
+    "arxiv_id": "2508.13031v1",
+    "authors": [
+      "Bas van Heumen",
+      "William E. Harris",
+      "S\u00f8ren S. Larsen",
+      "Else Starkenburg"
+    ],
+    "published": "2025-08-18T15:47:04+00:00",
+    "summary": "The serendipitous discovery of the M31 globular cluster (GC) EXT8 has presented a significant challenge to current theories for GC formation. By finding other GCs similar to EXT8, it should become clear if and/or how EXT8 can fit into our current understanding of GC formation. We aim to test the potential of integrated-light narrow-band Ca II H & K photometry as a proxy for the metallicity of GCs to be able to provide effective candidate selection for massive GCs below the GC metallicity floor ([Fe/H] $\\leq$ -2.5), such as EXT8. We investigate the behaviour of two colours involving the CaHK filter employed by the Pristine survey, CaHK-u and CaHK-g, as a function of metallicity through CFHT MegaCam imaging of EXT8 and a wide set of M31 GCs covering the metallicity range of -2.9 $\\leq$ [Fe/H] $\\leq$ +0.4. Additionally, we investigate if the CaHK colours are strongly influenced by horizontal branch morphology through available morphology measurements. In both of the CaHK colours, EXT8 and two other potential GCs below the metallicity floor can be selected from other metal-poor GCs ([Fe/H] $\\leq$ -1.5) with CaHK-g showing the larger metallicity sensitivity. The RMS of linear fits to the metal-poor GCs show an uncertainty of 0.3 dex on metallicity estimations for both colours. Comparisons with u-g and g-z/F450W-F850L colours reinforce the notion that CaHK photometry can be used for effective candidate selection as they reduce false positive selection rates by at least a factor of 2. We find no strong influence of the horizontal branch morphology on the CaHK colours that would interfere with candidate selection, although the assessment is limited by quantity and quality of available data."
+  },
+  {
+    "title": "PC-Sampler: Position-Aware Calibration of Decoding Bias in Masked Diffusion Models",
+    "url": "http://arxiv.org/abs/2508.13021v1",
+    "arxiv_id": "2508.13021v1",
+    "authors": [
+      "Pengcheng Huang",
+      "Shuhao Liu",
+      "Zhenghao Liu",
+      "Yukun Yan",
+      "Shuo Wang",
+      "Zulong Chen",
+      "Tong Xiao"
+    ],
+    "published": "2025-08-18T15:38:37+00:00",
+    "summary": "Recent advances in masked diffusion models (MDMs) have established them as powerful non-autoregressive alternatives for sequence generation. Nevertheless, our preliminary experiments reveal that the generation quality of MDMs is still highly sensitive to the choice of decoding strategy. In particular, widely adopted uncertainty-based samplers suffer from two key limitations: a lack of global trajectory control and a pronounced bias toward trivial tokens in the early stages of decoding. These shortcomings restrict the full potential of MDMs. In this work, we introduce Position-Aware Confidence-Calibrated Sampling (PC-Sampler), a novel decoding strategy that unifies global trajectory planning with content-aware informativeness maximization. PC-Sampler incorporates a position-aware weighting mechanism to regulate the decoding path and a calibrated confidence score to suppress the premature selection of trivial tokens. Extensive experiments on three advanced MDMs across seven challenging benchmarks-including logical reasoning and planning tasks-demonstrate that PC-Sampler consistently outperforms existing MDM decoding strategies by more than 10% on average, significantly narrowing the performance gap with state-of-the-art autoregressive models. All codes are available at https://github.com/NEUIR/PC-Sampler."
+  },
+  {
+    "title": "Fairness-Aware Multi-view Evidential Learning with Adaptive Prior",
+    "url": "http://arxiv.org/abs/2508.12997v1",
+    "arxiv_id": "2508.12997v1",
+    "authors": [
+      "Haishun Chen",
+      "Cai Xu",
+      "Jinlong Yu",
+      "Yilin Zhang",
+      "Ziyu Guan",
+      "Wei Zhao"
+    ],
+    "published": "2025-08-18T15:17:16+00:00",
+    "summary": "Multi-view evidential learning aims to integrate information from multiple views to improve prediction performance and provide trustworthy uncertainty esitimation. Most previous methods assume that view-specific evidence learning is naturally reliable. However, in practice, the evidence learning process tends to be biased. Through empirical analysis on real-world data, we reveal that samples tend to be assigned more evidence to support data-rich classes, thereby leading to unreliable uncertainty estimation in predictions. This motivates us to delve into a new Biased Evidential Multi-view Learning (BEML) problem. To this end, we propose Fairness-Aware Multi-view Evidential Learning (FAML). FAML first introduces an adaptive prior based on training trajectory, which acts as a regularization strategy to flexibly calibrate the biased evidence learning process. Furthermore, we explicitly incorporate a fairness constraint based on class-wise evidence variance to promote balanced evidence allocation. In the multi-view fusion stage, we propose an opinion alignment mechanism to mitigate view-specific bias across views, thereby encouraging the integration of consistent and mutually supportive evidence. Extensive experiments on five real-world multi-view datasets demonstrate that FAML achieves more balanced evidence allocation and improves both prediction performance and the reliability of uncertainty estimation compared to state-of-the-art methods."
+  },
+  {
+    "title": "Likelihood-Based Heterogeneity Inference Reveals Non-Stationary Effects in Biohybrid Cell-Cargo Transport",
+    "url": "http://arxiv.org/abs/2508.12976v1",
+    "arxiv_id": "2508.12976v1",
+    "authors": [
+      "Jan Albrecht",
+      "Lara S. Dautzenberg",
+      "Manfred Opper",
+      "Carsten Beta",
+      "Robert Gro\u00dfmann"
+    ],
+    "published": "2025-08-18T14:52:10+00:00",
+    "summary": "Variability of motility behavior in populations of microbiological agents is an ubiquitous phenomenon even in the case of genetically identical cells. Accordingly, passive objects introduced into such biological systems and driven by them will also exhibit heterogeneous motion patterns. Here, we study a biohybrid system of passive beads driven by active ameboid cells and use a likelihood approach to estimate the heterogeneity of the bead dynamics from their discretely sampled trajectories. We showcase how this approach can deal with information-scarce situations and provides natural uncertainty bounds for heterogeneity estimates. Using these advantages we particularly uncover that the heterogeneity in the system is time-dependent."
+  },
+  {
     "title": "Nominal Evaluation Of Automatic Multi-Sections Control Potential In Comparison To A Simpler One- Or Two-Sections Alternative With Predictive Spray Switching",
     "url": "http://arxiv.org/abs/2508.11573v1",
     "arxiv_id": "2508.11573v1",
