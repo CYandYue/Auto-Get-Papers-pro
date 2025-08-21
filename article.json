@@ -1,5 +1,129 @@
 [
   {
+    "title": "Squeezed Diffusion Models",
+    "url": "http://arxiv.org/abs/2508.14871v1",
+    "arxiv_id": "2508.14871v1",
+    "authors": [
+      "Jyotirmai Singh",
+      "Samar Khanna",
+      "James Burgess"
+    ],
+    "published": "2025-08-20T17:37:53+00:00",
+    "summary": "Diffusion models typically inject isotropic Gaussian noise, disregarding structure in the data. Motivated by the way quantum squeezed states redistribute uncertainty according to the Heisenberg uncertainty principle, we introduce Squeezed Diffusion Models (SDM), which scale noise anisotropically along the principal component of the training distribution. As squeezing enhances the signal-to-noise ratio in physics, we hypothesize that scaling noise in a data-dependent manner can better assist diffusion models in learning important data features. We study two configurations: (i) a Heisenberg diffusion model that compensates the scaling on the principal axis with inverse scaling on orthogonal directions and (ii) a standard SDM variant that scales only the principal axis. Counterintuitively, on CIFAR-10/100 and CelebA-64, mild antisqueezing - i.e. increasing variance on the principal axis - consistently improves FID by up to 15% and shifts the precision-recall frontier toward higher recall. Our results demonstrate that simple, data-aware noise shaping can deliver robust generative gains without architectural changes."
+  },
+  {
+    "title": "Calibration offset estimation in mobile hearing tests via categorical loudness scaling",
+    "url": "http://arxiv.org/abs/2508.14824v1",
+    "arxiv_id": "2508.14824v1",
+    "authors": [
+      "Chen Xu",
+      "Birger Kollmeier"
+    ],
+    "published": "2025-08-20T16:17:06+00:00",
+    "summary": "Objective: To enable reliable smartphone-based hearing assessments by developing methods to estimate device calibration offsets using categorical loudness scaling (CLS). Design: Calibration offsets were simulated from a Gaussian distribution. Two prediction models - a Bayesian regression model and a nearest neighbor model - were trained on CLS-derived parameters and data from the Oldenburg Hearing Health Repository (OHHR). CLS was chosen because it provides level-independent measures (e.g., dynamic range) that remain robust despite calibration errors. Study Sample: The dataset comprised CLS results from N = 847 participants with a mean age of 70.0 years (SD = 8.7), including 556 male and 291 female listeners with diverse hearing profiles. Results: The Bayesian regression model achieved correlations of up to 0.81 between estimated and true calibration offsets, enabling accurate individual-level correction. Compared to threshold-based approaches, calibration uncertainty was reduced by factors between 0.41 and 0.79, demonstrating greater robustness in uncontrolled environments. Conclusions: CLS-based models can effectively compensate for missing calibration in mobile hearing assessments. This approach provides a practical alternative to threshold-based methods, supporting the use of smartphone-based tests outside laboratory settings and expanding access to reliable hearing healthcare in everyday and resource-limited contexts."
+  },
+  {
+    "title": "Equipartition and the temperature of maximum density of TIP4/2005 water",
+    "url": "http://arxiv.org/abs/2508.14800v1",
+    "arxiv_id": "2508.14800v1",
+    "authors": [
+      "Dilipkumar N. Asthagiri",
+      "Thomas L. Beck"
+    ],
+    "published": "2025-08-20T15:51:57+00:00",
+    "summary": "We simulate TIP4P/2005 water in the temperature range of 257 K to 318 K with time steps of $\\delta =$ 0.25, 0.50, and 2.0 fs. Within the computed statistical uncertainties, the density-temperature behavior obtained using 0.25 fs and 0.50 fs are in excellent agreement with each other but differ from those obtained using $\\delta t = 2.0$ fs, a choice that leads to a breakdown of equipartition. The temperature of maximum density (TMD) is 277.15 K with $\\delta t = $0.25 fs or 0.50 fs, but is shifted to 273.15 K for simulations with $\\delta t = 2.0$ fs. This shift is comparable in magnitude to the shift in TMD due to nuclear quantum effects, emphasizing the care required in the parameterization and classical statistical mechanical simulation of a fluid that displays nontrivial nuclear quantum effects under ambient conditions. Enhancing the water-water dispersion interaction, as has been recommended for modeling disordered solvated proteins, degrades the description of the liquid-vapor phase envelope."
+  },
+  {
+    "title": "Safe and Transparent Robots for Human-in-the-Loop Meat Processing",
+    "url": "http://arxiv.org/abs/2508.14763v1",
+    "arxiv_id": "2508.14763v1",
+    "authors": [
+      "Sagar Parekh",
+      "Casey Grothoff",
+      "Ryan Wright",
+      "Robin White",
+      "Dylan P. Losey"
+    ],
+    "published": "2025-08-20T15:10:01+00:00",
+    "summary": "Labor shortages have severely affected the meat processing sector. Automated technology has the potential to support the meat industry, assist workers, and enhance job quality. However, existing automation in meat processing is highly specialized, inflexible, and cost intensive. Instead of forcing manufacturers to buy a separate device for each step of the process, our objective is to develop general-purpose robotic systems that work alongside humans to perform multiple meat processing tasks. Through a recently conducted survey of industry experts, we identified two main challenges associated with integrating these collaborative robots alongside human workers. First, there must be measures to ensure the safety of human coworkers; second, the coworkers need to understand what the robot is doing. This paper addresses both challenges by introducing a safety and transparency framework for general-purpose meat processing robots. For safety, we implement a hand-detection system that continuously monitors nearby humans. This system can halt the robot in situations where the human comes into close proximity of the operating robot. We also develop an instrumented knife equipped with a force sensor that can differentiate contact between objects such as meat, bone, or fixtures. For transparency, we introduce a method that detects the robot's uncertainty about its performance and uses an LED interface to communicate that uncertainty to the human. Additionally, we design a graphical interface that displays the robot's plans and allows the human to provide feedback on the planned cut. Overall, our framework can ensure safe operation while keeping human workers in-the-loop about the robot's actions which we validate through a user study."
+  },
+  {
+    "title": "Distributional Adversarial Attacks and Training in Deep Hedging",
+    "url": "http://arxiv.org/abs/2508.14757v1",
+    "arxiv_id": "2508.14757v1",
+    "authors": [
+      "Guangyi He",
+      "Tobias Sutter",
+      "Lukas Gonon"
+    ],
+    "published": "2025-08-20T14:59:32+00:00",
+    "summary": "In this paper, we study the robustness of classical deep hedging strategies under distributional shifts by leveraging the concept of adversarial attacks. We first demonstrate that standard deep hedging models are highly vulnerable to small perturbations in the input distribution, resulting in significant performance degradation. Motivated by this, we propose an adversarial training framework tailored to increase the robustness of deep hedging strategies. Our approach extends pointwise adversarial attacks to the distributional setting and introduces a computationally tractable reformulation of the adversarial optimization problem over a Wasserstein ball. This enables the efficient training of hedging strategies that are resilient to distributional perturbations. Through extensive numerical experiments, we show that adversarially trained deep hedging strategies consistently outperform their classical counterparts in terms of out-of-sample performance and resilience to model misspecification. Our findings establish a practical and effective framework for robust deep hedging under realistic market uncertainties."
+  },
+  {
+    "title": "Consistent Pose Estimation of Unmanned Ground Vehicles through Terrain-Aided Multi-Sensor Fusion on Geometric Manifolds",
+    "url": "http://arxiv.org/abs/2508.14661v1",
+    "arxiv_id": "2508.14661v1",
+    "authors": [
+      "Alexander Raab",
+      "Stephan Weiss",
+      "Alessandro Fornasier",
+      "Christian Brommer",
+      "Abdalrahman Ibrahim"
+    ],
+    "published": "2025-08-20T12:24:45+00:00",
+    "summary": "Aiming to enhance the consistency and thus long-term accuracy of Extended Kalman Filters for terrestrial vehicle localization, this paper introduces the Manifold Error State Extended Kalman Filter (M-ESEKF). By representing the robot's pose in a space with reduced dimensionality, the approach ensures feasible estimates on generic smooth surfaces, without introducing artificial constraints or simplifications that may degrade a filter's performance. The accompanying measurement models are compatible with common loosely- and tightly-coupled sensor modalities and also implicitly account for the ground geometry. We extend the formulation by introducing a novel correction scheme that embeds additional domain knowledge into the sensor data, giving more accurate uncertainty approximations and further enhancing filter consistency. The proposed estimator is seamlessly integrated into a validated modular state estimation framework, demonstrating compatibility with existing implementations. Extensive Monte Carlo simulations across diverse scenarios and dynamic sensor configurations show that the M-ESEKF outperforms classical filter formulations in terms of consistency and stability. Moreover, it eliminates the need for scenario-specific parameter tuning, enabling its application in a variety of real-world settings."
+  },
+  {
+    "title": "Entropy-Constrained Strategy Optimization in Urban Floods: A Multi-Agent Framework with LLM and Knowledge Graph Integration",
+    "url": "http://arxiv.org/abs/2508.14654v1",
+    "arxiv_id": "2508.14654v1",
+    "authors": [
+      "Peilin Ji",
+      "Xiao Xue",
+      "Simeng Wang",
+      "Wenhao Yan"
+    ],
+    "published": "2025-08-20T12:13:03+00:00",
+    "summary": "In recent years, the increasing frequency of extreme urban rainfall events has posed significant challenges to emergency scheduling systems. Urban flooding often leads to severe traffic congestion and service disruptions, threatening public safety and mobility. However, effective decision making remains hindered by three key challenges: (1) managing trade-offs among competing goals (e.g., traffic flow, task completion, and risk mitigation) requires dynamic, context-aware strategies; (2) rapidly evolving environmental conditions render static rules inadequate; and (3) LLM-generated strategies frequently suffer from semantic instability and execution inconsistency. Existing methods fail to align perception, global optimization, and multi-agent coordination within a unified framework. To tackle these challenges, we introduce H-J, a hierarchical multi-agent framework that integrates knowledge-guided prompting, entropy-constrained generation, and feedback-driven optimization. The framework establishes a closed-loop pipeline spanning from multi-source perception to strategic execution and continuous refinement. We evaluate H-J on real-world urban topology and rainfall data under three representative conditions: extreme rainfall, intermittent bursts, and daily light rain. Experiments show that H-J outperforms rule-based and reinforcement-learning baselines in traffic smoothness, task success rate, and system robustness. These findings highlight the promise of uncertainty-aware, knowledge-constrained LLM-based approaches for enhancing resilience in urban flood response."
+  },
+  {
+    "title": "Experimental validation of universal filtering and smoothing for linear system identification using adaptive tuning",
+    "url": "http://arxiv.org/abs/2508.14629v1",
+    "arxiv_id": "2508.14629v1",
+    "authors": [
+      "Zihao Liu",
+      "Sima Abolghasemi",
+      "Mohsen Ebrahimzadeh Hassanabadi",
+      "Nicholas E. Wierschem",
+      "Daniel Dias-da-Costa"
+    ],
+    "published": "2025-08-20T11:31:37+00:00",
+    "summary": "In Kalman filtering, unknown inputs are often estimated by augmenting the state vector, which introduces reliance on fictitious input models. In contrast, minimum-variance unbiased methods estimate inputs and states separately, avoiding fictitious models but requiring strict sensor configurations, such as full-rank feedforward matrices or without direct feedthrough. To address these limitations, two universal approaches have been proposed to handle systems with or without direct feedthrough, including cases of rank-deficient feedforward matrices. Numerical studies have shown their robustness and applicability, however, they have so far relied on offline tuning, and performance under physical sensor noise and structural uncertainties has not yet been experimentally validated. Contributing to this gap, this paper experimentally validates the universal methods on a five-storey shear frame subjected to shake table tests and multi-impact events. Both typical and rank-deficient conditions are considered. Furthermore, a self-tuning mechanism is introduced to replace impractical offline tuning and enable real-time adaptability. The findings of this paper provide strong evidence of the robustness and adaptability of the methods for structural health monitoring applications, particularly when sensor networks deviate from ideal configurations."
+  },
+  {
+    "title": "A Simple and Scalable Kernel Density Approach for Reliable Uncertainty Quantification in Atomistic Machine Learning",
+    "url": "http://arxiv.org/abs/2508.14613v1",
+    "arxiv_id": "2508.14613v1",
+    "authors": [
+      "Daniel Willimetz",
+      "Luk\u00e1\u0161 Grajciar"
+    ],
+    "published": "2025-08-20T10:58:17+00:00",
+    "summary": "Machine learning models are increasingly used to predict material properties and accelerate atomistic simulations, but the reliability of their predictions depends on the representativeness of the training data. We present a scalable, GPU-accelerated uncertainty quantification framework based on $k$-nearest-neighbor kernel density estimation (KDE) in a PCA-reduced descriptor space. This method efficiently detects sparsely sampled regions in large, high-dimensional datasets and provides a transferable, model-agnostic uncertainty metric without requiring retraining costly model ensembles. The framework is validated across diverse case studies varying in: i) chemistry, ii) prediction models (including foundational neural network), iii) descriptors used for KDE estimation, and iv) properties whose uncertainty is sought. In all cases, the KDE-based score reliably flags extrapolative configurations, correlates well with conventional ensemble-based uncertainties, and highlights regions of reduced prediction trustworthiness. The approach offers a practical route for improving the interpretability, robustness, and deployment readiness of ML models in materials science."
+  },
+  {
+    "title": "Reliable Smoke Detection via Optical Flow-Guided Feature Fusion and Transformer-Based Uncertainty Modeling",
+    "url": "http://arxiv.org/abs/2508.14597v1",
+    "arxiv_id": "2508.14597v1",
+    "authors": [
+      "Nitish Kumar Mahala",
+      "Muzammil Khan",
+      "Pushpendra Kumar"
+    ],
+    "published": "2025-08-20T10:28:53+00:00",
+    "summary": "Fire outbreaks pose critical threats to human life and infrastructure, necessitating high-fidelity early-warning systems that detect combustion precursors such as smoke. However, smoke plumes exhibit complex spatiotemporal dynamics influenced by illumination variability, flow kinematics, and environmental noise, undermining the reliability of traditional detectors. To address these challenges without the logistical complexity of multi-sensor arrays, we propose an information-fusion framework by integrating smoke feature representations extracted from monocular imagery. Specifically, a Two-Phase Uncertainty-Aware Shifted Windows Transformer for robust and reliable smoke detection, leveraging a novel smoke segmentation dataset, constructed via optical flow-based motion encoding, is proposed. The optical flow estimation is performed with a four-color-theorem-inspired dual-phase level-set fractional-order variational model, which preserves motion discontinuities. The resulting color-encoded optical flow maps are fused with appearance cues via a Gaussian Mixture Model to generate binary segmentation masks of the smoke regions. These fused representations are fed into the novel Shifted-Windows Transformer, which is augmented with a multi-scale uncertainty estimation head and trained under a two-phase learning regimen. First learning phase optimizes smoke detection accuracy, while during the second phase, the model learns to estimate plausibility confidence in its predictions by jointly modeling aleatoric and epistemic uncertainties. Extensive experiments using multiple evaluation metrics and comparative analysis with state-of-the-art approaches demonstrate superior generalization and robustness, offering a reliable solution for early fire detection in surveillance, industrial safety, and autonomous monitoring applications."
+  },
+  {
     "title": "BLIPs: Bayesian Learned Interatomic Potentials",
     "url": "http://arxiv.org/abs/2508.14022v1",
     "arxiv_id": "2508.14022v1",
