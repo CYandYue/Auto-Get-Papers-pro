@@ -1,5 +1,147 @@
 [
   {
+    "title": "Bayesian Hierarchical Methods for Surveillance of Cervical Dystonia Treatments",
+    "url": "http://arxiv.org/abs/2508.15762v1",
+    "arxiv_id": "2508.15762v1",
+    "authors": [
+      "D. Baidoo",
+      "E. Kubuafor",
+      "S. F. Osarfo",
+      "F. A. Agyei-Owusu",
+      "J. A. Frimpong",
+      "R. Amevor",
+      "A. Duah",
+      "F. Aboagye"
+    ],
+    "published": "2025-08-21T17:56:36+00:00",
+    "summary": "Cervical dystonia, a debilitating neurological disorder marked by involuntary muscle contractions and chronic pain, presents significant treatment challenges despite advances in botulinum toxin therapy. While botulinum toxin type B has emerged as one of the leading treatments, comparative efficacy across doses and the influence of demographic factors for personalized medicine remain understudied. This study aimed to: (1) compare the efficacy of different botulinum toxin type B doses using Bayesian methods, (2) evaluate demographic and clinical factors affecting treatment response, and (3) establish a probabilistic framework for personalized cervical dystonia management. We analyzed data from a multicenter randomized controlled trial involving 109 patients assigned to placebo, 5,000 units, or 10,000 units of botulinum toxin type B groups. The primary outcome was the Toronto Western Spasmodic Torticollis Rating Scale measured over 16 weeks. Bayesian hierarchical modeling assessed treatment effects while accounting for patient heterogeneity. Lower botulinum toxin type B doses (5,000 units) showed greater overall Toronto Western Spasmodic Torticollis Rating Scale score reductions (treatment effect: -2.39, 95% Probability Interval: -4.10 to -0.70). Male patients demonstrated better responses (5.2% greater improvement) than female patients. Substantial between-patient variability and site-specific effects were observed, highlighting the need for personalized protocols. The study confirms botulinum toxin type B's dose-dependent efficacy while identifying key modifiable factors in treatment response. Bayesian methods provided nuanced insights into uncertainty and heterogeneity, paving the way for personalized medicine in cervical dystonia management."
+  },
+  {
+    "title": "Tutorial on the Probabilistic Unification of Estimation Theory, Machine Learning, and Generative AI",
+    "url": "http://arxiv.org/abs/2508.15719v1",
+    "arxiv_id": "2508.15719v1",
+    "authors": [
+      "Mohammed Elmusrati"
+    ],
+    "published": "2025-08-21T16:57:33+00:00",
+    "summary": "Extracting meaning from uncertain, noisy data is a fundamental problem across time series analysis, pattern recognition, and language modeling. This survey presents a unified mathematical framework that connects classical estimation theory, statistical inference, and modern machine learning, including deep learning and large language models. By analyzing how techniques such as maximum likelihood estimation, Bayesian inference, and attention mechanisms address uncertainty, the paper illustrates that many AI methods are rooted in shared probabilistic principles. Through illustrative scenarios including system identification, image classification, and language generation, we show how increasingly complex models build upon these foundations to tackle practical challenges like overfitting, data sparsity, and interpretability. In other words, the work demonstrates that maximum likelihood, MAP estimation, Bayesian classification, and deep learning all represent different facets of a shared goal: inferring hidden causes from noisy and/or biased observations. It serves as both a theoretical synthesis and a practical guide for students and researchers navigating the evolving landscape of machine learning."
+  },
+  {
+    "title": "CM2LoD3: Reconstructing LoD3 Building Models Using Semantic Conflict Maps",
+    "url": "http://arxiv.org/abs/2508.15672v1",
+    "arxiv_id": "2508.15672v1",
+    "authors": [
+      "Franz Hanke",
+      "Antonia Bieringer",
+      "Olaf Wysocki",
+      "Boris Jutzi"
+    ],
+    "published": "2025-08-21T15:54:13+00:00",
+    "summary": "Detailed 3D building models are crucial for urban planning, digital twins, and disaster management applications. While Level of Detail 1 (LoD)1 and LoD2 building models are widely available, they lack detailed facade elements essential for advanced urban analysis. In contrast, LoD3 models address this limitation by incorporating facade elements such as windows, doors, and underpasses. However, their generation has traditionally required manual modeling, making large-scale adoption challenging. In this contribution, CM2LoD3, we present a novel method for reconstructing LoD3 building models leveraging Conflict Maps (CMs) obtained from ray-to-model-prior analysis. Unlike previous works, we concentrate on semantically segmenting real-world CMs with synthetically generated CMs from our developed Semantic Conflict Map Generator (SCMG). We also observe that additional segmentation of textured models can be fused with CMs using confidence scores to further increase segmentation performance and thus increase 3D reconstruction accuracy. Experimental results demonstrate the effectiveness of our CM2LoD3 method in segmenting and reconstructing building openings, with the 61% performance with uncertainty-aware fusion of segmented building textures. This research contributes to the advancement of automated LoD3 model reconstruction, paving the way for scalable and efficient 3D city modeling. Our project is available: https://github.com/InFraHank/CM2LoD3"
+  },
+  {
+    "title": "Beyond the Nyquist frequency: Asteroseismic catalog of undersampled Kepler late subgiants and early red giants",
+    "url": "http://arxiv.org/abs/2508.15654v1",
+    "arxiv_id": "2508.15654v1",
+    "authors": [
+      "B. Liagre",
+      "R. A. Garc\u00eda",
+      "S. Mathur",
+      "M. H. Pinsonneault",
+      "A. Serenelli",
+      "J. C. Zinn",
+      "K. Cao",
+      "D. Godoy-Rivera",
+      "J. Tayar",
+      "P. G. Beck",
+      "D. H. Grossmann",
+      "D. B. Palakkatharappil"
+    ],
+    "published": "2025-08-21T15:42:51+00:00",
+    "summary": "Subgiants and early red giants are crucial for studying the first dredge-up, a key evolutionary phase where the convective envelope deepens, mixing previously interior-processed material and bringing it to the surface. Yet, very few have been seismically characterized with Kepler because their oscillation frequencies are close to the 30 minute sampling frequency of the mission. We developed a new method as part of the new PyA2Z code to identify super-Nyquist oscillators and infer their global seismic parameters, $\\nu_\\mathrm{max}$ and large separation, $\\Delta\\nu$. Applying PyA2Z to 2 065 Kepler targets, we seismically characterize 285 super-Nyquist and 168 close-to-Nyquist stars with masses from 0.8 to 1.6 M$_\\odot$. In combination with APOGEE spectroscopy, Gaia spectro-photometry, and stellar models, we derive stellar ages for the sample. There is good agreement between the predicted and actual positions of stars on the HR diagram (luminosity vs. effective temperature) as a function of mass and composition. While the timing of dredge-up is consistent with predictions, the magnitude and mass dependence show discrepancies with models, possibly due to uncertainties in model physics or calibration issues in observed abundance scales."
+  },
+  {
+    "title": "Understanding Action Effects through Instrumental Empowerment in Multi-Agent Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2508.15652v1",
+    "arxiv_id": "2508.15652v1",
+    "authors": [
+      "Ardian Selmonaj",
+      "Miroslav Strupl",
+      "Oleg Szehr",
+      "Alessandro Antonucci"
+    ],
+    "published": "2025-08-21T15:35:59+00:00",
+    "summary": "To reliably deploy Multi-Agent Reinforcement Learning (MARL) systems, it is crucial to understand individual agent behaviors within a team. While prior work typically evaluates overall team performance based on explicit reward signals or learned value functions, it is unclear how to infer agent contributions in the absence of any value feedback. In this work, we investigate whether meaningful insights into agent behaviors can be extracted that are consistent with the underlying value functions, solely by analyzing the policy distribution. Inspired by the phenomenon that intelligent agents tend to pursue convergent instrumental values, which generally increase the likelihood of task success, we introduce Intended Cooperation Values (ICVs), a method based on information-theoretic Shapley values for quantifying each agent's causal influence on their co-players' instrumental empowerment. Specifically, ICVs measure an agent's action effect on its teammates' policies by assessing their decision uncertainty and preference alignment. The analysis across cooperative and competitive MARL environments reveals the extent to which agents adopt similar or diverse strategies. By comparing action effects between policies and value functions, our method identifies which agent behaviors are beneficial to team success, either by fostering deterministic decisions or by preserving flexibility for future action choices. Our proposed method offers novel insights into cooperation dynamics and enhances explainability in MARL systems."
+  },
+  {
+    "title": "Label Uncertainty for Ultrasound Segmentation",
+    "url": "http://arxiv.org/abs/2508.15635v1",
+    "arxiv_id": "2508.15635v1",
+    "authors": [
+      "Malini Shivaram",
+      "Gautam Rajendrakumar Gare",
+      "Laura Hutchins",
+      "Jacob Duplantis",
+      "Thomas Deiss",
+      "Thales Nogueira Gomes",
+      "Thong Tran",
+      "Keyur H. Patel",
+      "Thomas H Fox",
+      "Amita Krishnan",
+      "Deva Ramanan",
+      "Bennett DeBoisblanc",
+      "Ricardo Rodriguez",
+      "John Galeotti"
+    ],
+    "published": "2025-08-21T15:00:21+00:00",
+    "summary": "In medical imaging, inter-observer variability among radiologists often introduces label uncertainty, particularly in modalities where visual interpretation is subjective. Lung ultrasound (LUS) is a prime example-it frequently presents a mixture of highly ambiguous regions and clearly discernible structures, making consistent annotation challenging even for experienced clinicians. In this work, we introduce a novel approach to both labeling and training AI models using expert-supplied, per-pixel confidence values. Rather than treating annotations as absolute ground truth, we design a data annotation protocol that captures the confidence that radiologists have in each labeled region, modeling the inherent aleatoric uncertainty present in real-world clinical data. We demonstrate that incorporating these confidence values during training leads to improved segmentation performance. More importantly, we show that this enhanced segmentation quality translates into better performance on downstream clinically-critical tasks-specifically, estimating S/F oxygenation ratio values, classifying S/F ratio change, and predicting 30-day patient readmission. While we empirically evaluate many methods for exposing the uncertainty to the learning model, we find that a simple approach that trains a model on binarized labels obtained with a (60%) confidence threshold works well. Importantly, high thresholds work far better than a naive approach of a 50% threshold, indicating that training on very confident pixels is far more effective. Our study systematically investigates the impact of training with varying confidence thresholds, comparing not only segmentation metrics but also downstream clinical outcomes. These results suggest that label confidence is a valuable signal that, when properly leveraged, can significantly enhance the reliability and clinical utility of AI in medical imaging."
+  },
+  {
+    "title": "A Dynamical Systems Framework for Reinforcement Learning Safety and Robustness Verification",
+    "url": "http://arxiv.org/abs/2508.15588v1",
+    "arxiv_id": "2508.15588v1",
+    "authors": [
+      "Ahmed Nasir",
+      "Abdelhafid Zenati"
+    ],
+    "published": "2025-08-21T14:00:26+00:00",
+    "summary": "The application of reinforcement learning to safety-critical systems is limited by the lack of formal methods for verifying the robustness and safety of learned policies. This paper introduces a novel framework that addresses this gap by analyzing the combination of an RL agent and its environment as a discrete-time autonomous dynamical system. By leveraging tools from dynamical systems theory, specifically the Finite-Time Lyapunov Exponent (FTLE), we identify and visualize Lagrangian Coherent Structures (LCS) that act as the hidden \"skeleton\" governing the system's behavior. We demonstrate that repelling LCS function as safety barriers around unsafe regions, while attracting LCS reveal the system's convergence properties and potential failure modes, such as unintended \"trap\" states. To move beyond qualitative visualization, we introduce a suite of quantitative metrics, Mean Boundary Repulsion (MBR), Aggregated Spurious Attractor Strength (ASAS), and Temporally-Aware Spurious Attractor Strength (TASAS), to formally measure a policy's safety margin and robustness. We further provide a method for deriving local stability guarantees and extend the analysis to handle model uncertainty. Through experiments in both discrete and continuous control environments, we show that this framework provides a comprehensive and interpretable assessment of policy behavior, successfully identifying critical flaws in policies that appear successful based on reward alone."
+  },
+  {
+    "title": "LoUQAL: Low-fidelity informed Uncertainty Quantification for Active Learning in the chemical configuration space",
+    "url": "http://arxiv.org/abs/2508.15577v1",
+    "arxiv_id": "2508.15577v1",
+    "authors": [
+      "Vivin Vinod",
+      "Peter Zaspel"
+    ],
+    "published": "2025-08-21T13:51:45+00:00",
+    "summary": "Uncertainty quantification is an important scheme in active learning techniques, including applications in predicting quantum chemical properties. In quantum chemical calculations, there exists the notion of a fidelity, a less accurate computation is accessible at a cheaper computational cost. This work proposes a novel low-fidelity informed uncertainty quantification for active learning with applications in predicting diverse quantum chemical properties such as excitation energies and \\textit{ab initio} potential energy surfaces. Computational experiments are carried out in order to assess the proposed method with results demonstrating that models trained with the novel method outperform alternatives in terms of empirical error and number of iterations required. The effect of the choice of fidelity is also studied to perform a thorough benchmark."
+  },
+  {
+    "title": "Conformalized Exceptional Model Mining: Telling Where Your Model Performs (Not) Well",
+    "url": "http://arxiv.org/abs/2508.15569v1",
+    "arxiv_id": "2508.15569v1",
+    "authors": [
+      "Xin Du",
+      "Sikun Yang",
+      "Wouter Duivesteijn",
+      "Mykola Pechenizkiy"
+    ],
+    "published": "2025-08-21T13:43:14+00:00",
+    "summary": "Understanding the nuanced performance of machine learning models is essential for responsible deployment, especially in high-stakes domains like healthcare and finance. This paper introduces a novel framework, Conformalized Exceptional Model Mining, which combines the rigor of Conformal Prediction with the explanatory power of Exceptional Model Mining (EMM). The proposed framework identifies cohesive subgroups within data where model performance deviates exceptionally, highlighting regions of both high confidence and high uncertainty. We develop a new model class, mSMoPE (multiplex Soft Model Performance Evaluation), which quantifies uncertainty through conformal prediction's rigorous coverage guarantees. By defining a new quality measure, Relative Average Uncertainty Loss (RAUL), our framework isolates subgroups with exceptional performance patterns in multi-class classification and regression tasks. Experimental results across diverse datasets demonstrate the framework's effectiveness in uncovering interpretable subgroups that provide critical insights into model behavior. This work lays the groundwork for enhancing model interpretability and reliability, advancing the state-of-the-art in explainable AI and uncertainty quantification."
+  },
+  {
+    "title": "Uncertainty Relation for the Wigner-Yanase Skew Information and Quantum Sobolev Inequalities",
+    "url": "http://arxiv.org/abs/2508.15554v1",
+    "arxiv_id": "2508.15554v1",
+    "authors": [
+      "Laurent Lafleche"
+    ],
+    "published": "2025-08-21T13:35:12+00:00",
+    "summary": "This note explores uncertainty inequalities for quantum analogues of the Fisher information including the Wigner-Yanase skew information, and their connection to the quantum Sobolev inequalities proved by the author in [Journal of Functional Analysis, 286 (10) 2024]. Some additional inequalities concerning commutators are derived and others are left as open problems."
+  },
+  {
     "title": "Squeezed Diffusion Models",
     "url": "http://arxiv.org/abs/2508.14871v1",
     "arxiv_id": "2508.14871v1",
