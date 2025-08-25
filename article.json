@@ -1,5 +1,150 @@
 [
   {
+    "title": "A Disease-Centric Vision-Language Foundation Model for Precision Oncology in Kidney Cancer",
+    "url": "http://arxiv.org/abs/2508.16569v1",
+    "arxiv_id": "2508.16569v1",
+    "authors": [
+      "Yuhui Tao",
+      "Zhongwei Zhao",
+      "Zilong Wang",
+      "Xufang Luo",
+      "Feng Chen",
+      "Kang Wang",
+      "Chuanfu Wu",
+      "Xue Zhang",
+      "Shaoting Zhang",
+      "Jiaxi Yao",
+      "Xingwei Jin",
+      "Xinyang Jiang",
+      "Yifan Yang",
+      "Dongsheng Li",
+      "Lili Qiu",
+      "Zhiqiang Shao",
+      "Jianming Guo",
+      "Nengwang Yu",
+      "Shuo Wang",
+      "Ying Xiong"
+    ],
+    "published": "2025-08-22T17:48:19+00:00",
+    "summary": "The non-invasive assessment of increasingly incidentally discovered renal masses is a critical challenge in urologic oncology, where diagnostic uncertainty frequently leads to the overtreatment of benign or indolent tumors. In this study, we developed and validated RenalCLIP using a dataset of 27,866 CT scans from 8,809 patients across nine Chinese medical centers and the public TCIA cohort, a visual-language foundation model for characterization, diagnosis and prognosis of renal mass. The model was developed via a two-stage pre-training strategy that first enhances the image and text encoders with domain-specific knowledge before aligning them through a contrastive learning objective, to create robust representations for superior generalization and diagnostic precision. RenalCLIP achieved better performance and superior generalizability across 10 core tasks spanning the full clinical workflow of kidney cancer, including anatomical assessment, diagnostic classification, and survival prediction, compared with other state-of-the-art general-purpose CT foundation models. Especially, for complicated task like recurrence-free survival prediction in the TCIA cohort, RenalCLIP achieved a C-index of 0.726, representing a substantial improvement of approximately 20% over the leading baselines. Furthermore, RenalCLIP's pre-training imparted remarkable data efficiency; in the diagnostic classification task, it only needs 20% training data to achieve the peak performance of all baseline models even after they were fully fine-tuned on 100% of the data. Additionally, it achieved superior performance in report generation, image-text retrieval and zero-shot diagnosis tasks. Our findings establish that RenalCLIP provides a robust tool with the potential to enhance diagnostic accuracy, refine prognostic stratification, and personalize the management of patients with kidney cancer."
+  },
+  {
+    "title": "Exploring null-entropy events: What do we learn when nothing happens?",
+    "url": "http://arxiv.org/abs/2508.16528v1",
+    "arxiv_id": "2508.16528v1",
+    "authors": [
+      "Abhaya S. Hegde",
+      "Andr\u00e9 M. Timpanaro",
+      "Gabriel T. Landi"
+    ],
+    "published": "2025-08-22T16:50:57+00:00",
+    "summary": "Fluctuation theorems establish that thermodynamic processes at the microscale can occasionally result in negative entropy production. At the microscale, another distinct possibility becomes more likely: processes where no entropy is produced overall. In this work, we explore the constraints imposed by such null-entropy events on the fluctuations of thermodynamic currents. By incorporating the probability of null-entropy events, we obtain tighter bounds on finite-time thermodynamic uncertainty relations derived from fluctuation theorems. We validate this framework using an example of a qudit SWAP engine."
+  },
+  {
+    "title": "Identifying Treatment Effect Heterogeneity with Bayesian Hierarchical Adjustable Random Partition in Adaptive Enrichment Trials",
+    "url": "http://arxiv.org/abs/2508.16523v1",
+    "arxiv_id": "2508.16523v1",
+    "authors": [
+      "Xianglin Zhao",
+      "Shirin Golchi",
+      "Jean-Philippe Gouin",
+      "Kaberi Dasgupta"
+    ],
+    "published": "2025-08-22T16:45:43+00:00",
+    "summary": "Treatment effect heterogeneity refers to the systematic variation in treatment effects across subgroups. There is an increasing need for clinical trials that aim to investigate treatment effect heterogeneity and estimate subgroup-specific responses. While several statistical methods have been proposed to address this problem, existing partitioning-based methods often depend on auxiliary analysis, overlook model uncertainty, or impose inflexible borrowing strength. We propose the Bayesian Hierarchical Adjustable Random Partition (BHARP) model, a self-contained framework that applies a finite mixture model with an unknown number of components to explore the partition space accounting for model uncertainty. The BHARP model jointly estimates subgroup-specific effects and the heterogeneity patterns, and adjusts the borrowing strengths based on within-cluster cohesion without requiring manual calibration. Posterior sampling is performed via a custom reversible-jump Markov chain Monte Carlo sampler tailored to partitioning-based information borrowing in clinical trials. Simulation studies across a range of treatment effect heterogeneity patterns show that the BHARP model achieves better accuracy and precision compared to conventional and advanced methods. We showcase the utilities of the BHARP model in the context of a multi-arm adaptive enrichment trial investigating physical activity interventions in patients with type 2 diabetes."
+  },
+  {
+    "title": "Uncertainty Quantification and Propagation for ACORN, a geometric deep learning tracking pipeline for HEP experiments",
+    "url": "http://arxiv.org/abs/2508.16518v1",
+    "arxiv_id": "2508.16518v1",
+    "authors": [
+      "Lukas P\u00e9ron",
+      "Paolo Calafiura",
+      "Xiangyang Ju",
+      "Jay Chan"
+    ],
+    "published": "2025-08-22T16:40:42+00:00",
+    "summary": "We have developed an Uncertainty Quantification process for multistep pipelines and applied it to the ACORN particle tracking pipeline. All our experiments are made using the TrackML open dataset. Using the Monte Carlo Dropout method, we measure the data and model uncertainties of the pipeline steps, study how they propagate down the pipeline, and how they are impacted by the training dataset's size, the input data's geometry and physical properties. We will show that for our case study, as the training dataset grows, the overall uncertainty becomes dominated by aleatoric uncertainty, indicating that we had sufficient data to train the ACORN model we chose to its full potential. We show that the ACORN pipeline yields high confidence in the track reconstruction and does not suffer from the miscalibration of the GNN model."
+  },
+  {
+    "title": "Ensembles of Neural Surrogates for Parametric Sensitivity in Ocean Modeling",
+    "url": "http://arxiv.org/abs/2508.16489v1",
+    "arxiv_id": "2508.16489v1",
+    "authors": [
+      "Yixuan Sun",
+      "Romain Egele",
+      "Sri Hari Krishna Narayana",
+      "Luke Van Roekel",
+      "Carmelo Gonzales",
+      "Steven Brus",
+      "Balu Nadiga",
+      "Sandeep Madireddy",
+      "Prasanna Balaprakash"
+    ],
+    "published": "2025-08-22T16:12:04+00:00",
+    "summary": "Accurate simulations of the oceans are crucial in understanding the Earth system. Despite their efficiency, simulations at lower resolutions must rely on various uncertain parameterizations to account for unresolved processes. However, model sensitivity to parameterizations is difficult to quantify, making it challenging to tune these parameterizations to reproduce observations. Deep learning surrogates have shown promise for efficient computation of the parametric sensitivities in the form of partial derivatives, but their reliability is difficult to evaluate without ground truth derivatives. In this work, we leverage large-scale hyperparameter search and ensemble learning to improve both forward predictions, autoregressive rollout, and backward adjoint sensitivity estimation. Particularly, the ensemble method provides epistemic uncertainty of function value predictions and their derivatives, providing improved reliability of the neural surrogates in decision making."
+  },
+  {
+    "title": "NOSTRA: A noise-resilient and sparse data framework for trust region based multi objective Bayesian optimization",
+    "url": "http://arxiv.org/abs/2508.16476v1",
+    "arxiv_id": "2508.16476v1",
+    "authors": [
+      "Maryam Ghasemzadeh",
+      "Anton van Beek"
+    ],
+    "published": "2025-08-22T15:43:01+00:00",
+    "summary": "Multi-objective Bayesian optimization (MOBO) struggles with sparse (non-space-filling), scarce (limited observations) datasets affected by experimental uncertainty, where identical inputs can yield varying outputs. These challenges are common in physical and simulation experiments (e.g., randomized medical trials and, molecular dynamics simulations) and are therefore incompatible with conventional MOBO methods. As a result, experimental resources are inefficiently allocated, leading to suboptimal designs. To address this challenge, we introduce NOSTRA (Noisy and Sparse Data Trust Region-based Optimization Algorithm), a novel sampling framework that integrates prior knowledge of experimental uncertainty to construct more accurate surrogate models while employing trust regions to focus sampling on promising areas of the design space. By strategically leveraging prior information and refining search regions, NOSTRA accelerates convergence to the Pareto frontier, enhances data efficiency, and improves solution quality. Through two test functions with varying levels of experimental uncertainty, we demonstrate that NOSTRA outperforms existing methods in handling noisy, sparse, and scarce data. Specifically, we illustrate that, NOSTRA effectively prioritizes regions where samples enhance the accuracy of the identified Pareto frontier, offering a resource-efficient algorithm that is practical in scenarios with limited experimental budgets while ensuring efficient performance."
+  },
+  {
+    "title": "Scalable Bayesian inference on high-dimensional multivariate linear regression",
+    "url": "http://arxiv.org/abs/2508.16446v1",
+    "arxiv_id": "2508.16446v1",
+    "authors": [
+      "Xuan Cao",
+      "Kyoungjae Lee"
+    ],
+    "published": "2025-08-22T15:01:03+00:00",
+    "summary": "We consider jointly estimating the coefficient matrix and the error precision matrix in high-dimensional multivariate linear regression models. Bayesian methods in this context often face computational challenges, leading to previous approaches that either utilize a generalized likelihood without ensuring the positive definiteness of the precision matrix or rely on maximization algorithms targeting only the posterior mode, thus failing to address uncertainty. In this work, we propose two Bayesian methods: an exact method and an approximate two-step method. We first propose an exact method based on spike and slab priors for the coefficient matrix and DAG-Wishart prior for the error precision matrix, whose computational complexity is comparable to the state-of-the-art generalized likelihood-based Bayesian method. To further enhance scalability, a two-step approach is developed by ignoring the dependency structure among response variables. This method estimates the coefficient matrix first, followed by the calculation of the posterior of the error precision matrix based on the estimated errors. We validate the two-step method by demonstrating (i) selection consistency and posterior convergence rates for the coefficient matrix and (ii) selection consistency for the directed acyclic graph (DAG) of errors. We demonstrate the practical performance of proposed methods through synthetic and real data analysis."
+  },
+  {
+    "title": "Dynamic Financial Analysis (DFA) of General Insurers under Climate Change",
+    "url": "http://arxiv.org/abs/2508.16444v1",
+    "arxiv_id": "2508.16444v1",
+    "authors": [
+      "Benjamin Avanzi",
+      "Yanfeng Li",
+      "Greg Taylor",
+      "Bernard Wong"
+    ],
+    "published": "2025-08-22T14:58:39+00:00",
+    "summary": "Climate change is expected to significantly affect the physical, financial, and economic environments over the long term, posing risks to the financial health of general insurers. While general insurers typically use Dynamic Financial Analysis (DFA) for a comprehensive view of financial impacts, traditional DFA as presented in the literature does not consider the impact of climate change. To address this gap, we introduce a climate-dependent DFA approach that integrates climate risk into DFA, providing a holistic assessment of the long-term impact of climate change on the general insurance industry. The proposed framework has three key features. First, it captures the long-term impact of climate change on the assets and liabilities of general insurers by considering both physical and economic dimensions across different climate scenarios within an interconnected structure. Second, it addresses the uncertainty of climate change impacts using stochastic simulations within climate scenario analysis that are useful for actuarial applications. Finally, the framework is tailored to the general insurance sector by addressing its unique characteristics. To demonstrate the practical application of our model, we conduct an extensive empirical study using Australian data to assess the long-term financial impact of climate change on the general insurance market under various climate scenarios. The results show that the interaction between economic growth and physical risk plays a key role in shaping general insurers' risk-return profiles. Limitations of our framework are thoroughly discussed."
+  },
+  {
+    "title": "Cost-optimized replacement strategies for water electrolysis systems affected by degradation",
+    "url": "http://arxiv.org/abs/2508.16370v1",
+    "arxiv_id": "2508.16370v1",
+    "authors": [
+      "Marie Arnold",
+      "Jonathan Brandt",
+      "Geert Tjarks",
+      "Anna Vanselow",
+      "Richard Hanke-Rauschenbach"
+    ],
+    "published": "2025-08-22T13:24:53+00:00",
+    "summary": "A key factor in reducing the cost of green hydrogen production projects using water electrolysis systems is to minimize the degradation of the electrolyzer stacks, as this impacts the lifetime of the stacks and therefore the frequency of their replacement. To create a better understanding of the economics of stack degradation, we present a linear optimization approach minimizing the costs of a green hydrogen supply chain including an electrolyzer with degradation modeling. By calculating the levelized cost of hydrogen depending on a variable degradation threshold, the cost optimal time for stack replacement can be identified. We further study how this optimal time of replacement is affected by uncertainties such as the degradation scale, the load-dependency of both degradation and energy demand, and the costs of the electrolyzer. The variation of the identified major uncertainty degradation scale results in a difference of up to 9 years regarding the cost optimal time for stack replacement, respectively lifetime of the stacks. Therefore, a better understanding of the degradation impact is imperative for project cost reductions, which in turn would support a proceeding hydrogen market ramp-up."
+  },
+  {
+    "title": "Attenuation Models for Extensive Air Showers Derived from Simulations",
+    "url": "http://arxiv.org/abs/2508.16360v1",
+    "arxiv_id": "2508.16360v1",
+    "authors": [
+      "Fiona Ellwanger",
+      "Darko Veberi\u010d"
+    ],
+    "published": "2025-08-22T13:08:20+00:00",
+    "summary": "At ultra-high energies, the flux of cosmic rays is too low for direct measurements to be meaningful. When a cosmic ray enters the atmosphere, it initiates an extensive air shower, producing a cascade of secondary particles that propagate toward the ground. Large arrays of surface detectors are used to measure these secondary particles upon arrival.   The signal detected at a specific reference distance from the shower core serves as a proxy for the shower size and, consequently, as a reliable estimator of the energy of primary cosmic ray. However, shower development is influenced by attenuation effects: measured signals at the ground depend on the amount of traversed atmospheric density (column density) through which the shower evolves. Since the column density varies with the inclination of the shower, it is important to account for these attenuation effects to ensure accurate energy estimation.   In this study, we derive physics-and-geometry-based functional forms to describe attenuation and propose appropriate expansion terms using simple one-dimensional shower-development models, incorporating one or two main particle-cascade components. We then evaluate the applicability and effectiveness of these functional forms using a Monte-Carlo dataset that includes various primary cosmic-ray particles. By directly calibrating the the shower size derived from ground signals to the Monte-Carlo energy, we characterize attenuation behavior across different primary particles, assess the energy dependence of attenuation, and quantify systematic uncertainties introduced by different functional forms."
+  },
+  {
     "title": "Bayesian Hierarchical Methods for Surveillance of Cervical Dystonia Treatments",
     "url": "http://arxiv.org/abs/2508.15762v1",
     "arxiv_id": "2508.15762v1",
