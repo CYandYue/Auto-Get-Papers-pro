@@ -1,5 +1,137 @@
 [
   {
+    "title": "Sequential Fair Allocation With Replenishments: A Little Envy Goes An Exponentially Long Way",
+    "url": "http://arxiv.org/abs/2508.21753v1",
+    "arxiv_id": "2508.21753v1",
+    "authors": [
+      "Chido Onyeze",
+      "Sean R. Sinclair",
+      "Chamsi Hssaine",
+      "Siddhartha Banerjee"
+    ],
+    "published": "2025-08-29T16:28:09+00:00",
+    "summary": "We study the trade-off between envy and inefficiency in repeated resource allocation settings with stochastic replenishments, motivated by real-world systems such as food banks and medical supply chains. Specifically, we consider a model in which a decision-maker faced with stochastic demand and resource donations must trade off between an equitable and efficient allocation of resources over an infinite horizon. The decision-maker has access to storage with fixed capacity $M$, and incurs efficiency losses when storage is empty (stockouts) or full (overflows). We provide a nearly tight (up to constant factors) characterization of achievable envy-inefficiency pairs. Namely, we introduce a class of Bang-Bang control policies whose inefficiency exhibits a sharp phase transition, dropping from $\\Theta(1/M)$ when $\\Delta = 0$ to $e^{-\\Omega(\\Delta M)}$ when $\\Delta > 0$, where $\\Delta$ is used to denote the target envy of the policy. We complement this with matching lower bounds, demonstrating that the trade-off is driven by supply, as opposed to demand uncertainty. Our results demonstrate that envy-inefficiency trade-offs not only persist in settings with dynamic replenishment, but are shaped by the decision-maker's available capacity, and are therefore qualitatively different compared to previously studied settings with fixed supply."
+  },
+  {
+    "title": "Uncertainties within Weather Regime definitions for the Euro-Atlantic sector in ERA5 and CMIP6",
+    "url": "http://arxiv.org/abs/2508.21701v1",
+    "arxiv_id": "2508.21701v1",
+    "authors": [
+      "Lotte Hompes",
+      "Swinda K. J. Falkena",
+      "Laurens P. Stoop"
+    ],
+    "published": "2025-08-29T15:12:48+00:00",
+    "summary": "Certain Weather Regimes (WR) are associated with a higher risk of energy shortages, i.e. Blocking regimes for European winters. However, there are many uncertainties tied to the implementation of WRs and associated risks in the energy sector. Especially the impact of climate change is unknown.   We investigate these uncertainties by looking at three methodologically diverse Euro-Atlantic WR definitions. We carry out a thorough validation of these methods and analyse their methodological and spatio-temporal sensitivity using ERA5 data. Furthermore, we look into the suitability of CMIP6 models for WR based impact assessments.   Our sensitivity assessment showed that the persistence and occurrence of regimes are sensitive to small changes in the methodology. We show that the training period used has a very significant impact on the persistence and occurrence of the regimes found. For both WR4 and WR7, this results in instability of the regime patterns.   All CMIP6 models investigated show instability of the regimes. Meaning that the normalised distance between the CMIP6 model regimes and our baseline regimes exceeds 0.4 or are visually extremely dissimilar. Only the WR4 regimes clustered on historical CMIP6 model data consistently have a normalised distance to our baseline regimes smaller than 0.4 and are visually identifiable. The WR6 definition exceeds the normalised distance threshold for all investigated CMIP6 experiments. Though all CMIP6 model experiments clustered with the WR7 definition have a normalised distance to the baseline regimes below 0.4, visual inspection of the regimes indicates instability.   Great caution should be taken when applying WR's in impact models for the energy sector, due to this large instability and uncertainties associated with WR definitions."
+  },
+  {
+    "title": "Chance-Constrained DC Optimal Power Flow Using Constraint-Informed Statistical Estimation",
+    "url": "http://arxiv.org/abs/2508.21687v1",
+    "arxiv_id": "2508.21687v1",
+    "authors": [
+      "Tianyang Yi",
+      "D. Adrian Maldonado",
+      "Anirudh Subramanyam"
+    ],
+    "published": "2025-08-29T14:54:05+00:00",
+    "summary": "Chance-constrained optimization has emerged as a promising framework for managing uncertainties in power systems. This work advances its application to the DC Optimal Power Flow (DC-OPF) model, developing a novel approach to uncertainty modeling and estimation. Current methods typically tackle these problems by first modeling random nodal injections using high-dimensional statistical distributions that scale with the number of buses, followed by deriving deterministic reformulations of the probabilistic constraints. We propose an alternative methodology that exploits the constraint structure to inform the uncertainties to be estimated, enabling significant dimensionality reduction. Rather than learning joint distributions of net-load forecast errors across units, we instead directly model the one-dimensional aggregate system forecast error and two-dimensional line errors weighted by power transfer distribution factors. We evaluate our approach under both Gaussian and non-Gaussian distributions on synthetic and real-world datasets, demonstrating significant improvements in statistical accuracy and optimization performance compared to existing methods."
+  },
+  {
+    "title": "Robust Convex Model Predictive Control with collision avoidance guarantees for robot manipulators",
+    "url": "http://arxiv.org/abs/2508.21677v1",
+    "arxiv_id": "2508.21677v1",
+    "authors": [
+      "Bernhard Wullt",
+      "Johannes K\u00f6hler",
+      "Per Mattsson",
+      "Mikeal Norrl\u00f6f",
+      "Thomas B. Sch\u00f6n"
+    ],
+    "published": "2025-08-29T14:45:54+00:00",
+    "summary": "Industrial manipulators are normally operated in cluttered environments, making safe motion planning important. Furthermore, the presence of model-uncertainties make safe motion planning more difficult. Therefore, in practice the speed is limited in order to reduce the effect of disturbances. There is a need for control methods that can guarantee safe motions that can be executed fast. We address this need by suggesting a novel model predictive control (MPC) solution for manipulators, where our two main components are a robust tube MPC and a corridor planning algorithm to obtain collision-free motion. Our solution results in a convex MPC, which we can solve fast, making our method practically useful. We demonstrate the efficacy of our method in a simulated environment with a 6 DOF industrial robot operating in cluttered environments with uncertainties in model parameters. We outperform benchmark methods, both in terms of being able to work under higher levels of model uncertainties, while also yielding faster motion."
+  },
+  {
+    "title": "Leveraging Imperfection with MEDLEY A Multi-Model Approach Harnessing Bias in Medical AI",
+    "url": "http://arxiv.org/abs/2508.21648v1",
+    "arxiv_id": "2508.21648v1",
+    "authors": [
+      "Farhad Abtahi",
+      "Mehdi Astaraki",
+      "Fernando Seoane"
+    ],
+    "published": "2025-08-29T14:12:03+00:00",
+    "summary": "Bias in medical artificial intelligence is conventionally viewed as a defect requiring elimination. However, human reasoning inherently incorporates biases shaped by education, culture, and experience, suggesting their presence may be inevitable and potentially valuable. We propose MEDLEY (Medical Ensemble Diagnostic system with Leveraged diversitY), a conceptual framework that orchestrates multiple AI models while preserving their diverse outputs rather than collapsing them into a consensus. Unlike traditional approaches that suppress disagreement, MEDLEY documents model-specific biases as potential strengths and treats hallucinations as provisional hypotheses for clinician verification. A proof-of-concept demonstrator was developed using over 30 large language models, creating a minimum viable product that preserved both consensus and minority views in synthetic cases, making diagnostic uncertainty and latent biases transparent for clinical oversight. While not yet a validated clinical tool, the demonstration illustrates how structured diversity can enhance medical reasoning under clinician supervision. By reframing AI imperfection as a resource, MEDLEY offers a paradigm shift that opens new regulatory, ethical, and innovation pathways for developing trustworthy medical AI systems."
+  },
+  {
+    "title": "Introduction to the Analysis of Probabilistic Decision-Making Algorithms",
+    "url": "http://arxiv.org/abs/2508.21620v1",
+    "arxiv_id": "2508.21620v1",
+    "authors": [
+      "Agustinus Kristiadi"
+    ],
+    "published": "2025-08-29T13:33:23+00:00",
+    "summary": "Decision theories offer principled methods for making choices under various types of uncertainty. Algorithms that implement these theories have been successfully applied to a wide range of real-world problems, including materials and drug discovery. Indeed, they are desirable since they can adaptively gather information to make better decisions in the future, resulting in data-efficient workflows. In scientific discovery, where experiments are costly, these algorithms can thus significantly reduce the cost of experimentation. Theoretical analyses of these algorithms are crucial for understanding their behavior and providing valuable insights for developing next-generation algorithms. However, theoretical analyses in the literature are often inaccessible to non-experts. This monograph aims to provide an accessible, self-contained introduction to the theoretical analysis of commonly used probabilistic decision-making algorithms, including bandit algorithms, Bayesian optimization, and tree search algorithms. Only basic knowledge of probability theory and statistics, along with some elementary knowledge about Gaussian processes, is assumed."
+  },
+  {
+    "title": "Universal Precision Limits in General Open Quantum Systems",
+    "url": "http://arxiv.org/abs/2508.21567v1",
+    "arxiv_id": "2508.21567v1",
+    "authors": [
+      "Tan Van Vu",
+      "Ryotaro Honma",
+      "Keiji Saito"
+    ],
+    "published": "2025-08-29T12:22:14+00:00",
+    "summary": "The intuition that the precision of observables is constrained by thermodynamic costs has recently been formalized through thermodynamic and kinetic uncertainty relations. While such trade-offs have been extensively studied in Markovian systems, corresponding constraints in the non-Markovian regime remain largely unexplored. In this Letter, we derive universal bounds on the precision of generic observables in open quantum systems coupled to environments of arbitrary strength and subjected to two-point measurements. By introducing an asymmetry term that quantifies the disparity between forward and backward processes, we show that the relative fluctuation of any time-antisymmetric current is constrained by both entropy production and this forward-backward asymmetry. For general observables, we prove that their relative fluctuation is always bounded from below by a generalized activity term. These results establish a comprehensive framework for understanding precision limits in broad classes of general open quantum systems."
+  },
+  {
+    "title": "Nuclear suppression in diffractive vector meson production within the color glass condensate framework",
+    "url": "http://arxiv.org/abs/2508.21562v1",
+    "arxiv_id": "2508.21562v1",
+    "authors": [
+      "Heikki M\u00e4ntysaari",
+      "Hendrik Roch",
+      "Farid Salazar",
+      "Bj\u00f6rn Schenke",
+      "Chun Shen",
+      "Wenbin Zhao"
+    ],
+    "published": "2025-08-29T12:16:27+00:00",
+    "summary": "We perform a global Bayesian analysis of diffractive $\\mathrm{J}/\\psi$ production in $\\gamma+p$ and $\\gamma+\\mathrm{Pb}$ collisions within a Color Glass Condensate based framework. Using data from HERA and the LHC, we find that a simultaneous description of $\\gamma+p$ and $\\gamma+\\mathrm{Pb}$ observables is challenging. Introducing a global $K$-factor to account for theoretical uncertainties improves the agreement with data and enhances the framework's predictive power. We present predictions for integrated $\\mathrm{J}/\\psi$ cross sections at different photon-nucleus energies and study their $A$-dependence relative to a no-saturation baseline, quantifying nuclear suppression and providing insights into the onset of saturation effects."
+  },
+  {
+    "title": "EZ-Sort: Efficient Pairwise Comparison via Zero-Shot CLIP-Based Pre-Ordering and Human-in-the-Loop Sorting",
+    "url": "http://arxiv.org/abs/2508.21550v1",
+    "arxiv_id": "2508.21550v1",
+    "authors": [
+      "Yujin Park",
+      "Haejun Chung",
+      "Ikbeom Jang"
+    ],
+    "published": "2025-08-29T12:06:49+00:00",
+    "summary": "Pairwise comparison is often favored over absolute rating or ordinal classification in subjective or difficult annotation tasks due to its improved reliability. However, exhaustive comparisons require a massive number of annotations (O(n^2)). Recent work has greatly reduced the annotation burden (O(n log n)) by actively sampling pairwise comparisons using a sorting algorithm. We further improve annotation efficiency by (1) roughly pre-ordering items using the Contrastive Language-Image Pre-training (CLIP) model hierarchically without training, and (2) replacing easy, obvious human comparisons with automated comparisons. The proposed EZ-Sort first produces a CLIP-based zero-shot pre-ordering, then initializes bucket-aware Elo scores, and finally runs an uncertainty-guided human-in-the-loop MergeSort. Validation was conducted using various datasets: face-age estimation (FGNET), historical image chronology (DHCI), and retinal image quality assessment (EyePACS). It showed that EZ-Sort reduced human annotation cost by 90.5% compared to exhaustive pairwise comparisons and by 19.8% compared to prior work (when n = 100), while improving or maintaining inter-rater reliability. These results demonstrate that combining CLIP-based priors with uncertainty-aware sampling yields an efficient and scalable solution for pairwise ranking."
+  },
+  {
+    "title": "Adaptive extended Kalman filter and laser link acquisition in the detection of gravitational waves in space",
+    "url": "http://arxiv.org/abs/2508.21538v1",
+    "arxiv_id": "2508.21538v1",
+    "authors": [
+      "Jinke Yang",
+      "Yong Xie",
+      "Yidi Fan",
+      "Pengcheng Wang",
+      "Xindong Liang",
+      "Haojie Li",
+      "Xue Wang",
+      "Zhao Cui",
+      "Jianjun Jia",
+      "Yucheng Tang",
+      "Yun Kau Lau"
+    ],
+    "published": "2025-08-29T11:48:21+00:00",
+    "summary": "An alternative, new laser link acquisition scheme for the triangular constellation of spacecraft (SCs) in deep space in the detection of gravitational waves is considered. In place of a wide field CCD camera in the initial stage of laser link acquisition adopted in the conventional scheme, an extended Kalman filter based on precision orbit determination is incorporated in the point ahead angle mechanism (PAAM) to steer the laser beam in such a way to narrow the uncertainty cone and at the same time avoids the heating problem generated by the CCD camera.A quadrant photodetector (QPD) based on the Differential Power Sensing (DPS) technique, which offers a higher dynamic range than differential wavefront sensing (DWS), is employed as the readout of the laser beam spot. The conventional two stages (coarse acquisition and fine acquisition) are integrated into a single control loop. The payload structure of the ATP control loop is simplified and numerical simulations, based on a colored measurement noise model that closely mimics the prospective on-orbit conditions, demonstrate that the AEKF significantly reduces the initial uncertainty region by predicting the point ahead angle (PAA) even when the worst case scenario in SC position (navigation) error is considered."
+  },
+  {
     "title": "Rapid Mismatch Estimation via Neural Network Informed Variational Inference",
     "url": "http://arxiv.org/abs/2508.21007v1",
     "arxiv_id": "2508.21007v1",
