@@ -1,5 +1,124 @@
 [
   {
+    "title": "Unveiling the Role of Data Uncertainty in Tabular Deep Learning",
+    "url": "http://arxiv.org/abs/2509.04430v1",
+    "arxiv_id": "2509.04430v1",
+    "authors": [
+      "Nikolay Kartashev",
+      "Ivan Rubachev",
+      "Artem Babenko"
+    ],
+    "published": "2025-09-04T17:49:59+00:00",
+    "summary": "Recent advancements in tabular deep learning have demonstrated exceptional practical performance, yet the field often lacks a clear understanding of why these techniques actually succeed. To address this gap, our paper highlights the importance of the concept of data uncertainty for explaining the effectiveness of the recent tabular DL methods. In particular, we reveal that the success of many beneficial design choices in tabular DL, such as numerical feature embeddings, retrieval-augmented models and advanced ensembling strategies, can be largely attributed to their implicit mechanisms for managing high data uncertainty. By dissecting these mechanisms, we provide a unifying understanding of the recent performance improvements. Furthermore, the insights derived from this data-uncertainty perspective directly allowed us to develop more effective numerical feature embeddings as an immediate practical outcome of our analysis. Overall, our work paves the way to foundational understanding of the benefits introduced by modern tabular methods that results in the concrete advancements of existing techniques and outlines future research directions for tabular DL."
+  },
+  {
+    "title": "Generation of Lognormal Synthetic Lyman-$\u03b1$ Forest Spectra for $P_{1D}$ Analysis",
+    "url": "http://arxiv.org/abs/2509.04405v1",
+    "arxiv_id": "2509.04405v1",
+    "authors": [
+      "Meagan Herbold",
+      "Naim G\u00f6ksel Kara\u00e7ayl\u0131",
+      "Paul Martini"
+    ],
+    "published": "2025-09-04T17:18:04+00:00",
+    "summary": "The one-dimensional flux power spectrum (P1D) of the Lyman-$\\alpha$ forest probes small-scale structure in the intergalactic medium (IGM) and is therefore sensitive to a variety of cosmological and astrophysical parameters. These include the amplitude and shape of the matter power spectrum, the thermal history of the IGM, the sum of neutrino masses, and potential small-scale fluctuations due to the nature of dark matter. However, P1D is also highly sensitive to observational and instrumental systematics, making accurate synthetic spectra essential for validating analyses and quantifying these effects, especially in high-volume surveys like the Dark Energy Spectroscopic Instrument (DESI). We present an efficient lognormal mock framework for generating one-dimensional Lyman-$\\alpha$ forest spectra tailored for P1D analysis. Our method captures the redshift evolution of the mean transmitted flux and the scale-dependent shape and amplitude of the one-dimensional flux power spectrum by tuning Gaussian field correlations and transformation parameters. Across the DESI Early Data Release (EDR) redshift range ($2.0 \\leq z \\leq 3.8$), and a wide range of scales ($10^{-4}$ s km$^{-1} \\leq k \\leq 1.0$ s km$^{-1}$), our mocks recover the mean flux evolution with redshift to sub-percent accuracy, and the P1D at the percent level. Additionally, we discuss potential extensions of this framework, such as the incorporation of astrophysical contaminants, continuum uncertainties, and instrumental effects. Such improvements would expand its utility in ongoing and upcoming surveys and enable a broader range of validation efforts and systematics studies for P1D inference and precision cosmology."
+  },
+  {
+    "title": "Revealing the origin of supermassive black holes with Taiji-TianQin network",
+    "url": "http://arxiv.org/abs/2509.04396v1",
+    "arxiv_id": "2509.04396v1",
+    "authors": [
+      "Ping Shen",
+      "Wen-Biao Han",
+      "Wen-Xin Zhong"
+    ],
+    "published": "2025-09-04T17:09:36+00:00",
+    "summary": "The origin of supermassive black holes (SMBHs) is a pivotal problem in modern cosmology. This work explores the potential of the Taiji-TianQin space-borne gravitational-wave (GW) detector network to identify the formation channels of massive black hole binaries (MBHBs) at high redshifts ($z \\gtrsim 10$). The network substantially improves detection capability, boosting the signal-to-noise ratio by a factor of 2.2-3.0 (1.06-1.14) relative to TianQin (Taiji) alone. It increases the detection rate of MBHBs formed from light seeds (LS) by more than 2.2 times and achieves over 96\\% detection efficiency for those originating from heavy seeds (HS). Furthermore, the network enables component mass estimation with relative uncertainties as low as $\\sim 10^{-4}$ at the $2\\sigma$ level. These improvements facilitate the assembly of a well-constrained population sample, allowing robust measurement of the fractional contributions from different formation pathways. The network achieves high precision in distinguishing between LS and HS origins (7.4\\% relative uncertainty at $2\\sigma$) and offers moderate discrimination between delay and no-delay channels in HS-origin binaries (24\\%). However, classification remains challenging for delay versus no-delay scenarios in LS-origin systems (58\\%) due to significant population overlap. In conclusion, the Taiji-TianQin network will serve as a powerful tool for unveiling the origins of SMBHs through GW population studies."
+  },
+  {
+    "title": "Prominence: A discriminator of gravitational wave signals",
+    "url": "http://arxiv.org/abs/2509.04384v1",
+    "arxiv_id": "2509.04384v1",
+    "authors": [
+      "Jo\u00e3o Gon\u00e7alves",
+      "Danny Marfatia",
+      "Ant\u00f3nio P. Morais"
+    ],
+    "published": "2025-09-04T16:47:32+00:00",
+    "summary": "The concept of prominence is familiar to signal engineers, topographers and mountaineers. We introduce Prominence $\\mathcal P$ as a discriminator of gravitational wave (GW) signals. We treat black hole and neutron star binaries as astrophysical background sources, and show how $\\mathcal P$ can be used to distinguish between GW spectra produced by first-order phase transitions, domain walls and cosmic strings, and combinations thereof. Prominence can also be used to discriminate between these and off-piste sources of GWs. The uncertainty in the measured energy density in GWs at Pulsar Timing Arrays needs to be smaller than $\\sim 4\\%$ for $\\mathcal{P}$ to achieve discrimination at 3$\\sigma$. LISA and ET data are expected to have sufficiently small uncertainties that Prominence can play a central role in their analysis."
+  },
+  {
+    "title": "When three experiments are better than two: Avoiding intractable correlated aleatoric uncertainty by leveraging a novel bias--variance tradeoff",
+    "url": "http://arxiv.org/abs/2509.04363v1",
+    "arxiv_id": "2509.04363v1",
+    "authors": [
+      "Paul Scherer",
+      "Andreas Kirsch",
+      "Jake P. Taylor-King"
+    ],
+    "published": "2025-09-04T16:23:54+00:00",
+    "summary": "Real-world experimental scenarios are characterized by the presence of heteroskedastic aleatoric uncertainty, and this uncertainty can be correlated in batched settings. The bias--variance tradeoff can be used to write the expected mean squared error between a model distribution and a ground-truth random variable as the sum of an epistemic uncertainty term, the bias squared, and an aleatoric uncertainty term. We leverage this relationship to propose novel active learning strategies that directly reduce the bias between experimental rounds, considering model systems both with and without noise. Finally, we investigate methods to leverage historical data in a quadratic manner through the use of a novel cobias--covariance relationship, which naturally proposes a mechanism for batching through an eigendecomposition strategy. When our difference-based method leveraging the cobias--covariance relationship is utilized in a batched setting (with a quadratic estimator), we outperform a number of canonical methods including BALD and Least Confidence."
+  },
+  {
+    "title": "PARCO: Phoneme-Augmented Robust Contextual ASR via Contrastive Entity Disambiguation",
+    "url": "http://arxiv.org/abs/2509.04357v1",
+    "arxiv_id": "2509.04357v1",
+    "authors": [
+      "Jiajun He",
+      "Naoki Sawada",
+      "Koichi Miyazaki",
+      "Tomoki Toda"
+    ],
+    "published": "2025-09-04T16:18:34+00:00",
+    "summary": "Automatic speech recognition (ASR) systems struggle with domain-specific named entities, especially homophones. Contextual ASR improves recognition but often fails to capture fine-grained phoneme variations due to limited entity diversity. Moreover, prior methods treat entities as independent tokens, leading to incomplete multi-token biasing. To address these issues, we propose Phoneme-Augmented Robust Contextual ASR via COntrastive entity disambiguation (PARCO), which integrates phoneme-aware encoding, contrastive entity disambiguation, entity-level supervision, and hierarchical entity filtering. These components enhance phonetic discrimination, ensure complete entity retrieval, and reduce false positives under uncertainty. Experiments show that PARCO achieves CER of 4.22% on Chinese AISHELL-1 and WER of 11.14% on English DATA2 under 1,000 distractors, significantly outperforming baselines. PARCO also demonstrates robust gains on out-of-domain datasets like THCHS-30 and LibriSpeech."
+  },
+  {
+    "title": "History matching for functional data and its application to tsunami warnings in the Indian Ocean",
+    "url": "http://arxiv.org/abs/2509.04342v1",
+    "arxiv_id": "2509.04342v1",
+    "authors": [
+      "Ryuichi Kanai",
+      "Nicol\u00e1s Hern\u00e1ndez",
+      "Devaraj Gopinathan",
+      "Serge Guillas"
+    ],
+    "published": "2025-09-04T16:02:20+00:00",
+    "summary": "Traditional History Matching (HM) identifies implausible regions of the input parameter space by comparing scalar outputs of a computer model to observations. It offers higher computational efficiency than Bayesian calibration, making it suitable for high-dimensional problems. However, in real physical systems, outputs are often functional, such as time series or spatial fields, and conventional HM cannot fully exploit such information. We propose a novel method, Functional History Matching (FHM), which extends HM to handle functional data. FHM incorporates the Outer Product Emulator, an extension of the Gaussian Process emulator designed for time series, to enhance computational efficiency. FHM also leverages Random Projection to extract dynamic features from infinite-dimensional data, including derivatives. FHM supports uncertainty quantification essential for decision-making and naturally accommodates model discrepancies. To demonstrate its practical effectiveness, we apply FHM to a synthetic tsunami forecasting scenario in the Indian Ocean, assuming a realistic event in the Makran subduction zone. Wave elevation time series from offshore buoy data are used to predict wave elevations over the Indian coastline. Our results show that FHM significantly outperforms scalar-based HM in accuracy. FHM enables reliable forecasting from functional data within feasible computational constraints, offering a robust framework for early warning systems and beyond."
+  },
+  {
+    "title": "We Have It Covered: A Resampling-based Method for Uplift Model Comparison",
+    "url": "http://arxiv.org/abs/2509.04315v1",
+    "arxiv_id": "2509.04315v1",
+    "authors": [
+      "Yang Liu",
+      "Chaoyu Yuan"
+    ],
+    "published": "2025-09-04T15:33:25+00:00",
+    "summary": "Uplift models play a critical role in modern marketing applications to help understand the incremental benefits of interventions and identify optimal targeting strategies. A variety of techniques exist for building uplift models, and it is essential to understand the model differences in the context of intended applications. The uplift curve is a widely adopted tool for assessing uplift model performance on the selection universe when observations are available for the entire population. However, when it is uneconomical or infeasible to select the entire population, it becomes difficult or even impossible to estimate the uplift curve without appropriate sampling design. To the best of our knowledge, no prior work has addressed uncertainty quantification of uplift curve estimates, which is essential for model comparisons. We propose a two-step sampling procedure and a resampling-based approach to compare uplift models with uncertainty quantification, examine the proposed method via simulations and real data applications, and conclude with a discussion."
+  },
+  {
+    "title": "Learning Optimal Crew Dispatch for Grid Restoration Following an Earthquake",
+    "url": "http://arxiv.org/abs/2509.04308v1",
+    "arxiv_id": "2509.04308v1",
+    "authors": [
+      "Farshad Amani",
+      "Faezeh Ardali",
+      "Amin Kargarian"
+    ],
+    "published": "2025-09-04T15:21:54+00:00",
+    "summary": "Post-disaster crew dispatch is a critical but computationally intensive task. Traditional mixed-integer linear programming methods often require minutes to several hours to compute solutions, leading to delays that hinder timely decision-making in highly dynamic restoration environments. To address this challenge, we propose a novel learning-based framework that integrates transformer architectures with deep reinforcement learning (DRL) to deliver near real-time decision support without compromising solution quality. Crew dispatch is formulated as a sequential decision-making problem under uncertainty, where transformers capture high-dimensional system states and temporal dependencies, while DRL enables adaptive and scalable decision-making. Earthquake-induced distribution network damage is first characterized using established seismic standards, followed by a scenario generation and reduction pipeline that aggregates probable outcomes into a single geospatial impact map. Conditioned on this map, the proposed framework generates second-level dispatch strategies, trained offline on simulated and historical events and deployed online for rapid response. In addition to substantial runtime improvements, the proposed method enhances system resilience by enabling faster and more effective recovery and restoration. Case studies, particularly on the 2869-bus European gas and power network, demonstrate that the method substantially accelerates restoration while maintaining high-quality solutions, underscoring its potential for practical deployment in large-scale disaster response."
+  },
+  {
+    "title": "Energy Confinement Time Scaling for the Negative Triangularity Scenario in DIII-D",
+    "url": "http://arxiv.org/abs/2509.04279v1",
+    "arxiv_id": "2509.04279v1",
+    "authors": [
+      "P. Lunia"
+    ],
+    "published": "2025-09-04T14:55:46+00:00",
+    "summary": "Results from the 2023 negative triangularity campaign on DIII-D demonstrate encouraging energy confinement properties, similar to or exceeding the scaling of the IPB98(y,2) law. This paper describes the procedure with which a new scaling law was regressed specifically from the data from the DIII-D campaign. Given the relatively small size of the single-machine dataset, measures were taken to minimize sampling bias and give a realistic estimate of the large uncertainties from the regression. The resulting power law shows a robustly stronger dependence on plasma current and more severe power degradation as compared to the H-mode scaling law."
+  },
+  {
     "title": "Easier Painting Than Thinking: Can Text-to-Image Models Set the Stage, but Not Direct the Play?",
     "url": "http://arxiv.org/abs/2509.03516v1",
     "arxiv_id": "2509.03516v1",
