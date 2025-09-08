@@ -1,5 +1,137 @@
 [
   {
+    "title": "Testing Magnetic Field Configurations in Spider Pulsar PSR J1723-2837 with IXPE",
+    "url": "http://arxiv.org/abs/2509.05240v1",
+    "arxiv_id": "2509.05240v1",
+    "authors": [
+      "Michela Negro",
+      "Haocheng Zhang",
+      "Niccol\u00f2 Di Lalla",
+      "Slavko Bogdanov",
+      "Zorawar Wadiasingh",
+      "Noel Klingler",
+      "Jeremy Hare"
+    ],
+    "published": "2025-09-05T16:56:31+00:00",
+    "summary": "We present the first X-ray polarimetry observations of a redback millisecond pulsar binary, \\src, with the Imaging X-ray Polarimetry Explorer (IXPE). Redbacks are compact binaries in which a rotation-powered millisecond pulsar interacts with a non-degenerate companion via an intrabinary shock, forming ideal laboratories for probing pulsar winds and relativistic shock physics, where ordered magnetic fields and particle acceleration shape the observed radiation. We conduct a spectro-polarimetric analysis combining IXPE data with archival Chandra, XMM-Newton, NuSTAR, and Swift observations. We explore two limiting magnetic field configurations, parallel and perpendicular to the bulk flow, and simulate their expected polarization signatures using the {\\tt 3DPol} radiative transport code. To account for the rapid rotation of the polarization angle predicted by these models, we implement a phase-dependent Stokes alignment procedure that preserves the polarization degree while correcting for phase-rotating PA. We also devise a new maximum-likelihood fitting strategy to determine the phase-dependence of the polarization angle by minimizing the polarization degree uncertainty. This technique shows a hint the binary may be rotating clockwise relative to the celestial north pole. We find no significant detection of polarization in the IXPE data, with PD<51% at 99% confidence level. Our results excludes the high-polarization degree scenario predicted by the perpendicular field model during the brightest orbital phase bin. Simulations show that doubling the current exposure would make the parallel configuration detectable. The new PA rotation technique is also applicable to IXPE data of many sources whose intrinsic PA variation is apriori not known but is strictly periodic."
+  },
+  {
+    "title": "Robust Model Predictive Control Design for Autonomous Vehicles with Perception-based Observers",
+    "url": "http://arxiv.org/abs/2509.05201v1",
+    "arxiv_id": "2509.05201v1",
+    "authors": [
+      "Nariman Niknejad",
+      "Gokul S. Sankar",
+      "Bahare Kiumarsi",
+      "Hamidreza Modares"
+    ],
+    "published": "2025-09-05T16:03:57+00:00",
+    "summary": "This paper presents a robust model predictive control (MPC) framework that explicitly addresses the non-Gaussian noise inherent in deep learning-based perception modules used for state estimation. Recognizing that accurate uncertainty quantification of the perception module is essential for safe feedback control, our approach departs from the conventional assumption of zero-mean noise quantification of the perception error. Instead, it employs set-based state estimation with constrained zonotopes to capture biased, heavy-tailed uncertainties while maintaining bounded estimation errors. To improve computational efficiency, the robust MPC is reformulated as a linear program (LP), using a Minkowski-Lyapunov-based cost function with an added slack variable to prevent degenerate solutions. Closed-loop stability is ensured through Minkowski-Lyapunov inequalities and contractive zonotopic invariant sets. The largest stabilizing terminal set and its corresponding feedback gain are then derived via an ellipsoidal approximation of the zonotopes. The proposed framework is validated through both simulations and hardware experiments on an omnidirectional mobile robot along with a camera and a convolutional neural network-based perception module implemented within a ROS2 framework. The results demonstrate that the perception-aware MPC provides stable and accurate control performance under heavy-tailed noise conditions, significantly outperforming traditional Gaussian-noise-based designs in terms of both state estimation error bounding and overall control performance."
+  },
+  {
+    "title": "Probabilistic operator learning: generative modeling and uncertainty quantification for foundation models of differential equations",
+    "url": "http://arxiv.org/abs/2509.05186v1",
+    "arxiv_id": "2509.05186v1",
+    "authors": [
+      "Benjamin J. Zhang",
+      "Siting Liu",
+      "Stanley J. Osher",
+      "Markos A. Katsoulakis"
+    ],
+    "published": "2025-09-05T15:35:04+00:00",
+    "summary": "In-context operator networks (ICON) are a class of operator learning methods based on the novel architectures of foundation models. Trained on a diverse set of datasets of initial and boundary conditions paired with corresponding solutions to ordinary and partial differential equations (ODEs and PDEs), ICON learns to map example condition-solution pairs of a given differential equation to an approximation of its solution operator. Here, we present a probabilistic framework that reveals ICON as implicitly performing Bayesian inference, where it computes the mean of the posterior predictive distribution over solution operators conditioned on the provided context, i.e., example condition-solution pairs. The formalism of random differential equations provides the probabilistic framework for describing the tasks ICON accomplishes while also providing a basis for understanding other multi-operator learning methods. This probabilistic perspective provides a basis for extending ICON to \\emph{generative} settings, where one can sample from the posterior predictive distribution of solution operators. The generative formulation of ICON (GenICON) captures the underlying uncertainty in the solution operator, which enables principled uncertainty quantification in the solution predictions in operator learning."
+  },
+  {
+    "title": "Orlicz spaces and the uncertainty principle",
+    "url": "http://arxiv.org/abs/2509.05185v1",
+    "arxiv_id": "2509.05185v1",
+    "authors": [
+      "A. Iosevich",
+      "I. Li",
+      "Z. Li",
+      "E. Yu"
+    ],
+    "published": "2025-09-05T15:34:04+00:00",
+    "summary": "Let $f$ be a finite signal. The classical uncertainty principle tells us that the product of the support of $f$ and the support of $\\hat{f}$, the Fourier transform of $f$, must satisfy $|supp(f)|\\cdot|supp(\\hat{f})|\\geq |G|$. Recently, Iosevich and Mayeli improved the uncertainty principle for signals with Fourier supported on generic sets. This was done by employing the Fourier restriction theory in $L^p$ spaces. In this paper, we extended the $(p,q)$-restriction setting to Orlicz spaces. Then we apply uncertainty principles to the problem of exact recovery, which again extends and recovers the result that Iosevich and Mayeli obtained in Lebesgue spaces."
+  },
+  {
+    "title": "Deep-Field Analytical Calibration",
+    "url": "http://arxiv.org/abs/2509.05152v1",
+    "arxiv_id": "2509.05152v1",
+    "authors": [
+      "Andy Park",
+      "Xiangchong Li",
+      "Rachel Mandelbaum",
+      "Matthew Becker"
+    ],
+    "published": "2025-09-05T14:43:19+00:00",
+    "summary": "The next generation of imaging surveys, including the Vera C. Rubin Observatory Legacy Survey of Space and Time (LSST), Euclid, and the Nancy Grace Roman Space Telescope, will place unprecedented constraints on cosmology using weak gravitational lensing. To fully exploit their statistical power, shear measurement methods must achieve sub-percent accuracy while mitigating systematic biases from noise, the point-spread function (PSF), blending, and shear-dependent detection. The analytical calibration framework (\\texttt{AnaCal}) has demonstrated such accuracy but requires adding noise to images, reducing their effective depth. We introduce Deep-Field Analytical Calibration (\\textsc{deep-field~}\\texttt{AnaCal}), an extension of \\texttt{AnaCal} that leverages deep-field images to compute shear responses while preserving wide-field statistical power. We validate the method on isolated and blended galaxy simulations with LSST-like seeing and noise, showing it meets the stringent requirement of multiplicative bias $|m| < 3\\times10^{-3}$ at 99.7% confidence. Relative to standard \\texttt{AnaCal} on wide-field images, this method improves effective galaxy number density from $17$ to $30$ arcmin$^{-2}$ for simulated 10-year LSST data. Assuming deep fields with $10\\times$ the exposure of wide fields, we find the pixel noise variance in shear estimation is reduced by $30%$ and the overall shear uncertainty by $\\sim 25%$. Finally, we assess sample variance impacts using the LSST Deep Drilling Fields strategy, finding an equivalent calibration uncertainty of $\\lesssim 0.3%$. These results establish \\textsc{deep-field~}\\texttt{AnaCal} as a promising approach for shear calibration in upcoming weak lensing surveys."
+  },
+  {
+    "title": "An emulator-based forecasting on astrophysics and cosmology with 21 cm and density cross-correlations during EoR",
+    "url": "http://arxiv.org/abs/2509.05096v1",
+    "arxiv_id": "2509.05096v1",
+    "authors": [
+      "Barun Maity"
+    ],
+    "published": "2025-09-05T13:33:14+00:00",
+    "summary": "The 21 cm signal arising from fluctuations in the neutral hydrogen field, and its cross-correlation with other tracers of cosmic density, are promising probes of the high-redshift Universe. In this study, we assess the potential of the 21 cm power spectrum, along with its cross power spectrum with dark matter density and associated bias, to constrain both astrophysics during the reionization era and the underlying cosmology. Our methodology involves emulating these estimators using an Artificial Neural Network (ANN), enabling efficient exploration of the parameter space. Utilizing a photon-conserving semi-numerical reionization model, we construct emulators at a fixed redshift ($z = 7.0$) for $k$-modes relevant to upcoming telescopes such as SKA-Low. We generate $\\sim7000$ training samples by varying both cosmological and astrophysical parameters along with initial conditions, achieving high accuracy when compared to true simulation outputs. While forecasting, the model involves five free parameters: three cosmological ($\\Omega_m$, $h$, $\\sigma_8$) and two astrophysical (ionizing efficiency, $\\zeta$, and minimum halo mass, $M_{\\mathrm{min}}$). Using a fiducial model at the mid-reionization stage, we create a mock dataset and perform forecasting with the trained emulators. Assuming a 5% observational uncertainty combined with emulator error, we find that the 21 cm and 21 cm-density cross power spectra can constrain the Hubble parameter ($h$) to better than 6% at a confidence interval of 95%, with tight constraints on the global neutral fraction ($Q_{\\mathrm{HI}}$). The inclusion of bias information further improves constraints on $\\sigma_8$ (< 10% at 95% confidence). Finally, robustness tests with two alternate ionization states and a variant with higher observational uncertainty show that the ionization fractions are still reliably recovered, even when cosmological constraints weaken."
+  },
+  {
+    "title": "Finding your MUSE: Mining Unexpected Solutions Engine",
+    "url": "http://arxiv.org/abs/2509.05072v1",
+    "arxiv_id": "2509.05072v1",
+    "authors": [
+      "Nir Sweed",
+      "Hanit Hakim",
+      "Ben Wolfson",
+      "Hila Lifshitz",
+      "Dafna Shahaf"
+    ],
+    "published": "2025-09-05T13:13:19+00:00",
+    "summary": "Innovators often exhibit cognitive fixation on existing solutions or nascent ideas, hindering the exploration of novel alternatives. This paper introduces a methodology for constructing Functional Concept Graphs (FCGs), interconnected representations of functional elements that support abstraction, problem reframing, and analogical inspiration. Our approach yields large-scale, high-quality FCGs with explicit abstraction relations, overcoming limitations of prior work. We further present MUSE, an algorithm leveraging FCGs to generate creative inspirations for a given problem. We demonstrate our method by computing an FCG on 500K patents, which we release for further research."
+  },
+  {
+    "title": "Deep Inverse Rosenblatt Transport for Structural Reliability Analysis",
+    "url": "http://arxiv.org/abs/2509.05061v1",
+    "arxiv_id": "2509.05061v1",
+    "authors": [
+      "Aryan Tyagi",
+      "Jan N. Fuhg"
+    ],
+    "published": "2025-09-05T12:47:06+00:00",
+    "summary": "Accurately estimating the probability of failure in engineering systems under uncertainty is a fundamental challenge, particularly in high-dimensional settings and for rare events. Conventional reliability analysis methods often become computationally intractable or exhibit high estimator variance when applied to problems with hundreds of uncertain parameters or highly concentrated failure regions. In this work, we investigate the use of the recently proposed Deep Inverse Rosenblatt Transport (DIRT) framework for reliability analysis in solid mechanics. DIRT combines a TT decomposition with an inverse Rosenblatt transformation to construct a low-rank approximation of the posterior distribution, enabling efficient sampling and probability estimation in high-dimensional spaces. By representing the optimal importance density in the TT format, DIRT scales linearly in the input dimension while maintaining a compact, reusable surrogate of the target distribution. We demonstrate the effectiveness of the DIRT framework on three analytical reliability problems and one numerical example with dimensionality ranging from 2 to 250. Compared to established methods such as Bayesian updating with Subset Simulation (BUS-SuS), DIRT seems to lower the estimator variance while accurately capturing rare event probabilities for the benchmark problems of this study."
+  },
+  {
+    "title": "Entropy2Vec: Crosslingual Language Modeling Entropy as End-to-End Learnable Language Representations",
+    "url": "http://arxiv.org/abs/2509.05060v1",
+    "arxiv_id": "2509.05060v1",
+    "authors": [
+      "Patrick Amadeus Irawan",
+      "Ryandito Diandaru",
+      "Belati Jagad Bintang Syuhada",
+      "Randy Zakya Suchrady",
+      "Alham Fikri Aji",
+      "Genta Indra Winata",
+      "Fajri Koto",
+      "Samuel Cahyawijaya"
+    ],
+    "published": "2025-09-05T12:40:31+00:00",
+    "summary": "We introduce Entropy2Vec, a novel framework for deriving cross-lingual language representations by leveraging the entropy of monolingual language models. Unlike traditional typological inventories that suffer from feature sparsity and static snapshots, Entropy2Vec uses the inherent uncertainty in language models to capture typological relationships between languages. By training a language model on a single language, we hypothesize that the entropy of its predictions reflects its structural similarity to other languages: Low entropy indicates high similarity, while high entropy suggests greater divergence. This approach yields dense, non-sparse language embeddings that are adaptable to different timeframes and free from missing values. Empirical evaluations demonstrate that Entropy2Vec embeddings align with established typological categories and achieved competitive performance in downstream multilingual NLP tasks, such as those addressed by the LinguAlchemy framework."
+  },
+  {
+    "title": "Reconstruction of the Dipole Amplitude in the Dipole Picture as a mathematical Inverse Problem",
+    "url": "http://arxiv.org/abs/2509.05005v1",
+    "arxiv_id": "2509.05005v1",
+    "authors": [
+      "Henri H\u00e4nninen",
+      "Antti Kykk\u00e4nen",
+      "Hj\u00f8rdis Schl\u00fcter"
+    ],
+    "published": "2025-09-05T11:06:13+00:00",
+    "summary": "We show that the inference problem of constraining the dipole amplitude with inclusive deep inelastic scattering data can be written into a discrete linear inverse problem, in an analogous manner as can be done for computed tomography. To this formulation of the problem, we apply standard inverse problems methods and algorithms to reconstruct known dipole amplitudes from simulated reduced cross section data with realistic precision. The main difference of this approach to previous works is that this implementation does not require any fit parametrization of the dipole amplitude. The freedom from parametrization also enables us for the first time to quantify the uncertainties of the inferred dipole amplitude in a novel more general framework. This mathematical approach to small-$x$ phenomenology opens a path to parametrization bias free inference of the dipole amplitude from HERA and Electron--Ion Collider data."
+  },
+  {
     "title": "Unveiling the Role of Data Uncertainty in Tabular Deep Learning",
     "url": "http://arxiv.org/abs/2509.04430v1",
     "arxiv_id": "2509.04430v1",
