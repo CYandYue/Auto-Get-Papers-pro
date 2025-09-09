@@ -1,5 +1,125 @@
 [
   {
+    "title": "From Noise to Narrative: Tracing the Origins of Hallucinations in Transformers",
+    "url": "http://arxiv.org/abs/2509.06938v1",
+    "arxiv_id": "2509.06938v1",
+    "authors": [
+      "Praneet Suresh",
+      "Jack Stanley",
+      "Sonia Joseph",
+      "Luca Scimeca",
+      "Danilo Bzdok"
+    ],
+    "published": "2025-09-08T17:50:45+00:00",
+    "summary": "As generative AI systems become competent and democratized in science, business, and government, deeper insight into their failure modes now poses an acute need. The occasional volatility in their behavior, such as the propensity of transformer models to hallucinate, impedes trust and adoption of emerging AI solutions in high-stakes areas. In the present work, we establish how and when hallucinations arise in pre-trained transformer models through concept representations captured by sparse autoencoders, under scenarios with experimentally controlled uncertainty in the input space. Our systematic experiments reveal that the number of semantic concepts used by the transformer model grows as the input information becomes increasingly unstructured. In the face of growing uncertainty in the input space, the transformer model becomes prone to activate coherent yet input-insensitive semantic features, leading to hallucinated output. At its extreme, for pure-noise inputs, we identify a wide variety of robustly triggered and meaningful concepts in the intermediate activations of pre-trained transformer models, whose functional integrity we confirm through targeted steering. We also show that hallucinations in the output of a transformer model can be reliably predicted from the concept patterns embedded in transformer layer activations. This collection of insights on transformer internal processing mechanics has immediate consequences for aligning AI models with human values, AI safety, opening the attack surface for potential adversarial attacks, and providing a basis for automatic quantification of a model's hallucination risk."
+  },
+  {
+    "title": "Black-hole mass estimation through accretion disk spectral fitting for high-redshift blazars",
+    "url": "http://arxiv.org/abs/2509.06933v1",
+    "arxiv_id": "2509.06933v1",
+    "authors": [
+      "G. Kyriopoulos",
+      "M. Petropoulou",
+      "G. Vasilopoulos",
+      "D. Hatzidimitriou"
+    ],
+    "published": "2025-09-08T17:45:48+00:00",
+    "summary": "High-redshift ($z>2$) blazars, with relativistic jets aligned toward us, probe the most powerful end of the active galactic nuclei (AGN) population. We aim at determining the black hole masses and mass accretion rates of high-$z$ blazars in a common framework that utilizes a Markov Chain Monte Carlo (MCMC) fitting method and the Shakura-Sunayev multi-temperature accretion disk model, accounting also for attenuation due to neutral hydrogen gas in the intergalactic medium (IGM). We compiled a sample of 23 high-redshift blazars from the literature with publicly available infrared-to-ultraviolet photometric data. We performed a Bayesian fit to the spectral energy distribution (SED) of the accretion disk, accounting for upper limits, and determined the black hole masses and mass accretion rates with their uncertainties. We also examined the impact of optical-ultraviolet attenuation due to gas in the IGM. We find that neglecting IGM attenuation in SED fits leads to systematically larger black-hole mass estimates and correspondingly lower Eddington ratios, with the bias becoming more severe at higher redshift. Our MCMC fits yield median black-hole masses in the range $\\sim (10^{8}-10^{10})\\,M_{\\odot}$ and a broad distribution of median Eddington ratios ($\\lambda_{\\rm Edd}\\sim 0.04 - 1$). Comparison with previous literature shows no clear method-dependent systematic offsets, although individual mass estimates can differ by up to a factor of a few. We also demonstrate that assumptions about black-hole spin introduce a systematic degeneracy. This work is to our knowledge the first systematic study to model the accretion-disk emission of a large sample of high-$z$ blazars within a single, consistent statistical framework. Our results emphasize the importance of accounting for IGM attenuation and of using uniform fitting methods when comparing disk-based black hole estimates across samples."
+  },
+  {
+    "title": "Proof-Carrying Numbers (PCN): A Protocol for Trustworthy Numeric Answers from LLMs via Claim Verification",
+    "url": "http://arxiv.org/abs/2509.06902v1",
+    "arxiv_id": "2509.06902v1",
+    "authors": [
+      "Aivin V. Solatorio"
+    ],
+    "published": "2025-09-08T17:20:16+00:00",
+    "summary": "Large Language Models (LLMs) as stochastic systems may generate numbers that deviate from available data, a failure known as \\emph{numeric hallucination}. Existing safeguards -- retrieval-augmented generation, citations, and uncertainty estimation -- improve transparency but cannot guarantee fidelity: fabricated or misquoted values may still be displayed as if correct. We propose \\textbf{Proof-Carrying Numbers (PCN)}, a presentation-layer protocol that enforces numeric fidelity through mechanical verification. Under PCN, numeric spans are emitted as \\emph{claim-bound tokens} tied to structured claims, and a verifier checks each token under a declared policy (e.g., exact equality, rounding, aliases, or tolerance with qualifiers). Crucially, PCN places verification in the \\emph{renderer}, not the model: only claim-checked numbers are marked as verified, and all others default to unverified. This separation prevents spoofing and guarantees fail-closed behavior. We formalize PCN and prove soundness, completeness under honest tokens, fail-closed behavior, and monotonicity under policy refinement. PCN is lightweight and model-agnostic, integrates seamlessly into existing applications, and can be extended with cryptographic commitments. By enforcing verification as a mandatory step before display, PCN establishes a simple contract for numerically sensitive settings: \\emph{trust is earned only by proof}, while the absence of a mark communicates uncertainty."
+  },
+  {
+    "title": "Stochastic modelling of cosmic-ray sources for Galactic diffuse emissions",
+    "url": "http://arxiv.org/abs/2509.06857v1",
+    "arxiv_id": "2509.06857v1",
+    "authors": [
+      "Anton Stall",
+      "Philipp Mertsch"
+    ],
+    "published": "2025-09-08T16:25:08+00:00",
+    "summary": "Galactic diffuse emissions in gamma rays and neutrinos arise from interactions of cosmic rays with the interstellar medium and probe the cosmic-ray intensity away from the Solar system. Model predictions for those are influenced by the properties of cosmic-ray sources, and understanding the impact of cosmic-ray sources on Galactic diffuse emissions is key for interpreting measurements by LHAASO, Tibet AS-gamma, IceCube, and the upcoming SWGO. We consider supernova remnants as prototypical cosmic-ray sources and study the impact of their discreteness on the Galactic diffuse emissions in different source injection and near-source transport models in a stochastic Monte Carlo study. Three lessons exemplify the results of our simulations: First, the distributions of Galactic diffuse emission intensities can be described by a mixture model of stable laws and Gaussian distributions. Second, the maximal deviations caused by discrete sources across the sky depend on energy, reaching typically tens of percent in burst-like and energy-dependent escape scenarios but order unity or larger in a time-dependent diffusion scenario. Third, the additional model uncertainty from source stochasticity is subdominant in burst-like and energy-dependent escape scenarios, but becomes sizeable above some tens of TeV in the time-dependent diffusion scenario, where it can help reconcile model predictions with LHAASO measurements. With increased spatial resolution, especially at energies beyond tens of TeV, measurements of Galactic diffuse emissions can be expected to constrain source models and locate cosmic ray sources."
+  },
+  {
+    "title": "Adversarial Obstacle Placement with Spatial Point Processes for Optimal Path Disruption",
+    "url": "http://arxiv.org/abs/2509.06837v1",
+    "arxiv_id": "2509.06837v1",
+    "authors": [
+      "Li Zhou",
+      "Elvan Ceyhan",
+      "Polat Charyyev"
+    ],
+    "published": "2025-09-08T16:08:07+00:00",
+    "summary": "We investigate the Optimal Obstacle Placement (OOP) problem under uncertainty, framed as the dual of the Optimal Traversal Path problem in the Stochastic Obstacle Scene paradigm. We consider both continuous domains, discretized for analysis, and already discrete spatial grids that form weighted geospatial networks using 8-adjacency lattices. Our unified framework integrates OOP with stochastic geometry, modeling obstacle placement via Strauss (regular) and Mat\\'ern (clustered) processes, and evaluates traversal using the Reset Disambiguation algorithm. Through extensive Monte Carlo experiments, we show that traversal cost increases by up to 40% under strongly regular placements, while clustered configurations can decrease traversal costs by as much as 25% by leaving navigable corridors compared to uniform random layouts. In mixed (with both true and false obstacles) scenarios, increasing the proportion of true obstacles from 30% to 70% nearly doubles the traversal cost. These findings are further supported by statistical analysis and stochastic ordering, providing rigorous insights into how spatial patterns and obstacle compositions influence navigation under uncertainty."
+  },
+  {
+    "title": "Uncertainty Principle from Operator Asymmetry",
+    "url": "http://arxiv.org/abs/2509.06760v1",
+    "arxiv_id": "2509.06760v1",
+    "authors": [
+      "Xingze Qiu"
+    ],
+    "published": "2025-09-08T14:50:32+00:00",
+    "summary": "The uncertainty principle is fundamentally rooted in the algebraic asymmetry between observables. We introduce a new class of uncertainty relations grounded in the resource theory of asymmetry, where incompatibility is quantified by an observable's intrinsic, state-independent capacity to break the symmetry associated with another. This ``operator asymmetry,'' formalized as the asymmetry norm, leads to a variance-based uncertainty relation for pure states that can be tighter than the standard Robertson bound, especially in the near-compatible regime. Most significantly, this framework resolves a long-standing open problem in quantum information theory: the formulation of a universally valid, product-form uncertainty relation for the Wigner-Yanase skew information. We demonstrate the practical power of our framework by deriving tighter quantum speed limits for the dynamics of nearly conserved quantities, which are crucial for understanding non-equilibrium phenomena such as prethermalization and many-body localization. This work provides both a new conceptual lens for understanding quantum uncertainty and a powerful toolkit for its application."
+  },
+  {
+    "title": "Nested Optimal Transport Distances",
+    "url": "http://arxiv.org/abs/2509.06702v1",
+    "arxiv_id": "2509.06702v1",
+    "authors": [
+      "Ruben Bontorno",
+      "Songyan Hou"
+    ],
+    "published": "2025-09-08T13:55:18+00:00",
+    "summary": "Simulating realistic financial time series is essential for stress testing, scenario generation, and decision-making under uncertainty. Despite advances in deep generative models, there is no consensus metric for their evaluation. We focus on generative AI for financial time series in decision-making applications and employ the nested optimal transport distance, a time-causal variant of optimal transport distance, which is robust to tasks such as hedging, optimal stopping, and reinforcement learning. Moreover, we propose a statistically consistent, naturally parallelizable algorithm for its computation, achieving substantial speedups over existing approaches."
+  },
+  {
+    "title": "Neural ARFIMA model for forecasting BRIC exchange rates with long memory under oil shocks and policy uncertainties",
+    "url": "http://arxiv.org/abs/2509.06697v1",
+    "arxiv_id": "2509.06697v1",
+    "authors": [
+      "Tanujit Chakraborty",
+      "Donia Besher",
+      "Madhurima Panja",
+      "Shovon Sengupta"
+    ],
+    "published": "2025-09-08T13:49:48+00:00",
+    "summary": "Accurate forecasting of exchange rates remains a persistent challenge, particularly for emerging economies such as Brazil, Russia, India, and China (BRIC). These series exhibit long memory, nonlinearity, and non-stationarity properties that conventional time series models struggle to capture. Additionally, there exist several key drivers of exchange rate dynamics, including global economic policy uncertainty, US equity market volatility, US monetary policy uncertainty, oil price growth rates, and country-specific short-term interest rate differentials. These empirical complexities underscore the need for a flexible modeling framework that can jointly accommodate long memory, nonlinearity, and the influence of external drivers. To address these challenges, we propose a Neural AutoRegressive Fractionally Integrated Moving Average (NARFIMA) model that combines the long-memory representation of ARFIMA with the nonlinear learning capacity of neural networks, while flexibly incorporating exogenous causal variables. We establish theoretical properties of the model, including asymptotic stationarity of the NARFIMA process using Markov chains and nonlinear time series techniques. We quantify forecast uncertainty using conformal prediction intervals within the NARFIMA framework. Empirical results across six forecast horizons show that NARFIMA consistently outperforms various state-of-the-art statistical and machine learning models in forecasting BRIC exchange rates. These findings provide new insights for policymakers and market participants navigating volatile financial conditions. The \\texttt{narfima} \\textbf{R} package provides an implementation of our approach."
+  },
+  {
+    "title": "Port-Hamiltonian Neural Networks: From Theory to Simulation of Interconnected Stochastic Systems",
+    "url": "http://arxiv.org/abs/2509.06674v1",
+    "arxiv_id": "2509.06674v1",
+    "authors": [
+      "Luca Di Persio",
+      "Matthias Ehrhardt",
+      "Youness Outaleb",
+      "Sofia Rizzotto"
+    ],
+    "published": "2025-09-08T13:34:34+00:00",
+    "summary": "This work introduces a new framework integrating port-Hamiltonian systems (PHS) and neural network architectures. This framework bridges the gap between deterministic and stochastic modeling of complex dynamical systems. We introduce new mathematical formulations and computational methods that expand the geometric structure of PHS to account for uncertainty, environmental noise, and random perturbations. Building on these advances, we introduce stochastic port-Hamiltonian neural networks (pHNNs), which facilitate the accurate learning and prediction of non-autonomous and interconnected stochastic systems. Our proposed framework generalizes passivity concepts to the stochastic regime, ensuring stability while maintaining the system's energy-consistent structure. Extensive simulations, including those involving damped mass-spring systems, Duffing oscillators, and robotic control tasks, demonstrate the capability of pHNNs to capture complex dynamics with high fidelity, even under noise and uncertainty. This unified approach establishes a foundation for the robust, data-driven modeling and control of nonlinear stochastic systems."
+  },
+  {
+    "title": "The complementary of CTAO, direct detection and collider searches for dark matter in Effective Field Theories and Simplified models",
+    "url": "http://arxiv.org/abs/2509.06628v1",
+    "arxiv_id": "2509.06628v1",
+    "authors": [
+      "Igor Reis",
+      "Andre Scaffidi",
+      "Emmanuel Moulin",
+      "Martin White"
+    ],
+    "published": "2025-09-08T12:45:02+00:00",
+    "summary": "This paper explores the sensitivity of the Cherenkov Telescope Array Observatory to dark matter annihilation in the Galactic Center, within the frameworks of Effective Field Theory and Simplified Models. We present sensitivity forecasts, utilizing an up-to-date instrument configuration and incorporating the latest models for Galactic Diffuse Emission. A key aspect of our work is the inclusion of updated dark matter density profiles, J-factors, and velocity dispersion distributions derived from the FIRE-2 cosmological hydrodynamical simulations, which significantly impact the expected indirect detection signals. Furthermore, we update the constraints from direct detection experiments (Xenon1T and LZ) taking into account the astrophysical uncertainties informed by the FIRE-2 simulations, and also investigate limits coming from collider searches (ATLAS and CMS). Our analysis reveals improved constraints on the effective suppression scale ($M_*$) in the Effective Field Theory framework and on the mediator mass ($M_{med}$) in Simplified Models compared to previous studies, highlighting the complementarity of the Cherenkov Telescope Array Observatory with direct and collider searches in probing a wide range of dark matter scenarios. We discuss the implications of these results for various dark matter interaction types, including scalar, pseudoscalar, vector, and axial-vector mediators, and emphasize the importance of considering realistic astrophysical inputs in interpreting dark matter search results across different experimental fronts."
+  },
+  {
     "title": "Testing Magnetic Field Configurations in Spider Pulsar PSR J1723-2837 with IXPE",
     "url": "http://arxiv.org/abs/2509.05240v1",
     "arxiv_id": "2509.05240v1",
