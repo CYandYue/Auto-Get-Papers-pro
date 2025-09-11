@@ -1,5 +1,129 @@
 [
   {
+    "title": "Calibrating MLLM-as-a-judge via Multimodal Bayesian Prompt Ensembles",
+    "url": "http://arxiv.org/abs/2509.08777v1",
+    "arxiv_id": "2509.08777v1",
+    "authors": [
+      "Eric Slyman",
+      "Mehrab Tanjim",
+      "Kushal Kafle",
+      "Stefan Lee"
+    ],
+    "published": "2025-09-10T17:06:47+00:00",
+    "summary": "Multimodal large language models (MLLMs) are increasingly used to evaluate text-to-image (TTI) generation systems, providing automated judgments based on visual and textual context. However, these \"judge\" models often suffer from biases, overconfidence, and inconsistent performance across diverse image domains. While prompt ensembling has shown promise for mitigating these issues in unimodal, text-only settings, our experiments reveal that standard ensembling methods fail to generalize effectively for TTI tasks. To address these limitations, we propose a new multimodal-aware method called Multimodal Mixture-of-Bayesian Prompt Ensembles (MMB). Our method uses a Bayesian prompt ensemble approach augmented by image clustering, allowing the judge to dynamically assign prompt weights based on the visual characteristics of each sample. We show that MMB improves accuracy in pairwise preference judgments and greatly enhances calibration, making it easier to gauge the judge's true uncertainty. In evaluations on two TTI benchmarks, HPSv2 and MJBench, MMB outperforms existing baselines in alignment with human annotations and calibration across varied image content. Our findings highlight the importance of multimodal-specific strategies for judge calibration and suggest a promising path forward for reliable large-scale TTI evaluation."
+  },
+  {
+    "title": "FinZero: Launching Multi-modal Financial Time Series Forecast with Large Reasoning Model",
+    "url": "http://arxiv.org/abs/2509.08742v1",
+    "arxiv_id": "2509.08742v1",
+    "authors": [
+      "Yanlong Wang",
+      "Jian Xu",
+      "Fei Ma",
+      "Hongkang Zhang",
+      "Hang Yu",
+      "Tiantian Gao",
+      "Yu Wang",
+      "Haochen You",
+      "Shao-Lun Huang",
+      "Danny Dongning Sun",
+      "Xiao-Ping Zhang"
+    ],
+    "published": "2025-09-10T16:32:41+00:00",
+    "summary": "Financial time series forecasting is both highly significant and challenging. Previous approaches typically standardized time series data before feeding it into forecasting models, but this encoding process inherently leads to a loss of important information. Moreover, past time series models generally require fixed numbers of variables or lookback window lengths, which further limits the scalability of time series forecasting. Besides, the interpretability and the uncertainty in forecasting remain areas requiring further research, as these factors directly impact the reliability and practical value of predictions. To address these issues, we first construct a diverse financial image-text dataset (FVLDB) and develop the Uncertainty-adjusted Group Relative Policy Optimization (UARPO) method to enable the model not only output predictions but also analyze the uncertainty of those predictions. We then proposed FinZero, a multimodal pre-trained model finetuned by UARPO to perform reasoning, prediction, and analytical understanding on the FVLDB financial time series. Extensive experiments validate that FinZero exhibits strong adaptability and scalability. After fine-tuning with UARPO, FinZero achieves an approximate 13.48\\% improvement in prediction accuracy over GPT-4o in the high-confidence group, demonstrating the effectiveness of reinforcement learning fine-tuning in multimodal large model, including in financial time series forecasting tasks."
+  },
+  {
+    "title": "Quantifying model prediction sensitivity to model-form uncertainty",
+    "url": "http://arxiv.org/abs/2509.08708v1",
+    "arxiv_id": "2509.08708v1",
+    "authors": [
+      "Teresa Portone",
+      "Rebekah D. White",
+      "Joseph L. Hart"
+    ],
+    "published": "2025-09-10T15:57:18+00:00",
+    "summary": "Model-form uncertainty (MFU) in assumptions made during physics-based model development is widely considered a significant source of uncertainty; however, there are limited approaches that can quantify MFU in predictions extrapolating beyond available data. As a result, it is challenging to know how important MFU is in practice, especially relative to other sources of uncertainty in a model, making it difficult to prioritize resources and efforts to drive down error in model predictions. To address these challenges, we present a novel method to quantify the importance of uncertainties associated with model assumptions. We combine parameterized modifications to assumptions (called MFU representations) with grouped variance-based sensitivity analysis to measure the importance of assumptions. We demonstrate how, in contrast to existing methods addressing MFU, our approach can be applied without access to calibration data. However, if calibration data is available, we demonstrate how it can be used to inform the MFU representation, and how variance-based sensitivity analysis can be meaningfully applied even in the presence of dependence between parameters (a common byproduct of calibration)."
+  },
+  {
+    "title": "Delving into the depths of NGC 3783 with XRISM II. Cross-calibration of X-ray instruments used in the large, multi-mission observational campaign",
+    "url": "http://arxiv.org/abs/2509.08649v1",
+    "arxiv_id": "2509.08649v1",
+    "authors": [
+      "XRISM collaboration"
+    ],
+    "published": "2025-09-10T14:44:05+00:00",
+    "summary": "Accurate X-ray spectroscopic measurements are fundamental for deriving basic physical parameters of the most abundant baryon components in the Universe. The plethora of X-ray observatories currently operational enables a panchromatic view of the high-energy emission of celestial sources. However, uncertainties in the energy-dependent calibration of the instrument transfer functions (e.g. the effective area, energy redistribution, or gain) can limit - and historically, did limit - the accuracy of X-ray spectroscopic measurements.   We revised the status of the cross-calibration among the scientific payload on board four operation missions: Chandra, NuSTAR, XMM-Newton, and the recently launched XRISM. XRISM carries the micro-calorimeter Resolve, which yields the best energy resolution at energies above 2 keV. For this purpose, we used the data from a 10-day-long observational campaign targeting the nearby active galactic nucleus NGC 3783, carried out in July 2024.   We present a novel model-independent method for assessing the cross-calibration status that is based on a multi-node spline of the spectra with the highest-resolving power (XRISM/Resolve in our campaign). We also estimated the impact of the intrinsic variability of NGC 3783 on the cross-calibration status due to the different time coverages of participating observatories and performed an empirical reassessment of the Resolve throughput at low energies.   Based on this analysis, we derived a set of energy-dependent correction factors of the observed responses, enabling a statistically robust analysis of the whole spectral dataset. They will be employed in subsequent papers describing the astrophysical results of the campaign."
+  },
+  {
+    "title": "AutoODD: Agentic Audits via Bayesian Red Teaming in Black-Box Models",
+    "url": "http://arxiv.org/abs/2509.08638v1",
+    "arxiv_id": "2509.08638v1",
+    "authors": [
+      "Rebecca Martin",
+      "Jay Patrikar",
+      "Sebastian Scherer"
+    ],
+    "published": "2025-09-10T14:33:58+00:00",
+    "summary": "Specialized machine learning models, regardless of architecture and training, are susceptible to failures in deployment. With their increasing use in high risk situations, the ability to audit these models by determining their operational design domain (ODD) is crucial in ensuring safety and compliance. However, given the high-dimensional input spaces, this process often requires significant human resources and domain expertise. To alleviate this, we introduce \\coolname, an LLM-Agent centric framework for automated generation of semantically relevant test cases to search for failure modes in specialized black-box models. By leveraging LLM-Agents as tool orchestrators, we aim to fit a uncertainty-aware failure distribution model on a learned text-embedding manifold by projecting the high-dimension input space to low-dimension text-embedding latent space. The LLM-Agent is tasked with iteratively building the failure landscape by leveraging tools for generating test-cases to probe the model-under-test (MUT) and recording the response. The agent also guides the search using tools to probe uncertainty estimate on the low dimensional manifold. We demonstrate this process in a simple case using models trained with missing digits on the MNIST dataset and in the real world setting of vision-based intruder detection for aerial vehicles."
+  },
+  {
+    "title": "Isotope shift spectroscopy in mercury vapors: a valid alternative to ytterbium for new physics search",
+    "url": "http://arxiv.org/abs/2509.08622v1",
+    "arxiv_id": "2509.08622v1",
+    "authors": [
+      "Stefania Gravina",
+      "Antonio Castrillo",
+      "Livio Gianfrani"
+    ],
+    "published": "2025-09-10T14:18:46+00:00",
+    "summary": "Precision isotope shift metrology in the deep-UV region has been performed for all bosonic isotopes of mercury with a zero nuclear spin, by using the technique of frequency-comb referenced, wavelength-modulated, saturated absorption spectroscopy. The absolute center frequencies of the 6s$^2$ $^1$S$_0$ $\\rightarrow$ 6s6p $^3$P$_1$ intercombination line have been measured with precision in the range of 2.5 - 5.9 10$^{-12}$, in temperature-stabilized mercury vapor samples with natural abundances. Frequency shifts in four isotope pairs have been determined with unprecedented accuracy, the global uncertainty being improved by a factor greater than 20 with respect to the best experimental data of the past literature. Our data set, when combined with previous measurements on the 6s6p $^3$P$_2$$\\rightarrow$6s7s $^3$S$_1$ transition at 546 nm, allows us to build a King plot that reveals a nonlinearity with a statistical significance of 4.6$\\sigma$."
+  },
+  {
+    "title": "No-Knowledge Alarms for Misaligned LLMs-as-Judges",
+    "url": "http://arxiv.org/abs/2509.08593v1",
+    "arxiv_id": "2509.08593v1",
+    "authors": [
+      "Andr\u00e9s Corrada-Emmanuel"
+    ],
+    "published": "2025-09-10T13:46:40+00:00",
+    "summary": "If we use LLMs as judges to evaluate the complex decisions of other LLMs, who or what monitors the judges? Infinite monitoring chains are inevitable whenever we do not know the ground truth of the decisions by experts and we do not want to trust them. One way to ameliorate our evaluation uncertainty is to exploit the use of logical consistency between disagreeing experts. By observing how LLM judges agree and disagree while grading other LLMs, we can compute the only possible evaluations of their grading ability. For example, if two LLM judges disagree on which tasks a third one completed correctly, they cannot both be 100\\% correct in their judgments. This logic can be formalized as a Linear Programming problem in the space of integer response counts for any finite test. We use it here to develop no-knowledge alarms for misaligned LLM judges. The alarms can detect, with no false positives, that at least one member or more of an ensemble of judges are violating a user specified grading ability requirement."
+  },
+  {
+    "title": "Interpretability as Alignment: Making Internal Understanding a Design Principle",
+    "url": "http://arxiv.org/abs/2509.08592v1",
+    "arxiv_id": "2509.08592v1",
+    "authors": [
+      "Aadit Sengupta",
+      "Pratinav Seth",
+      "Vinay Kumar Sankarapu"
+    ],
+    "published": "2025-09-10T13:45:59+00:00",
+    "summary": "Large neural models are increasingly deployed in high-stakes settings, raising concerns about whether their behavior reliably aligns with human values. Interpretability provides a route to internal transparency by revealing the computations that drive outputs. We argue that interpretability especially mechanistic approaches should be treated as a design principle for alignment, not an auxiliary diagnostic tool. Post-hoc methods such as LIME or SHAP offer intuitive but correlational explanations, while mechanistic techniques like circuit tracing or activation patching yield causal insight into internal failures, including deceptive or misaligned reasoning that behavioral methods like RLHF, red teaming, or Constitutional AI may overlook. Despite these advantages, interpretability faces challenges of scalability, epistemic uncertainty, and mismatches between learned representations and human concepts. Our position is that progress on safe and trustworthy AI will depend on making interpretability a first-class objective of AI research and development, ensuring that systems are not only effective but also auditable, transparent, and aligned with human intent."
+  },
+  {
+    "title": "MAESTRO: Multi-modal Adaptive Ensemble for Spectro-Temporal Robust Optimization",
+    "url": "http://arxiv.org/abs/2509.08578v1",
+    "arxiv_id": "2509.08578v1",
+    "authors": [
+      "Hong Liu"
+    ],
+    "published": "2025-09-10T13:27:40+00:00",
+    "summary": "Timely and robust influenza incidence forecasting is critical for public health decision-making. To address this, we present MAESTRO, a Multi-modal Adaptive Ensemble for Spectro-Temporal Robust Optimization. MAESTRO achieves robustness by adaptively fusing multi-modal inputs-including surveillance, web search trends, and meteorological data-and leveraging a comprehensive spectro-temporal architecture. The model first decomposes time series into seasonal and trend components. These are then processed through a hybrid feature enhancement pipeline combining Transformer-based encoders, a Mamba state-space model for long-range dependencies, multi-scale temporal convolutions, and a frequency-domain analysis module. A cross-channel attention mechanism further integrates information across the different data modalities. Finally, a temporal projection head performs sequence-to-sequence forecasting, with an optional estimator to quantify prediction uncertainty. Evaluated on over 11 years of Hong Kong influenza data (excluding the COVID-19 period), MAESTRO shows strong competitive performance, demonstrating a superior model fit and relative accuracy, achieving a state-of-the-art R-square of 0.956. Extensive ablations confirm the significant contributions of both multi-modal fusion and the spectro-temporal components. Our modular and reproducible pipeline is made publicly available to facilitate deployment and extension to other regions and pathogens.Our publicly available pipeline presents a powerful, unified framework, demonstrating the critical synergy of advanced spectro-temporal modeling and multi-modal data fusion for robust epidemiological forecasting."
+  },
+  {
+    "title": "Accelerating first-principles molecular-dynamics thermal conductivity calculations for complex systems",
+    "url": "http://arxiv.org/abs/2509.08573v1",
+    "arxiv_id": "2509.08573v1",
+    "authors": [
+      "Sandro Wieser",
+      "YuJie Cen",
+      "Georg K. H. Madsen",
+      "Jes\u00fas Carrete"
+    ],
+    "published": "2025-09-10T13:18:40+00:00",
+    "summary": "Atomistic simulations of heat transport in complex materials are costly and hard to converge. This has led to the development of several noise reduction techniques applicable to equilibrium molecular-dynamics simulations. We analyze the performance of those strategies, taking InAs nanowires as our benchmark due to the diverse structures and complex phonon spectra of these quasi-1D systems. We demonstrate how, for low-thermal-conductivity systems, cepstral analysis can reduce computational demands while still delivering accurate results that do not require discarding arbitrary parts of the dataset. However, issues with this approach are revealed when treating high-thermal-conductivity systems, where the thermal conductivity is significantly underestimated. We discuss alternative methods to be used in that situation, relying on uncertainty propagation from independent simulations. We show that the contributions of the covariance matrix have to be included for a quantitative assessment of the error. The combination of these strategies with machine-learning interatomic potentials (MLIPs) provides an accelerated, robust workflow applicable to a diverse set of systems, as our examples using a highly transferable MACE potential illustrate."
+  },
+  {
     "title": "Advanced Weights for IXPE Polarization Analysis",
     "url": "http://arxiv.org/abs/2509.07981v1",
     "arxiv_id": "2509.07981v1",
