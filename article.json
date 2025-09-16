@@ -1,5 +1,131 @@
 [
   {
+    "title": "Deriving accurate galaxy cluster masses using X-ray thermodynamic profiles and graph neural networks",
+    "url": "http://arxiv.org/abs/2509.12199v1",
+    "arxiv_id": "2509.12199v1",
+    "authors": [
+      "Asif Iqbal",
+      "Subhabrata Majumdar",
+      "Elena Rasia",
+      "Gabriel W. Pratt",
+      "Daniel de Andres",
+      "Jean-Baptiste Melin",
+      "Weiguang Cui"
+    ],
+    "published": "2025-09-15T17:58:22+00:00",
+    "summary": "Precise determination of galaxy cluster masses is crucial for establishing reliable mass-observable scaling relations in cluster cosmology. We employ graph neural networks (GNNs) to estimate galaxy cluster masses from radially sampled profiles of the intra-cluster medium (ICM) inferred from X-ray observations. GNNs naturally handle inputs of variable length and resolution by representing each ICM profile as a graph, enabling accurate and flexible modeling across diverse observational conditions. We trained and tested GNN model using state-of-the-art hydrodynamical simulations of galaxy clusters from The Three Hundred Project. The mass estimates using our method exhibit no systematic bias compared to the true cluster masses in the simulations. Additionally, we achieve a scatter in recovered mass versus true mass of about 6\\%, which is a factor of six smaller than obtained from a standard hydrostatic equilibrium approach. Our algorithm is robust to both data quality and cluster morphology and it is capable of incorporating model uncertainties alongside observational uncertainties. Finally, we apply our technique to XMM-Newton observed galaxy cluster samples and compare the GNN derived mass estimates with those obtained with $Y_{\\rm SZ}$-M$_{500}$ scaling relations. Our results provide strong evidence, at 5$\\sigma$ level, for a mass-dependent bias in SZ derived masses, with higher mass clusters exhibiting a greater degree of deviation. Furthermore, we find the median bias to be $(1-b)=0.85_{-14}^{+34}$, albeit with significant dispersion due to its mass dependence. This work takes a significant step towards establishing unbiased observable mass scaling relations by integrating X-ray, SZ and optical datasets using deep learning techniques, thereby enhancing the role of galaxy clusters in precision cosmology."
+  },
+  {
+    "title": "Approaches to Analysis and Design of AI-Based Autonomous Vehicles",
+    "url": "http://arxiv.org/abs/2509.12169v1",
+    "arxiv_id": "2509.12169v1",
+    "authors": [
+      "Tao Yan",
+      "Zheyu Zhang",
+      "Jingjing Jiang",
+      "Wen-Hua Chen"
+    ],
+    "published": "2025-09-15T17:32:29+00:00",
+    "summary": "Artificial intelligence (AI) models are becoming key components in an autonomous vehicle (AV), especially in handling complicated perception tasks. However, closing the loop through AI-based feedback may pose significant risks on reliability of autonomous driving due to very limited understanding about the mechanism of AI-driven perception processes. To overcome it, this paper aims to develop tools for modeling, analysis, and synthesis for a class of AI-based AV; in particular, their closed-loop properties, e.g., stability, robustness, and performance, are rigorously studied in the statistical sense. First, we provide a novel modeling means for the AI-driven perception processes by looking at their error characteristics. Specifically, three fundamental AI-induced perception uncertainties are recognized and modeled by Markov chains, Gaussian processes, and bounded disturbances, respectively. By means of that, the closed-loop stochastic stability (SS) is established in the sense of mean square, and then, an SS control synthesis method is presented within the framework of linear matrix inequalities (LMIs). Besides the SS properties, the robustness and performance of AI-based AVs are discussed in terms of a stochastic guaranteed cost, and criteria are given to test the robustness level of an AV when in the presence of AI-induced uncertainties. Furthermore, the stochastic optimal guaranteed cost control is investigated, and an efficient design procedure is developed innovatively based on LMI techniques and convex optimization. Finally, to illustrate the effectiveness, the developed results are applied to an example of car following control, along with extensive simulation."
+  },
+  {
+    "title": "Superresolving Non-linear PDE Dynamics with Reduced-Order Autodifferentiable Ensemble Kalman Filtering For Turbulence Modeling and Flow Regulation",
+    "url": "http://arxiv.org/abs/2509.12149v1",
+    "arxiv_id": "2509.12149v1",
+    "authors": [
+      "Mrigank Dhingra",
+      "Omer San"
+    ],
+    "published": "2025-09-15T17:15:29+00:00",
+    "summary": "Accurately reconstructing and forecasting high-resolution (HR) states from computationally cheap low-resolution (LR) observations is central to estimation-and-control of spatio-temporal PDE systems. We develop a unified superresolution pipeline based on the reduced-order autodifferentiable Ensemble Kalman filter (ROAD-EnKF). The method learns a low-dimensional latent dynamics model and a nonlinear decoder from latent variables to HR fields; the learned pair is embedded in an EnKF, enabling simultaneous state estimation and control-oriented forecasting with quantified uncertainty. We evaluate on three benchmarks: 1-D viscous Burgers equation (shock formation), Kuramoto-Sivashinsky (KS) equation (chaotic dynamics), and 2-D Navier-Stokes-Kraichnan turbulence (NSKT) (vortex decaying dynamics at Re 16,000). LR data are obtained by factors of 4-8 downsampling per spatial dimension and are corrupted with noise. On Burgers and KS, the latent models remain stable far beyond the observation window, accurately predicting shock propagation and chaotic attractor statistics up to 150 steps. On 2-D NSKT, the approach preserves the kinetic-energy spectrum and enstrophy budget of the HR data, indicating suitability for control scenarios that depend on fine-scale flow features. These results position ROAD-EnKF as a principled and efficient framework for physics-constrained superresolution, bridging LR sensing and HR actuation across diverse PDE regimes."
+  },
+  {
+    "title": "Draw a Portrait of Your Graph Data: An Instance-Level Profiling Framework for Graph-Structured Data",
+    "url": "http://arxiv.org/abs/2509.12094v1",
+    "arxiv_id": "2509.12094v1",
+    "authors": [
+      "Tianqi Zhao",
+      "Russa Biswas",
+      "Megha Khosla"
+    ],
+    "published": "2025-09-15T16:18:54+00:00",
+    "summary": "Graph machine learning models often achieve similar overall performance yet behave differently at the node level, failing on different subsets of nodes with varying reliability. Standard evaluation metrics such as accuracy obscure these fine grained differences, making it difficult to diagnose when and where models fail. We introduce NodePro, a node profiling framework that enables fine-grained diagnosis of model behavior by assigning interpretable profile scores to individual nodes. These scores combine data-centric signals, such as feature dissimilarity, label uncertainty, and structural ambiguity, with model-centric measures of prediction confidence and consistency during training. By aligning model behavior with these profiles, NodePro reveals systematic differences between models, even when aggregate metrics are indistinguishable. We show that node profiles generalize to unseen nodes, supporting prediction reliability without ground-truth labels. Finally, we demonstrate the utility of NodePro in identifying semantically inconsistent or corrupted nodes in a structured knowledge graph, illustrating its effectiveness in real-world settings."
+  },
+  {
+    "title": "Travel Time and Weather-Aware Traffic Forecasting in a Conformal Graph Neural Network Framework",
+    "url": "http://arxiv.org/abs/2509.12043v1",
+    "arxiv_id": "2509.12043v1",
+    "authors": [
+      "Mayur Patil",
+      "Qadeer Ahmed",
+      "Shawn Midlam-Mohler"
+    ],
+    "published": "2025-09-15T15:25:43+00:00",
+    "summary": "Traffic flow forecasting is essential for managing congestion, improving safety, and optimizing various transportation systems. However, it remains a prevailing challenge due to the stochastic nature of urban traffic and environmental factors. Better predictions require models capable of accommodating the traffic variability influenced by multiple dynamic and complex interdependent factors. In this work, we propose a Graph Neural Network (GNN) framework to address the stochasticity by leveraging adaptive adjacency matrices using log-normal distributions and Coefficient of Variation (CV) values to reflect real-world travel time variability. Additionally, weather factors such as temperature, wind speed, and precipitation adjust edge weights and enable GNN to capture evolving spatio-temporal dependencies across traffic stations. This enhancement over the static adjacency matrix allows the model to adapt effectively to traffic stochasticity and changing environmental conditions. Furthermore, we utilize the Adaptive Conformal Prediction (ACP) framework to provide reliable uncertainty quantification, achieving target coverage while maintaining acceptable prediction intervals. Experimental results demonstrate that the proposed model, in comparison with baseline methods, showed better prediction accuracy and uncertainty bounds. We, then, validate this method by constructing traffic scenarios in SUMO and applying Monte-Carlo simulation to derive a travel time distribution for a Vehicle Under Test (VUT) to reflect real-world variability. The simulated mean travel time of the VUT falls within the intervals defined by INRIX historical data, verifying the model's robustness."
+  },
+  {
+    "title": "Human-AI Use Patterns for Decision-Making in Disaster Scenarios: A Systematic Review",
+    "url": "http://arxiv.org/abs/2509.12034v1",
+    "arxiv_id": "2509.12034v1",
+    "authors": [
+      "Emmanuel Adjei Domfeh",
+      "Christopher L. Dancy"
+    ],
+    "published": "2025-09-15T15:18:49+00:00",
+    "summary": "In high-stakes disaster scenarios, timely and informed decision-making is critical yet often challenged by uncertainty, dynamic environments, and limited resources. This paper presents a systematic review of Human-AI collaboration patterns that support decision-making across all disaster management phases. Drawing from 51 peer-reviewed studies, we identify four major categories: Human-AI Decision Support Systems, Task and Resource Coordination, Trust and Transparency, and Simulation and Training. Within these, we analyze sub-patterns such as cognitive-augmented intelligence, multi-agent coordination, explainable AI, and virtual training environments. Our review highlights how AI systems may enhance situational awareness, improves response efficiency, and support complex decision-making, while also surfacing critical limitations in scalability, interpretability, and system interoperability. We conclude by outlining key challenges and future research directions, emphasizing the need for adaptive, trustworthy, and context-aware Human-AI systems to improve disaster resilience and equitable recovery outcomes."
+  },
+  {
+    "title": "Learning from Uncertain Similarity and Unlabeled Data",
+    "url": "http://arxiv.org/abs/2509.11984v1",
+    "arxiv_id": "2509.11984v1",
+    "authors": [
+      "Meng Wei",
+      "Zhongnian Li",
+      "Peng Ying",
+      "Xinzheng Xu"
+    ],
+    "published": "2025-09-15T14:29:36+00:00",
+    "summary": "Existing similarity-based weakly supervised learning approaches often rely on precise similarity annotations between data pairs, which may inadvertently expose sensitive label information and raise privacy risks. To mitigate this issue, we propose Uncertain Similarity and Unlabeled Learning (USimUL), a novel framework where each similarity pair is embedded with an uncertainty component to reduce label leakage. In this paper, we propose an unbiased risk estimator that learns from uncertain similarity and unlabeled data. Additionally, we theoretically prove that the estimator achieves statistically optimal parametric convergence rates. Extensive experiments on both benchmark and real-world datasets show that our method achieves superior classification performance compared to conventional similarity-based approaches."
+  },
+  {
+    "title": "Probabilistic modelling of atmosphere-surface coupling with a copula Bayesian network",
+    "url": "http://arxiv.org/abs/2509.11975v1",
+    "arxiv_id": "2509.11975v1",
+    "authors": [
+      "Laura Mack",
+      "Marvin K\u00e4hnert",
+      "Norbert Pirk"
+    ],
+    "published": "2025-09-15T14:23:55+00:00",
+    "summary": "Land-atmosphere coupling is an important process for correctly modelling near-surface temperature profiles, but it involves various uncertainties due to subgrid-scale processes, such as turbulent fluxes or unresolved surface heterogeneities, suggesting a probabilistic modelling approach. We develop a copula Bayesian network (CBN) to interpolate temperature profiles, acting as alternative to T2m-diagnostics used in numerical weather prediction (NWP) systems. The new CBN results in (1) a reduction of the warm bias inherent to NWP predictions of wintertime stable boundary layers allowing cold temperature extremes to be better represented, and (2) consideration of uncertainty associated with subgrid-scale spatial variability. The use of CBNs combines the advantages of uncertainty propagation inherent to Bayesian networks with the ability to model complex dependence structures between random variables through copulas. By combining insights from copula modelling and information entropy, criteria for the applicability of CBNs in the further development of parameterizations in NWP models are derived."
+  },
+  {
+    "title": "Deep operator network for surrogate modeling of poroelasticity with random permeability fields",
+    "url": "http://arxiv.org/abs/2509.11966v1",
+    "arxiv_id": "2509.11966v1",
+    "authors": [
+      "Sangjoon Park",
+      "Yeonjong Shin",
+      "Jinhyun Choo"
+    ],
+    "published": "2025-09-15T14:18:49+00:00",
+    "summary": "Poroelasticity -- coupled fluid flow and elastic deformation in porous media -- often involves spatially variable permeability, especially in subsurface systems. In such cases, simulations with random permeability fields are widely used for probabilistic analysis, uncertainty quantification, and inverse problems. These simulations require repeated forward solves that are often prohibitively expensive, motivating the development of efficient surrogate models. However, efficient surrogate modeling techniques for poroelasticity with random permeability fields remain scarce. In this study, we propose a surrogate modeling framework based on the deep operator network (DeepONet), a neural architecture designed to learn mappings between infinite-dimensional function spaces. The proposed surrogate model approximates the solution operator that maps random permeability fields to transient poroelastic responses. To enhance predictive accuracy and stability, we integrate three strategies: nondimensionalization of the governing equations, input dimensionality reduction via Karhunen--Lo\\'eve expansion, and a two-step training procedure that decouples the optimization of branch and trunk networks. The methodology is evaluated on two benchmark problems in poroelasticity: soil consolidation and ground subsidence induced by groundwater extraction. In both cases, the DeepONet achieves substantial speedup in inference while maintaining high predictive accuracy across a wide range of permeability statistics. These results highlight the potential of the proposed approach as a scalable and efficient surrogate modeling technique for poroelastic systems with random permeability fields."
+  },
+  {
+    "title": "E2-BKI: Evidential Ellipsoidal Bayesian Kernel Inference for Uncertainty-aware Gaussian Semantic Mapping",
+    "url": "http://arxiv.org/abs/2509.11964v1",
+    "arxiv_id": "2509.11964v1",
+    "authors": [
+      "Junyoung Kim",
+      "Minsik Jeon",
+      "Jihong Min",
+      "Kiho Kwak",
+      "Junwon Seo"
+    ],
+    "published": "2025-09-15T14:17:34+00:00",
+    "summary": "Semantic mapping aims to construct a 3D semantic representation of the environment, providing essential knowledge for robots operating in complex outdoor settings. While Bayesian Kernel Inference (BKI) addresses discontinuities of map inference from sparse sensor data, existing semantic mapping methods suffer from various sources of uncertainties in challenging outdoor environments. To address these issues, we propose an uncertainty-aware semantic mapping framework that handles multiple sources of uncertainties, which significantly degrade mapping performance. Our method estimates uncertainties in semantic predictions using Evidential Deep Learning and incorporates them into BKI for robust semantic inference. It further aggregates noisy observations into coherent Gaussian representations to mitigate the impact of unreliable points, while employing geometry-aligned kernels that adapt to complex scene structures. These Gaussian primitives effectively fuse local geometric and semantic information, enabling robust, uncertainty-aware mapping in complex outdoor scenarios. Comprehensive evaluation across diverse off-road and urban outdoor environments demonstrates consistent improvements in mapping quality, uncertainty calibration, representational flexibility, and robustness, while maintaining real-time efficiency."
+  },
+  {
     "title": "The CHARA Array Polarization Model and Prospects for Spectropolarimetry",
     "url": "http://arxiv.org/abs/2509.10451v1",
     "arxiv_id": "2509.10451v1",
