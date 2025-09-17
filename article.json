@@ -1,5 +1,160 @@
 [
   {
+    "title": "Axion-photon conversion in transient compact stars: Systematics, constraints, and opportunities",
+    "url": "http://arxiv.org/abs/2509.13322v1",
+    "arxiv_id": "2509.13322v1",
+    "authors": [
+      "Damiano F. G. Fiorillo",
+      "\u00c1ngel Gil Muyor",
+      "Hans-Thomas Janka",
+      "Georg G. Raffelt",
+      "Edoardo Vitagliano"
+    ],
+    "published": "2025-09-16T17:59:59+00:00",
+    "summary": "We study magnetic conversion of ultra-relativistic axion-like particles (ALPs) into photons in compact-star environments, focusing on the hot, transient conditions of core-collapse supernova (SN) remnants and neutron-star mergers (NSMs). We address previously overlooked uncertainties, particularly the suppression caused by ejected matter near the stellar surface, a region crucial to the conversion process. We derive analytical expressions for the transition rate; they reveal the influence of key parameters and their uncertainties. We update constraints using historical gamma-ray data from SN~1987A and find $g_{a\\gamma}<5\\times10^{-12}~{\\rm GeV}^{-1}$ for $m_a\\lesssim10^{-9}$ meV. We also forecast sensitivities for a future Galactic SN and for NSMs, assuming observations with Fermi-LAT or similar gamma-ray instruments. We distinguish ALPs -- defined as coupling only to photons and produced via Primakoff scattering -- from axions, which also couple to nucleons and emerge through nuclear bremsstrahlung. We omit pionic axion production due to its large uncertainties and inconsistencies, though it could contribute comparably to bremsstrahlung under optimistic assumptions. For the compact sources, we adopt time-averaged one-zone models, guided by numerical simulations, to enable clear and reproducible parametric studies."
+  },
+  {
+    "title": "ReSum: Unlocking Long-Horizon Search Intelligence via Context Summarization",
+    "url": "http://arxiv.org/abs/2509.13313v1",
+    "arxiv_id": "2509.13313v1",
+    "authors": [
+      "Xixi Wu",
+      "Kuan Li",
+      "Yida Zhao",
+      "Liwen Zhang",
+      "Litu Ou",
+      "Huifeng Yin",
+      "Zhongwang Zhang",
+      "Yong Jiang",
+      "Pengjun Xie",
+      "Fei Huang",
+      "Minhao Cheng",
+      "Shuai Wang",
+      "Hong Cheng",
+      "Jingren Zhou"
+    ],
+    "published": "2025-09-16T17:57:22+00:00",
+    "summary": "Large Language Model (LLM)-based web agents demonstrate strong performance on knowledge-intensive tasks but are hindered by context window limitations in paradigms like ReAct. Complex queries involving multiple entities, intertwined relationships, and high uncertainty demand extensive search cycles that rapidly exhaust context budgets before reaching complete solutions. To overcome this challenge, we introduce ReSum, a novel paradigm that enables indefinite exploration through periodic context summarization. ReSum converts growing interaction histories into compact reasoning states, maintaining awareness of prior discoveries while bypassing context constraints. For paradigm adaptation, we propose ReSum-GRPO, integrating GRPO with segmented trajectory training and advantage broadcasting to familiarize agents with summary-conditioned reasoning. Extensive experiments on web agents of varying scales across three benchmarks demonstrate that ReSum delivers an average absolute improvement of 4.5\\% over ReAct, with further gains of up to 8.2\\% following ReSum-GRPO training. Notably, with only 1K training samples, our WebResummer-30B (a ReSum-GRPO-trained version of WebSailor-30B) achieves 33.3\\% Pass@1 on BrowseComp-zh and 18.3\\% on BrowseComp-en, surpassing existing open-source web agents."
+  },
+  {
+    "title": "WebSailor-V2: Bridging the Chasm to Proprietary Agents via Synthetic Data and Scalable Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2509.13305v1",
+    "arxiv_id": "2509.13305v1",
+    "authors": [
+      "Kuan Li",
+      "Zhongwang Zhang",
+      "Huifeng Yin",
+      "Rui Ye",
+      "Yida Zhao",
+      "Liwen Zhang",
+      "Litu Ou",
+      "Dingchu Zhang",
+      "Xixi Wu",
+      "Jialong Wu",
+      "Xinyu Wang",
+      "Zile Qiao",
+      "Zhen Zhang",
+      "Yong Jiang",
+      "Pengjun Xie",
+      "Fei Huang",
+      "Jingren Zhou"
+    ],
+    "published": "2025-09-16T17:57:03+00:00",
+    "summary": "Transcending human cognitive limitations represents a critical frontier in LLM training. Proprietary agentic systems like DeepResearch have demonstrated superhuman capabilities on extremely complex information-seeking benchmarks such as BrowseComp, a feat previously unattainable. We posit that their success hinges on a sophisticated reasoning pattern absent in open-source models: the ability to systematically reduce extreme uncertainty when navigating vast information landscapes. Based on this insight, we introduce WebSailor, a complete post-training methodology designed to instill this crucial capability. Our approach involves generating novel, high-uncertainty tasks through structured sampling and information obfuscation, RFT cold start, and an efficient agentic RL training algorithm, Duplicating Sampling Policy Optimization (DUPO). With this integrated pipeline, WebSailor significantly outperforms all open-source agents in complex information-seeking tasks, matching proprietary agents' performance and closing the capability gap."
+  },
+  {
+    "title": "Post-Hoc Split-Point Self-Consistency Verification for Efficient, Unified Quantification of Aleatoric and Epistemic Uncertainty in Deep Learning",
+    "url": "http://arxiv.org/abs/2509.13262v1",
+    "arxiv_id": "2509.13262v1",
+    "authors": [
+      "Zhizhong Zhao",
+      "Ke Chen"
+    ],
+    "published": "2025-09-16T17:16:01+00:00",
+    "summary": "Uncertainty quantification (UQ) is vital for trustworthy deep learning, yet existing methods are either computationally intensive, such as Bayesian or ensemble methods, or provide only partial, task-specific estimates, such as single-forward-pass techniques. In this paper, we propose a post-hoc single-forward-pass framework that jointly captures aleatoric and epistemic uncertainty without modifying or retraining pretrained models. Our method applies \\emph{Split-Point Analysis} (SPA) to decompose predictive residuals into upper and lower subsets, computing \\emph{Mean Absolute Residuals} (MARs) on each side. We prove that, under ideal conditions, the total MAR equals the harmonic mean of subset MARs; deviations define a novel \\emph{Self-consistency Discrepancy Score} (SDS) for fine-grained epistemic estimation across regression and classification. For regression, side-specific quantile regression yields prediction intervals with improved empirical coverage, which are further calibrated via SDS. For classification, when calibration data are available, we apply SPA-based calibration identities to adjust the softmax outputs and then compute predictive entropy on these calibrated probabilities. Extensive experiments on diverse regression and classification benchmarks demonstrate that our framework matches or exceeds several state-of-the-art UQ methods while incurring minimal overhead.   Our source code is available at https://github.com/zzz0527/SPC-UQ."
+  },
+  {
+    "title": "SURGIN: SURrogate-guided Generative INversion for subsurface multiphase flow with quantified uncertainty",
+    "url": "http://arxiv.org/abs/2509.13189v1",
+    "arxiv_id": "2509.13189v1",
+    "authors": [
+      "Zhao Feng",
+      "Bicheng Yan",
+      "Luanxiao Zhao",
+      "Xianda Shen",
+      "Renyu Zhao",
+      "Wenhao Wang",
+      "Fengshou Zhang"
+    ],
+    "published": "2025-09-16T15:42:22+00:00",
+    "summary": "We present a direct inverse modeling method named SURGIN, a SURrogate-guided Generative INversion framework tailed for subsurface multiphase flow data assimilation. Unlike existing inversion methods that require adaptation for each new observational configuration, SURGIN features a zero-shot conditional generation capability, enabling real-time assimilation of unseen monitoring data without task-specific retraining. Specifically, SURGIN synergistically integrates a U-Net enhanced Fourier Neural Operator (U-FNO) surrogate with a score-based generative model (SGM), framing the conditional generation as a surrogate prediction-guidance process in a Bayesian perspective. Instead of directly learning the conditional generation of geological parameters, an unconditional SGM is first pretrained in a self-supervised manner to capture the geological prior, after which posterior sampling is performed by leveraging a differentiable U-FNO surrogate to enable efficient forward evaluations conditioned on unseen observations. Extensive numerical experiments demonstrate SURGIN's capability to decently infer heterogeneous geological fields and predict spatiotemporal flow dynamics with quantified uncertainty across diverse measurement settings. By unifying generative learning with surrogate-guided Bayesian inference, SURGIN establishes a new paradigm for inverse modeling and uncertainty quantification in parametric functional spaces."
+  },
+  {
+    "title": "Semiparametric Causal Inference for Right-Censored Outcomes with Many Weak Invalid Instruments",
+    "url": "http://arxiv.org/abs/2509.13176v1",
+    "arxiv_id": "2509.13176v1",
+    "authors": [
+      "Qiushi Bu",
+      "Wen Su",
+      "Xingqiu Zhao",
+      "Zhonghua Liu"
+    ],
+    "published": "2025-09-16T15:29:45+00:00",
+    "summary": "We propose a semiparametric framework for causal inference with right-censored survival outcomes and many weak invalid instruments, motivated by Mendelian randomization in biobank studies where classical methods may fail. We adopt an accelerated failure time model and construct a moment condition based on augmented inverse probability of censoring weighting, incorporating both uncensored and censored observations. Under a heteroscedasticity-based condition on the treatment model, we establish point identification of the causal effect despite censoring and invalid instruments. We propose GEL-NOW (Generalized Empirical Likelihood with Non-Orthogonal and Weak moments) for valid inference under these conditions. A divergent number of Neyman orthogonal nuisance functions is estimated using deep neural networks. A key challenge is that the conditional censoring distribution is a non-Neyman orthogonal nuisance, contributing to the first-order asymptotics of the estimator for the target causal effect parameter. We derive the asymptotic distribution and explicitly incorporate this additional uncertainty into the asymptotic variance formula. We also introduce a censoring-adjusted over-identification test that accounts for this variance component. Simulation studies and UK Biobank applications demonstrate the method's robustness and practical utility."
+  },
+  {
+    "title": "Evaluation of Objective Image Quality Metrics for High-Fidelity Image Compression",
+    "url": "http://arxiv.org/abs/2509.13150v1",
+    "arxiv_id": "2509.13150v1",
+    "authors": [
+      "Shima Mohammadi",
+      "Mohsen Jenadeleh",
+      "Jon Sneyers",
+      "Dietmar Saupe",
+      "Jo\u00e3o Ascenso"
+    ],
+    "published": "2025-09-16T15:05:55+00:00",
+    "summary": "Nowadays, image compression solutions are increasingly designed to operate within high-fidelity quality ranges, where preserving even the most subtle details of the original image is essential. In this context, the ability to detect and quantify subtle compression artifacts becomes critically important, as even slight degradations can impact perceptual quality in professional or quality sensitive applications, such as digital archiving, professional editing and web delivery. However, the performance of current objective image quality assessment metrics in this range has not been thoroughly investigated. In particular, it is not well understood how reliably these metrics estimate distortions at or below the threshold of Just Noticeable Difference (JND). This study directly addresses this issue by proposing evaluation methodologies for assessing the performance of objective quality metrics and performing a comprehensive evaluation using the JPEG AIC-3 dataset which is designed for high-fidelity image compression. Beyond conventional criteria, the study introduces Z-RMSE to incorporate subjective score uncertainty and applies novel statistical tests to assess significant differences between metrics. The analysis spans the full JPEG AIC-3 range and its high- and medium-fidelity subsets, examines the impact of cropping in subjective tests, and a public dataset with benchmarks and evaluation tools is released to support further research."
+  },
+  {
+    "title": "An Uncertainty-Weighted Decision Transformer for Navigation in Dense, Complex Driving Scenarios",
+    "url": "http://arxiv.org/abs/2509.13132v1",
+    "arxiv_id": "2509.13132v1",
+    "authors": [
+      "Zhihao Zhang",
+      "Chengyang Peng",
+      "Minghao Zhu",
+      "Ekim Yurtsever",
+      "Keith A. Redmill"
+    ],
+    "published": "2025-09-16T14:48:52+00:00",
+    "summary": "Autonomous driving in dense, dynamic environments requires decision-making systems that can exploit both spatial structure and long-horizon temporal dependencies while remaining robust to uncertainty. This work presents a novel framework that integrates multi-channel bird's-eye-view occupancy grids with transformer-based sequence modeling for tactical driving in complex roundabout scenarios. To address the imbalance between frequent low-risk states and rare safety-critical decisions, we propose the Uncertainty-Weighted Decision Transformer (UWDT). UWDT employs a frozen teacher transformer to estimate per-token predictive entropy, which is then used as a weight in the student model's loss function. This mechanism amplifies learning from uncertain, high-impact states while maintaining stability across common low-risk transitions. Experiments in a roundabout simulator, across varying traffic densities, show that UWDT consistently outperforms other baselines in terms of reward, collision rate, and behavioral stability. The results demonstrate that uncertainty-aware, spatial-temporal transformers can deliver safer and more efficient decision-making for autonomous driving in complex traffic environments."
+  },
+  {
+    "title": "Enhancing Dual Network Based Semi-Supervised Medical Image Segmentation with Uncertainty-Guided Pseudo-Labeling",
+    "url": "http://arxiv.org/abs/2509.13084v1",
+    "arxiv_id": "2509.13084v1",
+    "authors": [
+      "Yunyao Lu",
+      "Yihang Wu",
+      "Ahmad Chaddad",
+      "Tareef Daqqaq",
+      "Reem Kateb"
+    ],
+    "published": "2025-09-16T13:40:20+00:00",
+    "summary": "Despite the remarkable performance of supervised medical image segmentation models, relying on a large amount of labeled data is impractical in real-world situations. Semi-supervised learning approaches aim to alleviate this challenge using unlabeled data through pseudo-label generation. Yet, existing semi-supervised segmentation methods still suffer from noisy pseudo-labels and insufficient supervision within the feature space. To solve these challenges, this paper proposes a novel semi-supervised 3D medical image segmentation framework based on a dual-network architecture. Specifically, we investigate a Cross Consistency Enhancement module using both cross pseudo and entropy-filtered supervision to reduce the noisy pseudo-labels, while we design a dynamic weighting strategy to adjust the contributions of pseudo-labels using an uncertainty-aware mechanism (i.e., Kullback-Leibler divergence). In addition, we use a self-supervised contrastive learning mechanism to align uncertain voxel features with reliable class prototypes by effectively differentiating between trustworthy and uncertain predictions, thus reducing prediction uncertainty. Extensive experiments are conducted on three 3D segmentation datasets, Left Atrial, NIH Pancreas and BraTS-2019. The proposed approach consistently exhibits superior performance across various settings (e.g., 89.95\\% Dice score on left Atrial with 10\\% labeled data) compared to the state-of-the-art methods. Furthermore, the usefulness of the proposed modules is further validated via ablation experiments."
+  },
+  {
+    "title": "Physics potential of the IceCube Upgrade for atmospheric neutrino oscillations",
+    "url": "http://arxiv.org/abs/2509.13066v1",
+    "arxiv_id": "2509.13066v1",
+    "authors": [
+      "IceCube Collaboration"
+    ],
+    "published": "2025-09-16T13:21:40+00:00",
+    "summary": "The IceCube Upgrade is an extension of the existing IceCube Neutrino Observatory and will be deployed in the 2025-2026 austral summer. It will significantly improve the sensitivity of the detector to atmospheric neutrino oscillations. The existing 86-string IceCube array contains a dense in-fill known as DeepCore which is optimized to measure neutrinos with energies down to a few GeV. The IceCube Upgrade will consist of seven new densely-instrumented strings placed within the DeepCore volume to further enhance the performance in the GeV energy range. The additional strings will feature new optical modules, each containing multiple PMTs, in contrast to the existing modules that each contain a single PMT. This will more than triple the number of PMT channels with respect to the current IceCube configuration, allowing for improved detection efficiency and reconstruction performance at GeV energies. We describe necessary updates to simulation, event selection, and reconstruction to accommodate the higher data rates observed by the upgraded detector and the addition of multi-PMT modules. We determine the expected sensitivity of the IceCube Upgrade to the atmospheric neutrino oscillation parameters sin$^2\\theta_{23}$ and $\\Delta m^2_{32}$, the appearance of tau neutrinos and the neutrino mass ordering. The IceCube Upgrade will provide neutrino oscillation measurements that are of similar precision to those from accelerator experiments, while providing complementarity by probing higher energies and longer baselines, and with different sources of systematic uncertainties."
+  },
+  {
     "title": "Deriving accurate galaxy cluster masses using X-ray thermodynamic profiles and graph neural networks",
     "url": "http://arxiv.org/abs/2509.12199v1",
     "arxiv_id": "2509.12199v1",
