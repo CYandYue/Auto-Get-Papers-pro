@@ -1,5 +1,147 @@
 [
   {
+    "title": "Large deviations for probability graphons",
+    "url": "http://arxiv.org/abs/2509.14204v1",
+    "arxiv_id": "2509.14204v1",
+    "authors": [
+      "Pierfrancesco Dionigi",
+      "Giulio Zucal"
+    ],
+    "published": "2025-09-17T17:36:17+00:00",
+    "summary": "We establish a large deviation principle (LDP) for probability graphons, which are symmetric functions from the unit square into the space of probability measures. This notion extends classical graphons and provides a flexible framework for studying the limit behavior of large dense weighted graphs. In particular, our result generalizes the seminal work of Chatterjee and Varadhan (2011), who derived an LDP for Erd\\H{o}s-R\\'enyi random graphs via graphon theory. We move beyond their binary (Bernoulli) setting to encompass arbitrary edge-weight distributions. Specifically, we analyze the distribution on probability graphons induced by random weighted graphs in which edges are sampled independently from a common reference probability measure supported on a compact Polish space. We prove that this distribution satisfies an LDP with a good rate function, expressed as an extension of the Kullback-Leibler divergence between probability graphons and the reference measure. This theorem can also be viewed as a Sanov-type result in the graphon setting. Our work provides a rigorous foundation for analyzing rare events in weighted networks and supports statistical inference in structured random graph models under distributional edge uncertainty."
+  },
+  {
+    "title": "Deconstructing Intraocular Pressure: A Non-invasive Multi-Stage Probabilistic Inverse Framework",
+    "url": "http://arxiv.org/abs/2509.14167v1",
+    "arxiv_id": "2509.14167v1",
+    "authors": [
+      "Md Rezwan Jaher",
+      "Abul Mukid Mohammad Mukaddes",
+      "A. B. M. Abdul Malek"
+    ],
+    "published": "2025-09-17T16:50:23+00:00",
+    "summary": "Many critical healthcare decisions are challenged by the inability to measure key underlying parameters. Glaucoma, a leading cause of irreversible blindness driven by elevated intraocular pressure (IOP), provides a stark example. The primary determinant of IOP, a tissue property called trabecular meshwork permeability, cannot be measured in vivo, forcing clinicians to depend on indirect surrogates. This clinical challenge is compounded by a broader computational one: developing predictive models for such ill-posed inverse problems is hindered by a lack of ground-truth data and prohibitive cost of large-scale, high-fidelity simulations. We address both challenges with an end-to-end framework to noninvasively estimate unmeasurable variables from sparse, routine data. Our approach combines a multi-stage artificial intelligence architecture to functionally separate the problem; a novel data generation strategy we term PCDS that obviates the need for hundreds of thousands of costly simulations, reducing the effective computational time from years to hours; and a Bayesian engine to quantify predictive uncertainty. Our framework deconstructs a single IOP measurement into its fundamental components from routine inputs only, yielding estimates for the unmeasurable tissue permeability and a patient's outflow facility. Our noninvasively estimated outflow facility achieved excellent agreement with state-of-the-art tonography with precision comparable to direct physical instruments. Furthermore, the newly derived permeability biomarker demonstrates high accuracy in stratifying clinical cohorts by disease risk, highlighting its diagnostic potential. More broadly, our framework establishes a generalizable blueprint for solving similar inverse problems in other data-scarce, computationally-intensive domains."
+  },
+  {
+    "title": "BEVUDA++: Geometric-aware Unsupervised Domain Adaptation for Multi-View 3D Object Detection",
+    "url": "http://arxiv.org/abs/2509.14151v1",
+    "arxiv_id": "2509.14151v1",
+    "authors": [
+      "Rongyu Zhang",
+      "Jiaming Liu",
+      "Xiaoqi Li",
+      "Xiaowei Chi",
+      "Dan Wang",
+      "Li Du",
+      "Yuan Du",
+      "Shanghang Zhang"
+    ],
+    "published": "2025-09-17T16:31:40+00:00",
+    "summary": "Vision-centric Bird's Eye View (BEV) perception holds considerable promise for autonomous driving. Recent studies have prioritized efficiency or accuracy enhancements, yet the issue of domain shift has been overlooked, leading to substantial performance degradation upon transfer. We identify major domain gaps in real-world cross-domain scenarios and initiate the first effort to address the Domain Adaptation (DA) challenge in multi-view 3D object detection for BEV perception. Given the complexity of BEV perception approaches with their multiple components, domain shift accumulation across multi-geometric spaces (e.g., 2D, 3D Voxel, BEV) poses a significant challenge for BEV domain adaptation. In this paper, we introduce an innovative geometric-aware teacher-student framework, BEVUDA++, to diminish this issue, comprising a Reliable Depth Teacher (RDT) and a Geometric Consistent Student (GCS) model. Specifically, RDT effectively blends target LiDAR with dependable depth predictions to generate depth-aware information based on uncertainty estimation, enhancing the extraction of Voxel and BEV features that are essential for understanding the target domain. To collaboratively reduce the domain shift, GCS maps features from multiple spaces into a unified geometric embedding space, thereby narrowing the gap in data distribution between the two domains. Additionally, we introduce a novel Uncertainty-guided Exponential Moving Average (UEMA) to further reduce error accumulation due to domain shifts informed by previously obtained uncertainty guidance. To demonstrate the superiority of our proposed method, we execute comprehensive experiments in four cross-domain scenarios, securing state-of-the-art performance in BEV 3D object detection tasks, e.g., 12.9\\% NDS and 9.5\\% mAP enhancement on Day-Night adaptation."
+  },
+  {
+    "title": "Safe Sliding Mode Control in Position for Double Integrator Systems",
+    "url": "http://arxiv.org/abs/2509.14121v1",
+    "arxiv_id": "2509.14121v1",
+    "authors": [
+      "Marco A. Gomez",
+      "Christopher D. Cruz-Ancona"
+    ],
+    "published": "2025-09-17T16:00:54+00:00",
+    "summary": "We address the problem of robust safety control design for double integrator systems. We show that, when the constraints are defined only on position states, it is possible to construct a safe sliding domain from the dynamic of a simple integrator that is already safe. On this domain, the closed-loop trajectories remain robust and safe against uncertainties and disturbances. Furthermore, we design a controller gain that guarantees convergence to the safe sliding domain while avoiding the given unsafe set. The concept is initially developed for first-order sliding mode and is subsequently generalized to an adaptive framework, ensuring that trajectories remain confined to a predefined vicinity of the sliding domain, outside the unsafe region."
+  },
+  {
+    "title": "Online Bayesian Risk-Averse Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2509.14077v1",
+    "arxiv_id": "2509.14077v1",
+    "authors": [
+      "Yuhao Wang",
+      "Enlu Zhou"
+    ],
+    "published": "2025-09-17T15:25:06+00:00",
+    "summary": "In this paper, we study the Bayesian risk-averse formulation in reinforcement learning (RL). To address the epistemic uncertainty due to a lack of data, we adopt the Bayesian Risk Markov Decision Process (BRMDP) to account for the parameter uncertainty of the unknown underlying model. We derive the asymptotic normality that characterizes the difference between the Bayesian risk value function and the original value function under the true unknown distribution. The results indicate that the Bayesian risk-averse approach tends to pessimistically underestimate the original value function. This discrepancy increases with stronger risk aversion and decreases as more data become available. We then utilize this adaptive property in the setting of online RL as well as online contextual multi-arm bandits (CMAB), a special case of online RL. We provide two procedures using posterior sampling for both the general RL problem and the CMAB problem. We establish a sub-linear regret bound, with the regret defined as the conventional regret for both the RL and CMAB settings. Additionally, we establish a sub-linear regret bound for the CMAB setting with the regret defined as the Bayesian risk regret. Finally, we conduct numerical experiments to demonstrate the effectiveness of the proposed algorithm in addressing epistemic uncertainty and verifying the theoretical properties."
+  },
+  {
+    "title": "Physics-based deep kernel learning for parameter estimation in high dimensional PDEs",
+    "url": "http://arxiv.org/abs/2509.14054v1",
+    "arxiv_id": "2509.14054v1",
+    "authors": [
+      "Weihao Yan",
+      "Christoph Brune",
+      "Mengwu Guo"
+    ],
+    "published": "2025-09-17T14:56:31+00:00",
+    "summary": "Inferring parameters of high-dimensional partial differential equations (PDEs) poses significant computational and inferential challenges, primarily due to the curse of dimensionality and the inherent limitations of traditional numerical methods. This paper introduces a novel two-stage Bayesian framework that synergistically integrates training, physics-based deep kernel learning (DKL) with Hamiltonian Monte Carlo (HMC) to robustly infer unknown PDE parameters and quantify their uncertainties from sparse, exact observations. The first stage leverages physics-based DKL to train a surrogate model, which jointly yields an optimized neural network feature extractor and robust initial estimates for the PDE parameters. In the second stage, with the neural network weights fixed, HMC is employed within a full Bayesian framework to efficiently sample the joint posterior distribution of the kernel hyperparameters and the PDE parameters. Numerical experiments on canonical and high-dimensional inverse PDE problems demonstrate that our framework accurately estimates parameters, provides reliable uncertainty estimates, and effectively addresses challenges of data sparsity and model complexity, offering a robust and scalable tool for diverse scientific and engineering applications."
+  },
+  {
+    "title": "Network representations reveal structured uncertainty in music",
+    "url": "http://arxiv.org/abs/2509.14053v1",
+    "arxiv_id": "2509.14053v1",
+    "authors": [
+      "Lluc Bono Rossell\u00f3",
+      "Robert Jankowski",
+      "Hugues Bersini",
+      "Mari\u00e1n Bogu\u00f1\u00e1",
+      "M. \u00c1ngeles Serrano"
+    ],
+    "published": "2025-09-17T14:55:54+00:00",
+    "summary": "Music, as a structured yet perceptually rich experience, can be modeled as a network to uncover how humans encode and process auditory information. While network-based representations of music are increasingly common, the impact of feature selection on structural properties and cognitive alignment remains underexplored. In this study, we evaluated eight network models, each constructed from symbolic representations of piano compositions using distinct combinations of pitch, octave, duration, and interval, designed to be representative of existing approaches in the literature. By comparing these models through topological metrics, entropy analysis, and divergence with respect to inferred cognitive representations, we assessed both their structural and perceptual efficiency. Our findings reveal that simpler, feature-specific models better match human perception, whereas complex, multidimensional representations introduce cognitive inefficiencies. These results support the view that humans rely on modular, parallel cognitive networks--an architecture consistent with theories of predictive processing and free energy minimization. Moreover, we find that musical networks are structurally organized to guide attention toward transitions that are both uncertain and inferable. The resulting structure concentrates uncertainty in a few frequently visited nodes, creating local entropy gradients that alternate between stable and unpredictable regions, thereby enabling the expressive dynamics of tension and release that define the musical experience. These findings show that network structures make the organization of uncertainty in music observable, offering new insight into how patterned flows of expectation shape perception, and open new directions for studying how musical structures evolve across genres, cultures, and historical periods through the lens of network science."
+  },
+  {
+    "title": "Day-Ahead Transmission Grid Topology Optimization Considering Renewable Energy Sources' Uncertainty",
+    "url": "http://arxiv.org/abs/2509.13994v1",
+    "arxiv_id": "2509.13994v1",
+    "authors": [
+      "Giacomo Bastianel",
+      "Dirk Van Hertem",
+      "Hakan Ergun",
+      "Line Roald"
+    ],
+    "published": "2025-09-17T14:05:47+00:00",
+    "summary": "The increasing renewable penetration introduces significant uncertainty in power system operations. At the same time, the existing transmission grid is often already congested, and urgently needed reinforcements are frequently delayed due to several constraints. To address these challenges, adjusting the grid topology based on congestion patterns is considered a non-costly remedy to guarantee efficient power transmission. Based on this idea, this paper proposes a grid topology optimization model combining optimal transmission switching and busbar splitting for AC and hybrid AC/DC grids. The methodology incorporates RES forecast uncertainty through a scenario-based stochastic optimization approach, using real offshore wind data and K-means clustering to generate representative forecast error scenarios. The proposed model includes several formulations to be compared with a plain optimal power flow (OPF) model: hourly optimizing the topology, one topology for 24 hours, or a limited number of switching actions over a day. The grid topology optimization model is formulated as a Mixed-Integer Quadratic Convex Problem, optimized based on the day-ahead (D-1) RES forecast and validated for AC-feasibility via an AC-OPF formulation. Based on the generation setpoints of the feasibility check, a redispatch simulation based on the measured (D) RES realization is then computed. The methodology is tested on an AC 30-bus test case and a hybrid AC/DC 50-bus test case, for a 24-hours (30-bus) and a 14-days (both test cases) time series. The results highlight the economic benefits brought by grid topology optimization for congested test cases with high penetration of RES. In addition, the results demonstrate that accounting for RES uncertainty with at least 6 to 8 scenarios leads to lower or comparable total costs to deterministic day-ahead forecasts, even when limiting the frequency of topological actions."
+  },
+  {
+    "title": "Improved systematic evaluation of a strontium optical clock with uncertainty below $1\\times 10^{-18}$",
+    "url": "http://arxiv.org/abs/2509.13991v1",
+    "arxiv_id": "2509.13991v1",
+    "authors": [
+      "Zhi-Peng Jia",
+      "Jie Li",
+      "De-Quan Kong",
+      "Xiang Zhang",
+      "Hai-Wei Yu",
+      "Xiao-Yong Liu",
+      "Yu-Chen Zhang",
+      "Yuan-Bo Wang",
+      "Xian-Qing Zhu",
+      "Jia-Hao Zhang",
+      "Ming-Yi Zhu",
+      "Pei-Jun Feng",
+      "Xing-Yang Cui",
+      "Ping Xu",
+      "Xiao Jiang",
+      "Xiang-Pei Liu",
+      "Peng Liu",
+      "Han-Ning Dai",
+      "Yu-Ao Chen",
+      "Jian-Wei Pan"
+    ],
+    "published": "2025-09-17T14:02:35+00:00",
+    "summary": "We report a systematic uncertainty of $9.2\\times 10^{-19}$ for the USTC Sr1 optical lattice clock, achieving accuracy at the level required for the roadmap of the redefinition of the SI second. A finite-element model with {\\it in situ}-validated, spatially-resolved chamber emissivity reduced blackbody radiation shift uncertainty to $6.3\\times 10^{-19}$. Concurrently, an externally mounted lattice cavity combined with a larger beam waist suppressed density shifts. Enhanced lattice depth modulation consolidated lattice light shift uncertainty to $6.3\\times 10^{-19}$ by enabling simultaneous determination of key polarizabilities and magic wavelength. Magnetic shifts were resolved below $10^{-18}$ via precision characterization of the second-order Zeeman coefficient. Supported by a crystalline-coated ultra-low-expansion cavity-stabilized laser and refined temperature control suppressing BBR fluctuations, the clock also achieves a frequency stability better than $1\\times10^{-18}$ at 30,000-s averaging time. These developments collectively establish a new benchmark in USTC Sr1 clock performance and pave the way for high-accuracy applications in metrology and fundamental physics."
+  },
+  {
+    "title": "Distributionally Robust Equilibria over the Wasserstein Distance for Generalized Nash Game",
+    "url": "http://arxiv.org/abs/2509.13985v1",
+    "arxiv_id": "2509.13985v1",
+    "authors": [
+      "Yixun Wen",
+      "Yulong Gao",
+      "Boli Chen"
+    ],
+    "published": "2025-09-17T13:58:27+00:00",
+    "summary": "Generalized Nash equilibrium problem (GNEP) is fundamental for practical applications where multiple self-interested agents work together to make optimal decisions. In this work, we study GNEP with shared distributionally robust chance constraints (DRCCs) for incorporating inevitable uncertainties. The DRCCs are defined over the Wasserstein ball, which can be explicitly characterized even with limited sample data. To determine the equilibrium of the GNEP, we propose an exact approach to transform the original computationally intractable problem into a deterministic formulation using the Nikaido-Isoda function. Specifically, we show that when all agents' objectives are quadratic in their respective variables, the equilibrium can be obtained by solving a typical mixed-integer nonlinear programming (MINLP) problem, where the integer and continuous variables are decoupled in both the objective function and the constraints. This structure significantly improves computational tractability, as demonstrated through a case study on the charging station pricing problem."
+  },
+  {
     "title": "Axion-photon conversion in transient compact stars: Systematics, constraints, and opportunities",
     "url": "http://arxiv.org/abs/2509.13322v1",
     "arxiv_id": "2509.13322v1",
