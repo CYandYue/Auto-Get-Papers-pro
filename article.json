@@ -1,5 +1,154 @@
 [
   {
+    "title": "Recalibration of the H$\u03b1$ surface brightness-radius relation for planetary nebulae using Gaia DR3: new distances and the Milky Way oxygen radial gradient",
+    "url": "http://arxiv.org/abs/2509.19239v1",
+    "arxiv_id": "2509.19239v1",
+    "authors": [
+      "Oscar Cavichia",
+      "Hektor Monteiro",
+      "Adalberto R. da Cunha-Silva",
+      "Walter J. Maciel",
+      "Andr\u00e9 F. S. Cardoso"
+    ],
+    "published": "2025-09-23T17:00:39+00:00",
+    "summary": "The spatial distribution of chemical elements in the Galactic disk provides key constraints on models of galaxy evolution. However, studies using planetary nebulae (PNe) as tracers have been historically limited by large uncertainties in their distances. To overcome the long-standing distance uncertainties, we recalibrated the H$\\alpha$ surface brightness-radius relation (Frew et al. 2016) with Gaia DR3 parallaxes, deriving statistical distances for 1,200 PNe and Bayesian distances for 419 objects with reliable parallaxes. Adopting Bayesian values preferentially, we determined the O/H radial gradient for 230 disk PNe. We tested three models: a single linear gradient, a segmented fit with one break, and a segmented fit with two breaks. Although model selection is statistically inconclusive, segmented fits indicate a change in slope near the solar radius ($R \\sim 8$ kpc), with a flatter or slightly positive gradient inward and a steeper negative gradient outward. This feature may reflect changes in star formation efficiency driven by the Galactic bar or the corotation resonance of the spiral arms. Comparison with other tracers - Cepheids, red giants, and open clusters - shows qualitative consistency. The two-dimensional O/H distribution in the Galactic plane supports the adopted distances and reveals modest azimuthal asymmetry, with enhanced abundances near the bar at positive longitudes, and a bimodal abundance structure between the inner and outer solar regions. Our results provide new constraints on the chemical evolution of the Milky Way, the impact of non-axisymmetric structures, and the possible existence of distinct radial abundance regimes across the Galactic disk."
+  },
+  {
+    "title": "Study Design and Demystification of Physics Informed Neural Networks for Power Flow Simulation",
+    "url": "http://arxiv.org/abs/2509.19233v1",
+    "arxiv_id": "2509.19233v1",
+    "authors": [
+      "Milad Leyli-abadi",
+      "Antoine Marot",
+      "J\u00e9r\u00f4me Picault"
+    ],
+    "published": "2025-09-23T16:55:13+00:00",
+    "summary": "In the context of the energy transition, with increasing integration of renewable sources and cross-border electricity exchanges, power grids are encountering greater uncertainty and operational risk. Maintaining grid stability under varying conditions is a complex task, and power flow simulators are commonly used to support operators by evaluating potential actions before implementation. However, traditional physical solvers, while accurate, are often too slow for near real-time use. Machine learning models have emerged as fast surrogates, and to improve their adherence to physical laws (e.g., Kirchhoff's laws), they are often trained with embedded constraints which are also known as physics-informed or hybrid models. This paper presents an ablation study to demystify hybridization strategies, ranging from incorporating physical constraints as regularization terms or unsupervised losses, and exploring model architectures from simple multilayer perceptrons to advanced graph-based networks enabling the direct optimization of physics equations. Using our custom benchmarking pipeline for hybrid models called LIPS, we evaluate these models across four dimensions: accuracy, physical compliance, industrial readiness, and out-of-distribution generalization. The results highlight how integrating physical knowledge impacts performance across these criteria. All the implementations are reproducible and provided in the corresponding Github page."
+  },
+  {
+    "title": "A decentralized future for the open-science databases",
+    "url": "http://arxiv.org/abs/2509.19206v1",
+    "arxiv_id": "2509.19206v1",
+    "authors": [
+      "Gaurav Sharma",
+      "Viorel Munteanu",
+      "Nika Mansouri Ghiasi",
+      "Jineta Banerjee",
+      "Susheel Varma",
+      "Luca Foschini",
+      "Kyle Ellrott",
+      "Onur Mutlu",
+      "Dumitru Ciorb\u0103",
+      "Roel A. Ophoff",
+      "Viorel Bostan",
+      "Christopher E Mason",
+      "Jason H. Moore",
+      "Despoina Sousoni",
+      "Arunkumar Krishnan",
+      "Christopher E. Mason",
+      "Mihai Dimian",
+      "Gustavo Stolovitzky",
+      "Fabio G. Liberante",
+      "Taras K. Oleksyk",
+      "Serghei Mangul"
+    ],
+    "published": "2025-09-23T16:28:21+00:00",
+    "summary": "Continuous and reliable access to curated biological data repositories is indispensable for accelerating rigorous scientific inquiry and fostering reproducible research. Centralized repositories, though widely used, are vulnerable to single points of failure arising from cyberattacks, technical faults, natural disasters, or funding and political uncertainties. This can lead to widespread data unavailability, data loss, integrity compromises, and substantial delays in critical research, ultimately impeding scientific progress. Centralizing essential scientific resources in a single geopolitical or institutional hub is inherently dangerous, as any disruption can paralyze diverse ongoing research. The rapid acceleration of data generation, combined with an increasingly volatile global landscape, necessitates a critical re-evaluation of the sustainability of centralized models. Implementing federated and decentralized architectures presents a compelling and future-oriented pathway to substantially strengthen the resilience of scientific data infrastructures, thereby mitigating vulnerabilities and ensuring the long-term integrity of data. Here, we examine the structural limitations of centralized repositories, evaluate federated and decentralized models, and propose a hybrid framework for resilient, FAIR, and sustainable scientific data stewardship. Such an approach offers a significant reduction in exposure to governance instability, infrastructural fragility, and funding volatility, and also fosters fairness and global accessibility. The future of open science depends on integrating these complementary approaches to establish a globally distributed, economically sustainable, and institutionally robust infrastructure that safeguards scientific data as a public good, further ensuring continued accessibility, interoperability, and preservation for generations to come."
+  },
+  {
+    "title": "An Empirical Study of Testing Practices in Open Source AI Agent Frameworks and Agentic Applications",
+    "url": "http://arxiv.org/abs/2509.19185v1",
+    "arxiv_id": "2509.19185v1",
+    "authors": [
+      "Mohammed Mehedi Hasan",
+      "Hao Li",
+      "Emad Fallahzadeh",
+      "Gopi Krishnan Rajbahadur",
+      "Bram Adams",
+      "Ahmed E. Hassan"
+    ],
+    "published": "2025-09-23T16:02:09+00:00",
+    "summary": "Foundation model (FM)-based AI agents are rapidly gaining adoption across diverse domains, but their inherent non-determinism and non-reproducibility pose testing and quality assurance challenges. While recent benchmarks provide task-level evaluations, there is limited understanding of how developers verify the internal correctness of these agents during development.   To address this gap, we conduct the first large-scale empirical study of testing practices in the AI agent ecosystem, analyzing 39 open-source agent frameworks and 439 agentic applications. We identify ten distinct testing patterns and find that novel, agent-specific methods like DeepEval are seldom used (around 1%), while traditional patterns like negative and membership testing are widely adapted to manage FM uncertainty. By mapping these patterns to canonical architectural components of agent frameworks and agentic applications, we uncover a fundamental inversion of testing effort: deterministic components like Resource Artifacts (tools) and Coordination Artifacts (workflows) consume over 70% of testing effort, while the FM-based Plan Body receives less than 5%. Crucially, this reveals a critical blind spot, as the Trigger component (prompts) remains neglected, appearing in around 1% of all tests.   Our findings offer the first empirical testing baseline in FM-based agent frameworks and agentic applications, revealing a rational but incomplete adaptation to non-determinism. To address it, framework developers should improve support for novel testing methods, application developers must adopt prompt regression testing, and researchers should explore barriers to adoption. Strengthening these practices is vital for building more robust and dependable AI agents."
+  },
+  {
+    "title": "Bayesian Neural Networks versus deep ensembles for uncertainty quantification in machine learning interatomic potentials",
+    "url": "http://arxiv.org/abs/2509.19180v1",
+    "arxiv_id": "2509.19180v1",
+    "authors": [
+      "Riccardo Farris",
+      "Emanuele Telari",
+      "Nongnuch Artrith",
+      "Konstantin Neyman",
+      "Albert Bruix"
+    ],
+    "published": "2025-09-23T15:52:18+00:00",
+    "summary": "Neural-network-based machine learning interatomic potentials have emerged as powerful tools for predicting atomic energies and forces, enabling accurate and efficient simulations in atomistic modeling. A key limitation of traditional deep learning approaches, however, is their inability to provide reliable estimates of predictive uncertainty. Such uncertainty quantification is critical for assessing model reliability, especially in materials science, where often the model is applied on out-of-distribution data. Different strategies have been proposed to address this challenge, with deep ensembles and Bayesian neural networks being among the most widely used. In this work, we introduce an implementation of Bayesian neural networks with variational inference in the aenet-PyTorch framework. To evaluate their applicability to machine learning interatomic potentials, we systematically compare the performance of variational BNNs and deep ensembles on a dataset of 7,815 TiO$_{2}$ structures. The models are trained on both the full dataset and a subset to assess how variations in data representation influence predictive accuracy and uncertainty estimation. This analysis provides insights into the strengths and limitations of each approach, offering practical guidance for the development of uncertainty-aware machine learning interatomic potentials."
+  },
+  {
+    "title": "Intrinsic Heisenberg Lower Bounds on Schwarzschild and Weyl-Class Spacelike Slices",
+    "url": "http://arxiv.org/abs/2509.19099v1",
+    "arxiv_id": "2509.19099v1",
+    "authors": [
+      "Thomas Sch\u00fcrmann"
+    ],
+    "published": "2025-09-23T14:47:53+00:00",
+    "summary": "We establish a coordinate-invariant Heisenberg-type lower bound for quantum states strictly localized in geodesic balls of radius $r_g$ on horizon-regular spacelike slices of static, spherically symmetric, asymptotically flat (AF) black-holes. Via a variance-eigenvalue equivalence the momentum uncertainty reduces to the first Dirichlet eigenvalue of the Laplace-Beltrami operator, yielding a slice-uniform Hardy baseline $\\sigma_p r_g \\ge \\hbar/2$ under mild convexity assumptions on the balls; the bound is never attained and admits a positive gap both on compact interior regions and uniformly far out. For the Schwarzschild Painlev\\'e-Gullstrand (PG) slice, whose induced 3-geometry is Euclidean, one recovers the exact Euclidean scale $\\sigma_p r_g \\ge \\pi\\hbar$, which is optimal among all admissible slices. The entire construction extends across the black-hole horizon, and it transfers to the static axisymmetric Weyl class, where the Hardy floor, strict gap, and AF $\\pi$-scale persist (a global PG-like optimum need not exist)."
+  },
+  {
+    "title": "Hybrid Adaptive Robust Stochastic Optimization Model for the Design of a Photovoltaic Battery Energy Storage System",
+    "url": "http://arxiv.org/abs/2509.19054v1",
+    "arxiv_id": "2509.19054v1",
+    "authors": [
+      "Alba Lun Mora Pous",
+      "Fernando Garcia-Mu\u00f1oz",
+      "Natalia Jorquera-Bravo",
+      "Ricardo Aranguiz",
+      "Valentina Bugue\u00f1o Olivos"
+    ],
+    "published": "2025-09-23T14:17:57+00:00",
+    "summary": "Future energy projections and their inherent uncertainty play a key role in the design of photovoltaic-battery energy storage systems (PV-BESS) for household use. In this study, both stochastic and robust optimization techniques are simultaneously integrated into a Hybrid Adaptive Robust-Stochastic Optimization (HARSO) model. Uncertainty in future PV generation is addressed using a stochastic approach, while uncertainty in power demand is handled through robust optimization. To solve the tri-level structure emerging from the hybrid approach, a Column-and-Constraint Generation (CCG) algorithm is implemented. The model also accounts for battery degradation by considering multiple commercially available battery chemistries, enabling a more realistic evaluation of long-term system costs and performance. To demonstrate its applicability, the model is applied to a case study involving the optimal design of a PV-BESS system for a household in Spain. The empirical analysis includes both first-life (FL) and second-life (SL) batteries with different chemistries, providing a comprehensive evaluation of design alternatives under uncertainty. Results indicate that the optimal solution is highly dependent on the level of robustness considered, leading to a shift in design strategy. Under less conservative settings, robustness is achieved by increasing battery capacity, while higher levels of conservatism favor expanding PV capacity to meet demand."
+  },
+  {
+    "title": "Bayesian Calibration and Model Assessment of Cell Migration Dynamics with Surrogate Model Integration",
+    "url": "http://arxiv.org/abs/2509.18998v1",
+    "arxiv_id": "2509.18998v1",
+    "authors": [
+      "Christina Schenk",
+      "Jacobo Ayensa Jim\u00e9nez",
+      "Ignacio Romero"
+    ],
+    "published": "2025-09-23T13:45:16+00:00",
+    "summary": "Computational models provide crucial insights into complex biological processes such as cancer evolution, but their mechanistic nature often makes them nonlinear and parameter-rich, complicating calibration. We systematically evaluate parameter probability distributions in cell migration models using Bayesian calibration across four complementary strategies: parametric and surrogate models, each with and without explicit model discrepancy. This approach enables joint analysis of parameter uncertainty, predictive performance, and interpretability. Applied to a real data experiment of glioblastoma progression in microfluidic devices, surrogate models achieve higher computational efficiency and predictive accuracy, whereas parametric models yield more reliable parameter estimates due to their mechanistic grounding. Incorporating model discrepancy exposes structural limitations, clarifying where model refinement is necessary. Together, these comparisons offer practical guidance for calibrating and improving computational models of complex biological systems."
+  },
+  {
+    "title": "Adaptive Override Control under High-Relative-Degree Nonovershooting Constraints",
+    "url": "http://arxiv.org/abs/2509.18988v1",
+    "arxiv_id": "2509.18988v1",
+    "authors": [
+      "Ziliang Lyu",
+      "Miroslav Krstic",
+      "Kaixin Lu",
+      "Yiguang Hong",
+      "Lihua Xie"
+    ],
+    "published": "2025-09-23T13:38:43+00:00",
+    "summary": "This paper considers the problem of adaptively overriding unsafe actions of a nominal controller in the presence of high-relative-degree nonovershooting constraints and parametric uncertainties. To prevent the design from being coupled with high-order derivatives of the parameter estimation error, we adopt a modular design approach in which the controller and the parameter identifier are designed separately. The controller module ensures that any safety violations caused by parametric uncertainties remain bounded, provided that the parameter estimation error and its first-order derivative are either bounded or square-integrable. The identifier module, in turn, guarantees that these requirements on the parameter estimation error are satisfied. Both theoretical analysis and simulation results demonstrate that the closed-loop safety violation is bounded by a tunable function of the initial estimation error. Moreover, as time increases, the parameter estimate converges to the true value, and the amount of safety violation decreases accordingly."
+  },
+  {
+    "title": "Towards Robust LiDAR Localization: Deep Learning-based Uncertainty Estimation",
+    "url": "http://arxiv.org/abs/2509.18954v1",
+    "arxiv_id": "2509.18954v1",
+    "authors": [
+      "Minoo Dolatabadi",
+      "Fardin Ayar",
+      "Ehsan Javanmardi",
+      "Manabu Tsukada",
+      "Mahdi Javanmardi"
+    ],
+    "published": "2025-09-23T13:02:44+00:00",
+    "summary": "LiDAR-based localization and SLAM often rely on iterative matching algorithms, particularly the Iterative Closest Point (ICP) algorithm, to align sensor data with pre-existing maps or previous scans. However, ICP is prone to errors in featureless environments and dynamic scenes, leading to inaccurate pose estimation. Accurately predicting the uncertainty associated with ICP is crucial for robust state estimation but remains challenging, as existing approaches often rely on handcrafted models or simplified assumptions. Moreover, a few deep learning-based methods for localizability estimation either depend on a pre-built map, which may not always be available, or provide a binary classification of localizable versus non-localizable, which fails to properly model uncertainty. In this work, we propose a data-driven framework that leverages deep learning to estimate the registration error covariance of ICP before matching, even in the absence of a reference map. By associating each LiDAR scan with a reliable 6-DoF error covariance estimate, our method enables seamless integration of ICP within Kalman filtering, enhancing localization accuracy and robustness. Extensive experiments on the KITTI dataset demonstrate the effectiveness of our approach, showing that it accurately predicts covariance and, when applied to localization using a pre-built map or SLAM, reduces localization errors and improves robustness."
+  },
+  {
     "title": "GeoSVR: Taming Sparse Voxels for Geometrically Accurate Surface Reconstruction",
     "url": "http://arxiv.org/abs/2509.18090v1",
     "arxiv_id": "2509.18090v1",
