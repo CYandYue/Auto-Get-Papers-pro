@@ -1,5 +1,141 @@
 [
   {
+    "title": "Process-Informed Forecasting of Complex Thermal Dynamics in Pharmaceutical Manufacturing",
+    "url": "http://arxiv.org/abs/2509.20349v1",
+    "arxiv_id": "2509.20349v1",
+    "authors": [
+      "Ramona Rubini",
+      "Siavash Khodakarami",
+      "Aniruddha Bora",
+      "George Em Karniadakis",
+      "Michele Dassisti"
+    ],
+    "published": "2025-09-24T17:42:00+00:00",
+    "summary": "Accurate time-series forecasting for complex physical systems is the backbone of modern industrial monitoring and control. While deep learning models excel at capturing complex dynamics, currently, their deployment is limited due to physical inconsistency and robustness, hence constraining their reliability in regulated environments. We introduce process-informed forecasting (PIF) models for temperature in pharmaceutical lyophilization. We investigate a wide range of models, from classical ones such as Autoregressive Integrated Moving Average Model (ARIMA) and Exponential Smoothing Model (ETS), to modern deep learning architectures, including Kolmogorov-Arnold Networks (KANs). We compare three different loss function formulations that integrate a process-informed trajectory prior: a fixed-weight loss, a dynamic uncertainty-based loss, and a Residual-Based Attention (RBA) mechanism. We evaluate all models not only for accuracy and physical consistency but also for robustness to sensor noise. Furthermore, we test the practical generalizability of the best model in a transfer learning scenario on a new process. Our results show that PIF models outperform their data-driven counterparts in terms of accuracy, physical plausibility and noise resilience. This work provides a roadmap for developing reliable and generalizable forecasting solutions for critical applications in the pharmaceutical manufacturing landscape."
+  },
+  {
+    "title": "Quantum speed limits based on Jensen-Shannon and Jeffreys divergences for general physical processes",
+    "url": "http://arxiv.org/abs/2509.20347v1",
+    "arxiv_id": "2509.20347v1",
+    "authors": [
+      "Jucelino Ferreira de Sousa",
+      "Diego Paiva Pires"
+    ],
+    "published": "2025-09-24T17:39:09+00:00",
+    "summary": "We discuss quantum speed limits (QSLs) for finite-dimensional quantum systems undergoing a general physical process. These QSLs were obtained using two families of entropic measures, namely the square root of the Jensen-Shannon divergence, which in turn defines a faithful distance of quantum states, and the square root of the quantum Jeffreys divergence. The results apply to both closed and open quantum systems, and are evaluated in terms of the Schatten speed of the evolved state, as well as cost functions that depend on the smallest and largest eigenvalues of both initial and instantaneous states of the quantum system. To illustrate our findings, we focus on the unitary and nonunitary dynamics of mixed single-qubit states. In the first case, we obtain speed limits $\\textit{\\`{a} la}$ Mandelstam-Tamm that are inversely proportional to the variance of the Hamiltonian driving the evolution. In the second case, we set the nonunitary dynamics to be described by the noisy operations: depolarizing channel, phase damping channel, and generalized amplitude damping channel. We provide analytical results for the two entropic measures, present numerical simulations to support our results on the speed limits, comment on the tightness of the bounds, and provide a comparison with previous QSLs. Our results may find applications in the study of quantum thermodynamics, entropic uncertainty relations, and also complexity of many-body systems."
+  },
+  {
+    "title": "When Judgment Becomes Noise: How Design Failures in LLM Judge Benchmarks Silently Undermine Validity",
+    "url": "http://arxiv.org/abs/2509.20293v1",
+    "arxiv_id": "2509.20293v1",
+    "authors": [
+      "Benjamin Feuer",
+      "Chiung-Yi Tseng",
+      "Astitwa Sarthak Lathe",
+      "Oussama Elachqar",
+      "John P Dickerson"
+    ],
+    "published": "2025-09-24T16:26:47+00:00",
+    "summary": "LLM-judged benchmarks are increasingly used to evaluate complex model behaviors, yet their design introduces failure modes absent in conventional ground-truth based benchmarks. We argue that without tight objectives and verifiable constructions, benchmark rankings can produce high-confidence rankings that are in fact largely noise. We introduce two mechanisms to diagnose these issues. Schematic adherence quantifies how much of a judge's overall verdict is explained by the explicit evaluation schema, revealing unexplained variance when judges deviate from their own rubric. Psychometric validity aggregates internal consistency and discriminant validity signals to quantify irreducible uncertainty in any benchmarking run. Applying these tools to Arena-Hard Auto, we find severe schema incoherence and factor collapse across popular judges: for example, unexplained variance exceeding 90 percent for DeepSeek-R1-32B and factor correlations above 0.93 for most criteria. We also show that the ELO-style aggregation used by Arena-Hard Auto collapses and masks genuine ranking uncertainty. Our results highlight design failures that undermine validity and offer actionable principles for building better-scoped, reliability-aware LLM-judged benchmarks. We release our code at https://anonymous.4open.science/r/judgment-to-noise-947D/README.md"
+  },
+  {
+    "title": "4D Driving Scene Generation With Stereo Forcing",
+    "url": "http://arxiv.org/abs/2509.20251v1",
+    "arxiv_id": "2509.20251v1",
+    "authors": [
+      "Hao Lu",
+      "Zhuang Ma",
+      "Guangfeng Jiang",
+      "Wenhang Ge",
+      "Bohan Li",
+      "Yuzhan Cai",
+      "Wenzhao Zheng",
+      "Yunpeng Zhang",
+      "Yingcong Chen"
+    ],
+    "published": "2025-09-24T15:37:17+00:00",
+    "summary": "Current generative models struggle to synthesize dynamic 4D driving scenes that simultaneously support temporal extrapolation and spatial novel view synthesis (NVS) without per-scene optimization. Bridging generation and novel view synthesis remains a major challenge. We present PhiGenesis, a unified framework for 4D scene generation that extends video generation techniques with geometric and temporal consistency. Given multi-view image sequences and camera parameters, PhiGenesis produces temporally continuous 4D Gaussian splatting representations along target 3D trajectories. In its first stage, PhiGenesis leverages a pre-trained video VAE with a novel range-view adapter to enable feed-forward 4D reconstruction from multi-view images. This architecture supports single-frame or video inputs and outputs complete 4D scenes including geometry, semantics, and motion. In the second stage, PhiGenesis introduces a geometric-guided video diffusion model, using rendered historical 4D scenes as priors to generate future views conditioned on trajectories. To address geometric exposure bias in novel views, we propose Stereo Forcing, a novel conditioning strategy that integrates geometric uncertainty during denoising. This method enhances temporal coherence by dynamically adjusting generative influence based on uncertainty-aware perturbations. Our experimental results demonstrate that our method achieves state-of-the-art performance in both appearance and geometric reconstruction, temporal generation and novel view synthesis (NVS) tasks, while simultaneously delivering competitive performance in downstream evaluations. Homepage is at \\href{https://jiangxb98.github.io/PhiGensis}{PhiGensis}."
+  },
+  {
+    "title": "$S_8$ from Tully-Fisher, fundamental plane, and supernova distances agree with Planck",
+    "url": "http://arxiv.org/abs/2509.20235v1",
+    "arxiv_id": "2509.20235v1",
+    "authors": [
+      "Richard Stiskalek"
+    ],
+    "published": "2025-09-24T15:25:11+00:00",
+    "summary": "Peculiar velocity measurements constrain the parameter combination $f\\sigma_8$, the product of the linear growth rate $f$ and the fluctuation amplitude $\\sigma_8$. Under the approximation that $f$ is a monotonic function of $\\Omega_{\\rm m}$, this can be related to $S_8 \\equiv \\sigma_8 \\sqrt{\\Omega_{\\rm m}/0.3}$, enabling direct comparison with weak lensing and cosmic microwave background results. We exploit this by using three classes of direct-distance tracers -- the Tully-Fisher relation, the fundamental plane, and Type~Ia supernovae -- to infer peculiar velocities. A unified hierarchical forward model jointly calibrates each distance indicator and a linear theory reconstruction of the local Universe. This is the first consistent Bayesian analysis to combine all three major classes of distance indicators within a common framework, enabling cross-checks of systematics across diverse galaxy populations. All three tracers yield consistent values of $S_8$ that are also in agreement with Planck. Our joint constraint is $S_8 = 0.819 \\pm 0.030$, with the uncertainty dominated by the 2M++ galaxy field. These results demonstrate that peculiar velocity surveys provide a robust, consistent measurement of $S_8$, and support concordance with the cosmic microwave background."
+  },
+  {
+    "title": "InconVAD: A Two-Stage Dual-Tower Framework for Multimodal Emotion Inconsistency Detection",
+    "url": "http://arxiv.org/abs/2509.20140v1",
+    "arxiv_id": "2509.20140v1",
+    "authors": [
+      "Zongyi Li",
+      "Junchuan Zhao",
+      "Francis Bu Sung Lee",
+      "Andrew Zi Han Yee"
+    ],
+    "published": "2025-09-24T14:03:59+00:00",
+    "summary": "Detecting emotional inconsistency across modalities is a key challenge in affective computing, as speech and text often convey conflicting cues. Existing approaches generally rely on incomplete emotion representations and employ unconditional fusion, which weakens performance when modalities are inconsistent. Moreover, little prior work explicitly addresses inconsistency detection itself. We propose InconVAD, a two-stage framework grounded in the Valence/Arousal/Dominance (VAD) space. In the first stage, independent uncertainty-aware models yield robust unimodal predictions. In the second stage, a classifier identifies cross-modal inconsistency and selectively integrates consistent signals. Extensive experiments show that InconVAD surpasses existing methods in both multimodal emotion inconsistency detection and modeling, offering a more reliable and interpretable solution for emotion analysis."
+  },
+  {
+    "title": "Causal Understanding by LLMs: The Role of Uncertainty",
+    "url": "http://arxiv.org/abs/2509.20088v1",
+    "arxiv_id": "2509.20088v1",
+    "authors": [
+      "Oscar Lithgow-Serrano",
+      "Vani Kanjirangat",
+      "Alessandro Antonucci"
+    ],
+    "published": "2025-09-24T13:06:35+00:00",
+    "summary": "Recent papers show LLMs achieve near-random accuracy in causal relation classification, raising questions about whether such failures arise from limited pretraining exposure or deeper representational gaps. We investigate this under uncertainty-based evaluation, testing whether pretraining exposure to causal examples improves causal understanding >18K PubMed sentences -- half from The Pile corpus, half post-2024 -- across seven models (Pythia-1.4B/7B/12B, GPT-J-6B, Dolly-7B/12B, Qwen-7B). We analyze model behavior through: (i) causal classification, where the model identifies causal relationships in text, and (ii) verbatim memorization probing, where we assess whether the model prefers previously seen causal statements over their paraphrases. Models perform four-way classification (direct/conditional/correlational/no-relationship) and select between originals and their generated paraphrases. Results show almost identical accuracy on seen/unseen sentences (p > 0.05), no memorization bias (24.8% original selection), and output distribution over the possible options is almost flat, with entropic values near the maximum (1.35/1.39), confirming random guessing. Instruction-tuned models show severe miscalibration (Qwen: > 95% confidence, 32.8% accuracy, ECE=0.49). Conditional relations induce highest entropy (+11% vs. direct). These findings suggest that failures in causal understanding arise from the lack of structured causal representation, rather than insufficient exposure to causal examples during pretraining."
+  },
+  {
+    "title": "Queryable 3D Scene Representation: A Multi-Modal Framework for Semantic Reasoning and Robotic Task Planning",
+    "url": "http://arxiv.org/abs/2509.20077v1",
+    "arxiv_id": "2509.20077v1",
+    "authors": [
+      "Xun Li",
+      "Rodrigo Santa Cruz",
+      "Mingze Xi",
+      "Hu Zhang",
+      "Madhawa Perera",
+      "Ziwei Wang",
+      "Ahalya Ravendran",
+      "Brandon J. Matthews",
+      "Feng Xu",
+      "Matt Adcock",
+      "Dadong Wang",
+      "Jiajun Liu"
+    ],
+    "published": "2025-09-24T12:53:32+00:00",
+    "summary": "To enable robots to comprehend high-level human instructions and perform complex tasks, a key challenge lies in achieving comprehensive scene understanding: interpreting and interacting with the 3D environment in a meaningful way. This requires a smart map that fuses accurate geometric structure with rich, human-understandable semantics. To address this, we introduce the 3D Queryable Scene Representation (3D QSR), a novel framework built on multimedia data that unifies three complementary 3D representations: (1) 3D-consistent novel view rendering and segmentation from panoptic reconstruction, (2) precise geometry from 3D point clouds, and (3) structured, scalable organization via 3D scene graphs. Built on an object-centric design, the framework integrates with large vision-language models to enable semantic queryability by linking multimodal object embeddings, and supporting object-level retrieval of geometric, visual, and semantic information. The retrieved data are then loaded into a robotic task planner for downstream execution. We evaluate our approach through simulated robotic task planning scenarios in Unity, guided by abstract language instructions and using the indoor public dataset Replica. Furthermore, we apply it in a digital duplicate of a real wet lab environment to test QSR-supported robotic task planning for emergency response. The results demonstrate the framework's ability to facilitate scene understanding and integrate spatial and semantic reasoning, effectively translating high-level human instructions into precise robotic task planning in complex 3D environments."
+  },
+  {
+    "title": "From Input Perception to Predictive Insight: Modeling Model Blind Spots Before They Become Errors",
+    "url": "http://arxiv.org/abs/2509.20065v1",
+    "arxiv_id": "2509.20065v1",
+    "authors": [
+      "Maggie Mi",
+      "Aline Villavicencio",
+      "Nafise Sadat Moosavi"
+    ],
+    "published": "2025-09-24T12:33:54+00:00",
+    "summary": "Language models often struggle with idiomatic, figurative, or context-sensitive inputs, not because they produce flawed outputs, but because they misinterpret the input from the outset. We propose an input-only method for anticipating such failures using token-level likelihood features inspired by surprisal and the Uniform Information Density hypothesis. These features capture localized uncertainty in input comprehension and outperform standard baselines across five linguistically challenging datasets. We show that span-localized features improve error detection for larger models, while smaller models benefit from global patterns. Our method requires no access to outputs or hidden activations, offering a lightweight and generalizable approach to pre-generation error prediction."
+  },
+  {
+    "title": "Joint Ex-Post Location Calibration and Radio Map Construction under Biased Positioning Errors",
+    "url": "http://arxiv.org/abs/2509.20059v1",
+    "arxiv_id": "2509.20059v1",
+    "authors": [
+      "Koki Kanzaki",
+      "Koya Sato"
+    ],
+    "published": "2025-09-24T12:29:16+00:00",
+    "summary": "This paper proposes a high-accuracy radio map construction method tailored for environments where location information is affected by bursty errors. Radio maps are an effective tool for visualizing wireless environments. Although extensive research has been conducted on accurate radio map construction, most existing approaches assume noise-free location information during sensing. In practice, however, positioning errors ranging from a few to several tens of meters can arise due to device-based positioning systems (e.g., GNSS). Ignoring such errors during inference can lead to significant degradation in radio map accuracy. This study highlights that these errors often tend to be biased when using mobile devices as sensors. We introduce a novel framework that models these errors together with spatial correlation in radio propagation by embedding them as tunable parameters in the marginal log-likelihood function. This enables ex-post calibration of location uncertainty during radio map construction. Numerical results based on practical human mobility data demonstrate that the proposed method can limit RMSE degradation to approximately 0.25-0.29 dB, compared with Gaussian process regression using noise-free location data, whereas baseline methods suffer performance losses exceeding 1 dB."
+  },
+  {
     "title": "Recalibration of the H$\u03b1$ surface brightness-radius relation for planetary nebulae using Gaia DR3: new distances and the Milky Way oxygen radial gradient",
     "url": "http://arxiv.org/abs/2509.19239v1",
     "arxiv_id": "2509.19239v1",
