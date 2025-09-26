@@ -1,5 +1,132 @@
 [
   {
+    "title": "Efficient Digital Methods to Quantify Sensor Output Uncertainty",
+    "url": "http://arxiv.org/abs/2509.21311v1",
+    "arxiv_id": "2509.21311v1",
+    "authors": [
+      "Orestis Kaparounakis",
+      "Phillip Stanley-Marbell"
+    ],
+    "published": "2025-09-25T15:28:00+00:00",
+    "summary": "Accurate characterization of sensor output uncertainty is important for reliable data interpretation in many applications. Here, we investigate the impact of transducer-level measurement uncertainty on overall sensor measurement accuracy due to limited-precision information about sensor components. We explain our method using thermopile-based sensors as an example class of sensors. We show how sensor calibration and conversion equations, which are an essential part of all sensing systems, propagate uncertainties resulting from the quantization of calibration parameters, to the final, compensated sensor output. The experimental results show that the epistemic uncertainty of calibration-related quantities leads to absolute error in the sensor output as high as 5.3 {\\deg}C (and relative error as high as 25.7%) for one commonly-used thermopile sensor. In one instance of using the epistemic uncertainty information in edge detection, we show reduction of false-positives edges to zero for the conventional Canny operator, while maintaining accuracy. We show these ideas are practical and possible on actual embedded sensor systems by prototyping them on two commercially-available uncertainty tracking hardware platforms, one with average power dissipation 16.7 mW and 42.9x speedup compared to the equal-confidence Monte Carlo computation (the status quo), and the other with average power dissipation 147.15 mW and 94.4x speedup, paving the way for use in real time."
+  },
+  {
+    "title": "Emission line tracers of galactic outflows driven by stellar feedback in simulations of isolated disk galaxies",
+    "url": "http://arxiv.org/abs/2509.21295v1",
+    "arxiv_id": "2509.21295v1",
+    "authors": [
+      "Elliot L. Howatson",
+      "Alexander J. Richings",
+      "Elke Roediger",
+      "Claude-Andre Faucher-Giguere",
+      "Tom Theuns",
+      "Yuankang Liu",
+      "Tsang Keung Chan",
+      "Oliver Thompson",
+      "Cody Carr",
+      "Daniel Angles-Alcazar"
+    ],
+    "published": "2025-09-25T15:13:21+00:00",
+    "summary": "Hydrodynamic simulations can connect outflow observables to the physical conditions of outflowing gas. Here, we use simulations of isolated disk galaxies ranging from dwarf mass ($M_{200} = 10^{10}\\mathrm{M}_{\\odot}$) to Milky Way mass ($M_{200} = 10^{12}\\mathrm{M}_{\\odot}$), based on the FIRE-2 subgrid models to investigate multiphase galactic outflows. We use the CHIMES non-equilibrium chemistry module to create synthetic spectra of common outflow tracers ([CII]$_{158\\rm{\\mu m}}$, $\\mathrm{CO}_{J(1-0)}$, H$\\alpha$ and $[\\mathrm{OIII}]_{5007\\text{A}}$). Using our synthetic spectra we measure the mass outflow rate, kinetic power and momentum flux using observational techniques. In [CII]$_{158\\rm{\\mu m}}$ we measure outflow rates of $10^{-4}$ to $1$ $\\mathrm{M_{\\odot}yr^{-1}}$ across an SFR range of $10^{-3}$ to $1$ $\\text{M}_{\\odot}\\text{yr}^{-1}$, which is in reasonable agreement with observations. The significant discrepancy is in $\\mathrm{CO}_{J(1-0)}$, with the simulations lying $\\approx1$ dex below the observational sample. We test observational assumptions used to derive outflow properties from synthetic spectra. We find the greatest uncertainty lies in measurements of electron density, as estimates using the SII doublet can overestimate the actual electron density by up to 2 dex, which changes mass outflow rates by up to 4 dex. We also find that molecular outflows are especially sensitive to the conversion factor between CO luminosity and H2 mass, with outflow rates changing by up to 4 dex in our least massive galaxy. Comparing the outflow properties derived from the synthetic spectra to those derived directly from the simulation, we find that [CII]$_{158\\rm{\\mu m}}$ probes outflows at greater distances from the disk, whilst we find that molecular gas does not survive at large distances within outflows within our modestly star-forming disk galaxies simulated in this work."
+  },
+  {
+    "title": "Next-Generation Aerial Robots -- Omniorientational Strategies: Dynamic Modeling, Control, and Comparative Analysis",
+    "url": "http://arxiv.org/abs/2509.21210v1",
+    "arxiv_id": "2509.21210v1",
+    "authors": [
+      "Ali Kafili Gavgani",
+      "Amin Talaeizadeh",
+      "Aria Alasty",
+      "Hossein Nejat Pishkenari",
+      "Esmaeil Najafi"
+    ],
+    "published": "2025-09-25T14:21:09+00:00",
+    "summary": "Conventional multi-rotors are under-actuated systems, hindering them from independently controlling attitude from position. In this study, we present several distinct configurations that incorporate additional control inputs for manipulating the angles of the propeller axes. This addresses the mentioned limitations, making the systems \"omniorientational\". We comprehensively derived detailed dynamic models for all introduced configurations and validated by a methodology using Simscape Multibody simulations. Two controllers are designed: a sliding mode controller for robust handling of disturbances and a novel PID-based controller with gravity compensation integrating linear and non-linear allocators, designed for computational efficiency. A custom control allocation strategy is implemented to manage the input-non-affine nature of these systems, seeking to maximize battery life by minimizing the \"Power Consumption Factor\" defined in this study. Moreover, the controllers effectively managed harsh disturbances and uncertainties. Simulations compare and analyze the proposed configurations and controllers, majorly considering their power consumption. Furthermore, we conduct a qualitative comparison to evaluate the impact of different types of uncertainties on the control system, highlighting areas for potential model or hardware improvements. The analysis in this study provides a roadmap for future researchers to design omniorientational drones based on their design objectives, offering practical insights into configuration selection and controller design. This research aligns with the project SAC-1, one of the objectives of Sharif AgRoLab."
+  },
+  {
+    "title": "Hybrid RIS-Aided Digital Over-the-Air Computing for Edge AI Inference: Joint Feature Quantization and Active-Passive Beamforming Design",
+    "url": "http://arxiv.org/abs/2509.21201v1",
+    "arxiv_id": "2509.21201v1",
+    "authors": [
+      "Yang Fu",
+      "Peng Qin",
+      "Liming Chen",
+      "Yifei Wang"
+    ],
+    "published": "2025-09-25T14:12:03+00:00",
+    "summary": "The vision of 6G networks aims to enable edge inference by leveraging ubiquitously deployed artificial intelligence (AI) models, facilitating intelligent environmental perception for a wide range of applications. A critical operation in edge inference is for an edge node (EN) to aggregate multi-view sensory features extracted by distributed agents, thereby boosting perception accuracy. Over-the-air computing (AirComp) emerges as a promising technique for rapid feature aggregation by exploiting the waveform superposition property of analog-modulated signals, which is, however, incompatible with existing digital communication systems. Meanwhile, hybrid reconfigurable intelligent surface (RIS), a novel RIS architecture capable of simultaneous signal amplification and reflection, exhibits potential for enhancing AirComp. Therefore, this paper proposes a Hybrid RIS-aided Digital AirComp (HRD-AirComp) scheme, which employs vector quantization to map high-dimensional features into discrete codewords that are digitally modulated into symbols for wireless transmission. By judiciously adjusting the AirComp transceivers and hybrid RIS reflection to control signal superposition across agents, the EN can estimate the aggregated features from the received signals. To endow HRD-AirComp with a task-oriented design principle, we derive a surrogate function for inference accuracy that characterizes the impact of feature quantization and over-the-air aggregation. Based on this surrogate, we formulate an optimization problem targeting inference accuracy maximization, and develop an efficient algorithm to jointly optimize the quantization bit allocation, agent transmission coefficients, EN receiving beamforming, and hybrid RIS reflection beamforming. Experimental results demonstrate that the proposed HRD-AirComp outperforms baselines in terms of both inference accuracy and uncertainty."
+  },
+  {
+    "title": "The depletion of the asteroid belt and the impact history of the Earth",
+    "url": "http://arxiv.org/abs/2509.21194v1",
+    "arxiv_id": "2509.21194v1",
+    "authors": [
+      "Julio A. Fernandez"
+    ],
+    "published": "2025-09-25T14:08:21+00:00",
+    "summary": "We have evaluated the rate at which the asteroid belt is losing material, and how it splits between macroscopic bodies and meteoritic dust. The mass loss process is due to the injection of asteroid fragments into unstable dynamical regions, associated to mean-motion resonances with Jupiter, Saturn and Mars or secular resonances, from where they are scattered either to the region of the terrestrial planets or to the vicinity of Jupiter's orbit. Asteroid fragments that do not escape from the belt are ground down by mutual collisions to meteoritic dust. Under the assumption that 25\\% of the zodiacal dust mass is of asteroidal origin, we find that the asteroid belt is currently losing a fraction of about $\\mu_o \\simeq 8.8 \\times 10^{-5}$ Ma$^{-1}$ of its collisionally-active mass (without the primordial objects Ceres, Vesta and Pallas), about 20\\% as macroscopic bodies, and 80\\% as dust particles that feed the zodiacal dust cloud. Extrapolation of the current mass loss rate to the past suggests only a moderate increase of the asteroid belt mass and the mass loss rate around 3.0 - 3.5 Ga ago (by about 50\\% and a factor of two respectively). Yet, should the computed $\\mu_o$ be somewhat underestimated owing to the different uncertainties associated to its computation, the extrapolation to the past would lead to quite different results. For instance, a moderate increase in the computed $\\mu_o$, say by a factor of three, would lead to an exponential increase of the asteroid mass and mass loss rate about 3.5 Ga ago. A greater asteroid mass loss rate in the past should be correlated with a more intense impact rate of the Earth, Moon and the other terrestrial planets, which is indeed what suggests the geologic record (Hartmann 2007)."
+  },
+  {
+    "title": "$\u039b_{c}(2910)$ and $\u039b_{c}(2940)$ productions in $p \\bar{p}$ annihilation and $K^{-}p$ scattering processes",
+    "url": "http://arxiv.org/abs/2509.21176v1",
+    "arxiv_id": "2509.21176v1",
+    "authors": [
+      "Quan-Yun Guo",
+      "Dian-Yong Chen"
+    ],
+    "published": "2025-09-25T13:57:12+00:00",
+    "summary": "In this work, we investigate the productions of $\\Lambda_{c}(2910)$ and $\\Lambda_{c}(2940)$ in the $p \\bar{p} \\rightarrow \\bar{\\Lambda}_{c} D^{0} p$, $K^{-}p \\rightarrow D^{-}_{s} D^{0} p$, and $K^{-}p \\rightarrow D^{\\ast-}_{s} D^{0} p$ processes by utilizing an effective Lagrangian approach, where both $\\Lambda_{c}(2910)$ and $\\Lambda_{c}(2940)$ are considered as $D^{\\ast}N$ molecular states with $J^{P}=1/2^{-}$ and $3/2^{-}$, respectively. The cross sections and $D^0 p$ invariant mass distributions at exemplified center-of-mass energy for the involved processes are estimated. At $\\sqrt{s}=10$ $\\mathrm{GeV}$, our estimations indicate that the cross sections for $p \\bar{p} \\rightarrow \\bar{\\Lambda}_{c} D^{0} p$, $K^{-}p \\rightarrow D^{-}_{s} D^{0} p$, and $K^{-}p \\rightarrow D^{\\ast-}_{s} D^{0} p$ processes are $(2.1^{+5.6}_{-1.6})$ nb, $(2.2^{+5.9}_{-1.7})$ nb, and $(0.6^{+1.6}_{-0.4})$ nb, respectively, where the uncertainties are resulted from the variation of model parameter. Furthermore, Our estimations of the $D^{0}p$ invariant mass spectra reveal that the peak structure around 2.9 GeV primarily originates from $\\Lambda_c(2910)$ across all three processes, however the contributions from $\\Lambda_c(2940)$ makes the structure asymmetric. It is expected that the total cross sections and the $D^0 p$ invariant mass distributions estimated in the present work can be tested by future experiments at $\\mathrm{\\bar{P}ANDA}$ and J-PARC."
+  },
+  {
+    "title": "DATS: Distance-Aware Temperature Scaling for Calibrated Class-Incremental Learning",
+    "url": "http://arxiv.org/abs/2509.21161v1",
+    "arxiv_id": "2509.21161v1",
+    "authors": [
+      "Giuseppe Serra",
+      "Florian Buettner"
+    ],
+    "published": "2025-09-25T13:46:56+00:00",
+    "summary": "Continual Learning (CL) is recently gaining increasing attention for its ability to enable a single model to learn incrementally from a sequence of new classes. In this scenario, it is important to keep consistent predictive performance across all the classes and prevent the so-called Catastrophic Forgetting (CF). However, in safety-critical applications, predictive performance alone is insufficient. Predictive models should also be able to reliably communicate their uncertainty in a calibrated manner - that is, with confidence scores aligned to the true frequencies of target events. Existing approaches in CL address calibration primarily from a data-centric perspective, relying on a single temperature shared across all tasks. Such solutions overlook task-specific differences, leading to large fluctuations in calibration error across tasks. For this reason, we argue that a more principled approach should adapt the temperature according to the distance to the current task. However, the unavailability of the task information at test time/during deployment poses a major challenge to achieve the intended objective. For this, we propose Distance-Aware Temperature Scaling (DATS), which combines prototype-based distance estimation with distance-aware calibration to infer task proximity and assign adaptive temperatures without prior task information. Through extensive empirical evaluation on both standard benchmarks and real-world, imbalanced datasets taken from the biomedical domain, our approach demonstrates to be stable, reliable and consistent in reducing calibration error across tasks compared to state-of-the-art approaches."
+  },
+  {
+    "title": "Normalizing Flows are Capable Visuomotor Policy Learning Models",
+    "url": "http://arxiv.org/abs/2509.21073v1",
+    "arxiv_id": "2509.21073v1",
+    "authors": [
+      "Simon Kristoffersson Lind",
+      "Jialong Li",
+      "Maj Stenmark",
+      "Volker Kr\u00fcger"
+    ],
+    "published": "2025-09-25T12:23:57+00:00",
+    "summary": "The field of general purpose robotics has recently embraced powerful probabilistic models, such as diffusion models, to model and learn complex behaviors. However, these models often come with significant trade-offs, namely high computational costs for inference and a fundamental inability to quantify output uncertainty. We argue that a model's trustworthiness, a critical factor for reliable, general-purpose robotics, is inherently linked to its ability to provide confidence measures.   In this work, we introduce Normalizing Flows Policy, a novel visuomotor policy learning model based on Normalizing Flows. We show that Normalizing Flows are a natural and powerful alternative to diffusion models, providing both a statistically sound measure of confidence and a highly efficient inference process. Through comprehensive experiments across four distinct simulated robotic tasks, we demonstrate that Normalizing Flows Policy achieves performance comparable to, and often surpassing, Diffusion Policy, and it does so not only with improved sample efficiency but also with up to 30 times faster inference. Additionally, our ablation study validates several key architectural and training techniques that enable Normalizing Flows to perform well in this domain."
+  },
+  {
+    "title": "A sub-hourly spatio-temporal statistical model for solar irradiance in Ireland using open-source data",
+    "url": "http://arxiv.org/abs/2509.21041v1",
+    "arxiv_id": "2509.21041v1",
+    "authors": [
+      "Maeve Upton",
+      "Eamonn Organ",
+      "Amanda Lenzi",
+      "James Sweeney"
+    ],
+    "published": "2025-09-25T11:46:29+00:00",
+    "summary": "Accurate estimation of solar irradiance is essential for reliable modelling of solar photovoltaic (PV) power production. In Ireland's highly variable maritime climate, where ground-based measurement stations are sparsely distributed, selecting an appropriate solar irradiance dataset presents a significant challenge. This study introduces a novel Bayesian spatio-temporal modelling framework for predicting solar irradiance at hourly and sub-hourly (10-minute) resolutions across Ireland. Cross-validation demonstrates that our model is statistically robust across all temporal resolutions with hourly showing highest prediction precision whereas 10-minute resolution encounters higher errors but better uncertainty quantification. In separate evaluations, we compare our model against alternative data sources, including reanalysis datasets and nearest-station interpolation, and find that it consistently provides superior site-specific accuracy. At the hourly scale, our model outperforms ERA5 in agreement with ground-based observations. At the sub-hourly scale, 10-minute resolution estimates provide solar PV power outputs consistent with residential and industrial solar PV installations in Ireland. Beyond surpassing existing datasets, our model delivers full uncertainty quantification, scalability and the capacity for real-time implementation, offering a powerful tool for solar energy prediction and the estimation of losses due to overload clipping from inverter undersizing."
+  },
+  {
+    "title": "Study on Locomotive Epidemic Dynamics in a Stochastic Spatio-Temporal Simulation Model on a Multiplex Network",
+    "url": "http://arxiv.org/abs/2509.21017v1",
+    "arxiv_id": "2509.21017v1",
+    "authors": [
+      "H. M. Shadman Tabib",
+      "Jaber Ahmed Deedar",
+      "K. M. Ariful Kabir"
+    ],
+    "published": "2025-09-25T11:26:46+00:00",
+    "summary": "This study presents an integrated approach to understanding epidemic dynamics through a stochastic spatio-temporal simulation model on a multiplex network, blending physical and informational layers. The physical layer maps the geographic movement of individuals, while the information layer tracks the spread of knowledge and health behavior via social interactions. We explore the interplay between physical mobility, information flow, and epidemic outcomes by simulating disease spread within this dual-structured network. Our model employs stochastic elements to mirror human behavior, mobility, and information dissemination uncertainties. Through simulations, we assess the impact of network structure, mobility patterns, and information spread speed on epidemic dynamics. The findings highlight the crucial role of effective communication in curbing disease transmission, even in highly mobile societies. Additionally, our agent-based simulation allows for real-time scenario analysis through a user interface, offering insights into leveraging physical and informational networks for epidemic control. This research sheds light on designing strategic interventions in complex social systems to manage disease outbreaks."
+  },
+  {
     "title": "Process-Informed Forecasting of Complex Thermal Dynamics in Pharmaceutical Manufacturing",
     "url": "http://arxiv.org/abs/2509.20349v1",
     "arxiv_id": "2509.20349v1",
