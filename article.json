@@ -1,5 +1,149 @@
 [
   {
+    "title": "Towards Efficient Online Exploration for Reinforcement Learning with Human Feedback",
+    "url": "http://arxiv.org/abs/2509.22633v1",
+    "arxiv_id": "2509.22633v1",
+    "authors": [
+      "Gen Li",
+      "Yuling Yan"
+    ],
+    "published": "2025-09-26T17:57:17+00:00",
+    "summary": "Reinforcement learning with human feedback (RLHF), which learns a reward model from human preference data and then optimizes a policy to favor preferred responses, has emerged as a central paradigm for aligning large language models (LLMs) with human preferences. In this paper, we investigate exploration principles for online RLHF, where one seeks to adaptively collect new preference data to refine both the reward model and the policy in a data-efficient manner. By examining existing optimism-based exploration algorithms, we identify a drawback in their sampling protocol: they tend to gather comparisons that fail to reduce the most informative uncertainties in reward differences, and we prove lower bounds showing that such methods can incur linear regret over exponentially long horizons. Motivated by this insight, we propose a new exploration scheme that directs preference queries toward reducing uncertainty in reward differences most relevant to policy improvement. Under a multi-armed bandit model of RLHF, we establish regret bounds of order $T^{(\\beta+1)/(\\beta+2)}$, where $\\beta>0$ is a hyperparameter that balances reward maximization against mitigating distribution shift. To our knowledge, this is the first online RLHF algorithm with regret scaling polynomially in all model parameters."
+  },
+  {
+    "title": "From tests to effect sizes: Quantifying uncertainty and statistical variability in multilingual and multitask NLP evaluation benchmarks",
+    "url": "http://arxiv.org/abs/2509.22612v1",
+    "arxiv_id": "2509.22612v1",
+    "authors": [
+      "Jonne S\u00e4lev\u00e4",
+      "Duygu Ataman",
+      "Constantine Lignos"
+    ],
+    "published": "2025-09-26T17:37:55+00:00",
+    "summary": "In this paper, we introduce a set of resampling-based methods for quantifying uncertainty and statistical precision of evaluation metrics in multilingual and/or multitask NLP benchmarks. We show how experimental variation in performance scores arises from both model- and data-related sources, and that accounting for both of them is necessary to avoid substantially underestimating the overall variability over hypothetical replications. Using multilingual question answering, machine translation, and named entity recognition as example tasks, we also demonstrate how resampling methods are useful for computing sampling distributions for various quantities used in leaderboards such as the average/median, pairwise differences between models, and rankings."
+  },
+  {
+    "title": "Likelihood-free inference for gravitational-wave data analysis and public alerts",
+    "url": "http://arxiv.org/abs/2509.22561v1",
+    "arxiv_id": "2509.22561v1",
+    "authors": [
+      "Ethan Marx",
+      "Deep Chatterjee",
+      "Malina Desai",
+      "Ravi Kumar",
+      "William Benoit",
+      "Argyro Sasli",
+      "Leo Singer",
+      "Michael W. Coughlin",
+      "Philip Harris",
+      "Erik Katsavounidis"
+    ],
+    "published": "2025-09-26T16:41:11+00:00",
+    "summary": "Rapid and reliable detection and dissemination of source parameter estimation data products from gravitational-wave events, especially sky localization, is critical for maximizing the potential of multi-messenger astronomy. Machine learning based detection and parameter estimation algorithms are emerging as production ready alternatives to traditional approaches. Here, we report validation studies of AMPLFI, a likelihood-free inference solution to low-latency parameter estimation of binary black holes. We use simulated signals added into data from the LIGO-Virgo-KAGRA's (LVK's) third observing run (O3) to compare sky localization performance with BAYESTAR, the algorithm currently in production for rapid sky localization of candidates from matched-filter pipelines. We demonstrate sky localization performance, measured by searched area and volume, to be equivalent with BAYESTAR. We show accurate reconstruction of source parameters with uncertainties for use distributing low-latency coarse-grained chirp mass information. In addition, we analyze several candidate events reported by the LVK in the third gravitational-wave transient catalog (GWTC-3) and show consistency with the LVK's analysis. Altogether, we demonstrate AMPLFI's ability to produce data products for low-latency public alerts."
+  },
+  {
+    "title": "Event Generator Tuning as a Robustness Test",
+    "url": "http://arxiv.org/abs/2509.22526v1",
+    "arxiv_id": "2509.22526v1",
+    "authors": [
+      "Jean Wolfs",
+      "Chris M. Marshall"
+    ],
+    "published": "2025-09-26T16:05:26+00:00",
+    "summary": "Neutrino oscillation experiments use Monte Carlo event generators to predict neutrino-nucleus interactions. Cross section uncertainties are typically implemented by varying the parameters of the model(s) used in the generator. We study the performance of two commonly-used model configurations of the GENIE generator (G18_10a_02_11a and AR23_0i_00_000) and their uncertainties by tuning parameters to cross section data, and then comparing the resulting tuned prediction to a suite of other measurements from T2K, MicroBooNE, and MINERvA. This reveals whether the model can simultaneously describe several datasets, as well as whether the uncertainties are adequately robust. We find that G18 and especially AR23 are reasonable in predicting lower-energy measurements from T2K and MicroBooNE, but unable to describe MINERvA data, and discuss the implications for short-baseline oscillation searches. We attempt to replicate a tuning procedure developed by MicroBooNE using several different measurements, and find substantially different results depending on which measurement is used, and that the MicroBooNE tune does not agree with other measurements. We conclude that the SBN experiment should not tune its generator to external data."
+  },
+  {
+    "title": "A high-stability optical clock based on a continuously ground-state cooled Al$^+$ ion without compromising its accuracy",
+    "url": "http://arxiv.org/abs/2509.22525v1",
+    "arxiv_id": "2509.22525v1",
+    "authors": [
+      "Fabian Dawel",
+      "Lennart Pelzer",
+      "Kai Dietze",
+      "Johannes Kramer",
+      "Marek Hild",
+      "Steven A. King",
+      "Nicolas C. H. Spethmann",
+      "Joshua Klose",
+      "Kilian Stahl",
+      "S\u00f6ren D\u00f6rscher",
+      "Erik Benkler",
+      "Christian Lisdat",
+      "Sergey G. Porsev",
+      "Marianna S. Safronova",
+      "Piet O. Schmidt"
+    ],
+    "published": "2025-09-26T16:05:15+00:00",
+    "summary": "Single ion optical clocks have shown systematic frequency uncertainties below $10^{-18}$, but typically require more than one week of averaging to achieve a corresponding statistical uncertainty. This time can be reduced with longer probe times, but comes at the cost of a higher time-dilation shift due to motional heating of the ions in the trap. We show that sympathetic ground-state cooling using electromagnetically-induced transparency (EIT) of an \\Al clock ion via a co-trapped \\Ca ion during clock interrogation suppresses the heating of the ions. \\Al can be kept close to the motional ground state, independent from the chosen interrogation time, at a relative time dilation shift of $(-1.69\\pm0.20)\\times10^{-18}$. The \\Ca cooling light introduces an additional light shift on the \\Al clock transition of $(-9.27\\pm 1.03)\\times10^{-18}$. We project that the uncertainty of this light shift can be further reduced by nearly an order of magnitude. This sympathetic cooling enables seconds of interrogation time with $10^{-19}$ motional and cooling laser-induced uncertainties for \\Al and can be employed in other ion clocks as well."
+  },
+  {
+    "title": "Metric response of relative entropy: a universal indicator of quantum criticality",
+    "url": "http://arxiv.org/abs/2509.22515v1",
+    "arxiv_id": "2509.22515v1",
+    "authors": [
+      "Pritam Sarkar",
+      "Diptiman Sen",
+      "Arnab Sen"
+    ],
+    "published": "2025-09-26T15:58:00+00:00",
+    "summary": "The information-geometric origin of fidelity susceptibility and its utility as a universal probe of quantum criticality in many-body settings have been widely discussed. Here we explore the metric response of quantum relative entropy (QRE), by tracing out all but $n$ adjacent sites from the ground state of spin chains of finite length $N$, as a parameter of the corresponding Hamiltonian is varied. The diagonal component of this metric defines a susceptibility of the QRE that diverges at quantum critical points (QCPs) in the thermodynamic limit. We study two spin-$1/2$ models as examples, namely the integrable transverse field Ising model (TFIM) and a non-integrable Ising chain with three-spin interactions. We demonstrate distinct scaling behaviors for the peak of the QRE susceptibility as a function of $N$: namely a square logarithmic divergence in TFIM and a power-law divergence in the non-integrable chain. This susceptibility encodes uncertainty of entanglement Hamiltonian gradients and is also directly connected to other information measures such as Petz-R\\'enyi entropies. We further show that this susceptibility diverges even at finite $N$ if the subsystem size, $n$, exceeds a certain value when the Hamiltonian is tuned to its classical limits due to the rank of the RDMs being finite; unlike the divergence associated with the QCPs which require $N \\rightarrow \\infty$."
+  },
+  {
+    "title": "A Multiplicative Instrumental Variable Model for Data Missing Not-at-Random",
+    "url": "http://arxiv.org/abs/2509.22499v1",
+    "arxiv_id": "2509.22499v1",
+    "authors": [
+      "Yunshu Zhang",
+      "Chan Park",
+      "Jiewen Liu",
+      "Yonghoon Lee",
+      "Mengxin Yu",
+      "James M. Robins",
+      "Eric J. Tchetgen Tchetgen"
+    ],
+    "published": "2025-09-26T15:41:15+00:00",
+    "summary": "Instrumental variable (IV) methods offer a valuable approach to account for outcome data missing not-at-random. A valid missing data instrument is a measured factor which (i) predicts the nonresponse process and (ii) is independent of the outcome in the underlying population. For point identification, all existing IV methods for missing data including the celebrated Heckman selection model, a priori restrict the extent of selection bias on the outcome scale, therefore potentially understating uncertainty due to missing data. In this work, we introduce an IV framework which allows the degree of selection bias on the outcome scale to remain completely unrestricted. The new approach instead relies for identification on (iii) a key multiplicative selection model, which posits that the instrument and any hidden common correlate of selection and the outcome, do not interact on the multiplicative scale. Interestingly, we establish that any regular statistical functional of the missing outcome is nonparametrically identified under (i)-(iii) via a single-arm Wald ratio estimand reminiscent of the standard Wald ratio estimand in causal inference. For estimation and inference, we characterize the influence function for any functional defined on a nonparametric model for the observed data, which we leverage to develop semiparametric multiply robust IV estimators. Several extensions of the methods are also considered, including the important practical setting of polytomous and continuous instruments. Simulation studies illustrate the favorable finite sample performance of proposed methods, which we further showcase in an HIV study nested within a household health survey study we conducted in Mochudi, Botswana, in which interviewer characteristics are used as instruments to correct for selection bias due to dependent nonresponse in the HIV component of the survey study."
+  },
+  {
+    "title": "On an optimization framework for damage localization in structures",
+    "url": "http://arxiv.org/abs/2509.22492v1",
+    "arxiv_id": "2509.22492v1",
+    "authors": [
+      "Owais Saleem",
+      "Tim Suchan",
+      "Natalie Rauter",
+      "Kathrin Welker"
+    ],
+    "published": "2025-09-26T15:37:22+00:00",
+    "summary": "Efficient structural damage localization remains a challenge in structural health monitoring (SHM), particularly when the problem is coupled with uncertainty of conditions and complexity of structures. Traditional methods simply based on experimental data processing are often not sufficiently reliable, while complex models often struggle with computational inefficiency given the tremendous amount of model parameters. This paper focuses on closing the gap between data-driven SHM and physics-based model updating by offering a solution for real-world infrastructure. We first concentrate on fusing multi-source damage-sensitive features (DSF) based on experimental modal data into spatially mapped belief masses to pre-screen candidate damage locations. The resulting candidate damage locations are integrated into an inverse Finite Element method (FEM) model calibration process. We propose an optimization framework to identify the most probable damage scenario with single and multi-damage cases. We present the corresponding numerical results in this paper, which open the door to extend the application of the framework to a complex real bridge structure."
+  },
+  {
+    "title": "B\u00e9zier Meets Diffusion: Robust Generation Across Domains for Medical Image Segmentation",
+    "url": "http://arxiv.org/abs/2509.22476v1",
+    "arxiv_id": "2509.22476v1",
+    "authors": [
+      "Chen Li",
+      "Meilong Xu",
+      "Xiaoling Hu",
+      "Weimin Lyu",
+      "Chao Chen"
+    ],
+    "published": "2025-09-26T15:23:17+00:00",
+    "summary": "Training robust learning algorithms across different medical imaging modalities is challenging due to the large domain gap. Unsupervised domain adaptation (UDA) mitigates this problem by using annotated images from the source domain and unlabeled images from the target domain to train the deep models. Existing approaches often rely on GAN-based style transfer, but these methods struggle to capture cross-domain mappings in regions with high variability. In this paper, we propose a unified framework, B\\'ezier Meets Diffusion, for cross-domain image generation. First, we introduce a B\\'ezier-curve-based style transfer strategy that effectively reduces the domain gap between source and target domains. The transferred source images enable the training of a more robust segmentation model across domains. Thereafter, using pseudo-labels generated by this segmentation model on the target domain, we train a conditional diffusion model (CDM) to synthesize high-quality, labeled target-domain images. To mitigate the impact of noisy pseudo-labels, we further develop an uncertainty-guided score matching method that improves the robustness of CDM training. Extensive experiments on public datasets demonstrate that our approach generates realistic labeled images, significantly augmenting the target domain and improving segmentation performance."
+  },
+  {
+    "title": "Uncertainty-Aware Multi-Robot Task Allocation With Strongly Coupled Inter-Robot Rewards",
+    "url": "http://arxiv.org/abs/2509.22469v1",
+    "arxiv_id": "2509.22469v1",
+    "authors": [
+      "Ben Rossano",
+      "Jaein Lim",
+      "Jonathan P. How"
+    ],
+    "published": "2025-09-26T15:18:28+00:00",
+    "summary": "This paper proposes a task allocation algorithm for teams of heterogeneous robots in environments with uncertain task requirements. We model these requirements as probability distributions over capabilities and use this model to allocate tasks such that robots with complementary skills naturally position near uncertain tasks, proactively mitigating task failures without wasting resources. We introduce a market-based approach that optimizes the joint team objective while explicitly capturing coupled rewards between robots, offering a polynomial-time solution in decentralized settings with strict communication assumptions. Comparative experiments against benchmark algorithms demonstrate the effectiveness of our approach and highlight the challenges of incorporating coupled rewards in a decentralized formulation."
+  },
+  {
     "title": "Efficient Digital Methods to Quantify Sensor Output Uncertainty",
     "url": "http://arxiv.org/abs/2509.21311v1",
     "arxiv_id": "2509.21311v1",
