@@ -1,5 +1,137 @@
 [
   {
+    "title": "Q-Learning with Shift-Aware Upper Confidence Bound in Non-Stationary Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2510.03181v1",
+    "arxiv_id": "2510.03181v1",
+    "authors": [
+      "Ha Manh Bui",
+      "Felix Parker",
+      "Kimia Ghobadi",
+      "Anqi Liu"
+    ],
+    "published": "2025-10-03T16:56:47+00:00",
+    "summary": "We study the Non-Stationary Reinforcement Learning (RL) under distribution shifts in both finite-horizon episodic and infinite-horizon discounted Markov Decision Processes (MDPs). In the finite-horizon case, the transition functions may suddenly change at a particular episode. In the infinite-horizon setting, such changes can occur at an arbitrary time step during the agent's interaction with the environment. While the Q-learning Upper Confidence Bound algorithm (QUCB) can discover a proper policy during learning, due to the distribution shifts, this policy can exploit sub-optimal rewards after the shift happens. To address this issue, we propose Density-QUCB (DQUCB), a shift-aware Q-learning~UCB algorithm, which uses a transition density function to detect distribution shifts, then leverages its likelihood to enhance the uncertainty estimation quality of Q-learning~UCB, resulting in a balance between exploration and exploitation. Theoretically, we prove that our oracle DQUCB achieves a better regret guarantee than QUCB. Empirically, our DQUCB enjoys the computational efficiency of model-free RL and outperforms QUCB baselines by having a lower regret across RL tasks, as well as a real-world COVID-19 patient hospital allocation task using a Deep-Q-learning architecture."
+  },
+  {
+    "title": "Calibrated Uncertainty Sampling for Active Learning",
+    "url": "http://arxiv.org/abs/2510.03162v1",
+    "arxiv_id": "2510.03162v1",
+    "authors": [
+      "Ha Manh Bui",
+      "Iliana Maifeld-Carucci",
+      "Anqi Liu"
+    ],
+    "published": "2025-10-03T16:33:11+00:00",
+    "summary": "We study the problem of actively learning a classifier with a low calibration error. One of the most popular Acquisition Functions (AFs) in pool-based Active Learning (AL) is querying by the model's uncertainty. However, we recognize that an uncalibrated uncertainty model on the unlabeled pool may significantly affect the AF effectiveness, leading to sub-optimal generalization and high calibration error on unseen data. Deep Neural Networks (DNNs) make it even worse as the model uncertainty from DNN is usually uncalibrated. Therefore, we propose a new AF by estimating calibration errors and query samples with the highest calibration error before leveraging DNN uncertainty. Specifically, we utilize a kernel calibration error estimator under the covariate shift and formally show that AL with this AF eventually leads to a bounded calibration error on the unlabeled pool and unseen test data. Empirically, our proposed method surpasses other AF baselines by having a lower calibration and generalization error across pool-based AL settings."
+  },
+  {
+    "title": "Stimulus-Voltage-Based Prediction of Action Potential Onset Timing: Classical vs. Quantum-Inspired Approaches",
+    "url": "http://arxiv.org/abs/2510.03155v1",
+    "arxiv_id": "2510.03155v1",
+    "authors": [
+      "Stevens Johnson",
+      "Varun Puram",
+      "Johnson Thomas",
+      "Acsah Konuparamban",
+      "Ashwin Kannan"
+    ],
+    "published": "2025-10-03T16:28:02+00:00",
+    "summary": "Accurate modeling of neuronal action potential (AP) onset timing is crucial for understanding neural coding of danger signals. Traditional leaky integrate-and-fire (LIF) models, while widely used, exhibit high relative error in predicting AP onset latency, especially under strong or rapidly changing stimuli. Inspired by recent experimental findings and quantum theory, we present a quantum-inspired leaky integrate-and-fire (QI-LIF) model that treats AP onset as a probabilistic event, represented by a Gaussian wave packet in time. This approach captures the biological variability and uncertainty inherent in neuronal firing. We systematically compare the relative error of AP onset predictions between the classical LIF and QI-LIF models using synthetic data from hippocampal and sensory neurons subjected to varying stimulus amplitudes. Our results demonstrate that the QI-LIF model significantly reduces prediction error, particularly for high-intensity stimuli, aligning closely with observed biological responses. This work highlights the potential of quantum-inspired computational frameworks in advancing the accuracy of neural modeling and has implications for quantum engineering approaches to brain-inspired computing."
+  },
+  {
+    "title": "Statistical framework for nuclear parameter uncertainties in nucleosynthesis modeling of r- and i-process",
+    "url": "http://arxiv.org/abs/2510.03138v1",
+    "arxiv_id": "2510.03138v1",
+    "authors": [
+      "S. Martinet",
+      "G. Goriely",
+      "A. Choplin",
+      "L. Siess"
+    ],
+    "published": "2025-10-03T16:09:11+00:00",
+    "summary": "Propagating nuclear uncertainties to nucleosynthesis simulations is key to understand the impact of theoretical uncertainties on the predictions, especially for processes far from the stability region, where nuclear properties are scarcely known. While systematic (model) uncertainties have been thoroughly studied, the statistical (parameter) ones have been more rarely explored, as constraining them is more challenging. We present here a methodology to determine coherently parameter uncertainties by anchoring the theoretical uncertainties to the experimentally known nuclear properties through the use of the Backward Forward Monte Carlo method. We use this methodology for two nucleosynthesis processes: the intermediate neutron capture process (i-process) and the rapid neutron capture process (r-process). We determine coherently for the i-process the uncertainties from the (n,$\\gamma$) rates while we explore the impact of nuclear mass uncertainties for the r-process. The effect of parameter uncertainties on the final nucleosynthesis is in the same order as model uncertainties, suggesting the crucial need for more experimental constraints on key nuclei of interest. We show how key nuclear properties, such as relevant (n,$\\gamma$) rates impacting the i-process tracers, could enhance tremendously the prediction of stellar evolution models by experimentally constraining them."
+  },
+  {
+    "title": "A Dimension-Decomposed Learning Framework for Online Disturbance Identification in Quadrotor SE(3) Control",
+    "url": "http://arxiv.org/abs/2510.03100v1",
+    "arxiv_id": "2510.03100v1",
+    "authors": [
+      "Tianhua Gao"
+    ],
+    "published": "2025-10-03T15:29:05+00:00",
+    "summary": "Quadrotor stability under complex dynamic disturbances and model uncertainties poses significant challenges. One of them remains the underfitting problem in high-dimensional features, which limits the identification capability of current learning-based methods. To address this, we introduce a new perspective: Dimension-Decomposed Learning (DiD-L), from which we develop the Sliced Adaptive-Neuro Mapping (SANM) approach for geometric control. Specifically, the high-dimensional mapping for identification is axially ``sliced\" into multiple low-dimensional submappings (``slices\"). In this way, the complex high-dimensional problem is decomposed into a set of simple low-dimensional tasks addressed by shallow neural networks and adaptive laws. These neural networks and adaptive laws are updated online via Lyapunov-based adaptation without any pre-training or persistent excitation (PE) condition. To enhance the interpretability of the proposed approach, we prove that the full-state closed-loop system exhibits arbitrarily close to exponential stability despite multi-dimensional time-varying disturbances and model uncertainties. This result is novel as it demonstrates exponential convergence without requiring pre-training for unknown disturbances and specific knowledge of the model."
+  },
+  {
+    "title": "Polarization dependence of spin-electric transitions in molecular exchange qubits",
+    "url": "http://arxiv.org/abs/2510.03099v1",
+    "arxiv_id": "2510.03099v1",
+    "authors": [
+      "Filippo Troiani",
+      "Athanassios K. Boudalis"
+    ],
+    "published": "2025-10-03T15:27:36+00:00",
+    "summary": "Quasi-optical experiments are emerging as a powerful technique to probe magnetic transitions in molecular spin systems. However, the simultaneous presence of the electric- and magnetic-dipole induced transitions poses the challenge of discriminating between these two contributions. Besides, the identification of the spin-electric transitions can hardly rely on the peak intensity, because of the current uncertainties on the value of the spin-electric coupling in most molecular compounds. Here, we compute the polarizations required for electric- and magnetic-dipole induced transitions through spin-Hamiltonian models of molecular spin triangles. We show that the polarization allows a clear discrimination between the two kinds of transitions. In addition, it allows one to identify the physical origin of the zero-field splitting in the ground multiplet, a debated issue with significant implications on the coherence properties of the spin qubit implemented in molecular spin triangles."
+  },
+  {
+    "title": "Bayesian E(3)-Equivariant Interatomic Potential with Iterative Restratification of Many-body Message Passing",
+    "url": "http://arxiv.org/abs/2510.03046v1",
+    "arxiv_id": "2510.03046v1",
+    "authors": [
+      "Soohaeng Yoo Willow",
+      "Tae Hyeon Park",
+      "Gi Beom Sim",
+      "Sung Wook Moon",
+      "Seung Kyu Min",
+      "D. ChangMo Yang",
+      "Hyun Woo Kim",
+      "Juho Lee",
+      "Chang Woo Myung"
+    ],
+    "published": "2025-10-03T14:28:10+00:00",
+    "summary": "Machine learning potentials (MLPs) have become essential for large-scale atomistic simulations, enabling ab initio-level accuracy with computational efficiency. However, current MLPs struggle with uncertainty quantification, limiting their reliability for active learning, calibration, and out-of-distribution (OOD) detection. We address these challenges by developing Bayesian E(3) equivariant MLPs with iterative restratification of many-body message passing. Our approach introduces the joint energy-force negative log-likelihood (NLL$_\\text{JEF}$) loss function, which explicitly models uncertainty in both energies and interatomic forces, yielding superior accuracy compared to conventional NLL losses. We systematically benchmark multiple Bayesian approaches, including deep ensembles with mean-variance estimation, stochastic weight averaging Gaussian, improved variational online Newton, and laplace approximation by evaluating their performance on uncertainty prediction, OOD detection, calibration, and active learning tasks. We further demonstrate that NLL$_\\text{JEF}$ facilitates efficient active learning by quantifying energy and force uncertainties. Using Bayesian active learning by disagreement (BALD), our framework outperforms random sampling and energy-uncertainty-based sampling. Our results demonstrate that Bayesian MLPs achieve competitive accuracy with state-of-the-art models while enabling uncertainty-guided active learning, OOD detection, and energy/forces calibration. This work establishes Bayesian equivariant neural networks as a powerful framework for developing uncertainty-aware MLPs for atomistic simulations at scale."
+  },
+  {
+    "title": "Distributional Inverse Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2510.03013v1",
+    "arxiv_id": "2510.03013v1",
+    "authors": [
+      "Feiyang Wu",
+      "Ye Zhao",
+      "Anqi Wu"
+    ],
+    "published": "2025-10-03T13:58:09+00:00",
+    "summary": "We propose a distributional framework for offline Inverse Reinforcement Learning (IRL) that jointly models uncertainty over reward functions and full distributions of returns. Unlike conventional IRL approaches that recover a deterministic reward estimate or match only expected returns, our method captures richer structure in expert behavior, particularly in learning the reward distribution, by minimizing first-order stochastic dominance (FSD) violations and thus integrating distortion risk measures (DRMs) into policy learning, enabling the recovery of both reward distributions and distribution-aware policies. This formulation is well-suited for behavior analysis and risk-aware imitation learning. Empirical results on synthetic benchmarks, real-world neurobehavioral data, and MuJoCo control tasks demonstrate that our method recovers expressive reward representations and achieves state-of-the-art imitation performance."
+  },
+  {
+    "title": "Real-Time Peer-to-Peer Energy Trading for Multi-Microgrids: Improved Double Auction Mechanism and Prediction-Free Online Trading Approach",
+    "url": "http://arxiv.org/abs/2510.02985v1",
+    "arxiv_id": "2510.02985v1",
+    "authors": [
+      "Kaidi Huang",
+      "Lin Cheng",
+      "Yue Zhou",
+      "Fashun Shi",
+      "Yufei Xi",
+      "Yingrui Zhuang",
+      "Ning Qi"
+    ],
+    "published": "2025-10-03T13:22:51+00:00",
+    "summary": "Peer-to-peer energy trading offers a promising solution for enhancing renewable energy utilization and economic benefits within interconnected microgrids. However, existing real-time P2P markets face two key challenges: high computational complexity in trading mechanisms, and suboptimal participant decision-making under diverse uncertainties. Existing prediction-based decision-making methods rely heavily on accurate forecasts, which are typically unavailable for microgrids, while prediction-free methods suffer from myopic behaviors. To address these challenges, this paper proposes an improved double auction mechanism combined with an adaptive step-size search algorithm to reduce computational burden, and a data-driven dual-reference online optimization (DDOO) framework to enhance participant decision-making. The improved mechanism simplifies bidding procedures, significantly reducing computational burden and ensuring rapid convergence to the market equilibrium. Additionally, the prediction-free DDOO framework mitigates myopic decision-making by introducing two informative reference signals. Case studies on a 20-microgrid system demonstrate the effectiveness and scalability of the proposed mechanism and approach. The improved mechanism significantly decreases the computational time while increasing local energy self-sufficiency periods from 0.01% to 29.86%, reducing reverse power flow periods from 24.51% to 3.96%, and lowering average operating costs by 19.20%. Compared with conventional approaches such as Lyapunov optimization and model predictive control, the DDOO framework achieves a 10%-13% reduction in operating costs with an optimality gap of only 5.76%."
+  },
+  {
+    "title": "Real-Time Nonlinear Model Predictive Control of Heavy-Duty Skid-Steered Mobile Platform for Trajectory Tracking Tasks",
+    "url": "http://arxiv.org/abs/2510.02976v1",
+    "arxiv_id": "2510.02976v1",
+    "authors": [
+      "Alvaro Paz",
+      "Pauli Mustalahti",
+      "Mohammad Dastranj",
+      "Jouni Mattila"
+    ],
+    "published": "2025-10-03T13:09:32+00:00",
+    "summary": "This paper presents a framework for real-time optimal controlling of a heavy-duty skid-steered mobile platform for trajectory tracking. The importance of accurate real-time performance of the controller lies in safety considerations of situations where the dynamic system under control is affected by uncertainties and disturbances, and the controller should compensate for such phenomena in order to provide stable performance. A multiple-shooting nonlinear model-predictive control framework is proposed in this paper. This framework benefits from suitable algorithm along with readings from various sensors for genuine real-time performance with extremely high accuracy. The controller is then tested for tracking different trajectories where it demonstrates highly desirable performance in terms of both speed and accuracy. This controller shows remarkable improvement when compared to existing nonlinear model-predictive controllers in the literature that were implemented on skid-steered mobile platforms."
+  },
+  {
     "title": "Addressing Pitfalls in the Evaluation of Uncertainty Estimation Methods for Natural Language Generation",
     "url": "http://arxiv.org/abs/2510.02279v1",
     "arxiv_id": "2510.02279v1",
