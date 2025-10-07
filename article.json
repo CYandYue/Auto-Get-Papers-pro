@@ -1,5 +1,131 @@
 [
   {
+    "title": "Electrospray Thruster Plume Impingement on CubeSat Solar Arrays: A Particle-Tracking Study",
+    "url": "http://arxiv.org/abs/2510.05084v1",
+    "arxiv_id": "2510.05084v1",
+    "authors": [
+      "Ethan Kahn"
+    ],
+    "published": "2025-10-06T17:51:46+00:00",
+    "summary": "Electrospray thrusters are emerging as a leading propulsion technology for CubeSats, offering high specific impulse ($I_{sp} > 1000$ s) and low power requirements. However, the divergent ion plumes can impinge on spacecraft surfaces, particularly body-mounted solar arrays, causing contamination and thrust efficiency losses. This study presents a validated particle-tracking simulation to quantify the effects of thruster placement on thrust efficiency and surface contamination for 1U, 3U, and 6U CubeSats. The plume model employs a cosine power distribution ($k=1.8$) with half-angle $46^\\circ$, validated against experimental data with errors below 7%. Results show that thrust efficiency ranges from 53.6% for rear-mounted thrusters on 3U body-mounted configurations to 100% for side-mounted configurations with deployable arrays. CubeSat size significantly affects impingement: 3U platforms experience 46.4% contamination with rear-mounted thrusters compared to 16.6% for 1U. Deployable solar arrays reduce contamination by 77% compared to body-mounted arrays, while side-mounted thrusters eliminate impingement entirely at the cost of only 1.6% efficiency loss. Corner-mounted configurations at $30^\\circ$ cant provide intermediate performance with 88.9% efficiency and 11.1% contamination. These quantitative design guidelines enable mission planners to optimize thruster integration based on power budget and propellant mass constraints, with statistical uncertainty below 0.15% across all configurations."
+  },
+  {
+    "title": "The role of entropy production and thermodynamic uncertainty relations in the thermalization of open quantum systems",
+    "url": "http://arxiv.org/abs/2510.05072v1",
+    "arxiv_id": "2510.05072v1",
+    "authors": [
+      "\u00c1lvaro Tejero"
+    ],
+    "published": "2025-10-06T17:48:01+00:00",
+    "summary": "The asymmetry between heating and cooling in open quantum systems is a hallmark of nonequilibrium dynamics, yet its thermodynamic origin has remained unclear. Here, we investigate the thermalization of a quantum system weakly coupled to a thermal bath, focusing on the entropy production rate and the quantum thermokinetic uncertainty relation (TKUR). We derive an analytical expression for the entropy production rate, showing that heating begins with a higher entropy production, which drives faster thermalization than cooling. The quantum TKUR links this asymmetry to heat current fluctuations, demonstrating that larger entropy production suppresses fluctuations, making heating more stable than cooling. Our results reveal the thermodynamic basis of asymmetric thermalization and highlight uncertainty relations as key to nonequilibrium quantum dynamics."
+  },
+  {
+    "title": "HybridFlow: Quantification of Aleatoric and Epistemic Uncertainty with a Single Hybrid Model",
+    "url": "http://arxiv.org/abs/2510.05054v1",
+    "arxiv_id": "2510.05054v1",
+    "authors": [
+      "Peter Van Katwyk",
+      "Karianne J. Bergen"
+    ],
+    "published": "2025-10-06T17:34:48+00:00",
+    "summary": "Uncertainty quantification is critical for ensuring robustness in high-stakes machine learning applications. We introduce HybridFlow, a modular hybrid architecture that unifies the modeling of aleatoric and epistemic uncertainty by combining a Conditional Masked Autoregressive normalizing flow for estimating aleatoric uncertainty with a flexible probabilistic predictor for epistemic uncertainty. The framework supports integration with any probabilistic model class, allowing users to easily adapt HybridFlow to existing architectures without sacrificing predictive performance. HybridFlow improves upon previous uncertainty quantification frameworks across a range of regression tasks, such as depth estimation, a collection of regression benchmarks, and a scientific case study of ice sheet emulation. We also provide empirical results of the quantified uncertainty, showing that the uncertainty quantified by HybridFlow is calibrated and better aligns with model error than existing methods for quantifying aleatoric and epistemic uncertainty. HybridFlow addresses a key challenge in Bayesian deep learning, unifying aleatoric and epistemic uncertainty modeling in a single robust framework."
+  },
+  {
+    "title": "Inferring the spins of merging black holes in the presence of data-quality issues",
+    "url": "http://arxiv.org/abs/2510.05029v1",
+    "arxiv_id": "2510.05029v1",
+    "authors": [
+      "Rhiannon Udall",
+      "Sophie Bini",
+      "Katerina Chatziioannou",
+      "Derek Davis",
+      "Sophie Hourihane",
+      "Yannick Lecoeuche",
+      "Jess McIver",
+      "Simona Miller"
+    ],
+    "published": "2025-10-06T17:06:28+00:00",
+    "summary": "Gravitational waves from black hole binary mergers carry information about the component spins, but inference is sensitive to analysis assumptions, which may be broken by terrestrial noise transients known as glitches. Using a variety of simulated glitches and gravitational wave signals, we study the conditions under which glitches can bias spin measurements. We confirm the theoretical expectation that inference and subtraction of glitches invariably leaves behind residual power due to statistical uncertainty, no matter the strength (signal-to-noise ratio; SNR) of the original glitch. Next we show that low-SNR glitches - including those below the threshold for flagging data-quality issues - can still significantly bias spin inference. Such biases occur for a range of glitch morphologies, even in cases where glitches and signals are not precisely aligned in phase. Furthermore, we find that residuals of glitch subtraction can result in biases as well. Our results suggest that joint inference of the glitch and gravitational wave parameters, with appropriate models and priors, is required to address these uncertainties inherent in glitch mitigation via subtraction."
+  },
+  {
+    "title": "Exploration-Exploitation-Evaluation (EEE): A Framework for Metaheuristic Algorithms in Combinatorial Optimization",
+    "url": "http://arxiv.org/abs/2510.05027v1",
+    "arxiv_id": "2510.05027v1",
+    "authors": [
+      "Ethan Davis"
+    ],
+    "published": "2025-10-06T17:04:46+00:00",
+    "summary": "We introduce a framework for applying metaheuristic algorithms, such as ant colony optimization (ACO), to combinatorial optimization problems (COPs) like the traveling salesman problem (TSP). The framework consists of three sequential stages: broad exploration of the parameter space, exploitation of top-performing parameters, and uncertainty quantification (UQ) to assess the reliability of results. As a case study, we apply ACO to the TSPLIB berlin52 dataset, which has a known optimal tour length of 7542. Using our framework, we calculate that the probability of ACO finding the global optimum is approximately 1/40 in a single run and improves to 1/5 when aggregated over ten runs."
+  },
+  {
+    "title": "Risk-Adjusted Policy Learning and the Social Cost of Uncertainty: Theory and Evidence from CAP evaluation",
+    "url": "http://arxiv.org/abs/2510.05007v1",
+    "arxiv_id": "2510.05007v1",
+    "authors": [
+      "Giovanni Cerulli",
+      "Francesco Caracciolo"
+    ],
+    "published": "2025-10-06T16:51:44+00:00",
+    "summary": "This paper develops a risk-adjusted alternative to standard optimal policy learning (OPL) for observational data by importing Roy's (1952) safety-first principle into the treatment assignment problem. We formalize a welfare functional that maximizes the probability that outcomes exceed a socially required threshold and show that the associated pointwise optimal rule ranks treatments by the ratio of conditional means to conditional standard deviations. We implement the framework using microdata from the Italian Farm Accountancy Data Network to evaluate the allocation of subsidies under the EU Common Agricultural Policy. Empirically, risk-adjusted optimal policies systematically dominate the realized allocation across specifications, while risk aversion lowers overall welfare relative to the risk-neutral benchmark, making transparent the social cost of insurance against uncertainty. The results illustrate how safety-first OPL provides an implementable, interpretable tool for risk-sensitive policy design, quantifying the efficiency-insurance trade-off that policymakers face when outcomes are volatile."
+  },
+  {
+    "title": "Latent Uncertainty Representations for Video-based Driver Action and Intention Recognition",
+    "url": "http://arxiv.org/abs/2510.05006v1",
+    "arxiv_id": "2510.05006v1",
+    "authors": [
+      "Koen Vellenga",
+      "H. Joe Steinhauer",
+      "Jonas Andersson",
+      "Anders Sj\u00f6gren"
+    ],
+    "published": "2025-10-06T16:50:02+00:00",
+    "summary": "Deep neural networks (DNNs) are increasingly applied to safety-critical tasks in resource-constrained environments, such as video-based driver action and intention recognition. While last layer probabilistic deep learning (LL-PDL) methods can detect out-of-distribution (OOD) instances, their performance varies. As an alternative to last layer approaches, we propose extending pre-trained DNNs with transformation layers to produce multiple latent representations to estimate the uncertainty. We evaluate our latent uncertainty representation (LUR) and repulsively trained LUR (RLUR) approaches against eight PDL methods across four video-based driver action and intention recognition datasets, comparing classification performance, calibration, and uncertainty-based OOD detection. We also contribute 28,000 frame-level action labels and 1,194 video-level intention labels for the NuScenes dataset. Our results show that LUR and RLUR achieve comparable in-distribution classification performance to other LL-PDL approaches. For uncertainty-based OOD detection, LUR matches top-performing PDL methods while being more efficient to train and easier to tune than approaches that require Markov-Chain Monte Carlo sampling or repulsive training procedures."
+  },
+  {
+    "title": "Doubly Discordant SH0ES NGC4258 Cepheid Relations (HVI), and Impactful Extinction Laws",
+    "url": "http://arxiv.org/abs/2510.04998v1",
+    "arxiv_id": "2510.04998v1",
+    "authors": [
+      "Daniel Majaess"
+    ],
+    "published": "2025-10-06T16:38:15+00:00",
+    "summary": "S$H_0$ES 2016-2022 $HVI$ data for classical Cepheids in the keystone galaxy NGC4258 yield doubly discordant Wesenheit Leavitt functions:~$\\Delta W_{0,H-VI} = -0.13\\pm0^{m}.02$ ($-0^{m}.17$ unweighted) and that is paired with a previously noted $\\Delta W_{0,I-VI}\\simeq-0^{m}.3$, which in concert with complimentary evidence suggest the 2016 S$H_0$ES NGC4258-anchored $H_0 \\pm \\sigma_{H_0}$ warrants scrutiny (i.e., $\\sigma_{H_0}/{H_0}\\gtrsim 6$\\%). Cepheid distance uncertainties are further exacerbated by extinction law ambiguities endemic to such Leavitt relations (e.g., NGC4258), particularly for comparatively obscured variables (e.g., $\\Delta d \\gtrsim 4$\\%, reddened Cepheid subsamples in the Milky Way, M31, NGC2442, NGC4424, NGC5643, NGC7250). Lastly, during the analysis it was identified that the 2022 S$H_0$ES database relays incorrect SMC Cepheid photometry."
+  },
+  {
+    "title": "Reinforce-Ada: An Adaptive Sampling Framework for Reinforce-Style LLM Training",
+    "url": "http://arxiv.org/abs/2510.04996v1",
+    "arxiv_id": "2510.04996v1",
+    "authors": [
+      "Wei Xiong",
+      "Chenlu Ye",
+      "Baohao Liao",
+      "Hanze Dong",
+      "Xinxing Xu",
+      "Christof Monz",
+      "Jiang Bian",
+      "Nan Jiang",
+      "Tong Zhang"
+    ],
+    "published": "2025-10-06T16:34:09+00:00",
+    "summary": "Reinforcement learning applied to large language models (LLMs) for reasoning tasks is often bottlenecked by unstable gradient estimates due to fixed and uniform sampling of responses across prompts. Prior work such as GVM-RAFT addresses this by dynamically allocating inference budget per prompt to minimize stochastic gradient variance under a budget constraint. Inspired by this insight, we propose Reinforce-Ada, an adaptive sampling framework for online RL post-training of LLMs that continuously reallocates sampling effort to the prompts with the greatest uncertainty or learning potential. Unlike conventional two-stage allocation methods, Reinforce-Ada interleaves estimation and sampling in an online successive elimination process, and automatically stops sampling for a prompt once sufficient signal is collected. To stabilize updates, we form fixed-size groups with enforced reward diversity and compute advantage baselines using global statistics aggregated over the adaptive sampling phase. Empirical results across multiple model architectures and reasoning benchmarks show that Reinforce-Ada accelerates convergence and improves final performance compared to GRPO, especially when using the balanced sampling variant. Our work highlights the central role of variance-aware, adaptive data curation in enabling efficient and reliable reinforcement learning for reasoning-capable LLMs. Code is available at https://github.com/RLHFlow/Reinforce-Ada."
+  },
+  {
+    "title": "Line emission search from DM annihilation in the Galactic Center with LST-1",
+    "url": "http://arxiv.org/abs/2510.04977v1",
+    "arxiv_id": "2510.04977v1",
+    "authors": [
+      "Abhishek Abhishek",
+      "Shotaro Abe",
+      "Tomohiro Inada",
+      "Sofia Ventura",
+      "Michele Doro",
+      "Masahiro Teshima",
+      "Gaia Verna"
+    ],
+    "published": "2025-10-06T16:15:51+00:00",
+    "summary": "Dark Matter remains a great mystery in modern physics. Among various candidates, the weakly interacting massive particles (WIMPs) scenario stands out and is under extensive study. The detection of the hypothetical gamma-ray emission from WIMP annihilation could act as a direct probe of electroweak-scale interactions, complementing DM collider searches and other direct DM detection techniques. At very high energies (VHE), WIMP self-annihilation is expected to produce gamma rays together with other Standard Model particles. The galactic center (GC), due to its relative proximity to the Earth and its high expected DM density, is a prime target for monoenergetic line searches. IACTs have placed strong constraints on the DM properties at the GC, with the MAGIC providing the most stringent limits from 20 TeV to 100 TeV, exploiting large zenith angle (LZA) observations. However, the limited field of view (FoV) of the MAGIC telescopes (< 3.5{\\deg} ) prevented a detailed study of the extended region around the GC in which an enhanced DM density is expected. The LST-1 of the CTAO, located at the Roque de Los Muchachos Observatory (La Palma, Spain), close to the MAGIC site, has been observing the GC since 2021. With its wide FoV of 4.5{\\deg}, LST-1 could contribute significantly to the WIMPs search at the GC. The observations are performed at LZA (ZA > 58{\\deg}), which, while required due to the source's low altitude, also optimizes the detection of gamma rays up to 100 TeV and beyond. We present a study of the systematic uncertainties in WIMP line emission searches with LST-1. Our work examines the instrument response functions for LZA observations, background rejection in monoscopic mode, and includes updated results from simulations, highlighting new methods for spectral line searches."
+  },
+  {
     "title": "Q-Learning with Shift-Aware Upper Confidence Bound in Non-Stationary Reinforcement Learning",
     "url": "http://arxiv.org/abs/2510.03181v1",
     "arxiv_id": "2510.03181v1",
