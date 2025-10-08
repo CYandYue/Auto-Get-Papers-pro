@@ -1,5 +1,131 @@
 [
   {
+    "title": "Studying the gravitational-wave population without looking that FAR out",
+    "url": "http://arxiv.org/abs/2510.06220v1",
+    "arxiv_id": "2510.06220v1",
+    "authors": [
+      "Noah E. Wolfe",
+      "Matthew Mould",
+      "Jack Heinzel",
+      "Salvatore Vitale"
+    ],
+    "published": "2025-10-07T17:59:58+00:00",
+    "summary": "From catalogs of gravitational-wave transients, the population-level properties of their sources and the formation channels of merging compact binaries can be constrained. However, astrophysical conclusions can be biased by misspecification or misestimation of the population likelihood. Despite detection thresholds on the false-alarm rate (FAR) or signal-to-noise ratio (SNR), the current catalog is likely contaminated by noise transients. Further, computing the population likelihood becomes less accurate as the catalog grows. Current methods to address these challenges often scale poorly with the number of events and potentially become infeasible for future catalogs. Here, we evaluate a simple remedy: increasing the significance threshold for including events in population analyses. To determine the efficacy of this approach, we analyze simulated catalogs of up to 1600 gravitational-wave signals from black-hole mergers using full Bayesian parameter estimation with current detector sensitivities. We show that the growth in statistical uncertainty about the black-hole population, as we analyze fewer events but with higher SNR, depends on the source parameters of interest. When the SNR threshold is raised from 11 to 15 -- reducing our catalog size by two--thirds -- we find that statistical uncertainties on the mass distribution only grow by a few 10% and constraints on the spin distribution are essentially unchanged; meanwhile, uncertainties on the high-redshift cosmic merger rate more than double. Simultaneously, numerical uncertainty in the estimate of the population likelihood more than halves, allowing us to ensure unbiased inference without additional computational expense. Our results demonstrate that focusing on higher-significance events is an effective way to facilitate robust astrophysical inference with growing gravitational-wave catalogs."
+  },
+  {
+    "title": "Conformalized Gaussian processes for online uncertainty quantification over graphs",
+    "url": "http://arxiv.org/abs/2510.06181v1",
+    "arxiv_id": "2510.06181v1",
+    "authors": [
+      "Jinwen Xu",
+      "Qin Lu",
+      "Georgios B. Giannakis"
+    ],
+    "published": "2025-10-07T17:44:13+00:00",
+    "summary": "Uncertainty quantification (UQ) over graphs arises in a number of safety-critical applications in network science. The Gaussian process (GP), as a classical Bayesian framework for UQ, has been developed to handle graph-structured data by devising topology-aware kernel functions. However, such GP-based approaches are limited not only by the prohibitive computational complexity, but also the strict modeling assumptions that might yield poor coverage, especially with labels arriving on the fly. To effect scalability, we devise a novel graph-aware parametric GP model by leveraging the random feature (RF)-based kernel approximation, which is amenable to efficient recursive Bayesian model updates. To further allow for adaptivity, an ensemble of graph-aware RF-based scalable GPs have been leveraged, with per-GP weight adapted to data arriving incrementally. To ensure valid coverage with robustness to model mis-specification, we wed the GP-based set predictors with the online conformal prediction framework, which post-processes the prediction sets using adaptive thresholds. Experimental results the proposed method yields improved coverage and efficient prediction sets over existing baselines by adaptively ensembling the GP models and setting the key threshold parameters in CP."
+  },
+  {
+    "title": "Geometric Model Selection for Latent Space Network Models: Hypothesis Testing via Multidimensional Scaling and Resampling Techniques",
+    "url": "http://arxiv.org/abs/2510.06136v1",
+    "arxiv_id": "2510.06136v1",
+    "authors": [
+      "Jieyun Wang",
+      "Anna L. Smith"
+    ],
+    "published": "2025-10-07T17:10:08+00:00",
+    "summary": "Latent space models assume that network ties are more likely between nodes that are closer together in an underlying latent space. Euclidean space is a popular choice for the underlying geometry, but hyperbolic geometry can mimic more realistic patterns of ties in complex networks. To identify the underlying geometry, past research has applied non-Euclidean extensions of multidimensional scaling (MDS) to the observed geodesic distances: the shortest path lengths between nodes. The difference in stress, a standard goodness-of-fit metric for MDS, across the geometries is then used to select a latent geometry with superior model fit (lower stress). The effectiveness of this method is assessed through simulations of latent space networks in Euclidean and hyperbolic geometries. To better account for uncertainty, we extend permutation-based hypothesis tests for MDS to the latent network setting. However, these tests do not incorporate any network structure. We propose a parametric bootstrap distribution of networks, conditioned on observed geodesic distances and the Gaussian Latent Position Model (GLPM). Our method extends the Davidson-MacKinnon J-test to latent space network models with differing latent geometries. We pay particular attention to large and sparse networks, and both the permutation test and the bootstrapping methods show an improvement in detecting the underlying geometry."
+  },
+  {
+    "title": "Multiprobe constraints on early and late time dark energy",
+    "url": "http://arxiv.org/abs/2510.06114v1",
+    "arxiv_id": "2510.06114v1",
+    "authors": [
+      "Alexander Reeves",
+      "Simone Ferraro",
+      "Andrina Nicola",
+      "Alexandre Refregier"
+    ],
+    "published": "2025-10-07T16:50:26+00:00",
+    "summary": "We perform a multiprobe analysis combining cosmic microwave background (CMB) data from Planck and the Atacama Cosmology Telescope (ACT), ACT CMB lensing, and large-scale structure (LSS) measurements from the Dark Energy Spectroscopic Instrument (DESI), including DESI Legacy Imaging Survey (LS) galaxies and baryon acoustic oscillations (BAOs). We present the first $5\\times2$pt analysis of ACT DR6 lensing, DESI LS, and Planck ISW. Within $\\Lambda$CDM, this yields $S_8 = \\sigma_8(\\Omega_m/0.3)^{0.5} = 0.819 \\pm 0.016$, in good agreement with primary CMB inferences and provides a sound-horizon-free Hubble constant constraint of $H_0 = 70.0 \\pm 4.4$ km s$^{-1}$ Mpc$^{-1}$. Then, combining with CMB primary and BAO, we reconfirm a CMB-BAO discrepancy in the $\\Omega_m$-$\\frac{D_v}{r_d}$ plane, which is heightened when combining BAO with the $5\\times2$pt data vector. We explore two dark-energy extensions that may reconcile this: an early-time modification, early dark energy (EDE), and late-time dynamical dark energy (DDE) parameterized by $w_0w_a$. For CMB primary+BAO+$5\\times2$pt, we find a $3.3\\sigma$ preference for DDE over $\\Lambda$CDM, while EDE is modestly favoured at $2.3\\sigma$. The models address different shortcomings of $\\Lambda$CDM: DDE relaxes the neutrino mass bound ($M_\\nu<0.17$eV vs. $<0.050$eV under $\\Lambda$CDM), making it compatible with neutrino oscillation measurements, while EDE raises the Hubble constant to $H_0=70.5\\pm1.2\\,\\mathrm{km\\,s^{-1}\\,Mpc^{-1}}$, easing the discrepancy with SH0ES. However, neither model resolves both issues simultaneously. Our analysis indicates that both DDE and EDE remain viable extensions of $\\Lambda$CDM within current uncertainties and demonstrates the capacity of combined probes to place increasingly stringent constraints on cosmological parameters."
+  },
+  {
+    "title": "Mass loading of outflows from evolving Young Massive Clusters",
+    "url": "http://arxiv.org/abs/2510.06100v1",
+    "arxiv_id": "2510.06100v1",
+    "authors": [
+      "C. J. K. Larkin",
+      "C. Hawcroft",
+      "J. Mackey",
+      "R. R. Lefever",
+      "L. H\u00e4rer",
+      "A. A. C. Sander"
+    ],
+    "published": "2025-10-07T16:31:11+00:00",
+    "summary": "Feedback from Young Massive Clusters (YMCs) is an important driver of galaxy evolution. In the first few Myr, mechanical feedback is dominated by collective effects of the massive stellar winds in the YMC. The mass-loss rates and terminal wind velocities of these stars change by orders of magnitude over pre-SN timescales as the massive stars evolve, and mass-loss rates of Cool Supergiant (CSG) stars in particular are uncertain by a factor $\\sim~20$ or more. In this work we perform a first study of the time evolution of average cluster wind velocity $\\bar{V}_{\\mathrm{cl}}$ as a function of stellar metallicity $Z$, assuming single star evolution. We also check the validity of assuming Wolf-Rayet stars dominate the feedback effects of a YMC, as often done when interpreting X-ray and $\\gamma$-ray observations, and test how sensitive $\\bar{V}_{\\mathrm{cl}}$ is to current uncertainties in mass-loss rates. We use pySTARBURST99 to calculate integrated properties of YMCs for $Z$ in the range of $0.0004-0.02$, representing a range of environments from IZw18 to the Galactic Centre. We find that $\\bar{V}_{\\mathrm{cl}}$ drops off rapidly for sub-LMC $Z$, and we recommend a value of $500-1000\\,~\\textrm{km~s}^{-1}$ be used in this regime. We show accounting only for WR stars can overestimate $\\bar{V}_{\\mathrm{cl}}$ by $500-2000\\,~\\textrm{km~s}^{-1}$ at $Z \\geq Z_\\text{LMC}$. We also find that different RSG mass-loss assumptions can change the inferred $\\bar{V}_{\\mathrm{cl}}$ by $\\sim1000\\,~\\textrm{km~s}^{-1}$, highlighting the need for improved observational constraints for RSGs in YMCs."
+  },
+  {
+    "title": "The Alignment Auditor: A Bayesian Framework for Verifying and Refining LLM Objectives",
+    "url": "http://arxiv.org/abs/2510.06096v1",
+    "arxiv_id": "2510.06096v1",
+    "authors": [
+      "Matthieu Bou",
+      "Nyal Patel",
+      "Arjun Jagota",
+      "Satyapriya Krishna",
+      "Sonali Parbhoo"
+    ],
+    "published": "2025-10-07T16:25:14+00:00",
+    "summary": "The objectives that Large Language Models (LLMs) implicitly optimize remain dangerously opaque, making trustworthy alignment and auditing a grand challenge. While Inverse Reinforcement Learning (IRL) can infer reward functions from behaviour, existing approaches either produce a single, overconfident reward estimate or fail to address the fundamental ambiguity of the task (non-identifiability). This paper introduces a principled auditing framework that re-frames reward inference from a simple estimation task to a comprehensive process for verification. Our framework leverages Bayesian IRL to not only recover a distribution over objectives but to enable three critical audit capabilities: (i) Quantifying and systematically reducing non-identifiability by demonstrating posterior contraction over sequential rounds of evidence; (ii) Providing actionable, uncertainty-aware diagnostics that expose spurious shortcuts and identify out-of-distribution prompts where the inferred objective cannot be trusted; and (iii) Validating policy-level utility by showing that the refined, low-uncertainty reward can be used directly in RLHF to achieve training dynamics and toxicity reductions comparable to the ground-truth alignment process. Empirically, our framework successfully audits a detoxified LLM, yielding a well-calibrated and interpretable objective that strengthens alignment guarantees. Overall, this work provides a practical toolkit for auditors, safety teams, and regulators to verify what LLMs are truly trying to achieve, moving us toward more trustworthy and accountable AI."
+  },
+  {
+    "title": "Mechanistic-statistical inference of mosquito dynamics from mark-release-recapture data",
+    "url": "http://arxiv.org/abs/2510.06080v1",
+    "arxiv_id": "2510.06080v1",
+    "authors": [
+      "Nga Nguyen",
+      "Olivier Bonnefon",
+      "Ren\u00e9 Gato",
+      "Luis Almeida",
+      "Lionel Roques"
+    ],
+    "published": "2025-10-07T16:06:04+00:00",
+    "summary": "Biological control strategies against mosquito-borne diseases--such as the sterile insect technique (SIT), RIDL, and Wolbachia-based releases--require reliable estimates of dispersal and survival of released males. We propose a mechanistic--statistical framework for mark--release--recapture (MRR) data linking an individual-based 2D diffusion model with its reaction--diffusion limit. Inference is based on solving the macroscopic system and embedding it in a Poisson observation model for daily trap counts, with uncertainty quantified via a parametric bootstrap. We validate identifiability using simulated data and apply the model to an urban MRR campaign in El Cano (Havana, Cuba) involving four weekly releases of sterile Aedes aegypti males. The best-supported model suggests a mean life expectancy of about five days and a typical displacement of about 180 m. Unlike empirical fits of survival or dispersal, our mechanistic approach jointly estimates movement, mortality, and capture, yielding biologically interpretable parameters and a principled framework for designing and evaluating SIT-based interventions."
+  },
+  {
+    "title": "Optimal Batched Scheduling of Stochastic Processing Networks Using Atomic Action Decomposition",
+    "url": "http://arxiv.org/abs/2510.06033v1",
+    "arxiv_id": "2510.06033v1",
+    "authors": [
+      "Jim Dai",
+      "Manxi Wu",
+      "Zhanhao Zhang"
+    ],
+    "published": "2025-10-07T15:31:01+00:00",
+    "summary": "Stochastic processing networks (SPNs) have broad applications in healthcare, transportation, and communication networks. The control of SPN is to dynamically assign servers in batches under uncertainty to optimize long-run performance. This problem is challenging as the policy dimension grows exponentially with the number of servers, making standard reinforcement learning and policy optimization methods intractable at scale. We propose an atomic action decomposition framework that addresses this scalability challenge by breaking joint assignments into sequential single-server assignments. This yields policies with constant dimension, independent of the number of servers. We study two classes of atomic policies, the step-dependent and step-independent atomic policies, and prove that both achieve the same optimal long-run average reward as the original joint policies. These results establish that computing the optimal SPN control can be made scalable without loss of optimality using the atomic framework. Our results offer theoretical justification for the strong empirical success of the atomic framework in large-scale applications reported in previous articles."
+  },
+  {
+    "title": "Out-of-Distribution Detection from Small Training Sets using Bayesian Neural Network Classifiers",
+    "url": "http://arxiv.org/abs/2510.06025v1",
+    "arxiv_id": "2510.06025v1",
+    "authors": [
+      "Kevin Raina",
+      "Tanya Schmah"
+    ],
+    "published": "2025-10-07T15:23:05+00:00",
+    "summary": "Out-of-Distribution (OOD) detection is critical to AI reliability and safety, yet in many practical settings, only a limited amount of training data is available. Bayesian Neural Networks (BNNs) are a promising class of model on which to base OOD detection, because they explicitly represent epistemic (i.e. model) uncertainty. In the small training data regime, BNNs are especially valuable because they can incorporate prior model information. We introduce a new family of Bayesian posthoc OOD scores based on expected logit vectors, and compare 5 Bayesian and 4 deterministic posthoc OOD scores. Experiments on MNIST and CIFAR-10 In-Distributions, with 5000 training samples or less, show that the Bayesian methods outperform corresponding deterministic methods."
+  },
+  {
+    "title": "Uncertainty in Machine Learning",
+    "url": "http://arxiv.org/abs/2510.06007v1",
+    "arxiv_id": "2510.06007v1",
+    "authors": [
+      "Hans Weytjens",
+      "Wouter Verbeke"
+    ],
+    "published": "2025-10-07T15:07:27+00:00",
+    "summary": "This book chapter introduces the principles and practical applications of uncertainty quantification in machine learning. It explains how to identify and distinguish between different types of uncertainty and presents methods for quantifying uncertainty in predictive models, including linear regression, random forests, and neural networks. The chapter also covers conformal prediction as a framework for generating predictions with predefined confidence intervals. Finally, it explores how uncertainty estimation can be leveraged to improve business decision-making, enhance model reliability, and support risk-aware strategies."
+  },
+  {
     "title": "Electrospray Thruster Plume Impingement on CubeSat Solar Arrays: A Particle-Tracking Study",
     "url": "http://arxiv.org/abs/2510.05084v1",
     "arxiv_id": "2510.05084v1",
