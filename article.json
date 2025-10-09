@@ -1,5 +1,142 @@
 [
   {
+    "title": "Probing evolution of Long GRB properties through their cosmic formation history aided by Machine Learning predicted redshifts",
+    "url": "http://arxiv.org/abs/2510.07306v1",
+    "arxiv_id": "2510.07306v1",
+    "authors": [
+      "Dhruv S. Bal",
+      "Aditya Narendra",
+      "Maria Giovanna Dainotti",
+      "Nikita S. Khatiya",
+      "Aleksander L. Lenart",
+      "Dieter H. Hartmann"
+    ],
+    "published": "2025-10-08T17:57:19+00:00",
+    "summary": "Gamma-ray Bursts (GRBs) are valuable probes of cosmic star formation reaching back into the epoch of reionization, and a large dataset with known redshifts ($z$) is an important ingredient for these studies. Usually, $z$ is measured using spectroscopy or photometry, but $\\sim80\\%$ of GRBs lack such data. Prompt and afterglow correlations can provide estimates in these cases, though they suffer from systematic uncertainties due to assumed cosmologies and due to detector threshold limits. We use a sample with $z$ estimated via machine learning models, based on prompt and afterglow parameters, without relying on cosmological assumptions. We then use an augmented sample of GRBs with measured and predicted redshifts, forming a larger dataset. We find that the predicted redshifts are a crucial step forward in understanding the evolution of GRB properties. We test three cases: no evolution, an evolution of the beaming factor, and an evolution of all terms captured by an evolution factor $(1+z)^\\delta$. We find that these cases can explain the density rate in the redshift range between 1-2, but neither of the cases can explain the derived rate densities at smaller and higher redshifts, which may point towards an evolution term different than a simple power law. Another possibility is that this mismatch is due to the non-homogeneity of the sample, e.g., a non-collapsar origin of some long GRB within the sample."
+  },
+  {
+    "title": "On the Convergence of Moral Self-Correction in Large Language Models",
+    "url": "http://arxiv.org/abs/2510.07290v1",
+    "arxiv_id": "2510.07290v1",
+    "authors": [
+      "Guangliang Liu",
+      "Haitao Mao",
+      "Bochuan Cao",
+      "Zhiyu Xue",
+      "Xitong Zhang",
+      "Rongrong Wang",
+      "Kristen Marie Johnson"
+    ],
+    "published": "2025-10-08T17:46:27+00:00",
+    "summary": "Large Language Models (LLMs) are able to improve their responses when instructed to do so, a capability known as self-correction. When instructions provide only a general and abstract goal without specific details about potential issues in the response, LLMs must rely on their internal knowledge to improve response quality, a process referred to as intrinsic self-correction. The empirical success of intrinsic self-correction is evident in various applications, but how and why it is effective remains unknown. Focusing on moral self-correction in LLMs, we reveal a key characteristic of intrinsic self-correction: performance convergence through multi-round interactions; and provide a mechanistic analysis of this convergence behavior. Based on our experimental results and analysis, we uncover the underlying mechanism of convergence: consistently injected self-correction instructions activate moral concepts that reduce model uncertainty, leading to converged performance as the activated moral concepts stabilize over successive rounds. This paper demonstrates the strong potential of moral self-correction by showing that it exhibits a desirable property of converged performance."
+  },
+  {
+    "title": "Muonium HFS Uncertainty Revisited",
+    "url": "http://arxiv.org/abs/2510.07281v1",
+    "arxiv_id": "2510.07281v1",
+    "authors": [
+      "Michael I. Eides"
+    ],
+    "published": "2025-10-08T17:43:10+00:00",
+    "summary": "Uncertainty of the quantum electrodynamics theoretical prediction for the hyperfine splitting in the ground state of muonium is considered. It is compared with the respective discussion in the two most recent CODATA adjustments of the fundamental physical constants."
+  },
+  {
+    "title": "HyPlan: Hybrid Learning-Assisted Planning Under Uncertainty for Safe Autonomous Driving",
+    "url": "http://arxiv.org/abs/2510.07210v1",
+    "arxiv_id": "2510.07210v1",
+    "authors": [
+      "Donald Pfaffmann",
+      "Matthias Klusch",
+      "Marcel Steinmetz"
+    ],
+    "published": "2025-10-08T16:44:54+00:00",
+    "summary": "We present a novel hybrid learning-assisted planning method, named HyPlan, for solving the collision-free navigation problem for self-driving cars in partially observable traffic environments. HyPlan combines methods for multi-agent behavior prediction, deep reinforcement learning with proximal policy optimization and approximated online POMDP planning with heuristic confidence-based vertical pruning to reduce its execution time without compromising safety of driving. Our experimental performance analysis on the CARLA-CTS2 benchmark of critical traffic scenarios with pedestrians revealed that HyPlan may navigate safer than selected relevant baselines and perform significantly faster than considered alternative online POMDP planners."
+  },
+  {
+    "title": "A Broader View of Thompson Sampling",
+    "url": "http://arxiv.org/abs/2510.07208v1",
+    "arxiv_id": "2510.07208v1",
+    "authors": [
+      "Yanlin Qu",
+      "Hongseok Namkoong",
+      "Assaf Zeevi"
+    ],
+    "published": "2025-10-08T16:43:02+00:00",
+    "summary": "Thompson Sampling is one of the most widely used and studied bandit algorithms, known for its simple structure, low regret performance, and solid theoretical guarantees. Yet, in stark contrast to most other families of bandit algorithms, the exact mechanism through which posterior sampling (as introduced by Thompson) is able to \"properly\" balance exploration and exploitation, remains a mystery. In this paper we show that the core insight to address this question stems from recasting Thompson Sampling as an online optimization algorithm. To distill this, a key conceptual tool is introduced, which we refer to as \"faithful\" stationarization of the regret formulation. Essentially, the finite horizon dynamic optimization problem is converted into a stationary counterpart which \"closely resembles\" the original objective (in contrast, the classical infinite horizon discounted formulation, that leads to the Gittins index, alters the problem and objective in too significant a manner). The newly crafted time invariant objective can be studied using Bellman's principle which leads to a time invariant optimal policy. When viewed through this lens, Thompson Sampling admits a simple online optimization form that mimics the structure of the Bellman-optimal policy, and where greediness is regularized by a measure of residual uncertainty based on point-biserial correlation. This answers the question of how Thompson Sampling balances exploration-exploitation, and moreover, provides a principled framework to study and further improve Thompson's original idea."
+  },
+  {
+    "title": "Moments Matter: Posterior Recovery in Poisson Denoising via Log-Networks",
+    "url": "http://arxiv.org/abs/2510.07199v1",
+    "arxiv_id": "2510.07199v1",
+    "authors": [
+      "Shirin Shoushtari",
+      "Edward P. Chandler",
+      "Ulugbek S. Kamilov"
+    ],
+    "published": "2025-10-08T16:30:26+00:00",
+    "summary": "Poisson denoising plays a central role in photon-limited imaging applications such as microscopy, astronomy, and medical imaging. It is common to train deep learning models for denoising using the mean-squared error (MSE) loss, which corresponds to computing the posterior mean $\\mathbb{E}[x \\mid y]$. When the noise is Gaussian, Tweedie's formula enables approximation of the posterior distribution through its higher-order moments. However, this connection no longer holds for Poisson denoising: while $ \\mathbb{E}[x \\mid y] $ still minimizes MSE, it fails to capture posterior uncertainty. We propose a new strategy for Poisson denoising based on training a log-network. Instead of predicting the posterior mean $ \\mathbb{E}[x \\mid y] $, the log-network is trained to learn $\\mathbb{E}[\\log x \\mid y]$, leveraging the logarithm as a convenient parameterization for the Poisson distribution. We provide a theoretical proof that the proposed log-network enables recovery of higher-order posterior moments and thus supports posterior approximation. Experiments on simulated data show that our method matches the denoising performance of standard MMSE models while providing access to the posterior."
+  },
+  {
+    "title": "Bayesian Portfolio Optimization by Predictive Synthesis",
+    "url": "http://arxiv.org/abs/2510.07180v1",
+    "arxiv_id": "2510.07180v1",
+    "authors": [
+      "Masahiro Kato",
+      "Kentaro Baba",
+      "Hibiki Kaibuchi",
+      "Ryo Inokuchi"
+    ],
+    "published": "2025-10-08T16:18:11+00:00",
+    "summary": "Portfolio optimization is a critical task in investment. Most existing portfolio optimization methods require information on the distribution of returns of the assets that make up the portfolio. However, such distribution information is usually unknown to investors. Various methods have been proposed to estimate distribution information, but their accuracy greatly depends on the uncertainty of the financial markets. Due to this uncertainty, a model that could well predict the distribution information at one point in time may perform less accurately compared to another model at a different time. To solve this problem, we investigate a method for portfolio optimization based on Bayesian predictive synthesis (BPS), one of the Bayesian ensemble methods for meta-learning. We assume that investors have access to multiple asset return prediction models. By using BPS with dynamic linear models to combine these predictions, we can obtain a Bayesian predictive posterior about the mean rewards of assets that accommodate the uncertainty of the financial markets. In this study, we examine how to construct mean-variance portfolios and quantile-based portfolios based on the predicted distribution information."
+  },
+  {
+    "title": "Optimal network pricing with oblivious users: a new model and algorithm",
+    "url": "http://arxiv.org/abs/2510.07157v1",
+    "arxiv_id": "2510.07157v1",
+    "authors": [
+      "Yixuan Li",
+      "Andersen Ang",
+      "Sebastian Stein"
+    ],
+    "published": "2025-10-08T15:54:44+00:00",
+    "summary": "Traffic modeling is important in modern society. In this work we propose a new model on the optimal network pricing (Onp) with the assumption of oblivious users, in which the users remain oblivious to real-time traffic conditions and others' behavior. Inspired by works on transportation research and network pricing for selfish traffic, we mathematically derive and prove a new formulation of Onp with decision-dependent modeling that relax certain existing modeling constraints in the literature. Then, we express the Onp formulation as a constrained nonconvex stochastic quadratic program with uncertainty, and we propose an efficient algorithm to solve the problem, utilizing graph theory, sparse linear algebra and stochastic approximation. Lastly, we showcase the effectiveness of the proposed algorithm and the usefulness of the new Onp formulation. The proposed algorithm achieves a 5x speedup by exploiting the sparsity structure of the model."
+  },
+  {
+    "title": "CURLING -- II. Improvement on the $H_{0}$ Inference from Pixelized Cluster Strong Lens Modeling",
+    "url": "http://arxiv.org/abs/2510.07131v1",
+    "arxiv_id": "2510.07131v1",
+    "authors": [
+      "Yushan Xie",
+      "Huanyuan Shan",
+      "Yiping Shu",
+      "Nan Li",
+      "Ji Yao",
+      "Ran Li",
+      "Xiaoyue Cao",
+      "Zizhao He",
+      "Yin Li",
+      "Eric Jullo",
+      "Jean-Paul Kneib",
+      "Guoliang Li"
+    ],
+    "published": "2025-10-08T15:26:54+00:00",
+    "summary": "Strongly lensed supernovae (glSNe) provide a powerful, independent method to measure the Hubble constant, $H_{0}$, through time delays between their multiple images. The accuracy of this measurement depends critically on both the precision of time delay estimation and the robustness of lens modeling. In many current cluster-scale modeling algorithms, all multiple images used for modeling are simplified as point sources to reduce computational costs. In the first paper of the CURLING program, we demonstrated that such a point-like approximation can introduce significant uncertainties and biases in both magnification reconstruction and cosmological inference. In this study, we explore how such simplifications affect $H_0$ measurements from glSNe. We simulate a lensed supernova at $z=1.95$, lensed by a galaxy cluster at $z=0.336$, assuming time delays are measured from LSST-like light curves. The lens model is constructed using JWST-like imaging data, utilizing both Lenstool and a pixelated method developed in CURLING. Under a fiducial cosmology with $H_0=70\\rm \\ km \\ s^{-1}\\ Mpc^{-1}$, the Lenstool model yields $H_0=69.91^{+6.27}_{-5.50}\\rm \\ km\\ s^{-1}\\ Mpc^{-1}$, whereas the pixelated framework improves the precision by over an order of magnitude, $H_0=70.39^{+0.82}_{-0.60}\\rm \\ km \\ s^{-1}\\ Mpc^{-1}$. Our results indicate that in the next-generation observations (e.g., JWST), uncertainties from lens modeling dominate the error budget for $H_0$ inference, emphasizing the importance of incorporating the extended surface brightness of multiple images to fully leverage the potential of glSNe for cosmology."
+  },
+  {
+    "title": "Mitigating Increase-Decrease Gaming with Alternative Connection Agreements: A Defender-Attacker-Defender Game",
+    "url": "http://arxiv.org/abs/2510.07102v1",
+    "arxiv_id": "2510.07102v1",
+    "authors": [
+      "Bart van der Holst",
+      "Thomas Swarts",
+      "Phuong Nguyen",
+      "Johan Morren",
+      "Koen Kok"
+    ],
+    "published": "2025-10-08T14:58:58+00:00",
+    "summary": "Redispatch markets are widely used by system operators to manage network congestion. A well-known drawback, however, is that Flexibility Service Providers (FSPs) may strategically adjust their baselines in anticipation of redispatch actions, thereby aggravating congestion and raising system costs. To address this increase-decrease gaming, Distribution System Operators (DSOs) could use Alternative Connection Agreements (ACAs) to conditionally limit the available connection capacity of market participants in the day-ahead stage. In this paper, we present a novel Defender-Attacker-Defender game to investigate the potential of this approach in distribution networks under load and price uncertainty. We solve the resulting trilevel optimization model using a custom branch-and-bound algorithm, and we demonstrate that it efficiently solves the problem without exploring many nodes in the branch-and-bound search tree for most simulated scenarios. The case study demonstrates that applying ACAs can substantially lower redispatch costs (e.g. by 25%) for the DSO with only a limited impact on FSP profits. The effectiveness of the approach critically depends on how often the DSO can invoke ACAs and on the extent to which the DSO can anticipate strategic bidding behavior of the FSP."
+  },
+  {
     "title": "Studying the gravitational-wave population without looking that FAR out",
     "url": "http://arxiv.org/abs/2510.06220v1",
     "arxiv_id": "2510.06220v1",
