@@ -1,5 +1,130 @@
 [
   {
+    "title": "Scalable Offline Metrics for Autonomous Driving",
+    "url": "http://arxiv.org/abs/2510.08571v1",
+    "arxiv_id": "2510.08571v1",
+    "authors": [
+      "Animikh Aich",
+      "Adwait Kulkarni",
+      "Eshed Ohn-Bar"
+    ],
+    "published": "2025-10-09T17:59:57+00:00",
+    "summary": "Real-World evaluation of perception-based planning models for robotic systems, such as autonomous vehicles, can be safely and inexpensively conducted offline, i.e., by computing model prediction error over a pre-collected validation dataset with ground-truth annotations. However, extrapolating from offline model performance to online settings remains a challenge. In these settings, seemingly minor errors can compound and result in test-time infractions or collisions. This relationship is understudied, particularly across diverse closed-loop metrics and complex urban maneuvers. In this work, we revisit this undervalued question in policy evaluation through an extensive set of experiments across diverse conditions and metrics. Based on analysis in simulation, we find an even worse correlation between offline and online settings than reported by prior studies, casting doubts on the validity of current evaluation practices and metrics for driving policies. Next, we bridge the gap between offline and online evaluation. We investigate an offline metric based on epistemic uncertainty, which aims to capture events that are likely to cause errors in closed-loop settings. The resulting metric achieves over 13% improvement in correlation compared to previous offline metrics. We further validate the generalization of our findings beyond the simulation environment in real-world settings, where even greater gains are observed."
+  },
+  {
+    "title": "Cleaning Galactic foregrounds with spatially varying spectral dependence from CMB observations with \\texttt{fgbuster}",
+    "url": "http://arxiv.org/abs/2510.08534v1",
+    "arxiv_id": "2510.08534v1",
+    "authors": [
+      "Arianna Rizzieri",
+      "Cl\u00e9ment Leloup",
+      "Josquin Errard",
+      "Davide Poletti"
+    ],
+    "published": "2025-10-09T17:51:17+00:00",
+    "summary": "In the context of maximum-likelihood parametric component separation for next-generation full-sky CMB polarization experiments, we study the impact of fitting different spectral parameters of Galactic foregrounds in distinct subsets of pixels on the sky, with the goal of optimizing the search for primordial B modes. Using both simulations and analytical arguments, we highlight how the post-component separation uncertainty and systematic foreground residuals in the cleaned CMB power spectrum depend on spatial variations in the spectral parameters. We show that allowing spectral parameters to vary across subsets of the sky pixels is essential to achieve competitive S/N on the reconstructed CMB after component separation while keeping residual foreground bias under control. Although several strategies exist to define pixel subsets for the spectral parameters, each with its advantages and limitations, we show using current foreground simulations in the context of next-generation space-borne missions that there are satisfactory configurations in which both statistical and systematic residuals become negligible. The exact magnitude of these residuals, however, depends on the mission's specific characteristics, especially its frequency coverage and sensitivity. We also show that the post-component separation statistical uncertainty is only weakly dependent on the properties of the foregrounds and propose a semi-analytical framework to estimate it. On the contrary, the systematic foreground residuals highly depend on both the properties of the foregrounds and the chosen spatial resolution of the spectral parameters."
+  },
+  {
+    "title": "Have We Scene It All? Scene Graph-Aware Deep Point Cloud Compression",
+    "url": "http://arxiv.org/abs/2510.08512v1",
+    "arxiv_id": "2510.08512v1",
+    "authors": [
+      "Nikolaos Stathoulopoulos",
+      "Christoforos Kanellakis",
+      "George Nikolakopoulos"
+    ],
+    "published": "2025-10-09T17:45:09+00:00",
+    "summary": "Efficient transmission of 3D point cloud data is critical for advanced perception in centralized and decentralized multi-agent robotic systems, especially nowadays with the growing reliance on edge and cloud-based processing. However, the large and complex nature of point clouds creates challenges under bandwidth constraints and intermittent connectivity, often degrading system performance. We propose a deep compression framework based on semantic scene graphs. The method decomposes point clouds into semantically coherent patches and encodes them into compact latent representations with semantic-aware encoders conditioned by Feature-wise Linear Modulation (FiLM). A folding-based decoder, guided by latent features and graph node attributes, enables structurally accurate reconstruction. Experiments on the SemanticKITTI and nuScenes datasets show that the framework achieves state-of-the-art compression rates, reducing data size by up to 98% while preserving both structural and semantic fidelity. In addition, it supports downstream applications such as multi-robot pose graph optimization and map merging, achieving trajectory accuracy and map alignment comparable to those obtained with raw LiDAR scans."
+  },
+  {
+    "title": "Constraining the new contributions to electron $g-2$ in a radiative neutrino mass model",
+    "url": "http://arxiv.org/abs/2510.08504v1",
+    "arxiv_id": "2510.08504v1",
+    "authors": [
+      "Bayu Dirgantara",
+      "J. Julio"
+    ],
+    "published": "2025-10-09T17:40:45+00:00",
+    "summary": "We examine electron and muon anomalous magnetic dipole moments within a radiative neutrino mass model featuring TeV-scale scalar leptoquarks $S(3,1,-1/3)$ and $R(3,2,1/6)$. We utilize textures with decoupling electron and muon sectors, so that both electron and muon anomalous magnetic dipole moments could receive internal chiral enhancements from different heavy up-type quarks while in the same time evading the stringent $\\mu\\to e\\gamma$ constraint. A successful fit to neutrino oscillation data requires the simultaneous presence of one- and two-loop neutrino mass contributions. This severely constrains the parameter space of the model, which results in a negligible new physics correction to the muon $g-2$. The electron $g-2$ discrepancy implied by the rubidium experiment, on the other hand, can be resolved within $2\\sigma$ uncertainty provided that neutrino mass ordering is inverted. Lepton-flavor-violating tau decay rates, such as $\\tau\\to e\\gamma$ and $\\tau\\to 3e$, are predicted to be within the sensitivities of next-generation experiments."
+  },
+  {
+    "title": "Diffusion-Based Probabilistic Modeling for Hourly Streamflow Prediction and Assimilation",
+    "url": "http://arxiv.org/abs/2510.08488v1",
+    "arxiv_id": "2510.08488v1",
+    "authors": [
+      "Wencong Yang",
+      "Haoyu Ji",
+      "Leo Lonzarich",
+      "Yalan Song",
+      "Chaopeng Shen"
+    ],
+    "published": "2025-10-09T17:28:37+00:00",
+    "summary": "Hourly predictions are critical for issuing flood warnings as the flood peaks on the hourly scale can be distinctly higher than the corresponding daily ones. Currently a popular hourly data-driven prediction scheme is multi-time-scale long short-term memory (MTS-LSTM), yet such models face challenges in probabilistic forecasts or integrating observations when available. Diffusion artificial intelligence (AI) models represent a promising method to predict high-resolution information, e.g., hourly streamflow. Here we develop a denoising diffusion probabilistic model (h-Diffusion) for hourly streamflow prediction that conditions on either observed or simulated daily discharge from hydrologic models to generate hourly hydrographs. The model is benchmarked on the CAMELS hourly dataset against record-holding MTS-LSTM and multi-frequency LSTM (MF-LSTM) baselines. Results show that h-Diffusion outperforms baselines in terms of general performance and extreme metrics. Furthermore, the h-Diffusion model can utilize the inpainting technique and recent observations to accomplish data assimilation that largely improves flood forecasting performance. These advances can greatly reduce flood forecasting uncertainty and provide a unified probabilistic framework for downscaling, prediction, and data assimilation at the hourly scale, representing risks where daily models cannot."
+  },
+  {
+    "title": "Stochastic Volatility-in-mean VARs with Time-Varying Skewness",
+    "url": "http://arxiv.org/abs/2510.08415v1",
+    "arxiv_id": "2510.08415v1",
+    "authors": [
+      "Leonardo N. Ferreira",
+      "Haroon Mumtaz",
+      "Ana Skoblar"
+    ],
+    "published": "2025-10-09T16:35:12+00:00",
+    "summary": "This paper introduces a Bayesian vector autoregression (BVAR) with stochastic volatility-in-mean and time-varying skewness. Unlike previous approaches, the proposed model allows both volatility and skewness to directly affect macroeconomic variables. We provide a Gibbs sampling algorithm for posterior inference and apply the model to quarterly data for the US and the UK. Empirical results show that skewness shocks have economically significant effects on output, inflation and spreads, often exceeding the impact of volatility shocks. In a pseudo-real-time forecasting exercise, the proposed model outperforms existing alternatives in many cases. Moreover, the model produces sharper measures of tail risk, revealing that standard stochastic volatility models tend to overstate uncertainty. These findings highlight the importance of incorporating time-varying skewness for capturing macro-financial risks and improving forecast performance."
+  },
+  {
+    "title": "Revisiting Hallucination Detection with Effective Rank-based Uncertainty",
+    "url": "http://arxiv.org/abs/2510.08389v1",
+    "arxiv_id": "2510.08389v1",
+    "authors": [
+      "Rui Wang",
+      "Zeming Wei",
+      "Guanzhang Yue",
+      "Meng Sun"
+    ],
+    "published": "2025-10-09T16:12:12+00:00",
+    "summary": "Detecting hallucinations in large language models (LLMs) remains a fundamental challenge for their trustworthy deployment. Going beyond basic uncertainty-driven hallucination detection frameworks, we propose a simple yet powerful method that quantifies uncertainty by measuring the effective rank of hidden states derived from multiple model outputs and different layers. Grounded in the spectral analysis of representations, our approach provides interpretable insights into the model's internal reasoning process through semantic variations, while requiring no extra knowledge or additional modules, thus offering a combination of theoretical elegance and practical efficiency. Meanwhile, we theoretically demonstrate the necessity of quantifying uncertainty both internally (representations of a single response) and externally (different responses), providing a justification for using representations among different layers and responses from LLMs to detect hallucinations. Extensive experiments demonstrate that our method effectively detects hallucinations and generalizes robustly across various scenarios, contributing to a new paradigm of hallucination detection for LLM truthfulness."
+  },
+  {
+    "title": "The Two-Sided Clifford Dunkl Transform and Miyachi's Theorem",
+    "url": "http://arxiv.org/abs/2510.08347v1",
+    "arxiv_id": "2510.08347v1",
+    "authors": [
+      "Mohamed Essenhajy",
+      "Said Fahlaoui"
+    ],
+    "published": "2025-10-09T15:35:58+00:00",
+    "summary": "Recent advances have extended the Dunkl transform to the setting of Clifford algebras. In particular, the two-sided quaternionic Dunkl transform has been introduced as a Dunkl analogue of the two-dimensional quaternionic Fourier transform. In this paper, we develop the two-sided Clifford Dunkl transform, defined using two square roots of -1 in Cl_{p,q}. We establish its fundamental properties, including the inversion and Plancherel formulas, and provide two explicit expressions for the associated translation operator. Moreover, we prove an analogue of Miyachi's theorem for this transform, thereby extending a classical result in harmonic analysis to the Clifford-Dunkl framework."
+  },
+  {
+    "title": "Design of chemical recycling processes for PUR foam under uncertainty",
+    "url": "http://arxiv.org/abs/2510.08301v1",
+    "arxiv_id": "2510.08301v1",
+    "authors": [
+      "Patrick Lotz",
+      "Luca Bosetti",
+      "Andr\u00e9 Bardow",
+      "Sergio Lucia",
+      "Sebastian Engell"
+    ],
+    "published": "2025-10-09T14:52:02+00:00",
+    "summary": "Optimization problems in chemical process design involve a significant number of discrete and continuous decisions. When taking into account uncertainties, the search space is very difficult to explore, even for experienced engineers. Moreover, it should be taken into account that while some decisions are fixed at the design stage, other parameters can be adapted to the realization of the uncertainty during the operation of the plant. This leads to a two-stage optimization problem which is difficult to solve. To address this challenge, we propose to combine commercial process simulation software with an evolutionary strategy. This approach is applied to designing a downstream process to isolate valuable products from pyrolysis oil produced by the catalytic pyrolysis of rigid polyurethane foam. The suggested algorithm consistently performed better than a manually designed robust process. Additionally, the analysis of different scenarios provided insight into promising changes in the overall layout of the recycling process."
+  },
+  {
+    "title": "Adversarial Thermodynamics",
+    "url": "http://arxiv.org/abs/2510.08298v1",
+    "arxiv_id": "2510.08298v1",
+    "authors": [
+      "Maite Arcos",
+      "Philippe Faist",
+      "Takahiro Sagawa",
+      "Jonathan Oppenheim"
+    ],
+    "published": "2025-10-09T14:50:51+00:00",
+    "summary": "In thermodynamics, an agent's ability to extract work is fundamentally constrained by their environment. Traditional frameworks struggle to capture how strategic decision-making under uncertainty -- particularly an agent's tolerance for risk -- determines the trade-off between extractable work and probability of success in finite-scale experiments. Here, we develop a framework for non-equilibrium thermodynamics based on adversarial resource theories, in which work extraction is modelled as an adversarial game for an agent extracting work. Within this perspective, we recast the Szilard engine as a game isomorphic to Kelly gambling, an information-theoretic model of optimal betting under uncertainty -- but with a thermodynamic utility function. Extending the framework to finite-size regimes, we apply a risk-reward trade-off to find an interpretation of the Renyi-divergences, in terms of extractable work for a given failure probability. By incorporating risk sensitivity via utility functions, we show that the guaranteed amount of work a rational agent would accept instead of undertaking a risky protocol is given by a R\\'enyi divergence. This provides a unified picture of thermodynamics and gambling, and highlights how generalized free energies emerge from an adversarial setup."
+  },
+  {
     "title": "Probing evolution of Long GRB properties through their cosmic formation history aided by Machine Learning predicted redshifts",
     "url": "http://arxiv.org/abs/2510.07306v1",
     "arxiv_id": "2510.07306v1",
