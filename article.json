@@ -1,5 +1,136 @@
 [
   {
+    "title": "Zero-shot Structure Learning and Planning for Autonomous Robot Navigation using Active Inference",
+    "url": "http://arxiv.org/abs/2510.09574v1",
+    "arxiv_id": "2510.09574v1",
+    "authors": [
+      "Daria de tinguy",
+      "Tim Verbelen",
+      "Emilio Gamba",
+      "Bart Dhoedt"
+    ],
+    "published": "2025-10-10T17:28:12+00:00",
+    "summary": "Autonomous navigation in unfamiliar environments requires robots to simultaneously explore, localise, and plan under uncertainty, without relying on predefined maps or extensive training. We present a biologically inspired, Active Inference-based framework, Active Inference MAPping and Planning (AIMAPP). This model unifies mapping, localisation, and decision-making within a single generative model. Inspired by hippocampal navigation, it uses topological reasoning, place-cell encoding, and episodic memory to guide behaviour. The agent builds and updates a sparse topological map online, learns state transitions dynamically, and plans actions by minimising Expected Free Energy. This allows it to balance goal-directed and exploratory behaviours. We implemented a ROS-compatible navigation system that is sensor and robot-agnostic, capable of integrating with diverse hardware configurations. It operates in a fully self-supervised manner, is resilient to drift, and supports both exploration and goal-directed navigation without any pre-training. We demonstrate robust performance in large-scale real and simulated environments against state-of-the-art planning models, highlighting the system's adaptability to ambiguous observations, environmental changes, and sensor noise. The model offers a biologically inspired, modular solution to scalable, self-supervised navigation in unstructured settings. AIMAPP is available at https://github.com/decide-ugent/AIMAPP."
+  },
+  {
+    "title": "Yukawa interactions in Quantum Gravity",
+    "url": "http://arxiv.org/abs/2510.09572v1",
+    "arxiv_id": "2510.09572v1",
+    "authors": [
+      "Gustavo P. de Brito",
+      "Manuel Reichert",
+      "Marc Schiffer"
+    ],
+    "published": "2025-10-10T17:24:04+00:00",
+    "summary": "We present the first complete next-to-leading-order analysis of a Yukawa system within the framework of asymptotically safe quantum gravity. Our results are obtained through a systematic resummation of higher-order operators, revealing two distinct resummation mechanisms -- one of which has not been explored previously. In addition, we introduce a novel approach to estimate systematic uncertainties by simulating the impact of neglected higher-order contributions.   We demonstrate that quantum gravity fluctuations anti-screen Yukawa interactions, thereby resolving previously inconclusive leading-order results. This anti-screening mechanism enables the generation of finite interactions from an asymptotically free Yukawa fixed point. Consequently, our findings provide strong evidence that non-vanishing Yukawa couplings are compatible with asymptotically safe quantum gravity, which is a necessary requirement for the Standard Model to emerge from an asymptotically safe ultraviolet completion."
+  },
+  {
+    "title": "Low-redshift constraints on structure growth from CMB lensing tomography",
+    "url": "http://arxiv.org/abs/2510.09563v1",
+    "arxiv_id": "2510.09563v1",
+    "authors": [
+      "Andrea Rubiola",
+      "Matteo Zennaro",
+      "Carlos Garc\u00eda-Garc\u00eda",
+      "David Alonso"
+    ],
+    "published": "2025-10-10T17:14:29+00:00",
+    "summary": "We present constraints on the amplitude of matter fluctuations from the clustering of galaxies and their cross-correlation with the gravitational lensing convergence of the cosmic microwave background (CMB), focusing on low redshifts ($z\\lesssim0.3$), where potential deviations from a perfect cosmological constant dominating the growth of structure could be more prominent. Specifically, we make use of data from the 2MASS photometric survey (\\tmpz) and the \\wisc galaxy survey, in combination with CMB lensing data from \\planck. Using a hybrid effective field theory (HEFT) approach to model galaxy bias we obtain constraints on the combination $S_8=\\sigma_8\\sqrt{\\Omega_m/0.3}$, where $\\sigma_8$ is the amplitude of matter fluctuations, and $\\Omega_m$ is the non-relativistic matter fraction. Using a prior on $\\Omega_m$ based on the baryon acoustic oscillation measurements of DESI, we find $S_8=0.79\\pm0.06$, in reasonable agreement with CMB constraints. We also find that, in the absence of this prior, the data favours a value of $\\Omega_m=0.245\\pm0.024$, that is 2.8$\\sigma$ lower than \\planck. This result is driven by the broadband shape of the galaxy auto-correlation, and may be affected by theoretical uncertainties in the HEFT power spectrum templates. We further reconstruct the low-redshift growth history, finding it to be compatible with the \\planck predictions, as well as existing constraints from lensing tomography. Finally, we study our constraints on the HEFT bias parameters of the galaxy samples studied, finding them to be in reasonable agreement with coevolution predictions."
+  },
+  {
+    "title": "A LENS on DUNE-PRISM: Characterizing a Neutrino Beam with Off-Axis Measurements",
+    "url": "http://arxiv.org/abs/2510.09546v1",
+    "arxiv_id": "2510.09546v1",
+    "authors": [
+      "Julia Gehrlein",
+      "Joachim Kopp",
+      "Margot MacMahon",
+      "George A. Parker"
+    ],
+    "published": "2025-10-10T16:59:40+00:00",
+    "summary": "Upcoming precision long-baseline neutrino oscillation experiments will be severely limited by the large systematic uncertainties associated with neutrino flux predictions and neutrino--nucleus cross sections. A promising remedy is the PRISM (Precision Reaction Independent Spectrum Measurement) technique, whereby the near detector measures the neutrino spectrum at different angles with respect to the beam axis. These measurements are then linearly combined into a prediction of the oscillated neutrino flux at the far detector. This prediction is data-driven, but still dependent on some theoretical knowledge about the neutrino flux. In this paper, we study to what extent off-axis measurements themselves can be used to directly constrain neutrino flux models. In particular, we use them to extract separately the fluxes and spectra of different meson species in the beam. We call this measurement LENS (Lateral Extraction of Neutrino Spectra). Second, we demonstrate how the thus improved flux model helps to further constrain the far detector flux prediction, thereby ultimately improving oscillation measurements."
+  },
+  {
+    "title": "Hierarchical Progressive Survey (HiPS) format: moving from visualisation to scientific analysis",
+    "url": "http://arxiv.org/abs/2510.09533v1",
+    "arxiv_id": "2510.09533v1",
+    "authors": [
+      "Fabrizio Giordano",
+      "Yago Ascasibar",
+      "Luca Cortese",
+      "Ivan Valtchanov",
+      "Bruno Mer\u00edn"
+    ],
+    "published": "2025-10-10T16:48:22+00:00",
+    "summary": "Context. In the current era of multi-wavelength and multi-messenger astronomy, international organisations are actively working on the definition of new standards for the publication of astronomical data, and substantial effort is devoted to make them available through public archives. Aims. We present a set of tools that allow user-friendly access and basic scientific analysis of observations in Hierarchical Progressive Survey (HiPS) format, and we use them to gauge the quality of representative skymaps at ultraviolet, optical, and infrared wavelengths. Methods. We apply a fully-automatic procedure to derive aperture photometry in 10 different bands for the 323 nearby galaxies in the Herschel Reference Sample (HRS), and compare its results with the rigorous analyses involving specialised knowledge and human intervention carried out by the HRS team. Results. Our experiment shows that 9 of the 10 skymaps considered preserve the original quality of the data, and the photometric fluxes returned by our pipeline are consistent with the HRS measurements within a few per cent. In the case of Herschel PACS maps at 100 {\\mu}m, we uncovered a systematic error that we ascribe to an inconsistent combination of data products with different spatial resolution. For the remaining skymaps, the estimated statistical uncertainties provide a realistic indication of the differences with respect to the HRS catalogue. Conclusions. In principle, the currently available HiPS skymaps in Flexible Image Transport System (FITS) format allow to carry out broadband photometric analyses with an accuracy of the order of a few percent, but some level human intervention is still required. In addition to assessing data quality, we also propose a series of recommendations to realise the full potential of the HiPS format for the scientific analysis of large astronomical data sets."
+  },
+  {
+    "title": "Unsupervised full-field Bayesian inference of orthotropic hyperelasticity from a single biaxial test: a myocardial case study",
+    "url": "http://arxiv.org/abs/2510.09498v1",
+    "arxiv_id": "2510.09498v1",
+    "authors": [
+      "Rogier P. Krijnen",
+      "Akshay Joshi",
+      "Siddhant Kumar",
+      "Mathias Peirlinck"
+    ],
+    "published": "2025-10-10T15:59:49+00:00",
+    "summary": "Fully capturing this behavior in traditional homogenized tissue testing requires the excitation of multiple deformation modes, i.e. combined triaxial shear tests and biaxial stretch tests. Inherently, such multimodal experimental protocols necessitate multiple tissue samples and extensive sample manipulations. Intrinsic inter-sample variability and manipulation-induced tissue damage might have an adverse effect on the inversely identified tissue behavior. In this work, we aim to overcome this gap by focusing our attention to the use of heterogeneous deformation profiles in a parameter estimation problem. More specifically, we adapt EUCLID, an unsupervised method for the automated discovery of constitutive models, towards the purpose of parameter identification for highly nonlinear, orthotropic constitutive models using a Bayesian inference approach and three-dimensional continuum elements. We showcase its strength to quantitatively infer, with varying noise levels, the material model parameters of synthetic myocardial tissue slabs from a single heterogeneous biaxial stretch test. This method shows good agreement with the ground-truth simulations and with corresponding credibility intervals. Our work highlights the potential for characterizing highly nonlinear and orthotropic material models from a single biaxial stretch test with uncertainty quantification."
+  },
+  {
+    "title": "FOGMACHINE -- Leveraging Discrete-Event Simulation and Scene Graphs for Modeling Hierarchical, Interconnected Environments under Partial Observations from Mobile Agents",
+    "url": "http://arxiv.org/abs/2510.09483v1",
+    "arxiv_id": "2510.09483v1",
+    "authors": [
+      "Lars Ohnemus",
+      "Nils Hantke",
+      "Max Wei\u00dfer",
+      "Kai Furmans"
+    ],
+    "published": "2025-10-10T15:45:31+00:00",
+    "summary": "Dynamic Scene Graphs (DSGs) provide a structured representation of hierarchical, interconnected environments, but current approaches struggle to capture stochastic dynamics, partial observability, and multi-agent activity. These aspects are critical for embodied AI, where agents must act under uncertainty and delayed perception. We introduce FOGMACHINE , an open-source framework that fuses DSGs with discrete-event simulation to model object dynamics, agent observations, and interactions at scale. This setup enables the study of uncertainty propagation, planning under limited perception, and emergent multi-agent behavior. Experiments in urban scenarios illustrate realistic temporal and spatial patterns while revealing the challenges of belief estimation under sparse observations. By combining structured representations with efficient simulation, FOGMACHINE establishes an effective tool for benchmarking, model training, and advancing embodied AI in complex, uncertain environments."
+  },
+  {
+    "title": "Failure Prediction at Runtime for Generative Robot Policies",
+    "url": "http://arxiv.org/abs/2510.09459v1",
+    "arxiv_id": "2510.09459v1",
+    "authors": [
+      "Ralf R\u00f6mer",
+      "Adrian Kobras",
+      "Luca Worbis",
+      "Angela P. Schoellig"
+    ],
+    "published": "2025-10-10T15:09:27+00:00",
+    "summary": "Imitation learning (IL) with generative models, such as diffusion and flow matching, has enabled robots to perform complex, long-horizon tasks. However, distribution shifts from unseen environments or compounding action errors can still cause unpredictable and unsafe behavior, leading to task failure. Early failure prediction during runtime is therefore essential for deploying robots in human-centered and safety-critical environments. We propose FIPER, a general framework for Failure Prediction at Runtime for generative IL policies that does not require failure data. FIPER identifies two key indicators of impending failure: (i) out-of-distribution (OOD) observations detected via random network distillation in the policy's embedding space, and (ii) high uncertainty in generated actions measured by a novel action-chunk entropy score. Both failure prediction scores are calibrated using a small set of successful rollouts via conformal prediction. A failure alarm is triggered when both indicators, aggregated over short time windows, exceed their thresholds. We evaluate FIPER across five simulation and real-world environments involving diverse failure modes. Our results demonstrate that FIPER better distinguishes actual failures from benign OOD situations and predicts failures more accurately and earlier than existing methods. We thus consider this work an important step towards more interpretable and safer generative robot policies. Code, data and videos are available at https://tum-lsy.github.io/fiper_website."
+  },
+  {
+    "title": "Uncertainty Quantification for Multi-level Models Using the Survey-Weighted Pseudo-Posterior",
+    "url": "http://arxiv.org/abs/2510.09401v1",
+    "arxiv_id": "2510.09401v1",
+    "authors": [
+      "Matthew R. Williams",
+      "F. Hunter McGuire",
+      "Terrance D. Savitsky"
+    ],
+    "published": "2025-10-10T13:53:51+00:00",
+    "summary": "Parameter estimation and inference from complex survey samples typically focuses on global model parameters whose estimators have asymptotic properties, such as from fixed effects regression models. We present a motivating example of Bayesian inference for a multi-level or mixed effects model in which both the local parameters (e.g. group level random effects) and the global parameters may need to be adjusted for the complex sampling design. We evaluate the limitations of the survey-weighted pseudo-posterior and an existing automated post-processing method to incorporate the complex survey sample design for a wide variety of Bayesian models. We propose modifications to the automated process and demonstrate their improvements for multi-level models via a simulation study and a motivating example from the National Survey on Drug Use and Health. Reproduction examples are available from the authors and the updated R package is available via github:https://github.com/RyanHornby/csSampling"
+  },
+  {
+    "title": "Identifying & Interactively Refining Ambiguous User Goals for Data Visualization Code Generation",
+    "url": "http://arxiv.org/abs/2510.09390v1",
+    "arxiv_id": "2510.09390v1",
+    "authors": [
+      "Mert \u0130nan",
+      "Anthony Sicilia",
+      "Alex Xie",
+      "Saujas Vaduguru",
+      "Daniel Fried",
+      "Malihe Alikhani"
+    ],
+    "published": "2025-10-10T13:44:40+00:00",
+    "summary": "Establishing shared goals is a fundamental step in human-AI communication. However, ambiguities can lead to outputs that seem correct but fail to reflect the speaker's intent. In this paper, we explore this issue with a focus on the data visualization domain, where ambiguities in natural language impact the generation of code that visualizes data. The availability of multiple views on the contextual (e.g., the intended plot and the code rendering the plot) allows for a unique and comprehensive analysis of diverse ambiguity types. We develop a taxonomy of types of ambiguity that arise in this task and propose metrics to quantify them. Using Matplotlib problems from the DS-1000 dataset, we demonstrate that our ambiguity metrics better correlate with human annotations than uncertainty baselines. Our work also explores how multi-turn dialogue can reduce ambiguity, therefore, improve code accuracy by better matching user goals. We evaluate three pragmatic models to inform our dialogue strategies: Gricean Cooperativity, Discourse Representation Theory, and Questions under Discussion. A simulated user study reveals how pragmatic dialogues reduce ambiguity and enhance code accuracy, highlighting the value of multi-turn exchanges in code generation."
+  },
+  {
     "title": "Scalable Offline Metrics for Autonomous Driving",
     "url": "http://arxiv.org/abs/2510.08571v1",
     "arxiv_id": "2510.08571v1",
