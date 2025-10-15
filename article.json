@@ -1,5 +1,141 @@
 [
   {
+    "title": "What If : Understanding Motion Through Sparse Interactions",
+    "url": "http://arxiv.org/abs/2510.12777v1",
+    "arxiv_id": "2510.12777v1",
+    "authors": [
+      "Stefan Andreas Baumann",
+      "Nick Stracke",
+      "Timy Phan",
+      "Bj\u00f6rn Ommer"
+    ],
+    "published": "2025-10-14T17:52:17+00:00",
+    "summary": "Understanding the dynamics of a physical scene involves reasoning about the diverse ways it can potentially change, especially as a result of local interactions. We present the Flow Poke Transformer (FPT), a novel framework for directly predicting the distribution of local motion, conditioned on sparse interactions termed \"pokes\". Unlike traditional methods that typically only enable dense sampling of a single realization of scene dynamics, FPT provides an interpretable directly accessible representation of multi-modal scene motion, its dependency on physical interactions and the inherent uncertainties of scene dynamics. We also evaluate our model on several downstream tasks to enable comparisons with prior methods and highlight the flexibility of our approach. On dense face motion generation, our generic pre-trained model surpasses specialized baselines. FPT can be fine-tuned in strongly out-of-distribution tasks such as synthetic datasets to enable significant improvements over in-domain methods in articulated object motion estimation. Additionally, predicting explicit motion distributions directly enables our method to achieve competitive performance on tasks like moving part segmentation from pokes which further demonstrates the versatility of our FPT. Code and models are publicly available at https://compvis.github.io/flow-poke-transformer."
+  },
+  {
+    "title": "Uncertainty Matters in Dynamic Gaussian Splatting for Monocular 4D Reconstruction",
+    "url": "http://arxiv.org/abs/2510.12768v1",
+    "arxiv_id": "2510.12768v1",
+    "authors": [
+      "Fengzhi Guo",
+      "Chih-Chuan Hsu",
+      "Sihao Ding",
+      "Cheng Zhang"
+    ],
+    "published": "2025-10-14T17:47:11+00:00",
+    "summary": "Reconstructing dynamic 3D scenes from monocular input is fundamentally under-constrained, with ambiguities arising from occlusion and extreme novel views. While dynamic Gaussian Splatting offers an efficient representation, vanilla models optimize all Gaussian primitives uniformly, ignoring whether they are well or poorly observed. This limitation leads to motion drifts under occlusion and degraded synthesis when extrapolating to unseen views. We argue that uncertainty matters: Gaussians with recurring observations across views and time act as reliable anchors to guide motion, whereas those with limited visibility are treated as less reliable. To this end, we introduce USplat4D, a novel Uncertainty-aware dynamic Gaussian Splatting framework that propagates reliable motion cues to enhance 4D reconstruction. Our key insight is to estimate time-varying per-Gaussian uncertainty and leverages it to construct a spatio-temporal graph for uncertainty-aware optimization. Experiments on diverse real and synthetic datasets show that explicitly modeling uncertainty consistently improves dynamic Gaussian Splatting models, yielding more stable geometry under occlusion and high-quality synthesis at extreme viewpoints."
+  },
+  {
+    "title": "(Non-Parametric) Bootstrap Robust Optimization for Portfolios and Trading Strategies",
+    "url": "http://arxiv.org/abs/2510.12725v1",
+    "arxiv_id": "2510.12725v1",
+    "authors": [
+      "Daniel Cunha Oliveira",
+      "Grover Guzman",
+      "Nick Firoozye"
+    ],
+    "published": "2025-10-14T17:06:03+00:00",
+    "summary": "Robust optimization provides a principled framework for decision-making under uncertainty, with broad applications in finance, engineering, and operations research. In portfolio optimization, uncertainty in expected returns and covariances demands methods that mitigate estimation error, parameter instability, and model misspecification. Traditional approaches, including parametric, bootstrap-based, and Bayesian methods, enhance stability by relying on confidence intervals or probabilistic priors but often impose restrictive assumptions. This study introduces a non-parametric bootstrap framework for robust optimization in financial decision-making. By resampling empirical data, the framework constructs flexible, data-driven confidence intervals without assuming specific distributional forms, thus capturing uncertainty in statistical estimates, model parameters, and utility functions. Treating utility as a random variable enables percentile-based optimization, naturally suited for risk-sensitive and worst-case decision-making. The approach aligns with recent advances in robust optimization, reinforcement learning, and risk-aware control, offering a unified perspective on robustness and generalization. Empirically, the framework mitigates overfitting and selection bias in trading strategy optimization and improves generalization in portfolio allocation. Results across portfolio and time-series momentum experiments demonstrate that the proposed method delivers smoother, more stable out-of-sample performance, offering a practical, distribution-free alternative to traditional robust optimization methods."
+  },
+  {
+    "title": "Generation Space Size: Understanding and Calibrating Open-Endedness of LLM Generations",
+    "url": "http://arxiv.org/abs/2510.12699v1",
+    "arxiv_id": "2510.12699v1",
+    "authors": [
+      "Sunny Yu",
+      "Ahmad Jabbar",
+      "Robert Hawkins",
+      "Dan Jurafsky",
+      "Myra Cheng"
+    ],
+    "published": "2025-10-14T16:31:34+00:00",
+    "summary": "Different open-ended generation tasks require different degrees of output diversity. However, current LLMs are often miscalibrated. They collapse to overly homogeneous outputs for creative tasks and hallucinate diverse but incorrect responses for factual tasks. We argue that these two failure modes are unified by, and can both be addressed by, the notion of effective generation space size (GSS) -- the set of semantically distinct outputs a model considers for a prompt. We present GSSBench, a task suite of prompt pairs with ground-truth GSS relationships to assess different metrics and understand where models diverge from desired behavior. We find that hallucination detection metrics, particularly EigenScore, consistently outperform standard diversity and uncertainty quantification metrics, while using only model internals, providing interpretable insights into a model's internal task representations. We demonstrate three applications of GSS: (1) detecting prompt ambiguity and predicting clarification questions for better grounding, (2) interpreting overthinking and underthinking in reasoning models, and (3) steering models to expand their generation space to yield high-quality and diverse outputs."
+  },
+  {
+    "title": "EReLiFM: Evidential Reliability-Aware Residual Flow Meta-Learning for Open-Set Domain Generalization under Noisy Labels",
+    "url": "http://arxiv.org/abs/2510.12687v1",
+    "arxiv_id": "2510.12687v1",
+    "authors": [
+      "Kunyu Peng",
+      "Di Wen",
+      "Kailun Yang",
+      "Jia Fu",
+      "Yufan Chen",
+      "Ruiping Liu",
+      "Jiamin Wu",
+      "Junwei Zheng",
+      "M. Saquib Sarfraz",
+      "Luc Van Gool",
+      "Danda Pani Paudel",
+      "Rainer Stiefelhagen"
+    ],
+    "published": "2025-10-14T16:23:11+00:00",
+    "summary": "Open-Set Domain Generalization (OSDG) aims to enable deep learning models to recognize unseen categories in new domains, which is crucial for real-world applications. Label noise hinders open-set domain generalization by corrupting source-domain knowledge, making it harder to recognize known classes and reject unseen ones. While existing methods address OSDG under Noisy Labels (OSDG-NL) using hyperbolic prototype-guided meta-learning, they struggle to bridge domain gaps, especially with limited clean labeled data. In this paper, we propose Evidential Reliability-Aware Residual Flow Meta-Learning (EReLiFM). We first introduce an unsupervised two-stage evidential loss clustering method to promote label reliability awareness. Then, we propose a residual flow matching mechanism that models structured domain- and category-conditioned residuals, enabling diverse and uncertainty-aware transfer paths beyond interpolation-based augmentation. During this meta-learning process, the model is optimized such that the update direction on the clean set maximizes the loss decrease on the noisy set, using pseudo labels derived from the most confident predicted class for supervision. Experimental results show that EReLiFM outperforms existing methods on OSDG-NL, achieving state-of-the-art performance. The source code is available at https://github.com/KPeng9510/ERELIFM."
+  },
+  {
+    "title": "Measurement of the tau anomalous magnetic moment using Ultra-peripheral collisions with the ALICE detector in Run 3 Pb-Pb data",
+    "url": "http://arxiv.org/abs/2510.12661v1",
+    "arxiv_id": "2510.12661v1",
+    "authors": [
+      "Roman Lavi\u010dka",
+      "Paul Alois B\u00fchler"
+    ],
+    "published": "2025-10-14T15:58:01+00:00",
+    "summary": "The anomalous magnetic moment of the tau lepton ($a_{\\tau}$) is a sensitive probe for the search for deviations from the Standard Model predictions and thus for new physics. This study investigates the feasibility of measuring $a_{\\tau}$ using ultra-peripheral collisions (UPCs) at the LHC, where photon-photon interactions ($\\gamma\\gamma \\to \\tau^+ \\tau^-$) produce tau lepton pairs. We focus on events recorded by the ALICE detector during Run 3 Pb-Pb data-taking. Events are selected in the decay channel where one tau decays into an electron and neutrinos, and the other decays into a charged pion, or three charged pions, and neutrinos. These samples are enhanced with decays into muons, which are inseparable in the ALICE detector. The clean environment of UPCs minimizes hadronic background, while the advanced particle identification capabilities of the ALICE Time Projection Chamber (TPC) and Time-of-Flight (TOF) systems allow for efficient separation of electrons, pions, and background particles. In this talk, prospects for measuring this process by ALICE in Run 3, which benefits from high statistics and improved systematics uncertainties, will be discussed. Results will provide tighter constraints on $a_{\\tau}$, contributing to the broader effort to test the Standard Model's robustness and explore physics beyond it."
+  },
+  {
+    "title": "Moment-based Posterior Sampling for Multi-reference Alignment",
+    "url": "http://arxiv.org/abs/2510.12651v1",
+    "arxiv_id": "2510.12651v1",
+    "authors": [
+      "Axel Janson",
+      "Joakim And\u00e9n"
+    ],
+    "published": "2025-10-14T15:47:16+00:00",
+    "summary": "We propose a Bayesian approach to the problem of multi-reference alignment -- the recovery of signals from noisy, randomly shifted observations. While existing frequentist methods accurately recover the signal at arbitrarily low signal-to-noise ratios, they require a large number of samples to do so. In contrast, our proposed method leverages diffusion models as data-driven plug-and-play priors, conditioning these on the sample power spectrum (a shift-invariant statistic) enabling both accurate posterior sampling and uncertainty quantification. The use of an appropriate prior significantly reduces the required number of samples, as illustrated in simulation experiments with comparisons to state-of-the-art methods such as expectation--maximization and bispectrum inversion. These findings establish our approach as a promising framework for other orbit recovery problems, such as cryogenic electron microscopy (cryo-EM)."
+  },
+  {
+    "title": "Designing Tools with Control Confidence",
+    "url": "http://arxiv.org/abs/2510.12630v1",
+    "arxiv_id": "2510.12630v1",
+    "authors": [
+      "Ajith Anil Meera",
+      "Abian Torres",
+      "Pablo Lanillos"
+    ],
+    "published": "2025-10-14T15:27:27+00:00",
+    "summary": "Prehistoric humans invented stone tools for specialized tasks by not just maximizing the tool's immediate goal-completion accuracy, but also increasing their confidence in the tool for later use under similar settings. This factor contributed to the increased robustness of the tool, i.e., the least performance deviations under environmental uncertainties. However, the current autonomous tool design frameworks solely rely on performance optimization, without considering the agent's confidence in tool use for repeated use. Here, we take a step towards filling this gap by i) defining an optimization framework for task-conditioned autonomous hand tool design for robots, where ii) we introduce a neuro-inspired control confidence term into the optimization routine that helps the agent to design tools with higher robustness. Through rigorous simulations using a robotic arm, we show that tools designed with control confidence as the objective function are more robust to environmental uncertainties during tool use than a pure accuracy-driven objective. We further show that adding control confidence to the objective function for tool design provides a balance between the robustness and goal accuracy of the designed tools under control perturbations. Finally, we show that our CMAES-based evolutionary optimization strategy for autonomous tool design outperforms other state-of-the-art optimizers by designing the optimal tool within the fewest iterations. Code: https://github.com/ajitham123/Tool_design_control_confidence."
+  },
+  {
+    "title": "Learning-To-Measure: In-context Active Feature Acquisition",
+    "url": "http://arxiv.org/abs/2510.12624v1",
+    "arxiv_id": "2510.12624v1",
+    "authors": [
+      "Yuta Kobayashi",
+      "Zilin Jing",
+      "Jiayu Yao",
+      "Hongseok Namkoong",
+      "Shalmali Joshi"
+    ],
+    "published": "2025-10-14T15:23:32+00:00",
+    "summary": "Active feature acquisition (AFA) is a sequential decision-making problem where the goal is to improve model performance for test instances by adaptively selecting which features to acquire. In practice, AFA methods often learn from retrospective data with systematic missingness in the features and limited task-specific labels. Most prior work addresses acquisition for a single predetermined task, limiting scalability. To address this limitation, we formalize the meta-AFA problem, where the goal is to learn acquisition policies across various tasks. We introduce Learning-to-Measure (L2M), which consists of i) reliable uncertainty quantification over unseen tasks, and ii) an uncertainty-guided greedy feature acquisition agent that maximizes conditional mutual information. We demonstrate a sequence-modeling or autoregressive pre-training approach that underpins reliable uncertainty quantification for tasks with arbitrary missingness. L2M operates directly on datasets with retrospective missingness and performs the meta-AFA task in-context, eliminating per-task retraining. Across synthetic and real-world tabular benchmarks, L2M matches or surpasses task-specific baselines, particularly under scarce labels and high missingness."
+  },
+  {
+    "title": "Enhancing Robust Multi-Market Participation of Renewable-Based VPPs through Flexible Resources",
+    "url": "http://arxiv.org/abs/2510.12589v1",
+    "arxiv_id": "2510.12589v1",
+    "authors": [
+      "Hadi Nemati",
+      "\u00c1lvaro Ortega",
+      "Pedro S\u00e1nchez-Mart\u00edn",
+      "Lukas Sigrist",
+      "Luis Rouco",
+      "Ignacio Egido"
+    ],
+    "published": "2025-10-14T14:44:04+00:00",
+    "summary": "In the transition toward a sustainable power system, renewable-based Virtual Power Plants (RVPPs) have emerged as a promising solution to the challenges of integrating renewable energy sources into electricity markets. Their viability, however, depends on effective market participation strategies and the ability to manage uncertainties while leveraging flexible resources. This paper analyzes the impact of different flexible resources - such as concentrated solar power plants, hydro plants, biomass plants, and flexible demand - on the participation of RVPPs in energy and reserve markets. Multiple sources of uncertainty in generation, consumption, and electricity prices are addressed using a two-stage robust optimization approach. The contribution of different technologies to RVPP profitability is evaluated through a marginal contribution method, ensuring fair allocation of profits among them according to their actual role in energy and reserve provision across markets. Simulations for an RVPP in southern Spain demonstrate how strategic decisions and the availability of flexible resources influence viability, market participation, and unit scheduling."
+  },
+  {
     "title": "BayeSN-TD: Time Delay and $H_0$ Estimation for Lensed SN H0pe",
     "url": "http://arxiv.org/abs/2510.11719v1",
     "arxiv_id": "2510.11719v1",
