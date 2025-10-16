@@ -1,5 +1,135 @@
 [
   {
+    "title": "$\\texttt{SBi3PCF:}$ Simulation-based inference with the integrated 3PCF",
+    "url": "http://arxiv.org/abs/2510.13805v1",
+    "arxiv_id": "2510.13805v1",
+    "authors": [
+      "David Gebauer",
+      "Anik Halder",
+      "Stella Seitz",
+      "Dhayaa Anbajagane"
+    ],
+    "published": "2025-10-15T17:59:25+00:00",
+    "summary": "We present $\\texttt{SBi3PCF}$, a simulation-based inference (SBI) framework for analysing a higher-order weak lensing statistic, the integrated 3-point correlation function (i3PCF). Our approach forward-models the cosmic shear field using the $\\texttt{CosmoGridV1}$ suite of N-body simulations, including a comprehensive set of systematic effects such as intrinsic alignment, baryonic feedback, photometric redshift uncertainty, shear calibration bias, and shape noise. Using this, we have produced a set of DES Y3-like synthetic measurements for 2-point shear correlation functions $\\xi_{\\pm}$ (2PCFs) and i3PCFs $\\zeta_{\\pm}$ across 6 cosmological and 11 systematic parameters. Having validated these measurements against theoretical predictions and thoroughly examined for potential systematic biases, we have found that the impact of source galaxy clustering and reduced shear on the i3PCF is negligible for Stage-III surveys. Furthermore, we have tested the Gaussianity assumption for the likelihood of our data vector and found that while the sampling distribution of the 2PCF can be well approximated by a Gaussian function, the likelihood of the combined 2PCF + i3PCF data vector including filter sizes of $90'$ and larger can deviate from this assumption. Our SBI pipeline employs masked autoregressive flows to perform neural likelihood estimation and is validated to give statistically accurate posterior estimates. On mock data, we find that including the i3PCF yields a substantial $63.8\\%$ median improvement in the figure of merit for $\\Omega_m - \\sigma_8 - w_0$. These findings are consistent with previous works on the i3PCF and demonstrate that our SBI framework can achieve the accuracy and realism needed to analyse the i3PCF in wide-area weak lensing surveys."
+  },
+  {
+    "title": "Splitting Isotope Shift in the $1s2p\\,^3\\!P_{0,1,2}$ Fine-Structure Triplet in $^{12,13,14}$C$^{4+}$: Experiment and Theory",
+    "url": "http://arxiv.org/abs/2510.13779v1",
+    "arxiv_id": "2510.13779v1",
+    "authors": [
+      "Patrick M\u00fcller",
+      "Kristian K\u00f6nig",
+      "Emily Burbach",
+      "Gordon W. F. Drake",
+      "Phillip Imgram",
+      "Bernhard Maa\u00df",
+      "Titamarie M. Maggio",
+      "Wilfried N\u00f6rtersh\u00e4user",
+      "Julien Spahn"
+    ],
+    "published": "2025-10-15T17:32:58+00:00",
+    "summary": "We report measurements and theoretical calculations of the fine-structure splittings in all three $1s2s\\,^3\\!S_1\\rightarrow\\,1s2p\\,^3\\!P_{0,1,2}$ transitions in the heliumlike systems of the isotopes $^{12,13,14}$C. The metastable triplet state was efficiently populated in an electron beam ion source and the C$^{4+}$ ions were electrostatically accelerated to 50\\,keV to perform collinear laser spectroscopy. From the determined transition frequencies, the splitting isotope shift (SIS), i.e., the difference in fine-structure splittings between different isotopes of the same element, was extracted. In the SIS, theoretical uncertainties due to higher-order quantum electrodynamic corrections are strongly suppressed since they are independent of both nuclear mass and the fine-structure quantum number $J$ in lowest order. Comparison with theory provides an important test of experimental accuracy, particularly in the $^{13}$C$^{4+}$ case, for which the nuclear spin leads to hyperfine-induced fine-structure mixing. At the same time, the even-even isotopes $^{12,14}$C$^{4+}$ without nuclear spin can be used to confirm theory. Theoretical values of the SIS are given for all the heliumlike ions with $2\\le Z\\le 10$."
+  },
+  {
+    "title": "Confidence-Based Response Abstinence: Improving LLM Trustworthiness via Activation-Based Uncertainty Estimation",
+    "url": "http://arxiv.org/abs/2510.13750v1",
+    "arxiv_id": "2510.13750v1",
+    "authors": [
+      "Zhiqi Huang",
+      "Vivek Datla",
+      "Chenyang Zhu",
+      "Alfy Samuel",
+      "Daben Liu",
+      "Anoop Kumar",
+      "Ritesh Soni"
+    ],
+    "published": "2025-10-15T16:55:56+00:00",
+    "summary": "We propose a method for confidence estimation in retrieval-augmented generation (RAG) systems that aligns closely with the correctness of large language model (LLM) outputs. Confidence estimation is especially critical in high-stakes domains such as finance and healthcare, where the cost of an incorrect answer outweighs that of not answering the question. Our approach extends prior uncertainty quantification methods by leveraging raw feed-forward network (FFN) activations as auto-regressive signals, avoiding the information loss inherent in token logits and probabilities after projection and softmax normalization. We model confidence prediction as a sequence classification task, and regularize training with a Huber loss term to improve robustness against noisy supervision. Applied in a real-world financial industry customer-support setting with complex knowledge bases, our method outperforms strong baselines and maintains high accuracy under strict latency constraints. Experiments on Llama 3.1 8B model show that using activations from only the 16th layer preserves accuracy while reducing response latency. Our results demonstrate that activation-based confidence modeling offers a scalable, architecture-aware path toward trustworthy RAG deployment."
+  },
+  {
+    "title": "VC-Dimension vs Degree: An Uncertainty Principle for Boolean Functions",
+    "url": "http://arxiv.org/abs/2510.13705v1",
+    "arxiv_id": "2510.13705v1",
+    "authors": [
+      "Fan Chang",
+      "Yijia Fang"
+    ],
+    "published": "2025-10-15T16:02:24+00:00",
+    "summary": "In this paper, we uncover a new uncertainty principle that governs the complexity of Boolean functions. This principle manifests as a fundamental trade-off between two central measures of complexity: a combinatorial complexity of its supported set, captured by its Vapnik-Chervonenkis dimension ($\\mathrm{VC}(f)$), and its algebraic structure, captured by its polynomial degree over various fields. We establish two primary inequalities that formalize this trade-off:$\\mathrm{VC}(f)+\\deg(f)\\ge n,$ and $\\mathrm{VC}(f)+\\deg_{\\mathbb{F}_2}(f)\\ge n$. In particular, these results recover the classical uncertainty principle on the discrete hypercube, as well as the Sziklai--Weiner's bound in the case of $\\mathbb{F}_2$."
+  },
+  {
+    "title": "Hierarchical Bayesian Modeling of Dengue in Recife, Brazil (2015-2024): The Role of Spatial Granularity and Data Quality for Epidemiological Risk Mapping",
+    "url": "http://arxiv.org/abs/2510.13672v1",
+    "arxiv_id": "2510.13672v1",
+    "authors": [
+      "Marc\u00edlio Ferreira dos Santos",
+      "Andreza dos Santos Rodrigues de Melo"
+    ],
+    "published": "2025-10-15T15:30:40+00:00",
+    "summary": "Dengue remains one of Brazil's major epidemiological challenges, marked by strong intra-urban inequalities and the influence of climatic and socio-environmental factors. This study analyzed confirmed dengue cases in Recife from 2015 to 2024 using a Bayesian hierarchical spatio-temporal model implemented in R-INLA, combining a BYM2 spatial structure with an RW1 temporal component. Covariates included population density, household size, income, drainage channels, lagged precipitation, and mean temperature. Population density and household size had positive effects on dengue risk, while income and channel presence were protective. Lagged precipitation increased risk, and higher temperatures showed an inverse association, suggesting thermal thresholds for vector activity. The model achieved good fit (DIC=65817; WAIC=64506) and stable convergence, with moderate residual spatial autocorrelation (phi=0.06) and a smooth temporal trend between 2016 and 2019. Spatio-temporal estimates revealed persistent high-risk clusters in northern and western Recife, overlapping with areas of higher density and social vulnerability. Beyond reproducing historical patterns, the Bayesian model supports probabilistic forecasting and early warning systems. Compared with classical models (GLM, SAR, GWR, GTWR), INLA explicitly integrates uncertainty and spatial-temporal dependence, offering credible interval inference for decision-making in urban health management."
+  },
+  {
+    "title": "Towards Adversarial Robustness and Uncertainty Quantification in DINOv2-based Few-Shot Anomaly Detection",
+    "url": "http://arxiv.org/abs/2510.13643v1",
+    "arxiv_id": "2510.13643v1",
+    "authors": [
+      "Akib Mohammed Khan",
+      "Bartosz Krawczyk"
+    ],
+    "published": "2025-10-15T15:06:45+00:00",
+    "summary": "Foundation models such as DINOv2 have shown strong performance in few-shot anomaly detection, yet two key questions remain unexamined: (i) how susceptible are these detectors to adversarial perturbations; and (ii) how well do their anomaly scores reflect calibrated uncertainty? Building on AnomalyDINO, a training-free deep nearest-neighbor detector over DINOv2 features, we present one of the first systematic studies of adversarial attacks and uncertainty estimation in this setting. To enable white-box gradient attacks while preserving test-time behavior, we attach a lightweight linear head to frozen DINOv2 features only for crafting perturbations. Using this heuristic, we evaluate the impact of FGSM across the MVTec-AD and VisA datasets and observe consistent drops in F1, AUROC, AP, and G-mean, indicating that imperceptible perturbations can flip nearest-neighbor relations in feature space to induce confident misclassification. Complementing robustness, we probe reliability and find that raw anomaly scores are poorly calibrated, revealing a gap between confidence and correctness that limits safety-critical use. As a simple, strong baseline toward trustworthiness, we apply post-hoc Platt scaling to the anomaly scores for uncertainty estimation. The resulting calibrated posteriors yield significantly higher predictive entropy on adversarially perturbed inputs than on clean ones, enabling a practical flagging mechanism for attack detection while reducing calibration error (ECE). Our findings surface concrete vulnerabilities in DINOv2-based few-shot anomaly detectors and establish an evaluation protocol and baseline for robust, uncertainty-aware anomaly detection. We argue that adversarial robustness and principled uncertainty quantification are not optional add-ons but essential capabilities if anomaly detection systems are to be trustworthy and ready for real-world deployment."
+  },
+  {
+    "title": "Radiative decays of the $\u03a9(2012)$ as a hadronic molecule",
+    "url": "http://arxiv.org/abs/2510.13623v1",
+    "arxiv_id": "2510.13623v1",
+    "authors": [
+      "Qing-Hua Shen",
+      "Jun-Xu Lu",
+      "Li-Sheng Geng",
+      "Xiang Liu",
+      "Ju-Jun Xie"
+    ],
+    "published": "2025-10-15T14:51:10+00:00",
+    "summary": "We present a theoretical investigation of the radiative decay process $\\Omega(2012) \\to \\gamma \\Omega$, where the $\\Omega(2012)$ resonance with spin-parity $J^P=\\frac{3}{2}^-$, is treated as a dynamically generated state from $\\bar{K}\\Xi(1530)$ and $\\eta \\Omega$ in $s$-wave and $\\bar{K}\\Xi$ in $d$-wave. The radiative decay width of the $\\Omega(2012)$ is calculated using a triangular loop mechanism, where the $\\Omega(2012)$ couples to the $\\bar{K} \\Xi(1530)$ channel. Subsequently, the final state interactions between $\\Xi(1530)$ and $\\bar{K}$ transition to a photon and $\\Omega$ through the exchange of a $\\Xi$ baryon. Our calculations yield a radiative decay width of $13.2 ^{+4.5}_{-3.9}$ KeV, with uncertainties arising from the model parameters. This result provides valuable insights into the nature of the $\\Omega(2012)$ resonance and its decay dynamics. It is expected that the calculations presented here could be verified by future experiments, which would open a new door for studying the still elusive nature of the $\\Omega(2012)$."
+  },
+  {
+    "title": "Model-assisted estimation for MRV: How to boost the economics of SOC sequestration projects without compromising on scientific integrity",
+    "url": "http://arxiv.org/abs/2510.13609v1",
+    "arxiv_id": "2510.13609v1",
+    "authors": [
+      "Ahmad Awad",
+      "Erik Scharw\u00e4chter"
+    ],
+    "published": "2025-10-15T14:39:30+00:00",
+    "summary": "Soil organic carbon (SOC) sequestration projects require unbiased, precise and cost-effective Monitoring, Reporting, and Verification (MRV) systems that balance sampling costs against uncertainty deductions imposed by regulatory frameworks. Design-based estimators guarantee unbiasedness but cannot exploit auxiliary data. Model-based approaches (VCS Methodology VT0014 v1.0 (2025)) can improve precision but require independent validation for each project. Model-assisted estimation offers a robust compromise, combining model predictions with probability sampling to retain design-based guarantees while improving precision. We evaluate the scientific integrity and efficiency of the simple regression estimator (SRE), a well-known model-assisted estimator, via an extensive simulation study. Our simulations span diverse SOC stock variances, sample sizes, and model performances. We assess three core properties: empirical bias, empirical confidence interval coverage, and precision gain relative to the design-based Horvitz-Thompson estimator (HTE). Results show negligible bias and valid coverage probabilities for n > 40, regardless of SOC stock variance. Below this threshold, variance approximations and normality assumptions yield unreliable uncertainty estimates. With correlated ancillary variables (r^2 = 0.3), SRE achieves 30% precision gains over HTE. With uncorrelated variables, no gains are observed, but performance converges to HTE for n >= 40. Model-assisted estimation can enhance project economics without compromising scientific rigor. Regulators should permit such estimators while mandating minimum sample size thresholds. Project proponents should routinely employ such estimators when correlated ancillary variables exist. The industry should prioritize the retrieval of high-quality, project-specific covariates to maximize precision gains and thereby the project economics."
+  },
+  {
+    "title": "Unsupervised Constitutive Model Discovery from Sparse and Noisy Data",
+    "url": "http://arxiv.org/abs/2510.13559v1",
+    "arxiv_id": "2510.13559v1",
+    "authors": [
+      "Vahab Knauf Narouie",
+      "Jorge-Humberto Urrea-Quintero",
+      "Fehmi Cirak",
+      "Henning Wessels"
+    ],
+    "published": "2025-10-15T13:59:20+00:00",
+    "summary": "Recently, unsupervised constitutive model discovery has gained attention through frameworks based on the Virtual Fields Method (VFM), most prominently the EUCLID approach. However, the performance of VFM-based approaches, including EUCLID, is affected by measurement noise and data sparsity, which are unavoidable in practice. The statistical finite element method (statFEM) offers a complementary perspective by providing a Bayesian framework for assimilating noisy and sparse measurements to reconstruct the full-field displacement response, together with quantified uncertainty. While statFEM recovers displacement fields under uncertainty, it does not strictly enforce consistency with constitutive relations or aim to yield interpretable constitutive models. In this work, we couple statFEM with unsupervised constitutive model discovery in the EUCLID framework, yielding statFEM--EUCLID. The framework is demonstrated for isotropic hyperelastic materials. The results show that this integration reduces sensitivity to noise and data sparsity, while ensuring that the reconstructed fields remain consistent with both equilibrium and constitutive laws."
+  },
+  {
+    "title": "Quantifying the Impact of Missing Risk Markets for Decarbonized Power Systems with Long Duration Energy Storage",
+    "url": "http://arxiv.org/abs/2510.13514v1",
+    "arxiv_id": "2510.13514v1",
+    "authors": [
+      "Andreas C. Makrides",
+      "Adam Suski",
+      "Elina Spyrou"
+    ],
+    "published": "2025-10-15T13:06:56+00:00",
+    "summary": "The transition to a fully decarbonised electricity system depends on integrating new technologies that ensure reliability alongside sustainability. However, missing risk markets hinder investment in reliability-enhancing technologies by exposing investors to revenue uncertainty. This study provides the first quantitative assessment of how missing risk markets affect investment decisions in power systems that depend on long-duration energy storage (LDES) for reliability. We develop a two-stage stochastic equilibrium model with risk-averse market participants, which independently sizes power and energy capacity. We apply the method to a case study of a deeply decarbonised power system in Great Britain. The results show that incomplete risk markets reduce social welfare, harm reliability, and discourage investment in LDES and other technologies with volatile revenue streams. Revenue volatility leads to substantial risk premiums and higher financing costs for LDES, creating a barrier to its large-scale deployment. These findings demonstrate the importance of policy mechanisms that hedge revenue risk to lower the cost of capital and accelerate investment in reliability-enhancing, zero-carbon technologies"
+  },
+  {
     "title": "What If : Understanding Motion Through Sparse Interactions",
     "url": "http://arxiv.org/abs/2510.12777v1",
     "arxiv_id": "2510.12777v1",
