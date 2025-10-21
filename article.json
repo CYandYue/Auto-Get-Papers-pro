@@ -1,5 +1,155 @@
 [
   {
+    "title": "Admittance Matrix Concentration Inequalities for Understanding Uncertain Power Networks",
+    "url": "http://arxiv.org/abs/2510.17798v1",
+    "arxiv_id": "2510.17798v1",
+    "authors": [
+      "Samuel Talkington",
+      "Cameron Khanpour",
+      "Rahul K. Gupta",
+      "Sergio A. Dorado-Rojas",
+      "Daniel Turizo",
+      "Hyeongon Park",
+      "Dmitrii M. Ostrovskii",
+      "Daniel K. Molzahn"
+    ],
+    "published": "2025-10-20T17:58:17+00:00",
+    "summary": "This paper presents probabilistic bounds for the spectrum of the admittance matrix and classical linear power flow models under uncertain network parameters; for example, probabilistic line contingencies. Our proposed approach imports tools from probability theory, such as concentration inequalities for random matrices with independent entries. It yields error bounds for common approximations of the AC power flow equations under parameter uncertainty, including the DC and LinDistFlow approximations."
+  },
+  {
+    "title": "QUIJOTE scientific results XIX. New constraints on the synchrotron spectral index using a semi-blind component separation method",
+    "url": "http://arxiv.org/abs/2510.17761v1",
+    "arxiv_id": "2510.17761v1",
+    "authors": [
+      "Debabrata Adak",
+      "J. A. Rubi\u00f1o-Mart\u00edn",
+      "R. T. G\u00e9nova-Santos",
+      "M. Remazeilles",
+      "A. Almeida",
+      "K. Aryan",
+      "M. Ashdown",
+      "R. B. Barreiro",
+      "U. Bose",
+      "R. Cepeda-Arroita",
+      "J. M. Casas",
+      "M. Fern\u00e1ndez-Torreiro",
+      "E. Mart\u00ednez-Gonzalez",
+      "F. Poidevin",
+      "R. Rebolo",
+      "P. Vielva"
+    ],
+    "published": "2025-10-20T17:13:11+00:00",
+    "summary": "We introduce a novel approach to estimate the spectral index, $\\beta_s$, of polarised synchrotron emission, combining the moment expansion of CMB foregrounds and the constrained-ILC method. We reconstruct the maps of the first two synchrotron moments, combining multi-frequency data, and apply the `T-T plot' technique between two moment maps to estimate the synchrotron spectral index. This approach offers a new technique for mapping the foreground spectral parameters, complementing the model-based parametric component separation methods. Applying this technique, we derive a new constraint on the spectral index of polarised synchrotron emission using QUIJOTE MFI wide-survey 11 and 13 GHz data, Wilkinson Microwave Anisotropy Probe (WMAP) data at K and Ka bands, and Planck LFI 30 GHz data. In the Galactic plane and North Polar Spur regions, we obtain an inverse-variance-weighted mean synchrotron index of $\\beta_s = -3.11$ with a standard deviation of $0.21$ due to intrinsic scatter, consistent with previous results based on parametric methods using the same dataset. We find that the inverse-variance-weighted mean spectral index, including both statistical and systematic uncertainties, is $\\beta_s^{\\rm plane} = -3.05 \\pm 0.01$ in the Galactic plane and $\\beta_s^{\\rm high\\text{-}lat} = -3.13 \\pm 0.02$ at high latitudes, indicating a moderate steepening of the spectral index from low to high Galactic latitudes. Our analysis indicates that, within the current upper limit on the AME polarisation fraction, our results are not subject to any appreciable bias. Furthermore, we infer the spectral index over the entire QUIJOTE survey region, partitioning the sky into 21 patches. This technique can be further extended to constrain the synchrotron spectral curvature by reconstructing higher-order moments when better-quality data become available."
+  },
+  {
+    "title": "Enabling Fine-Grained Operating Points for Black-Box LLMs",
+    "url": "http://arxiv.org/abs/2510.17727v1",
+    "arxiv_id": "2510.17727v1",
+    "authors": [
+      "Ege Beyazit",
+      "KL Navaneet",
+      "Prashant Mathur",
+      "Roi Blanco",
+      "Vidit Bansal",
+      "Karim Bouyarmane"
+    ],
+    "published": "2025-10-20T16:43:06+00:00",
+    "summary": "Black-box Large Language Models (LLMs) provide practical and accessible alternatives to other machine learning methods, as they require minimal labeled data and machine learning expertise to develop solutions for various decision making problems. However, for applications that need operating with constraints on specific metrics (e.g., precision $\\geq$ 95%), decision making with black-box LLMs remains unfavorable, due to their low numerical output cardinalities. This results in limited control over their operating points, preventing fine-grained adjustment of their decision making behavior. In this paper, we study using black-box LLMs as classifiers, focusing on efficiently improving their operational granularity without performance loss. Specifically, we first investigate the reasons behind their low-cardinality numerical outputs and show that they are biased towards generating rounded but informative verbalized probabilities. Then, we experiment with standard prompt engineering, uncertainty estimation and confidence elicitation techniques, and observe that they do not effectively improve operational granularity without sacrificing performance or increasing inference cost. Finally, we propose efficient approaches to significantly increase the number and diversity of available operating points. Our proposed approaches provide finer-grained operating points and achieve comparable to or better performance than the benchmark methods across 11 datasets and 3 LLMs."
+  },
+  {
+    "title": "Efficient Algorithms for Mitigating Uncertainty and Risk in Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2510.17690v1",
+    "arxiv_id": "2510.17690v1",
+    "authors": [
+      "Xihong Su"
+    ],
+    "published": "2025-10-20T16:06:01+00:00",
+    "summary": "This dissertation makes three main contributions. First, We identify a new connection between policy gradient and dynamic programming in MMDPs and propose the Coordinate Ascent Dynamic Programming (CADP) algorithm to compute a Markov policy that maximizes the discounted return averaged over the uncertain models. CADP adjusts model weights iteratively to guarantee monotone policy improvements to a local maximum. Second, We establish sufficient and necessary conditions for the exponential ERM Bellman operator to be a contraction and prove the existence of stationary deterministic optimal policies for ERM-TRC and EVaR-TRC. We also propose exponential value iteration, policy iteration, and linear programming algorithms for computing optimal stationary policies for ERM-TRC and EVaR-TRC. Third, We propose model-free Q-learning algorithms for computing policies with risk-averse objectives: ERM-TRC and EVaR-TRC. The challenge is that Q-learning ERM Bellman may not be a contraction. Instead, we use the monotonicity of Q-learning ERM Bellman operators to derive a rigorous proof that the ERM-TRC and the EVaR-TRC Q-learning algorithms converge to the optimal risk-averse value functions. The proposed Q-learning algorithms compute the optimal stationary policy for ERM-TRC and EVaR-TRC."
+  },
+  {
+    "title": "LILO: Bayesian Optimization with Interactive Natural Language Feedback",
+    "url": "http://arxiv.org/abs/2510.17671v1",
+    "arxiv_id": "2510.17671v1",
+    "authors": [
+      "Katarzyna Kobalczyk",
+      "Zhiyuan Jerry Lin",
+      "Benjamin Letham",
+      "Zhuokai Zhao",
+      "Maximilian Balandat",
+      "Eytan Bakshy"
+    ],
+    "published": "2025-10-20T15:41:56+00:00",
+    "summary": "For many real-world applications, feedback is essential in translating complex, nuanced, or subjective goals into quantifiable optimization objectives. We propose a language-in-the-loop framework that uses a large language model (LLM) to convert unstructured feedback in the form of natural language into scalar utilities to conduct BO over a numeric search space. Unlike preferential BO, which only accepts restricted feedback formats and requires customized models for each domain-specific problem, our approach leverages LLMs to turn varied types of textual feedback into consistent utility signals and to easily include flexible user priors without manual kernel design. At the same time, our method maintains the sample efficiency and principled uncertainty quantification of BO. We show that this hybrid method not only provides a more natural interface to the decision maker but also outperforms conventional BO baselines and LLM-only optimizers, particularly in feedback-limited regimes."
+  },
+  {
+    "title": "Space-Time Rate-Splitting Multiple Access for Multibeam LEO Satellite Networks",
+    "url": "http://arxiv.org/abs/2510.17625v1",
+    "arxiv_id": "2510.17625v1",
+    "authors": [
+      "Jaehyup Seong",
+      "Byungju Lee",
+      "Aryan Kaushik",
+      "Wonjae Shin"
+    ],
+    "published": "2025-10-20T15:10:18+00:00",
+    "summary": "This paper proposes a novel space-time rate-splitting multiple access (ST-RSMA) framework for multibeam low Earth orbit (LEO) satellite communications (SATCOM) systems, where space-time coding is integrated into the common stream transmission. This design enables full diversity gain in the common stream transmission for all users, regardless of the uncertainty of the channel state information (CSI) and network load conditions, thereby overcoming the performance limitations of conventional RSMA that employs a single beamforming vector for all users. To further enhance performance, we develop a weighted minimum mean square error (WMMSE)-based algorithm tailored to ST-RSMA that jointly optimizes the power allocation for the common stream and the power/beamforming vectors for private streams, aiming to maximize the minimum user rate. Numerical results show that ST-RSMA significantly outperforms conventional RSMA and other multiple access techniques, offering a robust and scalable solution for LEO SATCOM."
+  },
+  {
+    "title": "OG-Rank: Learning to Rank Fast and Slow with Uncertainty and Reward-Trend Guided Adaptive Exploration",
+    "url": "http://arxiv.org/abs/2510.17614v1",
+    "arxiv_id": "2510.17614v1",
+    "authors": [
+      "Praphul Singh",
+      "Corey Barrett",
+      "Sumana Srivasta",
+      "Irfan Bulu",
+      "Sri Gadde",
+      "Krishnaram Kenthapadi"
+    ],
+    "published": "2025-10-20T15:00:02+00:00",
+    "summary": "Clinicians need ranking systems that work in real time and still justify their choices. Motivated by the need for a low-latency, decoder-based reranker, we present OG-Rank, a single-decoder approach that pairs a pooled first-token scoring signal with an uncertainty-gated explanation step. The model scores all candidates in one pass and generates a brief, structured rationale only when the list is genuinely ambiguous, keeping latency predictable. Trained with a curriculum that concentrates effort on hard cases, OG-Rank delivers strong effectiveness on encounter-scoped order selection (fast path: Recall@1~0.45, nDCG@20~0.625) and improves further when the gate activates (Recall@1~0.56, nDCG@20~0.699 at a 45\\% gate rate), while compact backbones show similar gains under the same policy. Encoder baselines trail in both effectiveness and flexibility. The result is a practical recipe: rank fast by default and explain when it helps, a pattern that applies broadly to decision tasks where selective generation buys accuracy at acceptable cost. The single-policy design simplifies deployment and budget planning, and the curriculum principle (spend more on the hard cases, less on the easy ones) readily transfers beyond clinical order selection."
+  },
+  {
+    "title": "Defining Utility as a Measure of Preference Under Uncertainty in Phase I-II Oncology Dose Finding Trials",
+    "url": "http://arxiv.org/abs/2510.17550v1",
+    "arxiv_id": "2510.17550v1",
+    "authors": [
+      "Andrew Hall",
+      "Duncan Wilson",
+      "Stuart Barber",
+      "Sarah R Brown"
+    ],
+    "published": "2025-10-20T13:58:39+00:00",
+    "summary": "The main objective of dose finding trials is to find an optimal dose amongst a candidate set for further research. The trial design in oncology proceeds in stages with a decision as to how to treat the next group of patients made at every stage until a final sample size is reached or the trial stopped early.   This work applies a Bayesian decision-theoretic approach to the problem, proposing a new utility function based on both efficacy and toxicity and grounded in von Neumann-Morgenstern (VNM) utility theory. Our proposed framework seeks to better capture real clinical judgements by allowing attitudes to risk to vary when the judgements are of gains or losses, which are defined with respect to an intermediate outcome known as a reference point. We call this method Reference Dependent Decision Theoretic dose finding (R2DT).   A simulation study demonstrates that the framework can perform well and produce good operating characteristics. The simulation results demonstrate that R2DT is better at detecting the optimal dose in scenarios where candidate doses are around minimum acceptable efficacy and maximum acceptable toxicity thresholds.   The proposed framework shows that a flexible utility function, which better captures clinician beliefs, can lead to trials with good operating characteristics, including a high probability of finding the optimal dose. Our work demonstrates proof-of-concept for this framework, which should be evaluated in a broader range of settings."
+  },
+  {
+    "title": "When Annotators Disagree, Topology Explains: Mapper, a Topological Tool for Exploring Text Embedding Geometry and Ambiguity",
+    "url": "http://arxiv.org/abs/2510.17548v1",
+    "arxiv_id": "2510.17548v1",
+    "authors": [
+      "Nisrine Rair",
+      "Alban Goupil",
+      "Valeriu Vrabie",
+      "Emmanuel Chochoy"
+    ],
+    "published": "2025-10-20T13:58:02+00:00",
+    "summary": "Language models are often evaluated with scalar metrics like accuracy, but such measures fail to capture how models internally represent ambiguity, especially when human annotators disagree. We propose a topological perspective to analyze how fine-tuned models encode ambiguity and more generally instances.   Applied to RoBERTa-Large on the MD-Offense dataset, Mapper, a tool from topological data analysis, reveals that fine-tuning restructures embedding space into modular, non-convex regions aligned with model predictions, even for highly ambiguous cases. Over $98\\%$ of connected components exhibit $\\geq 90\\%$ prediction purity, yet alignment with ground-truth labels drops in ambiguous data, surfacing a hidden tension between structural confidence and label uncertainty.   Unlike traditional tools such as PCA or UMAP, Mapper captures this geometry directly uncovering decision regions, boundary collapses, and overconfident clusters. Our findings position Mapper as a powerful diagnostic tool for understanding how models resolve ambiguity. Beyond visualization, it also enables topological metrics that may inform proactive modeling strategies in subjective NLP tasks."
+  },
+  {
+    "title": "I-RAVEN-X: Benchmarking Generalization and Robustness of Analogical and Mathematical Reasoning in Large Language and Reasoning Models",
+    "url": "http://arxiv.org/abs/2510.17496v1",
+    "arxiv_id": "2510.17496v1",
+    "authors": [
+      "Giacomo Camposampiero",
+      "Michael Hersche",
+      "Roger Wattenhofer",
+      "Abu Sebastian",
+      "Abbas Rahimi"
+    ],
+    "published": "2025-10-20T12:51:13+00:00",
+    "summary": "We introduce I-RAVEN-X, a symbolic benchmark designed to evaluate generalization and robustness in analogical and mathematical reasoning for Large Language Models (LLMs) and Large Reasoning Models (LRMs). I-RAVEN-X extends I-RAVEN by increasing operand complexity, attribute range, and introducing perceptual uncertainty. Compared to LLMs, empirical results show that LRMs achieve improved productivity and systematicity on longer reasoning relations and wider attribute ranges, respectively. However, LRMs are still significantly challenged by reasoning under uncertainty and cannot effectively explore multiple probabilistic outcomes."
+  },
+  {
     "title": "A Unifying Convexification Framework for Chance-Constrained Programs via Bilinear Extended Formulations over a Simplex",
     "url": "http://arxiv.org/abs/2510.15861v1",
     "arxiv_id": "2510.15861v1",
