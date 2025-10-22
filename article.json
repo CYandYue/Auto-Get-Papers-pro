@@ -1,5 +1,133 @@
 [
   {
+    "title": "NNLO QCD$\\otimes$QED corrections to unpolarized and polarized SIDIS",
+    "url": "http://arxiv.org/abs/2510.18872v1",
+    "arxiv_id": "2510.18872v1",
+    "authors": [
+      "Saurav Goyal",
+      "Roman N. Lee",
+      "Sven-Olaf Moch",
+      "Vaibhav Pathak",
+      "V. Ravindran"
+    ],
+    "published": "2025-10-21T17:59:07+00:00",
+    "summary": "We present the first computation of next-to-next-to-leading order (NNLO) pure QED and mixed QCD$\\otimes$QED corrections to unpolarized and polarized semi-inclusive deep-inelastic scattering (SIDIS). Building on our previous NNLO QCD results, these corrections are crucial for improving the theoretical precision. The coefficient functions are derived within the QCD factorization framework using dimensional regularization, with consistent renormalization and mass factorization. A detailed phenomenological analysis shows that the NNLO QED and QCD$\\otimes$QED terms enhance perturbative stability and reduce scale uncertainties. These results are essential for high-precision SIDIS predictions at future facilities such as the Electron-Ion Collider."
+  },
+  {
+    "title": "Reexamining Evidence of a Pair-Instability Mass Gap in the Binary Black Hole Population",
+    "url": "http://arxiv.org/abs/2510.18867v1",
+    "arxiv_id": "2510.18867v1",
+    "authors": [
+      "Anarya Ray",
+      "Vicky Kalogera"
+    ],
+    "published": "2025-10-21T17:58:21+00:00",
+    "summary": "The fourth gravitational wave transient catalog~(GWTC-4) has enabled empirical probes of the theorized pair-instability gap in the higher end of the binary black hole~(BBH) mass-spectrum. In this letter, using flexibly parametrized models, we show that at present there is no evidence of a sharp drop-off in the spectrum of black hole masses near $~40-50M_{\\odot}$. We simultaneously characterize the transition in the distribution of BBH mass-ratios, effective aligned and effective precessing spins using our flexible models. From the transitions in our inferred spin and mass-ratio distributions, we find that the high-mass broad-spin sub-population has a significant fraction~($52^{+18}_{-23}\\%$) of systems with mass ratios in the range $0.6-1$. This suggests that alternatives to the hypothesis of 2G+1G hierarchical systems dominating BBH formation above $\\sim 40-50 M_{\\odot}$ are more consistent with the GWTC-4 detection sample. By comparing with the predictions of star cluster simulations, we further show that contributions from (2G+2G) systems are not abundant enough to alleviate this discrepancy. We also demonstrate the effects of strong model assumptions on this inference, which can lead to biased astrophysical interpretation from restricted priors. We note that our results do not exclude that a high-mass gap may be identified as our sample size increases. We constrain the lower bound on the location of a possible PISN cutoff still allowed within measurement uncertainties to be $(57^{+17}_{-10}M_{\\odot})$ and discuss its implications on the S factor of $^{12}\\mathrm{C}(\\alpha, \\gamma)^{16}O$ at 300 kev."
+  },
+  {
+    "title": "Degeneracy-Aware Pulsar Parameter Estimation from Light Curves via Deep Learning and Test-Time Optimization",
+    "url": "http://arxiv.org/abs/2510.18807v1",
+    "arxiv_id": "2510.18807v1",
+    "authors": [
+      "Abu Bucker Siddik",
+      "Diane Oyen",
+      "Soumi De",
+      "Greg Olmschenk",
+      "Constantinos Kalapotharakos"
+    ],
+    "published": "2025-10-21T17:03:08+00:00",
+    "summary": "Probing properties of neutron stars from photometric observations of these objects helps us answer crucial questions at the forefront of multi-messenger astronomy, such as, what is behavior of highest density matter in extreme environments and what is the procedure of generation and evolution of magnetic fields in these astrophysical environments? However, uncertainties and degeneracies-where different parameter sets produce similar light curves-make this task challenging. We propose a deep learning framework for inferring pulsar parameters from observed light curves. Traditional deep learning models are not designed to produce multiple degenerate solutions for a given input. To address this, we introduce a custom loss function that incorporates a light curve emulator as a forward model, along with a dissimilarity loss that encourages the model to capture diverse, degenerate parameter sets for a given light curve. We further introduce a test-time optimization scheme that refines predicted parameters by minimizing the discrepancy between the observed light curve and those reconstructed by the forward model from predicted parameters during inference. The model is trained using a suite of state-of-the-art simulated pulsar light curves. Finally, we demonstrate that the parameter sets predicted by our approach reproduce light curves that are consistent with the true observation."
+  },
+  {
+    "title": "Gravitational-wave and electromagnetic detections in the context of the CosmoDC2 LSST synthetic catalog",
+    "url": "http://arxiv.org/abs/2510.18727v1",
+    "arxiv_id": "2510.18727v1",
+    "authors": [
+      "Ranier Menote",
+      "Valerio Marra",
+      "Riccardo Sturani",
+      "Felipe Andrade-Oliveira",
+      "Cl\u00e9cio R. Bom",
+      "The LSST Dark Energy Science Collaboration"
+    ],
+    "published": "2025-10-21T15:27:51+00:00",
+    "summary": "We release CosmoDC2_BCO, a synthetic catalog of gravitational-wave events and electromagnetic counterparts associated with galaxies from CosmoDC2. The catalog provides intrinsic and extrinsic source parameters, signal-to-noise ratios, parameter uncertainties, sky localization areas, and kilonova apparent magnitudes in LSST filters. Our results show that third-generation detector networks substantially increase detection rates and improve parameter estimation. Second-generation detectors, when combined with third-generation ones, significantly enhance sky localization and distance precision, particularly for BNS mergers. Assuming a simplified Target of Opportunity strategy, we estimate that an LSST-like survey, partnered with the CE+ET+LVK network at 70% duty cycle, could detect about 5000 kilonovae with GW counterparts over a 10-year period on a 16000 deg^2 footprint, predominantly from low-mass BNS mergers that produce long-lived supermassive neutron star remnants. While this is a substantial number, it represents only a small fraction of the total neutron star mergers expected to be observed by third-generation networks. These projections rely on several simplifying assumptions-including the adopted merger rate, the kilonova luminosity distribution, and the configuration and scheduling of future surveys-which introduce notable uncertainties. Therefore, the estimated detection numbers should be interpreted with appropriate caution."
+  },
+  {
+    "title": "Preference-based Reinforcement Learning beyond Pairwise Comparisons: Benefits of Multiple Options",
+    "url": "http://arxiv.org/abs/2510.18713v1",
+    "arxiv_id": "2510.18713v1",
+    "authors": [
+      "Joongkyu Lee",
+      "Seouh-won Yi",
+      "Min-hwan Oh"
+    ],
+    "published": "2025-10-21T15:11:01+00:00",
+    "summary": "We study online preference-based reinforcement learning (PbRL) with the goal of improving sample efficiency. While a growing body of theoretical work has emerged-motivated by PbRL's recent empirical success, particularly in aligning large language models (LLMs)-most existing studies focus only on pairwise comparisons. A few recent works (Zhu et al., 2023, Mukherjee et al., 2024, Thekumparampil et al., 2024) have explored using multiple comparisons and ranking feedback, but their performance guarantees fail to improve-and can even deteriorate-as the feedback length increases, despite the richer information available. To address this gap, we adopt the Plackett-Luce (PL) model for ranking feedback over action subsets and propose M-AUPO, an algorithm that selects multiple actions by maximizing the average uncertainty within the offered subset. We prove that M-AUPO achieves a suboptimality gap of $\\tilde{\\mathcal{O}}\\left( \\frac{d}{T} \\sqrt{ \\sum_{t=1}^T \\frac{1}{|S_t|}} \\right)$, where $T$ is the total number of rounds, $d$ is the feature dimension, and $|S_t|$ is the size of the subset at round $t$. This result shows that larger subsets directly lead to improved performance and, notably, the bound avoids the exponential dependence on the unknown parameter's norm, which was a fundamental limitation in most previous works. Moreover, we establish a near-matching lower bound of $\\Omega \\left( \\frac{d}{K \\sqrt{T}} \\right)$, where $K$ is the maximum subset size. To the best of our knowledge, this is the first theoretical result in PbRL with ranking feedback that explicitly shows improved sample efficiency as a function of the subset size."
+  },
+  {
+    "title": "Event-Grounding Graph: Unified Spatio-Temporal Scene Graph from Robotic Observations",
+    "url": "http://arxiv.org/abs/2510.18697v1",
+    "arxiv_id": "2510.18697v1",
+    "authors": [
+      "Phuoc Nguyen",
+      "Francesco Verdoja",
+      "Ville Kyrki"
+    ],
+    "published": "2025-10-21T14:53:42+00:00",
+    "summary": "A fundamental aspect for building intelligent autonomous robots that can assist humans in their daily lives is the construction of rich environmental representations. While advances in semantic scene representations have enriched robotic scene understanding, current approaches lack a connection between spatial features and dynamic events; e.g., connecting the blue mug to the event washing a mug. In this work, we introduce the event-grounding graph (EGG), a framework grounding event interactions to spatial features of a scene. This representation allows robots to perceive, reason, and respond to complex spatio-temporal queries. Experiments using real robotic data demonstrate EGG's capability to retrieve relevant information and respond accurately to human inquiries concerning the environment and events within. Furthermore, the EGG framework's source code and evaluation dataset are released as open-source at: https://github.com/aalto-intelligent-robotics/EGG."
+  },
+  {
+    "title": "Informed Learning for Estimating Drought Stress at Fine-Scale Resolution Enables Accurate Yield Prediction",
+    "url": "http://arxiv.org/abs/2510.18648v1",
+    "arxiv_id": "2510.18648v1",
+    "authors": [
+      "Miro Miranda",
+      "Marcela Charfuelan",
+      "Matias Valdenegro Toro",
+      "Andreas Dengel"
+    ],
+    "published": "2025-10-21T13:58:04+00:00",
+    "summary": "Water is essential for agricultural productivity. Assessing water shortages and reduced yield potential is a critical factor in decision-making for ensuring agricultural productivity and food security. Crop simulation models, which align with physical processes, offer intrinsic explainability but often perform poorly. Conversely, machine learning models for crop yield modeling are powerful and scalable, yet they commonly operate as black boxes and lack adherence to the physical principles of crop growth. This study bridges this gap by coupling the advantages of both worlds. We postulate that the crop yield is inherently defined by the water availability. Therefore, we formulate crop yield as a function of temporal water scarcity and predict both the crop drought stress and the sensitivity to water scarcity at fine-scale resolution. Sequentially modeling the crop yield response to water enables accurate yield prediction. To enforce physical consistency, a novel physics-informed loss function is proposed. We leverage multispectral satellite imagery, meteorological data, and fine-scale yield data. Further, to account for the uncertainty within the model, we build upon a deep ensemble approach. Our method surpasses state-of-the-art models like LSTM and Transformers in crop yield prediction with a coefficient of determination ($R^2$-score) of up to 0.82 while offering high explainability. This method offers decision support for industry, policymakers, and farmers in building a more resilient agriculture in times of changing climate conditions."
+  },
+  {
+    "title": "Comparative Expressivity for Structured Argumentation Frameworks with Uncertain Rules and Premises",
+    "url": "http://arxiv.org/abs/2510.18631v1",
+    "arxiv_id": "2510.18631v1",
+    "authors": [
+      "Carlo Proietti",
+      "Antonio Yuste-Ginel"
+    ],
+    "published": "2025-10-21T13:36:38+00:00",
+    "summary": "Modelling qualitative uncertainty in formal argumentation is essential both for practical applications and theoretical understanding. Yet, most of the existing works focus on \\textit{abstract} models for arguing with uncertainty. Following a recent trend in the literature, we tackle the open question of studying plausible instantiations of these abstract models. To do so, we ground the uncertainty of arguments in their components, structured within rules and premises. Our main technical contributions are: i) the introduction of a notion of expressivity that can handle abstract and structured formalisms, and ii) the presentation of both negative and positive expressivity results, comparing the expressivity of abstract and structured models of argumentation with uncertainty. These results affect incomplete abstract argumentation frameworks, and their extension with dependencies, on the abstract side, and ASPIC+, on the structured side."
+  },
+  {
+    "title": "Deep Q-Learning Assisted Bandwidth Reservation for Multi-Operator Time-Sensitive Vehicular Networking",
+    "url": "http://arxiv.org/abs/2510.18553v1",
+    "arxiv_id": "2510.18553v1",
+    "authors": [
+      "Abdullah Al-Khatib",
+      "Albert Gergus",
+      "Muneeb Ul Hassan",
+      "Abdelmajid Khelil",
+      "Klaus Mossner",
+      "Holger Timinger"
+    ],
+    "published": "2025-10-21T12:03:21+00:00",
+    "summary": "Very few available individual bandwidth reservation schemes provide efficient and cost-effective bandwidth reservation that is required for safety-critical and time-sensitive vehicular networked applications. These schemes allow vehicles to make reservation requests for the required resources. Accordingly, a Mobile Network Operator (MNO) can allocate and guarantee bandwidth resources based on these requests. However, due to uncertainty in future reservation time and bandwidth costs, the design of an optimized reservation strategy is challenging. In this article, we propose a novel multi-objective bandwidth reservation update approach with an optimal strategy based on Double Deep Q-Network (DDQN). The key design objectives are to minimize the reservation cost with multiple MNOs and to ensure reliable resource provisioning in uncertain situations by solving scenarios such as underbooked and overbooked reservations along the driving path. The enhancements and advantages of our proposed strategy have been demonstrated through extensive experimental results when compared to other methods like greedy update or other deep reinforcement learning approaches. Our strategy demonstrates a 40% reduction in bandwidth costs across all investigated scenarios and simultaneously resolves uncertain situations in a cost-effective manner."
+  },
+  {
+    "title": "Interval Prediction of Annual Average Daily Traffic on Local Roads via Quantile Random Forest with High-Dimensional Spatial Data",
+    "url": "http://arxiv.org/abs/2510.18548v1",
+    "arxiv_id": "2510.18548v1",
+    "authors": [
+      "Ying Yao",
+      "Daniel J. Graham"
+    ],
+    "published": "2025-10-21T11:56:57+00:00",
+    "summary": "Accurate annual average daily traffic (AADT) data are vital for transport planning and infrastructure management. However, automatic traffic detectors across national road networks often provide incomplete coverage, leading to underrepresentation of minor roads. While recent machine learning advances have improved AADT estimation at unmeasured locations, most models produce only point predictions and overlook estimation uncertainty. This study addresses that gap by introducing an interval prediction approach that explicitly quantifies predictive uncertainty. We integrate a Quantile Random Forest model with Principal Component Analysis to generate AADT prediction intervals, providing plausible traffic ranges bounded by estimated minima and maxima. Using data from over 2,000 minor roads in England and Wales, and evaluated with specialized interval metrics, the proposed method achieves an interval coverage probability of 88.22%, a normalized average width of 0.23, and a Winkler Score of 7,468.47. By combining machine learning with spatial and high-dimensional analysis, this framework enhances both the accuracy and interpretability of AADT estimation, supporting more robust and informed transport planning."
+  },
+  {
     "title": "Admittance Matrix Concentration Inequalities for Understanding Uncertain Power Networks",
     "url": "http://arxiv.org/abs/2510.17798v1",
     "arxiv_id": "2510.17798v1",
