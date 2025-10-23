@@ -1,5 +1,212 @@
 [
   {
+    "title": "How Accurate Are DFT Forces? Unexpectedly Large Uncertainties in Molecular Datasets",
+    "url": "http://arxiv.org/abs/2510.19774v1",
+    "arxiv_id": "2510.19774v1",
+    "authors": [
+      "Domantas Kuryla",
+      "Fabian Berger",
+      "G\u00e1bor Cs\u00e1nyi",
+      "Angelos Michaelides"
+    ],
+    "published": "2025-10-22T17:05:20+00:00",
+    "summary": "Training of general-purpose machine learning interatomic potentials (MLIPs) relies on large datasets with properties usually computed with density functional theory (DFT). A pre-requisite for accurate MLIPs is that the DFT data are well converged to minimize numerical errors. A possible symptom of errors in DFT force components is nonzero net force. Here, we consider net forces in datasets including SPICE, Transition1x, ANI-1x, ANI-1xbb, AIMNet2, QCML, and OMol25. Several of these datasets suffer from significant nonzero DFT net forces. We also quantify individual force component errors by comparison to recomputed forces using more reliable DFT settings at the same level of theory, and we find significant discrepancies in force components averaging from 1.7 meV/{\\AA} in the SPICE dataset to 33.2 meV/{\\AA} in the ANI-1x dataset. These findings underscore the importance of well converged DFT data as increasingly accurate MLIP architectures become available."
+  },
+  {
+    "title": "Beta-decay Half Lives beyond $^{54}$Ca: A Systematic Survey of Decay Properties approaching the Neutron Dripline",
+    "url": "http://arxiv.org/abs/2510.19757v1",
+    "arxiv_id": "2510.19757v1",
+    "authors": [
+      "W. -J. Ong",
+      "Z. Y. Xu",
+      "R. Grzywacz",
+      "A. Ravli\u0107",
+      "I. Cox",
+      "J. M. Allmond",
+      "T. T. King",
+      "B. C. Rasco",
+      "K. P. Rykaczewski",
+      "H. Schatz",
+      "B. M. Sherrill",
+      "B. Tarasov",
+      "B. A. Brown",
+      "S. Ajayi",
+      "H. Arora",
+      "A. D. Ayangeakaa",
+      "H. C. Berg",
+      "J. M. Berkman",
+      "D. L. Bleuel",
+      "K. Bosmpotinis",
+      "M. P. Carpenter",
+      "G. Cerizza",
+      "A. Chester",
+      "J. M. Christie",
+      "H. L. Crawford",
+      "B. P. Crider",
+      "J. Davis",
+      "A. A. Doetsch",
+      "J. G. Duarte",
+      "A. Estrade",
+      "A. Fijalkowska",
+      "C. Frantzis",
+      "K. Fukushima",
+      "T. Gaballah",
+      "T. Gray",
+      "E. Good",
+      "K. Haak",
+      "S. Hanai",
+      "A. C. Hartley",
+      "J. T. Harke",
+      "K. Hermansen",
+      "C. Harris",
+      "M. Hausmann",
+      "D. E. M. Hoff",
+      "D. Hoskins",
+      "J. Huffman",
+      "R. Jain",
+      "M. Karny",
+      "N. Kitamura",
+      "K. Kolos",
+      "E. Kwan",
+      "A. Laminack",
+      "S. N. Liddick",
+      "B. Longfellow",
+      "R. S. Lubna",
+      "S. Lyons",
+      "M. Madurga",
+      "M. Mogannam",
+      "S. Neupane",
+      "A. Nowicki",
+      "T. H. Ogunbeku",
+      "G. Owens-Fryar",
+      "J. R. Palomino",
+      "M. Portillo",
+      "M. M. Rajabali",
+      "A. L. Richard",
+      "I. Richardson",
+      "E. Ronning",
+      "G. E. Rose",
+      "T. Ruland",
+      "N. D. Scielzo",
+      "D. P. Scriven",
+      "D. Seweryniak",
+      "K. Siegl",
+      "M. Singh",
+      "M. K. Smith",
+      "A. Spyrou",
+      "M. Stepaniuk",
+      "A. Sweet",
+      "V. Tripathi",
+      "A. Tsantiri",
+      "S. Uthayakumaar",
+      "W. B. Walters",
+      "S. Watters",
+      "M. Wolinska-Cichocka",
+      "R. Yokoyama"
+    ],
+    "published": "2025-10-22T16:46:36+00:00",
+    "summary": "In an experiment performed at the Facility for Rare Isotope Beams (FRIB) using the FRIB Decay Station initiator (FDSi), 15 new half lives of isotopes near $^{54}$Ca were measured. A new method of extracting lifetimes from experimental data, taking into account the unknown $\\beta$-delayed neutron emission branches of very neutron-rich nuclei, was developed to enable systematic uncertainty analysis. The experiment observed a dramatic change in the half-life systematics for the isotopes with neutron number N =34. Beyond N =34, the decline of nuclear lifetime is much slower, leading to longer than anticipated lifetimes for near-dripline nuclei. State-of-the-art shell-model calculations can explain the experimental results for Z$>$19 nuclei, revealing the imprint of shell effects and the need for modification of single-particle neutron states. The results from a newly developed QRPA model with potential for making global predictions were also tested against the experimental results and good agreement was found."
+  },
+  {
+    "title": "CONFEX: Uncertainty-Aware Counterfactual Explanations with Conformal Guarantees",
+    "url": "http://arxiv.org/abs/2510.19754v1",
+    "arxiv_id": "2510.19754v1",
+    "authors": [
+      "Aman Bilkhoo",
+      "Milad Kazemi",
+      "Nicola Paoletti",
+      "Mehran Hosseini"
+    ],
+    "published": "2025-10-22T16:43:36+00:00",
+    "summary": "Counterfactual explanations (CFXs) provide human-understandable justifications for model predictions, enabling actionable recourse and enhancing interpretability. To be reliable, CFXs must avoid regions of high predictive uncertainty, where explanations may be misleading or inapplicable. However, existing methods often neglect uncertainty or lack principled mechanisms for incorporating it with formal guarantees. We propose CONFEX, a novel method for generating uncertainty-aware counterfactual explanations using Conformal Prediction (CP) and Mixed-Integer Linear Programming (MILP). CONFEX explanations are designed to provide local coverage guarantees, addressing the issue that CFX generation violates exchangeability. To do so, we develop a novel localised CP procedure that enjoys an efficient MILP encoding by leveraging an offline tree-based partitioning of the input space. This way, CONFEX generates CFXs with rigorous guarantees on both predictive uncertainty and optimality. We evaluate CONFEX against state-of-the-art methods across diverse benchmarks and metrics, demonstrating that our uncertainty-aware approach yields robust and plausible explanations."
+  },
+  {
+    "title": "BATIS: Bayesian Approaches for Targeted Improvement of Species Distribution Models",
+    "url": "http://arxiv.org/abs/2510.19749v1",
+    "arxiv_id": "2510.19749v1",
+    "authors": [
+      "Catherine Villeneuve",
+      "Benjamin Akera",
+      "M\u00e9lisande Teng",
+      "David Rolnick"
+    ],
+    "published": "2025-10-22T16:42:46+00:00",
+    "summary": "Species distribution models (SDMs), which aim to predict species occurrence based on environmental variables, are widely used to monitor and respond to biodiversity change. Recent deep learning advances for SDMs have been shown to perform well on complex and heterogeneous datasets, but their effectiveness remains limited by spatial biases in the data. In this paper, we revisit deep SDMs from a Bayesian perspective and introduce BATIS, a novel and practical framework wherein prior predictions are updated iteratively using limited observational data. Models must appropriately capture both aleatoric and epistemic uncertainty to effectively combine fine-grained local insights with broader ecological patterns. We benchmark an extensive set of uncertainty quantification approaches on a novel dataset including citizen science observations from the eBird platform. Our empirical study shows how Bayesian deep learning approaches can greatly improve the reliability of SDMs in data-scarce locations, which can contribute to ecological understanding and conservation efforts."
+  },
+  {
+    "title": "Statistical Inference for Linear Functionals of Online Least-squares SGD when $t \\gtrsim d^{1+\u03b4}$",
+    "url": "http://arxiv.org/abs/2510.19734v1",
+    "arxiv_id": "2510.19734v1",
+    "authors": [
+      "Bhavya Agrawalla",
+      "Krishnakumar Balasubramanian",
+      "Promit Ghosal"
+    ],
+    "published": "2025-10-22T16:25:49+00:00",
+    "summary": "Stochastic Gradient Descent (SGD) has become a cornerstone method in modern data science. However, deploying SGD in high-stakes applications necessitates rigorous quantification of its inherent uncertainty. In this work, we establish \\emph{non-asymptotic Berry--Esseen bounds} for linear functionals of online least-squares SGD, thereby providing a Gaussian Central Limit Theorem (CLT) in a \\emph{growing-dimensional regime}. Existing approaches to high-dimensional inference for projection parameters, such as~\\cite{chang2023inference}, rely on inverting empirical covariance matrices and require at least $t \\gtrsim d^{3/2}$ iterations to achieve finite-sample Berry--Esseen guarantees, rendering them computationally expensive and restrictive in the allowable dimensional scaling. In contrast, we show that a CLT holds for SGD iterates when the number of iterations grows as $t \\gtrsim d^{1+\\delta}$ for any $\\delta > 0$, significantly extending the dimensional regime permitted by prior works while improving computational efficiency. The proposed online SGD-based procedure operates in $\\mathcal{O}(td)$ time and requires only $\\mathcal{O}(d)$ memory, in contrast to the $\\mathcal{O}(td^2 + d^3)$ runtime of covariance-inversion methods. To render the theory practically applicable, we further develop an \\emph{online variance estimator} for the asymptotic variance appearing in the CLT and establish \\emph{high-probability deviation bounds} for this estimator. Collectively, these results yield the first fully online and data-driven framework for constructing confidence intervals for SGD iterates in the near-optimal scaling regime $t \\gtrsim d^{1+\\delta}$."
+  },
+  {
+    "title": "CoSense-LLM: Semantics at the Edge with Cost- and Uncertainty-Aware Cloud-Edge Cooperation",
+    "url": "http://arxiv.org/abs/2510.19670v1",
+    "arxiv_id": "2510.19670v1",
+    "authors": [
+      "Hasan Akgul",
+      "Mari Eplik",
+      "Javier Rojas",
+      "Aina Binti Abdullah",
+      "Pieter van der Merwe"
+    ],
+    "published": "2025-10-22T15:16:56+00:00",
+    "summary": "We present CoSense-LLM, an edge-first framework that turns continuous multimodal sensor streams (for example Wi-Fi CSI, IMU, audio, RFID, and lightweight vision) into compact, verifiable semantic tokens and coordinates with large language models under explicit latency, energy, bandwidth, and privacy constraints. CoSense-LLM has four parts: (i) SenseFusion, a lightweight encoder that aligns sensor embeddings with language and compresses them into short discrete code sequences; (ii) Edge-RAG, a local hybrid retrieval layer that grounds generation in site specific policies and notes; (iii) PromptRouter, a cost and uncertainty aware policy that selects edge only generation, edge plus retrieval, or compact cloud escalation; and (iv) Secure Execution, an auditable redaction path that enforces data minimization so raw waveforms never leave the device. The system works with modern serving optimizations, including paged or streaming KV caches, FlashAttention style kernels, speculative decoding, and quantized LoRA adapters, and supports on device personalization and federated updates under non IID drift. Across home, office, and clinic deployments, CoSense-LLM delivers grounded explanations while meeting tight service level objectives: it sustains sub second (p95) end to end latency on edge dominant paths, reduces inter tier token and bandwidth costs by preferring local retrieval grounded responses, and preserves privacy by transmitting only discrete codes and redacted metadata. Ablations show that Edge-RAG improves factual consistency and reduces contradictions, calibrated uncertainty enables selective abstention and controlled escalations, and KV plus decoding accelerators lower energy per decision. The results support an edge first design that treats semantics, privacy, and predictable latency as co equal goals for large model deployments in interference prone environments."
+  },
+  {
+    "title": "DiffAdapt: Difficulty-Adaptive Reasoning for Token-Efficient LLM Inference",
+    "url": "http://arxiv.org/abs/2510.19669v1",
+    "arxiv_id": "2510.19669v1",
+    "authors": [
+      "Xiang Liu",
+      "Xuming Hu",
+      "Xiaowen Chu",
+      "Eunsol Choi"
+    ],
+    "published": "2025-10-22T15:16:06+00:00",
+    "summary": "Recent reasoning Large Language Models (LLMs) demonstrate remarkable problem-solving abilities but often generate long thinking traces whose utility is unclear. Our work aims to improve their efficiency, enabling them to reach high performance without overthinking. First, we analyze the entropy of token probabilities in reasoning traces. Across three models, we observe a consistent U-shaped entropy pattern: high entropy on easy problems despite high accuracy, low entropy on problems with medium difficulty, and high entropy on hard problems reflecting uncertainty. Specifically, we notice 22--25\\% entropy reduction from easy to medium difficulty regions, suggesting an {overthinking} phenomenon on easy instances. Building on these insights, we introduce \\textbf{DiffAdapt}, a lightweight framework that selects Easy/Normal/Hard inference strategies per question based on their difficulty and reasoning trace entropy. Each inference strategy consists of a fixed prompt, temperature and maximum token length. In contrast to existing efficiency optimization methods, our approach does not fine-tune base LLM but a small probe that classifies LLM's final hidden state, allowing inexpensive adaptation. We comprehensively evaluate our method on five models and eight benchmarks. Our method achieves comparable or improved accuracy while reducing token usage by up to 22.4\\%, establishing a practical path toward compute-efficient reasoning."
+  },
+  {
+    "title": "Engineering the shapes of quark-gluon plasma droplets by comparing anisotropic flow in small symmetric and asymmetric collision systems",
+    "url": "http://arxiv.org/abs/2510.19645v1",
+    "arxiv_id": "2510.19645v1",
+    "authors": [
+      "STAR Collaboration"
+    ],
+    "published": "2025-10-22T14:49:53+00:00",
+    "summary": "The observation of collective flow phenomena in small collision systems challenges our understanding of quark-gluon plasma (QGP) formation and evolution. This complexity lies in the initial geometries, which are influenced by both nucleon configuration and subnucleonic fluctuations, introducing uncertainties in interpreting flow patterns. We disentangle these contributions through comparative measurements of elliptic ($v_2$) and triangular ($v_3$) flow in asymmetric $d$+Au and symmetric $^{16}$O+$^{16}$O collisions at $\\sqrt{s_{NN}}=200$ GeV, which produce medium of comparable sizes but with vastly different initial geometries. The larger $v_2$ in $d$+Au reflects its dominant elliptic geometry, while the similar $v_3$ in both systems is better explained by considering subnucleonic fluctuations. These contrasting flow patterns are quantitatively described by a state-of-the-art hydrodynamic model tuned to large-system Au+Au data, indicating efficient transformation of initial geometries to final-state anisotropies. These results provide evidence for droplet formation in small systems with transport properties that are similar to those observed in large collision systems, consistent with QGP-like behavior."
+  },
+  {
+    "title": "A Climate-Aware Deep Learning Framework for Generalizable Epidemic Forecasting",
+    "url": "http://arxiv.org/abs/2510.19611v1",
+    "arxiv_id": "2510.19611v1",
+    "authors": [
+      "Jinpyo Hong",
+      "Rachel E. Baker"
+    ],
+    "published": "2025-10-22T14:04:42+00:00",
+    "summary": "Precise outbreak forecasting of infectious diseases is essential for effective public health responses and epidemic control. The increased availability of machine learning (ML) methods for time-series forecasting presents an enticing avenue to enhance outbreak forecasting. Though the COVID-19 outbreak demonstrated the value of applying ML models to predict epidemic profiles, using ML models to forecast endemic diseases remains underexplored. In this work, we present ForecastNet-XCL (an ensemble model based on XGBoost+CNN+BiLSTM), a deep learning hybrid framework designed to addresses this gap by creating accurate multi-week RSV forecasts up to 100 weeks in advance based on climate and temporal data, without access to real-time surveillance on RSV. The framework combines high-resolution feature learning with long-range temporal dependency capturing mechanisms, bolstered by an autoregressive module trained on climate-controlled lagged relations. Stochastic inference returns probabilistic intervals to inform decision-making. Evaluated across 34 U.S. states, ForecastNet-XCL reliably outperformed statistical baselines, individual neural nets, and conventional ensemble methods in both within- and cross-state scenarios, sustaining accuracy over extended forecast horizons. Training on climatologically diverse datasets enhanced generalization furthermore, particularly in locations having irregular or biennial RSV patterns. ForecastNet-XCL's efficiency, performance, and uncertainty-aware design make it a deployable early-warning tool amid escalating climate pressures and constrained surveillance resources."
+  },
+  {
+    "title": "CBDiff:Conditional Bernoulli Diffusion Models for Image Forgery Localization",
+    "url": "http://arxiv.org/abs/2510.19597v1",
+    "arxiv_id": "2510.19597v1",
+    "authors": [
+      "Zhou Lei",
+      "Pan Gang",
+      "Wang Jiahao",
+      "Sun Di"
+    ],
+    "published": "2025-10-22T13:48:36+00:00",
+    "summary": "Image Forgery Localization (IFL) is a crucial task in image forensics, aimed at accurately identifying manipulated or tampered regions within an image at the pixel level. Existing methods typically generate a single deterministic localization map, which often lacks the precision and reliability required for high-stakes applications such as forensic analysis and security surveillance. To enhance the credibility of predictions and mitigate the risk of errors, we introduce an advanced Conditional Bernoulli Diffusion Model (CBDiff). Given a forged image, CBDiff generates multiple diverse and plausible localization maps, thereby offering a richer and more comprehensive representation of the forgery distribution. This approach addresses the uncertainty and variability inherent in tampered regions. Furthermore, CBDiff innovatively incorporates Bernoulli noise into the diffusion process to more faithfully reflect the inherent binary and sparse properties of forgery masks. Additionally, CBDiff introduces a Time-Step Cross-Attention (TSCAttention), which is specifically designed to leverage semantic feature guidance with temporal steps to improve manipulation detection. Extensive experiments on eight publicly benchmark datasets demonstrate that CBDiff significantly outperforms existing state-of-the-art methods, highlighting its strong potential for real-world deployment."
+  },
+  {
     "title": "NNLO QCD$\\otimes$QED corrections to unpolarized and polarized SIDIS",
     "url": "http://arxiv.org/abs/2510.18872v1",
     "arxiv_id": "2510.18872v1",
