@@ -1,5 +1,144 @@
 [
   {
+    "title": "Simulation-calibrated Bayesian inference for progenitor properties of the microquasar SS 433",
+    "url": "http://arxiv.org/abs/2510.20811v1",
+    "arxiv_id": "2510.20811v1",
+    "authors": [
+      "Nathan Steinle",
+      "Matthew Mould",
+      "Sarah Al-Humaikani",
+      "Austin MacMaster",
+      "Brydyn Mac Intyre",
+      "Samar Safi-Harb"
+    ],
+    "published": "2025-10-23T17:59:09+00:00",
+    "summary": "SS\\,433 is one of the most extreme Galactic X-ray binaries, exhibiting semi-relativistic jets and super-critical accretion, and harboring a compact object, likely a black hole. Despite decades of observation and modeling, the precise nature of its progenitor binary remains uncertain. To estimate the zero-age main sequence (ZAMS) properties of binaries that evolve into SS\\,433-like systems, we apply simulation-based calibration to Bayesian inference and convolve a multivariate Gaussian likelihood constructed from six measured binary parameters of SS\\,433 with the isolated binary evolution model \\textsc{COSMIC}. Employing the dynamic nested sampler of \\texttt{dynesty}, we perform posterior inference over a ten-dimensional progenitor parameter space defined by the masses, orbital parameters, mass transfer possibilities, and natal kick velocity. We find that SS\\,433-like systems arise from specific regions of binary evolution parameter space depending on key assumptions, such as the mass transfer rate and uncertainty taken from observations. Our simulation-based calibration framework, implemented with a suite of machine learning algorithms and scored by a heuristic reliability metric, allows us to iteratively build posterior distributions of the progenitors of SS\\,433-like systems. This analysis reveals 90\\% confidence intervals for the ZAMS primary mass $(8, 11)$ M$_\\odot$, secondary mass $(32, 40)$ M$_\\odot $, orbital period $(136, 2259)$ days, eccentricity $(0.26, 0.6)$, common envelope evolution efficiency $(0.44, 0.76)$, accreted fraction in stable mass transfer $(0.22, 0.6)$, and black hole natal kick velocity magnitude $(5, 68)$ km/s. These results demonstrate the feasibility of direct probabilistic inference of X-ray binary progenitors to offer new insights into the evolution of high-accretion-rate systems such as SS\\,433."
+  },
+  {
+    "title": "Quantum black holes: inside and outside",
+    "url": "http://arxiv.org/abs/2510.20799v1",
+    "arxiv_id": "2510.20799v1",
+    "authors": [
+      "Wei-Chen Lin",
+      "Dong-han Yeom",
+      "Dejan Stojkovic"
+    ],
+    "published": "2025-10-23T17:57:43+00:00",
+    "summary": "For a unitary description of an evaporating black hole, one usually chooses the time slices that cover only outside of the event horizon, which is mostly problem-free because the event horizon is not encountered. However, is there any justification for avoiding time slices that cover inside the event horizon? To answer the question, we investigate the Wheeler-DeWitt equation, where the time slices can cover both inside and outside the event horizon. We find that one can reasonably construct a wave packet that covers outside, but the wave function must be annihilated near the event horizon. This observation strongly suggests that we cannot choose a coherent state for a spacelike hypersurface that crosses the event horizon. To explain the unitary time evolution, we must keep the slices as coherent states; hence, they must always be outside the event horizon. In contrast, inside the horizon, we cannot have a single coherent state of a classical spacetime. Hence, the interior must be a superposition of several coherent states, which implies that there exists a horizon-scale uncertainty and a black hole should be viewed as a highly quantum macroscopic object. We provide a synthetic approach to understanding the information loss paradox from this perspective."
+  },
+  {
+    "title": "Bayesian Inference of Primordial Magnetic Field Parameters from CMB with Spherical Graph Neural Networks",
+    "url": "http://arxiv.org/abs/2510.20795v1",
+    "arxiv_id": "2510.20795v1",
+    "authors": [
+      "Juan Alejandro Pinto Castro",
+      "H\u00e9ctor J. Hort\u00faa",
+      "Jorge Enrique Garc\u00eda-Farieta",
+      "Roger Anderson Hurtado"
+    ],
+    "published": "2025-10-23T17:56:04+00:00",
+    "summary": "Deep learning has emerged as a transformative methodology in modern cosmology, providing powerful tools to extract meaningful physical information from complex astronomical datasets. This paper implements a novel Bayesian graph deep learning framework for estimating key cosmological parameters in a primordial magnetic field (PMF) cosmology directly from simulated Cosmic Microwave Background (CMB) maps. Our methodology utilizes DeepSphere, a spherical convolutional neural network architecture specifically designed to respect the spherical geometry of CMB data through HEALPix pixelization. To advance beyond deterministic point estimates and enable robust uncertainty quantification, we integrate Bayesian Neural Networks (BNNs) into the framework, capturing aleatoric and epistemic uncertainties that reflect the model confidence in its predictions. The proposed approach demonstrates exceptional performance, achieving $R^{2}$ scores exceeding 0.89 for the magnetic parameter estimation. We further obtain well-calibrated uncertainty estimates through post-hoc training techniques including Variance Scaling and GPNormal. This integrated DeepSphere-BNNs framework not only delivers accurate parameter estimation from CMB maps with PMF contributions but also provides reliable uncertainty quantification, providing the necessary tools for robust cosmological inference in the era of precision cosmology."
+  },
+  {
+    "title": "Reinforcement Learning and Consumption-Savings Behavior",
+    "url": "http://arxiv.org/abs/2510.20748v1",
+    "arxiv_id": "2510.20748v1",
+    "authors": [
+      "Brandon Kaplowitz"
+    ],
+    "published": "2025-10-23T17:14:49+00:00",
+    "summary": "This paper demonstrates how reinforcement learning can explain two puzzling empirical patterns in household consumption behavior during economic downturns. I develop a model where agents use Q-learning with neural network approximation to make consumption-savings decisions under income uncertainty, departing from standard rational expectations assumptions. The model replicates two key findings from recent literature: (1) unemployed households with previously low liquid assets exhibit substantially higher marginal propensities to consume (MPCs) out of stimulus transfers compared to high-asset households (0.50 vs 0.34), even when neither group faces borrowing constraints, consistent with Ganong et al. (2024); and (2) households with more past unemployment experiences maintain persistently lower consumption levels after controlling for current economic conditions, a \"scarring\" effect documented by Malmendier and Shen (2024). Unlike existing explanations based on belief updating about income risk or ex-ante heterogeneity, the reinforcement learning mechanism generates both higher MPCs and lower consumption levels simultaneously through value function approximation errors that evolve with experience. Simulation results closely match the empirical estimates, suggesting that adaptive learning through reinforcement learning provides a unifying framework for understanding how past experiences shape current consumption behavior beyond what current economic conditions would predict."
+  },
+  {
+    "title": "Bayesian Prediction under Moment Conditioning",
+    "url": "http://arxiv.org/abs/2510.20742v1",
+    "arxiv_id": "2510.20742v1",
+    "authors": [
+      "Nicholas G. Polson",
+      "Daniel Zantedeschi"
+    ],
+    "published": "2025-10-23T17:03:17+00:00",
+    "summary": "Prediction is a central task of statistics and machine learning, yet many inferential settings provide only partial information, typically in the form of moment constraints or estimating equations. We develop a finite, fully Bayesian framework for propagating such partial information through predictive distributions. Building on de Finetti's representation theorem, we construct a curvature-adaptive version of exchangeable updating that operates directly under finite constraints, yielding an explicit discrete-Gaussian mixture that quantifies predictive uncertainty. The resulting finite-sample bounds depend on the smallest eigenvalue of the information-geometric Hessian, which measures the curvature and identification strength of the constraint manifold. This approach unifies empirical likelihood, Bayesian empirical likelihood, and generalized method-of-moments estimation within a common predictive geometry. On the operational side, it provides computable curvature-sensitive uncertainty bounds for constrained prediction; on the theoretical side, it recovers de Finetti's coherence, Doob's martingale convergence and local asymptotic normality as limiting cases of the same finite mechanism. Our framework thus offers a constructive bridge between partial information and full Bayesian prediction."
+  },
+  {
+    "title": "No-Regret Thompson Sampling for Finite-Horizon Markov Decision Processes with Gaussian Processes",
+    "url": "http://arxiv.org/abs/2510.20725v1",
+    "arxiv_id": "2510.20725v1",
+    "authors": [
+      "Jasmine Bayrooti",
+      "Sattar Vakili",
+      "Amanda Prorok",
+      "Carl Henrik Ek"
+    ],
+    "published": "2025-10-23T16:44:31+00:00",
+    "summary": "Thompson sampling (TS) is a powerful and widely used strategy for sequential decision-making, with applications ranging from Bayesian optimization to reinforcement learning (RL). Despite its success, the theoretical foundations of TS remain limited, particularly in settings with complex temporal structure such as RL. We address this gap by establishing no-regret guarantees for TS using models with Gaussian marginal distributions. Specifically, we consider TS in episodic RL with joint Gaussian process (GP) priors over rewards and transitions. We prove a regret bound of $\\mathcal{\\tilde{O}}(\\sqrt{KH\\Gamma(KH)})$ over $K$ episodes of horizon $H$, where $\\Gamma(\\cdot)$ captures the complexity of the GP model. Our analysis addresses several challenges, including the non-Gaussian nature of value functions and the recursive structure of Bellman updates, and extends classical tools such as the elliptical potential lemma to multi-output settings. This work advances the understanding of TS in RL and highlights how structural assumptions and model uncertainty shape its performance in finite-horizon Markov Decision Processes."
+  },
+  {
+    "title": "Bayesian Jammer Localization with a Hybrid CNN and Path-Loss Mixture of Experts",
+    "url": "http://arxiv.org/abs/2510.20666v1",
+    "arxiv_id": "2510.20666v1",
+    "authors": [
+      "Mariona Jaramillo-Civill",
+      "Luis Gonz\u00e1lez-Gudi\u00f1o",
+      "Tales Imbiriba",
+      "Pau Closas"
+    ],
+    "published": "2025-10-23T15:45:45+00:00",
+    "summary": "Global Navigation Satellite System (GNSS) signals are vulnerable to jamming, particularly in urban areas where multipath and shadowing distort received power. Previous data-driven approaches achieved reasonable localization but poorly reconstructed the received signal strength (RSS) field due to limited spatial context. We propose a hybrid Bayesian mixture-of-experts framework that fuses a physical path-loss (PL) model and a convolutional neural network (CNN) through log-linear pooling. The PL expert ensures physical consistency, while the CNN leverages building-height maps to capture urban propagation effects. Bayesian inference with Laplace approximation provides posterior uncertainty over both the jammer position and RSS field. Experiments on urban ray-tracing data show that localization accuracy improves and uncertainty decreases with more training points, while uncertainty concentrates near the jammer and along urban canyons where propagation is most sensitive."
+  },
+  {
+    "title": "Blue supergiants and the zero point of the Tully-Fisher relation: a path to a new independent test of the Hubble constant",
+    "url": "http://arxiv.org/abs/2510.20652v1",
+    "arxiv_id": "2510.20652v1",
+    "authors": [
+      "Rolf-Peter Kudritzki",
+      "Fabio Bresolin",
+      "Miguel A. Urbaneka",
+      "Eva Sextl"
+    ],
+    "published": "2025-10-23T15:24:54+00:00",
+    "summary": "Blue supergiant distances of nearby galaxies obtained with the flux-weighted gravity-luminosity relationship are used for a measurement of the zero points of Tully-Fisher relationships at different photometric passbands. The Cousins I-band and the infrared WISE bands W1 and W2 are investigated. The results are compared with previous work using Cepheid and Tip-of-the-Red-Giant-Branch distances. No significant differences were encountered. This supports the large values of the Hubble constant greater than 73km/s/Mpc found with the Tully-Fisher distance ladder work over the last decade. Applying blue supergiant distances on the I-band Tully-Fisher relation observations yields a Hubble constant H0 = 76.2+/-6.2 km/s/Mpc. The large uncertainty is caused by the still relatively small blue supergiant galaxies sample size but will be reduced in future work."
+  },
+  {
+    "title": "Strong Lensing Model and Dust Extinction Maps of the Host Galaxy of Type Ia Supernova H0pe",
+    "url": "http://arxiv.org/abs/2510.20561v1",
+    "arxiv_id": "2510.20561v1",
+    "authors": [
+      "A. Galan",
+      "S. Schuldt",
+      "G. B. Caminha",
+      "S. H. Suyu",
+      "R. Ca\u00f1ameras",
+      "S. Ertl",
+      "C. Grillo",
+      "A. Acebron",
+      "B. Frye",
+      "A. M. Koekemoer",
+      "R. Windhorst",
+      "J. M. Diego",
+      "N. Foo"
+    ],
+    "published": "2025-10-23T13:42:14+00:00",
+    "summary": "Strong gravitational lensing by massive galaxy clusters offers particularly rare opportunities to observe multiple images of distant ($z\\gtrsim2$) Type Ia supernovae (SNe) and resolve the properties of their host galaxies. A recent outstanding example is the Type Ia SN \"H0pe\" ($z=1.78$), discovered in James Webb Space Telescope (JWST) NIRCam images when it was still triply imaged by the galaxy cluster PLCK G165.7+67.0 (G165, $z=0.35$). In this work we build a new strong lensing model of G165, first by using only the position of multiple images of background galaxies. We then increase significantly the number of constraints around the position of SN H0pe by modeling the extended surface brightness of the SN host galaxy. The average uncertainty on mass model parameters is reduced by more than an order of magnitude. We also study the spatial distribution of dust in the arc to estimate the dust extinction at the position of SN H0pe. We find good statistical agreement of the extinction estimate at $\\lesssim1\\sigma$ with three fully independent methods based on spectral energy distribution fitting. Moreover, our extended-image lens model of G165 allows us to map the dust distribution of the host galaxy from the image plane to the source plane. Supernova H0pe exploded in a region with a relatively high extinction of $A_V \\approx 0.9\\ {\\rm mag}$ at around $\\sim 1\\ {\\rm kpc}$ from its host center. This work shows that extended image modeling in lensing clusters simultaneously reduces the uncertainty on lens model parameters and enables spatially resolved analyses of lensed transients host galaxies. Such modeling advances are expected to play an important role in future cosmological analyses using strongly lensed SNe."
+  },
+  {
+    "title": "Time-series Random Process Complexity Ranking Using a Bound on Conditional Differential Entropy",
+    "url": "http://arxiv.org/abs/2510.20551v1",
+    "arxiv_id": "2510.20551v1",
+    "authors": [
+      "Jacob Ayers",
+      "Richard Hahnloser",
+      "Julia Ulrich",
+      "Lothar Sebastian Krapp",
+      "Remo Nitschke",
+      "Sabine Stoll",
+      "Balthasar Bickel",
+      "Reinhard Furrer"
+    ],
+    "published": "2025-10-23T13:36:04+00:00",
+    "summary": "Conditional differential entropy provides an intuitive measure for relatively ranking time-series complexity by quantifying uncertainty in future observations given past context. However, its direct computation for high-dimensional processes from unknown distributions is often intractable. This paper builds on the information theoretic prediction error bounds established by Fang et al. \\cite{fang2019generic}, which demonstrate that the conditional differential entropy \\textbf{$h(X_k \\mid X_{k-1},...,X_{k-m})$} is upper bounded by a function of the determinant of the covariance matrix of next-step prediction errors for any next step prediction model. We add to this theoretical framework by further increasing this bound by leveraging Hadamard's inequality and the positive semi-definite property of covariance matrices.   To see if these bounds can be used to rank the complexity of time series, we conducted two synthetic experiments: (1) controlled linear autoregressive processes with additive Gaussian noise, where we compare ordinary least squares prediction error entropy proxies to the true entropies of various additive noises, and (2) a complexity ranking task of bio-inspired synthetic audio data with unknown entropy, where neural network prediction errors are used to recover the known complexity ordering.   This framework provides a computationally tractable method for time-series complexity ranking using prediction errors from next-step prediction models, that maintains a theoretical foundation in information theory."
+  },
+  {
     "title": "How Accurate Are DFT Forces? Unexpectedly Large Uncertainties in Molecular Datasets",
     "url": "http://arxiv.org/abs/2510.19774v1",
     "arxiv_id": "2510.19774v1",
