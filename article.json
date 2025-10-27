@@ -1,5 +1,182 @@
 [
   {
+    "title": "From nuclear star clusters to Little Red Dots: black hole growth, mergers, and tidal disruptions",
+    "url": "http://arxiv.org/abs/2510.21709v1",
+    "arxiv_id": "2510.21709v1",
+    "authors": [
+      "Konstantinos Kritos",
+      "Joseph Silk"
+    ],
+    "published": "2025-10-24T17:59:58+00:00",
+    "summary": "Little Red Dots, discovered by the James Webb Space Telescope, are hypothesized to be active galactic nuclei containing a supermassive black hole, possibly surrounded by a dense stellar cluster, large amounts of gas, and likely by a population of stellar-mass black holes. We develop a simple nuclear star cluster model to evolve the rapid mass growth of black hole seeds into the supermassive regime. The combined processes of tidal disruption events, black hole captures, and gas accretion are accounted for self-consistently in our model. Given the observed number density of Little Red Dots, and under reasonable assumptions, we predict at least a few tens of tidal disruption events and at least a few black hole captures at $z=4$-$6$, with a tidal disruption event rate an order of magnitude larger than the black hole capture rate. We also estimate the uncertainties in these estimates. Finally, we comment on the low x-ray luminosity of Little Red Dots."
+  },
+  {
+    "title": "Connecting Chemical Enrichment with Resolved Star Formation Histories",
+    "url": "http://arxiv.org/abs/2510.21707v1",
+    "arxiv_id": "2510.21707v1",
+    "authors": [
+      "Christopher T. Garling",
+      "Alex M. Garcia",
+      "Niusha Ahvazi",
+      "Nitya Kallivayalil",
+      "Kristen B. W. McQuinn",
+      "Robert Feldmann",
+      "Roger E. Cohen"
+    ],
+    "published": "2025-10-24T17:59:47+00:00",
+    "summary": "We present a new framework for modeling the chemical enrichment histories of galaxies by integrating the chemical evolution with resolved star formation histories (SFHs) derived from color-magnitude diagrams. This novel approach links the time evolution of the metallicity of the star-forming ISM to the cumulative stellar mass formed in the galaxy, enabling a physically motivated, self-consistent description of chemical evolution. We apply this methodology to four isolated, gas-rich Local Group dwarf galaxies -- WLM, Aquarius, Leo A, and Leo P -- using deep HST and JWST imaging. For WLM, Aquarius, and Leo A, we independently validate our metallicity evolution results using ages and metallicities of individual red giant stars with spectroscopic measurements, finding good agreement. We quantify systematic uncertainties by repeating our analysis with multiple stellar evolution and bolometric correction libraries. We then compare the observed chemical enrichment histories to predictions from the TNG50 and FIREbox cosmological hydrodynamic simulations and the Galacticus semi-analytic model. We find that the enrichment history of WLM is best reproduced by the FIREbox simulation, while TNG50 and Galacticus predict higher metallicities at early times. Our results suggest that differences in stellar feedback and metal recycling prescriptions drive significant variation in the predicted chemical enrichment of dwarf galaxies, particularly at early times. This work demonstrates the power of combining resolved SFHs with physically motivated chemical evolution models to constrain galaxy formation physics and highlights the need for further observational and theoretical studies of metal retention and recycling in low-mass dwarf galaxies."
+  },
+  {
+    "title": "On Uncertainty Calibration for Equivariant Functions",
+    "url": "http://arxiv.org/abs/2510.21691v1",
+    "arxiv_id": "2510.21691v1",
+    "authors": [
+      "Edward Berman",
+      "Jacob Ginesin",
+      "Marco Pacini",
+      "Robin Walters"
+    ],
+    "published": "2025-10-24T17:50:41+00:00",
+    "summary": "Data-sparse settings such as robotic manipulation, molecular physics, and galaxy morphology classification are some of the hardest domains for deep learning. For these problems, equivariant networks can help improve modeling across undersampled parts of the input space, and uncertainty estimation can guard against overconfidence. However, until now, the relationships between equivariance and model confidence, and more generally equivariance and model calibration, has yet to be studied. Since traditional classification and regression error terms show up in the definitions of calibration error, it is natural to suspect that previous work can be used to help understand the relationship between equivariance and calibration error. In this work, we present a theory relating equivariance to uncertainty estimation. By proving lower and upper bounds on uncertainty calibration errors (ECE and ENCE) under various equivariance conditions, we elucidate the generalization limits of equivariant models and illustrate how symmetry mismatch can result in miscalibration in both classification and regression. We complement our theoretical framework with numerical experiments that clarify the relationship between equivariance and uncertainty using a variety of real and simulated datasets, and we comment on trends with symmetry mismatch, group size, and aleatoric and epistemic uncertainties."
+  },
+  {
+    "title": "Comparing the data reduction pipelines of FRIPON, DFN, WMPL, and AMOS: Geminids Case Study",
+    "url": "http://arxiv.org/abs/2510.21690v1",
+    "arxiv_id": "2510.21690v1",
+    "authors": [
+      "P. M. Shober",
+      "J. Vaubaillon",
+      "S. Anghel",
+      "H. A. R. Devillepoix",
+      "F. Hlobik",
+      "P. Matlovi\u010d",
+      "J. T\u00f3th",
+      "D. Vida",
+      "E. K. Sansom",
+      "T. Jansen-Sturgeon",
+      "F. Colas",
+      "A. Malgoyre",
+      "L. Korno\u0161",
+      "F. \u010euri\u0161",
+      "V. Pazderov\u00e1",
+      "S. Bouley",
+      "B. Zanda",
+      "P. Vernazza"
+    ],
+    "published": "2025-10-24T17:50:02+00:00",
+    "summary": "Methods. We processed a dataset of 584 Geminid fireballs observed by FRIPON between 2016 and 2023. The single-station astrometric data is converted into the Global Fireball Exchange (GFE) standard format for uniform processing. We assess variations in trajectory, velocity, radiant, and orbital element calculations across the pipelines and compare them to previously published Geminid measurements.   Results. The radiant and velocity solutions provided by the four data reduction pipelines are all within the range of previously published values. However, there are some nuances. Particularly, the radiants estimated by WMPL, DFN, and AMOS are nearly identical. Whereas FRIPON reports a systematic shift in right ascension (-0.3 degrees), caused by improper handling of the precession. Additionally, the FRIPON data reduction pipeline also tends to overestimate the initial velocity (+0.3 km s-1) due to the deceleration model used as the velocity solver. The FRIPON velocity method relies on having a well-constrained deceleration profile; however, for the Geminids, many are low-deceleration events, leading to an overestimation of the initial velocity. On the other end of the spectrum, the DFN tends to predict lower velocities, particularly for poorly observed events. However, this velocity shift vanishes for the DFN when we only consider Geminids with at least three observations or more. The primary difference identified in the analysis concerns the velocity uncertainties. Despite all four pipelines achieving similar residuals between their trajectories and observations, their velocity uncertainties vary systematically, with WMPL outputting the smallest values, followed by AMOS, FRIPON, and DFN."
+  },
+  {
+    "title": "Energy storage in a continuous-variable quantum battery with nonlinear coupling",
+    "url": "http://arxiv.org/abs/2510.21672v1",
+    "arxiv_id": "2510.21672v1",
+    "authors": [
+      "C. A. Downing",
+      "M. S. Ukhtary"
+    ],
+    "published": "2025-10-24T17:28:49+00:00",
+    "summary": "In the quantum world, the process of energy storage can be enhanced thanks to various nonclassical phenomena. This inspiring fact suggests quantum batteries as plausible sources of power for future quantum devices, at least in principle. However, thermodynamically not all of the energy stored in a quantum battery is useful for doing work. By considering a class of models based upon quantum continuous variables, here we show how the maximum extractable energy from a bosonic quantum battery can be intimately related to Heisenberg's uncertainty principle. We found that realizing minimum uncertainty essentially guarantees that all of the energy stored in a Gaussian quantum battery can be withdrawn and used to do work. For a standard system where the charger and battery are coupled linearly, this criterion is satisfied rather trivially. However, our theoretical results demonstrate that - for a quantum battery with nonlinear coupling - a state of minimum uncertainty can also be achieved nontrivially via the generation of quantum squeezing. We characterize the charging performance of our proposed continuous variable quantum batteries in detail, and we hope that our theory may be useful in the design of a new generation of efficient quantum batteries harnessing bosonic excitations, such as those built with photonic architectures."
+  },
+  {
+    "title": "FlowSynth: Instrument Generation Through Distributional Flow Matching and Test-Time Search",
+    "url": "http://arxiv.org/abs/2510.21667v1",
+    "arxiv_id": "2510.21667v1",
+    "authors": [
+      "Qihui Yang",
+      "Randal Leistikow",
+      "Yongyi Zang"
+    ],
+    "published": "2025-10-24T17:24:06+00:00",
+    "summary": "Virtual instrument generation requires maintaining consistent timbre across different pitches and velocities, a challenge that existing note-level models struggle to address. We present FlowSynth, which combines distributional flow matching (DFM) with test-time optimization for high-quality instrument synthesis. Unlike standard flow matching that learns deterministic mappings, DFM parameterizes the velocity field as a Gaussian distribution and optimizes via negative log-likelihood, enabling the model to express uncertainty in its predictions. This probabilistic formulation allows principled test-time search: we sample multiple trajectories weighted by model confidence and select outputs that maximize timbre consistency. FlowSynth outperforms the current state-of-the-art TokenSynth baseline in both single-note quality and cross-note consistency. Our approach demonstrates that modeling predictive uncertainty in flow matching, combined with music-specific consistency objectives, provides an effective path to professional-quality virtual instruments suitable for real-time performance."
+  },
+  {
+    "title": "Modest-Align: Data-Efficient Alignment for Vision-Language Models",
+    "url": "http://arxiv.org/abs/2510.21606v1",
+    "arxiv_id": "2510.21606v1",
+    "authors": [
+      "Jiaxiang Liu",
+      "Yuan Wang",
+      "Jiawei Du",
+      "Joey Tianyi Zhou",
+      "Mingkun Xu",
+      "Zuozhu Liu"
+    ],
+    "published": "2025-10-24T16:11:10+00:00",
+    "summary": "Cross-modal alignment aims to map heterogeneous modalities into a shared latent space, as exemplified by models like CLIP, which benefit from large-scale image-text pretraining for strong recognition capabilities. However, when operating in resource-constrained settings with limited or low-quality data, these models often suffer from overconfidence and degraded performance due to the prevalence of ambiguous or weakly correlated image-text pairs. Current contrastive learning approaches, which rely on single positive pairs, further exacerbate this issue by reinforcing overconfidence on uncertain samples. To address these challenges, we propose Modest-Align, a lightweight alignment framework designed for robustness and efficiency. Our approach leverages two complementary strategies -- Random Perturbation, which introduces controlled noise to simulate uncertainty, and Embedding Smoothing, which calibrates similarity distributions in the embedding space. These mechanisms collectively reduce overconfidence and improve performance on noisy or weakly aligned samples. Extensive experiments across multiple benchmark datasets demonstrate that Modest-Align outperforms state-of-the-art methods in retrieval tasks, achieving competitive results with over 100x less training data and 600x less GPU time than CLIP. Our method offers a practical and scalable solution for cross-modal alignment in real-world, low-resource scenarios."
+  },
+  {
+    "title": "An unsupervised tour through the hidden pathways of deep neural networks",
+    "url": "http://arxiv.org/abs/2510.21582v1",
+    "arxiv_id": "2510.21582v1",
+    "authors": [
+      "Diego Doimo"
+    ],
+    "published": "2025-10-24T15:50:31+00:00",
+    "summary": "The goal of this thesis is to improve our understanding of the internal mechanisms by which deep artificial neural networks create meaningful representations and are able to generalize. We focus on the challenge of characterizing the semantic content of the hidden representations with unsupervised learning tools, partially developed by us and described in this thesis, which allow harnessing the low-dimensional structure of the data. Chapter 2. introduces Gride, a method that allows estimating the intrinsic dimension of the data as an explicit function of the scale without performing any decimation of the data set. Our approach is based on rigorous distributional results that enable the quantification of uncertainty of the estimates. Moreover, our method is simple and computationally efficient since it relies only on the distances among nearest data points. In Chapter 3, we study the evolution of the probability density across the hidden layers in some state-of-the-art deep neural networks. We find that the initial layers generate a unimodal probability density getting rid of any structure irrelevant to classification. In subsequent layers, density peaks arise in a hierarchical fashion that mirrors the semantic hierarchy of the concepts. This process leaves a footprint in the probability density of the output layer, where the topography of the peaks allows reconstructing the semantic relationships of the categories. In Chapter 4, we study the problem of generalization in deep neural networks: adding parameters to a network that interpolates its training data will typically improve its generalization performance, at odds with the classical bias-variance trade-off. We show that wide neural networks learn redundant representations instead of overfitting to spurious correlation and that redundant neurons appear only if the network is regularized and the training error is zero."
+  },
+  {
+    "title": "Surrogate-based quantification of policy uncertainty in generative flow networks",
+    "url": "http://arxiv.org/abs/2510.21523v1",
+    "arxiv_id": "2510.21523v1",
+    "authors": [
+      "Ram\u00f3n Nartallo-Kaluarachchi",
+      "Robert Manson-Sawko",
+      "Shashanka Ubaru",
+      "Dongsung Huh",
+      "Ma\u0142gorzata J Zimo\u0144",
+      "Lior Horesh",
+      "Yoshua Bengio"
+    ],
+    "published": "2025-10-24T14:44:36+00:00",
+    "summary": "Generative flow networks are able to sample, via sequential construction, high-reward, complex objects according to a reward function. However, such reward functions are often estimated approximately from noisy data, leading to epistemic uncertainty in the learnt policy. We present an approach to quantify this uncertainty by constructing a surrogate model composed of a polynomial chaos expansion, fit on a small ensemble of trained flow networks. This model learns the relationship between reward functions, parametrised in a low-dimensional space, and the probability distributions over actions at each step along a trajectory of the flow network. The surrogate model can then be used for inexpensive Monte Carlo sampling to estimate the uncertainty in the policy given uncertain rewards. We illustrate the performance of our approach on a discrete and continuous grid-world, symbolic regression, and a Bayesian structure learning task."
+  },
+  {
+    "title": "EXKALIBUR: Towards a Kaonic Atoms Periodic Table to test Fundamental Interactions",
+    "url": "http://arxiv.org/abs/2510.21519v1",
+    "arxiv_id": "2510.21519v1",
+    "authors": [
+      "Simone Manti",
+      "Leonardo Abbene",
+      "Francesco Artibani",
+      "Massimiliano Bazzi",
+      "Giacomo Borghi",
+      "Damir Bosnar",
+      "Mario Bragadireanu",
+      "Antonino Buttacavoli",
+      "Mario Carminati",
+      "Alberto Clozza",
+      "Francesco Clozza",
+      "Luca De Paolis",
+      "Raffaele Del Grande",
+      "Kamil Dulski",
+      "Laura Fabbietti",
+      "Carlo Fiorini",
+      "Ivica Fri\u0161\u010di\u0107",
+      "Mihai Iliescu",
+      "Paul Indelicato",
+      "Masa Iwasaki",
+      "Alexander Khreptak",
+      "Johan Marton",
+      "Pawel Moskal",
+      "Hiromasa Ohnishi",
+      "Kristian Pischicchia",
+      "Fabio Principato",
+      "Alessandro Scordo",
+      "Francesco Sgaramella",
+      "Micha\u0142 Silarski",
+      "Diana Sirghi",
+      "Florin Sirghi",
+      "Magdalena Skurzok",
+      "Antonio Spallone",
+      "Kairo Toho",
+      "Lorenzo Toscano",
+      "Oton Vazquez Doce",
+      "Catalina Curceanu"
+    ],
+    "published": "2025-10-24T14:42:05+00:00",
+    "summary": "Kaonic atoms, formed when a negatively charged kaon replaces an electron, provide a unique laboratory to test fundamental interactions at low energies. EXKALIBUR (EXtensive Kaonic Atoms research: from LIthium and Beryllium to URanium) is a program to perform systematic, high-precision X-ray spectroscopy of selected kaonic atoms across the periodic table at the DA$\\Phi$NE accelerator at the National Laboratory of Frascati (INFN-LNF). Here, we outline its detector-driven strategy: Silicon Drift Detectors for 10-40 keV transitions in light targets (Li, Be, B, O), CdZnTe detectors for 40-300 keV lines in intermediate-$Z$ systems (Mg, Al, Si, S), and a High-Purity Germanium detector for high-$Z$ atoms (Se, Zr, Ta, Mo, W, Pb), complemented by VOXES, a high-resolution crystal spectrometer for sub-eV studies. EXKALIBUR plans to (i) reduce the charged-kaon mass uncertainty below 10 keV, (ii) produce a database of nuclear shifts and widths to constrain multi-nucleon K$^{-}$-nucleus interaction models, and (iii) provide precision data for testing bound-state QED in strong fields. We summarize the planned measurements and expected sensitivities within DA$\\Phi$NE luminosities."
+  },
+  {
     "title": "Simulation-calibrated Bayesian inference for progenitor properties of the microquasar SS 433",
     "url": "http://arxiv.org/abs/2510.20811v1",
     "arxiv_id": "2510.20811v1",
