@@ -1,5 +1,197 @@
 [
   {
+    "title": "An OPF-based Control Framework for Hybrid AC-MTDC Power Systems under Uncertainty",
+    "url": "http://arxiv.org/abs/2510.25671v1",
+    "arxiv_id": "2510.25671v1",
+    "authors": [
+      "Hongjin Du",
+      "Rahul Rane",
+      "Weijie Xia",
+      "Pedro P. Vergara",
+      "Aleksandra Leki\u0107"
+    ],
+    "published": "2025-10-29T16:36:51+00:00",
+    "summary": "The increasing integration of renewable energy, particularly offshore wind, introduces significant uncertainty into hybrid AC-HVDC systems due to forecast errors and power fluctuations. Conventional control strategies typically rely on fixed setpoints and neglect frequency deviations, which can compromise system stability under rapid renewable variations. To address this challenge, this paper presents a forecast-integrated, optimal power flow (OPF)-based adaptive control framework. Wind speed forecasts generated using a Random Forest model are incorporated into a time-coupled OPF to determine baseline converter setpoints in anticipation of wind fluctuations, which are further adjusted in real time based on actual operating conditions. An adaptive droop control scheme is developed that jointly considers DC voltage and AC frequency deviations. The effectiveness of the proposed control framework is validated through hardware-in-the-loop (HIL) simulations, demonstrating its capability to ensure stable and robust operation of hybrid AC-HVDC systems under high penetration of renewable energy."
+  },
+  {
+    "title": "Observing Orbital Decay in the Ultracompact Hot Subdwarf Binary System ZTFJ213056.71+442046.5",
+    "url": "http://arxiv.org/abs/2510.25653v1",
+    "arxiv_id": "2510.25653v1",
+    "authors": [
+      "Paul Teckenburg",
+      "Thomas Kupfer",
+      "Alex J. Brown",
+      "Martin M. Roth",
+      "Fatma Ben Daya",
+      "J\u00f6rg Knoche",
+      "Stella Vje\u0161nica",
+      "Pa\u0161ko Roje",
+      "Mike Kretlow",
+      "Stefan Cikota"
+    ],
+    "published": "2025-10-29T16:15:21+00:00",
+    "summary": "Ultracompact Galactic binary systems (UCBs) emit low-frequency gravitational waves (GWs). The emission of GWs is causing these systems to lose angular momentum, which is detectable by observing an orbital period decay. ZTFJ213056.71+442046.5 (ZTFJ2130) is an UCB with a period of 39.3401(1) minutes consisting of a Roche lobe-filling hot subdwarf and a white dwarf companion. We attempt to measure the orbital decay rate $\\dot{P}$ caused by GW emission of ZTFJ2130 and predict the expected GW signal for LISA. High-speed photometry was conducted using the FLI Kepler KL4040FI CMOS camera, mounted to the 1.2-meter Oskar L\\\"uhning telescope at the Hamburg Observatory as well as the Hamamatsu ORCA-Quest 2 qCMOS camera at the 1.23-meter telescope at CAHA in Spain. ZTFJ2130 was observed on six nights between August 2024 and September 2025. The obtained lightcurves combined with previous high-cadence observations were used to conduct an O-C timing analysis. Additionally, we employed the LISA data analysis tool ldasoft to model the expected GW data. We measure a period change of $(-1.97\\pm0.05)\\times10^{-12}\\,\\mathrm{ss^{-1}}$. Assuming only GW emission, this result was used to calculate a chirp mass of $(0.408\\pm0.006)\\,\\mathrm{M_{\\odot}}$. From ldasoft we predict that LISA will be able to measure the chirp mass with an uncertainty of 5%. We measure $\\dot{P}$ with an uncertainty of only 2% and show that modern (q)CMOS detectors are well suited to provide precise timing measurements, enabling the measurement of the orbital decay of UCBs with high precision with modest size telescopes. The derived orbital decay is fully consistent with predictions from spectral and lightcurve modeling. We show that future observations with LISA can potentially provide a deviation from only gravitational wave effects, e.g. due to accretion, if the effect is sufficiently large."
+  },
+  {
+    "title": "Extra dip in ultrahigh energy neutrino spectrum from generalized uncertainty principle",
+    "url": "http://arxiv.org/abs/2510.25635v1",
+    "arxiv_id": "2510.25635v1",
+    "authors": [
+      "J. Barranco",
+      "Emiliano Dur\u00e1n"
+    ],
+    "published": "2025-10-29T15:45:15+00:00",
+    "summary": "We revisited the scenario of a resonant enhancement in the oscillation probability due to an interaction potential between neutrinos and dark matter with the novelty of the inclusion of the generalized uncertainty principle. It is shown that a new resonant conversion appears at higher energies. This effect could be tested with future neutrino data as new dips in the ultrahigh energy neutrino flux."
+  },
+  {
+    "title": "Predictability of Storms in an Idealized Climate Revealed by Machine Learning",
+    "url": "http://arxiv.org/abs/2510.25633v1",
+    "arxiv_id": "2510.25633v1",
+    "authors": [
+      "Wuqiushi Yao",
+      "Or Hadas",
+      "Yohai Kaspi"
+    ],
+    "published": "2025-10-29T15:37:45+00:00",
+    "summary": "The midlatitude climate and weather are shaped by storms, yet the factors governing their predictability remain insufficiently understood. Here, we use a Convolutional Neural Network (CNN) to predict and quantify uncertainty in the intensity growth and trajectory of over 200,000 storms simulated in a 200-year aquaplanet GCM. This idealized framework provides a controlled climate background for isolating factors that govern predictability. Results show that storm intensity is less predictable than trajectory. Strong baroclinicity accelerates storm intensification and reduces its predictability, consistent with theory. Crucially, enhanced jet meanders further degrade forecast skill, revealing a synoptic source of uncertainty. Using sensitivity maps from explainable AI, we find that the error growth rate is nearly doubled by the more meandering structure. These findings highlight the potential of machine learning for advancing understanding of predictability and its governing mechanisms."
+  },
+  {
+    "title": "Uncertainty Quantification for Regression: A Unified Framework based on kernel scores",
+    "url": "http://arxiv.org/abs/2510.25599v1",
+    "arxiv_id": "2510.25599v1",
+    "authors": [
+      "Christopher B\u00fclte",
+      "Yusuf Sale",
+      "Gitta Kutyniok",
+      "Eyke H\u00fcllermeier"
+    ],
+    "published": "2025-10-29T15:08:41+00:00",
+    "summary": "Regression tasks, notably in safety-critical domains, require proper uncertainty quantification, yet the literature remains largely classification-focused. In this light, we introduce a family of measures for total, aleatoric, and epistemic uncertainty based on proper scoring rules, with a particular emphasis on kernel scores. The framework unifies several well-known measures and provides a principled recipe for designing new ones whose behavior, such as tail sensitivity, robustness, and out-of-distribution responsiveness, is governed by the choice of kernel. We prove explicit correspondences between kernel-score characteristics and downstream behavior, yielding concrete design guidelines for task-specific measures. Extensive experiments demonstrate that these measures are effective in downstream tasks and reveal clear trade-offs among instantiations, including robustness and out-of-distribution detection performance."
+  },
+  {
+    "title": "General model for estimating range variances of terrestrial laser scanners based on (un-)scaled intensity values",
+    "url": "http://arxiv.org/abs/2510.25587v1",
+    "arxiv_id": "2510.25587v1",
+    "authors": [
+      "Omar AbdelGafar",
+      "Selin Palaz",
+      "Yihui Yang",
+      "Christoph Holst"
+    ],
+    "published": "2025-10-29T14:52:37+00:00",
+    "summary": "Recent advancements in technology have established terrestrial laser scanners (TLS) as a powerful instrument in geodetic deformation analysis. As TLS becomes increasingly integrated into this field, it is essential to develop a comprehensive stochastic model that accurately captures the measurement uncertainties. A key component of this model is the construction of a complete and valid variance-covariance matrix (VCM) for TLS polar measurements, which requires the estimation of variances for range, vertical, and horizontal angles, as well as their correlations. While angular variances can be obtained from manufacturer specifications, the range variance varies with different intensity measurements. As a primary contribution, this study presents an effective methodology for measuring and estimating TLS range variances using both raw and scaled intensity values. A two-dimensional scanning approach is applied to both controlled targets and arbitrary objects using TLS instruments that provide raw intensity values (e.g., Z+F~Imager~5016A) and those that output scaled intensities (e.g., Leica~ScanStation~P50). The methodology is further evaluated using field observations on a water dam surface. Overall, this work introduces a comprehensive workflow for modeling range uncertainties in high-end TLS systems."
+  },
+  {
+    "title": "Robust variable selection for spatial point processes observed with noise",
+    "url": "http://arxiv.org/abs/2510.25550v1",
+    "arxiv_id": "2510.25550v1",
+    "authors": [
+      "Dominik Sturm",
+      "Ivo F. Sbalzarini"
+    ],
+    "published": "2025-10-29T14:18:08+00:00",
+    "summary": "We propose a method for variable selection in the intensity function of spatial point processes that combines sparsity-promoting estimation with noise-robust model selection. As high-resolution spatial data becomes increasingly available through remote sensing and automated image analysis, identifying spatial covariates that influence the localization of events is crucial to understand the underlying mechanism. However, results from automated acquisition techniques are often noisy, for example due to measurement uncertainties or detection errors, which leads to spurious displacements and missed events. We study the impact of such noise on sparse point-process estimation across different models, including Poisson and Thomas processes. To improve noise robustness, we propose to use stability selection based on point-process subsampling and to incorporate a non-convex best-subset penalty to enhance model-selection performance. In extensive simulations, we demonstrate that such an approach reliably recovers true covariates under diverse noise scenarios and improves both selection accuracy and stability. We then apply the proposed method to a forestry data set, analyzing the distribution of trees in relation to elevation and soil nutrients in a tropical rain forest. This shows the practical utility of the method, which provides a systematic framework for robust variable selection in spatial point-process models under noise, without requiring additional knowledge of the process."
+  },
+  {
+    "title": "A Unified Photometric Redshift Calibration for Weak Lensing Surveys using the Dark Energy Spectroscopic Instrument",
+    "url": "http://arxiv.org/abs/2510.25419v1",
+    "arxiv_id": "2510.25419v1",
+    "authors": [
+      "Johannes U. Lange",
+      "Diana Blanco",
+      "Alexie Leauthaud",
+      "Angus Wright",
+      "Abigail Fisher",
+      "Joshua Ratajczak",
+      "Jessica Nicole Aguilar",
+      "Steven Ahlen",
+      "Stephen Bailey",
+      "Davide Bianchi",
+      "Chris Blake",
+      "David Brooks",
+      "Todd Claybaugh",
+      "Andrei Cuceu",
+      "Kyle Dawson",
+      "Axel de la Macorra",
+      "Joseph DeRose",
+      "Arjun Dey",
+      "Peter Doel",
+      "Ni Putu Audita Placida Emas",
+      "Simone Ferraro",
+      "Andreu Font-Ribera",
+      "Jaime E. Forero-Romero",
+      "Cristhian Garcia-Quintero",
+      "Enrique Gazta\u00f1aga",
+      "Satya Gontcho A Gontcho",
+      "Gaston Gutierrez",
+      "Sven Heydenreich",
+      "Hendrik Hildebrandt",
+      "Mustapha Ishak",
+      "Jorge Jimenez",
+      "Shahab Joudaki",
+      "Robert Kehoe",
+      "David Kirkby",
+      "Theodore Kisner",
+      "Anthony Kremin",
+      "Ofer Lahav",
+      "Claire Lamman",
+      "Martin Landriau",
+      "Laurent Le Guillou",
+      "Michael Levi",
+      "Leonel Medina Varela",
+      "Aaron Meisner",
+      "Ramon Miquel",
+      "John Moustakas",
+      "Seshadri Nadathur",
+      "Jeffrey A. Newman",
+      "Nathalie Palanque-Delabrouille",
+      "Anna Porredon",
+      "Francisco Prada",
+      "Ignasi P\u00e9rez-R\u00e0fols",
+      "Graziano Rossi",
+      "Rossana Ruggeri",
+      "Eusebio Sanchez",
+      "Christoph Saulder",
+      "David Schlegel",
+      "Michael Schubnell",
+      "David Sprayberry",
+      "Zechang Sun",
+      "Gregory Tarl\u00e9",
+      "Benjamin Alan Weaver",
+      "Sihan Yuan",
+      "Pauline Zarrouk",
+      "Hu Zou"
+    ],
+    "published": "2025-10-29T11:38:30+00:00",
+    "summary": "The effective redshift distribution $n(z)$ of galaxies is a critical component in the study of weak gravitational lensing. Here, we introduce a new method for determining $n(z)$ for weak lensing surveys based on high-quality redshifts and neural network-based importance weights. Additionally, we present the first unified photometric redshift calibration of the three leading stage-III weak lensing surveys, the Dark Energy Survey (DES), the Hyper Suprime-Cam (HSC) survey and the Kilo-Degree Survey (KiDS), with state-of-the-art spectroscopic data from the Dark Energy Spectroscopic Instrument (DESI). We verify our method using a new, data-driven approach and obtain $n(z)$ constraints with statistical uncertainties of order $\\sigma_{\\bar z} \\sim 0.01$ and smaller. Our analysis is largely independent of previous photometric redshift calibrations and, thus, provides an important cross-check in light of recent cosmological tensions. Overall, we find excellent agreement with previously published results on the DES Y3 and HSC Y1 data sets while there are some differences on the mean redshift with respect to the previously published KiDS-1000 results. We attribute the latter to mismatches in photometric noise properties in the COSMOS field compared to the wider KiDS SOM-gold catalog. At the same time, the new $n(z)$ estimates for KiDS do not significantly change estimates of cosmic structure growth from cosmic shear. Finally, we discuss how our method can be applied to future weak lensing calibrations with DESI data."
+  },
+  {
+    "title": "Model-Free Robust Beamforming in Satellite Downlink using Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2510.25393v1",
+    "arxiv_id": "2510.25393v1",
+    "authors": [
+      "Alea Schr\u00f6der",
+      "Steffen Gracla",
+      "Carsten Bockelmann",
+      "Dirk W\u00fcbben",
+      "Armin Dekorsy"
+    ],
+    "published": "2025-10-29T11:12:38+00:00",
+    "summary": "Satellite-based communications are expected to be a substantial future market in 6G networks. As satellite constellations grow denser and transmission resources remain limited, frequency reuse plays an increasingly important role in managing inter-user interference. In the multi-user downlink, precoding enables the reuse of frequencies across spatially separated users, greatly improving spectral efficiency. The analytical calculation of suitable precodings for perfect channel information is well studied, however, their performance can quickly deteriorate when faced with, e.g., outdated channel state information or, as is particularly relevant for satellite channels, when position estimates are erroneous. Deriving robust precoders under imperfect channel state information is not only analytically intractable in general but often requires substantial relaxations of the optimization problem or heuristic constraints to obtain feasible solutions. Instead, in this paper we flexibly derive robust precoding algorithms from given data using reinforcement learning. We describe how we adapt the applied Soft Actor-Critic learning algorithm to the problem of downlink satellite beamforming and show numerically that the resulting precoding algorithm adjusts to all investigated scenarios. The considered scenarios cover both single satellite and cooperative multi-satellite beamforming, using either global or local channel state information, and two error models that represent increasing levels of uncertainty. We show that the learned algorithms match or markedly outperform two analytical baselines in sum rate performance, adapting to the required level of robustness. We also analyze the mechanisms that the learned algorithms leverage to achieve robustness. The implementation is publicly available for use and reproduction of the results."
+  },
+  {
+    "title": "Integrating Legal and Logical Specifications in Perception, Prediction, and Planning for Automated Driving: A Survey of Methods",
+    "url": "http://arxiv.org/abs/2510.25386v1",
+    "arxiv_id": "2510.25386v1",
+    "authors": [
+      "Kumar Manas",
+      "Mert Keser",
+      "Alois Knoll"
+    ],
+    "published": "2025-10-29T10:57:24+00:00",
+    "summary": "This survey provides an analysis of current methodologies integrating legal and logical specifications into the perception, prediction, and planning modules of automated driving systems. We systematically explore techniques ranging from logic-based frameworks to computational legal reasoning approaches, emphasizing their capability to ensure regulatory compliance and interpretability in dynamic and uncertain driving environments. A central finding is that significant challenges arise at the intersection of perceptual reliability, legal compliance, and decision-making justifiability. To systematically analyze these challenges, we introduce a taxonomy categorizing existing approaches by their theoretical foundations, architectural implementations, and validation strategies. We particularly focus on methods that address perceptual uncertainty and incorporate explicit legal norms, facilitating decisions that are both technically robust and legally defensible. The review covers neural-symbolic integration methods for perception, logic-driven rule representation, and norm-aware prediction strategies, all contributing toward transparent and accountable autonomous vehicle operation. We highlight critical open questions and practical trade-offs that must be addressed, offering multidisciplinary insights from engineering, logic, and law to guide future developments in legally compliant autonomous driving systems."
+  },
+  {
     "title": "ParallelMuse: Agentic Parallel Thinking for Deep Information Seeking",
     "url": "http://arxiv.org/abs/2510.24698v1",
     "arxiv_id": "2510.24698v1",
