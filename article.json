@@ -1,5 +1,128 @@
 [
   {
+    "title": "Outbidding and Outbluffing Elite Humans: Mastering Liar's Poker via Self-Play and Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2511.03724v1",
+    "arxiv_id": "2511.03724v1",
+    "authors": [
+      "Richard Dewey",
+      "Janos Botyanszki",
+      "Ciamac C. Moallemi",
+      "Andrew T. Zheng"
+    ],
+    "published": "2025-11-05T18:58:18+00:00",
+    "summary": "AI researchers have long focused on poker-like games as a testbed for environments characterized by multi-player dynamics, imperfect information, and reasoning under uncertainty. While recent breakthroughs have matched elite human play at no-limit Texas hold'em, the multi-player dynamics are subdued: most hands converge quickly with only two players engaged through multiple rounds of bidding. In this paper, we present Solly, the first AI agent to achieve elite human play in reduced-format Liar's Poker, a game characterized by extensive multi-player engagement. We trained Solly using self-play with a model-free, actor-critic, deep reinforcement learning algorithm. Solly played at an elite human level as measured by win rate (won over 50% of hands) and equity (money won) in heads-up and multi-player Liar's Poker. Solly also outperformed large language models (LLMs), including those with reasoning abilities, on the same metrics. Solly developed novel bidding strategies, randomized play effectively, and was not easily exploitable by world-class human players."
+  },
+  {
+    "title": "Behavior-Adaptive Q-Learning: A Unifying Framework for Offline-to-Online RL",
+    "url": "http://arxiv.org/abs/2511.03695v1",
+    "arxiv_id": "2511.03695v1",
+    "authors": [
+      "Lipeng Zu",
+      "Hansong Zhou",
+      "Xiaonan Zhang"
+    ],
+    "published": "2025-11-05T18:20:23+00:00",
+    "summary": "Offline reinforcement learning (RL) enables training from fixed data without online interaction, but policies learned offline often struggle when deployed in dynamic environments due to distributional shift and unreliable value estimates on unseen state-action pairs. We introduce Behavior-Adaptive Q-Learning (BAQ), a framework designed to enable a smooth and reliable transition from offline to online RL. The key idea is to leverage an implicit behavioral model derived from offline data to provide a behavior-consistency signal during online fine-tuning. BAQ incorporates a dual-objective loss that (i) aligns the online policy toward the offline behavior when uncertainty is high, and (ii) gradually relaxes this constraint as more confident online experience is accumulated. This adaptive mechanism reduces error propagation from out-of-distribution estimates, stabilizes early online updates, and accelerates adaptation to new scenarios. Across standard benchmarks, BAQ consistently outperforms prior offline-to-online RL approaches, achieving faster recovery, improved robustness, and higher overall performance. Our results demonstrate that implicit behavior adaptation is a principled and practical solution for reliable real-world policy deployment."
+  },
+  {
+    "title": "Final state sensitivity and fractal basin boundaries from coupled Chialvo neurons",
+    "url": "http://arxiv.org/abs/2511.03671v1",
+    "arxiv_id": "2511.03671v1",
+    "authors": [
+      "Bennett Lamb",
+      "Brandon B. Le"
+    ],
+    "published": "2025-11-05T17:37:18+00:00",
+    "summary": "We investigate and quantify the basin geometry and extreme final state uncertainty of two identical electrically asymmetrically coupled Chialvo neurons. The system's diverse behaviors are presented, along with the mathematical reasoning behind its chaotic and nonchaotic dynamics as determined by the structure of the coupled equations. The system is found to be multistable with two qualitatively different attractors. Although each neuron is individually nonchaotic, the chaotic basin takes up the vast majority of the coupled system's state space, but the nonchaotic basin stretches to infinity due to chance synchronization. The boundary between the basins is found to be fractal, leading to extreme final state sensitivity. This uncertainty and its potential effect on the synchronization of biological neurons may have significant implications for understanding human behavior and neurological disease."
+  },
+  {
+    "title": "ALMA and JWST Imaging of $z\\ >\\ 6$ Quasars: No Spatial Position Offset Observed Between Quasars and Their Host Galaxies",
+    "url": "http://arxiv.org/abs/2511.03659v1",
+    "arxiv_id": "2511.03659v1",
+    "authors": [
+      "Aurora Wilde",
+      "Marcel Neeleman",
+      "Romain Meyer",
+      "Roberto Decarli",
+      "Fabian Walter",
+      "Brenda Frye",
+      "Xiaohui Fan"
+    ],
+    "published": "2025-11-05T17:16:22+00:00",
+    "summary": "We present a study determining the spatial offset between the position of the supermassive black hole (as traced through their broad line regions) and the host galaxy in six $z > 6$ quasars. We determined the host galaxy's position from $\\lesssim$$0.1^{\\prime\\prime}$ ($\\lesssim$ 600 pc) resolution Atacama Large Millimeter/sub-millimeter Array (ALMA) [CII] 158 $\\mu m$ and corresponding dust continuum imaging. We determined the quasar's position from $\\lesssim$ 400 pc resolution James Webb Space Telescope Near-Infrared Camera (JWST NIRCam) imaging. We estimated the observational uncertainties on the quasar's position using astrometric data from the Global Astrometric Interferometer for Astrophysics (GAIA) of field stars within the NIRCam images. We find that all six quasars are found within the central $\\sim 400$ pc of their host galaxy dust continuum and [CII] emission. Apparent offsets seen in rest-frame optical JWST observations are not detected in our ALMA data, suggesting they likely result from dust obscuration rather than a true physical separation between the SMBH and its host galaxy. Kinematic modeling of these data further reveals that none of the galaxies show evidence for recent merger activity, and most of the galaxies can be accurately modeled using a simple disk model. The lack of an offset supports theoretical models that predict that positional offset within these galaxies are either short-lived or intrinsically rare."
+  },
+  {
+    "title": "Motion Planning Under Temporal Logic Specifications In Semantically Unknown Environments",
+    "url": "http://arxiv.org/abs/2511.03652v1",
+    "arxiv_id": "2511.03652v1",
+    "authors": [
+      "Azizollah Taheri",
+      "Derya Aksaray"
+    ],
+    "published": "2025-11-05T17:09:43+00:00",
+    "summary": "This paper addresses a motion planning problem to achieve spatio-temporal-logical tasks, expressed by syntactically co-safe linear temporal logic specifications (scLTL\\next), in uncertain environments. Here, the uncertainty is modeled as some probabilistic knowledge on the semantic labels of the environment. For example, the task is \"first go to region 1, then go to region 2\"; however, the exact locations of regions 1 and 2 are not known a priori, instead a probabilistic belief is available. We propose a novel automata-theoretic approach, where a special product automaton is constructed to capture the uncertainty related to semantic labels, and a reward function is designed for each edge of this product automaton. The proposed algorithm utilizes value iteration for online replanning. We show some theoretical results and present some simulations/experiments to demonstrate the efficacy of the proposed approach."
+  },
+  {
+    "title": "Geometrically robust least squares through manifold optimization",
+    "url": "http://arxiv.org/abs/2511.03644v1",
+    "arxiv_id": "2511.03644v1",
+    "authors": [
+      "Jeremy Coulson",
+      "Alberto Padoan",
+      "Cyrus Mostajeran"
+    ],
+    "published": "2025-11-05T17:03:24+00:00",
+    "summary": "This paper presents a methodology for solving a geometrically robust least squares problem, which arises in various applications where the model is subject to geometric constraints. The problem is formulated as a minimax optimization problem on a product manifold, where one variable is constrained to a ball describing uncertainty. To handle the constraint, an exact penalty method is applied. A first-order gradient descent ascent algorithm is proposed to solve the problem, and its convergence properties are illustrated by an example. The proposed method offers a robust approach to solving a wide range of problems arising in signal processing and data-driven control."
+  },
+  {
+    "title": "Quantifying Weighted Morphological Content of Large-Scale Structures via Simulation-Based Inference",
+    "url": "http://arxiv.org/abs/2511.03636v1",
+    "arxiv_id": "2511.03636v1",
+    "authors": [
+      "M. H. Jalali Kanafi",
+      "S. M. S. Movahed"
+    ],
+    "published": "2025-11-05T16:54:17+00:00",
+    "summary": "In this work, we perform a simulation-based forecasting analysis to compare the constraining power of two higher-order summary statistics of the large-scale structure (LSS), the Minkowski Functionals (MFs) and the Conditional Moments of Derivative (CMD), with a particular focus on their sensitivity to nonlinear and anisotropic features in redshift-space. Our analysis relies on halo catalogs from the Big Sobol Sequence(BSQ) simulations at redshift $z=0.5$, employing a likelihood-free inference framework implemented via neural posterior estimation. At the fiducial cosmology of the Quijote simulations $(\\Omega_{m}=0.3175,\\,\\sigma_{8}=0.834)$, and for the smoothing scale $R=15\\,h^{-1}$Mpc, we find that the CMD yields tighter forecasts for $(\\Omega_{m}},\\,\\sigma_{8})$ than the zeroth- to third-order MFs components, improving the constraint precision by ${\\sim}(44\\%,\\,52\\%)$, ${\\sim}(30\\%,\\,45\\%)$, ${\\sim}(27\\%,\\,17\\%)$, and ${\\sim}(26\\%,\\,17\\%)$, respectively. A joint configuration combining the MFs and CMD further enhances the precision by approximately ${\\sim}27\\%$ compared to the standard MFs alone, highlighting the complementary anisotropy-sensitive information captured by the CMD in contrast to the scalar morphological content encapsulated by the MFs. We further extend the forecasting analysis to a continuous range of cosmological parameter values and multiple smoothing scales. Our results show that, although the absolute forecast uncertainty for each component of summary statistics depends on the underlying parameter values and the adopted smoothing scale, the relative constraining power among the summary statistics remains nearly constant throughout."
+  },
+  {
+    "title": "LiveTradeBench: Seeking Real-World Alpha with Large Language Models",
+    "url": "http://arxiv.org/abs/2511.03628v1",
+    "arxiv_id": "2511.03628v1",
+    "authors": [
+      "Haofei Yu",
+      "Fenghai Li",
+      "Jiaxuan You"
+    ],
+    "published": "2025-11-05T16:47:26+00:00",
+    "summary": "Large language models (LLMs) achieve strong performance across benchmarks--from knowledge quizzes and math reasoning to web-agent tasks--but these tests occur in static settings, lacking real dynamics and uncertainty. Consequently, they evaluate isolated reasoning or problem-solving rather than decision-making under uncertainty. To address this, we introduce LiveTradeBench, a live trading environment for evaluating LLM agents in realistic and evolving markets. LiveTradeBench follows three design principles: (i) Live data streaming of market prices and news, eliminating dependence on offline backtesting and preventing information leakage while capturing real-time uncertainty; (ii) a portfolio-management abstraction that extends control from single-asset actions to multi-asset allocation, integrating risk management and cross-asset reasoning; and (iii) multi-market evaluation across structurally distinct environments--U.S. stocks and Polymarket prediction markets--differing in volatility, liquidity, and information flow. At each step, an agent observes prices, news, and its portfolio, then outputs percentage allocations that balance risk and return. Using LiveTradeBench, we run 50-day live evaluations of 21 LLMs across families. Results show that (1) high LMArena scores do not imply superior trading outcomes; (2) models display distinct portfolio styles reflecting risk appetite and reasoning dynamics; and (3) some LLMs effectively leverage live signals to adapt decisions. These findings expose a gap between static evaluation and real-world competence, motivating benchmarks that test sequential decision making and consistency under live uncertainty."
+  },
+  {
+    "title": "Tensor-Efficient High-Dimensional Q-learning",
+    "url": "http://arxiv.org/abs/2511.03595v1",
+    "arxiv_id": "2511.03595v1",
+    "authors": [
+      "Junyi Wu",
+      "Dan Li"
+    ],
+    "published": "2025-11-05T16:16:31+00:00",
+    "summary": "High-dimensional reinforcement learning faces challenges with complex calculations and low sample efficiency in large state-action spaces. Q-learning algorithms struggle particularly with the curse of dimensionality, where the number of state-action pairs grows exponentially with problem size. While neural network-based approaches like Deep Q-Networks have shown success, recent tensor-based methods using low-rank decomposition offer more parameter-efficient alternatives. Building upon existing tensor-based methods, we propose Tensor-Efficient Q-Learning (TEQL), which enhances low-rank tensor decomposition via improved block coordinate descent on discretized state-action spaces, incorporating novel exploration and regularization mechanisms. The key innovation is an exploration strategy that combines approximation error with visit count-based upper confidence bound to prioritize actions with high uncertainty, avoiding wasteful random exploration. Additionally, we incorporate a frequency-based penalty term in the objective function to encourage exploration of less-visited state-action pairs and reduce overfitting to frequently visited regions. Empirical results on classic control tasks demonstrate that TEQL outperforms conventional matrix-based methods and deep RL approaches in both sample efficiency and total rewards, making it suitable for resource-constrained applications, such as space and healthcare where sampling costs are high."
+  },
+  {
+    "title": "Approaches to the Inverse Fourier Transformation with Limited and Discrete Data",
+    "url": "http://arxiv.org/abs/2511.03593v1",
+    "arxiv_id": "2511.03593v1",
+    "authors": [
+      "Yu-Fei Ling",
+      "Min-Huan Chu",
+      "Jian Liang",
+      "Jun Hua",
+      "Ao-Sheng Xiong"
+    ],
+    "published": "2025-11-05T16:12:16+00:00",
+    "summary": "We investigate several approaches to address the inverse problem that arises in the limited inverse Fourier transform (L-IDFT) of quasi-distributions. The methods explored include Tikhonov regularization, the Backus-Gilbert method, the Bayesian approach with Gaussian Random Walk (GRW) prior, and the feedforward artificial neural networks (ANNs). We evaluate the performance of these methods using both mock data generated from toy models and real lattice data from quasi distribution, and further compare them with the physics-driven $\\lambda$-extrapolation approach. Our results demonstrate that the L-IDFT constitutes a moderately tractable inverse problem Except for the Backus-Gilbert method, all the other approaches are capable of correctly reconstructing the quasi-distributions in momentum space. In particular, the Bayesian approach with GRW and the feedforward ANNs yield more stable and accurate reconstructions. Based on these investigations, we conclude that, for a given L-IDFT problem, selecting an appropriate reconstruction method according to the input data and carefully assessing the potential systematic uncertainties are essential for obtaining reliable results."
+  },
+  {
     "title": "Intercomparison of a High-Resolution Regional Climate Model Ensemble for Catchment-Scale Water Cycle Processes under Human Influence",
     "url": "http://arxiv.org/abs/2511.02799v1",
     "arxiv_id": "2511.02799v1",
