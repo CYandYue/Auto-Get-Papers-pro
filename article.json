@@ -1,5 +1,131 @@
 [
   {
+    "title": "On the Exoplanet Yield of Gaia Astrometry",
+    "url": "http://arxiv.org/abs/2511.04673v1",
+    "arxiv_id": "2511.04673v1",
+    "authors": [
+      "Caleb Lammers",
+      "Joshua N. Winn"
+    ],
+    "published": "2025-11-06T18:57:00+00:00",
+    "summary": "We re-examine the expected yield of Gaia astrometric planet detections using updated models for giant-planet occurrence, the local stellar population, and Gaia's demonstrated astrometric precision. Our analysis combines a semi-analytic model that clarifies key scaling relations with more realistic Monte Carlo simulations. We predict $7{,}500 \\pm 2{,}100$ planet discoveries in the 5-year dataset (DR4) and $120{,}000 \\pm 22{,}000$ over the full 10-year mission (DR5), with the dominant error arising from uncertainties in giant-planet occurrence. We evaluate the sensitivity of these forecasts to the detection threshold and the desired precision for measurements of planet masses and orbital parameters. Roughly $1{,}900 \\pm 540$ planets in DR4 and $38{,}000 \\pm 7{,}300$ planets in DR5 should have masses and orbital periods determined to better than $20$%. Most detections will be super-Jupiters ($3$ - $13 M_{\\rm J}$) on $2$ - $5$AU orbits around GKM-type stars ($0.4$ - $1.3 M_\\odot$) within $500$ pc. Unresolved binary stars will lead to spurious planet detections, but we estimate that genuine planets will outnumber them by a factor of $5$ or more. An exception is planets around M-dwarfs with $a < 1$AU, for which the false-positive rate is expected to be about $50$%. To support community preparation for upcoming data releases, we provide mock catalogs of Gaia exoplanets and planet-impostor binaries."
+  },
+  {
+    "title": "Nowcast3D: Reliable precipitation nowcasting via gray-box learning",
+    "url": "http://arxiv.org/abs/2511.04659v1",
+    "arxiv_id": "2511.04659v1",
+    "authors": [
+      "Huaguan Chen",
+      "Wei Han",
+      "Haofei Sun",
+      "Ning Lin",
+      "Xingtao Song",
+      "Yunfan Yang",
+      "Jie Tian",
+      "Yang Liu",
+      "Ji-Rong Wen",
+      "Xiaoye Zhang",
+      "Xueshun Shen",
+      "Hao Sun"
+    ],
+    "published": "2025-11-06T18:44:35+00:00",
+    "summary": "Extreme precipitation nowcasting demands high spatiotemporal fidelity and extended lead times, yet existing approaches remain limited. Numerical Weather Prediction (NWP) and its deep-learning emulations are too slow and coarse for rapidly evolving convection, while extrapolation and purely data-driven models suffer from error accumulation and excessive smoothing. Hybrid 2D radar-based methods discard crucial vertical information, preventing accurate reconstruction of height-dependent dynamics. We introduce a gray-box, fully three-dimensional nowcasting framework that directly processes volumetric radar reflectivity and couples physically constrained neural operators with datadriven learning. The model learns vertically varying 3D advection fields under a conservative advection operator, parameterizes spatially varying diffusion, and introduces a Brownian-motion--inspired stochastic term to represent unresolved motions. A residual branch captures small-scale convective initiation and microphysical variability, while a diffusion-based stochastic module estimates uncertainty. The framework achieves more accurate forecasts up to three-hour lead time across precipitation regimes and ranked first in 57\\% of cases in a blind evaluation by 160 meteorologists. By restoring full 3D dynamics with physical consistency, it offers a scalable and robust pathway for skillful and reliable nowcasting of extreme precipitation."
+  },
+  {
+    "title": "Where to Experiment? Site Selection Under Distribution Shift via Optimal Transport and Wasserstein DRO",
+    "url": "http://arxiv.org/abs/2511.04658v1",
+    "arxiv_id": "2511.04658v1",
+    "authors": [
+      "Adam Bouyamourn"
+    ],
+    "published": "2025-11-06T18:44:21+00:00",
+    "summary": "How should researchers select experimental sites when the deployment population differs from observed data? I formulate the problem of experimental site selection as an optimal transport problem, developing methods to minimize downstream estimation error by choosing sites that minimize the Wasserstein distance between population and sample covariate distributions. I develop new theoretical upper bounds on PATE and CATE estimation errors, and show that these different objectives lead to different site selection strategies. I extend this approach by using Wasserstein Distributionally Robust Optimization to develop a site selection procedure robust to adversarial perturbations of covariate information: a specific model of distribution shift. I also propose a novel data-driven procedure for selecting the uncertainty radius the Wasserstein DRO problem, which allows the user to benchmark robustness levels against observed variation in their data. Simulation evidence, and a reanalysis of a randomized microcredit experiment in Morocco (Cr\\'epon et al.), show that these methods outperform random and stratified sampling of sites when covariates have prognostic R-squared > .5, and alternative optimization methods i) for moderate-to-large size problem instances ii) when covariates are moderately informative about treatment effects, and iii) under induced distribution shift."
+  },
+  {
+    "title": "Photodetection of Squeezed Light: a Whittaker-Shannon Analysis",
+    "url": "http://arxiv.org/abs/2511.04657v1",
+    "arxiv_id": "2511.04657v1",
+    "authors": [
+      "Jasper Kranias",
+      "Christian Drago",
+      "Colin Vendromin",
+      "J. E. Sipe"
+    ],
+    "published": "2025-11-06T18:44:09+00:00",
+    "summary": "The Whittaker-Shannon decomposition provides a temporally localized description of squeezed light, making it applicable in the CW limit and leading to a definition of squeezing strength based on the number of photon pairs at a time. We show examples of its usefulness by calculating quadrature variance in a homodyne detection scheme, coincidence detection probabilities in the continuous-wave limit, and analyzing the Hong-Ou-Mandel effect for strongly squeezed light. Quadrature uncertainty falls farther below the shot noise limit when squeezing is strong, but effects due to correlations between photon pairs are most significant with weak squeezing. Our analysis extends previous results to more general scenarios, and we leverage the Whittaker-Shannon formalism to interpret them based on the temporal properties of photon pairs."
+  },
+  {
+    "title": "Nonparametric Safety Stock Dimensioning: A Data-Driven Approach for Supply Chains of Hardware OEMs",
+    "url": "http://arxiv.org/abs/2511.04616v1",
+    "arxiv_id": "2511.04616v1",
+    "authors": [
+      "Elvis Agbenyega",
+      "Cody Quick"
+    ],
+    "published": "2025-11-06T18:10:30+00:00",
+    "summary": "Resilient supply chains are critical, especially for Original Equipment Manufacturers (OEMs) that power today's digital economy. Safety Stock dimensioning-the computation of the appropriate safety stock quantity-is one of several mechanisms to ensure supply chain resiliency, as it protects the supply chain against demand and supply uncertainties. Unfortunately, the major approaches to dimensioning safety stock heavily assume that demand is normally distributed and ignore future demand variability, limiting their applicability in manufacturing contexts where demand is non-normal, intermittent, and highly skewed. In this paper, we propose a data-driven approach that relaxes the assumption of normality, enabling the demand distribution of each inventory item to be analytically determined using Kernel Density Estimation. Also, we extended the analysis from historical demand variability to forecasted demand variability. We evaluated the proposed approach against a normal distribution model in a near-world inventory replenishment simulation. Afterwards, we used a linear optimization model to determine the optimal safety stock configuration. The results from the simulation and linear optimization models showed that the data-driven approach outperformed traditional approaches. In particular, the data-driven approach achieved the desired service levels at lower safety stock levels than the conventional approaches."
+  },
+  {
+    "title": "Analyzing the topological structure of composite dynamical systems",
+    "url": "http://arxiv.org/abs/2511.04603v1",
+    "arxiv_id": "2511.04603v1",
+    "authors": [
+      "Michael Robinson",
+      "Michael L. Szulczewski",
+      "James T. Thorson"
+    ],
+    "published": "2025-11-06T17:57:16+00:00",
+    "summary": "This chapter explores dynamical structural equation models (DSEMs) and their nonlinear generalizations into sheaves of dynamical systems. It demonstrates these two disciplines on part of the food web in the Bering Sea. The translation from DSEMs to sheaves passes through a formal construction borrowed from electronics called a netlist that specifies how data route through a system. A sheaf can be considered a formal hypothesis about how variables interact, that then specifies how observations can be tested for consistency, how missing data can be inferred, and how uncertainty about the observations can be quantified. Sheaf modeling provides a coherent mathematical framework for studying the interaction of various dynamical subsystems that together determine a larger system."
+  },
+  {
+    "title": "Machine Learning for Electron-Scale Turbulence Modeling in W7-X",
+    "url": "http://arxiv.org/abs/2511.04567v1",
+    "arxiv_id": "2511.04567v1",
+    "authors": [
+      "Ionut-Gabriel Farcas",
+      "Don Lawrence Carl Agapito Fernando",
+      "Alejandro Banon Navarro",
+      "Gabriele Merlo",
+      "Frank Jenko"
+    ],
+    "published": "2025-11-06T17:24:37+00:00",
+    "summary": "Constructing reduced models for turbulent transport is essential for accelerating profile predictions and enabling many-query tasks such as uncertainty quantification, parameter scans, and design optimization. This paper presents machine-learning-driven reduced models for Electron Temperature Gradient (ETG) turbulence in the Wendelstein 7-X (W7-X) stellarator. Each model predicts the ETG heat flux as a function of three plasma parameters: the normalized electron temperature radial gradient ($\\omega_{T_e}$), the ratio of normalized electron temperature and density radial gradients ($\\eta_e$), and the electron-to-ion temperature ratio ($\\tau$). We first construct models across seven radial locations using regression and an active machine-learning-based procedure. This process initializes models using low-cardinality sparse-grid training data and then iteratively refines their training sets by selecting the most informative points from a pre-existing simulation database. We evaluate the prediction capabilities of our models using out-of-sample datasets with over $393$ points per location, and $95\\%$ prediction intervals are estimated via bootstrapping to assess prediction uncertainty. We then investigate the construction of generalized reduced models, including a generic, position-independent model, and assess their heat flux prediction capabilities at three additional locations. Our models demonstrate robust performance and predictive accuracy comparable to the original reference simulations, even when applied beyond the training domain."
+  },
+  {
+    "title": "Uncertainties in Physics-informed Inverse Problems: The Hidden Risk in Scientific AI",
+    "url": "http://arxiv.org/abs/2511.04564v1",
+    "arxiv_id": "2511.04564v1",
+    "authors": [
+      "Yoh-ichi Mototake",
+      "Makoto Sasaki"
+    ],
+    "published": "2025-11-06T17:20:02+00:00",
+    "summary": "Physics-informed machine learning (PIML) integrates partial differential equations (PDEs) into machine learning models to solve inverse problems, such as estimating coefficient functions (e.g., the Hamiltonian function) that characterize physical systems. This framework enables data-driven understanding and prediction of complex physical phenomena. While coefficient functions in PIML are typically estimated on the basis of predictive performance, physics as a discipline does not rely solely on prediction accuracy to evaluate models. For example, Kepler's heliocentric model was favored owing to small discrepancies in planetary motion, despite its similar predictive accuracy to the geocentric model. This highlights the inherent uncertainties in data-driven model inference and the scientific importance of selecting physically meaningful solutions. In this paper, we propose a framework to quantify and analyze such uncertainties in the estimation of coefficient functions in PIML. We apply our framework to reduced model of magnetohydrodynamics and our framework shows that there are uncertainties, and unique identification is possible with geometric constraints. Finally, we confirm that we can estimate the reduced model uniquely by incorporating these constraints."
+  },
+  {
+    "title": "Optimizing Sensor Placement in Urban Storm Sewers: A Data-Driven Sparse Sensing Approach",
+    "url": "http://arxiv.org/abs/2511.04556v1",
+    "arxiv_id": "2511.04556v1",
+    "authors": [
+      "Zihang Ding",
+      "Kun Zhang"
+    ],
+    "published": "2025-11-06T17:08:19+00:00",
+    "summary": "Urban surface water flooding, triggered by intense rainfall overwhelming drainage systems, is increasingly frequent and widespread. While flood prediction and monitoring in high spatial-temporal resolution are desired, practical constraints in time, budget, and technology hinder its full implementation. How to monitor urban drainage networks and predict flow conditions under constrained resource is a major challenge. This study presents a data-driven sparse sensing (DSS) framework, integrated with EPA-SWMM, to optimize sensor placement and reconstruct peak flowrates in a stormwater system, using the Woodland Avenue catchment in Duluth, Minnesota, as a case study. We utilized a SWMM model to generate a training dataset of peak flowrate profiles across the stormwater network. Furthermore, we applied DSS - leveraging singular value decomposition for dimensionality reduction and QR factorization for sensor allocation - to identify the optimal monitoring nodes based on the simulated training dataset. We then validated the representativeness of these identified monitoring nodes by comparing the DSS-reconstructed peak flowrate profiles with those obtained from SWMM. Three optimally placed sensors among 77 nodes achieved satisfactory reconstruction performance with Nash-Sutcliffe Efficiency (NSE) values of 0.92-0.95 (25th to 75th percentiles). In addition, the model showed good robustness to uncertainty in measurements. Its robustness to sensor failures is location-dependent and improves with the number of sensors deployed. The framework balances computational efficiency and physical interpretability, enabling high-accuracy flow reconstruction with minimal sensors. This DSS framework can be further integrated with predictive models to realize flood early warning and real-time control under limited sensing and monitoring resource."
+  },
+  {
+    "title": "Uncertainty Quantification for Reduced-Order Surrogate Models Applied to Cloud Microphysics",
+    "url": "http://arxiv.org/abs/2511.04534v1",
+    "arxiv_id": "2511.04534v1",
+    "authors": [
+      "Jonas E. Katona",
+      "Emily K. de Jong",
+      "Nipun Gunawardena"
+    ],
+    "published": "2025-11-06T16:47:52+00:00",
+    "summary": "Reduced-order models (ROMs) can efficiently simulate high-dimensional physical systems, but lack robust uncertainty quantification methods. Existing approaches are frequently architecture- or training-specific, which limits flexibility and generalization. We introduce a post hoc, model-agnostic framework for predictive uncertainty quantification in latent space ROMs that requires no modification to the underlying architecture or training procedure. Using conformal prediction, our approach estimates statistical prediction intervals for multiple components of the ROM pipeline: latent dynamics, reconstruction, and end-to-end predictions. We demonstrate the method on a latent space dynamical model for cloud microphysics, where it accurately predicts the evolution of droplet-size distributions and quantifies uncertainty across the ROM pipeline."
+  },
+  {
     "title": "Outbidding and Outbluffing Elite Humans: Mastering Liar's Poker via Self-Play and Reinforcement Learning",
     "url": "http://arxiv.org/abs/2511.03724v1",
     "arxiv_id": "2511.03724v1",
