@@ -1,5 +1,139 @@
 [
   {
+    "title": "The $Z\u03b1^2$ correction to superallowed beta decays in effective field theory and implications for $|V_{ud}|$",
+    "url": "http://arxiv.org/abs/2511.05446v1",
+    "arxiv_id": "2511.05446v1",
+    "authors": [
+      "Zehua Cao",
+      "Richard J. Hill",
+      "Ryan Plestid",
+      "Peter Vander Griend"
+    ],
+    "published": "2025-11-07T17:34:45+00:00",
+    "summary": "Superallowed ($0^+\\rightarrow0^+$) beta decays currently provide the most precise extraction of quark mixing in the Standard Model. Their interpretation as a measurement of $|V_{ud}|$ relies on a reliable first-principles computation of QED radiative corrections expressed as a series in $Z\\alpha$ and $\\alpha$. In this work, we provide the first model-independent result for two-loop, $O(Z\\alpha^2)$, long-distance radiative corrections where the nuclei are treated as heavy point-like particles.   We use renormalization group analysis to obtain new results at $O(Z\\alpha^3)$ for the coefficient of double-logarithms in the ratio of the maximal beta energy to the inverse nuclear size, $\\Em/R^{-1}$. We use the Kinoshita-Lee-Nauenberg theorem to obtain new results at $O(Z^2\\alpha^3)$ for the coefficient of logarithms in the ratio of maximal beta energy to the electron mass, $\\log(2\\Em/\\me)$. We identify a structure-dependent, and therefore short-distance, contribution to the traditional $Z\\alpha^2$ correction that should be revisited.. We provide the first comprehensive update to the long-distance corrections in almost forty years and comment on the impact of our findings for extractions of $|V_{ud}|$. We find that shifts in the long-distance corrections are $2.5\\times$ larger than past estimates of their uncertainty, $1.5\\times$ larger than the statistical uncertainty from the combined fit of superallowed decays, and about $1/2$ the size of estimated systematic error, which stems dominantly from nuclear structure effects."
+  },
+  {
+    "title": "Adversarially Robust Multitask Adaptive Control",
+    "url": "http://arxiv.org/abs/2511.05444v1",
+    "arxiv_id": "2511.05444v1",
+    "authors": [
+      "Kasra Fallah",
+      "Leonardo F. Toso",
+      "James Anderson"
+    ],
+    "published": "2025-11-07T17:25:21+00:00",
+    "summary": "We study adversarially robust multitask adaptive linear quadratic control; a setting where multiple systems collaboratively learn control policies under model uncertainty and adversarial corruption. We propose a clustered multitask approach that integrates clustering and system identification with resilient aggregation to mitigate corrupted model updates. Our analysis characterizes how clustering accuracy, intra-cluster heterogeneity, and adversarial behavior affect the expected regret of certainty-equivalent (CE) control across LQR tasks. We establish non-asymptotic bounds demonstrating that the regret decreases inversely with the number of honest systems per cluster and that this reduction is preserved under a bounded fraction of adversarial systems within each cluster."
+  },
+  {
+    "title": "Neutrino-Nucleus Scattering Cross Sections at Medium Energies",
+    "url": "http://arxiv.org/abs/2511.05413v1",
+    "arxiv_id": "2511.05413v1",
+    "authors": [
+      "Vishvas Pandey"
+    ],
+    "published": "2025-11-07T16:43:14+00:00",
+    "summary": "The weak interactions of neutrinos with other Standard Model particles are well described within the Standard Model of particle physics. However, modern accelerator-based neutrino experiments employ nuclei as targets, where neutrinos interact with bound nucleons, turning a seemingly simple electroweak process into a complex many-body problem in nuclear physics. At the time of writing this Encyclopedia of Particle Physics chapter, neutrino-nucleus interactions remain one of the leading sources of systematic uncertainty in accelerator-based neutrino oscillation measurements.   This chapter provides a pedagogical overview of neutrino interactions with nuclei in the medium-energy regime, spanning a few hundred MeV to several GeV. It introduces the fundamental electroweak formalism, outlines the dominant interaction mechanisms - including quasielastic scattering, resonance production, and deep inelastic scattering - and discusses how nuclear effects such as Fermi motion, nucleon-nucleon correlations, meson-exchange currents, and final-state interactions modify observable cross sections. The chapter also presents a brief survey of the foundational and most widely used theoretical models for neutrino-nucleus cross sections, together with an overview of current and upcoming accelerator-based neutrino oscillation experiments that are shaping the field.   Rather than targeting experts, this chapter serves as a primer for advanced undergraduates, graduate students, and early-career researchers entering the field. It provides a concise foundation for understanding neutrino-nucleus scattering, its relevance to oscillation experiments, and its broader connections to both particle and nuclear physics."
+  },
+  {
+    "title": "Bayesian learning for accurate and robust biomolecular force fields",
+    "url": "http://arxiv.org/abs/2511.05398v1",
+    "arxiv_id": "2511.05398v1",
+    "authors": [
+      "Vojtech Kostal",
+      "Brennon L. Shanks",
+      "Pavel Jungwirth",
+      "Hector Martinez-Seara"
+    ],
+    "published": "2025-11-07T16:25:48+00:00",
+    "summary": "Molecular dynamics is a valuable tool to probe biological processes at the atomistic level - a resolution often elusive to experiments. However, the credibility of molecular models is limited by the accuracy of the underlying force field, which is often parametrized relying on ad hoc assumptions. To address this gap, we present a Bayesian framework for learning physically grounded parameters directly from ab initio molecular dynamics data. By representing both model parameters and data probabilistically, the framework yields interpretable, statistically rigorous models in which uncertainty and transferability emerge naturally from the learning process. This approach provides a transparent, data-driven foundation for developing predictive molecular models and enhances confidence in computational descriptions of biophysical systems. We demonstrate the method using 18 biologically relevant molecular fragments that capture key motifs in proteins, nucleic acids, and lipids, and, as a proof of concept, apply it to calcium binding to troponin - a central event in cardiac regulation."
+  },
+  {
+    "title": "EveryDayVLA: A Vision-Language-Action Model for Affordable Robotic Manipulation",
+    "url": "http://arxiv.org/abs/2511.05397v1",
+    "arxiv_id": "2511.05397v1",
+    "authors": [
+      "Samarth Chopra",
+      "Alex McMoil",
+      "Ben Carnovale",
+      "Evan Sokolson",
+      "Rajkumar Kubendran",
+      "Samuel Dickerson"
+    ],
+    "published": "2025-11-07T16:24:45+00:00",
+    "summary": "While Vision-Language-Action (VLA) models map visual inputs and language instructions directly to robot actions, they often rely on costly hardware and struggle in novel or cluttered scenes. We introduce EverydayVLA, a 6-DOF manipulator that can be assembled for under $300, capable of modest payloads and workspace. A single unified model jointly outputs discrete and continuous actions, and our adaptive-horizon ensemble monitors motion uncertainty to trigger on-the-fly re-planning for safe, reliable operation. On LIBERO, EverydayVLA matches state-of-the-art success rates, and in real-world tests it outperforms prior methods by 49% in-distribution and 34.9% out-of-distribution. By combining a state-of-the-art VLA with cost-effective hardware, EverydayVLA democratizes access to a robotic foundation model and paves the way for economical use in homes and research labs alike. Experiment videos and details: https://everydayvla.github.io/"
+  },
+  {
+    "title": "Sample Complexity of Distributionally Robust Off-Dynamics Reinforcement Learning with Online Interaction",
+    "url": "http://arxiv.org/abs/2511.05396v1",
+    "arxiv_id": "2511.05396v1",
+    "authors": [
+      "Yiting He",
+      "Zhishuai Liu",
+      "Weixin Wang",
+      "Pan Xu"
+    ],
+    "published": "2025-11-07T16:24:22+00:00",
+    "summary": "Off-dynamics reinforcement learning (RL), where training and deployment transition dynamics are different, can be formulated as learning in a robust Markov decision process (RMDP) where uncertainties in transition dynamics are imposed. Existing literature mostly assumes access to generative models allowing arbitrary state-action queries or pre-collected datasets with a good state coverage of the deployment environment, bypassing the challenge of exploration. In this work, we study a more realistic and challenging setting where the agent is limited to online interaction with the training environment. To capture the intrinsic difficulty of exploration in online RMDPs, we introduce the supremal visitation ratio, a novel quantity that measures the mismatch between the training dynamics and the deployment dynamics. We show that if this ratio is unbounded, online learning becomes exponentially hard. We propose the first computationally efficient algorithm that achieves sublinear regret in online RMDPs with $f$-divergence based transition uncertainties. We also establish matching regret lower bounds, demonstrating that our algorithm achieves optimal dependence on both the supremal visitation ratio and the number of interaction episodes. Finally, we validate our theoretical results through comprehensive numerical experiments."
+  },
+  {
+    "title": "Quantum-Uncertainty-Governed Spin Dynamics in s-d Coupled Systems",
+    "url": "http://arxiv.org/abs/2511.05388v1",
+    "arxiv_id": "2511.05388v1",
+    "authors": [
+      "Jie Zheng",
+      "Jiyong Kang",
+      "Zheng Zhu",
+      "Di Wu",
+      "Yuesheng Li",
+      "Dongxing Yu",
+      "Jiayong Wang",
+      "Hongxing Xu",
+      "Chenglong Jia"
+    ],
+    "published": "2025-11-07T16:11:17+00:00",
+    "summary": "We investigate quantum fluctuation effects arising from the Heisenberg uncertainty principle governing angular momentum operators in the full dynamical evolution of disentanglement-entanglement-disentanglement between itinerant electrons and localized magnetic moments under the s-d exchange interaction. Beyond the conventional deterministic spin-transfer torque, we identify an intrinsic channel for the transfer of spin quantum fluctuations. By extending the Landau-Lifshitz-Gilbert equation to include both quantum and thermal stochastic fields, we reveal a temperature regime where quantum fluctuations dominate spin dynamics. Furthermore, voltage-controlled magnetic anisotropy can exponentially amplify these quantum fluctuation signals, enabling their binary detection via tunneling magnetoresistance in magnetic tunnel junctions. These results establish a microscopic framework for quantum fluctuation-driven spin dynamics and provide a fundamental route toward spin-based quantum true random number generation."
+  },
+  {
+    "title": "Learning Dynamics from Input-Output Data with Hamiltonian Gaussian Processes",
+    "url": "http://arxiv.org/abs/2511.05330v1",
+    "arxiv_id": "2511.05330v1",
+    "authors": [
+      "Jan-Hendrik Ewering",
+      "Robin E. Herrmann",
+      "Niklas Wahlstr\u00f6m",
+      "Thomas B. Sch\u00f6n",
+      "Thomas Seel"
+    ],
+    "published": "2025-11-07T15:28:08+00:00",
+    "summary": "Embedding non-restrictive prior knowledge, such as energy conservation laws, in learning-based approaches is a key motive to construct physically consistent models from limited data, relevant for, e.g., model-based control. Recent work incorporates Hamiltonian dynamics into Gaussian Process (GP) regression to obtain uncertainty-quantifying models that adhere to the underlying physical principles. However, these works rely on velocity or momentum data, which is rarely available in practice. In this paper, we consider dynamics learning with non-conservative Hamiltonian GPs, and address the more realistic problem setting of learning from input-output data. We provide a fully Bayesian scheme for estimating probability densities of unknown hidden states, of GP hyperparameters, as well as of structural hyperparameters, such as damping coefficients. Considering the computational complexity of GPs, we take advantage of a reduced-rank GP approximation and leverage its properties for computationally efficient prediction and training. The proposed method is evaluated in a nonlinear simulation case study and compared to a state-of-the-art approach that relies on momentum measurements."
+  },
+  {
+    "title": "Economic uncertainty and exchange rates linkage revisited: modelling tail dependence with high frequency data",
+    "url": "http://arxiv.org/abs/2511.05315v1",
+    "arxiv_id": "2511.05315v1",
+    "authors": [
+      "Nourhaine Nefzi",
+      "Abir Abid"
+    ],
+    "published": "2025-11-07T15:14:41+00:00",
+    "summary": "The aim of this paper is to dig deeper into understanding the exchange rates and uncertainty dependence. Using the novel Baker et al. (2020)'s daily Twitter Uncertainty Index and BRICS exchange rates, we investigate their extreme tail dependence within an original time-varying copula framework. Our analysis makes several noteworthy results. Evidence for Indian, Russian and South African currencies indicates an elliptical copulas' dominance implying neither asymmetric features nor extreme movements in their dependence structure with the global economic uncertainty. Importantly, Brazilian and Chinese currencies tail dependence is upward trending suggesting a safe-haven role in times of high global economic uncertainty including the recent COVID-19 pandemic. In such circumstances, these markets offer opportunities to significant gains through portfolio diversification."
+  },
+  {
+    "title": "Integrating Score-Based Diffusion Models with Machine Learning-Enhanced Localization for Advanced Data Assimilation in Geological Carbon Storage",
+    "url": "http://arxiv.org/abs/2511.05266v1",
+    "arxiv_id": "2511.05266v1",
+    "authors": [
+      "Gabriel Serr\u00e3o Seabra",
+      "Nikolaj T. M\u00fccke",
+      "Vinicius Luiz Santos Silva",
+      "Alexandre A. Emerick",
+      "Denis Voskov",
+      "Femke Vossepoel"
+    ],
+    "published": "2025-11-07T14:28:55+00:00",
+    "summary": "Accurate characterization of subsurface heterogeneity is important for the safe and effective implementation of geological carbon storage (GCS) projects. This paper explores how machine learning methods can enhance data assimilation for GCS with a framework that integrates score-based diffusion models with machine learning-enhanced localization in channelized reservoirs during CO$_2$ injection. We employ a machine learning-enhanced localization framework that uses large ensembles ($N_s = 5000$) with permeabilities generated by the diffusion model and states computed by simple ML algorithms to improve covariance estimation for the Ensemble Smoother with Multiple Data Assimilation (ESMDA). We apply ML algorithms to a prior ensemble of channelized permeability fields, generated with the geostatistical model FLUVSIM. Our approach is applied on a CO$_2$ injection scenario simulated using the Delft Advanced Research Terra Simulator (DARTS). Our ML-based localization maintains significantly more ensemble variance than when localization is not applied, while achieving comparable data-matching quality. This framework has practical implications for GCS projects, helping improve the reliability of uncertainty quantification for risk assessment."
+  },
+  {
     "title": "On the Exoplanet Yield of Gaia Astrometry",
     "url": "http://arxiv.org/abs/2511.04673v1",
     "arxiv_id": "2511.04673v1",
