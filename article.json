@@ -1,5 +1,134 @@
 [
   {
+    "title": "Algorithm Design and Stronger Guarantees for the Improving Multi-Armed Bandits Problem",
+    "url": "http://arxiv.org/abs/2511.10619v1",
+    "arxiv_id": "2511.10619v1",
+    "authors": [
+      "Avrim Blum",
+      "Marten Garicano",
+      "Kavya Ravichandran",
+      "Dravyansh Sharma"
+    ],
+    "published": "2025-11-13T18:46:56+00:00",
+    "summary": "The improving multi-armed bandits problem is a formal model for allocating effort under uncertainty, motivated by scenarios such as investing research effort into new technologies, performing clinical trials, and hyperparameter selection from learning curves. Each pull of an arm provides reward that increases monotonically with diminishing returns. A growing line of work has designed algorithms for improving bandits, albeit with somewhat pessimistic worst-case guarantees. Indeed, strong lower bounds of $\u03a9(k)$ and $\u03a9(\\sqrt{k})$ multiplicative approximation factors are known for both deterministic and randomized algorithms (respectively) relative to the optimal arm, where $k$ is the number of bandit arms. In this work, we propose two new parameterized families of bandit algorithms and bound the sample complexity of learning the near-optimal algorithm from each family using offline data. The first family we define includes the optimal randomized algorithm from prior work. We show that an appropriately chosen algorithm from this family can achieve stronger guarantees, with optimal dependence on $k$, when the arm reward curves satisfy additional properties related to the strength of concavity. Our second family contains algorithms that both guarantee best-arm identification on well-behaved instances and revert to worst case guarantees on poorly-behaved instances. Taking a statistical learning perspective on the bandit rewards optimization problem, we achieve stronger data-dependent guarantees without the need for actually verifying whether the assumptions are satisfied."
+  },
+  {
+    "title": "Optimizing the flight path for a scouting Uncrewed Aerial Vehicle",
+    "url": "http://arxiv.org/abs/2511.10598v1",
+    "arxiv_id": "2511.10598v1",
+    "authors": [
+      "Raghav Adhikari",
+      "Sachet Khatiwada",
+      "Suman Poudel"
+    ],
+    "published": "2025-11-13T18:36:05+00:00",
+    "summary": "Post-disaster situations pose unique navigation challenges. One of those challenges is the unstructured nature of the environment, which makes it hard to layout paths for rescue vehicles. We propose the use of Uncrewed Aerial Vehicle (UAV) in such scenario to perform reconnaissance across the environment. To accomplish this, we propose an optimization-based approach to plan a path for the UAV at optimal height where the sensors of the UAV can cover the most area and collect data with minimum uncertainty."
+  },
+  {
+    "title": "Carbox: an end-to-end differentiable astrochemical simulation framework",
+    "url": "http://arxiv.org/abs/2511.10558v1",
+    "arxiv_id": "2511.10558v1",
+    "authors": [
+      "Gijs Vermari\u00ebn",
+      "Tommaso Grassi",
+      "Marie Van de Sande",
+      "Serena Viti",
+      "Stefano Bovino",
+      "Alessandro Lupi",
+      "Alexander Ruf",
+      "Lorenzo Branca",
+      "Catherine Walsh"
+    ],
+    "published": "2025-11-13T17:58:57+00:00",
+    "summary": "Since the first observations of interstellar molecules, astrochemical simulations have been employed to model and understand its formation and destruction path- ways. With the advent of high-resolution telescopes such as JWST and ALMA, the number of detected molecules has increased significantly, thereby creating a need for increasingly complex chemical reaction networks. To model such complex systems, we have developed Carbox, a new astrochemical simulation code that leverages the modern high-performance transformation framework Jax. With Jax enabling computational efficiency and differentiability, Carbox can easily utilize GPU acceleration, be used to study sensitivity and uncertainty, and interface with advances in Scientific Machine Learning. All of these features are crucial for modeling the molecules observed by current and next-generation telescopes."
+  },
+  {
+    "title": "VELOCE III. Reconstructing Radial Velocity Curves of Classical Cepheids",
+    "url": "http://arxiv.org/abs/2511.10534v1",
+    "arxiv_id": "2511.10534v1",
+    "authors": [
+      "Giordano Viviani",
+      "Richard I. Anderson"
+    ],
+    "published": "2025-11-13T17:32:21+00:00",
+    "summary": "We present a novel framework for accurately reconstructing radial velocity (RV) curves of classical Cepheids (Cepheids) from sparsely sampled time-series data suitable for application in large spectroscopic surveys. The framework provides a set of priors for the principal components of RV curves established based on high-precision measurements from the VELOCE project; template RV curves of Cepheids can be readily extracted from our results. We demonstrate the ability of our framework to estimate unbiased pulsation average velocities, $v_\u03b3$, to within $20-30$m/s, and peak-to-peak amplitudes, $P2P$, to within $\\sim 2\\%$. Subsampling the initial data set, we show that $v_\u03b3$ and $P2P$ can be determined to within $\\sim 0.35$ km/s and $\\sim 6-7\\%$, respectively, from as few as three observations. We fitted existing time-series RV data of Cepheids in the LMC and SMC using this framework and obtained typical RMSE of $0.5-2.0$ km/s. The typical total uncertainty on $v_\u03b3$ achieved for the SMC Cepheids is $\\sim 0.85$ km/s, providing sensitivity to spectroscopic binaries (SB). We identified 8 SB1 systems; two and one of which are new detections in the LMC and SMC, respectively. This yields a single-lined SB fraction of $\\sim 25\\%$ and $29\\%$ in the two galaxies, similar to the Milky Way's SB fraction of $29\\%$ established as part of VELOCE. Despite their relatively small number, LMC Cepheids reproduce the known line-of-sight component of the LMC's large-scale rotation, which differs in the extremes by more than $80$km/s. The kinematics of the SMC are more complex and not sufficiently sampled by the available Cepheids. Our framework is designed to yield accurate $v_\u03b3$ and $P2P$ of Cepheids observed by large spectroscopic surveys, such as 4MOST, SDSS-V, and others, and will unlock new insights into the kinematics and multiplicity of evolved intermediate-mass stellar populations."
+  },
+  {
+    "title": "Evaluation of Grid-based Uncertainty Propagation for Collaborative Self-Calibration in Indoor Positioning Systems",
+    "url": "http://arxiv.org/abs/2511.10526v1",
+    "arxiv_id": "2511.10526v1",
+    "authors": [
+      "Andrea Jung",
+      "Paul Schwarzbach",
+      "Oliver Michler"
+    ],
+    "published": "2025-11-13T17:26:51+00:00",
+    "summary": "Radio-based localization systems conventionally require stationary reference points (e.g. anchors) with precisely surveyed positions, making deployment time-consuming and costly. This paper presents an empirical evaluation of collaborative self-calibration for Ultra-Wideband (UWB) networks, extending a discrete Bayesian approach based on grid-based uncertainty propagation. The enhanced algorithm reduces measurement availability requirements while maintaining positioning accuracy through probabilistic state estimation. We validate the approach using real-world data from controlled indoor UWB network experiments with 12 nodes in a static environment. Experimental evaluation demonstrates 0.28~m mean ranging error under line-of-sight conditions and 1.11~m overall ranging error across mixed propagation scenarios, achieving sub-meter positioning accuracy. Results demonstrate the algorithm's robustness to measurement noise and partial connectivity scenarios typical in industrial deployments. The findings contribute to automated UWB network initialization for indoor positioning applications, reducing infrastructure dependency compared to manual anchor calibration procedures."
+  },
+  {
+    "title": "Strategic Opponent Modeling with Graph Neural Networks, Deep Reinforcement Learning and Probabilistic Topic Modeling",
+    "url": "http://arxiv.org/abs/2511.10501v1",
+    "arxiv_id": "2511.10501v1",
+    "authors": [
+      "Georgios Chalkiadakis",
+      "Charilaos Akasiadis",
+      "Gerasimos Koresis",
+      "Stergios Plataniots",
+      "Leonidas Bakopoulos"
+    ],
+    "published": "2025-11-13T17:06:56+00:00",
+    "summary": "This paper provides a comprehensive review of mainly Graph Neural Networks, Deep Reinforcement Learning, and Probabilistic Topic Modeling methods with a focus on their potential incorporation in strategic multiagent settings. We draw interest in (i) Machine Learning methods currently utilized for uncovering unknown model structures adaptable to the task of strategic opponent modeling, and (ii) the integration of these methods with Game Theoretic concepts that avoid relying on assumptions often invalid in real-world scenarios, such as the Common Prior Assumption (CPA) and the Self-Interest Hypothesis (SIH). We analyze the ability to handle uncertainty and heterogeneity, two characteristics that are very common in real-world application cases, as well as scalability. As a potential answer to effectively modeling relationships and interactions in multiagent settings, we champion the use of Graph Neural Networks (GNN). Such approaches are designed to operate upon graph-structured data, and have been shown to be a very powerful tool for performing tasks such as node classification and link prediction. Next, we review the domain of Reinforcement Learning (RL), and in particular that of Multiagent Deep Reinforcement Learning (MADRL). Following, we describe existing relevant game theoretic solution concepts and consider properties such as fairness and stability. Our review comes complete with a note on the literature that utilizes PTM in domains other than that of document analysis and classification. The capability of PTM to estimate unknown underlying distributions can help with tackling heterogeneity and unknown agent beliefs. Finally, we identify certain open challenges specifically, the need to (i) fit non-stationary environments, (ii) balance the degrees of stability and adaptation, (iii) tackle uncertainty and heterogeneity, (iv) guarantee scalability and solution tractability."
+  },
+  {
+    "title": "Intrinsic Dimensionality as a Model-Free Measure of Class Imbalance",
+    "url": "http://arxiv.org/abs/2511.10475v1",
+    "arxiv_id": "2511.10475v1",
+    "authors": [
+      "\u00c7a\u011fr\u0131 Eser",
+      "Zeynep Sonat Baltac\u0131",
+      "Emre Akba\u015f",
+      "Sinan Kalkan"
+    ],
+    "published": "2025-11-13T16:41:37+00:00",
+    "summary": "Imbalance in classification tasks is commonly quantified by the cardinalities of examples across classes. This, however, disregards the presence of redundant examples and inherent differences in the learning difficulties of classes. Alternatively, one can use complex measures such as training loss and uncertainty, which, however, depend on training a machine learning model. Our paper proposes using data Intrinsic Dimensionality (ID) as an easy-to-compute, model-free measure of imbalance that can be seamlessly incorporated into various imbalance mitigation methods. Our results across five different datasets with a diverse range of imbalance ratios show that ID consistently outperforms cardinality-based re-weighting and re-sampling techniques used in the literature. Moreover, we show that combining ID with cardinality can further improve performance. Code: https://github.com/cagries/IDIM."
+  },
+  {
+    "title": "Riccati-ZORO: An efficient algorithm for heuristic online optimization of internal feedback laws in robust and stochastic model predictive control",
+    "url": "http://arxiv.org/abs/2511.10473v1",
+    "arxiv_id": "2511.10473v1",
+    "authors": [
+      "Florian Messerer",
+      "Yunfan Gao",
+      "Jonathan Frey",
+      "Moritz Diehl"
+    ],
+    "published": "2025-11-13T16:41:08+00:00",
+    "summary": "We present Riccati-ZORO, an algorithm for tube-based optimal control problems (OCP). Tube OCPs predict a tube of trajectories in order to capture predictive uncertainty. The tube induces a constraint tightening via additional backoff terms. This backoff can significantly affect the performance, and thus implicitly defines a cost of uncertainty. Optimizing the feedback law used to predict the tube can significantly reduce the backoffs, but its online computation is challenging.   Riccati-ZORO jointly optimizes the nominal trajectory and uncertainty tube based on a heuristic uncertainty cost design. The algorithm alternates between two subproblems: (i) a nominal OCP with fixed backoffs, (ii) an unconstrained tube OCP, which optimizes the feedback gains for a fixed nominal trajectory. For the tube optimization, we propose a cost function informed by the proximity of the nominal trajectory to constraints, prioritizing reduction of the corresponding backoffs. These ideas are developed in detail for ellipsoidal tubes under linear state feedback. In this case, the decomposition into the two subproblems yields a substantial reduction of the computational complexity with respect to the state dimension from $\\mathcal{O}(n_x^6)$ to $\\mathcal{O}(n_x^3)$, i.e., the complexity of a nominal OCP.   We investigate the algorithm in numerical experiments, and provide two open-source implementations: a prototyping version in CasADi and a high-performance implementation integrated into the acados OCP solver."
+  },
+  {
+    "title": "Correlations of ALMA CO(2-1) with JWST mid-infrared fluxes down to scale of $\\lesssim$100 parsec in nearby star-forming galaxies from PHANGS",
+    "url": "http://arxiv.org/abs/2511.10464v1",
+    "arxiv_id": "2511.10464v1",
+    "authors": [
+      "Tao Jing",
+      "Cheng Li"
+    ],
+    "published": "2025-11-13T16:32:18+00:00",
+    "summary": "We investigate the correlations of CO (2-1) emission (${I_{\\rm CO}}$) with PAH (${I_{\\rm F770W, PAH}}$ and ${I_{\\rm F1130W}}$) and dust (${I_{\\rm F2100W}}$) emission down to scales of $\\lesssim$ 100 pc, by applying \\raddest, a novel regression technique recently developed by T. Jing & C. Li (2025) that effectively handles uncertainties and outliers in datasets, to 19 nearby star-forming galaxies in the PHANGS sample. We find that for the majority of the data points in all galaxies, the scaling of ${I_{\\rm CO}}$ with ${I_{\\rm F770W, PAH}}$, ${I_{\\rm F1130W}}$, and ${I_{\\rm F2100W}}$ can be well described by log-linear relations, though with substantial dependence on ionization conditions (i.e., HII-like, composite-like, and AGN-like). Under given ionization conditions, significant galaxy-to-galaxy variations are identified, and are primarily attributed to variations of intercept $b$, which exhibits clear bimodality. This bimodality is related to the overall host galaxy star formation strength. The differences in slope $k$ and intrinsic scatter $\u03c3$ across different MIR bands (${I_{\\rm F770W, PAH}}$, ${I_{\\rm F1130W}}$, and ${I_{\\rm F2100W}}$) are minor compared to their galaxy-to-galaxy variations. All parameters ($k$, $b$, and $\u03c3$) depend on the spatial scale of measurement, suggesting that the coupling among CO, PAH, and dust is regulated by different mechanisms at varying scales. We identify non-log-linear behaviors in the brightest regions, where deviations are primarily characterized by flattening of slope. No significant (3$\u03c3$) correlations are found between global properties and the best-fit parameters. We discuss the comparison to previous studies and plausible physics behind the statistical results obtained in this work."
+  },
+  {
+    "title": "A scalable and accurate framework for self-calibrating null depth retrieval using neural posterior estimation",
+    "url": "http://arxiv.org/abs/2511.10455v1",
+    "arxiv_id": "2511.10455v1",
+    "authors": [
+      "Baoyi Zeng",
+      "Marc-Antoine Martinod",
+      "Denis Defr\u00e8re"
+    ],
+    "published": "2025-11-13T16:20:46+00:00",
+    "summary": "Accurate null depth retrieval is critical in nulling interferometry. However, achieving accurate null depth calibration is challenging due to various noise sources, instrumental imperfections, and the complexity of real observational environments. These challenges necessitate advanced calibration techniques that can efficiently handle such uncertainties while maintaining a high accuracy. This paper aims to incorporate machine-learning techniques with a Bayesian inference to improve the accuracy and efficiency of null depth retrieval in nulling interferometry. Specifically, it explores the use of neural posterior estimation (NPE) to develop models that overcome the computational limitations of conventional methods, such as numerical self-calibration (NSC), providing a more robust solution for accurate null depth calibration. An NPE-based model was developed, with a simulator that incorporates real data to better represent specific conditions. The model was tested on both synthetic and observational data from the LBTI nuller for evaluation. The NPE model successfully demonstrated improved efficiency, achieving results comparable to current methods in use. It achieved a null depth retrieval accuracy down to a few $10^{-4}$ on real observational data, matching the performance of conventional approaches while offering significant computational advantages, reducing the data retrieval time to one-quarter of the time required by self-calibration methods. The NPE model presents a practical and scalable solution for null depth calibration in nulling interferometry, offering substantial improvements in efficiency over existing methods with a better precision and application to other interferometric techniques."
+  },
+  {
     "title": "SpatialThinker: Reinforcing 3D Reasoning in Multimodal LLMs via Spatial Rewards",
     "url": "http://arxiv.org/abs/2511.07403v1",
     "arxiv_id": "2511.07403v1",
