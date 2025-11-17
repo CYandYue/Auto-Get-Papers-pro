@@ -1,5 +1,136 @@
 [
   {
+    "title": "Who Moved My Distribution? Conformal Prediction for Interactive Multi-Agent Systems",
+    "url": "http://arxiv.org/abs/2511.11567v1",
+    "arxiv_id": "2511.11567v1",
+    "authors": [
+      "Allen Emmanuel Binny",
+      "Anushri Dixit"
+    ],
+    "published": "2025-11-14T18:57:13+00:00",
+    "summary": "Uncertainty-aware prediction is essential for safe motion planning, especially when using learned models to forecast the behavior of surrounding agents. Conformal prediction is a statistical tool often used to produce uncertainty-aware prediction regions for machine learning models. Most existing frameworks utilizing conformal prediction-based uncertainty predictions assume that the surrounding agents are non-interactive. This is because in closed-loop, as uncertainty-aware agents change their behavior to account for prediction uncertainty, the surrounding agents respond to this change, leading to a distribution shift which we call endogenous distribution shift. To address this challenge, we introduce an iterative conformal prediction framework that systematically adapts the uncertainty-aware ego-agent controller to the endogenous distribution shift. The proposed method provides probabilistic safety guarantees while adapting to the evolving behavior of reactive, non-ego agents. We establish a model for the endogenous distribution shift and provide the conditions for the iterative conformal prediction pipeline to converge under such a distribution shift. We validate our framework in simulation for 2- and 3- agent interaction scenarios, demonstrating collision avoidance without resulting in overly conservative behavior and an overall improvement in success rates of up to 9.6% compared to other conformal prediction-based baselines."
+  },
+  {
+    "title": "Drone Swarm Energy Management",
+    "url": "http://arxiv.org/abs/2511.11557v1",
+    "arxiv_id": "2511.11557v1",
+    "authors": [
+      "Michael Z. Zgurovsky",
+      "Pavlo O. Kasyanov",
+      "Liliia S. Paliichuk"
+    ],
+    "published": "2025-11-14T18:47:30+00:00",
+    "summary": "This note presents an analytical framework for decision-making in drone swarm systems operating under uncertainty, based on the integration of Partially Observable Markov Decision Processes (POMDP) with Deep Deterministic Policy Gradient (DDPG) reinforcement learning. The proposed approach enables adaptive control and cooperative behavior of unmanned aerial vehicles (UAVs) within a cognitive AI platform, where each agent learns optimal energy management and navigation policies from dynamic environmental states. We extend the standard DDPG architecture with a belief-state representation derived from Bayesian filtering, allowing for robust decision-making in partially observable environments. In this paper, for the Gaussian case, we numerically compare the performance of policies derived from DDPG to optimal policies for discretized versions of the original continuous problem. Simulation results demonstrate that the POMDP-DDPG-based swarm control model significantly improves mission success rates and energy efficiency compared to baseline methods. The developed framework supports distributed learning and decision coordination across multiple agents, providing a foundation for scalable cognitive swarm autonomy. The outcomes of this research contribute to the advancement of energy-aware control algorithms for intelligent multi-agent systems and can be applied in security, environmental monitoring, and infrastructure inspection scenarios."
+  },
+  {
+    "title": "Testing the cosmological Euler equation: viscosity, equivalence principle, and gravity beyond general relativity",
+    "url": "http://arxiv.org/abs/2511.11554v1",
+    "arxiv_id": "2511.11554v1",
+    "authors": [
+      "Ziyang Zheng",
+      "Malte Schneider",
+      "Luca Amendola"
+    ],
+    "published": "2025-11-14T18:46:05+00:00",
+    "summary": "We investigate how the cosmological Euler equation can be tested in the presence of viscous dark matter, violations of the equivalence principle (EP), and modifications of gravity, while relying on minimal theoretical assumptions. Extending the previous analysis, we generalize the observable $E_P$, which quantifies EP violation, to $\\tilde{E}_P$, discuss the degeneracy between bulk and shear viscosities and EP-violating effects, and explicitly show that the EP can still be tested in the small-viscosity limit. In addition, we identify a model-independent observable, $C_{\\rm vis,0}$, which characterizes the present-day dark matter viscosity and can be measured from relativistic galaxy number counts by cross-correlating two galaxy populations. We perform forecasts for three forthcoming Stage-IV surveys: DESI, Euclid, and SKA Phase 2 (SKA2), and find that $C_{\\rm vis,0}$ can be tightly constrained, at the level of $\\mathcal{O}(10^{-6})$ or better in all cases. Among these surveys, SKA2 provides the tightest constraint, with a $1\u03c3$ uncertainty of $1.08 \\times 10^{-7}$ on $C_{\\rm vis,0}$."
+  },
+  {
+    "title": "Looking at infrared background radiation anisotropies with Spitzer II. Small scale anisotropies and their implications for new and upcoming space surveys",
+    "url": "http://arxiv.org/abs/2511.11501v1",
+    "arxiv_id": "2511.11501v1",
+    "authors": [
+      "Aidan J. Kaminsky",
+      "Alexander Kashlinsky",
+      "Richard G. Arendt",
+      "Nico Cappelluti"
+    ],
+    "published": "2025-11-14T17:22:06+00:00",
+    "summary": "Spitzer-based cosmic infrared background (CIB) fluctuations at arcminute-to-degree scales indicate the presence of new populations, whereas sub-arcminute power arises from known $z\\lesssim 6$ galaxies. We reconstruct the evolution of the near-IR CIB anisotropies on sub-arcminute scales by known galaxy populations. This method is based on, and significantly advanced over, the empirical reconstruction by \\cite{Helgason2012} which is combined with the halo model connecting galaxies to their host dark matter (DM) halos. The modeled CIB fluctuations from known galaxies produce the majority of the observed small-scale signal down to statistical uncertainties of $< 10\\%$ and we constrain the evolution of the halo mass regime hosting such galaxies. Thus the large-scale CIB fluctuations from new populations are produced by sources with negligible small-scale power. This appears to conflict with the presented Intra-halo light (IHL) models, but is accounted for if the new sources are at high $z$. Our analysis spanning several Spitzer datasets allows us to narrow the estimated contributions of remaining known galaxies to the CIB anisotropies to be probed potentially from surveys by new and upcoming space missions such as Euclid, SPHEREx, and Roman. Of these, the Roman surveys have the best prospects for measuring the source-subtracted CIB and probing the nature of the underlying new populations at $\u03bb<2\\ \u03bc$m, followed by Euclid's surveys, while for SPHEREx the source-subtracted CIB signal from them appears significantly overwhelmed by the CIB from remaining known galaxies."
+  },
+  {
+    "title": "Multimodal Posterior Sampling-based Uncertainty in PD-L1 Segmentation from H&E Images",
+    "url": "http://arxiv.org/abs/2511.11486v1",
+    "arxiv_id": "2511.11486v1",
+    "authors": [
+      "Roman Kinakh",
+      "Gonzalo R. R\u00edos-Mu\u00f1oz",
+      "Arrate Mu\u00f1oz-Barrutia"
+    ],
+    "published": "2025-11-14T17:05:13+00:00",
+    "summary": "Accurate assessment of PD-L1 expression is critical for guiding immunotherapy, yet current immunohistochemistry (IHC) based methods are resource-intensive. We present nnUNet-B: a Bayesian segmentation framework that infers PD-L1 expression directly from H&E-stained histology images using Multimodal Posterior Sampling (MPS). Built upon nnUNet-v2, our method samples diverse model checkpoints during cyclic training to approximate the posterior, enabling both accurate segmentation and epistemic uncertainty estimation via entropy and standard deviation. Evaluated on a dataset of lung squamous cell carcinoma, our approach achieves competitive performance against established baselines with mean Dice Score and mean IoU of 0.805 and 0.709, respectively, while providing pixel-wise uncertainty maps. Uncertainty estimates show strong correlation with segmentation error, though calibration remains imperfect. These results suggest that uncertainty-aware H&E-based PD-L1 prediction is a promising step toward scalable, interpretable biomarker assessment in clinical workflows."
+  },
+  {
+    "title": "Risk-Aware Deep Reinforcement Learning for Dynamic Portfolio Optimization",
+    "url": "http://arxiv.org/abs/2511.11481v1",
+    "arxiv_id": "2511.11481v1",
+    "authors": [
+      "Emmanuel Lwele",
+      "Sabuni Emmanuel",
+      "Sitali Gabriel Sitali"
+    ],
+    "published": "2025-11-14T16:58:28+00:00",
+    "summary": "This paper presents a deep reinforcement learning (DRL) framework for dynamic portfolio optimization under market uncertainty and risk. The proposed model integrates a Sharpe ratio-based reward function with direct risk control mechanisms, including maximum drawdown and volatility constraints. Proximal Policy Optimization (PPO) is employed to learn adaptive asset allocation strategies over historical financial time series. Model performance is benchmarked against mean-variance and equal-weight portfolio strategies using backtesting on high-performing equities. Results indicate that the DRL agent stabilizes volatility successfully but suffers from degraded risk-adjusted returns due to over-conservative policy convergence, highlighting the challenge of balancing exploration, return maximization, and risk mitigation. The study underscores the need for improved reward shaping and hybrid risk-aware strategies to enhance the practical deployment of DRL-based portfolio allocation models."
+  },
+  {
+    "title": "Higher-order QCD corrections to top-quark pair production in association with a jet",
+    "url": "http://arxiv.org/abs/2511.11431v1",
+    "arxiv_id": "2511.11431v1",
+    "authors": [
+      "Simon Badger",
+      "Matteo Bechetti",
+      "Colomba Brancaccio",
+      "Michal Czakon",
+      "Heribertus Bayu Hartanto",
+      "Rene Poncelet",
+      "Simone Zoia"
+    ],
+    "published": "2025-11-14T15:58:37+00:00",
+    "summary": "The production of a top-quark pair, the heaviest known elementary particle, in association with a light jet is a key process for studying the properties of the Standard Model of Particle Physics. Due to its significance as a signal process with considerable sensitivity to the top-quark mass and as a background process for new physics searches, it is crucial to predict differential cross sections with high precision. In this article, we present, for the first time, predictions for various kinematical observables at next-to-next-to-leading order in Quantum Chromodynamics. The perturbative behavior is analyzed, and uncertainties arising from missing higher-order contributions are substantially reduced. The necessary two-loop amplitudes have been evaluated in the leading-color approximation, and we provide estimates for the impact of the missing contributions."
+  },
+  {
+    "title": "Risk averse deterministic Kalman filters for uncertain dynamical systems",
+    "url": "http://arxiv.org/abs/2511.11350v1",
+    "arxiv_id": "2511.11350v1",
+    "authors": [
+      "Karl Kunisch",
+      "Jesper Schr\u00f6der"
+    ],
+    "published": "2025-11-14T14:36:12+00:00",
+    "summary": "Taking a deterministic viewpoint this work investigates extensions of the Kalman-Bucy filter for state reconstruction to systems containing parametric uncertainty in the state operator. The emphasis lies on risk averse designs reducing the probability of large reconstruction errors. In a theoretical analysis error bounds in terms of the variance of the uncertainties are derived. The article concludes with a numerical implementation of two examples allowing for a comparison of risk neutral and risk averse estimators."
+  },
+  {
+    "title": "DocSLM: A Small Vision-Language Model for Long Multimodal Document Understanding",
+    "url": "http://arxiv.org/abs/2511.11313v1",
+    "arxiv_id": "2511.11313v1",
+    "authors": [
+      "Tanveer Hannan",
+      "Dimitrios Mallios",
+      "Parth Pathak",
+      "Faegheh Sardari",
+      "Thomas Seidl",
+      "Gedas Bertasius",
+      "Mohsen Fayyaz",
+      "Sunando Sengupta"
+    ],
+    "published": "2025-11-14T13:56:39+00:00",
+    "summary": "Large Vision-Language Models (LVLMs) have demonstrated strong multimodal reasoning capabilities on long and complex documents. However, their high memory footprint makes them impractical for deployment on resource-constrained edge devices. We present DocSLM, an efficient Small Vision-Language Model designed for long-document understanding under constrained memory resources. DocSLM incorporates a Hierarchical Multimodal Compressor that jointly encodes visual, textual, and layout information from each page into a fixed-length sequence, greatly reducing memory consumption while preserving both local and global semantics. To enable scalable processing over arbitrarily long inputs, we introduce a Streaming Abstention mechanism that operates on document segments sequentially and filters low-confidence responses using an entropy-based uncertainty calibrator. Across multiple long multimodal document benchmarks, DocSLM matches or surpasses state-of-the-art methods while using 82\\% fewer visual tokens, 75\\% fewer parameters, and 71\\% lower latency, delivering reliable multimodal document understanding on lightweight edge devices. Code is available in the supplementary material."
+  },
+  {
+    "title": "Simulating an Autonomous System in CARLA using ROS 2",
+    "url": "http://arxiv.org/abs/2511.11310v1",
+    "arxiv_id": "2511.11310v1",
+    "authors": [
+      "Joseph Abdo",
+      "Aditya Shibu",
+      "Moaiz Saeed",
+      "Abdul Maajid Aga",
+      "Apsara Sivaprazad",
+      "Mohamed Al-Musleh"
+    ],
+    "published": "2025-11-14T13:55:22+00:00",
+    "summary": "Autonomous racing offers a rigorous setting to stress test perception, planning, and control under high speed and uncertainty. This paper proposes an approach to design and evaluate a software stack for an autonomous race car in CARLA: Car Learning to Act simulator, targeting competitive driving performance in the Formula Student UK Driverless (FS-AI) 2025 competition. By utilizing a 360\u00b0 light detection and ranging (LiDAR), stereo camera, global navigation satellite system (GNSS), and inertial measurement unit (IMU) sensor via ROS 2 (Robot Operating System), the system reliably detects the cones marking the track boundaries at distances of up to 35 m. Optimized trajectories are computed considering vehicle dynamics and simulated environmental factors such as visibility and lighting to navigate the track efficiently. The complete autonomous stack is implemented in ROS 2 and validated extensively in CARLA on a dedicated vehicle (ADS-DV) before being ported to the actual hardware, which includes the Jetson AGX Orin 64GB, ZED2i Stereo Camera, Robosense Helios 16P LiDAR, and CHCNAV Inertial Navigation System (INS)."
+  },
+  {
     "title": "Algorithm Design and Stronger Guarantees for the Improving Multi-Armed Bandits Problem",
     "url": "http://arxiv.org/abs/2511.10619v1",
     "arxiv_id": "2511.10619v1",
