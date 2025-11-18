@@ -1,5 +1,126 @@
 [
   {
+    "title": "In-memory phononic learning toward cognitive mechanical intelligence",
+    "url": "http://arxiv.org/abs/2511.13543v1",
+    "arxiv_id": "2511.13543v1",
+    "authors": [
+      "Yuning Zhang",
+      "K. W. Wang"
+    ],
+    "published": "2025-11-17T16:16:33+00:00",
+    "summary": "Modern autonomous systems are driving the critical need for next-generation adaptive materials and structures with embodied intelligence, i.e., the embodiment of memory, perception, learning, and decision-making within the mechanical domain. A fundamental challenge is the seamless and efficient integration of memory with information processing in a physically interpretable way that enables cognitive learning and decision-making under uncertainty. Prevailing paradigms, from intricate logic cascades to black-box morphological computing or physical neural networks, are seriously limited by trade-offs among efficiency, scalability, interpretability, transparency, and reliance on additional electronics. Here, we introduce in-memory phononic learning, a paradigm-shifting framework that unifies nonvolatile mechanical memory with wave-based perception within a phononic metastructure. Our system encodes spatial information into stable structural states as mechanical memory that directly programs its elastic wave-propagation landscape. This memory/wave-dynamics coupling enables effective sensory perception, decomposing complex patterns into informative geometric features through frequency-selective wave localization. Learning is created by optimizing input waveforms to selectively probe these features for memory-pattern classification, with decisions inferred directly from the output wave energy, thereby completing the entire information loop mechanically through an efficient and physically transparent mechanism without hidden architectures or electronics. This work transcends the paradigm of 'materials that compute' to cognitive matter capable of interpreting dynamic environments, paving the way for future intelligent structural-material systems with low power consumption, more direct interaction with surroundings, and enhanced cybersecurity and resilience in harsh conditions."
+  },
+  {
+    "title": "Minimax Multi-Target Conformal Prediction with Applications to Imaging Inverse Problems",
+    "url": "http://arxiv.org/abs/2511.13533v1",
+    "arxiv_id": "2511.13533v1",
+    "authors": [
+      "Jeffrey Wen",
+      "Rizwan Ahmad",
+      "Philip Schniter"
+    ],
+    "published": "2025-11-17T16:06:37+00:00",
+    "summary": "In ill-posed imaging inverse problems, uncertainty quantification remains a fundamental challenge, especially in safety-critical applications. Recently, conformal prediction has been used to quantify the uncertainty that the inverse problem contributes to downstream tasks like image classification, image quality assessment, fat mass quantification, etc. While existing works handle only a scalar estimation target, practical applications often involve multiple targets. In response, we propose an asymptotically minimax approach to multi-target conformal prediction that provides tight prediction intervals while ensuring joint marginal coverage. We then outline how our minimax approach can be applied to multi-metric blind image quality assessment, multi-task uncertainty quantification, and multi-round measurement acquisition. Finally, we numerically demonstrate the benefits of our minimax method, relative to existing multi-target conformal prediction methods, using both synthetic and magnetic resonance imaging (MRI) data."
+  },
+  {
+    "title": "Simultaneous variances of Pauli strings, weighted independence numbers, and a new kind of perfection of graphs",
+    "url": "http://arxiv.org/abs/2511.13531v1",
+    "arxiv_id": "2511.13531v1",
+    "authors": [
+      "Zhen-Peng Xu",
+      "Jie Wang",
+      "Qi Ye",
+      "Gereon Ko\u00dfmann",
+      "Ren\u00e9 Schwonnek",
+      "Andreas Winter"
+    ],
+    "published": "2025-11-17T16:05:28+00:00",
+    "summary": "A set of Pauli stings is well characterized by the graph that encodes its commutatitivity structure, i.e., by its frustration graph. This graph provides a natural interface between graph theory and quantum information, which we explore in this work. We investigate all aspects of this interface for a special class of graphs that bears tight connections between the groundstate structures of a spin systems and topological structure of a graph. We call this class $\\hbar$-perfect, as it extends the class of perfect and $h$-perfect graphs.   Having an $\\hbar$-perfect graph opens up several applications: we find efficient schemes for entanglement detection, a connection to the complexity of shadow tomography, tight uncertainty relations and a construction for computing good lower on bounds ground state energies. Conversely this also induces quantum algorithms for computing the independence number. Albeit those algorithms do not immediately promise an advantage in runtime, we show that an approximate Hamilton encoding of the independence number can be achieved with an amount of qubits that typically scales logarithmically in the number of vertices. We also we also determine the behavior of $\\hbar$-perfectness under basic graph operations and evaluate their prevalence among all graphs."
+  },
+  {
+    "title": "A Quantum Tensor Network-Based Viewpoint for Modeling and Analysis of Time Series Data",
+    "url": "http://arxiv.org/abs/2511.13514v1",
+    "arxiv_id": "2511.13514v1",
+    "authors": [
+      "Pragatheeswaran Vipulananthan",
+      "Kamal Premaratne",
+      "Dilip Sarkar",
+      "Manohar N. Murthi"
+    ],
+    "published": "2025-11-17T15:49:17+00:00",
+    "summary": "Accurate uncertainty quantification is a critical challenge in machine learning. While neural networks are highly versatile and capable of learning complex patterns, they often lack interpretability due to their ``black box'' nature. On the other hand, probabilistic ``white box'' models, though interpretable, often suffer from a significant performance gap when compared to neural networks. To address this, we propose a novel quantum physics-based ``white box'' method that offers both accurate uncertainty quantification and enhanced interpretability. By mapping the kernel mean embedding (KME) of a time series data vector to a reproducing kernel Hilbert space (RKHS), we construct a tensor network-inspired 1D spin chain Hamiltonian, with the KME as one of its eigen-functions or eigen-modes. We then solve the associated Schr{\u00f6}dinger equation and apply perturbation theory to quantify uncertainty, thereby improving the interpretability of tasks performed with the quantum tensor network-based model. We demonstrate the effectiveness of this methodology, compared to state-of-the-art ``white box\" models, in change point detection and time series clustering, providing insights into the uncertainties associated with decision-making throughout the process."
+  },
+  {
+    "title": "The Liquid Buffer: Multi-Year Storage for Defossilization and Energy Security under Climate Uncertainty",
+    "url": "http://arxiv.org/abs/2511.13513v1",
+    "arxiv_id": "2511.13513v1",
+    "authors": [
+      "Leonard G\u00f6ke",
+      "Jan Wohland",
+      "Stefano Moret",
+      "Andr\u00e9 Bardow"
+    ],
+    "published": "2025-11-17T15:48:34+00:00",
+    "summary": "The climate-driven uncertainty of renewable generation and electricity demand challenges energy security in net-zero energy systems. By introducing a scalable stochastic model that implicitly accounts for 51'840 climate years, this paper identifies multi-year storage of liquid hydrocarbons as a key option for managing climate uncertainty and ensuring energy security. In Europe, multi-year storage reduces system costs by 4.1%, fossil imports by 86%, and curtailment by 60%. The benefit of multi-year storage is that a renewable surplus in one year is not curtailed but converted to synthetic oil, with hydrogen as an intermediate product, and stored to balance a future deficit. We find that the required energy capacity for liquid hydrocarbons is 525 TWh, a quarter of the European Union's current oil and gas reserves, complemented by 116 TWh for hydrogen storage. Security of supply remains high and unserved energy only amounts to 0.0035 per thousand, well below the common target of 0.02 per thousand."
+  },
+  {
+    "title": "The bulk metal content of WASP-80 b from joint interior-atmosphere retrievals: Breaking degeneracies and exploring biases with panchromatic spectra",
+    "url": "http://arxiv.org/abs/2511.13483v1",
+    "arxiv_id": "2511.13483v1",
+    "authors": [
+      "Lorena Acu\u00f1a-Aguirre",
+      "Laura Kreidberg",
+      "Paul Molli\u00e8re",
+      "Nora Bachmann"
+    ],
+    "published": "2025-11-17T15:19:59+00:00",
+    "summary": "WASP-80 b is an unusually low-density exoplanet in tension with the metal-rich composition expected for a planet of its mass. We aim to derive precise constraints on WASP-80 b's bulk metal mass fraction, atmospheric composition, and thermal structure. We conducted a suite of retrievals using three approaches: traditional interior-only, atmosphere-only, and joint interior-atmosphere retrievals. We coupled the open-source models GASTLI and petitRADTRANS, which describe planetary structure and thermal evolution, and atmospheric chemistry and clouds, respectively. Our retrievals combine mass and age with panchromatic spectra from JWST and HST in both transmission (0.5-4 $\u03bc$m) and emission (1-12 $\u03bc$m) as observational constraints. We identify two fiducial scenarios. In the first, WASP-80 b has an internal temperature consistent with its age in the absence of external heating sources, and its atmosphere is in chemical equilibrium, with an atmospheric metallicity M/H = 2.75$^{+0.88}_{-0.56}$x solar, a bulk metal mass fraction $Z_{planet}=0.12\\pm0.02$, and a core mass $M_{core}=3.49^{+3.49}_{-1.59} \\ M_{\\oplus}$. In the second scenario, WASP-80 b may be inflated by an additional heat source - possibly induced by magnetic fields - with an atmospheric metallicity M/H = 10.00$^{+8.20}_{-4.75}$x solar, $Z_{planet}=0.28\\pm0.11$, and $M_{core}=31.8^{+21.3}_{-17.5} \\ M_{\\oplus}$. The super-solar M/H and sub-solar C/O ratios in both scenarios suggest late pebble or planetesimal accretion, while additional heating is required to reconcile the data with the more massive core predicted by the core accretion paradigm. In general, joint retrievals are inherently affected by a degeneracy between atmospheric chemistry and internal structure. Together with flexible cloud treatment and an unweighted likelihood, this leads to larger uncertainties in bulk and atmospheric compositions than previously claimed."
+  },
+  {
+    "title": "Probing parameters estimation with Gaussian non-commutative measurements",
+    "url": "http://arxiv.org/abs/2511.13451v1",
+    "arxiv_id": "2511.13451v1",
+    "authors": [
+      "Alice P. G. Hall",
+      "Carlos H. S. Vieira",
+      "Jonas F. G. Santos"
+    ],
+    "published": "2025-11-17T14:55:57+00:00",
+    "summary": "Gaussian quantum states and channels are pivotal across many branches of quantum science and their applications, including the processing and storage of quantum information, the investigation of thermodynamics in the quantum regime, and quantum computation. The great advantage is that Gaussian states are experimentally accessible via their first and second statistical moments. In this work, we investigate parameter estimation for Gaussian states, in which the probe-state preparation stage involves two noncommutative Gaussian measurements on the position and momentum observables, introducing tunable parameters. The influence of these noncommutative Gaussian measurements is investigated through the quantum Fisher information (QFI). We showed that the QFI for characterizing Gaussian channels can be increased by adjusting the uncertainty parameters in the preparation of the probe state. Furthermore, if the probe is initially in a thermal state, probe-state preparation may generate quantum coherence in its energy basis. We showed that not only does the amount of coherence affect the improvement of the QFI, but also the rate of change of the coherence with respect to the parameter to be estimated. The proposed probe-state protocol is applied to two paradigmatic single-mode Gaussian channels, the attenuator and amplification channels, which are building blocks of Gaussian quantum information. Our results contribute to the use of coherence in quantum metrology and are experimentally feasible in quantum-optical devices."
+  },
+  {
+    "title": "The Intrinsic Angular - Momentum of Particles and the Resolution of the Spin-Statistics Theorem",
+    "url": "http://arxiv.org/abs/2511.13360v1",
+    "arxiv_id": "2511.13360v1",
+    "authors": [
+      "Enrico Santamato",
+      "Francesco De Martini"
+    ],
+    "published": "2025-11-17T13:29:42+00:00",
+    "summary": "The traditional Standard Quantum Mechanics (SQM) theory is unable to solve the Spin-s problem, i.e., to justify the utterly important \"Pauli Exclusion Principle\". A complete and straightforward solution of the Spin-Statistics problem is presented based on the \"Weyl Integrable Quantum Mechanics\" (WIQM) theory. This theory provides a Weyl-gauge invariant formulation of the Standard Quantum Mechanics and reproduces successfully, with no restrictions, the full set of the quantum mechanical processes, including the formulation of Dirac's or Schr\u00f6dinger's equation, of Heisenberg's uncertainty relations, and of the nonlocal EPR correlations. etc. When the Weyl Integrable Quantum Mechanics is applied to a system made of many identical particles with spin, an additional constant property of all elementary particles enters naturally into play: the \"intrinsic helicity\", or the \"intrinsic angular - momentum\". This additional particle property, not considered by Standard Quantum Mechanics, determines the correct Spin-Statistics Connection (SSC) observed in Nature. All this leads to the consideration of a novel, most complete (in the EPR sense) quantum mechanical theory."
+  },
+  {
+    "title": "Basis Immunity: Isotropy as a Regularizer for Uncertainty",
+    "url": "http://arxiv.org/abs/2511.13334v1",
+    "arxiv_id": "2511.13334v1",
+    "authors": [
+      "Florent Segonne"
+    ],
+    "published": "2025-11-17T13:06:43+00:00",
+    "summary": "Diversification is a cornerstone of robust portfolio construction, yet its application remains fraught with challenges due to model uncertainty and estimation errors. Practitioners often rely on sophisticated, proprietary heuristics to navigate these issues. Among recent advancements, Agnostic Risk Parity introduces eigenrisk parity (ERP), an innovative approach that leverages isotropy to evenly allocate risk across eigenmodes, enhancing portfolio stability.   In this paper, we review and extend the isotropy-enforced philosophy of ERP proposing a versatile framework that integrates mean-variance optimization with an isotropy constraint acting as a geometric regularizer against signal uncertainty. The resulting allocations decompose naturally into canonical portfolios, smoothly interpolating between full isotropy (closed-form isotropic-mean allocation) and pure mean-variance through a tunable isotropy penalty.   Beyond methodology, we revisit fundamental concepts and clarify foundational links between isotropy, canonical portfolios, principal portfolios, primal versus dual representations, and intrinsic basis-invariant metrics for returns, risk, and isotropy. Applied to sector trend-following, the isotropy constraint systematically induces negative average-signal exposure -- a structural, parameter-robust crash hedge.   This work offers both a practical, theoretically grounded tool for resilient allocation under signal uncertainty and a pedagogical synthesis of modern portfolio concepts."
+  },
+  {
+    "title": "Sub-Solar Mass Intermediate Mass Ratio Inspirals: Waveform Systematics and Detection Prospects with Gravitational Waves",
+    "url": "http://arxiv.org/abs/2511.13324v1",
+    "arxiv_id": "2511.13324v1",
+    "authors": [
+      "Devesh Giri",
+      "Bhooshan Gadre"
+    ],
+    "published": "2025-11-17T13:01:03+00:00",
+    "summary": "We investigate the detectability and waveform systematics of sub-solar mass intermediate mass-ratio inspirals (SSM-IMRIs), characterized by mass ratios $q \\sim 10^2-10^4$. Using the black hole perturbation theory surrogate model \\textsc{BHPTNRSur1dq1e4} as a reference, we assess the performance of the \\textsc{IMRPhenomX} phenomenological family in the high-mass-ratio regime. We find that the inclusion of higher-order gravitational wave modes is critical; their exclusion may degrade the signal-to-noise ratio by factors of $\\sim3-5$ relative to quadrupole-only templates. With optimal mode inclusion, SSM-IMRIs are observable out to luminosity distances of $\\sim575$ Mpc ($z\\sim0.12$) with Advanced LIGO and $\\sim10.5$ Gpc ($z\\sim1.4$) with the Einstein Telescope. However, we identify substantial systematic uncertainties in current phenomenological approximants. Matches between \\textsc{IMRPhenomX} and the reference surrogate model \\textsc{BHPTNRSur1dq1e4} degrade to values as low as 0.2 for edge-on inclinations, and fitting factors consistently fall below 0.9, indicating a significant loss of effectualness in template-bank searches. Bayesian parameter estimation reveals that these modeling discrepancies induce systematic biases that exceed statistical errors by multiple standard deviations, underscoring the necessity for waveform models calibrated to perturbation theory in the intermediate mass-ratio regime for robust detection and inference."
+  },
+  {
     "title": "Who Moved My Distribution? Conformal Prediction for Interactive Multi-Agent Systems",
     "url": "http://arxiv.org/abs/2511.11567v1",
     "arxiv_id": "2511.11567v1",
