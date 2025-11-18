@@ -1,5 +1,105 @@
 [
   {
+    "title": "Stellar Flares in the TESS Light Curves of Planet-hosting M dwarfs",
+    "url": "http://arxiv.org/abs/2511.13716v1",
+    "arxiv_id": "2511.13716v1",
+    "authors": [
+      "Benjamin K. Capistrant",
+      "Jason Dittmann"
+    ],
+    "published": "2025-11-17T18:59:20+00:00",
+    "summary": "M dwarfs are magnetically active stars that frequently produce flares, which have implications for both stellar evolution and exoplanet studies. Flare occurrence rates and activity levels of M dwarfs correlate with stellar characteristics such as age, mass, and rotation period. We search TESS observations of a known active population of M dwarfs as well as a volume-limited sample of M dwarfs within 15 parsecs. We detect flares in the light curves of these stars, including 276 of 538 M dwarfs within 15 pc, and calculate cumulative flare frequency distributions (FFDs) for each star. Based on flaring behavior, we categorize stars into relatively higher and lower activity groups and fit power laws to their FFDs to compare the power law exponent ($\u03b1$) across activity levels. We find $\u03b1=1.99 \\pm 0.07$ for the combined FFD of the lower activity M dwarfs, compared to averages of $\u03b1= 1.94 \\pm 0.58$ for highly active stars with 10-100 detected flares, and $\u03b1= 2.03 \\pm 0.43$ for those with > 100 detected flares, suggesting little evolution in the power law distribution of flares as M dwarfs transition from high to low activity states. The uncertainties for the active star groups reflect the standard deviation of $\u03b1$ values across individual stars within each subset. Because stellar flares and associated stellar activity complicate exoplanet observations, we also examine the subset of M dwarfs with JWST transmission spectroscopy follow-up observations in Cycles 1-3. The flares we detect for these targets are consistent with the broader 15 pc sample, providing context for interpreting planetary atmosphere retrievals from JWST spectra."
+  },
+  {
+    "title": "The Scatter of the Many Outweighs the Scatter of the Few: Systematic Error Asymmetry in Steeply-Falling Mass Functions for High-Redshift JWST Galaxies",
+    "url": "http://arxiv.org/abs/2511.13708v1",
+    "arxiv_id": "2511.13708v1",
+    "authors": [
+      "Jay R. Krishnan",
+      "Kevork N. Abazajian"
+    ],
+    "published": "2025-11-17T18:55:24+00:00",
+    "summary": "The discovery of massive, high redshift galaxies with JWST has been argued to challenge $\u039b$CDM: such systems would require extremely rare halos and baryon-to-stellar-mass conversion efficiencies unphysically approaching--or exceeding--100%. If confirmed at galaxy formation forbidden efficiencies, these galaxies could signal new physics beyond standard cosmological structure formation. We develop a galaxy model framework that ties the linear power spectrum to the inferred efficiencies of galaxy growth in order to test the structure formation models. In addition, we incorporate multiple sources of error, including (i) observational sample variance, (ii) asymmetric scatter induced by the steepness of the high-mass halo tail, and (iii) systematic uncertainties in stellar mass estimates. We find that the inferred efficiency of star formation is dominated by systematic uncertainties on the spectral energy distribution inferred stellar mass of the JWST detected galaxies. The systematic uncertainty augments the asymmetry in scatter that largely brings the inferred efficiencies to be in line with that expected from early galaxy formation models. Our framework can be used to test $\u039b$CDM as errors are reduced and further detections are made."
+  },
+  {
+    "title": "Scientific Data Compression and Super-Resolution Sampling",
+    "url": "http://arxiv.org/abs/2511.13675v1",
+    "arxiv_id": "2511.13675v1",
+    "authors": [
+      "Minh Vu",
+      "Andrey Lokhov"
+    ],
+    "published": "2025-11-17T18:31:57+00:00",
+    "summary": "Modern scientific simulations, observations, and large-scale experiments generate data at volumes that often exceed the limits of storage, processing, and analysis. This challenge drives the development of data reduction methods that efficiently manage massive datasets while preserving essential physical features and quantities of interest. In many scientific workflows, it is also crucial to enable data recovery from compressed representations - a task known as super-resolution - with guarantees on the preservation of key physical characteristics. A notable example is checkpointing and restarting, which is essential for long-running simulations to recover from failures, resume after interruptions, or examine intermediate results. In this work, we introduce a novel framework for scientific data compression and super-resolution, grounded in recent advances in learning exponential families. Our method preserves and quantifies uncertainty in physical quantities of interest and supports flexible trade-offs between compression ratio and reconstruction fidelity."
+  },
+  {
+    "title": "Sense and Sensitivity - I. Uncertainty analysis of the gas-phase chemistry in AGB outflows",
+    "url": "http://arxiv.org/abs/2511.13638v1",
+    "arxiv_id": "2511.13638v1",
+    "authors": [
+      "M. Van de Sande",
+      "M. Gueguen",
+      "T. Danilovich",
+      "T. J. Millar"
+    ],
+    "published": "2025-11-17T17:51:33+00:00",
+    "summary": "Chemical reaction networks are central to all chemical models. Each rate coefficient has an associated uncertainty, which is generally not taken into account when calculating the chemistry. We performed the first uncertainty analysis of a chemical model of C-rich and O-rich AGB outflows using the Rate22 reaction network. Quantifying the error on the model predictions enables us to determine the need for adding complexity to the model. Using a Monte Carlo sampling method, we quantified the impact of the uncertainties on the chemical kinetic data on the predicted fractional abundances and column densities. The errors are caused by a complex interplay of reactions forming and destroying each species. Parent species show an error on their envelope sizes, which is not caused by the uncertainty on their photodissociation rate, but rather the chemistry reforming the parent after its photodissociation. Using photodissociation models to estimate the envelope size might be an oversimplification. The error on the CO envelope impacts retrieved mass-loss rates by up to a factor of two. For daughter species, the error on the peak fractional abundance ranges from a factor of a few to three orders of magnitude, and is on average about 10\\% of its value. This error is positively correlated with the error on the column density. The standard model suffices for many species, e.g., the radial distribution of cyanopolyynes and hydrocarbon radicals around IRC +10216. However, including spherical asymmetries, dust-gas chemistry, and photochemistry induced by a close-by stellar companion are still necessary to explain certain observations."
+  },
+  {
+    "title": "Variable-temperature attenuator calibration method for on-wafer microwave noise characterization of low-noise amplifiers",
+    "url": "http://arxiv.org/abs/2511.13619v1",
+    "arxiv_id": "2511.13619v1",
+    "authors": [
+      "Anthony J. Ardizzi",
+      "Jiayin Zhang",
+      "Akim A. Babenko",
+      "Kieran A. Cleary",
+      "Austin J. Minnich"
+    ],
+    "published": "2025-11-17T17:24:32+00:00",
+    "summary": "Low-noise cryogenic microwave amplifiers are widely used in applications such as radio astronomy and quantum computing. On-wafer noise characterization of cryogenic low-noise transistors is desirable because it facilitates more rapid characterization of devices prior to packaging, but obtaining accurate noise measurements is difficult due to the uncertainty arising from the input loss and temperature gradients prior to the device-under-test (DUT). Here, we report a calibration method that enables the simultaneous determination of the backend noise temperature and effective-noise-ratio at the input plane of the DUT. The method is based on measuring the S-parameters and noise power of a series of attenuators at two or more distinct physical temperatures. We validate our method by measuring the noise temperature of InP HEMTs in 4-8 GHz. The calibration method can be generalized to measure the microwave noise temperature of any two-port device so long as a series of attenuators can be measured at two or more distinct physical temperatures."
+  },
+  {
+    "title": "A Gentle Introduction to Conformal Time Series Forecasting",
+    "url": "http://arxiv.org/abs/2511.13608v1",
+    "arxiv_id": "2511.13608v1",
+    "authors": [
+      "M. Stocker",
+      "W. Ma\u0142gorzewicz",
+      "M. Fontana",
+      "S. Ben Taieb"
+    ],
+    "published": "2025-11-17T17:12:51+00:00",
+    "summary": "Conformal prediction is a powerful post-hoc framework for uncertainty quantification that provides distribution-free coverage guarantees. However, these guarantees crucially rely on the assumption of exchangeability. This assumption is fundamentally violated in time series data, where temporal dependence and distributional shifts are pervasive. As a result, classical split-conformal methods may yield prediction intervals that fail to maintain nominal validity. This review unifies recent advances in conformal forecasting methods specifically designed to address nonexchangeable data. We first present a theoretical foundation, deriving finite-sample guarantees for split-conformal prediction under mild weak-dependence conditions. We then survey and classify state-of-the-art approaches that mitigate serial dependence by reweighting calibration data, dynamically updating residual distributions, or adaptively tuning target coverage levels in real time. Finally, we present a comprehensive simulation study that compares these techniques in terms of empirical coverage, interval width, and computational cost, highlighting practical trade-offs and open research directions."
+  },
+  {
+    "title": "Adaptive Multi-Scale Integration Unlocks Robust Cell Annotation in Histopathology Images",
+    "url": "http://arxiv.org/abs/2511.13586v1",
+    "arxiv_id": "2511.13586v1",
+    "authors": [
+      "Yinuo Xu",
+      "Yan Cui",
+      "Mingyao Li",
+      "Zhi Huang"
+    ],
+    "published": "2025-11-17T16:49:59+00:00",
+    "summary": "Identifying cell types and subtypes from routine histopathology images is essential for improving the computational understanding of human disease. Existing tile-based models can capture detailed nuclear morphology but often fail to incorporate the broader tissue context that influences a cell's function and identity. In addition, available human annotations are typically coarse-grained and unevenly distributed across studies, making fine-grained subtype-level supervision difficult to obtain.   To address these limitations, we introduce NuClass, a pathologist workflow inspired framework for cell-wise multi-scale integration of nuclear morphology and microenvironmental context. NuClass includes two main components: Path local, which focuses on nuclear morphology from 224-by-224 pixel crops, and Path global, which models the surrounding 1024-by-1024 pixel neighborhood. A learnable gating module adaptively balances local detail and contextual cues. To encourage complementary learning, we incorporate an uncertainty-guided objective that directs the global path to prioritize regions where the local path is uncertain. We also provide calibrated confidence estimates and Grad-CAM visualizations to enhance interpretability.   To overcome the lack of high-quality annotations, we construct a marker-guided dataset from Xenium spatial transcriptomics assays, yielding single-cell resolution labels for more than two million cells across eight organs and 16 classes. Evaluated on three fully held-out cohorts, NuClass achieves up to 96 percent F1 for its best-performing class, outperforming strong baselines. Our results show that multi-scale, uncertainty-aware fusion can bridge the gap between slide-level pathological foundation models and reliable, cell-level phenotype prediction."
+  },
+  {
+    "title": "Coclique level structure for stochastic chemical reaction networks",
+    "url": "http://arxiv.org/abs/2511.13569v1",
+    "arxiv_id": "2511.13569v1",
+    "authors": [
+      "Simone Bruno",
+      "Yi Fu",
+      "Felipe A. Campos",
+      "Domitilla Del Vecchio",
+      "Ruth J. Williams"
+    ],
+    "published": "2025-11-17T16:37:26+00:00",
+    "summary": "Continuous time Markov chains are commonly used as models for the stochastic behavior of chemical reaction networks. More precisely, these Stochastic Chemical Reaction Networks (SCRNs) are frequently used to gain a mechanistic understanding of how chemical reaction rate parameters impact the stochastic behavior of these systems. One property of interest is mean first passage times (MFPTs) between states. However, deriving explicit formulas for MFPTs can be highly complex. In order to address this problem, we first introduce the concept of coclique level structure and develop theorems to determine whether certain SCRNs have this feature by studying associated graphs. Additionally, we develop an algorithm to identify, under specific assumptions, all possible coclique level structures associated with a given SCRN. Finally, we demonstrate how the presence of such a structure in a SCRN allows us to derive closed form formulas for both upper and lower bounds for the MFPTs. Our methods can be applied to SCRNs taking values in a generic finite state space and can also be applied to models with non-mass-action kinetics. We illustrate our results with examples from the biological areas of epigenetics, neurobiology and ecology."
+  },
+  {
     "title": "In-memory phononic learning toward cognitive mechanical intelligence",
     "url": "http://arxiv.org/abs/2511.13543v1",
     "arxiv_id": "2511.13543v1",
