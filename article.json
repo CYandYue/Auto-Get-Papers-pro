@@ -1,5 +1,137 @@
 [
   {
+    "title": "Robust Verification of Controllers under State Uncertainty via Hamilton-Jacobi Reachability Analysis",
+    "url": "http://arxiv.org/abs/2511.14755v1",
+    "arxiv_id": "2511.14755v1",
+    "authors": [
+      "Albert Lin",
+      "Alessandro Pinto",
+      "Somil Bansal"
+    ],
+    "published": "2025-11-18T18:55:20+00:00",
+    "summary": "As perception-based controllers for autonomous systems become increasingly popular in the real world, it is important that we can formally verify their safety and performance despite perceptual uncertainty. Unfortunately, the verification of such systems remains challenging, largely due to the complexity of the controllers, which are often nonlinear, nonconvex, learning-based, and/or black-box. Prior works propose verification algorithms that are based on approximate reachability methods, but they often restrict the class of controllers and systems that can be handled or result in overly conservative analyses. Hamilton-Jacobi (HJ) reachability analysis is a popular formal verification tool for general nonlinear systems that can compute optimal reachable sets under worst-case system uncertainties; however, its application to perception-based systems is currently underexplored. In this work, we propose RoVer-CoRe, a framework for the Robust Verification of Controllers via HJ Reachability. To the best of our knowledge, RoVer-CoRe is the first HJ reachability-based framework for the verification of perception-based systems under perceptual uncertainty. Our key insight is to concatenate the system controller, observation function, and the state estimation modules to obtain an equivalent closed-loop system that is readily compatible with existing reachability frameworks. Within RoVer-CoRe, we propose novel methods for formal safety verification and robust controller design. We demonstrate the efficacy of the framework in case studies involving aircraft taxiing and NN-based rover navigation. Code is available at the link in the footnote."
+  },
+  {
+    "title": "Co-Me: Confidence-Guided Token Merging for Visual Geometric Transformers",
+    "url": "http://arxiv.org/abs/2511.14751v1",
+    "arxiv_id": "2511.14751v1",
+    "authors": [
+      "Yutian Chen",
+      "Yuheng Qiu",
+      "Ruogu Li",
+      "Ali Agha",
+      "Shayegan Omidshafiei",
+      "Jay Patrikar",
+      "Sebastian Scherer"
+    ],
+    "published": "2025-11-18T18:52:22+00:00",
+    "summary": "We propose Confidence-Guided Token Merging (Co-Me), an acceleration mechanism for visual geometric transformers without retraining or finetuning the base model. Co-Me distilled a light-weight confidence predictor to rank tokens by uncertainty and selectively merge low-confidence ones, effectively reducing computation while maintaining spatial coverage. Compared to similarity-based merging or pruning, the confidence signal in Co-Me reliably indicates regions emphasized by the transformer, enabling substantial acceleration without degrading performance. Co-Me applies seamlessly to various multi-view and streaming visual geometric transformers, achieving speedups that scale with sequence length. When applied to VGGT and MapAnything, Co-Me achieves up to $11.3\\times$ and $7.2\\times$ speedup, making visual geometric transformers practical for real-time 3D perception and reconstruction."
+  },
+  {
+    "title": "Vision Large Language Models Are Good Noise Handlers in Engagement Analysis",
+    "url": "http://arxiv.org/abs/2511.14749v1",
+    "arxiv_id": "2511.14749v1",
+    "authors": [
+      "Alexander Vedernikov",
+      "Puneet Kumar",
+      "Haoyu Chen",
+      "Tapio Sepp\u00e4nen",
+      "Xiaobai Li"
+    ],
+    "published": "2025-11-18T18:50:26+00:00",
+    "summary": "Engagement recognition in video datasets, unlike traditional image classification tasks, is particularly challenged by subjective labels and noise limiting model performance. To overcome the challenges of subjective and noisy engagement labels, we propose a framework leveraging Vision Large Language Models (VLMs) to refine annotations and guide the training process. Our framework uses a questionnaire to extract behavioral cues and split data into high- and low-reliability subsets. We also introduce a training strategy combining curriculum learning with soft label refinement, gradually incorporating ambiguous samples while adjusting supervision to reflect uncertainty. We demonstrate that classical computer vision models trained on refined high-reliability subsets and enhanced with our curriculum strategy show improvements, highlighting benefits of addressing label subjectivity with VLMs. This method surpasses prior state of the art across engagement benchmarks such as EngageNet (three of six feature settings, maximum improvement of +1.21%), and DREAMS / PAFE with F1 gains of +0.22 / +0.06."
+  },
+  {
+    "title": "Systematic Study of the Self-Renormalized Nucleon Gluon PDF in Large-Momentum Effective Theory",
+    "url": "http://arxiv.org/abs/2511.14708v1",
+    "arxiv_id": "2511.14708v1",
+    "authors": [
+      "Alex NieMiera",
+      "William Good",
+      "Huey-Wen Lin",
+      "Fei Yao"
+    ],
+    "published": "2025-11-18T17:50:07+00:00",
+    "summary": "We present a systematic study of the nucleon gluon parton distribution function (PDF) using the self-renormalized large-momentum effective theory (LaMET) approach in lattice QCD. This work extends previous gluon-PDF extractions by performing a detailed analysis of key systematic effects, including gauge-link smearing, lattice spacing, pion mass, and nucleon boost momentum. The self-renormalization framework mitigates ultraviolet divergences associated with Wilson-line self-energy and renormalon contributions by combining lattice matrix elements with perturbative short-distance information, thereby preserving the correct infrared structure. Calculations are performed on $N_f=2+1+1$ HISQ ensembles generated by the MILC Collaboration at three lattice spacings and two pion masses, with boosted nucleon states reaching momenta up to 2.2~GeV. We determine renormalization factors from zero-momentum matrix elements and apply hybrid renormalization to suppress discretization artifacts. After extrapolating large-separation behavior and performing Fourier transforms, we reconstruct quasi-PDFs and match them to lightcone PDFs using next-to-leading order Wilson coefficients. Our results demonstrate that smearing and lattice-spacing effects are under control, and pion-mass and lattice-spacing dependence is mild relative to the current $O(10^6)$ statistics; however, momentum dependence remains a significant source of uncertainty. Future work including even larger boost momenta will be essential to reduce systematics in lattice determinations of the gluon PDF and to advance toward precision QCD phenomenology at the LHC and the future Electron-Ion Collider."
+  },
+  {
+    "title": "Compensating random transition-detection blackouts in Markov networks",
+    "url": "http://arxiv.org/abs/2511.14679v1",
+    "arxiv_id": "2511.14679v1",
+    "authors": [
+      "Alexander M. Maier",
+      "Benjamin H\u00e4sler",
+      "Udo Seifert"
+    ],
+    "published": "2025-11-18T17:20:30+00:00",
+    "summary": "In Markov networks, measurement blackouts with unknown frequency compromise observations such that thermodynamic quantities can no longer be inferred reliably. In particular, the observed currents neither discern equilibrium from non-equilibrium nor can they be used in extant estimators of entropy production. Our strategy to eliminate these effects is based on formally attributing the blackouts to a second channel connecting states. The unknown frequency of blackouts and the true underlying transition rates can be determined from the short-time limit of observed waiting-time distributions. A post-modification of observed trajectory data yields a virtual effective dynamics from which the lower bound on entropy production based on thermodynamic uncertainty relations can be recovered fully. Moreover, the post-processed data can be used in waiting-time based estimators. Crucially, our strategy does neither require the blackouts to occur homogeneously nor symmetrically under time-reversal."
+  },
+  {
+    "title": "High-resolution weak lensing mass mapping from DES-Y3 data using diffusion-based prior",
+    "url": "http://arxiv.org/abs/2511.14667v1",
+    "arxiv_id": "2511.14667v1",
+    "authors": [
+      "Supranta S. Boruah",
+      "Michael Jacob",
+      "Bhuvnesh Jain",
+      "Riya Maiya",
+      "Raghav Venkataramanan"
+    ],
+    "published": "2025-11-18T17:07:43+00:00",
+    "summary": "High-resolution mapping of cosmic mass distribution is essential for a variety of astrophysical applications including understanding cosmic structure formation, and galaxy formation and evolution. However dark matter is not directly observed and therefore we need advanced methods for solving inverse problems to reconstruct the underlying cosmic matter distribution. Here, we train a generative diffusion model and use it in the Diffusion Posterior Sampling (DPS) framework to reconstruct mass maps from Dark Energy Survey-Year 3 (DES-Y3) weak gravitational lensing data at high (1 arcminute) resolution. We show that the standard DPS results are biased, but they can be easily corrected by scaling the log-likelihood score during the diffusion process, yielding unbiased results with proper uncertainty quantification. The resulting mass maps reveal cosmic structures with enhanced detail, opening the door for improved astrophysical studies using the obtained mass maps."
+  },
+  {
+    "title": "Automated Prediction of Thermodynamic Properties via Bayesian Free-Energy Reconstruction from Molecular Dynamics",
+    "url": "http://arxiv.org/abs/2511.14655v1",
+    "arxiv_id": "2511.14655v1",
+    "authors": [
+      "Ekaterina Spirande",
+      "Timofei Miryashkin",
+      "Andrei Kolmakov",
+      "Alexander Shapeev"
+    ],
+    "published": "2025-11-18T16:49:33+00:00",
+    "summary": "Accurate free-energy calculations are essential for predicting thermodynamic properties and phase stability, but existing methods are limited: phonon-based approaches neglect anharmonicity and liquids, while molecular dynamics (MD) is computationally demanding, neglects low-temperature quantum effects, and often requires manual planning and post-processing of simulations. We present a unified workflow that reconstructs the Helmholtz free-energy surface from MD data using Gaussian Process Regression (GPR), augmented with zero-point energy corrections from harmonic/quasi-harmonic theory. The framework propagates statistical uncertainties, mitigates finite-size effects, and employs active learning to optimize sampling in the volume-temperature space. It applies seamlessly to both crystalline and liquid phases. We demonstrate the methodology by computing heat capacities, thermal expansion, isothermal and adiabatic bulk moduli, and melting properties for nine elemental FCC and BCC metals using 20 classical and machine-learned interatomic potentials, with all predictions accompanied by quantified confidence intervals. Automated, general, and uncertainty-aware, the workflow advances high-throughput thermodynamics and provides a systematic benchmark for interatomic potentials."
+  },
+  {
+    "title": "Forecasting Synchrotron Spectral Parameters with QUIJOTE-MFI2 in combination with Planck and WMAP",
+    "url": "http://arxiv.org/abs/2511.14572v1",
+    "arxiv_id": "2511.14572v1",
+    "authors": [
+      "Ana Almeida",
+      "Jos\u00e9 Alberto Rubi\u00f1o-Mart\u00edn",
+      "Roke Cepeda-Arroita",
+      "Ricardo Tanausu G\u00e9nova-Santos",
+      "Debabrata Adak"
+    ],
+    "published": "2025-11-18T15:15:12+00:00",
+    "summary": "We present a parametric component separation forecast for the QUIJOTE-MFI2 instrument (10-20 GHz), assessing its impact on constraining polarised synchrotron emission at $1^\\circ$ FWHM and $N_{\\rm side}=64$. Using simulated sky maps based on power-law and curved synchrotron spectra, we show that adding QUIJOTE-MFI2 to existing WMAP+$Planck$+MFI data yields statistically unbiased parameter estimates with substantial uncertainty reductions: improvement factors reach $\\sim$10 for the synchrotron spectral index ($\u03b2_s$), $\\sim$5 for the curvature parameter ($C_s$), and $\\sim$43 for polarisation amplitudes in bright regions. Deep QUIJOTE cosmological fields enable $\u03b2_s$ constraints even in intrinsically low SNR regions where WMAP+$Planck$ alone remain prior-dominated. Current combined sensitivities are insufficient to detect a synchrotron curvature of $C_s=-0.052$ on a pixel-by-pixel basis, but a $2\u03c3$ detection is achievable for $|C_s|\\gtrsim 0.14$ in the brightest regions of the Galactic plane. In those deep cosmological fields, combining QUIJOTE-MFI2 with WMAP and $Planck$ reduces the median synchrotron residual at 100 GHz by a factor 2.2 (to 0.022 $\u03bc$K$_{\\rm CMB}$) and the total residual by a factor 1.8 (to 0.030 $\u03bc$K$_{\\rm CMB}$). These results demonstrate that QUIJOTE-MFI2 will provide critical low-frequency information for modelling Galactic synchrotron emission, offering valuable complementary constraints for future CMB surveys such as LiteBIRD and the Simons Observatory."
+  },
+  {
+    "title": "Uncertainty analysis of URANS simulations coupled with an anisotropic pressure fluctuation model",
+    "url": "http://arxiv.org/abs/2511.14564v1",
+    "arxiv_id": "2511.14564v1",
+    "authors": [
+      "Ali Eidi",
+      "Richard P. Dwight"
+    ],
+    "published": "2025-11-18T15:07:44+00:00",
+    "summary": "Accurate prediction of pressure and velocity fluctuations in turbulent flows is essential for understanding flow-induced vibration and structural fatigue. This study investigates the role of turbulence model parameter uncertainty in such predictions using a combination of global sensitivity analysis, surrogate modeling, and Bayesian inference. The methodology is applied to two fluid-only flow cases: turbulent channel flow and turbulent annular flow. In the channel flow case, calibrated parameter distributions lead to improved agreement with reference data. In the annular case, limited parameter identifiability is observed, though predictions remain consistent with high-fidelity trends. The results demonstrate both the potential and limitations of model calibration strategies in wall-bounded turbulent flows."
+  },
+  {
+    "title": "A Bayesian INLA-SPDE Approach to Spatio-Temporal Point-Grid Fusion with Change-of-Support and Misaligned Covariates",
+    "url": "http://arxiv.org/abs/2511.14535v1",
+    "arxiv_id": "2511.14535v1",
+    "authors": [
+      "Weiyue Zheng",
+      "Andrew Elliott",
+      "Claire Miller",
+      "Marian Scott"
+    ],
+    "published": "2025-11-18T14:39:48+00:00",
+    "summary": "We propose a spatio-temporal data-fusion framework for point data and gridded data with variables observed on different spatial supports. A latent Gaussian field with a Mat\u00e9rn-SPDE prior provides a continuous space representation, while source-specific observation operators map observations to both point measurements and gridded averages, addressing change-of-support and covariate misalignment. Additionally incorporating temporal dependence enables prediction at unknown locations and time points. Inference and prediction are performed using the Integrated Nested Laplace Approximation and the Stochastic Partial Differential Equations approach, which delivers fast computation with uncertainty quantification. Our contributions are: a hierarchical model that jointly fuses multiple data sources of the same variable under different spatial and temporal resolutions and measurement errors, and a practical implementation that incorporates misaligned covariates via the same data fusion framework allowing differing covariate supports. We demonstrate the utility of this framework via simulations calibrated to realistic sensor densities and spatial coverage. Using the simulation framework, we explore the stability and performance of the approach with respect to the number of time points and data/covariate availability, demonstrating gains over single-source models through point and gridded data fusion. We apply our framework to soil moisture mapping in the Elliot Water catchment (Angus, Scotland). We fuse in-situ sensor data with aligned and misaligned covariates, satellite data and elevation data to produce daily high resolution maps with uncertainty."
+  },
+  {
     "title": "Stellar Flares in the TESS Light Curves of Planet-hosting M dwarfs",
     "url": "http://arxiv.org/abs/2511.13716v1",
     "arxiv_id": "2511.13716v1",
