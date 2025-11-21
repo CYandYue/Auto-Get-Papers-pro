@@ -1,5 +1,144 @@
 [
   {
+    "title": "A Core-Collapse Supernova Neutrino Parameterization with Enhanced Physical Interpretability",
+    "url": "http://arxiv.org/abs/2511.16631v1",
+    "arxiv_id": "2511.16631v1",
+    "authors": [
+      "Haihao Shi",
+      "Zhenyang Huang",
+      "Junda Zhou",
+      "Guoliang L\u00fc",
+      "Xuefei Chen"
+    ],
+    "published": "2025-11-20T18:37:07+00:00",
+    "summary": "We introduce a novel parameterization of supernova neutrino energy spectra with a clear physical motivation. Its central parameter, $\u03c4(t)$, quantifies the characteristic thermal-diffusion area during the explosion. When applied to the historic SN1987A data, this parameterization yields statistically significant fits and provides robust constraints on the unobserved low-energy portion of the spectrum. Beyond this specific application, we demonstrate the model's power on a suite of 3D core-collapse supernova simulations, finding that the temporal evolution of $\u03c4(t)$ distinctly separates successful from failed explosions. Furthermore, we constrain the progenitor mass of SN 1987A to approximately 19 solar masses by applying Smoothed Isotonic Regression, while noting the sensitivity of this estimate to observational uncertainties. Moreover, in these simulations, $\u03c4(t)$ and the gravitational-wave strain amplitude display a strong, synergistic co-evolution, directly linking the engine's energetic evolution to its geometric asymmetry. This implies that the thermodynamic state of the explosion is imprinted not only on the escaping neutrino flux, but also recorded in the shape of the energy spectrum. Our framework therefore offers a valuable tool for decoding the detailed core dynamics and multi-messenger processes of future galactic supernovae."
+  },
+  {
+    "title": "Sensor Informativeness, Identifiability, and Uncertainty in Bayesian Inverse Problems for Structural Health Monitoring",
+    "url": "http://arxiv.org/abs/2511.16628v1",
+    "arxiv_id": "2511.16628v1",
+    "authors": [
+      "Tammam Bakeer",
+      "Max Herbers",
+      "Steffen Marx"
+    ],
+    "published": "2025-11-20T18:34:27+00:00",
+    "summary": "In Structural Health Monitoring (SHM), the recovery of distributed mechanical parameters from sparse data is often ill-posed, raising critical questions about identifiability and the reliability of inferred states. While deterministic regularization methods such as Tikhonov stabilise the inversion, they provide little insight into the spatial limits of resolution or the inherent uncertainty of the solution. This paper presents a Bayesian inverse framework that rigorously quantifies these limits, using the identification of distributed flexural rigidity from rotation (tilt) influence lines as a primary case study. Fisher information is employed as a diagnostic metric to quantify sensor informativeness, revealing how specific sensor layouts and load paths constrain the recoverable spatial features of the parameter field.   The methodology is applied to the full-scale openLAB research bridge (TU Dresden) using data from controlled vehicle passages. Beyond estimating the flexural rigidity profile, the Bayesian formulation produces credible intervals that expose regions of practical non-identifiability, which deterministic methods may obscure. The results demonstrate that while the measurement data carry high information content for the target parameters, their utility is spatially heterogeneous and strictly bounded by the experiment design. The proposed framework unifies identification with uncertainty quantification, providing a rigorous basis for optimising sensor placement and interpreting the credibility of SHM diagnostics."
+  },
+  {
+    "title": "MedBayes-Lite: Bayesian Uncertainty Quantification for Safe Clinical Decision Support",
+    "url": "http://arxiv.org/abs/2511.16625v1",
+    "arxiv_id": "2511.16625v1",
+    "authors": [
+      "Elias Hossain",
+      "Md Mehedi Hasan Nipu",
+      "Maleeha Sheikh",
+      "Rajib Rana",
+      "Subash Neupane",
+      "Niloofar Yousefi"
+    ],
+    "published": "2025-11-20T18:33:12+00:00",
+    "summary": "We propose MedBayes-Lite, a lightweight Bayesian enhancement for transformer-based clinical language models designed to produce reliable, uncertainty-aware predictions. Although transformers show strong potential for clinical decision support, they remain prone to overconfidence, especially in ambiguous medical cases where calibrated uncertainty is critical. MedBayes-Lite embeds uncertainty quantification directly into existing transformer pipelines without any retraining or architectural rewiring, adding no new trainable layers and keeping parameter overhead under 3 percent. The framework integrates three components: (i) Bayesian Embedding Calibration using Monte Carlo dropout for epistemic uncertainty, (ii) Uncertainty-Weighted Attention that marginalizes over token reliability, and (iii) Confidence-Guided Decision Shaping inspired by clinical risk minimization. Across biomedical QA and clinical prediction benchmarks (MedQA, PubMedQA, MIMIC-III), MedBayes-Lite consistently improves calibration and trustworthiness, reducing overconfidence by 32 to 48 percent. In simulated clinical settings, it can prevent up to 41 percent of diagnostic errors by flagging uncertain predictions for human review. These results demonstrate its effectiveness in enabling reliable uncertainty propagation and improving interpretability in medical AI systems."
+  },
+  {
+    "title": "KrkNLO matching and phenomenology for vector boson processes",
+    "url": "http://arxiv.org/abs/2511.16605v1",
+    "arxiv_id": "2511.16605v1",
+    "authors": [
+      "Pratixan Sarmah",
+      "Andrzej Si\u00f3dmok",
+      "James Whitehead"
+    ],
+    "published": "2025-11-20T18:00:27+00:00",
+    "summary": "The combination of NLO matrix elements with parton showers is indispensable for LHC physics. Differences between matching methods introduce matching uncertainties, corresponding to formally higher-order terms. We recently presented the process-independent generalisation of the KrkNLO method for NLO matching, which employs a modified PDF factorisation scheme to achieve NLO accuracy. With this factorisation scheme, the method can be used for colour-singlet final-states, and was previously implemented in the Herwig Monte Carlo Event Generator and applied to the diphoton-production process.   Here we present the extension of the implementation of the KrkNLO method within Herwig to support the full class of applicable processes, using an external matrix-element library. We re-validate the implementation, and use it to study the NLO matching uncertainty for four vector-boson production processes at the LHC: $W$, $Z\u03b3$, $WW$ and $ZZ$. We demonstrate that the KrkNLO method effectively eliminates the negative-weight problem in NLO event generation, across the four processes studied. We provide detailed comparisons between KrkNLO and variants of the MC@NLO method with different shower starting-scale choices, across processes and throughout phase-space, including double-differential observables. For each process, we compare the predictions to LHC data from ATLAS."
+  },
+  {
+    "title": "Bayesian polarization calibration and imaging in very long baseline interferometry",
+    "url": "http://arxiv.org/abs/2511.16556v1",
+    "arxiv_id": "2511.16556v1",
+    "authors": [
+      "Jong-Seo Kim",
+      "Jakob Roth",
+      "Jongho Park",
+      "Jack D. Livingston",
+      "Philipp Arras",
+      "Torsten A. En\u00dflin",
+      "Michael Janssen",
+      "J. Anton Zensus",
+      "Andrei P. Lobanov"
+    ],
+    "published": "2025-11-20T17:10:06+00:00",
+    "summary": "Extracting polarimetric information from very long baseline interferometry (VLBI) data is demanding but vital for understanding the synchrotron radiation process and the magnetic fields of celestial objects, such as active galactic nuclei (AGNs). However, conventional CLEAN-based calibration and imaging methods provide suboptimal resolution without uncertainty estimation of calibration solutions, while requiring manual steering from an experienced user. We present a Bayesian polarization calibration and imaging method using Bayesian imaging software resolve for VLBI data sets, that explores the posterior distribution of antenna-based gains, polarization leakages, and polarimetric images jointly from pre-calibrated data. We demonstrate our calibration and imaging method with observations of the quasar 3C273 with the VLBA at 15 GHz and the blazar OJ287 with the GMVA+ALMA at 86 GHz. Compared to the CLEAN method, our approach provides physically realistic images that satisfy positivity of flux and polarization constraints and can reconstruct complex source structures composed of various spatial scales. Our method systematically accounts for calibration uncertainties in the final images and provides uncertainties of Stokes images and calibration solutions. The automated Bayesian approach for calibration and imaging will be able to obtain high-fidelity polarimetric images using high-quality data from next-generation radio arrays. The pipeline developed for this work is publicly available."
+  },
+  {
+    "title": "YOWO: You Only Walk Once to Jointly Map An Indoor Scene and Register Ceiling-mounted Cameras",
+    "url": "http://arxiv.org/abs/2511.16521v1",
+    "arxiv_id": "2511.16521v1",
+    "authors": [
+      "Fan Yang",
+      "Sosuke Yamao",
+      "Ikuo Kusajima",
+      "Atsunori Moteki",
+      "Shoichi Masui",
+      "Shan Jiang"
+    ],
+    "published": "2025-11-20T16:36:16+00:00",
+    "summary": "Using ceiling-mounted cameras (CMCs) for indoor visual capturing opens up a wide range of applications. However, registering CMCs to the target scene layout presents a challenging task. While manual registration with specialized tools is inefficient and costly, automatic registration with visual localization may yield poor results when visual ambiguity exists. To alleviate these issues, we propose a novel solution for jointly mapping an indoor scene and registering CMCs to the scene layout. Our approach involves equipping a mobile agent with a head-mounted RGB-D camera to traverse the entire scene once and synchronize CMCs to capture this mobile agent. The egocentric videos generate world-coordinate agent trajectories and the scene layout, while the videos of CMCs provide pseudo-scale agent trajectories and CMC relative poses. By correlating all the trajectories with their corresponding timestamps, the CMC relative poses can be aligned to the world-coordinate scene layout. Based on this initialization, a factor graph is customized to enable the joint optimization of ego-camera poses, scene layout, and CMC poses. We also develop a new dataset, setting the first benchmark for collaborative scene mapping and CMC registration (https://sites.google.com/view/yowo/home). Experimental results indicate that our method not only effectively accomplishes two tasks within a unified framework, but also jointly enhances their performance. We thus provide a reliable tool to facilitate downstream position-aware applications."
+  },
+  {
+    "title": "General-purpose Data-driven Wall Model for Low-speed Flows Part I: Baseline Model",
+    "url": "http://arxiv.org/abs/2511.16511v1",
+    "arxiv_id": "2511.16511v1",
+    "authors": [
+      "Yuenong Ling",
+      "Imran Hayat",
+      "Konrad Goc",
+      "Adrian Lozano-Duran"
+    ],
+    "published": "2025-11-20T16:28:41+00:00",
+    "summary": "We present a general-purpose wall model for large-eddy simulation. The model builds on the building-block flow principle, leveraging essential physics from simple flows to train a generalizable model applicable across complex geometries and flow conditions. The model addresses key limitations of traditional equilibrium wall models (EQWM) and improves upon shortcomings of earlier building-block-based approaches. The model comprises four components: (i) a baseline wall model, (ii) an error model, (iii) a classifier, and (iv) a confidence score. The baseline model predicts the wall-shear stress, while the error model estimates epistemic errors and aleatoric errors, both used for uncertainty quantification. In Part I of this work, we present the baseline model, while the remaining three components are introduced in Part II. The baseline model is designed to capture a broad range of flow phenomena, including turbulence over curved walls and zero, adverse, and favorable mean pressure gradients, as well as flow separation and laminar flow. The problem is formulated as a regression task to predict wall shear stress using a neural network. Model inputs are localized in space and dimensionless, with their selection guided by information-theoretic criteria. Training data include, among other cases, a newly generated direct numerical simulation dataset of turbulent boundary layers under favorable and adverse PG conditions. Validation is carried out through both a priori and a posteriori tests. The a priori evaluation spans 140 diverse high-fidelity numerical datasets and experiments (67 training cases included), covering turbulent boundary layers, airfoils, Gaussian bumps, and full aircraft geometries, among others. We demonstrate that the baseline wall model outperforms the EQWM in 90% of test scenarios, while maintaining errors below 20% for 98% of the cases."
+  },
+  {
+    "title": "Quantum corrections in general relativity explored through a GUP-inspired maximal acceleration analysis",
+    "url": "http://arxiv.org/abs/2511.16502v1",
+    "arxiv_id": "2511.16502v1",
+    "authors": [
+      "Christian Corda",
+      "Carlo Cafaro",
+      "Newshaw Bahreyni"
+    ],
+    "published": "2025-11-20T16:20:04+00:00",
+    "summary": "A maximun acceleration analysis by Pati dating back to 1992 is here improved by replacing the traditional Heisenberg Uncertainty Principle (HUP) with the Generalized Uncertainty Principle (GUP), which predicts the existence of a minimum length in Nature. This new approach allows one to find a numerical value for the maximum acceleration existing in Nature for a physical particle that turns out to be a_{max}\\simeq4\\frac{c^{2}}{l_{P}}, that is, a function of two fundamental physical quantities such as the speed of light c and the Planck length l_{p}. An application of this result to black hole (BH) physics allows one to estimate a new quantum limit to general relativity. It is indeed shown that, for every real Schwarzschild BH, the maximum gravitational acceleration occurs, without becoming infinite, when the Schwarzschild radial coordinate reaches the gravitational radius. This means that quantum corrections to general relativity become necessary not at the Planck scale, as the majority of researchers in the field think, but at the Schwarzschild scale, in agreement with recent interesting results in the literature. In other words, the quantum nature of physics, which in this case manifests itself through the GUP, appears to prohibit the existence of real singularities, in this current case forbiddiing the gravitational acceleration of a Schwarzschild BH from becoming infinite."
+  },
+  {
+    "title": "Integrating Deep Learning and Spatial Statistics in Marine Ecosystem Monitoring",
+    "url": "http://arxiv.org/abs/2511.16447v1",
+    "arxiv_id": "2511.16447v1",
+    "authors": [
+      "Gian Mario Sangiovanni",
+      "Gianluca Mastrantonio",
+      "Daniele Ventura",
+      "Alessio Pollice",
+      "Giovanna Jona Lasinio"
+    ],
+    "published": "2025-11-20T15:15:32+00:00",
+    "summary": "In ecology, photogrammetry is a crucial method for efficiently collecting non-destructive samples of natural environments. When estimating the spatial distribution of animals, detecting objects in large-scale images becomes crucial. Object detection models enable large-scale analysis but introduce uncertainty because detection probability depends on various factors. To address detection bias, we model the distribution of a species of benthic animals (holothurians) in an area of the Italian Tyrrhenian coast near Giglio Island using a Thinned Log-Gaussian Cox Process (LGCP). We assume that a \"true\" intensity function accurately describes the distribution, while the observed process, resulting from independent thinning, is represented by a degraded intensity. The detection function controls the thinning mechanism, influenced by the object's location and other detection-related features. We use manual identification of holothurians as our benchmark. We compare automatic detection with this benchmark, an unthinned LGCP, and the thinned model to highlight the improvements gained from the proposed approach.Our method allows researchers to use photogrammetry, automatically identify objects of interest, and correct biases and approximations caused by the observation process."
+  },
+  {
+    "title": "Black-Box Uncertainty Estimation for Deep Learning Models in Atomistic Simulations",
+    "url": "http://arxiv.org/abs/2511.16439v1",
+    "arxiv_id": "2511.16439v1",
+    "authors": [
+      "Idan Fonea",
+      "Amir Peles",
+      "Sivan Niv",
+      "Goren Gordon",
+      "Amir Natan"
+    ],
+    "published": "2025-11-20T15:08:02+00:00",
+    "summary": "We analyze an ensemble-based approach for uncertainty quantification (UQ) in atomistic neural networks. This method generates an epistemic uncertainty signal without requiring changes to the underlying multi-headed regression neural network architecture, making it suitable for sealed or black-box models. We apply this method to molecular systems, specifically sodium (Na) and aluminum (Al), under various temperature conditions. By scaling the uncertainty signal, we account for heteroscedasticity in the data. We demonstrate the robustness of the scaled UQ signal for detecting out-of-distribution (OOD) behavior in several scenarios. This UQ signal also correlates with model convergence during training, providing an additional tool for optimizing the training process."
+  },
+  {
     "title": "Resolving Ratio Redundancy in Chemical Freeze-out Studies with Principal Component Analysis and Bayesian Calibration",
     "url": "http://arxiv.org/abs/2511.15707v1",
     "arxiv_id": "2511.15707v1",
