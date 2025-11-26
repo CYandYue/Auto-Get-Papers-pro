@@ -1,5 +1,124 @@
 [
   {
+    "title": "Carrier transport and electrical bandgaps in epitaxial CrN layers",
+    "url": "http://arxiv.org/abs/2511.20625v1",
+    "arxiv_id": "2511.20625v1",
+    "authors": [
+      "Duc V. Dinh",
+      "Jens Herfort",
+      "Andreas Fiedler",
+      "Oliver Brandt"
+    ],
+    "published": "2025-11-25T18:47:44+00:00",
+    "summary": "The transport properties and electrical bandgap of nominally undoped ~75-nm-thick CrN layers simultaneously grown on AlN(0001) and AlN(11\\bar{2}2) templates using plasma-assisted molecular beam epitaxy are investigated. The layers grown on AlN(0001) and AlN(11\\bar{2}2) exhibit (111) and (113) surface orientations, respectively. All layers exhibit antiferromagnetism with a N\u00e9el temperature of ~280 K, observed by temperature-dependent magnetic and electrical measurements. Hall-effect measurements demonstrate n-type semiconducting behavior across a wide temperature range from 4 to 920 K. At low temperatures (4 - 260 K), the data show parallel conduction channels from a metallic impurity band and the conduction band. The carrier mobility exhibits a temperature dependence consistent with a nondegenerate semiconductor, governed by ionized-impurity scattering below 400 K and phonon scattering above 400 K. An analysis of the temperature-dependent carrier density between 300 and 920 K yields two activation energies associated with intrinsic conduction: 0.15 eV (with an uncertainty of -0.02/+0.10 eV), which we attribute to the fundamental bandgap, and 0.50 eV (with an uncertainty of -0.05/+0.15 eV) representing a higher energy transition."
+  },
+  {
+    "title": "Can Vibe Coding Beat Graduate CS Students? An LLM vs. Human Coding Tournament on Market-driven Strategic Planning",
+    "url": "http://arxiv.org/abs/2511.20613v1",
+    "arxiv_id": "2511.20613v1",
+    "authors": [
+      "Panayiotis Danassis",
+      "Naman Goel"
+    ],
+    "published": "2025-11-25T18:40:22+00:00",
+    "summary": "The rapid proliferation of Large Language Models (LLMs) has revolutionized AI-assisted code generation. This rapid development of LLMs has outpaced our ability to properly benchmark them. Prevailing benchmarks emphasize unit-test pass rates and syntactic correctness. Such metrics understate the difficulty of many real-world problems that require planning, optimization, and strategic interaction. We introduce a multi-agent reasoning-driven benchmark based on a real-world logistics optimization problem (Auction, Pickup, and Delivery Problem) that couples competitive auctions with capacity-constrained routing. The benchmark requires building agents that can (i) bid strategically under uncertainty and (ii) optimize planners that deliver tasks while maximizing profit. We evaluate 40 LLM-coded agents (by a wide range of state-of-the-art LLMs under multiple prompting methodologies, including vibe coding) against 17 human-coded agents developed before the advent of LLMs. Our results over 12 double all-play-all tournaments and $\\sim 40$k matches demonstrate (i) a clear superiority of human(graduate students)-coded agents: the top 5 spots are consistently won by human-coded agents, (ii) the majority of LLM-coded agents (33 out of 40) are beaten by very simple baselines, and (iii) given the best human solution as an input and prompted to improve upon, the best performing LLM makes the solution significantly worse instead of improving it. Our results highlight a gap in LLMs' ability to produce code that works competitively in the real-world, and motivate new evaluations that emphasize reasoning-driven code synthesis in real-world scenarios."
+  },
+  {
+    "title": "Sparse-to-Field Reconstruction via Stochastic Neural Dynamic Mode Decomposition",
+    "url": "http://arxiv.org/abs/2511.20612v1",
+    "arxiv_id": "2511.20612v1",
+    "authors": [
+      "Yujin Kim",
+      "Sarah Dean"
+    ],
+    "published": "2025-11-25T18:39:50+00:00",
+    "summary": "Many consequential real-world systems, like wind fields and ocean currents, are dynamic and hard to model. Learning their governing dynamics remains a central challenge in scientific machine learning. Dynamic Mode Decomposition (DMD) provides a simple, data-driven approximation, but practical use is limited by sparse/noisy observations from continuous fields, reliance on linear approximations, and the lack of principled uncertainty quantification. To address these issues, we introduce Stochastic NODE-DMD, a probabilistic extension of DMD that models continuous-time, nonlinear dynamics while remaining interpretable. Our approach enables continuous spatiotemporal reconstruction at arbitrary coordinates and quantifies predictive uncertainty. Across four benchmarks, a synthetic setting and three physics-based flows, it surpasses a baseline in reconstruction accuracy when trained from only 10% observation density. It further recovers the dynamical structure by aligning learned modes and continuous-time eigenvalues with ground truth. Finally, on datasets with multiple realizations, our method learns a calibrated distribution over latent dynamics that preserves ensemble variability rather than averaging across regimes. Our code is available at: https://github.com/sedan-group/Stochastic-NODE-DMD"
+  },
+  {
+    "title": "Quantum Key Distribution: Bridging Theoretical Security Proofs, Practical Attacks, and Error Correction for Quantum-Augmented Networks",
+    "url": "http://arxiv.org/abs/2511.20602v1",
+    "arxiv_id": "2511.20602v1",
+    "authors": [
+      "Nitin Jha",
+      "Abhishek Parakh",
+      "Mahadevan Subramaniam"
+    ],
+    "published": "2025-11-25T18:31:02+00:00",
+    "summary": "Quantum Key Distribution (QKD) is revolutionizing cryptography by promising information-theoretic security through the immutable laws of quantum mechanics. Yet, the challenge of transforming these idealized security models into practical, resilient systems remains a pressing issue, especially as quantum computing evolves. In this review, we critically dissect and synthesize the latest advancements in QKD protocols and their security vulnerabilities, with a strong emphasis on rigorous security proofs. We actively categorize contemporary QKD schemes into three key classes: uncertainty principle-based protocols (e.g., BB84), hybrid architectures that enable secure direct communication (eg, three-stage protocol), and continuous-variable frameworks. We further include two modern classes of QKD protocols, namely Twin-field QKD and Device-Independent QKD, both of which were developed to have practical implementations over the last decade. Moreover, we highlight important experimental breakthroughs and innovative mitigation strategies, including the deployment of advanced Quantum Error Correction Codes (QECCs), that significantly enhance channel fidelity and system robustness. By mapping the current landscape, from sophisticated quantum attacks to state-of-the-art error correction methods, this review fills an important gap in the literature. To bring everything together, the relevance of this review concerning quantum augmented networks (QuANets) is also presented. This allows the readers to gain a comprehensive understanding of the security promises of quantum key distribution from theoretical proofs to experimental validations."
+  },
+  {
+    "title": "Variational bagging: a robust approach for Bayesian uncertainty quantification",
+    "url": "http://arxiv.org/abs/2511.20594v1",
+    "arxiv_id": "2511.20594v1",
+    "authors": [
+      "Shitao Fan",
+      "Ilsang Ohn",
+      "David Dunson",
+      "Lizhen Lin"
+    ],
+    "published": "2025-11-25T18:24:17+00:00",
+    "summary": "Variational Bayes methods are popular due to their computational efficiency and adaptability to diverse applications. In specifying the variational family, mean-field classes are commonly used, which enables efficient algorithms such as coordinate ascent variational inference (CAVI) but fails to capture parameter dependence and typically underestimates uncertainty. In this work, we introduce a variational bagging approach that integrates a bagging procedure with variational Bayes, resulting in a bagged variational posterior for improved inference. We establish strong theoretical guarantees, including posterior contraction rates for general models and a Bernstein-von Mises (BVM) type theorem that ensures valid uncertainty quantification. Notably, our results show that even when using a mean-field variational family, our approach can recover off-diagonal elements of the limiting covariance structure and provide proper uncertainty quantification. In addition, variational bagging is robust to model misspecification, with covariance structures matching those of the target covariance. We illustrate our variational bagging method in numerical studies through applications to parametric models, finite mixture models, deep neural networks, and variational autoencoders (VAEs)."
+  },
+  {
+    "title": "PaTAS: A Parallel System for Trust Propagation in Neural Networks Using Subjective Logic",
+    "url": "http://arxiv.org/abs/2511.20586v1",
+    "arxiv_id": "2511.20586v1",
+    "authors": [
+      "Koffi Ismael Ouattara",
+      "Ioannis Krontiris",
+      "Theo Dimitrakos",
+      "Dennis Eisermann",
+      "Frank Kargl"
+    ],
+    "published": "2025-11-25T18:15:36+00:00",
+    "summary": "Trustworthiness has become a key requirement for the deployment of artificial intelligence systems in safety-critical applications. Conventional evaluation metrics such as accuracy and precision fail to capture uncertainty or the reliability of model predictions, particularly under adversarial or degraded conditions. This paper introduces the \\emph{Parallel Trust Assessment System (PaTAS)}, a framework for modeling and propagating trust in neural networks using Subjective Logic (SL). PaTAS operates in parallel with standard neural computation through \\emph{Trust Nodes} and \\emph{Trust Functions} that propagate input, parameter, and activation trust across the network. The framework defines a \\emph{Parameter Trust Update} mechanism to refine parameter reliability during training and an \\emph{Inference-Path Trust Assessment (IPTA)} method to compute instance-specific trust at inference. Experiments on real-world and adversarial datasets demonstrate that PaTAS produces interpretable, symmetric, and convergent trust estimates that complement accuracy and expose reliability gaps in poisoned, biased, or uncertain data scenarios. The results show that PaTAS effectively distinguishes between benign and adversarial inputs and identifies cases where model confidence diverges from actual reliability. By enabling transparent and quantifiable trust reasoning within neural architectures, PaTAS provides a principled foundation for evaluating model reliability across the AI lifecycle."
+  },
+  {
+    "title": "An improved time delay from VLA and ATCA monitoring of the gravitational lens system PKS 1830-211",
+    "url": "http://arxiv.org/abs/2511.20582v1",
+    "arxiv_id": "2511.20582v1",
+    "authors": [
+      "A. D. Biggs"
+    ],
+    "published": "2025-11-25T18:13:14+00:00",
+    "summary": "We have measured a time delay of 25.3 +/- 2.0 d (1-sigma confidence) in the Einstein ring gravitational lens system PKS 1830-211 from an analysis of archival VLA and ATCA monitoring data observed between 1997 and 2004. A small portion of the ATCA data was previously used to determine a time delay and our result is consistent with the previous value, but with an uncertainty that is smaller by more than a factor of two. The long time-baseline of the monitoring reveals that the flux density ratio is smoothly varying on a time-scale of years, an effect which we attribute to millilensing by massive objects (>>1 M_sun) in the lensing galaxy. Image A is unpolarized in the VLA monitoring, but VLBI observations show that this is partly due to beam dilution by an unpolarized counter-jet that is only present in that image. Based on the identification of this feature as a counter-jet, we conclude that its unexpected prominence in image A is a consequence of lensing and that more detailed modelling is required in order to reconcile the VLBI morphology of each image."
+  },
+  {
+    "title": "NNLO QCD predictions for $W\u03b3\u03b3$ production at the LHC",
+    "url": "http://arxiv.org/abs/2511.20581v1",
+    "arxiv_id": "2511.20581v1",
+    "authors": [
+      "Paolo Garbarino",
+      "Massimiliano Grazzini",
+      "Stefan Kallweit",
+      "Chiara Savoini"
+    ],
+    "published": "2025-11-25T18:11:46+00:00",
+    "summary": "Triboson production processes play a crucial role in probing the electroweak sector of the Standard Model, as they involve quartic gauge-boson couplings already at the tree level. With these measurements entering the precision era at the Large Hadron Collider (LHC), accurate theoretical predictions become indispensable. We present the computation of the next-to-next-to-leading-order (NNLO) QCD radiative corrections to the production of a $W$ boson in association with two photons ($W\u03b3\u03b3$) at the LHC. The calculation is exact, except for the finite part of the two-loop contribution, which is included in the leading-colour approximation. Predictions for the fiducial cross section and selected kinematic distributions are provided at a centre-of-mass energy of $\\sqrt{s}=13$ TeV, under standard experimental selection cuts. In line with observations for other multiboson processes involving direct photons, we find sizable NNLO corrections that enhance the next-to-leading-order predictions by about $23\\%$, with residual perturbative uncertainties that can be roughly estimated to be at the $5\\%$ level."
+  },
+  {
+    "title": "Active learning with physics-informed neural networks for optimal sensor placement in deep tunneling through transversely isotropic elastic rocks",
+    "url": "http://arxiv.org/abs/2511.20574v1",
+    "arxiv_id": "2511.20574v1",
+    "authors": [
+      "Alec Tristani",
+      "Chlo\u00e9 Arson"
+    ],
+    "published": "2025-11-25T18:06:47+00:00",
+    "summary": "This paper presents a deep learning strategy to simultaneously solve Partial Differential Equations (PDEs) and back-calculate their parameters in the context of deep tunnel excavation. A Physics-Informed Neural Network (PINN) model is trained with synthetic data that emulates in situ displacement measurements in the host rock and at the cavity wall, obtained from extensometers and convergence monitoring. As acquiring field observations can be costly, a sequential training approach based on active learning is implemented to determine the most informative locations for new sensors. In particular, Monte Carlo dropout is used to quantify epistemic uncertainty and query measurements in regions where the model is least confident. This approach reduces the amount of required field data and optimizes sensor placement. The PINN is tested to reconstruct the displacement field around a deep tunnel of circular section excavated in transversely isotropic elastic rock and to determine rock constitutive and stress-field parameters. Results demonstrate excellent performance on small, scattered, and noisy datasets, achieving high precision for the Young's moduli, shear modulus, horizontal-to-vertical far-field stress ratio, and the orientation of the bedding planes. The proposed framework shall ultimately support decision-making for optimal subsurface monitoring and for adaptive tunnel design and control."
+  },
+  {
+    "title": "Gated Uncertainty-Aware Runtime Dual Invariants for Neural Signal-Controlled Robotics",
+    "url": "http://arxiv.org/abs/2511.20570v1",
+    "arxiv_id": "2511.20570v1",
+    "authors": [
+      "Tasha Kim",
+      "Oiwi Parker Jones"
+    ],
+    "published": "2025-11-25T18:05:05+00:00",
+    "summary": "Safety-critical assistive systems that directly decode user intent from neural signals require rigorous guarantees of reliability and trust. We present GUARDIAN (Gated Uncertainty-Aware Runtime Dual Invariants), a framework for real-time neuro-symbolic verification for neural signal-controlled robotics. GUARDIAN enforces both logical safety and physiological trust by coupling confidence-calibrated brain signal decoding with symbolic goal grounding and dual-layer runtime monitoring. On the BNCI2014 motor imagery electroencephalogram (EEG) dataset with 9 subjects and 5,184 trials, the system performs at a high safety rate of 94-97% even with lightweight decoder architectures with low test accuracies (27-46%) and high ECE confidence miscalibration (0.22-0.41). We demonstrate 1.7x correct interventions in simulated noise testing versus at baseline. The monitor operates at 100Hz and sub-millisecond decision latency, making it practically viable for closed-loop neural signal-based systems. Across 21 ablation results, GUARDIAN exhibits a graduated response to signal degradation, and produces auditable traces from intent, plan to action, helping to link neural evidence to verifiable robot action."
+  },
+  {
     "title": "Gamma-ray Time Delay and Magnification Ratio in the Gravitationally-Lensed Blazar PKS 1830-211",
     "url": "http://arxiv.org/abs/2511.19419v1",
     "arxiv_id": "2511.19419v1",
