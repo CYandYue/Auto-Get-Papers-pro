@@ -1,5 +1,128 @@
 [
   {
+    "title": "Uncertainty Quantification for Visual Object Pose Estimation",
+    "url": "http://arxiv.org/abs/2511.21666v1",
+    "arxiv_id": "2511.21666v1",
+    "authors": [
+      "Lorenzo Shaikewitz",
+      "Charis Georgiou",
+      "Luca Carlone"
+    ],
+    "published": "2025-11-26T18:39:44+00:00",
+    "summary": "Quantifying the uncertainty of an object's pose estimate is essential for robust control and planning. Although pose estimation is a well-studied robotics problem, attaching statistically rigorous uncertainty is not well understood without strict distributional assumptions. We develop distribution-free pose uncertainty bounds about a given pose estimate in the monocular setting. Our pose uncertainty only requires high probability noise bounds on pixel detections of 2D semantic keypoints on a known object. This noise model induces an implicit, non-convex set of pose uncertainty constraints. Our key contribution is SLUE (S-Lemma Uncertainty Estimation), a convex program to reduce this set to a single ellipsoidal uncertainty bound that is guaranteed to contain the true object pose with high probability. SLUE solves a relaxation of the minimum volume bounding ellipsoid problem inspired by the celebrated S-lemma. It requires no initial guess of the bound's shape or size and is guaranteed to contain the true object pose with high probability. For tighter uncertainty bounds at the same confidence, we extend SLUE to a sum-of-squares relaxation hierarchy which is guaranteed to converge to the minimum volume ellipsoidal uncertainty bound for a given set of keypoint constraints. We show this pose uncertainty bound can easily be projected to independent translation and axis-angle orientation bounds. We evaluate SLUE on two pose estimation datasets and a real-world drone tracking scenario. Compared to prior work, SLUE generates substantially smaller translation bounds and competitive orientation bounds. We release code at https://github.com/MIT-SPARK/PoseUncertaintySets."
+  },
+  {
+    "title": "Updated bounds on the (1,2) neutrino oscillation parameters after first JUNO results",
+    "url": "http://arxiv.org/abs/2511.21650v1",
+    "arxiv_id": "2511.21650v1",
+    "authors": [
+      "Francesco Capozzi",
+      "Eligio Lisi",
+      "Francesco Marcone",
+      "Antonio Marrone",
+      "Antonio Palazzo"
+    ],
+    "published": "2025-11-26T18:20:07+00:00",
+    "summary": "Within the standard $3\u03bd$ framework, we discuss updated bounds on the leading oscillation parameters related to the $(\u03bd_1,\\,\u03bd_2)$ states, namely, the squared mass difference $\u03b4m^2=m^2_2-m^2_1$ and the mixing parameter $\\sin^2\u03b8_{12}$. A previous global analysis of 2024 oscillation data estimated $\u03b4m^2$ and $\\sin^2\u03b8_{12}$ with fractional $1\u03c3$ errors of about $2.3\\%$ and $4.5\\%$, respectively. First we update the analysis by applying the latest SNO+ constraints, that slightly shift the $(\u03b4m^2,\\,\\sin^2\u03b8_{12})$ best fits. Then we apply the constraints placed by the first JUNO results, that significantly reduce the uncertainties of both parameters. Our updated global bounds (as of 2025) can be summarized as: $\u03b4m^2/10^{-5}{\\rm eV}^2 = 7.48\\pm 0.10$ and $\\sin^2\u03b8_{12}=0.3085\\pm0.0073$ (with correlation $\u03c1=-0.20$), corresponding to $1\u03c3$ uncertainties as small as $1.3\\%$ and $2.4\\%$, respectively. We also comment on minor physical and statistical effects that, in the future, may contribute to lift the current mass-ordering degeneracy of $(\u03b4m^2,\\,\u03b8_{12})$ estimates."
+  },
+  {
+    "title": "Active Learning for GCN-based Action Recognition",
+    "url": "http://arxiv.org/abs/2511.21625v1",
+    "arxiv_id": "2511.21625v1",
+    "authors": [
+      "Hichem Sahbi"
+    ],
+    "published": "2025-11-26T17:51:59+00:00",
+    "summary": "Despite the notable success of graph convolutional networks (GCNs) in skeleton-based action recognition, their performance often depends on large volumes of labeled data, which are frequently scarce in practical settings. To address this limitation, we propose a novel label-efficient GCN model. Our work makes two primary contributions. First, we develop a novel acquisition function that employs an adversarial strategy to identify a compact set of informative exemplars for labeling. This selection process balances representativeness, diversity, and uncertainty. Second, we introduce bidirectional and stable GCN architectures. These enhanced networks facilitate a more effective mapping between the ambient and latent data spaces, enabling a better understanding of the learned exemplar distribution. Extensive evaluations on two challenging skeleton-based action recognition benchmarks reveal significant improvements achieved by our label-efficient GCNs compared to prior work."
+  },
+  {
+    "title": "Beyond Accuracy: An Empirical Study of Uncertainty Estimation in Imputation",
+    "url": "http://arxiv.org/abs/2511.21607v1",
+    "arxiv_id": "2511.21607v1",
+    "authors": [
+      "Zarin Tahia Hossain",
+      "Mostafa Milani"
+    ],
+    "published": "2025-11-26T17:27:59+00:00",
+    "summary": "Handling missing data is a central challenge in data-driven analysis. Modern imputation methods not only aim for accurate reconstruction but also differ in how they represent and quantify uncertainty. Yet, the reliability and calibration of these uncertainty estimates remain poorly understood. This paper presents a systematic empirical study of uncertainty in imputation, comparing representative methods from three major families: statistical (MICE, SoftImpute), distribution alignment (OT-Impute), and deep generative (GAIN, MIWAE, TabCSDI). Experiments span multiple datasets, missingness mechanisms (MCAR, MAR, MNAR), and missingness rates. Uncertainty is estimated through three complementary routes: multi-run variability, conditional sampling, and predictive-distribution modeling, and evaluated using calibration curves and the Expected Calibration Error (ECE). Results show that accuracy and calibration are often misaligned: models with high reconstruction accuracy do not necessarily yield reliable uncertainty. We analyze method-specific trade-offs among accuracy, calibration, and runtime, identify stable configurations, and offer guidelines for selecting uncertainty-aware imputers in data cleaning and downstream machine learning pipelines."
+  },
+  {
+    "title": "From Prediction to Foresight: The Role of AI in Designing Responsible Futures",
+    "url": "http://arxiv.org/abs/2511.21570v1",
+    "arxiv_id": "2511.21570v1",
+    "authors": [
+      "Maria Perez-Ortiz"
+    ],
+    "published": "2025-11-26T16:42:10+00:00",
+    "summary": "In an era marked by rapid technological advancements and complex global challenges, responsible foresight has emerged as an essential framework for policymakers aiming to navigate future uncertainties and shape the future. Responsible foresight entails the ethical anticipation of emerging opportunities and risks, with a focus on fostering proactive, sustainable, and accountable future design. This paper coins the term \"responsible computational foresight\", examining the role of human-centric artificial intelligence and computational modeling in advancing responsible foresight, establishing a set of foundational principles for this new field and presenting a suite of AI-driven foresight tools currently shaping it. AI, particularly in conjunction with simulations and scenario analysis, enhances policymakers' ability to address uncertainty, evaluate risks, and devise strategies geared toward sustainable, resilient futures. However, responsible foresight extends beyond mere technical forecasting; it demands a nuanced understanding of the interdependencies within social, environmental, economic and political systems, alongside a commitment to ethical, long-term decision-making that supports human intelligence. We argue that AI will play a role as a supportive tool in responsible, human-centered foresight, complementing rather than substituting policymaker judgment to enable the proactive shaping of resilient and ethically sound futures. This paper advocates for the thoughtful integration of AI into foresight practices to empower policymakers and communities as they confront the grand challenges of the 21st century."
+  },
+  {
+    "title": "Enhanced antineutrino emission from $\u03b2$ decay in core-collapse supernovae with self-consistent weak decay rates",
+    "url": "http://arxiv.org/abs/2511.21567v1",
+    "arxiv_id": "2511.21567v1",
+    "authors": [
+      "T. Dasher",
+      "A. Ravli\u0107",
+      "S. Lalit",
+      "E. O'Connor",
+      "K. Godbey"
+    ],
+    "published": "2025-11-26T16:40:47+00:00",
+    "summary": "Nuclear weak-interaction rates are known to exert a prominent effect in the late-stages of stellar collapse. Despite their importance, most studies to date on core-collapse supernovae (CCSNe) have focused primarily on the effects of electron captures, generally neglecting $\u03b2$ decay contributions. In this Letter, we present the first CCSNe simulation incorporating global $\u03b2$ decay rates from a microscopic theory. These are enabled by a large-scale evaluation of both electron capture and $\u03b2$ decay rates, obtained self-consistently utilizing the relativistic energy density functional theory and finite-temperature quasiparticle random-phase approximation. We find a significant enhancement of antineutrino emissivity by more than 4 orders of magnitude due to the inclusion of $\u03b2$ decay rates, as well as 3 orders of magnitude for antineutrino luminosity. It is expected that these new rates could help us constrain the model uncertainties related to weak-interaction processes, improving the prediction of antineutrino signal during the final stages of stellar death and potentially influencing the late-stage evolution of massive stars."
+  },
+  {
+    "title": "A decoupled alignment kernel for peptide membrane permeability predictions",
+    "url": "http://arxiv.org/abs/2511.21566v1",
+    "arxiv_id": "2511.21566v1",
+    "authors": [
+      "Ali Amirahmadi",
+      "G\u00f6k\u00e7e Geylan",
+      "Leonardo De Maria",
+      "Farzaneh Etminani",
+      "Mattias Ohlsson",
+      "Alessandro Tibo"
+    ],
+    "published": "2025-11-26T16:40:41+00:00",
+    "summary": "Cyclic peptides are promising modalities for targeting intracellular sites; however, cell-membrane permeability remains a key bottleneck, exacerbated by limited public data and the need for well-calibrated uncertainty. Instead of relying on data-eager complex deep learning architecture, we propose a monomer-aware decoupled global alignment kernel (MD-GAK), which couples chemically meaningful residue-residue similarity with sequence alignment while decoupling local matches from gap penalties. MD-GAK is a relatively simple kernel. To further demonstrate the robustness of our framework, we also introduce a variant, PMD-GAK, which incorporates a triangular positional prior. As we will show in the experimental section, PMD-GAK can offer additional advantages over MD-GAK, particularly in reducing calibration errors. Since our focus is on uncertainty estimation, we use Gaussian Processes as the predictive model, as both MD-GAK and PMD-GAK can be directly applied within this framework. We demonstrate the effectiveness of our methods through an extensive set of experiments, comparing our fully reproducible approach against state-of-the-art models, and show that it outperforms them across all metrics."
+  },
+  {
+    "title": "Cosmological Implications of the Extended Uncertainty Principle: Energy Conditions, Stability, and Late Time Acceleration",
+    "url": "http://arxiv.org/abs/2511.21546v1",
+    "arxiv_id": "2511.21546v1",
+    "authors": [
+      "Maryam Roushan",
+      "Narges Rashidi"
+    ],
+    "published": "2025-11-26T16:19:12+00:00",
+    "summary": "We study the cosmological consequences of the Extended Uncertainty Principle (EUP) by deriving modified Friedmann equations through thermodynamic arguments. The evolution of the effective equation of state induced by EUP corrections is analyzed and characterized using the Chevallier-Polarski-Linder (CPL) parametrization. We then examine the fulfillment of classical energy conditions, including the null, weak, strong, and dominant conditions. The dynamical and thermodynamic stability of the model is investigated, showing that the EUP cosmology admits a late-time de Sitter attractor. Finally, we evaluate the effective speed of sound associated with the model and discuss implications for perturbative stability. Our findings indicate that EUP-induced corrections can produce a consistent late-time acceleration without requiring a cosmological constant."
+  },
+  {
+    "title": "Testing modified gravity with 3x2pt analyses in galaxy mocks",
+    "url": "http://arxiv.org/abs/2511.21468v1",
+    "arxiv_id": "2511.21468v1",
+    "authors": [
+      "Marc Alemany-Gotor",
+      "Cristian Viglione",
+      "Pablo Fosalba",
+      "Isaac Tutusaus"
+    ],
+    "published": "2025-11-26T14:58:37+00:00",
+    "summary": "Stage-IV surveys will enable unprecedented tests of gravity on cosmological scales. However, assuming General Relativity in the analysis of large-scale structure could introduce systematic biases if gravity deviates from GR at these scales. Modified gravity theories, such as the Hu-Sawicki formulation of $f(R)$ gravity, offer an alternative explanation for cosmic acceleration without invoking a cosmological constant, while remaining consistent with Solar System tests through screening mechanisms. In this work, we quantify the cosmological parameter biases that arise when using a combination of galaxy clustering and weak-lensing data-vectors, the so-called 3x2pt analysis, from an $f(R)$ galaxy mock under the incorrect assumption of GR, using for the first time high-fidelity full-sky galaxy mock catalogues. We employ a pair of twin simulations: one with GR and one with Hu--Sawicki $f(R)$ gravity with $|f_{R0}| = 10^{-5}$. The mocks are built using an HOD method to populate the dark matter haloes with galaxies, calibrated against SDSS observations at low redshift. Using conservative scale cuts to minimise modelling uncertainties, we perform 3x2pt analyses and infer cosmological parameters through nested sampling, validating our pipeline with the GR mock. Our results show that when analysing the $f(R)$ galaxy mock assuming GR, the recovered cosmological parameters are very significantly biased, even when considering conservative scale cuts: the Figure of Bias reaches $\\sim12\u03c3$ for both $\\{\u03a9_{\\rm m}, \u03c3_8\\}$ and $S_8$. These biases persist even when marginalising over the galaxy bias and baryonic feedback, demonstrating that nuisance parameters cannot absorb the effects of modified gravity. We conclude that incorrectly assuming GR in a universe governed by $f(R)$ gravity leads to severe and detectable biases in cosmological inference for Stage-IV surveys."
+  },
+  {
+    "title": "The Directed Prediction Change - Efficient and Trustworthy Fidelity Assessment for Local Feature Attribution Methods",
+    "url": "http://arxiv.org/abs/2511.21363v1",
+    "arxiv_id": "2511.21363v1",
+    "authors": [
+      "Kevin Iselborn",
+      "David Dembinsky",
+      "Adriano Lucieri",
+      "Andreas Dengel"
+    ],
+    "published": "2025-11-26T13:11:42+00:00",
+    "summary": "The utility of an explanation method critically depends on its fidelity to the underlying machine learning model. Especially in high-stakes medical settings, clinicians and regulators require explanations that faithfully reflect the model's decision process. Existing fidelity metrics such as Infidelity rely on Monte Carlo approximation, which demands numerous model evaluations and introduces uncertainty due to random sampling. This work proposes a novel metric for evaluating the fidelity of local feature attribution methods by modifying the existing Prediction Change (PC) metric within the Guided Perturbation Experiment. By incorporating the direction of both perturbation and attribution, the proposed Directed Prediction Change (DPC) metric achieves an almost tenfold speedup and eliminates randomness, resulting in a deterministic and trustworthy evaluation procedure that measures the same property as local Infidelity. DPC is evaluated on two datasets (skin lesion images and financial tabular data), two black-box models, seven explanation algorithms, and a wide range of hyperparameters. Across $4\\,744$ distinct explanations, the results demonstrate that DPC, together with PC, enables a holistic and computationally efficient evaluation of both baseline-oriented and local feature attribution methods, while providing deterministic and reproducible outcomes."
+  },
+  {
     "title": "Carrier transport and electrical bandgaps in epitaxial CrN layers",
     "url": "http://arxiv.org/abs/2511.20625v1",
     "arxiv_id": "2511.20625v1",
