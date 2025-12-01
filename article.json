@@ -1,5 +1,141 @@
 [
   {
+    "title": "Epistemic and Aleatoric Uncertainty Quantification in Weather and Climate Models",
+    "url": "http://arxiv.org/abs/2511.23448v1",
+    "arxiv_id": "2511.23448v1",
+    "authors": [
+      "Laura A. Mansfield",
+      "Hannah M. Christensen"
+    ],
+    "published": "2025-11-28T18:40:31+00:00",
+    "summary": "Representing and quantifying uncertainty in physical parameterisations is a central challenge in weather and climate modelling, and approaches are often developed separately for different timescales. Here, we introduce a unified framework for analysing uncertainty in parameterisations across weather and climate regimes. Using the Lorenz 1996 system as a testbed for simplified chaotic dynamics, we quantify uncertainties in a subgrid-scale parameterisation using a Bayesian Neural Network (BNN). This allows us to disentangle aleatoric uncertainty, arising from internal variability in the training data, and epistemic uncertainties, arising from poorly constrained parameters during training. At runtime, we sample uncertainties in line with stochastic approaches in weather models and perturbed-parameter methods in climate models. On weather timescales, aleatoric uncertainty dominates, underscoring the value of stochastic parameterisations. On longer, climate timescales and under changing forcings, accounting for both types of uncertainty is necessary for well-calibrated ensembles, with epistemic uncertainty widening the range of explored climate states, and aleatoric uncertainty promoting transitions between them. Constraining parameter uncertainty with short simulations reduces epistemic uncertainty and improves long-term model behaviour under perturbed forcings. This framework links concepts from machine learning with traditional uncertainty quantification in Earth system modelling, offering a pathway toward seamless treatment of uncertainty in weather and climate prediction."
+  },
+  {
+    "title": "Accelerated Execution of Bayesian Neural Networks using a Single Probabilistic Forward Pass and Code Generation",
+    "url": "http://arxiv.org/abs/2511.23440v1",
+    "arxiv_id": "2511.23440v1",
+    "authors": [
+      "Bernhard Klein",
+      "Falk Selker",
+      "Hendrik Borras",
+      "Sophie Steger",
+      "Franz Pernkopf",
+      "Holger Fr\u00f6ning"
+    ],
+    "published": "2025-11-28T18:35:20+00:00",
+    "summary": "Machine learning models perform well across domains such as diagnostics, weather forecasting, NLP, and autonomous driving, but their limited uncertainty handling restricts use in safety-critical settings. Traditional neural networks often fail to detect out-of-domain (OOD) data and may output confident yet incorrect predictions. Bayesian neural networks (BNNs) address this by providing probabilistic estimates, but incur high computational cost because predictions require sampling weight distributions and multiple forward passes. The Probabilistic Forward Pass (PFP) offers a highly efficient approximation to Stochastic Variational Inference (SVI) by assuming Gaussian-distributed weights and activations, enabling fully analytic uncertainty propagation and replacing sampling with a single deterministic forward pass. We present an end-to-end pipeline for training, compiling, optimizing, and deploying PFP-based BNNs on embedded ARM CPUs. Using the TVM deep learning compiler, we implement a dedicated library of Gaussian-propagating operators for multilayer perceptrons and convolutional neural networks, combined with manual and automated tuning strategies. Ablation studies show that PFP consistently outperforms SVI in computational efficiency, achieving speedups of up to 4200x for small mini-batches. PFP-BNNs match SVI-BNNs on Dirty-MNIST in accuracy, uncertainty estimation, and OOD detection while greatly reducing compute cost. These results highlight the potential of combining Bayesian approximations with code generation to enable efficient BNN deployment on resource-constrained systems."
+  },
+  {
+    "title": "Consensus Tree Estimation with False Discovery Rate Control via Partially Ordered Sets",
+    "url": "http://arxiv.org/abs/2511.23433v1",
+    "arxiv_id": "2511.23433v1",
+    "authors": [
+      "Maria Alejandra Valdez Cabrera",
+      "Amy D Willis",
+      "Armeen Taeb"
+    ],
+    "published": "2025-11-28T18:31:12+00:00",
+    "summary": "Connected acyclic graphs (trees) are data objects that hierarchically organize categories. Collections of trees arise in a diverse variety of fields, including evolutionary biology, public health, machine learning, social sciences and anatomy. Summarizing a collection of trees by a single representative is challenging, in part due to the dimension of both the sample and parameter space. We frame consensus tree estimation as a structured feature-selection problem, where leaves and edges are the features. We introduce a partial order on leaf-labeled trees, use it to define true and false discoveries for a candidate summary tree, and develop an estimation algorithm that controls the false discovery rate at a nominal level for a broad class of non-parametric generative models. Furthermore, using the partial order structure, we assess the stability of each feature in a selected tree. Importantly, our method accommodates unequal leaf sets and non-binary trees, allowing the estimator to reflect uncertainty by collapsing poorly supported structure instead of forcing full resolution. We apply the method to study the archaeal origin of eukaryotic cells and to quantify uncertainty in deep branching orders. While consensus tree construction has historically been viewed as an estimation task, reframing it as feature selection over a partially ordered set allows us to obtain the first estimator with finite-sample and model-free guarantees. More generally, our approach provides a foundation for integrating tools from multiple testing into tree estimation."
+  },
+  {
+    "title": "From CAD to POMDP: Probabilistic Planning for Robotic Disassembly of End-of-Life Products",
+    "url": "http://arxiv.org/abs/2511.23407v1",
+    "arxiv_id": "2511.23407v1",
+    "authors": [
+      "Jan Baumg\u00e4rtner",
+      "Malte Hansjosten",
+      "David Hald",
+      "Adrian Hauptmannl",
+      "Alexander Puchta",
+      "J\u00fcrgen Fleischer"
+    ],
+    "published": "2025-11-28T18:03:34+00:00",
+    "summary": "To support the circular economy, robotic systems must not only assemble new products but also disassemble end-of-life (EOL) ones for reuse, recycling, or safe disposal. Existing approaches to disassembly sequence planning often assume deterministic and fully observable product models, yet real EOL products frequently deviate from their initial designs due to wear, corrosion, or undocumented repairs. We argue that disassembly should therefore be formulated as a Partially Observable Markov Decision Process (POMDP), which naturally captures uncertainty about the product's internal state. We present a mathematical formulation of disassembly as a POMDP, in which hidden variables represent uncertain structural or physical properties. Building on this formulation, we propose a task and motion planning framework that automatically derives specific POMDP models from CAD data, robot capabilities, and inspection results. To obtain tractable policies, we approximate this formulation with a reinforcement-learning approach that operates on stochastic action outcomes informed by inspection priors, while a Bayesian filter continuously maintains beliefs over latent EOL conditions during execution. Using three products on two robotic systems, we demonstrate that this probabilistic planning framework outperforms deterministic baselines in terms of average disassembly time and variance, generalizes across different robot setups, and successfully adapts to deviations from the CAD model, such as missing or stuck parts."
+  },
+  {
+    "title": "Bounded-Error Quantum Simulation via Hamiltonian and Lindbladian Learning",
+    "url": "http://arxiv.org/abs/2511.23392v1",
+    "arxiv_id": "2511.23392v1",
+    "authors": [
+      "Tristan Kraft",
+      "Manoj K. Joshi",
+      "William Lam",
+      "Tobias Olsacher",
+      "Florian Kranzl",
+      "Johannes Franke",
+      "Lata Kh Joshi",
+      "Rainer Blatt",
+      "Augusto Smerzi",
+      "Daniel Stilck Fran\u00e7a",
+      "Beno\u00eet Vermersch",
+      "Barbara Kraus",
+      "Christian F. Roos",
+      "Peter Zoller"
+    ],
+    "published": "2025-11-28T17:33:59+00:00",
+    "summary": "Analog Quantum Simulators offer a route to exploring strongly correlated many-body dynamics beyond classical computation, but their predictive power remains limited by the absence of quantitative error estimation. Establishing rigorous uncertainty bounds is essential for elevating such devices from qualitative demonstrations to quantitative scientific tools. Here we introduce a general framework for bounded-error quantum simulation, which provides predictions for many-body observables with experimentally quantifiable uncertainties. The approach combines Hamiltonian and Lindbladian Learning--a statistically rigorous inference of the coherent and dissipative generators governing the dynamics--with the propagation of their uncertainties into the simulated observables, yielding confidence bounds directly derived from experimental data. We demonstrate this framework on trapped-ion quantum simulators implementing long-range Ising interactions with up to 51 ions, and validate it where classical comparison is possible. We analyze error bounds on two levels. First, we learn an open-system model from experimental data collected in an initial time window of quench dynamics, simulate the corresponding master equation, and quantitatively verify consistency between theoretical predictions and measured dynamics at long times. Second, we establish error bounds directly from experimental measurements alone, without relying on classical simulation--crucial for entering regimes of quantum advantage. The learned models reproduce the experimental evolution within the predicted bounds, demonstrating quantitative reliability and internal consistency. Bounded-error quantum simulation provides a scalable foundation for trusted analog quantum computation, bridging the gap between experimental platforms and predictive many-body physics. The techniques presented here directly extend to digital quantum simulation."
+  },
+  {
+    "title": "The Kinematic Properties of T\u017bO Candidate HV 11417 with Gaia DR3",
+    "url": "http://arxiv.org/abs/2511.23368v1",
+    "arxiv_id": "2511.23368v1",
+    "authors": [
+      "Anna J. G. O'Grady"
+    ],
+    "published": "2025-11-28T17:15:15+00:00",
+    "summary": "HV 11417 is a candidate Thorne-\u017bytkow Object, a red supergiant with a neutron star core, located within the Small Magellanic Cloud (SMC). Previous studies have questioned, using Gaia DR2 data, whether HV 11417 was truly located at the distance of the SMC or was instead a foreground star. However, the proper motion measurement uncertainties for HV 11417 in DR2 were high. In this work, we use Gaia DR3 data to show that HV 11417 is very likely to be a true member of the SMC. We further analyze the kinematics of HV 11417 relative to its local environment, and compare it to populations of massive and evolved stars in the SMC. We find HV 11417 has a local transverse velocity of $52\\pm15$ km/s, and thus qualifies as a runaway star (v$_\\mathrm{loc}\\geq$ 30 km/s). This runaway classification does not conclusively prove its nature as a T\u017bO, particularly given results from recent T\u017bO models, but does indicate that HV 11417 experienced a kinematic disruption in its evolution."
+  },
+  {
+    "title": "Data-driven Reachability Verification with Probabilistic Guarantees under Koopman Spectral Uncertainty",
+    "url": "http://arxiv.org/abs/2511.23322v1",
+    "arxiv_id": "2511.23322v1",
+    "authors": [
+      "Jianqiang Ding",
+      "Shankar A. Deka"
+    ],
+    "published": "2025-11-28T16:23:40+00:00",
+    "summary": "Providing rigorous reachability guarantees for unknown complex systems is a crucial and challenging task. In this paper, we present a novel data-driven framework that addresses this challenge by leveraging Koopman operator theory. Instead of operating in the state space, the proposed method encodes model uncertainty from finite data directly into Koopman spectral representation with quantifiable error bounds. Leveraging this spectral information, we systematically determine time intervals within which trajectories from the initial set are guaranteed, with a prescribed probability, to reach the target set. This enables the rigorous reachability verification without explicit computation of reachable sets, thereby offering a significant advantage in scalability and applicability. We finally validate the effectiveness of the proposed framework through case studies on representative dynamical systems."
+  },
+  {
+    "title": "Multi-Modal Scene Graph with Kolmogorov-Arnold Experts for Audio-Visual Question Answering",
+    "url": "http://arxiv.org/abs/2511.23304v1",
+    "arxiv_id": "2511.23304v1",
+    "authors": [
+      "Zijian Fu",
+      "Changsheng Lv",
+      "Mengshi Qi",
+      "Huadong Ma"
+    ],
+    "published": "2025-11-28T16:03:23+00:00",
+    "summary": "In this paper, we propose a novel Multi-Modal Scene Graph with Kolmogorov-Arnold Expert Network for Audio-Visual Question Answering (SHRIKE). The task aims to mimic human reasoning by extracting and fusing information from audio-visual scenes, with the main challenge being the identification of question-relevant cues from the complex audio-visual content. Existing methods fail to capture the structural information within video, and suffer from insufficient fine-grained modeling of multi-modal features. To address these issues, we are the first to introduce a new multi-modal scene graph that explicitly models the objects and their relationship as a visually grounded, structured representation of the audio-visual scene. Furthermore, we design a Kolmogorov-Arnold Network~(KAN)-based Mixture of Experts (MoE) to enhance the expressive power of the temporal integration stage. This enables more fine-grained modeling of cross-modal interactions within the question-aware fused audio-visual representation, leading to capture richer and more nuanced patterns and then improve temporal reasoning performance. We evaluate the model on the established MUSIC-AVQA and MUSIC-AVQA v2 benchmarks, where it achieves state-of-the-art performance. Code and model checkpoints will be publicly released."
+  },
+  {
+    "title": "Intrinsic $k_T$ and soft gluons in Monte Carlo event generators",
+    "url": "http://arxiv.org/abs/2511.23291v1",
+    "arxiv_id": "2511.23291v1",
+    "authors": [
+      "Louis Moureaux",
+      "Aleksandra Lelek",
+      "Francesco Hautmann",
+      "Laurent Favart"
+    ],
+    "published": "2025-11-28T15:46:14+00:00",
+    "summary": "Experimental measurements of the transverse momentum of Drell-Yan lepton pairs are sensitive to non-perturbative physics associated with the intrinsic parton transverse momentum $k_T$. We discuss recent determinations of intrinsic $k_T$ in the context of transverse momentum dependent (TMD) parton branching calculations and collinear parton-shower Monte Carlo generators. We illustrate the influence of the soft-gluon resolution scale and the non-perturbative Sudakov region on the intrinsic $k_T$ extraction. We emphasize the relevance of the correct treatment of correlated uncertainties between different transverse momentum bins in TMD fits and present an application to the determination of the intrinsic $k_T$ in the forward rapidity region."
+  },
+  {
+    "title": "Quark mixing from muon collider neutrinos",
+    "url": "http://arxiv.org/abs/2511.23288v1",
+    "arxiv_id": "2511.23288v1",
+    "authors": [
+      "David Marzocca",
+      "Francesco Montagno",
+      "Manuel Morales-Alvarado",
+      "Andrea Wulzer"
+    ],
+    "published": "2025-11-28T15:45:24+00:00",
+    "summary": "A high energy muon collider naturally produces a collimated beam of neutrinos for a fixed-target experiment at a dedicated far-forward facility. The high intensity and energy of the beam makes it ideally suited for astonishingly precise measurements of neutrino scattering on nucleons in the deeply inelastic regime, enabling the determination of the Cabibbo--Kobayashi--Maskawa~(CKM) quark mixing matrix. We assess the floor to the attainable sensitivity set by irreducible sources of uncertainties from the imperfect knowledge of the parton distribution (PDF) and fragmentation functions, showing that a strong improvement is possible well above current standards. As a by-product, our analysis also outlines extraordinary perspectives for a combined determination of the PDF. The results demonstrate the potential of a parasitic neutrino experiment at the muon collider, motivating detailed future studies."
+  },
+  {
     "title": "Uncertainty Quantification for Visual Object Pose Estimation",
     "url": "http://arxiv.org/abs/2511.21666v1",
     "arxiv_id": "2511.21666v1",
