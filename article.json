@@ -1,5 +1,145 @@
 [
   {
+    "title": "Radiative decays of the $\u03a3_c$, $\u039e'_c$ and $\u03a9_c$ charmed baryons",
+    "url": "http://arxiv.org/abs/2512.03008v1",
+    "arxiv_id": "2512.03008v1",
+    "authors": [
+      "A. D\u00e1vila-Rivera",
+      "H. Garc\u00eda-Tecocoatzi",
+      "A. Ramirez-Morales",
+      "Ailier Rivero-Acosta",
+      "E. Santopinto",
+      "Carlos Alberto Vaquera-Araujo"
+    ],
+    "published": "2025-12-02T18:33:15+00:00",
+    "summary": "In this work, we study the radiative decays of the $\u03a3_c$, $\u039e'_c$ and $\u03a9_c$ charmed baryons, which belong to the flavor sextet ($\\bf {6}_{\\rm F}$), within the constituent quark model formalism. The electromagnetic transitions are calculated from the ground and $P$-wave states to ground states, as well as from the second shell states to both the ground and $P$-wave final states. These decays play a crucial role in confirming the existence of certain resonances when strong decays are not allowed. %A relevant case is the $\u03a9_c^{0}$ spin excitation with $\\bf J^P ={\\frac{3}{2}}^{+}$ denoted as $\u03a9_c^{*0}$. This state cannot decay strongly, but has a nonvanishing predicted electromagnetic decay width in the $\u03a9_c^{0} \u03b3$ channel. The $\u03a9_c^{*0}$ was precisely observed in this channel. Moreover, electromagnetic decay widths are particularly useful for identifying resonances when states have the same mass and total decay width. A relevant case is the $\u03a9_c (3327)$ state, whose branching ratios between the strong decay channels are comparable; thus, the radiative decay widths may help assign this state. We also make the assignment of the recently discovered $\u039e'_c(2923)^{+}$ baryon, which is consistent with being the isospin partner of the $\u039e'_c(2923)^{0}$. This study presents, for the first time, the calculation of electromagnetic decays for $D_\u03c1$-wave states, $\u03c1-\u03bb$ mixed states, and $\u03c1$-mode radially excited states in the charm sector. Throughout our calculations, we account for uncertainties arising from both experimental and model-dependent errors."
+  },
+  {
+    "title": "MIRI spectrophotometry of GN-z11: Detection and nature of an optical red continuum component",
+    "url": "http://arxiv.org/abs/2512.02997v1",
+    "arxiv_id": "2512.02997v1",
+    "authors": [
+      "A. Crespo G\u00f3mez",
+      "L. Colina",
+      "P. G. P\u00e9rez-Gonz\u00e1lez",
+      "J. \u00c1lvarez-M\u00e1rquez",
+      "M. Garc\u00eda-Mar\u00edn",
+      "A. Alonso-Herrero",
+      "M. Annunziatella",
+      "A. Bik",
+      "S. Bosman",
+      "A. J. Bunker",
+      "A. Labiano",
+      "D. Langeroodi",
+      "P. Rinaldi",
+      "G. \u00d6stlin",
+      "L. Boogaard",
+      "S. Gillman",
+      "G. Barro",
+      "S. L. Finkelstein",
+      "G. C. K. Leung"
+    ],
+    "published": "2025-12-02T18:21:39+00:00",
+    "summary": "We present new MIRI F560W, F770W and F1000W imaging of GN-z11, extending the previous rest-frame coverage from 0.38 to 0.86$\u03bc$m. We report significant detections (14$\u03c3$) in the F560W and F770W images, and a marginal detection (3.2$\u03c3$) in F1000W. Here, we analyse its SED combining new MIRI imaging data with archival NIRSpec/Prism and MRS spectroscopy, and NIRCam imaging. The continuum emission shows a flat energy distribution, in f$_\u03bd$, up to 0.5$\u03bc$m, compatible with the presence of a mixed stellar population of young (4$\\pm$1 Myr) and mature (63$\\pm$23 Myr) stars that also account for the [O III], H$\u03b2$ and H$\u03b1$ emission lines. The continuum at rest-frame 0.66$\u03bc$m shows a 36$\\pm$3% flux excess above the predicted flux for a mixed stellar population, pointing to the presence of an additional source contributing at these wavelengths. This excess increases to 91$\\pm$28% at rest-frame 0.86$\u03bc$m, although with a large uncertainty due to the marginal detection in the F1000W filter. We consider that hot dust emission in the dusty torus around a type 2 AGN could be responsible for the observed excess. Alternatively, this excess could be due to hot dust emission or to a photoluminiscence dust process (Extended Red Emission, ERE) under the extreme UV radiation field, as observed in some local metal-poor galaxies and in young compact starbursts. The presence of a type 1 AGN is not supported by the observed SED since high-z QSOs contribute at wavelengths above rest-frame 1$\u03bc$m, and an additional ad-hoc red source would be required to explain the observed flux excess at 0.66 and 0.86$\u03bc$m. Additional deep MIRI imaging covering the rest-frame near-IR are needed to confirm the flux detection at 10$\u03bc$m with higher significance, and to discriminate between the different hot dust emission in the extreme starburst and AGN scenarios with MIRI imaging at longer wavelengths."
+  },
+  {
+    "title": "U4D: Uncertainty-Aware 4D World Modeling from LiDAR Sequences",
+    "url": "http://arxiv.org/abs/2512.02982v1",
+    "arxiv_id": "2512.02982v1",
+    "authors": [
+      "Xiang Xu",
+      "Ao Liang",
+      "Youquan Liu",
+      "Linfeng Li",
+      "Lingdong Kong",
+      "Ziwei Liu",
+      "Qingshan Liu"
+    ],
+    "published": "2025-12-02T17:59:57+00:00",
+    "summary": "Modeling dynamic 3D environments from LiDAR sequences is central to building reliable 4D worlds for autonomous driving and embodied AI. Existing generative frameworks, however, often treat all spatial regions uniformly, overlooking the varying uncertainty across real-world scenes. This uniform generation leads to artifacts in complex or ambiguous regions, limiting realism and temporal stability. In this work, we present U4D, an uncertainty-aware framework for 4D LiDAR world modeling. Our approach first estimates spatial uncertainty maps from a pretrained segmentation model to localize semantically challenging regions. It then performs generation in a \"hard-to-easy\" manner through two sequential stages: (1) uncertainty-region modeling, which reconstructs high-entropy regions with fine geometric fidelity, and (2) uncertainty-conditioned completion, which synthesizes the remaining areas under learned structural priors. To further ensure temporal coherence, U4D incorporates a mixture of spatio-temporal (MoST) block that adaptively fuses spatial and temporal representations during diffusion. Extensive experiments show that U4D produces geometrically faithful and temporally consistent LiDAR sequences, advancing the reliability of 4D world modeling for autonomous perception and simulation."
+  },
+  {
+    "title": "InEx: Hallucination Mitigation via Introspection and Cross-Modal Multi-Agent Collaboration",
+    "url": "http://arxiv.org/abs/2512.02981v1",
+    "arxiv_id": "2512.02981v1",
+    "authors": [
+      "Zhongyu Yang",
+      "Yingfang Yuan",
+      "Xuanming Jiang",
+      "Baoyi An",
+      "Wei Pang"
+    ],
+    "published": "2025-12-02T17:59:52+00:00",
+    "summary": "Hallucination remains a critical challenge in large language models (LLMs), hindering the development of reliable multimodal LLMs (MLLMs). Existing solutions often rely on human intervention or underutilize the agent's ability to autonomously mitigate hallucination. To address these limitations, we draw inspiration from how humans make reliable decisions in the real world. They begin with introspective reasoning to reduce uncertainty and form an initial judgment, then rely on external verification from diverse perspectives to reach a final decision. Motivated by this cognitive paradigm, we propose InEx, a training-free, multi-agent framework designed to autonomously mitigate hallucination. InEx introduces internal introspective reasoning, guided by entropy-based uncertainty estimation, to improve the reliability of the decision agent's reasoning process. The agent first generates a response, which is then iteratively verified and refined through external cross-modal multi-agent collaboration with the editing agent and self-reflection agents, further enhancing reliability and mitigating hallucination. Extensive experiments show that InEx consistently outperforms existing methods, achieving 4%-27% gains on general and hallucination benchmarks, and demonstrating strong robustness."
+  },
+  {
+    "title": "Hypothesis Testing for Generalized Thurstone Models",
+    "url": "http://arxiv.org/abs/2512.02912v1",
+    "arxiv_id": "2512.02912v1",
+    "authors": [
+      "Anuran Makur",
+      "Japneet Singh"
+    ],
+    "published": "2025-12-02T16:32:42+00:00",
+    "summary": "In this work, we develop a hypothesis testing framework to determine whether pairwise comparison data is generated by an underlying \\emph{generalized Thurstone model} $\\mathcal{T}_F$ for a given choice function $F$. While prior work has predominantly focused on parameter estimation and uncertainty quantification for such models, we address the fundamental problem of minimax hypothesis testing for $\\mathcal{T}_F$ models. We formulate this testing problem by introducing a notion of separation distance between general pairwise comparison models and the class of $\\mathcal{T}_F$ models. We then derive upper and lower bounds on the critical threshold for testing that depend on the topology of the observation graph. For the special case of complete observation graphs, this threshold scales as $\u0398((nk)^{-1/2})$, where $n$ is the number of agents and $k$ is the number of comparisons per pair. Furthermore, we propose a hypothesis test based on our separation distance, construct confidence intervals, establish time-uniform bounds on the probabilities of type I and II errors using reverse martingale techniques, and derive minimax lower bounds using information-theoretic methods. Finally, we validate our results through experiments on synthetic and real-world datasets."
+  },
+  {
+    "title": "Statistical-Symbolic Verification of Perception-Based Autonomous Systems using State-Dependent Conformal Prediction",
+    "url": "http://arxiv.org/abs/2512.02893v1",
+    "arxiv_id": "2512.02893v1",
+    "authors": [
+      "Yuang Geng",
+      "Thomas Waite",
+      "Trevor Turnquist",
+      "Radoslav Ivanov",
+      "Ivan Ruchkin"
+    ],
+    "published": "2025-12-02T16:02:49+00:00",
+    "summary": "Reachability analysis has been a prominent way to provide safety guarantees for neurally controlled autonomous systems, but its direct application to neural perception components is infeasible due to imperfect or intractable perception models. Typically, this issue has been bypassed by complementing reachability with statistical analysis of perception error, say with conformal prediction (CP). However, existing CP methods for time-series data often provide conservative bounds. The corresponding error accumulation over time has made it challenging to combine statistical bounds with symbolic reachability in a way that is provable, scalable, and minimally conservative. To reduce conservatism and improve scalability, our key insight is that perception error varies significantly with the system's dynamical state. This article proposes state-dependent conformal prediction, which exploits that dependency in constructing tight high-confidence bounds on perception error. Based on this idea, we provide an approach to partition the state space, using a genetic algorithm, so as to optimize the tightness of conformal bounds. Finally, since using these bounds in reachability analysis leads to additional uncertainty and branching in the resulting hybrid system, we propose a branch-merging reachability algorithm that trades off uncertainty for scalability so as to enable scalable and tight verification. The evaluation of our verification methodology on two complementary case studies demonstrates reduced conservatism compared to the state of the art."
+  },
+  {
+    "title": "Discovery and rectification of an error in high resistance traceability at NPL: a case study in how metrology works",
+    "url": "http://arxiv.org/abs/2512.02887v1",
+    "arxiv_id": "2512.02887v1",
+    "authors": [
+      "Stephen Giblin"
+    ],
+    "published": "2025-12-02T15:45:06+00:00",
+    "summary": "We broach a seldom-discussed topic in precision metrology; how subtle errors in calibration processes are discovered and remedied. We examine a case study at the National Physical Laboratory (NPL), UK, involving the calibration of DC standard resistors of value 100 MOhm and 1 GOhm. Results from the period 2001 to 2015 were in error by approximately 0.7 parts per million (ppm), with quoted uncertainties (k=2) of 0.4 ppm and 1.6 ppm respectively. Inter-comparisons did not detect the error, mainly because the uncertainty due to the transportation drift of the comparison standards was too large to resolve it. Likewise, research into single-electron current standards did not detect the error because at this resistance value it was on the borderline of statistical significance. The key event was a comparison between PTB (Germany) and NPL (UK) of a new small-current measuring instrument, the ultrastable low-noise current amplifier (ULCA). At that time, the transport stability of the ULCA was not well established. Nevertheless, calibrations of the ULCA at NPL using a 100 MOhm resistor were sufficiently discrepant with the PTB calibrations to motivate a thorough investigation into the NPL traceability chain, which uncovered the error. This instructive episode illustrates a positive interplay between calibration and research activities and shows that cutting-edge calibration uncertainties must be supported by a vigorous research programme. It is also important for NMIs to maintain a comfortable buffer (at least a factor of 10) between their claimed uncertainty and the uncertainty that their customers require, so that small errors can be resolved without significant impact on measurement stakeholders."
+  },
+  {
+    "title": "Insights into Extragalactic Background Light constraints with MAGIC archival data",
+    "url": "http://arxiv.org/abs/2512.02880v1",
+    "arxiv_id": "2512.02880v1",
+    "authors": [
+      "R. Grau",
+      "A. Moralejo"
+    ],
+    "published": "2025-12-02T15:37:59+00:00",
+    "summary": "The Extragalactic Background Light (EBL) is the accumulated light emitted throughout the history of the universe, spanning the UV, optical, and IR spectral ranges. Stars and dust in galaxies are expected to be the main source of the EBL. However, recent direct measurements performed beyond Pluto's orbit (less affected by foregrounds than those performed from the Earth) hint at an EBL level in the optical band larger than the one expected from the integrated contribution of known galaxy populations. One approach that could solve this controversy uses Very High Energy (VHE) photons coming from sources at cosmological distances. These photons can interact with the EBL producing electron-positron pairs, a process that leaves an imprint on the observed VHE spectrum. This technique, however, requires assumptions on the intrinsic spectrum of the source, which can compromise the robustness of EBL constraints. In this contribution, we used Monte Carlo simulations and archival data of the MAGIC telescopes to study the impact that the assumptions adopted in the literature have on the estimate of the EBL density, and how using more generic ones would modify the results. Our results show how the EBL density constraints obtained highly depend on the intrinsic spectral shape assumed for the source. We have studied two different methods to reduce the assumptions on the intrinsic spectral shape to get more robust results. This will be especially important for upcoming with new VHE facilities, where systematic uncertainties are expected to play a more significant role compared to statistical ones."
+  },
+  {
+    "title": "The future of AI in critical mineral exploration",
+    "url": "http://arxiv.org/abs/2512.02879v1",
+    "arxiv_id": "2512.02879v1",
+    "authors": [
+      "Jef Caers"
+    ],
+    "published": "2025-12-02T15:37:48+00:00",
+    "summary": "The energy transition through increased electrification has put the worlds attention on critical mineral exploration Even with increased investments a decrease in new discoveries has taken place over the last two decades Here I propose a solution to this problem where AI is implemented as the enabler of a rigorous scientific method for mineral exploration that aims to reduce cognitive bias and false positives drive down the cost of exploration I propose a new scientific method that is based on a philosophical approach founded on the principles of Bayesianism and falsification In this approach data acquisition is in the first place seen as a means to falsify human generated hypothesis Decision of what data to acquire next is quantified with verifiable metrics and based on rational decision making A practical protocol is provided that can be used as a template in any exploration campaign However in order to make this protocol practical various form of artificial intelligence are needed I will argue that the most important form are one novel unsupervised learning methods that collaborate with domain experts to better understand data and generate multiple competing geological hypotheses and two humanintheloop AI algorithms that can optimally plan various geological geophysical geochemical and drilling data acquisition where uncertainty reduction of geological hypothesis precedes the uncertainty reduction on grade and tonnage"
+  },
+  {
+    "title": "Correcting for sampling variability in maximum likelihood-based one-sample log-rank tests",
+    "url": "http://arxiv.org/abs/2512.02878v1",
+    "arxiv_id": "2512.02878v1",
+    "authors": [
+      "Moritz Fabian Danzer",
+      "Rene Schmidt"
+    ],
+    "published": "2025-12-02T15:37:08+00:00",
+    "summary": "Single-arm studies in the early development phases of new treatments are not uncommon in the context of rare diseases or in paediatrics. If an assessment of efficacy is to be made at the end of such a study, the observed endpoints can be compared with reference values that can be derived from historical data. For a time-to-event endpoint, a statistical comparison with a reference curve can be made using the one-sample log-rank test. In order to ensure the interpretability of the results of this test, the role of the reference curve is crucial. This quantity is often estimated from a historical control group using a parametric procedure. Hence, it should be noted that it is subject to estimation uncertainty. However, this aspect is not taken into account in the one-sample log-rank test statistic. We analyse this estimation uncertainty for the common situation that the reference curve is estimated parametrically using the maximum likelihood method, and indicate how the variance estimation of the one-sample log-rank test can be adapted in order to take this variability into account. The resulting test procedures are illustrated using a data example and analysed in more detail using simulations."
+  },
+  {
     "title": "Fault-tolerant mutual-visibility: complexity and solutions for grid-like networks",
     "url": "http://arxiv.org/abs/2512.01978v1",
     "arxiv_id": "2512.01978v1",
