@@ -1,5 +1,153 @@
 [
   {
+    "title": "SymPyBench: A Dynamic Benchmark for Scientific Reasoning with Executable Python Code",
+    "url": "http://arxiv.org/abs/2512.05954v1",
+    "arxiv_id": "2512.05954v1",
+    "authors": [
+      "Shima Imani",
+      "Seungwhan Moon",
+      "Adel Ahmadyan",
+      "Lu Zhang",
+      "Kirmani Ahmed",
+      "Babak Damavandi"
+    ],
+    "published": "2025-12-05T18:50:48+00:00",
+    "summary": "We introduce, a large-scale synthetic benchmark of 15,045 university-level physics problems (90/10% train/test split). Each problem is fully parameterized, supporting an effectively infinite range of input configurations, and is accompanied by structured, step-by-step reasoning and executable Python code that produces the ground-truth solution for any parameter set. The benchmark contains three question types: MC-Symbolic (multiple-choice with symbolic options), MC-Numerical (multiple-choice with numerical options), and free-form (open-ended responses). These diverse formats test complementary reasoning skills. By leveraging the dynamic, code-driven nature of the benchmark, we introduce three novel evaluation metrics in addition to standard accuracy: Consistency Score, Failure Rate, and Confusion Rate, that quantify variability and uncertainty across problem variants. Experiments with state-of-the-art instruction-tuned language models reveal both strengths and limitations in scientific reasoning, positioning SymPyBench as a foundation for developing more robust and interpretable reasoning systems"
+  },
+  {
+    "title": "Constraining r-process nucleosynthesis via enhanced accuracy neutron-capture experiments",
+    "url": "http://arxiv.org/abs/2512.05944v1",
+    "arxiv_id": "2512.05944v1",
+    "authors": [
+      "C. Domingo-Pardo",
+      "C. Lederer-Woods",
+      "A. Mengoni"
+    ],
+    "published": "2025-12-05T18:41:43+00:00",
+    "summary": "The isotopic abundances of r-process elements in the solar system are traditionally derived as residuals from the subtraction of s-process contributions from total solar abundances. However, the uncertainties in s-process nucleosynthesis -particularly those arising from Maxwellian Averaged Cross Sections (MACS)- propagate directly into the r-process residuals, affecting their reliability. Building upon the seminal work of Goriely (1999), who introduced a multi-event s-process model to quantify these uncertainties, we revisit the problem using a simplified yet effective approach. By assuming that the relative uncertainty in s-process isotopic abundances scales linearly with the MACS uncertainties from data libraries (KADoNiS), we identify a subset of isotopes for which the r-process residuals remain significantly uncertain. Using updated solar abundances (Lodders 2025) and s-process contributions from Bisterzo et al. (2014), we present a short list of isotopes that are prime candidates for improved (n,g) measurements at CERN n_TOF in the near future. Our analysis provides a practical framework for prioritizing future experimental efforts that will profit from upgrades and enhancements of the n_TOF facility. It also highlights the need to revisit key neutron-capture cross sections to refine our understanding of the r-process isotopic abundance pattern, commonly used as a benchmark in stellar models of explosive nucleosynthesis."
+  },
+  {
+    "title": "Adsorption energies are necessary but not sufficient to identify good catalysts",
+    "url": "http://arxiv.org/abs/2512.05938v1",
+    "arxiv_id": "2512.05938v1",
+    "authors": [
+      "Shahana Chatterjee",
+      "Alexander Davis",
+      "Lena Podina",
+      "Divya Sharma",
+      "Yoshua Bengio",
+      "Alexandre Duval",
+      "Oleksandr Voznyy",
+      "Alex Hern\u00e1ndez-Garcia",
+      "David Rolnick",
+      "F\u00e9lix Therrien"
+    ],
+    "published": "2025-12-05T18:30:48+00:00",
+    "summary": "As a core technology for green chemical synthesis and electrochemical energy storage, electrocatalysis is central to decarbonization strategies aimed at combating climate change. In this context, computational and machine learning driven catalyst discovery has emerged as a major research focus. These approaches frequently use the thermodynamic overpotential, calculated from adsorption free energies of reaction intermediates, as a key parameter in their analysis. In this paper, we explore the large-scale applicability of such overpotential estimates for identifying good catalyst candidates by using datasets from the Open Catalyst Project (OC20 and OC22). We start by quantifying the uncertainty in predicting adsorption energies using \\textit{ab initio} methods and find that $\\sim$0.3-0.5 eV is a conservative estimate for a single adsorption energy prediction. We then compute the overpotential of all materials in the OC20 and OC22 datasets for the hydrogen and oxygen evolution reactions. We find that while the overpotential allows the identification of known good catalysts such as platinum and iridium oxides, the uncertainty is large enough to misclassify a broad fraction of the datasets as ``good'', which limits its value as a screening criterion. These results question the reliance on overpotential estimation as a primary evaluation metric to sort through catalyst candidates and calls for a shift in focus in the computational catalysis and machine learning communities towards other metrics such as synthesizability, stability, lifetime or affordability."
+  },
+  {
+    "title": "PRiSM: An Agentic Multimodal Benchmark for Scientific Reasoning via Python-Grounded Evaluation",
+    "url": "http://arxiv.org/abs/2512.05930v1",
+    "arxiv_id": "2512.05930v1",
+    "authors": [
+      "Shima Imani",
+      "Seungwhan Moon",
+      "Adel Ahmadyan",
+      "Lu Zhang",
+      "Kirmani Ahmed",
+      "Babak Damavandi"
+    ],
+    "published": "2025-12-05T18:14:55+00:00",
+    "summary": "Evaluating vision-language models (VLMs) in scientific domains like mathematics and physics poses unique challenges that go far beyond predicting final answers. These domains demand conceptual understanding, symbolic reasoning, and adherence to formal laws, requirements that most existing benchmarks fail to address. In particular, current datasets tend to be static, lacking intermediate reasoning steps, robustness to variations, or mechanisms for verifying scientific correctness. To address these limitations, we introduce PRiSM, a synthetic, fully dynamic, and multimodal benchmark for evaluating scientific reasoning via grounded Python code. PRiSM includes over 24,750 university-level physics and math problems, and it leverages our scalable agent-based pipeline, PrismAgent, to generate well-structured problem instances. Each problem contains dynamic textual and visual input, a generated figure, alongside rich structured outputs: executable Python code for ground truth generation and verification, and detailed step-by-step reasoning. The dynamic nature and Python-powered automated ground truth generation of our benchmark allow for fine-grained experimental auditing of multimodal VLMs, revealing failure modes, uncertainty behaviors, and limitations in scientific reasoning. To this end, we propose five targeted evaluation tasks covering generalization, symbolic program synthesis, perturbation robustness, reasoning correction, and ambiguity resolution. Through comprehensive evaluation of existing VLMs, we highlight their limitations and showcase how PRiSM enables deeper insights into their scientific reasoning capabilities."
+  },
+  {
+    "title": "World Models That Know When They Don't Know: Controllable Video Generation with Calibrated Uncertainty",
+    "url": "http://arxiv.org/abs/2512.05927v1",
+    "arxiv_id": "2512.05927v1",
+    "authors": [
+      "Zhiting Mei",
+      "Tenny Yin",
+      "Micah Baker",
+      "Ola Shorinwa",
+      "Anirudha Majumdar"
+    ],
+    "published": "2025-12-05T18:06:18+00:00",
+    "summary": "Recent advances in generative video models have led to significant breakthroughs in high-fidelity video synthesis, specifically in controllable video generation where the generated video is conditioned on text and action inputs, e.g., in instruction-guided video editing and world modeling in robotics. Despite these exceptional capabilities, controllable video models often hallucinate - generating future video frames that are misaligned with physical reality - which raises serious concerns in many tasks such as robot policy evaluation and planning. However, state-of-the-art video models lack the ability to assess and express their confidence, impeding hallucination mitigation. To rigorously address this challenge, we propose C3, an uncertainty quantification (UQ) method for training continuous-scale calibrated controllable video models for dense confidence estimation at the subpatch level, precisely localizing the uncertainty in each generated video frame. Our UQ method introduces three core innovations to empower video models to estimate their uncertainty. First, our method develops a novel framework that trains video models for correctness and calibration via strictly proper scoring rules. Second, we estimate the video model's uncertainty in latent space, avoiding training instability and prohibitive training costs associated with pixel-space approaches. Third, we map the dense latent-space uncertainty to interpretable pixel-level uncertainty in the RGB space for intuitive visualization, providing high-resolution uncertainty heatmaps that identify untrustworthy regions. Through extensive experiments on large-scale robot learning datasets (Bridge and DROID) and real-world evaluations, we demonstrate that our method not only provides calibrated uncertainty estimates within the training distribution, but also enables effective out-of-distribution detection."
+  },
+  {
+    "title": "The Bayesian Way: Uncertainty, Learning, and Statistical Reasoning",
+    "url": "http://arxiv.org/abs/2512.05883v1",
+    "arxiv_id": "2512.05883v1",
+    "authors": [
+      "Juan Sosa",
+      "Carlos A. Mart\u00ednez",
+      "Danna Cruz"
+    ],
+    "published": "2025-12-05T16:59:25+00:00",
+    "summary": "This paper offers a comprehensive introduction to Bayesian inference, combining historical context, theoretical foundations, and core analytical examples. Beginning with Bayes' theorem and the philosophical distinctions between Bayesian and frequentist approaches, we develop the inferential framework for estimation, interval construction, hypothesis testing, and prediction. Through canonical models, we illustrate how prior information and observed data are formally integrated to yield posterior distributions. We also explore key concepts including loss functions, credible intervals, Bayes factors, identifiability, and asymptotic behavior. While emphasizing analytical tractability in classical settings, we outline modern extensions that rely on simulation-based methods and discuss challenges related to prior specification and model evaluation. Though focused on foundational ideas, this paper sets the stage for applying Bayesian methods in contemporary domains such as hierarchical modeling, nonparametrics, and structured applications in time series, spatial data, networks, and political science. The goal is to provide a rigorous yet accessible entry point for students and researchers seeking to adopt a Bayesian perspective in statistical practice."
+  },
+  {
+    "title": "Safe Output Regulation of Coupled Hyperbolic PDE-ODE Systems",
+    "url": "http://arxiv.org/abs/2512.05822v1",
+    "arxiv_id": "2512.05822v1",
+    "authors": [
+      "Ji Wang",
+      "Miroslav Krstic"
+    ],
+    "published": "2025-12-05T15:41:28+00:00",
+    "summary": "This paper presents a safe output regulation control strategy for a class of systems modeled by a coupled $2\\times 2$ hyperbolic PDE-ODE structure, subject to fully distributed disturbances throughout the system. A state-feedback controller is developed by the {nonovershooting backstepping} method to simultaneously achieve exponential output regulation and enforce safety constraints on the system output, which is the state furthest from the control input. To handle unmeasured PDE states and external disturbances, a state observer and a disturbance estimator are designed. Explicit bounds on the estimation errors are derived and used to construct a robust safe regulator that accounts for the uncertainties. The proposed control scheme guarantees that: 1) If the system output is initially within the safe region, it remains there; otherwise, it will be rescued to the safety within a prescribed time; 2) The output tracking error converges to zero exponentially; 3) The observer accurately estimates both the distributed states and external disturbances, with estimation errors converging to zero exponentially; 4) All signals in the closed-loop system remain bounded. The effectiveness of the proposed method is demonstrated through a UAV delivery scenario with a cable-suspended payload, where the payload is regulated to track a desired reference while avoiding collisions with barriers."
+  },
+  {
+    "title": "UG-FedDA: Uncertainty-Guided Federated Domain Adaptation for Multi-Center Alzheimer's Disease Detection",
+    "url": "http://arxiv.org/abs/2512.05814v1",
+    "arxiv_id": "2512.05814v1",
+    "authors": [
+      "Fubao Zhu",
+      "Zhanyuan Jia",
+      "Zhiguo Wang",
+      "Huan Huang",
+      "Danyang Sun",
+      "Chuang Han",
+      "Yanting Li",
+      "Jiaofen Nan",
+      "Chen Zhao",
+      "Weihua Zhou"
+    ],
+    "published": "2025-12-05T15:33:52+00:00",
+    "summary": "Alzheimer's disease (AD) is an irreversible neurodegenerative disorder, and early diagnosis is critical for timely intervention. However, most existing classification frameworks face challenges in multicenter studies, as they often neglect inter-site heterogeneity and lack mechanisms to quantify uncertainty, which limits their robustness and clinical applicability. To address these issues, we proposed Uncertainty-Guided Federated Domain Adaptation (UG-FedDA), a novel multicenter AD classification framework that integrates uncertainty quantification (UQ) with federated domain adaptation to handle cross-site structure magnetic resonance imaging (MRI) heterogeneity under privacy constraints. Our approach extracts multi-template region-of-interest (RoI) features using a self-attention transformer, capturing both regional representations and their interactions. UQ is integrated to guide feature alignment, mitigating source-target distribution shifts by down-weighting uncertain samples. Experiments are conducted on three public datasets: the Alzheimer's Disease Neuroimaging Initiative (ADNI), the Australian Imaging, Biomarkers and Lifestyle study (AIBL), and the Open Access Series of Imaging Studies (OASIS). UG-FedDA achieved consistent cross-domain improvements in accuracy, sensitivity, and area under the ROC curve across three classification tasks: AD vs. normal controls (NC), mild cognitive impairment (MCI) vs. AD, and NC vs. MCI. For NC vs. AD, UG-FedDA achieves accuracies of 90.54%, 89.04%, and 77.78% on ADNI, AIBL and OASIS datasets, respectively. For MCI vs. AD, accuracies are 80.20% (ADNI), 71.91% (AIBL), and 79.73% (OASIS). For NC vs. MCI, results are 76.87% (ADNI), 73.91% (AIBL), and 83.73% (OASIS). These results demonstrate that the proposed framework not only adapts efficiently across multiple sites but also preserves strict privacy."
+  },
+  {
+    "title": "Probing the effectiveness of World Models for Spatial Reasoning through Test-time Scaling",
+    "url": "http://arxiv.org/abs/2512.05809v1",
+    "arxiv_id": "2512.05809v1",
+    "authors": [
+      "Saurav Jha",
+      "M. Jehanzeb Mirza",
+      "Wei Lin",
+      "Shiqi Yang",
+      "Sarath Chandar"
+    ],
+    "published": "2025-12-05T15:30:08+00:00",
+    "summary": "Vision-Language Models (VLMs) remain limited in spatial reasoning tasks that require multi-view understanding and embodied perspective shifts. Recent approaches such as MindJourney attempt to mitigate this gap through test-time scaling where a world model imagines action-conditioned trajectories and a heuristic verifier selects helpful views from such trajectories. In this work, we systematically examine how such test-time verifiers behave across benchmarks, uncovering both their promise and their pitfalls. Our uncertainty-based analyses show that MindJourney's verifier provides little meaningful calibration, and that random scoring often reduces answer entropy equally well, thus exposing systematic action biases and unreliable reward signals. To mitigate these, we introduce a Verification through Spatial Assertions (ViSA) framework that grounds the test-time reward in verifiable, frame-anchored micro-claims. This principled verifier consistently improves spatial reasoning on the SAT-Real benchmark and corrects trajectory-selection biases through more balanced exploratory behavior. However, on the challenging MMSI-Bench, none of the verifiers, including ours, achieve consistent scaling, suggesting that the current world models form an information bottleneck where imagined views fail to enrich fine-grained reasoning. Together, these findings chart the bad, good, and ugly aspects of test-time verification for world-model-based reasoning. Our code is available at https://github.com/chandar-lab/visa-for-mindjourney."
+  },
+  {
+    "title": "SRG/eROSITA-SDSS view on the relation between X-ray and UV emission for quasars",
+    "url": "http://arxiv.org/abs/2512.05807v1",
+    "arxiv_id": "2512.05807v1",
+    "authors": [
+      "S. A. Prokhorenko",
+      "S. Yu. Sazonov",
+      "M. R. Gilfanov",
+      "S. A. Balashev",
+      "A. V. Meshcheryakov",
+      "A. V. Ivanchik",
+      "I. F. Bikmaev",
+      "R. A. Sunyaev"
+    ],
+    "published": "2025-12-05T15:27:56+00:00",
+    "summary": "Motivated by the idea of using quasars as standardizable candles for cosmology, we examine the relation between X-ray (at 2 keV, $L_{\\rm 2keV}$) and ultraviolet (at 2500 Angstrom, $L_{\\rm 2500}$) monochromatic luminosities of quasars using a sample of 2414 X-ray sources from the SRG/eROSITA all-sky survey cross-matched with the Sloan Digital Sky Survey data release 16 quasar catalogue (SDSS DR16Q), at redshifts between 0.5 and 2.5. These objects are bright both in X-rays and in the optical, so that the sample is characterized by nearly 100% statistical completeness. We have developed a new method for determining the $L_{\\rm 2keV}-L_{\\rm 2500}$ relation, which consistently takes into account (i) X-ray and UV flux limited object selection, (ii) X-ray and UV variability of quasars, and (iii) the decreasing space density of quasars with increasing luminosity. Assuming a linear relation between $l_{\\rm X}\\equiv\\log(L_{\\rm 2keV}/[{\\rm erg\\,s^{-1}\\,Hz^{-1}}])$ and $l_{\\rm UV}\\equiv\\log(L_{\\rm 2500}/[{\\rm erg\\,s^{-1}\\,Hz^{-1}}])$, we find the slope, $\u03b3=0.69\\pm0.02$ (hereafter all uncertainties are quoted at the 68% confidence level), and normalization, $l_{\\rm X}=26.45\\pm0.02$ at $l_{\\rm UV}=30.5$, of the $L_{\\rm 2keV}$ ($L_{\\rm 2500}$) dependence. These values are not substantially different from the results of previous studies. A key novel aspect of our work is allowance for intrinsic scatter (which adds to the dispersion induced by quasar variability and flux measurement uncertainties) of the $L_{\\rm 2keV}-L_{\\rm 2500}$ relation in both variables, i.e. in X-ray and UV luminosity. The intrinsic X-ray scatter ($\u03c3^2_{\\rm intX}=0.066\\pm0.005$) strongly dominates over the UV one ($\u03c3^2_{\\rm intUV}=0.001^{+0.003}_{-0.001}$). Further studies should seek to explain this behaviour in terms of accretion onto supermassive black holes and orientation of quasars with respect to the observer."
+  },
+  {
     "title": "Measurement of the branching fractions and longitudinal polarisations of $B^0_{(s)} \\to K^{*0} \\kern 0.18em \\overline{\\kern -0.18em K}{}^{*0}$ decays",
     "url": "http://arxiv.org/abs/2512.05102v1",
     "arxiv_id": "2512.05102v1",
