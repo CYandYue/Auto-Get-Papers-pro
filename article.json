@@ -1,5 +1,146 @@
 [
   {
+    "title": "Update of the nonlocal sub-leading ${O}_1$ - ${O}_7$ contribution to $\\bar B \\to X_s \u03b3$ at LO",
+    "url": "http://arxiv.org/abs/2512.08902v1",
+    "arxiv_id": "2512.08902v1",
+    "authors": [
+      "Michael Benzke",
+      "Maria Vittoria Garzelli",
+      "Tobias Hurth"
+    ],
+    "published": "2025-12-09T18:41:35+00:00",
+    "summary": "In all previous calculations of the non-local sub-leading contribution to the inclusive penguin decay $\\bar B \\to X_s \u03b3$ due to the interference of the electroweak operators ${O}_1^c$ - ${O}_{7\u03b3}$ the local Voloshin term was subtracted. In view of the ongoing analysis at order $\u03b1_s$, we present a calculation of the complete non-local contribution which takes into account the high correlation between the uncertainties of the local Voloshin and the non-local term of the previous analyses."
+  },
+  {
+    "title": "DAO-GP Drift Aware Online Non-Linear Regression Gaussian-Process",
+    "url": "http://arxiv.org/abs/2512.08879v1",
+    "arxiv_id": "2512.08879v1",
+    "authors": [
+      "Mohammad Abu-Shaira",
+      "Ajita Rattani",
+      "Weishi Shi"
+    ],
+    "published": "2025-12-09T18:12:38+00:00",
+    "summary": "Real-world datasets often exhibit temporal dynamics characterized by evolving data distributions. Disregarding this phenomenon, commonly referred to as concept drift, can significantly diminish a model's predictive accuracy. Furthermore, the presence of hyperparameters in online models exacerbates this issue. These parameters are typically fixed and cannot be dynamically adjusted by the user in response to the evolving data distribution. Gaussian Process (GP) models offer powerful non-parametric regression capabilities with uncertainty quantification, making them ideal for modeling complex data relationships in an online setting. However, conventional online GP methods face several critical limitations, including a lack of drift-awareness, reliance on fixed hyperparameters, vulnerability to data snooping, absence of a principled decay mechanism, and memory inefficiencies. In response, we propose DAO-GP (Drift-Aware Online Gaussian Process), a novel, fully adaptive, hyperparameter-free, decayed, and sparse non-linear regression model. DAO-GP features a built-in drift detection and adaptation mechanism that dynamically adjusts model behavior based on the severity of drift. Extensive empirical evaluations confirm DAO-GP's robustness across stationary conditions, diverse drift types (abrupt, incremental, gradual), and varied data characteristics. Analyses demonstrate its dynamic adaptation, efficient in-memory and decay-based management, and evolving inducing points. Compared with state-of-the-art parametric and non-parametric models, DAO-GP consistently achieves superior or competitive performance, establishing it as a drift-resilient solution for online non-linear regression."
+  },
+  {
+    "title": "Toward Quantitative Modeling of Cybersecurity Risks Due to AI Misuse",
+    "url": "http://arxiv.org/abs/2512.08864v1",
+    "arxiv_id": "2512.08864v1",
+    "authors": [
+      "Steve Barrett",
+      "Malcolm Murray",
+      "Otter Quarks",
+      "Matthew Smith",
+      "Jakub Kry\u015b",
+      "Sim\u00e9on Campos",
+      "Alejandro Tlaie Boria",
+      "Chlo\u00e9 Touzet",
+      "Sevan Hayrapet",
+      "Fred Heiding",
+      "Omer Nevo",
+      "Adam Swanda",
+      "Jair Aguirre",
+      "Asher Brass Gershovich",
+      "Eric Clay",
+      "Ryan Fetterman",
+      "Mario Fritz",
+      "Marc Juarez",
+      "Vasilios Mavroudis",
+      "Henry Papadatos"
+    ],
+    "published": "2025-12-09T17:54:17+00:00",
+    "summary": "Advanced AI systems offer substantial benefits but also introduce risks. In 2025, AI-enabled cyber offense has emerged as a concrete example. This technical report applies a quantitative risk modeling methodology (described in full in a companion paper) to this domain. We develop nine detailed cyber risk models that allow analyzing AI uplift as a function of AI benchmark performance. Each model decomposes attacks into steps using the MITRE ATT&CK framework and estimates how AI affects the number of attackers, attack frequency, probability of success, and resulting harm to determine different types of uplift. To produce these estimates with associated uncertainty, we employ both human experts, via a Delphi study, as well as LLM-based simulated experts, both mapping benchmark scores (from Cybench and BountyBench) to risk model factors. Individual estimates are aggregated through Monte Carlo simulation. The results indicate systematic uplift in attack efficacy, speed, and target reach, with different mechanisms of uplift across risk models. We aim for our quantitative risk modeling to fulfill several aims: to help cybersecurity teams prioritize mitigations, AI evaluators design benchmarks, AI developers make more informed deployment decisions, and policymakers obtain information to set risk thresholds. Similar goals drove the shift from qualitative to quantitative assessment over time in other high-risk industries, such as nuclear power. We propose this methodology and initial application attempt as a step in that direction for AI risk management. While our estimates carry significant uncertainty, publishing detailed quantified results can enable experts to pinpoint exactly where they disagree. This helps to collectively refine estimates, something that cannot be done with qualitative assessments alone."
+  },
+  {
+    "title": "Prediction Intervals for Individual Treatment Effects in a Multiple Decision Point Framework using Conformal Inference",
+    "url": "http://arxiv.org/abs/2512.08828v1",
+    "arxiv_id": "2512.08828v1",
+    "authors": [
+      "Swaraj Bose",
+      "Walter Dempsey"
+    ],
+    "published": "2025-12-09T17:18:09+00:00",
+    "summary": "Accurately quantifying uncertainty of individual treatment effects (ITEs) across multiple decision points is crucial for personalized decision-making in fields such as healthcare, finance, education, and online marketplaces. Previous work has focused on predicting non-causal longitudinal estimands or constructing prediction bands for ITEs using cross-sectional data based on exchangeability assumptions. We propose a novel method for constructing prediction intervals using conformal inference techniques for time-varying ITEs with weaker assumptions than prior literature. We guarantee a lower bound for coverage, which is dependent on the degree of non-exchangeability in the data. Although our method is broadly applicable across decision-making contexts, we support our theoretical claims with simulations emulating micro-randomized trials (MRTs) -- a sequential experimental design for mobile health (mHealth) studies. We demonstrate the practical utility of our method by applying it to a real-world MRT - the Intern Health Study (IHS)."
+  },
+  {
+    "title": "Stationary Point Constrained Inference via Diffeomorphisms",
+    "url": "http://arxiv.org/abs/2512.08735v1",
+    "arxiv_id": "2512.08735v1",
+    "authors": [
+      "Michael Price",
+      "Debdeep Pati",
+      "Ning Ning"
+    ],
+    "published": "2025-12-09T15:46:48+00:00",
+    "summary": "Stationary points or derivative zero crossings of a regression function correspond to points where a trend reverses, making their estimation scientifically important. Existing approaches to uncertainty quantification for stationary points cannot deliver valid joint inference when multiple extrema are present, an essential capability in applications where the relative locations of peaks and troughs carry scientific significance. We develop a principled framework for functions with multiple regions of monotonicity by constraining the number of stationary points. We represent each function in the diffeomorphic formulation as the composition of a simple template and a smooth bijective transformation, and show that this parameterization enables coherent joint inference on the extrema. This construction guarantees a prespecified number of stationary points and provides a direct, interpretable parameterization of their locations. We derive non-asymptotic confidence bounds and establish approximate normality for the maximum likelihood estimators, with parallel results in the Bayesian setting. Simulations and an application to brain signal estimation demonstrate the method's accuracy and interpretability."
+  },
+  {
+    "title": "$J/\u03c8$-Meson Nucleon Scattering Length from Threshold Photoproduction on Light Nuclei",
+    "url": "http://arxiv.org/abs/2512.08701v1",
+    "arxiv_id": "2512.08701v1",
+    "authors": [
+      "Igor I. Strakovsky",
+      "William J. Briscoe",
+      "Philipp Gubler",
+      "Jackson R. Pybus",
+      "Axel Schmidt",
+      "Alexander Somov"
+    ],
+    "published": "2025-12-09T15:18:45+00:00",
+    "summary": "The quality of recent SRC/CT Collaboration $J/\u03c8$ photoproduction data off a $^4$He target from Hall~D at Jefferson Laboratory, combined with the feasibility of measuring the reaction close to the free-nucleon energy threshold, opens the door to using incoherent $J/\u03c8$ photoproduction to access a variety of interesting physics aspects. An example is an estimate of the $J/\u03c8~p$ scattering length $|\u03b1_{J/\u03c8~p}|$ on the bound proton obtained using the Vector Meson Dominance model. This value can be compared with that of the free proton from the GlueX Collaboration. One may then project what would be expected from the SRC/CT Collaboration Experiment E12--25--002, which was recently approved by the JLab PAC. Using a plane-wave theoretical model to generate quasi-data, we find the experiment could achieve a result of $|\u03b1_{J/\u03c8~p}| = 3.08\\pm 0.45~\\mathrm{mfm}$, an uncertainty competitive with that of the free-proton measurement. A comparison between the two would allow an evaluation of the effects of medium modification in the case of light nuclei."
+  },
+  {
+    "title": "Atomic and molecular systems for radiation thermometry",
+    "url": "http://arxiv.org/abs/2512.08668v1",
+    "arxiv_id": "2512.08668v1",
+    "authors": [
+      "Stephen P. Eckel",
+      "Eric B. Norrgard",
+      "Christopher Holloway",
+      "Nikunjkumar Prajapati",
+      "Noah Schlossberger",
+      "Matthew Simons"
+    ],
+    "published": "2025-12-09T14:52:28+00:00",
+    "summary": "Atoms and simple molecules are excellent candidates for new standards and sensors because they are both all identical and their properties are determined by the immutable laws of quantum physics. Here, we introduce the concept of building a standard and sensor of radiative temperature using atoms and molecules. Such standards are based on precise measurement of the rate at which blackbody radiation (BBR) either excites or stimulates emission for a given atomic transition. We summarize the recent results of two experiments while detailing the rate equation models required for their interpretation. The cold atom thermometer (CAT) uses a gas of laser cooled $^{85}$Rb Rydberg atoms to probe the BBR spectrum near 130~GHz. This primary, {\\it i.e.}, not traceable to a measurement of like kind, temperature measurement currently has a total uncertainty of approximately 1~\\%, with clear paths toward improvement. The compact blackbody radiation atomic sensor (CoBRAS) uses a vapour of $^{85}$Rb and monitors fluorescence from states that are either populated by BBR or populated by spontaneous emission to measure the blackbody spectrum near 24.5~THz. The CoBRAS has an excellent relative precision of $u(T)\\approx 0.13$~K, with a clear path toward implementing a primary"
+  },
+  {
+    "title": "Sim2Swim: Zero-Shot Velocity Control for Agile AUV Maneuvering in 3 Minutes",
+    "url": "http://arxiv.org/abs/2512.08656v1",
+    "arxiv_id": "2512.08656v1",
+    "authors": [
+      "Lauritz Rismark Fosso",
+      "Herman Bi\u00f8rn Amundsen",
+      "Marios Xanthidis",
+      "Sveinung Johan Ohrem"
+    ],
+    "published": "2025-12-09T14:42:26+00:00",
+    "summary": "Holonomic autonomous underwater vehicles (AUVs) have the hardware ability for agile maneuvering in both translational and rotational degrees of freedom (DOFs). However, due to challenges inherent to underwater vehicles, such as complex hydrostatics and hydrodynamics, parametric uncertainties, and frequent changes in dynamics due to payload changes, control is challenging. Performance typically relies on carefully tuned controllers targeting unique platform configurations, and a need for re-tuning for deployment under varying payloads and hydrodynamic conditions. As a consequence, agile maneuvering with simultaneous tracking of time-varying references in both translational and rotational DOFs is rarely utilized in practice. To the best of our knowledge, this paper presents the first general zero-shot sim2real deep reinforcement learning-based (DRL) velocity controller enabling path following and agile 6DOF maneuvering with a training duration of just 3 minutes. Sim2Swim, the proposed approach, inspired by state-of-the-art DRL-based position control, leverages domain randomization and massively parallelized training to converge to field-deployable control policies for AUVs of variable characteristics without post-processing or tuning. Sim2Swim is extensively validated in pool trials for a variety of configurations, showcasing robust control for highly agile motions."
+  },
+  {
+    "title": "Measurement of the differential $t$-channel production cross-section of single top quarks and top antiquarks at $\\sqrt{s} = $13 TeV with the ATLAS detector",
+    "url": "http://arxiv.org/abs/2512.08573v1",
+    "arxiv_id": "2512.08573v1",
+    "authors": [
+      "Maren Stratmann"
+    ],
+    "published": "2025-12-09T13:13:26+00:00",
+    "summary": "Differential production cross-sections of single top quarks and top antiquarks are measured in proton-proton collisions at a centre-of-mass energy $\\sqrt{s} = $13 TeV. The full Run-2 dataset collected by the ATLAS detector at the LHC in the years 2015-2018 is used. The differential cross-sections are measured as a function of the transverse momentum and absolute rapidity of the top (anti)quark. The measurement results are compared to predictions obtained from fixed order calculations, different matrix-element event generators and different parton distribution function sets. The results agree with the theoretical predictions within the measurement uncertainties. An effective field theory interpretation of the measurement sets constraints on the contribution of the four-fermion operator $O_{Qq}^{3,1}$."
+  },
+  {
+    "title": "Astrometric Reconnaissance of Exoplanetary Systems (ARES). I. Methodology validation with HST point-source images of Proxima Centauri",
+    "url": "http://arxiv.org/abs/2512.08533v1",
+    "arxiv_id": "2512.08533v1",
+    "authors": [
+      "M. Libralato",
+      "L. Bedin",
+      "A. Burgasser"
+    ],
+    "published": "2025-12-09T12:27:55+00:00",
+    "summary": "We present the first results of the Astrometric Reconnaissance of Exoplanetary Systems (ARES) project, aimed at validating and characterizing candidate exoplanets around the nearest systems using multi-epoch Hubble Space Telescope (HST) data. In this first paper, we focus on Proxima Centauri, leveraging archival and recent HST observations in point-source imaging mode. We refine the geometric-distortion calibration of the HST detector used, and develop a robust methodology to derive high-precision astrometric parameters by combining HST measurements with the Gaia DR3 catalog. We determine Proxima's position, proper motion, and parallax with uncertainties at the $\\sim$0.4-mas, 50-$\u03bc$as yr$^{-1}$, and 0.2-mas level, respectively, achieving consistent results with what measured by Gaia within $\\sim$1$\u03c3$. We further investigate the presence of the candidate exoplanet Proxima c by analyzing the proper-motion anomaly derived from combining long-term HST-based and short-term Gaia astrometry. Under the assumption of a circular, face-on orbit, we obtain an estimated mass of $m_c = 3.4^{+5.2}_{-3.4}$ $M_\\odot$, broadly consistent with radial-velocity constraints but limited by our current uncertainties. These results establish the foundation for the next phase of ARES, which will exploit HST spatial-scanning observations to achieve astrometric precisions of a few tens of $\u03bc$as and enable a direct search for astrometric signatures of low-mass companions."
+  },
+  {
     "title": "ReasonBENCH: Benchmarking the (In)Stability of LLM Reasoning",
     "url": "http://arxiv.org/abs/2512.07795v1",
     "arxiv_id": "2512.07795v1",
