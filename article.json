@@ -1,5 +1,137 @@
 [
   {
+    "title": "Detection prospects for heavy WIMP dark matter near supermassive black holes, particularly in M31",
+    "url": "http://arxiv.org/abs/2512.10923v1",
+    "arxiv_id": "2512.10923v1",
+    "authors": [
+      "Andrei E. Egorov"
+    ],
+    "published": "2025-12-11T18:48:03+00:00",
+    "summary": "This work analyzes the detection prospects for weakly interacting massive particles (WIMPs) in dark matter (DM) density spikes around nearby supermassive black holes (SMBHs) by observations in very high energy gamma-ray band. Such spikes are unique targets, which provide a possibility to discover the basic thermal s-wave annihilating WIMP with any mass up to the theoretical unitarity limit ~ 100 TeV. All relevant SMBHs were checked, and only MW* and M31* were identified as worthwhile objects. Cherenkov Telescope Array (CTA) sensitivity to heavy WIMPs in M31* was estimated. It was obtained that CTA will be able to probe a major part of TeV-scale WIMP parameter space in case of optimistic spike density configuration in M31*. In certain scenarios, M31* may yield even stronger constraints than MW*. Relevant systematic uncertainties were explored."
+  },
+  {
+    "title": "Shedding Light on Large Space-Based Telescopes: Modeling Stray Light due to Primary Mirror Damage from Micrometeoroid Impacts",
+    "url": "http://arxiv.org/abs/2512.10915v1",
+    "arxiv_id": "2512.10915v1",
+    "authors": [
+      "Megan T. Gialluca",
+      "Jonathan W. Arenberg",
+      "Chris Stark",
+      "Blake Shepherd",
+      "Victoria S. Meadows",
+      "Aki Roberge",
+      "Tyler D. Robinson",
+      "Robert Podgurski"
+    ],
+    "published": "2025-12-11T18:43:56+00:00",
+    "summary": "A large space-based telescope aimed at detecting and characterizing the atmospheres of Earth-like planets orbiting Sun-like stars will require unprecedented contrast and stability. However, damage to the primary mirror due to micrometeoroid impacts will provide a stochastic, time-dependent source of stray light in the coronagraph's field of view that could significantly lengthen exposure times and reduce the expected science yield. To better quantify the impact of stray light and inform the Habitable Worlds Observatory mission design process, we present estimates of stray light in different micrometeoroid damage scenarios for a broad range of targets, and use that to find the expected decrease in science yield (i.e., the expected number of detected exoEarth candidates). We find that stray light due to micrometeoroid damage may significantly reduce yield, by 30% -- 60% in some cases, but significant uncertainties remain due to the unknown maximum expected impactor energy, and the relationship between impact energy and expected crater size. Micrometeoroid damage therefore needs further exploration, as it has the potential to reduce scientific yield, and in turn drive the development of mitigation strategies, selection of telescope designs, and selection of observing priorities in the future."
+  },
+  {
+    "title": "Spectral Theory of the Weighted Fourier Transform with respect to a Function in $\\mathbb{R}^n$: Uncertainty Principle and Diffusion-Wave Applications",
+    "url": "http://arxiv.org/abs/2512.10880v1",
+    "arxiv_id": "2512.10880v1",
+    "authors": [
+      "Gustavo Dorrego",
+      "Luciano Luque"
+    ],
+    "published": "2025-12-11T18:08:45+00:00",
+    "summary": "In this paper, we generalize the weighted Fourier transform with respect to a function, originally proposed for the one-dimensional case in \\cite{Dorrego}, to the $n$-dimensional Euclidean space $\\mathbb{R}^{n}$. We develop a comprehensive spectral theory on a weighted Hilbert space, establishing the Plancherel identity, the inversion formula, the convolution theorem, and a Heisenberg-type uncertainty principle depending on the geometric deformation. Furthermore, we utilize this framework to rigorously define the weighted fractional Laplacian with respect to a function, denoted by $(-\u0394_{\u03c6,\u03c9})^{s}$. Finally, we apply these tools to solve the generalized time-space fractional diffusion-wave equation, demonstrating that the fundamental solution can be expressed in terms of the Fox H-function, intrinsically related to the generalized $\u03c9$-Mellin transform introduced in \\cite{Dorrego}. In this paper, we generalize the weighted Fourier transform with respect to a function, originally proposed for the one-dimensional case, to the n-dimensional Euclidean space $\\mathbb{R}^n$. We develop a comprehensive spectral theory on a weighted Hilbert space, establishing the Plancherel identity, the inversion formula, the convolution theorem, and a Heisenberg-type uncertainty principle depending on the geometric deformation. Furthermore, we utilize this framework to rigorously define the weighted fractional Laplacian with respect to a function, denoted by $(-\u0394_{\u03c6,\u03c9})^s$. Finally, we apply these tools to solve the generalized time-space fractional diffusion-wave equation involving the weighted Hilfer derivative. We demonstrate that the fundamental solution can be explicitly expressed in terms of the Fox H-function, revealing an intrinsic connection with the generalized Mellin transform."
+  },
+  {
+    "title": "Physics-informed Polynomial Chaos Expansion with Enhanced Constrained Optimization Solver and D-optimal Sampling",
+    "url": "http://arxiv.org/abs/2512.10873v1",
+    "arxiv_id": "2512.10873v1",
+    "authors": [
+      "Qitian Lu",
+      "Himanshu Sharma",
+      "Michael D. Shields",
+      "Luk\u00e1\u0161 Nov\u00e1k"
+    ],
+    "published": "2025-12-11T18:03:29+00:00",
+    "summary": "Physics-informed polynomial chaos expansions (PC$^2$) provide an efficient physically constrained surrogate modeling framework by embedding governing equations and other physical constraints into the standard data-driven polynomial chaos expansions (PCE) and solving via the Karush-Kuhn-Tucker (KKT) conditions. This approach improves the physical interpretability of surrogate models while achieving high computational efficiency and accuracy. However, the performance and efficiency of PC$^2$ can still be degraded with high-dimensional parameter spaces, limited data availability, or unrepresentative training data. To address this problem, this study explores two complementary enhancements to the PC$^2$ framework. First, a numerically efficient constrained optimization solver, straightforward updating of Lagrange multipliers (SULM), is adopted as an alternative to the conventional KKT solver. The SULM method significantly reduces computational cost when solving physically constrained problems with high-dimensionality and derivative boundary conditions that require a large number of virtual points. Second, a D-optimal sampling strategy is utilized to select informative virtual points to improve the stability and achieve the balance of accuracy and efficiency of the PC$^2$. The proposed methods are integrated into the PC$^2$ framework and evaluated through numerical examples of representative physical systems governed by ordinary or partial differential equations. The results demonstrate that the enhanced PC$^2$ has better comprehensive capability than standard PC$^2$, and is well-suited for high-dimensional uncertainty quantification tasks."
+  },
+  {
+    "title": "Bayesian Symbolic Regression via Posterior Sampling",
+    "url": "http://arxiv.org/abs/2512.10849v1",
+    "arxiv_id": "2512.10849v1",
+    "authors": [
+      "Geoffrey F. Bomarito",
+      "Patrick E. Leser"
+    ],
+    "published": "2025-12-11T17:38:20+00:00",
+    "summary": "Symbolic regression is a powerful tool for discovering governing equations directly from data, but its sensitivity to noise hinders its broader application. This paper introduces a Sequential Monte Carlo (SMC) framework for Bayesian symbolic regression that approximates the posterior distribution over symbolic expressions, enhancing robustness and enabling uncertainty quantification for symbolic regression in the presence of noise. Differing from traditional genetic programming approaches, the SMC-based algorithm combines probabilistic selection, adaptive tempering, and the use of normalized marginal likelihood to efficiently explore the search space of symbolic expressions, yielding parsimonious expressions with improved generalization. When compared to standard genetic programming baselines, the proposed method better deals with challenging, noisy benchmark datasets. The reduced tendency to overfit and enhanced ability to discover accurate and interpretable equations paves the way for more robust symbolic regression in scientific discovery and engineering design applications."
+  },
+  {
+    "title": "Deep sets and event-level maximum-likelihood estimation for fast pile-up jet rejection in ATLAS",
+    "url": "http://arxiv.org/abs/2512.10819v1",
+    "arxiv_id": "2512.10819v1",
+    "authors": [
+      "Mohammed Aboelela"
+    ],
+    "published": "2025-12-11T17:09:45+00:00",
+    "summary": "Multiple proton-proton collisions (pile-up) occur at every bunch crossing at the LHC, with the mean number of interactions expected to reach 80 during Run 3 and up to 200 at the High-Luminosity LHC. As a direct consequence, events with multijet signatures will occur at increasingly high rates. To cope with the increased luminosity, being able to efficiently group jets according to their origin along the beamline is crucial, particularly at the trigger level. In this work, a novel uncertainty-aware jet regression model based on a Deep Sets architecture is introduced, DIPz, to regress on a jet origin position along the beamline. The inputs to the DIPz algorithm are the charged particle tracks associated to each jet. An event-level discriminant, the Maximum Log Product of Likelihoods (MLPL), is constructed by combining the DIPz per-jet predictions. MLPL is cut-optimized to select events compatible with targeted multi-jet signature selection. This combined approach provides a robust and computationally efficient method for pile-up rejection in multi-jet final states, applicable to real-time event selections at the ATLAS High Level Trigger."
+  },
+  {
+    "title": "AERMANI-Diffusion: Regime-Conditioned Diffusion for Dynamics Learning in Aerial Manipulators",
+    "url": "http://arxiv.org/abs/2512.10773v1",
+    "arxiv_id": "2512.10773v1",
+    "authors": [
+      "Samaksh Ujjawal",
+      "Shivansh Pratap Singh",
+      "Naveen Sudheer Nair",
+      "Rishabh Dev Yadav",
+      "Wei Pan",
+      "Spandan Roy"
+    ],
+    "published": "2025-12-11T16:10:32+00:00",
+    "summary": "Aerial manipulators undergo rapid, configuration-dependent changes in inertial coupling forces and aerodynamic forces, making accurate dynamics modeling a core challenge for reliable control. Analytical models lose fidelity under these nonlinear and nonstationary effects, while standard data-driven methods such as deep neural networks and Gaussian processes cannot represent the diverse residual behaviors that arise across different operating conditions. We propose a regime-conditioned diffusion framework that models the full distribution of residual forces using a conditional diffusion process and a lightweight temporal encoder. The encoder extracts a compact summary of recent motion and configuration, enabling consistent residual predictions even through abrupt transitions or unseen payloads. When combined with an adaptive controller, the framework enables dynamics uncertainty compensation and yields markedly improved tracking accuracy in real-world tests."
+  },
+  {
+    "title": "Symbol-Level Precoding for Integrated Sensing and Covert Communication",
+    "url": "http://arxiv.org/abs/2512.10752v1",
+    "arxiv_id": "2512.10752v1",
+    "authors": [
+      "Yufei Wang",
+      "Qiang Li",
+      "Hongli Liu",
+      "Ying Zhang",
+      "Jingran Lin"
+    ],
+    "published": "2025-12-11T15:44:35+00:00",
+    "summary": "Integrated sensing and communication (ISAC) systems have emerged as a promising solution to improve spectrum efficiency and enable functional convergence. However, ensuring secure information transmission while maintaining high-quality sensing performance remains a significant challenge. In this paper, we investigate an integrated sensing and covert communication (ISCC) system, in which a base station (BS) simultaneously serves multiple downlink users and senses malicious targets that may act as both potential eavesdroppers (Eves) and wardens. We propose a novel symbol-level precoding (SLP)-based waveform design for ISCC that achieves covert communication intrinsically, without requiring additional transmission resources such as artificial noise. The proposed design integrates symbol shaping to enhance reliability for legitimate users and noise shaping to obscure transmission activities from the targets. For imperfect channel state information (CSI), the framework incorporates bounded uncertainty models for user channels and target angles, yielding a more robust design. The resulting ISCC waveform optimization problem is non-convex; to address this, we develop a low-complexity proximal distance algorithm (PDA) with closed-form updates under both PSK and QAM modulations. Simulation results demonstrate that the proposed method achieves superior covertness and sensing-communication performance with negligible degradation compared to traditional beamforming and conventional SLP approaches without noise-shaping mechanisms."
+  },
+  {
+    "title": "Efficient pulsar distance measurement with multiple nanohertz gravitational-wave sources",
+    "url": "http://arxiv.org/abs/2512.10729v1",
+    "arxiv_id": "2512.10729v1",
+    "authors": [
+      "Si-Ren Xiao",
+      "Ji-Yu Song",
+      "Yue Shao",
+      "Ling-Feng Wang",
+      "Jing-Fei Zhang",
+      "Xin Zhang"
+    ],
+    "published": "2025-12-11T15:10:43+00:00",
+    "summary": "In recent years, pulsar timing arrays (PTAs) have reported evidence for a nanohertz gravitational-wave (GW) background. As radio telescope sensitivity improves, PTAs are also expected to detect continuous gravitational waves from individual supermassive black hole binaries. Nanohertz GWs generate both Earth and pulsar terms in the timing data, and the time delay between the two terms encodes the pulsar distance. Precise pulsar distance measurements are critical to fully exploiting pulsar-term information, which can improve the measurement precision of GW sources' sky position parameters and thus enhance the GW sky-localization capability. In this work, we propose a new pulsar distance estimation method by using pulsar-term phase information from GWs. We construct two-dimensional distance posteriors for pulsar pairs based on the simulated GW signals and combine them to constrain individual pulsar distances. Compared with the existing one-dimensional method, our approach reduces the impact of source-parameter uncertainties on pulsar distance measurements. Considering four GW sources and a PTA of 20 pulsars with a white-noise level of 20 ns, we find that a significant fraction of pulsars at distances $\\lesssim 1.4$ kpc can achieve sub-parsec distance precision over a 15-year observation."
+  },
+  {
+    "title": "Beyond the Black Box: Identifiable Interpretation and Control in Generative Models via Causal Minimality",
+    "url": "http://arxiv.org/abs/2512.10720v1",
+    "arxiv_id": "2512.10720v1",
+    "authors": [
+      "Lingjing Kong",
+      "Shaoan Xie",
+      "Guangyi Chen",
+      "Yuewen Sun",
+      "Xiangchen Song",
+      "Eric P. Xing",
+      "Kun Zhang"
+    ],
+    "published": "2025-12-11T14:59:14+00:00",
+    "summary": "Deep generative models, while revolutionizing fields like image and text generation, largely operate as opaque black boxes, hindering human understanding, control, and alignment. While methods like sparse autoencoders (SAEs) show remarkable empirical success, they often lack theoretical guarantees, risking subjective insights. Our primary objective is to establish a principled foundation for interpretable generative models. We demonstrate that the principle of causal minimality -- favoring the simplest causal explanation -- can endow the latent representations of diffusion vision and autoregressive language models with clear causal interpretation and robust, component-wise identifiable control. We introduce a novel theoretical framework for hierarchical selection models, where higher-level concepts emerge from the constrained composition of lower-level variables, better capturing the complex dependencies in data generation. Under theoretically derived minimality conditions (manifesting as sparsity or compression constraints), we show that learned representations can be equivalent to the true latent variables of the data-generating process. Empirically, applying these constraints to leading generative models allows us to extract their innate hierarchical concept graphs, offering fresh insights into their internal knowledge organization. Furthermore, these causally grounded concepts serve as levers for fine-grained model steering, paving the way for transparent, reliable systems."
+  },
+  {
     "title": "A Precise $\u03b1_s$ Determination from the R-improved QCD Static Energy",
     "url": "http://arxiv.org/abs/2512.09888v1",
     "arxiv_id": "2512.09888v1",
