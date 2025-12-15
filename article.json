@@ -1,5 +1,173 @@
 [
   {
+    "title": "Uncertainty-Aware Domain Adaptation for Vitiligo Segmentation in Clinical Photographs",
+    "url": "http://arxiv.org/abs/2512.11791v1",
+    "arxiv_id": "2512.11791v1",
+    "authors": [
+      "Wentao Jiang",
+      "Vamsi Varra",
+      "Caitlin Perez-Stable",
+      "Harrison Zhu",
+      "Meredith Apicella",
+      "Nicole Nyamongo"
+    ],
+    "published": "2025-12-12T18:56:21+00:00",
+    "summary": "Accurately quantifying vitiligo extent in routine clinical photographs is crucial for longitudinal monitoring of treatment response. We propose a trustworthy, frequency-aware segmentation framework built on three synergistic pillars: (1) a data-efficient training strategy combining domain-adaptive pre-training on the ISIC 2019 dataset with an ROI-constrained dual-task loss to suppress background noise; (2) an architectural refinement via a ConvNeXt V2-based encoder enhanced with a novel High-Frequency Spectral Gating (HFSG) module and stem-skip connections to capture subtle textures; and (3) a clinical trust mechanism employing K-fold ensemble and Test-Time Augmentation (TTA) to generate pixel-wise uncertainty maps. Extensive validation on an expert-annotated clinical cohort demonstrates superior performance, achieving a Dice score of 85.05% and significantly reducing boundary error (95% Hausdorff Distance improved from 44.79 px to 29.95 px), consistently outperforming strong CNN (ResNet-50 and UNet++) and Transformer (MiT-B5) baselines. Notably, our framework demonstrates high reliability with zero catastrophic failures and provides interpretable entropy maps to identify ambiguous regions for clinician review. Our approach suggests that the proposed framework establishes a robust and reliable standard for automated vitiligo assessment."
+  },
+  {
+    "title": "ProbeMDE: Uncertainty-Guided Active Proprioception for Monocular Depth Estimation in Surgical Robotics",
+    "url": "http://arxiv.org/abs/2512.11773v1",
+    "arxiv_id": "2512.11773v1",
+    "authors": [
+      "Britton Jordan",
+      "Jordan Thompson",
+      "Jesse F. d'Almeida",
+      "Hao Li",
+      "Nithesh Kumar",
+      "Susheela Sharma Stern",
+      "Ipek Oguz",
+      "Robert J. Webster",
+      "Daniel Brown",
+      "Alan Kuntz",
+      "James Ferguson"
+    ],
+    "published": "2025-12-12T18:36:53+00:00",
+    "summary": "Monocular depth estimation (MDE) provides a useful tool for robotic perception, but its predictions are often uncertain and inaccurate in challenging environments such as surgical scenes where textureless surfaces, specular reflections, and occlusions are common. To address this, we propose ProbeMDE, a cost-aware active sensing framework that combines RGB images with sparse proprioceptive measurements for MDE. Our approach utilizes an ensemble of MDE models to predict dense depth maps conditioned on both RGB images and on a sparse set of known depth measurements obtained via proprioception, where the robot has touched the environment in a known configuration. We quantify predictive uncertainty via the ensemble's variance and measure the gradient of the uncertainty with respect to candidate measurement locations. To prevent mode collapse while selecting maximally informative locations to propriocept (touch), we leverage Stein Variational Gradient Descent (SVGD) over this gradient map. We validate our method in both simulated and physical experiments on central airway obstruction surgical phantoms. Our results demonstrate that our approach outperforms baseline methods across standard depth estimation metrics, achieving higher accuracy while minimizing the number of required proprioceptive measurements."
+  },
+  {
+    "title": "LUCID: Learning-Enabled Uncertainty-Aware Certification of Stochastic Dynamical Systems",
+    "url": "http://arxiv.org/abs/2512.11750v1",
+    "arxiv_id": "2512.11750v1",
+    "authors": [
+      "Ernesto Casablanca",
+      "Oliver Sch\u00f6n",
+      "Paolo Zuliani",
+      "Sadegh Soudjani"
+    ],
+    "published": "2025-12-12T17:46:50+00:00",
+    "summary": "Ensuring the safety of AI-enabled systems, particularly in high-stakes domains such as autonomous driving and healthcare, has become increasingly critical. Traditional formal verification tools fall short when faced with systems that embed both opaque, black-box AI components and complex stochastic dynamics. To address these challenges, we introduce LUCID (Learning-enabled Uncertainty-aware Certification of stochastIc Dynamical systems), a verification engine for certifying safety of black-box stochastic dynamical systems from a finite dataset of random state transitions. As such, LUCID is the first known tool capable of establishing quantified safety guarantees for such systems. Thanks to its modular architecture and extensive documentation, LUCID is designed for easy extensibility. LUCID employs a data-driven methodology rooted in control barrier certificates, which are learned directly from system transition data, to ensure formal safety guarantees. We use conditional mean embeddings to embed data into a reproducing kernel Hilbert space (RKHS), where an RKHS ambiguity set is constructed that can be inflated to robustify the result to out-of-distribution behavior. A key innovation within LUCID is its use of a finite Fourier kernel expansion to reformulate a semi-infinite non-convex optimization problem into a tractable linear program. The resulting spectral barrier allows us to leverage the fast Fourier transform to generate the relaxed problem efficiently, offering a scalable yet distributionally robust framework for verifying safety. LUCID thus offers a robust and efficient verification framework, able to handle the complexities of modern black-box systems while providing formal guarantees of safety. These unique capabilities are demonstrated on challenging benchmarks."
+  },
+  {
+    "title": "Determination of $B$-meson distribution amplitudes from $B\\to \u03c0,K,D$ transition form factors",
+    "url": "http://arxiv.org/abs/2512.11741v1",
+    "arxiv_id": "2512.11741v1",
+    "authors": [
+      "Dong-Hao Li",
+      "Cai-Dian L\u00fc",
+      "Ulf-G. Mei\u00dfner",
+      "Jing Gao"
+    ],
+    "published": "2025-12-12T17:30:24+00:00",
+    "summary": "Recent work on $B \\to \u03c0$, $K$ and $B\\to D$ form factors from lattice QCD and light-cone sum rules has made it possible to constrain the inverse moment $\u03bb_B$ of the $B$-meson light-cone distribution amplitudes by performing a global fit of $B\\to \u03c0,K,D$ form factors. We have compiled the $B\\to \u03c0,K,D$ form factors calculated by the HPQCD, MILC, and RBC/UKQCD collaborations in the large $q^2$ region. By employing an three-parameter ansatz of the $B$-meson light-cone distribution amplitudes, we express the $B\\to \u03c0,K,D$ form factors at $q^2=0$ that are calculated from light-cone sum rules, in terms of the inverse moment $\u03bb_B$ of the leading-twist $B$-meson light-cone distribution amplitude. In the $B \\to \u03c0\\ell \u03bd$ channel, we also include the available $q^2$-binned experimental data from the BaBar, Belle, and Belle~II collaborations. Using the Bourrely-Caprini-Lellouch parametrization, we perform a global fit and obtain $\u03bb_B=217(19)_{-17}^{+82}$~MeV and $|V_{\\text{ub}}|=3.68(13)_{-1}^{+0}\\times10^{-3}$. The second uncertainty is obtained by constraining $\u03bb_B>200$ MeV and varying the inverse logarithmic moments $\\hat\u03c3_1\\in[-0.7,0.7]$ and $\\hat\u03c3_2\\in[-6,6]$, which represents the model-dependent uncertainty from the $B$-meson light-cone distribution amplitudes. When taking into account $\u03bb_B$ and $\\hat\u03c3_1$ as fitting parameters simultaneously, the intervals of our preditions are $\u03bb_B=[208, 324]$~MeV and $\\hat\u03c3_1=[-0.7, 0.27]$."
+  },
+  {
+    "title": "The Impact of Initial Mass Dependent Convective Boundary Mixing on the Structure and Fates of Massive Stars",
+    "url": "http://arxiv.org/abs/2512.11728v1",
+    "arxiv_id": "2512.11728v1",
+    "authors": [
+      "Emily E. Whitehead",
+      "Raphael Hirschi",
+      "Vishnu Varma",
+      "Bernhard Mueller",
+      "Federico Rizzuti",
+      "Cyril Georgy",
+      "W. D. Arnett"
+    ],
+    "published": "2025-12-12T17:10:32+00:00",
+    "summary": "While convection has been known to play a key role in stars for many decades, its implementation in one-dimensional stellar evolution codes still represents a major uncertainty today. The purpose of this work is to investigate the impact of initial mass dependent convective boundary mixing (CBM), often referred to as overshooting, on the frequency and type of nuclear burning shell interactions that occur in low metallicity massive stars and the subsequent effect on their fates. Two grids of models were calculated using the Modules for Experiments in Stellar Astrophysics (MESA) code and a 22-isotope nuclear network, each with a different strength of CBM applied. One grid uses the typical CBM value for diffusive overshooting used in literature whereas the other grid uses CBM values guided by the results of 3D convection simulations. Interactions between the carbon, neon and oxygen shells (C-Ne-O) are common throughout both grids. The higher CBM grid also exhibits more frequent H-He and He-C interactions at lower initial masses than in the lower CBM grid. Several models also undergo multiple interaction events during evolution. While future work will be needed to fully assess the impact of the new CBM and the interactions it leads to, one expects interesting effects like unusual nucleosynthesis including more common or enhanced i- and gamma-process nucleosynthesis. Furthermore, SN precursors and a significant change to the pre-SN structure are also expected, with many models not having the commonly expected onion-ring like structure and having a different explosion probability."
+  },
+  {
+    "title": "Machine-learned global glacier ice volumes",
+    "url": "http://arxiv.org/abs/2512.11685v1",
+    "arxiv_id": "2512.11685v1",
+    "authors": [
+      "N. Maffezzoli",
+      "E. Rignot",
+      "C. Barbante",
+      "M. Morlighem",
+      "T. Petersen",
+      "S. Vascon"
+    ],
+    "published": "2025-12-12T16:07:00+00:00",
+    "summary": "We present a global dataset of glacier ice thickness modeled with IceBoost v2.0, a machine learning model trained on 7 million ice thickness measurements and informed by physical and geometrical predictors. We model the distributed ice thickness for every glacier in the two latest Randolph Glacier Inventory releases (v6.0 and v7.0), totaling 215,547 and 274,531 glacier outlines, respectively, plus 955 ice masses contiguous with the Greenland Ice Sheet. We find a global glacier volume of $(149 \\pm 38)\\times 10^3$ km$^3$, consistent with the previous ensemble estimate of $(147 \\pm 28)\\times 10^3$ km$^3$. The corresponding sea-level equivalent, $323 \\pm 91$ mm, is likewise consistent with the earlier value of $315 \\pm 63$ mm. Compared to measurements, IceBoost error is 20-45% lower than the other solutions in the high Arctic, highlighting the value of machine-learning approaches. Confidence in our solution is highest at higher latitudes. Over mountainous terrain, small glaciers, and under-represented lower-latitude regions, confidence is lower. IceBoost v2.0 demonstrates strong generalization at ice sheet margins. On the Geikie Plateau (East Greenland), we find nearly twice as much ice as previously reported, highlighting the method's potential to infer bed topography in parts of the ice sheets. The quality of the solutions depends on the accuracy of the training data, the Digital Elevation Model, ice velocity fields, and glacier geometries, including nunataks. Using the Jensen Gap, we probe the model's curvature with respect to input errors and find it is strongly concave over low-slope, thick-ice regions, implying a potential downward bias in predicted thickness under input uncertainty. The released dataset can be used to model future glacier evolution and sea-level rise, inform the design of glaciological surveys and field campaigns, as well as guide policies on freshwater management."
+  },
+  {
+    "title": "Influence of Exchange-Correlation Functionals and Neural Network Architectures on Li$^+$-Ion Conductivity in Solid-State Electrolyte from Molecular Dynamics Simulations with Machine-Learning Force Fields",
+    "url": "http://arxiv.org/abs/2512.11650v1",
+    "arxiv_id": "2512.11650v1",
+    "authors": [
+      "Zicun Li",
+      "Huanjing Gong",
+      "Ruijuan Xiao",
+      "Xinguo Ren"
+    ],
+    "published": "2025-12-12T15:28:10+00:00",
+    "summary": "With the rapid advancement of machine learning techniques for materials simulations, machine-learned force fields (MLFFs) have become a powerful tool that complements first-principles calculations by enabling high-accuracy molecular dynamics simulations over extended timescales. Typically, MLFFs are trained on data generated from density functional theory (DFT) using a specific exchange-correlation (XC) functional, with the goal of reproducing DFT-level properties. However, the uncertainties in MLFF-based simulations--arising from variations in both MLFF model architectures and the choice of XC functionals--remain insufficiently understood. In this work, we construct MLFF models of different architectures trained on DFT data from both semilocal and hybrid functionals to describe Li$^+$ diffusion in the solid-state electrolyte Li$_6$PS$_5$Cl. We systematically investigate how different XC functionals influence the Li$^+$ diffusion coefficient. To reduce statistical uncertainty, the mean squared displacements are averaged over 300 independent molecular dynamics (MD) trajectories of 70 ps each, yielding statistical variations below $1\\%$. This enables a clear assessment of the respective influences of the functional and the MLFF model. Due to its tendency to underestimate band gaps and migration barriers, the semilocal functional predicts consistently higher Li$^+$ diffusion coefficients, compared to the hybrid functional. Furthermore, comparisons among various neural network methods reveal that the differences in predicted diffusion coefficients arising from different network architectures are of the same order of magnitude as those caused by different functionals, indicating that the choice of the network model itself substantially influences the MLFF predictions. This observation calls from an urgent need for standardized protocols to minimize model-dependent biases in MLFF-based MD."
+  },
+  {
+    "title": "Polarization Entanglement in Atomic Biphotons via OAM-to-Spin Mapping",
+    "url": "http://arxiv.org/abs/2512.11625v1",
+    "arxiv_id": "2512.11625v1",
+    "authors": [
+      "Chang-Wei Lin",
+      "Yi-Ting Ma",
+      "Jiun-Shiuan Shiu",
+      "Yong-Fan Chen"
+    ],
+    "published": "2025-12-12T15:02:31+00:00",
+    "summary": "We demonstrate polarization-entangled biphotons in a cold-atom double-$\u039b$ system, overcoming atomic selection rules that suppress polarization correlations and favor orbital angular momentum (OAM) entanglement. Using spatial light modulators, we coherently map a selected two-dimensional OAM subspace onto the polarization basis and thereby open an otherwise inaccessible polarization channel. Quantum-state tomography confirms that the mapping preserves the biphoton coherence. The four polarization Bell states are generated with fidelities of $92\\text{-}94\\%$ with few-percent statistical uncertainties, and an average Clauser-Horne-Shimony-Holt parameter of $S=2.44$ verifies the survival of nonlocal correlations. To the best of our knowledge, this work presents the first demonstration of OAM-to-polarization entanglement transfer in a cold-atom spontaneous four-wave mixing platform and establishes a practical interface for integrating atomic OAM resources with polarization-based quantum communication networks."
+  },
+  {
+    "title": "AI Benchmark Democratization and Carpentry",
+    "url": "http://arxiv.org/abs/2512.11588v1",
+    "arxiv_id": "2512.11588v1",
+    "authors": [
+      "Gregor von Laszewski",
+      "Wesley Brewer",
+      "Jeyan Thiyagalingam",
+      "Juri Papay",
+      "Armstrong Foundjem",
+      "Piotr Luszczek",
+      "Murali Emani",
+      "Shirley V. Moore",
+      "Vijay Janapa Reddi",
+      "Matthew D. Sinclair",
+      "Sebastian Lobentanzer",
+      "Sujata Goswami",
+      "Benjamin Hawks",
+      "Marco Colombo",
+      "Nhan Tran",
+      "Christine R. Kirkpatrick",
+      "Abdulkareem Alsudais",
+      "Gregg Barrett",
+      "Tianhao Li",
+      "Kirsten Morehouse",
+      "Shivaram Venkataraman",
+      "Rutwik Jain",
+      "Kartik Mathur",
+      "Victor Lu",
+      "Tejinder Singh",
+      "Khojasteh Z. Mirza",
+      "Kongtao Chen",
+      "Sasidhar Kunapuli",
+      "Gavin Farrell",
+      "Renato Umeton",
+      "Geoffrey C. Fox"
+    ],
+    "published": "2025-12-12T14:20:05+00:00",
+    "summary": "Benchmarks are a cornerstone of modern machine learning, enabling reproducibility, comparison, and scientific progress. However, AI benchmarks are increasingly complex, requiring dynamic, AI-focused workflows. Rapid evolution in model architectures, scale, datasets, and deployment contexts makes evaluation a moving target. Large language models often memorize static benchmarks, causing a gap between benchmark results and real-world performance.   Beyond traditional static benchmarks, continuous adaptive benchmarking frameworks are needed to align scientific assessment with deployment risks. This calls for skills and education in AI Benchmark Carpentry. From our experience with MLCommons, educational initiatives, and programs like the DOE's Trillion Parameter Consortium, key barriers include high resource demands, limited access to specialized hardware, lack of benchmark design expertise, and uncertainty in relating results to application domains. Current benchmarks often emphasize peak performance on top-tier hardware, offering limited guidance for diverse, real-world scenarios.   Benchmarking must become dynamic, incorporating evolving models, updated data, and heterogeneous platforms while maintaining transparency, reproducibility, and interpretability. Democratization requires both technical innovation and systematic education across levels, building sustained expertise in benchmark design and use. Benchmarks should support application-relevant comparisons, enabling informed, context-sensitive decisions. Dynamic, inclusive benchmarking will ensure evaluation keeps pace with AI evolution and supports responsible, reproducible, and accessible AI deployment. Community efforts can provide a foundation for AI Benchmark Carpentry."
+  },
+  {
+    "title": "The magnitude of the dark ages 21-cm signal in the context of existing early and late time constraints on $\u039b$CDM",
+    "url": "http://arxiv.org/abs/2512.11568v1",
+    "arxiv_id": "2512.11568v1",
+    "authors": [
+      "H. T. J. Bevins"
+    ],
+    "published": "2025-12-12T13:57:26+00:00",
+    "summary": "The dark ages 21-cm signal is a promising probe of the currently unobserved infant universe between the formation of the Cosmic Microwave Background around $z \\approx 1100$ and the first galaxies around $z\\approx 30$. A detection of the signal will help researchers understanding the nature of dark matter and dark energy, the expansion of the universe and any extensions to the concordance $\u039b$CDM model that could explain the reported Cosmic Dawn 21-cm signal from EDGES and the Hubble tension. In this letter we take existing constraints on the $\u039b$CDM cosmological model from two early time probes, Planck and WMAP, and two late time probes, DES galaxy lensing and clustering and Baryon Acoustic Oscillations, and propagate these through to constraints on the magnitude of the dark ages 21-cm signal. We constrain the magnitude and central frequency of the signal while methodically accounting for uncertainties in the cosmological parameters. We find that within the context of our modelling assumptions and the $\u039b$CDM paradigm, the depth of the dark ages 21-cm signal is known to better than 1 mK and the central frequency to within 0.05 MHz."
+  },
+  {
     "title": "Detection prospects for heavy WIMP dark matter near supermassive black holes, particularly in M31",
     "url": "http://arxiv.org/abs/2512.10923v1",
     "arxiv_id": "2512.10923v1",
