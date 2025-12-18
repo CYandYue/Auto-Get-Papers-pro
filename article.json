@@ -1,5 +1,123 @@
 [
   {
+    "title": "When sufficiency is insufficient: the functional information bottleneck for identifying probabilistic neural representations",
+    "url": "http://arxiv.org/abs/2512.15671v1",
+    "arxiv_id": "2512.15671v1",
+    "authors": [
+      "Ishan Kalburge",
+      "M\u00e1t\u00e9 Lengyel"
+    ],
+    "published": "2025-12-17T18:23:54+00:00",
+    "summary": "The neural basis of probabilistic computations remains elusive, even amidst growing evidence that humans and other animals track their uncertainty. Recent work has proposed that probabilistic representations arise naturally in task-optimized neural networks trained without explicitly probabilistic inductive biases. However, prior work has lacked clear criteria for distinguishing probabilistic representations, those that perform transformations characteristic of probabilistic computation, from heuristic neural codes that merely reformat inputs. We propose a novel information bottleneck framework, the functional information bottleneck (fIB), that crucially evaluates a neural representation based not only on its statistical sufficiency but also on its minimality, allowing us to disambiguate heuristic from probabilistic coding. To demonstrate the power of this framework, we study a variety of task-optimized neural networks that had been suggested to develop probabilistic representations in earlier work: networks trained to perform static inference tasks (such as cue combination and coordinate transformation) or dynamic state estimation tasks (Kalman filtering). In contrast to earlier claims, our minimality requirement reveals that probabilistic representations fail to emerge in these networks: they do not develop minimal codes of Bayesian posteriors in their hidden layer activities, and instead rely on heuristic input recoding. Therefore, it remains an open question under which conditions truly probabilistic representations emerge in neural networks. More generally, our work provides a stringent framework for identifying probabilistic neural codes. Thus, it lays the foundation for systematically examining whether, how, and which posteriors are represented in neural circuits during complex decision-making tasks."
+  },
+  {
+    "title": "A Statistical Framework for Spatial Boundary Estimation and Change Detection: Application to the Sahel Sahara Climate Transition",
+    "url": "http://arxiv.org/abs/2512.15650v1",
+    "arxiv_id": "2512.15650v1",
+    "authors": [
+      "Stephen Tivenan",
+      "Indranil Sahoo",
+      "Yanjun Qian"
+    ],
+    "published": "2025-12-17T18:02:40+00:00",
+    "summary": "Spatial boundaries, such as ecological transitions or climatic regime interfaces, capture steep environmental gradients, and shifts in their structure can signal emerging environmental changes. Quantifying uncertainty in spatial boundary locations and formally testing for temporal shifts remains challenging, especially when boundaries are derived from noisy, gridded environmental data. We present a unified framework that combines heteroskedastic Gaussian process (GP) regression with a scaled Maximum Absolute Difference (MAD) Global Envelope Test (GET) to estimate spatial boundary curves and assess whether they evolve over time. The heteroskedastic GP provides a flexible probabilistic reconstruction of boundary lines, capturing spatially varying mean structure and location specific variability, while the test offers a rigorous hypothesis testing tool for detecting departures from expected boundary behaviors. Simulation studies show that the proposed method achieves the correct size under the null and high power for detecting local boundary shifts. Applying our framework to the Sahel Sahara transition zone, using annual Koppen Trewartha climate classifications from 1960 to 1989, we find no statistically significant decade scale changes in the arid and semi arid or semi arid and non arid interfaces. However, the method successfully identifies localized boundary shifts during the extreme drought years of 1983 and 1984, consistent with climate studies documenting regional anomalies in these interfaces during that period."
+  },
+  {
+    "title": "Fully Bayesian Spectral Clustering and Benchmarking with Uncertainty Quantification for Small Area Estimation",
+    "url": "http://arxiv.org/abs/2512.15643v1",
+    "arxiv_id": "2512.15643v1",
+    "authors": [
+      "Jairo F\u00faquene-Pati\u00f1o"
+    ],
+    "published": "2025-12-17T17:51:21+00:00",
+    "summary": "In this work, inspired by machine learning techniques, we propose a new Bayesian model for Small Area Estimation (SAE), the Fay-Herriot model with Spectral Clustering (FH-SC). Unlike traditional approaches, clustering in FH-SC is based on spectral clustering algorithms that utilize external covariates, rather than geographical or administrative criteria. A major advantage of the FH-SC model is its flexibility in integrating existing SAE approaches, with or without clustering random effects. To enable benchmarking, we leverage the theoretical framework of posterior projections for constrained Bayesian inference and derive closed form expressions for the new Rao-Blackwell (RB) estimators of the posterior mean under the FH-SC model. Additionally, we introduce a novel measure of uncertainty for the benchmarked estimator, the Conditional Posterior Mean Square Error (CPMSE), which is generalizable to other Bayesian SAE estimators. We conduct model-based and data-based simulation studies to evaluate the frequentist properties of the CPMSE. The proposed methodology is motivated by a real case study involving the estimation of the proportion of households with internet access in the municipalities of Colombia. Finally, we also illustrate the advantages of FH-SC over existing Bayesian and frequentist approaches through our case study."
+  },
+  {
+    "title": "Nonparametric Stochastic Subspaces via the Bootstrap for Characterizing Model Error",
+    "url": "http://arxiv.org/abs/2512.15624v1",
+    "arxiv_id": "2512.15624v1",
+    "authors": [
+      "Akash Yadav",
+      "Ruda Zhang"
+    ],
+    "published": "2025-12-17T17:32:48+00:00",
+    "summary": "Reliable forward uncertainty quantification in engineering requires methods that account for aleatory and epistemic uncertainties. In many applications, epistemic effects arising from uncertain parameters and model form dominate prediction error and strongly influence engineering decisions. Because distinguishing and representing each source separately is often infeasible, their combined effect is typically analyzed using a unified model-error framework. Model error directly affects model credibility and predictive reliability; yet its characterization remains challenging. To address this need, we introduce a bootstrap-based stochastic subspace model for characterizing model error in the stochastic reduced-order modeling framework. Given a snapshot matrix of state vectors, the method leverages the empirical data distribution to induce a sampling distribution over principal subspaces for reduced order modeling. The resulting stochastic model enables improved characterization of model error in computational mechanics compared with existing approaches. The method offers several advantages: (1) it is assumption-free and leverages the empirical data distribution; (2) it enforces linear constraints (such as boundary conditions) by construction; (3) it requires only one hyperparameter, significantly simplifying the training process; and (4) its algorithm is straightforward to implement. We evaluate the method's performance against existing approaches using numerical examples in computational mechanics and structural dynamics."
+  },
+  {
+    "title": "A Decision-Theoretic Approach for Managing Misalignment",
+    "url": "http://arxiv.org/abs/2512.15584v1",
+    "arxiv_id": "2512.15584v1",
+    "authors": [
+      "Daniel A. Herrmann",
+      "Abinav Chari",
+      "Isabelle Qian",
+      "Sree Sharvesh",
+      "B. A. Levinstein"
+    ],
+    "published": "2025-12-17T16:44:01+00:00",
+    "summary": "When should we delegate decisions to AI systems? While the value alignment literature has developed techniques for shaping AI values, less attention has been paid to how to determine, under uncertainty, when imperfect alignment is good enough to justify delegation. We argue that rational delegation requires balancing an agent's value (mis)alignment with its epistemic accuracy and its reach (the acts it has available). This paper introduces a formal, decision-theoretic framework to analyze this tradeoff precisely accounting for a principal's uncertainty about these factors. Our analysis reveals a sharp distinction between two delegation scenarios. First, universal delegation (trusting an agent with any problem) demands near-perfect value alignment and total epistemic trust, conditions rarely met in practice. Second, we show that context-specific delegation can be optimal even with significant misalignment. An agent's superior accuracy or expanded reach may grant access to better overall decision problems, making delegation rational in expectation. We develop a novel scoring framework to quantify this ex ante decision. Ultimately, our work provides a principled method for determining when an AI is aligned enough for a given context, shifting the focus from achieving perfect alignment to managing the risks and rewards of delegation under uncertainty."
+  },
+  {
+    "title": "Extensive Observational Evidence for Massive Star Stellar Wind Variability at Low Metallicities: implications for mass-loss rate determination",
+    "url": "http://arxiv.org/abs/2512.15539v1",
+    "arxiv_id": "2512.15539v1",
+    "authors": [
+      "Timothy N. Parsons",
+      "Raman K. Prinja",
+      "Derck L. Massa",
+      "Alex W. Fullerton"
+    ],
+    "published": "2025-12-17T15:46:17+00:00",
+    "summary": "Mass-loss from massive stars is fundamental to stellar and galactic evolution and enrichment of the interstellar medium. Reliable determination of mass-loss rate is dependent upon unravelling details of massive star outflows, including optical depth structure of the stellar wind. That parameter introduces significant uncertainty due to the nearly ubiquitous presence of large-scale optically thick wind structure. We utilize suitable available ultraviolet spectra of 20 Large and Small Magellanic Cloud (LMC, SMC) OB stars to extend existing Galactic results quantifying uncertainty inherent in individual observations to lower metallicity environments. This is achieved by measuring standard deviations of mean optical depths of multiple observations of suitable wind-formed absorption profiles as a proportion of their mean optical depths. We confirm earlier findings that wind structure is prevalent at low metallicities and demonstrate that quantifying the consequent uncertainty is to some extent possible, despite the near-complete absence of time series UV spectroscopic observations in those environments. We find that the uncertainty inherent in any single observation of stellar wind optical depth at low metallicity is of similar magnitude to that already identified at Galactic metallicity (up to 45% for cooler OB stars). We further demonstrate how the effect of varying narrow absorption components in wind-formed UV spectral profiles is unlikely to be properly accounted for in existing mass-loss models. We present further evidence of a binary companion to the SMC O-type giant star AzV 75. The importance of obtaining high cadence multi-epoch, or genuine time series, UV spectroscopic observations at low metallicities is highlighted."
+  },
+  {
+    "title": "Robustness and uncertainty: two complementary aspects of the reliability of the predictions of a classifier",
+    "url": "http://arxiv.org/abs/2512.15492v1",
+    "arxiv_id": "2512.15492v1",
+    "authors": [
+      "Adri\u00e1n Detavernier",
+      "Jasper De Bock"
+    ],
+    "published": "2025-12-17T14:40:14+00:00",
+    "summary": "We consider two conceptually different approaches for assessing the reliability of the individual predictions of a classifier: Robustness Quantification (RQ) and Uncertainty Quantification (UQ). We compare both approaches on a number of benchmark datasets and show that there is no clear winner between the two, but that they are complementary and can be combined to obtain a hybrid approach that outperforms both RQ and UQ. As a byproduct of our approach, for each dataset, we also obtain an assessment of the relative importance of uncertainty and robustness as sources of unreliability."
+  },
+  {
+    "title": "Energy Inference of Black-Box Quantum Computers Using Quantum Speed Limit",
+    "url": "http://arxiv.org/abs/2512.15472v1",
+    "arxiv_id": "2512.15472v1",
+    "authors": [
+      "Nobumasa Ishida",
+      "Yoshihiko Hasegawa"
+    ],
+    "published": "2025-12-17T14:16:05+00:00",
+    "summary": "Cloud-based quantum computers do not provide users with access to hardware-level information such as the underlying Hamiltonians, which obstructs the characterization of their physical properties. We propose a method to infer the energy scales of gate Hamiltonians in such black-box quantum processors using only user-accessible data, by exploiting quantum speed limits. Specifically, we reinterpret the Margolus-Levitin and Mandelstam-Tamm bounds as estimators of the energy expectation value and variance, respectively, and relate them to the shortest time for the processor to orthogonalize a quantum state. This shortest gate time, expected to lie on the nanosecond scale, is inferred from job execution times measured in seconds by employing gate-time amplification. We apply the method to IBM's superconducting quantum processor and estimate the energy scales associated with single-, two-, and three-qubit gates. The order of estimated energy is consistent with typical drive energies in superconducting qubit systems, suggesting that current gate operations approach the quantum speed limit. Our results demonstrate that fundamental energetic properties of black-box quantum computers can be quantitatively accessed through operational time measurements, reflecting the conjugate relationship between time and energy imposed by the uncertainty principle."
+  },
+  {
+    "title": "Robustness Measures for Stochastic Parallel Machine Scheduling and Train Unit Shunting",
+    "url": "http://arxiv.org/abs/2512.15471v1",
+    "arxiv_id": "2512.15471v1",
+    "authors": [
+      "Casper Loman",
+      "Loriana Pascual",
+      "Marjan van den Akker",
+      "Roel van den Broek",
+      "Han Hoogeveen"
+    ],
+    "published": "2025-12-17T14:13:53+00:00",
+    "summary": "In many real world scheduling problems, the processing times of tasks are subject to uncertainty. This makes it essential to design schedules that are robust and able to handle potential disruptions. Therefore, we investigate measures that give us information about the robustness of a schedule. Although many measures can be found in literature, there is no consensus on which measures are the best. We identify 14 robustness measures from the literature, as well as introduce 4 new ones. To find out which of these measures are best used for generating robust schedules, we perform an elaborate simulation study to investigate how well these robustness measures correlate with the stability of the objective function under disturbances (quality robustness) and with the stability of the schedule itself (solution robustness). We first consider the Stochastic Parallel Machine Scheduling Problem (SPMSP) with precedence constraints, which is a very general setting that is relevant for many practical situations. We then perform a second simulation study by taking the best performing measures from the first experiment, and using them for the Train Unit Shunting Problem with Service Scheduling (TUSPwSS). After establishing the correlation with quality and solution robustness, we included the measures as objective in a local search algorithm. We make a comparison between the theoretical setting of the SPMSP and the TUSPwSS, and identify a set of robustness measures that can be applied in many different settings. We show that we can achieve up to 90% decreases in delays compared to using no robustness measures. Lastly, we also identify properties that can be used to predict the effectiveness of such a robustness measure."
+  },
+  {
+    "title": "EUBRL: Epistemic Uncertainty Directed Bayesian Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2512.15405v1",
+    "arxiv_id": "2512.15405v1",
+    "authors": [
+      "Jianfei Ma",
+      "Wee Sun Lee"
+    ],
+    "published": "2025-12-17T12:55:05+00:00",
+    "summary": "At the boundary between the known and the unknown, an agent inevitably confronts the dilemma of whether to explore or to exploit. Epistemic uncertainty reflects such boundaries, representing systematic uncertainty due to limited knowledge. In this paper, we propose a Bayesian reinforcement learning (RL) algorithm, $\\texttt{EUBRL}$, which leverages epistemic guidance to achieve principled exploration. This guidance adaptively reduces per-step regret arising from estimation errors. We establish nearly minimax-optimal regret and sample complexity guarantees for a class of sufficiently expressive priors in infinite-horizon discounted MDPs. Empirically, we evaluate $\\texttt{EUBRL}$ on tasks characterized by sparse rewards, long horizons, and stochasticity. Results demonstrate that $\\texttt{EUBRL}$ achieves superior sample efficiency, scalability, and consistency."
+  },
+  {
     "title": "Drell-Yan at the Electron-Ion Collider",
     "url": "http://arxiv.org/abs/2512.14690v1",
     "arxiv_id": "2512.14690v1",
