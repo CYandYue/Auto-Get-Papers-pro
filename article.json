@@ -1,5 +1,196 @@
 [
   {
+    "title": "Picosecond laser test unit for photosensor characterization at ambient and low temperatures",
+    "url": "http://arxiv.org/abs/2512.19667v1",
+    "arxiv_id": "2512.19667v1",
+    "authors": [
+      "Matthias Raphael Stock",
+      "Hans Th. J. Steiger",
+      "Ulrike Fahrendholz",
+      "Luca Schweizer",
+      "Lothar Oberauer"
+    ],
+    "published": "2025-12-22T18:47:37+00:00",
+    "summary": "Accurate single photoelectron (SPE) characterization of photosensors is essential for controlling systematic uncertainties in low-light neutrino and dark matter detectors. We present a compact laboratory setup for the characterization of photosensors under controlled, low-light conditions. Specifically, we demonstrate its use with photomultiplier tubes (PMTs) operated at the SPE-level, using picosecond laser pulses and waveform digitization to determine key PMT properties. Measurements as a function of supply voltage and temperature ($-50^\\circ$C to $+20^\\circ$C) are performed on ET Enterprises 9821(Q)B tubes and a Hamamatsu R9980 assembly, which show exponential gain-voltage behavior and device-to-device variation. Cooling increases the gain by $\\sim 0.1\\,\\%/^\\circ$C, while the transit time spread (TTS) and peak-to-valley ratio (P/V) exhibit no clear temperature dependence. TTS decreases with voltage. Late pulses remain at the percent level and prepulses at the sub-percent level. Cable length affects both apparent gain and TTS. A model-independent, data-driven self-convolution method is introduced to quantify double photoelectron contributions from pulse charge spectra. The procedures provide a reproducible, practice-oriented reference for SPE-level PMT characterization and can be extended to other photosensor types."
+  },
+  {
+    "title": "Scenario Reduction for the Two-Stage Stochastic Unit Commitment Problem",
+    "url": "http://arxiv.org/abs/2512.19614v1",
+    "arxiv_id": "2512.19614v1",
+    "authors": [
+      "Yannick Werner",
+      "Juan Miguel Morales",
+      "Salvador Pineda",
+      "Line Roald",
+      "Sonja Wogrin"
+    ],
+    "published": "2025-12-22T17:50:05+00:00",
+    "summary": "The two-stage stochastic unit commitment problem has become an important tool to support decision-making under uncertainty in power systems. Representing the uncertainty by a large number of scenarios guarantees accurate results but challenges the solution process. One way to overcome this is by using scenario reduction methods, which aim at finding a distribution supported on fewer scenarios, but leading to similar optimal first-stage decisions. In this paper, we recap the classical scenario reduction theory based on the distance of probability distributions and the optimal mass transportation problem. We then review and compare various formulations of the underlying cost function of the latter used in the literature. Using the Forward Selection Algorithm, we show that a specific formulation of the cost function can be proven to select the best possible scenario from a given sample on the first draw with respect to the Relative Approximation Error. We demonstrate this result and compare the quality of the approximation as well as the computational performance of the different cost functions using a modified version of the IEEE RTS 24-Bus System. In many cases, we find that the optimal solution of the two-stage stochastic unit commitment problem with 200 scenarios can be approximated with around 2% scenarios when using this cost function."
+  },
+  {
+    "title": "Neutron star crust and outer core equation of state from chiral effective field theory with quantified uncertainties",
+    "url": "http://arxiv.org/abs/2512.19593v1",
+    "arxiv_id": "2512.19593v1",
+    "authors": [
+      "H. G\u00f6ttling",
+      "L. Hoff",
+      "K. Hebeler",
+      "A. Schwenk"
+    ],
+    "published": "2025-12-22T17:25:18+00:00",
+    "summary": "We study the order-by-order expansion of the energy per particle of asymmetric nuclear matter up to twice saturation density in chiral effective field theory (EFT) within a Bayesian framework. For this, we develop a two-dimensional Gaussian process (2D GP) that is trained using many-body perturbation theory results based on chiral two- and three-nucleon interactions from leading to next-to-next-to-next-to-leading order (N$^3$LO). This allows for an efficient evaluation of the equation of state (EOS) and thermodynamic derivatives with EFT truncation uncertainties. After benchmarking our 2D GP against Bayesian uncertainties for pure neutron matter and symmetric matter, we study the energy per particle, pressure, and chemical potentials of neutron star matter in $\u03b2$-equilibrium including EFT uncertainties. We investigate the phase diagram of neutron-rich matter from neutron- to proton-drip and to the uniform phase, including surface and Coulomb corrections. Based on this, we construct EOSs for the inner crust of neutron stars that are consistent with the chiral EFT results for uniform matter at N$^3$LO."
+  },
+  {
+    "title": "Possibilistic Inferential Models for Post-Selection Inference in High-Dimensional Linear Regression",
+    "url": "http://arxiv.org/abs/2512.19588v1",
+    "arxiv_id": "2512.19588v1",
+    "authors": [
+      "Yaohui Lin"
+    ],
+    "published": "2025-12-22T17:14:27+00:00",
+    "summary": "Valid uncertainty quantification after model selection remains challenging in high-dimensional linear regression, especially within the possibilistic inferential model (PIM) framework. We develop possibilistic inferential models for post-selection inference based on a regularized split possibilistic construction (RSPIM) that combines generic high-dimensional selectors with PIM validification through sample splitting. A first subsample is used to select a sparse model; ordinary least-squares refits on an independent inference subsample yield classical t/F pivots, which are then turned into consonant plausibility contours. In Gaussian linear models this leads to coor-dinatewise intervals with exact finite-sample strong validity conditional on the split and selected model, uniformly over all selectors that use only the selection data. We further analyze RSPIM in a sparse p >> n regime under high-level screening conditions, develop orthogonalized and bootstrap-based extensions for low-dimensional targets with high-dimensional nuisance, and study a maxitive multi-split aggregation that stabilizes inference across random splits while preserving strong validity. Simulations and a riboflavin gene-expression example show that calibrated RSPIM intervals are well behaved under both Gaussian and heteroskedastic errors and are competitive with state-of-the-art post-selection methods, while plausibility contours provide transparent diagnostics of post-selection uncertainty."
+  },
+  {
+    "title": "LeLaR: The First In-Orbit Demonstration of an AI-Based Satellite Attitude Controller",
+    "url": "http://arxiv.org/abs/2512.19576v1",
+    "arxiv_id": "2512.19576v1",
+    "authors": [
+      "Kirill Djebko",
+      "Tom Baumann",
+      "Erik Dilger",
+      "Frank Puppe",
+      "Sergio Montenegro"
+    ],
+    "published": "2025-12-22T17:00:25+00:00",
+    "summary": "Attitude control is essential for many satellite missions. Classical controllers, however, are time-consuming to design and sensitive to model uncertainties and variations in operational boundary conditions. Deep Reinforcement Learning (DRL) offers a promising alternative by learning adaptive control strategies through autonomous interaction with a simulation environment. Overcoming the Sim2Real gap, which involves deploying an agent trained in simulation onto the real physical satellite, remains a significant challenge. In this work, we present the first successful in-orbit demonstration of an AI-based attitude controller for inertial pointing maneuvers. The controller was trained entirely in simulation and deployed to the InnoCube 3U nanosatellite, which was developed by the Julius-Maximilians-Universit\u00e4t W\u00fcrzburg in cooperation with the Technische Universit\u00e4t Berlin, and launched in January 2025. We present the AI agent design, the methodology of the training procedure, the discrepancies between the simulation and the observed behavior of the real satellite, and a comparison of the AI-based attitude controller with the classical PD controller of InnoCube. Steady-state metrics confirm the robust performance of the AI-based controller during repeated in-orbit maneuvers."
+  },
+  {
+    "title": "Optimal Uncertainty Quantification under General Moment Constraints on Input Subdomains",
+    "url": "http://arxiv.org/abs/2512.19572v1",
+    "arxiv_id": "2512.19572v1",
+    "authors": [
+      "Rong Jin",
+      "Xingsheng Sun"
+    ],
+    "published": "2025-12-22T16:53:52+00:00",
+    "summary": "We present an optimal uncertainty quantification (OUQ) framework for systems whose uncertain inputs are characterized by truncated moment constraints defined over subdomains. Based on this partial information, rigorous optimal upper and lower bounds on the probability of failure (PoF) are derived over the admissible set of probability measures, providing a principled basis for system safety certification. We formulate the OUQ problem under general subdomain moment constraints and develop a high-performance computational framework to compute the optimal bounds. This approach transforms the original infinite-dimensional optimization problems into finite-dimensional unconstrained ones parameterized solely by free canonical moments. To address the prohibitive cost of PoF evaluation in high-dimensional settings, we incorporate inverse transform sampling (ITS), enabling efficient and accurate PoF estimation within the OUQ optimization. We also demonstrate that constraining inputs only by zeroth-order moments over subdomains yields a formulation equivalent to evidence theory. Three groups of numerical examples demonstrate the framework's effectiveness and scalability. Results show that increasing the number of subdomains or the moment order systematically tightens the bound interval. For high-dimensional problems, the ITS strategy reduces computational costs by up to two orders of magnitude while maintaining relative error below 1%. Furthermore, we identify regimes where optimal bounds are sensitive to subdomain partitioning or higher-order moments, guiding uncertainty reduction efforts for safety certification."
+  },
+  {
+    "title": "Ultra-high precision high voltage system for PTOLEMY",
+    "url": "http://arxiv.org/abs/2512.19437v1",
+    "arxiv_id": "2512.19437v1",
+    "authors": [
+      "R. Ammendola",
+      "A. Apponi",
+      "G. Benato",
+      "M. G. Betti",
+      "R. Biondim",
+      "P. Bos",
+      "G. Cavoto",
+      "M. Cadeddu",
+      "A. Casale",
+      "O. Castellano",
+      "E. Celasco",
+      "L. Cecchini",
+      "M. Chirico",
+      "W. Chung",
+      "A. G. Cocco",
+      "A. P. Colijn",
+      "B. Corcione",
+      "N. D'Ambrosio",
+      "M. D'Incecco",
+      "G. De Bellis",
+      "M. De Deo",
+      "N. de Groot",
+      "A. Esposito",
+      "M. Farino",
+      "S. Farinon",
+      "A. D. Ferella",
+      "L. Ferro",
+      "L. Ficcadenti",
+      "G. Galbato Muscio",
+      "S. Gariazzo",
+      "H. Garrone",
+      "F. Gatti",
+      "G. Korga",
+      "F. Malnati",
+      "G. Mangano",
+      "L. E. Marcucci",
+      "C. Mariani",
+      "J. Mead",
+      "G. Menichetti",
+      "M. Messina",
+      "E. Monticone",
+      "M. Naafs",
+      "V. Narcisi",
+      "S. Nagorny",
+      "G. Neri",
+      "F. Pandolfi",
+      "R. Pavarani",
+      "C. P\u00e8rez de los Heros",
+      "O. Pisanti",
+      "C. Pepe",
+      "F. M. Pofi",
+      "A. D. Polosa",
+      "I. Rago",
+      "M. Rajteri N. Rossi",
+      "S. Ritarossi",
+      "A. Ruocco",
+      "G. Salina",
+      "A. Santucci",
+      "M. Sestu",
+      "A. Tan",
+      "V. Tozzini",
+      "C. G. Tully",
+      "I. van Rens",
+      "F. Virzi",
+      "G. Visser",
+      "M. Vivian"
+    ],
+    "published": "2025-12-22T14:34:51+00:00",
+    "summary": "The PTOLEMY project is prototyping a novel electromagnetic filter for high-precision $\u03b2$ spectroscopy, with the ultimate and ambitious long-term goal of detecting the cosmic neutrino background through electron capture on tritium bound to graphene. Intermediate small-scale prototypes can achieve competitive sensitivity to the effective neutrino mass, even with reduced energy resolution. To reach an energy resolution better than \\SI{500}{meV} at the tritium $\u03b2$-spectrum endpoint of \\SI{18.6}{keV}, and accounting for all uncertainties in the filtering chain, the electrode voltage must be controlled at the level of a few parts per million and monitored in real time. In this work, we present the first results obtained in this effort, using a chain of commercial ultra-high-precision voltage references, read out by precision multimeters and a \\emph{field mill} device. The currently available precision on high voltage is, in the conservative case, as low as \\SI{0.2}{ppm} per \\SI{1}{kV} single board and $\\lesssim$ \\SI{50}{mV} over the \\SI{10}{kV} series, presently limited by field mill read-out noise. However, assuming uncorrelated Gaussian noise extrapolation, the real precision could in principle be as low as \\SI{0.05}{ppm} over \\SI{20}{kV}."
+  },
+  {
+    "title": "On the new physics in Bhabha luminometry at future $e^+e^-$ colliders",
+    "url": "http://arxiv.org/abs/2512.19423v1",
+    "arxiv_id": "2512.19423v1",
+    "authors": [
+      "Clara L. Del Pio",
+      "Francesco P. Ucci"
+    ],
+    "published": "2025-12-22T14:27:16+00:00",
+    "summary": "The absolute machine luminosity is a key quantity to achieve the high-precision physics program of future $e^+e^-$ collider. It is determined by measuring a theoretically well-known process, which, ideally, can be computed with arbitrary precision in the perturbation theory. However, yet undiscovered new physics could give a non-negligible contribution to the cross section of the luminosity monitoring process, thus invalidating the uncertainty determination of measured quantities. We assess the theoretical error of non-Standard Model origin to the small-angle Bhabha scattering in various future colliders scenarios. In addition, a possible running strategy to constrain unknown heavy interactions is proposed, relying on asymmetries that do not depend on the absolute luminosity."
+  },
+  {
+    "title": "Power feedback strategy based on efficiency trajectory analysis for HCPV sun tracking",
+    "url": "http://arxiv.org/abs/2512.19394v1",
+    "arxiv_id": "2512.19394v1",
+    "authors": [
+      "Manuel G. Satu\u00e9",
+      "Fernando Casta\u00f1o",
+      "Manuel G. Ortega",
+      "Francisco R. Rubio"
+    ],
+    "published": "2025-12-22T13:42:07+00:00",
+    "summary": "This paper presents a control strategy for sun trackers which adapts continuously to different sources of error, avoiding the necessity of any kind of calibration by analyzing the produced electric power to sense the position of the Sun. The proposed strategy is able to meet the strict specifications for HCPV sun trackers despite of mechanical uncertainties (misalignments in the structure itself, misalignment of the solar modules with respect to the wing, etc.) and installation uncertainties (misalignments of the platform with respect to geographical north). Experimental results with an industrial-grade solar tracker showing the validity of the proposed control strategy under sunny and moderate cloudy conditions, as well as with different installation precisions by un-calibrating the system on purpose are exposed."
+  },
+  {
+    "title": "DSTED: Decoupling Temporal Stabilization and Discriminative Enhancement for Surgical Workflow Recognition",
+    "url": "http://arxiv.org/abs/2512.19387v1",
+    "arxiv_id": "2512.19387v1",
+    "authors": [
+      "Yueyao Chen",
+      "Kai-Ni Wang",
+      "Dario Tayupo",
+      "Arnaud Huaulm'e",
+      "Krystel Nyangoh Timoh",
+      "Pierre Jannin",
+      "Qi Dou"
+    ],
+    "published": "2025-12-22T13:36:26+00:00",
+    "summary": "Purpose: Surgical workflow recognition enables context-aware assistance and skill assessment in computer-assisted interventions. Despite recent advances, current methods suffer from two critical challenges: prediction jitter across consecutive frames and poor discrimination of ambiguous phases. This paper aims to develop a stable framework by selectively propagating reliable historical information and explicitly modeling uncertainty for hard sample enhancement.   Methods: We propose a dual-pathway framework DSTED with Reliable Memory Propagation (RMP) and Uncertainty-Aware Prototype Retrieval (UPR). RMP maintains temporal coherence by filtering and fusing high-confidence historical features through multi-criteria reliability assessment. UPR constructs learnable class-specific prototypes from high-uncertainty samples and performs adaptive prototype matching to refine ambiguous frame representations. Finally, a confidence-driven gate dynamically balances both pathways based on prediction certainty.   Results: Our method achieves state-of-the-art performance on AutoLaparo-hysterectomy with 84.36% accuracy and 65.51% F1-score, surpassing the second-best method by 3.51% and 4.88% respectively. Ablations reveal complementary gains from RMP (2.19%) and UPR (1.93%), with synergistic effects when combined. Extensive analysis confirms substantial reduction in temporal jitter and marked improvement on challenging phase transitions.   Conclusion: Our dual-pathway design introduces a novel paradigm for stable workflow recognition, demonstrating that decoupling the modeling of temporal consistency and phase ambiguity yields superior performance and clinical applicability."
+  },
+  {
     "title": "Distributionally Robust Imitation Learning: Layered Control Architecture for Certifiable Autonomy",
     "url": "http://arxiv.org/abs/2512.17899v1",
     "arxiv_id": "2512.17899v1",
