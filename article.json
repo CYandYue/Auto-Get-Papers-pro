@@ -1,5 +1,133 @@
 [
   {
+    "title": "Active Intelligence in Video Avatars via Closed-loop World Modeling",
+    "url": "http://arxiv.org/abs/2512.20615v1",
+    "arxiv_id": "2512.20615v1",
+    "authors": [
+      "Xuanhua He",
+      "Tianyu Yang",
+      "Ke Cao",
+      "Ruiqi Wu",
+      "Cheng Meng",
+      "Yong Zhang",
+      "Zhuoliang Kang",
+      "Xiaoming Wei",
+      "Qifeng Chen"
+    ],
+    "published": "2025-12-23T18:59:16+00:00",
+    "summary": "Current video avatar generation methods excel at identity preservation and motion alignment but lack genuine agency, they cannot autonomously pursue long-term goals through adaptive environmental interaction. We address this by introducing L-IVA (Long-horizon Interactive Visual Avatar), a task and benchmark for evaluating goal-directed planning in stochastic generative environments, and ORCA (Online Reasoning and Cognitive Architecture), the first framework enabling active intelligence in video avatars. ORCA embodies Internal World Model (IWM) capabilities through two key innovations: (1) a closed-loop OTAR cycle (Observe-Think-Act-Reflect) that maintains robust state tracking under generative uncertainty by continuously verifying predicted outcomes against actual generations, and (2) a hierarchical dual-system architecture where System 2 performs strategic reasoning with state prediction while System 1 translates abstract plans into precise, model-specific action captions. By formulating avatar control as a POMDP and implementing continuous belief updating with outcome verification, ORCA enables autonomous multi-step task completion in open-domain scenarios. Extensive experiments demonstrate that ORCA significantly outperforms open-loop and non-reflective baselines in task success rate and behavioral coherence, validating our IWM-inspired design for advancing video avatar intelligence from passive animation to active, goal-oriented behavior."
+  },
+  {
+    "title": "LEAD: Minimizing Learner-Expert Asymmetry in End-to-End Driving",
+    "url": "http://arxiv.org/abs/2512.20563v1",
+    "arxiv_id": "2512.20563v1",
+    "authors": [
+      "Long Nguyen",
+      "Micha Fauth",
+      "Bernhard Jaeger",
+      "Daniel Dauner",
+      "Maximilian Igl",
+      "Andreas Geiger",
+      "Kashyap Chitta"
+    ],
+    "published": "2025-12-23T18:07:43+00:00",
+    "summary": "Simulators can generate virtually unlimited driving data, yet imitation learning policies in simulation still struggle to achieve robust closed-loop performance. Motivated by this gap, we empirically study how misalignment between privileged expert demonstrations and sensor-based student observations can limit the effectiveness of imitation learning. More precisely, experts have significantly higher visibility (e.g., ignoring occlusions) and far lower uncertainty (e.g., knowing other vehicles' actions), making them difficult to imitate reliably. Furthermore, navigational intent (i.e., the route to follow) is under-specified in student models at test time via only a single target point. We demonstrate that these asymmetries can measurably limit driving performance in CARLA and offer practical interventions to address them. After careful modifications to narrow the gaps between expert and student, our TransFuser v6 (TFv6) student policy achieves a new state of the art on all major publicly available CARLA closed-loop benchmarks, reaching 95 DS on Bench2Drive and more than doubling prior performances on Longest6~v2 and Town13. Additionally, by integrating perception supervision from our dataset into a shared sim-to-real pipeline, we show consistent gains on the NAVSIM and Waymo Vision-Based End-to-End driving benchmarks. Our code, data, and models are publicly available at https://github.com/autonomousvision/lead."
+  },
+  {
+    "title": "The role of charge in thermodynamic uncertainty relations",
+    "url": "http://arxiv.org/abs/2512.20558v1",
+    "arxiv_id": "2512.20558v1",
+    "authors": [
+      "David Christian Ohnmacht",
+      "Wolfgang Belzig",
+      "Juan Carlos Cuevas"
+    ],
+    "published": "2025-12-23T17:58:41+00:00",
+    "summary": "We demonstrate that the charge value of transport mechanisms heavily impacts the validity of thermodynamic uncertainty relations (TURs). Specifically, we show within the framework of full counting statistics, that the recently established quantum TUR can be violated by the presence of transport processes that carry more than one charge, like Andreev reflection processes in normal metal-superconductor junctions. We propose a modified quantum TUR, which incorporates the charge value and demonstrate that this charge-dependent quantum TUR can only be violated if the highest charge transport process exceeds this charge value. In particular, we establish that the breaking of the quantum TUR solely originates from the charge value of the highest charge transport process. Namely, our analytical considerations do not invoke the existence of superconductivity, and these considerations generally hold for non-interacting electronic transport which can be described by the scattering formalism."
+  },
+  {
+    "title": "Precision spectroscopy of the 2S-$n$P transitions in atomic hydrogen",
+    "url": "http://arxiv.org/abs/2512.20543v1",
+    "arxiv_id": "2512.20543v1",
+    "authors": [
+      "Lothar Maisenbacher"
+    ],
+    "published": "2025-12-23T17:35:38+00:00",
+    "summary": "Precision spectroscopy of atomic hydrogen is an important way to test bound-state quantum electrodynamics (QED), one of the building blocks of the Standard Model. In its simplest form, such a test consists of the comparison of a measured transition frequency with its QED prediction, which can be calculated with very high precision for the hydrogen atom. However, these calculations require some input in the form of physical constants, such as the Rydberg constant $R_\\infty$ and the proton charge radius $r_\\mathrm{p}$, both of which are currently determined to a large degree by hydrogen spectroscopy itself. Therefore, the frequency of at least three different transitions needs to be measured in order to test QED. Equivalently, a comparison of the values of $R_\\infty$ and $r_\\mathrm{p}$ determined from measurements of different transitions constitutes a test of QED.  To this end, laser spectroscopy of optical 2S-$n$P transitions has been performed in this work. As these transitions are one-photon transitions, they are affected by a different set of systematic effects than the two-photon transitions on which most other spectroscopic measurements of hydrogen are based. In order to contribute to the test of QED, their transition frequencies must be determined with a relative uncertainty on the order of one part in $10^{12}$, corresponding to approximately 1 kHz in absolute terms. This is in turn approximately a factor of 10000 smaller than the relatively broad natural linewidth of the 2S-$n$P transitions, and a successful measurement requires both a very large experimental signal-to-noise ratio and a detailed theoretical understanding of the line shape of the observed resonance.  The 2S-$n$P transitions were probed on a cryogenic beam of hydrogen atoms, which were optically excited to the metastable 2S level. The atomic beam was crossed at right angles with counter-propagating spectroscopy laser beams, which further excited the atoms to the $n$P level. The fluorescence from the subsequent rapid spontaneous decay served as experimental signal. The excitation with two counter-propagating beams led to two Doppler shifts of equal magnitude, but opposite sign, which thus canceled each other out. A velocity-resolved detection was used to determine any residual Doppler shifts, which could be excluded within the measurement uncertainty for both of the measurements discussed below.  In a first experiment, the 2S-4P transition was probed. Quantum interference of neighboring atomic resonances produced subtle distortions of the line shape, which were found to be significant because of the very large resolution relative to the linewidth. The line shifts caused by the distortions were directly observed and could be removed by use of a line shape model based on perturbative calculations. With this, the transition frequency was determined with a relative uncertainty of 4 parts in $10^{12}$. In combination with the very precisely measured 1S-2S transition frequency, this allowed the, at the time, most precise determination of $R_\\infty$ and $r_\\mathrm{p}$ from atomic hydrogen. Moreover, good agreement was found with the much more precise value of $r_\\mathrm{p}$ extracted from spectroscopy of muonic hydrogen, which had been in significant disagreement with previous data from (electronic) hydrogen, causing concern about the validity of QED. This result has since been confirmed by other experiments. The 2S-4P measurement is treated in the appendix of this thesis.  The 2S-4P measurement, despite its large signal-to-noise ratio, was limited by counting statistics. To improve precision, a transition with a narrower linewidth and an improved experimental signal was necessary. Hence, the study of the 2S-6P transition, which offers a three times smaller natural linewidth, was begun. The atomic beam apparatus was upgraded, resulting in a corresponding decrease of the experimentally observed linewidth, and a close to an order of magnitude larger flux of atoms in the low-velocity tail of the atomic beam. Together with a detector redesign, this led to an up to 16 times larger signal than for the 2S-4P measurement, opening the path to increased precision. The Doppler-shift suppression was also rebuilt to support such precision, including a fiber collimator developed for this purpose, which provides high-quality spectroscopy beams at the new transition wavelength of 410 nm.  This enabled a measurement of the 2S-6P transition frequency with a statistical uncertainty of 430 Hz, five times lower than for the 2S-4P measurement and corresponding to a suppression of the Doppler shift by six orders of magnitude. At this level of precision, the light force shift from the diffraction of atoms at the light grating formed by the counter-propagating spectroscopy beams becomes significant. This light force shift was directly observed for the first time for the 2S-$n$P transitions and found to be well-described by a model derived for this purpose. The size of all other systematic effects, except the very precisely known recoil shift, is estimated to be below 500 Hz each. The blind data analysis is ongoing at the time of writing and thus no transition frequencies can yet be given. However, a preliminary analysis suggests a five-fold improvement in the determination of $R_\\infty$ and $r_\\mathrm{p}$ as compared to the 2S-4P measurement, and a two-fold improvement over the currently most precise determination from atomic hydrogen. This places the uncertainty of the determined value of $r_\\mathrm{p}$ within a factor of five of that of the muonic value. The 2S-6P measurement is treated in the main text of this thesis."
+  },
+  {
+    "title": "Expected Revenue, Risk, and Grid Impact of Bitcoin Mining: A Decision-Theoretic Perspective",
+    "url": "http://arxiv.org/abs/2512.20518v1",
+    "arxiv_id": "2512.20518v1",
+    "authors": [
+      "Yuting Cai",
+      "Ruthav Sadali",
+      "Korok Ray",
+      "Chao Tian"
+    ],
+    "published": "2025-12-23T17:07:11+00:00",
+    "summary": "Most current assessments use ex post proxies that miss uncertainty and fail to consistently capture the rapid change in bitcoin mining. We introduce a unified, ex ante statistical model that derives expected return, downside risk, and upside potential profit from the first principles of mining: Each hash is a Bernoulli trial with a Bitcoin block difficulty-based success probability. The model yields closed-form expected revenue per hash-rate unit, risk metrics in different scenarios, and upside-profit probabilities for different fleet sizes. Empirical calibration closely matches previously reported observations, yielding a unified, faithful quantification across hardware, pools, and operating conditions. This foundation enables more reliable analysis of mining impacts and behavior."
+  },
+  {
+    "title": "When Natural Strategies Meet Fuzziness and Resource-Bounded Actions (Extended Version)",
+    "url": "http://arxiv.org/abs/2512.20457v1",
+    "arxiv_id": "2512.20457v1",
+    "authors": [
+      "Marco Aruta",
+      "Francesco Improta",
+      "Vadim Malvone",
+      "Aniello Murano"
+    ],
+    "published": "2025-12-23T15:51:02+00:00",
+    "summary": "In formal strategic reasoning for Multi-Agent Systems (MAS), agents are typically assumed to (i) employ arbitrarily complex strategies, (ii) execute each move at zero cost, and (iii) operate over fully crisp game structures. These idealized assumptions stand in stark contrast with human decision making in real world environments. The natural strategies framework along with some of its recent variants, partially addresses this gap by restricting strategies to concise rules guarded by regular expressions. Yet, it still overlook both the cost of each action and the uncertainty that often characterizes human perception of facts over the time. In this work, we introduce HumanATLF, a logic that builds upon natural strategies employing both fuzzy semantics and resource bound actions: each action carries a real valued cost drawn from a non refillable budget, and atomic conditions and goals have degrees in [0,1]. We give a formal syntax and semantics, and prove that model checking is in P when both the strategy complexity k and resource budget b are fixed, NP complete if just one strategic operator over Boolean objectives is allowed, and Delta^P_2 complete when k and b vary. Moreover, we show that recall based strategies can be decided in PSPACE. We implement our algorithms in VITAMIN, an open source model checking tool for MAS and validate them on an adversarial resource aware drone rescue scenario."
+  },
+  {
+    "title": "The Exact Uncertainty Relation and Geometric Speed Limits in Krylov Space",
+    "url": "http://arxiv.org/abs/2512.20359v1",
+    "arxiv_id": "2512.20359v1",
+    "authors": [
+      "Mohsen Alishahiha",
+      "Souvik Banerjee"
+    ],
+    "published": "2025-12-23T13:40:25+00:00",
+    "summary": "We show that Hall's exact uncertainty relation acquires a simple geometric form in the Krylov basis generated by the Liouvillian. In this canonical operator frame, the uncertainty equality implies that the operator amplitude vector evolves on the unit Krylov sphere with constant speed fixed solely by the first Lanczos coefficient. This yields an exact linear bound on geometric operator evolution, independent of higher Lanczos coefficients and valid for arbitrary Hamiltonians, integrable or chaotic. Our results provide the first unified geometric interpretation of exact quantum speed limits and operator growth, identifying the first Lanczos coefficient as the intrinsic speed scale of quantum dynamics."
+  },
+  {
+    "title": "Status of the Muon g-2/EDM Experiment at J-PARC",
+    "url": "http://arxiv.org/abs/2512.20335v1",
+    "arxiv_id": "2512.20335v1",
+    "authors": [
+      "Graziano Venanzoni"
+    ],
+    "published": "2025-12-23T13:08:35+00:00",
+    "summary": "The Muon g-2/EDM Experiment at J-PARC will employ a novel way to measure the muon magnetic anomaly, a_mu = (g-2)_mu/2, by using a low-emittance beam of positive muons stored in a compact muon storage magnet. The experimental method includes new technologies such as a three-dimensional spiral injection, an MRI-type storage magnet with superb field uniformity, and a positron tracking detector. The expected systematic uncertainty will be at the same level as that of the Fermilab Muon g-2 experiment, providing an important cross-check of the \"storage-ring method\" employed at BNL and Fermilab. I will present the current status of the experiment, ongoing tests and design optimizations, and the plans for improvements of the experimental precision."
+  },
+  {
+    "title": "UbiQVision: Quantifying Uncertainty in XAI for Image Recognition",
+    "url": "http://arxiv.org/abs/2512.20288v1",
+    "arxiv_id": "2512.20288v1",
+    "authors": [
+      "Akshat Dubey",
+      "Aleksandar An\u017eel",
+      "Bahar \u0130lgen",
+      "Georges Hattab"
+    ],
+    "published": "2025-12-23T11:57:34+00:00",
+    "summary": "Recent advances in deep learning have led to its widespread adoption across diverse domains, including medical imaging. This progress is driven by increasingly sophisticated model architectures, such as ResNets, Vision Transformers, and Hybrid Convolutional Neural Networks, that offer enhanced performance at the cost of greater complexity. This complexity often compromises model explainability and interpretability. SHAP has emerged as a prominent method for providing interpretable visualizations that aid domain experts in understanding model predictions. However, SHAP explanations can be unstable and unreliable in the presence of epistemic and aleatoric uncertainty. In this study, we address this challenge by using Dirichlet posterior sampling and Dempster-Shafer theory to quantify the uncertainty that arises from these unstable explanations in medical imaging applications. The framework uses a belief, plausible, and fusion map approach alongside statistical quantitative analysis to produce quantification of uncertainty in SHAP. Furthermore, we evaluated our framework on three medical imaging datasets with varying class distributions, image qualities, and modality types which introduces noise due to varying image resolutions and modality-specific aspect covering the examples from pathology, ophthalmology, and radiology, introducing significant epistemic uncertainty."
+  },
+  {
+    "title": "Adaptive Multi-task Learning for Probabilistic Load Forecasting",
+    "url": "http://arxiv.org/abs/2512.20232v1",
+    "arxiv_id": "2512.20232v1",
+    "authors": [
+      "Onintze Zaballa",
+      "Ver\u00f3nica \u00c1lvarez",
+      "Santiago Mazuelas"
+    ],
+    "published": "2025-12-23T10:46:18+00:00",
+    "summary": "Simultaneous load forecasting across multiple entities (e.g., regions, buildings) is crucial for the efficient, reliable, and cost-effective operation of power systems. Accurate load forecasting is a challenging problem due to the inherent uncertainties in load demand, dynamic changes in consumption patterns, and correlations among entities. Multi-task learning has emerged as a powerful machine learning approach that enables the simultaneous learning across multiple related problems. However, its application to load forecasting remains underexplored and is limited to offline learning-based methods, which cannot capture changes in consumption patterns. This paper presents an adaptive multi-task learning method for probabilistic load forecasting. The proposed method can dynamically adapt to changes in consumption patterns and correlations among entities. In addition, the techniques presented provide reliable probabilistic predictions for loads of multiples entities and assess load uncertainties. Specifically, the method is based on vectorvalued hidden Markov models and uses a recursive process to update the model parameters and provide predictions with the most recent parameters. The performance of the proposed method is evaluated using datasets that contain the load demand of multiple entities and exhibit diverse and dynamic consumption patterns. The experimental results show that the presented techniques outperform existing methods both in terms of forecasting performance and uncertainty assessment."
+  },
+  {
     "title": "Picosecond laser test unit for photosensor characterization at ambient and low temperatures",
     "url": "http://arxiv.org/abs/2512.19667v1",
     "arxiv_id": "2512.19667v1",
