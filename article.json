@@ -1,5 +1,153 @@
 [
   {
+    "title": "Galaxy Zoo Evo: 1 million human-annotated images of galaxies",
+    "url": "http://arxiv.org/abs/2512.23691v1",
+    "arxiv_id": "2512.23691v1",
+    "authors": [
+      "Mike Walmsley",
+      "Steven Bamford",
+      "Hugh Dickinson",
+      "Tobias G\u00e9ron",
+      "Alexander J. Gordon",
+      "Annette M. N. Ferguson",
+      "Lucy Fortson",
+      "Sandor Kruk",
+      "Natalie Lines",
+      "Chris J. Lintott",
+      "Karen L. Masters",
+      "Robert G. Mann",
+      "James Pearson",
+      "Hayley Roberts",
+      "Anna M. M. Scaife",
+      "Stefan Schuldt",
+      "Brooke Simmons",
+      "Rebecca Smethurst",
+      "Josh Speagle",
+      "Kyle Willett"
+    ],
+    "published": "2025-12-29T18:51:00+00:00",
+    "summary": "We introduce Galaxy Zoo Evo, a labeled dataset for building and evaluating foundation models on images of galaxies. GZ Evo includes 104M crowdsourced labels for 823k images from four telescopes. Each image is labeled with a series of fine-grained questions and answers (e.g. \"featured galaxy, two spiral arms, tightly wound, merging with another galaxy\"). These detailed labels are useful for pretraining or finetuning. We also include four smaller sets of labels (167k galaxies in total) for downstream tasks of specific interest to astronomers, including finding strong lenses and describing galaxies from the new space telescope Euclid. We hope GZ Evo will serve as a real-world benchmark for computer vision topics such as domain adaption (from terrestrial to astronomical, or between telescopes) or learning under uncertainty from crowdsourced labels. We also hope it will support a new generation of foundation models for astronomy; such models will be critical to future astronomers seeking to better understand our universe."
+  },
+  {
+    "title": "Joint Modeling of Longitudinal and Survival Data: A Bayesian Approach for Predicting Disease Progression",
+    "url": "http://arxiv.org/abs/2512.23627v1",
+    "arxiv_id": "2512.23627v1",
+    "authors": [
+      "Nithisha Suryadevara",
+      "Vivek Reddy Srigiri"
+    ],
+    "published": "2025-12-29T17:36:04+00:00",
+    "summary": "Joint modeling of longitudinal and survival data has become increasingly important in medical research, particularly for understanding disease progression in chronic conditions where both repeated biomarker measurements and time-to-event outcomes are available. Traditional two-stage methods, which analyze longitudinal and survival components separately, often result in biased estimates and suboptimal predictions due to failure to account for their interdependence.   In this study, we propose a Bayesian hierarchical joint modeling framework with an emphasis on predictive evaluation and clinical interpretability. The model simultaneously characterizes the longitudinal trajectory of a biomarker and the associated survival outcome through shared random effects, capturing the intrinsic association between disease dynamics and event risk. The Bayesian formulation allows flexible incorporation of prior information, accommodates irregular measurement times and missing data, and provides full posterior distributions for uncertainty quantification via credible intervals.   We evaluate the proposed framework using both simulated data designed to mimic realistic patient trajectories and a real-world clinical dataset involving patients with chronic liver disease. Results demonstrate that the Bayesian joint model consistently outperforms conventional two-stage approaches in terms of parameter estimation accuracy and predictive performance, as measured by time-dependent area under the curve and Brier scores. The proposed approach provides a robust and interpretable tool for dynamic, patient-specific prognosis, supporting clinical decision-making in personalized medicine."
+  },
+  {
+    "title": "Distribution-Free Process Monitoring with Conformal Prediction",
+    "url": "http://arxiv.org/abs/2512.23602v1",
+    "arxiv_id": "2512.23602v1",
+    "authors": [
+      "Christopher Burger"
+    ],
+    "published": "2025-12-29T16:56:48+00:00",
+    "summary": "Traditional Statistical Process Control (SPC) is essential for quality management but is limited by its reliance on often violated statistical assumptions, leading to unreliable monitoring in modern, complex manufacturing environments. This paper introduces a hybrid framework that enhances SPC by integrating the distribution free, model agnostic guarantees of Conformal Prediction. We propose two novel applications: Conformal-Enhanced Control Charts, which visualize process uncertainty and enable proactive signals like 'uncertainty spikes', and Conformal-Enhanced Process Monitoring, which reframes multivariate control as a formal anomaly detection problem using an intuitive p-value chart. Our framework provides a more robust and statistically rigorous approach to quality control while maintaining the interpretability and ease of use of classic methods."
+  },
+  {
+    "title": "Profile Bayesian Optimization for Expensive Computer Experiments",
+    "url": "http://arxiv.org/abs/2512.23581v1",
+    "arxiv_id": "2512.23581v1",
+    "authors": [
+      "Courtney Kyger",
+      "James Fernandez",
+      "John A. Grunenwald",
+      "James Braun",
+      "Annie Booth"
+    ],
+    "published": "2025-12-29T16:28:02+00:00",
+    "summary": "We propose a novel Bayesian optimization (BO) procedure aimed at identifying the ``profile optima'' of a deterministic black-box computer simulation that has a single control parameter and multiple nuisance parameters. The profile optima capture the optimal response values as a function of the control parameter. Our objective is to identify them across the entire plausible range of the control parameter. Classic BO, which targets a single optimum over all parameters, does not explore the entire control parameter range. Instead, we develop a novel two-stage acquisition scheme to balance exploration across the control parameter and exploitation of the profile optima, leveraging deep and shallow Gaussian process surrogates to facilitate uncertainty quantification. We are motivated by a computer simulation of a diffuser in a rotating detonation combustion engine, which returns the energy lost through diffusion as a function of various design parameters. We aim to identify the lowest possible energy loss as a function of the diffuser's length; understanding this relationship will enable well-informed design choices. Our ``profile Bayesian optimization'' procedure outperforms traditional BO and profile optimization methods on a variety of benchmarks and proves effective in our motivating application."
+  },
+  {
+    "title": "Why AI Safety Requires Uncertainty, Incomplete Preferences, and Non-Archimedean Utilities",
+    "url": "http://arxiv.org/abs/2512.23508v1",
+    "arxiv_id": "2512.23508v1",
+    "authors": [
+      "Alessio Benavoli",
+      "Alessandro Facchini",
+      "Marco Zaffalon"
+    ],
+    "published": "2025-12-29T14:47:05+00:00",
+    "summary": "How can we ensure that AI systems are aligned with human values and remain safe? We can study this problem through the frameworks of the AI assistance and the AI shutdown games. The AI assistance problem concerns designing an AI agent that helps a human to maximise their utility function(s). However, only the human knows these function(s); the AI assistant must learn them. The shutdown problem instead concerns designing AI agents that: shut down when a shutdown button is pressed; neither try to prevent nor cause the pressing of the shutdown button; and otherwise accomplish their task competently. In this paper, we show that addressing these challenges requires AI agents that can reason under uncertainty and handle both incomplete and non-Archimedean preferences."
+  },
+  {
+    "title": "Encoding higher-order argumentation frameworks with supports to propositional logic systems",
+    "url": "http://arxiv.org/abs/2512.23507v1",
+    "arxiv_id": "2512.23507v1",
+    "authors": [
+      "Shuai Tang"
+    ],
+    "published": "2025-12-29T14:46:59+00:00",
+    "summary": "Argumentation frameworks ($AF$s) have been extensively developed, but existing higher-order bipolar $AF$s suffer from critical limitations: attackers and supporters are restricted to arguments, multi-valued and fuzzy semantics lack unified generalization, and encodings often rely on complex logics with poor interoperability. To address these gaps, this paper proposes a higher-order argumentation framework with supports ($HAFS$), which explicitly allows attacks and supports to act as both targets and sources of interactions. We define a suite of semantics for $HAFS$s, including extension-based semantics, adjacent complete labelling semantics (a 3-valued semantics), and numerical equational semantics ([0,1]-valued semantics). Furthermore, we develop a normal encoding methodology to translate $HAFS$s into propositional logic systems ($\\mathcal{PLS}$s): $HAFS$s under complete labelling semantics are encoded into \u0141ukasiewicz's three-valued propositional logic ($\\mathcal{PL}_3^L$), and those under equational semantics are encoded into fuzzy $\\mathcal{PLS}$s ($\\mathcal{PL}_{[0,1]}$) such as G\u00f6del and Product fuzzy logics. We prove model equivalence between $HAFS$s and their encoded logical formulas, establishing the logical foundation of $HAFS$ semantics. Additionally, we investigate the relationships between 3-valued complete semantics and fuzzy equational semantics, showing that models of fuzzy encoded semantics can be transformed into complete semantics models via ternarization, and vice versa for specific t-norms. This work advances the formalization and logical encoding of higher-order bipolar argumentation, enabling seamless integration with lightweight computational solvers and uniform handling of uncertainty."
+  },
+  {
+    "title": "Robust Deep Learning Control with Guaranteed Performance for Safe and Reliable Robotization in Heavy-Duty Machinery",
+    "url": "http://arxiv.org/abs/2512.23505v1",
+    "arxiv_id": "2512.23505v1",
+    "authors": [
+      "Mehdi Heydari Shahna"
+    ],
+    "published": "2025-12-29T14:46:23+00:00",
+    "summary": "Today's heavy-duty mobile machines (HDMMs) face two transitions: from diesel-hydraulic actuation to clean electric systems driven by climate goals, and from human supervision toward greater autonomy. Diesel-hydraulic systems have long dominated, so full electrification, via direct replacement or redesign, raises major technical and economic challenges. Although advanced artificial intelligence (AI) could enable higher autonomy, adoption in HDMMs is limited by strict safety requirements, and these machines still rely heavily on human supervision.   This dissertation develops a control framework that (1) simplifies control design for electrified HDMMs through a generic modular approach that is energy-source independent and supports future modifications, and (2) defines hierarchical control policies that partially integrate AI while guaranteeing safety-defined performance and stability.   Five research questions align with three lines of investigation: a generic robust control strategy for multi-body HDMMs with strong stability across actuation types and energy sources; control solutions that keep strict performance under uncertainty and faults while balancing robustness and responsiveness; and methods to interpret and trust black-box learning strategies so they can be integrated stably and verified against international safety standards.   The framework is validated in three case studies spanning different actuators and conditions, covering heavy-duty mobile robots and robotic manipulators. Results appear in five peer-reviewed publications and one unpublished manuscript, advancing nonlinear control and robotics and supporting both transitions."
+  },
+  {
+    "title": "Deep classifier kriging for probabilistic spatial prediction of air quality index",
+    "url": "http://arxiv.org/abs/2512.23474v1",
+    "arxiv_id": "2512.23474v1",
+    "authors": [
+      "Junyu Chen",
+      "Pratik Nag",
+      "Huixia Judy-Wang",
+      "Ying Sun"
+    ],
+    "published": "2025-12-29T13:58:34+00:00",
+    "summary": "Accurate spatial interpolation of the air quality index (AQI), computed from concentrations of multiple air pollutants, is essential for regulatory decision-making, yet AQI fields are inherently non-Gaussian and often exhibit complex nonlinear spatial structure. Classical spatial prediction methods such as kriging are linear and rely on Gaussian assumptions, which limits their ability to capture these features and to provide reliable predictive distributions. In this study, we propose \\textit{deep classifier kriging} (DCK), a flexible, distribution-free deep learning framework for estimating full predictive distribution functions for univariate and bivariate spatial processes, together with a \\textit{data fusion} mechanism that enables modeling of non-collocated bivariate processes and integration of heterogeneous air pollution data sources. Through extensive simulation experiments, we show that DCK consistently outperforms conventional approaches in predictive accuracy and uncertainty quantification. We further apply DCK to probabilistic spatial prediction of AQI by fusing sparse but high-quality station observations with spatially continuous yet biased auxiliary model outputs, yielding spatially resolved predictive distributions that support downstream tasks such as exceedance and extreme-event probability estimation for regulatory risk assessment and policy formulation."
+  },
+  {
+    "title": "Uncertainty calibration for latent-variable regression models",
+    "url": "http://arxiv.org/abs/2512.23444v1",
+    "arxiv_id": "2512.23444v1",
+    "authors": [
+      "Zina-Sabrina Duma",
+      "Otto Lamminp\u00e4\u00e4",
+      "Jouni Susiluoto",
+      "Heikki Haario",
+      "Ting Zheng",
+      "Tuomas Sihvonen",
+      "Amy Braverman",
+      "Philip A. Townsend",
+      "Satu-Pia Reinikainen"
+    ],
+    "published": "2025-12-29T13:02:31+00:00",
+    "summary": "Uncertainty quantification is essential for scientific analysis, as it allows for the evaluation and interpretation of variability and reliability in complex systems and datasets. In their original form, multivariate statistical regression models (partial least-squares regression, PLS, principal component regression, PCR) along with their kernelized versions (kernel partial least-squares regression, K-PLS, kernel principal component regression, K-PCR), do not incorporate uncertainty quantification as part of their output. In this study, we propose a method inspired by conformal inference to estimate and calibrate the uncertainty of multivariate statistical models. The result of this method is a point prediction accompanied by prediction intervals that depend on the input data. We tested the proposed method on both traditional and kernelized versions of PLS and PCR. The method is demonstrated using synthetic data, as well as laboratory near-infrared (NIR) and airborne hyperspectral regression models for estimating functional plant traits. The model was able to successfully identify the uncertain regions in the simulated data and match the magnitude of the uncertainty. In real-case scenarios, the optimised model was not overconfident nor underconfident when estimating from test data: for example, for a 95% prediction interval, 95% of the true observations were inside the prediction interval."
+  },
+  {
+    "title": "Stochastic Siamese MAE Pretraining for Longitudinal Medical Images",
+    "url": "http://arxiv.org/abs/2512.23441v1",
+    "arxiv_id": "2512.23441v1",
+    "authors": [
+      "Taha Emre",
+      "Arunava Chakravarty",
+      "Thomas Pinetz",
+      "Dmitrii Lachinov",
+      "Martin J. Menten",
+      "Hendrik Scholl",
+      "Sobha Sivaprasad",
+      "Daniel Rueckert",
+      "Andrew Lotery",
+      "Stefan Sacu",
+      "Ursula Schmidt-Erfurth",
+      "Hrvoje Bogunovi\u0107"
+    ],
+    "published": "2025-12-29T13:00:12+00:00",
+    "summary": "Temporally aware image representations are crucial for capturing disease progression in 3D volumes of longitudinal medical datasets. However, recent state-of-the-art self-supervised learning approaches like Masked Autoencoding (MAE), despite their strong representation learning capabilities, lack temporal awareness. In this paper, we propose STAMP (Stochastic Temporal Autoencoder with Masked Pretraining), a Siamese MAE framework that encodes temporal information through a stochastic process by conditioning on the time difference between the 2 input volumes. Unlike deterministic Siamese approaches, which compare scans from different time points but fail to account for the inherent uncertainty in disease evolution, STAMP learns temporal dynamics stochastically by reframing the MAE reconstruction loss as a conditional variational inference objective. We evaluated STAMP on two OCT and one MRI datasets with multiple visits per patient. STAMP pretrained ViT models outperformed both existing temporal MAE methods and foundation models on different late stage Age-Related Macular Degeneration and Alzheimer's Disease progression prediction which require models to learn the underlying non-deterministic temporal dynamics of the diseases."
+  },
+  {
     "title": "Index-Tracking Portfolio Construction and Rebalancing under Bayesian Sparse Modelling and Uncertainty Quantification",
     "url": "http://arxiv.org/abs/2512.22109v1",
     "arxiv_id": "2512.22109v1",
