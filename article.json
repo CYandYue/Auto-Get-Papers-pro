@@ -1,5 +1,143 @@
 [
   {
+    "title": "Scaling Open-Ended Reasoning to Predict the Future",
+    "url": "http://arxiv.org/abs/2512.25070v1",
+    "arxiv_id": "2512.25070v1",
+    "authors": [
+      "Nikhil Chandak",
+      "Shashwat Goel",
+      "Ameya Prabhu",
+      "Moritz Hardt",
+      "Jonas Geiping"
+    ],
+    "published": "2025-12-31T18:59:51+00:00",
+    "summary": "High-stakes decision making involves reasoning under uncertainty about the future. In this work, we train language models to make predictions on open-ended forecasting questions. To scale up training data, we synthesize novel forecasting questions from global events reported in daily news, using a fully automated, careful curation recipe. We train the Qwen3 thinking models on our dataset, OpenForesight. To prevent leakage of future information during training and evaluation, we use an offline news corpus, both for data generation and retrieval in our forecasting system. Guided by a small validation set, we show the benefits of retrieval, and an improved reward function for reinforcement learning (RL). Once we obtain our final forecasting system, we perform held-out testing between May to August 2025. Our specialized model, OpenForecaster 8B, matches much larger proprietary models, with our training improving the accuracy, calibration, and consistency of predictions. We find calibration improvements from forecasting training generalize across popular benchmarks. We open-source all our models, code, and data to make research on language model forecasting broadly accessible."
+  },
+  {
+    "title": "Feeling Blue: Constructing a Robust SALT3 UV Template and Constraining its Redshift Dependency",
+    "url": "http://arxiv.org/abs/2512.25064v1",
+    "arxiv_id": "2512.25064v1",
+    "authors": [
+      "Qinan Wang",
+      "David O. Jones",
+      "Justin D. R. Pierel",
+      "Matthew R. Siebert",
+      "W. D'Arcy Kenworthy",
+      "Richard Kessler",
+      "Mi Dai",
+      "Ryan J. Foley",
+      "Ori D. Fox",
+      "Suvi Gezari",
+      "Sebastian Gomez",
+      "Peter McGill",
+      "Armin Rest",
+      "C\u00e9sar Rojas-Bravo",
+      "Melissa Shahbandeh",
+      "Lou Strolger"
+    ],
+    "published": "2025-12-31T18:58:12+00:00",
+    "summary": "Upcoming cosmological surveys will obtain numerous rest-frame ultraviolet (UV) observations of Type Ia supernovae (SNe Ia), yet there is concern about how standardizable SNe Ia are in the UV. In this work, we train a robust optical--UV SED model for SNe Ia (SALT3-UV) with the open-source model-training software $\\texttt{SALTshaker}$. We incorporate a spectroscopic UV data sample from HST, including 67 UV spectra from 18 nearby SNe Ia. Unlike previous training spectra, the HST spectra have sufficiently precise calibration that they do not require additional warping to match coincident photometric data. Additionally, while including this new SN Ia sample necessitates incorporating auxiliary photometric data from ZTF and ATLAS that have insufficient calibration for cosmological analyses, the improvements in the calibration of these data is anticipated in the near future. Compared to the previous SALT3-K21 model, the SALT3-UV model shows a significant improvement in the UV down to $2000\\mathring{\\text{A}}$, with over a threefold improvement in model uncertainty and a more physically accurate continuum and line features. We further evaluate potential redshift evolution in the UV template by separating the UV training sample into low- and high-$z$ subsamples. Our results reveal a non-negligible $\\gtrsim 0.05$ mag difference between low- and high-$z$ SALT3-UV models in the $g-$band at $z\\gtrsim0.5$ and the $u-$band at $z\\gtrsim0.2$. We demonstrate that, if confirmed, such evolution could lead to a few-percent bias in the measurement of $w$ if high-$z$ rest-frame UV data are included in future cosmological surveys such as LSST and $\\textit{Roman}$."
+  },
+  {
+    "title": "Sequential Bayesian parameter-state estimation in dynamical systems with noisy and incomplete observations via a variational framework",
+    "url": "http://arxiv.org/abs/2512.25056v1",
+    "arxiv_id": "2512.25056v1",
+    "authors": [
+      "Liliang Wang",
+      "Alex Gorodetsky"
+    ],
+    "published": "2025-12-31T18:52:07+00:00",
+    "summary": "Online joint estimation of unknown parameters and states in a dynamical system with uncertainty quantification is crucial in many applications. For example, digital twins dynamically update their knowledge of model parameters and states to support prediction and decision-making. Reliability and computational speed are vital for DTs. Online parameter-state estimation ensures computational efficiency, while uncertainty quantification is essential for making reliable predictions and decisions. In parameter-state estimation, the joint distribution of the state and model parameters conditioned on the data, termed the joint posterior, provides accurate uncertainty quantification. Because the joint posterior is generally intractable to compute, this paper presents an online variational inference framework to compute its approximation at each time step. The approximation is factorized into a marginal distribution over the model parameters and a state distribution conditioned on the parameters. This factorization enables recursive updates through a two-stage procedure: first, the parameter posterior is approximated via variational inference; second, the state distribution conditioned on the parameters is computed using Gaussian filtering based on the estimated parameter posterior. The algorithmic design is supported by a theorem establishing upper bounds on the joint posterior approximation error. Numerical experiments demonstrate that the proposed method (i) matches the performance of the joint particle filter in low-dimensional problems, accurately inferring both unobserved states and unknown parameters of dynamical and observation models; (ii) remains robust under noisy, partial observations and model discrepancies in a chaotic Lorenz 96 system; and (iii) scales effectively to a high-dimensional convection-diffusion system, where it outperforms the joint ensemble Kalman filter."
+  },
+  {
+    "title": "ResponseRank: Data-Efficient Reward Modeling through Preference Strength Learning",
+    "url": "http://arxiv.org/abs/2512.25023v1",
+    "arxiv_id": "2512.25023v1",
+    "authors": [
+      "Timo Kaufmann",
+      "Yannick Metz",
+      "Daniel Keim",
+      "Eyke H\u00fcllermeier"
+    ],
+    "published": "2025-12-31T18:21:52+00:00",
+    "summary": "Binary choices, as often used for reinforcement learning from human feedback (RLHF), convey only the direction of a preference. A person may choose apples over oranges and bananas over grapes, but which preference is stronger? Strength is crucial for decision-making under uncertainty and generalization of preference models, but hard to measure reliably. Metadata such as response times and inter-annotator agreement can serve as proxies for strength, but are often noisy and confounded. We propose ResponseRank to address the challenge of learning from noisy strength signals. Our method uses relative differences in proxy signals to rank responses to pairwise comparisons by their inferred preference strength. To control for systemic variation, we compare signals only locally within carefully constructed strata. This enables robust learning of utility differences consistent with strength-derived rankings while making minimal assumptions about the strength signal. Our contributions are threefold: (1) ResponseRank, a novel method that robustly learns preference strength by leveraging locally valid relative strength signals; (2) empirical evidence of improved sample efficiency and robustness across diverse tasks: synthetic preference learning (with simulated response times), language modeling (with annotator agreement), and RL control tasks (with simulated episode returns); and (3) the Pearson Distance Correlation (PDC), a novel metric that isolates cardinal utility learning from ordinal accuracy."
+  },
+  {
+    "title": "Strategies for Overcoming Gradient Troughs in the ADAPT-VQE Algorithm",
+    "url": "http://arxiv.org/abs/2512.25004v1",
+    "arxiv_id": "2512.25004v1",
+    "authors": [
+      "Jonas Stadelmann",
+      "Julian \u00dcbelher",
+      "Mafalda Ram\u00f4a",
+      "Bharath Sambasivam",
+      "Edwin Barnes",
+      "Sophia E. Economou"
+    ],
+    "published": "2025-12-31T17:52:47+00:00",
+    "summary": "The adaptive derivative-assembled problem-tailored variational quantum eigensolver (ADAPT-VQE) provides a promising approach for simulating highly correlated quantum systems on quantum devices, as it strikes a balance between hardware efficiency, trainability, and accuracy. Although ADAPT-VQE avoids many of the shortcomings of other VQEs, it is sometimes hindered by a phenomenon known as gradient troughs. This refers to a non-monotonic convergence of the gradients, which may become very small even though the minimum energy has not been reached. This results in difficulties finding the right operators to add to the ansatz, due to the limited number of shots and statistical uncertainties, leading to stagnation in the circuit structure optimization. In this paper, we propose ways to detect and mitigate this phenomenon. Leveraging the non-commutative algebra of the ansatz, we develop heuristics for determining where to insert new operators into the circuit. We find that gradient troughs are more likely to arise when the same locations are used repeatedly for new operator insertions. Our novel protocols, which add new operators in different ansatz positions, allow us to escape gradient troughs and thereby lower the measurement cost of the algorithm. This approach achieves an effective balance between cost and efficiency, leading to faster convergence without compromising the low circuit depth and gate count of ADAPT-VQE."
+  },
+  {
+    "title": "Matrix Thermodynamic Uncertainty Relation for Non-Abelian Charge Transport",
+    "url": "http://arxiv.org/abs/2512.24956v1",
+    "arxiv_id": "2512.24956v1",
+    "authors": [
+      "Domingos S. P. Salazar"
+    ],
+    "published": "2025-12-31T16:38:45+00:00",
+    "summary": "Thermodynamic uncertainty relations (TURs) bound the precision of currents by entropy production, but quantum transport of noncommuting (non-Abelian) charges challenges standard formulations because different charge components cannot be monitored within a single classical frame. We derive a process-level matrix TUR starting from the operational entropy production $\u03a3= D(\u03c1'_{SE}\\|\u03c1'_S\\!\\otimes\\!\u03c1_E)$. Isolating the experimentally accessible bath divergence $D_{\\mathrm{bath}}=D(\u03c1'_E\\|\u03c1_E)$, we prove a fully nonlinear, saturable lower bound valid for arbitrary current vectors $\u0394q$: $D_{\\mathrm{bath}} \\ge B(\u0394q,V,V')$, where the bound depends only on the transported-charge signal $\u0394q$ and the pre/post collision covariance matrices $V$ and $V'$. In the small-fluctuation regime $D_{\\mathrm{bath}}\\geq\\frac12\\,\u0394q^{\\mathsf T}V^{-1}\u0394q+O(\\|\u0394q\\|^4)$, while beyond linear response it remains accurate. Numerical strong-coupling qubit collisions illustrate the bound and demonstrate near-saturation across broad parameter ranges using only local measurements on the bath probe."
+  },
+  {
+    "title": "MSACL: Multi-Step Actor-Critic Learning with Lyapunov Certificates for Exponentially Stabilizing Control",
+    "url": "http://arxiv.org/abs/2512.24955v1",
+    "arxiv_id": "2512.24955v1",
+    "authors": [
+      "Yongwei Zhang",
+      "Yuanzhe Xing",
+      "Quan Quan",
+      "Zhikun She"
+    ],
+    "published": "2025-12-31T16:36:44+00:00",
+    "summary": "Achieving provable stability in model-free reinforcement learning (RL) remains a challenge, particularly in balancing exploration with rigorous safety. This article introduces MSACL, a framework that integrates exponential stability theory with maximum entropy RL through multi-step Lyapunov certificate learning. Unlike methods relying on complex reward engineering, MSACL utilizes off-policy multi-step data to learn Lyapunov certificates satisfying theoretical stability conditions. By introducing Exponential Stability Labels (ESL) and a $\u03bb$-weighted aggregation mechanism, the framework effectively balances the bias-variance trade-off in multi-step learning. Policy optimization is guided by a stability-aware advantage function, ensuring the learned policy promotes rapid Lyapunov descent. We evaluate MSACL across six benchmarks, including stabilization and nonlinear tracking tasks, demonstrating its superiority over state-of-the-art Lyapunov-based RL algorithms. MSACL achieves exponential stability and rapid convergence under simple rewards, while exhibiting significant robustness to uncertainties and generalization to unseen trajectories. Sensitivity analysis establishes the multi-step horizon $n=20$ as a robust default across diverse systems. By linking Lyapunov theory with off-policy actor-critic frameworks, MSACL provides a foundation for verifiably safe learning-based control. Source code and benchmark environments will be made publicly available."
+  },
+  {
+    "title": "The uncertainty constants: A unified framework of two, three and four observables",
+    "url": "http://arxiv.org/abs/2512.24950v1",
+    "arxiv_id": "2512.24950v1",
+    "authors": [
+      "Minyi Huang"
+    ],
+    "published": "2025-12-31T16:31:07+00:00",
+    "summary": "Uncertainty is a fundamental and important concept in quantum mechanics. Recent works have revealed both the product and sum forms of uncertainty constants for three observables. Such a result is intimately to the properties of Pauli operators. In this work, using the technique in matrix theory, we give an alternative proof for the case of three observables, and generalize the result to the case of four measurements. Comparing with the original proof, such a derivation is simplified. Moreover, the discussions can deal with the summation form of uncertainty relation for two, three and four observables in a unified way."
+  },
+  {
+    "title": "Stochastic factors can matter: improving robust growth under ergodicity",
+    "url": "http://arxiv.org/abs/2512.24906v1",
+    "arxiv_id": "2512.24906v1",
+    "authors": [
+      "Balint Binkert",
+      "David Itkin",
+      "Paul Mangers Bastian",
+      "Josef Teichmann"
+    ],
+    "published": "2025-12-31T15:05:01+00:00",
+    "summary": "Drifts of asset returns are notoriously difficult to model accurately and, yet, trading strategies obtained from portfolio optimization are very sensitive to them. To mitigate this well-known phenomenon we study robust growth-optimization in a high-dimensional incomplete market under drift uncertainty of the asset price process $X$, under an additional ergodicity assumption, which constrains but does not fully specify the drift in general. The class of admissible models allows $X$ to depend on a multivariate stochastic factor $Y$ and fixes (a) their joint volatility structure, (b) their long-term joint ergodic density and (c) the dynamics of the stochastic factor process $Y$. A principal motivation of this framework comes from pairs trading, where $X$ is the spread process and models with the above characteristics are commonplace. Our main results determine the robust optimal growth rate, construct a worst-case admissible model and characterize the robust growth-optimal strategy via a solution to a certain partial differential equation (PDE). We demonstrate that utilizing the stochastic factor leads to improvement in robust growth complementing the conclusions of the previous study by Itkin et. al. (arXiv:2211.15628 [q-fin.MF], forthcoming in $\\textit{Finance and Stochastics}$), which additionally robustified the dynamics of the stochastic factor leading to $Y$-independent optimal strategies. Our analysis leads to new financial insights, quantifying the improvement in growth the investor can achieve by optimally incorporating stochastic factors into their trading decisions. We illustrate our theoretical results on several numerical examples including an application to pairs trading."
+  },
+  {
+    "title": "AODDiff: Probabilistic Reconstruction of Aerosol Optical Depth via Diffusion-based Bayesian Inference",
+    "url": "http://arxiv.org/abs/2512.24847v1",
+    "arxiv_id": "2512.24847v1",
+    "authors": [
+      "Linhao Fan",
+      "Hongqiang Fang",
+      "Jingyang Dai",
+      "Yong Jiang",
+      "Qixing Zhang"
+    ],
+    "published": "2025-12-31T13:16:10+00:00",
+    "summary": "High-quality reconstruction of Aerosol Optical Depth (AOD) fields is critical for Atmosphere monitoring, yet current models remain constrained by the scarcity of complete training data and a lack of uncertainty quantification.To address these limitations, we propose AODDiff, a probabilistic reconstruction framework based on diffusion-based Bayesian inference. By leveraging the learned spatiotemporal probability distribution of the AOD field as a generative prior, this framework can be flexibly adapted to various reconstruction tasks without requiring task-specific retraining. We first introduce a corruption-aware training strategy to learns a spatiotemporal AOD prior solely from naturally incomplete data. Subsequently, we employ a decoupled annealing posterior sampling strategy that enables the more effective and integration of heterogeneous observations as constraints to guide the generation process. We validate the proposed framework through extensive experiments on Reanalysis data. Results across downscaling and inpainting tasks confirm the efficacy and robustness of AODDiff, specifically demonstrating its advantage in maintaining high spatial spectral fidelity. Furthermore, as a generative model, AODDiff inherently enables uncertainty quantification via multiple sampling, offering critical confidence metrics for downstream applications."
+  },
+  {
     "title": "Galaxy Zoo Evo: 1 million human-annotated images of galaxies",
     "url": "http://arxiv.org/abs/2512.23691v1",
     "arxiv_id": "2512.23691v1",
