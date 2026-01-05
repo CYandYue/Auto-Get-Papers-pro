@@ -1,5 +1,136 @@
 [
   {
+    "title": "Callisto's Nonresonant Orbit as an Outcome of Circum-Jovian Disk Substructure",
+    "url": "http://arxiv.org/abs/2601.00786v1",
+    "arxiv_id": "2601.00786v1",
+    "authors": [
+      "Teng Ee Yap",
+      "Konstantin Batygin"
+    ],
+    "published": "2026-01-02T18:41:18+00:00",
+    "summary": "The Galilean moons of Io, Europa, and Ganymede exhibit a 4:2:1 commensurability in their mean motions, a configuration known as the Laplace resonance. The prevailing view for the origin of this three-body resonance involves the convergent migration of the moons, resulting from gas-driven torques in the circum-Jovian disk wherein they accreted. To account for Callisto's exclusion from the resonant chain, a late and/or slow accretion of the fourth and outermost Galilean moon is typically invoked, stalling its migration. Here, we consider an alternative scenario in which Callisto's nonresonant orbit is a consequence of disk substructure. Using a suite of N-body simulations that self-consistently account for satellite-disk interactions, we show that a pressure bump can function as a migration trap, isolating Callisto and alleviating constraints on its timing of accretion. Our simulations position the bump interior to the birthplaces of all four moons. In exploring the impact of bump structure on simulation outcomes, we find that it cannot be too sharp nor flat to yield the observed orbital architecture. In particular, a \"Goldilocks\" zone is mapped in parameter space, corresponding to a well-defined range in bump aspect ratio. Within this range, Io, Europa, and Ganymede are sequentially trapped at the bump, and ushered across it through resonant lockstep migration with their neighboring, exterior moon. The implications of our work are discussed in the context of uncertainties regarding Callisto's interior structure, arising from the possibility of non-hydrostatic contributions to its shape and gravity field, unresolved by the Galileo spacecraft."
+  },
+  {
+    "title": "Spatiotemporal Detection and Uncertainty Visualization of Atmospheric Blocking Events",
+    "url": "http://arxiv.org/abs/2601.00775v1",
+    "arxiv_id": "2601.00775v1",
+    "authors": [
+      "Mingzhe Li",
+      "Peer Nowack",
+      "Bei Wang"
+    ],
+    "published": "2026-01-02T18:12:12+00:00",
+    "summary": "Atmospheric blocking events are quasi-stationary high-pressure systems that disrupt the typical paths of polar and subtropical air currents, often producing prolonged extreme weather events such as summer heat waves or winter cold spells. Despite their critical role in shaping mid-latitude weather, accurately modeling and analyzing blocking events in long meteorological records remains a significant challenge. To address this challenge, we present an uncertainty visualization framework for detecting and characterizing atmospheric blocking events. First, we introduce a geometry-based detection and tracking method, evaluated on both pre-industrial climate model simulations (UKESM) and reanalysis data (ERA5), which represent historical Earth observations assimilated from satellite and station measurements onto regular numerical grids using weather models. Second, we propose a suite of uncertainty-aware summaries: contour boxplots that capture representative boundaries and their variability, frequency heatmaps that encode occurrences, and 3D temporal stacks that situate these patterns in time. Third, we demonstrate our framework in a case study of the 2003 European heatwave, mapping the spatiotemporal occurrences of blocking events using these summaries. Collectively, these uncertainty visualizations reveal where blocking events are most likely to occur and how their spatial footprints evolve over time. We envision our framework as a valuable tool for climate scientists and meteorologists: by analyzing how blocking frequency, duration, and intensity vary across regions and climate scenarios, it supports both the study of historical blocking events and the assessment of scenario-dependent climate risks associated with changes in extreme weather linked to blocking."
+  },
+  {
+    "title": "Materials Informatics: Emergence To Autonomous Discovery In The Age Of AI",
+    "url": "http://arxiv.org/abs/2601.00742v1",
+    "arxiv_id": "2601.00742v1",
+    "authors": [
+      "Turab Lookman",
+      "YuJie Liu",
+      "Zhibin Gao"
+    ],
+    "published": "2026-01-02T16:53:19+00:00",
+    "summary": "This perspective explores the evolution of materials informatics, from its foundational roots in physics and information theory to its maturation through artificial intelligence (AI). We trace the field's trajectory from early milestones to the transformative impact of the Materials Genome Initiative and the recent advent of large language models (LLMs). Rather than a mere toolkit, we present materials informatics as an evolving ecosystem, reviewing key methodologies such as Bayesian Optimization, Reinforcement Learning, and Transformers that drive inverse design and autonomous self-driving laboratories. We specifically address the practical challenges of LLM integration, comparing specialist versus generalist models and discussing solutions for uncertainty quantification. Looking forward, we assess the transition of AI from a predictive tool to a collaborative research partner. By leveraging active learning and retrieval-augmented generation (RAG), the field is moving toward a new era of autonomous materials science, increasingly characterized by \"human-out-of-the-loop\" discovery processes."
+  },
+  {
+    "title": "Stochastic Actor-Critic: Mitigating Overestimation via Temporal Aleatoric Uncertainty",
+    "url": "http://arxiv.org/abs/2601.00737v1",
+    "arxiv_id": "2601.00737v1",
+    "authors": [
+      "U\u011furcan \u00d6zalp"
+    ],
+    "published": "2026-01-02T16:33:17+00:00",
+    "summary": "Off-policy actor-critic methods in reinforcement learning train a critic with temporal-difference updates and use it as a learning signal for the policy (actor). This design typically achieves higher sample efficiency than purely on-policy methods. However, critic networks tend to overestimate value estimates systematically. This is often addressed by introducing a pessimistic bias based on uncertainty estimates. Current methods employ ensembling to quantify the critic's epistemic uncertainty-uncertainty due to limited data and model ambiguity-to scale pessimistic updates. In this work, we propose a new algorithm called Stochastic Actor-Critic (STAC) that incorporates temporal (one-step) aleatoric uncertainty-uncertainty arising from stochastic transitions, rewards, and policy-induced variability in Bellman targets-to scale pessimistic bias in temporal-difference updates, rather than relying on epistemic uncertainty. STAC uses a single distributional critic network to model the temporal return uncertainty, and applies dropout to both the critic and actor networks for regularization. Our results show that pessimism based on a distributional critic alone suffices to mitigate overestimation, and naturally leads to risk-averse behavior in stochastic environments. Introducing dropout further improves training stability and performance by means of regularization. With this design, STAC achieves improved computational efficiency using a single distributional critic network."
+  },
+  {
+    "title": "Stability of vehicular admission control schemes in urban traffic networks under modelling uncertainty",
+    "url": "http://arxiv.org/abs/2601.00732v1",
+    "arxiv_id": "2601.00732v1",
+    "authors": [
+      "Michalis Ramp",
+      "Andreas Kasis",
+      "Stelios Timotheou"
+    ],
+    "published": "2026-01-02T16:27:03+00:00",
+    "summary": "Urban transportation networks face significant challenges due to traffic congestion, leading to adverse environmental and socioeconomic impacts. Vehicular admission control (VAC) strategies have emerged as a promising solution to alleviate congestion. By leveraging information and communication technologies, VAC strategies regulate vehicle entry into the network to optimize different traffic metrics of interest over space and time. Despite the significant development of VAC strategies, their stability at the presence of modelling uncertainty remains under-explored. This paper investigates the stability properties of a class of decentralized VAC schemes under modelling uncertainty. Specifically, we consider large-scale, heterogeneous urban traffic networks characterised by nonlinear dynamics and concave macroscopic fundamental diagrams with bounded uncertainty between flow, density, and speed. In this context, we examine a broad class of decentralized VAC dynamics, described by general nonlinear forms. Using passivity theory, we derive scalable, locally verifiable conditions on the design of VAC schemes, that enable stability guarantees in the presence of modelling uncertainty. Several examples are presented to illustrate the applicability of the proposed design framework. Our analytical results are validated through numerical simulations on a 6-region system, demonstrating their effectiveness and practical relevance."
+  },
+  {
+    "title": "Bayesian Inverse Games with High-Dimensional Multi-Modal Observations",
+    "url": "http://arxiv.org/abs/2601.00696v1",
+    "arxiv_id": "2601.00696v1",
+    "authors": [
+      "Yash Jain",
+      "Xinjie Liu",
+      "Lasse Peters",
+      "David Fridovich-Keil",
+      "Ufuk Topcu"
+    ],
+    "published": "2026-01-02T14:23:38+00:00",
+    "summary": "Many multi-agent interaction scenarios can be naturally modeled as noncooperative games, where each agent's decisions depend on others' future actions. However, deploying game-theoretic planners for autonomous decision-making requires a specification of all agents' objectives. To circumvent this practical difficulty, recent work develops maximum likelihood techniques for solving inverse games that can identify unknown agent objectives from interaction data. Unfortunately, these methods only infer point estimates and do not quantify estimator uncertainty; correspondingly, downstream planning decisions can overconfidently commit to unsafe actions. We present an approximate Bayesian inference approach for solving the inverse game problem, which can incorporate observation data from multiple modalities and be used to generate samples from the Bayesian posterior over the hidden agent objectives given limited sensor observations in real time. Concretely, the proposed Bayesian inverse game framework trains a structured variational autoencoder with an embedded differentiable Nash game solver on interaction datasets and does not require labels of agents' true objectives. Extensive experiments show that our framework successfully learns prior and posterior distributions, improves inference quality over maximum likelihood estimation-based inverse game approaches, and enables safer downstream decision-making without sacrificing efficiency. When trajectory information is uninformative or unavailable, multimodal inference further reduces uncertainty by exploiting additional observation modalities."
+  },
+  {
+    "title": "Turbulence is ineffective in causing raindrop growth in polluted clouds",
+    "url": "http://arxiv.org/abs/2601.00637v1",
+    "arxiv_id": "2601.00637v1",
+    "authors": [
+      "K. Shri Vignesh",
+      "Ambedkar Sanket Sukdeo",
+      "P. V. Sruthibhai",
+      "Aishwarya Singh",
+      "Srikrishna Sahu",
+      "Swetaprovo Chaudhari",
+      "Amit K. Patra",
+      "T. Narayana Rao",
+      "Rama Govindarajan",
+      "Sachin S. Gunthe",
+      "R. I. Sujith"
+    ],
+    "published": "2026-01-02T10:39:30+00:00",
+    "summary": "Aerosol-cloud interactions represent the largest uncertainty in climate-change assessment, and while cloud turbulence is considered crucial for droplet growth, its precise role remains unclear. Our laboratory-controlled studies show that turbulence does not always enhance collision and coalescence; instead, its influence emerges only when droplets have a sufficiently broad size distribution. The dissipative-scale droplet behaviour underscores the importance of improved parameterisations to accurately model cloud microphysics."
+  },
+  {
+    "title": "Bayesian optimization for re-analysis and calibration of extreme sea state events simulated with a spectral third-generation wave model",
+    "url": "http://arxiv.org/abs/2601.00628v1",
+    "arxiv_id": "2601.00628v1",
+    "authors": [
+      "C\u00e9dric Goeury",
+      "Thierry Fouquet",
+      "Maria Teles",
+      "Michel Benoit"
+    ],
+    "published": "2026-01-02T09:57:52+00:00",
+    "summary": "Accurate hindcasting of extreme sea state events is essential for coastal engineering, risk assessment, and climate studies. However, the reliability of numerical wave models remains limited by uncertainties in physical parameterizations and model inputs. This study presents a novel calibration framework based on Bayesian Optimization (BO), leveraging the Tree structured Parzen Estimator (TPE) to efficiently estimate uncertain sink term parameters, specifically bottom friction dissipation, depth induced breaking, and wave dissipation from strong opposing currents, in the ANEMOC-3 hindcast wave model. The proposed method enables joint optimization of continuous parameters and discrete model structures, significantly reducing discrepancies between model outputs and observations. Applied to a one month period encompassing multiple intense storm events along the French Atlantic coast, the calibrated model demonstrates improved agreement with buoy measurements, achieving lower bias, RMSE, and scatter index relative to the default sea$-$state solver configuration. The results highlight the potential of BO to automate and enhance wave model calibration, offering a scalable and flexible approach applicable to a wide range of geophysical modeling problems. Future extensions include multi-objective optimization, uncertainty quantification, and integration of additional observational datasets."
+  },
+  {
+    "title": "Quantifying the uncertainty of molecular dynamics simulations : Good-Turing statistics revisited",
+    "url": "http://arxiv.org/abs/2601.00618v1",
+    "arxiv_id": "2601.00618v1",
+    "authors": [
+      "Vasiliki Tsampazi",
+      "Nicholas M. Glykos"
+    ],
+    "published": "2026-01-02T09:21:18+00:00",
+    "summary": "We have previously shown that Good-Turing statistics can be applied to molecular dynamics trajectories to estimate the probability of observing completely new (thus far unobserved) biomolecular structures, and showed that the method is stable, dependable and its predictions verifiable. The major problem with that initial algorithm was the requirement for calculating and storing in memory the two-dimensional RMSD matrix of the currently available trajectory. This requirement precluded the application of the method to very long simulations. Here we describe a new variant of the Good-Turing algorithm whose memory requirements scale linearly with the number of structures in the trajectory, making it suitable even for extremely long simulations. We show that the new method gives essentially identical results with the older implementation, and present results obtained from trajectories containing up to 22 million structures. A computer program implementing the new algorithm is available from standard repositories."
+  },
+  {
+    "title": "Noise-Robust Tiny Object Localization with Flows",
+    "url": "http://arxiv.org/abs/2601.00617v1",
+    "arxiv_id": "2601.00617v1",
+    "authors": [
+      "Huixin Sun",
+      "Linlin Yang",
+      "Ronyu Chen",
+      "Kerui Gu",
+      "Baochang Zhang",
+      "Angela Yao",
+      "Xianbin Cao"
+    ],
+    "published": "2026-01-02T09:16:55+00:00",
+    "summary": "Despite significant advances in generic object detection, a persistent performance gap remains for tiny objects compared to normal-scale objects. We demonstrate that tiny objects are highly sensitive to annotation noise, where optimizing strict localization objectives risks noise overfitting. To address this, we propose Tiny Object Localization with Flows (TOLF), a noise-robust localization framework leveraging normalizing flows for flexible error modeling and uncertainty-guided optimization. Our method captures complex, non-Gaussian prediction distributions through flow-based error modeling, enabling robust learning under noisy supervision. An uncertainty-aware gradient modulation mechanism further suppresses learning from high-uncertainty, noise-prone samples, mitigating overfitting while stabilizing training. Extensive experiments across three datasets validate our approach's effectiveness. Especially, TOLF boosts the DINO baseline by 1.2% AP on the AI-TOD dataset."
+  },
+  {
     "title": "Scaling Open-Ended Reasoning to Predict the Future",
     "url": "http://arxiv.org/abs/2512.25070v1",
     "arxiv_id": "2512.25070v1",
