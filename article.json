@@ -1,5 +1,143 @@
 [
   {
+    "title": "Heavy Black-Holes Also Matter in Standard Siren Cosmology",
+    "url": "http://arxiv.org/abs/2601.03257v1",
+    "arxiv_id": "2601.03257v1",
+    "authors": [
+      "Gr\u00e9goire Pierra",
+      "Alexander Papadopoulos"
+    ],
+    "published": "2026-01-06T18:59:59+00:00",
+    "summary": "With the release of the Gravitational-Wave Transient Catalog GWTC-4.0 by the LIGO-Virgo-KAGRA (LVK) collaboration, 218 candidate detections of gravitational waves (GWs) from compact binary coalescences (CBCs) have been reported. This milestone represents a major advancement for GW cosmology, as many methods, particularly those employing the spectral siren approach, critically depend on the number of available sources. We investigate the impact of a novel parametric model describing the full population mass spectrum of CBCs on the estimation of the Hubble constant. This model is designed to test the impact of heavy black holes in GW cosmology. We perform a joint inference of cosmological and population parameters using 142 CBCs from GWTC-4.0 with a false alarm rate smaller than 0.25 per year, using both spectral and dark siren approaches. With spectral sirens, we estimate the Hubble constant to be $H_0 = 78.8^{+19.0}_{-15.3}\\,{\\rm km s^{-1} Mpc^{-1}}$ (68% CL), while the dark siren method yields $H_0 = 82.5^{+16.8}_{-14.3}\\,{\\rm km s^{-1} Mpc^{-1}}$ (68% CL). These results improve the uncertainty by approximately 30.4% and 36.2%, respectively. We show that this improvement is linked to the presence of a new mass scale in the binary black hole mass spectrum at $63.3^{+4.8}_{-4.8}\\,M_{\\odot}$, which provides additional constraints on the Hubble constant. Besides providing the tightest standard-siren constraints on $H_0$, this highlights the importance of a heavy-mass feature in the black hole spectrum."
+  },
+  {
+    "title": "Counterfactual Fairness with Graph Uncertainty",
+    "url": "http://arxiv.org/abs/2601.03203v1",
+    "arxiv_id": "2601.03203v1",
+    "authors": [
+      "Davi Val\u00e9rio",
+      "Chrysoula Zerva",
+      "Mariana Pinto",
+      "Ricardo Santos",
+      "Andr\u00e9 Carreiro"
+    ],
+    "published": "2026-01-06T17:33:26+00:00",
+    "summary": "Evaluating machine learning (ML) model bias is key to building trustworthy and robust ML systems. Counterfactual Fairness (CF) audits allow the measurement of bias of ML models with a causal framework, yet their conclusions rely on a single causal graph that is rarely known with certainty in real-world scenarios. We propose CF with Graph Uncertainty (CF-GU), a bias evaluation procedure that incorporates the uncertainty of specifying a causal graph into CF. CF-GU (i) bootstraps a Causal Discovery algorithm under domain knowledge constraints to produce a bag of plausible Directed Acyclic Graphs (DAGs), (ii) quantifies graph uncertainty with the normalized Shannon entropy, and (iii) provides confidence bounds on CF metrics. Experiments on synthetic data show how contrasting domain knowledge assumptions support or refute audits of CF, while experiments on real-world data (COMPAS and Adult datasets) pinpoint well-known biases with high confidence, even when supplied with minimal domain knowledge constraints."
+  },
+  {
+    "title": "Maximizing Local Entropy Where It Matters: Prefix-Aware Localized LLM Unlearning",
+    "url": "http://arxiv.org/abs/2601.03190v1",
+    "arxiv_id": "2601.03190v1",
+    "authors": [
+      "Naixin Zhai",
+      "Pengyang Shao",
+      "Binbin Zheng",
+      "Fei Shen",
+      "Long Bai",
+      "Xun Yang"
+    ],
+    "published": "2026-01-06T17:10:48+00:00",
+    "summary": "Machine unlearning aims to forget sensitive knowledge from Large Language Models (LLMs) while maintaining general utility. However, existing approaches typically treat all tokens in a response indiscriminately and enforce uncertainty over the entire vocabulary. This global treatment results in unnecessary utility degradation and extends optimization to content-agnostic regions. To address these limitations, we propose PALU (Prefix-Aware Localized Unlearning), a framework driven by a local entropy maximization objective across both temporal and vocabulary dimensions. PALU reveals that (i) suppressing the sensitive prefix alone is sufficient to sever the causal generation link, and (ii) flattening only the top-$k$ logits is adequate to maximize uncertainty in the critical subspace. These findings allow PALU to avoid redundant optimization across the full vocabulary and parameter space while minimizing collateral damage to general model performance. Extensive experiments validate that PALU achieves superior forgetting efficacy and utility preservation compared to state-of-the-art baselines."
+  },
+  {
+    "title": "Breaking the Dimensional Barrier: Dynamic Portfolio Choice with Parameter Uncertainty via Pontryagin Projection",
+    "url": "http://arxiv.org/abs/2601.03175v1",
+    "arxiv_id": "2601.03175v1",
+    "authors": [
+      "Jeonggyu Huh",
+      "Hyeng Keun Koo"
+    ],
+    "published": "2026-01-06T16:52:35+00:00",
+    "summary": "We study continuous-time portfolio choice in diffusion markets with parameter $\u03b8\\in \u0398$ and uncertainty law $q(d\u03b8)$. Nature draws latent $\u03b8\\sim q$ at time 0; the investor cannot observe it and must deploy a single $\u03b8$-blind feedback policy maximizing an ex-ante CRRA objective averaged over diffusion noise and $\u03b8$. Our methods access $q$ only by sampling and assume no parametric form. We extend Pontryagin-Guided Direct Policy Optimization (PG-DPO) by sampling $\u03b8$ inside the simulator and computing discrete-time gradients via backpropagation through time (BPTT), and we propose projected PG-DPO (P-PGDPO) that projects costate estimates to satisfy the $q$-aggregated Pontryagin first-order condition, yielding a deployable rule. We prove a BPTT-PMP correspondence uniform on compacts and a residual-based $\u03b8$-blind policy-gap bound under local stability with explicit discretization/Monte Carlo errors; experiments show projection-driven stability and accurate decision-time benchmark recovery in high dimensions."
+  },
+  {
+    "title": "Conditioning Aircraft Trajectory Prediction on Meteorological Data with a Physics-Informed Machine Learning Approach",
+    "url": "http://arxiv.org/abs/2601.03152v1",
+    "arxiv_id": "2601.03152v1",
+    "authors": [
+      "Amy Hodgkin",
+      "Nick Pepper",
+      "Marc Thomas"
+    ],
+    "published": "2026-01-06T16:25:25+00:00",
+    "summary": "Accurate aircraft trajectory prediction (TP) in air traffic management systems is confounded by a number of epistemic uncertainties, dominated by uncertain meteorological conditions and operator specific procedures. Handling this uncertainty necessitates the use of probabilistic, machine learned models for generating trajectories. However, the trustworthiness of such models is limited if generated trajectories are not physically plausible. For this reason we propose a physics-informed approach in which aircraft thrust and airspeed are learned from data and are used to condition the existing Base of Aircraft Data (BADA) model, which is physics-based and enforces energy-based constraints on generated trajectories. A set of informative features are identified and used to condition a probabilistic model of aircraft thrust and airspeed, with the proposed scheme demonstrating a 20% improvement in skilfulness across a set of six metrics, compared against a baseline probabilistic model that ignores contextual information such as meteorological conditions."
+  },
+  {
+    "title": "A Probabilistic Digital Twin of UK En Route Airspace for Training and Evaluating AI Agents for Air Traffic Control",
+    "url": "http://arxiv.org/abs/2601.03113v1",
+    "arxiv_id": "2601.03113v1",
+    "authors": [
+      "Nick Pepper",
+      "Adam Keane",
+      "Amy Hodgkin",
+      "Dewi Gould",
+      "Edward Henderson",
+      "Lynge Lauritsen",
+      "Christos Vlahos",
+      "George De Ath",
+      "Richard Everson",
+      "Richard Cannon",
+      "Alvaro Sierra Castro",
+      "John Korna",
+      "Ben Carvell",
+      "Marc Thomas"
+    ],
+    "published": "2026-01-06T15:43:58+00:00",
+    "summary": "This paper presents the first probabilistic Digital Twin of operational en route airspace, developed for the London Area Control Centre. The Digital Twin is intended to support the development and rigorous human-in-the-loop evaluation of AI agents for Air Traffic Control (ATC), providing a virtual representation of real-world airspace that enables safe exploration of higher levels of ATC automation.   This paper makes three significant contributions: firstly, we demonstrate how historical and live operational data may be combined with a probabilistic, physics-informed machine learning model of aircraft performance to reproduce real-world traffic scenarios, while accurately reflecting the level of uncertainty inherent in ATC. Secondly, we develop a structured assurance case, following the Trustworthy and Ethical Assurance framework, to provide quantitative evidence for the Digital Twin's accuracy and fidelity. This is crucial to building trust in this novel technology within this safety-critical domain. Thirdly, we describe how the Digital Twin forms a unified environment for agent testing and evaluation. This includes fast-time execution (up to x200 real-time), a standardised Python-based ``gym'' interface that supports a range of AI agent designs, and a suite of quantitative metrics for assessing performance. Crucially, the framework facilitates competency-based assessment of AI agents by qualified Air Traffic Control Officers through a Human Machine Interface. We also outline further applications and future extensions of the Digital Twin architecture."
+  },
+  {
+    "title": "Computationally Efficient Estimation of Localized Treatment Effects in High-Dimensional Design Spaces using Gaussian Process Regression",
+    "url": "http://arxiv.org/abs/2601.03105v1",
+    "arxiv_id": "2601.03105v1",
+    "authors": [
+      "Abdulrahman A. Ahmed",
+      "M. Amin Rahimian",
+      "Qiushi Chen",
+      "Praveen Kumar"
+    ],
+    "published": "2026-01-06T15:34:27+00:00",
+    "summary": "Population-scale agent-based simulations of the opioid epidemic help evaluate intervention strategies and overdose outcomes in heterogeneous communities and provide estimates of localized treatment effects, which support the design of locally-tailored policies for precision public health. However, it is prohibitively costly to run simulations of all treatment conditions in all communities because the number of possible treatments grows exponentially with the number of interventions and levels at which they are applied. To address this need efficiently, we develop a metamodel framework, whereby treatment outcomes are modeled using a response function whose coefficients are learned through Gaussian process regression (GPR) on locally-contextualized covariates. We apply this framework to efficiently estimate treatment effects on overdose deaths in Pennsylvania counties. In contrast to classical designs such as fractional factorial design or Latin hypercube sampling, our approach leverages spatial correlations and posterior uncertainty to sequentially sample the most informative counties and treatment conditions. Using a calibrated agent-based opioid epidemic model, informed by county-level overdose mortality and baseline dispensing rate data for different treatments, we obtained county-level estimates of treatment effects on overdose deaths per 100,000 population for all treatment conditions in Pennsylvania, achieving approximately 5% average relative error using one-tenth the number of simulation runs required for exhaustive evaluation. Our bi-level framework provides a computationally efficient approach to decision support for policy makers, enabling rapid evaluation of alternative resource-allocation strategies to mitigate the opioid epidemic in local communities. The same analytical framework can be applied to guide precision public health interventions in other epidemic settings."
+  },
+  {
+    "title": "Dual-quaternion learning control for autonomous vehicle trajectory tracking with safety guarantees",
+    "url": "http://arxiv.org/abs/2601.03097v1",
+    "arxiv_id": "2601.03097v1",
+    "authors": [
+      "Omayra Yago Nieto",
+      "Alexandre Anahory Simoes",
+      "Juan I. Giribet",
+      "Leonardo Colombo"
+    ],
+    "published": "2026-01-06T15:30:02+00:00",
+    "summary": "We propose a learning-based trajectory tracking controller for autonomous robotic platforms whose motion can be described kinematically on $\\mathrm{SE}(3)$. The controller is formulated in the dual quaternion framework and operates at the velocity level, assuming direct command of angular and linear velocities, as is standard in many aerial vehicles and omnidirectional mobile robots. Gaussian Process (GP) regression is integrated into a geometric feedback law to learn and compensate online for unknown, state-dependent disturbances and modeling imperfections affecting both attitude and position, while preserving the algebraic structure and coupling properties inherent to rigid-body motion.   The proposed approach does not rely on explicit parametric models of the unknown effects, making it well-suited for robotic systems subject to sensor-induced disturbances, unmodeled actuation couplings, and environmental uncertainties. A Lyapunov-based analysis establishes probabilistic ultimate boundedness of the pose tracking error under bounded GP uncertainty, providing formal stability guarantees for the learning-based controller.   Simulation results demonstrate accurate and smooth trajectory tracking in the presence of realistic, localized disturbances, including correlated rotational and translational effects arising from magnetometer perturbations. These results illustrate the potential of combining geometric modeling and probabilistic learning to achieve robust, data-efficient pose control for autonomous robotic systems."
+  },
+  {
+    "title": "Audit Me If You Can: Query-Efficient Active Fairness Auditing of Black-Box LLMs",
+    "url": "http://arxiv.org/abs/2601.03087v1",
+    "arxiv_id": "2601.03087v1",
+    "authors": [
+      "David Hartmann",
+      "Lena Pohlmann",
+      "Lelia Hanslik",
+      "Noah Gie\u00dfing",
+      "Bettina Berendt",
+      "Pieter Delobelle"
+    ],
+    "published": "2026-01-06T15:22:23+00:00",
+    "summary": "Large Language Models (LLMs) exhibit systematic biases across demographic groups. Auditing is proposed as an accountability tool for black-box LLM applications, but suffers from resource-intensive query access. We conceptualise auditing as uncertainty estimation over a target fairness metric and introduce BAFA, the Bounded Active Fairness Auditor for query-efficient auditing of black-box LLMs. BAFA maintains a version space of surrogate models consistent with queried scores and computes uncertainty intervals for fairness metrics (e.g., $\u0394$ AUC) via constrained empirical risk minimisation. Active query selection narrows these intervals to reduce estimation error. We evaluate BAFA on two standard fairness dataset case studies: \\textsc{CivilComments} and \\textsc{Bias-in-Bios}, comparing against stratified sampling, power sampling, and ablations. BAFA achieves target error thresholds with up to 40$\\times$ fewer queries than stratified sampling (e.g., 144 vs 5,956 queries at $\\varepsilon=0.02$ for \\textsc{CivilComments}) for tight thresholds, demonstrates substantially better performance over time, and shows lower variance across runs. These results suggest that active sampling can reduce resources needed for independent fairness auditing with LLMs, supporting continuous model evaluations."
+  },
+  {
+    "title": "A Conditional Variational Framework for Channel Prediction in High-Mobility 6G OTFS Networks",
+    "url": "http://arxiv.org/abs/2601.03084v1",
+    "arxiv_id": "2601.03084v1",
+    "authors": [
+      "Mohsen Kazemian",
+      "J\u00fcrgen Jasperneite"
+    ],
+    "published": "2026-01-06T15:15:58+00:00",
+    "summary": "This paper proposes a machine learning (ML) based method for channel prediction in high mobility orthogonal time frequency space (OTFS) channels. In these scenarios, rapid variations caused by Doppler spread and time varying multipath propagation lead to fast channel decorrelation, making conventional pilot based channel estimation methods prone to outdated channel state information (CSI) and excessive overhead. Therefore, reliable channel prediction methods become essential to support robust detection and decoding in OTFS systems. In this paper, we propose conditional variational autoencoder for channel prediction (CVAE4CP) method, which learns the conditional distribution of OTFS delay Doppler channel coefficients given physical system and mobility parameters. By incorporating these parameters as conditioning information, the proposed method enables the prediction of future channel coefficients before their actual realization, while accounting for inherent channel uncertainty through a low dimensional latent representation. The proposed framework is evaluated through extensive simulations under high mobility conditions. Numerical results demonstrate that CVAE4CP consistently outperforms a competing learning based baseline in terms of normalized mean squared error (NMSE), particularly at high Doppler frequencies and extended prediction horizons. These results confirm the effectiveness and robustness of the proposed approach for channel prediction in rapidly time varying OTFS systems."
+  },
+  {
     "title": "BEDS: Bayesian Emergent Dissipative Structures",
     "url": "http://arxiv.org/abs/2601.02329v1",
     "arxiv_id": "2601.02329v1",
