@@ -1,5 +1,126 @@
 [
   {
+    "title": "A Comprehensive Computational Framework for Materials Design, Ab Initio Modeling, and Molecular Docking",
+    "url": "http://arxiv.org/abs/2601.04186v1",
+    "arxiv_id": "2601.04186v1",
+    "authors": [
+      "Md Rakibul Karim Akanda",
+      "Michael P. Richard"
+    ],
+    "published": "2026-01-07T18:53:37+00:00",
+    "summary": "To facilitate rational molecular and materials design, this research proposes an integrated computational framework that combines stochastic simulation, ab initio quantum chemistry, and molecular docking. The suggested workflow allows systematic investigation of structural stability, binding affinity, and electronic properties across biological and materials science domains by utilizing complementary tools like Avogadro for molecular construction and visualization, AutoDock for docking and interaction analysis, and ORCA for high-level electronic structure computations. Uncertainty, configurational sampling, and optimization in high-dimensional chemical spaces are addressed by combining Monte Carlo-based and annealing-inspired techniques. The work shows how materials science ideas such as polymer design, thin films, crystalline lattices, and bioelectronic systems can be applied to drug development. On-device, open-source computational methods are viable, scalable, and economical, as demonstrated by comparative platform analysis. All things considered, the findings highlight the need of an integrated, repeatable computational pipeline for speeding up de novo molecule assembly and materials architecture while lowering experimental risk and expense."
+  },
+  {
+    "title": "Robust Physics Discovery from Highly Corrupted Data: A PINN Framework Applied to the Nonlinear Schr\u00f6dinger Equation",
+    "url": "http://arxiv.org/abs/2601.04176v1",
+    "arxiv_id": "2601.04176v1",
+    "authors": [
+      "Pietro de Oliveira Esteves"
+    ],
+    "published": "2026-01-07T18:43:11+00:00",
+    "summary": "We demonstrate a deep learning framework capable of recovering physical parameters from the Nonlinear Schrodinger Equation (NLSE) under severe noise conditions. By integrating Physics-Informed Neural Networks (PINNs) with automatic differentiation, we achieve reconstruction of the nonlinear coefficient beta with less than 0.2 percent relative error using only 500 sparse, randomly sampled data points corrupted by 20 percent additive Gaussian noise, a regime where traditional finite difference methods typically fail due to noise amplification in numerical derivatives. We validate the method's generalization capabilities across different physical regimes (beta between 0.5 and 2.0) and varying data availability (between 100 and 1000 training points), demonstrating consistent sub-1 percent accuracy. Statistical analysis over multiple independent runs confirms robustness (standard deviation less than 0.15 percent for beta equals 1.0). The complete pipeline executes in approximately 80 minutes on modest cloud GPU resources (NVIDIA Tesla T4), making the approach accessible for widespread adoption. Our results indicate that physics-based regularization acts as an effective filter against high measurement uncertainty, positioning PINNs as a viable alternative to traditional optimization methods for inverse problems in spatiotemporal dynamics where experimental data is scarce and noisy. All code is made publicly available to facilitate reproducibility."
+  },
+  {
+    "title": "Active subspace methods and derivative-based Shapley effects for functions with non-independent variables",
+    "url": "http://arxiv.org/abs/2601.04132v1",
+    "arxiv_id": "2601.04132v1",
+    "authors": [
+      "Matieyendou Lamboni",
+      "Sergei Kucherenko"
+    ],
+    "published": "2026-01-07T17:45:24+00:00",
+    "summary": "Lower-dimensional subspaces that impact estimates of uncertainty are often described by Linear combinations of input variables, leading to active variables. This paper extends the derivative-based active subspace methods and derivative-based Shapley effects to cope with functions with non-independent variables, and it introduces sensitivity-based active subspaces. While derivative-based subspace methods focus on directions along which the function exhibits significant variation, sensitivity-based subspace methods seek a reduced set of active variables that enables a reduction in the function's variance. We propose both theoretical results using the recent development of gradients of functions with non-independent variables and practical settings by making use of optimal computations of gradients, which admit dimension-free upper-bounds of the biases and the parametric rate of convergence. Simulations show that the relative performance of derivative-based and sensitivity-based active subspaces methods varies across different functions."
+  },
+  {
+    "title": "Mean Square Errors of factors extracted using principal components, linear projections, and Kalman filter",
+    "url": "http://arxiv.org/abs/2601.04087v1",
+    "arxiv_id": "2601.04087v1",
+    "authors": [
+      "Matteo Barigozzi",
+      "Diego Fresoli",
+      "Esther Ruiz"
+    ],
+    "published": "2026-01-07T16:55:31+00:00",
+    "summary": "Factor extraction from systems of variables with a large cross-sectional dimension, $N$, is often based on either Principal Components (PC)-based procedures, or Kalman filter (KF)-based procedures. Measuring the uncertainty of the extracted factors is important when, for example, they have a direct interpretation and/or they are used to summarized the information in a large number of potential predictors. In this paper, we compare the finite $N$ mean square errors (MSEs) of PC and KF factors extracted under different structures of the idiosyncratic cross-correlations. We show that the MSEs of PC-based factors, implicitly based on treating the true underlying factors as deterministic, are larger than the corresponding MSEs of KF factors, obtained by treating the true factors as either serially independent or autocorrelated random variables. We also study and compare the MSEs of PC and KF factors estimated when the idiosyncratic components are wrongly considered as if they were cross-sectionally homoscedastic and/or uncorrelated. The relevance of the results for the construction of confidence intervals for the factors are illustrated with simulated data."
+  },
+  {
+    "title": "Counterexamples to the conjectured ordering between the waiting-time bound and the thermodynamic uncertainty bound on entropy production",
+    "url": "http://arxiv.org/abs/2601.04039v1",
+    "arxiv_id": "2601.04039v1",
+    "authors": [
+      "Jie Gu"
+    ],
+    "published": "2026-01-07T15:56:19+00:00",
+    "summary": "Two widely used model-free lower bounds on the steady-state entropy production rate of a continuous-time Markov jump process are the thermodynamic uncertainty relation (TUR) bound $\u03c3_\\text{TUR}$, derived from the mean and variance of a current, and the waiting-time distribution (WTD) bound $\u03c3_\\mathcal{L}$, derived from the irreversibility of partially observed transition sequences together with their waiting times. It has been conjectured that $\u03c3_{\\mathcal L}$ is always at least as tight as $\u03c3_{\\mathrm{TUR}}$ when both are constructed from the same partially observed link. Here we provide four-state counterexamples in a nonequilibrium steady state where $\u03c3_{\\mathcal L}<\u03c3_{\\mathrm{TUR}}$. This result shows that no universal ordering exists between these two inference bounds under partial observation."
+  },
+  {
+    "title": "Can Dynamic Spectrum Sharing Protect Passive Radio Sciences?",
+    "url": "http://arxiv.org/abs/2601.03966v1",
+    "arxiv_id": "2601.03966v1",
+    "authors": [
+      "Gregory Hellbourg"
+    ],
+    "published": "2026-01-07T14:29:15+00:00",
+    "summary": "Dynamic Spectrum Sharing (DSS) is increasingly promoted as a key element of modern spectrum policy, driven by the rising demand from commercial wireless systems and advances in spectrum access technologies. Passive radio sciences, including radio astronomy, Earth remote sensing, and meteorology, operate under fundamentally different constraints. They rely on exceptionally low interference spectrum and are highly vulnerable to even brief radio frequency interference. We examine whether DSS can benefit passive services or whether it introduces new failure modes and enforcement challenges. We propose just-in-time quiet zones (JITQZ) as a mechanism for protecting high value observations and assess hybrid frameworks that preserve static protection for core passive bands while allowing constrained dynamic access in adjacent frequencies. We analyze the roles of propagation uncertainty, electromagnetic compatibility constraints, and limited spectrum awareness. Using a game theoretic framework, we show why non-cooperative sharing fails, identify conditions for sustained cooperation, and examine incentive mechanisms including pseudonymetry-enabled attribution that promote compliance. We conclude that DSS can support passive radio sciences only as a high-reliability, safety-critical system. Static allocations remain essential, and dynamic access is viable only with conservative safeguards and enforceable accountability."
+  },
+  {
+    "title": "Broadband spectroscopy of astrophysical ice analogues: IV. Optical constants of N$_2$ ice in the terahertz and mid-infrared ranges",
+    "url": "http://arxiv.org/abs/2601.03951v1",
+    "arxiv_id": "2601.03951v1",
+    "authors": [
+      "F. Kruczkiewicz",
+      "A. A. Gavdush",
+      "F. Ribeiro",
+      "D. Campisi",
+      "A. Vyjidak",
+      "B. M. Giuliano",
+      "G. A. Komandin",
+      "S. V. Garnov",
+      "T. Grassi",
+      "P. Theul\u00e9",
+      "K. I. Zaytsev. A. V. Ivlev",
+      "Paola Caselli"
+    ],
+    "published": "2026-01-07T14:05:48+00:00",
+    "summary": "Context. Understanding the optical properties of astrophysical ices is crucial for modeling dust continuum emission and radiative transfer in cold, dense interstellar environments. Molecular nitrogen (N$_2$), a major nitrogen reservoir in protoplanetary disks, plays a key role in nitrogen chemistry, yet the lack of direct terahertz (THz)--infrared (IR) optical constants for N$_2$ ice introduces uncertainties in radiative transfer models, snowline locations, and disk mass estimates.   Aims. We present direct measurements of the optical properties of N$_2$ ice over a broad THz--IR spectral range using terahertz pulsed spectroscopy (TPS) and Fourier-transform infrared spectroscopy (FTIR), supported by density functional theory (DFT) calculations and comparison with literature data.   Methods. N$_2$ ice was grown at cryogenic temperatures by gas-phase deposition onto a cold silicon window. The THz complex refractive index was directly reconstructed from TPS data, while the IR response was derived from FTIR measurements using Kramers--Kronig relations. The optical response was parameterized with a Lorentz dielectric model and validated by DFT calculations.   Results. The complex refractive index of N$_2$ ice is quantified from $\u03bd= 0.3$--$16$~THz ($\u03bb= 1$~mm--$18.75~\u03bc$m). Resonant absorption peaks at $\u03bd_\\mathrm{L} = 1.47$ and $2.13$~THz with damping constants $\u03b3_\\mathrm{L} = 0.03$ and $0.22$~THz are attributed to optically active phonons of the $\u03b1$-N$_2$ crystal.   Conclusions. We provide a complete set of the THz--IR optical constants for \\ce{N2} ice by combining TPS and FTIR spectroscopy. Our results have implications for future observational and modeling studies of protoplanetary disk evolution and planet formation."
+  },
+  {
+    "title": "Combining simulation-based inference and universal relations for precise and accurate neutron star science",
+    "url": "http://arxiv.org/abs/2601.03945v1",
+    "arxiv_id": "2601.03945v1",
+    "authors": [
+      "Christian J. Kr\u00fcger",
+      "Sebastian H. V\u00f6lkel"
+    ],
+    "published": "2026-01-07T14:01:47+00:00",
+    "summary": "In this work, we propose a novel approach for identifying, constructing, and validating precise and accurate universal relations for neutron star bulk quantities. A central element is simulation-based inference (SBI), which we adopt to treat uncertainties due to the unknown nuclear equation of state (EOS) as intrinsic non-trivial noise. By assembling a large set of bulk properties of non-rotating neutron stars across multiple state-of-the-art EOS models, we are able to systematically explore universal relations in high-dimensional parameter spaces. Our framework further identifies the most promising parameter combinations, enabling a more focused and traditional construction of explicit universal relations. At the same time, SBI does not rely on explicit relations; instead, it directly provides predictive distributions together with a quantitative measure of systematic uncertainties, which are not captured by conventional approaches. As an example, we report a new universal relation that allows us to obtain the radius as a function of mass, fundamental mode, and one pressure mode. Our analysis shows that SBI can surpass the predictive power of this universal relation while also mitigating systematic errors. Finally, we demonstrate how universal relations can be further calibrated to mitigate systematic errors accurately."
+  },
+  {
+    "title": "Material exploration through active learning -- METAL",
+    "url": "http://arxiv.org/abs/2601.03933v1",
+    "arxiv_id": "2601.03933v1",
+    "authors": [
+      "Joakim Brorsson",
+      "Henrik Klein Moberg",
+      "Joel Hildingsson",
+      "Jonatan Gastaldi",
+      "Tobias Mattisson",
+      "Anders Hellman"
+    ],
+    "published": "2026-01-07T13:52:11+00:00",
+    "summary": "The discovery and design of new materials are paramount in the development of green technologies. High entropy oxides represent one such group that has only been tentatively explored, mainly due to the inherent problem of navigating vast compositional spaces. Thanks to the emergence of machine learning, however, suitable tools are now readily available. Here, the task of finding oxygen carriers for chemical looping processes has been tackled by leveraging active learning-based strategies combined with first-principles calculations. High efficiency and efficacy have, moreover, been achieved by exploiting the power of recently developed machine learning interatomic potentials. Firstly, the proposed approaches were validated based on an established computational framework for identifying high entropy perovskites that can be used in chemical looping air separation and dry reforming. Chief among the insights thus gained was the identification of the best performing strategies, in the form of greedy or Thompson-based sampling based on uncertainty estimates obtained from Gaussian processes. Building on this newfound knowledge, the concept was applied to a more complex problem, namely the discovery of high entropy oxygen carriers for chemical looping oxygen uncoupling. This resulted in both qualitative as well as quantitative outcomes, including lists of specific materials with high oxygen transfer capacities and configurational entropies. Specifically, the best candidates were based on the known oxygen carrier CaMnO3 but also contained a variety of additional species, of which some, e.g., Ti; Co; Cu; and Ti, were expected while others were not, e.g., Y and Sm. The results suggest that adopting active learning approaches is critical in materials discovery, given that these methods are already shifting research practice and soon will be the norm."
+  },
+  {
+    "title": "The uncertainty in water mass fraction of wet planets",
+    "url": "http://arxiv.org/abs/2601.03932v1",
+    "arxiv_id": "2601.03932v1",
+    "authors": [
+      "Michael Lozovsky"
+    ],
+    "published": "2026-01-07T13:51:31+00:00",
+    "summary": "Planets with masses between Earth and Neptune often have radii that imply the presence of volatiles, suggesting that water may be abundant in their interiors. However, directly observing the precise water mass fraction and water distribution remains unfeasible. In our study, we employ an internal structure code MAGRATHEA to model planets with high water content and explore potential interior distributions. Departing from traditional assumptions of a layered structure, we determine water and rock distribution based on water-rock miscibility criteria. We model {wet planets} with an iron core and a homogeneous mixture of rock and water above it. At the outer regions of the planet, the pressure and temperature are below the rock-water miscibility point (the second critical point), causing the segregation of water and rock. Consequently, a shell of water is formed in the outermost layers. By considering the water-rock miscibility and the vapor state of water, our approach highlights the uncertainty in estimating the water mass fraction of detected exoplanets."
+  },
+  {
     "title": "Heavy Black-Holes Also Matter in Standard Siren Cosmology",
     "url": "http://arxiv.org/abs/2601.03257v1",
     "arxiv_id": "2601.03257v1",
