@@ -1,5 +1,133 @@
 [
   {
+    "title": "Stochastic Deep Learning: A Probabilistic Framework for Modeling Uncertainty in Structured Temporal Data",
+    "url": "http://arxiv.org/abs/2601.05227v1",
+    "arxiv_id": "2601.05227v1",
+    "authors": [
+      "James Rice"
+    ],
+    "published": "2026-01-08T18:53:59+00:00",
+    "summary": "I propose a novel framework that integrates stochastic differential equations (SDEs) with deep generative models to improve uncertainty quantification in machine learning applications involving structured and temporal data. This approach, termed Stochastic Latent Differential Inference (SLDI), embeds an It\u00f4 SDE in the latent space of a variational autoencoder, allowing for flexible, continuous-time modeling of uncertainty while preserving a principled mathematical foundation. The drift and diffusion terms of the SDE are parameterized by neural networks, enabling data-driven inference and generalizing classical time series models to handle irregular sampling and complex dynamic structure.   A central theoretical contribution is the co-parameterization of the adjoint state with a dedicated neural network, forming a coupled forward-backward system that captures not only latent evolution but also gradient dynamics. I introduce a pathwise-regularized adjoint loss and analyze variance-reduced gradient flows through the lens of stochastic calculus, offering new tools for improving training stability in deep latent SDEs. My paper unifies and extends variational inference, continuous-time generative modeling, and control-theoretic optimization, providing a rigorous foundation for future developments in stochastic probabilistic machine learning."
+  },
+  {
+    "title": "CAOS: Conformal Aggregation of One-Shot Predictors",
+    "url": "http://arxiv.org/abs/2601.05219v1",
+    "arxiv_id": "2601.05219v1",
+    "authors": [
+      "Maja Waldron"
+    ],
+    "published": "2026-01-08T18:44:21+00:00",
+    "summary": "One-shot prediction enables rapid adaptation of pretrained foundation models to new tasks using only one labeled example, but lacks principled uncertainty quantification. While conformal prediction provides finite-sample coverage guarantees, standard split conformal methods are inefficient in the one-shot setting due to data splitting and reliance on a single predictor. We propose Conformal Aggregation of One-Shot Predictors (CAOS), a conformal framework that adaptively aggregates multiple one-shot predictors and uses a leave-one-out calibration scheme to fully exploit scarce labeled data. Despite violating classical exchangeability assumptions, we prove that CAOS achieves valid marginal coverage using a monotonicity-based argument. Experiments on one-shot facial landmarking and RAFT text classification tasks show that CAOS produces substantially smaller prediction sets than split conformal baselines while maintaining reliable coverage."
+  },
+  {
+    "title": "Measurement of the Higgs boson total decay width using the H $\\to$ WW $\\to$ e$\u03bd\u03bc\u03bd$ decay channel in proton-proton collisions at $\\sqrt{s}$ = 13 TeV",
+    "url": "http://arxiv.org/abs/2601.05168v1",
+    "arxiv_id": "2601.05168v1",
+    "authors": [
+      "CMS Collaboration"
+    ],
+    "published": "2026-01-08T17:56:57+00:00",
+    "summary": "The Higgs boson (H) decay width is determined from the ratio of off- and on-shell production of H $\\to$ WW $\\to$ e$\u03bd\u03bc\u03bd$ using proton-proton collision data corresponding to an integrated luminosity of 138 fb$^{-1}$ collected at $\\sqrt{s}$ = 13 TeV by the CMS experiment at the LHC. The off-shell signal strength is measured as $\u03bc_\\text{off-shell}$ = 1.2$^{+0.8}_{-0.7}$. The Higgs boson total decay width is $\u0393_\\text{H}$ = 3.9$^{+2.7}_{-2.2}$ MeV, in agreement with the standard model prediction. The uncertainty in this result represents a factor of three improvement over the previous CMS result in this decay channel."
+  },
+  {
+    "title": "Detection of time delay between UV and X-ray variability in Mrk 1044 using AstroSat observations",
+    "url": "http://arxiv.org/abs/2601.05135v1",
+    "arxiv_id": "2601.05135v1",
+    "authors": [
+      "M. Reshma",
+      "C. S. Stalin",
+      "Amit Kumar Mandal",
+      "Abhijit Kayal",
+      "S. B. Gudennavar",
+      "Prajwel Joseph"
+    ],
+    "published": "2026-01-08T17:26:46+00:00",
+    "summary": "Active galactic nuclei are known to exhibit flux variations across the entire electromagnetic spectrum. Among these, correlations between UV/optical and X-ray flux variations serve as a key diagnostics for understanding the physical connection between the accretion disk and the corona. In this work, we present the results of analysis of ultraviolet (UV) and X-ray flux variations in the narrow line Seyfert 1 galaxy Mrk 1044. Simultaneous observations in the far-UV band (FUV: 1300$-$1800 \u00c5) and the X-ray band (0.5$-$7 keV) obtained during 31 August $-$ 8 September 2018 with the Ultraviolet Imaging Telescope and the Soft X-ray Telescope onboard \\textit{AstroSat} were used for this study. Significant flux variability was detected in both FUV and X-ray bands. The fractional root mean square variability amplitude ($F_{\\rm var}$) was found to be 0.036 $\\pm$ 0.001 in the FUV band and 0.384 $\\pm$ 0.004 in the X-ray band. To explore potential time lag between the two bands, cross-correlation analysis was performed using both the interpolated cross-correlation function (ICCF) and just another vehicle for estimating lags in nuclei (JAVELIN) methods. Results from both approaches are consistent within 2$\u03c3$ uncertainty, indicating that X-ray variations lead the FUV variations, with measured lags of 2.25$\\pm$0.05 days (ICCF) and $2.35_{-0.01}^{+0.02}$ days (JAVELIN). This is the first detection of a time delay between UV and X-ray variations in Mrk 1044. The observed UV lag supports the disk reprocessing scenario, wherein X-ray emission from the corona irradiates the accretion disk, driving the observed UV variability."
+  },
+  {
+    "title": "Online Bayesian Learning of Agent Behavior in Differential Games",
+    "url": "http://arxiv.org/abs/2601.05087v1",
+    "arxiv_id": "2601.05087v1",
+    "authors": [
+      "Francesco Bianchin",
+      "Robert Lefringhausen",
+      "Sandra Hirche"
+    ],
+    "published": "2026-01-08T16:35:43+00:00",
+    "summary": "This work introduces an online Bayesian game-theoretic method for behavior identification in multi-agent dynamical systems. By casting Hamilton-Jacobi-Bellman optimality conditions as linear-in-parameter residuals, the method enables fast sequential Bayesian updates, uncertainty-aware inference, and robust prediction from limited, noisy data-without history stacks. The approach accommodates nonlinear dynamics and nonquadratic value functions through basis expansions, providing flexible models. Experiments, including linear-quadratic and nonlinear shared-control scenarios, demonstrate accurate prediction with quantified uncertainty, highlighting the method's relevance for adaptive interaction and real-time decision making."
+  },
+  {
+    "title": "Reinforced Efficient Reasoning via Semantically Diverse Exploration",
+    "url": "http://arxiv.org/abs/2601.05053v1",
+    "arxiv_id": "2601.05053v1",
+    "authors": [
+      "Ziqi Zhao",
+      "Zhaochun Ren",
+      "Jiahong Zou",
+      "Liu Yang",
+      "Zhiwei Xu",
+      "Xuri Ge",
+      "Zhumin Chen",
+      "Xinyu Ma",
+      "Daiting Shi",
+      "Shuaiqiang Wang",
+      "Dawei Yin",
+      "Xin Xin"
+    ],
+    "published": "2026-01-08T15:56:44+00:00",
+    "summary": "Reinforcement learning with verifiable rewards (RLVR) has proven effective in enhancing the reasoning of large language models (LLMs). Monte Carlo Tree Search (MCTS)-based extensions improve upon vanilla RLVR (e.g., GRPO) by providing tree-based reasoning rollouts that enable fine-grained and segment-level credit assignment. However, existing methods still suffer from limited exploration diversity and inefficient reasoning. To address the above challenges, we propose reinforced efficient reasoning via semantically diverse explorations, i.e., ROSE, for LLMs. To encourage more diverse reasoning exploration, our method incorporates a semantic-entropy-based branching strategy and an $\\varepsilon$-exploration mechanism. The former operates on already sampled reasoning rollouts to capture semantic uncertainty and select branching points with high semantic divergence to generate new successive reasoning paths, whereas the latter stochastically initiates reasoning rollouts from the root, preventing the search process from becoming overly local. To improve efficiency, we design a length-aware segment-level advantage estimator that rewards concise and correct reasoning while penalizing unnecessarily long reasoning chains. Extensive experiments on various mathematical reasoning benchmarks with Qwen and Llama models validate the effectiveness and efficiency of ROSE. Codes are available at https://github.com/ZiqiZhao1/ROSE-rl."
+  },
+  {
+    "title": "ALP and $Z^\\prime$ boson at the Electron-Ion collider",
+    "url": "http://arxiv.org/abs/2601.04962v1",
+    "arxiv_id": "2601.04962v1",
+    "authors": [
+      "Amit Adhikary",
+      "Dilip Kumar Ghosh",
+      "Sk Jeesun",
+      "Sourov Roy"
+    ],
+    "published": "2026-01-08T14:07:48+00:00",
+    "summary": "We study the sensitivity of the upcoming electron-ion (EIC) collider to purely electrophilic new physics in the GeV mass range. Within an effective field theory framework, we consider two different scenarios: an axion-like particle (ALP) and a new heavy neutral vector gauge boson $Z^\\prime $, each couples to electrons only. We analyze electron-proton collisions at $\\sqrt{s}= 141$ GeV with an integrated luminosity of $100~{\\rm fb}^{-1}$, focusing primarily on the tri-electron final state. Additionally, loop-induced ALP-photon couplings driven photon final states are also explored. Incorporating realistic detector effects and systematic uncertainties, we obtain projected exclusion limits on the relevant cross-sections and couplings. We find that the results from EIC can significantly extend the sensitivity to electrophilic axion-like particles and $Z^\\prime $ bosons in regions of parameter space that remain weakly constrained by existing experiments."
+  },
+  {
+    "title": "When Sellers Are Uncertain about Quality",
+    "url": "http://arxiv.org/abs/2601.04942v1",
+    "arxiv_id": "2601.04942v1",
+    "authors": [
+      "Keita Kuwahara"
+    ],
+    "published": "2026-01-08T13:46:06+00:00",
+    "summary": "Second-hand markets have expanded rapidly with the growth of online consumer-to-consumer (C2C) platforms. A key feature of C2C markets is that sellers are typically non-professionals and often face uncertainty about the quality of the goods they sell. This creates scope for platforms to introduce systems that reduce sellers' uncertainty about quality. However, an important question remains: is it socially desirable for sellers to have more precise quality information? We present results showing that while improved information always benefits sellers, it can either benefit or harm buyers. We derive a necessary and sufficient condition under which buyers benefit, and show that this condition holds in many cases, especially when buyers' valuations are not too large relative to sellers' costs. These findings suggest that platforms should consider reducing sellers' uncertainty about quality as a means of improving market efficiency."
+  },
+  {
+    "title": "Multi-Messenger Studies with High-Energy Neutrinos and Gamma Rays: The WST Opportunity",
+    "url": "http://arxiv.org/abs/2601.04939v1",
+    "arxiv_id": "2601.04939v1",
+    "authors": [
+      "Fabian Sch\u00fcssler",
+      "Sofia Bisero",
+      "Bernardo Cornejo",
+      "Filippo D'Ammando",
+      "Richard I. Anderson",
+      "Ilja Jaroschewski",
+      "Silvia Piranomonte",
+      "Fatemeh Zahra Majid"
+    ],
+    "published": "2026-01-08T13:43:02+00:00",
+    "summary": "The search for the sources of ultra-high-energy cosmic rays (UHECRs) using high-energy neutrinos represents a frontier in high-energy astrophysics. However, a critical bottleneck remains: the ability to rapidly survey the sizable sky areas defined by the localization uncertainties of neutrino detectors and to provide rapid spectroscopic classification of the multitude of optical transients found within them.   By deploying a large field-of-view with high-multiplex Multi-Object Spectroscopy (MOS) on a large aperture telescope, one can instantaneously cover neutrino error circles, thus providing crucial spectroscopic classifications of potential counterparts discovered, for example, by the Vera C. Rubin Observatory (LSST) with unprecedented efficiency. Furthermore, simultaneous operation of a giant panoramic central Integral Field Spectrograph (IFS) would allow for detailed kinematic and environmental characterization of primary candidates. This facility would unlock deep synergies between next-generation neutrino telescopes (IceCube-Gen2, KM3NeT) and gamma-ray observatories (CTAO), transforming unique multi-messenger alerts into a comprehensive physical understanding."
+  },
+  {
+    "title": "Measurement of differential $t$-channel single top (anti)quark production cross-sections at 13 TeV with the ATLAS detector",
+    "url": "http://arxiv.org/abs/2601.04938v1",
+    "arxiv_id": "2601.04938v1",
+    "authors": [
+      "ATLAS Collaboration"
+    ],
+    "published": "2026-01-08T13:40:32+00:00",
+    "summary": "The production of single top quarks and top antiquarks via the $t$-channel exchange of a virtual $W$ boson is measured in proton-proton collisions at a centre-of-mass energy of 13 TeV at the Large Hadron Collider. The full Run 2 data sample recorded with the ATLAS detector in the years 2015-2018 is used, corresponding to an integrated luminosity of 140 fb$^{-1}$. The absolute and normalised production cross-sections are measured differentially as a function of the transverse momentum and absolute rapidity of the top quark and top antiquark. In addition, the ratio of top quark to top antiquark production cross-sections is measured. The measured distributions are compared with next-to-leading-order quantum chromodynamics predictions obtained with different combinations of matrix-element generators, parton-shower programs and proton parton distribution functions, as well as to next-to-next-to-leading-order calculations. Overall, good agreement is observed between the measurements and the theoretical predictions. For most measured distributions, the sensitivity to differences between the predictions is limited by the systematic uncertainties in the measurement. The measured differential distributions are also interpreted in an effective field theory approach to constrain the Wilson-Coefficient $C_{Qq}^{3,1}$ associated with a four-quark operator. The interpretation accounts for the effect of the selection efficiency, which is altered significantly by non-zero contributions from $C_{Qq}^{3,1}$."
+  },
+  {
     "title": "A Comprehensive Computational Framework for Materials Design, Ab Initio Modeling, and Molecular Docking",
     "url": "http://arxiv.org/abs/2601.04186v1",
     "arxiv_id": "2601.04186v1",
