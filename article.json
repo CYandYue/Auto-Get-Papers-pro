@@ -1,5 +1,196 @@
 [
   {
+    "title": "AdaFuse: Adaptive Ensemble Decoding with Test-Time Scaling for LLMs",
+    "url": "http://arxiv.org/abs/2601.06022v1",
+    "arxiv_id": "2601.06022v1",
+    "authors": [
+      "Chengming Cui",
+      "Tianxin Wei",
+      "Ziyi Chen",
+      "Ruizhong Qiu",
+      "Zhichen Zeng",
+      "Zhining Liu",
+      "Xuying Ning",
+      "Duo Zhou",
+      "Jingrui He"
+    ],
+    "published": "2026-01-09T18:58:22+00:00",
+    "summary": "Large language models (LLMs) exhibit complementary strengths arising from differences in pretraining data, model architectures, and decoding behaviors. Inference-time ensembling provides a practical way to combine these capabilities without retraining. However, existing ensemble approaches suffer from fundamental limitations. Most rely on fixed fusion granularity, which lacks the flexibility required for mid-generation adaptation and fails to adapt to different generation characteristics across tasks. To address these challenges, we propose AdaFuse, an adaptive ensemble decoding framework that dynamically selects semantically appropriate fusion units during generation. Rather than committing to a fixed granularity, AdaFuse adjusts fusion behavior on the fly based on the decoding context, with words serving as basic building blocks for alignment. To be specific, we introduce an uncertainty-based criterion to decide whether to apply ensembling at each decoding step. Under confident decoding states, the model continues generation directly. In less certain states, AdaFuse invokes a diversity-aware scaling strategy to explore alternative candidate continuations and inform ensemble decisions. This design establishes a synergistic interaction between adaptive ensembling and test-time scaling, where ensemble decisions guide targeted exploration, and the resulting diversity in turn strengthens ensemble quality. Experiments on open-domain question answering, arithmetic reasoning, and machine translation demonstrate that AdaFuse consistently outperforms strong ensemble baselines, achieving an average relative improvement of 6.88%. The code is available at https://github.com/CCM0111/AdaFuse."
+  },
+  {
+    "title": "Adaptive Conditional Contrast-Agnostic Deformable Image Registration with Uncertainty Estimation",
+    "url": "http://arxiv.org/abs/2601.05981v1",
+    "arxiv_id": "2601.05981v1",
+    "authors": [
+      "Yinsong Wang",
+      "Xinzhe Luo",
+      "Siyi Du",
+      "Chen Qin"
+    ],
+    "published": "2026-01-09T18:00:49+00:00",
+    "summary": "Deformable multi-contrast image registration is a challenging yet crucial task due to the complex, non-linear intensity relationships across different imaging contrasts. Conventional registration methods typically rely on iterative optimization of the deformation field, which is time-consuming. Although recent learning-based approaches enable fast and accurate registration during inference, their generalizability remains limited to the specific contrasts observed during training. In this work, we propose an adaptive conditional contrast-agnostic deformable image registration framework (AC-CAR) based on a random convolution-based contrast augmentation scheme. AC-CAR can generalize to arbitrary imaging contrasts without observing them during training. To encourage contrast-invariant feature learning, we propose an adaptive conditional feature modulator (ACFM) that adaptively modulates the features and the contrast-invariant latent regularization to enforce the consistency of the learned feature across different imaging contrasts. Additionally, we enable our framework to provide contrast-agnostic registration uncertainty by integrating a variance network that leverages the contrast-agnostic registration encoder to improve the trustworthiness and reliability of AC-CAR. Experimental results demonstrate that AC-CAR outperforms baseline methods in registration accuracy and exhibits superior generalization to unseen imaging contrasts. Code is available at https://github.com/Yinsong0510/AC-CAR."
+  },
+  {
+    "title": "AWaRe-SAC: Proactive Slice Admission Control under Weather-Induced Capacity Uncertainty",
+    "url": "http://arxiv.org/abs/2601.05978v1",
+    "arxiv_id": "2601.05978v1",
+    "authors": [
+      "Dror Jacoby",
+      "Yanzhi Li",
+      "Shuyue Yu",
+      "Nicola Di Cicco",
+      "Hagit Messer",
+      "Gil Zussman",
+      "Igor Kadota"
+    ],
+    "published": "2026-01-09T17:53:09+00:00",
+    "summary": "As emerging applications demand higher throughput and lower latencies, operators are increasingly deploying millimeter-wave (mmWave) links within x-haul transport networks, spanning fronthaul, midhaul, and backhaul segments. However, the inherent susceptibility of mmWave frequencies to weather-related attenuation, particularly rain fading, complicates the maintenance of stringent Quality of Service (QoS) requirements. This creates a critical challenge: making admission decisions under uncertainty regarding future network capacity. To address this, we develop a proactive slice admission control framework for mmWave x-haul networks subject to rain-induced fluctuations. Our objective is to improve network performance, ensure QoS, and optimize revenue, thereby surpassing the limitations of standard reactive approaches. The proposed framework integrates a deep learning predictor of future network conditions with a proactive Q-learning-based slice admission control mechanism. We validate our solution using real-world data from a mmWave x-haul deployment in a dense urban area, incorporating realistic models of link capacity attenuation and dynamic slice demands. Extensive evaluations demonstrate that our proactive solution achieves 2-3x higher long-term average revenue under dynamic link conditions, providing a scalable and resilient framework for adaptive admission control."
+  },
+  {
+    "title": "Feasibility of event-by-event primary mass discrimination using radio observables and supervised machine learning",
+    "url": "http://arxiv.org/abs/2601.05969v1",
+    "arxiv_id": "2601.05969v1",
+    "authors": [
+      "Washington R. de Carvalho",
+      "Lech Wiktor Piotrowski"
+    ],
+    "published": "2026-01-09T17:40:58+00:00",
+    "summary": "In this work, we investigate the feasibility of event-by-event primary mass discrimination using radio observables only. Although the analysis does not require an explicit reconstruction of the shower maximum ($X_{max}$), the discrimination power still arises from the sensitivity of the radio observables to the longitudinal development of the extensive air shower (EAS). Such radio-based approaches could be particularly relevant for radio-only experiments, such as GRAND. To assess this feasibility, we obtained conservative upper limits for the discrimination accuracy using a supervised machine-learning (ML) algorithm, namely a random forest (RF). The input features used were the peak electric fields and the spectral slopes, which have complementary discrimination power, along with the antenna distances to the shower axis. The RF was trained and tested using large event sets generated by the fast radio emission simulation and simplified detector response implemented in the RDSim framework. We obtained discrimination accuracies between 81\\% and 96\\% over the studied zenith range, even after normalizing each shower by its own electromagnetic energy. Since the analysis includes deliberately conservative choices, such as a large 10\\% uncertainty on the reconstructed EM energy, these quoted values should be interpreted as conservative upper limits suitable for a feasibility assessment. Our results demonstrate that event-by-event primary mass discrimination using radio observables is, in principle, feasible."
+  },
+  {
+    "title": "The Linear Point Standard Ruler with DESI DR1 and DR2 Data",
+    "url": "http://arxiv.org/abs/2601.05967v1",
+    "arxiv_id": "2601.05967v1",
+    "authors": [
+      "N. Uberoi",
+      "F. Nikakhtar",
+      "N. Padmanabhan",
+      "R. K. Sheth",
+      "J. Aguilar",
+      "S. Ahlen",
+      "D. Bianchi",
+      "D. Brooks",
+      "F. J. Castander",
+      "T. Claybaugh",
+      "A. Cuceu",
+      "A. de la Macorra",
+      "A. Dey",
+      "B. Dey",
+      "P. Doel",
+      "J. E. Forero-Romero",
+      "E. Gazta\u00f1aga",
+      "S. Gontcho A Gontcho",
+      "G. Gutierrez",
+      "K. Honscheid",
+      "C. Howlett",
+      "M. Ishak",
+      "R. Joyce",
+      "D. Kirkby",
+      "T. Kisner",
+      "O. Lahav",
+      "C. Lamman",
+      "M. Landriau",
+      "L. Le Guillou",
+      "M. Manera",
+      "P. Martini",
+      "A. Meisner",
+      "R. Miquel",
+      "S. Nadathur",
+      "W. J. Percival",
+      "C. Poppett",
+      "F. Prada",
+      "I. P\u00e9rez-R\u00e0fols",
+      "G. Rossi",
+      "L. Samushia",
+      "E. Sanchez",
+      "D. Schlegel",
+      "M. Schubnell",
+      "J. Silber",
+      "D. Sprayberry",
+      "G. Tarl\u00e9",
+      "B. A. Weaver",
+      "H. Zou"
+    ],
+    "published": "2026-01-09T17:39:54+00:00",
+    "summary": "The linear point, a purely geometric feature in the monopole of the two-point correlation function, has been proposed as an alternative standard ruler. Compared to the peak in the correlation function, it is more robust to late-time nonlinear effects at the percent level. In light of improved simulations and high quality data, we revisit the robustness of the linear point and use it as an alternative to template-based fitting approaches typically used in BAO analyses. We present the linear point measurements on galaxy samples from the first and second data releases (DR1 and DR2) of the DESI survey. We convert the linear point into a dimensionless parameter $\u03b1_{iso,LP}$, defined as the ratio of the linear point in the fiducial cosmology and the observed value, analogous to the isotropic BAO scaling parameter $\u03b1_{iso}$ used in previous BAO measurements. Using the 2nd generation of AbacusSummit mock catalogs, we find that linear point measurements are more precise when calculated in the post-reconstruction regime with 15-60% smaller uncertainties than those pre-reconstruction. We find a systematic shift in the linear point measurements compared against the isotropic BAO measurements in mocks; we attribute this to the isotropic damping parameter responsible for smearing the linear point in the nonlinear regime. We propose a sample-dependent correction that mitigates the impact of late-time nonlinear effects. While this introduces a cosmology dependence in an otherwise model-independent measurement, this is necessary given the sub-percent precision dictated by current cosmological surveys. Comparing $\u03b1_{iso,LP}$ with isotropic BAO measurements made on the DESI DR1 and DR2 galaxy samples, we find excellent agreement after applying this correction, particularly post-reconstruction. We discuss future scope regarding cosmological inference with linear point measurements."
+  },
+  {
+    "title": "A Critical Examination of Active Learning Workflows in Materials Science",
+    "url": "http://arxiv.org/abs/2601.05946v1",
+    "arxiv_id": "2601.05946v1",
+    "authors": [
+      "Akhil S. Nair",
+      "Lucas Foppa"
+    ],
+    "published": "2026-01-09T17:01:56+00:00",
+    "summary": "Active learning (AL) plays a critical role in materials science, enabling applications such as the construction of machine-learning interatomic potentials for atomistic simulations and the operation of self-driving laboratories. Despite its widespread use, the reliability and effectiveness of AL workflows depend on implicit design assumptions that are rarely examined systematically. Here, we critically assess AL workflows deployed in materials science and investigate how key design choices, such as surrogate models, sampling strategies, uncertainty quantification and evaluation metrics, relate to their performance. By identifying common pitfalls and discussing practical mitigation strategies, we provide guidance to practitioners for the efficient design, assessment, and interpretation of AL workflows in materials science."
+  },
+  {
+    "title": "Evaluating star formation rates at z = 5",
+    "url": "http://arxiv.org/abs/2601.05916v1",
+    "arxiv_id": "2601.05916v1",
+    "authors": [
+      "D. Ismail",
+      "K. Kraljic",
+      "M. B\u00e9thermin",
+      "A. U. Kapoor",
+      "F. Renaud",
+      "C. Accard",
+      "J. Freundlich",
+      "S. Han",
+      "J. K. Jang",
+      "S. Jeon",
+      "T. Kimm",
+      "J. Rhee",
+      "S. Yi"
+    ],
+    "published": "2026-01-09T16:31:13+00:00",
+    "summary": "Inferring the star formation rates (SFR) in high redshift galaxies remains challenging, owing to observational limitations or uncertainties in calibration methods that link luminosities to SFRs. We utilize two state-of-the-art hydrodynamical simulations NewHorizon and NewCluster, post-processed with the radiative transfer code Skirt, to investigate the systematic uncertainties and biases in the inferred SFRs for z=5 galaxies; an epoch where galaxies build-up their stellar mass. We create synthetic observables for widely-used tracers: Halpha nebular line, [CII] 158 micron fine-structure line, total infrared (IR) continuum luminosity, and hybrid (IR + UV). We find that Halpha-inferred SFRs, time-averaged over 10 Myr, are sensitive to the choice of calibration and exhibit substantial scatter driven by dust attenuation, viewing angle, and dust-to-metal ratio. Adopting a steeper attenuation curve reduces this scatter significantly but does not fully eliminate systematic uncertainties. IR continuum-based SFRs trace intrinsic SFRs time-averaged over 100 Myr timescales when a well-sampled continuum emission between restframe 8 and 1000 micron is available and underestimate them with typical approaches when IR data are limited. Nevertheless, IR SFRs display a considerable scatter, largely due to UV photon leakage and strong variations in the star formation history. When UV data are available, hybrid (IR + UV) SFRs provide a more robust estimate, reducing scatter compared to IR-based SFRs while avoiding explicit attenuation corrections. Finally, we derive a [CII]-SFR relation finding a steeper relation than previous studies, however with significant scatter linked to gas density and metallicity. Overall, IR-, hybrid-, and [CII]-based tracers remain more robust than Halpha against variations in optical depth."
+  },
+  {
+    "title": "Sub-Planck structure quantification in non-Gaussian probability densities",
+    "url": "http://arxiv.org/abs/2601.05898v1",
+    "arxiv_id": "2601.05898v1",
+    "authors": [
+      "Darren W. Moore",
+      "Vojt\u011bch \u0160varc",
+      "Kratveer Singh",
+      "Artem Kovalenko",
+      "Minh Tuan Pham",
+      "Ond\u0159ej \u010c\u00edp",
+      "Luk\u00e1\u0161 Slodi\u010dka",
+      "Radim Filip"
+    ],
+    "published": "2026-01-09T16:17:04+00:00",
+    "summary": "Sub-Planck structures in non-Gaussian probability densities of phase space variables are pervasive in bosonic quantum systems. They are almost universally present if the bosonic system evolves via nonlinear dynamics or nonlinear measurements. So far, identification and comparison of such structures remains qualitative. Here we provide a universally applicable and experimentally friendly method to identify, quantify and compare sub-Planck structures from directly measurable or estimated probability densities of single phase space variables. We demonstrate the efficacy of this method on experimental high order Fock states of a single-atom mechanical oscillator, showing provably finer sub-Planck structures as the Fock occupation increases despite the accompanying uncertainty increase in the phonon, position, and momentum bases."
+  },
+  {
+    "title": "Toward Quantitative Electric-Field Measurements of Inception Clouds in Nanosecond Discharges Using E-FISH Assisted by Machine Learning",
+    "url": "http://arxiv.org/abs/2601.05872v1",
+    "arxiv_id": "2601.05872v1",
+    "authors": [
+      "Mhedine Alicherif",
+      "Edwin Sugeng",
+      "Zhijan Yang",
+      "Deanna A. Lacoste",
+      "Tat Loon Chng"
+    ],
+    "published": "2026-01-09T15:49:13+00:00",
+    "summary": "This study investigates the spatio-temporal evolution of the electric field during the early stages of a nanosecond positive corona discharge in atmospheric-pressure air by combining time-resolved E-FISH measurements, machine-learning-assisted field inversion (based on a recently developed operator-learning model), and iCCD optical emission imaging. The objective is to quantitatively characterize the electric field in the vicinity of the high-voltage electrode during inception and the transition toward streamer formation. By averaging over a large number of discharge events and operating in a regime where the discharge remains statistically axisymmetric, the proposed approach enables reconstruction of the electric-field profiles with nanosecond resolution. The results show a rapid increase of the field during the first nanoseconds, followed by the formation of a shell-like structure exhibiting the highest reduced fields prior to destabilization. The reconstructed reduced electric-field magnitude reaches peak values in the range of approximately 230-270 Td, with an estimated uncertainty of about 20-30% associated with calibration and profile-shape effects. These values correspond to the regime where electron-impact excitation and photoionization processes become highly efficient, consistent with the observed transition from a stable inception cloud to streamer destabilization. After the onset of streamer branching, increasing asymmetry limits the applicability of the inversion, and the reconstructed fields represent averaged contributions rather than the local field at individual streamer heads. The methodology thus identifies the conditions under which quantitative E-field mapping is reliable and establishes a framework for extending electric-field diagnostics to the inception phase of nanosecond atmospheric discharges."
+  },
+  {
+    "title": "Probing the morphology of the Gum Nebula through pulsar observables and a novel distance estimation method",
+    "url": "http://arxiv.org/abs/2601.05791v1",
+    "arxiv_id": "2601.05791v1",
+    "authors": [
+      "Ashish Kumar",
+      "Avinash A. Deshpande",
+      "Pankaj Jain"
+    ],
+    "published": "2026-01-09T13:39:46+00:00",
+    "summary": "Various existing models of the Gum Nebula differ significantly in their parameters and suggested origins, which can be independently tested for consistency with data on some key observables of pulsars in the direction of the nebula. Our analysis of such data on the Vela pulsar, assuming a dominant scattering region in its foreground, suggests that the fractional distance of the scatterer is $0.89 \\pm 0.01$, and for the given distance of the Vela pulsar, it translates to $254 \\pm 16$ pc. Using independent distances of ten pulsars, we suggest a refined description of the Gum Nebula electron density model with its basic morphology similar to that used in the YMW16 model, which now provides better estimates of pulsar distances in these directions. In our new Gum Nebula model, as expected, the Vela pulsar would be behind the frontal edge of the Gum shell, which was intriguingly located in front of the nebula in the YMW16 model. We also present a new technique to better constrain the pulsar distances using their dispersion measure and temporal broadening simultaneously, and find that it is less affected by the uncertainties in the Galactic electron density distribution models. Notably, the new approach shows that the expected temporal broadening as a function of trial distance does not follow a monotonic increasing trend, but instead exhibits oscillations at regions of enhanced electron density. This behaviour is expected, as the method employs the integral form of temporal broadening with the appropriate weighting kernel, leading to more reliable estimates."
+  },
+  {
     "title": "Stochastic Deep Learning: A Probabilistic Framework for Modeling Uncertainty in Structured Temporal Data",
     "url": "http://arxiv.org/abs/2601.05227v1",
     "arxiv_id": "2601.05227v1",
