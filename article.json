@@ -1,5 +1,156 @@
 [
   {
+    "title": "An Optimal Observable Machine for reinterpretable measurements in high-energy physics",
+    "url": "http://arxiv.org/abs/2601.08813v1",
+    "arxiv_id": "2601.08813v1",
+    "authors": [
+      "Torben Mohr",
+      "Alejandro Quiroga Trivi\u00f1o",
+      "Fabian Riemer",
+      "Artur Monsch",
+      "Matteo Defranchis",
+      "Joscha Knolle",
+      "Ankita Mehta",
+      "Jan Kieseler",
+      "Markus Klute"
+    ],
+    "published": "2026-01-13T18:49:53+00:00",
+    "summary": "A machine-learning-based framework for constructing generator-level observables optimized for parameter extraction in particle physics analyses is introduced, referred to as the Optimal Observable Machine (OOM). Unfoldable differential distributions are learned that maximize sensitivity to a parameter of interest while remaining robust against detector effects, systematic uncertainties, and biases introduced by the unfolding procedure. Detector response and systematic uncertainties are explicitly incorporated into the training through a likelihood-based loss function, enabling a direct optimization of the expected measurement precision while minimizing the bias from any assumption on the parameter of interest itself. The approach is demonstrated in an application to top quark physics, focusing on the measurement of a recently observed pseudoscalar excess at the top quark pair production threshold in dilepton final states. It is shown that a generator-level observable with enhanced sensitivity and long-term reinterpretability can be constructed using this method."
+  },
+  {
+    "title": "APEX-SWE",
+    "url": "http://arxiv.org/abs/2601.08806v1",
+    "arxiv_id": "2601.08806v1",
+    "authors": [
+      "Abhi Kottamasu",
+      "Akul Datta",
+      "Aakash Barthwal",
+      "Chirag Mahapatra",
+      "Ajay Arun",
+      "Adarsh Hiremath",
+      "Brendan Foody",
+      "Bertie Vidgen"
+    ],
+    "published": "2026-01-13T18:44:08+00:00",
+    "summary": "We introduce the AI Productivity Index for Software Engineering (APEX-SWE), a benchmark for assessing whether frontier AI models can execute economically valuable software engineering work. Unlike existing evaluations that focus on narrow, well-defined tasks, APEX-SWE assesses two novel task types that reflect real-world software engineering work: (1) Integration tasks (n=100), which require constructing end-to-end systems across heterogeneous cloud primitives, business applications, and infrastructure-as-code services, and (2) Observability tasks (n=100), which require debugging production failures using telemetry signals such as logs and dashboards, as well as unstructured context. We evaluated eight frontier models on APEX-SWE. Gemini 3 Pro (Thinking = High) performs best, with a Pass@1 score of 25\\%. Our analysis shows that strong performance is primarily driven by epistemic reasoning, defined as the ability to distinguish between assumptions and verified facts, combined with agency to resolve uncertainty prior to acting. We open-source the APEX-SWE evaluation harness and a dev set (n=50)."
+  },
+  {
+    "title": "Salience-SGG: Enhancing Unbiased Scene Graph Generation with Iterative Salience Estimation",
+    "url": "http://arxiv.org/abs/2601.08728v1",
+    "arxiv_id": "2601.08728v1",
+    "authors": [
+      "Runfeng Qu",
+      "Ole Hall",
+      "Pia K Bideau",
+      "Julie Ouerfelli-Ethier",
+      "Martin Rolfs",
+      "Klaus Obermayer",
+      "Olaf Hellwich"
+    ],
+    "published": "2026-01-13T16:57:09+00:00",
+    "summary": "Scene Graph Generation (SGG) suffers from a long-tailed distribution, where a few predicate classes dominate while many others are underrepresented, leading to biased models that underperform on rare relations. Unbiased-SGG methods address this issue by implementing debiasing strategies, but often at the cost of spatial understanding, resulting in an over-reliance on semantic priors. We introduce Salience-SGG, a novel framework featuring an Iterative Salience Decoder (ISD) that emphasizes triplets with salient spatial structures. To support this, we propose semantic-agnostic salience labels guiding ISD. Evaluations on Visual Genome, Open Images V6, and GQA-200 show that Salience-SGG achieves state-of-the-art performance and improves existing Unbiased-SGG methods in their spatial understanding as demonstrated by the Pairwise Localization Average Precision"
+  },
+  {
+    "title": "Stellar masses of optically dark galaxies: uncertainty introduced by the attenuation law and star-formation histories",
+    "url": "http://arxiv.org/abs/2601.08693v1",
+    "arxiv_id": "2601.08693v1",
+    "authors": [
+      "Yash Lapasia",
+      "Sandro Tacchella",
+      "Francesco D'Eugenio",
+      "D\u00e1vid Pusk\u00e1s",
+      "Andrew J. Bunker",
+      "A. Lola Danhaive",
+      "Benjamin D. Johnson",
+      "Roberto Maiolino",
+      "Brant Robertson",
+      "Charlotte Simmonds",
+      "Irene Shivaei",
+      "Christina C. Williams",
+      "Christopher Willmer"
+    ],
+    "published": "2026-01-13T16:17:04+00:00",
+    "summary": "JWST observations have suggested that some high-redshift galaxies may be ultra-massive, thereby challenging standard models of early galaxy formation and cosmology. We analyse the stellar masses using different modelling assumptions and with new data of three galaxies (S1, S2 and S3), whose NIRCam/grism redshifts were consistent with $z>5$. These three optically dark galaxies have previously been reported to host exceptionally high stellar masses and star-formation rates, implying extremely high star-formation efficiencies. Recent NIRSpec/IFU observations for S1 indicate a spectroscopic redshift of $z_{\\rm spec}=3.2461^{+0.0001}_{-0.0002}$, which is lower than previously reported. Using the Bayesian spectral energy distribution (SED) modelling tool \\texttt{Prospector}, we investigate the impact of key model assumptions on stellar mass estimates, such as the choice of star-formation history (SFH) priors (constant versus rising SFH base for the non-parametric prior), the dust attenuation law, and the treatment of emission line fluxes. Our analysis yields revised stellar masses of $\\log(M_{\\star}/M_{\\odot}) \\approx 10.36^{+0.47}_{-0.32}, 10.95^{+0.11}_{-0.10}$ and $10.31^{+0.24}_{-0.19}$ for S1, S2, and S3, respectively. We find that adopting a rising SFH base prior results in lower inferred stellar masses compared to a constant SFH base prior. We identify a significant degeneracy between the dust attenuation curve slope, the amount of dust attenuation, and stellar mass. Our results highlight various systematics in SED modelling due to SFH priors and dust attenuation that can influence stellar mass estimates of heavily dust obscured sources. Nevertheless, even with these revised stellar mass estimates, two of the three galaxies remain among the most massive and actively star-forming systems at their respective redshifts, implying high star-formation efficiencies."
+  },
+  {
+    "title": "Ultrafast quantum optics with attosecond control",
+    "url": "http://arxiv.org/abs/2601.08671v1",
+    "arxiv_id": "2601.08671v1",
+    "authors": [
+      "Mohamed Sennary",
+      "Javier Rivera-Dean",
+      "Maciej Lewenstein",
+      "Mohammed Th. Hassan"
+    ],
+    "published": "2026-01-13T15:47:48+00:00",
+    "summary": "Modern Quantum optics largely remains quasi-stationary, far from intrinsic optical field timescales. Ultrafast quantum optics seeks to generate, shape, and measure quantum states of light on femtosecond and attosecond timescales. Here we introduce a quantum light field squeezer (QLFS) that enables the generation and attosecond control of ultrafast broadband squeezed light. Using degenerate four-wave mixing in a quasi-collinear focusing geometry, our approach overcomes conventional broadband phase-matching limits, producing intensity- and phase-squeezed states directly from few-cycle laser pulses. Our ultrafast quantum optical metrology reveals a time-dependent squeezing distribution across individual half-cycles of the electric field. Incorporating this time-dependent squeezing into strong-field simulations shows that the temporal redistribution of quantum uncertainty reshapes the high-harmonic emission. Moreover, by tuning the relative pulse delay and phase-matching angle, we achieve attosecond precision in controlling the squeezing characteristics by visualizing inferred effective Wigner representations of the quantum light field. Beyond characterization, we demonstrate that the quantum light-induced tunneling-current noise is sensitive to the nonclassical intensity-noise statistics of the driving squeezed light, with sub-femtosecond control. Together, these results extend the generation, control, and effective phase-space representation of squeezed light into the ultrafast and attosecond regime, opening new avenues for quantum optics in strong-field and solid-state systems."
+  },
+  {
+    "title": "Provably Safe Reinforcement Learning using Entropy Regularizer",
+    "url": "http://arxiv.org/abs/2601.08646v1",
+    "arxiv_id": "2601.08646v1",
+    "authors": [
+      "Abhijit Mazumdar",
+      "Rafal Wisniewski",
+      "Manuela L. Bujorianu"
+    ],
+    "published": "2026-01-13T15:23:19+00:00",
+    "summary": "We consider the problem of learning the optimal policy for Markov decision processes with safety constraints. We formulate the problem in a reach-avoid setup. Our goal is to design online reinforcement learning algorithms that ensure safety constraints with arbitrarily high probability during the learning phase. To this end, we first propose an algorithm based on the optimism in the face of uncertainty (OFU) principle. Based on the first algorithm, we propose our main algorithm, which utilizes entropy regularization. We investigate the finite-sample analysis of both algorithms and derive their regret bounds. We demonstrate that the inclusion of entropy regularization improves the regret and drastically controls the episode-to-episode variability that is inherent in OFU-based safe RL algorithms."
+  },
+  {
+    "title": "Percentile-based probabilistic optimization for systematic and random uncertainties in radiation therapy",
+    "url": "http://arxiv.org/abs/2601.08644v1",
+    "arxiv_id": "2601.08644v1",
+    "authors": [
+      "Albin Fredriksson",
+      "Erik Engwall",
+      "Jenneke de Jong",
+      "Johan Sundstr\u00f6m"
+    ],
+    "published": "2026-01-13T15:15:43+00:00",
+    "summary": "Geometric uncertainty can degrade treatment quality in radiation therapy. While margins and robust optimization mitigate these effects, they provide only implicit control over clinical goal fulfillment probability. We therefore develop a probabilistic planning framework using a percentile-based optimization function that targets a specified probability of clinical goal fulfillment.   Systematic and random uncertainties were explicitly modeled over full treatment courses. A scenario dose approximation method based on interpolation between a fixed set of doses was used, enabling efficient simulation of treatment courses during optimization. The framework was evaluated on a prostate case treated with volumetric-modulated arc therapy (VMAT) and a brain case treated with pencil beam scanning (PBS) proton therapy. Plans were compared to conventional margin-based and worst-case robust optimization using probabilistic evaluation.   For the prostate case, probabilistic optimization improved organ at risk (OAR) sparing while maintaining target coverage compared to margin-based planning, increasing average OAR goal fulfillment probability by 13.3 percentage points and reducing 90th percentile OAR doses by an average of 3.5~Gy. For the brain case, probabilistic optimization improved target minimum dose passing probabilities (e.g., 88\\% vs.~22\\% for $D_{95}$) and brainstem maximum dose passing probability (70\\% vs.~30\\%), while maintaining comparable or improved OAR sparing compared to worst-case optimization.   Probabilistic optimization enables explicit and interpretable control over goal fulfillment probabilities. Combining full treatment course modeling with efficient approximate dose calculation, the proposed framework improved the trade-off between target coverage and OAR sparing compared to conventional planning approaches in both photon and proton therapy."
+  },
+  {
+    "title": "Resisting Manipulative Bots in Memecoin Copy Trading: A Multi-Agent Approach with Chain-of-Thought Reasoning",
+    "url": "http://arxiv.org/abs/2601.08641v1",
+    "arxiv_id": "2601.08641v1",
+    "authors": [
+      "Yichen Luo",
+      "Yebo Feng",
+      "Jiahua Xu",
+      "Yang Liu"
+    ],
+    "published": "2026-01-13T15:13:41+00:00",
+    "summary": "The launch of \\$Trump coin ignited a wave in meme coin investment. Copy trading, as a strategy-agnostic approach that eliminates the need for deep trading knowledge, quickly gains widespread popularity in the meme coin market. However, copy trading is not a guarantee of profitability due to the prevalence of manipulative bots, the uncertainty of the followed wallets' future performance, and the lag in trade execution. Recently, large language models (LLMs) have shown promise in financial applications by effectively understanding multi-modal data and producing explainable decisions. However, a single LLM struggles with complex, multi-faceted tasks such as asset allocation. These challenges are even more pronounced in cryptocurrency markets, where LLMs often lack sufficient domain-specific knowledge in their training data.   To address these challenges, we propose an explainable multi-agent system for meme coin copy trading. Inspired by the structure of an asset management team, our system decomposes the complex task into subtasks and coordinates specialized agents to solve them collaboratively. Employing few-shot chain-of-though (CoT) prompting, each agent acquires professional meme coin trading knowledge, interprets multi-modal data, and generates explainable decisions. Using a dataset of 1,000 meme coin projects' transaction data, our empirical evaluation shows that the proposed multi-agent system outperforms both traditional machine learning models and single LLMs, achieving 73% and 70% precision in identifying high-quality meme coin projects and key opinion leader (KOL) wallets, respectively. The selected KOLs collectively generated a total profit of \\$500,000 across these projects."
+  },
+  {
+    "title": "SoC: Semantic Orthogonal Calibration for Test-Time Prompt Tuning",
+    "url": "http://arxiv.org/abs/2601.08617v1",
+    "arxiv_id": "2601.08617v1",
+    "authors": [
+      "Leo Fillioux",
+      "Omprakash Chakraborty",
+      "Ismail Ben Ayed",
+      "Paul-Henry Courn\u00e8de",
+      "Stergios Christodoulidis",
+      "Maria Vakalopoulou",
+      "Jose Dolz"
+    ],
+    "published": "2026-01-13T15:00:03+00:00",
+    "summary": "With the increasing adoption of vision-language models (VLMs) in critical decision-making systems such as healthcare or autonomous driving, the calibration of their uncertainty estimates becomes paramount. Yet, this dimension has been largely underexplored in the VLM test-time prompt-tuning (TPT) literature, which has predominantly focused on improving their discriminative performance. Recent state-of-the-art advocates for enforcing full orthogonality over pairs of text prompt embeddings to enhance separability, and therefore calibration. Nevertheless, as we theoretically show in this work, the inherent gradients from fully orthogonal constraints will strongly push semantically related classes away, ultimately making the model overconfident. Based on our findings, we propose Semantic Orthogonal Calibration (SoC), a Huber-based regularizer that enforces smooth prototype separation while preserving semantic proximity, thereby improving calibration compared to prior orthogonality-based approaches. Across a comprehensive empirical validation, we demonstrate that SoC consistently improves calibration performance, while also maintaining competitive discriminative capabilities."
+  },
+  {
+    "title": "Sparsifying transform priors in Gaussian graphical models",
+    "url": "http://arxiv.org/abs/2601.08596v1",
+    "arxiv_id": "2601.08596v1",
+    "authors": [
+      "Marcus Gehrmann",
+      "H\u00e5kon Tjelmeland"
+    ],
+    "published": "2026-01-13T14:30:12+00:00",
+    "summary": "Bayesian methods constitute a popular approach for estimating the conditional independence structure in Gaussian graphical models, since they can quantify the uncertainty through the posterior distribution. Inference in this framework is typically carried out with Markov chain Monte Carlo (MCMC). However, the most widely used choice of prior distribution for the precision matrix, the so called G-Wishart distribution, suffers from an intractable normalizing constant, which gives rise to the problem of double intractability in the updating steps of the MCMC algorithm. In this article, we propose a new class of prior distributions for the precision matrix, termed ST priors, that allow for the construction of MCMC algorithms that do not suffer from double intractability issues. A realization from an ST prior distribution is obtained by applying a sparsifying transform on a matrix from a distribution with support in the set of all positive definite matrices. We carefully present the theory behind the construction of our proposed class of priors and also perform some numerical experiments, where we apply our methods on a human gene expression dataset. The results suggest that our proposed MCMC algorithm is able to converge and achieve acceptable mixing when applied on the real data."
+  },
+  {
     "title": "Reference Games as a Testbed for the Alignment of Model Uncertainty and Clarification Requests",
     "url": "http://arxiv.org/abs/2601.07820v1",
     "arxiv_id": "2601.07820v1",
