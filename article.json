@@ -1,5 +1,158 @@
 [
   {
+    "title": "Parallaxes, Proper Motions, and Near-Infrared Photometry for 173 L and T Dwarfs From The US Naval Observatory Infrared Astrometry Program",
+    "url": "http://arxiv.org/abs/2601.09671v1",
+    "arxiv_id": "2601.09671v1",
+    "authors": [
+      "Frederick J. Vrba",
+      "Adam C. Schneider",
+      "Jeffrey A. Munn",
+      "Arne A. Henden",
+      "Christain B. Luginbuhl",
+      "Conard C. Dahn",
+      "Harry H. Guetter",
+      "Blaise J. Canzian",
+      "Trudy M. Tilleman",
+      "Scott E. Dahm",
+      "Stephen J. Williams",
+      "Justice E. Bruursema",
+      "J. Davy Kirkpatrick",
+      "Adam J. Burgasser"
+    ],
+    "published": "2026-01-14T18:12:18+00:00",
+    "summary": "We present near-infrared parallax and proper motion astrometry for 74 L-dwarfs and 99 T-dwarfs, as single objects or in binary systems, obtained with the ASTROCAM astrometric imager on the USNO, Flagstaff Station 1.55-m telescope over two observing periods. For all 173 objects the median number of observational epochs was 62 with a median time frame of 5.25 years, resulting in median uncertainties of $\u03c3$($\u03c0_{abs}$) = 1.51 mas, $\u03c3$($\u03bc_{abs}$) = 1.02 mas yr$^{-1}$, and $\u03c3$($V_{\\rm tan}$) = 1.01 km s$^{-1}$. Our observations provide the first parallax/proper motion results for 16 objects and the highest precision parallaxes/proper motions for an additional 116 objects. A serendipitous overlap of 40 objects with Gaia DR3 astrometry allows direct comparison and confirmation of our results, along with an investigation on the effects of resolved binarity on astrometric results. We also provide a uniform set of $J$-, $H$-, $K_{S}$-band photometry in the UKIRT/MKO system, most of it being from new observations. We use these results to examine objects included in this study of special-interest populations, consisting of binaries, wide companions, young objects, subdwarfs, and brown dwarf spectral standards."
+  },
+  {
+    "title": "TaxoBell: Gaussian Box Embeddings for Self-Supervised Taxonomy Expansion",
+    "url": "http://arxiv.org/abs/2601.09633v1",
+    "arxiv_id": "2601.09633v1",
+    "authors": [
+      "Sahil Mishra",
+      "Srinitish Srinivasan",
+      "Srikanta Bedathur",
+      "Tanmoy Chakraborty"
+    ],
+    "published": "2026-01-14T17:08:37+00:00",
+    "summary": "Taxonomies form the backbone of structured knowledge representation across diverse domains, enabling applications such as e-commerce catalogs, semantic search, and biomedical discovery. Yet, manual taxonomy expansion is labor-intensive and cannot keep pace with the emergence of new concepts. Existing automated methods rely on point-based vector embeddings, which model symmetric similarity and thus struggle with the asymmetric \"is-a\" relationships that are fundamental to taxonomies. Box embeddings offer a promising alternative by enabling containment and disjointness, but they face key issues: (i) unstable gradients at the intersection boundaries, (ii) no notion of semantic uncertainty, and (iii) limited capacity to represent polysemy or ambiguity. We address these shortcomings with TaxoBell, a Gaussian box embedding framework that translates between box geometries and multivariate Gaussian distributions, where means encode semantic location and covariances encode uncertainty. Energy-based optimization yields stable optimization, robust modeling of ambiguous concepts, and interpretable hierarchical reasoning. Extensive experimentation on five benchmark datasets demonstrates that TaxoBell significantly outperforms eight state-of-the-art taxonomy expansion baselines by 19% in MRR and around 25% in Recall@k. We further demonstrate the advantages and pitfalls of TaxoBell with error analysis and ablation studies."
+  },
+  {
+    "title": "Confronting eikonal and post-Kerr methods with numerical evolution of scalar field perturbations in spacetimes beyond Kerr",
+    "url": "http://arxiv.org/abs/2601.09607v1",
+    "arxiv_id": "2601.09607v1",
+    "authors": [
+      "Ciro De Simone",
+      "Sebastian H. V\u00f6lkel",
+      "Kostas D. Kokkotas",
+      "Vittorio De Falco",
+      "Salvatore Capozziello"
+    ],
+    "published": "2026-01-14T16:30:02+00:00",
+    "summary": "The accurate computation of quasinormal modes from rotating black holes beyond general relativity is crucial for testing fundamental physics with gravitational waves. In this study, we assess the accuracy of the eikonal and post-Kerr approximations in predicting the quasinormal mode spectrum of a scalar field on a deformed Kerr spacetime. To obtain benchmark results and to analyze the ringdown dynamics from generic perturbations, we further employ a 2+1-dimensional numerical time-evolution framework. This approach enables a systematic quantification of theoretical uncertainties across multiple angular harmonics, a broad range of spin parameters, and progressively stronger deviations from the Kerr geometry. We then confront these modeling errors with simple projections of statistical uncertainties in quasinormal mode frequencies as a function of the signal-to-noise ratio, thereby exploring the domain of validity of approximate methods for prospective high-precision black-hole spectroscopy. We also report that near-horizon deformations can affect prograde and retrograde modes differently and provide a geometrical explanation."
+  },
+  {
+    "title": "High-Resolution Spectroscopy of $^{173}$Yb$^{+}$ Ions",
+    "url": "http://arxiv.org/abs/2601.09585v1",
+    "arxiv_id": "2601.09585v1",
+    "authors": [
+      "J. Jiang",
+      "A. V. Viatkina",
+      "Saaswath JK",
+      "M. Steinel",
+      "M. Filzinger",
+      "E. Peik",
+      "S. G. Porsev",
+      "M. S. Safronova",
+      "A. Surzyhkov",
+      "N. Huntemann"
+    ],
+    "published": "2026-01-14T15:54:39+00:00",
+    "summary": "Compared to other stable isotopes of $\\rm{Yb}^+$, $^{173}\\rm{Yb}^+$ has a richer hyperfine structure, which leads to more favorable clock transitions, spectroscopic techniques for probing new physics, and more sophisticated quantum computing architectures. However, to date, its electronic spectrum remains poorly characterized. Here, we report on efficient laser cooling, state preparation, and detection of a single trapped $^{173}\\rm{Yb}^+$ ion. The previously unobserved $^2\\!S_{1/2} \\rightarrow {}^2\\!D_{3/2}$ electric quadrupole transition at 436 nm is coherently excited, and the isotope shift between $^{171}\\rm{Yb}^+$ and $^{173}\\rm{Yb}^+$ on this transition is determined with an uncertainty of 1.4 Hz. Using microwave spectroscopy, we resolve the hyperfine structure (HFS) of the ${}^2\\!D_{3/2}$ state with a relative uncertainty below $10^{-8}$. From the HFS measurement data, we infer for ${}^{173}$Yb a nuclear magnetic octupole moment $\u03a9= -0.062(8)\\,({\\rm b} \\times \u03bc_N)$ with uncertainty reduced by more than 2 orders of magnitude compared to previous studies. The data also allow us to determine hyperfine anomalies for the ${}^2\\!S_{1/2}$ and ${}^2\\!D_{3/2}$ states."
+  },
+  {
+    "title": "Is it possible to determine unambiguously the Berry phase solely from quantum oscillations?",
+    "url": "http://arxiv.org/abs/2601.09560v1",
+    "arxiv_id": "2601.09560v1",
+    "authors": [
+      "Bogdan M. Fominykh",
+      "Valentin Yu. Irkhin",
+      "Vyacheslav V. Marchenkov"
+    ],
+    "published": "2026-01-14T15:29:15+00:00",
+    "summary": "The Berry phase, a fundamental geometric phase in quantum systems, has become a crucial tool for probing the topological properties of materials. Quantum oscillations, such as Shubnikov-de Haas (SdH) oscillations, are widely used to extract this phase, but its unambiguous determination remains challenging. This work highlights the inherent ambiguities in interpreting the oscillation phase solely from SdH data, primarily due to the influence of the spin factor $R_S$, which depends on the Land\u00e9 $g$-factor and effective mass. While the Lifshitz-Kosevich (LK) theory provides a framework for analyzing oscillations, the unknown g-factor introduces significant uncertainty. For instance, a zero oscillation phase could arise either from a nontrivial Berry phase or a negative $R_S$. We demonstrate that neglecting $R_S$ in modern studies, especially for topological materials with strong spin-orbit coupling, can lead to doubtful conclusions. Through theoretical analysis and numerical examples, we show how the interplay between the Berry phase and Zeeman effect complicates phase determination. Additionally, we also discuss another underappreciated mechanism - the magnetic field dependence of the Fermi level. Our discussion underscores the need for complementary experimental techniques to resolve these ambiguities and calls for further research to refine the interpretation of quantum oscillations in topological systems."
+  },
+  {
+    "title": "Residual Power Flow for Neural Solvers",
+    "url": "http://arxiv.org/abs/2601.09533v1",
+    "arxiv_id": "2601.09533v1",
+    "authors": [
+      "Jochen Stiasny",
+      "Jochen Cremer"
+    ],
+    "published": "2026-01-14T14:56:25+00:00",
+    "summary": "The energy transition challenges operational tasks based on simulations and optimisation. These computations need to be fast and flexible as the grid is ever-expanding, and renewables' uncertainty requires a flexible operational environment. Learned approximations, proxies or surrogates -- we refer to them as Neural Solvers -- excel in terms of evaluation speed, but are inflexible with respect to adjusting to changing tasks. Hence, neural solvers are usually applicable to highly specific tasks, which limits their usefulness in practice; a widely reusable, foundational neural solver is required. Therefore, this work proposes the Residual Power Flow (RPF) formulation. RPF formulates residual functions based on Kirchhoff's laws to quantify the infeasibility of an operating condition. The minimisation of the residuals determines the voltage solution; an additional slack variable is needed to achieve AC-feasibility. RPF forms a natural, foundational subtask of tasks subject to power flow constraints. We propose to learn RPF with neural solvers to exploit their speed. Furthermore, RPF improves learning performance compared to common power flow formulations. To solve operational tasks, we integrate the neural solver in a Predict-then-Optimise (PO) approach to combine speed and flexibility. The case study investigates the IEEE 9-bus system and three tasks (AC Optimal Power Flow (OPF), power-flow and quasi-steady state power flow) solved by PO. The results demonstrate the accuracy and flexibility of learning with RPF."
+  },
+  {
+    "title": "Probing the two-quasiparticle $K^\u03c0=8^+$ isomeric structure and enhanced stability in the proton drip-line nuclei",
+    "url": "http://arxiv.org/abs/2601.09526v1",
+    "arxiv_id": "2601.09526v1",
+    "authors": [
+      "Zhen-Zhen Zhang",
+      "Hua-Lei Wang",
+      "Kui Xiao",
+      "Min-Liang Liu"
+    ],
+    "published": "2026-01-14T14:48:55+00:00",
+    "summary": "Stimulated by recent experimental discoveries [{Phys. Lett. B \\textbf{847}, 138310 (2023)} and {Phys. Rev. Lett. \\textbf{132}, 072502 (2024)}], two-quasiparticle $K^\u03c0=8^+$ isomeric structure (related to the neutron $h_{9/2}$ and $f_{7/2}$ orbitals) in $^{160}_{76}$Os$_{84}$ that lies at the two-proton drip line has been studied by means of the configuration-constrained potential-energy-surface calculations. Calculated results indicate that, for such an isomer, the excitation energy can be well reproduced and its oblate shape can be enhanced by the polarization effects of the two high-$K$ orbits. Comparing with experimental data, two sets of the widely used Woods-Saxon parameters, especially, the spin-orbit coupling one, are evaluated and argued. It is found that, considering the uncertainty of the spin-orbit coupling strength, the energy crossing or inversion of the $h_{9/2}$ and $f_{7/2}$ neutrons can occur, which may lead to three kinds of different evolution-trends of two-quasiparticle excitation energies with the changing quadrupole deformation $\u03b2_2$. With decreasing spin-orbit coupling interaction, the structure of the $K^\u03c0=8^+$ isomeric state will evolute from $\u03bdh_{9/2}f_{7/2}$ ($\u03bd9/2^-[505] \\otimes 7/2^-[503]$) to the mixing of $\u03bdh_{9/2}f_{7/2}$ and $\u03bdh_{9/2}^2$ ($\u03bd9/2^-[505] \\otimes 7/2^-[514]$) to $\u03bdh_{9/2}^2$, indicating that its structural probes is still of interest and an arbitrary assignment may be risky. The related theoretical calculations and experimental evidences e.g., the transition properties, are desirable. In addition, similar to that in superheavy nuclei, it is suggested that the stability inversion between high-$K$ isomeric states and ground states might occur in this proton drip-line mass region, e.g., in the hitherto unknown nucleus $^{162}_{78}$Pt$_{84}$."
+  },
+  {
+    "title": "Class Adaptive Conformal Training",
+    "url": "http://arxiv.org/abs/2601.09522v1",
+    "arxiv_id": "2601.09522v1",
+    "authors": [
+      "Badr-Eddine Marani",
+      "Julio Silva-Rodriguez",
+      "Ismail Ben Ayed",
+      "Maria Vakalopoulou",
+      "Stergios Christodoulidis",
+      "Jose Dolz"
+    ],
+    "published": "2026-01-14T14:41:23+00:00",
+    "summary": "Deep neural networks have achieved remarkable success across a variety of tasks, yet they often suffer from unreliable probability estimates. As a result, they can be overconfident in their predictions. Conformal Prediction (CP) offers a principled framework for uncertainty quantification, yielding prediction sets with rigorous coverage guarantees. Existing conformal training methods optimize for overall set size, but shaping the prediction sets in a class-conditional manner is not straightforward and typically requires prior knowledge of the data distribution. In this work, we introduce Class Adaptive Conformal Training (CaCT), which formulates conformal training as an augmented Lagrangian optimization problem that adaptively learns to shape prediction sets class-conditionally without making any distributional assumptions. Experiments on multiple benchmark datasets, including standard and long-tailed image recognition as well as text classification, demonstrate that CaCT consistently outperforms prior conformal training methods, producing significantly smaller and more informative prediction sets while maintaining the desired coverage guarantees."
+  },
+  {
+    "title": "Demographics of Close-In TESS Exoplanets Orbiting FGK Main-sequence Stars",
+    "url": "http://arxiv.org/abs/2601.09492v1",
+    "arxiv_id": "2601.09492v1",
+    "authors": [
+      "Kaiming Cui",
+      "David J. Armstrong",
+      "Andreas Hadjigeorghiou",
+      "Marina Lafarga",
+      "Vedad Kunovac",
+      "Lauren Doyle",
+      "Luis Agust\u00edn Nieto",
+      "Rodrigo F. D\u00edaz"
+    ],
+    "published": "2026-01-14T13:59:49+00:00",
+    "summary": "Understanding the demographics of close-in planets is crucial for insights into exoplanet formation and evolution. We present a detailed analysis of occurrence rates for close-in (0.5-16 day) planets with radii between 2 and 20$\\,R_{\\oplus}$ around FGK main-sequence stars. Our study uses a comprehensive sample from four years of TESS Science Processing Operations Center full-frame image data cross-matched with Gaia, analysed through our rigorous detection, vetting, and validation pipeline. Using high-confidence planet candidates, we apply a hierarchical Bayesian model to determine occurrence rates in the two-dimensional orbital period-radius plane. Our results are presented using 10-by-10 bins across the period-radius parameter space, offering unprecedented resolution and statistical precision. We find an overall occurrence rate of $9.4^{+0.7}_{-0.6}\\%$. When using identical binning, our occurrence rate posteriors distributions align with Kepler's but have a magnitude smaller uncertainties on average. For hot Jupiters, we estimate the overall occurrence rate of $0.39^{+0.03}_{-0.02}\\%$. This value is consistent with the previous Kepler FGK-type result within $1\u03c3$. We find an overall occurrence rate of Neptunian desert planets of $0.08\\pm0.01\\%$, to our knowledge the first such determination. Additionally, in a volume-limited Gaia subsample within 100 pc in the same parameter region, we measure an overall planet occurrence rate of $15.4^{+1.6}_{-1.5}\\%$ and a hot Jupiter occurrence rate of $0.42^{+0.16}_{-0.12}\\%$. Our results establishes an improved foundation for constraining theoretical models of exoplanet populations."
+  },
+  {
+    "title": "Inclusive and exclusive semileptonic decays of heavy mesons on the lattice",
+    "url": "http://arxiv.org/abs/2601.09480v1",
+    "arxiv_id": "2601.09480v1",
+    "authors": [
+      "Zhi Hu",
+      "Alessandro Barone",
+      "Ahmed Elgaziari",
+      "Shoji Hashimoto",
+      "Andreas J\u00fcttner",
+      "Takashi Kaneko",
+      "Ryan Kellermann"
+    ],
+    "published": "2026-01-14T13:39:43+00:00",
+    "summary": "We report the recent progress from our group in extracting observables of both inclusive and exclusive semileptonic heavy-meson decays directly from lattice QCD four-point correlators. On the inclusive side, we illustrate how to estimate the systematic uncertainties from omitted higher-order terms and non-zero smearing of the kernel approximation, building on two important features of the Chebyshev expansion. On the exclusive side, we perform BCL parameterizations of the pseudoscalar to pseudoscalar form factors and compare the fitted coefficients with those from earlier results by HPQCD. We also perform a HQET-based parameterization of the P-wave form factors to shed new light on the 1/2-vs-3/2 puzzle. This work constitutes a step toward a unified lattice treatment of inclusive and exclusive semileptonic decays, relevant for the Vcb puzzle. In this study, we use lattice ensembles from the RBC/UKQCD collaboration for numerical investigations. Future developments from our group will focus on the control of other systematic effects for inclusive decays and investigations of other techniques with reduced statistical errors to extract exclusive contributions from lattice four-point correlators."
+  },
+  {
     "title": "An Optimal Observable Machine for reinterpretable measurements in high-energy physics",
     "url": "http://arxiv.org/abs/2601.08813v1",
     "arxiv_id": "2601.08813v1",
