@@ -1,5 +1,138 @@
 [
   {
+    "title": "Learning Semantic-Geometric Task Graph-Representations from Human Demonstrations",
+    "url": "http://arxiv.org/abs/2601.11460v1",
+    "arxiv_id": "2601.11460v1",
+    "authors": [
+      "Franziska Herbert",
+      "Vignesh Prasad",
+      "Han Liu",
+      "Dorothea Koert",
+      "Georgia Chalvatzaki"
+    ],
+    "published": "2026-01-16T17:35:00+00:00",
+    "summary": "Learning structured task representations from human demonstrations is essential for understanding long-horizon manipulation behaviors, particularly in bimanual settings where action ordering, object involvement, and interaction geometry can vary significantly. A key challenge lies in jointly capturing the discrete semantic structure of tasks and the temporal evolution of object-centric geometric relations in a form that supports reasoning over task progression. In this work, we introduce a semantic-geometric task graph-representation that encodes object identities, inter-object relations, and their temporal geometric evolution from human demonstrations. Building on this formulation, we propose a learning framework that combines a Message Passing Neural Network (MPNN) encoder with a Transformer-based decoder, decoupling scene representation learning from action-conditioned reasoning about task progression. The encoder operates solely on temporal scene graphs to learn structured representations, while the decoder conditions on action-context to predict future action sequences, associated objects, and object motions over extended time horizons. Through extensive evaluation on human demonstration datasets, we show that semantic-geometric task graph-representations are particularly beneficial for tasks with high action and object variability, where simpler sequence-based models struggle to capture task progression. Finally, we demonstrate that task graph representations can be transferred to a physical bimanual robot and used for online action selection, highlighting their potential as reusable task abstractions for downstream decision-making in manipulation systems."
+  },
+  {
+    "title": "Learning-Based Shrinking Disturbance-Invariant Tubes for State- and Input-Dependent Uncertainty",
+    "url": "http://arxiv.org/abs/2601.11426v1",
+    "arxiv_id": "2601.11426v1",
+    "authors": [
+      "Abdelrahman Ramadan",
+      "Sidney Givigi"
+    ],
+    "published": "2026-01-16T16:47:04+00:00",
+    "summary": "We develop a learning-based framework for constructing shrinking disturbance-invariant tubes under state- and input-dependent uncertainty, intended as a building block for tube Model Predictive Control (MPC), and certify safety via a lifted, isotone (order-preserving) fixed-point map. Gaussian Process (GP) posteriors become $(1-\u03b1)$ credible ellipsoids, then polytopic outer sets for deterministic set operations. A two-time-scale scheme separates learning epochs, where these polytopes are frozen, from an inner, outside-in iteration that converges to a compact fixed point $Z^\\star\\!\\subseteq\\!\\mathcal G$; its state projection is RPI for the plant. As data accumulate, disturbance polytopes tighten, and the associated tubes nest monotonically, resolving the circular dependence between the set to be verified and the disturbance model while preserving hard constraints. A double-integrator study illustrates shrinking tube cross-sections in data-rich regions while maintaining invariance."
+  },
+  {
+    "title": "Quantum-enhanced optimization for patient stratification in clinical trials",
+    "url": "http://arxiv.org/abs/2601.11413v1",
+    "arxiv_id": "2601.11413v1",
+    "authors": [
+      "Laia Domingo",
+      "Christine Johnson"
+    ],
+    "published": "2026-01-16T16:33:46+00:00",
+    "summary": "Clinical trials are notorious for their high failure rates and steep costs, leading to wasted time and resources spend, prolonged development timelines, and delayed patient access to new therapies. A key contributor to these failures is biological uncertainty, which complicates trial design and weakens the ability to detect true treatment effects. In particular, inadequate patient stratification often results in covariate imbalances across treatment arms, masking treatment effects and reducing statistical power, even when therapies are effective for specific patient subpopulations. This work presents an optimization-based, quantum-enhanced approach to patient stratification that explicitly minimizes covariate imbalance across numerical and categorical variables, without altering protocol design or trial endpoints. Using real clinical trial data, we demonstrate that hybrid quantum-classical optimization methods achieve high-quality stratification while scaling efficiently to larger cohorts. In our benchmark study, the quantum-enhanced pipeline delivered over a 100x improvement in computational efficiency compared to classical approaches, enabling faster iteration and practical deployment at scale. This report shows how improved stratification can lead to decision-relevant gains, including up to a fivefold increase in statistical significance in treatment effect estimation, reducing treatment-effect dilution and increasing trial sensitivity. Together, these results show that optimization-driven stratification can strengthen clinical trial design, improve confidence in downstream decisions, and reduce the risk of costly late-stage failure."
+  },
+  {
+    "title": "SUG-Occ: An Explicit Semantics and Uncertainty Guided Sparse Learning Framework for Real-Time 3D Occupancy Prediction",
+    "url": "http://arxiv.org/abs/2601.11396v1",
+    "arxiv_id": "2601.11396v1",
+    "authors": [
+      "Hanlin Wu",
+      "Pengfei Lin",
+      "Ehsan Javanmardi",
+      "Nanren Bao",
+      "Bo Qian",
+      "Hao Si",
+      "Manabu Tsukada"
+    ],
+    "published": "2026-01-16T16:07:38+00:00",
+    "summary": "As autonomous driving moves toward full scene understanding, 3D semantic occupancy prediction has emerged as a crucial perception task, offering voxel-level semantics beyond traditional detection and segmentation paradigms. However, such a refined representation for scene understanding incurs prohibitive computation and memory overhead, posing a major barrier to practical real-time deployment. To address this, we propose SUG-Occ, an explicit Semantics and Uncertainty Guided Sparse Learning Enabled 3D Occupancy Prediction Framework, which exploits the inherent sparsity of 3D scenes to reduce redundant computation while maintaining geometric and semantic completeness. Specifically, we first utilize semantic and uncertainty priors to suppress projections from free space during view transformation while employing an explicit unsigned distance encoding to enhance geometric consistency, producing a structurally consistent sparse 3D representation. Secondly, we design an cascade sparse completion module via hyper cross sparse convolution and generative upsampling to enable efficiently coarse-to-fine reasoning. Finally, we devise an object contextual representation (OCR) based mask decoder that aggregates global semantic context from sparse features and refines voxel-wise predictions via lightweight query-context interactions, avoiding expensive attention operations over volumetric features. Extensive experiments on SemanticKITTI benchmark demonstrate that the proposed approach outperforms the baselines, achieving a 7.34/% improvement in accuracy and a 57.8\\% gain in efficiency."
+  },
+  {
+    "title": "Heterogeneous Uncertainty-Guided Composed Image Retrieval with Fine-Grained Probabilistic Learning",
+    "url": "http://arxiv.org/abs/2601.11393v1",
+    "arxiv_id": "2601.11393v1",
+    "authors": [
+      "Haomiao Tang",
+      "Jinpeng Wang",
+      "Minyi Zhao",
+      "Guanghao Meng",
+      "Ruisheng Luo",
+      "Long Chen",
+      "Shu-Tao Xia"
+    ],
+    "published": "2026-01-16T16:05:49+00:00",
+    "summary": "Composed Image Retrieval (CIR) enables image search by combining a reference image with modification text. Intrinsic noise in CIR triplets incurs intrinsic uncertainty and threatens the model's robustness. Probabilistic learning approaches have shown promise in addressing such issues; however, they fall short for CIR due to their instance-level holistic modeling and homogeneous treatment of queries and targets. This paper introduces a Heterogeneous Uncertainty-Guided (HUG) paradigm to overcome these limitations. HUG utilizes a fine-grained probabilistic learning framework, where queries and targets are represented by Gaussian embeddings that capture detailed concepts and uncertainties. We customize heterogeneous uncertainty estimations for multi-modal queries and uni-modal targets. Given a query, we capture uncertainties not only regarding uni-modal content quality but also multi-modal coordination, followed by a provable dynamic weighting mechanism to derive comprehensive query uncertainty. We further design uncertainty-guided objectives, including query-target holistic contrast and fine-grained contrasts with comprehensive negative sampling strategies, which effectively enhance discriminative learning. Experiments on benchmarks demonstrate HUG's effectiveness beyond state-of-the-art baselines, with faithful analysis justifying the technical contributions."
+  },
+  {
+    "title": "Cutting Corners on Uncertainty: Zonotope Abstractions for Stream-based Runtime Monitoring",
+    "url": "http://arxiv.org/abs/2601.11358v1",
+    "arxiv_id": "2601.11358v1",
+    "authors": [
+      "Bernd Finkbeiner",
+      "Martin Fr\u00e4nzle",
+      "Florian Kohn",
+      "Paul Kr\u00f6ger"
+    ],
+    "published": "2026-01-16T15:14:04+00:00",
+    "summary": "Stream-based monitoring assesses the health of safety-critical systems by transforming input streams of sensor measurements into output streams that determine a verdict. These inputs are often treated as accurate representations of the physical state, although real sensors introduce calibration and measurement errors. Such errors propagate through the monitor's computations and can distort the final verdict. Affine arithmetic with symbolic slack variables can track these errors precisely, but independent measurement noise introduces a fresh slack variable upon each measurement event, causing the monitor's state representation to grow without bound over time. Therefore, any bounded-memory monitoring algorithm must unify slack variables at runtime in a way that generates a sound approximation.   This paper introduces zonotopes as an abstract domain for online monitoring of RLola specifications. We demonstrate that zonotopes precisely capture the affine state of the monitor and that their over-approximation produces a sound bounded-memory monitor. We present a comparison of different zonotope over-approximation strategies in the context of runtime monitoring, evaluating their performance and false-positive rates."
+  },
+  {
+    "title": "How Much Would a Clinician Edit This Draft? Evaluating LLM Alignment for Patient Message Response Drafting",
+    "url": "http://arxiv.org/abs/2601.11344v1",
+    "arxiv_id": "2601.11344v1",
+    "authors": [
+      "Parker Seegmiller",
+      "Joseph Gatto",
+      "Sarah E. Greer",
+      "Ganza Belise Isingizwe",
+      "Rohan Ray",
+      "Timothy E. Burdick",
+      "Sarah Masud Preum"
+    ],
+    "published": "2026-01-16T14:48:00+00:00",
+    "summary": "Large language models (LLMs) show promise in drafting responses to patient portal messages, yet their integration into clinical workflows raises various concerns, including whether they would actually save clinicians time and effort in their portal workload. We investigate LLM alignment with individual clinicians through a comprehensive evaluation of the patient message response drafting task. We develop a novel taxonomy of thematic elements in clinician responses and propose a novel evaluation framework for assessing clinician editing load of LLM-drafted responses at both content and theme levels. We release an expert-annotated dataset and conduct large-scale evaluations of local and commercial LLMs using various adaptation techniques including thematic prompting, retrieval-augmented generation, supervised fine-tuning, and direct preference optimization. Our results reveal substantial epistemic uncertainty in aligning LLM drafts with clinician responses. While LLMs demonstrate capability in drafting certain thematic elements, they struggle with clinician-aligned generation in other themes, particularly question asking to elicit further information from patients. Theme-driven adaptation strategies yield improvements across most themes. Our findings underscore the necessity of adapting LLMs to individual clinician preferences to enable reliable and responsible use in patient-clinician communication workflows."
+  },
+  {
+    "title": "Hadronic tau decays at higher orders in QCD",
+    "url": "http://arxiv.org/abs/2601.11277v1",
+    "arxiv_id": "2601.11277v1",
+    "authors": [
+      "Gauhar Abbas",
+      "Vartika Singh"
+    ],
+    "published": "2026-01-16T13:21:20+00:00",
+    "summary": "We investigate higher-order perturbative corrections to hadronic $\u03c4$ decays by applying nonlinear sequence-transformation techniques to the QCD correction $\u03b4^{(0)}$. In particular, we employ the Shanks transformation and several of its generalisations constructed through Wynn's $\\varepsilon$-algorithm, which are known to accelerate the convergence of slowly convergent or divergent series. These methods are used to extract higher-order information from the fixed-order perturbative expansion of $\u03b4^{(0)}$. Within this framework, we estimate the perturbative coefficients $c_{5,1}$-$c_{12,1}$. In particular, we obtain $c_{5,1}=294^{+41}_{-21}$, $c_{6,1}=3415^{+450}_{-467}$, and $c_{7,1}=2.23^{+0.75}_{-0.49}\\times 10^4$, where the quoted uncertainties reflect the spread among the different sequence transformations employed. Our analysis demonstrates that Shanks-type sequence transformations based on Wynn's $\\varepsilon$-algorithm provide an efficient and systematic tool for probing higher-order perturbative effects in hadronic $\u03c4$ decays in the absence of explicit multi-loop calculations."
+  },
+  {
+    "title": "Artificial Intelligence and the US Economy: An Accounting Perspective on Investment and Production",
+    "url": "http://arxiv.org/abs/2601.11196v1",
+    "arxiv_id": "2601.11196v1",
+    "authors": [
+      "Luisa Carpinelli",
+      "Filippo Natoli",
+      "Marco Taboga"
+    ],
+    "published": "2026-01-16T11:15:43+00:00",
+    "summary": "Artificial intelligence (AI) has moved to the center of policy, market, and academic debates, but its macroeconomic footprint is still only partly understood. This paper provides an overview on how the current AI wave is captured in US national accounts, combining a simple macro-accounting framework with a stylized description of the AI production process. We highlight the crucial role played by data centers, which constitute the backbone of the AI ecosystem and have attracted formidable investment in 2025, as they are indispensable for meeting the rapidly increasing worldwide demand for AI services. We document that the boom in IT and AI-related capital expenditure in the first three quarters of the year has given an outsized boost to aggregate demand, while its contribution to GDP growth is smaller once the high import content of AI hardware is netted out. Furthermore, simple calculations suggest that, at current utilization rates and pricing, the production of services originating in new AI data centers could contribute to GDP over the turn of the next quarters on a scale comparable to that of investment spending to date. Short reinvestment cycles and uncertainty about future AI demand, while not currently acting as a macroeconomic drag, can nevertheless fuel macroeconomic risks over the medium term."
+  },
+  {
+    "title": "Performance Analysis of Cell-Free Massive MIMO under Imperfect LoS Phase Tracking",
+    "url": "http://arxiv.org/abs/2601.11179v1",
+    "arxiv_id": "2601.11179v1",
+    "authors": [
+      "Noor Ul Ain",
+      "Lorenzo Miretti",
+      "Renato L. G. Cavalcante",
+      "S\u0142awomir Sta\u0144czak"
+    ],
+    "published": "2026-01-16T10:55:26+00:00",
+    "summary": "We study the impact of imperfect line-of-sight (LoS) phase tracking on the performance of cell-free massive MIMO networks. Unlike prior works that assume perfectly known or completely unknown phases, we consider a realistic regime where LoS phases are estimated with residual uncertainty due to hardware impairments, mobility, and synchronization errors. To this end, we propose a Rician fading model where LoS components are rotated by imperfect phase estimates and attenuated by a deterministic phase-error penalty factor. We derive a linear MMSE channel estimator that captures statistical phase errors and unifies prior results, reducing to the Bayesian MMSE estimator with perfect phase knowledge and to a zero-mean model in the absence of phase knowledge. To address the non-Gaussian setting, we introduce a virtual uplink model that preserves second-order statistics of channel estimation, enabling the derivation of tractable centralized and distributed MMSE beamformers. To ensure fair assessment of the network performance, we apply these beamformers to the true uplink model and compute the spectral efficiency bounds available in the literature. Numerical results show that our framework bridges idealized assumptions and practical tracking limitations, providing rigorous performance benchmarks and design insights for 6G cell-free networks."
+  },
+  {
     "title": "Euclid preparation. 3D reconstruction of the cosmic web with simulated Euclid Deep spectroscopic samples",
     "url": "http://arxiv.org/abs/2601.10709v1",
     "arxiv_id": "2601.10709v1",
