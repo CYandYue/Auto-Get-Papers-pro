@@ -1,5 +1,205 @@
 [
   {
+    "title": "Opportunities in AI/ML for the Rubin LSST Dark Energy Science Collaboration",
+    "url": "http://arxiv.org/abs/2601.14235v1",
+    "arxiv_id": "2601.14235v1",
+    "authors": [
+      "LSST Dark Energy Science Collaboration",
+      "Eric Aubourg",
+      "Camille Avestruz",
+      "Matthew R. Becker",
+      "Biswajit Biswas",
+      "Rahul Biswas",
+      "Boris Bolliet",
+      "Adam S. Bolton",
+      "Clecio R. Bom",
+      "Rapha\u00ebl Bonnet-Guerrini",
+      "Alexandre Boucaud",
+      "Jean-Eric Campagne",
+      "Chihway Chang",
+      "Aleksandra \u0106iprijanovi\u0107",
+      "Johann Cohen-Tanugi",
+      "Michael W. Coughlin",
+      "John Franklin Crenshaw",
+      "Juan C. Cuevas-Tello",
+      "Juan de Vicente",
+      "Seth W. Digel",
+      "Steven Dillmann",
+      "Mariano Javier de Le\u00f3n Dominguez Romero",
+      "Alex Drlica-Wagner",
+      "Sydney Erickson",
+      "Alexander T. Gagliano",
+      "Christos Georgiou",
+      "Aritra Ghosh",
+      "Matthew Grayling",
+      "Kirill A. Grishin",
+      "Alan Heavens",
+      "Lindsay R. House",
+      "Mustapha Ishak",
+      "Wassim Kabalan",
+      "Arun Kannawadi",
+      "Fran\u00e7ois Lanusse",
+      "C. Danielle Leonard",
+      "Pierre-Fran\u00e7ois L\u00e9get",
+      "Michelle Lochner",
+      "Yao-Yuan Mao",
+      "Peter Melchior",
+      "Grant Merz",
+      "Martin Millon",
+      "Anais M\u00f6ller",
+      "Gautham Narayan",
+      "Yuuki Omori",
+      "Hiranya Peiris",
+      "Laurence Perreault-Levasseur",
+      "Andr\u00e9s A. Plazas Malag\u00f3n",
+      "Nesar Ramachandra",
+      "Benjamin Remy",
+      "C\u00e9cile Roucelle",
+      "Jaime Ruiz-Zapatero",
+      "Stefan Schuldt",
+      "Ignacio Sevilla-Noarbe",
+      "Ved G. Shah",
+      "Tjitske Starkenburg",
+      "Stephen Thorp",
+      "Laura Toribio San Cipriano",
+      "Tilman Tr\u00f6ster",
+      "Roberto Trotta",
+      "Padma Venkatraman",
+      "Amanda Wasserman",
+      "Tim White",
+      "Justine Zeghal",
+      "Tianqing Zhang",
+      "Yuanyuan Zhang"
+    ],
+    "published": "2026-01-20T18:46:42+00:00",
+    "summary": "The Vera C. Rubin Observatory's Legacy Survey of Space and Time (LSST) will produce unprecedented volumes of heterogeneous astronomical data (images, catalogs, and alerts) that challenge traditional analysis pipelines. The LSST Dark Energy Science Collaboration (DESC) aims to derive robust constraints on dark energy and dark matter from these data, requiring methods that are statistically powerful, scalable, and operationally reliable. Artificial intelligence and machine learning (AI/ML) are already embedded across DESC science workflows, from photometric redshifts and transient classification to weak lensing inference and cosmological simulations. Yet their utility for precision cosmology hinges on trustworthy uncertainty quantification, robustness to covariate shift and model misspecification, and reproducible integration within scientific pipelines. This white paper surveys the current landscape of AI/ML across DESC's primary cosmological probes and cross-cutting analyses, revealing that the same core methodologies and fundamental challenges recur across disparate science cases. Since progress on these cross-cutting challenges would benefit multiple probes simultaneously, we identify key methodological research priorities, including Bayesian inference at scale, physics-informed methods, validation frameworks, and active learning for discovery. With an eye on emerging techniques, we also explore the potential of the latest foundation model methodologies and LLM-driven agentic AI systems to reshape DESC workflows, provided their deployment is coupled with rigorous evaluation and governance. Finally, we discuss critical software, computing, data infrastructure, and human capital requirements for the successful deployment of these new methodologies, and consider associated risks and opportunities for broader coordination with external actors."
+  },
+  {
+    "title": "HALT: Hallucination Assessment via Latent Testing",
+    "url": "http://arxiv.org/abs/2601.14210v1",
+    "arxiv_id": "2601.14210v1",
+    "authors": [
+      "Rohan Bhatnagar",
+      "Youran Sun",
+      "Chi Andrew Zhang",
+      "Yixin Wen",
+      "Haizhao Yang"
+    ],
+    "published": "2026-01-20T18:16:10+00:00",
+    "summary": "Hallucination in large language models (LLMs) can be understood as a failure of faithful readout: although internal representations may encode uncertainty about a query, decoding pressures still yield a fluent answer. We propose lightweight residual probes that read hallucination risk directly from intermediate hidden states of question tokens, motivated by the hypothesis that these layers retain epistemic signals that are attenuated in the final decoding stage. The probe is a small auxiliary network whose computation is orders of magnitude cheaper than token generation and can be evaluated fully in parallel with inference, enabling near-instantaneous hallucination risk estimation with effectively zero added latency in low-risk cases. We deploy the probe as an agentic critic for fast selective generation and routing, allowing LLMs to immediately answer confident queries while delegating uncertain ones to stronger verification pipelines. Across four QA benchmarks and multiple LLM families, the method achieves strong AUROC and AURAC, generalizes under dataset shift, and reveals interpretable structure in intermediate representations, positioning fast internal uncertainty readout as a principled foundation for reliable agentic AI."
+  },
+  {
+    "title": "Dynamical mass of a solar-like oscillator at the main-sequence turnoff from Gaia astrometry & ground-based spectroscopy",
+    "url": "http://arxiv.org/abs/2601.14197v1",
+    "arxiv_id": "2601.14197v1",
+    "authors": [
+      "P. G. Beck",
+      "T. Masseron",
+      "K. Pavlovski",
+      "D. Godoy-Rivera",
+      "S. Mathur",
+      "D. H. Grossmann",
+      "A. Hamy",
+      "D. B. Palakkatharappil",
+      "E. Panetier",
+      "R. A. Garc\u00eda",
+      "J. Merc",
+      "Y. Lu",
+      "I. Amestoy",
+      "H. J. Deeg"
+    ],
+    "published": "2026-01-20T18:01:48+00:00",
+    "summary": "Asteroseismology is widely used for precise determining of masses of solar-like oscillating stars by performing individual-frequency modeling or applying homological scaling relations. However, these methods lack dynamical validation on the main sequence due to the absence of eclipsing double-lined binary system (SB2) as benchmark objects. By providing the orbital inclination, astrometric binary systems from ESA Gaia DR3 offer an abundant alternative for eclipsing systems. We present KIC693187 as the first SB2, hosting a solar-like oscillating post-main-sequence star with dynamical masses. By combining Gaia astrometry with spectroscopic obtained with the Las Cumbres Observatory network (LCO), we find $M_1^\\mathrm{dyn}$=0.99$\\pm$0.05$M_\\odot$ and $M_2^\\mathrm{dyn}$=0.89$\\pm$0.04$M_\\odot$ for the primary and secondary, respectively. Asteroseismic parameters were extracted from photometry of the NASA \\Kepler satellite. The mass from individual frequency modeling is $M_1^\\mathrm{IF}$=0.92$\\pm$0.01$M_\\odot$. Taking into account the systematic uncertainty of 0.04$M_\\odot$ for best fit models from individual frequency fitting, we find an agreement within 1.2$\u03c3$. From scaling relations we obtain a mass range of 0.93 to 0.98$M_\\odot$ by using the observed large frequency separations (\\dnu) in the scaling relations for the primary. By using standard corrections for departures from the asymptotic regime of \\dnu, we obtained a mass range of 0.83 to 1.03$M_\\odot$. The upper ends of both ranges agree well with the dynamical mass of the primary. This approach provides the first empirical validation for main-sequence solar-like oscillators and opens a new window for validating asteroseismology. Through a dedicatded program targeting astrometric SB2 binary systems, ESA's PLATO space mission will provide will enlarge the benchmark sample substantially."
+  },
+  {
+    "title": "Measurement of the Z$\u03b3$ production cross section and search for anomalous neutral triple gauge couplings in pp collisions at $\\sqrt{s}$ = 13 TeV",
+    "url": "http://arxiv.org/abs/2601.14102v1",
+    "arxiv_id": "2601.14102v1",
+    "authors": [
+      "CMS Collaboration"
+    ],
+    "published": "2026-01-20T16:02:20+00:00",
+    "summary": "A measurement of the fiducial cross section of the associated production of a Z boson and a high-$p_\\mathrm{T}$ photon, where the Z decays to two neutrinos, and a search for anomalous triple gauge couplings are reported. The results are based on data collected by the CMS experiment at the LHC in proton-proton collisions at $\\sqrt{s}$ = 13 TeV during 2016$-$2018, corresponding to an integrated luminosity of 138 fb$^{-1}$. The fiducial Z$\u03b3$ cross section, where a photon with a $p_\\mathrm{T}$ greater than 225 GeV is produced in association with a Z, and the Z decays to a $\u03bd\\bar\u03bd$ pair (Z($\u03bd\\bar\u03bd$)$\u03b3$), is measured to be 23.3$^{+1.4}_{-1.3}$ fb, in agreement, within uncertainties, with the standard model prediction. The differential cross section as a function of the photon $p_\\mathrm{T}$ has been measured and compared with standard model predictions computed at next-to-leading and at next-to-next-to-leading order in perturbative quantum chromodynamics. Constraints have been placed on the presence of anomalous couplings that affect the ZZ$\u03b3$ and Z$\u03b3\u03b3$ vertex using the $p_\\mathrm{T}$ spectrum of the photons. The observed 95% confidence level intervals for $CP$-conserving $h_3^\u03b3$ and $h_4^\u03b3$ are determined to be ($-$3.4, 3.5) $\\times$ 10$^{-4}$ and ($-$6.8, 6.8) $\\times$ 10$^{-7}$, and for $h_3^\\mathrm{Z}$ and $h_4^\\mathrm{Z}$ they are ($-$2.2, 2.2) $\\times$ 10$^{-4}$ and ($-$4.1, 4.2) $\\times$ 10$^{-7}$, respectively. These are the strictest limits to date on $h_3^\u03b3$, $h_3^\\mathrm{Z}$ and $h_4^\\mathrm{Z}$."
+  },
+  {
+    "title": "Confident Rankings with Fewer Items: Adaptive LLM Evaluation with Continuous Scores",
+    "url": "http://arxiv.org/abs/2601.13885v1",
+    "arxiv_id": "2601.13885v1",
+    "authors": [
+      "Esma Balk\u0131r",
+      "Alice Pernthaller",
+      "Marco Basaldella",
+      "Jos\u00e9 Hern\u00e1ndez-Orallo",
+      "Nigel Collier"
+    ],
+    "published": "2026-01-20T11:59:13+00:00",
+    "summary": "Computerized Adaptive Testing (CAT) has proven effective for efficient LLM evaluation on multiple-choice benchmarks, but modern LLM evaluation increasingly relies on generation tasks where outputs are scored continuously rather than marked correct/incorrect. We present a principled extension of IRT-based adaptive testing to continuous bounded scores (ROUGE, BLEU, LLM-as-a-Judge) by replacing the Bernoulli response distribution with a heteroskedastic normal distribution. Building on this, we introduce an uncertainty aware ranker with adaptive stopping criteria that achieves reliable model ranking while testing as few items and as cheaply as possible. We validate our method on five benchmarks spanning n-gram-based, embedding-based, and LLM-as-judge metrics. Our method uses 2% of the items while improving ranking correlation by 0.12 \u03c4 over random sampling, with 95% accuracy on confident predictions."
+  },
+  {
+    "title": "HoverAI: An Embodied Aerial Agent for Natural Human-Drone Interaction",
+    "url": "http://arxiv.org/abs/2601.13801v1",
+    "arxiv_id": "2601.13801v1",
+    "authors": [
+      "Yuhua Jin",
+      "Nikita Kuzmin",
+      "Georgii Demianchuk",
+      "Mariya Lezina",
+      "Fawad Mehboob",
+      "Issatay Tokmurziyev",
+      "Miguel Altamirano Cabrera",
+      "Muhammad Ahsan Mustafa",
+      "Dzmitry Tsetserukou"
+    ],
+    "published": "2026-01-20T09:59:49+00:00",
+    "summary": "Drones operating in human-occupied spaces suffer from insufficient communication mechanisms that create uncertainty about their intentions. We present HoverAI, an embodied aerial agent that integrates drone mobility, infrastructure-independent visual projection, and real-time conversational AI into a unified platform. Equipped with a MEMS laser projector, onboard semi-rigid screen, and RGB camera, HoverAI perceives users through vision and voice, responding via lip-synced avatars that adapt appearance to user demographics. The system employs a multimodal pipeline combining VAD, ASR (Whisper), LLM-based intent classification, RAG for dialogue, face analysis for personalization, and voice synthesis (XTTS v2). Evaluation demonstrates high accuracy in command recognition (F1: 0.90), demographic estimation (gender F1: 0.89, age MAE: 5.14 years), and speech transcription (WER: 0.181). By uniting aerial robotics with adaptive conversational AI and self-contained visual output, HoverAI introduces a new class of spatially-aware, socially responsive embodied agents for applications in guidance, assistance, and human-centered interaction."
+  },
+  {
+    "title": "Variational Dual-path Attention Network for CSI-Based Gesture Recognition",
+    "url": "http://arxiv.org/abs/2601.13745v1",
+    "arxiv_id": "2601.13745v1",
+    "authors": [
+      "N. Zhang"
+    ],
+    "published": "2026-01-20T09:02:02+00:00",
+    "summary": "Wi-Fi gesture recognition based on Channel State Information (CSI) is challenged by high-dimensional noise and resource constraints on edge devices. Prevailing end-to-end models tightly couple feature extraction with classification, overlooking the inherent time-frequency sparsity of CSI and leading to redundancy and poor generalization. To address this, this paper proposes a lightweight feature preprocessing module--the Variational Dual-path Attention Network (VDAN). It performs structured feature refinement through frequency-domain filtering and temporal detection. Variational inference is introduced to model the uncertainty in attention weights, thereby enhancing robustness to noise. The design principles of the module are explained from the perspectives of the information bottleneck and regularization. Experiments on a public dataset demonstrate that the learned attention weights align with the physical sparse characteristics of CSI, verifying its interpretability. This work provides an efficient and explainable front-end processing solution for resource-constrained wireless sensing systems."
+  },
+  {
+    "title": "SUNSET -- A Sensor-fUsioN based semantic SegmEnTation exemplar for ROS-based self-adaptation",
+    "url": "http://arxiv.org/abs/2601.13732v1",
+    "arxiv_id": "2601.13732v1",
+    "authors": [
+      "Andreas Wiedholz",
+      "Rafael Paintner",
+      "Julian Glei\u00dfner",
+      "Alwin Hoffmann",
+      "Tobias Huber"
+    ],
+    "published": "2026-01-20T08:40:57+00:00",
+    "summary": "The fact that robots are getting deployed more often in dynamic environments, together with the increasing complexity of their software systems, raises the need for self-adaptive approaches. In these environments robotic software systems increasingly operate amid (1) uncertainties, where symptoms are easy to observe but root causes are ambiguous, or (2) multiple uncertainties appear concurrently. We present SUNSET, a ROS2-based exemplar that enables rigorous, repeatable evaluation of architecture-based self-adaptation in such conditions. It implements a sensor fusion semantic-segmentation pipeline driven by a trained Machine Learning (ML) model whose input preprocessing can be perturbed to induce realistic performance degradations. The exemplar exposes five observable symptoms, where each can be caused by different root causes and supports concurrent uncertainties spanning self-healing and self-optimisation. SUNSET includes the segmentation pipeline, a trained ML model, uncertainty-injection scripts, a baseline controller, and step-by-step integration and evaluation documentation to facilitate reproducible studies and fair comparison."
+  },
+  {
+    "title": "Thermodynamics and Gravitational Signatures of Rotating Black Holes in the Generalized Extended Uncertainty Principle",
+    "url": "http://arxiv.org/abs/2601.13725v1",
+    "arxiv_id": "2601.13725v1",
+    "authors": [
+      "Nikko John Leo S. Lobos"
+    ],
+    "published": "2026-01-20T08:32:18+00:00",
+    "summary": "We investigate the phenomenological implications of quantum gravity on rotating black holes within the framework of the Generalized Extended Uncertainty Principle (GEUP), which incorporates both minimal length (ultraviolet) and large-scale (infrared) corrections. Lacking a full non-perturbative formulation of quantum gravity, we adopt a metric-based approach. We construct a stationary, axisymmetric ansatz via the Newman-Janis algorithm to model the kinematic features of a rotating black hole subject to Generalized Extended Uncertainty Principle (GEUP) corrections. The thermodynamic analysis reveals that in the infrared-dominated regime, the Hawking temperature scales as $T_H \\sim M^{-3}$, leading to a rapid cooling phase that significantly prolongs the lifetime of supermassive black holes. We derive the modified Teukolsky Master Equation for gravitational perturbations and demonstrate that the background geometry preserves the isospectrality between axial and polar modes. In the eikonal limit, the quasinormal mode (QNM) spectrum exhibits orthogonal shifts: the minimal length parameter $\u03b2$ induces a spectral blueshift and enhanced damping, while the large-scale parameter $\u03b1$ induces a spectral redshift and suppressed damping. Finally, we constrain the theory using observational data from LIGO/Virgo and the Event Horizon Telescope. We establish that the shadow of M87* is approximately $10^6$ times more sensitive to large-scale corrections than Sgr A*, placing stringent bounds on the EUP parameter, while gravitational wave spectroscopy provides complementary constraints on the GUP sector."
+  },
+  {
+    "title": "Cost-Effectiveness of Adult Hepatitis A Vaccination Strategies in Korea Under an Aging Susceptibility Profile",
+    "url": "http://arxiv.org/abs/2601.13714v1",
+    "arxiv_id": "2601.13714v1",
+    "authors": [
+      "Yuna Lim",
+      "Gerardo Chowell",
+      "Eunok Jung"
+    ],
+    "published": "2026-01-20T08:14:35+00:00",
+    "summary": "Hepatitis A severity increases sharply with age, while Korea is experiencing a cohort shift in which low seroprevalence adult cohorts are aging into older, higher fatality age groups. This demographic and immunological transition creates an urgent policy question regarding how adult vaccination should be prioritized under resource constraints. We evaluated three adult vaccination scenarios targeting low seroprevalence age groups (S1) 20 to 39 years, (S2) 40 to 59 years, and (S3) 20 to 59 years. Using an age structured dynamic transmission model calibrated to Korean data, we derived dynamically feasible vaccination allocation trajectories under realistic capacity constraints using an optimal control framework and linked these trajectories to long term transmission model simulations. We conducted DALY based cost effectiveness analyses over a lifetime horizon from both healthcare system and societal perspectives, and characterized uncertainty using probabilistic sensitivity analysis (PSA) and cost effectiveness acceptability curves (CEACs). Robustness was examined using one way sensitivity analyses. In the base case, S2 consistently yields the most favorable and robust cost effectiveness profile under both perspectives, with the lowest ICER. S3 achieved the largest reduction in DALYs but requires substantially higher incremental costs, resulting in a higher ICER than S2. S1 produces the smallest DALY reduction and is the least efficient strategy. PSA and CEACs confirm that S2 remains the preferred option across most willingness to pay ranges. S2 offers the most balanced and robustly cost effective strategy in Korea, capturing substantial mortality reduction while limiting additional program costs. S3 may be justified when higher budgets or willingness to pay thresholds are acceptable, but S2 provides the clearest value for money under epidemiological and economic conditions."
+  },
+  {
     "title": "Stochastic Dynamic Pricing of Electric Vehicle Charging with Heterogeneous User Behavior: A Stackelberg Game Framework",
     "url": "http://arxiv.org/abs/2601.13571v1",
     "arxiv_id": "2601.13571v1",
