@@ -1,5 +1,134 @@
 [
   {
+    "title": "Cyclic sunspot activity during the first millennium CE as reconstructed from radiocarbon",
+    "url": "http://arxiv.org/abs/2601.16203v1",
+    "arxiv_id": "2601.16203v1",
+    "authors": [
+      "Ilya Usoskin",
+      "Sami K. Solanki",
+      "Natalie A. Krivova",
+      "Theodosis Chatzistergos"
+    ],
+    "published": "2026-01-22T18:55:13+00:00",
+    "summary": "Context. Solar activity, dominated by the 11-year cyclic evolution, has been observed directly since 1610. Before that, indirect cosmogenic proxy data are used to reconstruct it over millennia. Recently, the precision of radiocarbon measurements has improved sufficiently to allow reconstructing solar activity over millennia. Aims. The first detailed reconstruction of solar activity, represented by annual sunspot numbers, is presented for 1-969 CE. Methods. The reconstruction of sunspot numbers from D14C was performed using a physics-based method involving several steps: using a carbon-cycle box model, the 14C production rate, corrected for the geomagnetic shielding, was computed from the measured data; The open solar magnetic flux was computed using a model of the heliospheric cosmic-ray modulation; Sunspot numbers were calculated using a model of the evolution of the Sun's magnetic field. The Markov Chain Monte Carlo approach was used to account for different sources of uncertainty. Results. Annual sunspot numbers were reconstructed for the first millennium CE. This period includes one extreme solar event of 774 CE and one Grand solar minimum of 650-730 CE. We could identify 91 solar cycles, of which 26 were well-defined, while 24 and 41 were reasonably and poorly defined, respectively. The mean cycle length was 10.6 years, but the lengths of individual cycles vary between 8 and 15 years. The existence of empirical Waldmeier's relations remains inconclusive. No significant periodicities were found beyond the 11-year cycle. Conclusions. This work fills the gap in the solar cycle statistics between the previously reconstructed first millennium BCE and the second millennium CE, providing vital constraints for the solar dynamo and irradiance models. A consistent 3-millennium-long reconstruction of sunspot numbers, based on a composite multi-proxy cosmogenic record, is pending."
+  },
+  {
+    "title": "Stochastic Control Barrier Functions under State Estimation: From Euclidean Space to Lie Groups",
+    "url": "http://arxiv.org/abs/2601.16198v1",
+    "arxiv_id": "2601.16198v1",
+    "authors": [
+      "Ruoyu Lin",
+      "Magnus Egerstedt"
+    ],
+    "published": "2026-01-22T18:50:59+00:00",
+    "summary": "Ensuring safety for autonomous systems under uncertainty remains challenging, particularly when safety of the true state is required despite the true state not being fully known. Control barrier functions (CBFs) have become widely adopted as safety filters. However, standard CBF formulations do not explicitly account for state estimation uncertainty and its propagation, especially for stochastic systems evolving on manifolds. In this paper, we propose a safety-critical control framework with a provable bound on the finite-time safety probability for stochastic systems under noisy state information. The proposed framework explicitly incorporates the uncertainty arising from both process and measurement noise, and synthesizes controllers that adapt to the level of uncertainty. The framework admits closed-form solutions in linear settings, and experimental results demonstrate its effectiveness on systems whose state spaces range from Euclidean space to Lie groups."
+  },
+  {
+    "title": "Studying energy-resolved transport with wavepacket dynamics on quantum computers",
+    "url": "http://arxiv.org/abs/2601.16180v1",
+    "arxiv_id": "2601.16180v1",
+    "authors": [
+      "Melody Lee",
+      "Roland C. Farrell"
+    ],
+    "published": "2026-01-22T18:30:30+00:00",
+    "summary": "Probing energy-dependent transport in quantum simulators requires preparing states with tunable energy and small energy variance. Existing approaches often study quench dynamics of simple initial states, such as computational basis states, which are far from energy eigenstates and therefore limit the achievable energy resolution. In this work, we propose using wavepackets to probe transport properties with improved energy resolution. To demonstrate the utility of this approach, we prepare and evolve wavepackets on Quantinuum's H2-2 quantum computer and identify an energy-dependent localization transition in the Anderson model on an 8x7 lattice--a finite-size mobility edge. We observe that a wavepacket initialized at low energy remains spatially localized under time evolution, while a high-energy wavepacket delocalizes, consistent with the presence of a mobility edge. Crucial to our experiments is an error mitigation strategy that infers the noiseless output bit string distribution using maximum-likelihood estimation. Compared to post-selection, this method removes systematic errors and reduces statistical uncertainty by up to a factor of 5. We extend our methods to the many-particle regime by developing a quantum algorithm for preparing quasiparticle wavepackets in a one-dimensional model of interacting fermions. This technique has modest quantum resource requirements, making wavepacket-based studies of transport in many-body systems a promising application for near-term quantum computers."
+  },
+  {
+    "title": "Beyond Predictive Uncertainty: Reliable Representation Learning with Structural Constraints",
+    "url": "http://arxiv.org/abs/2601.16174v1",
+    "arxiv_id": "2601.16174v1",
+    "authors": [
+      "Yiyao Yang"
+    ],
+    "published": "2026-01-22T18:19:52+00:00",
+    "summary": "Uncertainty estimation in machine learning has traditionally focused on the prediction stage, aiming to quantify confidence in model outputs while treating learned representations as deterministic and reliable by default. In this work, we challenge this implicit assumption and argue that reliability should be regarded as a first-class property of learned representations themselves. We propose a principled framework for reliable representation learning that explicitly models representation-level uncertainty and leverages structural constraints as inductive biases to regularize the space of feasible representations. Our approach introduces uncertainty-aware regularization directly in the representation space, encouraging representations that are not only predictive but also stable, well-calibrated, and robust to noise and structural perturbations. Structural constraints, such as sparsity, relational structure, or feature-group dependencies, are incorporated to define meaningful geometry and reduce spurious variability in learned representations, without assuming fully correct or noise-free structure. Importantly, the proposed framework is independent of specific model architectures and can be integrated with a wide range of representation learning methods."
+  },
+  {
+    "title": "\\textit{Ab initio} Gamow density matrix renormalization group for broad nuclear many-body resonances",
+    "url": "http://arxiv.org/abs/2601.16168v1",
+    "arxiv_id": "2601.16168v1",
+    "authors": [
+      "A. Sehovic",
+      "K. Fossez",
+      "H. Hergert"
+    ],
+    "published": "2026-01-22T18:13:05+00:00",
+    "summary": "\\textbf{Background} The reach of \\textit{ab initio} theory has greatly increased in recent decades. However, predicting the location of the drip lines remains challenging due to uncertainties in nuclear forces and difficulties in describing nuclei that behave as open quantum systems. \\textbf{Purpose} In this work, we extend the \\textit{ab initio} Gamow Density Matrix Renormalization Group (G-DMRG) approach to the regime of broad many-body resonances to pave the way for systematic tests of nuclear forces in light exotic nuclei. \\textbf{Methods} To stabilize calculations, we introduce a new truncation scheme in the reference space, and propose an orbital ordering based on entanglement considerations. We then show how continuum couplings increase entanglement in the many-body problem, and propose a new truncation scheme to stabilize the renormalization and accelerate calculations in extreme conditions. Finally, we demonstrate that natural orbitals can be used to efficiently describe broad resonances by introducing a new ordering scheme and by redefining the reference space based on occupations. \\textbf{Results} Leveraging our findings, we propose a recipe to converge \\textit{ab initio} G-DMRG calculations and apply it in low-lying states of \\isotope[5,6]{He} and \\isotope[4]{H}, demonstrating control of the renormalization and the emergence of convergence patterns. We also obtain the first direct \\textit{ab initio} calculation of the $J^\u03c0= {1/2}^+$ ground state of \\isotope[5]{H}. \\textbf{Conclusions} We demonstrate that entanglement due to continuum couplings can be controlled in extreme conditions and successfully extend the G-DMRG approach in the regime of broad many-body resonances."
+  },
+  {
+    "title": "On computational schemes for the Magnus expansion of the in-medium similarity renormalization group",
+    "url": "http://arxiv.org/abs/2601.16133v1",
+    "arxiv_id": "2601.16133v1",
+    "authors": [
+      "Matthias Heinz"
+    ],
+    "published": "2026-01-22T17:30:55+00:00",
+    "summary": "The in-medium similarity renormalization group (IMSRG) is a popular many-body method used for computations of nuclei. It solves the many-body Schr\u00f6dinger equation through a continuous unitary transformation of the many-body Hamiltonian. The IMSRG transformation is typically truncated at the normal-ordered two-body level, the IMSRG(2), but recently several approaches have been developed to capture the effects of normal-ordered three-body operators, the IMSRG(3). In particular, a factorized approximation to the IMSRG(3) proposes to capture the leading effects of three-body operators at the same computational cost as the IMSRG(2) approximation. This approach often employs an approximate scheme for solving the IMSRG equations, the so-called hunter-gatherer scheme. In this work, I study the uncertainty associated with this scheme. I find that the hunter-gatherer scheme differs by up to $7\\,\\mathrm{MeV}$ for ground-state energies and $0.5\\,\\mathrm{MeV}$ for excitation energies from standard IMSRG(2) approaches. These differences are in some cases comparable to the expected size of IMSRG(3) corrections."
+  },
+  {
+    "title": "Efficiently Learning Robust Torque-based Locomotion Through Reinforcement with Model-Based Supervision",
+    "url": "http://arxiv.org/abs/2601.16109v1",
+    "arxiv_id": "2601.16109v1",
+    "authors": [
+      "Yashuai Yan",
+      "Tobias Egle",
+      "Christian Ott",
+      "Dongheui Lee"
+    ],
+    "published": "2026-01-22T16:56:52+00:00",
+    "summary": "We propose a control framework that integrates model-based bipedal locomotion with residual reinforcement learning (RL) to achieve robust and adaptive walking in the presence of real-world uncertainties. Our approach leverages a model-based controller, comprising a Divergent Component of Motion (DCM) trajectory planner and a whole-body controller, as a reliable base policy. To address the uncertainties of inaccurate dynamics modeling and sensor noise, we introduce a residual policy trained through RL with domain randomization. Crucially, we employ a model-based oracle policy, which has privileged access to ground-truth dynamics during training, to supervise the residual policy via a novel supervised loss. This supervision enables the policy to efficiently learn corrective behaviors that compensate for unmodeled effects without extensive reward shaping. Our method demonstrates improved robustness and generalization across a range of randomized conditions, offering a scalable solution for sim-to-real transfer in bipedal locomotion."
+  },
+  {
+    "title": "SAMTok: Representing Any Mask with Two Words",
+    "url": "http://arxiv.org/abs/2601.16093v1",
+    "arxiv_id": "2601.16093v1",
+    "authors": [
+      "Yikang Zhou",
+      "Tao Zhang",
+      "Dengxian Gong",
+      "Yuanzheng Wu",
+      "Ye Tian",
+      "Haochen Wang",
+      "Haobo Yuan",
+      "Jiacong Wang",
+      "Lu Qi",
+      "Hao Fei",
+      "Anran Wang",
+      "Zhuochen Wang",
+      "Yujing Wang",
+      "Cheng Chen",
+      "Shunping Ji",
+      "Xiangtai Li"
+    ],
+    "published": "2026-01-22T16:44:09+00:00",
+    "summary": "Pixel-wise capabilities are essential for building interactive intelligent systems. However, pixel-wise multi-modal LLMs (MLLMs) remain difficult to scale due to complex region-level encoders, specialized segmentation decoders, and incompatible training objectives. To address these challenges, we present SAMTok, a discrete mask tokenizer that converts any region mask into two special tokens and reconstructs the mask using these tokens with high fidelity. By treating masks as new language tokens, SAMTok enables base MLLMs (such as the QwenVL series) to learn pixel-wise capabilities through standard next-token prediction and simple reinforcement learning, without architectural modifications and specialized loss design. SAMTok builds on SAM2 and is trained on 209M diverse masks using a mask encoder and residual vector quantizer to produce discrete, compact, and information-rich tokens. With 5M SAMTok-formatted mask understanding and generation data samples, QwenVL-SAMTok attains state-of-the-art or comparable results on region captioning, region VQA, grounded conversation, referring segmentation, scene graph parsing, and multi-round interactive segmentation. We further introduce a textual answer-matching reward that enables efficient reinforcement learning for mask generation, delivering substantial improvements on GRES and GCG benchmarks. Our results demonstrate a scalable and straightforward paradigm for equipping MLLMs with strong pixel-wise capabilities. Our code and models are available."
+  },
+  {
+    "title": "Enhanced Representation-Based Sampling for the Efficient Generation of Datasets for Machine-Learned Interatomic Potentials",
+    "url": "http://arxiv.org/abs/2601.16047v1",
+    "arxiv_id": "2601.16047v1",
+    "authors": [
+      "Moritz Ren\u00e9 Sch\u00e4fer",
+      "Johannes K\u00e4stner"
+    ],
+    "published": "2026-01-22T15:26:04+00:00",
+    "summary": "In this work, we present Enhanced Representation-Based Sampling (ERBS), a novel enhanced sampling method designed to generate structurally diverse training datasets for machine-learned interatomic potentials. ERBS automatically identifies collective variables by dimensionality reduction of atomic descriptors and applies a bias potential inspired by the On-the-Fly Probability Enhanced Sampling framework. We highlight the ability of Gaussian moment descriptors to capture collective molecular motions and explore the impact of biasing parameters using alanine dipeptide as a benchmark system. We show that free energy surfaces can be reconstructed with high fidelity using only short biased trajectories as training data. Further, we apply the method to the iterative construction of a liquid water dataset and compare the quality of simulated self-diffusion coefficients for models trained with molecular dynamics and ERBS data. Further, we active-learn models for liquid water with and without enhanced sampling and compare the quality of simulated self-diffusion coefficients. The self-diffusion coefficients closely match those simulated with a reference model at a significantly reduced dataset size. Finally, we compare the sampling behaviour of enhanced sampling methods by benchmarking the mean squared displacements of \\ce{BMIM+BF4-} trajectories simulated with uncertainty-driven dynamics and ERBS and find that the latter significantly increases the exploration of configurational space."
+  },
+  {
+    "title": "Data-Driven Conditional Flexibility Index",
+    "url": "http://arxiv.org/abs/2601.16028v1",
+    "arxiv_id": "2601.16028v1",
+    "authors": [
+      "Moritz Wedemeyer",
+      "Eike Cramer",
+      "Alexander Mitsos",
+      "Manuel Dahmen"
+    ],
+    "published": "2026-01-22T14:56:10+00:00",
+    "summary": "With the increasing flexibilization of processes, determining robust scheduling decisions has become an important goal. Traditionally, the flexibility index has been used to identify safe operating schedules by approximating the admissible uncertainty region using simple admissible uncertainty sets, such as hypercubes. Presently, available contextual information, such as forecasts, has not been considered to define the admissible uncertainty set when determining the flexibility index. We propose the conditional flexibility index (CFI), which extends the traditional flexibility index in two ways: by learning the parametrized admissible uncertainty set from historical data and by using contextual information to make the admissible uncertainty set conditional. This is achieved using a normalizing flow that learns a bijective mapping from a Gaussian base distribution to the data distribution. The admissible latent uncertainty set is constructed as a hypersphere in the latent space and mapped to the data space. By incorporating contextual information, the CFI provides a more informative estimate of flexibility by defining admissible uncertainty sets in regions that are more likely to be relevant under given conditions. Using an illustrative example, we show that no general statement can be made about data-driven admissible uncertainty sets outperforming simple sets, or conditional sets outperforming unconditional ones. However, both data-driven and conditional admissible uncertainty sets ensure that only regions of the uncertain parameter space containing realizations are considered. We apply the CFI to a security-constrained unit commitment example and demonstrate that the CFI can improve scheduling quality by incorporating temporal information."
+  },
+  {
     "title": "RayRoPE: Projective Ray Positional Encoding for Multi-view Attention",
     "url": "http://arxiv.org/abs/2601.15275v1",
     "arxiv_id": "2601.15275v1",
