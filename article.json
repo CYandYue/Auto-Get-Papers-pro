@@ -1,5 +1,146 @@
 [
   {
+    "title": "Is BatchEnsemble a Single Model? On Calibration and Diversity of Efficient Ensembles",
+    "url": "http://arxiv.org/abs/2601.16936v1",
+    "arxiv_id": "2601.16936v1",
+    "authors": [
+      "Anton Zamyatin",
+      "Patrick Indri",
+      "Sagar Malhotra",
+      "Thomas G\u00e4rtner"
+    ],
+    "published": "2026-01-23T17:50:50+00:00",
+    "summary": "In resource-constrained and low-latency settings, uncertainty estimates must be efficiently obtained. Deep Ensembles provide robust epistemic uncertainty (EU) but require training multiple full-size models. BatchEnsemble aims to deliver ensemble-like EU at far lower parameter and memory cost by applying learned rank-1 perturbations to a shared base network. We show that BatchEnsemble not only underperforms Deep Ensembles but closely tracks a single model baseline in terms of accuracy, calibration and out-of-distribution (OOD) detection on CIFAR10/10C/SVHN. A controlled study on MNIST finds members are near-identical in function and parameter space, indicating limited capacity to realize distinct predictive modes. Thus, BatchEnsemble behaves more like a single model than a true ensemble."
+  },
+  {
+    "title": "The shape function of the observed growth index",
+    "url": "http://arxiv.org/abs/2601.16921v1",
+    "arxiv_id": "2601.16921v1",
+    "authors": [
+      "Ziad Sakr",
+      "Jinglan Zheng"
+    ],
+    "published": "2026-01-23T17:28:15+00:00",
+    "summary": "The growth index $\u03b3$ is a powerful trigger for detecting deviations from $\u039b$CDM. However, its value is often determined by considering an asymptotic constant value that works for all redshift, or else following a chosen parameterisation. Here we formulate the growth index as function of three quantities that could be directly related to observables in redshift bins, $f\u03c3_8(z_i)$, $f(z_i)$ and $H(z_i)$. We determine its value and its derivative at observed nodal center of redshift bins and use the shape function method, after showing insightful connection with its underlying governing virtual-work conservation principle, to construct a redshift dependence of the $\u03b3$ without assuming a specific parameterization. We then use the resulting shape function to test if we can disentangle between different scenarios where there are discrepancies between its three constituent measured components. We also tested whether it can be used to rule out models of modified gravity, or extended parametric models of the growth index that capture more general behaviors with an additional parameter as function of the scale factor or dark energy. Adopting forecasted measurements from next generation surveys on the three quantities used to construct $\u03b3$, we find that reported discrepancies between them could be detected with our method, but at the bins where the errors and lost of precision from our addition of degrees of freedom is small with respect to the deviation of $\u03b3$. The same could be concluded for first order extensions to $\u03b3$ or common modified gravity models, and to a lesser degree for dynamical dark energy models after supposing the latest DESI values. We conclude that this method is a strong tool to investigate cosmology in a model-independent way especially with forthcoming data delivered by further stage-IV surveys with more stringent uncertainties.(Abridged)"
+  },
+  {
+    "title": "Dynamics of AGN feedback in the X-ray bright East and Southwest arms of M87, mapped by XRISM",
+    "url": "http://arxiv.org/abs/2601.16901v1",
+    "arxiv_id": "2601.16901v1",
+    "authors": [
+      "A. Simionescu",
+      "C. Kilbourne",
+      "H. R. Russell",
+      "D. Ito",
+      "M. Charbonneau",
+      "D. Eckert",
+      "M. Loewenstein",
+      "J. Martin",
+      "H. McCall",
+      "B. R. McNamara",
+      "K. Nakazawa",
+      "A. Ogorzalek",
+      "A. T\u00fcmer",
+      "I. Zhuravleva",
+      "N. Dizdar",
+      "Y. Ezoe",
+      "R. Fujimoto",
+      "L. Gu",
+      "E. Hodges-Kluck",
+      "Y. Ichinohe",
+      "S. Kitamoto",
+      "M. A. Leutenegger",
+      "F. Mernier",
+      "E. D. Miller",
+      "I. Mitsuishi",
+      "K. Sato",
+      "A. Szymkowiak"
+    ],
+    "published": "2026-01-23T17:07:44+00:00",
+    "summary": "As the central galaxy in the nearest cluster, M87 provides the best spatial resolution for disentangling the complex interactions between AGN jets and the surrounding environment. We investigate the velocity structure of the multitemperature X-ray gas in M87, particularly in the eastern and southwestern arms associated with past AGN outbursts, using high-resolution spectroscopy from XRISM/Resolve. We analyze a mosaic of XRISM/Resolve observations covering the core of M87, fitting single- and multi-temperature models to spectra extracted from different regions and energy bands. We assess the line-of-sight velocities and velocity dispersions of the hotter ambient and cooler uplifted gas phases, and evaluate systematic uncertainties related to instrumental gain calibration. The hotter ICM phase, traced by Fe He-$\u03b1$ emission, shows velocity dispersions below $\\sim100$ km/s, and no significant velocity shifts between the arms and a relaxed offset region, suggesting limited dynamical impact from older AGN lobes. In contrast, the cooler gas phase appears to exhibit larger line of sight velocity gradients up to several hundred km/s as well as a higher velocity dispersion than the ambient hot phase, although these conclusions remain tentative pending improvements in the robustness of the gain calibration at lower energies. The first microcalorimeter-resolved map of gas dynamics in M87 supports the uplift scenario for the X-ray arms, with the cooler gas in the east and southwest seemingly moving in opposite directions along the line of sight. The kinetic energy is a small fraction of the gravitational potential energy associated with the gas uplift, and XRISM further suggests that AGN-driven motions may be short-lived in the hot ambient ICM. These constraints provide important input towards shaping future models of AGN feedback."
+  },
+  {
+    "title": "Universal relation between dipole polarizability of finite nuclei and neutron-star compactness",
+    "url": "http://arxiv.org/abs/2601.16894v1",
+    "arxiv_id": "2601.16894v1",
+    "authors": [
+      "P. S. Koliogiannis",
+      "T. Ghosh",
+      "E. Yuksel",
+      "N. Paar"
+    ],
+    "published": "2026-01-23T17:00:43+00:00",
+    "summary": "The nuclear equation of state, which determines the structure and properties of neutron stars, remains subject to substantial theoretical uncertainties, leading to model dependence in predicted observables. Universal relations have emerged as a powerful tool to mitigate this dependence by linking neutron star observables in a framework-independent manner. In this work, we introduce a new universal relation that \\emph{bridges} finite nuclei and neutron stars through the dimensionless quantity $\u03b6= \u03b2_{1.4}\\tilde{L}^{-1}$, which couples the compactness of a $1.4~M_{\\odot}$ neutron star to the slope of the nuclear symmetry energy at saturation. The relation is examined under a broad set of relativistic energy density functionals with point-coupling and meson-exchange interactions, as well as non-relativistic Skyrme functionals. We demonstrate that $\u03b6$ exhibits a strong exponential correlation with the electric dipole polarizability $\u03b1_D$ in finite nuclei across all considered equations of state. By exploiting experimental $\u03b1_D$ data for selected neutron-rich nuclei, we constrain $\u03b6$ and translate these constraints into equation-of-state-independent bounds on the neutron star radius $R_{1.4}$ and the symmetry-energy slope $L$, providing insights into the properties of neutron star matter."
+  },
+  {
+    "title": "Stochastic Modeling and Resource Dimensioning of Multi-Cellular Edge Intelligent Systems",
+    "url": "http://arxiv.org/abs/2601.16848v1",
+    "arxiv_id": "2601.16848v1",
+    "authors": [
+      "Jaume Anguera Peris",
+      "Joakim Jald\u00e9n"
+    ],
+    "published": "2026-01-23T15:55:43+00:00",
+    "summary": "Edge intelligence enables AI inference at the network edge, co-located with or near the radio access network, rather than in centralized clouds or on mobile devices. It targets low-latency, resource-constrained applications with large data volumes, requiring tight integration of wireless access and on-site computing. Yet system performance and cost-efficiency hinge on joint pre-deployment dimensioning of radio and computational resources, especially under spatial and temporal uncertainty. Prior work largely emphasizes run-time allocation or relies on simplified models that decouple radio and computing, missing end-to-end correlations in large-scale deployments. This paper introduces a unified stochastic framework to dimension multi-cell edge-intelligent systems. We model network topology with Poisson point processes, capturing random user and base-station locations, inter-cell interference, distance-based fractional power control, and peak-power constraints. By combining this with queueing theory and empirical AI inference workload profiling, we derive tractable expressions for end-to-end offloading delay. These enable a non-convex joint optimization that minimizes deployment cost under statistical QoS guarantees, expressed through strict tail-latency and inference-accuracy constraints. We prove the problem decomposes into convex subproblems, yielding global optimality. Numerical results in noise- and interference-limited regimes identify cost-efficient design regions and configurations that cause under-utilization or user unfairness. Smaller cells reduce transmission delay but raise per-request computing cost due to weaker server multiplexing, whereas larger cells show the opposite trend. Densification reduces computational costs only when frequency reuse scales with base-station density; otherwise, sparser deployments improve fairness and efficiency in interference-limited settings."
+  },
+  {
+    "title": "Calibrated Probabilistic Interpolation for GEDI Biomass",
+    "url": "http://arxiv.org/abs/2601.16834v1",
+    "arxiv_id": "2601.16834v1",
+    "authors": [
+      "Robin Young",
+      "Srinivasan Keshav"
+    ],
+    "published": "2026-01-23T15:35:33+00:00",
+    "summary": "Reliable wall-to-wall biomass mapping from NASA's GEDI mission requires interpolating sparse LiDAR observations across heterogeneous landscapes. While machine learning approaches like Random Forest and XGBoost are standard for this task, they treat spatial predictions of GEDI observations from multispectral or SAR remote sensing data as independent without adapting to the varying difficulty of heterogeneous landscapes. We demonstrate these approaches generally fail to produce calibrated prediction intervals. We identify that this stems from conflating ensemble variance with aleatoric uncertainty and ignoring local spatial context.   To resolve this, we introduce Attentive Neural Processes (ANPs), a probabilistic meta-learning framework that explicitly conditions predictions on local observation sets and geospatial foundation model embeddings. Unlike static ensembles, ANPs learn a flexible spatial covariance function, allowing uncertainty estimates to expand in complex landscapes and contract in homogeneous areas. We validate this approach across five distinct biomes ranging from Tropical Amazonian forests to Boreal and Alpine ecosystems, demonstrating that ANPs achieve competitive accuracy while maintaining near-ideal uncertainty calibration. We demonstrate the operational utility of the method through few-shot adaptation, where the model recovers most of the performance gap in cross-region transfer using minimal local data. This work provides a scalable, theoretically rigorous alternative to ensemble variance for continental scale earth observation."
+  },
+  {
+    "title": "Uncertainty propagation through trained multi-layer perceptrons: Exact analytical results",
+    "url": "http://arxiv.org/abs/2601.16830v1",
+    "arxiv_id": "2601.16830v1",
+    "authors": [
+      "Andrew Thompson",
+      "Miles McCrory"
+    ],
+    "published": "2026-01-23T15:29:03+00:00",
+    "summary": "We give analytical results for propagation of uncertainty through trained multi-layer perceptrons (MLPs) with a single hidden layer and ReLU activation functions. More precisely, we give expressions for the mean and variance of the output when the input is multivariate Gaussian. In contrast to previous results, we obtain exact expressions without resort to a series expansion."
+  },
+  {
+    "title": "Improved measurements of the age of JWST galaxies at z=6-10",
+    "url": "http://arxiv.org/abs/2601.16772v1",
+    "arxiv_id": "2601.16772v1",
+    "authors": [
+      "M. Lopez-Corredoira",
+      "C. M. Gutierrez"
+    ],
+    "published": "2026-01-23T14:15:14+00:00",
+    "summary": "From James Webb Space Telescope (JWST) surveys, 31 galaxies with average redshift 7.3 are selected containing large Balmer break, Lyman-$\u03b1$ break (V-shaped SED versus $\u03bb$). Apart from Hubble Space Telescope (HST) and JWST-NIRCam (Near-infrared camera) photometry for these galaxies, there are JWST-NIRSpec (Near-infrared spectrograph) spectra for 13 galaxies and mid-infrared photometry (mostly JWST-MIRI) for 15 of them. Spectroscopical analyses included Balmer emission lines, Balmer + 4000 angstroms breaks or CaII lines. Spectral energy distribution (SED) fitting with photometry include old and young stellar populations, emission lines associated to HII regions, AGN, interstellar dust extinction and intergalactic extinction from neutral hydrogen. By adopting realistic extinction curves and taking into account the V-shaped SED and low emission at near infrared at rest, the analyses show that AGN contribution in these galaxies ('little red dots' most of them) should be small on average in the reddest wavelengths, though important for few of the 31 galaxies. Average age of the 31 galaxies: $0.61\\pm 0.31$(95% CL) Gyr, while the average age of the $\u039b$CDM universe is 0.70 Gyr. This corresponds to a formation epoch $z_{ form.}>11.2$(97.5% CL). Reddest galaxies present largest ages. One of these very red galaxies gets an age incompatible to be younger than the age of the Universe within $>4.7\u03c3$. TP-AGB effect cannot explain this tension. None the less, there may be other uncertainties in the models, so this tension is a provisional result and further research is needed to confirm it."
+  },
+  {
+    "title": "From Noisy News Sentiment Scores to Interpretable Temporal Dynamics: A Bayesian State-Space Model",
+    "url": "http://arxiv.org/abs/2601.16769v1",
+    "arxiv_id": "2601.16769v1",
+    "authors": [
+      "Ian Carb\u00f3 Casals"
+    ],
+    "published": "2026-01-23T14:14:22+00:00",
+    "summary": "Text-based sentiment indicators are widely used to monitor public and market mood, but weekly sentiment series are noisy by construction. A main reason is that the amount of relevant news changes over time and across categories. As a result, some weekly averages are based on many articles, while others rely on only a few. Existing approaches do not explicitly account for changes in data availability when measuring uncertainty. We present a Bayesian state-space framework that turns aggregated news sentiment into a smoothed time series with uncertainty. The model treats each weekly sentiment value as a noisy measurement of an underlying sentiment process, with observation uncertainty scaled by the effective information weight $n_{tj}$: when coverage is high, latent sentiment is anchored more strongly to the observed aggregate; when coverage is low, inference relies more on the latent dynamics and uncertainty increases. Using news data grouped into multiple categories, we find broadly similar latent dynamics across categories, while larger differences appear in observation noise. The framework is designed for descriptive monitoring and can be extended to other text sources where information availability varies over time."
+  },
+  {
+    "title": "Do LLM hallucination detectors suffer from low-resource effect?",
+    "url": "http://arxiv.org/abs/2601.16766v1",
+    "arxiv_id": "2601.16766v1",
+    "authors": [
+      "Debtanu Datta",
+      "Mohan Kishore Chilukuri",
+      "Yash Kumar",
+      "Saptarshi Ghosh",
+      "Muhammad Bilal Zafar"
+    ],
+    "published": "2026-01-23T14:13:18+00:00",
+    "summary": "LLMs, while outperforming humans in a wide range of tasks, can still fail in unanticipated ways. We focus on two pervasive failure modes: (i) hallucinations, where models produce incorrect information about the world, and (ii) the low-resource effect, where the models show impressive performance in high-resource languages like English but the performance degrades significantly in low-resource languages like Bengali. We study the intersection of these issues and ask: do hallucination detectors suffer from the low-resource effect? We conduct experiments on five tasks across three domains (factual recall, STEM, and Humanities). Experiments with four LLMs and three hallucination detectors reveal a curious finding: As expected, the task accuracies in low-resource languages experience large drops (compared to English). However, the drop in detectors' accuracy is often several times smaller than the drop in task accuracy. Our findings suggest that even in low-resource languages, the internal mechanisms of LLMs might encode signals about their uncertainty. Further, the detectors are robust within language (even for non-English) and in multilingual setups, but not in cross-lingual settings without in-language supervision."
+  },
+  {
     "title": "Cyclic sunspot activity during the first millennium CE as reconstructed from radiocarbon",
     "url": "http://arxiv.org/abs/2601.16203v1",
     "arxiv_id": "2601.16203v1",
