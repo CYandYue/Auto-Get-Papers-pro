@@ -1,5 +1,136 @@
 [
   {
+    "title": "Banana Split: Improved Cosmological Constraints with Two Light-Curve-Shape and Color Populations Using Union3.1+UNITY1.8",
+    "url": "http://arxiv.org/abs/2601.19854v1",
+    "arxiv_id": "2601.19854v1",
+    "authors": [
+      "David Rubin",
+      "Taylor Hoyt",
+      "Greg Aldering",
+      "Saul Perlmutter"
+    ],
+    "published": "2026-01-27T18:08:29+00:00",
+    "summary": "SNe Ia have been used to provide key constraints on the equation-of-state parameter of dark energy. They are generally standardized under the assumption that they belong to a single population, with luminosities standardized in a continuous (roughly linear) fashion using the observed light-curve timescale. We update the Union3+UNITY1.5 SN cosmology analysis in light of increasing evidence for at least two core populations of SNe Ia and apply this \"UNITY1.8\" model to the updated \"Union3.1\" compilation (Hoyt et al. 2026). In addition to finding evidence for two different light-curve-shape (x1) distributions, we also find that the color distributions are different, that the light-curve-shape/magnitude standardization relations are different, and that these populations have different distributions across host-galaxy stellar mass and redshift. Importantly, we find that the residual host-mass luminosity step found in prior SN Ia cosmology analyses is now consistent with zero for unreddened SNe. We report a significantly tightened constraint on the split in the red-color standardization between SNe in low- and high-mass galaxies. We find that the estimated uncertainties shrink on cosmological parameters when fitting the same SNe assuming two modes versus one mode. We confirm similar trends in simulated data when running both versions of UNITY on the same (two-mode) simulations. For a flat LambdaCDM cosmology, we find Om = 0.334+0.025-0.024 from SNe alone; for a flat w0-wa cosmology, we find w0 = -0.760+0.084-0.082 and wa = -0.79+0.28-0.30 when including SNe, BAO, and CMB. In the 2D w0-wa plane, adding SNe to BAO and compressed CMB increases the tension with flat LambdaCDM from 2.1 sigma to 2.6 sigma."
+  },
+  {
+    "title": "Graphical X Splatting (GraphiXS): A Graphical Model for 4D Gaussian Splatting under Uncertainty",
+    "url": "http://arxiv.org/abs/2601.19843v1",
+    "arxiv_id": "2601.19843v1",
+    "authors": [
+      "Doga Yilmaz",
+      "Jialin Zhu",
+      "Deshan Gong",
+      "He Wang"
+    ],
+    "published": "2026-01-27T17:50:07+00:00",
+    "summary": "We propose a new framework to systematically incorporate data uncertainty in Gaussian Splatting. Being the new paradigm of neural rendering, Gaussian Splatting has been investigated in many applications, with the main effort in extending its representation, improving its optimization process, and accelerating its speed. However, one orthogonal, much needed, but under-explored area is data uncertainty. In standard 4D Gaussian Splatting, data uncertainty can manifest as view sparsity, missing frames, camera asynchronization, etc. So far, there has been little research to holistically incorporating various types of data uncertainty under a single framework. To this end, we propose Graphical X Splatting, or GraphiXS, a new probabilistic framework that considers multiple types of data uncertainty, aiming for a fundamental augmentation of the current 4D Gaussian Splatting paradigm into a probabilistic setting. GraphiXS is general and can be instantiated with a range of primitives, e.g. Gaussians, Student's-t. Furthermore, GraphiXS can be used to `upgrade' existing methods to accommodate data uncertainty. Through exhaustive evaluation and comparison, we demonstrate that GraphiXS can systematically model various uncertainties in data, outperform existing methods in many settings where data are missing or polluted in space and time, and therefore is a major generalization of the current 4D Gaussian Splatting research."
+  },
+  {
+    "title": "Information-Theoretic Detection of Bimanual Interactions for Dual-Arm Robot Plan Generation",
+    "url": "http://arxiv.org/abs/2601.19832v1",
+    "arxiv_id": "2601.19832v1",
+    "authors": [
+      "Elena Merlo",
+      "Marta Lagomarsino",
+      "Arash Ajoudani"
+    ],
+    "published": "2026-01-27T17:38:58+00:00",
+    "summary": "Programming by demonstration is a strategy to simplify the robot programming process for non-experts via human demonstrations. However, its adoption for bimanual tasks is an underexplored problem due to the complexity of hand coordination, which also hinders data recording. This paper presents a novel one-shot method for processing a single RGB video of a bimanual task demonstration to generate an execution plan for a dual-arm robotic system. To detect hand coordination policies, we apply Shannon's information theory to analyze the information flow between scene elements and leverage scene graph properties. The generated plan is a modular behavior tree that assumes different structures based on the desired arms coordination. We validated the effectiveness of this framework through multiple subject video demonstrations, which we collected and made open-source, and exploiting data from an external, publicly available dataset. Comparisons with existing methods revealed significant improvements in generating a centralized execution plan for coordinating two-arm systems."
+  },
+  {
+    "title": "An Interpretable Recommendation Model for Psychometric Data, With an Application to Gerontological Primary Care",
+    "url": "http://arxiv.org/abs/2601.19824v1",
+    "arxiv_id": "2601.19824v1",
+    "authors": [
+      "Andre Paulino de Lima",
+      "Paula Castro",
+      "Suzana Carvalho Vaz de Andrade",
+      "Rosa Maria Marcucci",
+      "Ruth Caldeira de Melo",
+      "Marcelo Garcia Manzato"
+    ],
+    "published": "2026-01-27T17:29:21+00:00",
+    "summary": "There are challenges that must be overcome to make recommender systems useful in healthcare settings. The reasons are varied: the lack of publicly available clinical data, the difficulty that users may have in understanding the reasons why a recommendation was made, the risks that may be involved in following that recommendation, and the uncertainty about its effectiveness. In this work, we address these challenges with a recommendation model that leverages the structure of psychometric data to provide visual explanations that are faithful to the model and interpretable by care professionals. We focus on a narrow healthcare niche, gerontological primary care, to show that the proposed recommendation model can assist the attending professional in the creation of personalised care plans. We report results of a comparative offline performance evaluation of the proposed model on healthcare datasets that were collected by research partners in Brazil, as well as the results of a user study that evaluates the interpretability of the visual explanations the model generates. The results suggest that the proposed model can advance the application of recommender systems in this healthcare niche, which is expected to grow in demand , opportunities, and information technology needs as demographic changes become more pronounced."
+  },
+  {
+    "title": "Component-Aware Pruning Framework for Neural Network Controllers via Gradient-Based Importance Estimation",
+    "url": "http://arxiv.org/abs/2601.19794v1",
+    "arxiv_id": "2601.19794v1",
+    "authors": [
+      "Ganesh Sundaram",
+      "Jonas Ulmen",
+      "Daniel G\u00f6rges"
+    ],
+    "published": "2026-01-27T16:53:19+00:00",
+    "summary": "The transition from monolithic to multi-component neural architectures in advanced neural network controllers poses substantial challenges due to the high computational complexity of the latter. Conventional model compression techniques for complexity reduction, such as structured pruning based on norm-based metrics to estimate the relative importance of distinct parameter groups, often fail to capture functional significance. This paper introduces a component-aware pruning framework that utilizes gradient information to compute three distinct importance metrics during training: Gradient Accumulation, Fisher Information, and Bayesian Uncertainty. Experimental results with an autoencoder and a TD-MPC agent demonstrate that the proposed framework reveals critical structural dependencies and dynamic shifts in importance that static heuristics often miss, supporting more informed compression decisions."
+  },
+  {
+    "title": "Strong Reasoning Isn't Enough: Evaluating Evidence Elicitation in Interactive Diagnosis",
+    "url": "http://arxiv.org/abs/2601.19773v1",
+    "arxiv_id": "2601.19773v1",
+    "authors": [
+      "Zhuohan Long",
+      "Zhijie Bao",
+      "Zhongyu Wei"
+    ],
+    "published": "2026-01-27T16:36:35+00:00",
+    "summary": "Interactive medical consultation requires an agent to proactively elicit missing clinical evidence under uncertainty. Yet existing evaluations largely remain static or outcome-centric, neglecting the evidence-gathering process. In this work, we propose an interactive evaluation framework that explicitly models the consultation process using a simulated patient and a \\rev{simulated reporter} grounded in atomic evidences. Based on this representation, we introduce Information Coverage Rate (ICR) to quantify how completely an agent uncovers necessary evidence during interaction. To support systematic study, we build EviMed, an evidence-based benchmark spanning diverse conditions from common complaints to rare diseases, and evaluate 10 models with varying reasoning abilities. We find that strong diagnostic reasoning does not guarantee effective information collection, and this insufficiency acts as a primary bottleneck limiting performance in interactive settings. To address this, we propose REFINE, a strategy that leverages diagnostic verification to guide the agent in proactively resolving uncertainties. Extensive experiments demonstrate that REFINE consistently outperforms baselines across diverse datasets and facilitates effective model collaboration, enabling smaller agents to achieve superior performance under strong reasoning supervision. Our code can be found at https://github.com/NanshineLoong/EID-Benchmark ."
+  },
+  {
+    "title": "A Multiobjective Water Allocation Model for Economic Efficiency and Environmental Sustainability: Case Study",
+    "url": "http://arxiv.org/abs/2601.19746v1",
+    "arxiv_id": "2601.19746v1",
+    "authors": [
+      "Nahid Sultana",
+      "M M Rizvi",
+      "Indu Wadhawan"
+    ],
+    "published": "2026-01-27T16:08:49+00:00",
+    "summary": "The management of irrigation water systems has become increasingly complex due to competing demands for agricultural production, groundwater sustainability, and environmental flow requirements, particularly under hydrologic variability and climate uncertainty. Addressing these challenges requires optimization frameworks that can jointly determine optimal crop allocation, groundwater pumping, and environmental flow releases while maintaining economic and hydrological feasibility. However, existing hydro-economic models, including the widely used Lewis and Randall formulation, may overestimate net benefits by allowing infeasible negative pumping and surface water allocations. We extend the Lewis and Randall framework by reformulating groundwater pumping and surface water use as non-negative, demand-driven decision variables and by explicitly incorporating environmental flow and canal capacity constraints. Three models are developed to maximize economic benefit, minimize environmental deficits, and a multiobjective model that evaluates the trade-offs between these two objectives. An illustrative test case examining optimal crop area allocation and environmental flow management across dry, average, and wet years, using data from the Rajshahi Barind Tract in northwestern Bangladesh, is presented. The results show that the proposed formulation produces economically and hydrologically consistent solutions, identifying optimal strategies when either net benefits or environmental protection is prioritized, as well as Pareto-optimal trade-offs when both objectives are considered together. These findings provide practical insights for balancing farm income, groundwater sustainability, and ecological protection, offering a robust decision-support tool for irrigation management in water-limited river basins."
+  },
+  {
+    "title": "Normalized Fractional Order Entropy-Based Decision-Making Models under Risk",
+    "url": "http://arxiv.org/abs/2601.19715v1",
+    "arxiv_id": "2601.19715v1",
+    "authors": [
+      "Poulami Paul",
+      "Chanchal Kundu"
+    ],
+    "published": "2026-01-27T15:37:20+00:00",
+    "summary": "Constructing efficient portfolios requires balancing expected returns with risk through optimal stock selection, while accounting for investor preferences. In a recent work by Paul and Kundu (2026), the fractional-order entropy due to Ubriaco was introduced as an uncertainty measure to capture varying investor attitudes toward risk. Building on this foundation, we introduce a novel normalized fractional order entropy aligned with investors' risk preferences that combines normalized fractional entropy with expected utility and variance. Risk sensitivity is modeled through the fractional parameter, interpolating between conservative or risk aversion and adventurous or high risk tolerance attitudes. Furthermore, the robustness and statistical significance of the fractional order entropy-based risk measure, termed normalized expected utility-fractional entropy (NEU-FE) and normalized expected utility-fractional entropy-variance (NEU-FEV) risk measures are explained with the help of machine learning tools, including Random forest, Ridge regression, Lasso Regression and artificial neural networks by using Indian stock market (NIFTY50). The results confirm that the proposed decision models support investors in making high-quality portfolio investments."
+  },
+  {
+    "title": "Differentiable Semantic ID for Generative Recommendation",
+    "url": "http://arxiv.org/abs/2601.19711v1",
+    "arxiv_id": "2601.19711v1",
+    "authors": [
+      "Junchen Fu",
+      "Xuri Ge",
+      "Alexandros Karatzoglou",
+      "Ioannis Arapakis",
+      "Suzan Verberne",
+      "Joemon M. Jose",
+      "Zhaochun Ren"
+    ],
+    "published": "2026-01-27T15:34:11+00:00",
+    "summary": "Generative recommendation provides a novel paradigm in which each item is represented by a discrete semantic ID (SID) learned from rich content. Most existing methods treat SIDs as predefined and train recommenders under static indexing. In practice, SIDs are typically optimized only for content reconstruction rather than recommendation accuracy. This leads to an objective mismatch: the system optimizes an indexing loss to learn the SID and a recommendation loss for interaction prediction, but because the tokenizer is trained independently, the recommendation loss cannot update it. A natural approach is to make semantic indexing differentiable so that recommendation gradients can directly influence SID learning, but this often causes codebook collapse, where only a few codes are used. We attribute this issue to early deterministic assignments that limit codebook exploration, resulting in imbalance and unstable optimization.   In this paper, we propose DIGER (Differentiable Semantic ID for Generative Recommendation), a first step toward effective differentiable semantic IDs for generative recommendation. DIGER introduces Gumbel noise to explicitly encourage early-stage exploration over codes, mitigating codebook collapse and improving code utilization. To balance exploration and convergence, we further design two uncertainty decay strategies that gradually reduce the Gumbel noise, enabling a smooth transition from early exploration to exploitation of learned SIDs. Extensive experiments on multiple public datasets demonstrate consistent improvements from differentiable semantic IDs. These results confirm the effectiveness of aligning indexing and recommendation objectives through differentiable SIDs and highlight differentiable semantic indexing as a promising research direction."
+  },
+  {
+    "title": "Joint Power Allocation and Antenna Placement for Pinching-Antenna Systems under User Location Uncertainty",
+    "url": "http://arxiv.org/abs/2601.19704v1",
+    "arxiv_id": "2601.19704v1",
+    "authors": [
+      "Hao Feng",
+      "Ming Zeng",
+      "Xingwang Li",
+      "Wenwu Xie",
+      "Nian Xia",
+      "Octavia A. Dobre"
+    ],
+    "published": "2026-01-27T15:29:33+00:00",
+    "summary": "Pinching antenna systems have attracted much attention recently owing to its capability to maintain reliable line-of-sight (LoS) communication in high-frequency bands. By guiding signals through a waveguide and emitting them via a movable pinching antenna, these systems enable dynamic control of signal propagation and spatial adaptability. However, their performance heavily depends on effective resource allocation-encompassing power, bandwidth, and antenna positioning-which becomes challenging under imperfect channel state information (CSI) and user localization uncertainty. Existing studies largely assume perfect CSI or ideal user positioning, while our prior work considered uniform localization errors, an oversimplified assumption. In this paper, we develop a robust resource allocation framework for multiuser downlink pinching antenna systems under Gaussian-distributed localization uncertainty, which more accurately models real-world positioning errors. An energy efficiency (EE) maximization problem is formulated subject to probabilistic outage constraints, and an analytical power allocation strategy is derived under given antenna positions. On this basis, the heuristic particle swarm optimization (PSO) algorithm is employed to identify the antenna position that achieves the global EE configuration. Simulation results illustrate that the proposed scheme greatly enhances both EE and system reliability compared with fixed-antenna benchmark, validating its effectiveness for practical high-frequency wireless deployments."
+  },
+  {
     "title": "A Novel Lensed Point Source Modeling Pipeline using GIGA-Lens with Application to SN Zwicky and SN iPTF16geu",
     "url": "http://arxiv.org/abs/2601.18787v1",
     "arxiv_id": "2601.18787v1",
