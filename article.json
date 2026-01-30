@@ -1,5 +1,139 @@
 [
   {
+    "title": "Reasoning While Asking: Transforming Reasoning Large Language Models from Passive Solvers to Proactive Inquirers",
+    "url": "http://arxiv.org/abs/2601.22139v1",
+    "arxiv_id": "2601.22139v1",
+    "authors": [
+      "Xin Chen",
+      "Feng Jiang",
+      "Yiqian Zhang",
+      "Hardy Chen",
+      "Shuo Yan",
+      "Wenya Xie",
+      "Min Yang",
+      "Shujian Huang"
+    ],
+    "published": "2026-01-29T18:56:12+00:00",
+    "summary": "Reasoning-oriented Large Language Models (LLMs) have achieved remarkable progress with Chain-of-Thought (CoT) prompting, yet they remain fundamentally limited by a \\emph{blind self-thinking} paradigm: performing extensive internal reasoning even when critical information is missing or ambiguous. We propose Proactive Interactive Reasoning (PIR), a new reasoning paradigm that transforms LLMs from passive solvers into proactive inquirers that interleave reasoning with clarification. Unlike existing search- or tool-based frameworks that primarily address knowledge uncertainty by querying external environments, PIR targets premise- and intent-level uncertainty through direct interaction with the user. PIR is implemented via two core components: (1) an uncertainty-aware supervised fine-tuning procedure that equips models with interactive reasoning capability, and (2) a user-simulator-based policy optimization framework driven by a composite reward that aligns model behavior with user intent. Extensive experiments on mathematical reasoning, code generation, and document editing demonstrate that PIR consistently outperforms strong baselines, achieving up to 32.70\\% higher accuracy, 22.90\\% higher pass rate, and 41.36 BLEU improvement, while reducing nearly half of the reasoning computation and unnecessary interaction turns. Further reliability evaluations on factual knowledge, question answering, and missing-premise scenarios confirm the strong generalization and robustness of PIR. Model and code are publicly available at: \\href{https://github.com/SUAT-AIRI/Proactive-Interactive-R1}"
+  },
+  {
+    "title": "SMOG: Scalable Meta-Learning for Multi-Objective Bayesian Optimization",
+    "url": "http://arxiv.org/abs/2601.22131v1",
+    "arxiv_id": "2601.22131v1",
+    "authors": [
+      "Leonard Papenmeier",
+      "Petru Tighineanu"
+    ],
+    "published": "2026-01-29T18:51:58+00:00",
+    "summary": "Multi-objective optimization aims to solve problems with competing objectives, often with only black-box access to a problem and a limited budget of measurements. In many applications, historical data from related optimization tasks is available, creating an opportunity for meta-learning to accelerate the optimization. Bayesian optimization, as a promising technique for black-box optimization, has been extended to meta-learning and multi-objective optimization independently, but methods that simultaneously address both settings - meta-learned priors for multi-objective Bayesian optimization - remain largely unexplored. We propose SMOG, a scalable and modular meta-learning model based on a multi-output Gaussian process that explicitly learns correlations between objectives. SMOG builds a structured joint Gaussian process prior across meta- and target tasks and, after conditioning on metadata, yields a closed-form target-task prior augmented by a flexible residual multi-output kernel. This construction propagates metadata uncertainty into the target surrogate in a principled way. SMOG supports hierarchical, parallel training: meta-task Gaussian processes are fit once and then cached, achieving linear scaling with the number of meta-tasks. The resulting surrogate integrates seamlessly with standard multi-objective Bayesian optimization acquisition functions."
+  },
+  {
+    "title": "Making Foundation Models Probabilistic via Singular Value Ensembles",
+    "url": "http://arxiv.org/abs/2601.22068v1",
+    "arxiv_id": "2601.22068v1",
+    "authors": [
+      "Mehmet Ozgur Turkoglu",
+      "Dominik J. M\u00fchlematter",
+      "Alexander Becker",
+      "Konrad Schindler",
+      "Helge Aasen"
+    ],
+    "published": "2026-01-29T18:07:18+00:00",
+    "summary": "Foundation models have become a dominant paradigm in machine learning, achieving remarkable performance across diverse tasks through large-scale pretraining. However, these models often yield overconfident, uncalibrated predictions. The standard approach to quantifying epistemic uncertainty, training an ensemble of independent models, incurs prohibitive computational costs that scale linearly with ensemble size, making it impractical for large foundation models. We propose Singular Value Ensemble (SVE), a parameter-efficient implicit ensemble method that builds on a simple, but powerful core assumption: namely, that the singular vectors of the weight matrices constitute meaningful subspaces of the model's knowledge. Pretrained foundation models encode rich, transferable information in their weight matrices. If the singular vectors are indeed meaningful (orthogonal) \"knowledge directions\". To obtain a model ensemble, we modulate only how strongly each direction contributes to the output. Rather than learning entirely new parameters, we freeze the singular vectors and only train per-member singular values that rescale the contribution of each direction in that shared knowledge basis. Ensemble diversity emerges naturally as stochastic initialization and random sampling of mini-batches during joint training cause different members to converge to different combinations of the same underlying knowledge. SVE achieves uncertainty quantification comparable to explicit deep ensembles while increasing the parameter count of the base model by less than 1%, making principled uncertainty estimation accessible in resource-constrained settings. We validate SVE on NLP and vision tasks with various different backbones and show that it improves calibration while maintaining predictive accuracy."
+  },
+  {
+    "title": "Learning to Communicate Across Modalities: Perceptual Heterogeneity in Multi-Agent Systems",
+    "url": "http://arxiv.org/abs/2601.22041v1",
+    "arxiv_id": "2601.22041v1",
+    "authors": [
+      "Naomi Pitzer",
+      "Daniela Mihai"
+    ],
+    "published": "2026-01-29T17:45:41+00:00",
+    "summary": "Emergent communication offers insight into how agents develop shared structured representations, yet most research assumes homogeneous modalities or aligned representational spaces, overlooking the perceptual heterogeneity of real-world settings. We study a heterogeneous multi-step binary communication game where agents differ in modality and lack perceptual grounding. Despite perceptual misalignment, multimodal systems converge to class-consistent messages grounded in perceptual input. Unimodal systems communicate more efficiently, using fewer bits and achieving lower classification entropy, while multimodal agents require greater information exchange and exhibit higher uncertainty. Bit perturbation experiments provide strong evidence that meaning is encoded in a distributional rather than compositional manner, as each bit's contribution depends on its surrounding pattern. Finally, interoperability analyses show that systems trained in different perceptual worlds fail to directly communicate, but limited fine-tuning enables successful cross-system communication. This work positions emergent communication as a framework for studying how agents adapt and transfer representations across heterogeneous modalities, opening new directions for both theory and experimentation."
+  },
+  {
+    "title": "CAR-bench: Evaluating the Consistency and Limit-Awareness of LLM Agents under Real-World Uncertainty",
+    "url": "http://arxiv.org/abs/2601.22027v1",
+    "arxiv_id": "2601.22027v1",
+    "authors": [
+      "Johannes Kirmayr",
+      "Lukas Stappen",
+      "Elisabeth Andr\u00e9"
+    ],
+    "published": "2026-01-29T17:33:42+00:00",
+    "summary": "Existing benchmarks for Large Language Model (LLM) agents focus on task completion under idealistic settings but overlook reliability in real-world, user-facing applications. In domains, such as in-car voice assistants, users often issue incomplete or ambiguous requests, creating intrinsic uncertainty that agents must manage through dialogue, tool use, and policy adherence. We introduce CAR-bench, a benchmark for evaluating consistency, uncertainty handling, and capability awareness in multi-turn, tool-using LLM agents in an in-car assistant domain. The environment features an LLM-simulated user, domain policies, and 58 interconnected tools spanning navigation, productivity, charging, and vehicle control. Beyond standard task completion, CAR-bench introduces Hallucination tasks that test agents' limit-awareness under missing tools or information, and Disambiguation tasks that require resolving uncertainty through clarification or internal information gathering. Baseline results reveal large gaps between occasional and consistent success on all task types. Even frontier reasoning LLMs achieve less than 50% consistent pass rate on Disambiguation tasks due to premature actions, and frequently violate policies or fabricate information to satisfy user requests in Hallucination tasks, underscoring the need for more reliable and self-aware LLM agents in real-world settings."
+  },
+  {
+    "title": "Optimal Placement of Movable Antennas for Angle-of-Departure Estimation Under User Location Uncertainty",
+    "url": "http://arxiv.org/abs/2601.21997v1",
+    "arxiv_id": "2601.21997v1",
+    "authors": [
+      "Luc\u00eda Pallar\u00e9s-Rodr\u00edguez",
+      "Angelo Coluccia",
+      "Alessio Fascista",
+      "Musa Furkan Keskin",
+      "Henk Wymeersch",
+      "Jos\u00e9 A. L\u00f3pez-Salcedo",
+      "Gonzalo Seco-Granados"
+    ],
+    "published": "2026-01-29T17:07:22+00:00",
+    "summary": "Movable antennas (MA) have gained significant attention in recent years to overcome the limitations of extremely large antenna arrays in terms of cost and power consumption. In this paper, we investigate the use of MA arrays at the base station (BS) for angle-of-departure (AoD) estimation under uncertainty in the user equipment (UE) location. Specifically, we (i) derive the theoretical performance limits through the Cram\u00e9r-Rao bound (CRB) and (ii) optimize the antenna positions to ensure robust performance within the UE's uncertainty region. Numerical results show that dynamically optimizing antenna placement by explicitly considering the uncertainty region yields superior performance compared to fixed arrays, demonstrating the ability of MA systems to adapt and outperform conventional arrays."
+  },
+  {
+    "title": "Liquid Interfaces: A Dynamic Ontology for the Interoperability of Autonomous Systems",
+    "url": "http://arxiv.org/abs/2601.21993v1",
+    "arxiv_id": "2601.21993v1",
+    "authors": [
+      "Dhiogo de S\u00e1",
+      "Carlos Schmiedel",
+      "Carlos Pereira Lopes"
+    ],
+    "published": "2026-01-29T17:04:13+00:00",
+    "summary": "Contemporary software architectures struggle to support autonomous agents whose reasoning is adaptive, probabilistic, and context-dependent, while system integration remains dominated by static interfaces and deterministic contracts. This paper introduces Liquid Interfaces, a coordination paradigm in which interfaces are not persistent technical artifacts, but ephemeral relational events that emerge through intention articulation and semantic negotiation at runtime.We formalize this model and present the Liquid Interface Protocol (LIP),which governs intention-driven interaction, negotiated execution, and enforce ephemerality under semantic uncertainty. We further discuss the governance implications of this approach and describe a reference architecture that demonstrates practical feasibility. Liquid Interfaces provide a principled foundation for adaptive coordination in agent-based systems"
+  },
+  {
+    "title": "Generalized Information Gathering Under Dynamics Uncertainty",
+    "url": "http://arxiv.org/abs/2601.21988v1",
+    "arxiv_id": "2601.21988v1",
+    "authors": [
+      "Fernando Palafox",
+      "Jingqi Li",
+      "Jesse Milzman",
+      "David Fridovich-Keil"
+    ],
+    "published": "2026-01-29T17:00:35+00:00",
+    "summary": "An agent operating in an unknown dynamical system must learn its dynamics from observations. Active information gathering accelerates this learning, but existing methods derive bespoke costs for specific modeling choices: dynamics models, belief update procedures, observation models, and planners. We present a unifying framework that decouples these choices from the information-gathering cost by explicitly exposing the causal dependencies between parameters, beliefs, and controls. Using this framework, we derive a general information-gathering cost based on Massey's directed information that assumes only Markov dynamics with additive noise and is otherwise agnostic to modeling choices. We prove that the mutual information cost used in existing literature is a special case of our cost. Then, we leverage our framework to establish an explicit connection between the mutual information cost and information gain in linearized Bayesian estimation, thereby providing theoretical justification for mutual information-based active learning approaches. Finally, we illustrate the practical utility of our framework through experiments spanning linear, nonlinear, and multi-agent systems."
+  },
+  {
+    "title": "Stellar Populations in the Extreme Outer Halo of the Spiral Galaxy M96",
+    "url": "http://arxiv.org/abs/2601.21987v1",
+    "arxiv_id": "2601.21987v1",
+    "authors": [
+      "J. Christopher Mihos",
+      "Patrick R. Durrell",
+      "Brian Malkan",
+      "Aaron E. Watkins"
+    ],
+    "published": "2026-01-29T17:00:32+00:00",
+    "summary": "We use deep Hubble Space Telescope imaging to study stellar populations in the outer halo of the spiral galaxy M96, located in the dynamically active Leo I galaxy group. Our imaging targets two fields at a projected distance of 50 kpc from the galaxy's center, with a 50% photometric completeness limit of F814W = 28.0, nearly two magnitudes below the tip of the red giant branch. In both fields we find a clear detection of red giant stars in M96's halo, with a space density that corresponds to an equivalent broadband surface brightness of $\u03bc_V \\approx $ 31.7 mag arcsec$^{-2}$. We find little evidence for any difference in the spatial density or color of the RGB stars in the two fields. Using isochrone matching we derive a median metallicity for the red giants of [M/H] = -1.36 with an interquartile spread of $\\pm$0.75 dex. Adopting a power-law radial density profile, we also derive a total halo mass of $M_h = 7.8^{+17.4}_{-4.9}\\times10^9$ M$_\\odot$, implying a stellar halo mass fraction of $M_{*,halo}/M_{*,tot} = 15^{+33}_{-9}$%, on the high end for spiral galaxies, but with significant uncertainty. Finally, we find that M96 appears offset from the stellar halo mass-metallicity relationship for spirals, with a halo that is distinctly metal-poor for its halo mass. While a variety of systematic effects could have conspired to drive M96 off this relationship, if confirmed our results may argue for a markedly different accretion history for M96 compared to other spirals in the nearby universe."
+  },
+  {
+    "title": "Spectroscopic Variability of the Broad H$\u03b2$ Emission Line in Sloan Digital Sky Survey Quasars",
+    "url": "http://arxiv.org/abs/2601.21974v1",
+    "arxiv_id": "2601.21974v1",
+    "authors": [
+      "Collin M. Dabbieri",
+      "Jessie C. Runnoe",
+      "Michael Eracleous",
+      "Mary E. Kaldor",
+      "Mary Ogborn",
+      "Niana N. Mohammed"
+    ],
+    "published": "2026-01-29T16:51:17+00:00",
+    "summary": "We present a catalog of broad H$\u03b2$ variability properties for all spectra of quasars with $z<0.8$ and at least two observations included in the Sloan Digital Sky Survey (SDSS) Data Release 16 quasar catalog. For each spectrum, we perform a spectral decomposition to isolate the broad H$\u03b2$ emission. We measure the luminosity, FWHM, equivalent width, centroid, and Pearson skewness coefficient of broad H$\u03b2$ and provide derived physical properties such as the single-epoch black hole mass and the bolometric luminosity. For each pair of spectra in the sample, we calculate the change in radial velocity of the centroid of broad H$\u03b2$ emission ($\u0394v_{rad}$) as well as other derived properties related to broad H$\u03b2$ shape variability. We use forward-modeling methods to estimate the uncertainty in our measurements and discuss an improved method for estimating the uncertainty in $\u0394v_{rad}$ in the case where a spectral decomposition is used to isolate the broad H$\u03b2$ emission. We find that $\u0394v_{rad}$ is not normally distributed and that the shape of the distribution depends on the interval between observations. We discuss the effect of the predominance of the Reverberation Mapping subsample in the sample of pairs of spectra in SDSS."
+  },
+  {
     "title": "Probabilistic Interpolation of Sagittarius A*'s Multi-Wavelength Light Curves Using Diffusion Models",
     "url": "http://arxiv.org/abs/2601.20863v1",
     "arxiv_id": "2601.20863v1",
