@@ -1,5 +1,156 @@
 [
   {
+    "title": "New explanations and inference for least angle regression",
+    "url": "http://arxiv.org/abs/2602.02491v1",
+    "arxiv_id": "2602.02491v1",
+    "authors": [
+      "Karl B. Gregory",
+      "Daniel J. Nordman"
+    ],
+    "published": "2026-02-02T18:59:39+00:00",
+    "summary": "Efron et al. (2004) introduced least angle regression (LAR) as an algorithm for linear predictions, intended as an alternative to forward selection with connections to penalized regression. However, LAR has remained somewhat of a \"black box,\" where some basic behavioral properties of LAR output are not well understood, including an appropriate termination point for the algorithm. We provide a novel framework for inference with LAR, which also allows LAR to be understood from new perspectives with several newly developed mathematical properties. The LAR algorithm at a data level can viewed as estimating a population counterpart \"path\" that organizes a response mean along regressor variables which are ordered according to a decreasing series of population \"correlation\" parameters; such parameters are shown to have meaningful interpretations for explaining variable contributions whereby zero correlations denote unimportant variables. In the output of LAR, estimates of all non-zero population correlations turn out to have independent normal distributions for use in inference, while estimates of zero-valued population correlations have a certain non-normal joint distribution. These properties help to provide a formal rule for stopping the LAR algorithm. While the standard bootstrap for regression can fail for LAR, a modified bootstrap provides a practical and formally justified tool for interpreting the entrance of variables and quantifying uncertainty in estimation. The LAR inference method is studied through simulation and illustrated with data examples."
+  },
+  {
+    "title": "RE-TRAC: REcursive TRAjectory Compression for Deep Search Agents",
+    "url": "http://arxiv.org/abs/2602.02486v1",
+    "arxiv_id": "2602.02486v1",
+    "authors": [
+      "Jialiang Zhu",
+      "Gongrui Zhang",
+      "Xiaolong Ma",
+      "Lin Xu",
+      "Miaosen Zhang",
+      "Ruiqi Yang",
+      "Song Wang",
+      "Kai Qiu",
+      "Zhirong Wu",
+      "Qi Dai",
+      "Ruichun Ma",
+      "Bei Liu",
+      "Yifan Yang",
+      "Chong Luo",
+      "Zhengyuan Yang",
+      "Linjie Li",
+      "Lijuan Wang",
+      "Weizhu Chen",
+      "Xin Geng",
+      "Baining Guo"
+    ],
+    "published": "2026-02-02T18:58:07+00:00",
+    "summary": "LLM-based deep research agents are largely built on the ReAct framework. This linear design makes it difficult to revisit earlier states, branch into alternative search directions, or maintain global awareness under long contexts, often leading to local optima, redundant exploration, and inefficient search. We propose Re-TRAC, an agentic framework that performs cross-trajectory exploration by generating a structured state representation after each trajectory to summarize evidence, uncertainties, failures, and future plans, and conditioning subsequent trajectories on this state representation. This enables iterative reflection and globally informed planning, reframing research as a progressive process. Empirical results show that Re-TRAC consistently outperforms ReAct by 15-20% on BrowseComp with frontier LLMs. For smaller models, we introduce Re-TRAC-aware supervised fine-tuning, achieving state-of-the-art performance at comparable scales. Notably, Re-TRAC shows a monotonic reduction in tool calls and token usage across rounds, indicating progressively targeted exploration driven by cross-trajectory reflection rather than redundant search."
+  },
+  {
+    "title": "Relationship-Aware Hierarchical 3D Scene Graph for Task Reasoning",
+    "url": "http://arxiv.org/abs/2602.02456v1",
+    "arxiv_id": "2602.02456v1",
+    "authors": [
+      "Albert Gassol Puigjaner",
+      "Angelos Zacharia",
+      "Kostas Alexis"
+    ],
+    "published": "2026-02-02T18:47:02+00:00",
+    "summary": "Representing and understanding 3D environments in a structured manner is crucial for autonomous agents to navigate and reason about their surroundings. While traditional Simultaneous Localization and Mapping (SLAM) methods generate metric reconstructions and can be extended to metric-semantic mapping, they lack a higher level of abstraction and relational reasoning. To address this gap, 3D scene graphs have emerged as a powerful representation for capturing hierarchical structures and object relationships. In this work, we propose an enhanced hierarchical 3D scene graph that integrates open-vocabulary features across multiple abstraction levels and supports object-relational reasoning. Our approach leverages a Vision Language Model (VLM) to infer semantic relationships. Notably, we introduce a task reasoning module that combines Large Language Models (LLM) and a VLM to interpret the scene graph's semantic and relational information, enabling agents to reason about tasks and interact with their environment more intelligently. We validate our method by deploying it on a quadruped robot in multiple environments and tasks, highlighting its ability to reason about them."
+  },
+  {
+    "title": "Robust Safety-Critical Control of Networked SIR Dynamics",
+    "url": "http://arxiv.org/abs/2602.02452v1",
+    "arxiv_id": "2602.02452v1",
+    "authors": [
+      "Saba Samadi",
+      "Brooks A. Butler",
+      "Philip E. Par\u00e9"
+    ],
+    "published": "2026-02-02T18:43:54+00:00",
+    "summary": "We present a robust safety-critical control framework tailored for networked susceptible-infected-recovered (SIR) epidemic dynamics, leveraging control barrier functions (CBFs) and robust control barrier functions to address the challenges of epidemic spread and mitigation. In our networked SIR model, each node must keep its infection level below a critical threshold, despite dynamic interactions with neighboring nodes and inherent uncertainties in the epidemic parameters and measurement errors, to ensure public health safety. We first derive a CBF-based controller that guarantees infection thresholds are not exceeded in the nominal case. We enhance the framework to handle realistic epidemic scenarios under uncertainties by incorporating compensation terms that reinforce safety against uncertainties: an independent method with constant bounds for uniform uncertainty, and a novel approach that scales with the state to capture increased relative noise in early or suppressed outbreak stages. Simulation results on a networked SIR system illustrate that the nominal CBF controller maintains safety under low uncertainty, while the robust approaches provide formal safety guarantees under higher uncertainties; in particular, the novel method employs more conservative control efforts to provide larger safety margins, whereas the independent approach optimizes resource allocation by allowing infection levels to approach the boundaries in steady epidemic regimes."
+  },
+  {
+    "title": "Embedding Perturbation may Better Reflect the Uncertainty in LLM Reasoning",
+    "url": "http://arxiv.org/abs/2602.02427v1",
+    "arxiv_id": "2602.02427v1",
+    "authors": [
+      "Qihao Wen",
+      "Jiahao Wang",
+      "Yang Nan",
+      "Pengfei He",
+      "Ravi Tandon",
+      "Han Xu"
+    ],
+    "published": "2026-02-02T18:27:26+00:00",
+    "summary": "Large language Models (LLMs) have achieved significant breakthroughs across diverse domains; however, they can still produce unreliable or misleading outputs. For responsible LLM application, Uncertainty Quantification (UQ) techniques are used to estimate a model's uncertainty about its outputs, indicating the likelihood that those outputs may be problematic. For LLM reasoning tasks, it is essential to estimate the uncertainty not only for the final answer, but also for the intermediate steps of the reasoning, as this can enable more fine-grained and targeted interventions. In this study, we explore what UQ metrics better reflect the LLM's ``intermediate uncertainty''during reasoning. Our study reveals that an LLMs' incorrect reasoning steps tend to contain tokens which are highly sensitive to the perturbations on the preceding token embeddings. In this way, incorrect (uncertain) intermediate steps can be readily identified using this sensitivity score as guidance in practice. In our experiments, we show such perturbation-based metric achieves stronger uncertainty quantification performance compared with baseline methods such as token (generation) probability and token entropy. Besides, different from approaches that rely on multiple sampling, the perturbation-based metrics offer better simplicity and efficiency."
+  },
+  {
+    "title": "SafeGround: Know When to Trust GUI Grounding Models via Uncertainty Calibration",
+    "url": "http://arxiv.org/abs/2602.02419v1",
+    "arxiv_id": "2602.02419v1",
+    "authors": [
+      "Qingni Wang",
+      "Yue Fan",
+      "Xin Eric Wang"
+    ],
+    "published": "2026-02-02T18:22:45+00:00",
+    "summary": "Graphical User Interface (GUI) grounding aims to translate natural language instructions into executable screen coordinates, enabling automated GUI interaction. Nevertheless, incorrect grounding can result in costly, hard-to-reverse actions (e.g., erroneous payment approvals), raising concerns about model reliability. In this paper, we introduce SafeGround, an uncertainty-aware framework for GUI grounding models that enables risk-aware predictions through calibrations before testing. SafeGround leverages a distribution-aware uncertainty quantification method to capture the spatial dispersion of stochastic samples from outputs of any given model. Then, through the calibration process, SafeGround derives a test-time decision threshold with statistically guaranteed false discovery rate (FDR) control. We apply SafeGround on multiple GUI grounding models for the challenging ScreenSpot-Pro benchmark. Experimental results show that our uncertainty measure consistently outperforms existing baselines in distinguishing correct from incorrect predictions, while the calibrated threshold reliably enables rigorous risk control and potentials of substantial system-level accuracy improvements. Across multiple GUI grounding models, SafeGround improves system-level accuracy by up to 5.38\\% percentage points over Gemini-only inference."
+  },
+  {
+    "title": "Infinite-World: Scaling Interactive World Models to 1000-Frame Horizons via Pose-Free Hierarchical Memory",
+    "url": "http://arxiv.org/abs/2602.02393v1",
+    "arxiv_id": "2602.02393v1",
+    "authors": [
+      "Ruiqi Wu",
+      "Xuanhua He",
+      "Meng Cheng",
+      "Tianyu Yang",
+      "Yong Zhang",
+      "Zhuoliang Kang",
+      "Xunliang Cai",
+      "Xiaoming Wei",
+      "Chunle Guo",
+      "Chongyi Li",
+      "Ming-Ming Cheng"
+    ],
+    "published": "2026-02-02T17:52:56+00:00",
+    "summary": "We propose Infinite-World, a robust interactive world model capable of maintaining coherent visual memory over 1000+ frames in complex real-world environments. While existing world models can be efficiently optimized on synthetic data with perfect ground-truth, they lack an effective training paradigm for real-world videos due to noisy pose estimations and the scarcity of viewpoint revisits. To bridge this gap, we first introduce a Hierarchical Pose-free Memory Compressor (HPMC) that recursively distills historical latents into a fixed-budget representation. By jointly optimizing the compressor with the generative backbone, HPMC enables the model to autonomously anchor generations in the distant past with bounded computational cost, eliminating the need for explicit geometric priors. Second, we propose an Uncertainty-aware Action Labeling module that discretizes continuous motion into a tri-state logic. This strategy maximizes the utilization of raw video data while shielding the deterministic action space from being corrupted by noisy trajectories, ensuring robust action-response learning. Furthermore, guided by insights from a pilot toy study, we employ a Revisit-Dense Finetuning Strategy using a compact, 30-minute dataset to efficiently activate the model's long-range loop-closure capabilities. Extensive experiments, including objective metrics and user studies, demonstrate that Infinite-World achieves superior performance in visual quality, action controllability, and spatial consistency."
+  },
+  {
+    "title": "Self-Supervised Learning from Structural Invariance",
+    "url": "http://arxiv.org/abs/2602.02381v1",
+    "arxiv_id": "2602.02381v1",
+    "authors": [
+      "Yipeng Zhang",
+      "Hafez Ghaemi",
+      "Jungyoon Lee",
+      "Shahab Bakhtiari",
+      "Eilif B. Muller",
+      "Laurent Charlin"
+    ],
+    "published": "2026-02-02T17:44:44+00:00",
+    "summary": "Joint-embedding self-supervised learning (SSL), the key paradigm for unsupervised representation learning from visual data, learns from invariances between semantically-related data pairs. We study the one-to-many mapping problem in SSL, where each datum may be mapped to multiple valid targets. This arises when data pairs come from naturally occurring generative processes, e.g., successive video frames. We show that existing methods struggle to flexibly capture this conditional uncertainty. As a remedy, we introduce a latent variable to account for this uncertainty and derive a variational lower bound on the mutual information between paired embeddings. Our derivation yields a simple regularization term for standard SSL objectives. The resulting method, which we call AdaSSL, applies to both contrastive and distillation-based SSL objectives, and we empirically show its versatility in causal representation learning, fine-grained image understanding, and world modeling on videos."
+  },
+  {
+    "title": "From Sycophancy to Sensemaking: Premise Governance for Human-AI Decision Making",
+    "url": "http://arxiv.org/abs/2602.02378v1",
+    "arxiv_id": "2602.02378v1",
+    "authors": [
+      "Raunak Jain",
+      "Mudita Khurana",
+      "John Stephens",
+      "Srinivas Dharmasanam",
+      "Shankar Venkataraman"
+    ],
+    "published": "2026-02-02T17:42:54+00:00",
+    "summary": "As LLMs expand from assistance to decision support, a dangerous pattern emerges: fluent agreement without calibrated judgment. Low-friction assistants can become sycophantic, baking in implicit assumptions and pushing verification costs onto experts, while outcomes arrive too late to serve as reward signals. In deep-uncertainty decisions (where objectives are contested and reversals are costly), scaling fluent agreement amplifies poor commitments faster than it builds expertise. We argue reliable human-AI partnership requires a shift from answer generation to collaborative premise governance over a knowledge substrate, negotiating only what is decision-critical. A discrepancy-driven control loop operates over this substrate: detecting conflicts, localizing misalignment via typed discrepancies (teleological, epistemic, procedural), and triggering bounded negotiation through decision slices. Commitment gating blocks action on uncommitted load-bearing premises unless overridden under logged risk; value-gated challenge allocates probing under interaction cost. Trust then attaches to auditable premises and evidence standards, not conversational fluency. We illustrate with tutoring and propose falsifiable evaluation criteria."
+  },
+  {
+    "title": "Uncertainty-Aware Image Classification In Biomedical Imaging Using Spectral-normalized Neural Gaussian Processes",
+    "url": "http://arxiv.org/abs/2602.02370v1",
+    "arxiv_id": "2602.02370v1",
+    "authors": [
+      "Uma Meleti",
+      "Jeffrey J. Nirschl"
+    ],
+    "published": "2026-02-02T17:35:10+00:00",
+    "summary": "Accurate histopathologic interpretation is key for clinical decision-making; however, current deep learning models for digital pathology are often overconfident and poorly calibrated in out-of-distribution (OOD) settings, which limit trust and clinical adoption. Safety-critical medical imaging workflows benefit from intrinsic uncertainty-aware properties that can accurately reject OOD input. We implement the Spectral-normalized Neural Gaussian Process (SNGP), a set of lightweight modifications that apply spectral normalization and replace the final dense layer with a Gaussian process layer to improve single-model uncertainty estimation and OOD detection. We evaluate SNGP vs. deterministic and MonteCarlo dropout on six datasets across three biomedical classification tasks: white blood cells, amyloid plaques, and colorectal histopathology. SNGP has comparable in-distribution performance while significantly improving uncertainty estimation and OOD detection. Thus, SNGP or related models offer a useful framework for uncertainty-aware classification in digital pathology, supporting safe deployment and building trust with pathologists."
+  },
+  {
     "title": "End-to-end Optimization of Belief and Policy Learning in Shared Autonomy Paradigms",
     "url": "http://arxiv.org/abs/2601.23285v1",
     "arxiv_id": "2601.23285v1",
