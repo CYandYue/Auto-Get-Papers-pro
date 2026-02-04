@@ -1,5 +1,133 @@
 [
   {
+    "title": "Deep-Learning Denoising of Radio Observations for Ultra-High-Energy Cosmic-Ray Detection",
+    "url": "http://arxiv.org/abs/2602.03818v1",
+    "arxiv_id": "2602.03818v1",
+    "authors": [
+      "Zhisen Lai",
+      "Oscar Macias",
+      "Aur\u00e9lien Benoit-L\u00e9vy",
+      "Ars\u00e8ne Ferri\u00e8re",
+      "Mat\u00edas Tueros"
+    ],
+    "published": "2026-02-03T18:21:22+00:00",
+    "summary": "Ultra-high-energy cosmic rays (UHECRs) can be detected via the broadband radio pulses produced by their extensive air showers. The Giant Radio Array for Neutrino Detection (GRAND) is a planned radio observatory that aims to deploy autonomous antenna arrays over areas of order $\\sim 10^5\\,\\mathrm{km}^2$ to detect this emission. However, Galactic and instrumental radio backgrounds make the identification of low signal-to-noise ratio (SNR) pulses a central challenge. Here, we present a deep convolutional denoiser model that jointly processes each GRAND antenna trace in the time and frequency domains, allowing the network to learn transient pulse morphology and broadband spectral features while suppressing background noise. By training the model on $4.1\\times 10^5$ simulated traces that include detailed UHECR radio emission and realistic detector response and noise, we find a median output-SNR improvement of $\\sim 15-23\\,\\mathrm{dB}$ in the $50-200~\\mathrm{MHz}$ band and a reduction of the normalized mean squared error of the waveform by about an order of magnitude relative to a Hilbert-envelope denoiser baseline. We also verify that applying the denoiser to noise-only windows does not produce spurious pulse candidates. Near the detection threshold, the denoiser increases the number of antennas contributing reliable pulse timing by a factor of $\\sim 2-3$, which correspondingly tightens direction reconstruction uncertainties. When we additionally require accurate recovery of the waveform shape, the denoiser yields a median gain of $\\sim 3-4$ antennas usable for energy reconstruction at SNR$\\simeq 5-6$, strengthening event-level direction and energy estimates in sparse radio arrays."
+  },
+  {
+    "title": "Adaptive Evidence Weighting for Audio-Spatiotemporal Fusion",
+    "url": "http://arxiv.org/abs/2602.03817v1",
+    "arxiv_id": "2602.03817v1",
+    "authors": [
+      "Oscar Ovanger",
+      "Levi Harris",
+      "Timothy H. Keitt"
+    ],
+    "published": "2026-02-03T18:21:13+00:00",
+    "summary": "Many machine learning systems have access to multiple sources of evidence for the same prediction target, yet these sources often differ in reliability and informativeness across inputs. In bioacoustic classification, species identity may be inferred both from the acoustic signal and from spatiotemporal context such as location and season; while Bayesian inference motivates multiplicative evidence combination, in practice we typically only have access to discriminative predictors rather than calibrated generative models. We introduce \\textbf{F}usion under \\textbf{IN}dependent \\textbf{C}onditional \\textbf{H}ypotheses (\\textbf{FINCH}), an adaptive log-linear evidence fusion framework that integrates a pre-trained audio classifier with a structured spatiotemporal predictor. FINCH learns a per-sample gating function that estimates the reliability of contextual information from uncertainty and informativeness statistics. The resulting fusion family \\emph{contains} the audio-only classifier as a special case and explicitly bounds the influence of contextual evidence, yielding a risk-contained hypothesis class with an interpretable audio-only fallback. Across benchmarks, FINCH consistently outperforms fixed-weight fusion and audio-only baselines, improving robustness and error trade-offs even when contextual information is weak in isolation. We achieve state-of-the-art performance on CBI and competitive or improved performance on several subsets of BirdSet using a lightweight, interpretable, evidence-based approach. Code is available: \\texttt{\\href{https://anonymous.4open.science/r/birdnoise-85CD/README.md}{anonymous-repository}}"
+  },
+  {
+    "title": "Conformal Reachability for Safe Control in Unknown Environments",
+    "url": "http://arxiv.org/abs/2602.03799v1",
+    "arxiv_id": "2602.03799v1",
+    "authors": [
+      "Xinhang Ma",
+      "Junlin Wu",
+      "Yiannis Kantaros",
+      "Yevgeniy Vorobeychik"
+    ],
+    "published": "2026-02-03T18:01:38+00:00",
+    "summary": "Designing provably safe control is a core problem in trustworthy autonomy. However, most prior work in this regard assumes either that the system dynamics are known or deterministic, or that the state and action space are finite, significantly limiting application scope. We address this limitation by developing a probabilistic verification framework for unknown dynamical systems which combines conformal prediction with reachability analysis. In particular, we use conformal prediction to obtain valid uncertainty intervals for the unknown dynamics at each time step, with reachability then verifying whether safety is maintained within the conformal uncertainty bounds. Next, we develop an algorithmic approach for training control policies that optimize nominal reward while also maximizing the planning horizon with sound probabilistic safety guarantees. We evaluate the proposed approach in seven safe control settings spanning four domains -- cartpole, lane following, drone control, and safe navigation -- for both affine and nonlinear safety specifications. Our experiments show that the policies we learn achieve the strongest provable safety guarantees while still maintaining high average reward."
+  },
+  {
+    "title": "Understanding Agent Scaling in LLM-Based Multi-Agent Systems via Diversity",
+    "url": "http://arxiv.org/abs/2602.03794v1",
+    "arxiv_id": "2602.03794v1",
+    "authors": [
+      "Yingxuan Yang",
+      "Chengrui Qu",
+      "Muning Wen",
+      "Laixi Shi",
+      "Ying Wen",
+      "Weinan Zhang",
+      "Adam Wierman",
+      "Shangding Gu"
+    ],
+    "published": "2026-02-03T17:58:10+00:00",
+    "summary": "LLM-based multi-agent systems (MAS) have emerged as a promising approach to tackle complex tasks that are difficult for individual LLMs. A natural strategy is to scale performance by increasing the number of agents; however, we find that such scaling exhibits strong diminishing returns in homogeneous settings, while introducing heterogeneity (e.g., different models, prompts, or tools) continues to yield substantial gains. This raises a fundamental question: what limits scaling, and why does diversity help? We present an information-theoretic framework showing that MAS performance is bounded by the intrinsic task uncertainty, not by agent count. We derive architecture-agnostic bounds demonstrating that improvements depend on how many effective channels the system accesses. Homogeneous agents saturate early because their outputs are strongly correlated, whereas heterogeneous agents contribute complementary evidence. We further introduce $K^*$, an effective channel count that quantifies the number of effective channels without ground-truth labels. Empirically, we show that heterogeneous configurations consistently outperform homogeneous scaling: 2 diverse agents can match or exceed the performance of 16 homogeneous agents. Our results provide principled guidelines for building efficient and robust MAS through diversity-aware design. Code and Dataset are available at the link: https://github.com/SafeRL-Lab/Agent-Scaling."
+  },
+  {
+    "title": "A Scene Graph Backed Approach to Open Set Semantic Mapping",
+    "url": "http://arxiv.org/abs/2602.03781v1",
+    "arxiv_id": "2602.03781v1",
+    "authors": [
+      "Martin G\u00fcnther",
+      "Felix Igelbrink",
+      "Oscar Lima",
+      "Lennart Niecksch",
+      "Marian Renz",
+      "Martin Atzmueller"
+    ],
+    "published": "2026-02-03T17:41:51+00:00",
+    "summary": "While Open Set Semantic Mapping and 3D Semantic Scene Graphs (3DSSGs) are established paradigms in robotic perception, deploying them effectively to support high-level reasoning in large-scale, real-world environments remains a significant challenge. Most existing approaches decouple perception from representation, treating the scene graph as a derivative layer generated post hoc. This limits both consistency and scalability. In contrast, we propose a mapping architecture where the 3DSSG serves as the foundational backend, acting as the primary knowledge representation for the entire mapping process.   Our approach leverages prior work on incremental scene graph prediction to infer and update the graph structure in real-time as the environment is explored. This ensures that the map remains topologically consistent and computationally efficient, even during extended operations in large-scale settings. By maintaining an explicit, spatially grounded representation that supports both flat and hierarchical topologies, we bridge the gap between sub-symbolic raw sensor data and high-level symbolic reasoning. Consequently, this provides a stable, verifiable structure that knowledge-driven frameworks, ranging from knowledge graphs and ontologies to Large Language Models (LLMs), can directly exploit, enabling agents to operate with enhanced interpretability, trustworthiness, and alignment to human concepts."
+  },
+  {
+    "title": "Modern Machine Learning and Particle Physics Phenomenology at the LHC",
+    "url": "http://arxiv.org/abs/2602.03728v1",
+    "arxiv_id": "2602.03728v1",
+    "authors": [
+      "Maria Ubiali"
+    ],
+    "published": "2026-02-03T16:46:12+00:00",
+    "summary": "Modern machine learning is driving a paradigm shift in particle physics phenomenology at the Large Hadron Collider. This short review examines the transformative role of machine learning across the entire theoretical prediction pipeline, from parton-level calculations to full simulations. We discuss applications to scattering amplitude computations, phase space integration, Parton Distribution Function determination, and parameter extraction. Some critical frontiers for the field including uncertainty quantification, the role of symmetries, and interpretability are highlighted."
+  },
+  {
+    "title": "Input-to-State Safe Backstepping: Robust Safety-Critical Control with Unmatched Uncertainties",
+    "url": "http://arxiv.org/abs/2602.03691v1",
+    "arxiv_id": "2602.03691v1",
+    "authors": [
+      "Max H. Cohen",
+      "Pio Ong",
+      "Aaron D. Ames"
+    ],
+    "published": "2026-02-03T16:09:36+00:00",
+    "summary": "Guaranteeing safety in the presence of unmatched disturbances -- uncertainties that cannot be directly canceled by the control input -- remains a key challenge in nonlinear control. This paper presents a constructive approach to safety-critical control of nonlinear systems with unmatched disturbances. We first present a generalization of the input-to-state safety (ISSf) framework for systems with these uncertainties using the recently developed notion of an Optimal Decay CBF, which provides more flexibility for satisfying the associated Lyapunov-like conditions for safety. From there, we outline a procedure for constructing ISSf-CBFs for two relevant classes of systems with unmatched uncertainties: i) strict-feedback systems; ii) dual-relative-degree systems, which are similar to differentially flat systems. Our theoretical results are illustrated via numerical simulations of an inverted pendulum and planar quadrotor."
+  },
+  {
+    "title": "RIPPLE: Lifecycle-aware Embedding of Service Function Chains in Multi-access Edge Computing",
+    "url": "http://arxiv.org/abs/2602.03662v1",
+    "arxiv_id": "2602.03662v1",
+    "authors": [
+      "Federico Giarr\u00e8",
+      "Holger Karl"
+    ],
+    "published": "2026-02-03T15:44:45+00:00",
+    "summary": "In Multi-access Edge Computing networks, services can be deployed on nearby edge clouds (EC) as service function chains (SFCs) to meet strict quality of service (QoS) requirements. As users move, frequent SFC reconfigurations are required, but these are non-trivial: SFCs can serve users only when all required virtual network functions (VNFs) are available, and VNFs undergo time-consuming lifecycle operations before becoming operational. We show that ignoring lifecycle dynamics oversimplifies deployment, jeopardizes QoS, and must be avoided in practical SFC management. To address this, forecasts of user connectivity can be leveraged to proactively deploy VNFs and reconfigure SFCs. But forecasts are inherently imperfect, requiring lifecycle and connectivity uncertainty to be jointly considered. We present RIPPLE, a lifecycle-aware SFC embedding approach to deploy VNFs at the right time and location, reducing service interruptions. We show that RIPPLE closes the gap with solutions that unrealistically assume instantaneous lifecycle, even under realistic lifecycle constraints."
+  },
+  {
+    "title": "Noisy nonlocal aggregation model with gradient flow structures",
+    "url": "http://arxiv.org/abs/2602.03654v1",
+    "arxiv_id": "2602.03654v1",
+    "authors": [
+      "Su Yang",
+      "Weiqi Chu",
+      "Panayotis G. Kevrekidis"
+    ],
+    "published": "2026-02-03T15:35:40+00:00",
+    "summary": "Interacting particle systems provide a fundamental framework for modeling collective behavior in biological, social, and physical systems. In many applications, stochastic perturbations are essential for capturing environmental variability and individual uncertainty, yet their impact on long-term dynamics and equilibrium structure remains incompletely understood, particularly in the presence of nonlocal interactions. We investigate a stochastic interacting particle system governed by potential-driven interactions and its continuum density formulation in the large-population limit. We introduce an energy functional and show that the macroscopic density evolution has a gradient-flow structure in the Wasserstein-2 space. The associated variational framework yields equilibrium states through constrained energy minimization and illustrates how noise regulates the density and mitigates singular concentration. We demonstrate the connection between microscopic and macroscopic descriptions through numerical examples in one and two dimensions. Within the variational framework, we compute energy minimizers and perform a linear stability analysis. The numerical results show that the stable minimizers agree with the long-time dynamics of the macroscopic density model."
+  },
+  {
+    "title": "CALM: A Self-Adaptive Orchestration Approach for QoS-Aware Routing in Small Language Model based Systems",
+    "url": "http://arxiv.org/abs/2602.03632v1",
+    "arxiv_id": "2602.03632v1",
+    "authors": [
+      "Hemang Jain",
+      "Divyansh Pandey",
+      "Karthik Vaidhyanathan"
+    ],
+    "published": "2026-02-03T15:20:14+00:00",
+    "summary": "AI-enabled systems are subjected to various types of runtime uncertainties, ranging from dynamic workloads, resource requirements, model drift, etc. These uncertainties have a big impact on the overall Quality of Service (QoS). This is particularly true in the case of Language Model (LM) enabled systems where the autoregressive nature of token generation introduces variability in latency, energy usage and response quality. These systems, powered by LLMs, are either resource-intensive (if run on-prem) or raise privacy/cost concerns (if leveraged using APIs). While deploying a Small Language Model (SLM) can be resource-efficient, it often falls short in addressing the diversity and scale of real-world requirements. To this, we argue that, rather than relying on any one SLM, leveraging a coordinated fleet of SLMs, each with specialized strengths can enable systems to dynamically adapt to shifting contexts and workload patterns. However, realizing the full potential of such an approach demands intelligent orchestration and continuous adaptation. To this end, we introduce CALM , a self-adaptive orchestration mechanism based on MAPE-K. Our approach continuously monitors user queries, analyzes the QoS metrics of the SLMs, identifies the optimal SLM to be used, routes the query to the identified SLM and further to enhance the effectiveness and efficiency, leverages caching and scheduling to decide the SLMs to be kept in memory. Our evaluation shows that CALM reduces latency by approximately 40% and energy consumption by 50%, while preserving domain-specific task performance when compared to single-LLM baselines."
+  },
+  {
     "title": "New explanations and inference for least angle regression",
     "url": "http://arxiv.org/abs/2602.02491v1",
     "arxiv_id": "2602.02491v1",
