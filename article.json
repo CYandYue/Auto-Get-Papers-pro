@@ -1,5 +1,146 @@
 [
   {
+    "title": "Capacity Bounds on Doppler OFDM Channels",
+    "url": "http://arxiv.org/abs/2602.04862v1",
+    "arxiv_id": "2602.04862v1",
+    "authors": [
+      "Pablo Orellana",
+      "Zheng Li",
+      "Jean-Marc Kelif",
+      "Sheng Yang",
+      "Shlomo Shamai"
+    ],
+    "published": "2026-02-04T18:50:27+00:00",
+    "summary": "Low Earth orbit (LEO) satellite systems experience significant Doppler effects due to high mobility. While Doppler shifts can be largely compensated, residual frequency uncertainty induces a structured form of channel uncertainty that can limit achievable rates. We model this effect using a block-fading channel of the form $ \\mathbf{H} = \\mathbf{F} + s \\mathbf{G} $, where $s$ is an unknown scalar random parameter. We first study this model in a general $N\\times N$ MIMO setting. For this channel, we derive achievable rate lower bounds based on explicit transmission schemes and capacity upper bounds using a duality approach. We study Gaussian signaling and propose a practical superposition scheme with subspace alignment (SN) and successive interference cancellation, where a coarse-layer stream serves as an implicit pilot for decoding refined-layer data. We characterize asymptotic capacity in the near-coherent and high-SNR regimes, and show via Doppler-OFDM simulations that the proposed SN scheme achieves near-optimal rates with low complexity."
+  },
+  {
+    "title": "Decomposed Prompting Does Not Fix Knowledge Gaps, But Helps Models Say \"I Don't Know\"",
+    "url": "http://arxiv.org/abs/2602.04853v1",
+    "arxiv_id": "2602.04853v1",
+    "authors": [
+      "Dhruv Madhwal",
+      "Lyuxin David Zhang",
+      "Dan Roth",
+      "Tomer Wolfson",
+      "Vivek Gupta"
+    ],
+    "published": "2026-02-04T18:39:58+00:00",
+    "summary": "Large language models often struggle to recognize their knowledge limits in closed-book question answering, leading to confident hallucinations. While decomposed prompting is typically used to improve accuracy, we investigate its impact on reliability. We evaluate three task-equivalent prompting regimes: Direct, Assistive, and Incremental, across different model scales and multi-hop QA benchmarks. We find that although accuracy gains from decomposition diminish in frontier models, disagreements between prompting regimes remain highly indicative of potential errors. Because factual knowledge is stable while hallucinations are stochastic, cross-regime agreement provides a precise signal of internal uncertainty. We leverage this signal to implement a training-free abstention policy that requires no retrieval or fine-tuning. Our results show that disagreement-based abstention outperforms standard uncertainty baselines as an error detector, improving both F1 and AUROC across settings. This demonstrates that decomposition-based prompting can serve as a practical diagnostic probe for model reliability in closed-book QA."
+  },
+  {
+    "title": "Safe Urban Traffic Control via Uncertainty-Aware Conformal Prediction and World-Model Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2602.04821v1",
+    "arxiv_id": "2602.04821v1",
+    "authors": [
+      "Joydeep Chandra",
+      "Satyam Kumar Navneet",
+      "Aleksandr Algazinov",
+      "Yong Zhang"
+    ],
+    "published": "2026-02-04T18:10:59+00:00",
+    "summary": "Urban traffic management demands systems that simultaneously predict future conditions, detect anomalies, and take safe corrective actions -- all while providing reliability guarantees. We present STREAM-RL, a unified framework that introduces three novel algorithmic contributions: (1) PU-GAT+, an Uncertainty-Guided Adaptive Conformal Forecaster that uses prediction uncertainty to dynamically reweight graph attention via confidence-monotonic attention, achieving distribution-free coverage guarantees; (2) CRFN-BY, a Conformal Residual Flow Network that models uncertainty-normalized residuals via normalizing flows with Benjamini-Yekutieli FDR control under arbitrary dependence; and (3) LyCon-WRL+, an Uncertainty-Guided Safe World-Model RL agent with Lyapunov stability certificates, certified Lipschitz bounds, and uncertainty-propagated imagination rollouts. To our knowledge, this is the first framework to propagate calibrated uncertainty from forecasting through anomaly detection to safe policy learning with end-to-end theoretical guarantees. Experiments on multiple real-world traffic trajectory data demonstrate that STREAM-RL achieves 91.4\\% coverage efficiency, controls FDR at 4.1\\% under verified dependence, and improves safety rate to 95.2\\% compared to 69\\% for standard PPO while achieving higher reward, with 23ms end-to-end inference latency."
+  },
+  {
+    "title": "Properties of the core and other solution concepts of Bel coalitional games in the ex-ante scenario",
+    "url": "http://arxiv.org/abs/2602.04817v1",
+    "arxiv_id": "2602.04817v1",
+    "authors": [
+      "Michel Grabisch",
+      "Silvia Lorenzini"
+    ],
+    "published": "2026-02-04T18:04:48+00:00",
+    "summary": "We study the properties of the core and other solution concepts of Bel coalitional games, that generalize classical coalitional games by introducing uncertainty in the framework. In this uncertain environment, we work with contracts, that specify how agents divide the values of the coalitions in the different states of the world. Every agent can have different a priori knowledge on the true state of the world, which is modeled through the Dempster-Shafer theory, while agents' preferences between contracts are modeled by the Choquet integral. We focus on the \"ex-ante\" scenario, when the contract is evaluated before uncertainty is resolved. We investigate the geometrical structure of the ex-ante core when agents have the same a priori knowledge which is a probability distribution. Finally, we define the (pre)nucleolus, the kernel and the bargaining set (a la Mas-Colell) in the ex-ante situation and we study their properties. It is found that the inclusion relations among these solution concepts are the same as in the classical case. Coincidence of the ex-ante core and the ex-ante bargaining set holds for convex Bel coalitional games, at the price of strengthening the definition of bargaining sets."
+  },
+  {
+    "title": "Exploring supernova neutrino mass ordering at DUNE via quantum entanglement",
+    "url": "http://arxiv.org/abs/2602.04800v1",
+    "arxiv_id": "2602.04800v1",
+    "authors": [
+      "Adikiran Johny",
+      "Athulkrishna R",
+      "Rudra Majhi",
+      "Suchismita Sahoo"
+    ],
+    "published": "2026-02-04T17:46:27+00:00",
+    "summary": "The Deep Underground Neutrino Experiment (DUNE) offers strong sensitivity to neutrinos from a Galactic core collapse supernova, providing a powerful probe of neutrino flavor conversion and the neutrino mass ordering. In this work, we study supernova neutrino oscillations at DUNE using quantum entanglement as an organizing framework. Treating the three flavor neutrino system as an effective multipartite quantum state, we quantify flavor correlations through the entanglement of formation, concurrence, and negativity, expressed directly in terms of flavor survival and transition probabilities. Benchmark scenarios defined by representative variations of the electron neutrino survival probability are constructed for each entanglement measure. Event rates and fluences are computed for a supernova at 10 kpc, and the mass ordering sensitivity is evaluated using detector-level simulations performed with the \\texttt{SNOwGLoBES} framework, employing the Garching supernova flux model and including the dominant detection channels in liquid argon: $\u03bd_e$ and $\\bar\u03bd_e$ charged-current interactions on argon and elastic scattering on electrons. We analyze both individual and combined detection channels and incorporate $5\\%$ normalization and energy calibration systematic uncertainties. Our results show that DUNE achieves a $5\u03c3$ determination of the neutrino mass ordering for a supernova at distances of $\\sim 20$~kpc for the $\u03bd_e$ charged current channel and $\\sim 2$~kpc for the $\\bar\u03bd_e$ channel, with the reach depending on the entanglement scenario considered. These results demonstrate that entanglement based observables provide a complementary and robust framework for probing supernova neutrino oscillations and the neutrino mass ordering."
+  },
+  {
+    "title": "A Hierarchical Bayesian Analysis of Neutron-Skin Thicknesses and Implications for the Symmetry-Energy Slope",
+    "url": "http://arxiv.org/abs/2602.04794v1",
+    "arxiv_id": "2602.04794v1",
+    "authors": [
+      "A. Azizi",
+      "C. A. Bertulani",
+      "C. Davila"
+    ],
+    "published": "2026-02-04T17:43:02+00:00",
+    "summary": "Neutron-skin thicknesses provide a sensitive probe of the isovector sector of the nuclear equation of state and its density dependence, commonly characterized by the symmetry-energy slope parameter L. A wide variety of experimental and observational methods have been used to extract neutron skins, ranging from hadronic and electromagnetic probes of finite nuclei to inferences from neutron-star observations. Each approach carries distinct theoretical and systematic uncertainties, complicating global interpretations and obscuring genuine physical trends. In this work we present a hierarchical Bayesian framework for the statistically consistent synthesis of heterogeneous neutron-skin constraints. The neutron-skin thickness is modeled as a smooth latent function of isospin asymmetry and nuclear size, while method-dependent bias parameters and intrinsic nuisance widths are introduced to account for unmodeled experimental and theoretical systematics. Focusing on the tin isotopes, we infer probabilistic neutron-skin trends from 100Sn to 140Sn, finding minimal uncertainties near stability and increasing uncertainties toward the proton-rich and neutron-rich extremes. We assess the consistency of nuclear energy-density functionals and obtain conditional constraints on the symmetry-energy parameters. The resulting posterior exhibits a pronounced compression of the symmetry-energy slope parameter L, reflecting the dominant sensitivity of neutron skins to sub-saturation symmetry pressure. We demonstrate that our hierarchical Bayesian framework provides robust and transparent constraints on the sub-saturation isovector sector of the nuclear equation of state."
+  },
+  {
+    "title": "Species Sensitivity Distribution revisited: a Bayesian nonparametric approach",
+    "url": "http://arxiv.org/abs/2602.04788v1",
+    "arxiv_id": "2602.04788v1",
+    "authors": [
+      "Louise Alamichel",
+      "Julyan Arbel",
+      "Guillaume Kon Kam King",
+      "Igor Pr\u00fcnster"
+    ],
+    "published": "2026-02-04T17:41:42+00:00",
+    "summary": "We present a novel approach to ecological risk assessment by recasting the Species Sensitivity Distribution (SSD) method within a Bayesian nonparametric (BNP) framework. Widely mandated by environmental regulatory bodies globally, SSD has faced criticism due to its historical reliance on parametric assumptions when modeling species variability. By adopting nonparametric mixture models, we address this limitation, establishing a statistically robust foundation for SSD. Our BNP approach offers several advantages, including its efficacy in handling small datasets or censored data, which are common in ecological risk assessment, and its ability to provide principled uncertainty quantification alongside simultaneous density estimation and clustering. We utilize a specific nonparametric prior as the mixing measure, chosen for its robust clustering properties, a crucial consideration given the lack of strong prior beliefs about the number of components. Through simulation studies and analysis of real datasets, we demonstrate the superiority of our BNP-SSD over classical SSD methods. We also provide a BNP-SSD Shiny application, making our methodology available to the Ecotoxicology community. Moreover, we exploit the inherent clustering structure of the mixture model to explore patterns in species sensitivity. Our findings underscore the effectiveness of the proposed approach in improving ecological risk assessment methodologies."
+  },
+  {
+    "title": "Interval-Based AUC (iAUC): Extending ROC Analysis to Uncertainty-Aware Classification",
+    "url": "http://arxiv.org/abs/2602.04775v1",
+    "arxiv_id": "2602.04775v1",
+    "authors": [
+      "Yuqi Li",
+      "Matthew M. Engelhard"
+    ],
+    "published": "2026-02-04T17:12:04+00:00",
+    "summary": "In high-stakes risk prediction, quantifying uncertainty through interval-valued predictions is essential for reliable decision-making. However, standard evaluation tools like the receiver operating characteristic (ROC) curve and the area under the curve (AUC) are designed for point scores and fail to capture the impact of predictive uncertainty on ranking performance. We propose an uncertainty-aware ROC framework specifically for interval-valued predictions, introducing two new measures: $AUC_L$ and $AUC_U$. This framework enables an informative three-region decomposition of the ROC plane, partitioning pairwise rankings into correct, incorrect, and uncertain orderings. This approach naturally supports selective prediction by allowing models to abstain from ranking cases with overlapping intervals, thereby optimizing the trade-off between abstention rate and discriminative reliability. We prove that under valid class-conditional coverage, $AUC_L$ and $AUC_U$ provide formal lower and upper bounds on the theoretical optimal AUC ($AUC^*$), characterizing the physical limit of achievable discrimination. The proposed framework applies broadly to interval-valued prediction models, regardless of the interval construction method. Experiments on real-world benchmark datasets, using bootstrap-based intervals as one instantiation, validate the framework's correctness and demonstrate its practical utility for uncertainty-aware evaluation and decision-making."
+  },
+  {
+    "title": "Active Asymmetric Multi-Agent Multimodal Learning under Uncertainty",
+    "url": "http://arxiv.org/abs/2602.04763v1",
+    "arxiv_id": "2602.04763v1",
+    "authors": [
+      "Rui Liu",
+      "Pratap Tokekar",
+      "Ming Lin"
+    ],
+    "published": "2026-02-04T17:01:31+00:00",
+    "summary": "Multi-agent systems are increasingly equipped with heterogeneous multimodal sensors, enabling richer perception but introducing modality-specific and agent-dependent uncertainty. Existing multi-agent collaboration frameworks typically reason at the agent level, assume homogeneous sensing, and handle uncertainty implicitly, limiting robustness under sensor corruption. We propose Active Asymmetric Multi-Agent Multimodal Learning under Uncertainty (A2MAML), a principled approach for uncertainty-aware, modality-level collaboration. A2MAML models each modality-specific feature as a stochastic estimate with uncertainty prediction, actively selects reliable agent-modality pairs, and aggregates information via Bayesian inverse-variance weighting. This formulation enables fine-grained, modality-level fusion, supports asymmetric modality availability, and provides a principled mechanism to suppress corrupted or noisy modalities. Extensive experiments on connected autonomous driving scenarios for collaborative accident detection demonstrate that A2MAML consistently outperforms both single-agent and collaborative baselines, achieving up to 18.7% higher accident detection rate."
+  },
+  {
+    "title": "Uncertainty in Island-based Ecosystem Services and Climate Change",
+    "url": "http://arxiv.org/abs/2602.04762v1",
+    "arxiv_id": "2602.04762v1",
+    "authors": [
+      "Nazli Demirel",
+      "Ioannis N. Vogiatzakis",
+      "George Zittis",
+      "Mirela Tase",
+      "Attila D. Sandor",
+      "Savvas Zotos",
+      "Christos Zoumides",
+      "Turgay Dindaroglu",
+      "Mauro Fois",
+      "Irene Christoforidi",
+      "Valentini Stamatiadou",
+      "Shiri Zemah-Shamir",
+      "Tamer Albayrak",
+      "Cigdem Kaptan Ayhan",
+      "Paraskevi Manolaki",
+      "Ina Sieber",
+      "Ziv Zemah-Shamir",
+      "Elli Tzirkalli",
+      "Aristides Moustakas"
+    ],
+    "published": "2026-02-04T16:58:58+00:00",
+    "summary": "Small and medium-sized islands are acutely exposed to climate change and ecosystem degradation, yet the extent to which uncertainty is systematically addressed in scientific assessments of their ecosystem services remains poorly understood. This study revisits 226 peer-reviewed articles drawn from two global systematic reviews on island ecosystem services and climate change, applying a structured post hoc analysis to evaluate how uncertainty is treated across methods, service categories, ecosystem realms, and decision contexts. Studies were classified according to whether uncertainty was explicitly analysed, just mentioned, or ignored. Only 30 percent of studies incorporated uncertainty explicitly, while more than half did not address it at all. Scenario-based approaches dominated uncertainty assessment, whereas probabilistic and ensemble-based frameworks remained limited. Cultural ecosystem services and extreme climate impacts exhibited the lowest levels of uncertainty integration, and few studies connected uncertainty treatment to policy relevant decision frameworks. Weak or absent treatment of uncertainty emerges as a structural challenge in island systems, where narrow ecological thresholds, strong land-sea coupling, limited spatial buffers, and reduced institutional redundancy amplify the consequences of decision-making under incomplete knowledge. Systematic mapping of how uncertainty is framed, operationalised, or neglected reveals persistent methodological and conceptual gaps and informs concrete directions for strengthening uncertainty integration in future island-focused ecosystem service and climate assessments. Embedding uncertainty more robustly into modelling practices, participatory processes, and policy tools is essential for enhancing scientific credibility, governance relevance, and adaptive capacity in insular socio-ecological systems."
+  },
+  {
     "title": "Deep-Learning Denoising of Radio Observations for Ultra-High-Energy Cosmic-Ray Detection",
     "url": "http://arxiv.org/abs/2602.03818v1",
     "arxiv_id": "2602.03818v1",
