@@ -1,5 +1,139 @@
 [
   {
+    "title": "Improving Detection of Rare Nodes in Hierarchical Multi-Label Learning",
+    "url": "http://arxiv.org/abs/2602.08986v1",
+    "arxiv_id": "2602.08986v1",
+    "authors": [
+      "Isaac Xu",
+      "Martin Gillis",
+      "Ayushi Sharma",
+      "Benjamin Misiuk",
+      "Craig J. Brown",
+      "Thomas Trappenberg"
+    ],
+    "published": "2026-02-09T18:34:17+00:00",
+    "summary": "In hierarchical multi-label classification, a persistent challenge is enabling model predictions to reach deeper levels of the hierarchy for more detailed or fine-grained classifications. This difficulty partly arises from the natural rarity of certain classes (or hierarchical nodes) and the hierarchical constraint that ensures child nodes are almost always less frequent than their parents. To address this, we propose a weighted loss objective for neural networks that combines node-wise imbalance weighting with focal weighting components, the latter leveraging modern quantification of ensemble uncertainties. By emphasizing rare nodes rather than rare observations (data points), and focusing on uncertain nodes for each model output distribution during training, we observe improvements in recall by up to a factor of five on benchmark datasets, along with statistically significant gains in $F_{1}$ score. We also show our approach aids convolutional networks on challenging tasks, as in situations with suboptimal encoders or limited data."
+  },
+  {
+    "title": "Granulation signatures as seen by Kepler short-cadence data. I. A decoupling between granulation and oscillation timescales for dwarfs",
+    "url": "http://arxiv.org/abs/2602.08978v1",
+    "arxiv_id": "2602.08978v1",
+    "authors": [
+      "Jens R. Larsen",
+      "Mia S. Lundkvist",
+      "Martin B. Nielsen",
+      "Guy R. Davies",
+      "Yixiao Zhou",
+      "Mikkel N. Lund"
+    ],
+    "published": "2026-02-09T18:27:02+00:00",
+    "summary": "Granulation is the observable signature of convection in envelopes of low-mass stars, forming the background in stellar power spectra. While well-studied in evolved giants, granulation on the MS has received less attention. We here study and characterise granulation signatures of MS and SGB stars, extending previous studies of giants to provide a continuous physical picture across evolutionary stages. We analyse 753 Kepler short-cadence stars using a Bayesian nested-sampling framework to evaluate three background descriptions and compare model preferences. This yields full posterior distributions for all parameters, enabling robust comparisons across a diverse stellar sample. No universal preference between background models is found. Assuming a Gaussian oscillation envelope, $\u03bd_\\mathrm{max}$ estimates are sensitive to model misspecification, with the resulting systematics exceeding the formal uncertainties. The envelope width scales with $\u03bd_\\mathrm{max}$ across models and shows a dependence on effective temperature. Total granulation amplitudes in dwarfs broadly follow giant-based scalings, however a decoupling appears between the timescale of the primary granulation and the oscillations for MS stars cooler than the Sun. The prolonged granulation timescale is reproduced by 3D simulations of a K-dwarf, driven by reduced convective velocities due to more efficient convective energy transport in denser envelopes. The prolonged granulation timescale increases the frequency separation to the oscillation excess, potentially aiding seismic detectability, while the reduced convective velocities may influence the excitation of stellar oscillations and relate to the low amplitudes observed in cool dwarfs. Finally, we contribute a dataset linking granulation, oscillations, and stellar parameters, providing a foundation for future investigations into their interdependence across the HR diagram."
+  },
+  {
+    "title": "Contraction Metric Based Safe Reinforcement Learning Force Control for a Hydraulic Actuator with Real-World Training",
+    "url": "http://arxiv.org/abs/2602.08977v1",
+    "arxiv_id": "2602.08977v1",
+    "authors": [
+      "Lucca Maitan",
+      "Lucas Toschi",
+      "C\u00edcero Zanette",
+      "Elisa G. Vergamini",
+      "Leonardo F. Santos",
+      "Thiago Boaventura"
+    ],
+    "published": "2026-02-09T18:21:15+00:00",
+    "summary": "Force control in hydraulic actuators is notoriously difficult due to strong nonlinearities, uncertainties, and the high risks associated with unsafe exploration during learning. This paper investigates safe reinforcement learning (RL) for hy draulic force control with real-world training using contraction metric certificates. A data-driven model of a hydraulic actuator, identified from experimental data, is employed for simulation based pretraining of a Soft Actor-Critic (SAC) policy that adapts the PI gains of a feedback-linearization (FL) controller. To reduce instability during online training, we propose a quadratic-programming (QP) contraction filter that leverages a learned contraction metric to enforce approximate exponential convergence of trajectories, applying minimal corrections to the policy output. The approach is validated on a hydraulic test bench, where the RL controller is trained directly on hardware and benchmarked against a simulation-trained agent and a fixed-gain baseline. Experimental results show that real-hardware training improves force-tracking performance compared to both alternatives, while the contraction filter mitigates chattering and instabilities. These findings suggest that contraction-based certificates can enable safe RL in high force hydraulic systems, though robustness at extreme operating conditions remains a challenge."
+  },
+  {
+    "title": "Two Robust Interstellar Meteor Candidates in the Post-2018 CNEOS Fireball Database",
+    "url": "http://arxiv.org/abs/2602.08956v1",
+    "arxiv_id": "2602.08956v1",
+    "authors": [
+      "Richard Cloete",
+      "Abraham Loeb"
+    ],
+    "published": "2026-02-09T17:54:04+00:00",
+    "summary": "We report the identification of two previously unrecognized interstellar meteor candidates in the NASA CNEOS fireball database. Using the empirically calibrated low-discrepancy uncertainty model of Pe\u00f1a-Asensio et al.\\ (2025) for post-2018 CNEOS velocity accuracy (1$\u03c3$: speed 0.55~km~s$^{-1}$, right ascension 1.35$^\\circ$, declination 0.84$^\\circ$), we transform CNEOS velocity vectors to heliocentric orbits and assess interstellar candidacy via $10^{6}$-draw Monte Carlo simulations. Two post-2018 events have heliocentric speeds robustly exceeding the Solar System escape speed. CNEOS-22 (2022-07-28; 6.0$^\\circ$S, 86.9$^\\circ$W; eastern tropical Pacific) has $v_{\\rm hel}=46.98$~km~s$^{-1}$, exceeding escape by $\u0394= 5.18 \\pm 0.60$~km~s$^{-1}$ ($z_\u0394=8.7\u03c3$), with interstellar speed $v_{\\infty,\\odot}=21.5$~km~s$^{-1}$. CNEOS-25 (2025-02-12; 73.4$^\\circ$N, 49.3$^\\circ$E; Barents Sea) has $v_{\\rm hel}=45.63$~km~s$^{-1}$, exceeding escape by $\u0394= 3.22 \\pm 0.58$~km~s$^{-1}$ ($z_\u0394=5.5\u03c3$), with $v_{\\infty,\\odot}=16.9$~km~s$^{-1}$. For both events, none of $10^{6}$ realizations yield a gravitationally bound orbit ($p_{\\rm bound} < 3\\times 10^{-6}$). The adopted error model would need to underestimate the true uncertainties by factors of 5--9 for either candidate to be marginally bound."
+  },
+  {
+    "title": "Platform Design, Earnings Transparency and Minimum Wage Policies: Evidence from A Natural Experiment on Lyft",
+    "url": "http://arxiv.org/abs/2602.08955v1",
+    "arxiv_id": "2602.08955v1",
+    "authors": [
+      "Rubing Li",
+      "Xiao Liu",
+      "Arun Sundararajan"
+    ],
+    "published": "2026-02-09T17:51:57+00:00",
+    "summary": "We study the impact of a major policy and design change at Lyft that altered both driver earnings and platform transparency, offering insights into how such changes affect stakeholders and platform outcomes. In February 2024, Lyft began a staggered rollout of a new policy that guaranteed drivers a minimum share of rider payments and increased transparency by displaying estimated earnings per ride upfront. This policy was first introduced in major urban markets, creating a natural experiment to evaluate its effects. Using data from over 47 million rides across urban and neighboring suburban markets, we apply dynamic staggered difference-in-differences and geographic border strategies to measure causal effects on driver behavior, rider experience, and platform performance. We find the policy significantly increased driver engagement-particularly among those with lower pre-policy earnings or higher income uncertainty-leading to more hours worked, higher utilization, and greater trip volume. These supply-side changes also generated positive spillovers on rider demand. We disentangle the separate effects of earnings guarantees and transparency and show that while both were beneficial, transparency may have also triggered strategic driver behaviors. In ongoing work, we develop a counterfactual simulation framework linking driver supply and rider intents to ride production, showing how small behavioral shifts could further amplify platform outcomes. We also train a self-supervised model on driver trajectories to detect multihoming, examining whether the observed supply increase reflects net expansion or substitution from other platforms. Together, our findings highlight the potential for platform-led policies to serve as alternatives to regulation and offer design insights for managing platform change."
+  },
+  {
+    "title": "Seasonal Variation of Polar Ice: Implications for Ultrahigh Energy Neutrino Detectors",
+    "url": "http://arxiv.org/abs/2602.08921v1",
+    "arxiv_id": "2602.08921v1",
+    "authors": [
+      "Alexander Kyriacou",
+      "Steven Prohira",
+      "Dave Besson"
+    ],
+    "published": "2026-02-09T17:25:16+00:00",
+    "summary": "The upper $100 \\, \\mathrm{m}$ to $150 \\, \\mathrm{m}$ of the polar ice sheet, called the firn, has a time-dependent density due to seasonal variations in the surface temperature and snow accumulation. We present RF simulations of an in-ice neutrino-induced radio source that show that these density anomalies create variations in the amplitude and propagation times of radio signals propagating through polar firn at an altitude of ${\\sim}3000 \\, \\mathrm{m}$ above sea level. The received power from signals generated in the ice that refract within the upper ${\\sim} 15 \\, \\mathrm{m}$ firn are subject to a seasonal variation on the order of 10\\%. These variations result in an irreducible background uncertainty on the reconstructed neutrino energy and arrival direction for detectors using ice as a detection medium."
+  },
+  {
+    "title": "Diffusion-Inspired Reconfiguration of Transformers for Uncertainty Calibration",
+    "url": "http://arxiv.org/abs/2602.08920v1",
+    "arxiv_id": "2602.08920v1",
+    "authors": [
+      "Manh Cuong Dao",
+      "Quang Hung Pham",
+      "Phi Le Nguyen",
+      "Thao Nguyen Truong",
+      "Bryan Kian Hsiang Low",
+      "Trong Nghia Hoang"
+    ],
+    "published": "2026-02-09T17:24:47+00:00",
+    "summary": "Uncertainty calibration in pre-trained transformers is critical for their reliable deployment in risk-sensitive applications. Yet, most existing pre-trained transformers do not have a principled mechanism for uncertainty propagation through their feature transformation stack. In this work, we propose a diffusion-inspired reconfiguration of transformers in which each feature transformation block is modeled as a probabilistic mapping. Composing these probabilistic mappings reveals a probability path that mimics the structure of a diffusion process, transporting data mass from the input distribution to the pre-trained feature distribution. This probability path can then be recompiled on a diffusion process with a unified transition model to enable principled propagation of representation uncertainty throughout the pre-trained model's architecture while maintaining its original predictive performance. Empirical results across a variety of vision and language benchmarks demonstrate that our method achieves superior calibration and predictive accuracy compared to existing uncertainty-aware transformers."
+  },
+  {
+    "title": "Denoise Stepwise Signals by Diffusion Model Based Approach",
+    "url": "http://arxiv.org/abs/2602.08904v1",
+    "arxiv_id": "2602.08904v1",
+    "authors": [
+      "Xingdi Tong",
+      "Chenyu Wen"
+    ],
+    "published": "2026-02-09T17:04:12+00:00",
+    "summary": "Stepwise signals are ubiquitous in single-molecule detections, where abrupt changes in signal levels typically correspond to molecular conformational changes or state transitions. However, these features are inevitably obscured by noise, leading to uncertainty in estimating both signal levels and transition points. Traditional frequency-domain filtering is ineffective for denoising stepwise signals, as edge-related high-frequency components strongly overlap with noise. Although Hidden Markov Model-based approaches are widely used, they rely on stationarity assumptions and are not specifically designed for signal denoising. Here, we propose a diffusion model-based algorithm for stepwise signal denoising, named the Stepwise Signal Diffusion Model (SSDM). During training, SSDM learns the statistical structure of stepwise signals via a forward diffusion process that progressively adds noise. In the following reverse process, the model reconstructs clean signals from noisy observations, integrating a multi-scale convolutional network with an attention mechanism. Training data are generated by simulating stepwise signals through a Markov process with additive Gaussian noise. Across a broad range of signal-to-noise ratios, SSDM consistently outperforms traditional methods in both signal level reconstruction and transition point detection. Its effectiveness is further demonstrated on experimental data from single-molecule Forster Resonance Energy Transfer and nanopore DNA translocation measurements. Overall, SSDM provides a general and robust framework for recovering stepwise signals in various single-molecule detections and other physical systems exhibiting discrete state transitions."
+  },
+  {
+    "title": "Accelerated Stabilization of Switched Linear MIMO Systems using Generalized Homogeneity",
+    "url": "http://arxiv.org/abs/2602.08903v1",
+    "arxiv_id": "2602.08903v1",
+    "authors": [
+      "Moussa Labbadi",
+      "Andrey Polyakov",
+      "Denis Efimov"
+    ],
+    "published": "2026-02-09T17:03:30+00:00",
+    "summary": "This paper addresses the problem of exponential and accelerated finite-time, as well as nearly fixed-time, stabilization of switched linear MIMO systems. The proposed approach relies on a generalized homogenization framework for switched linear systems and employs implicit Lyapunov functions for control design, covering both common and multiple Lyapunov function settings. Linear matrix equations and inequalities are derived to characterize the dilation generator and to synthesize the controller gains. Robustness of the resulting control laws with respect to system uncertainties and external disturbances is analyzed. The effectiveness of the proposed approach is illustrated through numerical examples."
+  },
+  {
+    "title": "A mapping method of age estimation for binary stars: Application to the $\u03b1$ Centauri system A and B",
+    "url": "http://arxiv.org/abs/2602.08879v1",
+    "arxiv_id": "2602.08879v1",
+    "authors": [
+      "F. Th\u00e9venin",
+      "V. A. Baturin",
+      "A. V. Oreshina",
+      "P. Morel",
+      "S. V. Ayukov",
+      "L. Bigot",
+      "A. B. Gorshkov"
+    ],
+    "published": "2026-02-09T16:40:00+00:00",
+    "summary": "Given the wealth of data provided by Gaia and the upcoming PLATO mission, it is essential to improve stellar models to obtain accurate stellar ages. Our objective is to apply a mapping technique to estimate the age of a system and the initial chemical composition. We also evaluate the influence of observational uncertainties in mass and heavy-element mixtures on results. We applied an inverse calibration method to the evolution of a multiple stellar system, assuming that the stars share the same age and initial chemical composition. This approach determines age, the initial mass fractions of helium ($Y_{ini}$) and heavy elements ($Z_{ini}$), as well as the convective mixing-length parameters ($\u03b1_A $ and $\u03b1_B$). It uses the observed luminosities ($L_A$ and $L_B$), radii ($R_A$ and $R_B$), and surface chemical compositions ($Z/X_A$ and $Z/X_B$). We used the most recent observational data for $M$, $R$, $L$, and $[Fe/H]$ of $\u03b1$ Centauri A and B as input data for our method. We compared two assumptions for the $Z/X$ ratio, following the results for the solar composition. For an assumed high solar $Z/X_\\odot =0.0245$, we obtain an age of $7.8 \\pm 0.6$ Ga, $Y_{ini} = 0.284 \\pm 0.004$, and $Z_{ini} = 0.0335 \\pm 0.0015$. For a low solar $Z/X_\\odot = 0.0181$, the derived age is $8.7 \\pm 0.6$ Ga, $Y_{ini} = 0.267 \\pm 0.008$, and $Z_{ini} = 0.025 \\pm 0.002$. Observational errors in the stellar masses of $\\pm$0.002 lead to an age error of 0.6 Ga. Overshooting of $0.05-0.20H_p$ at the boundary of the convective core increases the age by $0.6-2.1$ Ga. Models with higher $Z/X$ and radiative cores, with ages of $7.2-7.8$ Ga, appear preferable and show better agreement with the observed asteroseismic frequencies."
+  },
+  {
     "title": "Agentic Uncertainty Reveals Agentic Overconfidence",
     "url": "http://arxiv.org/abs/2602.06948v1",
     "arxiv_id": "2602.06948v1",
