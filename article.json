@@ -1,5 +1,145 @@
 [
   {
+    "title": "Unmasking LHAASO J2108+5157: Near Infrared Insights into a Mysterious TeV Source",
+    "url": "http://arxiv.org/abs/2602.11148v1",
+    "arxiv_id": "2602.11148v1",
+    "authors": [
+      "Josep Mart\u00ed",
+      "Pedro L. Luque-Escamilla",
+      "Josep M. Paredes",
+      "Jos\u00e9 Mart\u00ednez Aroza"
+    ],
+    "published": "2026-02-11T18:58:44+00:00",
+    "summary": "LHAASO J2108+5157 is one of the few ultra-high energy gamma-ray sources in the LHAASO catalogue without secure counterpart at longer wavelengths. Several Galactic scenarios have been proposed, including an evolved supernova remnant and a pulsar wind nebula. Yet, no shocked gas, shell-like structure, or compact pulsar candidate has been identified. Follow-up observations with VERITAS and the LST-1 prototype have not firmly clarified its nature. A recent microquasar candidate from GMRT radio data remains uncertain. Here we present the first dedicated near-infrared study of the field, combining deep JHKs imaging with narrow band observations targeting the H2 v=1-0 S(1) line. Our observations were initially planned to encompass the full source region, but now only partially cover the latest updated position and size of LHAASO J2108+5157. We find no evidence of shocked emission, extended nebular structures, or an accreting compact object signature in the covered field. The GMRT radio source, despite its jet-like morphology, exhibits near-infrared properties incompatible with both a Galactic microquasar and a nearby radio galaxy, discouraging an association with the gamma-ray emission. Our analysis reveals no convincing counterpart consistent within the positional uncertainty, leaving LHAASO J2108+5157 as an enigmatic ultra-high energy emitter that requires deeper observations."
+  },
+  {
+    "title": "Beyond VLM-Based Rewards: Diffusion-Native Latent Reward Modeling",
+    "url": "http://arxiv.org/abs/2602.11146v1",
+    "arxiv_id": "2602.11146v1",
+    "authors": [
+      "Gongye Liu",
+      "Bo Yang",
+      "Yida Zhi",
+      "Zhizhou Zhong",
+      "Lei Ke",
+      "Didan Deng",
+      "Han Gao",
+      "Yongxiang Huang",
+      "Kaihao Zhang",
+      "Hongbo Fu",
+      "Wenhan Luo"
+    ],
+    "published": "2026-02-11T18:57:29+00:00",
+    "summary": "Preference optimization for diffusion and flow-matching models relies on reward functions that are both discriminatively robust and computationally efficient. Vision-Language Models (VLMs) have emerged as the primary reward provider, leveraging their rich multimodal priors to guide alignment. However, their computation and memory cost can be substantial, and optimizing a latent diffusion generator through a pixel-space reward introduces a domain mismatch that complicates alignment. In this paper, we propose DiNa-LRM, a diffusion-native latent reward model that formulates preference learning directly on noisy diffusion states. Our method introduces a noise-calibrated Thurstone likelihood with diffusion-noise-dependent uncertainty. DiNa-LRM leverages a pretrained latent diffusion backbone with a timestep-conditioned reward head, and supports inference-time noise ensembling, providing a diffusion-native mechanism for test-time scaling and robust rewarding. Across image alignment benchmarks, DiNa-LRM substantially outperforms existing diffusion-based reward baselines and achieves performance competitive with state-of-the-art VLMs at a fraction of the computational cost. In preference optimization, we demonstrate that DiNa-LRM improves preference optimization dynamics, enabling faster and more resource-efficient model alignment."
+  },
+  {
+    "title": "Statistical Learning Analysis of Physics-Informed Neural Networks",
+    "url": "http://arxiv.org/abs/2602.11097v1",
+    "arxiv_id": "2602.11097v1",
+    "authors": [
+      "David A. Barajas-Solano"
+    ],
+    "published": "2026-02-11T18:09:29+00:00",
+    "summary": "We study the training and performance of physics-informed learning for initial and boundary value problems (IBVP) with physics-informed neural networks (PINNs) from a statistical learning perspective. Specifically, we restrict ourselves to parameterizations with hard initial and boundary condition constraints and reformulate the problem of estimating PINN parameters as a statistical learning problem. From this perspective, the physics penalty on the IBVP residuals can be better understood not as a regularizing term bus as an infinite source of indirect data, and the learning process as fitting the PINN distribution of residuals $p(y \\mid x, t, w) q(x, t) $ to the true data-generating distribution $\u03b4(0) q(x, t)$ by minimizing the Kullback-Leibler divergence between the true and PINN distributions. Furthermore, this analysis show that physics-informed learning with PINNs is a singular learning problem, and we employ singular learning theory tools, namely the so-called Local Learning Coefficient (Lau et al., 2025) to analyze the estimates of PINN parameters obtained via stochastic optimization for a heat equation IBVP. Finally, we discuss implications of this analysis on the quantification of predictive uncertainty of PINNs and the extrapolation capacity of PINNs."
+  },
+  {
+    "title": "Direct Learning of Calibration-Aware Uncertainty for Neural PDE Surrogates",
+    "url": "http://arxiv.org/abs/2602.11090v1",
+    "arxiv_id": "2602.11090v1",
+    "authors": [
+      "Carlos Stein Brito"
+    ],
+    "published": "2026-02-11T17:57:20+00:00",
+    "summary": "Neural PDE surrogates are often deployed in data-limited or partially observed regimes where downstream decisions depend on calibrated uncertainty in addition to low prediction error. Existing approaches obtain uncertainty through ensemble replication, fixed stochastic noise such as dropout, or post hoc calibration. Cross-regularized uncertainty learns uncertainty parameters during training using gradients routed through a held-out regularization split. The predictor is optimized on the training split for fit, while low-dimensional uncertainty controls are optimized on the regularization split to reduce train-test mismatch, yielding regime-adaptive uncertainty without per-regime noise tuning. The framework can learn continuous noise levels at the output head, within hidden features, or within operator-specific components such as spectral modes. We instantiate the approach in Fourier Neural Operators and evaluate on APEBench sweeps over observed fraction and training-set size. Across these sweeps, the learned predictive distributions are better calibrated on held-out splits and the resulting uncertainty fields concentrate in high-error regions in one-step spatial diagnostics."
+  },
+  {
+    "title": "A Robust Optimization Approach for Regenerator Placement in Fault-Tolerant Networks Under Discrete Cost Uncertainty",
+    "url": "http://arxiv.org/abs/2602.11058v1",
+    "arxiv_id": "2602.11058v1",
+    "authors": [
+      "Mohammad Khosravi",
+      "Setareh Maghsudi"
+    ],
+    "published": "2026-02-11T17:26:10+00:00",
+    "summary": "We focus on robust, survivable communication networks, where network links and nodes are affected by an uncertainty set. In this sense, any network links might fail. Besides, a signal can only travel a maximum distance before its quality falls below a certain threshold, necessitating its regeneration by regenerators installed at network nodes. In addition, the price of installing and maintaining regenerators belongs to a discrete uncertainty set. Robust optimization seeks a solution with guaranteed performance against all scenarios modeled in an uncertainty set. Thus, the problem is to find a subset of nodes with minimum cost for the placement of the regenerator, ensuring that all nodes can communicate even if a subset of network links fails. To solve the problem optimally, we propose two solution approaches, including one flow-based and one cut-based integer programming formulation, as well as their iterative exact method. Our theoretical and experimental results show the effectiveness of our methods."
+  },
+  {
+    "title": "Bayesian inference for tidal heating with extreme mass ratio inspirals",
+    "url": "http://arxiv.org/abs/2602.11039v1",
+    "arxiv_id": "2602.11039v1",
+    "authors": [
+      "Zhong-Wu Xia",
+      "Sheng Long",
+      "Qiyuan Pan",
+      "Jiliang Jing",
+      "Wei-Liang Qian"
+    ],
+    "published": "2026-02-11T17:11:09+00:00",
+    "summary": "Extreme mass ratio inspirals (EMRIs) provide unique probes of near-horizon dissipation through the tidal heating. We present a full Bayesian analysis of tidal heating in equatorial eccentric EMRIs by performing injection-recovery studies and inferring posterior constraints on the reflectivity parameter $|\\mathcal{R}|^2$ while sampling in the full EMRI parameter space. We find that in the strong-field regime the posterior uncertainties are smaller, indicating a stronger constraining capability on the tidal heating. Using two-year signals with an optimal signal-to-noise ratio (SNR) of $\u03c1=50$, EMRIs can put bounds on $|\\mathcal{R}|^2$ at the level of $10^{-3}$--$ 10^{-4}$ for a rapidly spinning central object. Moreover, we show that neglecting the tidal heating can induce clear systematic biases in the intrinsic parameters of the EMRI system. These results establish EMRIs as promising precision probes for detecting and constraining black hole event horizons."
+  },
+  {
+    "title": "Strong potential in a box for applications to femtoscopy",
+    "url": "http://arxiv.org/abs/2602.11027v1",
+    "arxiv_id": "2602.11027v1",
+    "authors": [
+      "Gleb Romanenko",
+      "Francesca Bellini"
+    ],
+    "published": "2026-02-11T16:53:09+00:00",
+    "summary": "Understanding the short-range nucleon-nucleon interaction is essential for the interpretation of correlation femtoscopy measurements in high-energy hadronic and nuclear collisions. We present an analytical treatment of the strong interaction in two-nucleon systems by modelling it with a square-well potential and solving the Schroedinger equation in the presence of the Coulomb interaction. The resulting pair wave function is regular at small relative distances and allows for the inclusion of multiple partial waves. We apply this framework to proton-proton femtoscopy and compute theoretical correlation functions for realistic source sizes. We demonstrate that the commonly used Lednicky-Lyuboshits asymptotic approximation overestimates the correlation signal for small sources. Comparisons with numerical calculations using the CATS framework and the Argonne v18 potential show good agreement within current experimental uncertainties. The proposed analytical approach provides a practical and flexible tool for femtoscopic analyses of nucleon and baryon pairs."
+  },
+  {
+    "title": "Search or Accelerate: Confidence-Switched Position Beam Search for Diffusion Language Models",
+    "url": "http://arxiv.org/abs/2602.10953v1",
+    "arxiv_id": "2602.10953v1",
+    "authors": [
+      "Mingyu Cao",
+      "Alvaro Correia",
+      "Christos Louizos",
+      "Shiwei Liu",
+      "Lu Yin"
+    ],
+    "published": "2026-02-11T15:41:09+00:00",
+    "summary": "Diffusion Language Models (DLMs) generate text by iteratively denoising a masked sequence, repeatedly deciding which positions to commit at each step. Standard decoding follows a greedy rule: unmask the most confident positions, yet this local choice can lock the model into a suboptimal unmasking order, especially on reasoning-heavy prompts. We present SOAR, a training-free decoding algorithm that adapts its behavior to the model's uncertainty. When confidence is low, SOAR briefly widens the search over alternative unmasking decisions to avoid premature commitments; when confidence is high, it collapses the search and decodes many positions in parallel to reduce the number of denoising iterations. Across mathematical reasoning and code generation benchmarks (GSM8K, MBPP, HumanEval) on Dream-7B and LLaDA-8B, SOAR improves generation quality while maintaining competitive inference speed, offering a practical way to balance quality and efficiency in DLM decoding."
+  },
+  {
+    "title": "What do people want to fact-check?",
+    "url": "http://arxiv.org/abs/2602.10935v1",
+    "arxiv_id": "2602.10935v1",
+    "authors": [
+      "Bijean Ghafouri",
+      "Dorsaf Sallami",
+      "Luca Luceri",
+      "Taylor Lynn Curtis",
+      "Jean-Francois Godbout",
+      "Emilio Ferrara",
+      "Reihaneh Rabbany"
+    ],
+    "published": "2026-02-11T15:14:54+00:00",
+    "summary": "Research on misinformation has focused almost exclusively on supply, asking what falsehoods circulate, who produces them, and whether corrections work. A basic demand-side question remains unanswered. When ordinary people can fact-check anything they want, what do they actually ask about? We provide the first large-scale evidence on this question by analyzing close to 2{,}500 statements submitted by 457 participants to an open-ended AI fact-checking system. Each claim is classified along five semantic dimensions (domain, epistemic form, verifiability, target entity, and temporal reference), producing a behavioral map of public verification demand. Three findings stand out. First, users range widely across topics but default to a narrow epistemic repertoire, overwhelmingly submitting simple descriptive claims about present-day observables. Second, roughly one in four requests concerns statements that cannot be empirically resolved, including moral judgments, speculative predictions, and subjective evaluations, revealing a systematic mismatch between what users seek from fact-checking tools and what such tools can deliver. Third, comparison with the FEVER benchmark dataset exposes sharp structural divergences across all five dimensions, indicating that standard evaluation corpora encode a synthetic claim environment that does not resemble real-world verification needs. These results reframe fact-checking as a demand-driven problem and identify where current AI systems and benchmarks are misaligned with the uncertainty people actually experience."
+  },
+  {
+    "title": "The metal-poor tail of the APOGEE survey II. Spectral analysis of Mg and Si in very metal-poor APOGEE spectra",
+    "url": "http://arxiv.org/abs/2602.10883v1",
+    "arxiv_id": "2602.10883v1",
+    "authors": [
+      "M. Montelius",
+      "A. Angrilli Muglia",
+      "E. Starkenburg",
+      "C. Kobayashi",
+      "A. Ardern-Arentsen",
+      "F. Gran",
+      "P. Jablonka",
+      "N. Martin",
+      "J. Navarro",
+      "F. Sestito",
+      "K. A. Venn",
+      "S. Vitali"
+    ],
+    "published": "2026-02-11T14:12:15+00:00",
+    "summary": "H-band spectra contain very limited spectral information for stars at the most metal-poor tail ( Fe/H < -2.5) because the available Fe lines in FGK stars in this wavelength range are weak. The first paper in this series successfully identified a sample of 327 very metal-poor stars (with [Fe/H] < -2) from the APOGEE database, 289 of which are on the red giant branch. The spectra of these stars were not properly analysed by the APOGEE main pipeline because they are very metal poor. In this work, we measure metallicities for these stars using the abundances of the elements Mg and Si. We demonstrate that the absorption lines of the elements Mg and Si are of good quality despite the challenging combination of (low) metallicity, wavelength regime, spectral resolution, and signal-to-noise ratios available for these spectra. A specialised pipeline was designed to measure the abundance of Mg and Si in APOGEE spectra and yielded a robust estimate of the overall metallicity. In order to provide reliable measurements, we tested three different sets of assumptions for Mg and Si enhancement. We present Mg and Si abundances as well as overall metallicities for 327 stars, all of which had previously gotten null values from the main APOGEE pipeline for either the calibrated M/H or [Fe/H] . The typical uncertainties for our measurements are 0.2 dex. We found five stars in our sample with unusual [Si/Mg] abundances higher than 0.5, and we connect this signature to globular cluster stars, and this might be related to specific supernova events. Our data suggest a concentration of high [Si/Mg] stars in the Sextans dwarf galaxy. Other dwarf galaxies are found to agree well with results in the literature. Our derived metallicities range between -3.1 $\\leq$ [M/H] $\\leq$ -2.25, thereby pushing the metal-poor tail of APOGEE results down by 0.6 dex."
+  },
+  {
     "title": "Learning Agile Quadrotor Flight in the Real World",
     "url": "http://arxiv.org/abs/2602.10111v1",
     "arxiv_id": "2602.10111v1",
