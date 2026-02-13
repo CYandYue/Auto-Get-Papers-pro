@@ -1,5 +1,145 @@
 [
   {
+    "title": "Agentic Test-Time Scaling for WebAgents",
+    "url": "http://arxiv.org/abs/2602.12276v1",
+    "arxiv_id": "2602.12276v1",
+    "authors": [
+      "Nicholas Lee",
+      "Lutfi Eren Erdogan",
+      "Chris Joseph John",
+      "Surya Krishnapillai",
+      "Michael W. Mahoney",
+      "Kurt Keutzer",
+      "Amir Gholami"
+    ],
+    "published": "2026-02-12T18:58:30+00:00",
+    "summary": "Test-time scaling has become a standard way to improve performance and boost reliability of neural network models. However, its behavior on agentic, multi-step tasks remains less well-understood: small per-step errors can compound over long horizons; and we find that naive policies that uniformly increase sampling show diminishing returns. In this work, we present CATTS, a simple technique for dynamically allocating compute for multi-step agents. We first conduct an empirical study of inference-time scaling for web agents. We find that uniformly increasing per-step compute quickly saturates in long-horizon environments. We then investigate stronger aggregation strategies, including an LLM-based Arbiter that can outperform naive voting, but that can overrule high-consensus decisions. We show that uncertainty statistics derived from the agent's own vote distribution (entropy and top-1/top-2 margin) correlate with downstream success and provide a practical signal for dynamic compute allocation. Based on these findings, we introduce Confidence-Aware Test-Time Scaling (CATTS), which uses vote-derived uncertainty to allocate compute only when decisions are genuinely contentious. CATTS improves performance on WebArena-Lite and GoBrowse by up to 9.1% over React while using up to 2.3x fewer tokens than uniform scaling, providing both efficiency gains and an interpretable decision rule."
+  },
+  {
+    "title": "Any House Any Task: Scalable Long-Horizon Planning for Abstract Human Tasks",
+    "url": "http://arxiv.org/abs/2602.12244v1",
+    "arxiv_id": "2602.12244v1",
+    "authors": [
+      "Zhihong Liu",
+      "Yang Li",
+      "Rengming Huang",
+      "Cewu Lu",
+      "Panpan Cai"
+    ],
+    "published": "2026-02-12T18:28:28+00:00",
+    "summary": "Open world language conditioned task planning is crucial for robots operating in large-scale household environments. While many recent works attempt to address this problem using Large Language Models (LLMs) via prompting or training, a key challenge remains scalability. Performance often degrades rapidly with increasing environment size, plan length, instruction ambiguity, and constraint complexity. In this work, we propose Any House Any Task (AHAT), a household task planner optimized for long-horizon planning in large environments given ambiguous human instructions. At its core, AHAT utilizes an LLM trained to map task instructions and textual scene graphs into grounded subgoals defined in the Planning Domain Definition Language (PDDL). These subgoals are subsequently solved to generate feasible and optimal long-horizon plans through explicit symbolic reasoning. To enhance the model's ability to decompose complex and ambiguous intentions, we introduce TGPO, a novel reinforcement learning algorithm that integrates external correction of intermediate reasoning traces into Group Relative Policy Optimization (GRPO). Experiments demonstrate that AHAT achieves significant performance gains over state-of-the-art prompting, planning, and learning methods, particularly in human-style household tasks characterized by brief instructions but requiring complex execution plans."
+  },
+  {
+    "title": "Status of the $S_8$ Tension: A 2026 Review of Probe Discrepancies",
+    "url": "http://arxiv.org/abs/2602.12238v1",
+    "arxiv_id": "2602.12238v1",
+    "authors": [
+      "Ioannis Pantos",
+      "Leandros Perivolaropoulos"
+    ],
+    "published": "2026-02-12T18:17:18+00:00",
+    "summary": "The parameter $S_8 \\equiv \u03c3_8 (\u03a9_m/0.3)^{0.5}$ quantifies the amplitude of matter density fluctuations. A persistent discrepancy exists between early-universe CMB observations and late-universe probes. This review assesses the ``$S_8$ tension'' against a new 2026 baseline: a unified ``Combined CMB'' framework incorporating Planck, ACT DR6, and SPT-3G. This combined analysis yields $S_8 = 0.836^{+0.012}_{-0.013}$, providing a higher central value and reduced uncertainties compared to Planck alone. Compiling measurements from 2019--2026, we reveal a striking bifurcation: DES Year 6 results exhibit a statistically significant tension of $2.4\u03c3$--$2.7\u03c3$ \\citep{DESY6}, whereas KiDS Legacy results demonstrate statistical consistency at $<1\u03c3$ \\citep{Wright2025}. We examine systematic origins of this dichotomy, including photometric redshift calibration, intrinsic alignment modeling, and shear measurement pipelines. We further contextualize these findings with cluster counts (where eROSITA favors high values while SPT favors low), galaxy-galaxy lensing, and redshift-space distortions. The heterogeneous landscape suggests survey-specific systematic effects contribute substantially to observed discrepancies, though new physics beyond $\u039b$CDM cannot be excluded."
+  },
+  {
+    "title": "Bandit Learning in Matching Markets with Interviews",
+    "url": "http://arxiv.org/abs/2602.12224v1",
+    "arxiv_id": "2602.12224v1",
+    "authors": [
+      "Amirmahdi Mirfakhar",
+      "Xuchuang Wang",
+      "Mengfan Xu",
+      "Hedyeh Beyhaghi",
+      "Mohammad Hajiesmaili"
+    ],
+    "published": "2026-02-12T18:03:37+00:00",
+    "summary": "Two-sided matching markets rely on preferences from both sides, yet it is often impractical to evaluate preferences. Participants, therefore, conduct a limited number of interviews, which provide early, noisy impressions and shape final decisions. We study bandit learning in matching markets with interviews, modeling interviews as \\textit{low-cost hints} that reveal partial preference information to both sides. Our framework departs from existing work by allowing firm-side uncertainty: firms, like agents, may be unsure of their own preferences and can make early hiring mistakes by hiring less preferred agents. To handle this, we extend the firm's action space to allow \\emph{strategic deferral} (choosing not to hire in a round), enabling recovery from suboptimal hires and supporting decentralized learning without coordination. We design novel algorithms for (i) a centralized setting with an omniscient interview allocator and (ii) decentralized settings with two types of firm-side feedback. Across all settings, our algorithms achieve time-independent regret, a substantial improvement over the $O(\\log T)$ regret bounds known for learning stable matchings without interviews. Also, under mild structured markets, decentralized performance matches the centralized counterpart up to polynomial factors in the number of agents and firms."
+  },
+  {
+    "title": "Probing baryonic feedback with fast radio bursts: joint analyses with cosmic shear and galaxy clustering",
+    "url": "http://arxiv.org/abs/2602.12174v1",
+    "arxiv_id": "2602.12174v1",
+    "authors": [
+      "Amy Wayland",
+      "David Alonso",
+      "Robert Reischke"
+    ],
+    "published": "2026-02-12T17:06:08+00:00",
+    "summary": "Cosmological inference from weak lensing (WL) surveys is increasingly limited by uncertainties in baryonic physics, which suppress the non-linear matter power spectrum on small scales. Multi-probe analyses that incorporate complementary tracers of the gas distribution around haloes offer a pathway to calibrate these effects and recover unbiased cosmological information. In this work, we forecast the constraining power of a joint analysis combining fiducial data from a Stage-IV WL survey with measurements of the dispersion measure from fast radio bursts (FRBs). We evaluate the ability of this approach to simultaneously constrain cosmological parameters and the astrophysical processes governing baryonic feedback, and we quantify the impact of key FRB systematics, including redshift uncertainties and source clustering. We find that, even after accounting for these effects, a 3$\\times$2-point analysis of WL and FRBs significantly improves cosmological constraints, reducing the degradation factor on $S_8$ by $\\sim 80\\%$ compared to WL alone. We further show that FRBs alone are sensitive only to a degenerate combination of the key baryonic parameters, $\\log_{10} M_{\\rm c}$ and $\u03b7_{\\rm b}$, and that the inclusion of WL measurements breaks this degeneracy. Finally, we extend our framework to incorporate galaxy clustering measurements using Luminous Red Galaxy and Emission Line Galaxy samples, performing a unified 6$\\times$2-point analysis of WL, dispersion measures of FRBs, and galaxy clustering. While this combined approach tightens constraints on $\u03a9_{\\rm m}$ and $\\log_{10} M_{\\rm c}$, it does not lead to a significant improvement in $S_8$ constraints beyond those obtained from WL and FRBs alone."
+  },
+  {
+    "title": "STAR : Bridging Statistical and Agentic Reasoning for Large Model Performance Prediction",
+    "url": "http://arxiv.org/abs/2602.12143v1",
+    "arxiv_id": "2602.12143v1",
+    "authors": [
+      "Xiaoxiao Wang",
+      "Chunxiao Li",
+      "Junying Wang",
+      "Yijin Guo",
+      "Zijian Chen",
+      "Chunyi Li",
+      "Xiaohong Liu",
+      "Zicheng Zhang",
+      "Guangtao Zhai"
+    ],
+    "published": "2026-02-12T16:30:07+00:00",
+    "summary": "As comprehensive large model evaluation becomes prohibitively expensive, predicting model performance from limited observations has become essential. However, existing statistical methods struggle with pattern shifts, data sparsity, and lack of explanation, while pure LLM methods remain unreliable. We propose STAR, a framework that bridges data-driven STatistical expectations with knowledge-driven Agentic Reasoning. STAR leverages specialized retrievers to gather external knowledge and embeds semantic features into Constrained Probabilistic Matrix Factorization (CPMF) to generate statistical expectations with uncertainty. A reasoning module guided by Expectation Violation Theory (EVT) then refines predictions through intra-family analysis, cross-model comparison, and credibility-aware aggregation, producing adjustments with traceable explanations. Extensive experiments show that STAR consistently outperforms all baselines on both score-based and rank-based metrics, delivering a 14.46% gain in total score over the strongest statistical method under extreme sparsity, with only 1--2 observed scores per test model."
+  },
+  {
+    "title": "Geometry of Uncertainty: Learning Metric Spaces for Multimodal State Estimation in RL",
+    "url": "http://arxiv.org/abs/2602.12087v1",
+    "arxiv_id": "2602.12087v1",
+    "authors": [
+      "Alfredo Reichlin",
+      "Adriano Pacciarelli",
+      "Danica Kragic",
+      "Miguel Vasco"
+    ],
+    "published": "2026-02-12T15:41:20+00:00",
+    "summary": "Estimating the state of an environment from high-dimensional, multimodal, and noisy observations is a fundamental challenge in reinforcement learning (RL). Traditional approaches rely on probabilistic models to account for the uncertainty, but often require explicit noise assumptions, in turn limiting generalization. In this work, we contribute a novel method to learn a structured latent representation, in which distances between states directly correlate with the minimum number of actions required to transition between them. The proposed metric space formulation provides a geometric interpretation of uncertainty without the need for explicit probabilistic modeling. To achieve this, we introduce a multimodal latent transition model and a sensor fusion mechanism based on inverse distance weighting, allowing for the adaptive integration of multiple sensor modalities without prior knowledge of noise distributions. We empirically validate the approach on a range of multimodal RL tasks, demonstrating improved robustness to sensor noise and superior state estimation compared to baseline methods. Our experiments show enhanced performance of an RL agent via the learned representation, eliminating the need of explicit noise augmentation. The presented results suggest that leveraging transition-aware metric spaces provides a principled and scalable solution for robust state estimation in sequential decision-making."
+  },
+  {
+    "title": "Cosmographic Connection Between Cosmological And Planck Scales: The Barrow-Tsallis Entropy",
+    "url": "http://arxiv.org/abs/2602.12077v1",
+    "arxiv_id": "2602.12077v1",
+    "authors": [
+      "Yu. L. Bolotin",
+      "V. V. Yanovsky",
+      "D. A. Yerokhin"
+    ],
+    "published": "2026-02-12T15:36:21+00:00",
+    "summary": "One of the fundamental challenges of quantum gravity is to understand how the microscopic degrees of freedom of the cosmological horizon shape the evolution of the Universe. One possible approach to this problem is based on the Barrow--Tsallis entropy. This entropy accounts for both quantum gravitational effects and the nonextensive effects inherent in any long-range interaction. Using a general method we developed for finding the parameters of cosmological models, we discovered a relationship between the parameter describing the microscopic structure of quantum foam and the parameter associated with macroscopic nonextensive effects. We also used our method for finding the parameters of cosmological models to evaluate the feasibility of using fractional derivatives to describe the late evolution of the Universe. The resulting relationships are exact. Therefore, the uncertainty in the relationship between the model parameters depends only on the current uncertainty in the values of the cosmographic parameters."
+  },
+  {
+    "title": "Affordance-Graphed Task Worlds: Self-Evolving Task Generation for Scalable Embodied Learning",
+    "url": "http://arxiv.org/abs/2602.12065v1",
+    "arxiv_id": "2602.12065v1",
+    "authors": [
+      "Xiang Liu",
+      "Sen Cui",
+      "Guocai Yao",
+      "Zhong Cao",
+      "Jingheng Ma",
+      "Min Zhang",
+      "Changshui Zhang"
+    ],
+    "published": "2026-02-12T15:23:45+00:00",
+    "summary": "Training robotic policies directly in the real world is expensive and unscalable. Although generative simulation enables large-scale data synthesis, current approaches often fail to generate logically coherent long-horizon tasks and struggle with dynamic physical uncertainties due to open-loop execution. To address these challenges, we propose Affordance-Graphed Task Worlds (AGT-World), a unified framework that autonomously constructs interactive simulated environments and corresponding robot task policies based on real-world observations. Unlike methods relying on random proposals or static replication, AGT-World formalizes the task space as a structured graph, enabling the precise, hierarchical decomposition of complex goals into theoretically grounded atomic primitives. Furthermore, we introduce a Self-Evolution mechanism with hybrid feedback to autonomously refine policies, combining Vision-Language Model reasoning and geometric verification. Extensive experiments demonstrate that our method significantly outperforms in success rates and generalization, achieving a self-improving cycle of proposal, execution, and correction for scalable robot learning."
+  },
+  {
+    "title": "Time-Inhomogeneous Volatility Aversion for Financial Applications of Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2602.12030v1",
+    "arxiv_id": "2602.12030v1",
+    "authors": [
+      "Federico Cacciamani",
+      "Roberto Daluiso",
+      "Marco Pinciroli",
+      "Michele Trapletti",
+      "Edoardo Vittori"
+    ],
+    "published": "2026-02-12T15:00:28+00:00",
+    "summary": "In finance, sequential decision problems are often faced, for which reinforcement learning (RL) emerges as a promising tool for optimisation without the need of analytical tractability. However, the objective of classical RL is the expected cumulated reward, while financial applications typically require a trade-off between return and risk. In this work, we focus on settings where one cares about the time split of the total return, ruling out most risk-aware generalisations of RL which optimise a risk measure defined on the latter. We notice that a preference for homogeneous splits, which we found satisfactory for hedging, can be unfit for other problems, and therefore propose a new risk metric which still penalises uncertainty of the single rewards, but allows for an arbitrary planning of their target levels. We study the properties of the resulting objective and the generalisation of learning algorithms to optimise it. Finally, we show numerical results on toy examples."
+  },
+  {
     "title": "Unmasking LHAASO J2108+5157: Near Infrared Insights into a Mysterious TeV Source",
     "url": "http://arxiv.org/abs/2602.11148v1",
     "arxiv_id": "2602.11148v1",
