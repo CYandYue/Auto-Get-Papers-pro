@@ -1,5 +1,168 @@
 [
   {
+    "title": "Profiling systematic uncertainties in Simulation-Based Inference with Factorizable Normalizing Flows",
+    "url": "http://arxiv.org/abs/2602.13184v1",
+    "arxiv_id": "2602.13184v1",
+    "authors": [
+      "Davide Valsecchi",
+      "Mauro Doneg\u00e0",
+      "Rainer Wallny"
+    ],
+    "published": "2026-02-13T18:48:12+00:00",
+    "summary": "Unbinned likelihood fits aim at maximizing the information one can extract from experimental data, yet their application in realistic statistical analyses is often hindered by the computational cost of profiling systematic uncertainties. Additionally, current machine learning-based inference methods are typically limited to estimating scalar parameters in a multidimensional space rather than full differential distributions. We propose a general framework for Simulation-Based Inference (SBI) that efficiently profiles nuisance parameters while measuring multivariate Distributions of Interest (DoI), defined as learnable invertible transformations of the feature space. We introduce Factorizable Normalizing Flows to model systematic variations as parametric deformations of a nominal density, preserving tractability without combinatorial explosion. Crucially, we develop an amortized training strategy that learns the conditional dependence of the DoI on nuisance parameters in a single optimization process, bypassing the need for repetitive training during the likelihood scan. This allows for the simultaneous extraction of the underlying distribution and the robust profiling of nuisances. The method is validated on a synthetic dataset emulating a high-energy physics measurement with multiple systematic sources, demonstrating its potential for unbinned, functional measurements in complex analyses."
+  },
+  {
+    "title": "Optimal Take-off under Fuzzy Clearances",
+    "url": "http://arxiv.org/abs/2602.13166v1",
+    "arxiv_id": "2602.13166v1",
+    "authors": [
+      "Hugo Henry",
+      "Arthur Tsai",
+      "Kelly Cohen"
+    ],
+    "published": "2026-02-13T18:25:24+00:00",
+    "summary": "This paper presents a hybrid obstacle avoidance architecture that integrates Optimal Control under clearance with a Fuzzy Rule Based System (FRBS) to enable adaptive constraint handling for unmanned aircraft. Motivated by the limitations of classical optimal control under uncertainty and the need for interpretable decision making in safety critical aviation systems, we design a three stage Takagi Sugeno Kang fuzzy layer that modulates constraint radii, urgency levels, and activation decisions based on regulatory separation minima and airworthiness guidelines from FAA and EASA. These fuzzy-derived clearances are then incorporated as soft constraints into an optimal control problem solved using the FALCON toolbox and IPOPT. The framework aims to reduce unnecessary recomputations by selectively activating obstacle avoidance updates while maintaining compliance with aviation procedures. A proof of concept implementation using a simplified aircraft model demonstrates that the approach can generate optimal trajectories with computation times of 2,3 seconds per iteration in a single threaded MATLAB environment, suggesting feasibility for near real time applications. However, our experiments revealed a critical software incompatibility in the latest versions of FALCON and IPOPT, in which the Lagrangian penalty term remained identically zero, preventing proper constraint enforcement. This behavior was consistent across scenarios and indicates a solver toolbox regression rather than a modeling flaw. Future work includes validating this effect by reverting to earlier software versions, optimizing the fuzzy membership functions using evolutionary methods, and extending the system to higher fidelity aircraft models and stochastic obstacle environments."
+  },
+  {
+    "title": "SCOPE: Selective Conformal Optimized Pairwise LLM Judging",
+    "url": "http://arxiv.org/abs/2602.13110v1",
+    "arxiv_id": "2602.13110v1",
+    "authors": [
+      "Sher Badshah",
+      "Ali Emami",
+      "Hassan Sajjad"
+    ],
+    "published": "2026-02-13T17:10:43+00:00",
+    "summary": "Large language models (LLMs) are increasingly used as judges to replace costly human preference labels in pairwise evaluation. Despite their practicality, LLM judges remain prone to miscalibration and systematic biases. This paper proposes SCOPE (Selective Conformal Optimized Pairwise Evaluation), a framework for selective pairwise judging with finite-sample statistical guarantees. Under exchangeability, SCOPE calibrates an acceptance threshold such that the error rate among non-abstained judgments is at most a user-specified level $\u03b1$. To provide SCOPE with a bias-neutral uncertainty signal, we introduce Bidirectional Preference Entropy (BPE), which queries the judge under both response positions, aggregates the implied preference probabilities to enforce invariance to response order, and converts the aggregated probability into an entropy-based uncertainty score. Across MT-Bench, RewardBench, and Chatbot Arena, BPE improves uncertainty quality over standard confidence proxies, providing a stronger selection signal that enables SCOPE to consistently meet the target risk level while retaining good coverage across judge scales. In particular, at $\u03b1= 0.10$, \\textsc{Scope} consistently satisfies the risk bound across all benchmarks and judge scales (empirical risk $\\approx 0.097$ to $0.099$), while retaining substantial coverage, reaching $0.89$ on RewardBench with Qwen-14B and $0.98$ on RewardBench with Qwen-32B. Compared to na\u00efve baselines, \\textsc{Scope} accepts up to $2.4\\times$ more judgments on MT-Bench with Qwen-7B under the same target risk constraint, demonstrating that BPE enables reliable and high-coverage LLM-based evaluation."
+  },
+  {
+    "title": "Barron-Wiener-Laguerre models",
+    "url": "http://arxiv.org/abs/2602.13098v1",
+    "arxiv_id": "2602.13098v1",
+    "authors": [
+      "Rahul Manavalan",
+      "Filip Tronarp"
+    ],
+    "published": "2026-02-13T17:02:48+00:00",
+    "summary": "We propose a probabilistic extension of Wiener-Laguerre models for causal operator learning. Classical Wiener-Laguerre models parameterize stable linear dynamics using orthonormal Laguerre bases and apply a static nonlinear map to the resulting features. While structurally efficient and interpretable, they provide only deterministic point estimates. We reinterpret the nonlinear component through the lens of Barron function approximation, viewing two-layer networks, random Fourier features, and extreme learning machines as discretizations of integral representations over parameter measures. This perspective naturally admits Bayesian inference on the nonlinear map and yields posterior predictive uncertainty. By combining Laguerre-parameterized causal dynamics with probabilistic Barron-type nonlinear approximators, we obtain a structured yet expressive class of causal operators equipped with uncertainty quantification. The resulting framework bridges classical system identification and modern measure-based function approximation, providing a principled approach to time-series modeling and nonlinear systems identification."
+  },
+  {
+    "title": "UniManip: General-Purpose Zero-Shot Robotic Manipulation with Agentic Operational Graph",
+    "url": "http://arxiv.org/abs/2602.13086v1",
+    "arxiv_id": "2602.13086v1",
+    "authors": [
+      "Haichao Liu",
+      "Yuanjiang Xue",
+      "Yuheng Zhou",
+      "Haoyuan Deng",
+      "Yinan Liang",
+      "Lihua Xie",
+      "Ziwei Wang"
+    ],
+    "published": "2026-02-13T16:47:26+00:00",
+    "summary": "Achieving general-purpose robotic manipulation requires robots to seamlessly bridge high-level semantic intent with low-level physical interaction in unstructured environments. However, existing approaches falter in zero-shot generalization: end-to-end Vision-Language-Action (VLA) models often lack the precision required for long-horizon tasks, while traditional hierarchical planners suffer from semantic rigidity when facing open-world variations. To address this, we present UniManip, a framework grounded in a Bi-level Agentic Operational Graph (AOG) that unifies semantic reasoning and physical grounding. By coupling a high-level Agentic Layer for task orchestration with a low-level Scene Layer for dynamic state representation, the system continuously aligns abstract planning with geometric constraints, enabling robust zero-shot execution. Unlike static pipelines, UniManip operates as a dynamic agentic loop: it actively instantiates object-centric scene graphs from unstructured perception, parameterizes these representations into collision-free trajectories via a safety-aware local planner, and exploits structured memory to autonomously diagnose and recover from execution failures. Extensive experiments validate the system's robust zero-shot capability on unseen objects and tasks, demonstrating a 22.5% and 25.0% higher success rate compared to state-of-the-art VLA and hierarchical baselines, respectively. Notably, the system enables direct zero-shot transfer from fixed-base setups to mobile manipulation without fine-tuning or reconfiguration. Our open-source project page can be found at https://henryhcliu.github.io/unimanip."
+  },
+  {
+    "title": "Agentic AI for Robot Control: Flexible but still Fragile",
+    "url": "http://arxiv.org/abs/2602.13081v1",
+    "arxiv_id": "2602.13081v1",
+    "authors": [
+      "Oscar Lima",
+      "Marc Vinci",
+      "Martin G\u00fcnther",
+      "Marian Renz",
+      "Alexander Sung",
+      "Sebastian Stock",
+      "Johannes Brust",
+      "Lennart Niecksch",
+      "Zongyao Yi",
+      "Felix Igelbrink",
+      "Benjamin Kisliuk",
+      "Martin Atzmueller",
+      "Joachim Hertzberg"
+    ],
+    "published": "2026-02-13T16:43:34+00:00",
+    "summary": "Recent work leverages the capabilities and commonsense priors of generative models for robot control. In this paper, we present an agentic control system in which a reasoning-capable language model plans and executes tasks by selecting and invoking robot skills within an iterative planner and executor loop. We deploy the system on two physical robot platforms in two settings: (i) tabletop grasping, placement, and box insertion in indoor mobile manipulation (Mobipick) and (ii) autonomous agricultural navigation and sensing (Valdemar). Both settings involve uncertainty, partial observability, sensor noise, and ambiguous natural-language commands. The system exposes structured introspection of its planning and decision process, reacts to exogenous events via explicit event checks, and supports operator interventions that modify or redirect ongoing execution. Across both platforms, our proof-of-concept experiments reveal substantial fragility, including non-deterministic suboptimal behavior, instruction-following errors, and high sensitivity to prompt specification. At the same time, the architecture is flexible: transfer to a different robot and task domain largely required updating the system prompt (domain model, affordances, and action catalogue) and re-binding the same tool interface to the platform-specific skill API."
+  },
+  {
+    "title": "Photometric classification of supernovae detected by the Zwicky Transient Facility using noise augmentation",
+    "url": "http://arxiv.org/abs/2602.13036v1",
+    "arxiv_id": "2602.13036v1",
+    "authors": [
+      "A. Townsend",
+      "J. Nordin",
+      "M. Kowalski",
+      "S. Reusch",
+      "J. P. Anderson",
+      "E. C. Bellm",
+      "U. Burgaz",
+      "T. X. Chen",
+      "T. -W. Chen",
+      "G. Dimitriadis",
+      "L. Galbany",
+      "A. Goobar",
+      "M. J. Graham",
+      "M. Gromadzki",
+      "C. P. Guti\u00e9rrez",
+      "D. Hale",
+      "C. Inserra",
+      "M. Kasliwal",
+      "Y. -L. Kim",
+      "K. Maguire",
+      "F. J. Masci",
+      "T. E. M\u00fcller-Bravo",
+      "D. A. Perley",
+      "R. L. Riddle",
+      "M. Rigault",
+      "J. van Santen",
+      "S. Schulze",
+      "M. Smith",
+      "J. Sollerman",
+      "S. Yang"
+    ],
+    "published": "2026-02-13T15:45:35+00:00",
+    "summary": "Modern time-domain surveys, such as the Zwicky Transient Facility (ZTF), detect far more extragalactic transients than can be spectroscopically classified. Photometric classification offers a scalable alternative, enabling the identification of larger, fainter, and higher-redshift supernova samples suitable for applications such as Type Ia supernova (SN Ia) cosmology. We present a feature-based photometric classifier for SNe detected by ZTF, with the primary goal of constructing a photometric SN Ia sample for cosmological analyses. Our approach utilises the autoencoder architecture of ParSNIP (Boone 2021) to capture the intrinsic diversity of SN light curves. We trained the model on a spectroscopically classified ZTF SN sample, incorporating a realistic noise augmentation procedure that simulates the flux uncertainties of fainter sources. Light curve features were used to train a gradient-boosted decision tree classifier, implemented in both binary (SN Ia vs. non-Ia) and multi-class configurations. We validated our classifier on independent, fainter ZTF data with and without noise augmentation. To evaluate real-time performance, we also applied our classifier to live ZTF alerts and conducted a spectroscopic classification survey within the ePESSTO+ collaboration. We found that noise augmentation significantly improves classification performance, particularly for fainter sources. Our binary classifier achieves an SN Ia recall of (98.1 $\\pm$ 0.4)%, averaged across five train-test splits. SN Ia recall exceeds 98% for events with a peak apparent magnitude up to 20 and more than 10 detections, and remains above 96% up to magnitude 20.5. Overall, 95% of sources were correctly classified in both binary and multi-class modes. Our classifier performs efficiently on real ZTF data and enables construction of a large photometric SN Ia sample for cosmology."
+  },
+  {
+    "title": "Look Inward to Explore Outward: Learning Temperature Policy from LLM Internal States via Hierarchical RL",
+    "url": "http://arxiv.org/abs/2602.13035v1",
+    "arxiv_id": "2602.13035v1",
+    "authors": [
+      "Yixiao Zhou",
+      "Yang Li",
+      "Dongzhou Cheng",
+      "Hehe Fan",
+      "Yu Cheng"
+    ],
+    "published": "2026-02-13T15:42:59+00:00",
+    "summary": "Reinforcement Learning from Verifiable Rewards (RLVR) trains large language models (LLMs) from sampled trajectories, making decoding strategy a core component of learning rather than a purely inference-time choice. Sampling temperature directly controls the exploration--exploitation trade-off by modulating policy entropy, yet existing methods rely on static values or heuristic adaptations that are decoupled from task-level rewards. We propose Introspective LLM, a hierarchical reinforcement learning framework that learns to control sampling temperature during generation. At each decoding step, the model selects a temperature based on its hidden state and samples the next token from the resulting distribution. Temperature and token policies are jointly optimized from downstream rewards using a coordinate ascent scheme. Experiments on mathematical reasoning benchmarks show that learned temperature policies outperform fixed and heuristic baselines, while exhibiting interpretable exploration behaviors aligned with reasoning uncertainty."
+  },
+  {
+    "title": "Bayesian Optimization Based Grid Point Allocation for LPV and Robust Control",
+    "url": "http://arxiv.org/abs/2602.13009v1",
+    "arxiv_id": "2602.13009v1",
+    "authors": [
+      "E. Javier Olucha",
+      "Arash Sadeghzadeh",
+      "Amritam Das",
+      "Roland T\u00f3th"
+    ],
+    "published": "2026-02-13T15:16:48+00:00",
+    "summary": "This paper investigates systematic selection of optimal grid points for grid-based Linear Parameter-Varying (LPV) and robust controller synthesis. In both settings, the objective is to identify a set of local models such that the controller synthesized for these local models will satisfy global stability and performance requirements for the entire system. Here, local models correspond to evaluations of the LPV or uncertain plant at fixed values of the scheduling signal or realizations of the uncertainty set, respectively. Then, Bayesian optimization is employed to discover the most informative points that govern the closed-loop performance of the designed LPV or robust controller for the complete system until no significant further performance increase or a user specified limit is reached. Furthermore, when local model evaluations are computationally demanding or difficult to obtain, the proposed method is capable to minimize the number of evaluations and adjust the overall computational cost to the available budget. Lastly, the capabilities of the proposed method in automatically obtaining a sufficiently informative grid set are demonstrated on three case-studies: a robust controller design for an unbalanced disk, a multi-objective robust attitude controller design for a satellite with uncertain parameters and two flexible rotating solar arrays, and an LPV controller design for a robotic arm."
+  },
+  {
+    "title": "Uncertainty in Federated Granger Causality: From Origins to Systemic Consequences",
+    "url": "http://arxiv.org/abs/2602.13004v1",
+    "arxiv_id": "2602.13004v1",
+    "authors": [
+      "Ayush Mohanty",
+      "Nazal Mohamed",
+      "Nagi Gebraeel"
+    ],
+    "published": "2026-02-13T15:12:18+00:00",
+    "summary": "Granger Causality (GC) provides a rigorous framework for learning causal structures from time-series data. Recent federated variants of GC have targeted distributed infrastructure applications (e.g., smart grids) with distributed clients that generate high-dimensional data bound by data-sovereignty constraints. However, Federated GC algorithms only yield deterministic point estimates of causality and neglect uncertainty. This paper establishes the first methodology for rigorously quantifying uncertainty and its propagation within federated GC frameworks. We systematically classify sources of uncertainty, explicitly differentiating aleatoric (data noise) from epistemic (model variability) effects. We derive closed-form recursions that model the evolution of uncertainty through client-server interactions and identify four novel cross-covariance components that couple data uncertainties with model parameter uncertainties across the federated architecture. We also define rigorous convergence conditions for these uncertainty recursions and obtain explicit steady-state variances for both server and client model parameters. Our convergence analysis demonstrates that steady-state variances depend exclusively on client data statistics, thus eliminating dependence on initial epistemic priors and enhancing robustness. Empirical evaluations on synthetic benchmarks and real-world industrial datasets demonstrate that explicitly characterizing uncertainty significantly improves the reliability and interpretability of federated causal inference."
+  },
+  {
     "title": "Agentic Test-Time Scaling for WebAgents",
     "url": "http://arxiv.org/abs/2602.12276v1",
     "arxiv_id": "2602.12276v1",
