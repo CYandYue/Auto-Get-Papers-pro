@@ -1,5 +1,132 @@
 [
   {
+    "title": "Sub-part-per-trillion test of the Standard Model with atomic hydrogen",
+    "url": "http://arxiv.org/abs/2602.14980v1",
+    "arxiv_id": "2602.14980v1",
+    "authors": [
+      "Lothar Maisenbacher",
+      "Vitaly Wirthl",
+      "Arthur Matveev",
+      "Alexey Grinin",
+      "Randolf Pohl",
+      "Theodor W. H\u00e4nsch",
+      "Thomas Udem"
+    ],
+    "published": "2026-02-16T18:03:23+00:00",
+    "summary": "Quantum electrodynamics (QED), the first relativistic quantum field theory, describes light-matter interactions at a fundamental level and is one of the pillars of the Standard Model (SM). Through the extraordinary precision of QED, the SM predicts the energy levels of simple systems such as the hydrogen atom with up to 13 significant digits, making hydrogen spectroscopy an ideal test bed. The consistency of physical constants extracted from different transitions in hydrogen using QED, such as the proton charge radius $r_\\mathrm{p}$, constitutes a test of the theory. However, values of $r_\\mathrm{p}$ from recent measurements of atomic hydrogen are partly discrepant with each other and with a more precise value from spectroscopy of muonic hydrogen. This prevents a test of QED at the level of experimental uncertainties. Here we present a measurement of the 2S-6P transition in atomic hydrogen with sufficient precision to distinguish between the discrepant values of $r_\\mathrm{p}$ and enable rigorous testing of QED and the SM overall. Our result $\u03bd^{}_{\\text{2S-6P}}$ = 730,690,248,610.79(48) kHz gives a value of $r_\\mathrm{p}$ = 0.8406(15) fm at least 2.5-fold more precise than from other atomic hydrogen determinations and in excellent agreement with the muonic value. The SM prediction of the transition frequency (730,690,248,610.79(23) kHz) is in excellent agreement with our result, testing the SM to 0.7 parts per trillion (ppt) and, specifically, bound-state QED corrections to 0.5 parts per million (ppm), their most precise test so far."
+  },
+  {
+    "title": "Kalman Filtering Based Flight Management System Modeling for AAM Aircraft",
+    "url": "http://arxiv.org/abs/2602.14948v1",
+    "arxiv_id": "2602.14948v1",
+    "authors": [
+      "Balram Kandoria",
+      "Aryaman Singh Samyal"
+    ],
+    "published": "2026-02-16T17:29:05+00:00",
+    "summary": "Advanced Aerial Mobility (AAM) operations require strategic flight planning services that predict both spatial and temporal uncertainties to safely validate flight plans against hazards such as weather cells, restricted airspaces, and CNS disruption areas. Current uncertainty estimation methods for AAM vehicles rely on conservative linear models due to limited real-world performance data. This paper presents a novel Kalman Filter-based uncertainty propagation method that models AAM Flight Management System (FMS) architectures through sigmoid-blended measurement noise covariance. Unlike existing approaches with fixed uncertainty thresholds, our method continuously adapts the filter's measurement trust based on progress toward waypoints, enabling FMS correction behavior to emerge naturally. The approach scales proportionally with control inputs and is tunable to match specific aircraft characteristics or route conditions. We validate the method using real ADS-B data from general aviation aircraft divided into training and verification sets. Uncertainty propagation parameters were tuned on the training set, achieving 76% accuracy in predicting arrival times when compared against the verification dataset, demonstrating the method's effectiveness for strategic flight plan validation in AAM operations."
+  },
+  {
+    "title": "Activation-Space Uncertainty Quantification for Pretrained Networks",
+    "url": "http://arxiv.org/abs/2602.14934v1",
+    "arxiv_id": "2602.14934v1",
+    "authors": [
+      "Richard Bergna",
+      "Stefan Depeweg",
+      "Sergio Calvo-Ordo\u00f1ez",
+      "Jonathan Plenk",
+      "Alvaro Cartea",
+      "Jose Miguel Hern\u00e1ndez-Lobato"
+    ],
+    "published": "2026-02-16T17:17:08+00:00",
+    "summary": "Reliable uncertainty estimates are crucial for deploying pretrained models; yet, many strong methods for quantifying uncertainty require retraining, Monte Carlo sampling, or expensive second-order computations and may alter a frozen backbone's predictions. To address this, we introduce Gaussian Process Activations (GAPA), a post-hoc method that shifts Bayesian modeling from weights to activations. GAPA replaces standard nonlinearities with Gaussian-process activations whose posterior mean exactly matches the original activation, preserving the backbone's point predictions by construction while providing closed-form epistemic variances in activation space. To scale to modern architectures, we use a sparse variational inducing-point approximation over cached training activations, combined with local k-nearest-neighbor subset conditioning, enabling deterministic single-pass uncertainty propagation without sampling, backpropagation, or second-order information. Across regression, classification, image segmentation, and language modeling, GAPA matches or outperforms strong post-hoc baselines in calibration and out-of-distribution detection while remaining efficient at test time."
+  },
+  {
+    "title": "Coverage Guarantees for Pseudo-Calibrated Conformal Prediction under Distribution Shift",
+    "url": "http://arxiv.org/abs/2602.14913v1",
+    "arxiv_id": "2602.14913v1",
+    "authors": [
+      "Farbod Siahkali",
+      "Ashwin Verma",
+      "Vijay Gupta"
+    ],
+    "published": "2026-02-16T16:48:39+00:00",
+    "summary": "Conformal prediction (CP) offers distribution-free marginal coverage guarantees under an exchangeability assumption, but these guarantees can fail if the data distribution shifts. We analyze the use of pseudo-calibration as a tool to counter this performance loss under a bounded label-conditional covariate shift model. Using tools from domain adaptation, we derive a lower bound on target coverage in terms of the source-domain loss of the classifier and a Wasserstein measure of the shift. Using this result, we provide a method to design pseudo-calibrated sets that inflate the conformal threshold by a slack parameter to keep target coverage above a prescribed level. Finally, we propose a source-tuned pseudo-calibration algorithm that interpolates between hard pseudo-labels and randomized labels as a function of classifier uncertainty. Numerical experiments show that our bounds qualitatively track pseudo-calibration behavior and that the source-tuned scheme mitigates coverage degradation under distribution shift while maintaining nontrivial prediction set sizes."
+  },
+  {
+    "title": "Tarnished by Tools: Cost of Systematics in Golden Dark Siren Cosmology",
+    "url": "http://arxiv.org/abs/2602.14898v1",
+    "arxiv_id": "2602.14898v1",
+    "authors": [
+      "Giovanni Benetti",
+      "Koustav Chandra",
+      "Bangalore S. Sathyaprakash"
+    ],
+    "published": "2026-02-16T16:34:30+00:00",
+    "summary": "Golden dark sirens - exceptionally well-localized gravitational-wave (GW) sources without electromagnetic counterparts - offer a powerful route to precision measurements of the Hubble constant, $H_0$, with next-generation (XG) detectors. The statistical promise of this method, however, places stringent demands on waveform accuracy and detector calibration, as even small systematic errors can dominate over statistical uncertainties at high signal-to-noise ratios. We investigate the impact of waveform-modeling systematics on golden dark siren cosmology using a synthetic population of binary black holes consistent with current GW observations and analyzed in the XG-detector era. By comparing state-of-the-art waveform models against numerical-relativity-based reference signals, we quantify modeling inaccuracies from both modeling and data-analysis perspectives and assess how they propagate into biases in luminosity distance, host-galaxy association, and single-event $H_0$ inference. We find that while current waveform models often allow recovery of statistically consistent $H_0$ posteriors, small waveform-induced biases can significantly affect three-dimensional localization and host galaxy ranking, occasionally leading to incorrect redshift assignments. We further derive order-of-magnitude requirements on detector calibration accuracy needed to ensure that calibration systematics remain subdominant for golden dark sirens observed with XG networks. To realize sub-percent $H_0$ measurements with golden dark sirens will require waveform and calibration accuracies that scale as $\\mathcal{O}(\u03c1^{-2})$ with signal-to-noise ratio, motivating sustained advances in waveform modeling, numerical relativity, and detector calibration for the XG era."
+  },
+  {
+    "title": "Recalibrating the Sensitivities of the STIS First-Order, Medium-Resolution Modes",
+    "url": "http://arxiv.org/abs/2602.14891v1",
+    "arxiv_id": "2602.14891v1",
+    "authors": [
+      "Alex Fullerton"
+    ],
+    "published": "2026-02-16T16:27:55+00:00",
+    "summary": "The sensitivities of STIS first-order, medium resolution modes were redetermined from on-orbit observations and CALSPEC models (version 11) of the primary white-dwarf spectrophotometric standard stars G191-B2B, GD 71, and GD 153. The sensitivity of an additional configuration was updated by comparing observations of the secondary standard BD +75 325 with the STIS low-resolution spectrum that has been calibrated consistently with the version 11 models. The procedures used to derive the sensitivities and verify the PHOTTAB reference files prior to their activation in CRDS (on May 1, 2025) are described. Results are presented in graphical form in an extensive appendix. Issues and uncertainties are discussed briefly, along with recommendations for future work."
+  },
+  {
+    "title": "The Well-Tempered Classifier: Some Elementary Properties of Temperature Scaling",
+    "url": "http://arxiv.org/abs/2602.14862v1",
+    "arxiv_id": "2602.14862v1",
+    "authors": [
+      "Pierre-Alexandre Mattei",
+      "Bruno Loureiro"
+    ],
+    "published": "2026-02-16T15:54:52+00:00",
+    "summary": "Temperature scaling is a simple method that allows to control the uncertainty of probabilistic models. It is mostly used in two contexts: improving the calibration of classifiers and tuning the stochasticity of large language models (LLMs). In both cases, temperature scaling is the most popular method for the job. Despite its popularity, a rigorous theoretical analysis of the properties of temperature scaling has remained elusive. We investigate here some of these properties. For classification, we show that increasing the temperature increases the uncertainty in the model in a very general sense (and in particular increases its entropy). However, for LLMs, we challenge the common claim that increasing temperature increases diversity. Furthermore, we introduce two new characterisations of temperature scaling. The first one is geometric: the tempered model is shown to be the information projection of the original model onto the set of models with a given entropy. The second characterisation clarifies the role of temperature scaling as a submodel of more general linear scalers such as matrix scaling and Dirichlet calibration: we show that temperature scaling is the only linear scaler that does not change the hard predictions of the model."
+  },
+  {
+    "title": "High-precision measurement of $^{215}$Po half-life via delayed-coincidence analysis",
+    "url": "http://arxiv.org/abs/2602.14829v1",
+    "arxiv_id": "2602.14829v1",
+    "authors": [
+      "Lorenzo Ascenzo",
+      "Melissa Hoda Baiocchi",
+      "Giovanni Benato",
+      "Yingjie Chu",
+      "Giuseppe Di Carlo",
+      "Andrea Molinario",
+      "Silvia Vernetto"
+    ],
+    "published": "2026-02-16T15:21:28+00:00",
+    "summary": "We performed a high-precision study of the $^{215}$ Po $\u03b1$-decay using a LaBr$_3$ scintillating detector in a low-background environment. The $^{227}$Ac intrinsic contamination in the LaBr$_3$ crystal undergoes a decay chain, producing the intermediate pair of $^{219}$Rn$\\rightarrow^{215}$Po$\\rightarrow^{211}$Pb decays. The fast time response and good energy resolution of the detector allow for extracting the short half-life of $^{215}$Po from the time correlation of the two subsequent $\u03b1$-decays by using the delayed coincidence method. Thanks to high statistics and a comprehensive uncertainty assessment, we obtain the most precise half-life value to date of $^{215}$Po, corresponding to $1.77804\\pm0.00091$(stat.)$\\pm0.00067$(syst.) ms."
+  },
+  {
+    "title": "The impact of the formation channel on gravitational-wave-galaxy cross-correlations",
+    "url": "http://arxiv.org/abs/2602.14825v1",
+    "arxiv_id": "2602.14825v1",
+    "authors": [
+      "Kabir Chakravarti",
+      "Federico R. Urban"
+    ],
+    "published": "2026-02-16T15:18:24+00:00",
+    "summary": "The angular, harmonic cross-correlation between gravitational wave (GW) events and galaxy catalogues contains rich information on the large-scale structure and the origin of compact binary mergers. In this work, we study how uncertainties in the binary formation channel affect the predicted cross-correlation signal for both current-generation and next-generation networks of detectors. We generate five mock GW catalogues for which we vary the progenitor-to-remnant mass-transfer function and the time-delay probability distribution between progenitor and remnant. We then cross-correlate these catalogues with galaxy samples modelled on the 2MASS Photometric Redshift catalogue (2MPZ) and the Gaia-unWISE quasar catalogue (Quaia). We find that the mass-transfer function has negligible effect on the cross-correlation signal, with differences remaining within redshift uncertainties. In contrast, the time-delay distribution dramatically affects the redshift distribution of the GW events and, with it, the cross-correlation signal, particularly for shallow galaxy catalogues. In particular, current-generation facilities can achieve significant detections only for the longest time delays when cross-correlated with 2MPZ, whilst all cross-correlations with the deeper Quaia catalogue are marginally detectable or consistent with zero. Our exploratory results thus demonstrate that forecasts on cosmological or astrophysical parameters derived from GW-galaxy cross-correlations are, as expected, strongly sensitive to the assumed binary formation history."
+  },
+  {
+    "title": "The empirical distribution of sequential LS factors in Multi-level Dynamic Factor Models",
+    "url": "http://arxiv.org/abs/2602.14813v1",
+    "arxiv_id": "2602.14813v1",
+    "authors": [
+      "Gian Pietro Bellocca",
+      "Ignacio Garr\u00f3n",
+      "Vladimir Rodr\u00edguez-Caballero",
+      "Esther Ruiz"
+    ],
+    "published": "2026-02-16T15:07:20+00:00",
+    "summary": "The research question we answer in this paper is whether the asymptotic distribution derived by Bai (2003) for Principal Components (PC) factors in dynamic factor models (DFMs) can approximate the empirical distribution of the sequential Least Squares (SLS) estimator of global and group-specific factors in multi-level dynamic factor models (ML-DFMs). Monte Carlo experiments confirm that under general forms of the idiosyncratic covariance matrix, the finite-sample distribution of SLS global and group-specific factors can be well approximated using the asymptotic distribution of PC factors. We also analyse the performance of alternative estimators of the asymptotic mean squared error (MSE) of the SLS factors and show that the MSE estimator that allows for idiosyncratic cross-sectional correlation and accounts for estimation uncertainty of factor loadings is best."
+  },
+  {
     "title": "Profiling systematic uncertainties in Simulation-Based Inference with Factorizable Normalizing Flows",
     "url": "http://arxiv.org/abs/2602.13184v1",
     "arxiv_id": "2602.13184v1",
