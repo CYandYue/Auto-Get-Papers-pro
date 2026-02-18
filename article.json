@@ -1,5 +1,138 @@
 [
   {
+    "title": "Deformed Heisenberg algebra and its Hilbert space representations",
+    "url": "http://arxiv.org/abs/2602.15801v1",
+    "arxiv_id": "2602.15801v1",
+    "authors": [
+      "Lat\u00e9vi M. Lawson",
+      "Ibrahim Nonkan\u00e9",
+      "Kinvi Kangni"
+    ],
+    "published": "2026-02-17T18:41:30+00:00",
+    "summary": "A deformation of Heisenberg algebra induces among other consequences a loss of Hermiticity of some operators that generate this algebra. Therefore, these operators are not Hermitian, nor is the Hamiltonian operator built from them. In the present paper, we propose a position deformation of Heisenberg algebra with both maximal length and minimal momentum uncertainties. By using a pseudo-similarity transformation to the non-Hermitian operators, we prove their Hermiticity with a suitable positive-definite pseudo-metric operator. We then construct Hilbert space representations associated with these pseudo-Hermitian operators. Finally, we study the eigenvalue problem of a free particle in this deformed space and we show that this deformation curved the quantum levels allowing particles to jump from one state to another with low energy transitions."
+  },
+  {
+    "title": "Development of an accurate formalism to predict properties of two-neutron halo nuclei: case study of $^{22}$C",
+    "url": "http://arxiv.org/abs/2602.15765v1",
+    "arxiv_id": "2602.15765v1",
+    "authors": [
+      "Patrick McGlynn",
+      "Chlo\u00eb Hebborn"
+    ],
+    "published": "2026-02-17T17:55:43+00:00",
+    "summary": "When moving away from stability or in loosely-bound systems, few-body clusterized structures like two-neutron halo nuclei appear. These emerge from the interplay between the many- and few-body degrees of freedom, and/or strong coupling between bound and continuum states. This motivates the development of models that can accurately describe few-body dynamics while enforcing shell effects. This work has two goals: understanding how to accurately enforce the Pauli principle in few-body models, as well as presenting new technical developments that allow for more robust and cheaper three-body calculations. We focus on properties of the two-neutron halo 22C, but expect the conclusions to apply to other few-body systems. We use a three-body, hyperspherical harmonics formalism combined with the R-matrix method. We compare predictions for properties of 22C starting from phenomenological interactions and using two methods to remove Pauli-forbidden states, the projection and supersymmetric methods. We also present the algorithms and derivations used. Additionally, we explore model space truncations that allow for reduced computational time. We show convergence of the calculation of both bound and scattering states for $K_{max}\\sim 40$. The two methods to enforce the Pauli-exclusion principle lead to different predictions of 22C properties; the projection method is more accurate. We find one efficient channel truncation that reduces the computational cost of our calculations by 20%. Our study clarifies that the projection method is more accurate than the supersymmetric one to enforce the Pauli-exclusion principle. Technical and algorithmic developments enable accurate and efficient computation of two-neutron halo properties. This development paves the way to robust uncertainty quantification in three-body predictions, and is a useful starting point to tackle more complex systems and observables."
+  },
+  {
+    "title": "RaCo: Ranking and Covariance for Practical Learned Keypoints",
+    "url": "http://arxiv.org/abs/2602.15755v1",
+    "arxiv_id": "2602.15755v1",
+    "authors": [
+      "Abhiram Shenoi",
+      "Philipp Lindenberger",
+      "Paul-Edouard Sarlin",
+      "Marc Pollefeys"
+    ],
+    "published": "2026-02-17T17:39:52+00:00",
+    "summary": "This paper introduces RaCo, a lightweight neural network designed to learn robust and versatile keypoints suitable for a variety of 3D computer vision tasks. The model integrates three key components: the repeatable keypoint detector, a differentiable ranker to maximize matches with a limited number of keypoints, and a covariance estimator to quantify spatial uncertainty in metric scale. Trained on perspective image crops only, RaCo operates without the need for covisible image pairs. It achieves strong rotational robustness through extensive data augmentation, even without the use of computationally expensive equivariant network architectures. The method is evaluated on several challenging datasets, where it demonstrates state-of-the-art performance in keypoint repeatability and two-view matching, particularly under large in-plane rotations. Ultimately, RaCo provides an effective and simple strategy to independently estimate keypoint ranking and metric covariance without additional labels, detecting interpretable and repeatable interest points. The code is available at https://github.com/cvg/RaCo."
+  },
+  {
+    "title": "How to Train a Shallow Ensemble",
+    "url": "http://arxiv.org/abs/2602.15747v1",
+    "arxiv_id": "2602.15747v1",
+    "authors": [
+      "Moritz Sch\u00e4fer",
+      "Matthias Kellner",
+      "Johannes K\u00e4stner",
+      "Michele Ceriotti"
+    ],
+    "published": "2026-02-17T17:21:45+00:00",
+    "summary": "Shallow ensembles provide a convenient strategy for uncertainty quantification in machine learning interatomic potentials, that is computationally efficient because the different ensemble members share a large part of the model weights. In this work, we systematically investigate training strategies for shallow ensembles to balance calibration performance with computational cost. We first demonstrate that explicit optimization of a negative log-likelihood (NLL) loss improves calibration with respect to approaches based on ensembles of randomly initialized models, or on a last-layer Laplace approximation. However, models trained solely on energy objectives yield miscalibrated force estimates. We show that explicitly modeling force uncertainties via an NLL objective is essential for reliable calibration, though it typically incurs a significant computational overhead. To address this, we validate an efficient protocol: full-model fine-tuning of a shallow ensemble originally trained with a probabilistic energy loss, or one sampled from the Laplace posterior. This approach results in negligible reduction in calibration quality compared to training from scratch, while reducing training time by up to 96%. We evaluate this protocol across a diverse range of materials, including amorphous carbon, ionic liquids (BMIM), liquid water (H$_2$O), barium titanate (BaTiO$_3$), and a model tetrapeptide (Ac-Ala3-NHMe), establishing practical guidelines for reliable uncertainty quantification in atomistic machine learning."
+  },
+  {
+    "title": "Lifelong Scalable Multi-Agent Realistic Testbed and A Comprehensive Study on Design Choices in Lifelong AGV Fleet Management Systems",
+    "url": "http://arxiv.org/abs/2602.15721v1",
+    "arxiv_id": "2602.15721v1",
+    "authors": [
+      "Jingtian Yan",
+      "Yulun Zhang",
+      "Zhenting Liu",
+      "Han Zhang",
+      "He Jiang",
+      "Jingkai Chen",
+      "Stephen F. Smith",
+      "Jiaoyang Li"
+    ],
+    "published": "2026-02-17T16:53:20+00:00",
+    "summary": "We present Lifelong Scalable Multi-Agent Realistic Testbed (LSMART), an open-source simulator to evaluate any Multi-Agent Path Finding (MAPF) algorithm in a Fleet Management System (FMS) with Automated Guided Vehicles (AGVs). MAPF aims to move a group of agents from their corresponding starting locations to their goals. Lifelong MAPF (LMAPF) is a variant of MAPF that continuously assigns new goals for agents to reach. LMAPF applications, such as autonomous warehouses, often require a centralized, lifelong system to coordinate the movement of a fleet of robots, typically AGVs. However, existing works on MAPF and LMAPF often assume simplified kinodynamic models, such as pebble motion, as well as perfect execution and communication for AGVs. Prior work has presented SMART, a software capable of evaluating any MAPF algorithms while considering agent kinodynamics, communication delays, and execution uncertainties. However, SMART is designed for MAPF, not LMAPF. Generalizing SMART to an FMS requires many more design choices. First, an FMS parallelizes planning and execution, raising the question of when to plan. Second, given planners with varying optimality and differing agent-model assumptions, one must decide how to plan. Third, when the planner fails to return valid solutions, the system must determine how to recover. In this paper, we first present LSMART, an open-source simulator that incorporates all these considerations to evaluate any MAPF algorithms in an FMS. We then provide experiment results based on state-of-the-art methods for each design choice, offering guidance on how to effectively design centralized lifelong AGV Fleet Management Systems. LSMART is available at https://smart-mapf.github.io/lifelong-smart."
+  },
+  {
+    "title": "Hot subdwarf stars from the Hamburg Quasar Survey",
+    "url": "http://arxiv.org/abs/2602.15692v1",
+    "arxiv_id": "2602.15692v1",
+    "authors": [
+      "Ulrich Heber",
+      "Lennard Kufleitner",
+      "Matti Dorsch",
+      "Marilyn Latour",
+      "Harry Dawson",
+      "Fabian Mattig",
+      "Stephan Geier"
+    ],
+    "published": "2026-02-17T16:20:07+00:00",
+    "summary": "Hot subluminous stars (sdO/B) are evolved low mass stars originating from red giants that lost their envelope almost entirely. The multitude of observed phenomena imply that several pathways may form hot subdwarfs, most involving close binary channels. The Hamburg Quasar Survey (HQS) led to the discovery of many faint blue stars including hot subdwarf. Many of the HQS-sdB stars have been studied in detail, but analyses of the helium-rich sdOB and sdO stars are lacking. The recent development of hybrid LTE/non-LTE model spectra 2nd generation Bamberg model grids enables us to improve the spectroscopic analyses of the sdB stars as well as of the previously unstudied sdO stars allowing precise atmospheric parameters to be derived, while consistently accounting for parameter correlations and systematic uncertainties. ... We use spectral energy distributions to identify composite-colour sdB binaries and present the result of detailed spectroscopic analyses of 122 non-composite subdwarfs from the HQS to identify potential evolutionary pathways. ...Their derived mass distribution and median mass of 0.45 Msun is consistent with the canonical EHB mass. ... The helium-rich sdOB and sdO stars, are found near the helium main-sequence (He-MS). The derived mass distribution of the extremely He-rich subdwarfs is broader (0.48 to 1.05 Msun) and peaks at a median of 0.70 Msun, significantly larger than those of the hydrogen-rich stars. Intermediate He-rich subdwarfs are also He-MS stars, but of lower mass (0.55 Msun) than the extremely He-rich. This strongly supports the merger scenario for the origin of He-rich sdO stars, in which two helium white dwarfs merge following orbital decay driven by gravitational-wave emission, producing a He-rich sdO or sdOB star. From comparison to the results of similar studies we speculate that older populations produce more massive He-WD mergers.(abbreviated)"
+  },
+  {
+    "title": "Dosimetric Study of Lung Modulation and Motion Effects in Carbon ion Therapy for Lung Cancer",
+    "url": "http://arxiv.org/abs/2602.15672v1",
+    "arxiv_id": "2602.15672v1",
+    "authors": [
+      "Maria Chiara Martire",
+      "Lennart Volz",
+      "Marco Durante",
+      "Christian Graeff"
+    ],
+    "published": "2026-02-17T15:55:04+00:00",
+    "summary": "Carbon-ion radiotherapy provides high dose conformity for lung cancer, but its benefit is limited by two sources of uncertainties: interplay between scanned beam delivery and tumor motion, and dose modulation from heterogeneous lung tissue. This study quantifies the separate and combined dosimetric impact of these effects using the GSI TRiP4D treatment planning system. Eighteen lung cancer 4DCT datasets from TCIA were analyzed. A modulation power ($P_{\\mathrm{mod}}$) was assigned to lung voxels. Three values were sampled from a Gaussian distribution ($200\u03bc\\mathrm{m} \\pm 67\u03bc\\mathrm{m}$), and an extreme value of $750\u03bc\\mathrm{m}$ was tested. Interplay doses were computed by combining scanned-beam delivery with patient-specific respiratory motion. Four scenarios were studied: static, static with modulation, interplay, and interplay with modulation. Metrics included $D95\\%$, $V95\\%$, homogeneity index (HI), lung $V16\\mathrm{Gy}$, and heart $V20\\mathrm{Gy}$. Interplay reduced target coverage by $5.2 \\pm 1.5$ pp ($D95\\%$), $12.1 \\pm 5.9$ pp ($V95\\%$), and $8.3 \\pm 2.4$ pp (HI). Extreme $P_{\\mathrm{mod}}$ alone caused small degradations. When combined with interplay, it partially compensated the loss. This effect decreased with 4D optimization. Fractionation mitigated interplay, leaving lung modulation as the main residual effect."
+  },
+  {
+    "title": "Reinforcement Learning in Real Option Models",
+    "url": "http://arxiv.org/abs/2602.15643v1",
+    "arxiv_id": "2602.15643v1",
+    "authors": [
+      "Jodi Dianetti",
+      "Giorgio Ferrari",
+      "Renyuan Xu"
+    ],
+    "published": "2026-02-17T15:10:51+00:00",
+    "summary": "We investigate an entropy-regularized reinforcement learning (RL) approach to optimal stopping problems motivated by real option models. Classical stopping rules are strict and non-randomized, limiting natural exploration in RL settings. To address this, we introduce entropy regularization, allowing randomized stopping policies that balance exploitation and exploration. We derive an explicit analytical solution to the regularized problem and prove convergence of the associated free boundary to the classical stopping threshold as the entropy vanishes. The regularized problem admits a natural formulation as a singular stochastic control problem. Building on this structure, we propose both model-based and model-free policy iteration algorithms to learn the optimal boundary. The model-free method operates without knowledge of system dynamics, using only trajectories from the stochastic environment. We establish convergence guarantees and illustrate strong numerical performance. This framework provides a principled and tractable approach for data-driven stopping problems under uncertainty."
+  },
+  {
+    "title": "Searching for Axion-like particle Dark Matter with Time-domain Polarization: Constraints from a protoplanetary disk",
+    "url": "http://arxiv.org/abs/2602.15611v1",
+    "arxiv_id": "2602.15611v1",
+    "authors": [
+      "Kanako Narita",
+      "Tomohiro Fujita",
+      "Ryo Tazaki",
+      "Bunyo Hatsukade"
+    ],
+    "published": "2026-02-17T14:39:41+00:00",
+    "summary": "Axion-like particles (ALPs) can induce a birefringence effect that rotates the polarization angle of light, offering a probe of ultralight dark matter. We analyze archival near-infrared polarimetric data of the protoplanetary disk (PPD) around HD 163296. Whereas previous studies considered only single-epoch snapshots, we perform a consistent multi-epoch time-series analysis, extracting the polarization angle and its uncertainty from the polarized images. The resulting six-epoch time series is consistent with a constant polarization angle within the measurement uncertainties, while being sensitive to timescales of $\\sim 170-400$ days. The typical polarization angle uncertainties are $1.6$--$6.4$ degrees, partly driven by multiple scattering in the optically thick disk, which broadens the intrinsic polarization angle distribution and introduces additional dispersion in the representative polarization angle. Based on these data, we derive the first upper limits on the ALP-photon coupling from PPD polarization variability, $g_{a\u03b3} \\lesssim 7.5 \\times 10^{-12} (m_a / 10^{-22}\\,{\\rm eV})\\,{\\rm GeV}^{-1}$. Furthermore, we forecast that achieving a polarization angle uncertainty of $\u03c3\\sim 0.1$ degrees would enable world-leading sensitivity to ALP-induced birefringence."
+  },
+  {
+    "title": "Efficient Road Renovation Scheduling under Uncertainty using Lower Bound Pruning",
+    "url": "http://arxiv.org/abs/2602.15554v1",
+    "arxiv_id": "2602.15554v1",
+    "authors": [
+      "Robbert Bosch",
+      "Patricia Rogetzer",
+      "Wouter van Heeswijk",
+      "Martijn Mes"
+    ],
+    "published": "2026-02-17T13:01:59+00:00",
+    "summary": "Urban infrastructure degrades over time, necessitating periodic renovation to maintain functionality and safety. When renovation is delayed beyond the infrastructure's remaining lifespan, costly emergency interventions become necessary to prevent failure. Decision makers must therefore balance expected emergency intervention costs against traffic congestion impacts. We formalize this trade-off as a road network maintenance scheduling problem with uncertain deadlines, which presents optimization challenges including computationally expensive evaluation and an exponentially growing solution space. To address these challenges, this paper contributes a hybrid optimization approach combining machine learning with genetic algorithms for large-scale infrastructure renovation scheduling under uncertainty. We formulate the problem as a bi-level multi-objective optimization problem that explicitly accounts for uncertain infrastructure lifespans through probabilistic failure models. We develop a progressive lower bound evaluation method that integrates machine learning surrogate models with a multi-objective genetic algorithm to improve solution quality by enabling more iterations within fixed computational budgets. We demonstrate the method's effectiveness on substantially larger problem instances (76 projects) than previously addressed in the literature, achieving statistically significant improvements across multiple performance metrics by increasing computational efficiency up to 40 times compared to standard approaches."
+  },
+  {
     "title": "Sub-part-per-trillion test of the Standard Model with atomic hydrogen",
     "url": "http://arxiv.org/abs/2602.14980v1",
     "arxiv_id": "2602.14980v1",
