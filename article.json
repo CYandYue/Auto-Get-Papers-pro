@@ -1,5 +1,212 @@
 [
   {
+    "title": "Understanding the kinetics of static recrystallization in Mg-Zn-Ca alloys using an integrated PRISMS simulation framework",
+    "url": "http://arxiv.org/abs/2602.16701v1",
+    "arxiv_id": "2602.16701v1",
+    "authors": [
+      "David Montiel",
+      "Philip Staublin",
+      "Supriyo Chakraborty",
+      "Tracy Berman",
+      "Chaitali Patil",
+      "Michael Pilipchuk",
+      "Veera Sundararaghavan",
+      "John Allison",
+      "Katsuyo Thornton"
+    ],
+    "published": "2026-02-18T18:47:12+00:00",
+    "summary": "Recrystallization is a phenomenon in which a plastically deformed polycrystalline microstructure with a high dislocation density transforms into another that has low dislocation density. This evolution is driven by the stored energy in dislocations, rather than grain growth driven by grain boundary energy alone. One difficulty in quantitative modeling of recrystallization is the uncertainty in material parameters, which can be addressed by integration of experimental data into simulations. In this work, we compare simulated static recrystallization dynamics of a Mg-3Zn-0.1Ca wt.% alloy to experiments involving thermomechanical processing followed by measurements of the recrystallization fraction over time. The simulations are performed by combining PRISMS software for crystal plasticity and phase-field models (PRISMS-Plasticity and PRISMS-PF, respectively) in an integrated computational materials engineering framework. At 20% strain and annealing at 350 \u00b0C, the model accurately describes recrystallization dynamics up to a mobility-dependent time scale factor. While the average grain boundary mobility and the fraction of plastic work converted into stored energy are not precisely known, by fitting simulations to experimental data, we show that the average grain boundary mobility can be determined if the fraction of plastic work converted to stored energy is known, or vice versa. For low annealing temperatures, we observe a discrepancy between the model and experiments in the late stages of recrystallization, where a slowdown in recrystallization kinetics occurs in the experiments. We discuss possible sources of this slowdown and propose additional physical mechanisms that need to be accounted for in the model to improve its predictions."
+  },
+  {
+    "title": "Calibrate-Then-Act: Cost-Aware Exploration in LLM Agents",
+    "url": "http://arxiv.org/abs/2602.16699v1",
+    "arxiv_id": "2602.16699v1",
+    "authors": [
+      "Wenxuan Ding",
+      "Nicholas Tomlin",
+      "Greg Durrett"
+    ],
+    "published": "2026-02-18T18:46:14+00:00",
+    "summary": "LLMs are increasingly being used for complex problems which are not necessarily resolved in a single response, but require interacting with an environment to acquire information. In these scenarios, LLMs must reason about inherent cost-uncertainty tradeoffs in when to stop exploring and commit to an answer. For instance, on a programming task, an LLM should test a generated code snippet if it is uncertain about the correctness of that code; the cost of writing a test is nonzero, but typically lower than the cost of making a mistake. In this work, we show that we can induce LLMs to explicitly reason about balancing these cost-uncertainty tradeoffs, then perform more optimal environment exploration. We formalize multiple tasks, including information retrieval and coding, as sequential decision-making problems under uncertainty. Each problem has latent environment state that can be reasoned about via a prior which is passed to the LLM agent. We introduce a framework called Calibrate-Then-Act (CTA), where we feed the LLM this additional context to enable it to act more optimally. This improvement is preserved even under RL training of both the baseline and CTA. Our results on information-seeking QA and on a simplified coding task show that making cost-benefit tradeoffs explicit with CTA can help agents discover more optimal decision-making strategies."
+  },
+  {
+    "title": "Consensus Based Task Allocation for Angles-Only Local Catalog Maintenance of Satellite Systems",
+    "url": "http://arxiv.org/abs/2602.16678v1",
+    "arxiv_id": "2602.16678v1",
+    "authors": [
+      "Harrison Perone",
+      "Christopher W. Hays"
+    ],
+    "published": "2026-02-18T18:17:04+00:00",
+    "summary": "In order for close proximity satellites to safely perform their missions, the relative states of all satellites and pieces of debris must be well understood. This presents a problem for ground based tracking and orbit determination since it may not be practical to achieve the required accuracy. Using space-based sensors allows for more accurate relative state estimates, especially if multiple satellites are allowed to communicate. Of interest to this work is the case where several communicating satellites each need to maintain a local catalog of communicating and non-communicating objects using angles-only limited field of view (FOV) measurements. However, this introduces the problem of efficiently scheduling and coordinating observations among the agents. This paper presents a decentralized task allocation algorithm to address this problem and quantifies its performance in terms of fuel usage and overall catalog uncertainty via numerical simulation. It was found that the new method significantly outperforms the uncertainty-fuel Pareto frontier formed by current approaches."
+  },
+  {
+    "title": "HOLISMOKES XX. Lens models of binary lens galaxies with five images of Supernova Winny",
+    "url": "http://arxiv.org/abs/2602.16620v1",
+    "arxiv_id": "2602.16620v1",
+    "authors": [
+      "L. R. Ecker",
+      "A. G. Schweinfurth",
+      "R. Saglia",
+      "L. Deng",
+      "S. H. Suyu",
+      "C. Saulder",
+      "J. Snigula",
+      "R. Bender",
+      "R. Ca\u00f1ameras",
+      "T. -W. Chen",
+      "A. Galan",
+      "A. Halkola",
+      "E. Mamuzic",
+      "A. Melo",
+      "S. Schuldt",
+      "S. Taubenberger"
+    ],
+    "published": "2026-02-18T17:15:40+00:00",
+    "summary": "Strongly lensed supernovae (SNe) provide a powerful way to study cosmology, SNe and galaxies. Modelling the lens system is key to extracting astrophysical and cosmological information. We present adaptive-optics-assisted high-resolution images of SN Winny (SN 2025wny) in the J and K filters obtained with the Large Binocular Telescope (LBT). The LBT imaging confirms the presence of a fifth point source, whose colour is consistent with that of the other SN images at similar phases, while lens modelling robustly supports its interpretation as an additional image of SN~Winny. We measure the positions of the five SN images with uncertainties varying between 1 and 14 milliarcseconds. We build the first mass models using lenstronomy and GLEE, and explore three classes of mass models for the two lens galaxies G1 and G2. The optimal model class of the three is a singular isothermal ellipsoid for G1, a singular isothermal sphere for G2, and an external shear. We infer the enclosed masses within the Einstein radius as 4.61^{+0.06}_{-0.04} \\times 10^{11}\\,M_\\odot for G1 and 1.01\\pm0.02 \\times 10^{11}\\,M_\\odot for G2. The lensing configuration by the two lens galaxies can produce two additional magnified SN images beyond the five observed ones; the exclusion of such model configurations further constrains the lens model parameters. Our model fits to the observed image positions with an RMS of ~0.0012\" - 0.0025\", within the observed positional uncertainties. The predicted magnifications of the multiple images vary between ~1.6 (for the faintest fifth image E) to ~10 (for the brightest image A). The predicted relative lensing magnifications of the multiple images do not match that of the observed within 2\u03c3uncertainties. The differences in the relative magnifications could be due to millilensing/microlensing. Our mass models form the basis for future analyses of this unique system. (abridged)"
+  },
+  {
+    "title": "Decentralized and Fully Onboard: Range-Aided Cooperative Localization and Navigation on Micro Aerial Vehicles",
+    "url": "http://arxiv.org/abs/2602.16594v1",
+    "arxiv_id": "2602.16594v1",
+    "authors": [
+      "Abhishek Goudar",
+      "Angela P. Schoellig"
+    ],
+    "published": "2026-02-18T16:46:15+00:00",
+    "summary": "Controlling a team of robots in a coordinated manner is challenging because centralized approaches (where all computation is performed on a central machine) scale poorly, and globally referenced external localization systems may not always be available. In this work, we consider the problem of range-aided decentralized localization and formation control. In such a setting, each robot estimates its relative pose by combining data only from onboard odometry sensors and distance measurements to other robots in the team. Additionally, each robot calculates the control inputs necessary to collaboratively navigate an environment to accomplish a specific task, for example, moving in a desired formation while monitoring an area. We present a block coordinate descent approach to localization that does not require strict coordination between the robots. We present a novel formulation for formation control as inference on factor graphs that takes into account the state estimation uncertainty and can be solved efficiently. Our approach to range-aided localization and formation-based navigation is completely decentralized, does not require specialized trajectories to maintain formation, and achieves decimeter-level positioning and formation control accuracy. We demonstrate our approach through multiple real experiments involving formation flights in diverse indoor and outdoor environments."
+  },
+  {
+    "title": "GOTO identification and broadband modelling of the counterpart to the SVOM GRB 250818B",
+    "url": "http://arxiv.org/abs/2602.16559v1",
+    "arxiv_id": "2602.16559v1",
+    "authors": [
+      "Sergey Belkin",
+      "Gavin P. Lamb",
+      "Kristian Ackley",
+      "Matthew E. Wortley",
+      "Stuart McGee",
+      "Genevieve Schroeder",
+      "Manor Shrestha",
+      "Benjamin P. Gompertz",
+      "Duncan K. Galloway",
+      "Rebecca Starling",
+      "Wen-fai Fong",
+      "Tanmoy Laskar",
+      "Chang Liu",
+      "Alexander C. Gordon",
+      "Nikolai Pankov",
+      "Alexander E. Volvach",
+      "Leonid N. Volvach",
+      "Alexander Shein",
+      "Andrey Pozanenko",
+      "Matthew J. Dyer",
+      "James Lyman",
+      "Krzysztof Ulaczyk",
+      "Danny Steeghs",
+      "Vik Dhillon",
+      "Paul O'Brien",
+      "Gavin Ramsay",
+      "K. Noysena",
+      "Rubina Kotak",
+      "Ryan P. Breton",
+      "Laura K. Nuttall",
+      "Danny Pollacco",
+      "Supachai Awiphan",
+      "Jorge Casares",
+      "Patrick Chote",
+      "Adam Chrimes",
+      "Richard Eyles-Ferris",
+      "Ben Godson",
+      "P. Irawati",
+      "David Jarvis",
+      "Y. Julakanti",
+      "Luke Kelsey",
+      "Michael R. Kennedy",
+      "Thomas Killestein",
+      "A. Kumar",
+      "Andrew Levan",
+      "Sarah Littlefair",
+      "Michael Magee",
+      "S. Mandhai",
+      "David Mata S\u00e1nchez",
+      "Seppo Mattila",
+      "James McCormac",
+      "D. Mkrtichian",
+      "S. Moran",
+      "James Mullaney",
+      "David O'Neill",
+      "M. Patel",
+      "Kevin Pu",
+      "Matt Pursiainen",
+      "A. Sahu",
+      "U. Sawangwit",
+      "Emma Stanway",
+      "Y. Sun",
+      "B. Warwick",
+      "Katherine Wiersema"
+    ],
+    "published": "2026-02-18T15:59:27+00:00",
+    "summary": "Rapid localisation and follow-up of gamma-ray bursts (GRBs) increasingly rely on low-latency triggers from new missions coupled to wide-field robotic optical facilities. We present the discovery and multi-wavelength follow-up of GRB 250818B, detected by the Space Variable Objects Monitor (SVOM) and localised optically by the Gravitational-wave Optical Transient Observer (GOTO). We compile and homogenise X-ray, optical/NIR, and radio data to build broadband light curves and spectral energy distributions. The afterglow is unusually luminous for a nominal short GRB, lying on the bright end of the short-GRB population in X-rays and optical and among the most luminous high-redshift short-GRB afterglows in the radio. MeerKAT detects the source at 3.1 GHz, while ALMA provides deep higher-frequency limits. Keck/LRIS spectroscopy shows continuum and metal absorption (Fe II, Mg II, Mg I), giving $z=1.216$. Synchrotron forward-shock modelling favours a constant-density medium and strongly prefers refreshed (energy-injection) emission, well described by a two-component jet with $E_{K,iso} \\sim 4\\times10^{52}$ erg, $n_0 \\sim 3.6$ cm$^{-3}$, $\u03b8_j \\simeq 0.10$ rad ($\\sim 5.7$ deg), and $p \\simeq 1.64$. The host association is ambiguous: the nearest LS DR10 galaxy candidate ($r_{AB} \\sim 24.7$) is offset by $\\sim 4$ arcsec ($\\sim 34$ kpc) with chance-alignment probability $P_{cc} \\sim 0.2$, and current imaging does not exclude a fainter, near-coincident host. SED fitting of the candidate host suggests a low-mass galaxy. GRB 250818B highlights the power of rapid wide-field counterpart identification in the SVOM era, while host-association uncertainty can still limit offset-based interpretation."
+  },
+  {
+    "title": "Quantum Estimation Theory Limits in Neutrino Oscillation Experiments",
+    "url": "http://arxiv.org/abs/2602.16534v1",
+    "arxiv_id": "2602.16534v1",
+    "authors": [
+      "Claudia Frugiuele",
+      "Marco G. Genoni",
+      "Michela Ignoti",
+      "Matteo G. A. Paris"
+    ],
+    "published": "2026-02-18T15:25:56+00:00",
+    "summary": "Measurements of the Pontecorvo-Maki-Nakagawa-Sakata (PMNS) neutrino mixing parameters have entered a precision era, enabling increasingly stringent tests of neutrino oscillations. Within the framework of quantum estimation theory, we investigate whether flavor measurements, the only observables currently accessible experimentally, are optimal for extracting the oscillation parameters. We compute the Quantum Fisher Information (QFI) and the classical Fisher Information (FI) associated with ideal flavor projections for all oscillation parameters, considering accelerator muon (anti)neutrino and reactor electron antineutrino beams propagating in vacuum. Two main results emerge. First, flavor measurements saturate the QFI at the first oscillation maximum for $\u03b8_{13}$, $\u03b8_{23}$, and $\u03b8_{12}$, demonstrating their information-theoretic optimality for these parameters. In contrast, they are far from optimal for $\u03b4_{CP}$. In particular, only a small fraction of the available information on $\u03b4_{CP}$ is extracted at the first maximum; the sensitivity improves at the second maximum, in line with the strategy of ESS$\u03bd$SB, a planned facility. Second, the QFI associated with $\u03b4_{CP}$ is approximately one order of magnitude smaller than that of the mixing angles, indicating that the neutrino state intrinsically encodes less information about CP violation. Nevertheless, this quantum bound lies well below current experimental uncertainties, implying that the present precision on $\u03b4_{CP}$ is not fundamentally limited. Our results provide a quantitative framework to disentangle fundamental from practical limitations and establish a benchmark for optimizing future neutrino facilities."
+  },
+  {
+    "title": "Model selection confidence sets for time series models with applications to electricity load data",
+    "url": "http://arxiv.org/abs/2602.16527v1",
+    "arxiv_id": "2602.16527v1",
+    "authors": [
+      "Piersilvio De Bortoli",
+      "Davide Ferrari",
+      "Francesco Ravazzolo",
+      "Luca Rossini"
+    ],
+    "published": "2026-02-18T15:14:52+00:00",
+    "summary": "This paper studies the Model Selection Confidence Set (MSCS) methodology for univariate time series models involving autoregressive and moving average components, and applies it to study model selection uncertainty in the Italian electricity load data. Rather than relying on a single model selected by an arbitrary criterion, the MSCS identifies a set of models that are statistically indistinguishable from the true data-generating process at a given confidence level. The size and composition of this set reveal crucial information about model selection uncertainty: noisy data scenarios produce larger sets with many candidate models, while more informative cases narrow the set considerably. To study the importance of each model term, we consider numerical statistics measuring the frequency with which each term is included in both the entire MSCS and in Lower Boundary Models (LBM), its most parsimonious specifications. Applied to Italian hourly electricity load data, the MSCS methodology reveals marked intraday variation in model selection uncertainty and isolates a collection of model specifications that deliver competitive short-term forecasts while highlighting key drivers of electricity load like intraday hourly lags, temperature, calendar effects and solar energy generation."
+  },
+  {
+    "title": "Generative deep learning improves reconstruction of global historical climate records",
+    "url": "http://arxiv.org/abs/2602.16515v1",
+    "arxiv_id": "2602.16515v1",
+    "authors": [
+      "Zhen Qian",
+      "Teng Liu",
+      "Sebastian Bathiany",
+      "Shangshang Yang",
+      "Philipp Hess",
+      "Nils Bochow",
+      "Christian Burmester",
+      "Maximilian Gelbrecht",
+      "Brian Groenke",
+      "Niklas Boers"
+    ],
+    "published": "2026-02-18T15:03:26+00:00",
+    "summary": "Accurate assessment of anthropogenic climate change relies on historical instrumental data, yet observations from the early 20th century are sparse, fragmented, and uncertain. Conventional reconstructions rely on disparate statistical interpolation, which excessively smooths local features and creates unphysical artifacts, leading to systematic underestimation of intrinsic variability and extremes. Here, we present a unified, probabilistic generative deep learning framework that overcomes these limitations and reveals previously unresolved historical climate variability back to 1850. Leveraging a learned generative prior of Earth system dynamics, our model performs probabilistic inference to recover spatiotemporally consistent historical temperature and precipitation fields from sparse observations. Our approach preserves the higher-order statistics of climate dynamics, transforming reconstruction into a robust uncertainty-aware assessment. We demonstrate that our reconstruction overcomes pronounced biases in widely used historical reference products, including those underlying IPCC assessments, especially regarding extreme weather events. Notably, we uncover higher early 20th-century global warming levels compared to existing reconstructions, primarily driven by more pronounced polar warming, with mean Arctic warming trends exceeding established benchmarks by 0.15--0.29\u00b0C per decade for 1900--1980. Conversely, for the modern era, our reconstruction indicates that the broad Arctic warming trend is likely overestimated in recent assessments, yet explicitly resolves previously unrecognized intense, localized hotspots in the Barents Sea and Northeastern Greenland. Furthermore, based on our seamless global reconstruction that recovers precipitation variability across the oceans and under-monitored regions, we uncover an intensification of the global hydrological cycle."
+  },
+  {
+    "title": "The Crusts of Neutron Stars Revisited: Approximations within a Polytropic Equation of State Approach",
+    "url": "http://arxiv.org/abs/2602.16477v1",
+    "arxiv_id": "2602.16477v1",
+    "authors": [
+      "F. K\u00f6pp",
+      "J. E. Horvath",
+      "C. A. Z. Vasconcellos"
+    ],
+    "published": "2026-02-18T14:09:45+00:00",
+    "summary": "In this work, we revisit several thin-crust approximations presented in the literature and compare them with the exact solutions of the Tolman--Oppenheimer--Volkoff (TOV) equations. In addition, we employ three different equations of state (EoSs), including one with a pasta phase, each based on a distinct theoretical framework: the variational method, relativistic Brueckner--Hartree--Fock theory, and relativistic mean-field theory.   We emphasize that these approximations require only the TOV solutions for the core and the EoS properties at the core--crust interface; in our approach, only the energy density is needed. Finally, the relativistic approximation, as well as the Newtonian approximation with corrections, shows good agreement with the exact solutions. This indicates that a simple treatment of the crust is sufficient for structural purposes, independently of the uncertainties in the sub-nuclear equation of state, which are not very large.   The unified EoS SINPA (relativistic mean-field theory), including the pasta phase, was used to study the thin-crust approximation, while degeneracy in the $M$--$R$ relation is demonstrated through: (i) anisotropic pressure in the modified TOV equations, (ii) the $f(R, L_m, T)$ gravity model, and (iii) dark matter admixture. As demonstrated, modifications to the description of gravitation introduce degeneracies in the mass--radius relation that are challenging to disentangle or quantify precisely."
+  },
+  {
     "title": "Deformed Heisenberg algebra and its Hilbert space representations",
     "url": "http://arxiv.org/abs/2602.15801v1",
     "arxiv_id": "2602.15801v1",
