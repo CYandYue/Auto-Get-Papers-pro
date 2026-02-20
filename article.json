@@ -1,5 +1,148 @@
 [
   {
+    "title": "Adapting Actively on the Fly: Relevance-Guided Online Meta-Learning with Latent Concepts for Geospatial Discovery",
+    "url": "http://arxiv.org/abs/2602.17605v1",
+    "arxiv_id": "2602.17605v1",
+    "authors": [
+      "Jowaria Khan",
+      "Anindya Sarkar",
+      "Yevgeniy Vorobeychik",
+      "Elizabeth Bondi-Kelly"
+    ],
+    "published": "2026-02-19T18:30:18+00:00",
+    "summary": "In many real-world settings, such as environmental monitoring, disaster response, or public health, with costly and difficult data collection and dynamic environments, strategically sampling from unobserved regions is essential for efficiently uncovering hidden targets under tight resource constraints. Yet, sparse and biased geospatial ground truth limits the applicability of existing learning-based methods, such as reinforcement learning. To address this, we propose a unified geospatial discovery framework that integrates active learning, online meta-learning, and concept-guided reasoning. Our approach introduces two key innovations built on a shared notion of *concept relevance*, which captures how domain-specific factors influence target presence: a *concept-weighted uncertainty sampling strategy*, where uncertainty is modulated by learned relevance based on readily-available domain-specific concepts (e.g., land cover, source proximity); and a *relevance-aware meta-batch formation strategy* that promotes semantic diversity during online-meta updates, improving generalization in dynamic environments. Our experiments include testing on a real-world dataset of cancer-causing PFAS (Per- and polyfluoroalkyl substances) contamination, showcasing our method's reliability at uncovering targets with limited data and a varying environment."
+  },
+  {
+    "title": "GraphThinker: Reinforcing Video Reasoning with Event Graph Thinking",
+    "url": "http://arxiv.org/abs/2602.17555v1",
+    "arxiv_id": "2602.17555v1",
+    "authors": [
+      "Zixu Cheng",
+      "Da Li",
+      "Jian Hu",
+      "Ziquan Liu",
+      "Wei Li",
+      "Shaogang Gong"
+    ],
+    "published": "2026-02-19T17:09:30+00:00",
+    "summary": "Video reasoning requires understanding the causal relationships between events in a video. However, such relationships are often implicit and costly to annotate manually. While existing multimodal large language models (MLLMs) often infer event relations through dense captions or video summaries for video reasoning, such modeling still lacks causal understanding. Without explicit causal structure modeling within and across video events, these models suffer from hallucinations during the video reasoning. In this work, we propose GraphThinker, a reinforcement finetuning-based method that constructs structural event-level scene graphs and enhances visual grounding to jointly reduce hallucinations in video reasoning. Specifically, we first employ an MLLM to construct an event-based video scene graph (EVSG) that explicitly models both intra- and inter-event relations, and incorporate these formed scene graphs into the MLLM as an intermediate thinking process. We also introduce a visual attention reward during reinforcement finetuning, which strengthens video grounding and further mitigates hallucinations. We evaluate GraphThinker on two datasets, RexTime and VidHalluc, where it shows superior ability to capture object and event relations with more precise event localization, reducing hallucinations in video reasoning compared to prior methods."
+  },
+  {
+    "title": "LATA: Laplacian-Assisted Transductive Adaptation for Conformal Uncertainty in Medical VLMs",
+    "url": "http://arxiv.org/abs/2602.17535v1",
+    "arxiv_id": "2602.17535v1",
+    "authors": [
+      "Behzad Bozorgtabar",
+      "Dwarikanath Mahapatra",
+      "Sudipta Roy",
+      "Muzammal Naseer",
+      "Imran Razzak",
+      "Zongyuan Ge"
+    ],
+    "published": "2026-02-19T16:45:38+00:00",
+    "summary": "Medical vision-language models (VLMs) are strong zero-shot recognizers for medical imaging, but their reliability under domain shift hinges on calibrated uncertainty with guarantees. Split conformal prediction (SCP) offers finite-sample coverage, yet prediction sets often become large (low efficiency) and class-wise coverage unbalanced-high class-conditioned coverage gap (CCV), especially in few-shot, imbalanced regimes; moreover, naively adapting to calibration labels breaks exchangeability and voids guarantees. We propose \\texttt{\\textbf{LATA}} (Laplacian-Assisted Transductive Adaptation), a \\textit{training- and label-free} refinement that operates on the joint calibration and test pool by smoothing zero-shot probabilities over an image-image k-NN graph using a small number of CCCP mean-field updates, preserving SCP validity via a deterministic transform. We further introduce a \\textit{failure-aware} conformal score that plugs into the vision-language uncertainty (ViLU) framework, providing instance-level difficulty and label plausibility to improve prediction set efficiency and class-wise balance at fixed coverage. \\texttt{\\textbf{LATA}} is black-box (no VLM updates), compute-light (windowed transduction, no backprop), and includes an optional prior knob that can run strictly label-free or, if desired, in a label-informed variant using calibration marginals once. Across \\textbf{three} medical VLMs and \\textbf{nine} downstream tasks, \\texttt{\\textbf{LATA}} consistently reduces set size and CCV while matching or tightening target coverage, outperforming prior transductive baselines and narrowing the gap to label-using methods, while using far less compute. Comprehensive ablations and qualitative analyses show that \\texttt{\\textbf{LATA}} sharpens zero-shot predictions without compromising exchangeability."
+  },
+  {
+    "title": "High-precision Penning-trap spectroscopy of the ground-state spin structure of HD+",
+    "url": "http://arxiv.org/abs/2602.17522v1",
+    "arxiv_id": "2602.17522v1",
+    "authors": [
+      "Charlotte M. K\u00f6nig",
+      "Matthew Bohman",
+      "Fabian Hei\u00dfe",
+      "Jonathan Morgner",
+      "Tim Sailer",
+      "Bingsheng Tu",
+      "Klaus Blaum",
+      "Sven Sturm",
+      "Dimitar Bakalov",
+      "Hugo D. Nogueira",
+      "Jean-Philippe Karr",
+      "Ossama Kullie",
+      "Stephan Schiller"
+    ],
+    "published": "2026-02-19T16:35:34+00:00",
+    "summary": "We present high-precision spectroscopy of the ground-state hyperfine structure of HD$^+$ at 4~T. We determine   the bound-electron $g$ factor, $g_{e,\\mathrm{bound}} = -2.002\\,278\\,540\\,96(40)$, to a relative uncertainty of $2\\times$10$^{-10}$, the most precise determination of a bound-electron $g$ factor of a molecular ion to date. The experimental value agrees with recently developed ab initio theory that now includes quantum-electrodynamical effects up to order $\u03b1^5$ and has reduced the theoretical uncertainty by three orders of magnitude [O. Kullie \\textit{et al.}, Phys. Rev. A 112 052813 (2025)]. In addition, we extract the scalar spin-spin interaction coefficients $E_4$~=~925\\,395.758(41)$\\,$kHz (electron-proton) and $E_5$~=~142\\,287.821(22)$\\,$kHz (electron-deuteron), which show a moderate tension with another state-of-the-art theoretical prediction [M. Haidar \\textit{et al.}, Phys. Rev. A 106 042815 (2022)]."
+  },
+  {
+    "title": "Robust Adaptive Sliding-Mode Control for Damaged Fixed-Wing UAVs",
+    "url": "http://arxiv.org/abs/2602.17504v1",
+    "arxiv_id": "2602.17504v1",
+    "authors": [
+      "Mark Spiller",
+      "Lennart Kracke",
+      "Johannes Autenrieb"
+    ],
+    "published": "2026-02-19T16:19:18+00:00",
+    "summary": "Many unmanned aerial vehicles (UAVs) can remain aerodynamically flyable after sustaining structural or control surface damage, yet insufficient robustness in conventional autopilots often leads to mission failure. This paper proposes a robust adaptive sliding mode controller (RASMC) for fixed-wing UAVs subject to aerodynamic coefficient perturbations and partial loss of control surface effectiveness. A damage-aware flight dynamics model is developed to systematically analyze the impact of such impairments on the closed-loop behavior. The RASMC is designed to ensure reliable tracking and stabilization, while a gain adaptation law maintains low control effort under nominal conditions and increases the gains as needed in the presence of aerodynamic damage. Lyapunov-based stability guarantees are derived, and assumptions on admissible uncertainty bounds are formulated to characterize the limits within which closed-loop stability and performance can be ensured. The proposed controller is implemented within an existing UAV autopilot framework, where outer-loop guidance and speed control modules provide reference commands to the RASMC for attitude stabilization. Simulations demonstrate that, despite significant aerodynamic damage and control surface degradation, all closed-loop states remain stable with bounded tracking errors."
+  },
+  {
+    "title": "Entropy-Based Data Selection for Language Models",
+    "url": "http://arxiv.org/abs/2602.17465v1",
+    "arxiv_id": "2602.17465v1",
+    "authors": [
+      "Hongming Li",
+      "Yang Liu",
+      "Chao Huang"
+    ],
+    "published": "2026-02-19T15:29:34+00:00",
+    "summary": "Modern language models (LMs) increasingly require two critical resources: computational resources and data resources. Data selection techniques can effectively reduce the amount of training data required for fine-tuning LMs. However, their effectiveness is closely related to computational resources, which always require a high compute budget. Owing to the resource limitations in practical fine-tuning scenario, we systematically reveal the relationship between data selection and uncertainty estimation of selected data. Although large language models (LLMs) exhibit exceptional capabilities in language understanding and generation, which provide new ways to alleviate data scarcity, evaluating data usability remains a challenging task. This makes efficient data selection indispensable. To mitigate these issues, we propose Entropy-Based Unsupervised Data Selection (EUDS) framework. Empirical experiments on sentiment analysis (SA), topic classification (Topic-CLS), and question answering (Q&A) tasks validate its effectiveness. EUDS establishes a computationally efficient data-filtering mechanism. Theoretical analysis and experimental results confirm the effectiveness of our approach. EUDS significantly reduces computational costs and improves training time efficiency with less data requirement. This provides an innovative solution for the efficient fine-tuning of LMs in the compute-constrained scenarios."
+  },
+  {
+    "title": "Fine-Grained Uncertainty Quantification for Long-Form Language Model Outputs: A Comparative Study",
+    "url": "http://arxiv.org/abs/2602.17431v1",
+    "arxiv_id": "2602.17431v1",
+    "authors": [
+      "Dylan Bouchard",
+      "Mohit Singh Chauhan",
+      "Viren Bajaj",
+      "David Skarbrevik"
+    ],
+    "published": "2026-02-19T15:02:29+00:00",
+    "summary": "Uncertainty quantification has emerged as an effective approach to closed-book hallucination detection for LLMs, but existing methods are largely designed for short-form outputs and do not generalize well to long-form generation. We introduce a taxonomy for fine-grained uncertainty quantification in long-form LLM outputs that distinguishes methods by design choices at three stages: response decomposition, unit-level scoring, and response-level aggregation. We formalize several families of consistency-based black-box scorers, providing generalizations and extensions of existing methods. In our experiments across multiple LLMs and datasets, we find 1) claim-response entailment consistently performs better or on par with more complex claim-level scorers, 2) claim-level scoring generally yields better results than sentence-level scoring, and 3) uncertainty-aware decoding is highly effective for improving the factuality of long-form outputs. Our framework clarifies relationships between prior methods, enables apples-to-apples comparisons, and provides practical guidance for selecting components for fine-grained UQ."
+  },
+  {
+    "title": "The Runtime Dimension of Ethics in Self-Adaptive Systems",
+    "url": "http://arxiv.org/abs/2602.17426v1",
+    "arxiv_id": "2602.17426v1",
+    "authors": [
+      "Marco Autili",
+      "Gianluca Filippone",
+      "Mashal Afzal Memon",
+      "Patrizio Pelliccione"
+    ],
+    "published": "2026-02-19T14:57:30+00:00",
+    "summary": "Self-adaptive systems increasingly operate in close interaction with humans, often sharing the same physical or virtual environments and making decisions with ethical implications at runtime. Current approaches typically encode ethics as fixed, rule-based constraints or as a single chosen ethical theory embedded at design time. This overlooks a fundamental property of human-system interaction settings: ethical preferences vary across individuals and groups, evolve with context, and may conflict, while still needing to remain within a legally and regulatorily defined hard-ethics envelope (e.g., safety and compliance constraints). This paper advocates a shift from static ethical rules to runtime ethical reasoning for self-adaptive systems, where ethical preferences are treated as runtime requirements that must be elicited, represented, and continuously revised as stakeholders and situations change. We argue that satisfying such requirements demands explicit ethics-based negotiation to manage ethical trade-offs among multiple humans who interact with, are represented by, or are affected by a system. We identify key challenges, ethical uncertainty, conflicts among ethical values (including human, societal, and environmental drivers), and multi-dimensional/multi-party/multi-driver negotiation, and outline research directions and questions toward ethically self-adaptive systems."
+  },
+  {
+    "title": "Optimization Problems with Difference of Tangentially Convex Functions under Uncertainty",
+    "url": "http://arxiv.org/abs/2602.17405v1",
+    "arxiv_id": "2602.17405v1",
+    "authors": [
+      "Feryal Mashkoorzadeh",
+      "Nooshin Movahedian"
+    ],
+    "published": "2026-02-19T14:32:14+00:00",
+    "summary": "This paper investigates a specific class of nonsmooth nonconvex optimization problems in the face of data uncertainty, namely, robust optimization problems, where the given objective function can be expressed as a difference of two tangentially convex (DTC) functions. More precisely, we develop a range of nonsmooth calculus rules to establish relationships between Frechet and limiting subdifferentials for a particular maximum function and the tangential subdifferential of its constituent functions. Subsequently, we derive optimality conditions for problems involving DTC functions, employing generalized constraint qualifications within the framework of the tangential subdifferential concept. Several illustrative examples are presented to demonstrate the obtained results."
+  },
+  {
+    "title": "A Contrastive Variational AutoEncoder for NSCLC Survival Prediction with Missing Modalities",
+    "url": "http://arxiv.org/abs/2602.17402v1",
+    "arxiv_id": "2602.17402v1",
+    "authors": [
+      "Michele Zanitti",
+      "Vanja Miskovic",
+      "Francesco Trov\u00f2",
+      "Alessandra Laura Giulia Pedrocchi",
+      "Ming Shen",
+      "Yan Kyaw Tun",
+      "Arsela Prelaj",
+      "Sokol Kosta"
+    ],
+    "published": "2026-02-19T14:29:34+00:00",
+    "summary": "Predicting survival outcomes for non-small cell lung cancer (NSCLC) patients is challenging due to the different individual prognostic features. This task can benefit from the integration of whole-slide images, bulk transcriptomics, and DNA methylation, which offer complementary views of the patient's condition at diagnosis. However, real-world clinical datasets are often incomplete, with entire modalities missing for a significant fraction of patients. State-of-the-art models rely on available data to create patient-level representations or use generative models to infer missing modalities, but they lack robustness in cases of severe missingness. We propose a Multimodal Contrastive Variational AutoEncoder (MCVAE) to address this issue: modality-specific variational encoders capture the uncertainty in each data source, and a fusion bottleneck with learned gating mechanisms is introduced to normalize the contributions from present modalities. We propose a multi-task objective that combines survival loss and reconstruction loss to regularize patient representations, along with a cross-modal contrastive loss that enforces cross-modal alignment in the latent space. During training, we apply stochastic modality masking to improve the robustness to arbitrary missingness patterns. Extensive evaluations on the TCGA-LUAD (n=475) and TCGA-LUSC (n=446) datasets demonstrate the efficacy of our approach in predicting disease-specific survival (DSS) and its robustness to severe missingness scenarios compared to two state-of-the-art models. Finally, we bring some clarifications on multimodal integration by testing our model on all subsets of modalities, finding that integration is not always beneficial to the task."
+  },
+  {
     "title": "Understanding the kinetics of static recrystallization in Mg-Zn-Ca alloys using an integrated PRISMS simulation framework",
     "url": "http://arxiv.org/abs/2602.16701v1",
     "arxiv_id": "2602.16701v1",
