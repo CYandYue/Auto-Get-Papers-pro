@@ -1,5 +1,130 @@
 [
   {
+    "title": "Chandra Proper Motions and Milliarcsecond Astrometry of Nineteen Pulsars",
+    "url": "http://arxiv.org/abs/2602.18436v1",
+    "arxiv_id": "2602.18436v1",
+    "authors": [
+      "Jack T. Dinsmore",
+      "Roger W. Romani"
+    ],
+    "published": "2026-02-20T18:59:59+00:00",
+    "summary": "We present X-ray proper motion (PM) measurements of 19 pulsars using new and archival data from the Chandra X-ray Observatory, including pulsar wind trails and X-ray filaments. Precise X-ray PMs are often limited by uncertainties in aligning observations to a common reference frame. Our analysis uses unresolved X-ray flux from stars in the Gaia catalog in addition to X-ray bright point sources for alignment, improving uncertainties. We obtain absolute positions referenced to Gaia with typical astrometric precision $\\sim$10 mas and PM statistical uncertainties down to 1.3 mas yr$^{-1}$, the most precise X-ray PM achieved to date. With our improved frame alignment, PM accuracies are now limited by the pulsar flux in most cases. These results reveal a new X-ray filament and illuminate the wind nebula structures and origins of several of these pulsars."
+  },
+  {
+    "title": "Phase-field simulations of nucleation, growth, and coarsening of $\u03b2_1$ precipitates in Mg-Nd alloys",
+    "url": "http://arxiv.org/abs/2602.18430v1",
+    "arxiv_id": "2602.18430v1",
+    "authors": [
+      "Lingxia Shi",
+      "Stephen DeWitt",
+      "David Montiel",
+      "Qianying Shi",
+      "John Allison",
+      "Katsuyo Thornton"
+    ],
+    "published": "2026-02-20T18:57:44+00:00",
+    "summary": "The spatial distribution and morphology of precipitates formed during aging are key factors that determine the precipitation hardening response of various magnesium-rare earth alloys. In recent years, the use of high-performance computing clusters and massively parallel frameworks has enabled quantitative simulations of the evolution of individual and multiple precipitates at relevant length and time scales. However, predictive modeling of precipitate evolution remains challenging, in part because many key thermodynamic and kinetic parameters governing the underlying physics are either unknown or have a high degree of uncertainty. In this work, we developed a workflow in which experimental data were used to parameterize a phase-field model to perform two-dimensional (2D) simulations of concurrent nucleation and evolution of $\u03b2_1$ precipitates in magnesium-neodymium alloy during aging. Matrix composition and precipitate number density at different aging times were obtained from atom probe tomography and transmission electron microscopy measurements, respectively. We applied a stereological method to estimate the three-dimensional (3D) number densities from experimental cross-sectional transmission electron micrographs. The estimated 3D number density data were then converted to effective 2D number densities. The effective 2D number density and composition data were used to determine the required model parameters by minimizing the discrepancy between simulation and experimental results. The parameterized model allows for quantitative phase-field simulations of nucleation and growth of $\u03b2_1$ precipitates, which can be employed to optimize aging time to achieve a target number density of precipitates. This work highlights an approach to overcome the challenges associated with parameterizing a coupled phase-field and nucleation model."
+  },
+  {
+    "title": "The Geometry of Noise: Why Diffusion Models Don't Need Noise Conditioning",
+    "url": "http://arxiv.org/abs/2602.18428v1",
+    "arxiv_id": "2602.18428v1",
+    "authors": [
+      "Mojtaba Sahraee-Ardakan",
+      "Mauricio Delbracio",
+      "Peyman Milanfar"
+    ],
+    "published": "2026-02-20T18:49:00+00:00",
+    "summary": "Autonomous (noise-agnostic) generative models, such as Equilibrium Matching and blind diffusion, challenge the standard paradigm by learning a single, time-invariant vector field that operates without explicit noise-level conditioning. While recent work suggests that high-dimensional concentration allows these models to implicitly estimate noise levels from corrupted observations, a fundamental paradox remains: what is the underlying landscape being optimized when the noise level is treated as a random variable, and how can a bounded, noise-agnostic network remain stable near the data manifold where gradients typically diverge? We resolve this paradox by formalizing Marginal Energy, $E_{\\text{marg}}(\\mathbf{u}) = -\\log p(\\mathbf{u})$, where $p(\\mathbf{u}) = \\int p(\\mathbf{u}|t)p(t)dt$ is the marginal density of the noisy data integrated over a prior distribution of unknown noise levels. We prove that generation using autonomous models is not merely blind denoising, but a specific form of Riemannian gradient flow on this Marginal Energy. Through a novel relative energy decomposition, we demonstrate that while the raw Marginal Energy landscape possesses a $1/t^p$ singularity normal to the data manifold, the learned time-invariant field implicitly incorporates a local conformal metric that perfectly counteracts the geometric singularity, converting an infinitely deep potential well into a stable attractor. We also establish the structural stability conditions for sampling with autonomous models. We identify a ``Jensen Gap'' in noise-prediction parameterizations that acts as a high-gain amplifier for estimation errors, explaining the catastrophic failure observed in deterministic blind models. Conversely, we prove that velocity-based parameterizations are inherently stable because they satisfy a bounded-gain condition that absorbs posterior uncertainty into a smooth geometric drift."
+  },
+  {
+    "title": "Convex Block-Cholesky Approach to Risk-Constrained Low-thrust Trajectory Design under Operational Uncertainty",
+    "url": "http://arxiv.org/abs/2602.18416v1",
+    "arxiv_id": "2602.18416v1",
+    "authors": [
+      "Kenshiro Oguri",
+      "Gregory Lantoine"
+    ],
+    "published": "2026-02-20T18:35:11+00:00",
+    "summary": "Designing robust trajectories under uncertainties is an emerging technology that may represent a key paradigm shift in space mission design. As we pursue more ambitious scientific goals (e.g., multi-moon tours, missions with extensive components of autonomy), it becomes more crucial that missions are designed with navigation (Nav) processes in mind. The effect of Nav processes is statistical by nature, as they consist of orbit determination (OD) and flight-path control (FPC). Thus, this mission design paradigm calls for techniques that appropriately quantify statistical effects of Nav, evaluate associated risks, and design missions that ensure sufficiently low risk while minimizing a statistical performance metric; a common metric is Delta-V99: worst-case (99%-quantile) Delta-V expenditure including statistical FPC efforts. In response to the need, this paper develops an algorithm for risk-constrained trajectory optimization under operational uncertainties due to initial state dispersion, navigation error, maneuver execution error, and imperfect dynamics modeling. We formulate it as a nonlinear stochastic optimal control problem and develop a computationally tractable algorithm that combines optimal covariance steering and sequential convex programming (SCP). Specifically, the proposed algorithm takes a block-Cholesky approach for convex formulation of optimal covariance steering, and leverages a recent SCP algorithm, SCvx*, for reliable numerical convergence. We apply the developed algorithm to risk-constrained, statistical trajectory optimization for exploration of dwarf planet Ceres with a Mars gravity assist, and demonstrate the robustness of the statistically-optimal trajectory and FPC policies via nonlinear Monte Carlo simulation."
+  },
+  {
+    "title": "PRISM-FCP: Byzantine-Resilient Federated Conformal Prediction via Partial Sharing",
+    "url": "http://arxiv.org/abs/2602.18396v1",
+    "arxiv_id": "2602.18396v1",
+    "authors": [
+      "Ehsan Lari",
+      "Reza Arablouei",
+      "Stefan Werner"
+    ],
+    "published": "2026-02-20T18:01:59+00:00",
+    "summary": "We propose PRISM-FCP (Partial shaRing and robust calIbration with Statistical Margins for Federated Conformal Prediction), a Byzantine-resilient federated conformal prediction framework that utilizes partial model sharing to improve robustness against Byzantine attacks during both model training and conformal calibration. Existing approaches address adversarial behavior only in the calibration stage, leaving the learned model susceptible to poisoned updates. In contrast, PRISM-FCP mitigates attacks end-to-end. During training, clients partially share updates by transmitting only $M$ of $D$ parameters per round. This attenuates the expected energy of an adversary's perturbation in the aggregated update by a factor of $M/D$, yielding lower mean-square error (MSE) and tighter prediction intervals. During calibration, clients convert nonconformity scores into characterization vectors, compute distance-based maliciousness scores, and downweight or filter suspected Byzantine contributions before estimating the conformal quantile. Extensive experiments on both synthetic data and the UCI Superconductivity dataset demonstrate that PRISM-FCP maintains nominal coverage guarantees under Byzantine attacks while avoiding the interval inflation observed in standard FCP with reduced communication, providing a robust and communication-efficient approach to federated uncertainty quantification."
+  },
+  {
+    "title": "Detection prospects of solar $g$-modes with LISA",
+    "url": "http://arxiv.org/abs/2602.18385v1",
+    "arxiv_id": "2602.18385v1",
+    "authors": [
+      "Aman Awasthi"
+    ],
+    "published": "2026-02-20T17:47:08+00:00",
+    "summary": "The possibility of detecting solar oscillation modes using space-based gravitational-wave detectors has been investigated in the context of gravitational-wave interferometry, with Polnarev \\cite{Polnarev:2009xf} demonstrating that low-frequency solar modes could, in principle, produce detectable signals in a LISA-type interferometer. Motivated by this work, I revisit the problem using current solar models, updated detector sensitivities, and improved theoretical and observational constraints on mode amplitudes. In this study, I compute the gravitational response of solar oscillation modes using standard solar models generated with \\texttt{MESA}, and mode eigenfrequencies and eigenfunctions calculated with \\texttt{GYRE}. I focus primarily on solar $g$ modes, evaluating their responses for degree $l=2$ and azimuthal orders $m=0$ and $m=2$. The analysis incorporates both the earlier proposed and the current updated LISA sensitivity curves, and I perform a comparative assessment with the TianQin mission in the relevant low-frequency band. To assess the robustness of the predicted signals, I estimate the gravitational responses using two different standard solar models based on the GS98 and AGSS09 abundance compilations. I find that the resulting signal responses are nearly identical for the two models, indicating that uncertainties in solar metallicity have a negligible impact on the detectability of solar $g$ modes by space-based interferometers."
+  },
+  {
+    "title": "Application of uncertainty principles for decaying densities to the observability of the Schr\u00f6dinger equation",
+    "url": "http://arxiv.org/abs/2602.18371v1",
+    "arxiv_id": "2602.18371v1",
+    "authors": [
+      "K\u00e9vin Le Balc'h",
+      "Jiaqi Yu"
+    ],
+    "published": "2026-02-20T17:27:10+00:00",
+    "summary": "In this article, we study the Schr\u00f6dinger equation posed in the Euclidean space. We prove observability inequalities for measurable sets that are thick with respect to decaying densities. The proof relies on quantitative uncertainty principles adapted to decaying densities, notably those established by Shubin, Vakilian, Wolff, and Kovrijkine."
+  },
+  {
+    "title": "Qualitative Coding Analysis through Open-Source Large Language Models: A User Study and Design Recommendations",
+    "url": "http://arxiv.org/abs/2602.18352v1",
+    "arxiv_id": "2602.18352v1",
+    "authors": [
+      "Tung T. Ngo",
+      "Dai Nguyen Van",
+      "Anh-Minh Nguyen",
+      "Phuong-Anh Do",
+      "Anh Nguyen-Quoc"
+    ],
+    "published": "2026-02-20T17:04:02+00:00",
+    "summary": "Qualitative data analysis is labor-intensive, yet the privacy risks associated with commercial Large Language Models (LLMs) often preclude their use in sensitive research. To address this, we introduce ChatQDA, an on-device framework powered by open-source LLMs designed for privacy-preserving open coding. Our mixed-methods user study reveals that while participants rated the system highly for usability and perceived efficiency, they exhibited \"conditional trust\", valuing the tool for surface-level extraction while questioning its interpretive nuance and consistency. Furthermore, despite the technical security of local deployment, participants reported epistemic uncertainty regarding data protection, suggesting that invisible security measures are insufficient to foster trust. We conclude with design recommendations for local-first analysis tools that prioritize verifiable privacy and methodological rigor."
+  },
+  {
+    "title": "A method to derive self-consistent NLTE astrophysical parameters for 4 million high-resolution 4MOST stellar spectra in half a day with invertible neural networks",
+    "url": "http://arxiv.org/abs/2602.18340v1",
+    "arxiv_id": "2602.18340v1",
+    "authors": [
+      "Victor F. Ksoll",
+      "Nicholas Storm",
+      "Maria Bergemann",
+      "Katherine Lee",
+      "Ralf S. Klessen",
+      "R. Albarrac\u00edn",
+      "Guillaume Guiglion",
+      "Gra\u017eina Tautvai\u0161ien\u0117"
+    ],
+    "published": "2026-02-20T16:50:08+00:00",
+    "summary": "Modern spectroscopic surveys obtain spectra for millions of stars. However, classical spectroscopic methods can often be computationally expensive, rendering them impractical for the analysis of large datasets. We introduce a novel simulation-based deep-learning approach for the efficient analysis of high-resolution stellar spectra to be obtained with the upcoming high-resolution 4MOST spectrograph. We used a suite of synthetic non-local thermodynamic equilibrium (NLTE) spectra generated with Turbospectrum to mimic 4MOST observations and trained a conditional invertible neural network (cINN) for the purpose of predicting self-consistently stellar surface parameters and chemical abundances. The cINN is a neural network architecture that estimates full posterior distributions for the target stellar properties, providing an intrinsic uncertainty estimate. We evaluated the predictive performance of the trained cINN model on both synthetic data and observed spectra of stars. We found that our new cINN trained on NLTE synthetic spectra is capable of recovering stellar parameters with average errors ($\u03c3$) of $33$ K for $T_\\mathrm{eff}$, $0.16$ dex for $\\log(g)$, and $0.12$ dex for [Fe/H], $0.1$ dex for [Ca/Fe], $0.11$ for [Mg/Fe], and $0.51$ dex for [Li/Fe], respectively, at a signal to noise ratio of 250 per Angstrom. From the analysis of the observed spectra of Gaia-ESO / 4MOST / PLATO benchmark stars, we verified that our NLTE estimates for stellar parameters and abundances are consistent with results obtained with the independent code TSFitPy. We conclude that the NLTE cINN is robust and can, theoretically, evaluate 4 million high-resolution 4MOST spectra in less than a day, using GPU acceleration."
+  },
+  {
+    "title": "GS-SBL: Bridging Greedy Pursuit and Sparse Bayesian Learning for Efficient 3D Wireless Channel Modeling",
+    "url": "http://arxiv.org/abs/2602.18339v1",
+    "arxiv_id": "2602.18339v1",
+    "authors": [
+      "Mushfiqur Rahman",
+      "Ismail Guvenc",
+      "David Matolak"
+    ],
+    "published": "2026-02-20T16:47:59+00:00",
+    "summary": "Robust cognitive radio development requires accurate 3D path loss models. Traditional empirical models often lack environment-awareness, while deep learning approaches are frequently constrained by the scarcity of large-scale training datasets. This work leverages the inherent sparsity of wireless propagation to model scenario-specific channels by identifying a discrete set of virtual signal sources. We propose a novel Greedy Sequential Sparse Bayesian Learning (GS-SBL) framework that bridges the gap between the computational efficiency of Orthogonal Matching Pursuit (OMP) and the robust uncertainty quantification of SBL. Unlike standard top-down SBL, which updates all source hyperparameters simultaneously, our approach employs a ``Micro-SBL'' architecture. We sequentially evaluate candidate source locations in isolation by executing localized, low-iteration SBL loops and selecting the source that minimizes the $L_2$ residual error. Once identified, the source and its corresponding power are added to the support set, and the process repeats on the signal residual to identify subsequent sources. Experimental results on real-world 3D propagation data demonstrate that the GS-SBL framework significantly outperforms OMP in terms of generalization. By utilizing SBL as a sequential source identifier rather than a global optimizer, the proposed method preserves Bayesian high-resolution accuracy while achieving the execution speeds necessary for real-time 3D path loss characterization."
+  },
+  {
     "title": "Adapting Actively on the Fly: Relevance-Guided Online Meta-Learning with Latent Concepts for Geospatial Discovery",
     "url": "http://arxiv.org/abs/2602.17605v1",
     "arxiv_id": "2602.17605v1",
