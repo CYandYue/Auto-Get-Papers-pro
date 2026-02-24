@@ -1,5 +1,156 @@
 [
   {
+    "title": "JUCAL: Jointly Calibrating Aleatoric and Epistemic Uncertainty in Classification Tasks",
+    "url": "http://arxiv.org/abs/2602.20153v1",
+    "arxiv_id": "2602.20153v1",
+    "authors": [
+      "Jakob Heiss",
+      "S\u00f6ren Lambrecht",
+      "Jakob Weissteiner",
+      "Hanna Wutte",
+      "\u017dan \u017duri\u010d",
+      "Josef Teichmann",
+      "Bin Yu"
+    ],
+    "published": "2026-02-23T18:59:10+00:00",
+    "summary": "We study post-calibration uncertainty for trained ensembles of classifiers. Specifically, we consider both aleatoric (label noise) and epistemic (model) uncertainty. Among the most popular and widely used calibration methods in classification are temperature scaling (i.e., pool-then-calibrate) and conformal methods. However, the main shortcoming of these calibration methods is that they do not balance the proportion of aleatoric and epistemic uncertainty. Not balancing these uncertainties can severely misrepresent predictive uncertainty, leading to overconfident predictions in some input regions while being underconfident in others. To address this shortcoming, we present a simple but powerful calibration algorithm Joint Uncertainty Calibration (JUCAL) that jointly calibrates aleatoric and epistemic uncertainty. JUCAL jointly calibrates two constants to weight and scale epistemic and aleatoric uncertainties by optimizing the negative log-likelihood (NLL) on the validation/calibration dataset. JUCAL can be applied to any trained ensemble of classifiers (e.g., transformers, CNNs, or tree-based methods), with minimal computational overhead, without requiring access to the models' internal parameters. We experimentally evaluate JUCAL on various text classification tasks, for ensembles of varying sizes and with different ensembling strategies. Our experiments show that JUCAL significantly outperforms SOTA calibration methods across all considered classification tasks, reducing NLL and predictive set size by up to 15% and 20%, respectively. Interestingly, even applying JUCAL to an ensemble of size 5 can outperform temperature-scaled ensembles of size up to 50 in terms of NLL and predictive set size, resulting in up to 10 times smaller inference costs. Thus, we propose JUCAL as a new go-to method for calibrating ensembles in classification."
+  },
+  {
+    "title": "IceCube's convex all-sky neutrino spectrum consistent with the magnetically powered corona scenario for active galactic nuclei",
+    "url": "http://arxiv.org/abs/2602.20145v1",
+    "arxiv_id": "2602.20145v1",
+    "authors": [
+      "Kohta Murase",
+      "Shigeo S. Kimura",
+      "Mainak Mukhopadhyay",
+      "Mukul Bhattacharya"
+    ],
+    "published": "2026-02-23T18:55:57+00:00",
+    "summary": "High-energy multimessenger background analyses over the past decade have provided evidence for a population of hidden neutrino sources that are opaque to GeV-TeV gamma rays, a picture bolstered by recent observations of the nearby active galaxy NGC 1068. The coronal regions in the hearts of active galactic nuclei (AGNs) have been proposed as the most promising sites for such hidden nonthermal particle production, and NGC 1068 is expected to be the most neutrino-active galaxy for IceCube. We demonstrate that the latest all-sky neutrino spectrum, exhibiting a spectral bend around 3-30 TeV, is consistent with predictions of the magnetically powered corona scenario, and the models for the all-sky neutrino flux can simultaneously explain the multimessenger data from NGC 1068 within observational and modeling uncertainties. We further show, in a largely model-independent way, that the contribution from NGC 1068-like sources does not overshoot the observed medium-energy neutrino flux. Finally, we highlight the key role of the Eddington ratio, which can drive substantial variations in the predicted neutrino fluxes of nearby AGNs, and we encourage systematic multimessenger searches for the neutrino-brightest AGNs."
+  },
+  {
+    "title": "Recurrent Structural Policy Gradient for Partially Observable Mean Field Games",
+    "url": "http://arxiv.org/abs/2602.20141v1",
+    "arxiv_id": "2602.20141v1",
+    "authors": [
+      "Clarisse Wibault",
+      "Johannes Forkel",
+      "Sebastian Towers",
+      "Tiphaine Wibault",
+      "Juan Duque",
+      "George Whittle",
+      "Andreas Schaab",
+      "Yucheng Yang",
+      "Chiyuan Wang",
+      "Michael Osborne",
+      "Benjamin Moll",
+      "Jakob Foerster"
+    ],
+    "published": "2026-02-23T18:53:09+00:00",
+    "summary": "Mean Field Games (MFGs) provide a principled framework for modeling interactions in large population models: at scale, population dynamics become deterministic, with uncertainty entering only through aggregate shocks, or common noise. However, algorithmic progress has been limited since model-free methods are too high variance and exact methods scale poorly. Recent Hybrid Structural Methods (HSMs) use Monte Carlo rollouts for the common noise in combination with exact estimation of the expected return, conditioned on those samples. However, HSMs have not been scaled to Partially Observable settings. We propose Recurrent Structural Policy Gradient (RSPG), the first history-aware HSM for settings involving public information. We also introduce MFAX, our JAX-based framework for MFGs. By leveraging known transition dynamics, RSPG achieves state-of-the-art performance as well as an order-of-magnitude faster convergence and solves, for the first time, a macroeconomics MFG with heterogeneous agents, common noise and history-aware policies. MFAX is publicly available at: https://github.com/CWibault/mfax."
+  },
+  {
+    "title": "Can You Tell It's AI? Human Perception of Synthetic Voices in Vishing Scenarios",
+    "url": "http://arxiv.org/abs/2602.20061v1",
+    "arxiv_id": "2602.20061v1",
+    "authors": [
+      "Zoha Hayat Bhatti",
+      "Bakhtawar Ahtisham",
+      "Seemal Tausif",
+      "Niklas George",
+      "Nida ul Habib Bajwa",
+      "Mobin Javed"
+    ],
+    "published": "2026-02-23T17:17:53+00:00",
+    "summary": "Large Language Models and commercial speech synthesis systems now enable highly realistic AI-generated voice scams (vishing), raising urgent concerns about deception at scale. Yet it remains unclear whether individuals can reliably distinguish AI-generated speech from human-recorded voices in realistic scam contexts and what perceptual strategies underlie their judgments. We conducted a controlled online study in which 22 participants evaluated 16 vishing-style audio clips (8 AI-generated, 8 human-recorded) and classified each as human or AI while reporting confidence. Participants performed poorly: mean accuracy was 37.5%, below chance in a binary classification task. At the stimulus level, misclassification was bidirectional: 75% of AI-generated clips were majority-labeled as human, while 62.5% of human-recorded clips were majority-labeled as AI. Signal Detection Theory analysis revealed near-zero discriminability (d' approx 0), indicating inability to reliably distinguish synthetic from human voices rather than simple response bias. Qualitative analysis of 315 coded excerpts revealed reliance on paralinguistic and emotional heuristics, including pauses, filler words, vocal variability, cadence, and emotional expressiveness. However, these surface-level cues traditionally associated with human authenticity were frequently replicated by AI-generated samples. Misclassifications were often accompanied by moderate to high confidence, suggesting perceptual miscalibration rather than uncertainty. Together, our findings demonstrate that authenticity judgments based on vocal heuristics are unreliable in contemporary vishing scenarios. We discuss implications for security interventions, user education, and AI-mediated deception mitigation."
+  },
+  {
+    "title": "MeanFuser: Fast One-Step Multi-Modal Trajectory Generation and Adaptive Reconstruction via MeanFlow for End-to-End Autonomous Driving",
+    "url": "http://arxiv.org/abs/2602.20060v1",
+    "arxiv_id": "2602.20060v1",
+    "authors": [
+      "Junli Wang",
+      "Xueyi Liu",
+      "Yinan Zheng",
+      "Zebing Xing",
+      "Pengfei Li",
+      "Guang Li",
+      "Kun Ma",
+      "Guang Chen",
+      "Hangjun Ye",
+      "Zhongpu Xia",
+      "Long Chen",
+      "Qichao Zhang"
+    ],
+    "published": "2026-02-23T17:17:26+00:00",
+    "summary": "Generative models have shown great potential in trajectory planning. Recent studies demonstrate that anchor-guided generative models are effective in modeling the uncertainty of driving behaviors and improving overall performance. However, these methods rely on discrete anchor vocabularies that must sufficiently cover the trajectory distribution during testing to ensure robustness, inducing an inherent trade-off between vocabulary size and model performance. To overcome this limitation, we propose MeanFuser, an end-to-end autonomous driving method that enhances both efficiency and robustness through three key designs. (1) We introduce Gaussian Mixture Noise (GMN) to guide generative sampling, enabling a continuous representation of the trajectory space and eliminating the dependency on discrete anchor vocabularies. (2) We adapt ``MeanFlow Identity\" to end-to-end planning, which models the mean velocity field between GMN and trajectory distribution instead of the instantaneous velocity field used in vanilla flow matching methods, effectively eliminating numerical errors from ODE solvers and significantly accelerating inference. (3) We design a lightweight Adaptive Reconstruction Module (ARM) that enables the model to implicitly select from all sampled proposals or reconstruct a new trajectory when none is satisfactory via attention weights. Experiments on the NAVSIM closed-loop benchmark demonstrate that MeanFuser achieves outstanding performance without the supervision of the PDM Score. and exceptional inference efficiency, offering a robust and efficient solution for end-to-end autonomous driving. Our code and model are available at https://github.com/wjl2244/MeanFuser."
+  },
+  {
+    "title": "To Move or Not to Move: Constraint-based Planning Enables Zero-Shot Generalization for Interactive Navigation",
+    "url": "http://arxiv.org/abs/2602.20055v1",
+    "arxiv_id": "2602.20055v1",
+    "authors": [
+      "Apoorva Vashisth",
+      "Manav Kulshrestha",
+      "Pranav Bakshi",
+      "Damon Conover",
+      "Guillaume Sartoretti",
+      "Aniket Bera"
+    ],
+    "published": "2026-02-23T17:10:00+00:00",
+    "summary": "Visual navigation typically assumes the existence of at least one obstacle-free path between start and goal, which must be discovered/planned by the robot. However, in real-world scenarios, such as home environments and warehouses, clutter can block all routes. Targeted at such cases, we introduce the Lifelong Interactive Navigation problem, where a mobile robot with manipulation abilities can move clutter to forge its own path to complete sequential object- placement tasks - each involving placing an given object (eg. Alarm clock, Pillow) onto a target object (eg. Dining table, Desk, Bed). To address this lifelong setting - where effects of environment changes accumulate and have long-term effects - we propose an LLM-driven, constraint-based planning framework with active perception. Our framework allows the LLM to reason over a structured scene graph of discovered objects and obstacles, deciding which object to move, where to place it, and where to look next to discover task-relevant information. This coupling of reasoning and active perception allows the agent to explore the regions expected to contribute to task completion rather than exhaustively mapping the environment. A standard motion planner then executes the corresponding navigate-pick-place, or detour sequence, ensuring reliable low-level control. Evaluated in physics-enabled ProcTHOR-10k simulator, our approach outperforms non-learning and learning-based baselines. We further demonstrate our approach qualitatively on real-world hardware."
+  },
+  {
+    "title": "Entropy in Large Language Models",
+    "url": "http://arxiv.org/abs/2602.20052v1",
+    "arxiv_id": "2602.20052v1",
+    "authors": [
+      "Marco Scharringhausen"
+    ],
+    "published": "2026-02-23T17:02:45+00:00",
+    "summary": "In this study, the output of large language models (LLM) is considered an information source generating an unlimited sequence of symbols drawn from a finite alphabet. Given the probabilistic nature of modern LLMs, we assume a probabilistic model for these LLMs, following a constant random distribution and the source itself thus being stationary. We compare this source entropy (per word) to that of natural language (written or spoken) as represented by the Open American National Corpus (OANC). Our results indicate that the word entropy of such LLMs is lower than the word entropy of natural speech both in written or spoken form. The long-term goal of such studies is to formalize the intuitions of information and uncertainty in large language training to assess the impact of training an LLM from LLM generated training data. This refers to texts from the world wide web in particular."
+  },
+  {
+    "title": "Position: General Alignment Has Hit a Ceiling; Edge Alignment Must Be Taken Seriously",
+    "url": "http://arxiv.org/abs/2602.20042v1",
+    "arxiv_id": "2602.20042v1",
+    "authors": [
+      "Han Bao",
+      "Yue Huang",
+      "Xiaoda Wang",
+      "Zheyuan Zhang",
+      "Yujun Zhou",
+      "Carl Yang",
+      "Xiangliang Zhang",
+      "Yanfang Ye"
+    ],
+    "published": "2026-02-23T16:51:43+00:00",
+    "summary": "Large language models are being deployed in complex socio-technical systems, which exposes limits in current alignment practice. We take the position that the dominant paradigm of General Alignment, which compresses diverse human values into a single scalar reward, reaches a structural ceiling in settings with conflicting values, plural stakeholders, and irreducible uncertainty. These failures follow from the mathematics and incentives of scalarization and lead to \\textbf{structural} value flattening, \\textbf{normative} representation loss, and \\textbf{cognitive} uncertainty blindness. We introduce Edge Alignment as a distinct approach in which systems preserve multi dimensional value structure, support plural and democratic representation, and incorporate epistemic mechanisms for interaction and clarification. To make this approach practical, we propose seven interdependent pillars organized into three phases. We identify key challenges in data collection, training objectives, and evaluation, outlining complementary technical and governance directions. Taken together, these measures reframe alignment as a lifecycle problem of dynamic normative governance rather than as a single instance optimization task."
+  },
+  {
+    "title": "Digital Twin--Driven Adaptive Wavelet Strategy for Efficient 6G Backbone Network Telemetry",
+    "url": "http://arxiv.org/abs/2602.20034v1",
+    "arxiv_id": "2602.20034v1",
+    "authors": [
+      "Alexandre Barbosa de Lima",
+      "Xavier Hesselbach",
+      "Jos\u00e9 Roberto de Almeida Amazonas"
+    ],
+    "published": "2026-02-23T16:42:56+00:00",
+    "summary": "Classical orthogonal wavelets guarantee perfect reconstruction but rely on fixed bases optimized for polynomial smoothness, achieving suboptimal compression on signals with fractal spectral signatures. Conversely, learned methods offer adaptivity but typically enforce orthogonality via soft penalties, sacrificing structural guarantees.   This work establishes a rigorous equivalence between Multiscale Entanglement Renormalization Ansatz (MERA) tensor networks and paraunitary filter banks. The resulting framework learns adaptive wavelets while enforcing exact orthogonality through manifold-constrained optimization, guaranteeing perfect reconstruction and energy conservation throughout training.   Validation on Long-Range Dependent (LRD) network traffic demonstrates that learned filters outperform classical wavelets by 0.5--3.8~dB PSNR on six MAWI backbone traces (2020--2025, 314~Mbps--1.75~Gbps) while preserving the Hurst exponent within estimation uncertainty ($|\u0394H| \\le 0.03$). These results establish MERA-inspired wavelets as a principled approach for telemetry compression in 6G digital twin synchronization."
+  },
+  {
+    "title": "gencat: Generative computerized adaptive testing",
+    "url": "http://arxiv.org/abs/2602.20020v1",
+    "arxiv_id": "2602.20020v1",
+    "authors": [
+      "Wanyong Feng",
+      "Andrew Lan"
+    ],
+    "published": "2026-02-23T16:28:46+00:00",
+    "summary": "Existing computerized Adaptive Testing (CAT) frameworks are typically built on predicting the correctness of a student response to a question. Although effective, this approach fails to leverage textual information in questions and responses, especially for open-ended questions. In this work, we propose GENCAT (\\textbf{GEN}erative \\textbf{CAT}), a novel CAT framework that leverages Large Language Models for knowledge estimate and question selection. First, we develop a Generative Item Response Theory (GIRT) model that enables us to estimate student knowledge from their open-ended responses and predict responses to unseen questions. We train the model in a two-step process, first via Supervised Fine-Tuning and then via preference optimization for knowledge-response alignment. Second, we introduce three question selection algorithms that leverage the generative capabilities of the GIRT model, based on the uncertainty, linguistic diversity, and information of sampled student responses. Third, we conduct experiments on two real-world programming datasets and demonstrate that GENCAT outperforms existing CAT baselines, achieving an AUC improvement of up to 4.32\\% in the key early testing stages."
+  },
+  {
     "title": "Chandra Proper Motions and Milliarcsecond Astrometry of Nineteen Pulsars",
     "url": "http://arxiv.org/abs/2602.18436v1",
     "arxiv_id": "2602.18436v1",
