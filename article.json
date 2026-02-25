@@ -1,5 +1,146 @@
 [
   {
+    "title": "The JWST Resolved Stellar Populations Early Release Science Program. IX. The RR Lyrae Population in WLM with HST and JWST",
+    "url": "http://arxiv.org/abs/2602.21205v1",
+    "arxiv_id": "2602.21205v1",
+    "authors": [
+      "Catherine M. Slaughter",
+      "Evan D. Skillman",
+      "Alessandro Savino",
+      "Daniel R. Weisz",
+      "Meredith Durbin",
+      "Jay Anderson",
+      "Martha L. Boyer",
+      "Roger E. Cohen",
+      "Andrew A. Cole",
+      "Matteo Correnti",
+      "Andrew E. Dolphin",
+      "Marla C. Geha",
+      "Mario Gennaro",
+      "Nitya Kallivayalil",
+      "Evan N. Kirby",
+      "Kristen B. W. McQuinn",
+      "Max J. B. Newman",
+      "Jack T. Warfield",
+      "Benjamin F. Williams"
+    ],
+    "published": "2026-02-24T18:59:50+00:00",
+    "summary": "RR Lyrae stars are a common, dependable Population II distance indicator, and provide an independent tracer of early star formation. Here, we utilize archival HST/ACS and JWST/NIRCam observations of the nearby dwarf star-forming galaxy WLM to study RR Lyrae in JWST filters. We independently identify RR Lyrae in HST and JWST imaging in order to evaluate JWST's efficacy at characterizing RR Lyrae in the near-IR. We use an MCMC template-fitting technique to obtain periods, amplitudes, and mean magnitudes from the RR Lyrae time-series data. The spatially overlapping HST and JWST observations allow us to directly compare the same sources observed with the instruments, and calibrate the NIRCam F090W and F150W RR Lyrae period-Wesenheit-metallicity (PWZ) relation to the Gaia-consistent HST PWZ. We additionally assess the epoch-to-epoch consistency of NIRCam photometry, and find evidence of burn-in. We conclude that the zero-point offset is negligible compared to the uncertainties from the template fitting. We conduct an MCMC fit of the PWZ with both HST and JWST data. Our results are three-fold. First, we find that we can reliably identify RR Lyrae in NIRCam data, but light-curve template fitting proves difficult on short-baseline observations. Second, the HST PWZ fit yields a distance modulus to WLM of $\u03bc= 24.85\\pm0.05$ ($0.93\\pm0.02$ Mpc). This is closer than previous measurements, primarily attributed to consistency with the Gaia scale. Lastly, although the JWST PWZ fit has large uncertainties and a poorly-constrained slope, it represents a first-of-its-kind PWZ calibration in NIRCam filters."
+  },
+  {
+    "title": "Bayesian Parametric Portfolio Policies",
+    "url": "http://arxiv.org/abs/2602.21173v1",
+    "arxiv_id": "2602.21173v1",
+    "authors": [
+      "Miguel C. Herculano"
+    ],
+    "published": "2026-02-24T18:18:26+00:00",
+    "summary": "Parametric Portfolio Policies (PPP) estimate optimal portfolio weights directly as functions of observable signals by maximizing expected utility, bypassing the need to model asset returns and covariances. However, PPP ignores policy risk. We show that this is consequential, leading to an overstatement of expected utility and an understatement of portfolio risk. We develop Bayesian Parametric Portfolio Policies (BPPP), which place a prior on policy coefficients thereby correcting the decision rule. We derive a general result showing that the utility gap between PPP and BPPP is strictly positive and proportional to posterior parameter uncertainty and signal magnitude. Under a mean--variance approximation, this correction appears as an additional estimation-risk term in portfolio variance, implying that PPP overexposes when signals are strongest and when risk aversion is high. Empirically, in a high-dimensional setting with 242 signals and six factors over 1973--2023, BPPP delivers higher Sharpe ratios, substantially lower turnover, larger investor welfare, and lower tail risk, with advantages that increase monotonically in risk aversion and are strongest during crisis episodes."
+  },
+  {
+    "title": "cyclinbayes: Bayesian Causal Discovery with Linear Non-Gaussian Directed Acyclic and Cyclic Graphical Models",
+    "url": "http://arxiv.org/abs/2602.21170v1",
+    "arxiv_id": "2602.21170v1",
+    "authors": [
+      "Robert Lee",
+      "Raymond K. W. Wong",
+      "Yang Ni"
+    ],
+    "published": "2026-02-24T18:15:58+00:00",
+    "summary": "We introduce cyclinbayes, an open-source R package for discovering linear causal relationships with both acyclic and cyclic structures. The package employs scalable Bayesian approaches with spike-and-slab priors to learn directed acyclic graphs (DAGs) and directed cyclic graphs (DCGs) under non-Gaussian noise. A central feature of cyclinbayes is comprehensive uncertainty quantification, including posterior edge inclusion probabilities, posterior probabilities of network motifs, and posterior probabilities over entire graph structures. Our implementation addresses two limitations in existing software: (1) while methods for linear non-Gaussian DAG learning are available in R and Python, they generally lack proper uncertainty quantification, and (2) reliable implementations for linear non-Gaussian DCG remain scarce. The package implements computationally efficient hybrid MCMC algorithms that scale to large datasets. Beyond uncertainty quantification, we propose a new decision-theoretic approach to summarize posterior samples of graphs, yielding principled point estimates based on posterior expected loss such as posterior expected structural Hamming distance and structural intervention distance. The package, a supplementary material, and a tutorial are available on GitHub at https://github.com/roblee01/cyclinbayes."
+  },
+  {
+    "title": "Not Just How Much, But Where: Decomposing Epistemic Uncertainty into Per-Class Contributions",
+    "url": "http://arxiv.org/abs/2602.21160v1",
+    "arxiv_id": "2602.21160v1",
+    "authors": [
+      "Mame Diarra Toure",
+      "David A. Stephens"
+    ],
+    "published": "2026-02-24T18:05:51+00:00",
+    "summary": "In safety-critical classification, the cost of failure is often asymmetric, yet Bayesian deep learning summarises epistemic uncertainty with a single scalar, mutual information (MI), that cannot distinguish whether a model's ignorance involves a benign or safety-critical class. We decompose MI into a per-class vector $C_k(x)=\u03c3_k^{2}/(2\u03bc_k)$, with $\u03bc_k{=}\\mathbb{E}[p_k]$ and $\u03c3_k^2{=}\\mathrm{Var}[p_k]$ across posterior samples. The decomposition follows from a second-order Taylor expansion of the entropy; the $1/\u03bc_k$ weighting corrects boundary suppression and makes $C_k$ comparable across rare and common classes. By construction $\\sum_k C_k \\approx \\mathrm{MI}$, and a companion skewness diagnostic flags inputs where the approximation degrades. After characterising the axiomatic properties of $C_k$, we validate it on three tasks: (i) selective prediction for diabetic retinopathy, where critical-class $C_k$ reduces selective risk by 34.7\\% over MI and 56.2\\% over variance baselines; (ii) out-of-distribution detection on clinical and image benchmarks, where $\\sum_k C_k$ achieves the highest AUROC and the per-class view exposes asymmetric shifts invisible to MI; and (iii) a controlled label-noise study in which $\\sum_k C_k$ shows less sensitivity to injected aleatoric noise than MI under end-to-end Bayesian training, while both metrics degrade under transfer learning. Across all tasks, the quality of the posterior approximation shapes uncertainty at least as strongly as the choice of metric, suggesting that how uncertainty is propagated through the network matters as much as how it is measured."
+  },
+  {
+    "title": "SELAUR: Self Evolving LLM Agent via Uncertainty-aware Rewards",
+    "url": "http://arxiv.org/abs/2602.21158v1",
+    "arxiv_id": "2602.21158v1",
+    "authors": [
+      "Dengjia Zhang",
+      "Xiaoou Liu",
+      "Lu Cheng",
+      "Yaqing Wang",
+      "Kenton Murray",
+      "Hua Wei"
+    ],
+    "published": "2026-02-24T18:04:54+00:00",
+    "summary": "Large language models (LLMs) are increasingly deployed as multi-step decision-making agents, where effective reward design is essential for guiding learning. Although recent work explores various forms of reward shaping and step-level credit assignment, a key signal remains largely overlooked: the intrinsic uncertainty of LLMs. Uncertainty reflects model confidence, reveals where exploration is needed, and offers valuable learning cues even in failed trajectories. We introduce SELAUR: Self Evolving LLM Agent via Uncertainty-aware Rewards, a reinforcement learning framework that incorporates uncertainty directly into the reward design. SELAUR integrates entropy-, least-confidence-, and margin-based metrics into a combined token-level uncertainty estimate, providing dense confidence-aligned supervision, and employs a failure-aware reward reshaping mechanism that injects these uncertainty signals into step- and trajectory-level rewards to improve exploration efficiency and learning stability. Experiments on two benchmarks, ALFWorld and WebShop, show that our method consistently improves success rates over strong baselines. Ablation studies further demonstrate how uncertainty signals enhance exploration and robustness."
+  },
+  {
+    "title": "Robustness certificates in data-driven non-convex optimization with additively-uncertain constraints",
+    "url": "http://arxiv.org/abs/2602.21090v1",
+    "arxiv_id": "2602.21090v1",
+    "authors": [
+      "Alexander J Gallo",
+      "Massimiliano Zoggia",
+      "Alessandro Falsone",
+      "Maria Prandini",
+      "Simone Garatti"
+    ],
+    "published": "2026-02-24T16:49:07+00:00",
+    "summary": "We consider decision-making problems that are formulated as non-convex optimization programs where uncertainty enters the constraints through an additive term, independent of the decision variables, and robustness is imposed using a finite data-set, according to the scenario robust optimization paradigm. By exploiting the structure of the constraints, we show that both a priori and a posteriori distribution-free probabilistic robustness certificates for a possibly sub-optimal solution to the resulting data-driven optimization problem can be obtained with minimal computational effort. Building on these results, we also discuss a one-shot and an incremental procedure to determine the size of the data-set so as to guarantee a user-chosen robustness level. Notably, both the a posteriori robustness assessment and incremental data-set sizing do not require to solve the non-convex scenario program. A comparative analysis performed on the unit commitment problem using real data reveals a limited increase in conservativeness with a significant computational saving with respect to the application of scenario theory results for general, non necessarily structured, non-convex problems."
+  },
+  {
+    "title": "Automata Learning with an Incomplete but Inductive Teacher",
+    "url": "http://arxiv.org/abs/2602.21073v1",
+    "arxiv_id": "2602.21073v1",
+    "authors": [
+      "Daniel Stan",
+      "Adrien Pommellet",
+      "Juliette Jacquot"
+    ],
+    "published": "2026-02-24T16:35:16+00:00",
+    "summary": "Active automata learning (AAL) under a Minimally Adequate Teacher (MAT) has been successfully used to infer a regular language through membership and equivalence queries. This language might not be fully characterized: we are then interested in finding any solution in a target class of possibly many regular languages. Some problems such as regular language separation or inductive invariant synthesis in the context of regular model checking (RMC) may indeed admit more than one answer. We therefore introduce IdMAT: a new teacher formalism answering queries with respect to any language in the target class, all at once. Such a teacher tailored towards invariant synthesis might provide incomplete \"don't know\" answers, but also inductive facts of the form \"if w1 is accepted, so is w2\". We pair IdMAT with a novel AAL algorithm LIndA that 1. encodes all uncertainties as a unique SAT instance and does not fork, 2. leverages incremental SAT solving and UNSAT core analysis, and 3. handles counterexamples of the simple or inductive type in a frugal manner inspired by the Rivest-Schapire refinement technique. We finally evaluate a prototype implementation in the context of regular language separation and RMC."
+  },
+  {
+    "title": "The Initial Exploration Problem in Knowledge Graph Exploration",
+    "url": "http://arxiv.org/abs/2602.21066v1",
+    "arxiv_id": "2602.21066v1",
+    "authors": [
+      "Claire McNamara",
+      "Lucy Hederman",
+      "Declan O'Sullivan"
+    ],
+    "published": "2026-02-24T16:27:40+00:00",
+    "summary": "Knowledge Graphs (KGs) enable the integration and representation of complex information across domains, but their semantic richness and structural complexity create substantial barriers for lay users without expertise in semantic web technologies. When encountering an unfamiliar KG, such users face a distinct orientation challenge: they do not know what questions are possible, how the knowledge is structured, or how to begin exploration. This paper identifies and theorises this phenomenon as the Initial Exploration Problem (IEP). Drawing on theories from information behaviour and human-computer interaction, including ASK, exploratory search, information foraging, and cognitive load theory, we develop a conceptual framing of the IEP characterised by three interdependent barriers: scope uncertainty, ontology opacity, and query incapacity. We argue that these barriers converge at the moment of first contact, distinguishing the IEP from related concepts that presuppose an existing starting point or information goal. Analysing KG exploration interfaces at the level of interaction primitives, we suggest that many systems rely on epistemic assumptions that do not hold at first contact. This reveals a structural gap in the design space: the absence of interaction primitives for scope revelation, mechanisms that communicate what a KG contains without requiring users to formulate queries or interpret ontological structures. In articulating the IEP, this paper provides a theoretical lens for evaluating KG interfaces and for designing entry-point scaffolding that supports initial exploration."
+  },
+  {
+    "title": "VAUQ: Vision-Aware Uncertainty Quantification for LVLM Self-Evaluation",
+    "url": "http://arxiv.org/abs/2602.21054v1",
+    "arxiv_id": "2602.21054v1",
+    "authors": [
+      "Seongheon Park",
+      "Changdae Oh",
+      "Hyeong Kyu Choi",
+      "Xuefeng Du",
+      "Sharon Li"
+    ],
+    "published": "2026-02-24T16:11:14+00:00",
+    "summary": "Large Vision-Language Models (LVLMs) frequently hallucinate, limiting their safe deployment in real-world applications. Existing LLM self-evaluation methods rely on a model's ability to estimate the correctness of its own outputs, which can improve deployment reliability; however, they depend heavily on language priors and are therefore ill-suited for evaluating vision-conditioned predictions. We propose VAUQ, a vision-aware uncertainty quantification framework for LVLM self-evaluation that explicitly measures how strongly a model's output depends on visual evidence. VAUQ introduces the Image-Information Score (IS), which captures the reduction in predictive uncertainty attributable to visual input, and an unsupervised core-region masking strategy that amplifies the influence of salient regions. Combining predictive entropy with this core-masked IS yields a training-free scoring function that reliably reflects answer correctness. Comprehensive experiments show that VAUQ consistently outperforms existing self-evaluation methods across multiple datasets."
+  },
+  {
+    "title": "Automated Detection and Mitigation of Dependability Failures in Healthcare Scenarios through Digital Twins",
+    "url": "http://arxiv.org/abs/2602.21037v1",
+    "arxiv_id": "2602.21037v1",
+    "authors": [
+      "Bruno Guindani",
+      "Matteo Camilli",
+      "Livia Lestingi",
+      "Marcello M. Bersani"
+    ],
+    "published": "2026-02-24T15:56:20+00:00",
+    "summary": "Medical Cyber-Physical Systems (CPSs) integrating Patients, Devices, and healthcare personnel (Physicians) form safety-critical PDP triads whose dependability is challenged by system heterogeneity and uncertainty in human and physiological behavior. While existing clinical decision support systems support clinical practice, there remains a need for proactive, reliability-oriented methodologies capable of identifying and mitigating failure scenarios before patient safety is compromised. This paper presents M-GENGAR, a methodology based on a closed-loop Digital Twin (DT) paradigm for dependability assurance of medical CPSs. The approach combines Stochastic Hybrid Automata modeling, data-driven learning of patient dynamics, and Statistical Model Checking with an offline critical scenario detection phase that integrates model-space exploration and diversity analysis to systematically identify and classify scenarios violating expert-defined dependability requirements. M-GENGAR also supports the automated synthesis of mitigation strategies, enabling runtime feedback and control within the DT loop. We evaluate M-GENGAR on a representative use case study involving a pulmonary ventilator. Results show that, in 87.5% of the evaluated scenarios, strategies synthesized through formal game-theoretic analysis stabilize patient vital metrics at least as effectively as human decision-making, while maintaining relevant metrics 20% closer to nominal healthy values on average."
+  },
+  {
     "title": "JUCAL: Jointly Calibrating Aleatoric and Epistemic Uncertainty in Classification Tasks",
     "url": "http://arxiv.org/abs/2602.20153v1",
     "arxiv_id": "2602.20153v1",
