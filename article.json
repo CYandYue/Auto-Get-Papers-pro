@@ -1,5 +1,143 @@
 [
   {
+    "title": "Local Bayesian Regression",
+    "url": "http://arxiv.org/abs/2602.22203v1",
+    "arxiv_id": "2602.22203v1",
+    "authors": [
+      "Nils Lid Hjort"
+    ],
+    "published": "2026-02-25T18:52:12+00:00",
+    "summary": "This paper develops a class of Bayesian non- and semiparametric methods for estimating regression curves and surfaces. The main idea is to model the regression as locally linear, and then place suitable local priors on the local parameters. The method requires the posterior distribution of the local parameters given local data, and this is found via a suitably defined local likelihood function. When the width of the local data window is large the methods reduce to familiar fully parametric Bayesian methods, and when the width is small the estimators are essentially nonparametric. When noninformative reference priors are used the resulting estimators coincide with recently developed well-performing local weighted least squares methods for nonparametric regression.   Each local prior distribution needs in general a centre parameter and a variance parameter. Of particular interest are versions of the scheme that are more or less automatic and objective in the sense that they do not require subjective specifications of prior parameters. We therefore develop empirical Bayes methods to obtain the variance parameter and a hierarchical Bayes method to account for uncertainty in the choice of centre parameter. There are several possible versions of the general programme, and a number of its specialisations are discussed. Some of these are shown to be capable of outperforming standard nonparametric regression methods, particularly in situations with several covariates."
+  },
+  {
+    "title": "Surrogate models for Rock-Fluid Interaction: A Grid-Size-Invariant Approach",
+    "url": "http://arxiv.org/abs/2602.22188v1",
+    "arxiv_id": "2602.22188v1",
+    "authors": [
+      "Nathalie C. Pinheiro",
+      "Donghu Guo",
+      "Hannah P. Menke",
+      "Aniket C. Joshi",
+      "Claire E. Heaney",
+      "Ahmed H. ElSheikh",
+      "Christopher C. Pain"
+    ],
+    "published": "2026-02-25T18:34:03+00:00",
+    "summary": "Modelling rock-fluid interaction requires solving a set of partial differential equations (PDEs) to predict the flow behaviour and the reactions of the fluid with the rock on the interfaces. Conventional high-fidelity numerical models require a high resolution to obtain reliable results, resulting in huge computational expense. This restricts the applicability of these models for multi-query problems, such as uncertainty quantification and optimisation, which require running numerous scenarios. As a cheaper alternative to high-fidelity models, this work develops eight surrogate models for predicting the fluid flow in porous media. Four of these are reduced-order models (ROM) based on one neural network for compression and another for prediction. The other four are single neural networks with the property of grid-size invariance; a term which we use to refer to image-to-image models that are capable of inferring on computational domains that are larger than those used during training. In addition to the novel grid-size-invariant framework for surrogate models, we compare the predictive performance of UNet and UNet++ architectures, and demonstrate that UNet++ outperforms UNet for surrogate models. Furthermore, we show that the grid-size-invariant approach is a reliable way to reduce memory consumption during training, resulting in good correlation between predicted and ground-truth values and outperforming the ROMs analysed. The application analysed is particularly challenging because fluid-induced rock dissolution results in a non-static solid field and, consequently, it cannot be used to help in adjustments of the future prediction."
+  },
+  {
+    "title": "WeaveTime: Stream from Earlier Frames into Emergent Memory in VideoLLMs",
+    "url": "http://arxiv.org/abs/2602.22142v1",
+    "arxiv_id": "2602.22142v1",
+    "authors": [
+      "Yulin Zhang",
+      "Cheng Shi",
+      "Sibei Yang"
+    ],
+    "published": "2026-02-25T17:45:45+00:00",
+    "summary": "Recent advances in Multimodal Large Language Models have greatly improved visual understanding and reasoning, yet their quadratic attention and offline training protocols make them ill-suited for streaming settings where frames arrive sequentially and future observations are inaccessible. We diagnose a core limitation of current Video-LLMs, namely Time-Agnosticism, in which videos are treated as an unordered bag of evidence rather than a causally ordered sequence, yielding two failures in streams: temporal order ambiguity, in which the model cannot follow or reason over the correct chronological order, and past-current focus blindness where it fails to distinguish present observations from accumulated history. We present WeaveTime, a simple, efficient, and model agnostic framework that first teaches order and then uses order. We introduce a lightweight Temporal Reconstruction objective-our Streaming Order Perception enhancement-that instills order aware representations with minimal finetuning and no specialized streaming data. At inference, a Past-Current Dynamic Focus Cache performs uncertainty triggered, coarse-to-fine retrieval, expanding history only when needed. Plugged into exsiting Video-LLM without architectural changes, WeaveTime delivers consistent gains on representative streaming benchmarks, improving accuracy while reducing latency. These results establish WeaveTime as a practical path toward time aware stream Video-LLMs under strict online, time causal constraints. Code and weights will be made publicly available. Project Page: https://zhangyl4.github.io/publications/weavetime/"
+  },
+  {
+    "title": "Tempered Christoffel-Weighted Polynomial Chaos Expansion for Resilience-Oriented Uncertainty Quantification",
+    "url": "http://arxiv.org/abs/2602.22133v1",
+    "arxiv_id": "2602.22133v1",
+    "authors": [
+      "Mahsa Ebadat-Parast",
+      "Xiaozhe Wang"
+    ],
+    "published": "2026-02-25T17:27:46+00:00",
+    "summary": "Accurate and efficient uncertainty quantification is essential for resilience assessment of modern power systems under high impact and low probability disturbances. Data driven sparse polynomial chaos expansion (DDSPCE) provides a computationally efficient surrogate framework but may suffer from ill conditioned regression and loss of accuracy in the distribution tails that determine system risk. This paper studies the impact of regression weighting schemes on the stability and tail accuracy of DD-SPCE surrogates by introducing a tempered Christoffel weighted least squares (T-CWLS) formulation that balances numerical stability and tail fidelity. The tempering exponent is treated as a hyperparameter whose influence is examined with respect to distributional accuracy compared with Monte Carlo simulations. Case studies on distribution system load shedding show that the proposed method reduces 95th percentile deviation by 16%, 5th percentile deviation by 6%, and improves the regression stability index by over 130%. The results demonstrate that controlling the weighting intensity directly influences both stability index and the accuracy of tail prediction."
+  },
+  {
+    "title": "Robust Permutation Flowshops Under Budgeted Uncertainty",
+    "url": "http://arxiv.org/abs/2602.22110v1",
+    "arxiv_id": "2602.22110v1",
+    "authors": [
+      "Noam Goldberg",
+      "Danny Hermelin",
+      "Dvir Shabtay"
+    ],
+    "published": "2026-02-25T16:57:43+00:00",
+    "summary": "We consider the robust permutation flowshop problem under the budgeted uncertainty model, where at most a given number of job processing times may deviate on each machine. We show that solutions for this problem can be determined by solving polynomially many instances of the corresponding nominal problem. As a direct consequence, our result implies that this robust flowshop problem can be solved in polynomial time for two machines, and can be approximated in polynomial time for any fixed number of machines. The reduction that is our main result follows from an analysis similar to Bertsimas and Sim (2003) except that dualization is applied to the terms of a min-max objective rather than to a linear objective function. Our result may be surprising considering that heuristic and exact integer programming based methods have been developed in the literature for solving the two-machine flowshop problem. We conclude by showing a logarithmic factor improvement in the overall running time implied by a naive reduction to nominal problems in the case of two machines and three machines."
+  },
+  {
+    "title": "Forward hadron production in proton-air collisions above LHC energies through the fluctuations of extensive air showers",
+    "url": "http://arxiv.org/abs/2602.22105v1",
+    "arxiv_id": "2602.22105v1",
+    "authors": [
+      "Lorenzo Cazon",
+      "Ruben Concei\u00e7\u00e3o",
+      "Miguel Alexandre Martins",
+      "Felix Riehn"
+    ],
+    "published": "2026-02-25T16:52:16+00:00",
+    "summary": "Primary proton-air interactions at ultra-high energies leave a physically interpretable imprint on the correlated fluctuations of the depth of shower maximum and the muon content in extensive air showers. This imprint reflects the stochasticity in the partition of the primary energy among secondary particles in the first interaction. We show that these fluctuations can be accessed through a probabilistic description that isolates sensitivity to hadronic physics in the initial collision, while treating the subsequent shower development as effectively universal. The uncertainties resulting from this universality are smaller than the spread among current hadronic interaction models and comparable to current experimental uncertainties. Consequently, the joint observable space defined by these two quantities provides a new probe of hadron production in kinematic regimes far beyond the reach of human-made accelerators."
+  },
+  {
+    "title": "Force Policy: Learning Hybrid Force-Position Control Policy under Interaction Frame for Contact-Rich Manipulation",
+    "url": "http://arxiv.org/abs/2602.22088v1",
+    "arxiv_id": "2602.22088v1",
+    "authors": [
+      "Hongjie Fang",
+      "Shirun Tang",
+      "Mingyu Mei",
+      "Haoxiang Qin",
+      "Zihao He",
+      "Jingjing Chen",
+      "Ying Feng",
+      "Chenxi Wang",
+      "Wanxi Liu",
+      "Zaixing He",
+      "Cewu Lu",
+      "Shiquan Wang"
+    ],
+    "published": "2026-02-25T16:35:24+00:00",
+    "summary": "Contact-rich manipulation demands human-like integration of perception and force feedback: vision should guide task progress, while high-frequency interaction control must stabilize contact under uncertainty. Existing learning-based policies often entangle these roles in a monolithic network, trading off global generalization against stable local refinement, while control-centric approaches typically assume a known task structure or learn only controller parameters rather than the structure itself. In this paper, we formalize a physically grounded interaction frame, an instantaneous local basis that decouples force regulation from motion execution, and propose a method to recover it from demonstrations. Based on this, we address both issues by proposing Force Policy, a global-local vision-force policy in which a global policy guides free-space actions using vision, and upon contact, a high-frequency local policy with force feedback estimates the interaction frame and executes hybrid force-position control for stable interaction. Real-world experiments across diverse contact-rich tasks show consistent gains over strong baselines, with more robust contact establishment, more accurate force regulation, and reliable generalization to novel objects with varied geometries and physical properties, ultimately improving both contact stability and execution quality. Project page: https://force-policy.github.io/"
+  },
+  {
+    "title": "Budgeted Active Experimentation for Treatment Effect Estimation from Observational and Randomized Data",
+    "url": "http://arxiv.org/abs/2602.22021v1",
+    "arxiv_id": "2602.22021v1",
+    "authors": [
+      "Jiacan Gao",
+      "Xinyan Su",
+      "Mingyuan Ma",
+      "Yiyan Huang",
+      "Xiao Xu",
+      "Xinrui Wan",
+      "Tianqi Gu",
+      "Enyun Yu",
+      "Jiecheng Guo",
+      "Zhiheng Zhang"
+    ],
+    "published": "2026-02-25T15:32:38+00:00",
+    "summary": "Estimating heterogeneous treatment effects is central to data-driven decision-making, yet industrial applications often face a fundamental tension between limited randomized controlled trial (RCT) budgets and abundant but biased observational data collected under historical targeting policies. Although observational logs offer the advantage of scale, they inherently suffer from severe policyinduced imbalance and overlap violations, rendering standalone estimation unreliable. We propose a budgeted active experimentation framework that iteratively enhances model training for causal effect estimation via active sampling. By leveraging observational priors, we develop an acquisition function targeting uplift estimation uncertainty, overlap deficits, and domain discrepancy to select the most informative units for randomized experiments. We establish finite-sample deviation bounds, asymptotic normality via martingale Central Limit Theorems (CLTs), and minimax lower bounds to prove information-theoretic optimality. Extensive experiments on industrial datasets demonstrate that our approach significantly outperforms standard randomized baselines in cost-constrained settings."
+  },
+  {
+    "title": "Function-Space Empirical Bayes Regularisation with Student's t Priors",
+    "url": "http://arxiv.org/abs/2602.22015v1",
+    "arxiv_id": "2602.22015v1",
+    "authors": [
+      "Pengcheng Hao",
+      "Ercan Engin Kuruoglu"
+    ],
+    "published": "2026-02-25T15:29:44+00:00",
+    "summary": "Bayesian deep learning (BDL) has emerged as a principled approach to produce reliable uncertainty estimates by integrating deep neural networks with Bayesian inference, and the selection of informative prior distributions remains a significant challenge. Various function-space variational inference (FSVI) regularisation methods have been presented, assigning meaningful priors over model predictions. However, these methods typically rely on a Gaussian prior, which fails to capture the heavy-tailed statistical characteristics inherent in neural network outputs. By contrast, this work proposes a novel function-space empirical Bayes regularisation framework -- termed ST-FS-EB -- which employs heavy-tailed Student's $t$ priors in both parameter and function spaces. Also, we approximate the posterior distribution through variational inference (VI), inducing an evidence lower bound (ELBO) objective based on Monte Carlo (MC) dropout. Furthermore, the proposed method is evaluated against various VI-based BDL baselines, and the results demonstrate its robust performance in in-distribution prediction, out-of-distribution (OOD) detection and handling distribution shifts."
+  },
+  {
+    "title": "Intrusive and Non-Intrusive Model Order Reduction for Airborne Contaminant Transport: Comparative Analysis and Uncertainty Quantification",
+    "url": "http://arxiv.org/abs/2602.21996v1",
+    "arxiv_id": "2602.21996v1",
+    "authors": [
+      "Lisa K\u00fchn",
+      "Jacopo Bonari",
+      "Max von Danwitz",
+      "Alexander Popp"
+    ],
+    "published": "2026-02-25T15:16:36+00:00",
+    "summary": "Numerical simulations of contaminant dispersion, as after a gas leakage incident on a chemical plant, can provide valuable insights for both emergency response and preparedness. Simulation approaches combine incompressible Navier-Stokes (INS) equations with advection-diffusion (AD) processes to model wind and concentration field. However, the computational cost of such high-fidelity simulations increases rapidly for complex geometries like urban environments, making them unfeasible in time-critical or multi-query \"what-if\" scenarios. Therefore, this study focuses on the application of model order reduction (MOR) techniques enabling fast yet accurate predictions. To this end, a thorough comparison of intrusive and non-intrusive MOR methods is performed for the computationally more demanding parametric INS problem with varying wind velocities. Based on these insights, a non-intrusive reduced-order model (ROM) is constructed accounting for both wind velocity and direction. The study is conducted on a two-dimensional domain derived from real-world building footprints, preserving key features for analyzing the dispersion of, for instance, denser contaminants. The resulting ROM enables faster than real-time predictions of spatio-temporal contaminant dispersion from an instantaneous source under varying wind conditions. This capability allows assessing wind measurement uncertainties through a Monte Carlo analysis. To demonstrate the practical applicability, an interactive dashboard provides intuitive access to simulation results."
+  },
+  {
     "title": "The JWST Resolved Stellar Populations Early Release Science Program. IX. The RR Lyrae Population in WLM with HST and JWST",
     "url": "http://arxiv.org/abs/2602.21205v1",
     "arxiv_id": "2602.21205v1",
