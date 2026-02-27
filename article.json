@@ -1,5 +1,150 @@
 [
   {
+    "title": "Robust model selection using likelihood as data",
+    "url": "http://arxiv.org/abs/2602.23355v1",
+    "arxiv_id": "2602.23355v1",
+    "authors": [
+      "Jongwoo Choi",
+      "Neil A. Spencer",
+      "Jeffrey W. Miller"
+    ],
+    "published": "2026-02-26T18:57:26+00:00",
+    "summary": "Model selection is a central task in statistics, but standard methods are not robust in misspecified settings where the true data-generating process (DGP) is not in the set of candidate models. The key limitation is that existing methods -- including information criteria and Bayesian posteriors -- do not quantify uncertainty about how well each candidate model approximates the true DGP. In this paper, we introduce a novel approach to model selection based on modeling the likelihood values themselves. Specifically, given $K$ candidate models and $n$ observations, we view the $n\\times K$ matrix of negative log-likelihood values as a random data matrix and observe that the expectation of each row is equal to the vector of Kullback--Leibler divergences between the $K$ models and the true DGP, up to an additive constant. We use a multivariate normal model to estimate and quantify uncertainty in this expectation, providing calibrated inferences for robust model selection under misspecification. The procedure is easy to compute, interpretable, and comes with theoretical guarantees, including consistency."
+  },
+  {
+    "title": "LLM Novice Uplift on Dual-Use, In Silico Biology Tasks",
+    "url": "http://arxiv.org/abs/2602.23329v1",
+    "arxiv_id": "2602.23329v1",
+    "authors": [
+      "Chen Bo Calvin Zhang",
+      "Christina Q. Knight",
+      "Nicholas Kruus",
+      "Jason Hausenloy",
+      "Pedro Medeiros",
+      "Nathaniel Li",
+      "Aiden Kim",
+      "Yury Orlovskiy",
+      "Coleman Breen",
+      "Bryce Cai",
+      "Jasper G\u00f6tting",
+      "Andrew Bo Liu",
+      "Samira Nedungadi",
+      "Paula Rodriguez",
+      "Yannis Yiming He",
+      "Mohamed Shaaban",
+      "Zifan Wang",
+      "Seth Donoughe",
+      "Julian Michael"
+    ],
+    "published": "2026-02-26T18:37:23+00:00",
+    "summary": "Large language models (LLMs) perform increasingly well on biology benchmarks, but it remains unclear whether they uplift novice users -- i.e., enable humans to perform better than with internet-only resources. This uncertainty is central to understanding both scientific acceleration and dual-use risk. We conducted a multi-model, multi-benchmark human uplift study comparing novices with LLM access versus internet-only access across eight biosecurity-relevant task sets. Participants worked on complex problems with ample time (up to 13 hours for the most involved tasks). We found that LLM access provided substantial uplift: novices with LLMs were 4.16 times more accurate than controls (95% CI [2.63, 6.87]). On four benchmarks with available expert baselines (internet-only), novices with LLMs outperformed experts on three of them. Perhaps surprisingly, standalone LLMs often exceeded LLM-assisted novices, indicating that users were not eliciting the strongest available contributions from the LLMs. Most participants (89.6%) reported little difficulty obtaining dual-use-relevant information despite safeguards. Overall, LLMs substantially uplift novices on biological tasks previously reserved for trained practitioners, underscoring the need for sustained, interactive uplift evaluations alongside traditional benchmarks."
+  },
+  {
+    "title": "Deep ensemble graph neural networks for probabilistic cosmic-ray direction and energy reconstruction in autonomous radio arrays",
+    "url": "http://arxiv.org/abs/2602.23321v1",
+    "arxiv_id": "2602.23321v1",
+    "authors": [
+      "Ars\u00e8ne Ferri\u00e8re",
+      "Aur\u00e9lien Benoit-L\u00e9vy",
+      "Olivier Martineau-Huynh",
+      "Mat\u00edas Tueros"
+    ],
+    "published": "2026-02-26T18:29:48+00:00",
+    "summary": "Using advanced machine learning techniques, we developed a method for reconstructing precisely the arrival direction and energy of ultra-high-energy cosmic rays from the voltage traces they induced on ground-based radio detector arrays.   In our approach, triggered antennas are represented as a graph structure, which serves as input for a graph neural network (GNN). By incorporating physical knowledge into both the GNN architecture and the input data, we improve the precision and reduce the required size of the training set with respect to a fully data-driven approach. This method achieves an angular resolution of 0.092\u00b0 and an electromagnetic energy reconstruction resolution of 16.4% on simulated data with realistic noise conditions.   We also employ uncertainty estimation methods to enhance the reliability of our predictions, quantifying the confidence of the GNN's outputs and providing confidence intervals for both direction and energy reconstruction. Finally, we investigate strategies to verify the model's consistency and robustness under real life variations, with the goal of identifying scenarios in which predictions remain reliable despite domain shifts between simulation and reality."
+  },
+  {
+    "title": "Invariant Transformation and Resampling based Epistemic-Uncertainty Reduction",
+    "url": "http://arxiv.org/abs/2602.23315v1",
+    "arxiv_id": "2602.23315v1",
+    "authors": [
+      "Sha Hu"
+    ],
+    "published": "2026-02-26T18:22:40+00:00",
+    "summary": "An artificial intelligence (AI) model can be viewed as a function that maps inputs to outputs in high-dimensional spaces. Once designed and well trained, the AI model is applied for inference. However, even optimized AI models can produce inference errors due to aleatoric and epistemic uncertainties. Interestingly, we observed that when inferring multiple samples based on invariant transformations of an input, inference errors can show partial independences due to epistemic uncertainty. Leveraging this insight, we propose a \"resampling\" based inferencing that applies to a trained AI model with multiple transformed versions of an input, and aggregates inference outputs to a more accurate result. This approach has the potential to improve inference accuracy and offers a strategy for balancing model size and performance."
+  },
+  {
+    "title": "Uncertainty-Aware Calculation of Analytical Gradients of Matrix-Interpolatory Reduced-Order Models for Efficient Structural Optimization",
+    "url": "http://arxiv.org/abs/2602.23314v1",
+    "arxiv_id": "2602.23314v1",
+    "authors": [
+      "Marcel Warzecha",
+      "Sebastian Resch-Schopper",
+      "Gerhard M\u00fcller"
+    ],
+    "published": "2026-02-26T18:21:59+00:00",
+    "summary": "This paper presents an adaptive sampling algorithm tailored for the optimization of parametrized dynamical systems using projection-based model order reduction. Unlike classical sampling strategies, this framework does not aim for a small approximation error in the global sense but focuses on identifying and refining promising regions early on while reducing expensive full order model evaluations. The algorithm is tested on two models: a Timoshenko beam and a Kelvin cell, which ought to be optimized in terms of the system output in the frequency domain. For that, different norms of the transfer function are used as the objective function, while up to two geometrical parameters form the vector of design variables. The sampled full order models are reduced using the iterative rational Krylov algorithm and reprojected into a global basis. Subsequently, the models are parametrized by performing sparse Bayesian regression on matrix entry level of the reduced operators. Thompson sampling is carried out using the posterior distribution of the polynomial coefficients in order to account for uncertainties in the trained regression models. The strategy deployed for sample acquisition incorporates a gradient-based search on the parametrized reduced order model, which involves analytical gradients obtained via adjoint sensitivity analysis. By adding the found optimum to the sample set, the sample set is iteratively refined. Results demonstrate robust convergence towards the global optimum but highlight the computational cost introduced by the gradient-based optimization. The probabilistic extensions seamlessly integrate into existing matrix-interpolatory reduction frameworks and enable the analytical calculation of gradients under uncertainty."
+  },
+  {
+    "title": "Data-Efficient Generative Modeling of Non-Gaussian Global Climate Fields via Scalable Composite Transformations",
+    "url": "http://arxiv.org/abs/2602.23311v1",
+    "arxiv_id": "2602.23311v1",
+    "authors": [
+      "Johannes Brachem",
+      "Paul F. V. Wiemann",
+      "Matthias Katzfuss"
+    ],
+    "published": "2026-02-26T18:16:45+00:00",
+    "summary": "Quantifying uncertainty in future climate projections is hindered by the prohibitive computational cost of running physical climate models, which severely limits the availability of training data. We propose a data-efficient framework for emulating the internal variability of global climate fields, specifically designed to overcome these sample-size constraints. Inspired by copula modeling, our approach constructs a highly expressive joint distribution via a composite transformation to a multivariate standard normal space. We combine a nonparametric Bayesian transport map for spatial dependence modeling with flexible, spatially varying marginal models, essential for capturing non-Gaussian behavior and heavy-tailed extremes. These marginals are defined by a parametric model followed by a semi-parametric B-spline correction to capture complex distributional features. The marginal parameters are spatially smoothed using Gaussian-process priors with low-rank approximations, rendering the computational cost linear in the spatial dimension. When applied to global log-precipitation-rate fields at more than 50,000 grid locations, our stochastic surrogate achieves high fidelity, accurately quantifying the climate distribution's spatial dependence and marginal characteristics, including the tails. Using only 10 training samples, it outperforms a state-of-the-art competitor trained on 80 samples, effectively octupling the computational budget for climate research. We provide a Python implementation at https://github.com/jobrachem/ppptm ."
+  },
+  {
+    "title": "Efficient evaluation of fundamental sensitivity limits and full counting statistics for continuously monitored Gaussian quantum systems",
+    "url": "http://arxiv.org/abs/2602.23304v1",
+    "arxiv_id": "2602.23304v1",
+    "authors": [
+      "Francesco Albarelli",
+      "Marco G. Genoni"
+    ],
+    "published": "2026-02-26T18:09:46+00:00",
+    "summary": "Generalized master equations (GMEs) -- time-local but generally neither trace-preserving nor Hermiticity-preserving -- are convenient tools to compute properties of the environment of an open or continuously monitored quantum system. A two-sided master equation yields the fidelity and quantum Fisher information (QFI) of environment states, thereby setting fundamental limits for hypothesis testing and parameter estimation under continuous monitoring. For unmonitored noise or inefficient detection, the QFI of the detectable part of the environment may be obtained from a recently derived GME acting on multiple system replicas. Tilted master equations provide the full counting statistics of quantum jumps and diffusive measurements, enabling, e.g., studies of quantum thermodynamics beyond average values. Here we focus on bosonic linear systems, governed by a quadratic Hamiltonian and linear jump operators, whose dynamics preserves Gaussianity. For Gaussian initial states, we recast a generic GME as a compact set of ordinary differential equations for the covariance matrix (a Riccati-type equation), first moments, and normalization. These equations can be integrated efficiently without Hilbert-space truncation, and admit analytical results in simple settings. We also provide specialized forms for fidelity/QFI and full counting statistics. We illustrate the formalism with a continuously monitored optical parametric oscillator, using it to determine sensitivity limits for frequency estimation and to benchmark Hasegawa's thermodynamic uncertainty relations."
+  },
+  {
+    "title": "Conformalized Neural Networks for Federated Uncertainty Quantification under Dual Heterogeneity",
+    "url": "http://arxiv.org/abs/2602.23296v1",
+    "arxiv_id": "2602.23296v1",
+    "authors": [
+      "Quang-Huy Nguyen",
+      "Jiaqi Wang",
+      "Wei-Shinn Ku"
+    ],
+    "published": "2026-02-26T18:07:45+00:00",
+    "summary": "Federated learning (FL) faces challenges in uncertainty quantification (UQ). Without reliable UQ, FL systems risk deploying overconfident models at under-resourced agents, leading to silent local failures despite seemingly satisfactory global performance. Existing federated UQ approaches often address data heterogeneity or model heterogeneity in isolation, overlooking their joint effect on coverage reliability across agents. Conformal prediction is a widely used distribution-free UQ framework, yet its applications in heterogeneous FL settings remains underexplored. We provide FedWQ-CP, a simple yet effective approach that balances empirical coverage performance with efficiency at both global and agent levels under the dual heterogeneity. FedWQ-CP performs agent-server calibration in a single communication round. On each agent, conformity scores are computed on calibration data and a local quantile threshold is derived. Each agent then transmits only its quantile threshold and calibration sample size to the server. The server simply aggregates these thresholds through a weighted average to produce a global threshold. Experimental results on seven public datasets for both classification and regression demonstrate that FedWQ-CP empirically maintains agent-wise and global coverage while producing the smallest prediction sets or intervals."
+  },
+  {
+    "title": "An Active Learning Framework for Data-Efficient, Human-in-the-Loop Enzyme Function Prediction",
+    "url": "http://arxiv.org/abs/2602.23269v1",
+    "arxiv_id": "2602.23269v1",
+    "authors": [
+      "Ashley Babjac",
+      "Adrienne Hoarfrost"
+    ],
+    "published": "2026-02-26T17:42:06+00:00",
+    "summary": "Generalizable protein function prediction is increasingly constrained by the growing mismatch between exponentially expanding sequences of environmental proteins and the comparatively slow accumulation of experimentally verified functional data. Active learning offers a promising path forward for accelerating biological function prediction, by selecting the most informative proteins to experimentally annotate for data-efficient training, yet its potential remains largely unexplored. We introduce HATTER (Human-in-the-loop Adaptive Toolkit for Transferable Enzyme Representations), a modular framework that integrates multiple active learning strategies with human-in-the-loop experimental annotation to efficiently fine tune function prediction models. We compare active learning training to standard supervised training for biological enzyme function prediction, demonstrating that active learning achieves performance comparable to standard training across diverse protein sequence evaluation datasets while requiring fewer model updates, processing less data, and substantially reducing computational cost. Interestingly, point-based uncertainty sampling methods like entropy or margin sampling perform as well or better than more complex acquisition functions such as bayesian sampling or BALD, highlighting the relative importance of sequence diversity in training datasets and model architecture design. These results demonstrate that human-in-the-loop active learning can efficiently accelerate enzyme discovery, providing a flexible platform for adaptive, scalable, and expert-guided protein function prediction."
+  },
+  {
+    "title": "Quantum Confocal Microscopy in Fock Space with a 19 dB Metrological Gain",
+    "url": "http://arxiv.org/abs/2602.23254v1",
+    "arxiv_id": "2602.23254v1",
+    "authors": [
+      "Ziyue Hua",
+      "Chuanlong Ma",
+      "Yilong Zhou",
+      "Yifang Xu",
+      "Zi-Jie Chen",
+      "Weizhou Cai",
+      "Jiajun Chen",
+      "Lintao Xiao",
+      "Hongwei Huang",
+      "Weiting Wang",
+      "Hekang Li",
+      "Haohua Wang",
+      "Ming Li",
+      "Chang-Ling Zou",
+      "Luyan Sun"
+    ],
+    "published": "2026-02-26T17:27:45+00:00",
+    "summary": "Quantum metrology promises measurement precision beyond classical limits by exploiting large-scale quantum states, yet realizing this advantage faces two fundamental challenges: the deterministic preparation of non-trivial quantum probes and the efficient extraction of metrological information in high-dimensional Hilbert spaces. Here, we introduce quantum confocal microscopy in Fock space that simultaneously resolves both challenges. Drawing a direct analogy between classical wave optics and quantum state evolution in a bosonic mode, we construct a confocal system with two Fock-space lenses. The first lens deterministically focuses a coherent state into a quantum probe with a tightly concentrated photon-number distribution, while the second lens maps the metrological information back to the vacuum state for efficient readout. Using a superconducting circuit QED platform, we prepare focused probe states with mean photon numbers up to ${N} = 500$, achieving a 21.5$\\pm$1.1 dB compression of the photon-number uncertainty relative to a coherent state, with a scalable quantum circuit of $\\mathcal{O}(1)$ operational depth. We demonstrate a displacement sensitivity scaling as $N^{-0.416}$, approaching the Heisenberg scaling ($N^{-0.5}$), and achieve a record metrological gain of 19.06$\\pm$0.13 dB beyond the standard quantum limit. This work establishes quantum confocal microscopy as a scalable and practical framework for quantum-enhanced precision measurement, readily extendable to other bosonic platforms and high-dimensional quantum many-body systems."
+  },
+  {
     "title": "Local Bayesian Regression",
     "url": "http://arxiv.org/abs/2602.22203v1",
     "arxiv_id": "2602.22203v1",
