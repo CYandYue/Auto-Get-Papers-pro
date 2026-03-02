@@ -1,5 +1,148 @@
 [
   {
+    "title": "Curriculum-Based Soft Actor-Critic for Multi-Section R2R Tension Control",
+    "url": "http://arxiv.org/abs/2602.24259v1",
+    "arxiv_id": "2602.24259v1",
+    "authors": [
+      "Shihao Li",
+      "Jiachen Li",
+      "Christopher Martin",
+      "Zijun Chen",
+      "Dongmei Chen",
+      "Wei Li"
+    ],
+    "published": "2026-02-27T18:30:37+00:00",
+    "summary": "Precise tension control in roll-to-roll (R2R) manufacturing is difficult under varying operating conditions and process uncertainty. This paper presents a curriculum-based Soft Actor-Critic (SAC) controller for multi-section R2R tension control. The policy is trained in three phases with progressively wider reference ranges, from 27 to 33 N to the full operating envelope of 20 to 40 N, so it can generalize across nominal and disturbed conditions. On a three-section R2R benchmark, the learned controller achieves accurate tracking in nominal operation and handles large disturbances, including 20 N to 40 N step changes, with a single policy and no scenario-specific retuning. These results indicate that curriculum-trained SAC is a practical alternative to model-based control when system parameters vary and process uncertainty is significant."
+  },
+  {
+    "title": "Time Series Foundation Models as Strong Baselines in Transportation Forecasting: A Large-Scale Benchmark Analysis",
+    "url": "http://arxiv.org/abs/2602.24238v1",
+    "arxiv_id": "2602.24238v1",
+    "authors": [
+      "Javier Pulido",
+      "Filipe Rodrigues"
+    ],
+    "published": "2026-02-27T18:10:54+00:00",
+    "summary": "Accurate forecasting of transportation dynamics is essential for urban mobility and infrastructure planning. Although recent work has achieved strong performance with deep learning models, these methods typically require dataset-specific training, architecture design and hyper-parameter tuning. This paper evaluates whether general-purpose time-series foundation models can serve as forecasters for transportation tasks by benchmarking the zero-shot performance of the state-of-the-art model, Chronos-2, across ten real-world datasets covering highway traffic volume and flow, urban traffic speed, bike-sharing demand, and electric vehicle charging station data. Under a consistent evaluation protocol, we find that, even without any task-specific fine-tuning, Chronos-2 delivers state-of-the-art or competitive accuracy across most datasets, frequently outperforming classical statistical baselines and specialized deep learning architectures, particularly at longer horizons. Beyond point forecasting, we evaluate its native probabilistic outputs using prediction-interval coverage and sharpness, demonstrating that Chronos-2 also provides useful uncertainty quantification without dataset-specific training. In general, this study supports the adoption of time-series foundation models as a key baseline for transportation forecasting research."
+  },
+  {
+    "title": "Uncertainty Quantification for Multimodal Large Language Models with Incoherence-adjusted Semantic Volume",
+    "url": "http://arxiv.org/abs/2602.24195v1",
+    "arxiv_id": "2602.24195v1",
+    "authors": [
+      "Gregory Kang Ruey Lau",
+      "Hieu Dao",
+      "Nicole Kan Hui Lin",
+      "Bryan Kian Hsiang Low"
+    ],
+    "published": "2026-02-27T17:18:42+00:00",
+    "summary": "Despite their capabilities, Multimodal Large Language Models (MLLMs) may produce plausible but erroneous outputs, hindering reliable deployment. Accurate uncertainty metrics could enable escalation of unreliable queries to human experts or larger models for improved performance. However, existing uncertainty metrics have practical constraints, such as being designed only for specific modalities, reliant on external tools, or computationally expensive. We introduce UMPIRE, a training-free uncertainty quantification framework for MLLMs that works efficiently across various input and output modalities without external tools, relying only on the models' own internal modality features. UMPIRE computes the incoherence-adjusted semantic volume of sampled MLLM responses for a given task instance, effectively capturing both the global semantic diversity of samples and the local incoherence of responses based on internal model confidence. We propose uncertainty desiderata for MLLMs and provide theoretical analysis motivating UMPIRE's design. Extensive experiments show that UMPIRE consistently outperforms baseline metrics in error detection and uncertainty calibration across image, audio, and video-text benchmarks, including adversarial and out-of-distribution settings. We also demonstrate UMPIRE's generalization to non-text output tasks, including image and audio generation."
+  },
+  {
+    "title": "Betting under Common Beliefs: The Effect of Probability Weighting",
+    "url": "http://arxiv.org/abs/2602.24194v1",
+    "arxiv_id": "2602.24194v1",
+    "authors": [
+      "Patrick Beissner",
+      "Tim Boonen",
+      "Mario Ghossoub"
+    ],
+    "published": "2026-02-27T17:17:52+00:00",
+    "summary": "This paper examines the impact of introducing a Rank-Dependent Utility (RDU) agent into a von Neumann-Morgenstern (vNM) pure-exchange economy with no aggregate uncertainty. In the absence of the RDU agent, the classical theory predicts that Pareto-optimal allocations are full-insurance, or no-betting, allocations. We show how the probability weighting function of the RDU agent, seen as a proxy for probabilistic risk aversion that is not captured by marginal utility of wealth, can lead to Pareto optima characterized by endogenous betting, despite common baseline beliefs. Such endogenous betting at an optimum leads to uncertainty-generating trade arising purely from heterogeneity in the perception of risk, rather than in beliefs. Our results formalize the intuitive understanding that probability weighting can act as an endogenous source of belief heterogeneity, and provide a new behavioral foundation for the coexistence of common beliefs and speculative behavior, in an environment with no initial aggregate uncertainty. Interpreting the RDU agent's nonlinear weighting function as an ``internality'' prompts the question of whether a social planner should intervene. We show how a benevolent social planner can nudge the RDU agent to behave closer to a vNM agent, through costly statistical or financial education, thereby (partially) restoring the optimality of full-insurance allocations."
+  },
+  {
+    "title": "Resilient Strategies for Stochastic Systems: How Much Does It Take to Break a Winning Strategy?",
+    "url": "http://arxiv.org/abs/2602.24191v1",
+    "arxiv_id": "2602.24191v1",
+    "authors": [
+      "Kush Grover",
+      "Markel Zubia",
+      "Debraj Chakraborty",
+      "Muqsit Azeem",
+      "Nils Jansen",
+      "Jan Kretinsky"
+    ],
+    "published": "2026-02-27T17:15:49+00:00",
+    "summary": "We study the problem of resilient strategies in the presence of uncertainty. Resilient strategies enable an agent to make decisions that are robust against disturbances. In particular, we are interested in those disturbances that are able to flip a decision made by the agent. Such a disturbance may, for instance, occur when the intended action of the agent cannot be executed due to a malfunction of an actuator in the environment. In this work, we introduce the concept of resilience in the stochastic setting and present a comprehensive set of fundamental problems. Specifically, we discuss such problems for Markov decision processes with reachability and safety objectives, which also smoothly extend to stochastic games. To account for the stochastic setting, we provide various ways of aggregating the amounts of disturbances that may have occurred, for instance, in expectation or in the worst case. Moreover, to reason about infinite disturbances, we use quantitative measures, like their frequency of occurrence."
+  },
+  {
+    "title": "The Light Quark Connected Hadronic Vacuum Polarization Contribution to the muon anomaly via Sparsened Meson Fields",
+    "url": "http://arxiv.org/abs/2602.24190v1",
+    "arxiv_id": "2602.24190v1",
+    "authors": [
+      "Vaishakhi Moningi",
+      "Christopher Aubin",
+      "Thomas Blum",
+      "Maarten Golterman",
+      "Luchang Jin",
+      "Santiago Peris"
+    ],
+    "published": "2026-02-27T17:13:39+00:00",
+    "summary": "We present an update on our determination of the light-quark connected contribution to the hadronic vacuum polarization (HVP) of the muon anomalous magnetic moment, $a_\u03bc$, on a finer lattice with 2+1+1 highly-improved staggered quark (HISQ) ensemble from the MILC collaboration with physical pion mass, 0.042 fm lattice spacing, and size $144^3 \\times 288$ sites. Within the low-mode averaging (LMA) framework, the HVP correlator is decomposed into low-low (LL), high-low (HL), low-high (LH) and high-high (HH) components. Since the LL part dominates the total statistical uncertainty but is also the most computationally expensive to evaluate, we implement a sparsening strategy to construct the meson fields efficiently. This approach significantly reduces the computational cost while preserving signal quality. By combining the sparsened LL contribution with HL, LH and HH components, we achieve an improved determination of the light-quark connected HVP contribution to $a_\u03bc$."
+  },
+  {
+    "title": "The three-loop hadronic vacuum polarization in chiral perturbation theory",
+    "url": "http://arxiv.org/abs/2602.24184v1",
+    "arxiv_id": "2602.24184v1",
+    "authors": [
+      "Mattias Sj\u00f6",
+      "Laurent Lellouch",
+      "Alessandro Lupo",
+      "K\u00e1lm\u00e1n Szabo",
+      "Pierre Vanhove"
+    ],
+    "published": "2026-02-27T17:06:58+00:00",
+    "summary": "Hadronic vacuum polarization is a key observable in low-energy QCD, and is famously the greatest contributor to the theoretical uncertainty in the muon magnetic moment. Its long-distance part in particular is a weak point of the current best lattice QCD computations. In this summary of our recent work, we present its computation to next-to-next-to-next-to-leading order in chiral perturbation theory, capturing the lowest-energy hadronic contributions to unprecedented precision and opening the door for improved control over lattice finite volume effects. The result depends on a small number of low-energy constants, whose values are mostly under good control. This calculation pushes the envelope of high-order chiral perturbation theory and of the evaluation of multiloop integrals with massive propagators, thereby extending the toolbox for precision calculations in very low-energy QCD."
+  },
+  {
+    "title": "Isospin breaking corrections to the hadronic vacuum polarization with stochastic coordinate sampling",
+    "url": "http://arxiv.org/abs/2602.24132v1",
+    "arxiv_id": "2602.24132v1",
+    "authors": [
+      "Mattia Bruno",
+      "Vera G\u00fclpers",
+      "Nils Hermansson-Truedsson",
+      "Christoph Lehner",
+      "Julian Parrino",
+      "J. Tobias Tsang"
+    ],
+    "published": "2026-02-27T16:08:44+00:00",
+    "summary": "In the recent Muon g-2 Theory Initiative white paper update, the hadronic vacuum polarization (HVP) contribution -- which dominates the theoretical uncertainty -- is evaluated as an average of different lattice QCD calculations. Since lattice simulations are mostly carried out in isospin symmetric QCD, corrections due to the mass difference of the up and down quarks and the coupling to photons have to be accounted for. These isospin breaking effects are of order 1\\% and can be treated as corrections to the result for the HVP contribution in isospin symmetric QCD. In the current estimate of the HVP contribution, these effects are a large source of uncertainty due to the extensive computational cost to compute all occurring Wick contractions and degrading signal-to-noise behaviour especially for quark disconnected diagrams. We present the current status of the calculation of isospin breaking corrections in the HVP contribution for the RBC/UKQCD collaborations. We use a dataset of propagators computed using stochastic coordinate sampling (SCS) to construct all necessary Wick contractions for the electromagnetic and strong isospin breaking effects. We employ different versions of QED on the lattice, such as QED$_L$, QED$_r$ and QED$_\\infty$ to improve our estimate of finite-volume uncertainties."
+  },
+  {
+    "title": "RewardUQ: A Unified Framework for Uncertainty-Aware Reward Models",
+    "url": "http://arxiv.org/abs/2602.24040v1",
+    "arxiv_id": "2602.24040v1",
+    "authors": [
+      "Daniel Yang",
+      "Samuel Stante",
+      "Florian Redhardt",
+      "Lena Libon",
+      "Parnian Kassraie",
+      "Ido Hakimi",
+      "Barna P\u00e1sztor",
+      "Andreas Krause"
+    ],
+    "published": "2026-02-27T14:15:57+00:00",
+    "summary": "Reward models are central to aligning large language models (LLMs) with human preferences. Yet most approaches rely on pointwise reward estimates that overlook the epistemic uncertainty in reward models arising from limited human feedback. Recent work suggests that quantifying this uncertainty can reduce the costs of human annotation via uncertainty-guided active learning and mitigate reward overoptimization in LLM post-training. However, uncertainty-aware reward models have so far been adopted without thorough comparison, leaving them poorly understood. This work introduces a unified framework, RewardUQ, to systematically evaluate uncertainty quantification for reward models. We compare common methods along standard metrics measuring accuracy and calibration, and we propose a new ranking strategy incorporating both dimensions for a simplified comparison. Our experimental results suggest that model size and initialization have the most meaningful impact on performance, and most prior work could have benefited from alternative design choices. To foster the development and evaluation of new methods and aid the deployment in downstream applications, we release our open-source framework as a Python package. Our code is available at https://github.com/lasgroup/rewarduq."
+  },
+  {
+    "title": "A Quality Framework for Testing Gravity with Wide Binaries: No Evidence for MOND",
+    "url": "http://arxiv.org/abs/2602.24035v1",
+    "arxiv_id": "2602.24035v1",
+    "authors": [
+      "Stephen A. Cookson",
+      "Indranil Banik",
+      "Kareem El-Badry",
+      "Will Sutherland",
+      "Zephyr Penoyre",
+      "Charalambos Pittordis",
+      "Cathie J. Clarke"
+    ],
+    "published": "2026-02-27T14:04:43+00:00",
+    "summary": "Wide binaries (WBs) offer a unique opportunity to test gravity in the low-acceleration regime, where modifications such as Milgromian dynamics (MOND) predict measurable deviations from Newtonian gravity. We construct a rigorous framework for conducting the wide binary test (WBT), emphasizing high quality sample selection, filtering of poor astrometric solutions, contamination mitigation, and uncertainty propagation. We show that undetected close binaries, chance alignments, and improper treatment of projection effects can mimic MOND-like signals. We introduce a checklist of best practices to identify and avoid these pitfalls. Applying this framework to Gaia DR3 data, we compile a high-purity sample of WBs within 130 pc with projected separations of 1 - 30 kAU, spanning the transition between the Newtonian and MOND regimes. We find that the scaled relative velocity distribution of wide binaries does not exhibit the 20% enhancement expected from MOND and is consistent with Newtonian gravity across all separations. A meta-analysis of previous WBTs shows that apparent MOND signals diminish as methodological rigour improves. We conclude that when stringent quality controls are applied, there is no observational evidence for MOND-induced velocity boosts in wide binaries. Our results place strong empirical constraints on modified gravity theories operating between a0/10 and 200 a0, where a0 is the MOND acceleration scale. Across this range of internal accelerations, Newtonian gravity is up to 1500x more likely than MOND for our cleanest sample."
+  },
+  {
     "title": "Robust model selection using likelihood as data",
     "url": "http://arxiv.org/abs/2602.23355v1",
     "arxiv_id": "2602.23355v1",
