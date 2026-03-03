@@ -1,5 +1,140 @@
 [
   {
+    "title": "Partial Causal Structure Learning for Valid Selective Conformal Inference under Interventions",
+    "url": "http://arxiv.org/abs/2603.02204v1",
+    "arxiv_id": "2603.02204v1",
+    "authors": [
+      "Amir Asiaee",
+      "Kavey Aryan",
+      "James P. Long"
+    ],
+    "published": "2026-03-02T18:58:22+00:00",
+    "summary": "Selective conformal prediction can yield substantially tighter uncertainty sets when we can identify calibration examples that are exchangeable with the test example. In interventional settings, such as perturbation experiments in genomics, exchangeability often holds only within subsets of interventions that leave a target variable \"unaffected\" (e.g., non-descendants of an intervened node in a causal graph). We study the practical regime where this invariance structure is unknown and must be learned from data. Our contributions are: (i) a contamination-robust conformal coverage theorem that quantifies how misclassification of \"unaffected\" calibration examples degrades coverage via an explicit function $g(\u03b4,n)$ of the contamination fraction and calibration set size, providing a finite-sample lower bound that holds for arbitrary contaminating distributions; (ii) a task-driven partial causal learning formulation that estimates only the binary descendant indicators $Z_{a,i}=\\mathbf{1}\\{i\\in\\mathrm{desc}(a)\\}$ needed for selective calibration, rather than the full causal graph; and (iii) algorithms for descendant discovery via perturbation intersection patterns (differentially affected variable set intersections across interventions), and for approximate distance-to-intervention estimation via local invariant causal prediction. We provide recovery conditions under which contamination is controlled. Experiments on synthetic linear structural equation models (SEMs) validate the bound: under controlled contamination up to $\u03b4=0.30$, the corrected procedure maintains $\\ge 0.95$ coverage while uncorrected selective CP degrades to $0.867$. A proof-of-concept on Replogle K562 CRISPR interference (CRISPRi) perturbation data demonstrates applicability to real genomic screens."
+  },
+  {
+    "title": "Efficient first-principles modeling of complex molecular crystals at sub-chemical accuracy",
+    "url": "http://arxiv.org/abs/2603.02180v1",
+    "arxiv_id": "2603.02180v1",
+    "authors": [
+      "Benjamin X. Shi",
+      "Kristina M. Herman",
+      "Flaviano Della Pia",
+      "Venkat Kapil",
+      "Andrea Zen",
+      "Peter R. Nagy",
+      "Sotiris Xantheas",
+      "Angelos Michaelides"
+    ],
+    "published": "2026-03-02T18:49:37+00:00",
+    "summary": "Molecules can form myriad crystalline polymorphs, each with distinct properties affecting their performance across diverse applications, from pharmaceuticals to functional materials and more. Predicting the thermodynamically most stable polymorph from first principles remains a formidable challenge. It requires methods that scale to large, technologically-relevant molecules while achieving very high accuracy (below 1 kJ/mol) on relative lattice energies. Such accuracy, often termed sub-chemical accuracy, is generally beyond the reach of the workhorse density functional theory (DFT). In this work, we introduce a framework, combining advances in correlated wavefunction theory (cWFT) and the many-body expansion, to deliver accurate, cost-effective predictions of complex molecular crystals. For 23 organic molecules and 13 ice polymorphs, we predict crystal lattice energies to within experimental uncertainties at costs comparable to hybrid DFT, while being several orders of magnitude more efficient than previous cWFT approaches. We extend this approach to a set of large, drug-like molecules including axitinib and ROY, previously inaccessible to cWFT and where DFT is insufficient, achieving sub-chemical accuracy on the relative energies between challenging polymorphs. With the reference data generated throughout this work, we have been able to further parametrize a DFT functional with unprecedented accuracy aligning with our predictions. This cWFT framework as well as DFT functional are made openly available, providing new ranking tools to facilitate efficient high-throughput screening of molecular crystal polymorphs."
+  },
+  {
+    "title": "Instrumental and Proximal Causal Inference with Gaussian Processes",
+    "url": "http://arxiv.org/abs/2603.02159v1",
+    "arxiv_id": "2603.02159v1",
+    "authors": [
+      "Yuqi Zhang",
+      "Krikamol Muandet",
+      "Dino Sejdinovic",
+      "Edwin Fong",
+      "Siu Lun Chau"
+    ],
+    "published": "2026-03-02T18:23:26+00:00",
+    "summary": "Instrumental variable (IV) and proximal causal learning (Proxy) methods are central frameworks for causal inference in the presence of unobserved confounding. Despite substantial methodological advances, existing approaches rarely provide reliable epistemic uncertainty (EU) quantification. We address this gap through a Deconditional Gaussian Process (DGP) framework for uncertainty-aware causal learning. Our formulation recovers popular kernel estimators as the posterior mean, ensuring predictive precision, while the posterior variance yields principled and well-calibrated EU. Moreover, the probabilistic structure enables systematic model selection via marginal log-likelihood optimization. Empirical results demonstrate strong predictive performance alongside informative EU quantification, evaluated via empirical coverage frequencies and decision-aware accuracy rejection curves. Together, our approach provides a unified, practical solution for causal inference under unobserved confounding with reliable uncertainty."
+  },
+  {
+    "title": "Weighted Norm Inequalities for the Strichartz Fourier transform on the Heisenberg Group",
+    "url": "http://arxiv.org/abs/2603.02144v1",
+    "arxiv_id": "2603.02144v1",
+    "authors": [
+      "Aparajita Dasgupta",
+      "Prerna Gulia",
+      "Sanjoy Pusti",
+      "Sundaram Thangavelu"
+    ],
+    "published": "2026-03-02T18:07:28+00:00",
+    "summary": "In this article, we establish an analogue of Pitt's inequality for the Strichartz Fourier transform on the Heisenberg group $\\mathbb{H}^n$. By exploiting the scalar-valued formulation of the transform and the framework of decreasing rearrangements, we derive weighted $L^p$-$L^q$ estimates of Pitt type. In particular, we obtain sufficient conditions for the validity of such inequalities via weighted Hardy inequalities and Calder\u00f3n's interpolation method, and we also prove necessary conditions in the case of radial weights, using structural properties of Laguerre functions and zeros of Bessel function. As an application, we deduce an uncertainty principle of Heisenberg-Pauli-Weyl type in this setting and establish a Paley inequality for the Strichartz Fourier transform. We also derive Pitt's inequality using Hardy's inequality for the case $p=q=2$. These results extend the classical Euclidean theory of Pitt's inequality to the non-commutative, nilpotent setting of $\\mathbb{H}^n$ for the sub-Laplacian and conformal Laplacian. Here we highlight the role of Laguerre functions in harmonic analysis on the Heisenberg group."
+  },
+  {
+    "title": "SimRecon: SimReady Compositional Scene Reconstruction from Real Videos",
+    "url": "http://arxiv.org/abs/2603.02133v1",
+    "arxiv_id": "2603.02133v1",
+    "authors": [
+      "Chong Xia",
+      "Kai Zhu",
+      "Zizhuo Wang",
+      "Fangfu Liu",
+      "Zhizheng Zhang",
+      "Yueqi Duan"
+    ],
+    "published": "2026-03-02T17:51:45+00:00",
+    "summary": "Compositional scene reconstruction seeks to create object-centric representations rather than holistic scenes from real-world videos, which is natively applicable for simulation and interaction. Conventional compositional reconstruction approaches primarily emphasize on visual appearance and show limited generalization ability to real-world scenarios. In this paper, we propose SimRecon, a framework that realizes a \"Perception-Generation-Simulation\" pipeline towards cluttered scene reconstruction, which first conducts scene-level semantic reconstruction from video input, then performs single-object generation, and finally assembles these assets in the simulator. However, naively combining these three stages leads to visual infidelity of generated assets and physical implausibility of the final scene, a problem particularly severe for complex scenes. Thus, we further propose two bridging modules between the three stages to address this problem. To be specific, for the transition from Perception to Generation, critical for visual fidelity, we introduce Active Viewpoint Optimization, which actively searches in 3D space to acquire optimal projected images as conditions for single-object completion. Moreover, for the transition from Generation to Simulation, essential for physical plausibility, we propose a Scene Graph Synthesizer, which guides the construction from scratch in 3D simulators, mirroring the native, constructive principle of the real world. Extensive experiments on the ScanNet dataset validate our method's superior performance over previous state-of-the-art approaches."
+  },
+  {
+    "title": "Real-Time Thermal-Inertial Odometry on Embedded Hardware for High-Speed GPS-Denied Flight",
+    "url": "http://arxiv.org/abs/2603.02114v1",
+    "arxiv_id": "2603.02114v1",
+    "authors": [
+      "Austin Stone",
+      "Mark Petersen",
+      "Cammy Peterson"
+    ],
+    "published": "2026-03-02T17:38:37+00:00",
+    "summary": "We present a real-time monocular thermal-inertial odometry system designed for high-velocity, GPS-denied flight on embedded hardware. The system fuses measurements from a FLIR Boson+ 640 longwave infrared camera, a high-rate IMU, a laser range finder, a barometer, and a magnetometer within a fixed-lag factor graph. To sustain reliable feature tracks under motion blur, low contrast, and rapid viewpoint changes, we employ a lightweight thermal-optimized front-end with multi-stage feature filtering. Laser range finder measurements provide per-feature depth priors that stabilize scale during weakly observable motion. High-rate inertial data is first pre-filtered using a Chebyshev Type II infinite impulse response (IIR) filter and then preintegrated, improving robustness to airframe vibrations during aggressive maneuvers. To address barometric altitude errors induced at high airspeeds, we train an uncertainty-aware gated recurrent unit (GRU) network that models the temporal dynamics of static pressure distortion, outperforming polynomial and multi-layer perceptron (MLP) baselines. Integrated on an NVIDIA Jetson Xavier NX, the complete system supports closed-loop quadrotor flight at 30 m/s with drift under 2% over kilometer-scale trajectories. These contributions expand the operational envelope of thermal-inertial navigation, enabling reliable high-speed flight in visually degraded and GPS-denied environments."
+  },
+  {
+    "title": "High-quality, high-information dataset for universal atomistic machine learning",
+    "url": "http://arxiv.org/abs/2603.02089v1",
+    "arxiv_id": "2603.02089v1",
+    "authors": [
+      "Cesare Malosso",
+      "Filippo Bigi",
+      "Paolo Pegolo",
+      "Joseph W. Abbott",
+      "Philip Loche",
+      "Mariana Rossi",
+      "Michele Ceriotti",
+      "Arslan Mazitov"
+    ],
+    "published": "2026-03-02T17:07:30+00:00",
+    "summary": "The quality, consistency, and information content of training data is often what determines the practical value of machine-learning models for atomistic simulations. Yet, many widely used electronic-structure databases are assembled having materials screening as primary goal rather than robust force-field learning, are limited in their scope to a specific class of chemical compounds, and/or employ inconsistent DFT functionals and settings. Here we introduce MAD-1.5, a highly curated dataset designed explicitly for training broadly applicable atomistic models across the periodic table at high levels of theory. MAD-1.5 extends the MAD dataset with targeted enrichment strategies that improve the coverage of chemical space to 102 elements while keeping the total number of configurations compact. All structures are computed with a single, standardized all-electron DFT workflow using the r$^2$SCAN meta-GGA functional and consistent convergence settings, ensuring uniformity across chemically heterogeneous systems. The dataset encompasses molecules, clusters, bulk crystals, surfaces, and low-dimensional structures, and its quality and consistency are further enhanced by outlier removal using uncertainty quantification. We demonstrate the high accuracy that can be achieved with the proposed dataset by training PET-MAD-1.5, a generally applicable r$^2$SCAN interatomic potential that covers 102 elements in the periodic table and achieves exceptional levels of benchmark accuracy and stability in challenging simulation protocols."
+  },
+  {
+    "title": "LAD-Drive: Bridging Language and Trajectory with Action-Aware Diffusion Transformers",
+    "url": "http://arxiv.org/abs/2603.02035v1",
+    "arxiv_id": "2603.02035v1",
+    "authors": [
+      "Fabian Schmidt",
+      "Karol Fedurko",
+      "Markus Enzweiler",
+      "Abhinav Valada"
+    ],
+    "published": "2026-03-02T16:21:42+00:00",
+    "summary": "While multimodal large language models (MLLMs) provide advanced reasoning for autonomous driving, translating their discrete semantic knowledge into continuous trajectories remains a fundamental challenge. Existing methods often rely on unimodal planning heads that inherently limit their ability to represent multimodal driving behavior. Furthermore, most generative approaches frequently condition on one-hot encoded actions, discarding the nuanced navigational uncertainty critical for complex scenarios. To resolve these limitations, we introduce LAD-Drive, a generative framework that structurally disentangles high-level intention from low-level spatial planning. LAD-Drive employs an action decoder to infer a probabilistic meta-action distribution, establishing an explicit belief state that preserves the nuanced intent typically lost by one-hot encodings. This distribution, fused with the vehicle's kinematic state, conditions an action-aware diffusion decoder that utilizes a truncated denoising process to refine learned motion anchors into safe, kinematically feasible trajectories. Extensive evaluations on the LangAuto benchmark demonstrate that LAD-Drive achieves state-of-the-art results, outperforming competitive baselines by up to 59% in Driving Score while significantly reducing route deviations and collisions. We will publicly release the code and models on https://github.com/iis-esslingen/lad-drive."
+  },
+  {
+    "title": "Noise-Calibrated Inference from Differentially Private Sufficient Statistics in Exponential Families",
+    "url": "http://arxiv.org/abs/2603.02010v1",
+    "arxiv_id": "2603.02010v1",
+    "authors": [
+      "Amir Asiaee",
+      "Samhita Pal"
+    ],
+    "published": "2026-03-02T15:55:54+00:00",
+    "summary": "Many differentially private (DP) data release systems either output DP synthetic data and leave analysts to perform inference as usual, which can lead to severe miscalibration, or output a DP point estimate without a principled way to do uncertainty quantification. This paper develops a clean and tractable middle ground for exponential families: release only DP sufficient statistics, then perform noise-calibrated likelihood-based inference and optional parametric synthetic data generation as post-processing. Our contributions are: (1) a general recipe for approximate-DP release of clipped sufficient statistics under the Gaussian mechanism; (2) asymptotic normality, explicit variance inflation, and valid Wald-style confidence intervals for the plug-in DP MLE; (3) a noise-aware likelihood correction that is first-order equivalent to the plug-in but supports bootstrap-based intervals; and (4) a matching minimax lower bound showing the privacy distortion rate is unavoidable. The resulting theory yields concrete design rules and a practical pipeline for releasing DP synthetic data with principled uncertainty quantification, validated on three exponential families and real census data."
+  },
+  {
+    "title": "Quantifying Uncertainty in Void Swelling Prediction: A Conformal Prediction Framework for Reactor Safety Margins",
+    "url": "http://arxiv.org/abs/2603.01981v1",
+    "arxiv_id": "2603.01981v1",
+    "authors": [
+      "Minhee Kim",
+      "Yong Yang"
+    ],
+    "published": "2026-03-02T15:37:34+00:00",
+    "summary": "Irradiation-induced void swelling is a critical degradation mechanism for structural materials in nuclear reactors, dictating component operational lifespan and safety. While recent machine learning (ML) approaches have improved the accuracy of swelling rate predictions, they often fail to account for the inherent stochasticity of radiation damage, providing point estimates without rigorous uncertainty quantification. This lack of probabilistic context limits their applications in materials qualification, reactor licensing and risk assessment. In this work, we develop a framework that integrates ensemble ML models with Conformal Prediction (CP) to generate statistically calibrated prediction intervals. Unlike standard error estimation or Bayesian methods that often rely on rigid distributional assumptions, this approach specifically addresses the physical heteroscedasticity of swelling data, where variance transitions from the nucleation-dominated incubation regime to the growth-dominated steady-state regime. We demonstrate that log-transformed conformal prediction inference provides valid empirical coverage consistent with target confidence levels even in sparse data regimes. This framework offers a pathway to replace overly conservative upper-bound curves with Probabilistic Risk Assessment (PRA) tools for high-dose reactor core internals."
+  },
+  {
     "title": "Curriculum-Based Soft Actor-Critic for Multi-Section R2R Tension Control",
     "url": "http://arxiv.org/abs/2602.24259v1",
     "arxiv_id": "2602.24259v1",
