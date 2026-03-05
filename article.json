@@ -1,5 +1,154 @@
 [
   {
+    "title": "Exploring gas thermodynamics around galaxies from the Sunyaev-Zel'dovich effects: impact of galaxy-halo connection, 2D projection and velocity field",
+    "url": "http://arxiv.org/abs/2603.04397v1",
+    "arxiv_id": "2603.04397v1",
+    "authors": [
+      "Sadaf Kadir",
+      "Bernardita Ried Guachalla",
+      "Sihan Yuan",
+      "Emmanuel Schaan",
+      "Risa H. Wechsler"
+    ],
+    "published": "2026-03-04T18:59:00+00:00",
+    "summary": "A complete picture of the gas thermodynamics around galaxies is imprinted on the cosmic microwave background (CMB). Indeed, the thermal, kinematic, and relativistic Sunyaev-Zel'dovich effects (tSZ, kSZ, rSZ) measure the gas density, temperature, pressure of baryonic feedback and bulk velocity around galaxies, along with the gravitational potential it sits in. This full thermodynamic picture promises to constrain galaxy formation models and gas related uncertainties in the impact on galaxy lensing. Recent kSZ measurements around galaxies suggest that the gas may be more extended than anticipated, pointing to powerful feedback processes and large baryonic corrections to lensing. How robust are these conclusions about the galaxy-halo connection, including satellite fraction and high-mass outliers, or to 2D projection effects and large-scale velocity modes? In this paper, we give estimates for these effects using a simulated sample of DESI-like luminous red galaxies within the IllustrisTNG hydrodynamical simulation and the Abacus N-body simulation. We show that analyzing projected 2D profiles can lead to biases when computing quantities like the gas fraction. We also find that in the absence of spatial filtering, the 2-halo term is non-negligible for kSZ even at the smaller radii where the 1-halo term dominates. We show that a 1% uncertainty in the satellite fraction of galaxies can propagate into uncertainties of $\\pm$1%, $\\pm$3% and $\\pm$5% in the 1-halo terms of the kSZ, tSZ, and rSZ signals, respectively. We show that masking the 2% most massive objects in the sample reduces the profile amplitudes by up to 10%, 40%, and 75% for the kSZ, tSZ, and rSZ signals, respectively. Finally, we show that naive simulations of the kSZ effect can be biased by an artificial Doppler term, which is automatically removed when high-pass or compensated aperture filtering is applied."
+  },
+  {
+    "title": "Accurate and Efficient Hybrid-Ensemble Atmospheric Data Assimilation in Latent Space with Uncertainty Quantification",
+    "url": "http://arxiv.org/abs/2603.04395v1",
+    "arxiv_id": "2603.04395v1",
+    "authors": [
+      "Hang Fan",
+      "Juan Nathaniel",
+      "Yi Xiao",
+      "Ce Bian",
+      "Fenghua Ling",
+      "Ben Fei",
+      "Lei Bai",
+      "Pierre Gentine"
+    ],
+    "published": "2026-03-04T18:58:27+00:00",
+    "summary": "Data assimilation (DA) combines model forecasts and observations to estimate the optimal state of the atmosphere with its uncertainty, providing initial conditions for weather prediction and reanalyses for climate research. Yet, existing traditional and machine-learning DA methods struggle to achieve accuracy, efficiency and uncertainty quantification simultaneously. Here, we propose HLOBA (Hybrid-Ensemble Latent Observation-Background Assimilation), a three-dimensional hybrid-ensemble DA method that operates in an atmospheric latent space learned via an autoencoder (AE). HLOBA maps both model forecasts and observations into a shared latent space via the AE encoder and an end-to-end Observation-to-Latent-space mapping network (O2Lnet), respectively, and fuses them through a Bayesian update with weights inferred from time-lagged ensemble forecasts. Both idealized and real-observation experiments demonstrate that HLOBA matches dynamically constrained four-dimensional DA methods in both analysis and forecast skill, while achieving end-to-end inference-level efficiency and theoretical flexibility applies to any forecasting model. Moreover, by exploiting the error decorrelation property of latent variables, HLOBA enables element-wise uncertainty estimates for its latent analysis and propagates them to model space via the decoder. Idealized experiments show that this uncertainty highlights large-error regions and captures their seasonal variability."
+  },
+  {
+    "title": "On the operational and algebraic quantum correlations",
+    "url": "http://arxiv.org/abs/2603.04332v1",
+    "arxiv_id": "2603.04332v1",
+    "authors": [
+      "Shun Umekawa",
+      "Jaeha Lee"
+    ],
+    "published": "2026-03-04T17:50:47+00:00",
+    "summary": "We investigate the intrinsic ambiguity in the definition of correlation functions arising from the inevitable invasiveness of quantum measurements. While algebraic correlations defined as expectation values of products of observables are widely used, their relationship to operational ones defined through actual measurement procedures remain unclear. We demonstrate that the differences among various definitions of correlation functions and those among their underlying (quasi-)joint probability distributions are bounded above by a quantitative measure of measurement invasiveness. We further obtain a lower bound on the discrepancy among operational and algebraic (quasi-)joint probability distributions, providing a new form of the uncertainty relation. In addition, we identify an equivalence condition under which operational and algebraic correlations coincide. As an application, we analyze the quantum violation of the Leggett-Garg inequality and clarify the structural origin of the equivalence among different approaches to observing the violation, including sequential projective measurements and weak-measurement. Our results provide an operational foundation for the commonly used algebraic concepts of quantum theory."
+  },
+  {
+    "title": "Gaussian Mixture-Based Inverse Perception Contract for Uncertainty-Aware Robot Navigation",
+    "url": "http://arxiv.org/abs/2603.04329v1",
+    "arxiv_id": "2603.04329v1",
+    "authors": [
+      "Bingyao Du",
+      "Joonkyung Kim",
+      "Yiwei Lyu"
+    ],
+    "published": "2026-03-04T17:48:18+00:00",
+    "summary": "Reliable navigation in cluttered environments requires perception outputs that are not only accurate but also equipped with uncertainty sets suitable for safe control. An inverse perception contract (IPC) provides such a connection by mapping perceptual estimates to sets that contain the ground truth with high confidence. Existing IPC formulations, however, instantiate uncertainty as a single ellipsoidal set and rely on deterministic trust scores to guide robot motion. Such a representation cannot capture the multi-modal and irregular structure of fine-grained perception errors, often resulting in over-conservative sets and degraded navigation performance. In this work, we introduce Gaussian Mixture-based Inverse Perception Contract (GM-IPC), which extends IPC to represent uncertainty with unions of ellipsoidal confidence sets derived from Gaussian mixture models. This design moves beyond deterministic single-set abstractions, enabling fine-grained, multi-modal, and non-convex error structures to be captured with formal guarantees. A learning framework is presented that trains GM-IPC to account for probabilistic inclusion, distribution matching, and empty-space penalties, ensuring both validity and compactness of the predicted sets. We further show that the resulting uncertainty characterizations can be leveraged in downstream planning frameworks for real-time safe navigation, enabling less conservative and more adaptive robot motion while preserving safety in a probabilistic manner."
+  },
+  {
+    "title": "Perception-Aware Time-Optimal Planning for Quadrotor Waypoint Flight",
+    "url": "http://arxiv.org/abs/2603.04305v1",
+    "arxiv_id": "2603.04305v1",
+    "authors": [
+      "Chao Qin",
+      "Jiaxu Xing",
+      "Rudolf Reiter",
+      "Angel Romero",
+      "Yifan Lin",
+      "Hugh H. -T. Liu",
+      "Davide Scaramuzza"
+    ],
+    "published": "2026-03-04T17:22:16+00:00",
+    "summary": "Agile quadrotor flight pushes the limits of control, actuation, and onboard perception. While time-optimal trajectory planning has been extensively studied, existing approaches typically neglect the tight coupling between vehicle dynamics, environmental geometry, and the visual requirements of onboard state estimation. As a result, trajectories that are dynamically feasible may fail in closed-loop execution due to degraded visual quality. This paper introduces a unified time-optimal trajectory optimization framework for vision-based quadrotors that explicitly incorporates perception constraints alongside full nonlinear dynamics, rotor actuation limits, aerodynamic effects, camera field-of-view constraints, and convex geometric gate representations.   The proposed formulation solves minimum-time lap trajectories for arbitrary racetracks with diverse gate shapes and orientations, while remaining numerically robust and computationally efficient. We derive an information-theoretic position uncertainty metric to quantify visual state-estimation quality and integrate it into the planner through three perception objectives: position uncertainty minimization, sequential field-of-view constraints, and look-ahead alignment. This enables systematic exploration of the trade-offs between speed and perceptual reliability.   To accurately track the resulting perception-aware trajectories, we develop a model predictive contouring tracking controller that separates lateral and progress errors. Experiments demonstrate real-world flight speeds up to 9.8 m/s with 0.07 m average tracking error, and closed-loop success rates improved from 55% to 100% on a challenging Split-S course. The proposed system provides a scalable benchmark for studying the fundamental limits of perception-aware, time-optimal autonomous flight."
+  },
+  {
+    "title": "$V_1$: Unifying Generation and Self-Verification for Parallel Reasoners",
+    "url": "http://arxiv.org/abs/2603.04304v1",
+    "arxiv_id": "2603.04304v1",
+    "authors": [
+      "Harman Singh",
+      "Xiuyu Li",
+      "Kusha Sareen",
+      "Monishwaran Maheswaran",
+      "Sijun Tan",
+      "Xiaoxia Wu",
+      "Junxiong Wang",
+      "Alpay Ariyak",
+      "Qingyang Wu",
+      "Samir Khaki",
+      "Rishabh Tiwari",
+      "Long Lian",
+      "Yucheng Lu",
+      "Boyi Li",
+      "Alane Suhr",
+      "Ben Athiwaratkun",
+      "Kurt Keutzer"
+    ],
+    "published": "2026-03-04T17:22:16+00:00",
+    "summary": "Test-time scaling for complex reasoning tasks shows that leveraging inference-time compute, by methods such as independently sampling and aggregating multiple solutions, results in significantly better task outcomes. However, a critical bottleneck is verification: sampling is only effective if correct solutions can be reliably identified among candidates. While existing approaches typically evaluate candidates independently via scalar scoring, we demonstrate that models are substantially stronger at pairwise self-verification. Leveraging this insight, we introduce $V_1$, a framework that unifies generation and verification through efficient pairwise ranking. $V_1$ comprises two components: $V_1$-Infer, an uncertainty-guided algorithm using a tournament-based ranking that dynamically allocates self-verification compute to candidate pairs whose relative correctness is most uncertain; and $V_1$-PairRL, an RL framework that jointly trains a single model as both generator and pairwise self-verifier, ensuring the verifier adapts to the generator's evolving distribution. On code generation (LiveCodeBench, CodeContests, SWE-Bench) and math reasoning (AIME, HMMT) benchmarks, $V_1$-Infer improves Pass@1 by up to $10%$ over pointwise verification and outperforms recent test-time scaling methods while being significantly more efficient. Furthermore, $V_1$-PairRL achieves $7$--$9%$ test-time scaling gains over standard RL and pointwise joint training, and improves base Pass@1 by up to 8.7% over standard RL in a code-generation setting."
+  },
+  {
+    "title": "IPD: Boosting Sequential Policy with Imaginary Planning Distillation in Offline Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2603.04289v1",
+    "arxiv_id": "2603.04289v1",
+    "authors": [
+      "Yihao Qin",
+      "Yuanfei Wang",
+      "Hang Zhou",
+      "Peiran Liu",
+      "Hao Dong",
+      "Yiding Ji"
+    ],
+    "published": "2026-03-04T17:05:39+00:00",
+    "summary": "Decision transformer based sequential policies have emerged as a powerful paradigm in offline reinforcement learning (RL), yet their efficacy remains constrained by the quality of static datasets and inherent architectural limitations. Specifically, these models often struggle to effectively integrate suboptimal experiences and fail to explicitly plan for an optimal policy. To bridge this gap, we propose \\textbf{Imaginary Planning Distillation (IPD)}, a novel framework that seamlessly incorporates offline planning into data generation, supervised training, and online inference. Our framework first learns a world model equipped with uncertainty measures and a quasi-optimal value function from the offline data. These components are utilized to identify suboptimal trajectories and augment them with reliable, imagined optimal rollouts generated via Model Predictive Control (MPC). A Transformer-based sequential policy is then trained on this enriched dataset, complemented by a value-guided objective that promotes the distillation of the optimal policy. By replacing the conventional, manually-tuned return-to-go with the learned quasi-optimal value function, IPD improves both decision-making stability and performance during inference. Empirical evaluations on the D4RL benchmark demonstrate that IPD significantly outperforms several state-of-the-art value-based and transformer-based offline RL methods across diverse tasks."
+  },
+  {
+    "title": "A mixture model for subtype identification in the context of disease progression modeling",
+    "url": "http://arxiv.org/abs/2603.04286v1",
+    "arxiv_id": "2603.04286v1",
+    "authors": [
+      "Sofia Kaisaridi",
+      "Juliette Ortholand",
+      "Caglayan Tuna",
+      "Hugues Chabriat",
+      "Sophie Tezenas du Montcel"
+    ],
+    "published": "2026-03-04T17:03:10+00:00",
+    "summary": "The progression of chronic diseases often follows highly variable trajectories, and the underlying factors remain poorly understood. Standard mixed-effects models typically represent inter-patient differences as random deviations around a common reference, which may obscure meaningful subgroups. We propose a probabilistic mixture extension of a mixed effects model, the Disease Course Mapping model, to identify distinct disease progression subtypes within a population. The mixture structure is introduced at the latent individual parameters, enabling clustering based on both temporal and spatial variability in disease trajectories. We evaluated the model through simulation studies to assess classification performance and parameter recovery. Classification accuracy exceeded 90% in simpler scenarios and remained above 80% in the most complex case, with particularly high recall and precision for fast-progressing clusters. Compared to a post hoc classification approach, the proposed model yielded more accurate parameter estimates, smaller biases, lower root mean squared errors, and reduced uncertainty. It also correctly recovered the true three-cluster structure in 93% of the simulations. Finally, we applied the model to a longitudinal cohort of CADASIL patients, identifying two clinically meaningful clusters, differentiating patients with early versus late onset and fast versus slow progression, with clear spatial patterns across motor and memory scores. Overall, this probabilistic mixture framework offers a robust, interpretable approach for clustering patients based on spatiotemporal disease dynamics."
+  },
+  {
+    "title": "Markov-Based Modelling for Reservoir Management: Assessing Reliability and Resilience",
+    "url": "http://arxiv.org/abs/2603.04278v1",
+    "arxiv_id": "2603.04278v1",
+    "authors": [
+      "M. L. G\u00e1miz",
+      "N. Limnios",
+      "D. Montoro-Cazorla",
+      "M. C. Segovia-Garc\u00eda"
+    ],
+    "published": "2026-03-04T16:59:12+00:00",
+    "summary": "This paper develops a comprehensive Markov-based framework for modelling reservoir behaviour and assessing key performance measures such as reliability and resilience. We first formulate a stochastic model for a finite-capacity dam, analysing its long-term storage dynamics under both independent and identically distributed inflows, following the Moran model, and correlated inflows represented by an ergodic Markov chain in the Lloyd formulation. For this finite case, we establish stationary water balance relations and derive asymptotic results, including a central limit theorem for storage levels. The analysis is then extended to an infinite-capacity reservoir, for which normal limit distributions and analogous long-term properties are obtained. A continuous-state formulation is also introduced to represent reservoirs with continuous inflow processes, generalizing the discrete-state framework. On this basis, we define and evaluate reliability and resilience metrics within the proposed Markovian context. The applicability of the methodology is demonstrated through a real-world case study of the Quiebrajano dam, illustrating how the developed models can support efficient and sustainable reservoir management under hydrological uncertainty."
+  },
+  {
+    "title": "Statistical Inference for Score Decompositions",
+    "url": "http://arxiv.org/abs/2603.04275v1",
+    "arxiv_id": "2603.04275v1",
+    "authors": [
+      "Timo Dimitriadis",
+      "Marius Puke"
+    ],
+    "published": "2026-03-04T16:57:08+00:00",
+    "summary": "We introduce inference methods for score decompositions, which partition scoring functions for predictive assessment into three interpretable components: miscalibration, discrimination, and uncertainty. Our estimation and inference relies on a linear recalibration of the forecasts, which is applicable to general multi-step ahead point forecasts such as means and quantiles due to its validity for both smooth and non-smooth scoring functions. This approach ensures desirable finite-sample properties, enables asymptotic inference, and establishes a direct connection to the classical Mincer-Zarnowitz regression. The resulting inference framework facilitates tests for equal forecast calibration or discrimination, which yield three key advantages. They enhance the information content of predictive ability tests by decomposing scores, deliver higher statistical power in certain scenarios, and formally connect scoring-function-based evaluation to traditional calibration tests, such as financial backtests. Applications demonstrate the method's utility. We find that for survey inflation forecasts, discrimination abilities can differ significantly even when overall predictive ability does not. In an application to financial risk models, our tests provide deeper insights into the calibration and information content of volatility and Value-at-Risk forecasts. By disentangling forecast accuracy from backtest performance, the method exposes critical shortcomings in current banking regulation."
+  },
+  {
     "title": "Probing Axions with Relativistic Jet Polarimetry",
     "url": "http://arxiv.org/abs/2603.03244v1",
     "arxiv_id": "2603.03244v1",
