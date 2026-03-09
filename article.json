@@ -1,5 +1,147 @@
 [
   {
+    "title": "Hierarchical Industrial Demand Forecasting with Temporal and Uncertainty Explanations",
+    "url": "http://arxiv.org/abs/2603.06555v1",
+    "arxiv_id": "2603.06555v1",
+    "authors": [
+      "Harshavardhan Kamarthi",
+      "Shangqing Xu",
+      "Xinjie Tong",
+      "Xingyu Zhou",
+      "James Peters",
+      "Joseph Czyzyk",
+      "B. Aditya Prakash"
+    ],
+    "published": "2026-03-06T18:44:37+00:00",
+    "summary": "Hierarchical time-series forecasting is essential for demand prediction across various industries. While machine learning models have obtained significant accuracy and scalability on such forecasting tasks, the interpretability of their predictions, informed by application, is still largely unexplored. To bridge this gap, we introduce a novel interpretability method for large hierarchical probabilistic time-series forecasting, adapting generic interpretability techniques while addressing challenges associated with hierarchical structures and uncertainty. Our approach offers valuable interpretative insights in response to real-world industrial supply chain scenarios, including 1) the significance of various time-series within the hierarchy and external variables at specific time points, 2) the impact of different variables on forecast uncertainty, and 3) explanations for forecast changes in response to modifications in the training dataset. To evaluate the explainability method, we generate semi-synthetic datasets based on real-world scenarios of explaining hierarchical demands for over ten thousand products at a large chemical company. The experiments showed that our explainability method successfully explained state-of-the-art industrial forecasting methods with significantly higher explainability accuracy. Furthermore, we provide multiple real-world case studies that show the efficacy of our approach in identifying important patterns and explanations that help stakeholders better understand the forecasts. Additionally, our method facilitates the identification of key drivers behind forecasted demand, enabling more informed decision-making and strategic planning. Our approach helps build trust and confidence among users, ultimately leading to better adoption and utilization of hierarchical forecasting models in practice."
+  },
+  {
+    "title": "Uncertainty-Aware Adaptive Dynamics For Underwater Vehicle-Manipulator Robots",
+    "url": "http://arxiv.org/abs/2603.06548v1",
+    "arxiv_id": "2603.06548v1",
+    "authors": [
+      "Edward Morgan",
+      "Nenyi K Dadson",
+      "Corina Barbalata"
+    ],
+    "published": "2026-03-06T18:35:48+00:00",
+    "summary": "Accurate and adaptive dynamic models are critical for underwater vehicle-manipulator systems where hydrodynamic effects induce time-varying parameters. This paper introduces a novel uncertainty-aware adaptive dynamics model framework that remains linear in lumped vehicle and manipulator parameters, and embeds convex physical consistency constraints during online estimation. Moving horizon estimation is used to stack horizon regressors, enforce realizable inertia, damping, friction, and hydrostatics, and quantify uncertainty from parameter evolution. Experiments on a BlueROV2 Heavy with a 4-DOF manipulator demonstrate rapid convergence and calibrated predictions. Manipulator fits achieve R2 = 0.88 to 0.98 with slopes near unity, while vehicle surge, heave, and roll are reproduced with good fidelity under stronger coupling and noise. Median solver time is approximately 0.023 s per update, confirming online feasibility. A comparison against a fixed parameter model shows consistent reductions in MAE and RMSE across degrees of freedom. Results indicate physically plausible parameters and confidence intervals with near 100% coverage, enabling reliable feedforward control and simulation in underwater environments."
+  },
+  {
+    "title": "SG-DOR: Learning Scene Graphs with Direction-Conditioned Occlusion Reasoning for Pepper Plants",
+    "url": "http://arxiv.org/abs/2603.06512v1",
+    "arxiv_id": "2603.06512v1",
+    "authors": [
+      "Rohit Menon",
+      "Niklas Mueller-Goldingen",
+      "Sicong Pan",
+      "Gokul Krishna Chenchani",
+      "Maren Bennewitz"
+    ],
+    "published": "2026-03-06T17:52:51+00:00",
+    "summary": "Robotic harvesting in dense crop canopies requires effective interventions that depend not only on geometry, but also on explicit, direction-conditioned relations identifying which organs obstruct a target fruit. We present SG-DOR (Scene Graphs with Direction-Conditioned Occlusion Reasoning), a relational framework that, given instance-segmented organ point clouds, infers a scene graph encoding physical attachments and direction-conditioned occlusion. We introduce an occlusion ranking task for retrieving and ranking candidate leaves for a target fruit and approach direction, and propose a direction-aware graph neural architecture with per-fruit leaf-set attention and union-level aggregation. Experiments on a multi-plant synthetic pepper dataset show improved occlusion prediction (F1=0.73, NDCG@3=0.85) and attachment inference (edge F1=0.83) over strong ablations, yielding a structured relational signal for downstream intervention planning."
+  },
+  {
+    "title": "Bayesian Additive Distribution Regression",
+    "url": "http://arxiv.org/abs/2603.06462v1",
+    "arxiv_id": "2603.06462v1",
+    "authors": [
+      "Antonio R. Linero",
+      "Soumyabrata Bose",
+      "Jared Murray"
+    ],
+    "published": "2026-03-06T16:49:38+00:00",
+    "summary": "Distribution regression, where the goal is to predict a scalar response from a distribution-valued predictor, arises naturally in settings where observations are grouped and outcomes depend on group-level characteristics rather than on individual measurements. We introduce DistBART, a Bayesian nonparametric approach to distribution regression that models the regression function as a linear functional with the Riesz representer assigned a Bayesian additive regression trees (BART) prior. We argue that shallow decision tree ensembles encode reasonable inductive biases for tabular data, making them appropriate in settings where the functional depends primarily on low-dimensional marginals of the distributions. We show this both empirically on synthetic and real data and theoretically through an adaptive posterior concentration result. We also establish connections to kernel methods, and use this connection to motivate variants of DistBART that can learn nonlinear functionals. To enable scalability to large datasets, we develop a random-feature approximation that samples trees from the BART prior and reduces inference to sparse Bayesian linear regression, achieving computational efficiency while retaining uncertainty quantification."
+  },
+  {
+    "title": "Adapter-Augmented Bandits for Online Multi-Constrained Multi-Modal Inference Scheduling",
+    "url": "http://arxiv.org/abs/2603.06403v1",
+    "arxiv_id": "2603.06403v1",
+    "authors": [
+      "Xianzhi Zhang",
+      "Yue Xu",
+      "Yinlin Zhu",
+      "Di Wu",
+      "Yipeng Zhou",
+      "Miao Hu",
+      "Guocong Quan"
+    ],
+    "published": "2026-03-06T15:45:33+00:00",
+    "summary": "Multi-modal large language model (MLLM) inference scheduling enables strong response quality under practical and heterogeneous budgets, beyond what a homogeneous single-backend setting can offer. Yet online MLLM task scheduling is nontrivial, as requests vary sharply in modality composition and latent reasoning difficulty, while execution backends incur distinct, time-varying costs due to system jitter and network variation. These coupled uncertainties pose two core challenges: deriving semantically faithful yet scheduling-relevant multi-modal task representations, and making low-overhead online decisions over irreversible multi-dimensional budgets. Accordingly, we propose \\emph{M-CMAB} (\\underline{M}ulti-modal \\underline{M}ulti-constraint \\underline{C}ontextual \\underline{M}ulti-\\underline{A}rmed \\underline{B}andit), a multi-adapter-enhanced MLLM inference scheduling framework with three components: (i) a CLS-attentive, frozen-backbone \\emph{Predictor} that extracts compact task representations and updates only lightweight adapters for action-specific estimation; (ii) a primal-dual \\emph{Constrainer} that maintains online Lagrange multipliers to enforce long-horizon constraints via per-round objectives; and (iii) a two-phase \\emph{Scheduler} that balances exploration and exploitation under irreversible budgets. We establish a regret guarantee under multi-dimensional knapsack constraints. On a composite multimodal benchmark with heterogeneous backends, \\emph{M-CMAB} consistently outperforms state-of-the-art baselines across budget regimes, achieving up to 14.18% higher reward and closely tracking an oracle-aided upper bound. Codes are available at https://anonymous.4open.science/r/M2CMAB/."
+  },
+  {
+    "title": "REACT++: Efficient Cross-Attention for Real-Time Scene Graph Generation",
+    "url": "http://arxiv.org/abs/2603.06386v1",
+    "arxiv_id": "2603.06386v1",
+    "authors": [
+      "Ma\u00eblic Neau",
+      "Zoe Falomir"
+    ],
+    "published": "2026-03-06T15:36:00+00:00",
+    "summary": "Scene Graph Generation (SGG) is a task that encodes visual relationships between objects in images as graph structures. SGG shows significant promise as a foundational component for downstream tasks, such as reasoning for embodied agents. To enable real-time applications, SGG must address the trade-off between performance and inference speed. However, current methods tend to focus on one of the following: (1) improving relation prediction accuracy, (2) enhancing object detection accuracy, or (3) reducing latency, without aiming to balance all three objectives simultaneously. To address this limitation, we build on the powerful Real-time Efficiency and Accuracy Compromise for Tradeoffs in Scene Graph Generation (REACT) architecture and propose REACT++, a new state-of-the-art model for real-time SGG. By leveraging efficient feature extraction and subject-to-object cross-attention within the prototype space, REACT++ balances latency and representational power. REACT++ achieves the highest inference speed among existing SGG models, improving relation prediction accuracy without sacrificing object detection performance. Compared to the previous REACT version, REACT++ is 20% faster with a gain of 10% in relation prediction accuracy on average. The code is available at https://github.com/Maelic/SGG-Benchmark."
+  },
+  {
+    "title": "VV Resummation To NNLO+NNLL At the LHC",
+    "url": "http://arxiv.org/abs/2603.06318v1",
+    "arxiv_id": "2603.06318v1",
+    "authors": [
+      "Pulak Banerjee",
+      "Chinmoy Dey",
+      "M. C. Kumar",
+      "Vaibhav Pandey"
+    ],
+    "published": "2026-03-06T14:21:53+00:00",
+    "summary": "We present the resummed predictions for a vector boson pair production at the LHC. We have performed threshold resummation to next-to-next-to-leading logarithmic (NNLL) accuracy, and then matched them to next-to-next-to-leading order (NNLO) QCD results. After resummation, we observe a reduction in the scale uncertainties arising from unphysical renormalization and factorization scales. We find that the resummed corrections add a few per cent to the fixed order results for both ZZ and WW production."
+  },
+  {
+    "title": "From Entropy to Calibrated Uncertainty: Training Language Models to Reason About Uncertainty",
+    "url": "http://arxiv.org/abs/2603.06317v1",
+    "arxiv_id": "2603.06317v1",
+    "authors": [
+      "Azza Jenane",
+      "Nassim Walha",
+      "Lukas Kuhn",
+      "Florian Buettner"
+    ],
+    "published": "2026-03-06T14:21:42+00:00",
+    "summary": "Large Language Models (LLMs) that can express interpretable and calibrated uncertainty are crucial in high-stakes domains. While methods to compute uncertainty post-hoc exist, they are often sampling-based and therefore computationally expensive or lack calibration. We propose a three-stage pipeline to post-train LLMs to efficiently infer calibrated uncertainty estimates for their responses. First, we compute fine-grained entropy-based uncertainty scores on the training data, capturing the distributional variability of model outputs in embedding space. Second, these scores are calibrated via Platt scaling, producing reliable and human-interpretable uncertainty signals. Finally, the target LLM is post-trained via reinforcement learning to align its policy with these calibrated signals through a verifiable reward function. Unlike post-hoc uncertainty estimation methods, our approach provides interpretable and computationally efficient uncertainty estimates at test time. Experiments show that models trained with our pipeline achieve better calibration than baselines and generalize to unseen tasks without further processing, suggesting that they learn a robust uncertainty reasoning behavior."
+  },
+  {
+    "title": "Intrinsic Information Flow in Structureless NP Search",
+    "url": "http://arxiv.org/abs/2603.06315v1",
+    "arxiv_id": "2603.06315v1",
+    "authors": [
+      "Jing-Yuan Wei"
+    ],
+    "published": "2026-03-06T14:17:14+00:00",
+    "summary": "We reinterpret NP witness discovery through an information-theoretic lens. Rather than measuring search solely by Turing-machine time, we treat recovery as an information-acquisition process: the hidden witness is the sole source of uncertainty, and identification requires reducing this uncertainty through a rate-limited access interface in the sense of Shannon.   To make this perspective explicit, we analyze an extreme regime, the \\emph{psocid model}, in which the witness is accessible only via equality probes $[\u03c0= w^\\star]$ under a uniform, structureless prior. Each probe reveals at most $O(N/2^N)$ bits of mutual information, so polynomially many probes accumulate only $o(1)$ total information. By Fano's inequality, reliable recovery requires $\u03a9(N)$ bits, creating a fundamental mismatch between required and obtainable information.   The psocid setting thus isolates a fully symmetric search regime in which no intermediate computation yields global eliminative leverage, thereby exposing an informational origin of exponential search complexity."
+  },
+  {
+    "title": "Implications for Type Ia Supernova Nucleosynthesis from an Experimentally Constrained $^{16}$O$(p,\u03b1)^{13}$N Reaction Rate",
+    "url": "http://arxiv.org/abs/2603.06307v1",
+    "arxiv_id": "2603.06307v1",
+    "authors": [
+      "M. Alruwaili",
+      "C. Fougeres",
+      "A. M. Laird",
+      "H. Jayatissa",
+      "M. L. Avila",
+      "E. Bravo",
+      "C. Angus",
+      "C. Badenes",
+      "S. Chakraborty",
+      "C. Diget",
+      "N. de Sereville",
+      "A. Hall-Smith",
+      "R. Longland",
+      "W. -J. Ong",
+      "K. E. Rehm",
+      "D. Santiago-Gonzalez"
+    ],
+    "published": "2026-03-06T14:10:53+00:00",
+    "summary": "The $^{16}$O$(p,\u03b1)^{13}$N reaction plays a key role in shaping the $\u03b1$-particle abundance during explosive oxygen burning in Type Ia supernovae. By enhancing $\u03b1$-production, this reaction directly affects the calcium-to-sulphur (Ca/S) and argon-to-sulphur (Ar/S) ratios, which serves as a tracer of progenitor metallicity. However, recent work suggests that the rate must be enhanced by a factor of up to seven over the standard value to explain observed Ca/S ratios across a range of progenitor metallicities. To explore this impact, available experimental cross-section data for the $^{16}$O$(p,\u03b1)^{13}$N reaction have been compiled and critically evaluated. Significant discrepancies are identified in the low-energy region ($E_{\\mathrm{cm}}$ = 5.7--7.0 MeV), primarily due to limitations of the activation method. To resolve this, the first direct measurement at astrophysical energies has been performed using the MUSIC active-target detector. The new $^{16}$O$(p,\u03b1)^{13}$N thermonuclear reaction rate is found to be approximately 1.5 times higher than the REACLIB rate in the temperature range T = 3--4 GK, with more constrained uncertainties that resolve the previously large spread among existing data. The suggested factor of seven enhancement is excluded and these results indicate that this reaction alone cannot fully explain the variation in the Ca/S and Ar/S ratios observed across different progenitor metallicities. Therefore, future work should focus on reducing the uncertainties in other key oxygen-burning reactions, particularly $^{16}$O+$^{16}$O and $^{12}$C+$^{16}$O. Further reducing the constraints on the $^{16}$O$(p,\u03b1)^{13}$N rate is also needed to fully determine to whether a nuclear physics solution to this discrepancy is possible."
+  },
+  {
     "title": "Reasoning Theater: Disentangling Model Beliefs from Chain-of-Thought",
     "url": "http://arxiv.org/abs/2603.05488v1",
     "arxiv_id": "2603.05488v1",
