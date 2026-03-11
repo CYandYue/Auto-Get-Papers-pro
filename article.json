@@ -1,5 +1,148 @@
 [
   {
+    "title": "Task Aware Modulation Using Representation Learning for Upsaling of Terrestrial Carbon Fluxes",
+    "url": "http://arxiv.org/abs/2603.09974v1",
+    "arxiv_id": "2603.09974v1",
+    "authors": [
+      "Aleksei Rozanov",
+      "Arvind Renganathan",
+      "Vipin Kumar"
+    ],
+    "published": "2026-03-10T17:59:29+00:00",
+    "summary": "Accurately upscaling terrestrial carbon fluxes is central to estimating the global carbon budget, yet remains challenging due to the sparse and regionally biased distribution of ground measurements. Existing data-driven upscaling products often fail to generalize beyond observed domains, leading to systematic regional biases and high predictive uncertainty. We introduce Task-Aware Modulation with Representation Learning (TAM-RL), a framework that couples spatio-temporal representation learning with knowledge-guided encoder-decoder architecture and loss function derived from the carbon balance equation. Across 150+ flux tower sites representing diverse biomes and climate regimes, TAM-RL improves predictive performance relative to existing state-of-the-art datasets, reducing RMSE by 8-9.6% and increasing explained variance ($R^2$) from 19.4% to 43.8%, depending on the target flux. These results demonstrate that integrating physically grounded constraints with adaptive representation learning can substantially enhance the robustness and transferability of global carbon flux estimates."
+  },
+  {
+    "title": "The Confidence Gate Theorem: When Should Ranked Decision Systems Abstain?",
+    "url": "http://arxiv.org/abs/2603.09947v1",
+    "arxiv_id": "2603.09947v1",
+    "authors": [
+      "Ronald Doku"
+    ],
+    "published": "2026-03-10T17:44:10+00:00",
+    "summary": "Ranked decision systems -- recommenders, ad auctions, clinical triage queues -- must decide when to intervene in ranked outputs and when to abstain. We study when confidence-based abstention monotonically improves decision quality, and when it fails. The formal conditions are simple: rank-alignment and no inversion zones. The substantive contribution is identifying why these conditions hold or fail: the distinction between structural uncertainty (missing data, e.g., cold-start) and contextual uncertainty (missing context, e.g., temporal drift). Empirically, we validate this distinction across three domains: collaborative filtering (MovieLens, 3 distribution shifts), e-commerce intent detection (RetailRocket, Criteo, Yoochoose), and clinical pathway triage (MIMIC-IV). Structural uncertainty produces near-monotonic abstention gains in all domains; structurally grounded confidence signals (observation counts) fail under contextual drift, producing as many monotonicity violations as random abstention on our MovieLens temporal split. Context-aware alternatives -- ensemble disagreement and recency features -- substantially narrow the gap (reducing violations from 3 to 1--2) but do not fully restore monotonicity, suggesting that contextual uncertainty poses qualitatively different challenges. Exception labels defined from residuals degrade substantially under distribution shift (AUC drops from 0.71 to 0.61--0.62 across three splits), providing a clean negative result against the common practice of exception-based intervention. The results provide a practical deployment diagnostic: check C1 and C2 on held-out data before deploying a confidence gate, and match the confidence signal to the dominant uncertainty type."
+  },
+  {
+    "title": "Subspace decomposition with defect diffusion coefficient",
+    "url": "http://arxiv.org/abs/2603.09924v1",
+    "arxiv_id": "2603.09924v1",
+    "authors": [
+      "Dilini Kolombage",
+      "Axel M\u00e5lqvist",
+      "Barbara Verf\u00fcrth"
+    ],
+    "published": "2026-03-10T17:21:23+00:00",
+    "summary": "Elliptic diffusion problems with multiscale heterogeneous coefficients lead to poorly conditioned discrete systems and therefore require effective preconditioning strategies. While subspace decomposition preconditioners perform well for fixed realizations of the coefficient, their repeated construction becomes prohibitively expensive in uncertainty quantification settings, particularly in Monte-Carlo simulations, where a large number of fine-scale realizations must be treated. In this study, we propose an offline-online approximation of a subspace decomposition preconditioner that exploits the localized structure of the random defects. The preconditioner is constructed from local subspace solves that are precomputed offline for a small set of reference configurations and efficiently combined online for arbitrary realizations. We analyze the spectral properties of the resulting offline-online approximation operator and confirm its robustness and efficiency through numerical experiments."
+  },
+  {
+    "title": "The role of mass loss in constraining quenching time in dwarf galaxies from AGB and RGB star counts",
+    "url": "http://arxiv.org/abs/2603.09879v1",
+    "arxiv_id": "2603.09879v1",
+    "authors": [
+      "Paolo Ventura",
+      "Richard D'Souza",
+      "Flavia Dell'Agli",
+      "Eric Bell",
+      "Claudio Gavetti",
+      "Chiara Fiumi",
+      "Marco Tailo"
+    ],
+    "published": "2026-03-10T16:39:27+00:00",
+    "summary": "The capability of reconstructing the past star formation history of dwarf elliptical galaxies   out of the Local Volume relies on modelling bright stellar populations currently   evolving through the red giant branch (RGB) and the asymptotic giant branch (AGB) phases.   Recent studies proposed the use of the relative fractions of RGB and AGB stars populating   specific boxes in the observational colour-magnitude plane to infer the epoch within   which 90\\% of the stellar population of the galaxy formed (T90).   We aim at understanding the physical process of stellar evolution that are constrained by   the relationship between the relative fraction of AGB and RGB stars of dwarf galaxies and   the T90 epoch.   We use updated stellar models that include the description of dust formation in the   wind, to undertake a population synthesis approach, to allow monitoring the variation of the   NAGB/NRGB ratio with time. The effects of some specific ingredients, such as   the mass loss experienced by low-mass stars during the RGB phase, and the details of the   time variation of the star formation rate, are extensively explored and tested against   data.   The mass lost by low-mass stars during the RGB evolution proves the most   relevant ingredients affecting the time variation of NAGB/NRGB: at   metallicities ~ 1/10 solar, a mass loss ~ 0.25Msun is required to reproduce the observations. This   analysis allows to derive a relationship between NAGB/NRGB and T90, with a ~ 1 Gyr uncertainty on T90."
+  },
+  {
+    "title": "Materials Acceleration Platform for Electrochemistry (MAP-E): a Platform for Autonomous Electrochemistry",
+    "url": "http://arxiv.org/abs/2603.09845v1",
+    "arxiv_id": "2603.09845v1",
+    "authors": [
+      "Daniel Persaud",
+      "Mike Werezak",
+      "Mark Xu",
+      "Melyne Zhou",
+      "Frank Benkel",
+      "Xin Pang",
+      "Vahid Attari",
+      "Brian DeCost",
+      "Ashley Dale",
+      "Nicholas Senior",
+      "Gabriel Birsan",
+      "Jason Hattrick-Simpers"
+    ],
+    "published": "2026-03-10T16:08:05+00:00",
+    "summary": "Corrosion testing is slow, labor-intensive, and sensitive to operator technique, limiting the generation of large, high-quality datasets for data-driven materials discovery. We introduce the Materials Acceleration Platform for Electrochemistry (MAP-E), an autonomous, high-throughput system capable of performing parallel electrochemical experiments. MAP-E integrates robotic liquid handling, sample transfer, and multi-channel potentiostatic control and extract corrosion metrics without human intervention. Validation against an ASTM G61-analog benchmark demonstrates reproducibility, with a standard deviation of 76 mV in pitting potential across 32 automated measurements. The platform was then employed to autonomously construct pH-chloride stability diagrams for 304 stainless steel using an uncertainty-driven sampling strategy on a Gaussian Process surrogate model. This approach reduces operator involvement and accelerates the exploration of environmental spaces. MAP-E establishes a framework for autonomous electrochemical experimentation, enabling generation of corrosion datasets that inform materials discovery, alloy design, and durability assessment in service environments."
+  },
+  {
+    "title": "A Unified Hierarchical Multi-Task Multi-Fidelity Framework for Data-Efficient Surrogate Modeling in Manufacturing",
+    "url": "http://arxiv.org/abs/2603.09842v1",
+    "arxiv_id": "2603.09842v1",
+    "authors": [
+      "Manan Mehta",
+      "Zhiqiao Dong",
+      "Yuhang Yang",
+      "Chenhui Shao"
+    ],
+    "published": "2026-03-10T16:06:01+00:00",
+    "summary": "Surrogate modeling is an essential data-driven technique for quantifying relationships between input variables and system responses in manufacturing and engineering systems. Two major challenges limit its effectiveness: (1) large data requirements for learning complex nonlinear relationships, and (2) heterogeneous data collected from sources with varying fidelity levels. Multi-task learning (MTL) addresses the first challenge by enabling information sharing across related processes, while multi-fidelity modeling addresses the second by accounting for fidelity-dependent uncertainty. However, existing approaches typically address these challenges separately, and no unified framework simultaneously leverages inter-task similarity and fidelity-dependent data characteristics. This paper develops a novel hierarchical multi-task multi-fidelity (H-MT-MF) framework for Gaussian process-based surrogate modeling. The proposed framework decomposes each task's response into a task-specific global trend and a residual local variability component that is jointly learned across tasks using a hierarchical Bayesian formulation. The framework accommodates an arbitrary number of tasks, design points, and fidelity levels while providing predictive uncertainty quantification. We demonstrate the effectiveness of the proposed method using a 1D synthetic example and a real-world engine surface shape prediction case study. Compared to (1) a state-of-the-art MTL model that does not account for fidelity information and (2) a stochastic kriging model that learns tasks independently, the proposed approach improves prediction accuracy by up to 19% and 23%, respectively. The H-MT-MF framework provides a general and extensible solution for surrogate modeling in manufacturing systems characterized by heterogeneous data sources."
+  },
+  {
+    "title": "Going Wide and Deep with Roman: The z~6-9 UV luminosity function in a Roman Deep Field",
+    "url": "http://arxiv.org/abs/2603.09828v1",
+    "arxiv_id": "2603.09828v1",
+    "authors": [
+      "Micaela B. Bagley",
+      "Steven L. Finkelstein",
+      "James Rhoads",
+      "Sangeeta Malhotra",
+      "L. Y. Aaron Yung",
+      "Rachel S. Somerville",
+      "Casey Papovich"
+    ],
+    "published": "2026-03-10T15:49:20+00:00",
+    "summary": "We present a trade study of possible ultra-deep surveys with the Nancy Grace Roman Space Telescope, optimizing the depth-area-filter parameter space for high-redshift galaxy science. Using a mock galaxy catalog derived from a 2 sq. degree lightcone created using the Santa Cruz semi-analytic model and populated with over 7.6 million galaxies at 0<z<10 with M_UV < -15, with realistic clustering and synthetic photometry, we evaluate sixteen 500-hour survey configurations spanning 0.28-2 sq. degrees and four filter combinations. We demonstrate that even a single Roman pointing dramatically reduces cosmic variance compared to HST-like observations, more faithfully recovering the true UV luminosity function. For each survey configuration, we explore photometric redshift recovery, sample contamination, and measurements of the rest-UV luminosity function and non-ionizing UV luminosity density across four redshift bins at z~6-9. We find that inclusion of the R062 filter is essential for studies at z~5-6, reducing sample contamination from nearly 100% to negligible levels and recovering the bright end of the luminosity function. The F184 filter improves galaxy recovery at z>9 and is critical for stellar contamination removal at all redshifts. Based on these results, we recommend that a Roman ultra-deep survey cover at least two Roman pointings (0.56 sq. degrees) with all six filters (R062, Z087, Y106, J129, H158, F184), reducing uncertainties on the rest-UV luminosity density by factors of 2-4 relative to the deepest existing JWST programs. Building off of the Deep Tier of the High Latitude Time Domain Survey to add depth and filter coverage to existing (or planned) observations is an excellent option."
+  },
+  {
+    "title": "VLM-Loc: Localization in Point Cloud Maps via Vision-Language Models",
+    "url": "http://arxiv.org/abs/2603.09826v1",
+    "arxiv_id": "2603.09826v1",
+    "authors": [
+      "Shuhao Kang",
+      "Youqi Liao",
+      "Peijie Wang",
+      "Wenlong Liao",
+      "Qilin Zhang",
+      "Benjamin Busam",
+      "Xieyuanli Chen",
+      "Yun Liu"
+    ],
+    "published": "2026-03-10T15:48:25+00:00",
+    "summary": "Text-to-point-cloud (T2P) localization aims to infer precise spatial positions within 3D point cloud maps from natural language descriptions, reflecting how humans perceive and communicate spatial layouts through language. However, existing methods largely rely on shallow text-point cloud correspondence without effective spatial reasoning, limiting their accuracy in complex environments. To address this limitation, we propose VLM-Loc, a framework that leverages the spatial reasoning capability of large vision-language models (VLMs) for T2P localization. Specifically, we transform point clouds into bird's-eye-view (BEV) images and scene graphs that jointly encode geometric and semantic context, providing structured inputs for the VLM to learn cross-modal representations bridging linguistic and spatial semantics. On top of these representations, we introduce a partial node assignment mechanism that explicitly associates textual cues with scene graph nodes, enabling interpretable spatial reasoning for accurate localization. To facilitate systematic evaluation across diverse scenes, we present CityLoc, a benchmark built from multi-source point clouds for fine-grained T2P localization. Experiments on CityLoc demonstrate VLM-Loc achieves superior accuracy and robustness compared to state-of-the-art methods. Our code, model, and dataset are available at \\href{https://github.com/MCG-NKU/nku-3d-vision}{repository}."
+  },
+  {
+    "title": "Learning-Augmented Primal-Dual Control Design for Secondary Frequency Regulation",
+    "url": "http://arxiv.org/abs/2603.09814v1",
+    "arxiv_id": "2603.09814v1",
+    "authors": [
+      "Yixuan Yu",
+      "Rajni K. Bansal",
+      "Yan Jiang",
+      "Pengcheng You"
+    ],
+    "published": "2026-03-10T15:42:39+00:00",
+    "summary": "Frequency stability is fundamental to the secure operation of power systems. With growing uncertainty and volatility introduced by renewable generation, secondary frequency regulation must now deliver enhanced performance not only in the steady state but also during transients. This paper presents a systematic framework to embed learning in the design of a primal-dual controller that provides provable (potentially exponential) stability and steady-state optimality, while simultaneously improving key transient metrics, including frequency nadir and control effort, in a data-driven manner. In particular, we employ the primal-dual dynamics of an optimization problem that encodes steady-state objectives to realize secondary frequency control with asymptotic stability guarantee. To augment transient performance of the controller via learning, a change of variables on control inputs, which will be deployed by neural networks, is proposed such that under mild conditions, stability and steady-state optimality are preserved. It further allows us to define a learning goal that accounts for the exponential convergence rate, frequency nadir and accumulated control effort, and use sample trajectories to enhance these metrics. Simulation results validate the theories and demonstrate superior transient performance of the learning-augmented primal-dual controller."
+  },
+  {
+    "title": "A new approach for measurement of Cr4+ concentration in Cr4+:YAG transparent materials: some conceptual difficulties and possible solutions",
+    "url": "http://arxiv.org/abs/2603.09802v1",
+    "arxiv_id": "2603.09802v1",
+    "authors": [
+      "M. Chaika",
+      "R. Lisiecki",
+      "K. Lesniewska-Matys",
+      "O. Vovk"
+    ],
+    "published": "2026-03-10T15:32:53+00:00",
+    "summary": "In the present work we provide an analysis of the accuracy of the calculation of Cr4+ concentration in Cr4+:YAG using absorption spectroscopy. We propose a new approach based on the convenient optical spectroscopy to estimate the Cr4+ concentration in Cr:YAG using survey absorption spectra. The Smakula Dexter formula is usually used for this purpose. However, the uncertainties in the values of oscillator strengths for Cr4+ absorption bands and, moreover, in the deconvolution of Cr4+ absorption spectra make it difficult to calculate the Cr4+ concentrations with high accuracy."
+  },
+  {
     "title": "Multimessenger Characterization of High-Energy Neutrino Emission from the Brightest Neutrino-Active Galactic Nuclei",
     "url": "http://arxiv.org/abs/2603.08684v1",
     "arxiv_id": "2603.08684v1",
