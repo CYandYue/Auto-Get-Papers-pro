@@ -1,5 +1,127 @@
 [
   {
+    "title": "Task-Aware Delegation Cues for LLM Agents",
+    "url": "http://arxiv.org/abs/2603.11011v1",
+    "arxiv_id": "2603.11011v1",
+    "authors": [
+      "Xingrui Gu"
+    ],
+    "published": "2026-03-11T17:35:44+00:00",
+    "summary": "LLM agents increasingly present as conversational collaborators, yet human--agent teamwork remains brittle due to information asymmetry: users lack task-specific reliability cues, and agents rarely surface calibrated uncertainty or rationale. We propose a task-aware collaboration signaling layer that turns offline preference evaluations into online, user-facing primitives for delegation. Using Chatbot Arena pairwise comparisons, we induce an interpretable task taxonomy via semantic clustering, then derive (i) Capability Profiles as task-conditioned win-rate maps and (ii) Coordination-Risk Cues as task-conditioned disagreement (tie-rate) priors. These signals drive a closed-loop delegation protocol that supports common-ground verification, adaptive routing (primary vs.\\ primary+auditor), explicit rationale disclosure, and privacy-preserving accountability logs. Two predictive probes validate that task typing carries actionable structure: cluster features improve winner prediction accuracy and reduce difficulty prediction error under stratified 5-fold cross-validation. Overall, our framework reframes delegation from an opaque system default into a visible, negotiable, and auditable collaborative decision, providing a principled design space for adaptive human--agent collaboration grounded in mutual awareness and shared accountability."
+  },
+  {
+    "title": "MCMC Informed Neural Emulators for Uncertainty Quantification in Dynamical Systems",
+    "url": "http://arxiv.org/abs/2603.10987v1",
+    "arxiv_id": "2603.10987v1",
+    "authors": [
+      "Heikki Haario",
+      "Zhi-Song Liu",
+      "Martin Simon",
+      "Hendrik Weichel"
+    ],
+    "published": "2026-03-11T17:16:48+00:00",
+    "summary": "Neural networks are a commonly used approach to replace physical models with computationally cheap surrogates. Parametric uncertainty quantification can be included in training, assuming that an accurate prior distribution of the model parameters is available. Here we study the common opposite situation, where direct screening or random sampling of model parameters leads to exhaustive training times and evaluations at unphysical parameter values. Our solution is to decouple uncertainty quantification from network architecture. Instead of sampling network weights, we introduce the model-parameter distribution as an input to network training via Markov chain Monte Carlo (MCMC). In this way, the surrogate achieves the same uncertainty quantification as the underlying physical model, but with substantially reduced computation time. The approach is fully agnostic with respect to the neural network choice. In our examples, we present a quantile emulator for prediction and a novel autoencoder-based ODE network emulator that can flexibly estimate different trajectory paths corresponding to different ODE model parameters. Moreover, we present a mathematical analysis that provides a transparent way to relate potential performance loss to measurable distribution mismatch."
+  },
+  {
+    "title": "When should we trust the annotation? Selective prediction for molecular structure retrieval from mass spectra",
+    "url": "http://arxiv.org/abs/2603.10950v1",
+    "arxiv_id": "2603.10950v1",
+    "authors": [
+      "Mira J\u00fcrgens",
+      "Gaetan De Waele",
+      "Morteza Rakhshaninejad",
+      "Willem Waegeman"
+    ],
+    "published": "2026-03-11T16:40:50+00:00",
+    "summary": "Machine learning methods for identifying molecular structures from tandem mass spectra (MS/MS) have advanced rapidly, yet current approaches still exhibit significant error rates. In high-stakes applications such as clinical metabolomics and environmental screening, incorrect annotations can have serious consequences, making it essential to determine when a prediction can be trusted. We introduce a selective prediction framework for molecular structure retrieval from MS/MS spectra, enabling models to abstain from predictions when uncertainty is too high. We formulate the problem within the risk-coverage tradeoff framework and comprehensively evaluate uncertainty quantification strategies at two levels of granularity: fingerprint-level uncertainty over predicted molecular fingerprint bits, and retrieval-level uncertainty over candidate rankings. We compare scoring functions including first-order confidence measures, aleatoric and epistemic uncertainty estimates from second-order distributions, as well as distance-based measures in the latent space. All experiments are conducted on the MassSpecGym benchmark. Our analysis reveals that while fingerprint-level uncertainty scores are poor proxies for retrieval success, computationally inexpensive first-order confidence measures and retrieval-level aleatoric uncertainty achieve strong risk-coverage tradeoffs across evaluation settings. We demonstrate that by applying distribution-free risk control via generalization bounds, practitioners can specify a tolerable error rate and obtain a subset of annotations satisfying that constraint with high probability."
+  },
+  {
+    "title": "Safe RLHF Beyond Expectation: Stochastic Dominance for Universal Spectral Risk Control",
+    "url": "http://arxiv.org/abs/2603.10938v1",
+    "arxiv_id": "2603.10938v1",
+    "authors": [
+      "Yaswanth Chittepu",
+      "Ativ Joshi",
+      "Rajarshi Bhattacharjee",
+      "Scott Niekum"
+    ],
+    "published": "2026-03-11T16:24:20+00:00",
+    "summary": "Safe Reinforcement Learning from Human Feedback (RLHF) typically enforces safety through expected cost constraints, but the expectation captures only a single statistic of the cost distribution and fails to account for distributional uncertainty, particularly under heavy tails or rare catastrophic events. This limitation is problematic when robustness and risk sensitivity are critical. Stochastic dominance offers a principled alternative by comparing entire cost distributions rather than just their averages, enabling direct control over tail risks and potential out-of-distribution failures that expectation-based constraints may overlook. In this work, we propose Risk-sensitive Alignment via Dominance (RAD), a novel alignment framework that replaces scalar expected cost constraints with First-Order Stochastic Dominance (FSD) constraints. We operationalize this constraint by comparing the target policy's cost distribution to that of a reference policy within an Optimal Transport (OT) framework, using entropic regularization and Sinkhorn iterations to obtain a differentiable and computationally efficient objective for stable end-to-end optimization. Furthermore, we introduce quantile-weighted FSD constraints and show that weighted FSD universally controls a broad class of Spectral Risk Measures (SRMs), so that improvements under weighted dominance imply guaranteed improvements in the corresponding spectral risk. This provides a principled mechanism for tuning a model's risk profile via the quantile weighting function. Empirical results demonstrate that RAD improves harmlessness over baselines while remaining competitive in helpfulness, and exhibits greater robustness on out-of-distribution harmlessness evaluations."
+  },
+  {
+    "title": "The potential and viability of V2G for California BEV drivers",
+    "url": "http://arxiv.org/abs/2603.10880v1",
+    "arxiv_id": "2603.10880v1",
+    "authors": [
+      "Clement Wong",
+      "Amalie Trewartha",
+      "Steven B. Torrisi",
+      "Alexandre L. S. Filipowicz"
+    ],
+    "published": "2026-03-11T15:26:31+00:00",
+    "summary": "Vehicle-to-Grid (V2G) adoption is hindered by uncertainties regarding its effects on battery lifetime and vehicle usability. These uncertainties are compounded by limited insight into real-world vehicle usage. Here, we leverage real-world Californian BEV usage data to design and evaluate a user-centric V2G strategy. We identified four clustered driver profiles for V2G assessment, ranging from \"Daily Chargers\" to \"Public Chargers\". We show that V2G participation is most feasible for \"Daily Chargers,\" and that the effects on battery lifetime depend on calendar aging sensitivity. For batteries with low sensitivity, V2G participation increases capacity loss for all drivers. However, for batteries with high sensitivity, V2G participation can lead to negligible changes in capacity or even improved capacity retention, particularly for drivers who tend to keep their batteries at high states of charge. Our findings enable stakeholders to better assess the potential and viability of V2G adoption."
+  },
+  {
+    "title": "Exploring Indicators of Developers' Sentiment Perceptions in Student Software Projects",
+    "url": "http://arxiv.org/abs/2603.10864v1",
+    "arxiv_id": "2603.10864v1",
+    "authors": [
+      "Martin Obaidi",
+      "Marc Herrmann",
+      "Jendrik Martensen",
+      "Jil Kl\u00fcnder",
+      "Kurt Schneider"
+    ],
+    "published": "2026-03-11T15:16:58+00:00",
+    "summary": "Communication is a crucial social factor in the success of software projects, as positively or negatively perceived statements can influence how recipients feel and affect team collaboration through emotional contagion. Whether a developer perceives a written message as positive, negative, or neutral is likely shaped by multiple factors.   In this paper, we investigate how mood traits and states, life circumstances, project phases, and group dynamics relate to the perception of text-based messages in software development. We conducted a four-round survey study with 81 students in team-based software projects. Across rounds, participants reported these factors and labeled 30 decontextualized statements for sentiment, including meta-data on labeling rationale and uncertainty.   Our results show: (1) Sentiment perception is only moderately stable within individuals, and label changes concentrate on ambiguity-prone statements; (2) Correlation-level signals are small and do not survive global multiple-testing correction; (3) In statement-level repeated-measures models (GEE), higher mood trait and reactivity are associated with more positive (and less neutral) labeling, while predictors of negative labeling are weaker and at most trend-level (e.g., task conflict); (4) We find no clear evidence of systematic project-phase effects. Overall, sentiment perception varies within persons and is strongly statement-dependent.   Although our study was conducted in an academic setting, the observed variability and ambiguity effects suggest caution when interpreting sentiment analysis outputs and motivate future work with contextualized, in-project communication."
+  },
+  {
+    "title": "BALD-SAM: Disagreement-based Active Prompting in Interactive Segmentation",
+    "url": "http://arxiv.org/abs/2603.10828v1",
+    "arxiv_id": "2603.10828v1",
+    "authors": [
+      "Prithwijit Chowdhury",
+      "Mohit Prabhushankar",
+      "Ghassan AlRegib"
+    ],
+    "published": "2026-03-11T14:34:55+00:00",
+    "summary": "The Segment Anything Model (SAM) has revolutionized interactive segmentation through spatial prompting. While existing work primarily focuses on automating prompts in various settings, real-world annotation workflows involve iterative refinement where annotators observe model outputs and strategically place prompts to resolve ambiguities. Current pipelines typically rely on the annotator's visual assessment of the predicted mask quality. We postulate that a principled approach for automated interactive prompting is to use a model-derived criterion to identify the most informative region for the next prompt. In this work, we establish active prompting: a spatial active learning approach where locations within images constitute an unlabeled pool and prompts serve as queries to prioritize information-rich regions, increasing the utility of each interaction. We further present BALD-SAM: a principled framework adapting Bayesian Active Learning by Disagreement (BALD) to spatial prompt selection by quantifying epistemic uncertainty. To do so, we freeze the entire model and apply Bayesian uncertainty modeling only to a small learned prediction head, making intractable uncertainty estimation practical for large multi-million parameter foundation models. Across 16 datasets spanning natural, medical, underwater, and seismic domains, BALD-SAM demonstrates strong cross-domain performance, ranking first or second on 14 of 16 benchmarks. We validate these gains through a comprehensive ablation suite covering 3 SAM backbones and 35 Laplace posterior configurations, amounting to 38 distinct ablation settings. Beyond strong average performance, BALD-SAM surpasses human prompting and, in several categories, even oracle prompting, while consistently outperforming one-shot baselines in final segmentation quality, particularly on thin and structurally complex objects."
+  },
+  {
+    "title": "Distributed Stability Certification and Control from Local Data",
+    "url": "http://arxiv.org/abs/2603.10812v1",
+    "arxiv_id": "2603.10812v1",
+    "authors": [
+      "Surya Malladi",
+      "Nima Monshizadeh"
+    ],
+    "published": "2026-03-11T14:20:14+00:00",
+    "summary": "Most data-driven analysis and control methods rely on centralized access to system measurements. In contrast, we consider a setting in which the measurements are distributed across multiple agents and raw data are not shared. Each agent has access only to locally held samples, possibly as little as a single measurement, and agents exchange only locally computed signals. Consequently, no individual agent possesses sufficient information to identify the entire system or synthesize a controller independently. To address this limitation, we develop distributed dynamical algorithms that enable the agents to collectively compute global system certificates from local data. Two problems are addressed. First, for stable linear time-invariant (LTI) systems, the agents compute a Lyapunov certificate by solving the Lyapunov equation in a fully distributed manner. Second, for general LTI systems, they compute the stabilizing solution of the algebraic Riccati equation and hence the optimal linear-quadratic regulator (LQR). An initially proposed scheme guarantees practical convergence, while a subsequent augmented PI-type algorithm achieves exact convergence to the desired solution. We further establish robustness of the resulting LQR controller to uncertainty and measurement noise. The approach is illustrated through distributed Lyapunov certification of a quadruple-tank process and distributed LQR design for helicopter dynamics."
+  },
+  {
+    "title": "CUPID: A Plug-in Framework for Joint Aleatoric and Epistemic Uncertainty Estimation with a Single Model",
+    "url": "http://arxiv.org/abs/2603.10745v1",
+    "arxiv_id": "2603.10745v1",
+    "authors": [
+      "Xinran Xu",
+      "Xiuyi Fan"
+    ],
+    "published": "2026-03-11T13:18:10+00:00",
+    "summary": "Accurate estimation of uncertainty in deep learning is critical for deploying models in high-stakes domains such as medical diagnosis and autonomous decision-making, where overconfident predictions can lead to harmful outcomes. In practice, understanding the reason behind a model's uncertainty and the type of uncertainty it represents can support risk-aware decisions, enhance user trust, and guide additional data collection. However, many existing methods only address a single type of uncertainty or require modifications and retraining of the base model, making them difficult to adopt in real-world systems. We introduce CUPID (Comprehensive Uncertainty Plug-in estImation moDel), a general-purpose module that jointly estimates aleatoric and epistemic uncertainty without modifying or retraining the base model. CUPID can be flexibly inserted into any layer of a pretrained network. It models aleatoric uncertainty through a learned Bayesian identity mapping and captures epistemic uncertainty by analyzing the model's internal responses to structured perturbations. We evaluate CUPID across a range of tasks, including classification, regression, and out-of-distribution detection. The results show that it consistently delivers competitive performance while offering layer-wise insights into the origins of uncertainty. By making uncertainty estimation modular, interpretable, and model-agnostic, CUPID supports more transparent and trustworthy AI. Related code and data are available at https://github.com/a-Fomalhaut-a/CUPID."
+  },
+  {
+    "title": "Beyond Accuracy: Reliability and Uncertainty Estimation in Convolutional Neural Networks",
+    "url": "http://arxiv.org/abs/2603.10731v1",
+    "arxiv_id": "2603.10731v1",
+    "authors": [
+      "Sanne Ruijs",
+      "Alina Kosiakova",
+      "Farrukh Javed"
+    ],
+    "published": "2026-03-11T13:05:15+00:00",
+    "summary": "Deep neural networks (DNNs) have become integral to a wide range of scientific and practical applications due to their flexibility and strong predictive performance. Despite their accuracy, however, DNNs frequently exhibit poor calibration, often assigning overly confident probabilities to incorrect predictions. This limitation underscores the growing need for integrated mechanisms that provide reliable uncertainty estimation. In this article, we compare two prominent approaches for uncertainty quantification: a Bayesian approximation via Monte Carlo Dropout and the nonparametric Conformal Prediction framework. Both methods are assessed using two convolutional neural network architectures; H-CNN VGG16 and GoogLeNet, trained on the Fashion-MNIST dataset. The empirical results show that although H-CNN VGG16 attains higher predictive accuracy, it tends to exhibit pronounced overconfidence, whereas GoogLeNet yields better-calibrated uncertainty estimates. Conformal Prediction additionally demonstrates consistent validity by producing statistically guaranteed prediction sets, highlighting its practical value in high-stakes decision-making contexts. Overall, the findings emphasize the importance of evaluating model performance beyond accuracy alone and contribute to the development of more reliable and trustworthy deep learning systems."
+  },
+  {
     "title": "Task Aware Modulation Using Representation Learning for Upsaling of Terrestrial Carbon Fluxes",
     "url": "http://arxiv.org/abs/2603.09974v1",
     "arxiv_id": "2603.09974v1",
