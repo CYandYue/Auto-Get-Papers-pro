@@ -1,5 +1,173 @@
 [
   {
+    "title": "Technology configurations for decarbonizing residential heat supply through district heating and implications for the electricity network",
+    "url": "http://arxiv.org/abs/2603.12202v1",
+    "arxiv_id": "2603.12202v1",
+    "authors": [
+      "Christian Doh Dinga",
+      "Francesco Lombardi",
+      "Roald Arkesteijn",
+      "Arjan van Voorden",
+      "Sander van Rijn",
+      "Laurens James de Vries",
+      "Milos Cvetkovic"
+    ],
+    "published": "2026-03-12T17:27:21+00:00",
+    "summary": "District heating networks (DHNs) have significant potential to decarbonize residential heating and accelerate the energy transition. However, designing carbon-neutral DHNs requires balancing several objectives, including economic costs, social acceptance, long-term uncertainties, and grid-integration challenges from electrification. By combining modeling-to-generate-alternatives with power flow simulation techniques, we develop a decision-support method for designing carbon-neutral DHNs that are cost-effective, socially acceptable, robust to future risks, and impose minimal impacts on the electricity grid. Applying our method to a Dutch case, we find substantial diversity in how carbon-neutral DHNs can be designed. The flexibility in technology choice, sizing, and location enables accommodating different real-world needs and achieving high electrification levels without increasing grid loading. For instance, intelligently located heat pumps and thermal storage can limit grid stress even when renewable baseload heat sources and green-fuel boilers are scarce. Using our method, planners can explore diverse carbon-neutral DHN designs and identify the design that best balances stakeholders' preferences."
+  },
+  {
+    "title": "Optimal control with flag qubits",
+    "url": "http://arxiv.org/abs/2603.12162v1",
+    "arxiv_id": "2603.12162v1",
+    "authors": [
+      "Liang-Xu Xie",
+      "Lui Zuccherelli de Paula",
+      "Weizhou Cai",
+      "Qing-Xuan Jie",
+      "Luyan Sun",
+      "Chang-Ling Zou",
+      "Guang-Can Guo",
+      "Zi-Jie Chen",
+      "Xu-Bo Zou"
+    ],
+    "published": "2026-03-12T16:59:05+00:00",
+    "summary": "High-fidelity quantum operations are the cornerstone of fault-tolerant quantum computation. In open quantum systems, traditional optimal control only passively resists decoherence, leaving environment-induced uncertainty as a fundamental performance bottleneck. To overcome this, we propose a new optimal control framework with flag ancillas and the Flag-GRAPE algorithm, which can actively tailor the system's noise structure. Through embedding post-selection directly into the objective function, Flag-GRAPE correlates decoherence errors with the ancilla's unexpected state. Subsequent measurement and post-selection effectively expel this uncertainty, circumventing the fidelity bounds of traditional control. Numerical simulations in a superconducting quantum circuit demonstrate a $51\\%$ reduction in infidelity compared to traditional closed-system pulses and also show that such enhancement is robust across broad noise regimes. Furthermore, by actively converting unstructured decoherence into heralded erasure errors, Flag-GRAPE is inherently compatible with quantum error correction. We demonstrate this by initializing a logical cat-code state, showing that the combination between Flag-GRAPE and QEC yields immediate state preparation enhancements. This new framework can reduce hardware overhead for fault-tolerant architectures and open up a practical path toward logical state preparation gain in near-term experiments."
+  },
+  {
+    "title": "Taming the Adversary: Stable Minimax Deep Deterministic Policy Gradient via Fractional Objectives",
+    "url": "http://arxiv.org/abs/2603.12110v1",
+    "arxiv_id": "2603.12110v1",
+    "authors": [
+      "Taeho Lee",
+      "Donghwan Lee"
+    ],
+    "published": "2026-03-12T16:15:06+00:00",
+    "summary": "Reinforcement learning (RL) has achieved remarkable success in a wide range of control and decision-making tasks. However, RL agents often exhibit unstable or degraded performance when deployed in environments subject to unexpected external disturbances and model uncertainties. Consequently, ensuring reliable performance under such conditions remains a critical challenge. In this paper, we propose minimax deep deterministic policy gradient (MMDDPG), a framework for learning disturbance-resilient policies in continuous control tasks. The training process is formulated as a minimax optimization problem between a user policy and an adversarial disturbance policy. In this problem, the user learns a robust policy that minimizes the objective function, while the adversary generates disturbances that maximize it. To stabilize this interaction, we introduce a fractional objective that balances task performance and disturbance magnitude. This objective prevents excessively aggressive disturbances and promotes robust learning. Experimental evaluations in MuJoCo environments demonstrate that the proposed MMDDPG achieves significantly improved robustness against both external force perturbations and model parameter variations."
+  },
+  {
+    "title": "Maximum-Entropy Random Walks on Hypergraphs",
+    "url": "http://arxiv.org/abs/2603.12098v1",
+    "arxiv_id": "2603.12098v1",
+    "authors": [
+      "Anqi Dong",
+      "Anzhi Sheng",
+      "Xin Mao",
+      "Can Chen"
+    ],
+    "published": "2026-03-12T16:03:30+00:00",
+    "summary": "Random walks are fundamental tools for analyzing complex networked systems, including social networks, biological systems, and communication infrastructures. While classical random walks focus on pairwise interactions, many real-world systems exhibit higher-order interactions naturally modeled by hypergraphs. Existing random walk models on hypergraphs often focus on undirected structures or do not incorporate entropy-based inference, limiting their ability to capture directional flows, uncertainty, or information diffusion in complex systems. In this article, we develop a maximum-entropy random walk framework on directed hypergraphs with two interaction mechanisms: broadcasting where a pivot node activates multiple receiver nodes and merging where multiple pivot nodes jointly influence a receiver node. We infer a transition kernel via a Kullback--Leibler divergence projection onto constraints enforcing stochasticity and stationarity. The resulting optimality conditions yield a multiplicative scaling form, implemented using Sinkhorn--Schr\u00f6dinger-type iterations with tensor contractions. We further analyze ergodicity, including projected linear kernels for broadcasting and tensor spectral criteria for polynomial dynamics in merging. The effectiveness of our framework is demonstrated with both synthetic and real-world examples."
+  },
+  {
+    "title": "Frequentist Consistency of Prior-Data Fitted Networks for Causal Inference",
+    "url": "http://arxiv.org/abs/2603.12037v1",
+    "arxiv_id": "2603.12037v1",
+    "authors": [
+      "Valentyn Melnychuk",
+      "Vahid Balazadeh",
+      "Stefan Feuerriegel",
+      "Rahul G. Krishnan"
+    ],
+    "published": "2026-03-12T15:14:35+00:00",
+    "summary": "Foundation models based on prior-data fitted networks (PFNs) have shown strong empirical performance in causal inference by framing the task as an in-context learning problem.However, it is unclear whether PFN-based causal estimators provide uncertainty quantification that is consistent with classical frequentist estimators. In this work, we address this gap by analyzing the frequentist consistency of PFN-based estimators for the average treatment effect (ATE). (1) We show that existing PFNs, when interpreted as Bayesian ATE estimators, can exhibit prior-induced confounding bias: the prior is not asymptotically overwritten by data, which, in turn, prevents frequentist consistency. (2) As a remedy, we suggest employing a calibration procedure based on a one-step posterior correction (OSPC). We show that the OSPC helps to restore frequentist consistency and can yield a semi-parametric Bernstein-von Mises theorem for calibrated PFNs (i.e., both the calibrated PFN-based estimators and the classical semi-parametric efficient estimators converge in distribution with growing data size). (3) Finally, we implement OSPC through tailoring martingale posteriors on top of the PFNs. In this way, we are able to recover functional nuisance posteriors from PFNs, required by the OSPC. In multiple (semi-)synthetic experiments, PFNs calibrated with our martingale posterior OSPC produce ATE uncertainty that (i) asymptotically matches frequentist uncertainty and (ii) is well calibrated in finite samples in comparison to other Bayesian ATE estimators."
+  },
+  {
+    "title": "Deep Learning-Based Metamodeling of Nonlinear Stochastic Dynamic Systems under Parametric and Predictive Uncertainty",
+    "url": "http://arxiv.org/abs/2603.12012v1",
+    "arxiv_id": "2603.12012v1",
+    "authors": [
+      "Haimiti Atila",
+      "Seymour M. J. Spence"
+    ],
+    "published": "2026-03-12T14:56:04+00:00",
+    "summary": "Modeling high-dimensional, nonlinear dynamic structural systems under natural hazards presents formidable computational challenges, especially when simultaneously accounting for uncertainties in external loads and structural parameters. Studies have successfully incorporated uncertainties related to external loads from natural hazards, but few have simultaneously addressed loading and parameter uncertainties within structural systems while accounting for prediction uncertainty of neural networks. To address these gaps, three metamodeling frameworks were formulated, each coupling a feature-extraction module implemented through a multi-layer perceptron (MLP), a message-passing neural network (MPNN), or an autoencoder (AE) with a long short-term memory (LSTM) network using Monte Carlo dropout and a negative log-likelihood loss. The resulting architectures (MLP-LSTM, MPNN-LSTM, and AE-LSTM) were validated on two case studies: a multi-degree-of-freedom Bouc-Wen system and a 37-story fiber-discretized nonlinear steel moment-resisting frame, both subjected to stochastic seismic excitation and structural parameter uncertainty. All three approaches achieved low prediction errors: the MLP-LSTM yielded the most accurate results for the lower-dimensional Bouc-Wen system, whereas the MPNN-LSTM and AE-LSTM provided superior performance on the more complex steel-frame model. Moreover, a consistent correlation between predictive variance and actual error confirms the suitability of these frameworks for active-learning strategies and for assessing model confidence in structural response predictions."
+  },
+  {
+    "title": "Sensitivity to Axion-like Particle dark matter with very-high-energy gamma-ray observations of Active Galactic Nuclei located behind Galaxy Clusters",
+    "url": "http://arxiv.org/abs/2603.12009v1",
+    "arxiv_id": "2603.12009v1",
+    "authors": [
+      "Cervane Grimaud",
+      "Denys Malyshev",
+      "Emmanuel Moulin"
+    ],
+    "published": "2026-03-12T14:53:29+00:00",
+    "summary": "Axion-Like-Particles (ALPs) are hypothetical pseudo-scalar particles actively searched as light dark matter candidates. The coupling of ALPs to photons can give rise to distinctive spectral features in the observed gamma-ray spectrum of astrophysical sources.   We perform a forecast study on the sensitivity to ALP-photon interactions using stacked mock observations of selected active galactic nuclei (AGNs) located behind galaxy clusters (GC). The ALP-photon conversion in the magnetic fields of galaxy clusters give rise to absorption-like features in AGN spectra that are subject to large variance in their prediction for individual sources. We consider here a stacking analysis of multiple AGN-cluster pairs, which yields a more controlled prediction of the expected ALP-induced spectral patterns in the observed gamma-ray spectra.   Using realistic mock observations of selected Fermi-LAT AGNs by ongoing Imaging Atmospheric Cherenkov Telescopes such as H.E.S.S., MAGIC and VERITAS, we provide a careful assessment of the expected sensitivity of a combined statistical analysis of many AGN-GC pairs, together with the impact of modelling and instrumental uncertainties. The sensitivity reaches ALP-photon couplings down to 6$\\times$10$^{-13}$ GeV$^{-1}$ for an ALP mass of 3$\\times$10$^{-8}$ eV, and is currently statistically dominated indicating further improvements from more observations. Such a stacking analysis approach enables exploration of the yet-uncharted ALP dark matter parameter space in the 10$^{-8}$ - 10$^{-7}$ eV mass range."
+  },
+  {
+    "title": "Measurement of the cosmic muon flux at the Stawell Underground Physics Laboratory",
+    "url": "http://arxiv.org/abs/2603.11981v1",
+    "arxiv_id": "2603.11981v1",
+    "authors": [
+      "G. Fu",
+      "M. Mews",
+      "F. Scutti",
+      "P. Urquijo",
+      "E. Barberio",
+      "V. Bashu",
+      "L. J. Bignell",
+      "I. Bolognino",
+      "A. Cools",
+      "F. Dastgiri",
+      "A. R. Duffy",
+      "L. Einfalt",
+      "M. Froehlich",
+      "T. Fruth",
+      "M. Gerathy",
+      "M. Hancock",
+      "R. James",
+      "S. Kapoor",
+      "S. Krishnan",
+      "G. J. Lane",
+      "K. T. Leaver",
+      "D. Marcantonio",
+      "P. McGee",
+      "J. McKenzie",
+      "L. McKie",
+      "M. A. McLean",
+      "P. C. McNamara",
+      "L. J. Milligan",
+      "K. J. Rule",
+      "Z. Slavkovska",
+      "O. Stanley",
+      "A. E. Stuchbery",
+      "B. Suerfu",
+      "G. N. Taylor",
+      "E. van der Velden",
+      "A. G. Williams",
+      "Y. Xing",
+      "Y. Y. Zhong"
+    ],
+    "published": "2026-03-12T14:30:22+00:00",
+    "summary": "We report the first measurement of the underground cosmic muon flux at the Stawell Underground Physics Laboratory. The measurement uses eight EJ200 plastic scintillator panels, equipped with Hamamatsu R13089 PMT pairs at the ends, which are the primary components of the muon veto system for the upcoming SABRE South experiment. The measured muon flux is f = (6.33 +/- 0.04_stat +/- 0.35_sys) x 10^{-8} [s^{-1} cm^{-2}]. This measurement is in excellent agreement with simulations, with a relative uncertainty an order of magnitude smaller than the modelling uncertainty."
+  },
+  {
+    "title": "Robust Parametric Microgrid Dispatch Under Endogenous Uncertainty of Operation- and Temperature-Dependent Battery Degradation",
+    "url": "http://arxiv.org/abs/2603.11978v1",
+    "arxiv_id": "2603.11978v1",
+    "authors": [
+      "Rui Xie",
+      "Jun Wang",
+      "Jiaxu Duan",
+      "Chao Ma",
+      "Yunhui Liu",
+      "Yue Chen"
+    ],
+    "published": "2026-03-12T14:27:57+00:00",
+    "summary": "Batteries play a critical role in microgrid energy management by ensuring power balance, enhancing renewable utilization, and reducing operational costs. However, battery degradation poses a significant challenge, particularly under extreme temperatures. This paper investigates the optimal trade-off between battery degradation and operational costs in microgrid dispatch to find a robust cost-effective strategy from a full life-cycle perspective. A key challenge arises from the endogenous uncertainty (or decision-dependent uncertainty, DDU) of battery degradation: Dispatch decisions influence the probability distribution of battery degradation, while in turn degradation changes battery operation model and thus affects dispatch. In this paper, we first develop an XGBoost-based probabilistic degradation model trained on experimental data across varying temperature conditions. We then formulate a parametric model predictive control (MPC) framework for microgrid dispatch, where the weight parameters of the battery degradation penalty terms are tuned through long-term simulation of degradation and dispatch interactions. Case studies validate the effectiveness of the proposed approach."
+  },
+  {
+    "title": "Bayesian Model Calibration with Integrated Discrepancy: Addressing Inexact Dislocation Dynamics Models",
+    "url": "http://arxiv.org/abs/2603.11960v1",
+    "arxiv_id": "2603.11960v1",
+    "authors": [
+      "Liam Myhill",
+      "Enrique Martinez Saez",
+      "Sez Russcher"
+    ],
+    "published": "2026-03-12T14:06:58+00:00",
+    "summary": "In this work, a novel approach to Bayesian model calibration routines is developed which reinterprets the traditional definition of model discrepancy as defined by Kennedy and O'Hagan (KOH). The novelty lies in the integration of $\u03b4_\u03b8(x_i)$ GPs within the simulator, which is approximated as a GP surrogate model to ensure computational tractability. This approach assumes that the utilized simulator sufficiently predicts observed trends when calibrated with respect to the application domain, and that all model-form errors can be attributed to uncertainty in the input parameters. In contrast, the KOH method assumes discrepancy to be inherently decoupled from the simulator, acting as a 'catch-all' for various sources of model error. The new method is applied to Molecular Dynamics observations of the critical stress to drive dislocation dipoles, and equivalent predictions using a Discrete Dislocation Dynamics simulator whose coarse-grained physical interpretation of the underlying physical mechanisms requires calibration against MD observations. We present an overview of similar state-aware calibration routines; differentiate the provided approach through redefining the commonly used discrepancy Gaussian process and benchmark against KOH. A philosophical argument as to when application of the proposed method is appropriate is provided, and future directions for expanding upon this methodology are proposed."
+  },
+  {
     "title": "Task-Aware Delegation Cues for LLM Agents",
     "url": "http://arxiv.org/abs/2603.11011v1",
     "arxiv_id": "2603.11011v1",
