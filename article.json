@@ -1,5 +1,137 @@
 [
   {
+    "title": "Computational Concept of the Psyche",
+    "url": "http://arxiv.org/abs/2603.15586v1",
+    "arxiv_id": "2603.15586v1",
+    "authors": [
+      "Anton Kolonin",
+      "Vladimir Krykov"
+    ],
+    "published": "2026-03-16T17:46:58+00:00",
+    "summary": "This article presents an overview of approaches to modeling the human psyche in the context of constructing an artificial one. Based on this overview, a concept of cognitive architecture is proposed, in which the psyche is viewed as the operating system of a living or artificial subject, comprising a space of states, including the state of needs that determine the meaning of a subject's being in relation to stimuli from the external world, and intelligence as a decision-making system regarding actions in this world to satisfy these needs. Based on this concept, a computational formalization is proposed for creating artificial general intelligence systems for an agent through experiential learning in a state space that includes agent's needs, taking into account their biological or existential significance for the intelligent agent, along with agent's sensations and actions. Thus, the problem of constructing artificial general intelligence is formalized as a system for making optimal decisions in the space of specific agent needs under conditions of uncertainty, maximizing success in achieving goals, minimizing existential risks, and maximizing energy efficiency. A minimal experimental implementation of the model is presented."
+  },
+  {
+    "title": "Severe Domain Shift in Skeleton-Based Action Recognition:A Study of Uncertainty Failure in Real-World Gym Environments",
+    "url": "http://arxiv.org/abs/2603.15574v1",
+    "arxiv_id": "2603.15574v1",
+    "authors": [
+      "Aaditya Khanal",
+      "Junxiu Zhou"
+    ],
+    "published": "2026-03-16T17:37:17+00:00",
+    "summary": "The practical deployment gap -- transitioning from controlled multi-view 3D skeleton capture to   unconstrained monocular 2D pose estimation -- introduces a compound domain shift whose safety implications   remain critically underexplored. We present a systematic study of this severe domain shift using a novel   Gym2D dataset (style/viewpoint shift) and the UCF101 dataset (semantic shift). Our Skeleton Transformer   achieves 63.2% cross-subject accuracy on NTU-120 but drops to 1.6% under zero-shot transfer to the Gym   domain and 1.16% on UCF101. Critically, we demonstrate that high Out-Of-Distribution (OOD) detection AUROC   does not guarantee safe selective classification. Standard uncertainty methods fail to detect this   performance drop: the model remains confidently incorrect with 99.6% risk even at 50% coverage across both   OOD datasets. While energy-based scoring (AUROC >= 0.91) and Mahalanobis distance provide reliable   distributional detection signals, such high AUROC scores coexist with poor risk-coverage behavior when   making decisions. A lightweight finetuned gating mechanism restores calibration and enables graceful   abstention, substantially reducing the rate of confident wrong predictions. Our work challenges standard   deployment assumptions, providing a principled safety analysis of both semantic and geometric skeleton   recognition deployment."
+  },
+  {
+    "title": "Predictive Uncertainty in Short-Term PV Forecasting under Missing Data: A Multiple Imputation Approach",
+    "url": "http://arxiv.org/abs/2603.15564v1",
+    "arxiv_id": "2603.15564v1",
+    "authors": [
+      "Parastoo Pashmchi",
+      "J\u00e9r\u00f4me Benoit",
+      "Motonobu Kanagawa"
+    ],
+    "published": "2026-03-16T17:26:08+00:00",
+    "summary": "Missing values are common in photovoltaic (PV) power data, yet the uncertainty they induce is not propagated into predictive distributions. We develop a framework that incorporates missing-data uncertainty into short-term PV forecasting by combining stochastic multiple imputation with Rubin's rule. The approach is model-agnostic and can be integrated with standard machine-learning predictors. Empirical results show that ignoring missing-data uncertainty leads to overly narrow prediction intervals. Accounting for this uncertainty improves interval calibration while maintaining comparable point prediction accuracy. These results demonstrate the importance of propagating imputation uncertainty in data-driven PV forecasting."
+  },
+  {
+    "title": "Probabilistic Model Checking Taken by Storm",
+    "url": "http://arxiv.org/abs/2603.15559v1",
+    "arxiv_id": "2603.15559v1",
+    "authors": [
+      "Matthias Volk",
+      "Linus Heck",
+      "Sebastian Junges",
+      "Joost-Pieter Katoen",
+      "Tim Quatmann"
+    ],
+    "published": "2026-03-16T17:22:21+00:00",
+    "summary": "This tutorial paper presents a hands-on perspective on probabilistic model checking with the Storm model checker. Storm is a decade-old model checker that excels in performance and a rich Python-based ecosystem, which makes it easy to integrate in various workflows. This tutorial focuses on Markov decision processes (MDP), which are popular in a variety of fields. It demonstrates the basic workflow, from Python-based modeling, model checking with a variety of properties, to the extraction of policies. Further, it showcases the support for recent topics that focus on different types of uncertainty, such as interval MDP and POMDP, and the ability to quickly implement simple algorithms on top of existing data structures."
+  },
+  {
+    "title": "Clinically Aware Synthetic Image Generation for Concept Coverage in Chest X-ray Models",
+    "url": "http://arxiv.org/abs/2603.15525v1",
+    "arxiv_id": "2603.15525v1",
+    "authors": [
+      "Amy Rafferty",
+      "Rishi Ramaesh",
+      "Ajitha Rajan"
+    ],
+    "published": "2026-03-16T16:48:51+00:00",
+    "summary": "The clinical deployment of AI diagnostic models demands more than benchmark accuracy - it demands robustness across the full spectrum of disease presentations. However, publicly available chest radiographic datasets systematically underrepresent critical clinical feature combinations, leaving models under-trained precisely where clinical stakes are highest. We present CARS, a clinically aware and anatomically grounded framework that addresses this gap through principled synthetic image generation. CARS applies targeted perturbations to clinical feature vectors, enabling controlled insertion and deletion of pathological findings while explicitly preserving anatomical structure. We evaluate CARS across seven backbone architectures by fine-tuning models on synthetic subsets and testing on a held-out MIMIC-CXR benchmark. Compared to prior feature perturbation approaches, fine-tuning on CARS-generated images consistently improves precision-recall performance, reduces predictive uncertainty, and improves model calibration. Structural and semantic analyses demonstrate high anatomical fidelity, strong feature alignment, and low semantic uncertainty. Independent evaluation by two expert radiologists further confirms realism and clinical agreement. As the field moves toward regulated clinical AI, CARS demonstrates that anatomically faithful synthetic data generation for better feature space coverage is a viable and effective strategy for improving both the performance and trustworthiness of chest X-ray classification systems - without compromising clinical integrity."
+  },
+  {
+    "title": "Understanding Reasoning in LLMs through Strategic Information Allocation under Uncertainty",
+    "url": "http://arxiv.org/abs/2603.15500v1",
+    "arxiv_id": "2603.15500v1",
+    "authors": [
+      "Jeonghye Kim",
+      "Xufang Luo",
+      "Minbeom Kim",
+      "Sangmook Lee",
+      "Dongsheng Li",
+      "Yuqing Yang"
+    ],
+    "published": "2026-03-16T16:31:24+00:00",
+    "summary": "LLMs often exhibit Aha moments during reasoning, such as apparent self-correction following tokens like \"Wait,\" yet their underlying mechanisms remain unclear. We introduce an information-theoretic framework that decomposes reasoning into procedural information and epistemic verbalization - the explicit externalization of uncertainty that supports downstream control actions. We show that purely procedural reasoning can become informationally stagnant, whereas epistemic verbalization enables continued information acquisition and is critical for achieving information sufficiency. Empirical results demonstrate that strong reasoning performance is driven by uncertainty externalization rather than specific surface tokens. Our framework unifies prior findings on Aha moments and post-training experiments, and offers insights for future reasoning model design."
+  },
+  {
+    "title": "Real-Time Oriented Object Detection Transformer in Remote Sensing Images",
+    "url": "http://arxiv.org/abs/2603.15497v1",
+    "arxiv_id": "2603.15497v1",
+    "authors": [
+      "Zeyu Ding",
+      "Yong Zhou",
+      "Jiaqi Zhao",
+      "Wen-Liang Du",
+      "Xixi Li",
+      "Rui Yao",
+      "Abdulmotaleb El Saddik"
+    ],
+    "published": "2026-03-16T16:28:31+00:00",
+    "summary": "Recent real-time detection transformers have gained popularity due to their simplicity and efficiency. However, these detectors do not explicitly model object rotation, especially in remote sensing imagery where objects appear at arbitrary angles, leading to challenges in angle representation, matching cost, and training stability. In this paper, we propose a real-time oriented object detection transformer, the first real-time end-to-end oriented object detector to the best of our knowledge, that addresses the above issues. Specifically, angle distribution refinement is proposed to reformulate angle regression as an iterative refinement of probability distributions, thereby capturing the uncertainty of object rotation and providing a more fine-grained angle representation. Then, we incorporate a Chamfer distance cost into bipartite matching, measuring box distance via vertex sets, enabling more accurate geometric alignment and eliminating ambiguous matches. Moreover, we propose oriented contrastive denoising to stabilize training and analyze four noise modes. We observe that a ground truth can be assigned to different index queries across different decoder layers, and analyze this issue using the proposed instability metric. We design a series of model variants and experiments to validate the proposed method. Notably, our O2-DFINE-L, O2-RTDETR-R50 and O2-DEIM-R50 achieve 77.73%/78.45%/80.15% AP50 on DOTA1.0 and 132/119/119 FPS on the 2080ti GPU. Code is available at https://github.com/wokaikaixinxin/ai4rs."
+  },
+  {
+    "title": "An alternating-minimization method for preparing low-energy states",
+    "url": "http://arxiv.org/abs/2603.15495v1",
+    "arxiv_id": "2603.15495v1",
+    "authors": [
+      "Anurag Anshu"
+    ],
+    "published": "2026-03-16T16:22:42+00:00",
+    "summary": "Preparing low energy states is a central challenge in quantum computing and quantum complexity theory. Several known approaches to prepare low energy states often get stuck in suboptimal states, such as high energy eigenstates (or low variance high energy states). We develop a heuristic method to go past this barrier for local Hamiltonian systems with relatively low frustration, by taking advantage of the fact that such systems come with multiple Hamiltonians that agree on the low-energy subspaces. We establish an energy-based uncertainty principle, which shows that these Hamiltonians in fact do not have common eigenstates in the high energy regime. This allows us to run energy lowering steps in an alternating manner over the Hamiltonians. We run numerical simulations to check the performance of the `alternating' algorithm on small system sizes, for the 1D AKLT model and instances of Heisenberg model on general graphs. We also formulate a version of the energy-based uncertainty principle using sparse Hamiltonians, which shows a quadratically larger variance at higher energies and hence leads to a larger energy change. We use this version to simulate the method on energy profiles with high energy barriers."
+  },
+  {
+    "title": "Seeing Beyond: Extrapolative Domain Adaptive Panoramic Segmentation",
+    "url": "http://arxiv.org/abs/2603.15475v1",
+    "arxiv_id": "2603.15475v1",
+    "authors": [
+      "Yuanfan Zheng",
+      "Kunyu Peng",
+      "Xu Zheng",
+      "Kailun Yang"
+    ],
+    "published": "2026-03-16T16:09:18+00:00",
+    "summary": "Cross-domain panoramic semantic segmentation has attracted growing interest as it enables comprehensive 360\u00b0 scene understanding for real-world applications. However, it remains particularly challenging due to severe geometric Field of View (FoV) distortions and inconsistent open-set semantics across domains. In this work, we formulate an open-set domain adaptation setting, and propose Extrapolative Domain Adaptive Panoramic Segmentation (EDA-PSeg) framework that trains on local perspective views and tests on full 360\u00b0 panoramic images, explicitly tackling both geometric FoV shifts across domains and semantic uncertainty arising from previously unseen classes. To this end, we propose the Euler-Margin Attention (EMA), which introduces an angular margin to enhance viewpoint-invariant semantic representation, while performing amplitude and phase modulation to improve generalization toward unseen classes. Additionally, we design the Graph Matching Adapter (GMA), which builds high-order graph relations to align shared semantics across FoV shifts while effectively separating novel categories through structural adaptation. Extensive experiments on four benchmark datasets under camera-shift, weather-condition, and open-set scenarios demonstrate that EDA-PSeg achieves state-of-the-art performance, robust generalization to diverse viewing geometries, and resilience under varying environmental conditions. The code is available at https://github.com/zyfone/EDA-PSeg."
+  },
+  {
+    "title": "RieMind: Geometry-Grounded Spatial Agent for Scene Understanding",
+    "url": "http://arxiv.org/abs/2603.15386v1",
+    "arxiv_id": "2603.15386v1",
+    "authors": [
+      "Fernando Ropero",
+      "Erkin Turkoz",
+      "Daniel Matos",
+      "Junqing Du",
+      "Antonio Ruiz",
+      "Yanfeng Zhang",
+      "Lu Liu",
+      "Mingwei Sun",
+      "Yongliang Wang"
+    ],
+    "published": "2026-03-16T15:02:24+00:00",
+    "summary": "Visual Language Models (VLMs) have increasingly become the main paradigm for understanding indoor scenes, but they still struggle with metric and spatial reasoning. Current approaches rely on end-to-end video understanding or large-scale spatial question answering fine-tuning, inherently coupling perception and reasoning. In this paper, we investigate whether decoupling perception and reasoning leads to improved spatial reasoning. We propose an agentic framework for static 3D indoor scene reasoning that grounds an LLM in an explicit 3D scene graph (3DSG). Rather than ingesting videos directly, each scene is represented as a persistent 3DSG constructed by a dedicated perception module. To isolate reasoning performance, we instantiate the 3DSG from ground-truth annotations. The agent interacts with the scene exclusively through structured geometric tools that expose fundamental properties such as object dimensions, distances, poses, and spatial relationships. The results we obtain on the static split of VSI-Bench provide an upper bound under ideal perceptual conditions on the spatial reasoning performance, and we find that it is significantly higher than previous works, by up to 16\\%, without task specific fine-tuning. Compared to base VLMs, our agentic variant achieves significantly better performance, with average improvements between 33\\% to 50\\%. These findings indicate that explicit geometric grounding substantially improves spatial reasoning performance, and suggest that structured representations offer a compelling alternative to purely end-to-end visual reasoning."
+  },
+  {
     "title": "First measurement of time-dependent $CP$ violation in the decay flavor-changing neutral-current decay $B^{0}\\rightarrow K_{S}^{0}\u03bc^{+}\u03bc^{-}$",
     "url": "http://arxiv.org/abs/2603.13223v1",
     "arxiv_id": "2603.13223v1",
