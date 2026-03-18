@@ -1,5 +1,126 @@
 [
   {
+    "title": "Long-Horizon Traffic Forecasting via Incident-Aware Conformal Spatio-Temporal Transformers",
+    "url": "http://arxiv.org/abs/2603.16857v1",
+    "arxiv_id": "2603.16857v1",
+    "authors": [
+      "Mayur Patil",
+      "Qadeer Ahmed",
+      "Shawn Midlam-Mohler",
+      "Stephanie Marik",
+      "Allen Sheldon",
+      "Rajeev Chhajer",
+      "Nithin Santhanam"
+    ],
+    "published": "2026-03-17T17:58:01+00:00",
+    "summary": "Reliable multi-horizon traffic forecasting is challenging because network conditions are stochastic, incident disruptions are intermittent, and effective spatial dependencies vary across time-of-day patterns. This study is conducted on the Ohio Department of Transportation (ODOT) traffic count data and corresponding ODOT crash records. This work utilizes a Spatio-Temporal Transformer (STT) model with Adaptive Conformal Prediction (ACP) to produce multi-horizon forecasts with calibrated uncertainty. We propose a piecewise Coefficient of Variation (CV) strategy that models hour-to-hour traveltime variability using a log-normal distribution, enabling the construction of a per-hour dynamic adjacency matrix. We further perturb edge weights using incident-related severity signals derived from the ODOT crash dataset that comprises incident clearance time, weather conditions, speed violations, work zones, and roadway functional class, to capture localized disruptions and peak/off-peak transitions. This dynamic graph construction replaces a fixed-CV assumption and better represents changing traffic conditions within the forecast window. For validation, we generate extended trips via multi-hour loop runs on the Columbus, Ohio, network in SUMO simulations and apply a Monte Carlo simulation to obtain travel-time distributions for a Vehicle Under Test (VUT). Experiments demonstrate improved long-horizon accuracy and well-calibrated prediction intervals compared to other baseline methods."
+  },
+  {
+    "title": "Typical models of the distribution system restoration process",
+    "url": "http://arxiv.org/abs/2603.16841v1",
+    "arxiv_id": "2603.16841v1",
+    "authors": [
+      "Arslan Ahmad",
+      "Ian Dobson"
+    ],
+    "published": "2026-03-17T17:48:16+00:00",
+    "summary": "Accurate probabilistic modeling of the power system restoration process is essential for resilience planning, operational decision-making, and realistic simulation of resilience events. In this work, we develop data-driven probabilistic models of the restoration process using outage data from four distribution utilities. We decompose restoration into three components: normalized restore time progression, total restoration duration, and the time to first restore. The Beta distribution provides the best-pooled fit for restore time progression, and the Uniform distribution is a defensible, parsimonious approximation for many events. Total duration is modeled as a heteroskedastic Lognormal process that scales superlinearly with event size. The time to first restore is well described by a Gamma model for moderate and large events. Together, these models provide an end-to-end stochastic model for Monte Carlo simulation, probabilistic duration forecasting, and resilience planning that moves beyond summary statistics, enabling uncertainty-aware decision support grounded in utility data."
+  },
+  {
+    "title": "Quantum-Enabled Probabilistic Optimal Power Flow with Built-in Differential Privacy",
+    "url": "http://arxiv.org/abs/2603.16780v1",
+    "arxiv_id": "2603.16780v1",
+    "authors": [
+      "Yuji Cao",
+      "Tongxin Li",
+      "Yue Chen"
+    ],
+    "published": "2026-03-17T16:56:44+00:00",
+    "summary": "Quantum computing has been regarded as a promising approach to accelerate power system optimization. However, challenges such as limited qubits and inherent noise hinder their widespread adoption in power systems. In this paper, we propose a qubit-efficient framework for solving a crucial power system optimization problem, the probabilistic optimal power flow (POPF). We demonstrate that quantum noise, traditionally viewed as a drawback, can in fact be leveraged to provide a built-in differential privacy (DP) guarantee. Specifically, we first linearize POPF into a multi-parametric linear program (MP-LP) with renewable uncertainties being the parameters. This decomposes the parameter space into critical regions with precomputed solution maps. Second, a variational quantum circuit (VQC) classifies the critical region based on each uncertainty realization and then recovers the final solution. In this way, the required qubits scale with the uncertain parameters instead of the network size, with only 5 qubits versus 600+ for direct quantum OPF in a 69-bus system. Moreover, we prove the depolarizing noise of VQC provides DP guarantees and characterize the privacy-cost tradeoff. Case studies validate the proposed VQC achieves 2.1$\\times$ smaller privacy budgets compared to its classical counterpart. At matched privacy levels, the VQC also maintains lower infeasibility and prediction error."
+  },
+  {
+    "title": "Overlapping Covariance Intersection: Fusion with Partial Structural Knowledge of Correlation from Multiple Sources",
+    "url": "http://arxiv.org/abs/2603.16768v1",
+    "arxiv_id": "2603.16768v1",
+    "authors": [
+      "Leonardo Pedroso",
+      "Pedro Batista",
+      "W. P. M. H. Heemels"
+    ],
+    "published": "2026-03-17T16:46:24+00:00",
+    "summary": "Emerging large-scale engineering systems rely on distributed fusion for situational awareness, where agents combine noisy local sensor measurements with exchanged information to obtain fused estimates. However, at the sheer scale of these systems, tracking cross-correlations becomes infeasible, preventing the use of optimal filters. Covariance intersection (CI) methods address fusion problems with unknown correlations by minimizing worst-case uncertainty based on available information. Existing CI extensions exploit limited correlation knowledge but cannot incorporate structural knowledge of correlation from multiple sources, which naturally arises in distributed fusion problems. This paper introduces Overlapping Covariance Intersection (OCI), a generalized CI framework that accommodates this novel information structure. We formalize the OCI problem and establish necessary and sufficient conditions for feasibility. We show that a family-optimal solution can be computed efficiently via semidefinite programming, enabling real-time implementation. The proposed tools enable improved fusion performance for large-scale systems while retaining robustness to unknown correlations."
+  },
+  {
+    "title": "pADAM: A Plug-and-Play All-in-One Diffusion Architecture for Multi-Physics Learning",
+    "url": "http://arxiv.org/abs/2603.16757v1",
+    "arxiv_id": "2603.16757v1",
+    "authors": [
+      "Amirhossein Mollaali",
+      "Bongseok Kim",
+      "Christian Moya",
+      "Guang Lin"
+    ],
+    "published": "2026-03-17T16:37:11+00:00",
+    "summary": "Generalizing across disparate physical laws remains a fundamental challenge for artificial intelligence in science. Existing deep-learning solvers are largely confined to single-equation settings, limiting transfer across physical regimes and inference tasks. Here we introduce pADAM, a unified generative framework that learns a shared probabilistic prior across heterogeneous partial differential equation families. Through a learned joint distribution of system states and, where applicable, physical parameters, pADAM supports forward prediction and inverse inference within a single architecture without retraining. Across benchmarks ranging from scalar diffusion to nonlinear Navier--Stokes equations, pADAM achieves accurate inference even under sparse observations. Combined with conformal prediction, it also provides reliable uncertainty quantification with coverage guarantees. In addition, pADAM performs probabilistic model selection from only two sparse snapshots, identifying governing laws through its learned generative representation. These results highlight the potential of generative multi-physics modeling for unified and uncertainty-aware scientific inference."
+  },
+  {
+    "title": "Sequential Bayesian Experimental Design for Prediction in Physical Experiments Informed by Computer Models",
+    "url": "http://arxiv.org/abs/2603.16756v1",
+    "arxiv_id": "2603.16756v1",
+    "authors": [
+      "Hao Zhu",
+      "Markus Hainy"
+    ],
+    "published": "2026-03-17T16:36:24+00:00",
+    "summary": "In many scientific and engineering domains, physical experiments are often costly, non-replicable, or time-consuming. The Kennedy and O'Hagan (KOH) model framework has become a widely used approach for combining simulator runs with limited experimental observations. Under a Bayesian implementation, the simulator output, model discrepancy, and observation noise are jointly modeled by coupled Gaussian processes, followed by coherent posterior inference and uncertainty quantification.   This work presents a genuinely sequential Bayesian experimental design (BED) framework explicitly aimed at improving the predictive performance of the KOH model. We employ a mutual information (MI)-based criterion and develop a hybrid variant that integrates it with measures of local model complexity, leading to significantly more efficient design decisions.   We further show theoretically that the MI-based criterion is more comprehensive and robust than the classical integrated mean squared prediction error (IMSPE) minimization criterion, especially when the model is highly uncertain in the early stages of the experiment. To mitigate the computational burden of fully Bayesian inference and the ensuing BED process, we propose two acceleration strategies - Gaussian Mixture Compression and Schur complement and rank-one update - which together substantially reduce runtime.   Finally, we demonstrate the effectiveness of the proposed methods through both a synthetic example and a real biochemical case study, and compare them against several classical design criteria under sequential (offline) and adaptive (online) BED settings."
+  },
+  {
+    "title": "Nonstandard Errors in AI Agents",
+    "url": "http://arxiv.org/abs/2603.16744v1",
+    "arxiv_id": "2603.16744v1",
+    "authors": [
+      "Ruijiang Gao",
+      "Steven Chong Xiao"
+    ],
+    "published": "2026-03-17T16:21:22+00:00",
+    "summary": "We study whether state-of-the-art AI coding agents, given the same data and research question, produce the same empirical results. Deploying 150 autonomous Claude Code agents to independently test six hypotheses about market quality trends in NYSE TAQ data for SPY (2015--2024), we find that AI agents exhibit sizable \\textit{nonstandard errors} (NSEs), that is, uncertainty from agent-to-agent variation in analytical choices, analogous to those documented among human researchers. AI agents diverge substantially on measure choice (e.g., autocorrelation vs.\\ variance ratio, dollar vs.\\ share volume). Different model families (Sonnet 4.6 vs.\\ Opus 4.6) exhibit stable ``empirical styles,'' reflecting systematic differences in methodological preferences. In a three-stage feedback protocol, AI peer review (written critiques) has minimal effect on dispersion, whereas exposure to top-rated exemplar papers reduces the interquartile range of estimates by 80--99\\% within \\textit{converging} measure families. Convergence occurs both through within-family estimation tightening and through agents switching measure families entirely, but convergence reflects imitation rather than understanding. These findings have implications for the growing use of AI in automated policy evaluation and empirical research."
+  },
+  {
+    "title": "The Cost of Reasoning: Chain-of-Thought Induces Overconfidence in Vision-Language Models",
+    "url": "http://arxiv.org/abs/2603.16728v1",
+    "arxiv_id": "2603.16728v1",
+    "authors": [
+      "Robert Welch",
+      "Emir Konuk",
+      "Kevin Smith"
+    ],
+    "published": "2026-03-17T16:12:06+00:00",
+    "summary": "Vision-language models (VLMs) are increasingly deployed in high-stakes settings where reliable uncertainty quantification (UQ) is as important as predictive accuracy. Extended reasoning via chain-of-thought (CoT) prompting or reasoning-trained models has become ubiquitous in modern VLM pipelines, yet its effect on UQ reliability remains poorly understood. We show that reasoning consistently degrades the quality of most uncertainty estimates, even when it improves task accuracy. We identify implicit answer conditioning as the primary mechanism: as reasoning traces converge on a conclusion before the final answer is generated, token probabilities increasingly reflect consistency with the model's own reasoning trace rather than uncertainty about correctness. In effect, the model becomes overconfident in its answer. In contrast, agreement-based consistency remains robust and often improves under reasoning, making it a practical choice for uncertainty estimation in reasoning-enabled VLMs."
+  },
+  {
+    "title": "Investigating Ultra-Low Energy Ionization Yield from Nuclear Recoils in Semiconductor Detectors via Molecular Dynamics Simulations",
+    "url": "http://arxiv.org/abs/2603.16702v1",
+    "arxiv_id": "2603.16702v1",
+    "authors": [
+      "Chang-Hao Fang"
+    ],
+    "published": "2026-03-17T15:56:10+00:00",
+    "summary": "Nuclear recoil ionization yield constitutes a critical uncertainty source in low-energy detection for dark matter (DM) and coherent elastic neutrino-nucleus scattering (CE$\u03bd$NS) experiments. We present a novel methodology employing molecular dynamics simulations to assess ionization yields in crystalline semiconductor detectors. This non-parameterized approach resolving inherent limitations of traditional Lindhard model through explicit incorporation of crystal condensed matter effects, facilitating a seamless reliability from high-energy ($E>10$\\,keV) to electron-hole pair (EHP) regimes. Our model achieves the best agreement with experimental data in silicon to date, especially at the minimal energy level of a single EHP. Meticulously consideration of ion transport mechanisms reveals fundamental ionization yield distributions, superseding conventional single-value models. The distributional paradigm extends the DM-nucleon elastic scattering exclusion limit to 0.29\\,GeV/$c^2$ under single-EHP sensitivity. We further report advancements in modeling quantum effects and channeling phenomena affecting ionization yields in high-purity germanium detectors."
+  },
+  {
+    "title": "Nonlinear Information Theory: Characterizing Distributional Uncertainty in Communication Models with Sublinear Expectation",
+    "url": "http://arxiv.org/abs/2603.16700v1",
+    "arxiv_id": "2603.16700v1",
+    "authors": [
+      "Wen-Xuan Lang",
+      "Shaoshi Yang",
+      "Jianhua Zhang",
+      "Zhiming Ma"
+    ],
+    "published": "2026-03-17T15:53:19+00:00",
+    "summary": "A mathematical framework for information-theoretic analysis is established, with a new viewpoint of describing transmitted messages and communication channels by the nonlinear expectation theory, beyond the framework of classical probability theory. The major motivation of this research is to emphasize the probabilistic distribution uncertainty within the ever increasingly complex communication networks, where random phenomena are often nonstationary, heterogeneous, and cannot be characterized by a single probability distribution. Based on the nonlinear expectation theory, in this paper we first explicitly define several fundamental concepts, such as nonlinear information entropy, nonlinear joint entropy, nonlinear conditional entropy and nonlinear mutual information, and establish their basic properties. Secondly, by using the strong law of large numbers under sublinear expectations, we propose a nonlinear source coding theorem, which shows that the nonlinear information entropy is the upper bound of the achievable coding rate of sources whose distributions are uncertain under the maximum error probability criterion, and determines a cluster point of the coding rate of such sources under the minimum error probability criterion. Thirdly, we propose a nonlinear channel coding theorem, which gives the explicit expression of the upper bound under the maximum error probability criterion and a cluster point under the minimum error probability criterion, respectively, for the achievable coding rate of communication channels whose distributions are uncertain. Additionally, we propose a nonlinear rate-distortion source coding theorem, proving that the rate distortion function based on the nonlinear mutual information is a cluster point of the lossy compression performance of uncertain-distribution sources under the minimum expected distortion criterion."
+  },
+  {
     "title": "Computational Concept of the Psyche",
     "url": "http://arxiv.org/abs/2603.15586v1",
     "arxiv_id": "2603.15586v1",
