@@ -1,5 +1,132 @@
 [
   {
+    "title": "Constitutive vs. Corrective: A Causal Taxonomy of Human Runtime Involvement in AI Systems",
+    "url": "http://arxiv.org/abs/2603.19213v1",
+    "arxiv_id": "2603.19213v1",
+    "authors": [
+      "Kevin Baum",
+      "Johann Laux"
+    ],
+    "published": "2026-03-19T17:57:07+00:00",
+    "summary": "As AI systems increasingly permeate high-stakes decision-making, the terminology regarding human involvement - Human-in-the-Loop (HITL), Human-on-the-Loop (HOTL), and Human Oversight - has become vexingly ambiguous. This ambiguity complicates interdisciplinary collaboration between computer science, law, philosophy, psychology, and sociology and can lead to regulatory uncertainty. We propose a clarification grounded in causal structure, focused on human involvement during the runtime of AI systems. The distinction between HITL and HOTL, we argue, is not primarily spatial but causal: HITL is constitutive (a human contribution is necessary for the decision output), while HOTL is corrective (external to the primary causal chain, capable of preventing or modifying outputs). Within HOTL, we distinguish three temporal modes - synchronous, asynchronous, and anticipatory - situated within a nested model of provider and deployer runtime that clarifies their different capacities for intervention. A second, orthogonal dimension captures cognitive integration: whether human and machine operate as complementary or hybrid intelligence, yielding four structurally distinct configurations. Finally, we distinguish these descriptive categories from the normative requirements they serve: statutory \"Human Oversight\" is a specific normative mode of HOTL that demands not merely a corrective causal position, but genuine preparedness and capacity for effective intervention. Because the same person may occupy both HITL and HOTL roles simultaneously, we argue that this role duality must be treated as a design problem requiring architectural and epistemic mitigation rather than mere acknowledgment."
+  },
+  {
+    "title": "Few-shot Acoustic Synthesis with Multimodal Flow Matching",
+    "url": "http://arxiv.org/abs/2603.19176v1",
+    "arxiv_id": "2603.19176v1",
+    "authors": [
+      "Amandine Brunetto"
+    ],
+    "published": "2026-03-19T17:32:06+00:00",
+    "summary": "Generating audio that is acoustically consistent with a scene is essential for immersive virtual environments. Recent neural acoustic field methods enable spatially continuous sound rendering but remain scene-specific, requiring dense audio measurements and costly training for each environment. Few-shot approaches improve scalability across rooms but still rely on multiple recordings and, being deterministic, fail to capture the inherent uncertainty of scene acoustics under sparse context. We introduce flow-matching acoustic generation (FLAC), a probabilistic method for few-shot acoustic synthesis that models the distribution of plausible room impulse responses (RIRs) given minimal scene context. FLAC leverages a diffusion transformer trained with a flow-matching objective to generate RIRs at arbitrary positions in novel scenes, conditioned on spatial, geometric, and acoustic cues. FLAC outperforms state-of-the-art eight-shot baselines with one-shot on both the AcousticRooms and Hearing Anything Anywhere datasets. To complement standard perceptual metrics, we further introduce AGREE, a joint acoustic-geometry embedding, enabling geometry-consistent evaluation of generated RIRs through retrieval and distributional metrics. This work is the first to apply generative flow matching to explicit RIR synthesis, establishing a new direction for robust and data-efficient acoustic synthesis."
+  },
+  {
+    "title": "Rigorous Error Certification for Neural PDE Solvers: From Empirical Residuals to Solution Guarantees",
+    "url": "http://arxiv.org/abs/2603.19165v1",
+    "arxiv_id": "2603.19165v1",
+    "authors": [
+      "Amartya Mukherjee",
+      "Maxwell Fitzsimmons",
+      "David C. Del Rey Fern\u00e1ndez",
+      "Jun Liu"
+    ],
+    "published": "2026-03-19T17:19:48+00:00",
+    "summary": "Uncertainty quantification for partial differential equations is traditionally grounded in discretization theory, where solution error is controlled via mesh/grid refinement. Physics-informed neural networks fundamentally depart from this paradigm: they approximate solutions by minimizing residual losses at collocation points, introducing new sources of error arising from optimization, sampling, representation, and overfitting. As a result, the generalization error in the solution space remains an open problem.   Our main theoretical contribution establishes generalization bounds that connect residual control to solution-space error. We prove that when neural approximations lie in a compact subset of the solution space, vanishing residual error guarantees convergence to the true solution. We derive deterministic and probabilistic convergence results and provide certified generalization bounds translating residual, boundary, and initial errors into explicit solution error guarantees."
+  },
+  {
+    "title": "The Uncertain Policy Price of Scaling Direct Air Capture",
+    "url": "http://arxiv.org/abs/2603.19143v1",
+    "arxiv_id": "2603.19143v1",
+    "authors": [
+      "Leonardo Chiani",
+      "Pietro Andreoni",
+      "Laurent Drouet",
+      "Tobias Schmidt",
+      "Katrin Sievert",
+      "Bjerne Steffen",
+      "Massimo Tavoni"
+    ],
+    "published": "2026-03-19T16:59:11+00:00",
+    "summary": "Direct air carbon capture and storage (DACCS) is a promising CO2 removal technology, but its deployment at scale remains speculative. Yet, its technological, economic, and policy-related uncertainties have often been overlooked in mitigation pathways. This paper conducts the first uncertainty quantification and global sensitivity analysis of DACCS on technological, market, financial and public support drivers, using a detailed-process Integrated Assessment Model and newly developed sensitivity algorithms. We find that DACCS deployment exhibits a fat-tailed distribution: most scenarios show modest technology uptake, but there is a small but non-zero probability (4-6%) of achieving gigaton-scale removals by mid-century. Scaling DACCS to gigaton levels requires subsidies that always exceed 200-330 USD/tCO2 and are sustained for decades, resulting in a public support programme of 900-3000 USD Billions. Such an effort pays back by mid-century, but only if accompanied by strong emission reduction policies. These findings highlight the critical role of climate policies in enabling a robust and economically sustainable CO2 removal strategy."
+  },
+  {
+    "title": "Hyper-efficient superconducting filterbanks with impedance-defined spectral resolution for millimeter-wave spectroscopy",
+    "url": "http://arxiv.org/abs/2603.19142v1",
+    "arxiv_id": "2603.19142v1",
+    "authors": [
+      "Oliver Jeong"
+    ],
+    "published": "2026-03-19T16:59:07+00:00",
+    "summary": "We present a high-efficiency, high resolution on-chip filterbank spectrometer designed for line intensity mapping and broadband wave-like dark matter searches. This spectrometer maximizes sensitivity to the faint, aggregate cosmic signal for line intensity mapping while providing redshift precision necessary to resolve the clustering of large-scale structure. For broadband dark matter searches, it partitions broadband signals into narrow frequency bins that directly correspond to dark matter masses, allowing signal frequency to be mapped with high precision to the particle's mass. Existing superconducting filterbank architectures used by the mm-wave community are limited by a 50\\% inherent efficiency limit and are highly sensitive to thin-film dielectric loss. The design presented in this paper addresses these bottlenecks by eliminating the termination resistor and employing a niobium-on-silicon coplanar waveguide resonant structures for the filterbanks. Sonnet electromagnetic simulations of a 10-channel device around 90 GHz demonstrates >74\\% per channel efficiency and a resolving power of $R=1211\\pm105$. Sensitivity analyses confirm that the design is robust against typical fabrication uncertainties with the exception of dielectric thickness, providing a scalable technology solution for the next generation of millimeter-wave spectroscopic experiments."
+  },
+  {
+    "title": "GSMem: 3D Gaussian Splatting as Persistent Spatial Memory for Zero-Shot Embodied Exploration and Reasoning",
+    "url": "http://arxiv.org/abs/2603.19137v1",
+    "arxiv_id": "2603.19137v1",
+    "authors": [
+      "Yiren Lu",
+      "Yi Du",
+      "Disheng Liu",
+      "Yunlai Zhou",
+      "Chen Wang",
+      "Yu Yin"
+    ],
+    "published": "2026-03-19T16:55:54+00:00",
+    "summary": "Effective embodied exploration requires agents to accumulate and retain spatial knowledge over time. However, existing scene representations, such as discrete scene graphs or static view-based snapshots, lack \\textit{post-hoc re-observability}. If an initial observation misses a target, the resulting memory omission is often irrecoverable. To bridge this gap, we propose \\textbf{GSMem}, a zero-shot embodied exploration and reasoning framework built upon 3D Gaussian Splatting (3DGS). By explicitly parameterizing continuous geometry and dense appearance, 3DGS serves as a persistent spatial memory that endows the agent with \\textit{Spatial Recollection}: the ability to render photorealistic novel views from optimal, previously unoccupied viewpoints. To operationalize this, GSMem employs a retrieval mechanism that simultaneously leverages parallel object-level scene graphs and semantic-level language fields. This complementary design robustly localizes target regions, enabling the agent to ``hallucinate'' optimal views for high-fidelity Vision-Language Model (VLM) reasoning. Furthermore, we introduce a hybrid exploration strategy that combines VLM-driven semantic scoring with a 3DGS-based coverage objective, balancing task-aware exploration with geometric coverage. Extensive experiments on embodied question answering and lifelong navigation demonstrate the robustness and effectiveness of our framework"
+  },
+  {
+    "title": "How Uncertainty Estimation Scales with Sampling in Reasoning Models",
+    "url": "http://arxiv.org/abs/2603.19118v1",
+    "arxiv_id": "2603.19118v1",
+    "authors": [
+      "Maksym Del",
+      "Markus K\u00e4ngsepp",
+      "Marharyta Domnich",
+      "Ardi Tampuu",
+      "Lisa Yankovskaya",
+      "Meelis Kull",
+      "Mark Fishel"
+    ],
+    "published": "2026-03-19T16:42:05+00:00",
+    "summary": "Uncertainty estimation is critical for deploying reasoning language models, yet remains poorly understood under extended chain-of-thought reasoning. We study parallel sampling as a fully black-box approach using verbalized confidence and self-consistency. Across three reasoning models and 17 tasks spanning mathematics, STEM, and humanities, we characterize how these signals scale.   Both self-consistency and verbalized confidence scale in reasoning models, but self-consistency exhibits lower initial discrimination and lags behind verbalized confidence under moderate sampling. Most uncertainty gains, however, arise from signal combination: with just two samples, a hybrid estimator improves AUROC by up to $+12$ on average and already outperforms either signal alone even when scaled to much larger budgets, after which returns diminish. These effects are domain-dependent: in mathematics, the native domain of RLVR-style post-training, reasoning models achieve higher uncertainty quality and exhibit both stronger complementarity and faster scaling than in STEM or humanities."
+  },
+  {
+    "title": "Stochastic Virtual Power Plant Dispatch via Temporally Aggregated Distributed Predictive Control with Performance Guarantees",
+    "url": "http://arxiv.org/abs/2603.19106v1",
+    "arxiv_id": "2603.19106v1",
+    "authors": [
+      "Luca Santosuosso",
+      "Fei Teng",
+      "Sonja Wogrin"
+    ],
+    "published": "2026-03-19T16:33:56+00:00",
+    "summary": "This paper addresses the energy dispatch of a virtual power plant comprising renewable generation, energy storage, and thermal units under uncertainty in renewable output, energy prices, and energy demand. The nonlinear dynamics and multiple sources of uncertainty render traditional stochastic model predictive control (MPC) computationally intractable as the dispatch horizon, scenario set, and asset portfolio expand. To overcome this limitation, we propose a novel controller that seamlessly integrates MPC with time series aggregation and distributed optimization, simultaneously reducing the temporal, asset, and scenario dimensions of the problem. The resulting controller provides a rigorous performance guarantee through theoretically validated bounds on its approximation error, while leveraging dual information from previous MPC iterations to adaptively optimize the temporal aggregation. Numerical results show that the proposed controller reduces runtime by over 50% relative to traditional stochastic MPC and, crucially, restores tractability where the full-scale dispatch model proves intractable."
+  },
+  {
+    "title": "The impact of prescriptions in phenomenological extractions of Transverse Momentum Dependent distributions",
+    "url": "http://arxiv.org/abs/2603.19088v1",
+    "arxiv_id": "2603.19088v1",
+    "authors": [
+      "Matteo Cerutti",
+      "Andrea Simonelli"
+    ],
+    "published": "2026-03-19T16:12:37+00:00",
+    "summary": "We investigate the impact of phenomenological prescriptions in the Collins-Soper-Sterman (CSS) approach for global extractions of Transverse Momentum Distributions (TMDs). We show that fits to low-energy Drell-Yan data with different choices of $b_*$ prescription yield equally good agreement with data and similar TMDs at small partonic transverse momentum. In contrast, sizable differences emerge at intermediate transverse momentum region, significantly affecting the predictions for high-energy Drell-Yan processes. Our results demonstrate that the $b_*$ prescription represents an intrinsic source of theoretical uncertainty in the CSS approach, introducing systematic effects that influence TMD extractions and their interpretation. At the same time, our analysis emphasizes the interplay between data at different energy scales in assessing the effect of phenomenological prescriptions in TMD fits adopting the CSS framework."
+  },
+  {
+    "title": "DROID-SLAM in the Wild",
+    "url": "http://arxiv.org/abs/2603.19076v1",
+    "arxiv_id": "2603.19076v1",
+    "authors": [
+      "Moyang Li",
+      "Zihan Zhu",
+      "Marc Pollefeys",
+      "Daniel Barath"
+    ],
+    "published": "2026-03-19T16:02:12+00:00",
+    "summary": "We present a robust, real-time RGB SLAM system that handles dynamic environments by leveraging differentiable Uncertainty-aware Bundle Adjustment. Traditional SLAM methods typically assume static scenes, leading to tracking failures in the presence of motion. Recent dynamic SLAM approaches attempt to address this challenge using predefined dynamic priors or uncertainty-aware mapping, but they remain limited when confronted with unknown dynamic objects or highly cluttered scenes where geometric mapping becomes unreliable. In contrast, our method estimates per-pixel uncertainty by exploiting multi-view visual feature inconsistency, enabling robust tracking and reconstruction even in real-world environments. The proposed system achieves state-of-the-art camera poses and scene geometry in cluttered dynamic scenarios while running in real time at around 10 FPS. Code and datasets are available at https://github.com/MoyangLi00/DROID-W.git."
+  },
+  {
     "title": "On the Astrophysical Origin of Binary Black Hole Subpopulations: A Tale of Three Channels?",
     "url": "http://arxiv.org/abs/2603.17987v1",
     "arxiv_id": "2603.17987v1",
