@@ -1,5 +1,150 @@
 [
   {
+    "title": "3D-Layout-R1: Structured Reasoning for Language-Instructed Spatial Editing",
+    "url": "http://arxiv.org/abs/2603.22279v1",
+    "arxiv_id": "2603.22279v1",
+    "authors": [
+      "Haoyu Zhen",
+      "Xiaolong Li",
+      "Yilin Zhao",
+      "Han Zhang",
+      "Sifei Liu",
+      "Kaichun Mo",
+      "Chuang Gan",
+      "Subhashree Radhakrishnan"
+    ],
+    "published": "2026-03-23T17:59:14+00:00",
+    "summary": "Large Language Models (LLMs) and Vision Language Models (VLMs) have shown impressive reasoning abilities, yet they struggle with spatial understanding and layout consistency when performing fine-grained visual editing. We introduce a Structured Reasoning framework that performs text-conditioned spatial layout editing via scene-graph reasoning. Given an input scene graph and a natural-language instruction, the model reasons over the graph to generate an updated scene graph that satisfies the text condition while maintaining spatial coherence. By explicitly guiding the reasoning process through structured relational representations, our approach improves both interpretability and control over spatial relationships. We evaluate our method on a new text-guided layout editing benchmark encompassing sorting, spatial alignment, and room-editing tasks. Our training paradigm yields an average 15% improvement in IoU and 25% reduction in center-distance error compared to Chain of Thought Fine-tuning (CoT-SFT) and vanilla GRPO baselines. Compared to SOTA zero-shot LLMs, our best models achieve up to 20% higher mIoU, demonstrating markedly improved spatial precision."
+  },
+  {
+    "title": "Decoupling Exploration and Policy Optimization: Uncertainty Guided Tree Search for Hard Exploration",
+    "url": "http://arxiv.org/abs/2603.22273v1",
+    "arxiv_id": "2603.22273v1",
+    "authors": [
+      "Zakaria Mhammedi",
+      "James Cohan"
+    ],
+    "published": "2026-03-23T17:56:52+00:00",
+    "summary": "The process of discovery requires active exploration -- the act of collecting new and informative data. However, efficient autonomous exploration remains a major unsolved problem. The dominant paradigm addresses this challenge by using Reinforcement Learning (RL) to train agents with intrinsic motivation, maximizing a composite objective of extrinsic and intrinsic rewards. We suggest that this approach incurs unnecessary overhead: while policy optimization is necessary for precise task execution, employing such machinery solely to expand state coverage may be inefficient. In this paper, we propose a new paradigm that explicitly separates exploration from exploitation and bypasses RL during the exploration phase. Our method uses a tree-search strategy inspired by the Go-With-The-Winner algorithm, paired with a measure of epistemic uncertainty to systematically drive exploration. By removing the overhead of policy optimization, our approach explores an order of magnitude more efficiently than standard intrinsic motivation baselines on hard Atari benchmarks. Further, we demonstrate that the discovered trajectories can be distilled into deployable policies using existing supervised backward learning algorithms, achieving state-of-the-art scores by a wide margin on Montezuma's Revenge, Pitfall!, and Venture without relying on domain-specific knowledge. Finally, we demonstrate the generality of our framework in high-dimensional continuous action spaces by solving the MuJoCo Adroit dexterous manipulation and AntMaze tasks in a sparse-reward setting, directly from image observations and without expert demonstrations or offline datasets. To the best of our knowledge, this has not been achieved before."
+  },
+  {
+    "title": "Multiview Graph Fusion with Covariates",
+    "url": "http://arxiv.org/abs/2603.22215v1",
+    "arxiv_id": "2603.22215v1",
+    "authors": [
+      "Sharmistha Guha",
+      "Jose Rodriguez-Acosta",
+      "Ivo Dinov"
+    ],
+    "published": "2026-03-23T17:12:48+00:00",
+    "summary": "Joint modeling of multiview graphs with a common set of nodes between views and auxiliary predictors is an essential, yet less explored, area in statistical methodology. Traditional approaches often treat graphs in different views as independent or fail to adequately incorporate predictors, potentially missing complex dependencies within and across graph views and leading to reduced inferential accuracy. Motivated by such methodological shortcomings, we introduce an integrative Bayesian approach for joint learning of a multiview graph with vector-valued predictors. Our modeling framework assumes a common set of nodes for each graph view while allowing for diverse interconnections or edge weights between nodes across graph views, accommodating both binary and continuous valued edge weights. By adopting a hierarchical Bayesian modeling approach, our framework seamlessly integrates information from diverse graphs through carefully designed prior distributions on model parameters. This approach enables the estimation of crucial model parameters defining the relationship between these graph views and predictors, as well as offers predictive inference of the graph views. Crucially, the approach provides uncertainty quantification in all such inferences. Theoretical analysis establishes that the posterior predictive density for our model asymptotically converges to the true data-generating density, under mild assumptions on the true data-generating density and the growth of the number of graph nodes relative to the sample size. Simulation studies validate the inferential advantages of our approach over predictor-dependent tensor learning and independent learning of different graph views with predictors. We further illustrate model utility by analyzing functional connectivity graphs in neuroscience under cognitive control tasks, relating task-related brain connectivity with phenotypic measures."
+  },
+  {
+    "title": "Human-Inspired Pavlovian and Instrumental Learning for Autonomous Agent Navigation",
+    "url": "http://arxiv.org/abs/2603.22170v1",
+    "arxiv_id": "2603.22170v1",
+    "authors": [
+      "Jingfeng Shan",
+      "Francesco Guidi",
+      "Mehrdad Saeidi",
+      "Enrico Testi",
+      "Elia Favarelli",
+      "Andrea Giorgetti",
+      "Davide Dardari",
+      "Alberto Zanella",
+      "Giorgio Li Pira",
+      "Francesca Starita",
+      "Anna Guerra"
+    ],
+    "published": "2026-03-23T16:29:43+00:00",
+    "summary": "Autonomous agents operating in uncertain environments must balance fast responses with goal-directed planning. Classical MF RL often converges slowly and may induce unsafe exploration, whereas MB methods are computationally expensive and sensitive to model mismatch. This paper presents a human-inspired hybrid RL architecture integrating Pavlovian, Instrumental MF, and Instrumental MB components. Inspired by Pavlovian and Instrumental learning from neuroscience, the framework considers contextual radio cues, here intended as georeferenced environmental features acting as CS, to shape intrinsic value signals and bias decision-making. Learning is further modulated by internal motivational drives through a dedicated motivational signal. A Bayesian arbitration mechanism adaptively blends MF and MB estimates based on predicted reliability. Simulation results show that the hybrid approach accelerates learning, improves operational safety, and reduces navigation in high-uncertainty regions compared to standard RL baselines. Pavlovian conditioning promotes safer exploration and faster convergence, while arbitration enables a smooth transition from exploration to efficient, plan-driven exploitation. Overall, the results highlight the benefits of biologically inspired modularity for robust and adaptive autonomous systems under uncertainty."
+  },
+  {
+    "title": "Closed-Loop Verbal Reinforcement Learning for Task-Level Robotic Planning",
+    "url": "http://arxiv.org/abs/2603.22169v1",
+    "arxiv_id": "2603.22169v1",
+    "authors": [
+      "Dmitrii Plotnikov",
+      "Iaroslav Kolomiets",
+      "Dmitrii Maliukov",
+      "Dmitrij Kosenkov",
+      "Daniia Zinniatullina",
+      "Artem Trandofilov",
+      "Georgii Gazaryan",
+      "Kirill Bogatikov",
+      "Timofei Kozlov",
+      "Igor Duchinskii",
+      "Mikhail Konenkov",
+      "Miguel Altamirano Cabrera",
+      "Dzmitry Tsetserukou"
+    ],
+    "published": "2026-03-23T16:28:36+00:00",
+    "summary": "We propose a new Verbal Reinforcement Learning (VRL) framework for interpretable task-level planning in mobile robotic systems operating under execution uncertainty. The framework follows a closed-loop architecture that enables iterative policy improvement through interaction with the physical environment. In our framework, executable Behavior Trees are repeatedly refined by a Large Language Model actor using structured natural-language feedback produced by a Vision-Language Model critic that observes the physical robot and execution traces. Unlike conventional reinforcement learning, policy updates in VRL occur directly at the symbolic planning level, without gradient-based optimization. This enables transparent reasoning, explicit causal feedback, and human-interpretable policy evolution. We validate the proposed framework on a real mobile robot performing a multi-stage manipulation and navigation task under execution uncertainty. Experimental results show that the framework supports explainable policy improvements, closed-loop adaptation to execution failures, and reliable deployment on physical robotic systems."
+  },
+  {
+    "title": "Causal Evidence that Language Models use Confidence to Drive Behavior",
+    "url": "http://arxiv.org/abs/2603.22161v1",
+    "arxiv_id": "2603.22161v1",
+    "authors": [
+      "Dharshan Kumaran",
+      "Nathaniel Daw",
+      "Simon Osindero",
+      "Petar Velickovic",
+      "Viorica Patraucean"
+    ],
+    "published": "2026-03-23T16:23:31+00:00",
+    "summary": "Metacognition -- the ability to assess one's own cognitive performance -- is documented across species, with internal confidence estimates serving as a key signal for adaptive behavior. While confidence can be extracted from Large Language Model (LLM) outputs, whether models actively use these signals to regulate behavior remains a fundamental question. We investigate this through a four-phase abstention paradigm.Phase 1 established internal confidence estimates in the absence of an abstention option. Phase 2 revealed that LLMs apply implicit thresholds to these estimates when deciding to answer or abstain. Confidence emerged as the dominant predictor of behavior, with effect sizes an order of magnitude larger than knowledge retrieval accessibility (RAG scores) or surface-level semantic features. Phase 3 provided causal evidence through activation steering: manipulating internal confidence signals correspondingly shifted abstention rates. Finally, Phase 4 demonstrated that models can systematically vary abstention policies based on instructed thresholds.Our findings indicate that abstention arises from the joint operation of internal confidence representations and threshold-based policies, mirroring the two-stage metacognitive control found in biological systems. This capacity is essential as LLMs transition into autonomous agents that must recognize their own uncertainty to decide when to act or seek help."
+  },
+  {
+    "title": "Using Global Gravitational Potential Weighted Correlation Function to Constrain Modified Gravity Models",
+    "url": "http://arxiv.org/abs/2603.22138v1",
+    "arxiv_id": "2603.22138v1",
+    "authors": [
+      "Yizhao Yang",
+      "Yu Yu",
+      "Pengjie Zhang"
+    ],
+    "published": "2026-03-23T16:00:47+00:00",
+    "summary": "We propose a new marked two-point correlation function weighted by the global gravitational potential as a probe for testing gravity models. Using the LCDM model based on general relativity (GR) as a reference, we investigate two representative modified gravity (MG) scenarios: f(R) gravity and nDGP. The mark used in this work, the global gravitational potential that is reconstructed from the galaxy distribution via the Poisson equation, is in contrast to the local property based mark (e.g., local galaxy number density or gravitational potential of host halo) used in previous studies. By applying two weighting schemes to quantify environment-dependent clustering, we find that this statistic is able to distinguish MG models from GR, with the signal being enhanced in regions corresponding to particular ranges of gravitational potential. These results indicate that the proposed statistic can serve as a useful complement to conventional clustering probes in future surveys, once observational effects and modeling uncertainties are properly taken into account."
+  },
+  {
+    "title": "Computationally lightweight classifiers with frequentist bounds on predictions",
+    "url": "http://arxiv.org/abs/2603.22128v1",
+    "arxiv_id": "2603.22128v1",
+    "authors": [
+      "Shreeram Murali",
+      "Cristian R. Rojas",
+      "Dominik Baumann"
+    ],
+    "published": "2026-03-23T15:54:25+00:00",
+    "summary": "While both classical and neural network classifiers can achieve high accuracy, they fall short on offering uncertainty bounds on their predictions, making them unfit for safety-critical applications. Existing kernel-based classifiers that provide such bounds scale with $\\mathcal O (n^{\\sim3})$ in time, making them computationally intractable for large datasets. To address this, we propose a novel, computationally efficient classification algorithm based on the Nadaraya-Watson estimator, for whose estimates we derive frequentist uncertainty intervals. We evaluate our classifier on synthetically generated data and on electrocardiographic heartbeat signals from the MIT-BIH Arrhythmia database. We show that the method achieves competitive accuracy $>$\\SI{96}{\\percent} at $\\mathcal O(n)$ and $\\mathcal O(\\log n)$ operations, while providing actionable uncertainty bounds. These bounds can, e.g., aid in flagging low-confidence predictions, making them suitable for real-time settings with resource constraints, such as diagnostic monitoring or implantable devices."
+  },
+  {
+    "title": "Biophysics-Enhanced Neural Representations for Patient-Specific Respiratory Motion Modeling",
+    "url": "http://arxiv.org/abs/2603.22123v1",
+    "arxiv_id": "2603.22123v1",
+    "authors": [
+      "Jan Boysen",
+      "Hristina Uzunova",
+      "Heinz Handels",
+      "Jan Ehrhardt"
+    ],
+    "published": "2026-03-23T15:47:05+00:00",
+    "summary": "A precise spatial delivery of the radiation dose is crucial for the treatment success in radiotherapy. In the lung and upper abdominal region, respiratory motion introduces significant treatment uncertainties, requiring special motion management techniques. To address this, respiratory motion models are commonly used to infer the patient-specific respiratory motion and target the dose more efficiently. In this work, we investigate the possibility of using implicit neural representations (INR) for surrogate-based motion modeling. Therefore, we propose physics-regularized implicit surrogate-based modeling for respiratory motion (PRISM-RM). Our new integrated respiratory motion model is free of a fixed reference breathing state. Unlike conventional pairwise registration techniques, our approach provides a trajectory-aware spatio-temporally continuous and diffeomorphic motion representation, improving generalization to extrapolation scenarios. We introduce biophysical constraints, ensuring physiologically plausible motion estimation across time beyond the training data. Our results show that our trajectory-aware approach performs on par in interpolation and improves the extrapolation ability compared to our initially proposed INR-based approach. Compared to sequential registration-based approaches both our approaches perform equally well in interpolation, but underperform in extrapolation scenarios. However, the methodical features of INRs make them particularly effective for respiratory motion modeling, and with their performance steadily improving, they demonstrate strong potential for advancing this field."
+  },
+  {
+    "title": "Optimization-based strategic planning for geographical healthcare accessibility in developing countries: a literature review",
+    "url": "http://arxiv.org/abs/2603.22113v1",
+    "arxiv_id": "2603.22113v1",
+    "authors": [
+      "Laura Davila-Pena",
+      "Maria Paola Scaparra",
+      "Dick den Hertog"
+    ],
+    "published": "2026-03-23T15:41:30+00:00",
+    "summary": "Access to healthcare facilities is a critical issue in developing countries, where limited resources and significant challenges hinder progress toward universal health coverage, one of the targets pursued by the United Nations. As a result, the Operations Research (OR) community has become increasingly active in addressing this issue, employing various techniques, particularly optimization. However, making long-term strategic decisions remains challenging, as these often require substantial investments and directly affect large populations. Moreover, much of the existing literature is predominantly theoretical. This paper reviews studies published over the past two decades that use optimization techniques to inform strategic planning decisions aimed at improving health accessibility and specifically contain a case study conducted in a developing country. The review explores the nature of the problems tackled, considering factors such as the level of care, service delivery channels, objectives, criteria, or potential hierarchy, uncertainty, and multi-period settings. Additionally, we discuss the modeling approaches, solution methodologies, and the extent of practical implementation. The goal of this survey is not only to summarize existing work but also to provide a roadmap for future research, offering valuable insights for OR practitioners in the field."
+  },
+  {
     "title": "Improved constraint on the Hubble constant from dark sirens with LIGO/Virgo/KAGRA O4a",
     "url": "http://arxiv.org/abs/2603.20195v1",
     "arxiv_id": "2603.20195v1",
