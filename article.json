@@ -1,5 +1,195 @@
 [
   {
+    "title": "Trust Region Constrained Bayesian Optimization with Penalized Constraint Handling",
+    "url": "http://arxiv.org/abs/2603.24567v1",
+    "arxiv_id": "2603.24567v1",
+    "authors": [
+      "Raju Chowdhury",
+      "Tanmay Sen",
+      "Prajamitra Bhuyan",
+      "Biswabrata Pradhan"
+    ],
+    "published": "2026-03-25T17:44:27+00:00",
+    "summary": "Constrained optimization in high-dimensional black-box settings is difficult due to expensive evaluations, the lack of gradient information, and complex feasibility regions. In this work, we propose a Bayesian optimization method that combines a penalty formulation, a surrogate model, and a trust region strategy. The constrained problem is converted to an unconstrained form by penalizing constraint violations, which provides a unified modeling framework. A trust region restricts the search to a local region around the current best solution, which improves stability and efficiency in high dimensions. Within this region, we use the Expected Improvement acquisition function to select evaluation points by balancing improvement and uncertainty. The proposed Trust Region method integrates penalty-based constraint handling with local surrogate modeling. This combination enables efficient exploration of feasible regions while maintaining sample efficiency. We compare the proposed method with state-of-the-art methods on synthetic and real-world high-dimensional constrained optimization problems. The results show that the method identifies high-quality feasible solutions with fewer evaluations and maintains stable performance across different settings."
+  },
+  {
+    "title": "Integral Control Barrier Functions with Input Delay: Prediction, Feasibility, and Robustness",
+    "url": "http://arxiv.org/abs/2603.24566v1",
+    "arxiv_id": "2603.24566v1",
+    "authors": [
+      "Adam K. Kiss",
+      "Ersin Das",
+      "Tamas G. Molnar",
+      "Aaron D. Ames"
+    ],
+    "published": "2026-03-25T17:44:20+00:00",
+    "summary": "Time delays in feedback control loops can cause controllers to respond too late, and with excessively large corrective actions, leading to unsafe behavior (violation of state constraints) and controller infeasibility (violation of input constraints). To address this problem, we develop a safety-critical control framework for nonlinear systems with input delay using dynamically defined (integral) controllers. Building on the concept of Integral Control Barrier Functions (ICBFs), we concurrently address two fundamental challenges: compensating the effect of delays, while ensuring feasibility when state and input constraints are imposed jointly. To this end, we embed predictor feedback into a dynamically defined control law to compensate for delays, with the predicted state evolving according to delay-free dynamics. Then, utilizing ICBFs, we formulate a quadratic program for safe control design. For systems subject to simultaneous state and input constraints, we derive a closed-form feasibility condition for the resulting controller, yielding a compatible ICBF pair that guarantees forward invariance under delay. We also address robustness to prediction errors (e.g., caused by delay uncertainty) using tunable robust ICBFs. Our approach is validated on an adaptive cruise control example with actuation delay."
+  },
+  {
+    "title": "Many-body perturbation theory for the nuclear equation of state up to fifth order",
+    "url": "http://arxiv.org/abs/2603.24532v1",
+    "arxiv_id": "2603.24532v1",
+    "authors": [
+      "C. Drischler",
+      "K. S. McElvain",
+      "P. Arthuis"
+    ],
+    "published": "2026-03-25T17:06:31+00:00",
+    "summary": "We present an automated, GPU-accelerated framework for many-body perturbation theory (MBPT) calculations of the zero-temperature nuclear equation of state (EOS) based on chiral nucleon-nucleon (NN) and three-nucleon (3N) interactions. Automated diagram generation and evaluation enable the computation of all diagrams up to fifth order in the MBPT expansion at the normal-ordered two-body level in infinite matter, with residual three-body contributions explicitly included up to third order. Multi-GPU acceleration of 3N normal ordering, a novel Monte Carlo integrator (called PVegas), and further advances in high-performance computing enable us to evaluate all 840 fifth-order diagrams with controlled numerical uncertainties. We investigate the MBPT convergence up to fifth order in pure neutron matter (PNM) and symmetric nuclear matter (SNM) for two sets of chiral interactions, study neutron star matter, and present fourth-order results for asymmetric matter including normal-ordered 3N forces. The framework enables systematic MBPT studies with harder interactions and benchmarks against nonperturbative methods. It can be further extended to finite-temperature EOS calculations and to improved uncertainty quantification using emulation and resummation techniques."
+  },
+  {
+    "title": "From Liar Paradox to Incongruent Sets: A Normal Form for Self-Reference",
+    "url": "http://arxiv.org/abs/2603.24527v1",
+    "arxiv_id": "2603.24527v1",
+    "authors": [
+      "Shalender Singh",
+      "Vishnu Priya Singh Parmar"
+    ],
+    "published": "2026-03-25T17:04:42+00:00",
+    "summary": "We introduce incongruent normal form (INF), a structural representation for self-referential semantic sentences. An INF replaces a self-referential sentence with a finite family of non-self-referential sentences that are individually satisfiable but not jointly satisfiable. This transformation isolates the semantic obstruction created by self-reference while preserving classical semantics locally and is accompanied by correctness theorems characterizing when global inconsistency arises from locally compatible commitments. We then study the role of incongruence as a structural source of semantic informativeness. Using a minimal model-theoretic notion of informativeness-understood as the ability of sentences to distinguish among admissible models-we show that semantic completeness precludes informativeness, while incongruence preserves it. Moreover, incongruence is not confined to paradoxical constructions: any consistent incomplete first-order theory admits finite incongruent families arising from incompatible complete extensions. In this sense, incompleteness manifests structurally as locally realizable but globally incompatible semantic commitments, providing a minimal formal basis for semantic knowledge. Finally, we introduce a quantitative semantic framework. In a canonical finite semantic-state setting, we model semantic commitments as Boolean functions and define a Fourier-analytic notion of semantic energy based on total influence. We derive uncertainty-style bounds relating semantic determinacy, informativeness, and spectral simplicity, and establish a matrix inequality bounding aggregate semantic variance by total semantic energy. These results show quantitatively that semantic informativeness cannot collapse into a single determinate state without unbounded energy cost, identifying incongruence as a fundamental structural and quantitative feature of semantic representation."
+  },
+  {
+    "title": "No Single Metric Tells the Whole Story: A Multi-Dimensional Evaluation Framework for Uncertainty Attributions",
+    "url": "http://arxiv.org/abs/2603.24524v1",
+    "arxiv_id": "2603.24524v1",
+    "authors": [
+      "Emily Schiller",
+      "Teodor Chiaburu",
+      "Marco Zullich",
+      "Luca Longo"
+    ],
+    "published": "2026-03-25T17:02:13+00:00",
+    "summary": "Research on explainable AI (XAI) has frequently focused on explaining model predictions. More recently, methods have been proposed to explain prediction uncertainty by attributing it to input features (uncertainty attributions). However, the evaluation of these methods remains inconsistent as studies rely on heterogeneous proxy tasks and metrics, hindering comparability. We address this by aligning uncertainty attributions with the well-established Co-12 framework for XAI evaluation. We propose concrete implementations for the correctness, consistency, continuity, and compactness properties. Additionally, we introduce conveyance, a property tailored to uncertainty attributions that evaluates whether controlled increases in epistemic uncertainty reliably propagate to feature-level attributions. We demonstrate our evaluation framework with eight metrics across combinations of uncertainty quantification and feature attribution methods on tabular and image data. Our experiments show that gradient-based methods consistently outperform perturbation-based approaches in consistency and conveyance, while Monte-Carlo dropconnect outperforms Monte-Carlo dropout in most metrics. Although most metrics rank the methods consistently across samples, inter-method agreement remains low. This suggests no single metric sufficiently evaluates uncertainty attribution quality. The proposed evaluation framework contributes to the body of knowledge by establishing a foundation for systematic comparison and development of uncertainty attribution methods."
+  },
+  {
+    "title": "Multi-Agent Reasoning with Consistency Verification Improves Uncertainty Calibration in Medical MCQA",
+    "url": "http://arxiv.org/abs/2603.24481v1",
+    "arxiv_id": "2603.24481v1",
+    "authors": [
+      "John Ray B. Martinez"
+    ],
+    "published": "2026-03-25T16:22:53+00:00",
+    "summary": "Miscalibrated confidence scores are a practical obstacle to deploying AI in clinical settings. A model that is always overconfident offers no useful signal for deferral. We present a multi-agent framework that combines domain-specific specialist agents with Two-Phase Verification and S-Score Weighted Fusion to improve both calibration and discrimination in medical multiple-choice question answering. Four specialist agents (respiratory, cardiology, neurology, gastroenterology) generate independent diagnoses using Qwen2.5-7B-Instruct. Each diagnosis is then subjected to a two-phase self-verification process that measures internal consistency and produces a Specialist Confidence Score (S-score). The S-scores drive a weighted fusion strategy that selects the final answer and calibrates the reported confidence. We evaluate across four experimental settings, covering 100-question and 250-question high-disagreement subsets of both MedQA-USMLE and MedMCQA. Calibration improvement is the central finding, with ECE reduced by 49-74% across all four settings, including the harder MedMCQA benchmark where these gains persist even when absolute accuracy is constrained by knowledge-intensive recall demands. On MedQA-250, the full system achieves ECE = 0.091 (74.4% reduction over the single-specialist baseline) and AUROC = 0.630 (+0.056) at 59.2% accuracy. Ablation analysis identifies Two-Phase Verification as the primary calibration driver and multi-agent reasoning as the primary accuracy driver. These results establish that consistency-based verification produces more reliable uncertainty estimates across diverse medical question types, providing a practical confidence signal for deferral in safety-critical clinical AI applications."
+  },
+  {
+    "title": "Conformalized Transfer Learning for Li-ion Battery State of Health Forecasting under Manufacturing and Usage Variability",
+    "url": "http://arxiv.org/abs/2603.24475v1",
+    "arxiv_id": "2603.24475v1",
+    "authors": [
+      "Samuel Filgueira da Silva",
+      "Mehmet Fatih Ozkan",
+      "Faissal El Idrissi",
+      "Marcello Canova"
+    ],
+    "published": "2026-03-25T16:16:03+00:00",
+    "summary": "Accurate forecasting of state-of-health (SOH) is essential for ensuring safe and reliable operation of lithium-ion cells. However, existing models calibrated on laboratory tests at specific conditions often fail to generalize to new cells that differ due to small manufacturing variations or operate under different conditions. To address this challenge, an uncertainty-aware transfer learning framework is proposed, combining a Long Short-Term Memory (LSTM) model with domain adaptation via Maximum Mean Discrepancy (MMD) and uncertainty quantification through Conformal Prediction (CP). The LSTM model is trained on a virtual battery dataset designed to capture real-world variability in electrode manufacturing and operating conditions. MMD aligns latent feature distributions between simulated and target domains to mitigate domain shift, while CP provides calibrated, distribution-free prediction intervals. This framework improves both the generalization and trustworthiness of SOH forecasts across heterogeneous cells."
+  },
+  {
+    "title": "Why Does Self-Distillation (Sometimes) Degrade the Reasoning Capability of LLMs?",
+    "url": "http://arxiv.org/abs/2603.24472v1",
+    "arxiv_id": "2603.24472v1",
+    "authors": [
+      "Jeonghye Kim",
+      "Xufang Luo",
+      "Minbeom Kim",
+      "Sangmook Lee",
+      "Dohyung Kim",
+      "Jiwon Jeon",
+      "Dongsheng Li",
+      "Yuqing Yang"
+    ],
+    "published": "2026-03-25T16:14:52+00:00",
+    "summary": "Self-distillation has emerged as an effective post-training paradigm for LLMs, often improving performance while shortening reasoning traces. However, in mathematical reasoning, we find that it can reduce response length while degrading performance. We trace this degradation to the suppression of epistemic verbalization - the model's expression of uncertainty during reasoning. Through controlled experiments varying conditioning context richness and task coverage, we show that conditioning the teacher on rich information suppresses uncertainty expression, enabling rapid in-domain optimization with limited task coverage but harming OOD performance, where unseen problems benefit from expressing uncertainty and adjusting accordingly. Across Qwen3-8B, DeepSeek-Distill-Qwen-7B, and Olmo3-7B-Instruct, we observe performance drops of up to 40%. Our findings highlight that exposing appropriate levels of uncertainty is crucial for robust reasoning and underscore the importance of optimizing reasoning behavior beyond merely reinforcing correct answer traces."
+  },
+  {
+    "title": "Short-Term Turbulence Prediction for Seeing Using Machine Learning",
+    "url": "http://arxiv.org/abs/2603.24466v1",
+    "arxiv_id": "2603.24466v1",
+    "authors": [
+      "Mary Joe Medlej",
+      "Rahul Srinivasan",
+      "Simon Prunet",
+      "Aziz Ziad",
+      "Christophe Giordano"
+    ],
+    "published": "2026-03-25T16:12:23+00:00",
+    "summary": "Optical turbulence, driven by fluctuations of the atmospheric refractive index, poses a significant challenge to ground-based optical systems, as it distorts the propagation of light. This degradation affects both astronomical observations and free-space optical communications. While adaptive optics systems correct turbulence effects in real-time, their reactive nature limits their effectiveness under rapidly changing conditions, underscoring the need for predictive solutions. In this study, we address the problem of short-term turbulence forecasting by leveraging machine learning models to predict the atmospheric seeing parameter up to two hours in advance. We compare statistical and deep learning approaches, with a particular focus on probabilistic models that not only produce accurate forecasts but also quantify predictive uncertainty, crucial for robust decision-making in dynamic environments. Our evaluation includes Gaussian processes (GP) for statistical modeling, recurrent neural networks (RNNs) and long short-term memory networks (LSTMs) as deterministic baselines, and our novel implementation of a normalizing flow for time series (FloTS) as a flexible probabilistic deep learning method. All models are trained exclusively on historical seeing data, allowing for a fair performance comparison. We show that FloTS achieves the best overall balance between predictive accuracy and well-calibrated uncertainty."
+  },
+  {
+    "title": "Prospect of the NUCLEUS Experiment at Chooz for Coherent Elastic Neutrino-Nucleus Scattering and New Physics Searches",
+    "url": "http://arxiv.org/abs/2603.24450v1",
+    "arxiv_id": "2603.24450v1",
+    "authors": [
+      "H. Abele",
+      "G. Angloher",
+      "B. Arnold",
+      "M. Atzori Corona",
+      "A. Bento",
+      "E. Bossio",
+      "F. Buchsteiner",
+      "J. Burkhart",
+      "F. Cappella",
+      "M. Cappelli",
+      "N. Casali",
+      "R. Cerulli",
+      "A. Cruciani",
+      "G. Del Castello",
+      "M. del Gallo Roccagiovine",
+      "S. Dorer",
+      "A. Erhart",
+      "M. Friedl",
+      "S. Fichtinger",
+      "V. M. Ghete",
+      "M. Giammei",
+      "C. Goupy",
+      "J. Hakenm\u00fcller",
+      "D. Hauff",
+      "F. Jeanneau",
+      "E. Jericha",
+      "M. Kaznacheeva",
+      "H. Kluck",
+      "A. Langenk\u00e4mper",
+      "T. Lasserre",
+      "D. Lhuillier",
+      "M. Mancuso",
+      "R. Martin",
+      "B. Mauri",
+      "A. Mazzolari",
+      "L. McCallin",
+      "H. Neyrial",
+      "C. Nones",
+      "L. Oberauer",
+      "L. Peters",
+      "F. Petricca",
+      "W. Potzel",
+      "F. Pr\u00f6bst",
+      "F. Pucci",
+      "F. Reindl",
+      "M. Romagnoni",
+      "J. Rothe",
+      "N. Schermer",
+      "J. Schieck",
+      "S. Sch\u00f6nert",
+      "C. Schwertner",
+      "L. Scola",
+      "G. Soum-Sidikov",
+      "L. Stodolsky",
+      "A. Schr\u00f6der",
+      "R. Strauss",
+      "R. Thalmeier",
+      "C. Tomei",
+      "L. Valla",
+      "M. Vignati",
+      "M. Vivier",
+      "A. Wallach",
+      "P. Wasser",
+      "A. Wex",
+      "L. Wienke"
+    ],
+    "published": "2026-03-25T16:02:19+00:00",
+    "summary": "The NUCLEUS experiment aims to measure coherent elastic neutrino-nucleus scattering (CE$\u03bd$NS) at unprecedentedly low nuclear recoil energies using gram-scale cryogenic calorimeters operated at the Chooz nuclear power plant in France. Access to recoil energies at the $\\mathcal{O}(10~\\mathrm{eV})$ scale enables CE$\u03bd$NS studies at extremely low momentum transfer and provides enhanced sensitivity to new physics. In this work, we present sensitivity projections for the upcoming NUCLEUS technical and physics runs, incorporating a data-driven treatment of the low-energy excess (LEE) observed during commissioning. We develop a likelihood framework that exploits reactor-power variation to disentangle signal and background in a low signal-to-background regime and to assess the impact of the dominant systematic uncertainties. For the Technical Run with a 7 g CaWO$_4$ target, we find competitive sensitivity to several scenarios beyond the Standard Model, which do not require a CE$\u03bd$NS observation. For the Physics Run, assuming complete suppression of the LEE, we project a 4.7 $\u03c3$ observation of CE$\u03bd$NS with a statistical precision of about 20 % in 1 year, enabling a determination of the weak mixing angle at the lowest momentum transfer probed to date with CE$\u03bd$NS and leading CE$\u03bd$NS-based constraints on the neutrino charge radius and new mediator models."
+  },
+  {
     "title": "Active learning-enabled multi-objective design of thermally conductive and mechanically compliant polymers",
     "url": "http://arxiv.org/abs/2603.23494v1",
     "arxiv_id": "2603.23494v1",
