@@ -1,5 +1,155 @@
 [
   {
+    "title": "Compiling molecular ultrastructure into neural dynamics",
+    "url": "http://arxiv.org/abs/2603.25713v1",
+    "arxiv_id": "2603.25713v1",
+    "authors": [
+      "Konrad P. Kording",
+      "Anton Arkhipov",
+      "Davy Deng",
+      "Sean Escola",
+      "Seth G. N. Grant",
+      "Gal Haspel",
+      "Micha\u0142 Januszewski",
+      "Narayanan Kasthuri",
+      "Nina Khera",
+      "Richie E. Kohman",
+      "Grace Lindsay",
+      "Jeantine Lunshof",
+      "Adam Marblestone",
+      "David A. Markowitz",
+      "Jordan Matelsky",
+      "Brett Mensh",
+      "Patrick Mineault",
+      "Andrew Payne",
+      "Joanne Peng",
+      "Xaq Pitkow",
+      "Philip Shiu",
+      "Gregor Schuhknecht",
+      "Sven Truckenbrodt",
+      "Joshua T. Vogelstein",
+      "Edward S. Boyden"
+    ],
+    "published": "2026-03-26T17:54:38+00:00",
+    "summary": "High-resolution brain imaging can now capture not just synapse locations but their molecular composition, with the cost of such mapping falling exponentially. Yet such ultrastructural data has so far told us little about local neuronal physiology - specifically, the parameters (e.g., synaptic efficacies, local conductances) that govern neural dynamics. We propose to translate molecularly annotated ultrastructure into physiology, introducing the concept of an ultrastructure-to-dynamics compiler: a learned mapping from molecularly annotated ultrastructure to simulator-ready, uncertainty-aware physiological parameters. The requirement is paired training data, with jointly acquired ultrastructure from imaging, and dynamical responses to perturbations from physiological experiments. With this data we can train models that predict local physiology directly from structure. Such a compiler would support biophysical simulations by turning anatomical maps into models of circuit dynamics, shifting structure-to-function from a descriptive program to a predictive one and opening routes to understanding neural computation and forecasting intervention effects."
+  },
+  {
+    "title": "Uncertainty-Guided Label Rebalancing for CPS Safety Monitoring",
+    "url": "http://arxiv.org/abs/2603.25670v1",
+    "arxiv_id": "2603.25670v1",
+    "authors": [
+      "John Ayotunde",
+      "Qinghua Xu",
+      "Guancheng Wang",
+      "Lionel C. Briand"
+    ],
+    "published": "2026-03-26T17:26:02+00:00",
+    "summary": "Safety monitoring is essential for Cyber-Physical Systems (CPSs). However, unsafe events are rare in real-world CPS operations, creating an extreme class imbalance that degrades safety predictors. Standard rebalancing techniques perform poorly on time-series CPS telemetry, either generating unrealistic synthetic samples or overfitting on the minority class. Meanwhile, behavioral uncertainty in CPS operations, defined as the degree of doubt or uncertainty in CPS decisions , is often correlated with safety outcomes but unexplored in safety monitoring. To that end, we propose U-Balance, a supervised approach that leverages behavioral uncertainty to rebalance imbalanced datasets prior to training a safety predictor. U-Balance first trains a GatedMLP-based uncertainty predictor that summarizes each telemetry window into distributional kinematic features and outputs an uncertainty score. It then applies an uncertainty-guided label rebalancing (uLNR) mechanism that probabilistically relabels \\textit{safe}-labeled windows with unusually high uncertainty as \\textit{unsafe}, thereby enriching the minority class with informative boundary samples without synthesizing new data. Finally, a safety predictor is trained on the rebalanced dataset for safety monitoring. We evaluate U-Balance on a large-scale UAV benchmark with a 46:1 safe-to-unsafe ratio. Results confirm a moderate but significant correlation between behavioral uncertainty and safety. We then identify uLNR as the most effective strategy to exploit uncertainty information, compared to direct early and late fusion. U-Balance achieves a 0.806 F1 score, outperforming the strongest baseline by 14.3 percentage points, while maintaining competitive inference efficiency. Ablation studies confirm that both the GatedMLP-based uncertainty predictor and the uLNR mechanism contribute significantly to U-Balance's effectiveness."
+  },
+  {
+    "title": "Locating isolas in nonlinear oscillator systems using uncertainty quantification",
+    "url": "http://arxiv.org/abs/2603.25599v1",
+    "arxiv_id": "2603.25599v1",
+    "authors": [
+      "Dongxiao Hong",
+      "David A. W. Barton",
+      "Simon A. Neild"
+    ],
+    "published": "2026-03-26T16:19:25+00:00",
+    "summary": "Parametric uncertainty in nonlinear dynamical systems can fundamentally alter bifurcation behaviour, leading to qualitative response changes. Predicting operating margins/envelopes under such uncertainties is critical but challenging: conventional uncertainty quantification (UQ) methods struggle to efficiently propagate uncertainties across bifurcation boundaries, where response gradients become singular and solution branches emerge/vanish.   We present a general UQ framework for bifurcation analysis of nonlinear dynamical systems with proportional parametric uncertainty, which systematically integrates continuation methods with parametric sensitivities and extremal conditions. The approach uses a two-step scheme: first, the loci of extremal response points are traced as the uncertainty domain is expanded from a deterministic reference point; second, these extremal points are tracked as the bifurcation parameter varies, thus determining the maximum and minimum response margins throughout. The continuation problem scales linearly with the number of uncertain parameters, enabling efficient analysis.   The method is demonstrated on a two-degree-of-freedom nonlinear oscillator exhibiting a range of bifurcation phenomena, including multiple solutions, modal interactions, and symmetry breaking. In all cases, the framework efficiently captures uncertainty-induced shifts in bifurcation boundaries and response margins. Notably, the method reveals that parametric uncertainty induces topological changes in the bifurcation structure, including the emergence of an isolated response branch that is absent in the deterministic system with the reference parameters."
+  },
+  {
+    "title": "Neural-Network Holographic Model of the QCD Phase Transition under Lattice and HRG Constraints",
+    "url": "http://arxiv.org/abs/2603.25571v1",
+    "arxiv_id": "2603.25571v1",
+    "authors": [
+      "De-Xing Zhu",
+      "Li-Qiang Zhu",
+      "Xun Chen",
+      "De-Fu Hou",
+      "Kai Zhou"
+    ],
+    "published": "2026-03-26T15:45:09+00:00",
+    "summary": "Within a neural-network-based holographic framework, we incorporate lattice QCD (LQCD) and Hadron Resonance Gas (HRG) data to train the model and predict the location of the QCD critical endpoint (CEP). The training dataset consists of the entropy density, baryon number susceptibility, and baryon density. The metric warp factor $A(z)$ and the gauge kinetic function $f(z)$ are parameterized by neural networks and determined through the training procedure. The resulting model reproduces the equation of state at vanishing chemical potential in good agreement with both LQCD and HRG data. Extending the analysis to finite chemical potential, we solve the equations of motion and obtain thermodynamic observables consistent with LQCD results at finite density. After incorporating the HRG constraints, the predicted position of the CEP shifts toward larger chemical potentials compared to recent studies. We further employ symbolic regression to derive analytic expressions for $A(z)$ and $f(z)$, providing convenient functional forms for future phenomenological applications. Finally, we perform a data-driven validation using synthetic thermodynamic data generated from an existing analytical holographic model. The neural-network framework reproduces the corresponding CEP location with good accuracy, showing close agreement within numerical uncertainties."
+  },
+  {
+    "title": "Bayesian analysis of proton-proton fusion in chiral effective field theory",
+    "url": "http://arxiv.org/abs/2603.25465v1",
+    "arxiv_id": "2603.25465v1",
+    "authors": [
+      "Vittorio Barlucchi",
+      "Alex Gnech",
+      "Scilla Degl'Innocenti",
+      "Laura Elisa Marcucci"
+    ],
+    "published": "2026-03-26T14:07:06+00:00",
+    "summary": "The astrophysical $S$-factor for the proton-proton fusion is calculated in the low-energy regime for a variety of nuclear interactions and consistent nuclear currents, derived within chiral effective field theory. We estimate, for the first time, the theoretical uncertainty on the $S$-factor due to the truncation of the chiral expansion of the currents using a Bayesian analysis. In order to reach an accuracy at the percent level in the calculation, the electromagnetic potential includes contributions beyond the leading Coulomb interaction, such as two-photon exchange and vacuum polarization. The initial proton-proton state is expanded in partial waves and only the ${}^1S_0$ contribution is included, as it is known that the other partial-waves effects are negligible. The low-energy constant entering the contact term in the weak axial current operator is calibrated to reproduce the Gamow-Teller matrix element in Tritium $\u03b2$-decay. The value $S(0)$ is found to be $S(0)=(4.068 \\pm 0.025)\\times 10^{-25} \\: \\text{MeV}\\: \\text{b}$."
+  },
+  {
+    "title": "CIAR: Interval-based Collaborative Decoding for Image Generation Acceleration",
+    "url": "http://arxiv.org/abs/2603.25463v1",
+    "arxiv_id": "2603.25463v1",
+    "authors": [
+      "Keming Ye",
+      "Zhou Zhao",
+      "Fan Wu",
+      "Shengyu Zhang"
+    ],
+    "published": "2026-03-26T14:04:50+00:00",
+    "summary": "Auto-regressive (AR) models have recently made notable progress in image generation, achieving performance comparable to diffusion-based approaches. However, their computational intensity and sequential nature impede on-device deployment, causing disruptive latency. We address this via a cloud-device collaboration framework \\textbf{CIAR}, which utilizes on-device self-verification to handle two key properties of visual synthesis: \\textit{the vast token vocabulary} required for high-fidelity images and \\textit{inherent spatial redundancy} which leads to extreme predictability in homogeneous regions, while object boundaries exhibit high uncertainty. Uniform verification wastes resources on such redundant tokens. Our solution centers on an on-device token uncertainty quantifier, which adopts continuous probability intervals to accelerate processing and make it feasible for large visual vocabularies instead of conventional discrete solution sets. Additionally, we incorporate a Interval-enhanced decoding module to further speed up decoding while maintaining visual fidelity and semantic consistency via a distribution alignment training strategy. Extensive experiments demonstrate that CIAR achieves a 2.18x speed-up and reduces cloud requests by 70\\%, while preserving image quality compared to existing methods."
+  },
+  {
+    "title": "Cross-Model Disagreement as a Label-Free Correctness Signal",
+    "url": "http://arxiv.org/abs/2603.25450v1",
+    "arxiv_id": "2603.25450v1",
+    "authors": [
+      "Matt Gorbett",
+      "Suman Jana"
+    ],
+    "published": "2026-03-26T13:46:22+00:00",
+    "summary": "Detecting when a language model is wrong without ground truth labels is a fundamental challenge for safe deployment. Existing approaches rely on a model's own uncertainty -- such as token entropy or confidence scores -- but these signals fail critically on the most dangerous failure mode: confident errors, where a model is wrong but certain. In this work we introduce cross-model disagreement as a correctness indicator -- a simple, training-free signal that can be dropped into existing production systems, routing pipelines, and deployment monitoring infrastructure without modification. Given a model's generated answer, cross-model disagreement computes how surprised or uncertain a second verifier model is when reading that answer via a single forward pass. No generation from the verifying model is required, and no correctness labels are needed. We instantiate this principle as Cross-Model Perplexity (CMP), which measures the verifying model's surprise at the generating model's answer tokens, and Cross-Model Entropy (CME), which measures the verifying model's uncertainty at those positions. Both CMP and CME outperform within-model uncertainty baselines across benchmarks spanning reasoning, retrieval, and mathematical problem solving (MMLU, TriviaQA, and GSM8K). On MMLU, CMP achieves a mean AUROC of 0.75 against a within-model entropy baseline of 0.59. These results establish cross-model disagreement as a practical, training-free approach to label-free correctness estimation, with direct applications in deployment monitoring, model routing, selective prediction, data filtering, and scalable oversight of production language model systems."
+  },
+  {
+    "title": "Modernising Reinforcement Learning-Based Navigation for Embodied Semantic Scene Graph Generation",
+    "url": "http://arxiv.org/abs/2603.25415v1",
+    "arxiv_id": "2603.25415v1",
+    "authors": [
+      "Roman Kueble",
+      "Marco Hueller",
+      "Mrunmai Phatak",
+      "Rainer Lienhart",
+      "Joerg Haehner"
+    ],
+    "published": "2026-03-26T13:10:08+00:00",
+    "summary": "Semantic world models enable embodied agents to reason about objects, relations, and spatial context beyond purely geometric representations. In Organic Computing, such models are a key enabler for objective-driven self-adaptation under uncertainty and resource constraints. The core challenge is to acquire observations maximising model quality and downstream usefulness within a limited action budget.   Semantic scene graphs (SSGs) provide a structured and compact representation for this purpose. However, constructing them within a finite action horizon requires exploration strategies that trade off information gain against navigation cost and decide when additional actions yield diminishing returns.   This work presents a modular navigation component for Embodied Semantic Scene Graph Generation and modernises its decision-making by replacing the policy-optimisation method and revisiting the discrete action formulation. We study compact and finer-grained, larger discrete motion sets and compare a single-head policy over atomic actions with a factorised multi-head policy over action components. We evaluate curriculum learning and optional depth-based collision supervision, and assess SSG completeness, execution safety, and navigation behaviour.   Results show that replacing the optimisation algorithm alone improves SSG completeness by 21\\% relative to the baseline under identical reward shaping. Depth mainly affects execution safety (collision-free motion), while completeness remains largely unchanged. Combining modern optimisation with a finer-grained, factorised action representation yields the strongest overall completeness--efficiency trade-off."
+  },
+  {
+    "title": "UMBRELLA: Uncertainty-aware Multi-robot Reactive Coordination under Dynamic Temporal Logic Tasks",
+    "url": "http://arxiv.org/abs/2603.25395v1",
+    "arxiv_id": "2603.25395v1",
+    "authors": [
+      "Qisheng Zhao",
+      "Meng Guo",
+      "Hengxuan Du",
+      "Lars Lindemann",
+      "Zhongkui Li"
+    ],
+    "published": "2026-03-26T12:40:04+00:00",
+    "summary": "Multi-robot systems can be extremely efficient for accomplishing team-wise tasks by acting concurrently and collaboratively. However, most existing methods either assume static task features or simply replan when environmental changes occur. This paper addresses the challenging problem of coordinating multi-robot systems for collaborative tasks involving dynamic and moving targets. We explicitly model the uncertainty in target motion prediction via Conformal Prediction(CP), while respecting the spatial-temporal constraints specified by Linear Temporal Logic (LTL). The proposed framework (UMBRELLA) combines the Monte Carlo Tree Search (MCTS) over partial plans with uncertainty-aware rollouts, and introduces a CP-based metric to guide and accelerate the search. The objective is to minimize the Conditional Value at Risk (CVaR) of the average makespan. For tasks released online, a receding-horizon planning scheme dynamically adjusts the assignments based on updated task specifications and motion predictions. Spatial and temporal constraints among the tasks are always ensured, and only partial synchronization is required for the collaborative tasks during online execution. Extensive large-scale simulations and hardware experiments demonstrate substantial reductions in both the average makespan and its variance by 23% and 71%, compared with static baselines."
+  },
+  {
+    "title": "A Distribution-to-Distribution Neural Probabilistic Forecasting Framework for Dynamical Systems",
+    "url": "http://arxiv.org/abs/2603.25370v1",
+    "arxiv_id": "2603.25370v1",
+    "authors": [
+      "Tianlin Yang",
+      "Hailiang Du",
+      "Louis Aslett"
+    ],
+    "published": "2026-03-26T12:19:12+00:00",
+    "summary": "Probabilistic forecasting provides a principled framework for uncertainty quantification in dynamical systems by representing predictions as probability distributions rather than deterministic trajectories. However, existing forecasting approaches, whether physics-based or neural-network-based, remain fundamentally trajectory-oriented: predictive distributions are usually accessed through ensembles or sampling, rather than evolved directly as dynamical objects. A distribution-to-distribution (D2D) neural probabilistic forecasting framework is developed to operate directly on predictive distributions. The framework introduces a distributional encoding and decoding structure around a replaceable neural forecasting module, using kernel mean embeddings to represent input distributions and mixture density networks to parameterise output predictive distributions. This design enables recursive propagation of predictive uncertainty within a unified end-to-end neural architecture, with model training and evaluation carried out directly in terms of probabilistic forecast skill. The framework is demonstrated on the Lorenz63 chaotic dynamical system. Results show that the D2D model captures nontrivial distributional evolution under nonlinear dynamics, produces skillful probabilistic forecasts without explicit ensemble simulation, and remains competitive with, and in some cases outperforms, a simplified perfect model benchmark. These findings point to a new paradigm for probabilistic forecasting, in which predictive distributions are learned and evolved directly rather than reconstructed indirectly through ensemble-based uncertainty propagation."
+  },
+  {
     "title": "Trust Region Constrained Bayesian Optimization with Penalized Constraint Handling",
     "url": "http://arxiv.org/abs/2603.24567v1",
     "arxiv_id": "2603.24567v1",
