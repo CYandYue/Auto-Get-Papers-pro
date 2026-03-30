@@ -1,5 +1,145 @@
 [
   {
+    "title": "VLA-OPD: Bridging Offline SFT and Online RL for Vision-Language-Action Models via On-Policy Distillation",
+    "url": "http://arxiv.org/abs/2603.26666v1",
+    "arxiv_id": "2603.26666v1",
+    "authors": [
+      "Zhide Zhong",
+      "Haodong Yan",
+      "Junfeng Li",
+      "Junjie He",
+      "Tianran Zhang",
+      "Haoang Li"
+    ],
+    "published": "2026-03-27T17:59:33+00:00",
+    "summary": "Although pre-trained Vision-Language-Action (VLA) models exhibit impressive generalization in robotic manipulation, post-training remains crucial to ensure reliable performance during deployment. However, standard offline Supervised Fine-Tuning (SFT) suffers from distribution shifts and catastrophic forgetting of pre-trained capabilities, while online Reinforcement Learning (RL) struggles with sparse rewards and poor sample efficiency. In this paper, we propose On-Policy VLA Distillation (VLA-OPD), a framework bridging the efficiency of SFT with the robustness of RL. Instead of relying on sparse environmental rewards, VLA-OPD leverages an expert teacher to provide dense, token-level supervision on the student's self-generated trajectories. This enables active error correction on policy-induced states while preserving pre-trained general capabilities through gentle alignment. Crucially, we formulate VLA-OPD via a Reverse-KL objective. Unlike standard Forward-KL that induces mode-covering entropy explosion, or Hard-CE that causes premature entropy collapse, our bounded mode-seeking objective ensures stable policy learning by filtering out the teacher's epistemic uncertainty while maintaining action diversity. Experiments on LIBERO and RoboTwin2.0 benchmarks demonstrate that VLA-OPD significantly improves sample efficiency over RL and robustness over SFT, while effectively mitigating catastrophic forgetting during post-training."
+  },
+  {
+    "title": "Benchmarking Tabular Foundation Models for Conditional Density Estimation in Regression",
+    "url": "http://arxiv.org/abs/2603.26611v1",
+    "arxiv_id": "2603.26611v1",
+    "authors": [
+      "Rafael Izbicki",
+      "Pedro L. C. Rodrigues"
+    ],
+    "published": "2026-03-27T17:07:21+00:00",
+    "summary": "Conditional density estimation (CDE) - recovering the full conditional distribution of a response given tabular covariates - is essential in settings with heteroscedasticity, multimodality, or asymmetric uncertainty. Recent tabular foundation models, such as TabPFN and TabICL, naturally produce predictive distributions, but their effectiveness as general-purpose CDE methods has not been systematically evaluated, unlike their performance for point prediction, which is well studied. We benchmark three tabular foundation model variants against a diverse set of parametric, tree-based, and neural CDE baselines on 39 real-world datasets, across training sizes from 50 to 20,000, using six metrics covering density accuracy, calibration, and computation time. Across all sample sizes, foundation models achieve the best CDE loss, log-likelihood, and CRPS on the large majority of datasets tested. Calibration is competitive at small sample sizes but, for some metrics and datasets, lags behind task-specific neural baselines at larger sample sizes, suggesting that post-hoc recalibration may be a valuable complement. In a photometric redshift case study using SDSS DR18, TabPFN exposed to 50,000 training galaxies outperforms all baselines trained on the full 500,000-galaxy dataset. Taken together, these results establish tabular foundation models as strong off-the-shelf conditional density estimators."
+  },
+  {
+    "title": "Strangeness of nucleons from $N_f=2+1+1$ lattice QCD",
+    "url": "http://arxiv.org/abs/2603.26600v1",
+    "arxiv_id": "2603.26600v1",
+    "authors": [
+      "Constantia Alexandrou",
+      "Simone Bacchio",
+      "Mathis Bode",
+      "Jacob Finkenrath",
+      "Andreas Herten",
+      "Christos Iona",
+      "Giannis Koutsou",
+      "Ferenc Pittler",
+      "Bhavna Prasad",
+      "Gregoris Spanoudes"
+    ],
+    "published": "2026-03-27T16:58:29+00:00",
+    "summary": "We present the strange electromagnetic form factors of the nucleon using lattice QCD simulations with degenerate light, a strange, and a charm quark in the sea with masses tuned to their physical values. For the first time, the strange electromagnetic form factors are computed at the continuum limit using only ensembles simulated with physical quark masses, eliminating the need for chiral extrapolations and their associated systematic uncertainty. We obtain the momentum transfer dependence of the form factors using the $z$-expansion and provide the strange electric and magnetic radii, as well as the strange magnetic moment. When combining our statistical errors and systematic uncertainties stemming from the momentum transfer dependence fit, our errors are an order of magnitude smaller than those associated with experimental determinations of the strange electromagnetic form factor."
+  },
+  {
+    "title": "Characterization and forecasting of national-scale solar power ramp events",
+    "url": "http://arxiv.org/abs/2603.26596v1",
+    "arxiv_id": "2603.26596v1",
+    "authors": [
+      "Luca Lanzilao",
+      "Angela Meyer"
+    ],
+    "published": "2026-03-27T16:56:46+00:00",
+    "summary": "The rapid growth of solar energy is reshaping power system operations and increasing the complexity of grid management. As photovoltaic (PV) capacity expands, short-term fluctuations in PV generation introduce substantial operational uncertainty. At the same time, solar power ramp events intensify risks of grid instability and unplanned outages due to sudden large power fluctuations. Accurate identification, forecasting and mitigation of solar ramp events are therefore critical to maintaining grid stability. In this study, we analyze two years of PV power production from 6434 PV stations at 15-minute resolution. We develop quantitative metrics to define solar ramp events and systematically characterize their occurrence, frequency, and magnitude at a national scale. Furthermore, we examine the meteorological drivers of ramp events, highlighting the role of mesoscale cloud systems. In particular, we observe that ramp-up events are typically associated with cloud dissipation during the morning, while ramp-down events commonly occur when cloud cover increases in the afternoon. Additionally, we adopt a recently developed spatiotemporal forecasting framework to evaluate both deterministic and probabilistic PV power forecasts derived from deep learning and physics-based models, including SolarSTEPS, SHADECast, IrradianceNet, and IFS-ENS. The results show that SHADECast is the most reliable model, achieving a CRPS 10.8% lower than that of SolarSTEPS at a two-hour lead time. Nonetheless, state-of-the-art nowcasting models struggle to capture ramp dynamics, with forecast RMSE increasing by up to 50% compared to normal operating conditions. Overall, these results emphasize the need for improved high-resolution spatiotemporal modelling to enhance ramp prediction skill and support the reliable integration of large-scale solar generation into power systems."
+  },
+  {
+    "title": "Extracting Cosmological Information from Lightcone Data: A Comparison of CNNs and Summary-Statistic-Based Approaches",
+    "url": "http://arxiv.org/abs/2603.26533v1",
+    "arxiv_id": "2603.26533v1",
+    "authors": [
+      "Min Zhiwei",
+      "Xiao Xu",
+      "Jiang Zhujun",
+      "Xiao Liang",
+      "Yin Fenfen",
+      "Ding Jiacheng",
+      "Miao Haitao",
+      "Chen Shupei",
+      "Lin Qiufan",
+      "Wang yang",
+      "Zhang Le",
+      "Li XiaoDong"
+    ],
+    "published": "2026-03-27T15:46:04+00:00",
+    "summary": "Lightcone observations are the natural data format of galaxy surveys, but their evolving geometry breaks the translational symmetry assumed by standard convolutional neural networks (CNNs). In particular, applying CNNs to 3D gridded lightcone data implicitly treats the line-of-sight direction as translationally invariant, despite encoding cosmic time evolution. We propose a simple alternative (CNN+2D) that divides the lightcone into redshift slices, projects each onto a HEALPix sphere, and analyzes them with a 2D CNN. Using \\texttt{AbacusSummit} halo lightcone mocks ($0.3<z<0.8$, $40^\\circ\\times40^\\circ$), we compare this approach with fully connected networks (FC) applied to different summary statistics, including spherical harmonic coefficients ($a_{\\ell m}$), wavelet scattering transform (WST) coefficients, and the angular two-point correlation function (2PCF), along with standard 2PCF likelihood and Fisher forecasts. We find that multiple statistics beyond CNNs can achieve competitive performance: FC networks combined with $a_{\\ell m}$ and especially WST significantly outperform 2PCF-based methods, with FC+WST yielding the best overall parameter constraints across cosmologies. Meanwhile, for a fiducial cosmology with multiple realizations, the CNN+2D approach achieves the smallest statistical uncertainties. These results demonstrate that both learned features and carefully constructed summary statistics can effectively extract cosmological information from lightcone data, providing flexible and robust analysis strategies for upcoming surveys such as DESI, Euclid, and CSST."
+  },
+  {
+    "title": "EcoFair: Trustworthy and Energy-Aware Routing for Privacy-Preserving Vertically Partitioned Medical Inference",
+    "url": "http://arxiv.org/abs/2603.26483v1",
+    "arxiv_id": "2603.26483v1",
+    "authors": [
+      "Mostafa Anoosha",
+      "Dhavalkumar Thakker",
+      "Kuniko Paxton",
+      "Koorosh Aslansefat",
+      "Bhupesh Kumar Mishra",
+      "Baseer Ahmad",
+      "Rameez Raja Kureshi"
+    ],
+    "published": "2026-03-27T14:45:29+00:00",
+    "summary": "Privacy-preserving medical inference must balance data locality, diagnostic reliability, and deployment efficiency. This paper presents EcoFair, a simulated vertically partitioned inference framework for dermatological diagnosis in which raw image and tabular data remain local and only modality-specific embeddings are transmitted for server-side multimodal fusion. EcoFair introduces a lightweight-first routing mechanism that selectively activates a heavier image encoder when local uncertainty or metadata-derived clinical risk indicates that additional computation is warranted. The routing decision combines predictive uncertainty, a safe--danger probability gap, and a tabular neurosymbolic risk score derived from patient age and lesion localisation. Experiments on three dermatology benchmarks show that EcoFair can substantially reduce edge-side inference energy in representative model pairings while remaining competitive in classification performance. The results further indicate that selective routing can improve subgroup-sensitive malignant-case behaviour in representative settings without modifying the global training objective. These findings position EcoFair as a practical framework for privacy-preserving and energy-aware medical inference under edge deployment constraints."
+  },
+  {
+    "title": "Towards European Hydrogen Market Design: Perspectives from Transmission System Operators",
+    "url": "http://arxiv.org/abs/2603.26451v1",
+    "arxiv_id": "2603.26451v1",
+    "authors": [
+      "Marco Saretta",
+      "Enrica Raheli",
+      "Jalal Kazempour"
+    ],
+    "published": "2026-03-27T14:20:16+00:00",
+    "summary": "Despite hydrogen being central to Europe's decarbonisation strategy, only a small share of renewable hydrogen projects reached final investment decision. A key barrier is uncertainty about how future hydrogen markets will be designed and operated, particularly under Renewable Fuels of Non-Biological Origin requirements. This study investigates the extent to which future hydrogen market design can be adapted from existing natural gas markets, and the challenges it must address. The analysis was based on a survey targeting European gas transmission system operators, structured around five components: market design principles, trading frameworks, capacity allocation, tariffs, and balancing. The survey produced two outputs: an assessment of mechanism transferability and an identification of challenges for early hydrogen market development. Core market design principles and trading frameworks are broadly transferable from natural gas markets, as entry-exit systems and virtual trading points. Capacity allocation requires targeted adaptation to improve coupling with electricity markets. Tariffs require adaptation through intertemporal cost allocation, distributing infrastructure costs over time to protect early adopters. Balancing regimes should be revisited to reflect hydrogen's physical characteristics and different linepack flexibility usages. Key challenges for early hydrogen markets include: temporal mismatches between variable renewable supply and expected relatively stable industrial demand, limited operational flexibility due to scarce storage and reduced pipeline linepack, fragmented regional hydrogen clusters, and regulatory uncertainty affecting long-term investment decisions. These findings provide empirical input to the hydrogen network code led by the European Network of Hydrogen Network Operators and offer guidance to policymakers designing hydrogen market frameworks."
+  },
+  {
+    "title": "Meta-Learned Adaptive Optimization for Robust Human Mesh Recovery with Uncertainty-Aware Parameter Updates",
+    "url": "http://arxiv.org/abs/2603.26447v1",
+    "arxiv_id": "2603.26447v1",
+    "authors": [
+      "Shaurjya Mandal",
+      "Nutan Sharma",
+      "John Galeotti"
+    ],
+    "published": "2026-03-27T14:16:21+00:00",
+    "summary": "Human mesh recovery from single images remains challenging due to inherent depth ambiguity and limited generalization across domains. While recent methods combine regression and optimization approaches, they struggle with poor initialization for test-time refinement and inefficient parameter updates during optimization. We propose a novel meta-learning framework that trains models to produce optimization-friendly initializations while incorporating uncertainty-aware adaptive updates during test-time refinement. Our approach introduces three key innovations: (1) a meta-learning strategy that simulates test-time optimization during training to learn better parameter initializations, (2) a selective parameter caching mechanism that identifies and freezes converged joints to reduce computational overhead, and (3) distribution-based adaptive updates that sample parameter changes from learned distributions, enabling robust exploration while quantifying uncertainty. Additionally, we employ stochastic approximation techniques to handle intractable gradients in complex loss landscapes. Extensive experiments on standard benchmarks demonstrate that our method achieves state-of-the-art performance, reducing MPJPE by 10.3 on 3DPW and 8.0 on Human3.6M compared to strong baselines. Our approach shows superior domain adaptation capabilities with minimal performance degradation across different environmental conditions, while providing meaningful uncertainty estimates that correlate with actual prediction errors. Combining meta-learning and adaptive optimization enables accurate mesh recovery and robust generalization to challenging scenarios."
+  },
+  {
+    "title": "Adjoint-Compatible Surrogates of the Expected Information Gain for Optimal Experimental Design in Controlled Dynamical Systems",
+    "url": "http://arxiv.org/abs/2603.26431v1",
+    "arxiv_id": "2603.26431v1",
+    "authors": [
+      "Luc de Montella",
+      "Sebastian Sager"
+    ],
+    "published": "2026-03-27T14:01:26+00:00",
+    "summary": "We consider optimal experimental design for parameter estimation in dynamical systems governed by controlled ordinary differential equations. In such problems, Fisher-based criteria are attractive because they lead to time-additive objectives compatible with adjoint-based optimal control, but they remain intrinsically local and may perform poorly under strong nonlinearities or non-Gaussian prior uncertainty. By contrast, the expected information gain (EIG) provides a principled Bayesian objective, yet it is typically too costly to evaluate and does not naturally admit an adjoint-compatible formulation. In this work, we introduce adjoint-compatible surrogates of the EIG based on an exact chain-rule decomposition and tractable approximations of the posterior distribution of the unknown parameter. This leads to two surrogate criteria: an instantaneous surrogate, obtained by replacing the posterior with the prior, and a Gaussian tilting surrogate, obtained by reweighting the prior through a design-driven quadratic information factor. We also propose a multi-center tilting surrogate to improve robustness for complex or multimodal priors. We establish theoretical properties of these surrogates, including exactness of the Gaussian tilting surrogate in the linear-Gaussian setting, and illustrate their behavior on benchmark controlled dynamical systems. The results show that the proposed surrogates remain competitive in nearly Gaussian regimes and provide clearer benefits over Fisher-based designs when prior uncertainty is non-Gaussian or multimodal."
+  },
+  {
+    "title": "KMM-CP: Practical Conformal Prediction under Covariate Shift via Selective Kernel Mean Matching",
+    "url": "http://arxiv.org/abs/2603.26415v1",
+    "arxiv_id": "2603.26415v1",
+    "authors": [
+      "Siddhartha Laghuvarapu",
+      "Rohan Deb",
+      "Jimeng Sun"
+    ],
+    "published": "2026-03-27T13:44:42+00:00",
+    "summary": "Uncertainty quantification is essential for deploying machine learning models in high-stakes domains such as scientific discovery and healthcare. Conformal Prediction (CP) provides finite-sample coverage guarantees under exchangeability, an assumption often violated in practice due to distribution shift. Under covariate shift, restoring validity requires importance weighting, yet accurate density-ratio estimation becomes unstable when training and test distributions exhibit limited support overlap. We propose KMM-CP, a conformal prediction framework based on Kernel Mean Matching (KMM) for covariate-shift correction. We show that KMM directly controls the bias-variance components governing conformal coverage error by minimizing RKHS moment discrepancy under explicit weight constraints, and establish asymptotic coverage guarantees under mild conditions. We then introduce a selective extension that identifies regions of reliable support overlap and restricts conformal correction to this subset, further improving stability in low-overlap regimes. Experiments on molecular property prediction benchmarks with realistic distribution shifts show that KMM-CP reduces coverage gap by over 50% compared to existing approaches. The code is available at https://github.com/siddharthal/KMM-CP."
+  },
+  {
     "title": "Compiling molecular ultrastructure into neural dynamics",
     "url": "http://arxiv.org/abs/2603.25713v1",
     "arxiv_id": "2603.25713v1",
