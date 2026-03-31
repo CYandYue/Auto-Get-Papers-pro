@@ -1,5 +1,131 @@
 [
   {
+    "title": "$\\mathcal{L}_1$-Certified Distributionally Robust Planning for Safety-Constrained Adaptive Control",
+    "url": "http://arxiv.org/abs/2603.28758v1",
+    "arxiv_id": "2603.28758v1",
+    "authors": [
+      "Astghik Hakobyan",
+      "Amaras Nazarians",
+      "Aditya Gahlawat",
+      "Naira Hovakimyan",
+      "Ilya Kolmanovsky"
+    ],
+    "published": "2026-03-30T17:57:58+00:00",
+    "summary": "Safe operation of autonomous systems requires robustness to both model uncertainty and uncertainty in the environment. We propose a hierarchical framework for stochastic nonlinear systems that integrates distributionally robust model predictive control (DR-MPC) with $\\mathcal{L}_1$-adaptive control. The key idea is to use the $\\mathcal{L}_1$ adaptive controller's online distributional certificates that bound the Wasserstein distance between nominal and true state distributions, thereby certifying the ambiguity sets used for planning without requiring distribution samples. Environment uncertainty is captured via data-driven ambiguity sets constructed from finite samples. These are incorporated into a DR-MPC planner enforcing distributionally robust chance constraints over a receding horizon. Using Wasserstein duality, the resulting problem admits tractable reformulations and a sample-based implementation. We show theoretically and via numerical experimentation that our framework ensures certifiable safety in the presence of simultaneous system and environment uncertainties."
+  },
+  {
+    "title": "Pandora: Articulated 3D Scene Graphs from Egocentric Vision",
+    "url": "http://arxiv.org/abs/2603.28732v1",
+    "arxiv_id": "2603.28732v1",
+    "authors": [
+      "Alan Yu",
+      "Yun Chang",
+      "Christopher Xie",
+      "Luca Carlone"
+    ],
+    "published": "2026-03-30T17:47:07+00:00",
+    "summary": "Robotic mapping systems typically approach building metric-semantic scene representations from the robot's own sensors and cameras. However, these \"first person\" maps inherit the robot's own limitations due to its embodiment or skillset, which may leave many aspects of the environment unexplored. For example, the robot might not be able to open drawers or access wall cabinets. In this sense, the map representation is not as complete, and requires a more capable robot to fill in the gaps. We narrow these blind spots in current methods by leveraging egocentric data captured as a human naturally explores a scene wearing Project Aria glasses, giving a way to directly transfer knowledge about articulation from the human to any deployable robot. We demonstrate that, by using simple heuristics, we can leverage egocentric data to recover models of articulate object parts, with quality comparable to those of state-of-the-art methods based on other input modalities. We also show how to integrate these models into 3D scene graph representations, leading to a better understanding of object dynamics and object-container relationships. We finally demonstrate that these articulated 3D scene graphs enhance a robot's ability to perform mobile manipulation tasks, showcasing an application where a Boston Dynamics Spot is tasked with retrieving concealed target items, given only the 3D scene graph as input."
+  },
+  {
+    "title": "Transferability of data-driven optimization results across multiple pixelated CdZnTe spectrometers",
+    "url": "http://arxiv.org/abs/2603.28703v1",
+    "arxiv_id": "2603.28703v1",
+    "authors": [
+      "Thomas D. MacDonald",
+      "Hannah S. Parrilla",
+      "Jayson R. Vavrek"
+    ],
+    "published": "2026-03-30T17:21:17+00:00",
+    "summary": "Recent work by Vavrek et al. (2025) showed that machine learning methods can be used to exploit spatial patterns of performance variations within the highly-segmented H3D M400 gamma spectrometer to improve an overall spectroscopic performance metric. That work also introduced the spectre-ml software, which tests various greedy, heuristic, random, and machine learning clustering algorithms to find the best performing mask for excluding detector regions to improve a user-defined performance metric by training on a given dataset. In this work, we build off of Vavrek et al. (2025) and seek to determine to what extent an optimized binary voxel mask trained on a given dataset can generalize to other datasets. In particular, this paper evaluates the transferability of masks trained on one M400 dataset to another M400 detector, in order to determine whether the total effort required in designing masks for different detectors and applications can be substantially reduced by using a single common mask. It also examines testing and training on different subsets of the same dataset to determine the natural level of variability in optimization results. In the inter-detector analysis, as expected, the best performing model on each detector is often one trained on that dataset, with an average performance enhancement of $16\\%$ when considering the relative uncertainty in a Doniach fit to the $186$ keV peak. In comparison, the best transferred masks, with the best on average performance metric across all six detectors, show only a slightly smaller improvement of $13\\%$ on average. These results suggest that high-performing, well-transferable masks can be shared among detectors, reducing or even eliminating the laborious processes of collecting a training dataset and performing the optimization for each detector, ultimately improving safeguards efficiency."
+  },
+  {
+    "title": "AdaptToken: Entropy-based Adaptive Token Selection for MLLM Long Video Understanding",
+    "url": "http://arxiv.org/abs/2603.28696v1",
+    "arxiv_id": "2603.28696v1",
+    "authors": [
+      "Haozhe Qi",
+      "Kevin Qu",
+      "Mahdi Rad",
+      "Rui Wang",
+      "Alexander Mathis",
+      "Marc Pollefeys"
+    ],
+    "published": "2026-03-30T17:14:15+00:00",
+    "summary": "Long video understanding remains challenging for Multi-modal Large Language Models (MLLMs) due to high memory costs and context-length limits. Prior approaches mitigate this by scoring and selecting frames/tokens within short clips, but they lack a principled mechanism to (i) compare relevance across distant video clips and (ii) stop processing once sufficient evidence has been gathered. We propose AdaptToken, a training-free framework that turns an MLLM's self-uncertainty into a global control signal for long-video token selection. AdaptToken splits a video into groups, extracts cross-modal attention to rank tokens within each group, and uses the model's response entropy to estimate each group's prompt relevance. This entropy signal enables a global token budget allocation across groups and further supports early stopping (AdaptToken-Lite), skipping the remaining groups when the model becomes sufficiently certain. Across four long-video benchmarks (VideoMME, LongVideoBench, LVBench, and MLVU) and multiple base MLLMs (7B-72B), AdaptToken consistently improves accuracy (e.g., +6.7 on average over Qwen2.5-VL 7B) and continues to benefit from extremely long inputs (up to 10K frames), while AdaptToken-Lite reduces inference time by about half with comparable performance. Project page: https://haozheqi.github.io/adapt-token"
+  },
+  {
+    "title": "AMIGO: Agentic Multi-Image Grounding Oracle Benchmark",
+    "url": "http://arxiv.org/abs/2603.28662v1",
+    "arxiv_id": "2603.28662v1",
+    "authors": [
+      "Min Wang",
+      "Ata Mahjoubfar"
+    ],
+    "published": "2026-03-30T16:48:51+00:00",
+    "summary": "Agentic vision-language models increasingly act through extended interactions, but most evaluations still focus on single-image, single-turn correctness. We introduce AMIGO (Agentic Multi-Image Grounding Oracle Benchmark), a long-horizon benchmark for hidden-target identification over galleries of visually similar images. In AMIGO, the oracle privately selects a target image, and the model must recover it by asking a sequence of attribute-focused Yes/No/Unsure questions under a strict protocol that penalizes invalid actions with Skip. This setting stresses (i) question selection under uncertainty, (ii) consistent constraint tracking across turns, and (iii) fine-grained discrimination as evidence accumulates. AMIGO also supports controlled oracle imperfections to probe robustness and verification behavior under inconsistent feedback. We instantiate AMIGO with Guess My Preferred Dress task and report metrics covering both outcomes and interaction quality, including identification success, evidence verification, efficiency, protocol compliance, noise tolerance, and trajectory-level diagnostics."
+  },
+  {
+    "title": "Structure-dependent radiative corrections to $e^+ e^- \\to \u03c0^+ \u03c0^- \u03b3$ in the GVMD approach",
+    "url": "http://arxiv.org/abs/2603.28621v1",
+    "arxiv_id": "2603.28621v1",
+    "authors": [
+      "Carlo M. Carloni Calame",
+      "Marco Ghilardi",
+      "Andrea Gurgone",
+      "Guido Montagna",
+      "Mauro Moretti",
+      "Oreste Nicrosini",
+      "Fulvio Piccinini",
+      "Francesco P. Ucci"
+    ],
+    "published": "2026-03-30T16:05:34+00:00",
+    "summary": "We compute the radiative corrections to the process of two-pion production in association with a hard photon in $e^+ e^-$ annihilation by taking into account the non-perturbative structure of the pion in the one-loop calculation. For this purpose, we adopt the generalised vector meson dominance model to insert the pion form factor in loop integrals for the treatment of final-state radiation and initial-final state interference at next-to-leading order. We compare our predictions with the results of the naive factorised scalar QED approach for experimentally relevant observables in the measurement of the $e^+ e^- \\to \u03c0^+ \u03c0^- \u03b3$ process. The computation extends previous results obtained for the energy scan process $e^+ e^- \\to \u03c0^+ \u03c0^-$ and can be used to quantify the uncertainty due to the model describing the pion-photon interaction in radiative return experiments at flavour factories."
+  },
+  {
+    "title": "The East Lansing Model: a Bayesian uncertainty quantified optical potential for rare isotopes",
+    "url": "http://arxiv.org/abs/2603.28599v1",
+    "arxiv_id": "2603.28599v1",
+    "authors": [
+      "K. Beyer",
+      "F. M. Nunes"
+    ],
+    "published": "2026-03-30T15:47:43+00:00",
+    "summary": "The East Lansing Model is a global, uncertainty-quantified optical potential for neutrons and proton projectiles, with a novel form for the neutron-proton asymmetry component, with the goal to improve extrapolations away from stability. Our Bayesian calibration relies on (n,n), (p,p) and (p,n) experimental data for angular distributions on spherical targets with mass $A\\geq 40$, and beam energies in the range $E = 10-100$ MeV. When considering the stable nuclei for which data is available, our results demonstrate that the inclusion of the $(p,n)$ data alone does not significantly change the parameterization. The additional information contained in (p,n) only becomes evident by introducing a new parameterization, one that gives the flexibility to encode neutron skins in the optical potential through an asymmetry dependent term. Finally, extrapolations of ELM toward the limits of stability (namely toward the proton and neutron driplines) leads to reduced uncertainties when compared to other global optical potentials in use."
+  },
+  {
+    "title": "Position: Explainable AI is Causality in Disguise",
+    "url": "http://arxiv.org/abs/2603.28597v1",
+    "arxiv_id": "2603.28597v1",
+    "authors": [
+      "Amir-Hossein Karimi"
+    ],
+    "published": "2026-03-30T15:44:53+00:00",
+    "summary": "The demand for Explainable AI (XAI) has triggered an explosion of methods, producing a landscape so fragmented that we now rely on surveys of surveys. Yet, fundamental challenges persist: conflicting metrics, failed sanity checks, and unresolved debates over robustness and fairness. The only consensus on how to achieve explainability is a lack of one. This has led many to point to the absence of a ground truth for defining ``the'' correct explanation as the main culprit.   This position paper posits that the persistent discord in XAI arises not from an absent ground truth but from a ground truth that exists, albeit as an elusive and challenging target: the causal model that governs the relevant system. By reframing XAI queries about data, models, or decisions as causal inquiries, we prove the necessity and sufficiency of causal models for XAI. We contend that without this causal grounding, XAI remains unmoored. Ultimately, we encourage the community to converge around advanced concept and causal discovery to escape this entrenched uncertainty."
+  },
+  {
+    "title": "Learning Partial Action Replacement in Offline MARL",
+    "url": "http://arxiv.org/abs/2603.28573v1",
+    "arxiv_id": "2603.28573v1",
+    "authors": [
+      "Yue Jin",
+      "Giovanni Montana"
+    ],
+    "published": "2026-03-30T15:28:13+00:00",
+    "summary": "Offline multi-agent reinforcement learning (MARL) faces a critical challenge: the joint action space grows exponentially with the number of agents, making dataset coverage exponentially sparse and out-of-distribution (OOD) joint actions unavoidable. Partial Action Replacement (PAR) mitigates this by anchoring a subset of agents to dataset actions, but existing approach relies on enumerating multiple subset configurations at high computational cost and cannot adapt to varying states. We introduce PLCQL, a framework that formulates PAR subset selection as a contextual bandit problem and learns a state-dependent PAR policy using Proximal Policy Optimisation with an uncertainty-weighted reward. This adaptive policy dynamically determines how many agents to replace at each update step, balancing policy improvement against conservative value estimation. We prove a value-error bound showing that the estimation error scales linearly with the expected number of deviating agents. Compared with the previous PAR-based method SPaCQL, PLCQL reduces the number of per-iteration Q-function evaluations from n to 1, significantly improving computational efficiency. Empirically, PLCQL achieves the highest normalised scores on 66% of tasks across MPE, MaMuJoCo, and SMAC benchmarks, outperforming SPaCQL on 84% of tasks while substantially reducing computational cost."
+  },
+  {
+    "title": "Flexible and Scalable Bayesian Modelling of Spatio-Temporal Hawkes Processes",
+    "url": "http://arxiv.org/abs/2603.28556v1",
+    "arxiv_id": "2603.28556v1",
+    "authors": [
+      "Wenqing Liu",
+      "Xenia Miscouridou",
+      "D\u00e9borah Sulem"
+    ],
+    "published": "2026-03-30T15:18:39+00:00",
+    "summary": "Existing spatio-temporal Hawkes process models typically rely on either parametric or semiparametric assumptions, limiting the model's ability to capture complex endogenous and exogenous event dynamics. We propose a fully Bayesian nonparametric framework for spatio-temporal Hawkes processes using additive Gaussian processes for the prior distributions on the background rate and the triggering kernel. This additive structure enhances interpretability by decoupling temporal and spatial effects while maintaining high modelling flexibility across the entire spatio-temporal domain. To address scalability, we develop a sparse variational inference scheme based on the Gaussian variational family. Synthetic experiments demonstrate that the proposed method accurately recovers background and triggering structures, achieving superior performance compared to existing alternatives. When applied to real-world datasets, it achieves higher held-out log-likelihoods and reveals interpretable spatio-temporal structures of the self-excitation mechanism. Overall, the framework provides a flexible, scalable, interpretable, and uncertainty-aware approach for modelling complex excitation patterns in spatio-temporal event data."
+  },
+  {
     "title": "VLA-OPD: Bridging Offline SFT and Online RL for Vision-Language-Action Models via On-Policy Distillation",
     "url": "http://arxiv.org/abs/2603.26666v1",
     "arxiv_id": "2603.26666v1",
