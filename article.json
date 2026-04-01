@@ -1,5 +1,134 @@
 [
   {
+    "title": "ParetoEnsembles.jl: A Julia Package for Multiobjective Parameter Estimation Using Pareto Optimal Ensemble Techniques",
+    "url": "http://arxiv.org/abs/2603.29986v1",
+    "arxiv_id": "2603.29986v1",
+    "authors": [
+      "Jeffrey D. Varner"
+    ],
+    "published": "2026-03-31T16:51:24+00:00",
+    "summary": "Mathematical models of natural and man-made systems often have many adjustable parameters that must be estimated from multiple, potentially conflicting datasets. Rather than reporting a single best-fit parameter vector, it is often more informative to generate an ensemble of parameter sets that collectively map out the trade-offs among competing objectives. This paper presents ParetoEnsembles.jl, an open-source Julia package that generates such ensembles using Pareto Optimal Ensemble Techniques (POETs), a simulated-annealing-based algorithm that requires no gradient information. The implementation corrects the original dominance relation from weak to strict Pareto dominance, reduces the per-iteration ranking cost from $O(n^2 m)$ to $O(nm)$ through an incremental update scheme, and adds multi-chain parallel execution for improved front coverage. We demonstrate the package on a cell-free gene expression model fitted to experimental data and a blood coagulation cascade model with ten estimated rate constants and three objectives. A controlled synthetic-data study reveals parameter identifiability structure, with individual rate constants off by several-fold yet model predictions accurate to 7%. A five-replicate coverage analysis confirms that timing features are reliably covered while peak amplitude is systematically overconfident. Validation against published experimental thrombin generation data demonstrates that the ensemble predicts held-out conditions to within 10% despite inherent model approximation error. By making ensemble generation lightweight and accessible, ParetoEnsembles.jl aims to lower the barrier to routine uncertainty characterization in mechanistic modeling."
+  },
+  {
+    "title": "Physiological and Semantic Patterns in Medical Teams Using an Intelligent Tutoring System",
+    "url": "http://arxiv.org/abs/2603.29950v1",
+    "arxiv_id": "2603.29950v1",
+    "authors": [
+      "Xiaoshan Huang",
+      "Conrad Borchers",
+      "Jiayi Zhang",
+      "Susanne P. Lajoie"
+    ],
+    "published": "2026-03-31T16:18:57+00:00",
+    "summary": "Effective collaboration requires teams to manage complex cognitive and emotional states through Socially Shared Regulation of Learning (SSRL). Physiological synchrony (i.e., longitudinal alignment in physiological signals) can indicate these states, but is hard to interpret on its own. We investigate the physiological and conversational dynamics of four medical dyads diagnosing a virtual patient case using an intelligent tutoring system. Semantic shifts in dialogue were correlated with transient physiological synchrony peaks. We also coded utterance segments for SSRL and derived cosine similarity using sentence embeddings. The results showed that activating prior knowledge featured significantly lower semantic similarity than simpler task execution. High physiological synchrony was associated with lower semantic similarity, suggesting that such moments involve exploratory and varied language use. Qualitative analysis triangulated these synchrony peaks as ``pivotal moments'': successful teams synchronized during shared discovery, while unsuccessful teams peaked during shared uncertainty. This research advances human-centered AI by demonstrating how biological signals can be fused with dialogues to understand critical moments in problem solving."
+  },
+  {
+    "title": "Better than Average: Spatially-Aware Aggregation of Segmentation Uncertainty Improves Downstream Performance",
+    "url": "http://arxiv.org/abs/2603.29941v1",
+    "arxiv_id": "2603.29941v1",
+    "authors": [
+      "Vanessa Emanuela Guarino",
+      "Claudia Winklmayr",
+      "Jannik Franzen",
+      "Josef Lorenz Rumberger",
+      "Manuel Pfeuffer",
+      "Sonja Greven",
+      "Klaus Maier-Hein",
+      "Carsten T. L\u00fcth",
+      "Christoph Karg",
+      "Dagmar Kainmueller"
+    ],
+    "published": "2026-03-31T16:15:26+00:00",
+    "summary": "Uncertainty Quantification (UQ) is crucial for ensuring the reliability of automated image segmentations in safety-critical domains like biomedical image analysis or autonomous driving. In segmentation, UQ generates pixel-wise uncertainty scores that must be aggregated into image-level scores for downstream tasks like Out-of-Distribution (OoD) or failure detection. Despite routine use of aggregation strategies, their properties and impact on downstream task performance have not yet been comprehensively studied. Global Average is the default choice, yet it does not account for spatial and structural features of segmentation uncertainty. Alternatives like patch-, class- and threshold-based strategies exist, but lack systematic comparison, leading to inconsistent reporting and unclear best practices. We address this gap by (1) formally analyzing properties, limitations, and pitfalls of common strategies; (2) proposing novel strategies that incorporate spatial uncertainty structure and (3) benchmarking their performance on OoD and failure detection across ten datasets that vary in image geometry and structure. We find that aggregators leveraging spatial structure yield stronger performance in both downstream tasks studied. However, the performance of individual aggregators depends heavily on dataset characteristics, so we (4) propose a meta-aggregator that integrates multiple aggregators and performs robustly across datasets."
+  },
+  {
+    "title": "Uncertainty Gating for Cost-Aware Explainable Artificial Intelligence",
+    "url": "http://arxiv.org/abs/2603.29915v1",
+    "arxiv_id": "2603.29915v1",
+    "authors": [
+      "Georgii Mikriukov",
+      "Gr\u00e9goire Montavon",
+      "Marina M. -C. H\u00f6hne"
+    ],
+    "published": "2026-03-31T15:56:10+00:00",
+    "summary": "Post-hoc explanation methods are widely used to interpret black-box predictions, but their generation is often computationally expensive and their reliability is not guaranteed. We propose epistemic uncertainty as a low-cost proxy for explanation reliability: high epistemic uncertainty identifies regions where the decision boundary is poorly defined and where explanations become unstable and unfaithful. This insight enables two complementary use cases: `improving worst-case explanations' (routing samples to cheap or expensive XAI methods based on expected explanation reliability), and `recalling high-quality explanations' (deferring explanation generation for uncertain samples under constrained budget). Across four tabular datasets, five diverse architectures, and four XAI methods, we observe a strong negative correlation between epistemic uncertainty and explanation stability. Further analysis shows that epistemic uncertainty distinguishes not only stable from unstable explanations, but also faithful from unfaithful ones. Experiments on image classification confirm that our findings generalize beyond tabular data."
+  },
+  {
+    "title": "Measuring the metacognition of AI",
+    "url": "http://arxiv.org/abs/2603.29693v1",
+    "arxiv_id": "2603.29693v1",
+    "authors": [
+      "Richard Servajean",
+      "Philippe Servajean"
+    ],
+    "published": "2026-03-31T12:48:42+00:00",
+    "summary": "A robust decision-making process must take into account uncertainty, especially when the choice involves inherent risks. Because artificial Intelligence (AI) systems are increasingly integrated into decision-making workflows, managing uncertainty relies more and more on the metacognitive capabilities of these systems; i.e, their ability to assess the reliability of and regulate their own decisions. Hence, it is crucial to employ robust methods to measure the metacognitive abilities of AI. This paper is primarily a methodological contribution arguing for the adoption of the meta-d' framework, or its model-free alternatives, as the gold standard for assessing the metacognitive sensitivity of AIs--the ability to generate confidence ratings that distinguish correct from incorrect responses. Moreover, we propose to leverage signal detection theory (SDT) to measure the ability of AIs to spontaneously regulate their decisions based on uncertainty and risk. To demonstrate the practical utility of these psychophysical frameworks, we conduct two series of experiments on three large language models (LLMs)--GPT-5, DeepSeek-V3.2-Exp, and Mistral-Medium-2508. In the first experiments, LLMs performed a primary judgment followed by a confidence rating. In the second, LLMs only performed the primary judgment, while we manipulated the risk associated with either response. On the one hand, applying the meta-d' framework allows us to conduct comparisons along three axes: comparing an LLM to optimality, comparing different LLMs on a given task, and comparing the same LLM across different tasks. On the other hand, SDT allows us to assess whether LLMs become more conservative when risks are high."
+  },
+  {
+    "title": "A systematic approach to Covariance matrix formulation in charged particle activation experiments",
+    "url": "http://arxiv.org/abs/2603.29628v1",
+    "arxiv_id": "2603.29628v1",
+    "authors": [
+      "Tanmoy Bar"
+    ],
+    "published": "2026-03-31T11:50:36+00:00",
+    "summary": "This work presents a detailed covariance and correlation matrix analysis for experimentally measured cross sections obtained using the activation technique. Both statistical and systematic contributions to the covariance matrix were explicitly calculated using sensitivity coefficients. The detector efficiency was determined by refitting standard source data with an exponential function, and the associated covariance matrix of the fitted parameters was propagated to estimate the uncertainty in efficiency at the relevant $\u03b3$-ray energy. The cross sections and the corresponding experimental parameters, such as beam flux, target thickness, $\u03b3$-ray intensity, and decay corrections, were taken from previously published measurements and are used here for the purpose of illustrating the covariance formalism. The resulting covariance and correlation matrices provide a comprehensive representation of uncertainties and their interdependencies. This formalism demonstrates the importance of including correlated uncertainties for reliable interpretation and comparison of experimental cross section data."
+  },
+  {
+    "title": "Learning Diagnostic Reasoning for Decision Support in Toxicology",
+    "url": "http://arxiv.org/abs/2603.29608v1",
+    "arxiv_id": "2603.29608v1",
+    "authors": [
+      "Nico Oberl\u00e4nder",
+      "David Bani-Harouni",
+      "Tobias Zellner",
+      "Nassir Navab",
+      "Florian Eyer",
+      "Matthias Keicher"
+    ],
+    "published": "2026-03-31T11:26:45+00:00",
+    "summary": "Acute poly-substance intoxication requires rapid, life-saving decisions under substantial uncertainty, as clinicians must rely on incomplete ingestion details and nonspecific symptoms. Effective diagnostic reasoning in this chaotic environment requires fusing unstructured, non-medical narratives (e.g. paramedic scene descriptions and unreliable patient self-reports or known histories), with structured medical data like vital signs. While Large Language Models (LLMs) show potential for processing such heterogeneous inputs, they struggle in this setting, often underperforming simple baselines that rely solely on patient histories. To address this, we present DeToxR (Decision-support for Toxicology with Reasoning), the first adaptation of Reinforcement Learning (RL) to emergency toxicology. We design a robust data-fusion engine for multi-label prediction across 14 substance classes based on an LLM finetuned with Group Relative Policy Optimization (GRPO). We optimize the model's reasoning directly using a clinical performance reward. By formulating a multi-label agreement metric as the reward signal, the model is explicitly penalized for missing co-ingested substances and hallucinating absent poisons. Our model significantly outperforms its unadapted base LLM counterpart and supervised baselines. Furthermore, in a clinical validation study, the model indicates a clinical advantage by outperforming an expert toxicologist in identifying the correct poisons (Micro-F1: 0.644 vs. 0.473). These results demonstrate the potential of RL-aligned LLMs to synthesize unstructured pre-clinical narratives and structured medical data for decision support in high-stakes environments."
+  },
+  {
+    "title": "Stochastic Model Predictive Control based on Mixed Random Variables for Economic Energy Management",
+    "url": "http://arxiv.org/abs/2603.29586v1",
+    "arxiv_id": "2603.29586v1",
+    "authors": [
+      "Janik Pinter",
+      "Maximilian Beichter",
+      "Ralf Mikut",
+      "Veit Hagenmeyer",
+      "Frederik Zahn"
+    ],
+    "published": "2026-03-31T11:07:46+00:00",
+    "summary": "Optimal scheduling of batteries has significant potential to reduce electricity costs and to enhance grid resilience. However, effective battery scheduling must account for both physical constraints as well as uncertainties in consumption and generation of renewable energy sources. Instead of optimizing fixed battery power setpoints, we propose an approach that optimizes battery power intervals, allowing the optimization to explicitly account for uncertain consumption and generation as well as how the battery system should respond to them within its physical limits. Our method is based on mixed random variables, represented as mixtures of discrete and continuous probability distributions. Building on this representation, we develop an analytical stochastic formulation for minimizing electricity costs in a residential setting with load, photovoltaics, and battery storage. We demonstrate its effectiveness across real-world data from 15 residential buildings over five consecutive months. Compared with deterministic and probabilistic benchmark controllers, the proposed interval-based optimization achieves the lowest costs. These results show that mixed random variables are a practical and promising tool for decision-making under uncertainty."
+  },
+  {
+    "title": "Compositional Reasoning for Probabilistic Automata with Uncertainty",
+    "url": "http://arxiv.org/abs/2603.29550v1",
+    "arxiv_id": "2603.29550v1",
+    "authors": [
+      "Hannah Mertens",
+      "Tim Quatmann",
+      "Joost-Pieter Katoen"
+    ],
+    "published": "2026-03-31T10:31:24+00:00",
+    "summary": "This paper develops an assume-guarantee (AG) framework for the compositional verification of probabilistic automata (PAs) with uncertain transition probabilities. We study parametric probabilistic automata (pPAs), where probabilities are given by polynomial functions over a finite set of real-valued parameters and robust probabilistic automata (rPAs)-a generalisation of interval probabilistic automata (iPAs)-where transition probabilities range over potentially uncountable uncertainty sets. Towards pPAs, an existing AG framework for PAs is lifted to the parametric setting. We establish asymmetric, circular, and interleaving proof rules to enable compositional verification of a broad class of multi-objective queries, encompassing probabilistic reachability properties and parametric expected total rewards. In addition, we introduce a dedicated AG rule for compositional reasoning about parameter monotonicity. For convex rPAs and iPAs with history-dependent (memory-full) nature, we establish sound AG rules via a reduction to infinite PAs. We further show that AG reasoning can not straightforwardly be applied to non-convex rPAs, memoryless (once-and-for-all) nature semantics, and the common interval-arithmetic relaxation of parallel composition. Finally, we develop a simulation-based AG style for pPAs: we define strong simulation and robust-strong simulation relations for pPAs and derive their corresponding proof rules."
+  },
+  {
+    "title": "Learning Surrogate LPV State-Space Models with Uncertainty Quantification",
+    "url": "http://arxiv.org/abs/2603.29532v1",
+    "arxiv_id": "2603.29532v1",
+    "authors": [
+      "E. Javier Olucha",
+      "Valentin Preda",
+      "Amritam Das",
+      "Roland T\u00f3th"
+    ],
+    "published": "2026-03-31T10:13:25+00:00",
+    "summary": "The Linear Parameter-Varying (LPV) framework enables the construction of surrogate models of complex nonlinear and high-dimensional systems, facilitating efficient stability and performance analysis together with controller design. Despite significant advances in data-driven LPV modelling, existing approaches do not quantify the uncertainty of the obtained LPV models. Consequently, assessing model reliability for analysis and control or detecting operation outside the training regime requires extensive validation and user expertise. This paper proposes a Bayesian approach for the joint estimation of LPV state-space models together with their scheduling, providing a characterization of model uncertainty and confidence bounds on the predicted model response directly from input-output data. Both aleatoric uncertainty due to measurement noise and epistemic uncertainty arising from limited training data and structural bias are considered. The resulting model preserves the LPV structure required for controller synthesis while enabling computationally efficient simulation and uncertainty propagation. The approach is demonstrated on the surrogate modelling of a two-dimensional nonlinear interconnection of mass-spring-damper systems."
+  },
+  {
     "title": "$\\mathcal{L}_1$-Certified Distributionally Robust Planning for Safety-Constrained Adaptive Control",
     "url": "http://arxiv.org/abs/2603.28758v1",
     "arxiv_id": "2603.28758v1",
