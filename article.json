@@ -1,5 +1,131 @@
 [
   {
+    "title": "$\\texttt{YC-Bench}$: Benchmarking AI Agents for Long-Term Planning and Consistent Execution",
+    "url": "http://arxiv.org/abs/2604.01212v1",
+    "arxiv_id": "2604.01212v1",
+    "authors": [
+      "Muyu He",
+      "Adit Jain",
+      "Anand Kumar",
+      "Vincent Tu",
+      "Soumyadeep Bakshi",
+      "Sachin Patro",
+      "Nazneen Rajani"
+    ],
+    "published": "2026-04-01T17:52:19+00:00",
+    "summary": "As LLM agents tackle increasingly complex tasks, a critical question is whether they can maintain strategic coherence over long horizons: planning under uncertainty, learning from delayed feedback, and adapting when early mistakes compound. We introduce $\\texttt{YC-Bench}$, a benchmark that evaluates these capabilities by tasking an agent with running a simulated startup over a one-year horizon spanning hundreds of turns. The agent must manage employees, select task contracts, and maintain profitability in a partially observable environment where adversarial clients and growing payroll create compounding consequences for poor decisions. We evaluate 12 models, both proprietary and open source, across 3 seeds each. Only three models consistently surpass the starting capital of \\$200K, with Claude Opus 4.6 achieving the highest average final funds at \\$1.27 M, followed by GLM-5 at \\$1.21 M at 11$\\times$ lower inference cost. Scratchpad usage, the sole mechanism for persisting information across context truncation, is the strongest predictor of success, and adversarial client detection is the primary failure mode, accounting for $47\\%$ of bankruptcies. Our analysis reveals that frontier models still fail through distinct failure modes such as over-parallelization, demonstrating the capability gaps for long-horizon performance. $\\texttt{YC-Bench}$ is open-source, reproducible, and configurable."
+  },
+  {
+    "title": "Programmable Signal Design for Quantum Phase Estimation via Quantum Signal Processing",
+    "url": "http://arxiv.org/abs/2604.01205v1",
+    "arxiv_id": "2604.01205v1",
+    "authors": [
+      "Zikang Jia",
+      "Suying Liu",
+      "Yulong Dong"
+    ],
+    "published": "2026-04-01T17:49:57+00:00",
+    "summary": "Quantum phase estimation is a central primitive in quantum algorithms and sensing, where performance is governed by the sensitivity of measurement signals to the target parameter. While existing methods have developed increasingly sophisticated inference and adaptive design strategies, the signal family used for phase learning is often largely pre-specified. Here we propose a programmable signal design framework for quantum phase estimation based on quantum signal processing, which enables the measurement signal to be tailored to the current uncertainty region. We cast phase estimation as a max-min optimization problem over admissible signals and introduce a sensitivity efficiency parameter that quantifies information gain per query depth. The resulting iterative algorithm combines optimized quantum signal transformations with structured classical inference, retaining Heisenberg-limited scaling while improving sensitivity efficiency and practical resource prefactors. Numerical results show reduced estimation variance compared with standard protocols such as robust phase estimation. Our framework also extends to Hamiltonian eigenvalue estimation in higher dimensions and establishes a quantum-classical co-design paradigm through programmable signal shaping."
+  },
+  {
+    "title": "A high-order, structure preserving scheme for the stochastic Galerkin shallow water equations -- unification and two-dimensional extension",
+    "url": "http://arxiv.org/abs/2604.01199v1",
+    "arxiv_id": "2604.01199v1",
+    "authors": [
+      "Philipp \u00d6ffner",
+      "Per Pettersson",
+      "Andrew R. Winters"
+    ],
+    "published": "2026-04-01T17:45:44+00:00",
+    "summary": "Recently, two independent research efforts have been made to study the stochastic Galerkin formulation of the shallow water equations. %In particular, Bender and \u00d6ffner developed entropy-conservative discontinuous Galerkin (DG) methods to solve the stochastic shallow water equations in an stochastic Galerkin framework using Roe variable transformation, while Dai, Epshteyn and collaborators proposed second-order, energy-stable and well-balanced schemes for the same class of problems with a specific projection step used inside the Galerkin projection together with high-order quadrature rules and a time-step restriction. In this paper, we provide a comprehensive comparison of the two methodologies mentioned, focusing on their theoretical properties and practical implementation aspects. We highlight shared foundational concepts and key differences of both approaches, with a particular focus on the selection of basis functions in the stochastic domain. As a highlight, we show that under specific conditions, the two formulations align, offering a unified framework that connects these distinct approaches. From our theoretical findings, we extend the development of high-order entropy conservative DG methods for the one-dimensional stochastic Galerkin shallow equations to two space dimensions; constructing entropy conservative two-point fluxes via primitive variables instead of entropy variables and applying it in our high-order DG setting. In numerical simulations, we verify and support our theoretical findings of a well-balanced and entropy-stable DG scheme which can be used to solve geophyiscal fluid flows with uncertainty."
+  },
+  {
+    "title": "Learning Neural Network Controllers with Certified Robust Performance via Adversarial Training",
+    "url": "http://arxiv.org/abs/2604.01188v1",
+    "arxiv_id": "2604.01188v1",
+    "authors": [
+      "Neelay Junnarkar",
+      "Yasin Sonmez",
+      "Murat Arcak"
+    ],
+    "published": "2026-04-01T17:36:00+00:00",
+    "summary": "Neural network (NN) controllers achieve strong empirical performance on nonlinear dynamical systems, yet deploying them in safety-critical settings requires robustness to disturbances and uncertainty. We present a method for jointly synthesizing NN controllers and dissipativity certificates that formally guarantee robust closed-loop performance using adversarial training, in which we use counterexamples to the robust dissipativity condition to guide training. Verification is done post-training using alpha,beta-CROWN, a branch-and-bound-based method that enables direct analysis of the nonlinear dynamical system. The proposed method uses quadratic constraints (QCs) only for characterization of non-parametric uncertainties. The method is tested in numerical experiments on maximizing the volume of the set on which a system is certified to be robustly dissipative. Our method certifies regions up to 78 times larger than the region certified by a linear matrix inequality-based approach that we derive for comparison."
+  },
+  {
+    "title": "Minimal Length Effects on Keplerian Scattering and Gravitational Lensing",
+    "url": "http://arxiv.org/abs/2604.01177v1",
+    "arxiv_id": "2604.01177v1",
+    "authors": [
+      "Mykola Samar",
+      "Mariia Seniak"
+    ],
+    "published": "2026-04-01T17:28:39+00:00",
+    "summary": "We study the impact of a minimal length, implied by generalized uncertainty principles and quantum gravity models, on unbounded (scattering) trajectories in the Kepler problem. The analysis is based on the precession of the Hamilton vector, which serves as a sensitive probe of orbital perturbations. Within the framework of the deformed Heisenberg algebra, we derive the correction to the trajectory arising from minimal length effects. It is shown that these quantum-gravitational corrections lead to a reduction in the scattering angle. In particular, for massless particles such as photons, the quantization of space results in a weakening of the gravitational lensing effect. Using available experimental data from the observation of the Einstein ring, we estimate the deformation parameter and the corresponding minimal length for the electron and Mercury. These findings highlight potential observational signatures of minimal length scenarios in high-energy astrophysics and gravitational optics."
+  },
+  {
+    "title": "NeuroDDAF: Neural Dynamic Diffusion-Advection Fields with Evidential Fusion for Air Quality Forecasting",
+    "url": "http://arxiv.org/abs/2604.01175v1",
+    "arxiv_id": "2604.01175v1",
+    "authors": [
+      "Prasanjit Dey",
+      "Soumyabrata Dev",
+      "Angela Meyer",
+      "Bianca Schoen-Phelan"
+    ],
+    "published": "2026-04-01T17:27:43+00:00",
+    "summary": "Accurate air quality forecasting is crucial for protecting public health and guiding environmental policy, yet it remains challenging due to nonlinear spatiotemporal dynamics, wind-driven transport, and distribution shifts across regions. Physics-based models are interpretable but computationally expensive and often rely on restrictive assumptions, whereas purely data-driven models can be accurate but may lack robustness and calibrated uncertainty. To address these limitations, we propose Neural Dynamic Diffusion-Advection Fields (NeuroDDAF), a physics-informed forecasting framework that unifies neural representation learning with open-system transport modeling. NeuroDDAF integrates (i) a GRU-Graph Attention encoder to capture temporal dynamics and wind-aware spatial interactions, (ii) a Fourier-domain diffusion-advection module with learnable residuals, (iii) a wind-modulated latent Neural ODE to model continuous-time evolution under time-varying connectivity, and (iv) an evidential fusion mechanism that adaptively combines physics-guided and neural forecasts while quantifying uncertainty. Experiments on four urban datasets (Beijing, Shenzhen, Tianjin, and Ancona) across 1-3 day horizons show that NeuroDDAF consistently outperforms strong baselines, including AirPhyNet, achieving up to 9.7% reduction in RMSE and 9.4% reduction in MAE on long-term forecasts. On the Beijing dataset, NeuroDDAF attains an RMSE of 41.63 $\u03bc$g/m$^3$ for 1-day prediction and 48.88 $\u03bc$g/m$^3$ for 3-day prediction, representing the best performance among all compared methods. In addition, NeuroDDAF improves cross-city generalization and yields well-calibrated uncertainty estimates, as confirmed by ensemble variance analysis and case studies under varying wind conditions."
+  },
+  {
+    "title": "Safe learning-based control via function-based uncertainty quantification",
+    "url": "http://arxiv.org/abs/2604.01173v1",
+    "arxiv_id": "2604.01173v1",
+    "authors": [
+      "Abdullah Tokmak",
+      "Toni Karvonen",
+      "Thomas B. Sch\u00f6n",
+      "Dominik Baumann"
+    ],
+    "published": "2026-04-01T17:23:30+00:00",
+    "summary": "Uncertainty quantification is essential when deploying learning-based control methods in safety-critical systems. This is commonly realized by constructing uncertainty tubes that enclose the unknown function of interest, e.g., the reward and constraint functions or the underlying dynamics model, with high probability. However, existing approaches for uncertainty quantification typically rely on restrictive assumptions on the unknown function, such as known bounds on functional norms or Lipschitz constants, and struggle with discontinuities. In this paper, we model the unknown function as a random function from which independent and identically distributed realizations can be generated, and construct uncertainty tubes via the scenario approach that hold with high probability and rely solely on the sampled realizations. We integrate these uncertainty tubes into a safe Bayesian optimization algorithm, which we then use to safely tune control parameters on a real Furuta pendulum."
+  },
+  {
+    "title": "Markov chain Monte Carlo for Bayesian inference of the non-conducting region in intra-atrial reentrant tachycardia",
+    "url": "http://arxiv.org/abs/2604.01164v1",
+    "arxiv_id": "2604.01164v1",
+    "authors": [
+      "Maarten Volkaerts",
+      "Marie Cloet",
+      "Hans Dierckx",
+      "Piet Claus",
+      "Giovanni Samaey"
+    ],
+    "published": "2026-04-01T17:16:07+00:00",
+    "summary": "We present a Bayesian approach to estimate the parameters of mathematical models of cardiac electrophysiology with quantified uncertainty. Such models capture the dynamics of the electrical signal that coordinates the muscle cell contraction in the heart wall and can support cardiac arrhythmia treatment. We consider an illustrative case motivated by a cardiac arrhythmia, namely, by intra-atrial reentrant tachycardia. We estimate a low-dimensional geometrical parameter that describes the boundary of an electrically non-conducting region in the heart tissue from synthetic electrical measurements outside of the tissue. Instead of relying on a deterministic fit for this region, we estimate a posterior distribution on the geometrical parameter using Bayesian inference that captures the uncertainty due to measurement errors. We propose a likelihood based on a set of quantities that characterize the data for improved accuracy. To efficiently approximate the posterior distribution, we propose a compressed likelihood function and an adapted Metropolis-Hastings (MH) algorithm. We obtain an algorithm that strongly decreases the number of samples by using an adaptive proposal strategy. Our algorithm also gives attention to the impact of discretization errors on inference outcomes, as these introduce artificial discontinuities in the posterior if not properly addressed. We account for discretization errors in the likelihood and in the accept-reject step of our adapted MH algorithm to improve the robustness of our estimates and to further increase the sampling efficiency. All of these elements combined give us a method that efficiently estimates the non-conducting parameters with uncertainty. We perform several experiments with different amounts of measurement noise and illustrate how this translates into the posterior distributions."
+  },
+  {
+    "title": "Reasoning Shift: How Context Silently Shortens LLM Reasoning",
+    "url": "http://arxiv.org/abs/2604.01161v1",
+    "arxiv_id": "2604.01161v1",
+    "authors": [
+      "Gleb Rodionov"
+    ],
+    "published": "2026-04-01T17:14:18+00:00",
+    "summary": "Large language models (LLMs) exhibiting test-time scaling behavior, such as extended reasoning traces and self-verification, have demonstrated remarkable performance on complex, long-term reasoning tasks. However, the robustness of these reasoning behaviors remains underexplored. To investigate this, we conduct a systematic evaluation of multiple reasoning models across three scenarios: (1) problems augmented with lengthy, irrelevant context; (2) multi-turn conversational settings with independent tasks; and (3) problems presented as a subtask within a complex task. We observe an interesting phenomenon: reasoning models tend to produce much shorter reasoning traces (up to 50%) for the same problem under different context conditions compared to the traces produced when the problem is presented in isolation. A finer-grained analysis reveals that this compression is associated with a decrease in self-verification and uncertainty management behaviors, such as double-checking. While this behavioral shift does not compromise performance on straightforward problems, it might affect performance on more challenging tasks. We hope our findings draw additional attention to both the robustness of reasoning models and the problem of context management for LLMs and LLM-based agents."
+  },
+  {
+    "title": "Thermal Entanglement and Out-of-Equilibrium Thermodynamics in 1D Bose gases",
+    "url": "http://arxiv.org/abs/2604.01157v1",
+    "arxiv_id": "2604.01157v1",
+    "authors": [
+      "Julia Math\u00e9",
+      "Nicky Kai Hong Li",
+      "Pharnam Bakhshinezhad",
+      "Giuseppe Vitagliano"
+    ],
+    "published": "2026-04-01T17:11:34+00:00",
+    "summary": "We investigate entanglement in and out of equilibrium in a one-dimensional Bose gas in its low-energy Bogoliubov regime. In this Gaussian setting, the state is fully characterized by its covariance matrix, which allows us to detect and quantify entanglement using a covariance-based framework and associated entanglement monotones. For thermal states, we determine the optimal entanglement witness arising from the covariance matrix criterion and show that it has a remarkably simple mode-resolved structure: it is diagonal in the normal-mode basis and admits a simple analytic form that can be expressed as a product of only two normal-mode uncertainties. We then study out-of-equilibrium dynamics induced by unitary compression and show that entanglement can be generated even from initially separable thermal states. When the evolution is fully adiabatic, the optimal witness retains the same two-mode structure as in the thermal case. Departing from this regime, i.e., performing increasingly rapid compression, the optimal witness becomes genuinely more intricate. Our methods and results provide a unified and physically intuitive picture of how entanglement emerges and evolves in 1D quantum Bose gases, and identify an optimal witness structure relevant more broadly to the analysis of entanglement in quadratic bosonic models and its role in thermodynamic cycles."
+  },
+  {
     "title": "ParetoEnsembles.jl: A Julia Package for Multiobjective Parameter Estimation Using Pareto Optimal Ensemble Techniques",
     "url": "http://arxiv.org/abs/2603.29986v1",
     "arxiv_id": "2603.29986v1",
