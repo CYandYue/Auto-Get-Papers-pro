@@ -1,5 +1,156 @@
 [
   {
+    "title": "Disentangled Deep Priors for Bayesian Inverse Problems",
+    "url": "http://arxiv.org/abs/2604.02304v1",
+    "arxiv_id": "2604.02304v1",
+    "authors": [
+      "Arkaprabha Ganguli",
+      "Emil Constantinescu"
+    ],
+    "published": "2026-04-02T17:45:04+00:00",
+    "summary": "We propose a structured prior for high-dimensional Bayesian inverse problems based on a disentangled deep generative model whose latent space is partitioned into auxiliary variables aligned with known and interpretable physical parameters and residual variables capturing remaining unknown variability. This yields a hierarchical prior in which interpretable coordinates carry domain-relevant uncertainty while the residual coordinates retain the flexibility of deep generative models. By linearizing the generator, we characterize the induced prior covariance and derive conditions under which the posterior exhibits approximate block-diagonal structure in the latent variables, clarifying when representation-level disentanglement translates into a separation of uncertainty in the inverse problem. We formulate the resulting latent-space inverse problem and solve it using MAP estimation and Markov chain Monte Carlo (MCMC) sampling. On elliptic PDE inverse problems, such as conductivity identification and source identification, the approach matches an oracle Gaussian process prior under correct specification and provides substantial improvement under prior misspecification, while recovering interpretable physical parameters and producing spatially calibrated uncertainty estimates."
+  },
+  {
+    "title": "Revealing the neutrino mass through persistent homology of the cosmic web",
+    "url": "http://arxiv.org/abs/2604.02300v1",
+    "arxiv_id": "2604.02300v1",
+    "authors": [
+      "Jiaqi Wang",
+      "Willem Elbers",
+      "Carlos S. Frenk",
+      "Shaun Cole",
+      "Xiaohu Yang",
+      "Ian G. McCarthy",
+      "Rien van de Weygaert"
+    ],
+    "published": "2026-04-02T17:39:58+00:00",
+    "summary": "Cosmological constraints on neutrino mass offer a promising avenue for advancing our understanding of both fundamental particle physics and the evolution of cosmic large-scale structure. To overcome challenges associated with traditional probes of neutrino mass, particularly degeneracies with other parameters, we consider topological summaries of the cosmic web based on the formalism of persistent homology. We introduce persistence strips, a novel representation that segments Betti curves by topological persistence, effectively condensing two-dimensional persistence diagrams into a set of one-dimensional curves. Applied to the FLAMINGO suite of cosmological simulations, these topological descriptors demonstrate pronounced sensitivity to neutrino mass. By constructing an emulator spanning a 10-dimensional $w_0 w_a\\text{CDM} +\u03bd$ cosmological parameter space that includes parameters degenerate with neutrino masses in conventional approaches, assuming a volume of only $(350 \\, \\mathrm{Mpc})^3$, we obtain neutrino mass constraints with an uncertainty of $0.05 \\, \\mathrm{eV}$ for the total matter field and $0.13 \\, \\mathrm{eV}$ for the dark matter-only field, with the strongest constraints coming from void topology. Persistence strips exhibit roughly twice the constraining power of unbinned Betti curves and, through their multi-scale, environment-dependent sensitivity, systematically break degeneracies between neutrino mass and other cosmological parameters. We pinpoint the precise physical origin of the signal, identifying two equally important contributions: sensitivity to the neutrino mass fraction, which is highest in underdense regions, and the impact of neutrinos on the distribution of dark matter. Our findings highlight the particular promise of applying topological statistics to weak lensing measurements, which directly probe the total matter distribution."
+  },
+  {
+    "title": "Model-Based Reinforcement Learning for Control under Time-Varying Dynamics",
+    "url": "http://arxiv.org/abs/2604.02260v1",
+    "arxiv_id": "2604.02260v1",
+    "authors": [
+      "Klemens Iten",
+      "Bruce Lee",
+      "Chenhao Li",
+      "Lenart Treven",
+      "Andreas Krause",
+      "Bhavya Sukhija"
+    ],
+    "published": "2026-04-02T16:52:59+00:00",
+    "summary": "Learning-based control methods typically assume stationary system dynamics, an assumption often violated in real-world systems due to drift, wear, or changing operating conditions. We study reinforcement learning for control under time-varying dynamics. We consider a continual model-based reinforcement learning setting in which an agent repeatedly learns and controls a dynamical system whose transition dynamics evolve across episodes. We analyze the problem using Gaussian process dynamics models under frequentist variation-budget assumptions. Our analysis shows that persistent non-stationarity requires explicitly limiting the influence of outdated data to maintain calibrated uncertainty and meaningful dynamic regret guarantees. Motivated by these insights, we propose a practical optimistic model-based reinforcement learning algorithm with adaptive data buffer mechanisms and demonstrate improved performance on continuous control benchmarks with non-stationary dynamics."
+  },
+  {
+    "title": "Hyper-differential sensitivity analysis with respect to model discrepancy: Sequential optimal experimental design",
+    "url": "http://arxiv.org/abs/2604.02253v1",
+    "arxiv_id": "2604.02253v1",
+    "authors": [
+      "Madhusudan Madhavan",
+      "Joseph Hart",
+      "Bart van Bloemen Waanders"
+    ],
+    "published": "2026-04-02T16:46:04+00:00",
+    "summary": "Large-scale optimization problems are ubiquitous in the physical sciences; yet, high-fidelity models can often be complex and computationally prohibitive for optimization. A practical alternative is to use a low-fidelity model to facilitate optimization. However, the discrepancy between the high- and low-fidelity models can lead to suboptimal solutions. To address this, we build on recent work in Hyper-Differential Sensitivity Analysis to leverage limited high-fidelity simulations to update the optimization solution. Our contributions in this article include: (i) incorporating pseudo-time continuation techniques to efficiently compute higher-accuracy optimal solution updates, and (ii) proposing a Bayesian framework for sequential data acquisition that strategically guides high-fidelity evaluations and reduces uncertainty in the model discrepancy estimation. Numerical results demonstrate that our framework delivers significant improvements to optimization solutions with only a few high-fidelity evaluations."
+  },
+  {
+    "title": "Data-Driven Koopman Predictive Control for Frequency Regulation of Power Systems using Black-Box IBRs",
+    "url": "http://arxiv.org/abs/2604.02251v1",
+    "arxiv_id": "2604.02251v1",
+    "authors": [
+      "Sohrab Rezaei",
+      "Xiaomo Wang",
+      "Sijia Geng"
+    ],
+    "published": "2026-04-02T16:44:06+00:00",
+    "summary": "Model uncertainty of inverter-based resources (IBRs) presents significant challenges for power system control and stability. This work studies secondary frequency regulation in inverter-based power systems using a Data-driven Koopman Predictive Control (DKPC) framework. The method employs Koopman theory to lift the nonlinear system dynamics into a higher-dimensional space where they can be approximated as linear. Based on Willems' fundamental lemma, a behavioral model is constructed directly from lifted input-output data. A receding-horizon predictive control formulation is then provided that operates entirely using observed data, without requiring a parametric model, while satisfying explicit constraints on the control input and system output. The proposed approach is particularly suited for IBRs with complex or uncertain dynamics. Numerical results demonstrate its effectiveness for frequency control as benchmarked against the Data-enabled Predictive Control (DeePC). The trade-off between tracking performance and control effort is illustrated through tuning of the weighting parameters."
+  },
+  {
+    "title": "BVFLMSP : Bayesian Vertical Federated Learning for Multimodal Survival with Privacy",
+    "url": "http://arxiv.org/abs/2604.02248v1",
+    "arxiv_id": "2604.02248v1",
+    "authors": [
+      "Abhilash Kar",
+      "Basisth Saha",
+      "Tanmay Sen",
+      "Biswabrata Pradhan"
+    ],
+    "published": "2026-04-02T16:37:44+00:00",
+    "summary": "Multimodal time-to-event prediction often requires integrating sensitive data distributed across multiple parties, making centralized model training impractical due to privacy constraints. At the same time, most existing multimodal survival models produce single deterministic predictions without indicating how confident the model is in its estimates, which can limit their reliability in real-world decision making. To address these challenges, we propose BVFLMSP, a Bayesian Vertical Federated Learning (VFL) framework for multimodal time-to-event analysis based on a Split Neural Network architecture. In BVFLMSP, each client independently models a specific data modality using a Bayesian neural network, while a central server aggregates intermediate representations to perform survival risk prediction. To enhance privacy, we integrate differential privacy mechanisms by perturbing client side representations before transmission, providing formal privacy guarantees against information leakage during federated training.   We first evaluate our Bayesian multimodal survival model against widely used single modality survival baselines and the centralized multimodal baseline MultiSurv. Across multimodal settings, the proposed method shows consistent improvements in discrimination performance, with up to 0.02 higher C-index compared to MultiSurv. We then compare federated and centralized learning under varying privacy budgets across different modality combinations, highlighting the tradeoff between predictive performance and privacy. Experimental results show that BVFLMSP effectively includes multimodal data, improves survival prediction over existing baselines, and remains robust under strict privacy constraints while providing uncertainty estimates."
+  },
+  {
+    "title": "A research roadmap for assessing the feasibility of warming Mars",
+    "url": "http://arxiv.org/abs/2604.02242v1",
+    "arxiv_id": "2604.02242v1",
+    "authors": [
+      "E. S. Kite",
+      "A. Essunfeld",
+      "M. H. Hecht",
+      "M. A. Mischna",
+      "R. Wordsworth",
+      "H. Mohseni",
+      "A. Boies",
+      "N. Averesch",
+      "S. Ansari",
+      "M. I. Richardson",
+      "E. A. DeBenedictis",
+      "D. Stork",
+      "A. L. Bamba",
+      "C. J. Handmer",
+      "C. Jourdain",
+      "R. Ramirez",
+      "C. E. Mason",
+      "A. Kling",
+      "A. S. Braude",
+      "A. Dumitrescu",
+      "S. P. Worden",
+      "J. Cumbers",
+      "N. Lanza",
+      "R. Quayum",
+      "C. S. Cockell"
+    ],
+    "published": "2026-04-02T16:33:39+00:00",
+    "summary": "This roadmap outlines research pathways to determine whether Mars could be warmed with non-biological methods. It does not presuppose that warming Mars is desirable; its purpose is to identify what would need to be true for Mars to be warmed, what it would cost, and what could go wrong. Three complementary research tracks appear promising. Solid-state greenhouse membranes offer local warming, aiding water harvesting, food production, and oxygen supply near human bases. Orbiting reflectors can warm key sites such as bases and CO$_2$-ice reservoirs, although a large combined area would be required. Strengthening Mars' natural greenhouse effect might warm large regions or the globe, although many aspects remain to be worked out. Each approach carries scientific and technical risks that research must address. Near-term priorities are on-Earth testing of key parameters that will determine whether engineered aerosol warming is realistically possible, assessing whether exponential production of bioplastic habitats is possible, and designing at-Mars process experiments. In the near term, the research proposed here is closely aligned with and supports research needed to understand Mars' atmosphere and volatile evolution and hazards to human explorers. The main external uncertainty is whether or not launch costs continue to fall. This is early-stage research, and we discuss key near-term decision points, alternative pathways, and payoffs if research outcomes are negative. We also outline build-out pathways if research succeeds and demand exists. Relatively modest research investments would keep open the option of extending life beyond Earth as Mars' scientific exploration continues."
+  },
+  {
+    "title": "When to ASK: Uncertainty-Gated Language Assistance for Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2604.02226v1",
+    "arxiv_id": "2604.02226v1",
+    "authors": [
+      "Juarez Monteiro",
+      "Nathan Gavenski",
+      "Gianlucca Zuin",
+      "Adriano Veloso"
+    ],
+    "published": "2026-04-02T16:19:20+00:00",
+    "summary": "Reinforcement learning (RL) agents often struggle with out-of-distribution (OOD) scenarios, leading to high uncertainty and random behavior. While language models (LMs) contain valuable world knowledge, larger ones incur high computational costs, hindering real-time use, and exhibit limitations in autonomous planning. We introduce Adaptive Safety through Knowledge (ASK), which combines smaller LMs with trained RL policies to enhance OOD generalization without retraining. ASK employs Monte Carlo Dropout to assess uncertainty and queries the LM for action suggestions only when uncertainty exceeds a set threshold. This selective use preserves the efficiency of existing policies while leveraging the language model's reasoning in uncertain situations. In experiments on the FrozenLake environment, ASK shows no improvement in-domain, but demonstrates robust navigation in transfer tasks, achieving a reward of 0.95. Our findings indicate that effective neuro-symbolic integration requires careful orchestration rather than simple combination, highlighting the need for sufficient model scale and effective hybridization mechanisms for successful OOD generalization."
+  },
+  {
+    "title": "SCALE: Semantic- and Confidence-Aware Conditional Variational Autoencoder for Zero-shot Skeleton-based Action Recognition",
+    "url": "http://arxiv.org/abs/2604.02222v1",
+    "arxiv_id": "2604.02222v1",
+    "authors": [
+      "Soroush Oraki",
+      "Feng Ding",
+      "Jie Liang"
+    ],
+    "published": "2026-04-02T16:12:42+00:00",
+    "summary": "Zero-shot skeleton-based action recognition (ZSAR) aims to recognize action classes without any training skeletons from those classes, relying instead on auxiliary semantics from text. Existing approaches frequently depend on explicit skeleton-text alignment, which can be brittle when action names underspecify fine-grained dynamics and when unseen classes are semantically confusable. We propose SCALE, a lightweight and deterministic Semantic- and Confidence-Aware Listwise Energy-based framework that formulates ZSAR as class-conditional energy ranking. SCALE builds a text-conditioned Conditional Variational Autoencoder where frozen text representations parameterize both the latent prior and the decoder, enabling likelihood-based evaluation for unseen classes without generating samples at test time. To separate competing hypotheses, we introduce a semantic- and confidence-aware listwise energy loss that emphasizes semantically similar hard negatives and incorporates posterior uncertainty to adapt decision margins and reweight ambiguous training instances. Additionally, we utilize a latent prototype contrast objective to align posterior means with text-derived latent prototypes, improving semantic organization and class separability without direct feature matching. Experiments on NTU-60 and NTU-120 datasets show that SCALE consistently improves over prior VAE- and alignment-based baselines while remaining competitive with diffusion-based methods."
+  },
+  {
+    "title": "Many Wrongs Make a Right: Leveraging Biased Simulations Towards Unbiased Parameter Inference",
+    "url": "http://arxiv.org/abs/2604.02219v1",
+    "arxiv_id": "2604.02219v1",
+    "authors": [
+      "Ezequiel Alvarez",
+      "Sean Benevedes",
+      "Manuel Szewc",
+      "Jesse Thaler"
+    ],
+    "published": "2026-04-02T16:11:07+00:00",
+    "summary": "In particle physics, as in many areas of science, parameter inference relies on simulations to bridge the gap between theory and experiment. Recent developments in simulation-based inference have boosted the sensitivity of analyses; however, biases induced by simulation-data mismodeling can be difficult to control within standard inference pipelines. In this work, we propose a Template-Adapted Mixture Model to confront this problem in the context of signal fraction estimation: inferring the population proportion of signal in a mixed sample of signal and background, both of which follow arbitrarily complex distributions. We harness many biased simulations to perform data-driven estimates of each process distribution in the signal region, substantially reducing the bias on the signal fraction due to the domain shift between simulation and reality. We explore different methodological choices, including model selection, feature representation, and statistical method, and apply them to a Gaussian toy example and to a semi-realistic di-Higgs measurement. We find that the presented methods successfully leverage the biased simulations to provide estimates with well-calibrated uncertainties."
+  },
+  {
     "title": "$\\texttt{YC-Bench}$: Benchmarking AI Agents for Long-Term Planning and Consistent Execution",
     "url": "http://arxiv.org/abs/2604.01212v1",
     "arxiv_id": "2604.01212v1",
