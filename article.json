@@ -1,5 +1,137 @@
 [
   {
+    "title": "Safety-Critical Centralized Nonlinear MPC for Cooperative Payload Transportation by Two Quadrupedal Robots",
+    "url": "http://arxiv.org/abs/2604.03200v1",
+    "arxiv_id": "2604.03200v1",
+    "authors": [
+      "Ruturaj S. Sambhus",
+      "Yicheng Zeng",
+      "Kapi Ketan Mehta",
+      "Jeeseop Kim",
+      "Kaveh Akbari Hamed"
+    ],
+    "published": "2026-04-03T17:19:47+00:00",
+    "summary": "This paper presents a safety-critical centralized nonlinear model predictive control (NMPC) framework for cooperative payload transportation by two quadrupedal robots. The interconnected robot-payload system is modeled as a discrete-time nonlinear differential-algebraic system, capturing the coupled dynamics through holonomic constraints and interaction wrenches. To ensure safety in complex environments, we develop a control barrier function (CBF)-based NMPC formulation that enforces collision avoidance constraints for both the robots and the payload. The proposed approach retains the interaction wrenches as decision variables, resulting in a structured DAE-constrained optimal control problem that enables efficient real-time implementation. The effectiveness of the algorithm is validated through extensive hardware experiments on two Unitree Go2 platforms performing cooperative payload transportation in cluttered environments under mass and inertia uncertainty and external push disturbances."
+  },
+  {
+    "title": "Real-Time Surrogate Modeling for Personalized Blood Flow Prediction and Hemodynamic Analysis",
+    "url": "http://arxiv.org/abs/2604.03197v1",
+    "arxiv_id": "2604.03197v1",
+    "authors": [
+      "Sokratis J. Anagnostopoulos",
+      "George Rovas",
+      "Vasiliki Bikia",
+      "Theodore G. Papaioannou",
+      "Athanase D. Protogerou",
+      "Nikolaos Stergiopulos"
+    ],
+    "published": "2026-04-03T17:15:34+00:00",
+    "summary": "Cardiovascular modeling has rapidly advanced over the past few decades due to the rising needs for health tracking and early detection of cardiovascular diseases. While 1-D arterial models offer an attractive compromise between computational efficiency and solution fidelity, their application on large populations or for generating large \\emph{in silico} cohorts remains challenging. Certain hemodynamic parameters like the terminal resistance/compliance, are difficult to clinically estimate and often yield non-physiological hemodynamics when sampled naively, resulting in large portions of simulated datasets to be discarded. In this work, we present a systematic framework for training machine learning (ML) models, capable of instantaneous hemodynamic prediction and parameter estimation. We initially start with generating a parametric virtual cohort of patients which is based on the multivariate correlations observed in the large Asklepios clinical dataset, ensuring that physiological parameter distributions are respected. We then train a deep neural surrogate model, able to predict patient-specific arterial pressure and cardiac output (CO), enabling rapid a~priori screening of input parameters. This allows for immediate rejection of non-physiological combinations and drastically reduces the cost of targeted synthetic dataset generation (e.g. hypertensive groups). The model also provides a principled means of sampling the terminal resistance to minimize the uncertainties of unmeasurable parameters. Moreover, by assessing the model's predictive performance we determine the theoretical information which suffices for solving the inverse problem of estimating the CO. Finally, we apply the surrogate on a clinical dataset for the estimation of central aortic hemodynamics i.e. the CO and aortic systolic blood pressure (cSBP)."
+  },
+  {
+    "title": "Cosmological Constraints from GW-FRB Associations without Redshift Measurements for LIGO-Virgo and Cosmic Explorer",
+    "url": "http://arxiv.org/abs/2604.03163v1",
+    "arxiv_id": "2604.03163v1",
+    "authors": [
+      "Jiaming Zhuge",
+      "Marios Kalomenopoulos",
+      "Carl-Johan Haster",
+      "Bing Zhang"
+    ],
+    "published": "2026-04-03T16:36:16+00:00",
+    "summary": "The potential association between gravitational waves (GWs) and fast radio bursts (FRBs) offers a unique multi-messenger probe for cosmology. In this paper, we develop a redshift-independent framework to constrain cosmological parameters using the luminosity distance - dispersion measure relation, accounting for realistic astrophysical uncertainties. We perform a comprehensive comparative analysis across different GWs detector sensitivities and modeling assumptions. Specifically, we investigate the performance of the current LIGO-Virgo (LV) network (at $z < 0.2$) versus the future Cosmic Explorer (CE). Our study further evaluates the impact of different dispersion measure (DM) distributions -- specifically the corrected Macquart's PDF (Zhuge+2025) and the log-normal distribution -- and explores the influence of including or excluding host galaxy DM contributions. Using realistic simulated observations, we find that while the current LV network lacks the precision to provide meaningful constraints, CE will enable high-precision cosmology. Even without spectroscopic redshifts, CE observations can effectively break parameter degeneracies and robustly constrain both cosmology and host galaxy parameters. These results highlight the necessity of next-generation detectors."
+  },
+  {
+    "title": "Distributed Snitch Digital Twin-Based Anomaly Detection for Smart Voltage Source Converter-Enabled Wind Power Systems",
+    "url": "http://arxiv.org/abs/2604.03123v1",
+    "arxiv_id": "2604.03123v1",
+    "authors": [
+      "Mohammad Ashraf Hossain Sadi",
+      "Soham Ghosh",
+      "Siby Plathottam",
+      "Mohd. Hasan Ali"
+    ],
+    "published": "2026-04-03T15:47:42+00:00",
+    "summary": "Existing cyberattack detection methods for smart grids such as Artificial Neural Networks (ANNs) and Deep Reinforcement Learning (DRL) often suffer from limited adaptability, delayed response, and inadequate coordination in distributed energy systems. These techniques may struggle to detect stealthy or coordinated attacks, especially under communication delays or system uncertainties. This paper proposes a novel Snitch Digital Twin (Snitch-DT) architecture for cyber-physical anomaly detection in grid-connected wind farms using Smart Voltage Source Converters (VSCs). Each wind generator is equipped with a local Snitch-DT that compares real-time operational data with high-fidelity digital models and generates trust scores for measured signals. These trust scores are coordinated across nodes to detect distributed or stealthy cyberattacks. The performance of the Snitch-DT system is benchmarked against previously published Artificial Neural Network (ANN) and Deep Reinforcement Learning (DRL)-based detection frameworks. Simulation results using an IEEE 39-bus wind-integrated test system demonstrate improved attack detection accuracy, faster response time, and higher robustness under various cyberattack scenarios."
+  },
+  {
+    "title": "The form factor expansion in the precision $\u03b2$ decay era",
+    "url": "http://arxiv.org/abs/2604.03090v1",
+    "arxiv_id": "2604.03090v1",
+    "authors": [
+      "Leendert Hayen"
+    ],
+    "published": "2026-04-03T15:16:06+00:00",
+    "summary": "Precision tests of the Standard Model using $\u03b2$ decay have always relied on a careful choice of transition to minimize residual nuclear structure uncertainties. Following breakthroughs in nucleon-level radiative corrections in the last decade, however, corrections due to nuclear structure are once more a limiting factor in several scenarios. Progress in ab initio nuclear theory provides a path forward, but common recoil-order approximations in traditional formalisms often go unnoticed. Here, we critically examine their origin and address recently resolved and identify open questions."
+  },
+  {
+    "title": "Quantitative spectroscopy of single and multiple OB-type stars. Non-LTE spectrum analysis with machine learning",
+    "url": "http://arxiv.org/abs/2604.03082v1",
+    "arxiv_id": "2604.03082v1",
+    "authors": [
+      "P. Aschenbrenner",
+      "N. Przybilla"
+    ],
+    "published": "2026-04-03T15:00:21+00:00",
+    "summary": "The plethora of spectra of OB-type stars in observatory archives and the much larger numbers to come from the WEAVE and 4MOST spectroscopic facilities require efficient, but also accurate and precise methods for (semi)automatic quantitative analyses. Neural networks were used to emulate the spectra of single- and multi-star systems, trained on hybrid non-local thermodynamic equilibrium (non-LTE) models that cover a wide range of atmospheric parameters and chemical compositions. To derive the full set of stellar atmospheric parameters and uncertainties, a Markov chain Monte Carlo algorithm was implemented to fit high-resolution spectra within 3000A-10500A. The neural networks and fitting algorithm were bundled into a programme called Spectral Analysis Tool Using Restricted Neural networks (SATURN). In its current implementation, SATURN facilitates the emulation of synthetic spectra for spectral types O7 to B9, which differ only negligibly from computed models. SATURN was tested on a number of benchmark stars that have been studied before, including single OB stars and a detached eclipsing binary (DEB) system. Excellent agreement of atmospheric parameters and elemental abundances for up to ten metal species is found with respect to the data in the literature, often with reduced uncertainties. For DEB components, the uncertainties are larger, in particular for the fainter secondaries when only a single-epoch spectrum is considered. Uncertainties of elemental abundances are typically <0.10dex. Some first applications of SATURN for analyses of new targets are shown to demonstrate its capabilities, such as fast rotators, including HD149757 (Zeta Ophiuchi). Consistent results are also found at reduced spectral resolutions relevant for observations with WEAVE and 4MOST."
+  },
+  {
+    "title": "Redefining End-of-Life: Intelligent Automation for Electronics Remanufacturing Systems",
+    "url": "http://arxiv.org/abs/2604.03066v1",
+    "arxiv_id": "2604.03066v1",
+    "authors": [
+      "Sibo Tian",
+      "Xiao Liang",
+      "Sara Behdad",
+      "Minghui Zheng"
+    ],
+    "published": "2026-04-03T14:40:24+00:00",
+    "summary": "Remanufacturing is fundamentally more challenging than traditional manufacturing due to the significant uncertainty, variability, and incompleteness inherent in end-of-life (EoL) products. At the same time, it has become increasingly essential and urgent for facilitating a circular economy, driven by the growing volume of discarded electronic products and the escalating scarcity of critical materials. In this paper, we review the existing literature and examine the key challenges as well as emerging opportunities in intelligent automation for EoL electronics remanufacturing, providing a comprehensive overview of how robotics, control, and artificial intelligence (AI) can jointly enable scalable, safe, and intelligent remanufacturing systems. This paper starts with the definition, scope, and motivation of remanufacturing within the context of a circular economy, highlighting its societal and environmental significance. Then it delves into intelligent automation approaches for disassembly, inspection, sorting, and component reprocessing in this domain, covering advanced methods for multimodal perception, decision-making under uncertainty, flexible planning algorithms, and force-aware manipulation. The paper further reviews several emerging techniques, including large foundation models, human-in-the-loop integration, and digital twins that have the potential to support future research in this area. By integrating these topics, we aim to illustrate how next-generation remanufacturing systems can achieve robust, adaptable, and efficient operation in the face of complex real-world challenges."
+  },
+  {
+    "title": "Rendering Multi-Human and Multi-Object with 3D Gaussian Splatting",
+    "url": "http://arxiv.org/abs/2604.02996v1",
+    "arxiv_id": "2604.02996v1",
+    "authors": [
+      "Weiquan Wang",
+      "Jun Xiao",
+      "Feifei Shao",
+      "Yi Yang",
+      "Yueting Zhuang",
+      "Long Chen"
+    ],
+    "published": "2026-04-03T12:20:36+00:00",
+    "summary": "Reconstructing dynamic scenes with multiple interacting humans and objects from sparse-view inputs is a critical yet challenging task, essential for creating high-fidelity digital twins for robotics and VR/AR. This problem, which we term Multi-Human Multi-Object (MHMO) rendering, presents two significant obstacles: achieving view-consistent representations for individual instances under severe mutual occlusion, and explicitly modeling the complex and combinatorial dependencies that arise from their interactions. To overcome these challenges, we propose MM-GS, a novel hierarchical framework built upon 3D Gaussian Splatting. Our method first employs a Per-Instance Multi-View Fusion module to establish a robust and consistent representation for each instance by aggregating visual information across all available views. Subsequently, a Scene-Level Instance Interaction module operates on a global scene graph to reason about relationships between all participants, refining their attributes to capture subtle interaction effects. Extensive experiments on challenging datasets demonstrate that our method significantly outperforms strong baselines, producing state-of-the-art results with high-fidelity details and plausible inter-instance contacts."
+  },
+  {
+    "title": "GP-4DGS: Probabilistic 4D Gaussian Splatting from Monocular Video via Variational Gaussian Processes",
+    "url": "http://arxiv.org/abs/2604.02915v1",
+    "arxiv_id": "2604.02915v1",
+    "authors": [
+      "Mijeong Kim",
+      "Jungtaek Kim",
+      "Bohyung Han"
+    ],
+    "published": "2026-04-03T09:33:43+00:00",
+    "summary": "We present GP-4DGS, a novel framework that integrates Gaussian Processes (GPs) into 4D Gaussian Splatting (4DGS) for principled probabilistic modeling of dynamic scenes. While existing 4DGS methods focus on deterministic reconstruction, they are inherently limited in capturing motion ambiguity and lack mechanisms to assess prediction reliability. By leveraging the kernel-based probabilistic nature of GPs, our approach introduces three key capabilities: (i) uncertainty quantification for motion predictions, (ii) motion estimation for unobserved or sparsely sampled regions, and (iii) temporal extrapolation beyond observed training frames. To scale GPs to the large number of Gaussian primitives in 4DGS, we design spatio-temporal kernels that capture the correlation structure of deformation fields and adopt variational Gaussian Processes with inducing points for tractable inference. Our experiments show that GP-4DGS enhances reconstruction quality while providing reliable uncertainty estimates that effectively identify regions of high motion ambiguity. By addressing these challenges, our work takes a meaningful step toward bridging probabilistic modeling and neural graphics."
+  },
+  {
+    "title": "Measure charge transport in high-energy nuclear collisions with an energy scan of isobaric collisions",
+    "url": "http://arxiv.org/abs/2604.02825v1",
+    "arxiv_id": "2604.02825v1",
+    "authors": [
+      "Wendi Lv",
+      "Niseem Magdy",
+      "Rongrong Ma",
+      "Zebo Tang",
+      "Prithwish Tribedy",
+      "Chun Yuen Tsang",
+      "Zhangbu Xu"
+    ],
+    "published": "2026-04-03T07:44:15+00:00",
+    "summary": "We present a method to measure electric-charge transport in high-energy nuclear collisions using a beam-energy scan of isobaric systems. Comparing collisions of nuclei with identical mass number but different atomic number allows the charge difference ($\u0394Q$) to be extracted with a double-ratio technique that suppresses most experimental systematic uncertainties. By varying the beam energy, the rapidity gap ($\u0394y$) over which electric charge is transported can be systematically scanned. Simulations of Ru+Ru and Zr+Zr collisions at $\\sqrt{s_{\\rm NN}}$=19.6-200GeV with UrQMD and PYTHIA Angantyr show that midrapidity $\u0394Q$ decreases exponentially with increasing $\u0394y$, with the slope parameter exhibiting strong model dependence. Comparisons with the baryon number transport reveal distinct patterns. In both UrQMD and PYTHIA Angantyr (with and without final-state baryon junctions), where baryon number is carried solely by valence quarks, the rapidity slope for baryon transport is larger than that for electric-charge transport. In contrast, scenarios that include baryon junctions in the initial state are expected to produce the opposite trend. This demonstrates that an isobar beam-energy scan provides a sensitive probe of electric-charge transport and offers new constraints on the microscopic mechanisms governing conserved-charge redistribution in QCD matter."
+  },
+  {
     "title": "Disentangled Deep Priors for Bayesian Inverse Problems",
     "url": "http://arxiv.org/abs/2604.02304v1",
     "arxiv_id": "2604.02304v1",
