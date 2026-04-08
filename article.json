@@ -1,5 +1,193 @@
 [
   {
+    "title": "Deep Spectroscopy with DESI for Photometric Redshift Training and Calibration",
+    "url": "http://arxiv.org/abs/2604.06143v1",
+    "arxiv_id": "2604.06143v1",
+    "authors": [
+      "Biprateep Dey",
+      "Jeffrey A. Newman",
+      "Tianqing Zhang",
+      "J. Aguilar",
+      "S. Ahlen",
+      "A. Anand",
+      "B. Andrews",
+      "S. Bailey",
+      "D. Bianchi",
+      "D. Brooks",
+      "F. J. Castander",
+      "T. Claybaugh",
+      "A. Cuceu",
+      "K. S. Dawson",
+      "A. de la Macorra",
+      "J. Della Costa",
+      "Arjun Dey",
+      "P. Doel",
+      "S. Ferraro",
+      "A. Font-Ribera",
+      "E. Gazta\u00f1aga",
+      "Satya Gontcho A Gontcho",
+      "D. Gruen",
+      "G. Gutierrez",
+      "J. Guy",
+      "H. K. Herrera-Alcantar",
+      "K. Honscheid",
+      "M. Ishak",
+      "R. Joyce",
+      "R. Kehoe",
+      "D. Kirkby",
+      "T. Kisner",
+      "A. Kremin",
+      "O. Lahav",
+      "M. Landriau",
+      "L. Le Guillou",
+      "A. Leauthaud",
+      "M. E. Levi",
+      "M. Manera",
+      "P. Martini",
+      "J. McCullough",
+      "A. Meisner",
+      "R. Miquel",
+      "J. Moustakas",
+      "A. D. Myers",
+      "J. Myles",
+      "S. Nadathur",
+      "N. Palanque-Delabrouille",
+      "W. J. Percival",
+      "F. Prada",
+      "I. P\u00e9rez-R\u00e0fols",
+      "G. Rossi",
+      "L. Samushia",
+      "E. Sanchez",
+      "D. Schlegel",
+      "M. Schubnell",
+      "H. Seo",
+      "J. Silber",
+      "D. Sprayberry",
+      "G. Tarl\u00e9",
+      "B. A. Weaver",
+      "N. Weaverdyck",
+      "R. H. Wechsler",
+      "R. Zhou",
+      "H. Zou"
+    ],
+    "published": "2026-04-07T17:48:46+00:00",
+    "summary": "Deep spectroscopic samples can be used to improve photometric redshift (photo-$z$) estimates and reduce uncertainties on redshift distributions. Such improvements can increase the cosmological constraining power of large imaging-based experiments such as the Vera C. Rubin Observatory's Legacy Survey of Space and Time (LSST) and mitigate what may be a limiting systematic effect. We present results from the ``DESI-Deep pilot'' program, which was designed to assess the capability of the Dark Energy Spectroscopic Instrument (DESI) on the 4m Mayall telescope to measure redshifts of galaxies as faint as expected lensing samples for early LSST data ($m_i \\leq 24.5$). We find that DESI is remarkably efficient at this task, with redshift success rates comparable to the results of observations from 10m-class telescopes with only $\\sim2\\times$ longer integration time (rather than $\\sim 8\\times$ longer as would be expected from aperture-area scaling), while simultaneously achieving $\\sim30$ times larger multiplexing. We also find that the signal-to-noise ratio of the spectra scales as expected for background-limited observations even for the longest exposure times ($\\sim 7$ hours) and faintest targets in the program. These results demonstrate that DESI could provide the definitive redshift sample for the early years of LSST with a modest investment of observing time. Based upon the results of this program, we provide updated predictions for the time required to collect benchmark samples for photo-$z$ training and calibration using a variety of spectroscopic facilities. Finally, we describe a potential \"DESI-Deep\" survey designed to train and calibrate photo-$z$'s for imaging experiments, and provide forecasts of its impact on cosmological inference."
+  },
+  {
+    "title": "Uncertainty quantified three-body model applied to the two-neutron halo $^{22}$C",
+    "url": "http://arxiv.org/abs/2604.06139v1",
+    "arxiv_id": "2604.06139v1",
+    "authors": [
+      "Patrick McGlynn",
+      "Chlo\u00eb Hebborn"
+    ],
+    "published": "2026-04-07T17:45:23+00:00",
+    "summary": "Two-neutron halo nuclei offer a fascinating probe into the behaviour of quantum few-body systems at the limits of binding. Although few nuclei have already been clearly identified, many of their properties remain poorly constrained. $^{22}$C, one of the heaviest, still lacks a precise identification of its static and dynamic properties, such as its mass and dipole strength in the continuum. One main difficulty is that properties of two-neutron halo nuclei are inferred from experimental data using a theoretical model. Therefore, accurately determining the characteristics of two-neutron halo nuclei requires an accurate theoretical model and careful quantification of the uncertainties. In this work, we examine $^{22}$C with a three-body model, seeing $^{22}$C as a $^{20}$C core and two halo neutrons, and quantify for the first time the uncertainties associated with the $^{20}$C-$n$ interaction using a Bayesian approach. We propagate these uncertainties to properties of bound and scattering states of $^{22}$C, as well as its dipole strength. The comparison of our prediction for the matter radius to experimentally-derived values suggests that $^{22}$C is bound by less than 0.35~MeV and is dominated by a $(s_{1/2})^2$ configuration. Our analysis of the dipole strength shows that final-state interaction needs to be included for an accurate description, the uncertainties on the strength function are about 50\\% and are mostly influenced by uncertainties on the ground-state properties, and partial-wave occupation of $^{22}$C depends on the scattering length and the $d_{3/2}$ resonance energy of the $^{20}$C-$n$ unbound system. Such sensitivity of the dipole strength to the properties of both $^{21}$C and $^{22}$C properties motivates a precise measurement of the $^{22}$C dipole strength function, that will allow to precisely and accurately resolve the spectroscopy of these nuclei."
+  },
+  {
+    "title": "A Large-Scale Empirical Comparison of Meta-Learners and Causal Forests for Heterogeneous Treatment Effect Estimation in Marketing Uplift Modeling",
+    "url": "http://arxiv.org/abs/2604.06123v1",
+    "arxiv_id": "2604.06123v1",
+    "authors": [
+      "Aman Singh"
+    ],
+    "published": "2026-04-07T17:35:45+00:00",
+    "summary": "Estimating Conditional Average Treatment Effects (CATE) at the individual level is central to precision marketing, yet systematic benchmarking of uplift modeling methods at industrial scale remains limited. We present UpliftBench, an empirical evaluation of four CATE estimators: S-Learner, T-Learner, X-Learner (all with LightGBM base learners), and Causal Forest (EconML), applied to the Criteo Uplift v2.1 dataset comprising 13.98 million customer records. The near-random treatment assignment (propensity AUC = 0.509) provides strong internal validity for causal estimation. Evaluated via Qini coefficient and cumulative gain curves, the S-Learner achieves the highest Qini score of 0.376, with the top 20% of customers ranked by predicted CATE capturing 77.7% of all incremental conversions, a 3.9x improvement over random targeting. SHAP analysis identifies f8 as the dominant heterogeneous treatment effect (HTE) driver among the 12 anonymized covariates. Causal Forest uncertainty quantification reveals that 1.9% of customers are confident persuadables (lower 95% CI > 0) and 0.1% are confident sleeping dogs (upper 95% CI < 0). Our results provide practitioners with evidence-based guidance on method selection for large-scale uplift modeling pipelines."
+  },
+  {
+    "title": "Lexicographic Robustness and the Efficiency of Optimal Mechanisms",
+    "url": "http://arxiv.org/abs/2604.06105v1",
+    "arxiv_id": "2604.06105v1",
+    "authors": [
+      "Ashwin Kambhampati"
+    ],
+    "published": "2026-04-07T17:17:12+00:00",
+    "summary": "A central challenge in mechanism design is to identify mechanisms whose performance is robust under uncertainty about the environment. The maxmin optimality criterion is commonly used for this purpose, but it often yields a large and economically uninformative set of mechanisms. This paper proposes a lexicographic approach to refining the maxmin criterion and characterizes the efficiency of optimal mechanisms. In canonical screening and auction environments, the strongest refinement $\\unicode{x2013}$ proper robustness $\\unicode{x2013}$ selects ex post efficient mechanisms. By contrast, in a public good provision environment, it identifies the precise form of optimal inefficiencies, which become severe in large economies."
+  },
+  {
+    "title": "eVTOL Aircraft Energy Overhead Estimation under Conflict Resolution in High-Density Airspaces",
+    "url": "http://arxiv.org/abs/2604.06093v1",
+    "arxiv_id": "2604.06093v1",
+    "authors": [
+      "Alex Zongo",
+      "Peng Wei"
+    ],
+    "published": "2026-04-07T17:07:39+00:00",
+    "summary": "Electric vertical takeoff and landing (eVTOL) aircraft operating in high-density urban airspace must maintain safe separation through tactical conflict resolution, yet the energy cost of such maneuvers has not been systematically quantified. This paper investigates how conflict-resolution maneuvers under the Modified Voltage Potential (MVP) algorithm affect eVTOL energy consumption. Using a physics-based power model integrated within a traffic simulation, we analyze approximately 71,767 en route sections within a sector, across traffic densities of 10-60 simultaneous aircraft. The main finding is that MVP-based deconfliction is energy-efficient: median energy overhead remains below 1.5% across all density levels, and the majority of en route flights within the sector incur negligible penalty. However, the distribution exhibits pronounced right-skewness, with tail cases reaching 44% overhead at the highest densities due to sustained multi-aircraft conflicts. The 95th percentile ranges from 3.84% to 5.3%, suggesting that a 4-5% reserve margin accommodates the vast majority of tactical deconfliction scenarios. To support operational planning, we develop a machine learning model that estimates energy overhead at mission initiation. Because conflict outcomes depend on future traffic interactions that cannot be known in advance, the model provides both point estimates and uncertainty bounds. These bounds are conservative; actual outcomes fall within the predicted range more often than the stated confidence level, making them suitable for safety-critical reserve planning. Together, these results validate MVP's suitability for energy-constrained eVTOL operations and provide quantitative guidance for reserve energy determination in Advanced Air Mobility."
+  },
+  {
+    "title": "Posterior Predictive Checks for Gravitational-wave Populations: Limitations and Improvements",
+    "url": "http://arxiv.org/abs/2604.06090v1",
+    "arxiv_id": "2604.06090v1",
+    "authors": [
+      "Simona J. Miller",
+      "Sophia Winney",
+      "Katerina Chatziioannou",
+      "Patrick M. Meyers"
+    ],
+    "published": "2026-04-07T17:03:44+00:00",
+    "summary": "When selecting a model to characterize an astrophysical population, it is crucial to assess whether that model fits the data and, if not, how it can be improved. To this end, posterior predictive checks (PPCs) are a widely-used statistical test of model fit when inferring gravitational-wave source populations. However, PPCs exhibit limitations when assessing single-event parameters with large measurement uncertainty, like the spin tilt angles of the binary black holes (BBHs) observable with the LIGO-Virgo-KAGRA (LVK) detectors. When single-event inference is prior-dominated, traditional PPCs fail to flag even very poor model fits. In this work, we assess the efficacy of various alternative PPCs on poorly-constrained parameters. We compare PPCs conducted on event- vs.~data-level parameters (e.g. posterior samples vs. maximum likelihood points), and explore two additional event-level PPCs: partial predictive checks and split predictive checks. Independent of measurement uncertainty, we find that PPCs on maximum likelihood parameters are always more discerning of model misspecification than any event-level PPC. However, when investigating simulated GWTC-3.0-like catalogs, none of the alternative PPCs show significant improvement over those traditionally used, indicating that at that sensitivity, any limited information in the data about spin tilts is insufficient to diagnose model misspecification.Finally, we apply our suite of PPCs to the spin magnitude and tilt distributions inferred in the most recent LVK catalog, GWTC-4.0. We conclude that the Gaussian Component Spins model used therein under-predicts BBHs with large spin magnitudes and over-predicts those with perfectly anti-aligned tilts."
+  },
+  {
+    "title": "A machine learning framework for uncovering stochastic nonlinear dynamics from noisy data",
+    "url": "http://arxiv.org/abs/2604.06081v1",
+    "arxiv_id": "2604.06081v1",
+    "authors": [
+      "Matteo Bosso",
+      "Giovanni Franzese",
+      "Kushal Swamy",
+      "Maarten Theulings",
+      "Alejandro M. Arag\u00f3n",
+      "Farbod Alijani"
+    ],
+    "published": "2026-04-07T16:59:40+00:00",
+    "summary": "Modeling real-world systems requires accounting for noise - whether it arises from unpredictable fluctuations in financial markets, irregular rhythms in biological systems, or environmental variability in ecosystems. While the behavior of such systems can often be described by stochastic differential equations, a central challenge is understanding how noise influences the inference of system parameters and dynamics from data. Traditional symbolic regression methods can uncover governing equations but typically ignore uncertainty. Conversely, Gaussian processes provide principled uncertainty quantification but offer little insight into the underlying dynamics. In this work, we bridge this gap with a hybrid symbolic regression-probabilistic machine learning framework that recovers the symbolic form of the governing equations while simultaneously inferring uncertainty in the system parameters. The framework combines deep symbolic regression with Gaussian process-based maximum likelihood estimation to separately model the deterministic dynamics and the noise structure, without requiring prior assumptions about their functional forms. We verify the approach on numerical benchmarks, including harmonic, Duffing, and van der Pol oscillators, and validate it on an experimental system of coupled biological oscillators exhibiting synchronization, where the algorithm successfully identifies both the symbolic and stochastic components. The framework is data-efficient, requiring as few as 100-1000 data points, and robust to noise - demonstrating its broad potential in domains where uncertainty is intrinsic and both the structure and variability of dynamical systems must be understood."
+  },
+  {
+    "title": "HiPolicy: Hierarchical Multi-Frequency Action Chunking for Policy Learning",
+    "url": "http://arxiv.org/abs/2604.06067v1",
+    "arxiv_id": "2604.06067v1",
+    "authors": [
+      "Jiyao Zhang",
+      "Zimu Han",
+      "Junhan Wang",
+      "Xionghao Wu",
+      "Shihong Lin",
+      "Jinzhou Li",
+      "Hongwei Fan",
+      "Ruihai Wu",
+      "Dongjiang Li",
+      "Hao Dong"
+    ],
+    "published": "2026-04-07T16:47:38+00:00",
+    "summary": "Robotic imitation learning faces a fundamental trade-off between modeling long-horizon dependencies and enabling fine-grained closed-loop control. Existing fixed-frequency action chunking approaches struggle to achieve both. Building on this insight, we propose HiPolicy, a hierarchical multi-frequency action chunking framework that jointly predicts action sequences at different frequencies to capture both coarse high-level plans and precise reactive motions. We extract and fuse hierarchical features from history observations aligned to each frequency for multi-frequency chunk generation, and introduce an entropy-guided execution mechanism that adaptively balances long-horizon planning with fine-grained control based on action uncertainty. Experiments on diverse simulated benchmarks and real-world manipulation tasks show that HiPolicy can be seamlessly integrated into existing 2D and 3D generative policies, delivering consistent improvements in performance while significantly enhancing execution efficiency."
+  },
+  {
+    "title": "Staggered Integral Online Conformal Prediction for Safe Dynamics Adaptation with Multi-Step Coverage Guarantees",
+    "url": "http://arxiv.org/abs/2604.06058v1",
+    "arxiv_id": "2604.06058v1",
+    "authors": [
+      "Daniel M. Cherenson",
+      "Dimitra Panagou"
+    ],
+    "published": "2026-04-07T16:44:06+00:00",
+    "summary": "Safety-critical control of uncertain, adaptive systems often relies on conservative, worst-case uncertainty bounds that limit closed-loop performance. Online conformal prediction is a powerful data-driven method for quantifying uncertainty when truth values of predicted outputs are revealed online; however, for systems that adapt the dynamics without measurements of the state derivatives, standard online conformal prediction is insufficient to quantify the model uncertainty. We propose Staggered Integral Online Conformal Prediction (SI-OCP), an algorithm utilizing an integral score function to quantify the lumped effect of disturbance and learning error. This approach provides long-run coverage guarantees, resulting in long-run safety when synthesized with safety-critical controllers, including robust tube model predictive control. Finally, we validate the proposed approach through a numerical simulation of an all-layer deep neural network (DNN) adaptive quadcopter using robust tube MPC, highlighting the applicability of our method to complex learning parameterizations and control strategies."
+  },
+  {
+    "title": "The Separation Principle and the Dual-Certainty Equivalence Gap in Model Predictive Control",
+    "url": "http://arxiv.org/abs/2604.06045v1",
+    "arxiv_id": "2604.06045v1",
+    "authors": [
+      "Tren Baltussen",
+      "Nathan P. Lawrence",
+      "Alexander Katriniok",
+      "Ali Mesbah",
+      "Maurice Heemels"
+    ],
+    "published": "2026-04-07T16:37:40+00:00",
+    "summary": "Dual control addresses the trade-off between exploitation and exploration, where control inputs both regulate the system and generate informative data for estimation and identification. For certain problem classes, control and estimation can be designed independently without loss of optimality, a property known as the separation principle. However, in stochastic control problems with model uncertainty and constraints, this principle generally breaks down, and introduces the need for dual control. In this paper, we propose an information-weighted dual model predictive control (MPC) formulation and introduce metrics that quantify the dependence of the MPC policy on the uncertainty. We focus on parametric uncertainty in linear systems with Gaussian noise, though the metrics can be applied more broadly. Numerical results show that the dependence of the MPC policy on the posterior covariance is largest under high uncertainty and vanishes as the posterior covariance contracts, providing empirical evidence of the dual effect in closed loop. Moreover, the dual controller improves regulation performance and model accuracy compared to certainty-equivalent MPC."
+  },
+  {
     "title": "The Zhamanshin Impact Event: Potential Implications for Environmental Responses and Biological Linkages on Earth and Beyond",
     "url": "http://arxiv.org/abs/2604.04884v1",
     "arxiv_id": "2604.04884v1",
