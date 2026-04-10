@@ -1,5 +1,140 @@
 [
   {
+    "title": "A GPU-Accelerated JAX Framework for Robust Parametric Component Separation and Clustering Optimization for CMB Polarization Satellites",
+    "url": "http://arxiv.org/abs/2604.08463v1",
+    "arxiv_id": "2604.08463v1",
+    "authors": [
+      "Wassim Kabalan",
+      "Arianna Rizzieri",
+      "Wuhyun Sohn",
+      "Artem Basyrov",
+      "Alexandre Boucaud",
+      "Benjamin Beringue",
+      "Pierre Chanial",
+      "Ema Tsang King Sang",
+      "Josquin Errard"
+    ],
+    "published": "2026-04-09T16:58:17+00:00",
+    "summary": "We present a novel, JAX-powered implementation of a parametric component-separation method for CMB polarization data, explicitly designed to handle spatially varying foreground Spectral Energy Distributions (SEDs). The approach models this variation across the sky by grouping sets of pixels that share common foreground spectral parameters, scanning over thousands of such configurations to evaluate the trade-off between model complexity and residual systematic contamination. Built within the FURAX framework -- a JAX-powered environment for CMB data analysis -- our pipeline extends the fgbuster parametric formalism. It enables fully vectorized, GPU-accelerated evaluation of the spectral likelihood, map reconstruction, and diagnostic metrics across tens of thousands of pixel subset configurations, noise realizations, and sky regions. Our implementation achieves up to $\\sim 100\\times$ speed-up over the scipy TNC optimizer used in fgbuster when running on GPUs, as well as giving more robust results. When applied to LiteBIRD-like simulations with spatially varying foreground SEDs, our optimized K-means configuration reduces the 68% upper limit on the tensor-to-scalar ratio $r$ by $\\approx 30\\%$ relative to a fixed, previously derived multi-resolution configuration, while maintaining competitive statistical uncertainties."
+  },
+  {
+    "title": "Entropy-Gradient Grounding: Training-Free Evidence Retrieval in Vision-Language Models",
+    "url": "http://arxiv.org/abs/2604.08456v1",
+    "arxiv_id": "2604.08456v1",
+    "authors": [
+      "Marcel Gr\u00f6pl",
+      "Jaewoo Jung",
+      "Seungryong Kim",
+      "Marc Pollefeys",
+      "Sunghwan Hong"
+    ],
+    "published": "2026-04-09T16:51:42+00:00",
+    "summary": "Despite rapid progress, pretrained vision-language models still struggle when answers depend on tiny visual details or on combining clues spread across multiple regions, as in documents and compositional queries. We address this by framing grounding as test-time evidence retrieval: given a query, the model should actively identify where to look next to resolve ambiguity. To this end, we propose a training-free, model-intrinsic grounding method that uses uncertainty as supervision. Specifically, we compute the entropy of the model's next-token distribution and backpropagate it to the visual token embeddings to obtain an entropy-gradient relevance map, without auxiliary detectors or attention-map heuristics. We then extract and rank multiple coherent regions to support multi-evidence queries, and introduce an iterative zoom-and-reground procedure with a spatial-entropy stopping rule to avoid over-refinement. Experiments on seven benchmarks across four VLM architectures demonstrate consistent improvements over existing methods, with the largest gains on detail-critical and high-resolution settings, while also producing more interpretable evidence localizations."
+  },
+  {
+    "title": "Less Approximates More: Harmonizing Performance and Confidence Faithfulness via Hybrid Post-Training for High-Stakes Tasks",
+    "url": "http://arxiv.org/abs/2604.08454v1",
+    "arxiv_id": "2604.08454v1",
+    "authors": [
+      "Haokai Ma",
+      "Lee Yan Zhen",
+      "Gang Yang",
+      "Yunshan Ma",
+      "Ee-Chien Chang",
+      "Tat-Seng Chua"
+    ],
+    "published": "2026-04-09T16:50:11+00:00",
+    "summary": "Large language models are increasingly deployed in high-stakes tasks, where confident yet incorrect inferences may cause severe real-world harm, bringing the previously overlooked issue of confidence faithfulness back to the forefront. A promising solution is to jointly optimize unsupervised Reinforcement Learning from Internal Feedback (RLIF) with reasoning-trace-guided Reasoning Distillation (RD), which may face three persistent challenges: scarcity of high-quality training corpora, factually unwarranted overconfidence and indiscriminate fusion that amplifies erroneous updates. Inspired by the human confidence accumulation from uncertainty to certainty, we propose Progressive Reasoning Gain (PRG) to measure whether reasoning steps progressively strengthen support for the final answer. Furthermore, we introduce HyTuning, a hybrid post-training framework that adaptively reweights RD and RLIF via a PRG-style metric, using scarce supervised reasoning traces as a stable anchor while exploiting abundant unlabeled queries for scalability. Experiments on several domain-specific and general benchmarks demonstrate that HyTuning improves accuracy while achieving confidence faithfulness under limited supervision, supporting a practical \"Less Approximates More\" effect."
+  },
+  {
+    "title": "TASU2: Controllable CTC Simulation for Alignment and Low-Resource Adaptation of Speech LLMs",
+    "url": "http://arxiv.org/abs/2604.08384v1",
+    "arxiv_id": "2604.08384v1",
+    "authors": [
+      "Jing Peng",
+      "Chenghao Wang",
+      "Yi Yang",
+      "Lirong Qian",
+      "Junjie Li",
+      "Yu Xi",
+      "Shuai Wang",
+      "Kai Yu"
+    ],
+    "published": "2026-04-09T15:44:45+00:00",
+    "summary": "Speech LLM post-training increasingly relies on efficient cross-modal alignment and robust low-resource adaptation, yet collecting large-scale audio-text pairs remains costly. Text-only alignment methods such as TASU reduce this burden by simulating CTC posteriors from transcripts, but they provide limited control over uncertainty and error rate, making curriculum design largely heuristic. We propose \\textbf{TASU2}, a controllable CTC simulation framework that simulates CTC posterior distributions under a specified WER range, producing text-derived supervision that better matches the acoustic decoding interface. This enables principled post-training curricula that smoothly vary supervision difficulty without TTS. Across multiple source-to-target adaptation settings, TASU2 improves in-domain and out-of-domain recognition over TASU, and consistently outperforms strong baselines including text-only fine-tuning and TTS-based augmentation, while mitigating source-domain performance degradation."
+  },
+  {
+    "title": "Don't Overthink It: Inter-Rollout Action Agreement as a Free Adaptive-Compute Signal for LLM Agents",
+    "url": "http://arxiv.org/abs/2604.08369v1",
+    "arxiv_id": "2604.08369v1",
+    "authors": [
+      "Khushal Sethi"
+    ],
+    "published": "2026-04-09T15:34:22+00:00",
+    "summary": "Inference-time compute scaling has emerged as a powerful technique for improving the reliability of large language model (LLM) agents, but existing methods apply compute uniformly: every decision step receives the same budget regardless of its difficulty. We introduce TrACE (Trajectorical Adaptive Compute via agrEement), a training-free controller that allocates LLM calls adaptively across agent timesteps by measuring inter-rollout action agreement. At each step, TrACE samples a small set of candidate next actions and measures how consistently the model commits to the same action. High agreement signals an easy decision; the controller commits immediately. Low agreement signals uncertainty; the controller samples additional rollouts up to a configurable cap before committing to the plurality action. No learned components, no external verifier, and no human labels are required. We evaluate TrACE against greedy decoding and fixed-budget self-consistency (SC-4, SC-8) on two benchmarks spanning single-step reasoning (GSM8K, n=50) and multi-step household navigation (MiniHouse, n=30), using a Qwen 2.5 3B Instruct model running on CPU. TrACE-4 matches SC-4 accuracy while using 33% fewer LLM calls on GSM8K and 39% fewer on MiniHouse. TrACE-8 matches SC-8 accuracy with 55% fewer calls on GSM8K and 65% fewer on MiniHouse. We further show that inter-rollout agreement is a reliable signal of step-level success, validating the core hypothesis that the model's own output consistency encodes difficulty information that can be exploited without training. TrACE is the first training-free, per-timestep adaptive-compute controller for LLM agents to be evaluated on multi-step sequential decision tasks."
+  },
+  {
+    "title": "The peculiar velocity correlation function of the Cosmicflows-4 catalog",
+    "url": "http://arxiv.org/abs/2604.08314v1",
+    "arxiv_id": "2604.08314v1",
+    "authors": [
+      "Yuyu Wang",
+      "Hume A. Feldman",
+      "Richard Watkins",
+      "Xiaohu Yang"
+    ],
+    "published": "2026-04-09T14:48:30+00:00",
+    "summary": "We present an analysis of the parallel peculiar velocity correlation function using data from the Cosmicflows-4 (CF4) survey. CF4 significantly extends the depth of the peculiar velocity measurements, mitigating the impact of observers on the cosmic variance. We examine the distribution of cosmic variance using different velocity correlation estimators. The combination of the large peculiar velocity uncertainties and the anisotropy distribution of the CF4 data across the northern and southern hemispheres results in substantial statistical uncertainties in the velocity correlation function. To address this, we test different weighing schemes in the velocity correlation function and implement a more accurate peculiar velocity estimator that reduces velocity uncertainties, consequently decreasing the statistical uncertainty. Using the CF4 group dataset, we derive a growth rate of $f\u03c3_8=0.384^{+0.116}_{-0.194}$ and a local growth rate of $f\u03c3_8=0.569^{+0.054}_{-0.06}$ through a Markov Chain Monte Carlo method."
+  },
+  {
+    "title": "Bayesian Inference for Estimating Generation Costs in Electricity Markets",
+    "url": "http://arxiv.org/abs/2604.08309v1",
+    "arxiv_id": "2604.08309v1",
+    "authors": [
+      "Matthias Pirlet",
+      "Adrien Bolland",
+      "Alexandre Huynen",
+      "Quentin Louveaux",
+      "Gilles Louppe",
+      "Damien Ernst"
+    ],
+    "published": "2026-04-09T14:42:59+00:00",
+    "summary": "Estimating generation costs from observed electricity market data is essential for market simulation, strategic bidding, and system planning. To that end, we model the relationship between generation costs and production schedules with a latent variable model. Estimating generation costs from observed schedules is then formulated as Bayesian inference. A prior distribution encodes an initial belief on parameters, and the inference consists of updating the belief with the posterior distribution given observations. We use balanced neural posterior estimation (BNPE) to learn this posterior. Validation on the IEEE RTS-96 test system shows that marginal costs are recovered with narrow credible intervals, while start-up costs remain largely unidentifiable from schedules alone. The method is benchmarked against an inverse-optimization algorithm that exhibits larger parameter errors without uncertainty quantification."
+  },
+  {
+    "title": "Robust Multi-Objective Optimization for Bicycle Rebalancing in Shared Mobility Systems",
+    "url": "http://arxiv.org/abs/2604.08296v1",
+    "arxiv_id": "2604.08296v1",
+    "authors": [
+      "Diego Daniel Pedroza-Perez",
+      "Gabriel Luque",
+      "Sergio Nesmachnow",
+      "Jamal Toutouh"
+    ],
+    "published": "2026-04-09T14:30:59+00:00",
+    "summary": "Dock-based bike-sharing systems exhibit spatial imbalances between bicycle supply and user demand, often addressed through overnight truck-based rebalancing. This work studies static overnight rebalancing under demand uncertainty modeled as a tri-objective optimization problem. The objectives minimize total travel distance, expected unmet demand, and a robustness-oriented unmet demand measure over high-demand scenarios.   Route plans are evaluated via a recourse simulation that enforces truck loads and station capacity constraints across multiple demand realizations. The robustness objective supports selecting plans that reduce peak-demand service degradation. Trade-off solutions are approximated with Non-dominated Sorting Genetic Algorithm II using a permutation--partition encoding and domain-specific relocation operators, including a biased best-improvement move for station relocation.   Experiments on the real Barcelona Bicing system with 460 stations show well-distributed Pareto sets and substantial contributions to the reference non-dominated set. Greedy constructive baselines mainly yield extreme solutions and are often dominated."
+  },
+  {
+    "title": "Recent Neutrino Oscillation and Cross-Section Results from the T2K Experiment",
+    "url": "http://arxiv.org/abs/2604.08259v1",
+    "arxiv_id": "2604.08259v1",
+    "authors": [
+      "Nick Latham"
+    ],
+    "published": "2026-04-09T13:46:45+00:00",
+    "summary": "The T2K long-baseline neutrino oscillation experiment in Japan continues to lead the search for leptonic charge-parity violation while providing precision measurements of mixing and mass splitting parameters. Central to this programme is the mitigation of systematic uncertainties through the near detector complex, which provides high-statistics neutrino-nucleus interaction cross-section measurements across various targets. This contribution presents the latest T2K oscillation results, incorporating the first data with a gadolinium-loaded far detector, and highlights several recent cross-section measurements, including several world-first measurements of rare interaction channels. Together, these results demonstrate the vital synergy between interaction modelling and oscillation analysis in the search for charge-parity violation in the T2K-II era."
+  },
+  {
+    "title": "High-precision ab initio nuclear theory: Learning to overcome model-space limitations",
+    "url": "http://arxiv.org/abs/2604.08253v1",
+    "arxiv_id": "2604.08253v1",
+    "authors": [
+      "Marco Kn\u00f6ll"
+    ],
+    "published": "2026-04-09T13:42:35+00:00",
+    "summary": "High-precision predictions of nuclear properties are a central objective of ab initio nuclear structure theory. However, state-of-the-art many-body methods rely on truncated model spaces to render the nuclear many-body problem tractable, which remains a major source of theoretical error in computations of nuclear observables. In recent years, machine learning, and artificial neural network approaches in particular, have emerged as a powerful data-driven framework for learning convergence patterns directly from ab initio calculations and enabling precision extrapolations beyond the reach of conventional schemes. This review focuses on model-space extrapolation methods developed for the no-core shell model and related many-body methods. We discuss machine learning extrapolation frameworks in comparison to conventional methods and assess their performance for energy spectra, radii, and electromagnetic observables, with particular emphasis on achievable precision and uncertainty estimates through statistical and correlation-based strategies. These developments establish machine learning as an increasingly important component of the precision toolbox in ab initio nuclear theory, enhancing the reliability and predictive power of ab initio nuclear structure calculations."
+  },
+  {
     "title": "When waves meet rays: Seismic vibrations and cosmic showers to test gravity",
     "url": "http://arxiv.org/abs/2604.07333v1",
     "arxiv_id": "2604.07333v1",
