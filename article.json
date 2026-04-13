@@ -1,5 +1,156 @@
 [
   {
+    "title": "VL-Calibration: Decoupled Confidence Calibration for Large Vision-Language Models Reasoning",
+    "url": "http://arxiv.org/abs/2604.09529v1",
+    "arxiv_id": "2604.09529v1",
+    "authors": [
+      "Wenyi Xiao",
+      "Xinchi Xu",
+      "Leilei Gan"
+    ],
+    "published": "2026-04-10T17:47:19+00:00",
+    "summary": "Large Vision Language Models (LVLMs) achieve strong multimodal reasoning but frequently exhibit hallucinations and incorrect responses with high certainty, which hinders their usage in high-stakes domains. Existing verbalized confidence calibration methods, largely developed for text-only LLMs, typically optimize a single holistic confidence score using binary answer-level correctness. This design is mismatched to LVLMs: an incorrect prediction may arise from perceptual failures or from reasoning errors given correct perception, and a single confidence conflates these sources while visual uncertainty is often dominated by language priors. To address these issues, we propose VL-Calibration, a reinforcement learning framework that explicitly decouples confidence into visual and reasoning confidence. To supervise visual confidence without ground-truth perception labels, we introduce an intrinsic visual certainty estimation that combines (i) visual grounding measured by KL-divergence under image perturbations and (ii) internal certainty measured by token entropy. We further propose token-level advantage reweighting to focus optimization on tokens based on visual certainty, suppressing ungrounded hallucinations while preserving valid perception. Experiments on thirteen benchmarks show that VL-Calibration effectively improves calibration while boosting visual reasoning accuracy, and it generalizes to out-of-distribution benchmarks across model scales and architectures."
+  },
+  {
+    "title": "Envisioning the Future, One Step at a Time",
+    "url": "http://arxiv.org/abs/2604.09527v1",
+    "arxiv_id": "2604.09527v1",
+    "authors": [
+      "Stefan Andreas Baumann",
+      "Jannik Wiese",
+      "Tommaso Martorella",
+      "Mahdi M. Kalayeh",
+      "Bj\u00f6rn Ommer"
+    ],
+    "published": "2026-04-10T17:46:05+00:00",
+    "summary": "Accurately anticipating how complex, diverse scenes will evolve requires models that represent uncertainty, simulate along extended interaction chains, and efficiently explore many plausible futures. Yet most existing approaches rely on dense video or latent-space prediction, expending substantial capacity on dense appearance rather than on the underlying sparse trajectories of points in the scene. This makes large-scale exploration of future hypotheses costly and limits performance when long-horizon, multi-modal motion is essential. We address this by formulating the prediction of open-set future scene dynamics as step-wise inference over sparse point trajectories. Our autoregressive diffusion model advances these trajectories through short, locally predictable transitions, explicitly modeling the growth of uncertainty over time. This dynamics-centric representation enables fast rollout of thousands of diverse futures from a single image, optionally guided by initial constraints on motion, while maintaining physical plausibility and long-range coherence. We further introduce OWM, a benchmark for open-set motion prediction based on diverse in-the-wild videos, to evaluate accuracy and variability of predicted trajectory distributions under real-world uncertainty. Our method matches or surpasses dense simulators in predictive accuracy while achieving orders-of-magnitude higher sampling speed, making open-set future prediction both scalable and practical. Project page: http://compvis.github.io/myriad."
+  },
+  {
+    "title": "Toward World Models for Epidemiology",
+    "url": "http://arxiv.org/abs/2604.09519v1",
+    "arxiv_id": "2604.09519v1",
+    "authors": [
+      "Zeeshan Memon",
+      "Yiqi Su",
+      "Christo Kurisummoottil Thomas",
+      "Walid Saad",
+      "Liang Zhao",
+      "Naren Ramakrishnan"
+    ],
+    "published": "2026-04-10T17:39:20+00:00",
+    "summary": "World models have emerged as a unifying paradigm for learning latent dynamics, simulating counterfactual futures, and supporting planning under uncertainty. In this paper, we argue that computational epidemiology is a natural and underdeveloped setting for world models. This is because epidemic decision-making requires reasoning about latent disease burden, imperfect and policy-dependent surveillance signals, and intervention effects are mediated by adaptive human behavior. We introduce a conceptual framework for epidemiological world models, formulating epidemics as controlled, partially observed dynamical systems in which (i) the true epidemic state is latent, (ii) observations are noisy and endogenous to policy, and (iii) interventions act as sequential actions whose effects propagate through behavioral and social feedback. We present three case studies that illustrate why explicit world modeling is necessary for policy-relevant reasoning: strategic misreporting in behavioral surveillance, systematic delays in time-lagged signals such as hospitalizations and deaths, and counterfactual intervention analysis where identical histories diverge under alternative action sequences."
+  },
+  {
+    "title": "Threshold Top-Quark Pair-Production: Cross Sections and Key Uncertainties",
+    "url": "http://arxiv.org/abs/2604.09485v1",
+    "arxiv_id": "2604.09485v1",
+    "authors": [
+      "Maria Vittoria Garzelli",
+      "Giovanni Limatola",
+      "Sven-Olaf Moch",
+      "Matthias Steinhauser",
+      "Oleksandr Zenaiev"
+    ],
+    "published": "2026-04-10T16:51:37+00:00",
+    "summary": "We study theoretical uncertainties in predicting top-quark pair-production near threshold at the LHC using the non-relativistic QCD framework. We include variations in the top-quark mass and width, the strong coupling $\u03b1_s$, renormalization and factorization scales, and parton distribution functions, as well as uncertainties from the color-singlet and octet Green's functions that describe quasi-bound toponium formation. These uncertainties are compared with those from standard fixed-order QCD predictions, and implications for ATLAS and CMS analyses are discussed. For the LHC at 13 TeV center-of-mass energy, the integral of the top-quark pair invariant-mass distribution from 340 to 350 GeV is 11.67 pb with ${}^{+1.43}_{-1.47}$ pb uncertainty. The corresponding excess after subtracting the POWHEG-BOX result is 4.15 pb with the same uncertainties."
+  },
+  {
+    "title": "SafeMind: A Risk-Aware Differentiable Control Framework for Adaptive and Safe Quadruped Locomotion",
+    "url": "http://arxiv.org/abs/2604.09474v1",
+    "arxiv_id": "2604.09474v1",
+    "authors": [
+      "Zukun Zhang",
+      "Kai Shu",
+      "Mingqiao Mo"
+    ],
+    "published": "2026-04-10T16:33:32+00:00",
+    "summary": "Learning-based quadruped controllers achieve impressive agility but typically lack formal safety guarantees under model uncertainty, perception noise, and unstructured contact conditions. We introduce SafeMind, a differentiable stochastic safety-control framework that unifies probabilistic Control Barrier Functions with semantic context understanding and meta-adaptive risk calibration. SafeMind explicitly models epistemic and aleatoric uncertainty through a variance-aware barrier constraint embedded in a differentiable quadratic program, thereby preserving gradient flow for end-to-end training. A semantics-to-constraint encoder modulates safety margins using perceptual or language cues, while a meta-adaptive learner continuously adjusts risk sensitivity across environments. We provide theoretical conditions for probabilistic forward invariance, feasibility, and stability under stochastic dynamics. SafeMind is deployed on Unitree A1 and ANYmal C at 200~Hz and validated across 12 terrain types, dynamic obstacles, morphology perturbations, and semantically defined tasks. Experiments show that SafeMind reduces safety violations by 3--10x and energy consumption by 10--15% relative to state-of-the-art CBF, MPC, and hybrid RL baselines, while maintaining real-time control performance."
+  },
+  {
+    "title": "Adaptor: Advancing Assistive Teleoperation with Few-Shot Learning and Cross-Operator Generalization",
+    "url": "http://arxiv.org/abs/2604.09462v1",
+    "arxiv_id": "2604.09462v1",
+    "authors": [
+      "Yu Liu",
+      "Yihang Yin",
+      "Tianlv Huang",
+      "Fei Yan",
+      "Yuan Xu",
+      "Weinan Hong",
+      "Wei Han",
+      "Yue Cao",
+      "Xiangyu Chen",
+      "Zipei Fan",
+      "Xuan Song"
+    ],
+    "published": "2026-04-10T16:19:43+00:00",
+    "summary": "Assistive teleoperation enhances efficiency via shared control, yet inter-operator variability, stemming from diverse habits and expertise, induces highly heterogeneous trajectory distributions that undermine intent recognition stability. We present Adaptor, a few-shot framework for robust cross-operator intent recognition. The Adaptor bridges the domain gap through two stages: (i) preprocessing, which models intent uncertainty by synthesizing trajectory perturbations via noise injection and performs geometry-aware keyframe extraction; and (ii) policy learning, which encodes the processed trajectories with an Intention Expert and fuses them with the pre-trained vision-language model context to condition an Action Expert for action generation. Experiments on real-world and simulated benchmarks demonstrate that Adaptor achieves state-of-the-art performance, improving success rates and efficiency over baselines. Moreover, the method exhibits low variance across operators with varying expertise, demonstrating robust cross-operator generalization."
+  },
+  {
+    "title": "HiL-Bench (Human-in-Loop Benchmark): Do Agents Know When to Ask for Help?",
+    "url": "http://arxiv.org/abs/2604.09408v1",
+    "arxiv_id": "2604.09408v1",
+    "authors": [
+      "Mohamed Elfeki",
+      "Tu Trinh",
+      "Kelvin Luu",
+      "Guangze Luo",
+      "Nathan Hunt",
+      "Ernesto Montoya",
+      "Nandan Marwaha",
+      "Yannis He",
+      "Charles Wang",
+      "Fernando Crabedo",
+      "Alessa Castilo",
+      "Bing Liu"
+    ],
+    "published": "2026-04-10T15:21:44+00:00",
+    "summary": "Frontier coding agents solve complex tasks when given complete context but collapse when specifications are incomplete or ambiguous. The bottleneck is not raw capability, but judgment: knowing when to act autonomously and when to ask for help. Current benchmarks are blind to this failure mode. They supply unambiguous detailed instructions and solely reward execution correctness, so an agent that makes a lucky guess for a missing requirement will score identically to one that would have asked to be certain.   We present HiL-Bench (Human-in-the-Loop Benchmark) to measure this selective escalation skill. Each task contains human-validated blockers (missing information, ambiguous requests, contradictory information) that surface only through progressive exploration, not upfront inspection. Our core metric, Ask-F1, the harmonic mean of question precision and blocker recall, captures the tension between over-asking and silent guessing; its structure architecturally prevents gaming through question spam.   Evaluation across SWE and text-to-SQL domains reveals a large universal judgment gap: no frontier model recovers more than a fraction of its full-information performance when deciding whether to ask. Failure analysis identifies three key help-seeking patterns: overconfident wrong beliefs with no gap detection; high uncertainty detection yet persistent errors; broad, imprecise escalation without self-correction. These consistent patterns confirm poor help-seeking is a model-level flaw, not task-specific. RL training on shaped Ask-F1 reward shows judgment is trainable: a 32B model improves both help-seeking quality and task pass rate, with gains that transfer across domains. The model does not learn domain-specific heuristics for when to ask; it learns to detect unresolvable uncertainty and act on it."
+  },
+  {
+    "title": "Quantum Uncertainty and Entropy",
+    "url": "http://arxiv.org/abs/2604.09384v1",
+    "arxiv_id": "2604.09384v1",
+    "authors": [
+      "Giovanni Chesi",
+      "Lorenzo Maccone"
+    ],
+    "published": "2026-04-10T14:53:37+00:00",
+    "summary": "We review the plethora of uncertainty relations that appear in quantum mechanics and their nuances. We present both foundational applications, e.g. in understanding and defining complementarity, and practical applications, e.g. in quantum metrology and cryptography. Both variance- and entropy-based uncertainties are covered here."
+  },
+  {
+    "title": "Variational Quantum Physics-Informed Neural Networks for Hydrological PDE-Constrained Learning with Inherent Uncertainty Quantification",
+    "url": "http://arxiv.org/abs/2604.09374v1",
+    "arxiv_id": "2604.09374v1",
+    "authors": [
+      "Prasad Nimantha Madusanka Ukwatta Hewage",
+      "Midhun Chakkravarthy",
+      "Ruvan Kumara Abeysekara"
+    ],
+    "published": "2026-04-10T14:45:38+00:00",
+    "summary": "We propose a Hybrid Quantum-Classical Physics-Informed Neural Network (HQC-PINN) that integrates parameterized variational quantum circuits into the PINN framework for hydrological PDE-constrained learning. Our architecture encodes multi-source remote sensing features into quantum states via trainable angle encoding, processes them through a hardware-efficient variational ansatz with entangling layers, and constrains the output using the Saint-Venant shallow water equations and Manning's flow equation as differentiable physics loss terms. The inherent stochasticity of quantum measurement provides a natural mechanism for uncertainty quantification without requiring explicit Bayesian inference machinery. We further introduce a quantum transfer learning protocol that pre-trains on multi-hazard disaster data before fine-tuning on flood-specific events. Numerical simulations on multi-modal satellite and meteorological data from the Kalu River basin, Sri Lanka, show that the HQC-PINN achieves convergence in ~3x fewer training epochs and uses ~44% fewer trainable parameters compared to an equivalent classical PINN, while maintaining competitive classification accuracy. Theoretical analysis indicates that hydrological physics constraints narrow the effective optimization landscape, providing a natural mitigation against barren plateaus in variational quantum circuits. This work establishes the first application of quantum-enhanced physics-informed learning to hydrological prediction and demonstrates a viable path toward quantum advantage in environmental science."
+  },
+  {
+    "title": "Robust 4D Visual Geometry Transformer with Uncertainty-Aware Priors",
+    "url": "http://arxiv.org/abs/2604.09366v1",
+    "arxiv_id": "2604.09366v1",
+    "authors": [
+      "Ying Zang",
+      "Yidong Han",
+      "Chaotao Ding",
+      "Yuanqi Hu",
+      "Deyi Ji",
+      "Qi Zhu",
+      "Xuanfu Li",
+      "Jin Ma",
+      "Lingyun Sun",
+      "Tianrun Chen",
+      "Lanyun Zhu"
+    ],
+    "published": "2026-04-10T14:36:50+00:00",
+    "summary": "Reconstructing dynamic 4D scenes is an important yet challenging task. While 3D foundation models like VGGT excel in static settings, they often struggle with dynamic sequences where motion causes significant geometric ambiguity. To address this, we present a framework designed to disentangle dynamic and static components by modeling uncertainty across different stages of the reconstruction process. Our approach introduces three synergistic mechanisms: (1) Entropy-Guided Subspace Projection, which leverages information-theoretic weighting to adaptively aggregate multi-head attention distributions, effectively isolating dynamic motion cues from semantic noise; (2) Local-Consistency Driven Geometry Purification, which enforces spatial continuity via radius-based neighborhood constraints to eliminate structural outliers; and (3) Uncertainty-Aware Cross-View Consistency, which formulates multi-view projection refinement as a heteroscedastic maximum likelihood estimation problem, utilizing depth confidence as a probabilistic weight. Experiments on dynamic benchmarks show that our approach outperforms current state-of-the-art methods, reducing Mean Accuracy error by 13.43\\% and improving segmentation F-measure by 10.49\\%. Our framework maintains the efficiency of feed-forward inference and requires no task-specific fine-tuning or per-scene optimization."
+  },
+  {
     "title": "A GPU-Accelerated JAX Framework for Robust Parametric Component Separation and Clustering Optimization for CMB Polarization Satellites",
     "url": "http://arxiv.org/abs/2604.08463v1",
     "arxiv_id": "2604.08463v1",
