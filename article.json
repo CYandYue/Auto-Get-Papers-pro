@@ -1,5 +1,179 @@
 [
   {
+    "title": "Budget-Aware Uncertainty for Radiotherapy Segmentation QA Using nnU-Net",
+    "url": "http://arxiv.org/abs/2604.11798v1",
+    "arxiv_id": "2604.11798v1",
+    "authors": [
+      "Ricardo Coimbra Brioso",
+      "Lorenzo Mondo",
+      "Damiano Dei",
+      "Nicola Lambri",
+      "Pietro Mancosu",
+      "Marta Scorsetti",
+      "Daniele Loiacono"
+    ],
+    "published": "2026-04-13T17:58:15+00:00",
+    "summary": "Accurate delineation of the Clinical Target Volume (CTV) is essential for radiotherapy planning, yet remains time-consuming and difficult to assess, especially for complex treatments such as Total Marrow and Lymph Node Irradiation (TMLI). While deep learning-based auto-segmentation can reduce workload, safe clinical deployment requires reliable cues indicating where models may be wrong. In this work, we propose a budget-aware uncertainty-driven quality assurance (QA) framework built on nnU-Net, combining uncertainty quantification and post-hoc calibration to produce voxel-wise uncertainty maps (based on predictive entropy) that can guide targeted manual review. We compare temperature scaling (TS), deep ensembles (DE), checkpoint ensembles (CE), and test-time augmentation (TTA), evaluated both individually and in combination on TMLI as a representative use case. Reliability is assessed through ROI-masked calibration metrics and uncertainty--error alignment under realistic revision constraints, summarized as AUC over the top 0-5% most uncertain voxels. Across configurations, segmentation accuracy remains stable, whereas TS substantially improves calibration. Uncertainty-error alignment improves most with calibrated checkpoint-based inference, leading to uncertainty maps that highlight more consistently regions requiring manual edits. Overall, integrating calibration with efficient ensembling seems a promising strategy to implement a budget-aware QA workflow for radiotherapy segmentation."
+  },
+  {
+    "title": "Collaborative Multi-Agent Scripts Generation for Enhancing Imperfect-Information Reasoning in Murder Mystery Games",
+    "url": "http://arxiv.org/abs/2604.11741v1",
+    "arxiv_id": "2604.11741v1",
+    "authors": [
+      "Keyang Zhong",
+      "Junlin Xie",
+      "Hefeng Wu",
+      "Haofeng Li",
+      "Guanbin Li"
+    ],
+    "published": "2026-04-13T17:16:23+00:00",
+    "summary": "Vision-language models (VLMs) have shown impressive capabilities in perceptual tasks, yet they degrade in complex multi-hop reasoning under multiplayer game settings with imperfect and deceptive information. In this paper, we study a representative multiplayer task, Murder Mystery Games, which require inferring hidden truths based on partial clues provided by roles with different intentions. To address this challenge, we propose a collaborative multi-agent framework for evaluating and synthesizing high-quality, role-driven multiplayer game scripts, enabling fine-grained interaction patterns tailored to character identities (i.e., murderer vs. innocent). Our system generates rich multimodal contexts, including character backstories, visual and textual clues, and multi-hop reasoning chains, through coordinated agent interactions. We design a two-stage agent-monitored training strategy to enhance the reasoning ability of VLMs: (1) chain-of-thought based fine-tuning on curated and synthetic datasets that model uncertainty and deception; (2) GRPO-based reinforcement learning with agent-monitored reward shaping, encouraging the model to develop character-specific reasoning behaviors and effective multimodal multi-hop inference. Extensive experiments demonstrate that our method significantly boosts the performance of VLMs in narrative reasoning, hidden fact extraction, and deception-resilient understanding. Our contributions offer a scalable solution for training and evaluating VLMs under uncertain, adversarial, and socially complex conditions, laying the groundwork for future benchmarks in multimodal multi-hop reasoning under imperfect information."
+  },
+  {
+    "title": "Characterization of the 20-inch Photomultiplier Tubes for RENE Detector",
+    "url": "http://arxiv.org/abs/2604.11727v1",
+    "arxiv_id": "2604.11727v1",
+    "authors": [
+      "Junkyo Oh",
+      "Byeongsu Yang",
+      "Cheong Heo",
+      "Daeun Jung",
+      "Dong Ho Moon",
+      "Eungyu Yun",
+      "Hyun Woo Park",
+      "Jae Sik Lee",
+      "Jisu Park",
+      "Ji Young Choi",
+      "Kyung Kwang Joo",
+      "Ryeong Gyoon Park",
+      "Sang Yong Kim",
+      "Sunkyu Lee",
+      "Insung Yeo",
+      "Myoung Youl Pac",
+      "Jee-Seung Jang",
+      "Eun-Joo Kim",
+      "Hyunho Hwang",
+      "Junghwan Goh",
+      "Wonsang Hwang",
+      "Jiwon Ryu",
+      "Jungsic Park",
+      "Kyu Jung Bae",
+      "SeoBeom Hong",
+      "Hyunsoo Kim",
+      "Dojin Kim",
+      "Jonghee Yoo",
+      "Seunghwan Choi",
+      "Wonjun Lee",
+      "Jubin Park",
+      "Myung-Ki Cheoun",
+      "Intae Yu"
+    ],
+    "published": "2026-04-13T17:01:41+00:00",
+    "summary": "To address the Reactor Antineutrino Anomaly (RAA) observed in neutrino experiments, the Reactor Experiment for Neutrino and Exotics (RENE) has been initiated using a liquid scintillation detector. In this study, we investigate the characteristics of two 20-inch Hamamatsu R12860 photomultiplier tubes (PMTs) intended for installation in the RENE detector. The charge and timing responses of the PMTs were evaluated at both the nominal and target gains expected during actual operation. In particular, gain non-uniformity arising from the large-diameter photocathode with a box-and-line type dynode structure was examined, and the maximum gain variation was measured. The occurrence rate, timing, and charge distributions of late pulses and afterpulses were also investigated to characterize the specific response features of the R12860 PMT. The results reported in this study will aid in the interpretation of signals from the RENE detector and serve as a reference for estimating potential systematic uncertainties in RENE data. Furthermore, these findings are expected to provide valuable information for other experiments employing the same type of PMTs."
+  },
+  {
+    "title": "Thermodynamic fluctuations in freely jointed chains under force",
+    "url": "http://arxiv.org/abs/2604.11713v1",
+    "arxiv_id": "2604.11713v1",
+    "authors": [
+      "Michael R. Buche",
+      "Alvin Chen"
+    ],
+    "published": "2026-04-13T16:49:08+00:00",
+    "summary": "It is common to study polymer physics through the use of idealized single-chain models, and the most popular of these is the freely jointed chain model. In certain thermodynamic ensembles, statistical mechanical treatment of this model is analytically tractable or sometimes exactly solvable. This enables useful relations to be ascertained, like the expected chain end-to-end length as a function of an applied force. However, most of these relations return ensemble averages, which are values with inherent uncertainty, as opposed to deterministic values with no variance. This is an important distinction to understand and quantify, because the majority of studies to date involving single-chain models effectively treat these values as deterministic rather than fluctuating. To address this issue, thermodynamic fluctuations are examined in the freely jointed chain model. Specifically, the probability densities and standard deviations of the longitudinal, lateral, transverse, and radial portions of the chain extension, as well as the extension and link angles, are examined for different numbers of links and applied forces. Fluctuations in these quantities are shown to be considerable until the applied force becomes large. Increasing the number of links in the chain gradually reduces fluctuations in all quantities except for the link angles, since they are independent for freely jointed chains in the isotensional ensemble. Quantities are obtained analytically whenever possible and numerically otherwise. Overall, these results provide intuitive admonitions to consider when modeling the stretching of single polymer chains or the deformation of entire polymer networks."
+  },
+  {
+    "title": "Observability of Schr\u00f6dinger equations in Euclidean space",
+    "url": "http://arxiv.org/abs/2604.11695v1",
+    "arxiv_id": "2604.11695v1",
+    "authors": [
+      "Walton Green",
+      "Perry Kleinhenz"
+    ],
+    "published": "2026-04-13T16:33:26+00:00",
+    "summary": "In this paper we introduce a new dynamical condition, the comb geometric control condition, which is sufficient for observability of the Schr\u00f6dinger equation in Euclidean space. We provide examples which show this condition is strictly weaker than the observation set being open and periodic. We also prove for the fractional Schr\u00f6dinger equation that for observation functions which are uniformly continuous, the geometric control condition is equivalent to observability and implies arbitrary time observability. The proofs rely on uncertainty principles for frequency localized functions which are proved using a semiclassical propagation of singularities approach."
+  },
+  {
+    "title": "Cosmological inference with halo clustering reconstructed from the redshift-space galaxy distribution",
+    "url": "http://arxiv.org/abs/2604.11694v1",
+    "arxiv_id": "2604.11694v1",
+    "authors": [
+      "Ryuichiro Hada",
+      "Teppei Okumura"
+    ],
+    "published": "2026-04-13T16:33:23+00:00",
+    "summary": "Accurate modeling of small-scale redshift-space clustering is crucial for full shape RSD analyses, where satellite galaxies contribute to 1-halo terms and Finger-of-God distortions. We investigate halo reconstruction based on the cylinder grouping (CG) method of Okumura et al. (2017), which selects an effective halo center tracer from the observed galaxy distribution, and how it impacts cosmological parameter inference. Using DESI-like luminous red galaxy mock catalogs from the AbacusSummit simulations at $z=1.1$, we perform effective field theory (EFT)-based full-shape modeling of the power spectrum of the reconstructed-halo sample. We show that the dominant reconstruction-induced systematics can be described and incorporated within the standard EFT framework. In particular, a simple multipole-dependent rescaling inferred directly from the data on large scales captures the dominant effect, while residual small-scale changes are absorbed by the standard counterterm and stochastic sector, without introducing additional reconstruction-specific parameters. The reconstructed-halo sample yields unbiased constraints on cosmological parameters, including the growth rate $f\u03c3_8$ and Alcock-Paczynski parameters. Compared to the galaxy sample, it enables both improved robustness and increased statistical precision: the inferred $f\u03c3_8$ remains stable when extending the fit beyond $k_{\\max}\\simeq 0.2\\,h\\,{\\rm Mpc}^{-1}$, with its uncertainty reduced by more than $20\\%$."
+  },
+  {
+    "title": "VLMaterial: Vision-Language Model-Based Camera-Radar Fusion for Physics-Grounded Material Identification",
+    "url": "http://arxiv.org/abs/2604.11671v1",
+    "arxiv_id": "2604.11671v1",
+    "authors": [
+      "Jiangyou Zhu",
+      "He Chen"
+    ],
+    "published": "2026-04-13T16:16:28+00:00",
+    "summary": "Accurate material recognition is a fundamental capability for intelligent perception systems to interact safely and effectively with the physical world. For instance, distinguishing visually similar objects like glass and plastic cups is critical for safety but challenging for vision-based methods due to specular reflections, transparency, and visual deception. While millimeter-wave (mmWave) radar offers robust material sensing regardless of lighting, existing camera-radar fusion methods are limited to closed-set categories and lack semantic interpretability. In this paper, we introduce VLMaterial, a training-free framework that fuses vision-language models (VLMs) with domain-specific radar knowledge for physics-grounded material identification. First, we propose a dual-pipeline architecture: an optical pipeline uses the segment anything model and VLM for material candidate proposals, while an electromagnetic characterization pipeline extracts the intrinsic dielectric constant from radar signals via an effective peak reflection cell area (PRCA) method and weighted vector synthesis. Second, we employ a context-augmented generation (CAG) strategy to equip the VLM with radar-specific physical knowledge, enabling it to interpret electromagnetic parameters as stable references. Third, an adaptive fusion mechanism is introduced to intelligently integrate outputs from both sensors by resolving cross-modal conflicts based on uncertainty estimation. We evaluated VLMaterial in over 120 real-world experiments involving 41 diverse everyday objects and 4 typical visually deceptive counterfeits across varying environments. Experimental results demonstrate that VLMaterial achieves a recognition accuracy of 96.08%, delivering performance on par with state-of-the-art closed-set benchmarks while eliminating the need for extensive task-specific data collection and training."
+  },
+  {
+    "title": "Hidden Failures in Robustness: Why Supervised Uncertainty Quantification Needs Better Evaluation",
+    "url": "http://arxiv.org/abs/2604.11662v1",
+    "arxiv_id": "2604.11662v1",
+    "authors": [
+      "Joe Stacey",
+      "Hadas Orgad",
+      "Kentaro Inui",
+      "Benjamin Heinzerling",
+      "Nafise Sadat Moosavi"
+    ],
+    "published": "2026-04-13T16:11:33+00:00",
+    "summary": "Recent work has shown that the hidden states of large language models contain signals useful for uncertainty estimation and hallucination detection, motivating a growing interest in efficient probe-based approaches. Yet it remains unclear how robust existing methods are, and which probe designs provide uncertainty estimates that are reliable under distribution shift. We present a systematic study of supervised uncertainty probes across models, tasks, and OOD settings, training over 2,000 probes while varying the representation layer, feature type, and token aggregation strategy. Our evaluation highlights poor robustness in current methods, particularly in the case of long-form generations. We also find that probe robustness is driven less by architecture and more by the probe inputs. Middle-layer representations generalise more reliably than final-layer hidden states, and aggregating across response tokens is consistently more robust than relying on single-token features. These differences are often largely invisible in-distribution but become more important under distribution shift. Informed by our evaluation, we explore a simple hybrid back-off strategy for improving robustness, arguing that better evaluation is a prerequisite for building more robust probes."
+  },
+  {
+    "title": "GazeVaLM: A Multi-Observer Eye-Tracking Benchmark for Evaluating Clinical Realism in AI-Generated X-Rays",
+    "url": "http://arxiv.org/abs/2604.11653v1",
+    "arxiv_id": "2604.11653v1",
+    "authors": [
+      "David Wong",
+      "Zeynep Isik",
+      "Bin Wang",
+      "Marouane Tliba",
+      "Gorkem Durak",
+      "Elif Keles",
+      "Halil Ertugrul Aktas",
+      "Aladine Chetouani",
+      "Cagdas Topel",
+      "Nicolo Gennaro",
+      "Camila Lopes Vendrami",
+      "Tugce Agirlar Trabzonlu",
+      "Amir Ali Rahsepar",
+      "Laetitia Perronne",
+      "Matthew Antalek",
+      "Onural Ozturk",
+      "Gokcan Okur",
+      "Andrew C. Gordon",
+      "Ayis Pyrros",
+      "Frank H. Miller",
+      "Amir Borhani",
+      "Hatice Savas",
+      "Eric Hart",
+      "Elizabeth Krupinski",
+      "Ulas Bagci"
+    ],
+    "published": "2026-04-13T16:05:45+00:00",
+    "summary": "We introduce GazeVaLM, a public eye-tracking dataset for studying clinical perception during chest radiograph authenticity assessment. The dataset comprises 960 gaze recordings from 16 expert radiologists interpreting 30 real and 30 synthetic chest X-rays (generated by diffusion based generative AI) under two conditions: diagnostic assessment and real-fake classification (Visual Turing test). For each image-observer pair, we provide raw gaze samples, fixation maps, scanpaths, saliency density maps, structured diagnostic labels, and authenticity judgments. We extend the protocol to 6 state-of-the-art multimodal LLMs, releasing their predicted diagnoses, authenticity labels, and confidence scores under matched conditions - enabling direct human-AI comparison at both decision and uncertainty levels. We further provide analyses of gaze agreement, inter-observer consistency, and benchmarking of radiologists versus LLMs in diagnostic accuracy and authenticity detection. GazeVaLM supports research in gaze modeling, clinical decision-making, human-AI comparison, generative image realism assessment, and uncertainty quantification. By jointly releasing visual attention data, clinical labels, and model predictions, we aim to facilitate reproducible research on how experts and AI systems perceive, interpret, and evaluate medical images. The dataset is available at https://huggingface.co/datasets/davidcwong/GazeVaLM."
+  },
+  {
+    "title": "All-charm tetraquarks at hadron colliders: A high-precision fragmentation perspective",
+    "url": "http://arxiv.org/abs/2604.11646v1",
+    "arxiv_id": "2604.11646v1",
+    "authors": [
+      "Francesco Giovanni Celiberto"
+    ],
+    "published": "2026-04-13T15:57:34+00:00",
+    "summary": "We present the TQ4Q2.0 fragmentation functions for the production of all-heavy (fully heavy) $S$-wave tetraquarks ($T_{4Q}$) with scalar ($0^{++}$), axial-vector ($1^{+-}$), and tensor ($2^{++}$) quantum numbers in high-energy hadronic collisions. This work extends the previous TQ4Q1.1 framework by incorporating nonconstituent heavy-quark contributions and introducing a replica-based uncertainty-quantification strategy derived from multi-scale variations (MHOUs). The construction follows a nonrelativistic QCD factorization approach, combining gluon- and heavy-quark-initiated fragmentation channels at leading power. Initial-scale inputs are modeled through updated potential-inspired wave functions, while the subsequent DGLAP evolution is performed via the threshold-aware HF-NRevo scheme. A comprehensive systematic analysis of uncertainties is carried out, with contributions from color-composite long-distance matrix elements (LDMEs) and perturbative multiscale inputs. The resulting TQ4Q2.0 grids, publicly released in LHAPDF6 format, provide the first complete phenomenological set for all-heavy exotics, enabling precise studies of all-charm tetraquark production and jet-associated observables within the JETHAD environment. This article completes the high-energy resummation-driven generation of the TQ4Q program and establishes a definitive baseline for future collider-oriented analyses of all-heavy multiquark dynamics."
+  },
+  {
     "title": "VL-Calibration: Decoupled Confidence Calibration for Large Vision-Language Models Reasoning",
     "url": "http://arxiv.org/abs/2604.09529v1",
     "arxiv_id": "2604.09529v1",
