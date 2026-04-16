@@ -1,5 +1,169 @@
 [
   {
+    "title": "TDCOSMO XXV: A \"soup-to-nuts\" 6.5% $H_0$ measurement $-$ strong lensing and dynamics with a maximally flexible mass sheet",
+    "url": "http://arxiv.org/abs/2604.14145v1",
+    "arxiv_id": "2604.14145v1",
+    "authors": [
+      "William Sheu",
+      "Tommaso Treu",
+      "Martin Millon",
+      "Fr\u00e9d\u00e9ric Dux",
+      "Devon Williams",
+      "Shawn Knabel",
+      "Simon Birrer",
+      "Pritom Mozumdar",
+      "Giacomo Queirolo",
+      "Anowar J. Shajib",
+      "Michele Cappellari",
+      "Kenneth C. Wong",
+      "Ildar M. Asfandiyarov",
+      "Otabek A. Burkhonov",
+      "Fr\u00e9d\u00e9ric Courbin",
+      "Shuhrat A. Ehgamberdiev",
+      "Sof\u00eda Rojas-Ruiz",
+      "Asadulla M. Shaymanov",
+      "Talat A. Akhunov"
+    ],
+    "published": "2026-04-15T17:59:19+00:00",
+    "summary": "We present a blind time-delay cosmography measurement of the Hubble constant $H_0$ based on the quadruply imaged quasar SDSSJ1433+6007. Our analysis combines deep Hubble Space Telescope imaging, extended time-delay monitoring from the Wendelstein and Maidanak Observatories, and spatially resolved stellar kinematics from the Keck Cosmic Web Imager and Reionization Mapper. We build a robust lens model to reconstruct the mass distribution and high-signal-to-noise kinematic maps to break the mass-sheet degeneracy (MSD), explicitly accounting for the lens galaxy's oblateness, rotation, and anisotropy. Furthermore, we constrain the external convergence ($\u03ba_{\\rm ext}$) by characterizing the line-of-sight environment using wide-field photometry from the Dark Energy Spectroscopic Instrument (DESI) Legacy Survey data release 10. We incorporate these constraints into our joint lensing and dynamical model, running multiple iterations to estimate random and systematic uncertainties. Accounting for maximal flexibility of the mass-sheet transformation, and assuming a flat $\u039b$CDM cosmology and an $\u03a9_{\\rm m, 0}$ prior from DESI data release 2, we infer $H_0 = 73.2^{+4.8}_{-4.7}$ km s$^{-1}$ Mpc$^{-1}$ (a $6.5\\%$ precision), and an internal mass-sheet parameter $\u03bb_{\\rm int}=1.12^{+0.05}_{-0.06}$. Notably, $\u03bb_{\\rm int}$ is $2\u03c3$ away from unity for this system, highlighting the importance of treating it as a free parameter. Our $H_0$ measurement is consistent with the result from our 2025 milestone paper, and it will be included in our next hierarchical analysis to improve the overall precision. Moving forward, the comprehensive pipeline demonstrated herein establishes a robust framework that can be readily applied to future strongly lensed systems to further refine cosmological constraints."
+  },
+  {
+    "title": "AI-assisted modeling and Bayesian inference of unpolarized quark transverse momentum distributions from Drell-Yan data",
+    "url": "http://arxiv.org/abs/2604.14133v1",
+    "arxiv_id": "2604.14133v1",
+    "authors": [
+      "Zhong-Bo Kang",
+      "Luke Sellers",
+      "Congyue Zhang",
+      "Curtis Zhou"
+    ],
+    "published": "2026-04-15T17:54:47+00:00",
+    "summary": "We present an extraction of unpolarized quark transverse-momentum-dependent parton distribution functions (TMD PDFs) from Drell-Yan data within a Bayesian inference framework, incorporating artificial intelligence at multiple stages of the analysis. Our analysis is performed at ${\\rm N^3LO}$ in perturbative QCD combined with ${\\rm N^4LL}$ resummation accuracy. We first employ an AI-driven iterative procedure to explore and rank candidate functional forms for the nonperturbative contributions to TMD PDFs at the initial scale, as well as for the Collins-Soper evolution kernel, using $\u03c7^2$ fits and physics constraints. To enable efficient Bayesian inference, we construct a surrogate model for TMD cross sections by training a machine-learning emulator over the parameter space, replacing computationally expensive repeated evaluations and allowing scalable sampling with an affine-invariant Markov Chain Monte Carlo (MCMC) ensemble. Using this framework, we perform a global analysis of Drell-Yan data from fixed-target, RHIC, and LHC experiments and extract TMD PDFs with quantified uncertainties. We compare the results with those obtained using the replica method and highlight differences in the resulting uncertainty estimates."
+  },
+  {
+    "title": "UI-Zoomer: Uncertainty-Driven Adaptive Zoom-In for GUI Grounding",
+    "url": "http://arxiv.org/abs/2604.14113v1",
+    "arxiv_id": "2604.14113v1",
+    "authors": [
+      "Fei Tang",
+      "Bofan Chen",
+      "Zhengxi Lu",
+      "Tongbo Chen",
+      "Songqin Nong",
+      "Tao Jiang",
+      "Wenhao Xu",
+      "Weiming Lu",
+      "Jun Xiao",
+      "Yueting Zhuang",
+      "Yongliang Shen"
+    ],
+    "published": "2026-04-15T17:32:28+00:00",
+    "summary": "GUI grounding, which localizes interface elements from screenshots given natural language queries, remains challenging for small icons and dense layouts. Test-time zoom-in methods improve localization by cropping and re-running inference at higher resolution, but apply cropping uniformly across all instances with fixed crop sizes, ignoring whether the model is actually uncertain on each case. We propose \\textbf{UI-Zoomer}, a training-free adaptive zoom-in framework that treats both the trigger and scale of zoom-in as a prediction uncertainty quantification problem. A confidence-aware gate fuses spatial consensus among stochastic candidates with token-level generation confidence to selectively trigger zoom-in only when localization is uncertain. When triggered, an uncertainty-driven crop sizing module decomposes prediction variance into inter-sample positional spread and intra-sample box extent, deriving a per-instance crop radius via the law of total variance. Extensive experiments on ScreenSpot-Pro, UI-Vision, and ScreenSpot-v2 demonstrate consistent improvements over strong baselines across multiple model architectures, achieving gains of up to +13.4\\%, +10.3\\%, and +4.2\\% respectively, with no additional training required."
+  },
+  {
+    "title": "TIP: Token Importance in On-Policy Distillation",
+    "url": "http://arxiv.org/abs/2604.14084v1",
+    "arxiv_id": "2604.14084v1",
+    "authors": [
+      "Yuanda Xu",
+      "Hejian Sang",
+      "Zhengze Zhou",
+      "Ran He",
+      "Zhipeng Wang",
+      "Alborz Geramifard"
+    ],
+    "published": "2026-04-15T16:58:24+00:00",
+    "summary": "On-policy knowledge distillation (OPD) trains a student on its own rollouts under token-level supervision from a teacher. Not all token positions matter equally, but existing views of token importance are incomplete. We ask a direct question: which tokens carry the most useful learning signal in OPD? Our answer is that informative tokens come from two regions: positions with high student entropy, and positions with low student entropy plus high teacher--student divergence, where the student is overconfident and wrong.   Empirically, student entropy is a strong first-order proxy: retaining $50\\%$ of tokens with entropy-based sampling matches or exceeds all-token training while reducing peak memory by up to $47\\%$. But entropy alone misses a second important region. When we isolate low-entropy, high-divergence tokens, training on fewer than $10\\%$ of all tokens nearly matches full-token baselines, showing that overconfident tokens carry dense corrective signal despite being nearly invisible to entropy-only rules.   We organize these findings with TIP (Token Importance in on-Policy distillation), a two-axis taxonomy over student entropy and teacher--student divergence, and give a theoretical explanation for why entropy is useful yet structurally incomplete. This view motivates type-aware token selection rules that combine uncertainty and disagreement. We validate this picture across three teacher--student pairs spanning Qwen3, Llama, and Qwen2.5 on MATH-500 and AIME 2024/2025, and on the DeepPlanning benchmark for long-horizon agentic planning, where Q3-only training on $<$$20\\%$ of tokens surpasses full-token OPD. Our experiments are implemented by extending the OPD repository https://github.com/HJSang/OPSD_OnPolicyDistillation, which supports memory-efficient distillation of larger models under limited GPU budgets."
+  },
+  {
+    "title": "Multistage Conditional Compositional Optimization",
+    "url": "http://arxiv.org/abs/2604.14075v1",
+    "arxiv_id": "2604.14075v1",
+    "authors": [
+      "Buse \u015een",
+      "Yifan Hu",
+      "Daniel Kuhn"
+    ],
+    "published": "2026-04-15T16:45:12+00:00",
+    "summary": "We introduce Multistage Conditional Compositional Optimization (MCCO) as a new paradigm for decision-making under uncertainty that combines aspects of multistage stochastic programming and conditional stochastic optimization. MCCO minimizes a nest of conditional expectations and nonlinear cost functions. It has numerous applications and arises, for example, in optimal stopping, linear-quadratic regulator problems, distributionally robust contextual bandits, as well as in problems involving dynamic risk measures. The na\u00efve nested sampling approach for MCCO suffers from the curse of dimensionality familiar from scenario tree-based multistage stochastic programming, that is, its scenario complexity grows exponentially with the number of nests. We develop new multilevel Monte Carlo techniques for MCCO whose scenario complexity grows only polynomially with the desired accuracy."
+  },
+  {
+    "title": "First-See-Then-Design: A Multi-Stakeholder View for Optimal Performance-Fairness Trade-Offs",
+    "url": "http://arxiv.org/abs/2604.14035v1",
+    "arxiv_id": "2604.14035v1",
+    "authors": [
+      "Kavya Gupta",
+      "Nektarios Kalampalikis",
+      "Christoph Heitz",
+      "Isabel Valera"
+    ],
+    "published": "2026-04-15T16:15:25+00:00",
+    "summary": "Fairness in algorithmic decision-making is often defined in the predictive space, where predictive performance - used as a proxy for decision-maker (DM) utility - is traded off against prediction-based fairness notions, such as demographic parity or equality of opportunity. This perspective, however, ignores how predictions translate into decisions and ultimately into utilities and welfare for both DM and decision subjects (DS), as well as their allocation across social-salient groups.   In this paper, we propose a multi-stakeholder framework for fair algorithmic decision-making grounded in welfare economics and distributive justice, explicitly modeling the utilities of both the DM and DS, and defining fairness via a social planner's utility that captures inequalities in DS utilities across groups under different justice-based fairness notions (e.g., Egalitarian, Rawlsian). We formulate fair decision-making as a post-hoc multi-objective optimization problem, characterizing the achievable performance-fairness trade-offs in the two-dimensional utility space of DM utility and the social planner's utility, under different decision policy classes (deterministic vs. stochastic, shared vs. group-specific). Using the proposed framework, we then identify conditions (in terms of the stakeholders' utilities) under which stochastic policies are more optimal than deterministic ones, and empirically demonstrate that simple stochastic policies can yield superior performance-fairness trade-offs by leveraging outcome uncertainty. Overall, we advocate a shift from prediction-centric fairness to a transparent, justice-based, multi-stakeholder approach that supports the collaborative design of decision-making policies."
+  },
+  {
+    "title": "Physics-Informed Neural Networks for Methane Sorption: Cross-Gas Transfer Learning, Ensemble Collapse Under Physics Constraints, and Monte Carlo Dropout Uncertainty Quantification",
+    "url": "http://arxiv.org/abs/2604.13992v1",
+    "arxiv_id": "2604.13992v1",
+    "authors": [
+      "Mohammad Nooraiepour",
+      "Zezhang Song",
+      "Wei Li",
+      "Sarah Perez"
+    ],
+    "published": "2026-04-15T15:35:44+00:00",
+    "summary": "Accurate methane sorption prediction across heterogeneous coal ranks requires models that combine thermodynamic consistency, efficient knowledge transfer across data-scarce geological systems, and calibrated uncertainty estimates, capabilities that are rarely addressed together in existing frameworks. We present a physics-informed transfer learning framework that adapts a hydrogen sorption PINN to methane sorption prediction via Elastic Weight Consolidation, coal-specific feature engineering, and a three-phase curriculum that progressively balances transfer preservation with thermodynamic fine-tuning. Trained on 993 equilibrium measurements from 114 independent coal experiments spanning lignite to anthracite, the framework achieves R2 = 0.932 on held-out coal samples, a 227% improvement over pressure-only classical isotherms, while hydrogen pre-training delivers 18.9% lower RMSE and 19.4% faster convergence than random initialization. Five Bayesian uncertainty quantification approaches reveal a systematic divergence in performance across physics-constrained architectures. Monte Carlo Dropout achieves well-calibrated uncertainty at minimal overhead, while deep ensembles, regardless of architectural diversity or initialization strategy, exhibit performance degradation because shared physics constraints narrow the admissible solution manifold. SHAP and ALE analyses confirm that learned representations remain physically interpretable and aligned with established coal sorption mechanisms: moisture-volatile interactions are most influential, pressure-temperature coupling captures thermodynamic co-dependence, and features exhibit non-monotonic effects. These results identify Monte Carlo Dropout as the best-performing UQ method in this physics-constrained transfer learning framework, and demonstrate cross-gas transfer learning as a data-efficient strategy for geological material modeling."
+  },
+  {
+    "title": "Adaptive Conformal Prediction for Improving Factuality of Generations by Large Language Models",
+    "url": "http://arxiv.org/abs/2604.13991v1",
+    "arxiv_id": "2604.13991v1",
+    "authors": [
+      "Aleksandr Rubashevskii",
+      "Dzianis Piatrashyn",
+      "Preslav Nakov",
+      "Maxim Panov"
+    ],
+    "published": "2026-04-15T15:35:42+00:00",
+    "summary": "Large language models (LLMs) are prone to generating factually incorrect outputs. Recent work has applied conformal prediction to provide uncertainty estimates and statistical guarantees for the factuality of LLM generations. However, existing approaches are typically not prompt-adaptive, limiting their ability to capture input-dependent variability. As a result, they may filter out too few items (leading to over-coverage) or too many (under-coverage) for a given task or prompt. We propose an adaptive conformal prediction approach that extends conformal score transformation methods to LLMs, with applications to long-form generation and multiple-choice question answering. This enables prompt-dependent calibration, retaining marginal coverage guarantees while improving conditional coverage. In addition, the approach naturally supports selective prediction, allowing unreliable claims or answer choices to be filtered out in downstream applications. We evaluate our approach on multiple white-box models across diverse domains and show that it significantly outperforms existing baselines in terms of conditional coverage."
+  },
+  {
+    "title": "Edge-Side Residual Timing and Frequency Control for Software-Defined Ground Stations in 5G NTN Uplinks",
+    "url": "http://arxiv.org/abs/2604.13984v1",
+    "arxiv_id": "2604.13984v1",
+    "authors": [
+      "Longji He",
+      "Elena Emma Wang",
+      "Xichun Wang",
+      "Juntao Xu",
+      "Jiaming Li"
+    ],
+    "published": "2026-04-15T15:30:25+00:00",
+    "summary": "This paper studies a ground-segment implementation problem in 5G non-terrestrial networks (NTN): once UE-side geometric pre-compensation has produced a coarse timing/frequency prior, can an edge-side residual loop keep the uplink inside an NR-feasible operating region under rapid LEO dynamics? We examine this question with a software-defined ground station (SDGS) design that keeps the coarse prior at the UE and closes the residual timing-advance (TA) / carrier-frequency-offset (CFO) loop at the ground-station edge. This paper takes a systems-and-control view rather than proposing a full-stack intelligent architecture. Its evidence base consists of a March 2026 hardware-in-the-loop (HIL) campaign and a companion uncertainty analysis. The HIL campaign includes same-window reference runs collected on the same platform with edge residual control disabled, but it does not include a cloud-loop benchmark. The placement claim is therefore architectural and control-oriented rather than a head-to-head cloud-versus-edge proof. In the Shenzhen steady-state tracking interval, the edge-controlled mode lowers mean RTT from 70.51 +/- 2.34 ms to 32.84 +/- 2.56 ms and, within the retained Layer-3 transport mapping, improves artifact-level goodput from 80.14 +/- 0.14 Mbps to 196.04 +/- 1.87 Mbps relative to that reference configuration. Across four ground-station locations, the closed-loop controller keeps residual TA P95 at 0.49 us and residual CFO P95 within 76-77 Hz. Together with the uncertainty analysis, these observations support a bounded claim: an edge-side residual timing/frequency loop can keep the SDGS uplink in a more stable NR-feasible operating regime under the assumptions retained in the current HIL artifact."
+  },
+  {
+    "title": "Radial Velocity Evidence for a Post-Mass-Transfer Massive Binary System: NaSt1",
+    "url": "http://arxiv.org/abs/2604.13983v1",
+    "arxiv_id": "2604.13983v1",
+    "authors": [
+      "Kittipong Wangnok",
+      "Samaporn Tinyanont",
+      "Ryan M. Lau",
+      "Ryan J. Foley",
+      "R. Paul Butler",
+      "Poemwai Chainakun",
+      "Kyle W. Davis",
+      "Kishalay De",
+      "Jared A. Goldberg",
+      "Bradford P. Holden",
+      "Adriana Kuehnel",
+      "Nathan Smith",
+      "Jonathan Swift",
+      "Steven S. Vogt"
+    ],
+    "published": "2026-04-15T15:28:03+00:00",
+    "summary": "We present multi-epoch high-resolution optical spectroscopy ($R \\simeq 80{,}000$) of the emission-line object NaSt1 to test its proposed binary nature, along with long-term multiband photometry, mid-infrared spectroscopy, and spatially resolved integral field unit (IFU) spectroscopy to probe the circumstellar kinematics of the system. We detect two groups of 35 emission lines showing radial velocities (RVs) variation of the same period of 310 $\\pm$ 6 d, but with opposing phase, which we associate with the optically thick wind of the stripped primary star and the wind-wind collision region with the companion star, providing a strong evidence for binarity. The RV and light curve (LC) periods are consistent within the uncertainties, ruling out ellipsoidal modulation, which would require an orbital period of about 620 d. The phase relationship between the RV and LC is inconsistent with stellar pulsations and supports a binary origin. We model the 1--5~$\u03bc$m spectrum of NaSt1 and find two optically thin dust components: hot $T_{\\rm h} \\simeq 1230$ K, $M_{\\rm h} \\simeq 2 \\times 10^{-10} M_{\\odot}$ and warm $T_{\\rm c} \\simeq 660$ K, $M_{\\rm c} \\simeq 3 \\times 10^{-8} M_{\\odot}$. IFU spectroscopy spatially resolves the circumstellar medium in the [\\ion{N}{2}] $\\lambda6548$ and $\\lambda6584$ emission lines, showing a deprojected expansion velocity of $\\sim31$ km~s$^{-1}$, implying a dynamical age of $\\sim40$ yr. This short timescale suggests that the nebula was produced by recent mass loss. The system may represent a Galactic analog of a massive binary undergoing a mass-loss process to become a stripped-envelope supernova progenitor."
+  },
+  {
     "title": "SceneCritic: A Symbolic Evaluator for 3D Indoor Scene Synthesis",
     "url": "http://arxiv.org/abs/2604.13035v1",
     "arxiv_id": "2604.13035v1",
