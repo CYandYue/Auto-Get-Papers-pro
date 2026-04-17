@@ -1,5 +1,152 @@
 [
   {
+    "title": "RAD-2: Scaling Reinforcement Learning in a Generator-Discriminator Framework",
+    "url": "http://arxiv.org/abs/2604.15308v1",
+    "arxiv_id": "2604.15308v1",
+    "authors": [
+      "Hao Gao",
+      "Shaoyu Chen",
+      "Yifan Zhu",
+      "Yuehao Song",
+      "Wenyu Liu",
+      "Qian Zhang",
+      "Xinggang Wang"
+    ],
+    "published": "2026-04-16T17:59:44+00:00",
+    "summary": "High-level autonomous driving requires motion planners capable of modeling multimodal future uncertainties while remaining robust in closed-loop interactions. Although diffusion-based planners are effective at modeling complex trajectory distributions, they often suffer from stochastic instabilities and the lack of corrective negative feedback when trained purely with imitation learning. To address these issues, we propose RAD-2, a unified generator-discriminator framework for closed-loop planning. Specifically, a diffusion-based generator is used to produce diverse trajectory candidates, while an RL-optimized discriminator reranks these candidates according to their long-term driving quality. This decoupled design avoids directly applying sparse scalar rewards to the full high-dimensional trajectory space, thereby improving optimization stability. To further enhance reinforcement learning, we introduce Temporally Consistent Group Relative Policy Optimization, which exploits temporal coherence to alleviate the credit assignment problem. In addition, we propose On-policy Generator Optimization, which converts closed-loop feedback into structured longitudinal optimization signals and progressively shifts the generator toward high-reward trajectory manifolds. To support efficient large-scale training, we introduce BEV-Warp, a high-throughput simulation environment that performs closed-loop evaluation directly in Bird's-Eye View feature space via spatial warping. RAD-2 reduces the collision rate by 56% compared with strong diffusion-based planners. Real-world deployment further demonstrates improved perceived safety and driving smoothness in complex urban traffic."
+  },
+  {
+    "title": "A Validated Low-to-Intermediate Mass Planetary Interior Structure Model and New Mass-Radius Relations",
+    "url": "http://arxiv.org/abs/2604.15304v1",
+    "arxiv_id": "2604.15304v1",
+    "authors": [
+      "Bennett Neil Skinner",
+      "Ralph E. Pudritz",
+      "Ryan Cloutier"
+    ],
+    "published": "2026-04-16T17:59:02+00:00",
+    "summary": "The increasing precision of planetary mass and radius observations is bringing major questions about the structure and formation of planets--such as the nature of the radius valley and origin of super-Mercuries--within reach, demanding the development of interior structure models with more physics to more accurately determine planetary radii for a given composition. Here, we present a new model that includes state-of-the-art equations of state following the latest experimental and computational results, a physically-motivated mineralogy allowing multiple species to coexist within planetary layers, a non-adiabatic temperature profile, melting, and other features. This model replicates Earth's radius and moment of inertia coefficient to within $0.2\\%$, Mars and the Moon's to within $0.5\\%$, and Mercury, Venus, and Europa's to within $1\\%$ or 3$\u03c3$. We use this model to calculate mass-radius relationships for H/He-enveloped, water-rich, Earth-like, and iron-rich bodies with masses between $0.01-100\\, M_\\oplus$. We calculate mass-radius tables and fit piece-wise power-laws to them for ${<}8M_\\oplus$ planets, finding that the exponent in $M=aR^b$ increases with mass and core mass fraction. We find radii generally smaller than in literature mass-radius relations at low instellations and larger at high instellations, with our improvement on the literature comparable to observational uncertainties. State-of-the-art interior structure models are thus required to interpret observational data. Our mass-radius curves comprising 32,971 model planets are publicly available."
+  },
+  {
+    "title": "Cloudy with a chance of metals: Indications of CO$_2$ in the atmosphere of GJ 1214 b from high-resolution K-band spectroscopy",
+    "url": "http://arxiv.org/abs/2604.15292v1",
+    "arxiv_id": "2604.15292v1",
+    "authors": [
+      "L. Nortmann",
+      "D. Cont",
+      "F. Lesjak",
+      "A. D. Rains",
+      "A. Lavail",
+      "L. Boldt-Christmas",
+      "E. Nagel",
+      "A. Reiners",
+      "N. Piskunov",
+      "F. Yan",
+      "A. Hatzes",
+      "O. Kochukhov",
+      "D. Shulyak",
+      "U. Seemann",
+      "M. Rengel",
+      "A. Hahlin"
+    ],
+    "published": "2026-04-16T17:54:55+00:00",
+    "summary": "Sub-Neptune exoplanets frequently exhibit muted transmission spectra, with GJ 1214 b being the most prominent example. Following years of intense observing campaigns yielding featureless planetary spectra, recent observations with JWST revealed the first possible atmospheric signatures. We present high-resolution transmission spectroscopy of GJ 1214 b based on eight transits obtained with the CRIRES$^+$ spectrograph in the K band. We used SYSREM to remove telluric and stellar signals and searched for signatures of H2O, CO, CH4, H2S, NH3, and CO2 using the cross-correlation technique. We obtained non-detections for the first five molecules and used injection recovery tests to derive upper limits on the atmosphere. For CO$_2$ we measure a CCF signal at S/N ~ 3.6, with a detailed investigation showing no obvious indication that it is caused by correlated noise. A Welch t-test confirmed the in-trail and out-of-trail distributions to be different at $3.4 \u03c3$ confidence. A Bayesian retrieval framework with free chemistry, resulted in volume mixing ratios corresponding to a metallicity of $[\\mathrm{M/H}]=0.48^{+0.89}_{-1.70}$, an opacity deck pressure of $\\log_{10}(P_\\mathrm{c}) = -3.04^{+2.52}_{-1.53}$ and a planet temperature of $T_\\mathrm{iso}=398^{+283}_{-197}$ K, consistent with a value intermediate between the day- and night-side T-p's derived from JWST data. While these values correspond to relatively large signal amplitudes predicted for CO2 features in the mid-infrared, they are compatible with JWST NIRSpec observations within the models' $1.5\u03c3$ uncertainties. Further modelling and additional data are required to confirm the atmospheric signatures and obtain a comprehensive interpretation of low- and high-resolution data. Overall, our results support previous findings that CO2 is likely to be a significant component of the atmosphere of GJ 1214 b."
+  },
+  {
+    "title": "SegWithU: Uncertainty as Perturbation Energy for Single-Forward-Pass Risk-Aware Medical Image Segmentation",
+    "url": "http://arxiv.org/abs/2604.15271v1",
+    "arxiv_id": "2604.15271v1",
+    "authors": [
+      "Tianhao Fu",
+      "Austin Wang",
+      "Charles Chen",
+      "Roby Aldave-Garza",
+      "Yucheng Chen"
+    ],
+    "published": "2026-04-16T17:42:42+00:00",
+    "summary": "Reliable uncertainty estimation is critical for medical image segmentation, where automated contours feed downstream quantification and clinical decision support. Many strong uncertainty methods require repeated inference, while efficient single-forward-pass alternatives often provide weaker failure ranking or rely on restrictive feature-space assumptions. We present $\\textbf{SegWithU}$, a post-hoc framework that augments a frozen pretrained segmentation backbone with a lightweight uncertainty head. SegWithU taps intermediate backbone features and models uncertainty as perturbation energy in a compact probe space using rank-1 posterior probes. It produces two voxel-wise uncertainty maps: a calibration-oriented map for probability tempering and a ranking-oriented map for error detection and selective prediction. Across ACDC, BraTS2024, and LiTS, SegWithU is the strongest and most consistent single-forward-pass baseline, achieving AUROC/AURC of $0.9838/2.4885$, $0.9946/0.2660$, and $0.9925/0.8193$, respectively, while preserving segmentation quality. These results suggest that perturbation-based uncertainty modeling is an effective and practical route to reliability-aware medical segmentation.   Source code is available at https://github.com/ProjectNeura/SegWithU."
+  },
+  {
+    "title": "Vision-Based Safe Human-Robot Collaboration with Uncertainty Guarantees",
+    "url": "http://arxiv.org/abs/2604.15221v1",
+    "arxiv_id": "2604.15221v1",
+    "authors": [
+      "Jakob Thumm",
+      "Marian Frei",
+      "Tianle Ni",
+      "Matthias Althoff",
+      "Marco Pavone"
+    ],
+    "published": "2026-04-16T16:53:26+00:00",
+    "summary": "We propose a framework for vision-based human pose estimation and motion prediction that gives conformal prediction guarantees for certifiably safe human-robot collaboration. Our framework combines aleatoric uncertainty estimation with OOD detection for high probabilistic confidence. To integrate our pipeline in certifiable safety frameworks, we propose conformal prediction sets for human motion predictions with high, valid confidence. We evaluate our pipeline on recorded human motion data and a real-world human-robot collaboration setting."
+  },
+  {
+    "title": "MADE: A Living Benchmark for Multi-Label Text Classification with Uncertainty Quantification of Medical Device Adverse Events",
+    "url": "http://arxiv.org/abs/2604.15203v1",
+    "arxiv_id": "2604.15203v1",
+    "authors": [
+      "Raunak Agarwal",
+      "Markus Wenzel",
+      "Simon Baur",
+      "Jonas Zimmer",
+      "George Harvey",
+      "Jackie Ma"
+    ],
+    "published": "2026-04-16T16:28:16+00:00",
+    "summary": "Machine learning in high-stakes domains such as healthcare requires not only strong predictive performance but also reliable uncertainty quantification (UQ) to support human oversight. Multi-label text classification (MLTC) is a central task in this domain, yet remains challenging due to label imbalances, dependencies, and combinatorial complexity. Existing MLTC benchmarks are increasingly saturated and may be affected by training data contamination, making it difficult to distinguish genuine reasoning capabilities from memorization. We introduce MADE, a living MLTC benchmark derived from {m}edical device {ad}verse {e}vent reports and continuously updated with newly published reports to prevent contamination. MADE features a long-tailed distribution of hierarchical labels and enables reproducible evaluation with strict temporal splits. We establish baselines across more than 20 encoder- and decoder-only models under fine-tuning and few-shot settings (instruction-tuned/reasoning variants, local/API-accessible). We systematically assess entropy-/consistency-based and self-verbalized UQ methods. Results show clear trade-offs: smaller discriminatively fine-tuned decoders achieve the strongest head-to-tail accuracy while maintaining competitive UQ; generative fine-tuning delivers the most reliable UQ; large reasoning models improve performance on rare labels yet exhibit surprisingly weak UQ; and self-verbalized confidence is not a reliable proxy for uncertainty. Our work is publicly available at https://hhi.fraunhofer.de/aml-demonstrator/made-benchmark."
+  },
+  {
+    "title": "Boundary-Centric Active Learning for Temporal Action Segmentation",
+    "url": "http://arxiv.org/abs/2604.15173v1",
+    "arxiv_id": "2604.15173v1",
+    "authors": [
+      "Halil Ismail Helvaci",
+      "Sen-ching Samson Cheung"
+    ],
+    "published": "2026-04-16T15:50:21+00:00",
+    "summary": "Temporal action segmentation (TAS) demands dense temporal supervision, yet most of the annotation cost in untrimmed videos is spent identifying and refining action transitions, where segmentation errors concentrate and small temporal shifts disproportionately degrade segmental metrics. We introduce B-ACT, a clip-budgeted active learning framework that explicitly allocates supervision to these high-leverage boundary regions. B-ACT operates in a hierarchical two-stage loop: (i) it ranks and queries unlabeled videos using predictive uncertainty, and (ii) within each selected video, it detects candidate transitions from the current model predictions and selects the top-$K$ boundaries via a novel boundary score that fuses neighborhood uncertainty, class ambiguity, and temporal predictive dynamics. Importantly, our annotation protocol requests labels for only the boundary frames while still training on boundary-centered clips to exploit temporal context through the model's receptive field. Extensive experiments on GTEA, 50Salads, and Breakfast demonstrate that boundary-centric supervision delivers strong label efficiency and consistently surpasses representative TAS active learning baselines and prior state of the art under sparse budgets, with the largest gains on datasets where boundary placement dominates edit and overlap-based F1 scores."
+  },
+  {
+    "title": "A Robust Optimization Approach for Scheduling with Uncertain Start-Time Dependent Costs",
+    "url": "http://arxiv.org/abs/2604.15161v1",
+    "arxiv_id": "2604.15161v1",
+    "authors": [
+      "Sof\u00eda Rodr\u00edguez-Ballesteros",
+      "Javier Alcaraz",
+      "Laura Anton-Sanchez",
+      "Marc Goerigk",
+      "Dorothee Henke"
+    ],
+    "published": "2026-04-16T15:39:49+00:00",
+    "summary": "In this work, we study a single-machine scheduling problem that aims at minimizing the total cost of a schedule subject to start-time dependent costs. This framework naturally captures scenarios where costs fluctuate throughout the day, such as time-varying energy or labor prices. To model more realistic scenarios, we assume that these costs lie within a budgeted uncertainty set and propose a two-stage robust optimization approach. In a first stage, the order in which activities should be executed is decided. After a cost scenario has been revealed, the starting times for each activity are established, subject to the ordering from the first stage. We demonstrate that the proposed problem is NP-hard and not approximable, implying the complexity of its robust counterpart. Furthermore, we show that already evaluating a first-stage solution is NP-hard when the uncertainty set is discrete. We develop models and solution methods for both continuous and discrete budgeted uncertainty. In computational experiments, we compare these approaches and demonstrate the advantages of including uncertainty beforehand."
+  },
+  {
+    "title": "IUQ: Interrogative Uncertainty Quantification for Long-Form Large Language Model Generation",
+    "url": "http://arxiv.org/abs/2604.15109v1",
+    "arxiv_id": "2604.15109v1",
+    "authors": [
+      "Haozhi Fan",
+      "Jinhao Duan",
+      "Kaidi Xu"
+    ],
+    "published": "2026-04-16T15:03:00+00:00",
+    "summary": "Despite the rapid advancement of Large Language Models (LLMs), uncertainty quantification in LLM generation is a persistent challenge. Although recent approaches have achieved strong performance by restricting LLMs to produce short or constrained answer sets, many real-world applications require long-form and free-form text generation. A key difficulty in this setting is that LLMs often produce responses that are semantically coherent yet factually inaccurate, while the underlying semantics are multifaceted and the linguistic structure is complex. To tackle this challenge, this paper introduces Interrogative Uncertainty Quantification (IUQ), a novel framework that leverages inter-sample consistency and intra-sample faithfulness to quantify the uncertainty in long-form LLM outputs. By utilizing an interrogate-then-respond paradigm, our method provides reliable measures of claim-level uncertainty and the model's faithfulness. Experimental results across diverse model families and model sizes demonstrate the superior performance of IUQ over two widely used long-form generation datasets. The code is available at https://github.com/louisfanhz/IUQ."
+  },
+  {
+    "title": "Capturing Aleatoric Uncertainty in Climate Models",
+    "url": "http://arxiv.org/abs/2604.15067v1",
+    "arxiv_id": "2604.15067v1",
+    "authors": [
+      "Cornelia Gruber",
+      "Henri Funk",
+      "Magdalena Mittermeier",
+      "Helmut K\u00fcchenhoff",
+      "G\u00f6ran Kauermann"
+    ],
+    "published": "2026-04-16T14:30:52+00:00",
+    "summary": "Internal climate variability arises from the climate system's inherently chaotic dynamics. Quantifying it is essential for climate science, as it enables risk-based decision-making and differentiates between externally forced change and internal fluctuations. In statistical terms, natural variability corresponds to aleatoric uncertainty, i.e., irreducible stochastic variability. Despite this close conceptual alignment, the link between internal climate variability and aleatoric uncertainty has not yet been formalized. We establish a theoretical link by showing that member-to-member differences in single-model large ensembles provide a direct representation of aleatoric uncertainty. To quantify the spatio-temporal structure of aleatoric uncertainty, we employ generalized additive models. The proposed framework is validated through comparison with ERA5-Land reanalysis data, demonstrating that ensemble-derived estimates reproduce key spatial and temporal patterns of real-world variability. Applied to the water balance over the Iberian Peninsula, our approach reveals coherent variability structures and pronounced regional heterogeneity. We find a decline in variability in drought-prone regions and seasons, a pattern that strengthens under +3 \u00b0C global warming, implying an increased risk of persistent summer drought conditions. Beyond this application, the framework is climate-model agnostic and transferable to other variables and spatial scales, providing a statistical basis for quantifying internal climate variability as aleatoric uncertainty."
+  },
+  {
     "title": "TDCOSMO XXV: A \"soup-to-nuts\" 6.5% $H_0$ measurement $-$ strong lensing and dynamics with a maximally flexible mass sheet",
     "url": "http://arxiv.org/abs/2604.14145v1",
     "arxiv_id": "2604.14145v1",
