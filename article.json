@@ -1,5 +1,127 @@
 [
   {
+    "title": "TTV-Not-So-Fast: Uniqueness and Degeneracy in Perturbing Planet Parameters",
+    "url": "http://arxiv.org/abs/2604.16297v1",
+    "arxiv_id": "2604.16297v1",
+    "authors": [
+      "Caleb Lammers",
+      "Joshua N. Winn"
+    ],
+    "published": "2026-04-17T17:59:00+00:00",
+    "summary": "Nontransiting planets can reveal themselves through transit timing variations (TTVs), but inferring the properties of the perturbing planet is a highly degenerate inverse problem. We present a systematic reassessment of all 12 published cases in which a nontransiting planet was claimed to have been uniquely characterized using TTVs. Two systems (KOI-142 and Kepler-419) stand out clearly with compelling evidence for unique solutions. Two other systems (KOI-872 and KOI-884) exhibit complex degeneracies, but the data are just precise enough to single out a best solution. Six systems (Kepler-82, Kepler-411, Kepler-725, KOI-134, Kepler-138, and TOI-4562) admit multiple viable solutions involving very different perturbing planets. In the remaining two systems (WASP-18 and WASP-126), the evidence for any perturbing planet is weak. We find that a necessary (but not sufficient) condition for a unique solution is the detection of short-timescale TTV structure associated with conjunctions, either in the near-resonant \"chopping\" regime or in eccentric systems with phase-dependent close approaches. In some systems, aliasing of the synodic period leads to ambiguities in associating observed TTV timescales with physical timescales, threatening uniqueness. Our results highlight the difficulty of achieving unique solutions in TTV inversions and underscore the need for long time baselines, accurate timing uncertainties, and complementary constraints from RVs or other observations when characterizing nontransiting planets."
+  },
+  {
+    "title": "FL-MHSM: Spatially-adaptive Fusion and Ensemble Learning for Flood-Landslide Multi-Hazard Susceptibility Mapping at Regional Scale",
+    "url": "http://arxiv.org/abs/2604.16265v1",
+    "arxiv_id": "2604.16265v1",
+    "authors": [
+      "Aswathi Mundayatt",
+      "Jaya Sreevalsan-Nair"
+    ],
+    "published": "2026-04-17T17:23:55+00:00",
+    "summary": "Existing multi-hazard susceptibility mapping (MHSM) studies often rely on spatially uniform models, treat hazards independently, and provide limited representation of cross-hazard dependence and uncertainty. To address these limitations, this study proposes a deep learning (DL) workflow for joint flood-landslide multi-hazard susceptibility mapping (FL-MHSM) that combines two-level spatial partitioning, probabilistic Early Fusion (EF), a tree-based Late Fusion (LF) baseline, and a soft-gating Mixture of Experts (MoE) model, with MoE serving as final predictive model. The proposed design preserves spatial heterogeneity through zonal partitions and enables data-parallel large-area prediction using overlapping lattice grids. In Kerala, EF remained competitive with LF, improving flood recall from 0.816 to 0.840 and reducing Brier score from 0.092 to 0.086, while MoE provided strongest performance for flood susceptibility, achieving an AUC-ROC of 0.905, recall of 0.930, and F1-score of 0.722. In Nepal, EF similarly improved flood recall from 0.820 to 0.858 and reduced Brier score from 0.057 to 0.049 relative to LF, while MoE outperformed both EF and LF for landslide susceptibility, achieving an AUC-ROC of 0.914, recall of 0.901, and F1-score of 0.559. GeoDetector analysis of MoE outputs further showed that dominant factors varied more across zones in Kerala, where susceptibility was shaped by different combinations of topographic, land-cover, and drainage-related controls, while Nepal showed a more consistent influence of topographic and glacier-related factors across zones. These findings show that EF and LF provide complementary predictive behavior, and that their spatially adaptive integration through MoE yields robust overall predictive performance for FL-MHSM while supporting interpretable characterization of multi-hazard susceptibility in spatially heterogeneous landscapes."
+  },
+  {
+    "title": "\"Taking Stock at FAccT\": Using Participatory Design to Co-Create a Vision for the Fairness, Accountability and Transparency Community",
+    "url": "http://arxiv.org/abs/2604.16224v1",
+    "arxiv_id": "2604.16224v1",
+    "authors": [
+      "Shiran Dudy",
+      "Jan Simson",
+      "Yanan Long"
+    ],
+    "published": "2026-04-17T16:37:41+00:00",
+    "summary": "As a relatively new forum, ACM FAccT has become a key space for activists and scholars to critically examine emerging AI and ML technologies. It brings together academics, civil society members, and government representatives from diverse fields to explore the broader societal impacts of both deployed and proposed technologies. We report a large-scale participatory design (PD) process for reflexive conference governance, which combined an in-person CRAFT session, an asynchronous Polis poll and the synthesis of a governance-facing report for the FAccT leadership. Participants shaped the substantive agenda by authoring seed statements, adding new statements and making patterns of agreement, disagreement and uncertainty made visible through voting.Our endeavors represent one of the the first instances of applying PD to a venue that critically interrogates the societal impacts of AI, fostering a niche in which critical scholars are free to voice their concerns. Finally, this work advances large-scale PD theory by providing an effective case study of a co-design paradigm that can readily scale temporally and epistemologically."
+  },
+  {
+    "title": "Beyond Surface Statistics: Robust Conformal Prediction for LLMs via Internal Representations",
+    "url": "http://arxiv.org/abs/2604.16217v1",
+    "arxiv_id": "2604.16217v1",
+    "authors": [
+      "Yanli Wang",
+      "Peng Kuang",
+      "Xiaoyu Han",
+      "Kaidi Xu",
+      "Haohan Wang"
+    ],
+    "published": "2026-04-17T16:28:31+00:00",
+    "summary": "Large language models are increasingly deployed in settings where reliability matters, yet output-level uncertainty signals such as token probabilities, entropy, and self-consistency can become brittle under calibration--deployment mismatch. Conformal prediction provides finite-sample validity under exchangeability, but its practical usefulness depends on the quality of the nonconformity score. We propose a conformal framework for LLM question answering that uses internal representations rather than output-facing statistics: specifically, we introduce Layer-Wise Information (LI) scores, which measure how conditioning on the input reshapes predictive entropy across model depth, and use them as nonconformity scores within a standard split conformal pipeline. Across closed-ended and open-domain QA benchmarks, with the clearest gains under cross-domain shift, our method achieves a better validity--efficiency trade-off than strong text-level baselines while maintaining competitive in-domain reliability at the same nominal risk level. These results suggest that internal representations can provide more informative conformal scores when surface-level uncertainty is unstable under distribution shift."
+  },
+  {
+    "title": "A Bayesian Updating Framework for Long-term Multi-Environment Trial Data in Plant Breeding",
+    "url": "http://arxiv.org/abs/2604.16203v1",
+    "arxiv_id": "2604.16203v1",
+    "authors": [
+      "Stephan Bark",
+      "Waqas Ahmed Malik",
+      "Maryna Prus",
+      "Hans-Peter Piepho",
+      "Volker Schmid"
+    ],
+    "published": "2026-04-17T16:14:30+00:00",
+    "summary": "In variety testing, multi-environment trials (MET) are essential for evaluating the genotypic performance of crop plants. A persistent challenge in the statistical analysis of MET data is the estimation of variance components, which are often still inaccurately estimated or shrunk to exactly zero when using residual (restricted) maximum likelihood (REML) approaches. At the same time, institutions conducting MET typically possess extensive historical data that can, in principle, be leveraged to improve variance component estimation. However, these data are rarely incorporated sufficiently. The purpose of this paper is to address this gap by proposing a Bayesian framework that systematically integrates historical information to stabilize variance component estimation and better quantify uncertainty.   Our Bayesian linear mixed model (BLMM) reformulation uses priors and Markov chain Monte Carlo (MCMC) methods to maintain the variance components as positive, yielding more realistic distributional estimates. Furthermore, our model incorporates historical prior information by managing MET data in successive historical data windows. Variance component prior and posterior distributions are shown to be conjugate and belong to the inverse gamma and inverse Wishart families. While Bayesian methodology is increasingly being used for analyzing MET data, to the best of our knowledge, this study comprises one of the first serious attempts to objectively inform priors in the context of MET data. This refers to the proposed Bayesian updating approach. To demonstrate the framework, we consider an application where posterior variance component samples are plugged into an A-optimality experimental design criterion to determine the average optimal allocations of trials to agro-ecological zones in a sub-divided target population of environments (TPE)."
+  },
+  {
+    "title": "Online optimization of nonlinear lattice using a data-driven chaos indicator",
+    "url": "http://arxiv.org/abs/2604.16180v1",
+    "arxiv_id": "2604.16180v1",
+    "authors": [
+      "Yongjun Li",
+      "Minghao Song"
+    ],
+    "published": "2026-04-17T15:47:12+00:00",
+    "summary": "We report the experimental implementation of a Data-Driven Chaos Indicator (DDCI) [Y.~Li \\emph{et al.}, Nucl.\\ Instrum.\\ Methods Phys.\\ Res.\\ A \\textbf{1024} (2022) 166060] for online optimization of the National Synchrotron Light Source II (NSLS-II) storage ring. The DDCI quantifies the predictability of electron beam dynamics using turn-by-turn beam position monitor data. A surrogate model of the one-turn map is first trained, and its out-of-sample predictive uncertainty is then employed as a measurable indicator of chaos. By tuning sextupole magnets to mitigate nonlinear effects, a clear enlargement of the dynamic aperture is achieved, accompanied by a corresponding improvement in injection efficiency."
+  },
+  {
+    "title": "Constrained Pad\u00e9 Ensembles for Thermal $\\mathcal{N}{=}4$ SYM with the Exact $\\mathcal O(\u03bb^{5/2})$ Coefficient",
+    "url": "http://arxiv.org/abs/2604.16109v1",
+    "arxiv_id": "2604.16109v1",
+    "authors": [
+      "Ubaid Tantary",
+      "Qianqian Du"
+    ],
+    "published": "2026-04-17T14:45:26+00:00",
+    "summary": "We revisit the constrained log-subtracted two-point Pad\u00e9 (LSTP) ensemble for thermal $\\mathcal{N}=4$ supersymmetric Yang--Mills (SYM) thermodynamics in four spacetime dimensions after upgrading the weak-coupling truncation from $\\mathcal{O}(\u03bb^2)$ to the exact $\\mathcal{O}(\u03bb^{5/2})$ coefficient. We keep the interpolation ansatz unchanged and shift the weak-side matching points to the regime where the new term is numerically significant. The admissible set collapses from $9$ nominal survivors ($3$ distinct curves) to a single distinct curve, the crossover range shrinks to a unique value, and the pointwise band width drops to zero within numerical resolution. The Hermite-Pad\u00e9 (HP) central curve does not coincide with the unique LSTP survivor, so the exact weak-coupling coefficient removes the LSTP scan uncertainty but not the difference between the two routes. The next step is to compute the unknown $\\mathcal{O}(\u03bb^{-3})$ strong-coupling coefficient."
+  },
+  {
+    "title": "Unveiling Stochasticity: Universal Multi-modal Probabilistic Modeling for Traffic Forecasting",
+    "url": "http://arxiv.org/abs/2604.16084v1",
+    "arxiv_id": "2604.16084v1",
+    "authors": [
+      "Weijiang Xiong",
+      "Robert Fonod",
+      "Nikolas Geroliminis"
+    ],
+    "published": "2026-04-17T14:10:16+00:00",
+    "summary": "Traffic forecasting is a challenging spatio-temporal modeling task and a critical component of urban transportation management. Current studies mainly focus on deterministic predictions, with limited considerations on the uncertainty and stochasticity in traffic dynamics. Therefore, this paper proposes an elegant yet universal approach that transforms existing models into probabilistic predictors by replacing only the final output layer with a novel Gaussian Mixture Model (GMM) layer. The modified model requires no changes to the training pipeline and can be trained using only the Negative Log-Likelihood (NLL) loss, without any auxiliary or regularization terms. Experiments on multiple traffic datasets show that our approach generalizes from classic to modern model architectures while preserving deterministic performance. Furthermore, we propose a systematic evaluation procedure based on cumulative distributions and confidence intervals, and demonstrate that our approach is considerably more accurate and informative than unimodal or deterministic baselines. Finally, a more detailed study on a real-world dense urban traffic network is presented to examine the impact of data quality on uncertainty quantification and to show the robustness of our approach under imperfect data conditions. Code available at https://github.com/Weijiang-Xiong/OpenSkyTraffic"
+  },
+  {
+    "title": "Systematic study of bottomonium production in proton-proton collisions at LHC energies",
+    "url": "http://arxiv.org/abs/2604.16019v1",
+    "arxiv_id": "2604.16019v1",
+    "authors": [
+      "Biswarup Paul"
+    ],
+    "published": "2026-04-17T12:46:53+00:00",
+    "summary": "We present a comprehensive study of $\u03a5(nS)$ ($n$ = 1, 2, 3) production in proton-proton ($pp$) collisions at various LHC energies and rapidity ranges within the framework of leading order non-relativistic quantum chromodynamics (NRQCD) factorization. The transverse momentum ($p_{\\rm T}$)-dependent production cross-sections are calculated, incorporating both direct and feed-down contributions. Specifically, feed-down from $\u03a5(2S)$, $\u03a5(3S)$, $\u03c7_{bJ}(1P)$, and $\u03c7_{bJ}(2P)$ states to $\u03a5(1S)$ is included, while $\u03a5(2S)$ receives contributions from $\u03a5(3S)$ and $\u03c7_{bJ}(2P)$. No significant feed-down is considered for $\u03a5(3S)$. The computed cross-sections and cross-section ratios among different $\u03a5$ states are compared with experimental measurements from ALICE, ATLAS, CMS and LHCb. It is found that the experimental cross-sections and cross-section ratios are well described within the theoretical uncertainties arising due to the choices of the factorization and renormalization scales for $p_{\\rm T}$ $>$ 4 GeV and $p_{\\rm T}$ $>$ 0 GeV, respectively. Furthermore, the cross-section ratios exhibit a clear saturation behavior beyond $p_{\\rm T}$ $\\approx$ 40 GeV."
+  },
+  {
+    "title": "Weak-Link Optimization for Multi-Agent Reasoning and Collaboration",
+    "url": "http://arxiv.org/abs/2604.15972v1",
+    "arxiv_id": "2604.15972v1",
+    "authors": [
+      "Haoyu Bian",
+      "Chaoning Zhang",
+      "Jiaquan Zhang",
+      "Xingyao Li",
+      "Yuanfang Guo",
+      "Wei Dong",
+      "Yang Yang"
+    ],
+    "published": "2026-04-17T11:36:20+00:00",
+    "summary": "LLM-driven multi-agent frameworks address complex reasoning tasks through multi-role collaboration. However, existing approaches often suffer from reasoning instability, where individual agent errors are amplified through collaboration, undermining overall performance. Current research mainly focuses on enhancing high-capability agents or suppressing unreliable outputs to improve framework effectiveness, while systematic identification and reinforcement of performance-limiting agents receive less attention. To address this gap, we propose WORC, a \\underline{w}eak-link \\underline{o}ptimization framework for multi-agent \\underline{r}easoning and \\underline{c}ollaboration, grounded in the weak-link principle. WORC follows a two-stage workflow. In the weak agent localization stage, task features are constructed, and a meta-learning-based weight predictor trained on optimal configurations identified by swarm intelligence algorithms (SIAs) enables zero-shot mapping from these features to agent performance weights, where the agent with the lowest predicted weight is identified as the weak agent. In the weak-link optimization stage, an uncertainty-driven allocation strategy assigns additional reasoning budgets to weak agents, with lower predicted weights leading to larger repeated-sampling quotas to compensate for reliability deficiencies. Experimental results show that WORC achieves an average accuracy of 82.2\\% on reasoning benchmarks while improving framework stability and cross-architecture generalization, suggesting that compensating for weak links, rather than reinforcing strengths alone, enhances the robustness of multi-agent systems."
+  },
+  {
     "title": "RAD-2: Scaling Reinforcement Learning in a Generator-Discriminator Framework",
     "url": "http://arxiv.org/abs/2604.15308v1",
     "arxiv_id": "2604.15308v1",
