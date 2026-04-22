@@ -1,5 +1,203 @@
 [
   {
+    "title": "Calibration-Induced Systematics in SALT3 Training and Their Impact on Dark Energy Constraints from Stage IV Supernova Surveys",
+    "url": "http://arxiv.org/abs/2604.19746v1",
+    "arxiv_id": "2604.19746v1",
+    "authors": [
+      "Kene Anumba",
+      "David 0. Jones",
+      "Richard Kessler",
+      "Daniel Scolnic",
+      "W. D'Arcy Kenworthy",
+      "Rebecca C. Chen",
+      "Bastien Carreres",
+      "Maria Vincenzi",
+      "Erik R. Peterson",
+      "Maria Acevedo",
+      "Ben Rose",
+      "Dillon Brout",
+      "Jillian Paulin",
+      "Rujuta A. Purohit",
+      "Rebekah Hounsell",
+      "The Roman Supernova Cosmology Project Infrastructure Team"
+    ],
+    "published": "2026-04-21T17:59:47+00:00",
+    "summary": "In the coming years, the Vera Rubin Observatory's Legacy Survey of Space and Time (Rubin-LSST) and the Nancy Grace Roman Space Telescope's (Roman) High Latitude Time Domain Survey (HLTDS) are expected to discover more than a million Type Ia supernovae (SNe Ia), several orders of magnitude more than current samples and with a tighter control on systematic uncertainties. One of the largest systematic uncertainties in cosmological analyses with SNe Ia is the accuracy of the spectro-photometric model for SNe Ia time series data, which depends on the photometric calibration of the surveys. To quantify the impact of this uncertainty, we analyze simulated Rubin-LSST and HLTDS data, perturb the photometric zero-points and filter mean wavelengths, and propagate these systematics to spectral model recovery, estimated distances, and dark energy figure of merit (FoM) based on the $w_0 w_a$CDM model. Zero-point shifts of 5 mmag and filter mean wavelength shifts of 5 angstrom lead to a $\\sim 50\\%$ decrease in the FoM relative to a statistical-only case when calibration uncertainties are propagated only through light-curve fitting. The same calibration shifts applied only during model training produce a smaller $\\sim 13\\%$ degradation. Contrary to previous analyses, calibration uncertainties in light-curve fitting dominate over those from model training. Their effect during light-curve fitting varies smoothly with redshift and is nearly degenerate with cosmology, preventing mitigation through self-calibration. Finally, we show that the FoM dependence on the size of the calibration uncertainties (in the range of expected sizes) is roughly linear."
+  },
+  {
+    "title": "Precision Kinematic Sunyaev--Zel'dovich Measurements Across Halo Mass and Redshift with DESI DR2 and ACT DR6: Part I. Luminous Red Galaxies",
+    "url": "http://arxiv.org/abs/2604.19744v1",
+    "arxiv_id": "2604.19744v1",
+    "authors": [
+      "F. J. Qu",
+      "B. Ried Guachalla",
+      "E. Schaan",
+      "B. Hadzhiyska",
+      "S. Ferraro",
+      "J. Aguilar",
+      "S. Ahlen",
+      "A. Baleato Lizancos",
+      "D. Bianchi",
+      "D. Brooks",
+      "R. Canning",
+      "F. J. Castander",
+      "E. Chaussidon",
+      "T. Claybaugh",
+      "A. Cuceu",
+      "A. de la Macorra",
+      "B. Dey",
+      "P. Doel",
+      "A. Font-Ribera",
+      "J. E. Forero-Romero",
+      "E. Gazta\u00f1aga",
+      "S. Gontcho A Gontcho",
+      "G. Gutierrez",
+      "H. K. Herrera-Alcantar",
+      "K. Honscheid",
+      "C. Howlett",
+      "D. Huterer",
+      "M. Ishak",
+      "R. Kehoe",
+      "T. Kisner",
+      "A. Kremin",
+      "O. Lahav",
+      "M. Landriau",
+      "L. Le Guillou",
+      "M. E. Levi",
+      "M. Manera",
+      "A. Meisner",
+      "R. Miquel",
+      "S. Nadathur",
+      "J. A. Newman",
+      "W. J. Percival",
+      "I. P'erez-R`afols",
+      "G. Rossi",
+      "L. Samushia",
+      "E. Sanchez",
+      "E. F. Schlafly",
+      "D. Schlegel",
+      "M. Schubnell",
+      "H. Seo",
+      "J. Silber",
+      "D. Sprayberry",
+      "G. Tarl'e",
+      "B. A. Weaver",
+      "R. Zhou"
+    ],
+    "published": "2026-04-21T17:59:26+00:00",
+    "summary": "We present the most precise measurements of the kinetic Sunyaev-Zel'dovich (kSZ) effect around luminous red galaxies to date, detecting the signal at $18\u03c3$ significance in both harmonic and configuration space. Our analysis cross-correlates 2.4 million spectroscopic LRGs from the Dark Energy Spectroscopic Instrument (DESI) DR2 sample with Data Release 6 (DR6) of the Atacama Cosmology Telescope (ACT). We develop a novel harmonic-space cross-correlation approach using momentum-weighted kSZ templates, yielding nearly uncorrelated bandpowers within a framework consistent with other large-scale structure analyses. By incorporating the LRG halo occupation distribution (HOD) and its uncertainty, we convert measured galaxy gas profiles into halo gas profiles and provide generalized Navarro-Frenk-White (GNFW) fitting profiles, providing empirical targets for tuning feedback efficiency in hydrodynamical simulations and for baryonic modeling in large-scale structure analyses. We find strong evidence that gas profiles do not trace dark matter, providing direct evidence for gas redistribution beyond gravitational collapse. Comparing to hydrodynamical simulations, our measurements favor feedback efficiencies exceeding those in the Battaglia profile, suggesting more efficient gas ejection in group-scale halos than previously predicted. Splitting by redshift, we detect the kSZ signal at SNR $\\approx 5$--$10$ in each of four bins and find amplitude evolution consistent with the expected decline in mean halo mass at fixed comoving number density. Splitting by stellar mass, we study the scaling of kSZ amplitude with galaxy properties. Together with BGS and ELG measurements in Paper II, these results span $0.1 \\lesssim z \\lesssim 1.6$ across three galaxy populations, demonstrating the potential of spectroscopic kSZ to map circumgalactic gas and constrain baryonic feedback."
+  },
+  {
+    "title": "Learning Hybrid-Control Policies for High-Precision In-Contact Manipulation Under Uncertainty",
+    "url": "http://arxiv.org/abs/2604.19677v1",
+    "arxiv_id": "2604.19677v1",
+    "authors": [
+      "Hunter L. Brown",
+      "Geoffrey Hollinger",
+      "Stefan Lee"
+    ],
+    "published": "2026-04-21T16:55:48+00:00",
+    "summary": "Reinforcement learning-based control policies have been frequently demonstrated to be more effective than analytical techniques for many manipulation tasks. Commonly, these methods learn neural control policies that predict end-effector pose changes directly from observed state information. For tasks like inserting delicate connectors which induce force constraints, pose-based policies have limited explicit control over force and rely on carefully tuned low-level controllers to avoid executing damaging actions. In this work, we present hybrid position-force control policies that learn to dynamically select when to use force or position control in each control dimension. To improve learning efficiency of these policies, we introduce Mode-Aware Training for Contact Handling (MATCH) which adjusts policy action probabilities to explicitly mirror the mode selection behavior in hybrid control. We validate MATCH's learned policy effectiveness using fragile peg-in-hole tasks under extreme localization uncertainty. We find MATCH substantially outperforms pose-control policies -- solving these tasks with up to 10% higher success rates and 5x fewer peg breaks than pose-only policies under common types of state estimation error. MATCH also demonstrates data efficiency equal to pose-control policies, despite learning in a larger and more complex action space. In over 1600 sim-to-real experiments, we find MATCH succeeds twice as often as pose policies in high noise settings (33% vs.~68%) and applies ~30% less force on average compared to variable impedance policies on a Franka FR3 in laboratory conditions."
+  },
+  {
+    "title": "Diagnostic Modelling: a framework of principles for responsible energy systems modelling",
+    "url": "http://arxiv.org/abs/2604.19676v1",
+    "arxiv_id": "2604.19676v1",
+    "authors": [
+      "I. David Elder",
+      "Juan Moreno-Cruz",
+      "Cameron Wade",
+      "Sylvia Sleep",
+      "Sara Hastings-Simon",
+      "Sean McCoy",
+      "Heather L. MacLean",
+      "I. Daniel Posen"
+    ],
+    "published": "2026-04-21T16:55:16+00:00",
+    "summary": "Energy systems optimisation models are a leading tool for informing decisions in the energy transition. However, these models often remain opaque, and results are frequently presented without a clear discussion of their epistemic limitations. We propose Diagnostic Modelling as a framework wherein modellers critically interrogate their models and explore uncertainties to uncover mechanistic explanations that offer policy-relevant insights. Mechanistic explanations provide fundamental understanding that remains valid despite model uncertainty and does not depend on detailed knowledge of a specific model. By adopting a more open and transparent approach to engaging with energy systems models, Diagnostic Modelling encourages the participation of a broader range of decision-makers, thereby building consensus in support of the energy transition."
+  },
+  {
+    "title": "MedFlowSeg: Flow Matching for Medical Image Segmentation with Frequency-Aware Attention",
+    "url": "http://arxiv.org/abs/2604.19675v1",
+    "arxiv_id": "2604.19675v1",
+    "authors": [
+      "Zhi Chen",
+      "Runze Hu",
+      "Le Zhang"
+    ],
+    "published": "2026-04-21T16:54:43+00:00",
+    "summary": "Flow matching has recently emerged as a principled framework for learning continuous-time transport maps, enabling efficient deterministic generation without relying on stochastic diffusion processes. While generative modeling has shown promise for medical image segmentation, particularly in capturing uncertainty and complex anatomical variability, existing approaches are predominantly built upon diffusion models, which incur substantial computational overhead due to iterative sampling and are often constrained by UNet-based parameterizations. In this work, we introduce MedFlowSeg, a conditional flow matching framework that formulates medical image segmentation as learning a time-dependent vector field that transports a simple prior distribution to the target segmentation distribution. This formulation enables one-step deterministic inference while preserving the expressiveness of generative modeling. We further develop a dual-conditioning mechanism to incorporate structured priors into the learned flow. Specifically, we propose a Dual-Branch Spatial Attention module that injects multi-scale structural information into the flow field, and a Frequency-Aware Attention module that models cross-domain interactions between spatial and spectral representations via discrepancy-aware fusion and time-dependent modulation. Together, these components provide an effective parameterization of conditional flows that capture both global anatomical structure and fine-grained boundary details. We provide extensive empirical validation across multiple medical imaging modalities, demonstrating that MedFlowSeg achieves state-of-the-art performance while significantly reducing computational cost compared to diffusion-based methods. Our results highlight the potential of flow matching as a theoretically grounded and computationally efficient alternative for generative medical image segmentation."
+  },
+  {
+    "title": "Probing the neutron-skin thickness through $J/\u03c8$ photoproduction in ultra-peripheral collisions",
+    "url": "http://arxiv.org/abs/2604.19650v1",
+    "arxiv_id": "2604.19650v1",
+    "authors": [
+      "Haoyuan Li",
+      "Lu-Meng Liu",
+      "Jinhui Chen",
+      "Yu-Gang Ma",
+      "Chunjian Zhang"
+    ],
+    "published": "2026-04-21T16:39:48+00:00",
+    "summary": "We study the impact of neutron-skin thickness on $J/\u03c8$ photoproduction in ultra-peripheral $^{208}\\mathrm{Pb}+{}^{208}\\mathrm{Pb}$ collisions. Within the Color Glass Condensate framework, we calculate coherent and incoherent cross sections and examine their dependence on the momentum transfer $|t|$ for different neutron-skin thicknesses. We find a clear imprint of the neutron skin on the $|t|$ spectra: a larger neutron skin leads to a smoother and more extended color-density profile, suppressing the coherent cross section at large $|t|$ while enhancing the incoherent cross section through increased event-by-event configurational fluctuations in the nuclear periphery. We further show that the ratio of incoherent to coherent integrated cross sections provides a particularly sensitive and robust observable, with reduced theoretical uncertainties. These results establish diffractive vector-meson photoproduction in ultra-peripheral collisions as a powerful tomographic tool to constrain the neutron-skin thickness and the transverse gluon distribution at the LHC and future Electron-Ion Colliders."
+  },
+  {
+    "title": "MOSA: Motion-Guided Semantic Alignment for Dynamic Scene Graph Generation",
+    "url": "http://arxiv.org/abs/2604.19631v1",
+    "arxiv_id": "2604.19631v1",
+    "authors": [
+      "Xuejiao Wang",
+      "Bohao Zhang",
+      "Changbo Wang",
+      "Gaoqi He"
+    ],
+    "published": "2026-04-21T16:18:26+00:00",
+    "summary": "Dynamic Scene Graph Generation (DSGG) aims to structurally model objects and their dynamic interactions in video sequences for high-level semantic understanding. However, existing methods struggle with fine-grained relationship modeling, semantic representation utilization, and the ability to model tail relationships. To address these issues, this paper proposes a motion-guided semantic alignment method for DSGG (MoSA). First, a Motion Feature Extractor (MFE) encodes object-pair motion attributes such as distance, velocity, motion persistence, and directional consistency. Then, these motion attributes are fused with spatial relationship features through the Motion-guided Interaction Module (MIM) to generate motion-aware relationship representations. To further enhance semantic discrimination capabilities, the cross-modal Action Semantic Matching (ASM) mechanism aligns visual relationship features with text embeddings of relationship categories. Finally, a category-weighted loss strategy is introduced to emphasize learning of tail relationships. Extensive and rigorous testing shows that MoSA performs optimally on the Action Genome dataset."
+  },
+  {
+    "title": "Autonomous UAV Pipeline Near-proximity Inspection via Disturbance-Aware Predictive Visual Servoing",
+    "url": "http://arxiv.org/abs/2604.19618v1",
+    "arxiv_id": "2604.19618v1",
+    "authors": [
+      "Wen Li",
+      "Hui Wang",
+      "Jinya Su",
+      "Cunjia Liu",
+      "Wen-Hua Chen",
+      "Shihua Li"
+    ],
+    "published": "2026-04-21T16:05:34+00:00",
+    "summary": "Reliable pipeline inspection is critical to safe energy transportation, but is constrained by long distances, complex terrain, and risks to human inspectors. Unmanned aerial vehicles provide a flexible sensing platform, yet reliable autonomous inspection remains challenging. This paper presents an autonomous quadrotor near-proximity pipeline inspection framework for three-dimensional scenarios based on image-based visual servoing model predictive control (VMPC). A unified predictive model couples quadrotor dynamics with image feature kinematics, enabling direct image-space prediction within the control loop. To address low-rate visual updates, measurement noise, and environmental uncertainties, an extended-state Kalman filtering scheme with image feature prediction (ESKF-PRE) is developed, and the estimated lumped disturbances are incorporated into the VMPC prediction model, yielding the ESKF-PRE-VMPC framework. A terrain-adaptive velocity design is introduced to maintain the desired cruising speed while generating vertical velocity references over unknown terrain slopes without prior terrain information. The framework is validated in high-fidelity Gazebo simulations and real-world experiments. In real-world tests, the proposed method reduces RMSE by 52.63% and 75.04% in pipeline orientation and lateral deviation in the image, respectively, for straight-pipeline inspection without wind, and successfully completes both wind-disturbance and bend-pipeline tasks where baseline method fails. An open-source nano quadrotor is modified for indoor experimentation."
+  },
+  {
+    "title": "ZODIAC: Zero-shot Offline Diffusion for Inferring Multi-xApps Conflicts in Open Radio Access Networks",
+    "url": "http://arxiv.org/abs/2604.19610v1",
+    "arxiv_id": "2604.19610v1",
+    "authors": [
+      "Zeyu Fang",
+      "Shu Hong",
+      "Huu Trung Thieu",
+      "Nakjung Choi",
+      "Tian Lan"
+    ],
+    "published": "2026-04-21T15:58:21+00:00",
+    "summary": "Open Radio Access Network (O-RAN) enables network control through multi-vendor xApps operating both within and across layers, subnets, and domains, whose concurrent execution can trigger conflicts that are latent during the development phase. Existing conflict management approaches rely heavily on joint-execution data, which is often unavailable in practice. To address this limitation, we formalize a novel problem termed conflict reasoning, which involves identifying conflict-inducing conditions given only marginal datasets from each individual xApp. We propose ZODIAC, a three-stage framework for zero-shot conflict condition inference that comprises uncertainty-aware surrogate model training, trajectory-level diffusion training, and compositional guided denoising for efficient, physics-constrained, and reliable condition search. We derive a theoretical lower confidence bound showing that the compositional reasoning in ZODIAC serves as a principled surrogate for true conflict severity, with the epistemic penalty directly controlling the approximation gap. We evaluate ZODIAC on both the lightweight Mobile-Env platform across all three O-RAN Alliance conflict types (direct, indirect, and implicit) and a realistic NS-O-RAN-Flexric simulator. ZODIAC consistently outperforms baseline condition search methods, achieving over 20% higher True Positive Rate at Top-20, substantially stronger Spearman rank correlation, greater scenario diversity, and competitive computational efficiency. Ablation studies confirm the necessity of each guidance component, with epistemic uncertainty penalties proving essential for filtering spurious conflicts. To the best of our knowledge, ZODIAC is the first framework in O-RAN that enables conflict reasoning from marginal offline data without requiring any joint-execution traces."
+  },
+  {
+    "title": "Active Inference-Enabled Agentic Closed-Loop ISAC with Long-Horizon Planning",
+    "url": "http://arxiv.org/abs/2604.19599v1",
+    "arxiv_id": "2604.19599v1",
+    "authors": [
+      "Guangjin Pan",
+      "Zhuojun Tian",
+      "Mehdi Bennis",
+      "Henk Wymeersch"
+    ],
+    "published": "2026-04-21T15:51:56+00:00",
+    "summary": "Wireless agentic systems enable agents to autonomously perceive, reason, and act. However, existing works neglect the tight coupling between sensing and control in closed-loop integrated sensing and communication (ISAC) systems. In this paper, we propose an active inference (AIF)-driven wireless agentic system for closed-loop ISAC, which jointly optimizes control and sensing resource allocation via backward--forward message passing on a factor graph. The AIF agent maintains a generative model as a digital twin by integrating a localization model for uncertainty-aware state inference and a localization channel knowledge map (CKM) for approximating observation quality during planning. Simulation results demonstrate that the AIF-enabled agent adaptively allocates sensing resources based on spatially varying channel conditions, achieving superior balance among tracking accuracy, control effort, and sensing resource consumption over baseline strategies."
+  },
+  {
     "title": "Revisiting Active Sequential Prediction-Powered Mean Estimation",
     "url": "http://arxiv.org/abs/2604.18569v1",
     "arxiv_id": "2604.18569v1",
