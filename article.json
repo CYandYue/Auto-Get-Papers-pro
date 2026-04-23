@@ -1,5 +1,131 @@
 [
   {
+    "title": "A Hough transform approach to safety-aware scalar field mapping using Gaussian Processes",
+    "url": "http://arxiv.org/abs/2604.20799v1",
+    "arxiv_id": "2604.20799v1",
+    "authors": [
+      "Muzaffar Qureshi",
+      "Trivikram Satharasi",
+      "Tochukwu E. Ogri",
+      "Kyle Volle",
+      "Rushikesh Kamalapurkar"
+    ],
+    "published": "2026-04-22T17:27:08+00:00",
+    "summary": "This paper presents a framework for mapping unknown scalar fields using a sensor-equipped autonomous robot operating in unsafe environments. The unsafe regions are defined as regions of high-intensity, where the field value exceeds a predefined safety threshold. For safe and efficient mapping of the scalar field, the sensor-equipped robot must avoid high-intensity regions during the measurement process. In this paper, the scalar field is modeled as a sample from a Gaussian process (GP), which enables Bayesian inference and provides closed-form expressions for both the predictive mean and the uncertainty. Concurrently, the spatial structure of the high-intensity regions is estimated in real-time using the Hough transform (HT), leveraging the evolving GP posterior. A safe sampling strategy is then employed to guide the robot towards safe measurement locations, using probabilistic safety guarantees on the evolving GP posterior. The estimated high-intensity regions also facilitate the design of safe motion plans for the robot. The effectiveness of the approach is verified through two numerical simulation studies and an indoor experiment for mapping a light-intensity field using a wheeled mobile robot."
+  },
+  {
+    "title": "Magnetic uncertainty in variable geometry",
+    "url": "http://arxiv.org/abs/2604.20794v1",
+    "arxiv_id": "2604.20794v1",
+    "authors": [
+      "Luca Fanelli",
+      "Yilin Song",
+      "Ying Wang",
+      "Jiqiang Zheng",
+      "Ruihan Zhou"
+    ],
+    "published": "2026-04-22T17:19:38+00:00",
+    "summary": "In this paper, we study Hardy-type uncertainty principles and unique continuation properties for linear covariant Schrodinger equations with variable coefficients in the presence of bounded electric and magnetic potentials. Under suitable smallness assumptions on the leading coefficients, we prove that any solution exhibiting super-quadratic exponential decay at two distinct times must vanish identically. Under an additional structural assumption on the coefficient matrix $G$, we further establish a Hardy-type result at the quadratic exponential scale. We also obtain an analogous uniqueness result for the heat equation with variable-coefficient magnetic perturbations.   Our results unify and extend previous works in two directions: they recover the constant-coefficient covariant case treated by Barcelo-Fanelli-Gutierrez-Ruiz-Vilela when $G=I$, and the variable-coefficient non-magnetic case considered by Federico-Li-Yu when $A=0$. The proofs combine logarithmic convexity arguments with Carleman estimates adapted to variable-coefficient covariant Schr\u00f6dinger and parabolic flows. Although our approach follows the general strategy introduced by Escauriaza-Kenig-Ponce-Vega, substantial new difficulties arise from the interaction between the variable metric and the magnetic structure, which requires new weight functions and refined commutator estimates."
+  },
+  {
+    "title": "Fast Bayesian equipment condition monitoring via simulation based inference: applications to heat exchanger health",
+    "url": "http://arxiv.org/abs/2604.20735v1",
+    "arxiv_id": "2604.20735v1",
+    "authors": [
+      "Peter Collett",
+      "Alexander Johannes Stasik",
+      "Simone Casolo",
+      "Signe Riemer-S\u00f8rensen"
+    ],
+    "published": "2026-04-22T16:21:25+00:00",
+    "summary": "Accurate condition monitoring of industrial equipment requires inferring latent degradation parameters from indirect sensor measurements under uncertainty. While traditional Bayesian methods like Markov Chain Monte Carlo (MCMC) provide rigorous uncertainty quantification, their heavy computational bottlenecks render them impractical for real-time process control. To overcome this limitation, we propose an AI-driven framework utilizing Simulation-Based Inference (SBI) powered by amortized neural posterior estimation to diagnose complex failure modes in heat exchangers. By training neural density estimators on a simulated dataset, our approach learns a direct, likelihood-free mapping from thermal-fluid observations to the full posterior distribution of degradation parameters. We benchmark this framework against an MCMC baseline across various synthetic fouling and leakage scenarios, including challenging low-probability, sparse-event failures. The results show that SBI achieves comparable diagnostic accuracy and reliable uncertainty quantification, while accelerating inference time by a factor of82$\\times$ compared to traditional sampling. The amortized nature of the neural network enables near-instantaneous inference, establishing SBI as a highly scalable, real-time alternative for probabilistic fault diagnosis and digital twin realization in complex engineering systems."
+  },
+  {
+    "title": "Interval POMDP Shielding for Imperfect-Perception Agents",
+    "url": "http://arxiv.org/abs/2604.20728v1",
+    "arxiv_id": "2604.20728v1",
+    "authors": [
+      "William Scarbro",
+      "Ravi Mangal"
+    ],
+    "published": "2026-04-22T16:12:37+00:00",
+    "summary": "Autonomous systems that rely on learned perception can make unsafe decisions when sensor readings are misclassified. We study shielding for this setting: given a proposed action, a shield blocks actions that could violate safety. We consider the common case where system dynamics are known but perception uncertainty must be estimated from finite labeled data. From these data we build confidence intervals for the probabilities of perception outcomes and use them to model the system as a finite Interval Partially Observable Markov Decision Process with discrete states and actions. We then propose an algorithm to compute a conservative set of beliefs over the underlying state that is consistent with the observations seen so far.   This enables us to construct a runtime shield that comes with a finite-horizon guarantee: with high probability over the training data, if the true perception uncertainty rates lie within the learned intervals, then every action admitted by the shield satisfies a stated lower bound on safety. Experiments on four case studies show that our shielding approach (and variants derived from it) improves the safety of the system over state-of-the-art baselines."
+  },
+  {
+    "title": "Photometric Identification of Unresolved Binary Stars in Nearby Open Star Clusters",
+    "url": "http://arxiv.org/abs/2604.20722v1",
+    "arxiv_id": "2604.20722v1",
+    "authors": [
+      "Varvara O. Mikhnevich",
+      "Anastasiia Plotnikova",
+      "Giovanni Carraro",
+      "Anton F. Seleznev"
+    ],
+    "published": "2026-04-22T16:07:28+00:00",
+    "summary": "This paper introduces a new method to search for unresolved binary stars in open star clusters. The work aims at improving the approach introduced previously, which employs the (H-W2)-W1 versus W2-(BP-K) photometric diagram. This diagram, in tandem with the Gaia Color Magnitude Diagram (CMD) and using theoretical isochrones as reference sequences, is used to estimate the binary star fraction and the distribution of the component mass ratio $q$ in eight nearby open star clusters, including Pleiades, Alpha Per, and Praesepe, which we investigated in previous studies. In this study, to alleviate the uncertainties associated with the use of theoretical isochrones, we propose an empirical isochrones approach. We show that this is an effective approach to exploring a wider primary-mass interval, in particular for the region of low-mass sources.   Box-and-whisker plots are used to present the distribution of the component mass ratio $q$. The mode of distribution turns out to be in the range $0.43-0.83$ and $0.38-0.63$ for Gaia and infrared-visible photometry, respectively. In addition, we update the algorithm to obtain the binary fraction, whose estimate lies in the range $0.16 - 0.36$ and $0.21 - 0.44$, depending on the adopted method, and show that in previous studies the binary fraction was overestimated. We do not find evidence that the variable spatial resolution of the employed catalogs (Gaia, 2MASS, and WISE) affects the precision of the binary fraction estimate."
+  },
+  {
+    "title": "Generative Flow Networks for Model Adaptation in Digital Twins of Natural Systems",
+    "url": "http://arxiv.org/abs/2604.20707v1",
+    "arxiv_id": "2604.20707v1",
+    "authors": [
+      "Pascal Archambault",
+      "Houari Sahraoui",
+      "Eugene Syriani"
+    ],
+    "published": "2026-04-22T15:48:48+00:00",
+    "summary": "Digital twins of natural systems must remain aligned with physical systems that evolve over time, are only partially observed, and are typically modeled by mechanistic simulators whose parameters cannot be measured directly. In such settings, model adaptation is naturally posed as a simulation-based inference problem. However, sparse and indirect observations often fail to identify a unique and optimal calibration, leaving several simulator parameterizations compatible with the available evidence. This article presents a GFlowNet-based approach to model adaptation for digital twins of natural systems. We formulate adaptation as a generative modeling problem over complete simulator configurations, so that plausible parameterizations can be sampled with probability proportional to a reward derived from agreement between simulated and observed behavior. Using a controlled environment agriculture case study based on a mechanistic tomato model, we show that the learned policy recovers dominant regions of the adaptation landscape, retrieves strong calibration hypotheses, and preserves multiple plausible configurations under uncertainty."
+  },
+  {
+    "title": "Forecasts of CMB $E$-mode anomalies for AliCPT-1",
+    "url": "http://arxiv.org/abs/2604.20699v1",
+    "arxiv_id": "2604.20699v1",
+    "authors": [
+      "Jiazheng Dou",
+      "Wen Zhao"
+    ],
+    "published": "2026-04-22T15:44:13+00:00",
+    "summary": "The standard $\u039b$CDM model has been highly successful in describing cosmic microwave background (CMB) observations. Nevertheless, a set of large-scale statistical anomalies persists in temperature anisotropies across WMAP and Planck. CMB $E$-mode polarization offers an independent probe of these anomalies, circumventing the look-elsewhere effect inherent in temperature-only analyses. In this paper, we forecast the capability of the Ali CMB Polarization Telescope (AliCPT), a ground-based CMB experiment in the Northern Hemisphere, to detect such anomalies in large-scale $E$-mode polarization. Using 1000 unconstrained simulations processed with the NILC component separation method, we evaluate four anomaly estimators: dipole modulation, lack of large-angle correlations, quadrupole-octopole alignment, and point-parity asymmetry. Our analysis considers two noise levels for AliCPT, as well as a joint configuration with Simons Observatory (SO) Large Aperture Telescope (LAT). For dipole modulation, we validate the local variance estimator on modulated simulations with an input amplitude $A_d = 0.07$, and find that the combined AliCPT+SO dataset is likely to detect the injected $E$-mode modulation at a 99% confidence level. Tests of the full suite of anomaly statistics on unconstrained isotropic simulations indicate that AliCPT alone, owing to its limited sky coverage, might introduce systematic biases or enlarged uncertainties, especially for quadrupole-octopole alignment and point-parity asymmetry. The combination with SO largely restores the statistical distributions to those expected in an ideal full-sky scenario, thereby establishing a near-cosmic-variance benchmark for upcoming anomaly investigations."
+  },
+  {
+    "title": "Bayesian approach for uncertainty quantification of hybrid spectral unmixing in $\u03b3$-ray spectrometry",
+    "url": "http://arxiv.org/abs/2604.20691v1",
+    "arxiv_id": "2604.20691v1",
+    "authors": [
+      "Dinh Triem Phan",
+      "J\u00e9r\u00f4me Bobin",
+      "Cheick Thiam",
+      "Christophe Bobin"
+    ],
+    "published": "2026-04-22T15:37:56+00:00",
+    "summary": "Identifying and quantifying $\u03b3$-emitting radionuclides, considering spectral deformation from $\u03b3$-interactions in radioactive source surroundings, present a significant challenge in $\u03b3$-ray spectrometry. In that context, a hybrid machine learning method has been previously proposed to jointly estimate the counting and spectral signatures of $\u03b3$-emitters under conditions of spectral variability. This paper addresses the uncertainty quantification of the estimators (i.e., the counting and the variable $\u03bb$ which characterizes the spectral signatures) obtained by this spectral unmixing algorithm. The focus is on the coverage interval, as defined by the GUM, which corresponds closely to a credible interval in the Bayesian framework. Given the inverse problem and the constraints associated with spectral deformation, two Bayesian methods - Laplace approximation and Markov Chain Monte Carlo - have been developed for uncertainty quantification to ensure robust decision-making. The Laplace approximation technique approximates the posterior distribution by a Gaussian distribution, while the Markov Chain Monte Carlo technique samples the posterior distribution. This study evaluates these two methods in terms of precision of coverage interval based on repeated Monte Carlo samples using the long-run success rate. Numerical experiments show that both methods yield similar results close to the expected success rate of 95.4$\\%$ when constraints related to spectral signatures deformation and counting are inactive. However, when constraints are active or the background counting significantly dominates other radionuclides, the Laplace approximation method deviates from the expected long-run success rate due to the non-Gaussian posterior distribution. In such cases, the Markov Chain Monte Carlo method still provides robust results."
+  },
+  {
+    "title": "Storm Surge Modeling, Bias Correction, Graph Neural Networks, Graph Convolution Networks",
+    "url": "http://arxiv.org/abs/2604.20688v1",
+    "arxiv_id": "2604.20688v1",
+    "authors": [
+      "Noujoud Nader",
+      "Stefanos Giaremis",
+      "Clint Dawson",
+      "Carola Kaiser",
+      "Karame Mohammadiporshokooh",
+      "Hartmut Kaiser"
+    ],
+    "published": "2026-04-22T15:36:19+00:00",
+    "summary": "Storm surge forecasting remains a critical challenge in mitigating the impacts of tropical cyclones on coastal regions, particularly given recent trends of rapid intensification and increasing nearshore storm activity. Traditional high fidelity numerical models such as ADCIRC, while robust, are often hindered by inevitable uncertainties arising from various sources. To address these challenges, this study introduces StormNet, a spatio-temporal graph neural network (GNN) designed for bias correction of storm surge forecasts. StormNet integrates graph convolutional (GCN) and graph attention (GAT) mechanisms with long short-term memory (LSTM) components to capture complex spatial and temporal dependencies among water-level gauge stations. The model was trained using historical hurricane data from the U.S. Gulf Coast and evaluated on Hurricane Idalia (2023). Results demonstrate that StormNet can effectively reduce the root mean square error (RMSE) in water-level predictions by more than 70\\% for 48-hour forecasts and above 50\\% for 72-hour forecasts, as well as outperform a sequential LSTM baseline, particularly for longer prediction horizons. The model also exhibits low training time, enhancing its applicability in real-time operational forecasting systems. Overall, StormNet provides a computationally efficient and physically meaningful framework for improving storm surge prediction accuracy and reliability during extreme weather events."
+  },
+  {
+    "title": "A Field Guide to Decision Making",
+    "url": "http://arxiv.org/abs/2604.20669v1",
+    "arxiv_id": "2604.20669v1",
+    "authors": [
+      "Richard B. Arthur"
+    ],
+    "published": "2026-04-22T15:18:23+00:00",
+    "summary": "High-consequence decision making demands peak performance from individuals in positions of responsibility. Such executive authority bears the obligation to act despite uncertainty, limited resources, time constraints, and accountability risks. Tools and strategies to motivate confidence and foster risk tolerance must confront informational noise and can provide qualified accountability. Machine intelligence augments human cognition and perception to improve situational awareness, decision framing, flexibility, and coherence through agentic stewardship of contextual metadata. We examine systemic and behavioral factors crucial to address in scenarios encumbered by complexity, uncertainty, and urgency."
+  },
+  {
     "title": "Calibration-Induced Systematics in SALT3 Training and Their Impact on Dark Energy Constraints from Stage IV Supernova Surveys",
     "url": "http://arxiv.org/abs/2604.19746v1",
     "arxiv_id": "2604.19746v1",
