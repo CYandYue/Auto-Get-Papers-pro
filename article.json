@@ -1,5 +1,130 @@
 [
   {
+    "title": "A Scale-Adaptive Framework for Joint Spatiotemporal Super-Resolution with Diffusion Models",
+    "url": "http://arxiv.org/abs/2604.21903v1",
+    "arxiv_id": "2604.21903v1",
+    "authors": [
+      "Max Defez",
+      "Filippo Quarenghi",
+      "Mathieu Vrac",
+      "Stephan Mandt",
+      "Tom Beucler"
+    ],
+    "published": "2026-04-23T17:49:16+00:00",
+    "summary": "Deep-learning video super-resolution has progressed rapidly, but climate applications typically super-resolve (increase resolution) either space or time, and joint spatiotemporal models are often designed for a single pair of super-resolution (SR) factors (upscaling spatial and temporal ratio between the low-resolution sequence and the high-resolution sequence), limiting transfer across spatial resolutions and temporal cadences (frame rates). We present a scale-adaptive framework that reuses the same architecture across factors by decomposing spatiotemporal SR into a deterministic prediction of the conditional mean, with attention, and a residual conditional diffusion model, with an optional mass-conservation (same precipitation amount in inputs and outputs) transform to preserve aggregated totals. Assuming that larger SR factors primarily increase underdetermination (hence required context and residual uncertainty) rather than changing the conditional-mean structure, scale adaptivity is achieved by retuning three factor-dependent hyperparameters before retraining: the diffusion noise schedule amplitude beta (larger for larger factors to increase diversity), the temporal context length L (set to maintain comparable attention horizons across cadences) and optionally a third, the mass-conservation function f (tapered to limit the amplification of extremes for large factors). Demonstrated on reanalysis precipitation over France (Comephore), the same architecture spans super-resolution factors from 1 to 25 in space and 1 to 6 in time, yielding a reusable architecture and tuning recipe for joint spatiotemporal super-resolution across scales."
+  },
+  {
+    "title": "Analytical and Machine Learning Methods for Model Discernment at CE$\u03bd$NS Experiments",
+    "url": "http://arxiv.org/abs/2604.21869v1",
+    "arxiv_id": "2604.21869v1",
+    "authors": [
+      "Iain A. Bisset",
+      "Bhaskar Dutta",
+      "Doojin Kim",
+      "Samiran Sinha",
+      "Joel W. Walker"
+    ],
+    "published": "2026-04-23T17:08:40+00:00",
+    "summary": "Neutrino experiments are often limited by low statistics, sizable systematic uncertainties, and coarse observable binning, which can hinder discrimination among competing beyond-the-Standard-Model (BSM) explanations of anomalous signals. In particular, analyses based primarily on total event-rate differences are vulnerable to source-normalization uncertainties and to degeneracies among models that induce similar inclusive yields. Using stopped-pion coherent elastic neutrino-nucleus scattering (CE$\u03bd$NS) as a benchmark environment, we study how much model-discrimination power can be obtained from correlations in baseline, recoil energy, and timing that are less sensitive to the total rate. As benchmark BSM scenarios, we consider a $3+1$ sterile-neutrino framework and neutral-current non-standard neutrino interactions (NSI). We show with a likelihood-based analysis that these scenarios can be distinguished in nontrivial regions of parameter space once multidimensional shape information is retained. We further demonstrate with convolutional neural networks that substantial discrimination remains possible even after the total event rate is explicitly removed from the input, indicating that the relevant information is genuinely encoded in the shape of the CE$\u03bd$NS distribution. Finally, through multi-class classification within the sterile parameter space, we show that in favorable regions the same observables can support approximate localization of the underlying sterile-neutrino benchmark point. Our results highlight the complementary roles of conventional and machine-learning-based inference in moving neutrino new-physics searches from anomaly detection to physics interpretation."
+  },
+  {
+    "title": "Nonparametric f-Modeling for Empirical Bayes Inference with Unequal and Unknown Variances",
+    "url": "http://arxiv.org/abs/2604.21865v1",
+    "arxiv_id": "2604.21865v1",
+    "authors": [
+      "Zhigen Zhao",
+      "Shonosuke Sugaasawa"
+    ],
+    "published": "2026-04-23T17:01:23+00:00",
+    "summary": "Empirical Bayes methods are widely used for large-scale inference, yet most classical approaches assume homoscedastic observations and focus primarily on posterior mean estimation. We develop a nonparametric empirical Bayes framework for the heteroscedastic normal means problem with unequal and unknown variances. Our first contribution is a generalized Tweedie-type identity that expresses the Bayes estimator entirely in terms of the joint marginal density of the observed statistics and its partial derivatives, extending the classical Tweedie's formula to settings with heterogeneous and unknown variances. Our second contribution is to introduce a moment-generating-function representation that enables recovery of the full posterior distribution within the f-modeling paradigm without specifying or estimating the prior distribution. The resulting method provides a unified framework for point estimation, uncertainty quantification, and hypothesis testing while accommodating arbitrary dependence between means and variances. Simulation studies and real-data analysis demonstrate that the proposed approach achieves accurate shrinkage estimation and reliable posterior inference in heterogeneous data environments."
+  },
+  {
+    "title": "Mitigating Systematic Errors in Parameter Estimation of Binary Black Hole Mergers in O1-O3 LIGO-Virgo Data",
+    "url": "http://arxiv.org/abs/2604.21859v1",
+    "arxiv_id": "2604.21859v1",
+    "authors": [
+      "Sumit Kumar",
+      "Max Melching",
+      "Frank Ohme",
+      "Harsh Narola",
+      "Tom Dooney",
+      "Chris Van Den Broeck"
+    ],
+    "published": "2026-04-23T16:52:02+00:00",
+    "summary": "Systematic errors in the parameter estimation (PE) of gravitational wave (GW) mergers can arise from various sources, including waveform systematics, noise mischaracterization, data analysis artifacts, and other unknown factors. In this study, we analyze selected events from the first three observing runs of the LIGO-Virgo-KAGRA (LVK) collaboration. We choose events that have been flagged in various studies as potentially affected by systematic errors. Here, we reanalyze these events using a couple of parametric models developed in previous work that incorporate uncertainties in both the phase and amplitude of the GW waveform. In this data-driven approach, we apply sufficiently broad priors on the uncertainty parameters to account for potential systematic errors. Our findings show that the proposed method effectively reduces systematic errors, even those arising from data artifacts, such as glitches occurring near a signal and the deglitching process in GW frame files. Similarly, inconsistent results from different waveform models become much more consistent in our framework. One noteworthy event we examine is GW191109\\_010717, which is particularly interesting due to its anti-aligned spin properties. We report that, within our framework, the event still exhibits anti-aligned spin characteristics, but the inference results become consistent across raw and deglitched frame files, as well as across the waveform models used for this event (IMRPhenomXPHM, IMRPhenomXO4a, and NRSur7dq4). A similar trend is observed for the event GW200129\\_065458, which previously yielded a high, but inconsistent precession parameter among different waveform models. In contrast, we observe a non-zero and consistent value of $\u03c7_{p}=0.60^{+0.31}_{-0.33}, 0.58^{+0.30}_{-0.29}$ and $0.56^{+0.31}_{-0.28}$ for the IMRPhenomXPHM, IMRPhenomXO4a, and NRSur7dq4 waveform models, respectively."
+  },
+  {
+    "title": "OptiMat Alloys: A FAIR End-to-End Agent with Living Database for Computational Multi-Principal Alloy Exploration",
+    "url": "http://arxiv.org/abs/2604.21850v1",
+    "arxiv_id": "2604.21850v1",
+    "authors": [
+      "Yang Hu",
+      "Vladyslav Turlo"
+    ],
+    "published": "2026-04-23T16:40:12+00:00",
+    "summary": "The FAIR principles have transformed how computational data and workflows are shared in materials research, yet existing repositories can only serve pre-computed entries -- broad coverage is perpetually incomplete and cannot adapt to new questions on demand. To address these challenges, we present OptiMat Alloys, a large language model-powered conversational agent for multi-principal element alloy exploration built on three pillars: a living database that stores every calculation with provenance, low-barrier accessibility through a web interface requiring zero programming expertise, and built-in uncertainty quantification via cross-potential and cross-configuration validation (see demo here https://youtu.be/lQzuorkzPMc). Coupling foundational machine learning interatomic potentials covering near-all periodic table of elements with natural-language interaction, OptiMat Alloys enables targeted, on-demand computation guided by the user's domain knowledge-extending FAIR from pre-computed repositories to on-demand knowledge generation and making computational alloy screening accessible to any materials scientist."
+  },
+  {
+    "title": "Alignment has a Fantasia Problem",
+    "url": "http://arxiv.org/abs/2604.21827v1",
+    "arxiv_id": "2604.21827v1",
+    "authors": [
+      "Nathanael Jo",
+      "Zoe De Simone",
+      "Mitchell Gordon",
+      "Ashia Wilson"
+    ],
+    "published": "2026-04-23T16:18:10+00:00",
+    "summary": "Modern AI assistants are trained to follow instructions, implicitly assuming that users can clearly articulate their goals and the kind of assistance they need. Decades of behavioral research, however, show that people often engage with AI systems before their goals are fully formed. When AI systems treat prompts as complete expressions of intent, they can appear to be useful or convenient, but not necessarily aligned with the users' needs. We call these failures Fantasia interactions. We argue that Fantasia interactions demand a rethinking of alignment research: rather than treating users as rational oracles, AI should provide cognitive support by actively helping users form and refine their intent through time. This requires an interdisciplinary approach that bridges machine learning, interface design, and behavioral science. We synthesize insights from these fields to characterize the mechanisms and failures of Fantasia interactions. We then show why existing interventions are insufficient, and propose a research agenda for designing and evaluating AI systems that better help humans navigate uncertainty in their tasks."
+  },
+  {
+    "title": "Rigorous Security Proofs for Practical Quantum Key Distribution",
+    "url": "http://arxiv.org/abs/2604.21791v1",
+    "arxiv_id": "2604.21791v1",
+    "authors": [
+      "Devashish Tupkary"
+    ],
+    "published": "2026-04-23T15:48:02+00:00",
+    "summary": "This thesis is concerned with rigorous security analyses of practical Quantum Key Distribution (QKD) protocols, using a variety of modern proof techniques. The main results are as follows. First, we establish a security proof for variable-length QKD protocols against IID collective attacks, and extend this result to coherent attacks using the postselection technique. In doing so, we resolve a long-standing flaw in the application of the postselection technique to QKD, thereby placing it on a rigorous mathematical footing. Second, we develop a method to bound phase error rates in entropic uncertainty relation-based and phase error rate-based proofs, using only the observed statistics of the protocol, even when detectors are imperfect and only approximately characterized. This removes a key assumption of identical detector behaviour and enables these techniques to be applied in realistic settings. Third, we present a very general security analysis based on the marginal-constrained entropy accumulation theorem. The resulting framework can be readily adapted to practical imperfections and side channels, and is suitable for certification efforts. Finally, we show that the security of QKD protocols under realistic authentication assumptions can be reduced to the standard idealized setting, where authentication is assumed to behave honestly, with only minor protocol modifications. A distinctive feature of this thesis is its unified presentation of several major QKD security proof frameworks using consistent protocol descriptions and notation. Consequently, this thesis is intended not only as a collection of new technical results, but also as a useful reference for understanding rigorous security analysis in quantum key distribution."
+  },
+  {
+    "title": "Informative Priors on Primordial Non-Gaussianity Bias $b_\u03c6$ From Galaxy Formation",
+    "url": "http://arxiv.org/abs/2604.21790v1",
+    "arxiv_id": "2604.21790v1",
+    "authors": [
+      "Anne Moore",
+      "Lucia A. Perez",
+      "Elisabeth Krause"
+    ],
+    "published": "2026-04-23T15:46:53+00:00",
+    "summary": "Constraining primordial non-Gaussianity via its scale-dependent imprint on galaxy clustering requires knowledge of the bias parameter $b_\u03c6$, which is exactly degenerate with $f^{\\rm{loc}}_{\\rm{NL}}$ at leading order. To break this degeneracy, current analyses adopt the relation $\\left(b_\u03c6 = 2\u03b4_c\\left(b_1 - 1\\right)\\right)$ based on the assumption of a universal mass function. This relation is known to break down for physically motivated galaxy selections, introducing systematic errors in the inferred $f^{\\rm{loc}}_{\\rm{NL}}$ that scale directly with the assumed $b_\u03c6$ prior. We present a framework to construct physically motivated, observation-conditioned priors on $b_\u03c6$ by marginalizing over galaxy formation uncertainties. We use the CAMELS-SAM simulation suite, augmented by separate Universe simulations, to measure galaxy formation observables, like the stellar mass function (SMF) and the stellar-to-halo mass relationship (SHMR), and $b_\u03c6$ across a range of galaxy formation parameters. From these measurements, we construct a distribution of $b_\u03c6$ conditioned on observations, and we select our galaxy sample to resemble the DESI Emission Line Galaxy (ELG) sample. Conditioning on the SMF or SHMR decreases $\u03c3_{b_\u03c6}$ from $0.69$ to $0.08$ and $0.02$ respectively -- reductions of $88\\%$ and $97\\%$ -- with consistent results when conditioning on the observed data directly. Despite substantial shifts in the galaxy formation posteriors driven by known SC-SAM discrepancies at high halo masses, the resulting $b_\u03c6$ distributions remain mutually consistent across all observables. The SMF and SHMR are found to carry sufficient constraining power to reduce the galaxy formation uncertainty in $b_\u03c6$ relevant for $f^{\\rm{loc}}_{\\rm{NL}}$ inference with next-generation spectroscopic surveys"
+  },
+  {
+    "title": "Enabling and Inhibitory Pathways of University Students' Willingness to Disclose AI Use: A Cognition-Affect-Conation Perspective",
+    "url": "http://arxiv.org/abs/2604.21733v1",
+    "arxiv_id": "2604.21733v1",
+    "authors": [
+      "Yiran Du",
+      "Huimin He"
+    ],
+    "published": "2026-04-23T14:38:15+00:00",
+    "summary": "The increasing integration of artificial intelligence (AI) in higher education has raised important questions regarding students' transparency in reporting AI-assisted work. This study investigates the psychological mechanisms underlying university students' willingness to disclose AI use by applying the Cognition--Affect--Conation (CAC) framework. A sequential explanatory mixed-methods design was employed. In the quantitative phase, survey data were collected from 546 university students and analysed using structural equation modelling to examine the relationships among cognitive perceptions, affective responses, and disclosure intention. In the qualitative phase, semi-structured interviews with 22 students were conducted to further interpret the quantitative findings. The results indicate that psychological safety significantly increases students' willingness to disclose AI use and is positively shaped by perceived fairness, perceived teacher support, and perceived organisational support. Conversely, evaluation apprehension reduces disclosure intention and psychological safety, and is strengthened by perceived stigma, perceived uncertainty, and privacy concern. Qualitative findings further reveal that institutional clarity and supportive instructional practices encourage openness, whereas policy ambiguity and fear of negative evaluation often lead students to adopt cautious or strategic disclosure practices. Overall, the study highlights the dual role of enabling and inhibitory psychological mechanisms in shaping AI-use disclosure and underscores the importance of supportive institutional environments and clear guidance for promoting responsible AI transparency in higher education."
+  },
+  {
+    "title": "Fairness under uncertainty in sequential decisions",
+    "url": "http://arxiv.org/abs/2604.21711v1",
+    "arxiv_id": "2604.21711v1",
+    "authors": [
+      "Michelle Seng Ah Lee",
+      "Kirtan Padh",
+      "David Watson",
+      "Niki Kilbertus",
+      "Jatinder Singh"
+    ],
+    "published": "2026-04-23T14:17:58+00:00",
+    "summary": "Fair machine learning (ML) methods help identify and mitigate the risk that algorithms encode or automate social injustices. Algorithmic approaches alone cannot resolve structural inequalities, but they can support socio-technical decision systems by surfacing discriminatory biases, clarifying trade-offs, and enabling governance. Although fairness is well studied in supervised learning, many real ML applications are online and sequential, with prior decisions informing future ones. Each decision is taken under uncertainty due to unobserved counterfactuals and finite samples, with dire consequences for under-represented groups, systematically under-observed due to historical exclusion and selective feedback. A bank cannot know whether a denied loan would have been repaid, and may have less data on marginalized populations.   This paper introduces a taxonomy of uncertainty in sequential decision-making -- model, feedback, and prediction uncertainty -- providing shared vocabulary for assessing systems where uncertainty is unevenly distributed across groups. We formalize model and feedback uncertainty via counterfactual logic and reinforcement learning, and illustrate harms to decision makers (unrealized gains/losses) and subjects (compounding exclusion, reduced access) of policies that ignore the unobserved space. Algorithmic examples show it is possible to reduce outcome variance for disadvantaged groups while preserving institutional objectives (e.g. expected utility). Experiments on data simulated with varying bias show how unequal uncertainty and selective feedback produce disparities, and how uncertainty-aware exploration alters fairness metrics. The framework equips practitioners to diagnose, audit, and govern fairness risks. Where uncertainty drives unfairness rather than incidental noise, accounting for it is essential to fair and effective decision-making."
+  },
+  {
     "title": "A Hough transform approach to safety-aware scalar field mapping using Gaussian Processes",
     "url": "http://arxiv.org/abs/2604.20799v1",
     "arxiv_id": "2604.20799v1",
