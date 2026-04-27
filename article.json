@@ -1,5 +1,141 @@
 [
   {
+    "title": "Spend Less, Fit Better: Budget-Efficient Scaling Law Fitting via Active Experiment Selection",
+    "url": "http://arxiv.org/abs/2604.22753v1",
+    "arxiv_id": "2604.22753v1",
+    "authors": [
+      "Sijie Li",
+      "Shanda Li",
+      "Haowei Lin",
+      "Weiwei Sun",
+      "Ameet Talwalkar",
+      "Yiming Yang"
+    ],
+    "published": "2026-04-24T17:59:42+00:00",
+    "summary": "Scaling laws are used to plan multi-million-dollar training runs, but fitting those laws can itself cost millions. In modern large-scale workflows, assembling a sufficiently informative set of pilot experiments is already a major budget-allocation problem rather than a routine preprocessing step. We formulate scaling-law fitting as budget-aware sequential experimental design: given a finite pool of runnable experiments with heterogeneous costs, choose which runs to execute so as to maximize extrapolation accuracy in a high-cost target region. We then propose an uncertainty-aware method for sequentially allocating experimental budget toward the runs most useful for target-region extrapolation. Across a diverse benchmark of scaling-law tasks, our method consistently outperforms classical design-based baselines, and often approaches the performance of fitting on the full experimental set while using only about 10% of the total training budget. Our code is available at https://github.com/PlanarG/active-sl."
+  },
+  {
+    "title": "Minimax Optimal Procedures for Joint Detection and Estimation",
+    "url": "http://arxiv.org/abs/2604.22740v1",
+    "arxiv_id": "2604.22740v1",
+    "authors": [
+      "Dominik Reinhard",
+      "Michael Fau\u00df",
+      "Abdelhak M. Zoubir"
+    ],
+    "published": "2026-04-24T17:38:05+00:00",
+    "summary": "We investigate the problem of jointly testing a pair of composite hypotheses and, depending on the test result, estimating a random parameter under distributional uncertainties. Specifically, it is assumed that the distribution of the data given the parameter of interest, is subject to uncertainty. Both, a Bayesian formulation and a Neyman-Pearson-like formulation, are considered. It is shown that the optimal policy induces an $f$-similarity that must be maximized to identify the least favorable distributions. Besides the general results, the implementation is investigated using a band-type uncertainty model. For designing the minimax procedures, existing algorithms are modified to increase convergence speed while maintaining numerical stability. The proposed theory is supplemented by numerical results for both formulations."
+  },
+  {
+    "title": "Precision Analysis for $\\boldsymbol{H_0}$ Using Upcoming Multi-band Gravitational Wave Observations",
+    "url": "http://arxiv.org/abs/2604.22731v1",
+    "arxiv_id": "2604.22731v1",
+    "authors": [
+      "Setabuddin",
+      "Md Riajul Haque",
+      "Ratna Koley",
+      "Supratik Pal"
+    ],
+    "published": "2026-04-24T17:28:02+00:00",
+    "summary": "We investigate how multi-band gravitational wave (GW) observations can constrain the uncertainties in the Hubble parameter ($H_0$) using primordial black holes (PBHs) as possible sources. Our framework combines scalar-induced and merger-induced GWs from PBHs, and forecasts on a combination of two future detectors Square Kilometre Array (SKA) and the Einstein Telescope (ET), enabling a multi-band analysis. We perform a statistical forecast of the PBH parameters, $M_{\\rm PBH}$ and $f_{\\rm PBH}$, using signal-to-noise ratio (SNR) estimates and Fisher matrix analysis. Imposing $\\mathrm{SNR} \\geq 1$, we identify the accessible PBH parameter space and propagate these uncertainties to estimate the corresponding uncertainties in $H_0$. For $\u03b4\u03b8_i/\u03b8_i \\leq 0.1$, with $\u03b8_i \\equiv M_{\\rm PBH}(f_{\\rm PBH})$, we find $\u03b4H_0 \\lesssim 2~{\\rm km\\,s^{-1}\\,Mpc^{-1}}$ in a conservative approach, improving to $\u03b4H_0 \\lesssim \\mathcal{O}(0.1)~{\\rm km\\,s^{-1}\\,Mpc^{-1}}$ for $\u03b4\u03b8_i/\u03b8_i \\leq 0.01$ for an optimistic approach of precision measurement. The results are further found to be largely insensitive to the fiducial choice of the $H_0$, with only moderate dependence on the PBH collapse efficiency. These findings demonstrate that multi-band GW observations provide an independent and complementary approach to constraining the uncertainties in $H_0$, with the potential to provide a novel, cosmic distance ladder-independent measure of the Hubble parameter."
+  },
+  {
+    "title": "Revisiting confinement scalings and fusion performance with a perspective optimized for extrapolation",
+    "url": "http://arxiv.org/abs/2604.22728v1",
+    "arxiv_id": "2604.22728v1",
+    "authors": [
+      "Jalal Butt",
+      "Geert Verdoolaege",
+      "Ghent University",
+      "Stanley M. Kaye",
+      "Egemen Kolemen"
+    ],
+    "published": "2026-04-24T17:26:25+00:00",
+    "summary": "Recent advances in high-temperature-superconductor technology have made substantially higher toroidal magnetic fields technologically accessible, reopening the design space for compact, high-field tokamak reactors. Because reactor performance projections remain anchored to empirical confinement scalings, the recent update to the ITPA global H-mode confinement database raises an important question: what does the present experimental record and its uncertainty imply for the path to reactor-grade fusion performance? In this work, we revisit confinement extrapolation from an explicitly extrapolation-oriented perspective and, to complement its implications in terms of a direct reactor performance measure, present a cross-machine empirical scaling for fusion power. We systematically search for a minimally complex confinement scaling that optimizes the tradeoff between variance capture and extrapolative robustness. We find that low-order models centered near $N=3$ to $N=4$ optimize this tradeoff, with plasma current, machine size, heating power, and elongation emerging as the dominant engineering levers, together with an empirically inferred confinement penalty associated with metallic walls. Recast in reactor-performance terms, the results indicate that both the fusion triple product and fusion power are governed primarily by plasma current: the triple product scales approximately as $I_p^2$, and the empirical fusion power scaling exhibits a similarly near-quadratic dependence over a survey of the highest performing discharges across several machines. Projecting to reactors, these results suggest that high-field devices with metal walls may require higher plasma current than standard IPB98$(y,2)$-based expectations imply, and that gigawatt-class tokamak performance likely demands operation at $I_p \\gtrsim 20\\mathrm{MA}$."
+  },
+  {
+    "title": "COMPASS: A Unified Decision-Intelligence System for Navigating Performance Trade-off in HPC",
+    "url": "http://arxiv.org/abs/2604.22688v1",
+    "arxiv_id": "2604.22688v1",
+    "authors": [
+      "Ankur Lahiry",
+      "Banooqa Banday",
+      "Yugesh Bhattarai",
+      "Tanzima Z. Islam",
+      "Mohammad Zaeed"
+    ],
+    "published": "2026-04-24T16:24:05+00:00",
+    "summary": "HPC systems expose many configuration parameters that jointly drive competing objectives. Existing tools such as autotuners recommend good configurations but do not identify minimal changes for a near-miss configuration to meet a performance objective, and they often ignore domain-specific constraints. To address this gap, we introduce COMPASS -- a modular, programmable engine that uses operational traces to generate HPC configuration recommendations and guide tuning decisions. This paper: (1) formalizes configuration questions into query patterns; (2) develops an interactive decision-making engine that formulates these queries as Machine Learning (ML) tasks; (3) quantifies the trustworthiness of its recommendations by providing evidence and quantifying uncertainty, and -- when confidence is low -- provides guidance on which configurations to run next. We validate COMPASS using analytical ground truth, reconstruction accuracy, reproduction of published findings, and when possible, running on real hardware. When integrated with an open-source HPC scheduling simulator, COMPASS cuts average job turnaround time by 65.93% and node usage by 80.93% relative to the state-of-the-art. Moreover, COMPASS achieves up to 100x faster training and 80x faster inference than state-of-the-art generative methods, and scales to traces with 1.3B samples and 126GB of data."
+  },
+  {
+    "title": "Iterative Model-Learning Scheme via Gaussian Processes for Nonlinear Model Predictive Control of (Semi-)Batch Processes",
+    "url": "http://arxiv.org/abs/2604.22672v1",
+    "arxiv_id": "2604.22672v1",
+    "authors": [
+      "Tai Xuan Tan",
+      "Alexander Mitsos",
+      "Eike Cramer"
+    ],
+    "published": "2026-04-24T15:49:10+00:00",
+    "summary": "Batch processes are inherently transient and typically nonlinear, motivating nonlinear model predictive control (NMPC). However, adopting NMPC is hindered by the cost and unavailability of dynamic models. Thus, we propose to use Gaussian Processes (GP) in a model-learning NMPC scheme (GP-MLMPC) for batch processes. We initialize the GP-MLMPC using data from a single initial trajectory, e.g., from a PI controller. We iteratively apply the NMPC embedded with GPs to run batches and update the GP with new observations from each iteration, thereby achieving batch-wise improvements. Using uncertainty quantification from the GPs, we formulate chance constraints to enforce safe operation to the required confidence levels. We demonstrate our approach in \\textit{silico} on a semi-batch polymerization reactor for tracking and economic objectives over durations of two hours, and the reactor temperature is constrained in a range of $\\pm2^\\circ C$ around its setpoint. After only four batch iterations, tracking error from the GP-MLMPC scheme converged to a reduction of $83\\%$, compared to the initial trajectory. Furthermore, under an economic objective, the GP-MLMPC resulted in a 17-fold increase in final product mass by iteration 8, compared to the initial trajectory. In both cases, the resulting GP-MLMPC performance is on par with the full-model NMPC, which shows that the optimal controller can be learned by the approach. By collecting samples around the optimal trajectory, the GP-MLMPC remains sample-efficient across iterations and achieves quick convergence. Thus, the proposed GP-MLMPC scheme presents a promising data-efficient approach for the control of nonlinear batch processes without mechanistic knowledge."
+  },
+  {
+    "title": "DeepHartree: A Poisson-Coupled Neural Field for Scalable Density Functional Theory",
+    "url": "http://arxiv.org/abs/2604.22669v1",
+    "arxiv_id": "2604.22669v1",
+    "authors": [
+      "Jiankun Wu",
+      "Jinming Fan",
+      "Chao Qian",
+      "Shaodong Zhou"
+    ],
+    "published": "2026-04-24T15:48:38+00:00",
+    "summary": "Ab initio calculations are fundamentally bottlenecked for large systems by the steep computational scaling of solving self-consistent field (SCF) equations. While machine learning offers potential accelerations, existing methods often compromise physical rigor or rely on basis-dependent, non-transferable representations. Here, we introduce DeepHartree, a Poisson-coupled neural field that accelerates linear combination of atomic orbitals (LCAO) density functional theory (DFT). By coupling an E(3)-equivariant neural network with the Poisson equation through automatic differentiation and mitigating nuclear singularities via delta-learning, DeepHartree simultaneously predicts mutually consistent real-space electron densities and Hartree potentials. This resolves the Coulomb bottleneck by substituting $\\mathcal{O}(N^4)$ analytical integrals with GPU-accelerated, near-linear $\\mathcal{O}(N)$ numerical inference. Trained solely on small molecules, DeepHartree enables scalable density functional theory through a two-level transferability: for SCF convergence acceleration, it achieves robust zero-shot transferability across diverse basis sets, functionals, and systems up to 168 atoms; for predicting other density-related physical quantities, it retains zero-shot capability on small molecules while enabling precise predictions for larger systems via efficient few-shot fine-tuning.Our model accelerates standard SCF protocols by reducing iterations by up to 40.6% via high-fidelity initial density matrices, and its rigorous long-range asymptotics provide a zero-cost physical uncertainty metric prior to grid evaluation. By grounding deep learning in Poisson-coupled neural fields, DeepHartree accelerates demanding tasks -- such as near-coupled-cluster dynamic infrared simulations -- by orders of magnitude, establishing a scalable paradigm for density functional theory."
+  },
+  {
+    "title": "ReLIC-SGG: Relation Lattice Completion for Open-Vocabulary Scene Graph Generation",
+    "url": "http://arxiv.org/abs/2604.22546v1",
+    "arxiv_id": "2604.22546v1",
+    "authors": [
+      "Amir Hosseini",
+      "Sara Farahani",
+      "Xinyi Li",
+      "Suiyang Guang"
+    ],
+    "published": "2026-04-24T13:36:41+00:00",
+    "summary": "Open-vocabulary scene graph generation (SGG) aims to describe visual scenes with flexible relation phrases beyond a fixed predicate set. Existing methods usually treat annotated triplets as positives and all unannotated object-pair relations as negatives. However, scene graph annotations are inherently incomplete: many valid relations are missing, and the same interaction can be described at different granularities, e.g., \\textit{on}, \\textit{standing on}, \\textit{resting on}, and \\textit{supported by}. This issue becomes more severe in open-vocabulary SGG due to the much larger relation space. We propose \\textbf{ReLIC-SGG}, a relation-incompleteness-aware framework that treats unannotated relations as latent variables rather than definite negatives. ReLIC-SGG builds a semantic relation lattice to model similarity, entailment, and contradiction among open-vocabulary predicates, and uses it to infer missing positive relations from visual-language compatibility, graph context, and semantic consistency. A positive-unlabeled graph learning objective further reduces false-negative supervision, while lattice-guided decoding produces compact and semantically consistent scene graphs. Experiments on conventional, open-vocabulary, and panoptic SGG benchmarks show that ReLIC-SGG improves rare and unseen predicate recognition and better recovers missing relations."
+  },
+  {
+    "title": "Quark Number Susceptibilities and Conserved Charge Fluctuations in $(2+1)$-flavor QCD with M\u00f6bius domain-wall fermions (MDWF)",
+    "url": "http://arxiv.org/abs/2604.22514v1",
+    "arxiv_id": "2604.22514v1",
+    "authors": [
+      "Jishnu Goswami",
+      "Yasumichi Aoki",
+      "Hidenori Fukaya",
+      "Shoji Hashimoto",
+      "Issaku Kanamori",
+      "Takashi Kaneko",
+      "Yoshifumi Nakamura",
+      "David Ward",
+      "Yu Zhang"
+    ],
+    "published": "2026-04-24T12:54:33+00:00",
+    "summary": "We calculate second- and selected fourth-order conserved-charge fluctuations in $(2+1)$-flavor QCD using M\u00f6bius domain-wall fermions (MDWF) along a line of constant physics. Gauge ensembles were generated for two light-to-strange quark-mass ratios, $m_l/m_s=1/10$ and $1/27.4$, corresponding to heavier-than-physical and physical pion masses, respectively. For $m_l/m_s=1/10$, calculations were carried out on lattices with temporal extents $N_\u03c4=12$ and $16$, enabling an assessment of lattice-spacing effects at heavier pion mass. For $m_l/m_s=1/27.4$, calculations were performed at $N_\u03c4=12$, allowing us to study the light-quark-mass dependence down to the physical point. Below the pseudocritical temperature, second-order electric-charge, strangeness, and off-diagonal conserved-charge fluctuations are consistent with QMHRG2020 hadron resonance gas calculations. Across the crossover region, these observables rise rapidly and tend toward their Stefan--Boltzmann limits. Selected fourth-order cumulants were also computed at the physical pion mass. Although these observables are statistically more demanding, several channels with controlled uncertainties permit a first comparison with hadron resonance gas calculations."
+  },
+  {
+    "title": "Optimal sensor placement for the reconstruction of ocean states using differentiable Gumbel-Softmax sampling operator",
+    "url": "http://arxiv.org/abs/2604.22511v1",
+    "arxiv_id": "2604.22511v1",
+    "authors": [
+      "Oscar Chapron",
+      "Ronan Fablet",
+      "Yann St\u00e9phan"
+    ],
+    "published": "2026-04-24T12:52:06+00:00",
+    "summary": "Accurately reconstructing and forecasting ocean fields from sparse observations is critical for both operational and scientific purposes. Optimizing sensor placement to maximize reconstruction skill remains challenging due to evolving ocean dynamics and practical deployment constraints. Traditional approaches, such as Empirical Orthogonal Functions, greedy search, or Gaussian processes, either assume static observation networks or scale poorly in high-resolution and non-stationary regimes.   We introduce a differentiable adaptive sensor placement framework based on a Gumbel-Softmax sampling operator. Given an ensemble of forecasts or simulations, the method jointly optimizes a probabilistic sampling mask and the reconstruction mapping (e.g., Optimal Interpolation correlation lengths) under strict observation budgets. Numerical experiments are conducted for Sea Surface Height reconstruction in a Gulf Stream region through Observing-System Simulation Experiments using a state-of-the-art high-resolution ocean simulation.   With a sensor budget of only 0.1% (fewer than 100 point-wise observations on a 14\u00b0x14\u00b0 domain) the optimized sampling reduces the reconstruction RMSE by more than half (0.0908 m versus 0.1750 m) and increases explained variance by about 20% (93.1% versus 74.4%) compared with a uniform random strategy. The method remains robust when trained on noisy ensembles with significant spatial displacement (up to 1\u00b0), demonstrating practical applicability under forecast uncertainty.   Overall, the framework provides a scalable, budget-aware approach to designing observation networks. Beyond improved skill, it yields interpretable sampling patterns that consistently target energetic regions such as eddies and fronts, offering a transferable tool for adaptive sensing in geophysical systems."
+  },
+  {
     "title": "A Scale-Adaptive Framework for Joint Spatiotemporal Super-Resolution with Diffusion Models",
     "url": "http://arxiv.org/abs/2604.21903v1",
     "arxiv_id": "2604.21903v1",
