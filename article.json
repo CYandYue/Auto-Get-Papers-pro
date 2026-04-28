@@ -1,5 +1,140 @@
 [
   {
+    "title": "Passage-Aware Structural Mapping for RGB-D Visual SLAM",
+    "url": "http://arxiv.org/abs/2604.24707v1",
+    "arxiv_id": "2604.24707v1",
+    "authors": [
+      "Ali Tourani",
+      "Miguel Fernandez-Cortizas",
+      "Saad Ejaz",
+      "David P\u00e9rez Saura",
+      "Asier Bikandi-Noya",
+      "Jose Luis Sanchez-Lopez",
+      "Holger Voos"
+    ],
+    "published": "2026-04-27T17:17:17+00:00",
+    "summary": "Doorways and passages are critical structural elements for indoor robot navigation, yet they remain underexplored in modern Visual SLAM (VSLAM) frameworks. This paper presents a passage-aware structural mapping approach for RGB-D VSLAM that detects doors and traversable openings by jointly fusing geometric, semantic, and topological cues. Doors are modeled as planar entities embedded within walls and classified as traversable or non-traversable based on their coplanarity with the supporting wall. Passages are inferred through two complementary strategies: traversal evidence accumulated from camera-wall interactions across consecutive keyframes, and geometric opening validation based on discontinuities in the mapped wall geometry. The proposed method is integrated into vS-Graphs as a proof of concept, enriching its scene graph with passage-level abstractions and improving room connectivity modeling. Qualitative evaluations on indoor office sequences demonstrate reliable doorway detection, and the framework lays the foundation for exploiting these elements in BIM-informed VSLAM. The source code is publicly available at https://github.com/snt-arg/visual_sgraphs/tree/doorway_integration."
+  },
+  {
+    "title": "Voxel Deformation-Aware Neural Intersection Function",
+    "url": "http://arxiv.org/abs/2604.24666v1",
+    "arxiv_id": "2604.24666v1",
+    "authors": [
+      "Chih-Chen Kao",
+      "Grzegorz Makowski",
+      "Shin Fujieda",
+      "Takahiro Harada"
+    ],
+    "published": "2026-04-27T16:26:43+00:00",
+    "summary": "We extend the Locally-Subdivided Neural Intersection Function (LSNIF) to support parameterized deformable and animated geometry. Our approach introduces a rest-space and deformed-space formulation inspired by meshless rendering, allowing ray samples to be mapped back to a canonical space where a single neural network represents geometry consistently across poses without retraining. To maintain accuracy under deformation-aware training, we incorporate scale-invariant distance regression, uncertainty-weighted multi-task learning, and a hybrid positional-grid encoding. The resulting method preserves the compactness and efficiency of LSNIF while enabling robust neural intersection prediction for dynamic geometry."
+  },
+  {
+    "title": "Dual Control of Linear Systems from Bilinear Observations with Belief Space Model Predictive Control",
+    "url": "http://arxiv.org/abs/2604.24663v1",
+    "arxiv_id": "2604.24663v1",
+    "authors": [
+      "Daniel Cao",
+      "Beixi Du",
+      "Andrew Lowitt",
+      "Sunmook Choi",
+      "Sarah Dean",
+      "Yahya Sattar"
+    ],
+    "published": "2026-04-27T16:25:55+00:00",
+    "summary": "We study finite-horizon quadratic control of linear systems with bilinear observations, in which the control input affects not only the state dynamics but also the partial observations of the state. In this setting, the separation principle can fail because control inputs influence the future quality of state estimates. State estimation requires an input-dependent Kalman filter whose gain and error covariance evolve as functions of the control inputs. To address this challenge, we propose a belief-space model predictive control ($\\texttt{B-MPC}$) method that plans directly over both the estimated state and its error covariance. In particular, $\\texttt{B-MPC}$ plans with a deterministic surrogate of the belief evolution defined by the input-dependent Kalman filter. Through numerical experiments in two synthetic settings, we show that $\\texttt{B-MPC}$ can outperform both the separation-principle controller and its MPC variant in favorable regimes, and that these gains are accompanied by lower estimation covariance and more uncertainty-aware action choices."
+  },
+  {
+    "title": "Computational Design and Co-Robotic Fabrication for Material Reuse in Architecture",
+    "url": "http://arxiv.org/abs/2604.24648v1",
+    "arxiv_id": "2604.24648v1",
+    "authors": [
+      "Arash Adel",
+      "Daniel Ruan",
+      "Ruxin Xie"
+    ],
+    "published": "2026-04-27T16:16:15+00:00",
+    "summary": "Climate change and resource depletion demand a shift from the dominant linear \"take-make-use-dispose\" paradigm of construction toward circular, low-waste practices. Material reuse offers a promising pathway by reducing raw material extraction, mitigating waste, and extending the service lifespan of carbon-sequestering materials such as timber. Realizing this potential, however, requires addressing technical and logistical challenges across both design and construction for accommodating heterogeneous, reclaimed material inventories.   This paper presents an integrated framework that couples data-driven computational design with feedback-driven adaptive human-robot collaborative (co-robotic) fabrication and assembly to enable the realization of nonstandard structures made from reclaimed timber of varying length and geometries, supplemented with new off-the-shelf timber when necessary. The framework is validated through Timbrelyn, a built case-study installation that demonstrates how timber reuse can inform and enhance architectural expression. This work contributes to the development of integrated design-to-fabrication workflows that advance adaptive, feedback-driven methods to handle inventory constraints and reclaimed material uncertainties, facilitating material reuse in the design and construction of new buildings and structures."
+  },
+  {
+    "title": "Physical Basis for Band Transport and Dimensionality in Amorphous Oxide Semiconductor Field-Effect Transistors",
+    "url": "http://arxiv.org/abs/2604.24641v1",
+    "arxiv_id": "2604.24641v1",
+    "authors": [
+      "Ananth Dodabalapur",
+      "Chankeun Yoon",
+      "Xiao Wang"
+    ],
+    "published": "2026-04-27T16:09:08+00:00",
+    "summary": "A consistent and widely accepted physical basis for interpretation of charge transport in amorphous oxide semiconductor (AOS) field-effect transistors (FETs), and more generally device physics, has been hampered by uncertainties in crystalline order, dimensionality, and the effects of a significant density of traps. The overarching theme of this paper is to build and justify a much-needed conceptual framework for describing advanced AOS transistors, particularly those with very small channel lengths. Combining new work and selecting prior research results on charge transport and device physics together with literature reports from various groups on morphology, physical properties, electronic structure and percolation effects, the main evidence that is available in support of a trap-influenced band transport picture in quasi-2-dimensional channels in high mobility AOS FETs is presented."
+  },
+  {
+    "title": "Dynamical Fluctuation-Response Relations",
+    "url": "http://arxiv.org/abs/2604.24626v1",
+    "arxiv_id": "2604.24626v1",
+    "authors": [
+      "Timur Aslyamov",
+      "Massimiliano Esposito"
+    ],
+    "published": "2026-04-27T15:53:13+00:00",
+    "summary": "We derive exact dynamical fluctuation-response relations (FRRs) for time-integrated observables of any nonautonomous Markov jump process. The finite-time covariance splits into an initial variability and an integral of response kernels along the driven dynamics. The identity sharpens the dynamical response thermodynamic and kinetic uncertainty relations and fluctuation-response inequalities (FRIs). It also recovers steady-state FRRs, fluctuation-dissipation theorem and Onsager reciprocity, identifies known autonomous FRIs as the zero-frequency mode."
+  },
+  {
+    "title": "Accurate distances of the Galactic spiral arms from dust-scattered X-ray emission of gamma-ray bursts",
+    "url": "http://arxiv.org/abs/2604.24617v1",
+    "arxiv_id": "2604.24617v1",
+    "authors": [
+      "B. Vaia",
+      "I. Fornasiero",
+      "A. Tiengo",
+      "A. Bracco",
+      "V. Jeli\u0107",
+      "\u017d. Bo\u0161njak",
+      "F. Pintore",
+      "P. Esposito"
+    ],
+    "published": "2026-04-27T15:43:53+00:00",
+    "summary": "The details of the spiral structure of the Milky Way are still debated due to large uncertainties in the distance estimates obtained through the most common tracers. X-ray dust scattering rings produced by short extragalactic X-ray transients provide instead a direct method to measure the 3D distribution of interstellar clouds up to the edges of our Galaxy with a few percent precision. We report on the analysis of all the available XMM-Newton and Chandra follow-up observations of three low-latitude gamma-ray bursts: GRB 031203 ($l \\sim 255\u00b0$, $b \\sim -5\u00b0$), GRB 160623A ($l \\sim 84\u00b0$, $b \\sim -3\u00b0$), and GRB 221009A ($l \\sim 53\u00b0$, $b \\sim 4\u00b0$). The previous detection of X-ray rings in these observations, produced by dust clouds located beyond 5 kpc, can be associated with dust in the Perseus, Outer, and Outer Scutum-Centaurus arms, thus providing direct distance measurements to these structures along three distinct lines of sight. We have identified two additional rings in the direction of GRB 160623A, produced by dusty clouds at $6.91\\, \\pm\\,0.06$ kpc and $9.9\\,\\pm\\,0.6$ kpc, and confirmed -- through a second XMM-Newton observation -- the presence of one cloud at $9.7\\,\\pm\\,0.4$ kpc toward GRB 031203. We also accurately measured the distance of dusty clouds up to $19.0\\,\\pm\\,0.2$ kpc owing to the analysis of one Chandra and four XMM-Newton observations of GRB 221009A. The small statistical and systematic uncertainties of these measurements place tight constraints on the geometry of the outer Milky Way and reveal significant deviations from current models, which critically depend on spectroscopy-based Galactic rotation curves at large distances."
+  },
+  {
+    "title": "Errors that matter: Uncertainty-aware universal machine-learning potentials calibrated on experiments",
+    "url": "http://arxiv.org/abs/2604.24607v1",
+    "arxiv_id": "2604.24607v1",
+    "authors": [
+      "Matthias Kellner",
+      "Teitur Hansen",
+      "Thomas Bligaard",
+      "Karsten Wedel Jacobsen",
+      "Michele Ceriotti"
+    ],
+    "published": "2026-04-27T15:32:37+00:00",
+    "summary": "Machine-learning models of atomic-scale interactions achieve the accuracy of the quantum mechanical calculations on which they are trained, but at a dramatically lower computational cost. Their predictions can be made trustworthy by uncertainty quantification techniques that estimate the residual error relative to their reference. These errors, however, do not include uncertainty contributions from the approximations inherent in the electronic structure calculations, which are often the main source of discrepancy with empirical observations. We construct an ensemble of ML potentials trained on multiple electronic-structure references and calibrate it against experimental data on cohesive energies, atomization energies, lattice constants and bulk moduli of simple materials and molecules, similar to the uncertainty-aware functional distribution approach. The resulting ensemble of models, which we call PET-UAFD, can be used to simulate matter across a wide range of compositions and thermodynamic conditions. By comparison with experimental measurements of the density and structure of liquids, we demonstrate that, even outside the static properties on which it was calibrated, PET-UAFD enables predictions that are as accurate against experiments as the best available electronic-structure reference and that the spread in the ensemble can be used to assess the reliability of such predictions. We also introduce the PET-EXP protocol that uses shallow ensembles and statistical reweighting techniques to provide accurate estimates of uncertainty relative to experimental measurements at virtually no additional cost over a simulation based on a single conventional ML potential. Ultimately, this approach provides a practical and inexpensive approach to elevate machine-learning potentials from faithful interpolators of approximate theories to genuinely predictive tools anchored in experimental reality."
+  },
+  {
+    "title": "A Theoretical Study of the Structure and Elemental Abundances of HD 20794",
+    "url": "http://arxiv.org/abs/2604.24596v1",
+    "arxiv_id": "2604.24596v1",
+    "authors": [
+      "Mrinmay Medhi",
+      "Mami Deka",
+      "Krishna Saha",
+      "Vivek Baruah Thapa",
+      "Upakul Mahanta"
+    ],
+    "published": "2026-04-27T15:20:58+00:00",
+    "summary": "HD~20794 is a nearby, bright, metal-poor G-type dwarf hosting a compact planetary system, including a super-Earth near the habitable zone. Its low stellar activity and the availability of precise radial-velocity and photometric data make it an excellent benchmark for studying stellar structure and chemical abundances in low-metallicity planet-hosting stars. We present, to our knowledge, the first grid-based stellar evolution analysis of HD~20794 using \\texttt{MESA}, focusing on its main-sequence and late main-sequence evolution. A set of 252 stellar models was computed for initial masses between $0.78$ and $0.80\\,M_{\\odot}$, varying convective efficiency, numerical resolution, and atmospheric boundary conditions. Models were selected through $\u03c7^2$ minimization using observed constraints on effective temperature, surface gravity, luminosity, radius, and age. The best-fit models favor a mass of $0.80\\,M_{\\odot}$ and an age of about $9$~Gyr, reproducing all observed stellar properties within uncertainties. They also successfully recover the observed surface abundance pattern over a wide range of elements, including light elements, $\u03b1$-elements, and the odd-$Z$ species phosphorus and chlorine. Comparison with nucleosynthesis yields from massive stars suggests that the measured phosphorus and chlorine abundances are compatible with enrichment from core-collapse supernovae and have remained preserved during stellar evolution. Our results support standard stellar evolution theory, indicating that low-mass, metal-poor G dwarfs such as HD~20794 can retain their natal chemical signatures over Gyr timescales. This highlights their importance as probes of stellar evolution, Galactic chemical enrichment, and the chemical environments associated with long-lived planetary systems."
+  },
+  {
+    "title": "Measuring the Unmeasurable: Markov Chain Reliability for LLM Agents",
+    "url": "http://arxiv.org/abs/2604.24579v1",
+    "arxiv_id": "2604.24579v1",
+    "authors": [
+      "Phat T. Tran-Truong",
+      "Xuan-Bach Le"
+    ],
+    "published": "2026-04-27T15:05:45+00:00",
+    "summary": "Large language model (LLM) agents increasingly operate as sequential software systems, but their reliability is often summarized by scalar benchmark metrics. Metrics such as pass$@k$, pass$^k$, and the reliability decay curve (RDC) are useful summaries, but they do not identify the success-time distribution being estimated, test whether traces support that distribution, or quantify finite-trace uncertainty. We present \\textsc{TraceToChain}, a reproducible pipeline that fits agent execution traces to an absorbing discrete-time Markov chain (DTMC), $\\hat M=(\\hat Q,\\hat R_\\oplus,\\hat R_\\ominus)$, with explicit diagnostics and uncertainty. The pipeline builds an automatic cluster taxonomy, estimates transitions with Laplace-smoothed maximum-likelihood estimation (MLE), checks fit with a composite Akaike information criterion (AIC) and Kolmogorov--Smirnov (KS) goodness-of-fit certificate, and reports Dirichlet-posterior credible intervals and non-parametric bootstrap intervals. We adapt classical reliability mathematics (Kemeny--Snell~\\cite{kemenysnell}, Cheung~\\cite{cheung1980}, Goel--Okumoto~\\cite{goelokt}) to agent traces. The resulting first-passage view reconciles metrics usually reported separately: pass$@k$, pass$^k$, and the RDC are projections of one success-time distribution. On seven controlled MAST-style frameworks with a strict 50/50 fit/test protocol, held-out empirical RDCs overlay their analytic counterparts with max $L_\\infty^{\\mathrm{RDC}} = 0.053$ (median $0.048$). A two-sample KS test on the first-passage cumulative distribution function (CDF) accepts the fitted chain with $p>0.05$ on $7/7$ frameworks (min $p = 0.78$), and per-entry $95\\%$ posterior and bootstrap intervals agree to $\\approx\\!0.01$ at the median."
+  },
+  {
     "title": "Spend Less, Fit Better: Budget-Efficient Scaling Law Fitting via Active Experiment Selection",
     "url": "http://arxiv.org/abs/2604.22753v1",
     "arxiv_id": "2604.22753v1",
