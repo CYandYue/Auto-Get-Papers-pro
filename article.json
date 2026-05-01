@@ -1,5 +1,166 @@
 [
   {
+    "title": "Mapping data sensitivities in global QCD analysis with linear response and influence functions",
+    "url": "http://arxiv.org/abs/2604.28154v1",
+    "arxiv_id": "2604.28154v1",
+    "authors": [
+      "Richard Whitehill"
+    ],
+    "published": "2026-04-30T17:42:12+00:00",
+    "summary": "Global QCD analyses provide the primary framework for extracting hadron structure from experimental data, yet the mechanisms by which data constrain non-perturbative functions remain difficult to interpret due to the high dimensionality and complexity of these fits. Here we develop a framework based on linear response and influence functions, which are gradient-based sensitivity measures that directly quantify how experimental information propagates to fitted quantities and observables. These quantities cleanly expose how data locally determines the central values and uncertainties of quantum correlation functions, as well as the correlations between them, providing a transparent and general framework for diagnosing information flow in inverse problems in QCD."
+  },
+  {
+    "title": "Nodal algebraic curves and entropy diagnostics in degenerate two-dimensional harmonic-oscillator shells",
+    "url": "http://arxiv.org/abs/2604.28127v1",
+    "arxiv_id": "2604.28127v1",
+    "authors": [
+      "C A Escobar Ruiz",
+      "H Olivares-Pilon",
+      "A M Escobar-Ruiz"
+    ],
+    "published": "2026-04-30T17:15:26+00:00",
+    "summary": "Degenerate quantum eigenspaces can support substantial changes in nodal geometry at fixed energy. We show that, for the two-dimensional isotropic harmonic oscillator, this restructuring is organized by the Hermite-constrained algebraic curve $P_N(x,y)=0$ appearing in every real shell state, $\u03c8_N=e^{-\u03b1r^2/2}P_N(x,y)$. Finite singularities, $P_N=\\nabla P_N=0$, and projective degeneracies of the leading homogeneous part identify the strata where topology-changing events can occur. We combine these criteria with entropy diagnostics: the nodal-domain entropy $S_{\\mathrm{dom}}$, Cartesian mutual information $I(x;y)$, and the entropic uncertainty sum $S_r+S_p$. The first three shells reveal a hierarchy: $N=1$ only rotates a nodal line; $N=2$ has a conic transition at $b^2=2ac$, sharply detected by $S_{\\mathrm{dom}}$ but not by global entropies; and $N=3$ supports cubic close-branch regimes organized by the projective discriminant, with enhanced responses in $S_{\\mathrm{dom}}$ and $I(x;y)$. Thus algebraic stratification, rather than spectral ordering, organizes nodal geometry inside a degenerate eigenspace, while entropy diagnostics quantify probability redistribution and correlation. The framework suggests experimentally reconstructible signatures for real-phase Hermite--Gaussian structured light and approximately isotropic trapped motional systems."
+  },
+  {
+    "title": "Neural Aided Kalman Filtering for UAV State Estimation in Degraded Sensing Environments",
+    "url": "http://arxiv.org/abs/2604.28107v1",
+    "arxiv_id": "2604.28107v1",
+    "authors": [
+      "Akhil Gupta",
+      "Erhan Guven"
+    ],
+    "published": "2026-04-30T16:55:15+00:00",
+    "summary": "Accurate state estimation of nonlinear dynamical systems is fundamental to modern aerospace operations across air, sea, and space domains. Online tracking of adversarial unmanned aerial vehicles (UAVs) is especially challenging due to agile nonlinear motion, noisy and sparse sensor measurements, and unknown control inputs; conditions that violate key assumptions of classical Kalman filter variants and degrade estimation performance. Neural networks (NNs) can learn complex nonlinear relationships from data, but lack principled uncertainty quantification, which is critical for state estimation tasks where confidence bounds drive downstream decisions. We address this with Bayesian Neural Networks (BNNs), which model uncertainty through distributions over network weights and produce predictive means and uncertainties via Monte Carlo sampling. Building on this, we propose the Bayesian Neural Kalman Filter (BNKF): a hybrid framework coupling a trained BNN with a Kalman correction step for robust online UAV state estimation. Unlike related neural Kalman approaches, BNKF produces full state predictions and incorporates Bayesian uncertainty directly into covariance propagation, improving robustness under high noise conditions. We evaluate BNKF under varying radar noise levels and sampling rates using synthetic nonlinear UAV flight data. Five fold cross validation demonstrates that BNKF outperforms Extended and Unscented Kalman Filters in accuracy, precision, and truth containment under degraded sensing. An ensemble variant (BNKFe) further improves precision in high-noise edge cases at a slight accuracy tradeoff. Runtime analysis confirms minimal inference overhead, supporting real-time deployment feasibility."
+  },
+  {
+    "title": "UHR-Net: An Uncertainty-Aware Hypergraph Refinement Network for Medical Image Segmentation",
+    "url": "http://arxiv.org/abs/2604.28095v1",
+    "arxiv_id": "2604.28095v1",
+    "authors": [
+      "Shuokun Cheng",
+      "Jinghao Shi",
+      "Kun Sun"
+    ],
+    "published": "2026-04-30T16:38:51+00:00",
+    "summary": "Accurate lesion segmentation is crucial for clinical diagnosis and treatment planning. However, lesions often resemble surrounding tissues and exhibit ill-defined boundaries, leading to unstable predictions in boundary/transition regions. Moreover, small-lesion cues can be diluted by multi-scale feature extraction, causing under- or over-segmentation. To address these challenges, we propose an Uncertainty-Aware Hypergraph Refinement Network (UHR-Net). First, we introduce an Uncertainty-Oriented Instance Contrastive (UO-IC) pretraining strategy that couples geometry-aware copy-paste augmentation with hard-negative mining of lesion-like background regions to improve instance-level discrimination for small and visually ambiguous lesions. Second, we design an Uncertainty-Guided Hypergraph Refinement (UGHR) block, which derives an entropy-based uncertainty map from a coarse probability map to guide hypergraph refinement. By splitting hyperedge prototypes into foreground and background groups, UGHR decouples higher-order interactions and improves refinement in ambiguous regions. Experiments on five public benchmarks demonstrate consistent gains over strong baselines. Code is available at: https://github.com/CUGfreshman/UHR-Net."
+  },
+  {
+    "title": "g-tensor Optimization in Ge/SiGe Quantum Dots",
+    "url": "http://arxiv.org/abs/2604.28081v1",
+    "arxiv_id": "2604.28081v1",
+    "authors": [
+      "Aram Shojaei",
+      "Edmondo Valvo",
+      "Maximilian Rimbach-Russ",
+      "Eliska Greplova",
+      "Ana Silva"
+    ],
+    "published": "2026-04-30T16:26:49+00:00",
+    "summary": "Planar germanium heterostructures hosting hole-spin qubits are among the leading platforms for scalable semiconductor-based quantum computing. Yet, device performance is hindered by significant quantum dot variability, which leads to uncertainty in qubit energy levels and random orientations of the spin quantization axis. Tailored control of the g-tensor offers a strategy to overcome these limitations and achieve more reliable qubit operations. Here, we introduce a flexible optimization framework for engineering g-tensor properties. As a benchmark, we numerically obtain the optimal reshaping of the out-of-plane potential in a SiGe-Ge-SiGe quantum well to suppress the in-plane g-tensor components and realize the recently proposed gapless single-spin qubit encoding. This reshaping is achieved through heterostructure engineering, specifically by adjusting the silicon concentration within the quantum well, though the framework remains readily adaptable to alternative design objectives. Our results provide practical design principles for improving the tunability of the spin response, paving the way towards large-scale germanium-based quantum computers."
+  },
+  {
+    "title": "Semi-analytic bounds on axion-like-particle supernovae emission",
+    "url": "http://arxiv.org/abs/2604.28062v1",
+    "arxiv_id": "2604.28062v1",
+    "authors": [
+      "Ana Luisa Foguel",
+      "Eduardo S. Fraga"
+    ],
+    "published": "2026-04-30T16:08:15+00:00",
+    "summary": "Core-collapse supernovae provide natural laboratories for the production of new light particles. In particular, axion-like particles (ALPs) can be constrained via SN1987A cooling arguments. However, significant astrophysical and nuclear uncertainties imply that such bounds may vary strongly depending on modeling choices, even when expensive simulations are employed. In this context, semi-analytic methods offer a simple and fast alternative for deriving new-physics constraints. Building on a previous semi-analytic framework, in which proto-neutron star (PNS) observables are expressed in terms of six global PNS parameters, we include a finite ALP mass in the calculation and derive bounds in the axion-nucleon coupling versus mass plane. The obtained bounds are in good agreement with previous results from numerical simulations, demonstrating the robustness of the method. We also illustrate the sensitivity of the bounds to different PNS parameter calibrations, nuclear effects and cooling exclusion criteria."
+  },
+  {
+    "title": "Optimal Consumption and Investment with Energy-Efficiency Adoption",
+    "url": "http://arxiv.org/abs/2604.28052v1",
+    "arxiv_id": "2604.28052v1",
+    "authors": [
+      "Anthony Britto",
+      "Carlos Oliveira",
+      "Max Kleinebrahm"
+    ],
+    "published": "2026-04-30T15:59:43+00:00",
+    "summary": "Despite many decades of research, economically grounded models that analyse energy consumption and energy-efficiency adoption within a unified framework remain underdeveloped. This article addresses this gap by proposing a model of consumption, investment, and energy-efficiency adoption under uncertainty. It develops new definitions of the rebound and backfire effects, and integrates their welfare implications into a model of optimal subsidy design. Macro-level technology diffusion and energy consumption across heterogeneous agents are also formalised. Explicit results for core objects are derived, including the adoption threshold and post-adoption strategies, and these are shown to depend on agent wealth, introducing a novel channel through which financial conditions influence technology-adoption decisions. An approximation scheme is proposed to estimate welfare implications explicitly. Adoption of energy efficiency is shown to be welfare improving in the main. A detailed case study of a representative German single-family home illustrates the theoretical results. Numerical analysis indicates that the subsidy policy effectively steers aggregate energy consumption."
+  },
+  {
+    "title": "A Pattern Language for Resilient Visual Agents",
+    "url": "http://arxiv.org/abs/2604.28001v1",
+    "arxiv_id": "2604.28001v1",
+    "authors": [
+      "Habtom Kahsay Gidey",
+      "Alexander Lenz",
+      "Alois Knoll"
+    ],
+    "published": "2026-04-30T15:24:26+00:00",
+    "summary": "Integrating multimodal foundation models into enterprise ecosystems presents a fundamental software architecture challenge. Architects must balance competing quality attributes: the high latency and non-determinism of vision language action (VLA) models versus the strict determinism and real-time performance required by enterprise control loops. In this study, we propose an architectural pattern language for visual agents that separates fast, deterministic reflexes from slow, probabilistic supervision. It consists of four architectural design patterns: (1) Hybrid Affordance Integration, (2) Adaptive Visual Anchoring, (3) Visual Hierarchy Synthesis, and (4) Semantic Scene Graph."
+  },
+  {
+    "title": "Differentiable latent structure discovery for interpretable forecasting in clinical time series",
+    "url": "http://arxiv.org/abs/2604.27967v1",
+    "arxiv_id": "2604.27967v1",
+    "authors": [
+      "Ivan Lerner",
+      "Jean Feydy",
+      "Alexandre Kalimouttou",
+      "Anita Burgun",
+      "Francis Bach"
+    ],
+    "published": "2026-04-30T14:59:50+00:00",
+    "summary": "Background: Timely, uncertainty-aware forecasting from irregular electronic health records (EHR) can support critical-care decisions, yet most approaches either impute to a grid or sacrifice interpretability. We introduce StructGP, a continuous-time multi-task Gaussian process that couples process convolutions with differentiable structure learning to uncover a sparse, ordered directed acyclic graph (DAG) of inter-variable dependencies while preserving principled uncertainty. We further propose LP-StructGP, which augments StructGP with latent pathways-shared, temporally shifted trajectories inferred via subject-specific coupling filters and a softmax gating mechanism-to capture cross-patient progression patterns. Both models are trained under sparsity and acyclicity constraints (augmented Lagrangian, Adam) using scalable low-rank updates. Results: In simulations, the approach reliably recovers ground-truth graphs (Structural Hamming Distance approaching 0 as cohorts grow) and pathway assignments (high Adjusted Rand Index). On a MIMIC-IV septic shock cohort (n=1,008; norepinephrine, creatinine, mean arterial pressure), StructGP improves short-horizon (6 h) forecasting over independent-task baselines (average RMSE 0.68 [95%CI: 0.63--0.74] vs. 0.88 [0.83-0.94]) and, with 15 additional inputs, markedly outperforms unstructured kernels (0.63 [0.58-0.69] vs. 3.02 [2.85-3.18]) with superior calibration (coverage 0.96 vs. 0.84). On the PhysioNet Challenge (12k patients, 41 variables), StructGP attains competitive accuracy (MAE 3.72e-2) relative to a state-of-the-art graph neural model while maintaining calibrated uncertainty. Conclusion: These results show that structured process convolutions with latent pathways deliver interpretable, scalable, and well-calibrated forecasting for irregular clinical time series."
+  },
+  {
+    "title": "International Optical Clock Comparison Using the European Optical Fiber Network",
+    "url": "http://arxiv.org/abs/2604.27963v1",
+    "arxiv_id": "2604.27963v1",
+    "authors": [
+      "Marco Pizzocaro",
+      "Clara Zyskind",
+      "Anne Amy-Klein",
+      "Erik Benkler",
+      "Sebastien Bize",
+      "Davide Calonico",
+      "Etienne Cantin",
+      "Christian Chardonnet",
+      "Cecilia Clivati",
+      "Stefano Condio",
+      "E. Anne Curtis",
+      "Simone Donadello",
+      "S\u00f6ren D\u00f6rscher",
+      "Chen-Hao Feng",
+      "Melina Filzinger",
+      "Jacques-Olivier Gaudron",
+      "Rachel M. Godun",
+      "Irene Goti",
+      "Ian R. Hill",
+      "Wei Huang",
+      "Nils Huntemann",
+      "Matthew Johnson",
+      "Joshua Klose",
+      "Jochen Kronj\u00e4ger",
+      "Alexander Kuhl",
+      "Rodolphe Le Targat",
+      "Filippo Levi",
+      "Burghard Lipphardt",
+      "Christian Lisdat",
+      "Jerome Lodewyck",
+      "Olivier Lopez",
+      "Helen S. Margolis",
+      "Maxime Mazouth-Laurol",
+      "Alberto Mura",
+      "Benjamin Pointard",
+      "Paul-Eric Pottie",
+      "Matias Risaro",
+      "Billy I. Robertson",
+      "Marco Schioppo",
+      "Kilian Stahl",
+      "Martin Steinel",
+      "Alexandra Tofful",
+      "Mads T\u00f8nnes",
+      "Jacob Tunes"
+    ],
+    "published": "2026-04-30T14:56:20+00:00",
+    "summary": "Optical clocks have achieved remarkable estimated fractional frequency uncertainties reaching the $10^{-18}$ level and below, enabling applications in fundamental physics, general relativity, and geodesy. However, the challenge of verifying the international consistency of optical clocks remains critical as efforts intensify toward redefining the SI second based on an optical transition or transitions. We report on a two-month international clock comparison campaign involving seven optical clocks in four national metrology institutes (INRIM, LNE-OP, NPL, and PTB) connected via the optical fiber network established in Europe. The campaign resulted in optical frequency ratios with uncertainties ranging from $7.7\\times10^{-18}$ to $6.1\\times10^{-17}$. Among the results, the $^{171}$Yb$^+$(E3) clocks at NPL and PTB demonstrated agreement within an uncertainty of $7.7\\times10^{-18}$, marking the first international verification of two independently developed optical clocks below one part in $10^{17}$. The operation of the $^{199}$Hg clock at LNE-OP (formerly LNE-SYRTE) resulted in frequency ratios with improved uncertainties with $^{171}$Yb$^+$(E3), $^{171}$Yb, and $^{87}$Sr optical clocks. These results provide input for the redefinition of the second and underscore how fiber-linked clock networks can advance metrology and scientific applications."
+  },
+  {
     "title": "Outer-Crust Equations of State for Neutron Stars",
     "url": "http://arxiv.org/abs/2604.26952v1",
     "arxiv_id": "2604.26952v1",
