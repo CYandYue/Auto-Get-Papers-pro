@@ -1,5 +1,161 @@
 [
   {
+    "title": "Phenomenology of Hypothetical Single-Top Hadronic States",
+    "url": "http://arxiv.org/abs/2605.00748v1",
+    "arxiv_id": "2605.00748v1",
+    "authors": [
+      "Z. Rajabi Najjar",
+      "M. Ahmadi",
+      "K. Azizi"
+    ],
+    "published": "2026-05-01T15:56:00+00:00",
+    "summary": "We present a comprehensive theoretical study of the masses of possible baryonic and mesonic configurations containing a single top quark. Our analysis includes the baryons $\u039b_t$, $\u039e_t$, $\u03a3_t$, $\u039e'_t$, $\u03a9_t$, $\u03a9_{tcc}$, and $\u03a9_{tbb}$, together with the pseudoscalar and vector mesons $T_{t\\bar n}^{\\mathrm{Ps}}$, $T_{t\\bar n}^{\\mathrm{V}}$, $T_{t\\bar s}^{\\mathrm{Ps}}$, $T_{t\\bar s}^{\\mathrm{V}}$, $T_{t\\bar c}^{\\mathrm{Ps}}$, $T_{t\\bar c}^{\\mathrm{V}}$, $T_{t\\bar b}^{\\mathrm{Ps}}$, and $T_{t\\bar b}^{\\mathrm{V}}$. Motivated in part by recent experimental indications of a pseudoscalar enhancement near the $t\\bar t$ threshold reported by the CMS and ATLAS collaborations, this study is carried out within the framework of two-point QCD sum rules to determine the corresponding ground-state masses by including perturbative contributions and nonperturbative condensates up to dimension eight. For several channels, including the $\u039b_t$, $\u039e_t$, $\u03a3_t$, $T_{t\\bar b}^{\\mathrm{Ps}}$, and $T_{t\\bar b}^{\\mathrm{V}}$ states, the extracted central masses lie slightly below the corresponding sums of constituent quark masses, which may indicate nontrivial binding dynamics or near-threshold multiquark configurations within the uncertainties of the method. Moreover, when the full theoretical uncertainties are taken into account in a conservative manner, a larger subset of the investigated states exhibits a consistent tendency toward weak binding behavior, suggesting that the possibility of loosely bound configurations cannot be excluded for most of the considered baryonic and mesonic channels. These results provide useful first-principles theoretical benchmarks for possible top-containing hadronic systems, which may support future searches at the LHC, along with sensitivity analyses for next-generation facilities such as the FCC."
+  },
+  {
+    "title": "Position: agentic AI orchestration should be Bayes-consistent",
+    "url": "http://arxiv.org/abs/2605.00742v1",
+    "arxiv_id": "2605.00742v1",
+    "authors": [
+      "Theodore Papamarkou",
+      "Pierre Alquier",
+      "Matthias Bauer",
+      "Wray Buntine",
+      "Andrew Davison",
+      "Gintare Karolina Dziugaite",
+      "Maurizio Filippone",
+      "Andrew Y. K. Foong",
+      "Vincent Fortuin",
+      "Dimitris Fouskakis",
+      "Jes Frellsen",
+      "Eyke H\u00fcllermeier",
+      "Theofanis Karaletsos",
+      "Mohammad Emtiyaz Khan",
+      "Nikita Kotelevskii",
+      "Salem Lahlou",
+      "Yingzhen Li",
+      "Fang Liu",
+      "Clare Lyle",
+      "Thomas M\u00f6llenhoff",
+      "Konstantina Palla",
+      "Maxim Panov",
+      "Yusuf Sale",
+      "Kajetan Schweighofer",
+      "Artem Shelmanov",
+      "Siddharth Swaroop",
+      "Martin Trapp",
+      "Willem Waegeman",
+      "Andrew Gordon Wilson",
+      "Alexey Zaytsev"
+    ],
+    "published": "2026-05-01T15:43:43+00:00",
+    "summary": "LLMs excel at predictive tasks and complex reasoning tasks, but many high-value deployments rely on decisions under uncertainty, for example, which tool to call, which expert to consult, or how many resources to invest. While the usefulness and feasibility of Bayesian approaches remain unclear for LLM inference, this position paper argues that the control layer of an agentic AI system (that orchestrates LLMs and tools) is a clear case where Bayesian principles should shine. Bayesian decision theory provides a framework for agentic systems that can help to maintain beliefs over task-relevant latent quantities, to update these beliefs from observed agentic and human-AI interactions, and to choose actions. Making LLMs themselves explicitly Bayesian belief-updating engines remains computationally intensive and conceptually nontrivial as a general modeling target. In contrast, this paper argues that coherent decision-making requires Bayesian principles at the orchestration level of the agentic system, not necessarily the LLM agent parameters. This paper articulates practical properties for Bayesian control that fit modern agentic AI systems and human-AI collaboration, and provides concrete examples and design patterns to illustrate how calibrated beliefs and utility-aware policies can improve agentic AI orchestration."
+  },
+  {
+    "title": "Reconstruction of glymphatic transport fields from subject-specific imaging data, with particular emphasis on cerebrospinal fluid flow and tracer conservation",
+    "url": "http://arxiv.org/abs/2605.00730v1",
+    "arxiv_id": "2605.00730v1",
+    "authors": [
+      "A. Derya Bakiler",
+      "Michael J. Johnson",
+      "Michael R. A. Abdelmalik",
+      "Frimpong A. Baidoo",
+      "Andrew Badachhape",
+      "Ananth V. Annapragada",
+      "Thomas J. R. Hughes",
+      "Shaolie S. Hossain"
+    ],
+    "published": "2026-05-01T15:29:16+00:00",
+    "summary": "The reconstruction of physically valid transport fields from subject-specific imaging data is a fundamental challenge in image-based computational modeling due to measurement noise, modeling uncertainties and discretization errors. Without a methodology to construct models that faithfully reflect the underlying physics, mechanistic understanding of complex biological systems is inherently limited. In this work, we address this challenge in the glymphatic system, the brain's waste-clearance network, where cerebrospinal fluid (CSF) is transported through perivascular spaces into the brain parenchyma to facilitate metabolic waste removal. We introduce a computational framework for the high-fidelity reconstruction of subject-specific glymphatic transport fields from spatiotemporal imaging data. The formulation utilizes an advection-diffusion model with a velocity decomposition that imposes mass conservation, enabling the recovery of solenoidal (divergence-free) velocity fields through the solution of a constrained inverse problem. The system is discretized using immersed isogeometric analysis with quadratic B-spline basis functions, providing smooth, high-continuity solutions and inherent regularization of imaging noise. We demonstrate the framework's utility by using contrast-enhanced magnetic resonance imaging of tracer transport in a mouse brain, obtaining spatially varying estimates of CSF velocity, diffusivity, and clearance parameters. Forward simulations using the recovered fields show close agreement with experimental observations, validating the framework's ability to characterize complex transport dynamics while preserving physical integrity. This approach provides a generalizable methodology for the robust inference of physically consistent transport fields from imperfect imaging data, with broad applicability to the image-guided modeling of biological and engineering systems."
+  },
+  {
+    "title": "Leveraging Climate Services to Build Climate Resilient Power Systems",
+    "url": "http://arxiv.org/abs/2605.00717v1",
+    "arxiv_id": "2605.00717v1",
+    "authors": [
+      "Laurent Dubus",
+      "Alberto Troccoli",
+      "Aron zuiker",
+      "Laurens Stoop"
+    ],
+    "published": "2026-05-01T15:05:38+00:00",
+    "summary": "We explore the crucial interplay between climate change and power system planning, highlighting the urgent need to systematically integrate climate information into energy system studies. Climate change impacts the energy sector on multiple fronts. Short-term weather variability drives daily and seasonal fluctuations in supply and demand. Long-term trends and increased frequency of extremes pose risks to infrastructure performance, asset lifetimes, and system adequacy. Representing compound events and spatial correlations across borders is a complex challenge, and uncertainties persist due to uncertainties from different models, scenarios, and downscaling methodologies.   The Pan-European Climate Database (PECD4.2), developed in partnership between ENTSO-E and C3S, marks a change in how energy system planning is conducted. The PECD4.2 integrates historical reanalysis and six climate models across four SSP's, providing harmonised, openly available datasets tailored for power system studies. The physical conversion models for wind and solar energy better reflect technological progression than machine learning methods trained on historical data, improving robustness under changing future conditions.   Despite these advances, challenges remain. Particularly in hydropower modelling and the lack of public harmonised energy datasets that are required to train these models. Complex processing chains from raw climate data to actionable insights and the lack of standardized integration of climate information lengthen lead times for energy-sector adoption. This leads to diverging approaches and variable consideration of climate risks. Closer, more generalised collaboration and communication between climate service providers and energy stakeholders are therefore necessary, as are the development of user-friendly tools for data manipulation and analysis and robust feedback loops."
+  },
+  {
+    "title": "Beyond Bragg-Mirrors for Gravitational Wave Telescopes: A Fabrication Tolerant Hybrid Metasurface-Bragg Mirror Design",
+    "url": "http://arxiv.org/abs/2605.00714v1",
+    "arxiv_id": "2605.00714v1",
+    "authors": [
+      "Christian Kranhold",
+      "Mika Gaedtke",
+      "Markus Walther",
+      "Falk Eilenberger",
+      "Stefanie Kroker",
+      "Thomas Siefke"
+    ],
+    "published": "2026-05-01T15:00:43+00:00",
+    "summary": "Coating thermal noise in high-reflectivity test-mass mirrors is a major limitation for future gravitational-wave detectors, especially in the 10--300 Hz band. ET-Pathfinder therefore requires mirror coatings that combine very high reflectance at 1.55 micrometer with low thermal noise under cryogenic conditions. Conventional dielectric Bragg mirrors provide high reflectance but require thick coatings, whereas metasurface mirrors can reduce coating-related noise but are limited by fabrication tolerances and line-edge roughness. We present a hybrid metasurface--Bragg mirror concept tailored to ET-Pathfinder. The design combines a fabrication-tolerant one-layer metasurface, an anti-resonant Fabry--Perot spacer, and a reduced dielectric Bragg stack. Optical performance is evaluated using full-wave electromagnetic simulations, while fabrication robustness is assessed with a truncated-Gaussian Monte Carlo analysis. Line-edge roughness is included as a systematic edge-smoothing effect. The resulting reflectance distributions are used to determine the minimum Bragg-stack support required to meet system-level specifications. The ideal metasurface exceeds 99.999% reflectance. When fabrication uncertainties and line-edge roughness are included, the metasurface reflectance is limited to about 99.9% at the 95% yield level. The remaining transmission can be compensated by a supporting Bragg stack with as few as seven layer pairs. For this configuration, the hybrid mirror achieves a total thermal displacement noise about one order of magnitude below the projected ET-Pathfinder coating-noise budget. These results show that fabrication-limited metasurface reflectance can be compensated within a hybrid architecture, enabling reduced coating thickness and thermal noise for next-generation gravitational-wave detectors."
+  },
+  {
+    "title": "DMDSC: A Dynamic-Margin Deep Simplex Classifier for Open-Set Recognition on Medical Image Datasets",
+    "url": "http://arxiv.org/abs/2605.00675v1",
+    "arxiv_id": "2605.00675v1",
+    "authors": [
+      "Vishal",
+      "Arnav Aditya",
+      "Nitin Kumar",
+      "Saurabh J. Shigwan"
+    ],
+    "published": "2026-05-01T13:57:41+00:00",
+    "summary": "Medical imaging datasets are often characterized by extreme class imbalances, where rare pathologies are significantly underrepresented compared to common conditions. This imbalance poses a dual challenge for Open-Set Recognition (OSR): models must maintain high classification accuracy on known classes while reliably rejecting unknown samples unseen during training in the clinical settings. While recently proposed Deep Simplex Classifier (DSC)~\\cite{cevikalp2024reaching} and UnCertainty-aware Deep Simplex Classifier (UCDSC)~\\cite{Aditya_2026_WACV} successfully leverage Neural Collapse to ensure maximal inter-class separation, they rely on a uniform margin that does not account for the varying densities of medical classes.   In this paper, we propose DMDSC an enhanced framework featuring a dynamic margin approach. Our approach automatically adapts class-specific margins based on label frequency, enforcing a higher penalty and tighter feature clustering for rare pathologies to counteract the effects of data imbalance. Extensive experiments conducted on diverse medical benchmarks on BloodMNIST\\cite{medmnistv2}, OCTMNIST\\cite{medmnistv2}, DermaMNIST\\cite{medmnistv2}, and BreaKHis~\\cite{spanhol2015dataset} datasets, demonstrate that our framework outperforms state-of-the-art methods."
+  },
+  {
+    "title": "Knowing when to trust machine-learned interatomic potentials",
+    "url": "http://arxiv.org/abs/2605.00640v1",
+    "arxiv_id": "2605.00640v1",
+    "authors": [
+      "Shams Mehdi",
+      "Ilkwon Cho",
+      "Olexandr Isayev"
+    ],
+    "published": "2026-05-01T13:21:56+00:00",
+    "summary": "Prevailing machine-learned interatomic potential (MLIP) uncertainty-quantification methods rely on ensembles of independently trained backbones. These methods scale unfavorably with foundation-scale MLIPs, and their member-disagreement signals correlate weakly with per-molecule prediction error. Here we probe the frozen per-atom representations of a pretrained MLIP with a compact discriminative classifier, recasting MLIP uncertainty quantification as selective classification rather than error regression. The resulting method, PROBE (Post-hoc Reliability frOm Backbone Embeddings), produces a per-prediction reliability probability that monotonically tracks actual error without modification to the underlying model. Across large held-out evaluation sets and two structurally distinct MLIP architectures, PROBE outperforms ensemble disagreement as a binary reliability signal, which strengthens with the expressiveness of the backbone representation, implying a favorable scaling trajectory toward foundation-scale MLIPs. Multi-head self-attention additionally yields per-atom importance maps, providing chemically interpretable diagnostics at no additional computational cost. PROBE is post-hoc and architecture-agnostic, and is directly deployable on any MLIP that exposes per-atom representations."
+  },
+  {
+    "title": "Observation of the rare decay $\u03b7$ $\\to$ $\u03bc^+\u03bc^-$e$^+$e$^-$",
+    "url": "http://arxiv.org/abs/2605.00615v1",
+    "arxiv_id": "2605.00615v1",
+    "authors": [
+      "CMS Collaboration"
+    ],
+    "published": "2026-05-01T12:32:29+00:00",
+    "summary": "A first observation of the rare decay $\u03b7$ $\\to$ $\u03bc^+\u03bc^-$e$^+$e$^-$ is reported by the CMS Collaboration at the CERN LHC. The result is based on a proton-proton collision data sample at $\\sqrt{s}$ = 13.6 TeV corresponding to an integrated luminosity of 38.0 fb$^{-1}$, acquired in 2022 using a high-rate dimuon trigger. Using the $\u03b7$ $\\to$ $\u03bc^+\u03bc^-\u03b3$ decay channel for normalization, the branching fraction is measured to be $\\mathcal{B}$($\u03b7$ $\\to$ $\u03bc^+\u03bc^-$e$^+$e$^-$) = (2.4 $\\pm$ 0.8)$\\times$ 10$^{-6}$, with the uncertainty including statistical and systematic sources as well as the $\\mathcal{B}$($\u03b7$ $\\to$ $\u03bc^+\u03bc^-\u03b3$) uncertainty. This result is close to two orders of magnitude smaller than the existing limit, and is consistent with recent theoretical predictions."
+  },
+  {
+    "title": "Possibilistic Predictive Uncertainty for Deep Learning",
+    "url": "http://arxiv.org/abs/2605.00600v1",
+    "arxiv_id": "2605.00600v1",
+    "authors": [
+      "Yao Ni",
+      "Jeremie Houssineau",
+      "Yew Soon Ong",
+      "Piotr Koniusz"
+    ],
+    "published": "2026-05-01T12:14:01+00:00",
+    "summary": "Deep neural networks achieve impressive results across diverse applications, yet their overconfidence on unseen inputs necessitates reliable epistemic uncertainty modelling. Existing methods for uncertainty modelling face a fundamental dilemma: Bayesian approaches provide principled estimates but remain computationally prohibitive, while efficient second-order predictors lack rigorous derivations connecting their specific objectives to epistemic uncertainty quantification. To resolve this dilemma, we introduce Dirichlet-approximated possibilistic posterior predictions (DAPPr), a principled framework leveraging possibility theory. We define a possibilistic posterior over parameters, projects this posterior to the prediction space via supremum operators, and approximates the projected posterior using learnable Dirichlet possibility functions. This projection-and-approximation strategy yields a simple training objective with closed-form solutions. Extensive experiments across diverse benchmarks demonstrate that our approach achieves competitive or superior uncertainty quantification performance compared to state-of-the-art evidential deep learning methods while maintaining both principled derivation and computational efficiency. Code will be available at https://github.com/MaxwellYaoNi/DAPPr."
+  },
+  {
+    "title": "Multiplicative matching of neutral current deep-inelastic scattering processes at next-to-leading order in PYTHIA 8",
+    "url": "http://arxiv.org/abs/2605.00502v1",
+    "arxiv_id": "2605.00502v1",
+    "authors": [
+      "Ilkka Helenius",
+      "Joni Laulainen",
+      "Christian T. Preuss"
+    ],
+    "published": "2026-05-01T08:25:34+00:00",
+    "summary": "We introduce a method for matching the neutral-current deep inelastic scattering process with parton showers at first order in the strong coupling. This multiplicative matching is achieved by reweighting leading-order Born-level events and requires that the first parton-shower emission is distributed according to the real matrix-element. The method is implemented as an internal matching strategy in the Pythia 8 event generator applicable with both currently available parton shower algorithms, the default one and Vincia. The validity of higher-order corrections is verified with comparisons against existing next-to-leading order simulations. The strategy is used to describe reduced cross-sections measured at the HERA collider, and we find better overall agreement and reduced uncertainties with the matching."
+  },
+  {
     "title": "Mapping data sensitivities in global QCD analysis with linear response and influence functions",
     "url": "http://arxiv.org/abs/2604.28154v1",
     "arxiv_id": "2604.28154v1",
