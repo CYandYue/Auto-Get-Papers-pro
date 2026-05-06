@@ -1,5 +1,140 @@
 [
   {
+    "title": "Discovering Reaction Mechanisms with Transition Path Sampling-Based Active Learning of Machine-Learned Potentials",
+    "url": "http://arxiv.org/abs/2605.03737v1",
+    "arxiv_id": "2605.03737v1",
+    "authors": [
+      "Ashique Lal",
+      "Rik S. Breebaart",
+      "Peter G. Bolhuis",
+      "Evert Jan Meijer"
+    ],
+    "published": "2026-05-05T17:38:14+00:00",
+    "summary": "Machine-learned interatomic potentials (MLPs) provide near density functional theory (DFT) accuracy at reduced computational cost, but their reliability depends on representative training data and often deteriorates in transition-state regions governing rare events. We introduce an active-learning framework in which Transition Path Sampling (TPS) serves as a targeted data-generation engine for constructing MLPs accurate in barrier regions. TPS generates ensembles of unbiased reactive trajectories, and a committee-based uncertainty estimate identifies configurations for selective DFT labeling and retraining. Iterating this cycle systematically refines the potential energy surface in dynamically relevant regions, without the need of prior knowledge of the mechanism. Applied to electrochemical CO$_2$ reduction to CO on copper in explicit water, the approach removes nonphysical artifacts present in early models, achieves near-DFT energy and force accuracy, and enables stable long-time sampling of reactive pathways. Extended TPS simulations reveal multiple dynamically accessible protonation mechanisms. This work establishes TPS as an efficient and principled active-learning strategy for reactive molecular simulations at electrochemical interfaces."
+  },
+  {
+    "title": "QCD sum rules: Borel parameter vs. Euclidean time",
+    "url": "http://arxiv.org/abs/2605.04001v1",
+    "arxiv_id": "2605.04001v1",
+    "authors": [
+      "A. V. Smilga"
+    ],
+    "published": "2026-05-05T17:21:49+00:00",
+    "summary": "We explore a modification of QCD sum rules where, instead of Borel transforms of current correlators, one considers the correlators in coordinate space as functions of Euclidean time. Taking the nucleon channel as an example, we derive such Euclidean time sum rules and compare them with the traditional Borel sum rules. We show that a rough estimate of nucleon mass and residue is also possible working in coordinate space, but such sum rules are much more affected by the uncertainties in power corrections and continuum contribution than the Borel ones: the fiducial interval is practically absent."
+  },
+  {
+    "title": "Uncertainty Quantification in Forecast Comparisons",
+    "url": "http://arxiv.org/abs/2605.03997v1",
+    "arxiv_id": "2605.03997v1",
+    "authors": [
+      "Marc-Oliver Pohle",
+      "Tanja Zahn",
+      "Sebastian Lerch"
+    ],
+    "published": "2026-05-05T17:20:48+00:00",
+    "summary": "Skill scores, which measure the relative improvement of a forecasting method over a benchmark via consistent scoring functions and proper scoring rules, are a standard tool in forecast evaluation, yet their sampling uncertainty is rarely rigorously quantified. With modern forecasting applications being increasingly multivariate and involving evaluations across multiple horizons, variables, spatial locations, and forecasting methods, standard tools like the pairwise Diebold-Mariano forecast accuracy test or pointwise confidence intervals fail to account for the multiple comparison problem, leading to inflated Type I error rates and invalid joint inference. To address the lack of a coherent, statistically rigorous framework for quantifying uncertainty across these multi-dimensional evaluation problems, we introduce simultaneous confidence bands for expected scores and skill scores. Our framework provides a versatile tool for joint inference that is applicable to any forecast type from mean and quantile to full distributional forecasts. We develop a bootstrap implementation and show that our bands are valid under multivariate extensions of the classical Diebold-Mariano assumptions. We demonstrate the practical utility of the approach in two case studies by quantifying the benefits of time-varying parameter models for macroeconomic forecasting, and by comparing data-driven and physics-based models in probabilistic weather forecasting."
+  },
+  {
+    "title": "Logical Consistency as a Bridge: Improving LLM Hallucination Detection via Label Constraint Modeling between Responses and Self-Judgments",
+    "url": "http://arxiv.org/abs/2605.03971v1",
+    "arxiv_id": "2605.03971v1",
+    "authors": [
+      "Hao Mi",
+      "Qiang Sheng",
+      "Shaofei Wang",
+      "Beizhe Hu",
+      "Yifan Sun",
+      "Zhengjia Wang",
+      "Hengqi Zeng",
+      "Yang Li",
+      "Danding Wang",
+      "Juan Cao"
+    ],
+    "published": "2026-05-05T16:53:20+00:00",
+    "summary": "Large Language Models (LLMs) are prone to factual hallucinations, risking their reliability in real-world applications. Existing hallucination detectors mainly extract micro-level intrinsic patterns for uncertainty quantification or elicit macro-level self-judgments through verbalized prompts. However, these methods address only a single facet of the hallucination, focusing either on implicit neural uncertainty or explicit symbolic reasoning, thereby treating these inherently coupled behaviors in isolation and failing to exploit their interdependence for a holistic view. In this paper, we propose LaaB (Logical Consistency-as-a-Bridge), a framework that bridges neural features and symbolic judgments for hallucination detection. LaaB introduces a \"meta-judgment\" process to map symbolic labels back into the feature space. By leveraging the inherent logical bridge where response and meta-judgment labels are either the same or opposite based on the self-judgment's semantics, LaaB aligns and integrates dual-view signals via mutual learning and enhances the hallucination detection. Extensive experiments on 4 public datasets, across 4 LLMs, against 8 baselines demonstrate the superiority of LaaB."
+  },
+  {
+    "title": "Pretrained Model Representations as Acquisition Signals for Active Learning of MLIPs",
+    "url": "http://arxiv.org/abs/2605.03964v1",
+    "arxiv_id": "2605.03964v1",
+    "authors": [
+      "Eszter Varga-Umbrich",
+      "Shikha Surana",
+      "Paul Duckworth",
+      "Jules Tilly",
+      "Olivier Peltre",
+      "Zachary Weller-Davies"
+    ],
+    "published": "2026-05-05T16:48:23+00:00",
+    "summary": "Training machine learning interatomic potentials (MLIPs) for reactive chemistry is often bottlenecked by the high cost of quantum chemical labels and the scarcity of transition state configurations in candidate pools. Active learning (AL) can mitigate these costs, but its effectiveness hinges on the acquisition rule. We investigate whether the latent space of a pretrained MLIP already contains the information necessary for effective acquisition, eliminating the need for auxiliary uncertainty heads, Bayesian training and fine-tuning, or committee ensembles. We introduce two acquisition signals derived directly from a pretrained MACE potential: a finite-width neural tangent kernel (NTK) and an activation kernel built from hidden latent space features. On reactive-chemistry benchmarks, both kernels consistently outperform fixed-descriptor baselines, committee disagreement, and random acquisition, reducing the data required to reach performance targets by an average of 38% for energy error and 28% for force error. We further show that the pretrained model induces similarity spaces that preserve chemically meaningful structure and provide more reliable residual uncertainty estimates than randomly initialised or fixed-descriptor-based kernels. Our results suggest that pretraining aligns latent-space geometry with model error, yielding a practical and sufficient acquisition signal for reactive MLIP fine-tuning."
+  },
+  {
+    "title": "The Range of Cumulative XUV Flux on GJ 1132 b",
+    "url": "http://arxiv.org/abs/2605.03939v1",
+    "arxiv_id": "2605.03939v1",
+    "authors": [
+      "Rory Barnes",
+      "Laura N. R. do Amaral",
+      "Jessica Birky",
+      "James R. A. Davenport",
+      "Scott Engle",
+      "Megan Gialluca",
+      "Evgenya L. Shkolnik"
+    ],
+    "published": "2026-05-05T16:29:18+00:00",
+    "summary": "We investigate the plausible history of the XUV luminosity evolution of the planet-hosting M4 star GJ 1132 (~0.2 solar masses) to infer the cumulative incident XUV flux intercepted by the short-period (~1.6 d) Earth-sized transiting planet GJ 1132 b. We include the dominant observational uncertainties, compare two quiescent XUV luminosity evolution models, and simulate the XUV luminosity evolution from flares based on TESS data and a re-analysis of Kepler stars. We find only 4 flares in GJ 1132's TESS 123 day lightcurve, which is relatively few for M dwarfs and, in conjunction with the ~125 day period, suggests that this star is many Gyr old. We find that all model permutations predict that the planet has at least a 95% chance of receiving more than 50 times as much XUV flux as modern Earth, confirming that this planet is a good candidate for permanent atmospheric loss. We also find that an empirical XUV model for M dwarfs predicts 2-3 times more total XUV flux than a commonly used solar twin model and that the empirical model's distribution is 2-3 times narrower. Flares contribute about 20% of the cumulative XUV flux on planet b, which, while modest, ensures the planet lies firmly on the atmosphere-free side of the \"cosmic shoreline.\""
+  },
+  {
+    "title": "Microlensing time-scales and flux magnification probabilities of a sample of 204 lensed quasars",
+    "url": "http://arxiv.org/abs/2605.03905v1",
+    "arxiv_id": "2605.03905v1",
+    "authors": [
+      "F. \u00c1vila-Vera",
+      "V. Motta",
+      "E. Mediavilla"
+    ],
+    "published": "2026-05-05T15:59:07+00:00",
+    "summary": "Quasar microlensing is both a very useful tool in cosmology and astrophysics, and a source of uncertainty in some studies like the determination of the Hubble constant from lensed quasars. Microlensing probability and time-scales have been statistically studied using as a reference scale the Einstein ring crossing time of an isolated mass. Our goal is to extend the statistical analysis of microlensing to all currently known lensed quasars with available data, considering realistic optical depths and the gravitational effect of the lens galaxy. We take into account new observational results about quasar sizes and peculiar velocities of lens galaxies. We apply automatic lens modeling to the 204 systems available. For each image, we compute microlensing magnification maps and histograms. Using thin disk source sizes scaled to take into account recent measurements of accretion disk sizes, we find a mean source crossing time of $2.59\\pm 0.07$ years. The mean Einstein radius crossing time is $ 11.29 \\pm 0.05$ years. When a fraction of mass in microlenses $\u03b1=0.2$ is adopted, we find a good matching between the modeled histogram of mean microlensing magnifications for the images in our sample and the experimental histogram of microlensing magnifications. From the modeling of microlensing magnification histograms, we estimate the average half-light radius of the quasar source, $R_{1/2}=5.4\\pm 2.7$ light-days, and a lower limit to the mass fraction in microlenses, $\u03b1\\ge 0.15$. From the microlensing magnification maps, we find that a lensed quasar image has a mean probability of approximately 9% of being involved in a high-magnification event ($\u0394m \\le -0.32$). We select a group of images with the largest probabilities and the smallest crossing times."
+  },
+  {
+    "title": "Contextual Multi-Objective Optimization: Rethinking Objectives in Frontier AI Systems",
+    "url": "http://arxiv.org/abs/2605.03900v1",
+    "arxiv_id": "2605.03900v1",
+    "authors": [
+      "Jie Zhou",
+      "Qin Chen",
+      "Liang He"
+    ],
+    "published": "2026-05-05T15:55:19+00:00",
+    "summary": "Frontier AI systems perform best in settings with clear, stable, and verifiable objectives, such as code generation, mathematical reasoning, games, and unit-test-driven tasks. They remain less reliable in open-ended settings, including scientific assistance, long-horizon agents, high-stakes advice, personalization, and tool use, where the relevant objective is ambiguous, context-dependent, delayed, or only partially observable. We argue that many such failures are not merely failures of scale or capability, but failures of objective selection: the system optimizes a locally visible signal while missing which objectives should govern the interaction. We formulate this problem as \\emph{contextual multi-objective optimization}. In this setting, systems must consider multiple, context-dependent objectives, such as helpfulness, truthfulness, safety, privacy, calibration, non-manipulation, user preference, reversibility, and stakeholder impact, while determining which objectives are active, which are soft preferences, and which must function as hard or quasi-hard constraints. These examples are not intended as an exhaustive taxonomy: different domains and deployment settings may activate different objective dimensions and different conflict-resolution procedures. Our framework models AI behavior as a context-dependent choice rule over candidate actions, objective estimates, active constraints, stakeholders, uncertainty, and conflict-resolution procedures. We outline an implementation pathway based on decomposed objective representations, context-to-objective routing, hierarchical constraints, deliberative policy reasoning, controlled personalization, tool-use control, diagnostic evaluation, auditing, and post-deployment revision."
+  },
+  {
+    "title": "Mechanical Conscience: A Mathematical Framework for Dependability of Machine Intelligenc",
+    "url": "http://arxiv.org/abs/2605.03847v1",
+    "arxiv_id": "2605.03847v1",
+    "authors": [
+      "Munkhdegerekh Batzorig",
+      "Purevbaatar Ganbold",
+      "Kyungbin Park",
+      "Pilkong Jeong",
+      "Kangbin"
+    ],
+    "published": "2026-05-05T15:14:02+00:00",
+    "summary": "Distributed collaborative intelligence (DCI), encompassing edge-to-edge architectures, federated learning, transfer learning, and swarm systems, creates environments in which emergent risk is structurally unavoidable: locally correct decisions by individual agents compose into globally unacceptable behavioral trajectories under uncertainty. Existing approaches such as constrained optimization, safe reinforcement learning, and runtime assurance evaluate acceptability at the level of individual actions rather than across behavioral trajectories, and none addresses the multi-participant, uncertainty-laden nature of DCI deployments. This paper introduces mechanical conscience (MC), a novel concept and simplified mathematical framework that operationalizes trajectory-level normative regulation for both single-agent and distributed intelligent systems. Mechanical conscience is defined as a supervisory filter that minimally corrects a baseline policy's actions to reduce cumulative deviation from a normatively admissible region, while accounting for epistemic uncertainty. We introduce associated constructs, conscience score, mechanical guilt, and resonant dependability, that provide an interpretable vocabulary and computable governance signals for this emerging field. Core theoretical properties are established: admissibility equivalence, existence of optimal regulation, and monotonic deviation reduction. Illustrative results demonstrate that MC-regulated agents maintain trajectory-level normative acceptability where conventional controllers drift outside admissible bounds, and that the framework naturally extends to suppress interaction-induced emergent risk in multi-agent DCI settings."
+  },
+  {
+    "title": "Sinkhorn Ambiguity Sets for Distributionally Robust Control: Convexity, Weak Compactness, and Tractability",
+    "url": "http://arxiv.org/abs/2605.03845v1",
+    "arxiv_id": "2605.03845v1",
+    "authors": [
+      "Riccardo Cescon",
+      "Andrea Martin",
+      "Giancarlo Ferrari-Trecate"
+    ],
+    "published": "2026-05-05T15:12:13+00:00",
+    "summary": "Classical stochastic control assumes perfect knowledge of the uncertainty affecting the plant. In practice, however, such information is often incomplete. To address this limitation, we consider a distributionally robust control (DRC) problem with ambiguity sets defined via the Sinkhorn discrepancy. Compared to other discrepancy measures based on optimal transport, such as the popular Wasserstein distance, the Sinkhorn divergence does not constrain the worst-case distribution to be discrete, and allows combining observed data with prior knowledge in the form of a reference distribution, making this choice particularly suitable when only few noise samples are available for control design. We first study the properties of Sinkhorn ambiguity sets, establishing convexity and weak compactness under standard assumptions. We then leverage these results to prove that, the Sinkhorn DR linear quadratic control problem over linear policies can be solved through convex programming-even in the presence of DR safety constraints. Finally, we validate our theoretical findings and demonstrate the effectiveness of the proposed approach on a trajectory planning example."
+  },
+  {
     "title": "Multi-fidelity surrogates for mechanics of composites: from co-kriging to multi-fidelity neural networks",
     "url": "http://arxiv.org/abs/2605.02871v1",
     "arxiv_id": "2605.02871v1",
