@@ -1,5 +1,152 @@
 [
   {
+    "title": "When No Benchmark Exists: Validating Comparative LLM Safety Scoring Without Ground-Truth Labels",
+    "url": "http://arxiv.org/abs/2605.06652v1",
+    "arxiv_id": "2605.06652v1",
+    "authors": [
+      "Sushant Gautam",
+      "Finn Schwall",
+      "Annika Willoch Olstad",
+      "Fernando Vallecillos Ruiz",
+      "Birk Torpmann-Hagen",
+      "Sunniva Maria Stordal Bj\u00f8rklund",
+      "Leon Moonen",
+      "Klas Pettersen",
+      "Michael A. Riegler"
+    ],
+    "published": "2026-05-07T17:56:41+00:00",
+    "summary": "Many deployments must compare candidate language models for safety before a labeled benchmark exists for the relevant language, sector, or regulatory regime. We formalize this setting as benchmarkless comparative safety scoring and specify the contract under which a scenario-based audit can be interpreted as deployment evidence. Scores are valid only under a fixed scenario pack, rubric, auditor, judge, sampling configuration, and rerun budget. Because no labels are available, we replace ground-truth agreement with an instrumental-validity chain: responsiveness to a controlled safe-versus-abliterated contrast, dominance of target-driven variance over auditor and judge artifacts, and stability across reruns.   We instantiate the chain in SimpleAudit, a local-first scoring instrument, and validate it on a Norwegian safety pack. Safe and abliterated targets separate with AUROC values between 0.89 and 1.00, target identity is the dominant variance component ($\u03b7^2 \\approx 0.52$), and severity profiles stabilize by ten reruns. Applying the same chain to Petri shows that it admits both tools. The substantial differences arise upstream of the chain, in claim-contract enforcement and deployment fit. A Norwegian public-sector procurement case comparing Borealis and Gemma 3 demonstrates the resulting evidence in practice: the safer model depends on scenario category and risk measure. Consequently, scores, matched deltas, critical rates, uncertainty, and the auditor and judge used must be reported together rather than collapsed into a single ranking."
+  },
+  {
+    "title": "AI Co-Mathematician: Accelerating Mathematicians with Agentic AI",
+    "url": "http://arxiv.org/abs/2605.06651v1",
+    "arxiv_id": "2605.06651v1",
+    "authors": [
+      "Daniel Zheng",
+      "Ingrid von Glehn",
+      "Yori Zwols",
+      "Iuliya Beloshapka",
+      "Lars Buesing",
+      "Daniel M. Roy",
+      "Martin Wattenberg",
+      "Bogdan Georgiev",
+      "Tatiana Schmidt",
+      "Andrew Cowie",
+      "Fernanda Viegas",
+      "Dimitri Kanevsky",
+      "Vineet Kahlon",
+      "Hartmut Maennel",
+      "Sophia Alj",
+      "George Holland",
+      "Alex Davies",
+      "Pushmeet Kohli"
+    ],
+    "published": "2026-05-07T17:56:32+00:00",
+    "summary": "We introduce the AI co-mathematician, a workbench for mathematicians to interactively leverage AI agents to pursue open-ended research. The AI co-mathematician is optimized to provide holistic support for the exploratory and iterative reality of mathematical workflows, including ideation, literature search, computational exploration, theorem proving and theory building. By providing an asynchronous, stateful workspace that manages uncertainty, refines user intent, tracks failed hypotheses, and outputs native mathematical artifacts, the system mirrors human collaborative workflows. In early tests, the AI co-mathematician helped researchers solve open problems, identify new research directions, and uncover overlooked literature references. Besides demonstrating a highly interactive paradigm for AI-assisted mathematical discovery, the AI co-mathematician also achieves state of the art results on hard problem-solving benchmarks, including scoring 48% on FrontierMath Tier 4, a new high score among all AI systems evaluated."
+  },
+  {
+    "title": "TMDs in the Lens of Generative AI: A Pixel-Based Approach to Partonic Imaging",
+    "url": "http://arxiv.org/abs/2605.06606v1",
+    "arxiv_id": "2605.06606v1",
+    "authors": [
+      "Marco Zaccheddu",
+      "Leonard Gamberg",
+      "Wally Melnitchouk",
+      "Daniel Pitonyak",
+      "Alexei Prokudin",
+      "Jian-Wei Qiu",
+      "Nobuo Sato"
+    ],
+    "published": "2026-05-07T17:25:41+00:00",
+    "summary": "This work introduces a novel, nonparametric pixel-based framework for the Bayesian inference and imaging of transverse momentum dependent (TMD) parton distributions. The methodology is built upon a fully differentiable framework that integrates TMD evolution with the Collins-Soper-Sterman formalism, enabling the simultaneous extraction of partonic distributions and the nonperturbative evolution kernel. To achieve efficient and exact sampling of the high-dimensional posterior, we leverage generative AI through a hybrid normalizing flow-driven Metropolis-Hastings approach. The framework is validated through multi-scale closure tests of increasing complexity, ranging from basic functional models to convoluted structure functions. Using singular value decomposition (SVD), we rigorously characterize the uncertainty of the reconstructed distributions and reveal the existence of null TMDs, which are functional components in the null space of the kernel that remain unconstrained by observables. The new framework provides the first integration of pixel-based discretization, generative AI, and SVD within a Bayesian context to solve the TMD inverse problem. This synergy between machine learning and multi-scale data removes inherent degeneracies and enables unbiased 3D partonic imaging."
+  },
+  {
+    "title": "SNAPO: Smooth Neural Adjoint Policy Optimization for Optimal Control via Differentiable Simulation",
+    "url": "http://arxiv.org/abs/2605.06570v1",
+    "arxiv_id": "2605.06570v1",
+    "authors": [
+      "Dmitri Goloubentsev",
+      "Natalija Karpichina"
+    ],
+    "published": "2026-05-07T17:01:13+00:00",
+    "summary": "Many real-world problems require sequential decisions under uncertainty: when to inject or withdraw gas from storage, how to rebalance a pension portfolio each month, what temperature profile to run through a pharmaceutical reactor chain. Dynamic programming solves small instances exactly but scales exponentially in state dimensions. Black-box reinforcement learning handles high-dimensional states but trains slowly and produces no sensitivities. We introduce SNAPO (Smooth Neural Adjoint Policy Optimization), a framework that embeds a neural policy inside a known, differentiable simulator, replaces hard constraints with smooth approximations, and computes exact gradients of the objective with respect to all policy parameters and all inputs in a single adjoint pass. We demonstrate SNAPO on three domains: natural gas storage (training in under a minute, 365 forward curve sensitivities at no additional cost per sensitivity), pension fund asset-liability management (6.5x-200x sensitivity speedup over bump-and-revalue, scaling with the number of risk factors), and pharmaceutical manufacturing (cross-unit sensitivities through a 4-unit process chain, with 20 ICH Q8 regulatory sensitivities from 5 adjoint passes in 74.5 milliseconds). All sensitivities are produced by the same backward pass that trains the policy, at a cost proportional to one reverse pass regardless of how many sensitivities are computed."
+  },
+  {
+    "title": "Probing unknown nonperturbative effects in $b \\to s \\ell\\ell$ with inclusive and exclusive observables",
+    "url": "http://arxiv.org/abs/2605.06567v1",
+    "arxiv_id": "2605.06567v1",
+    "authors": [
+      "P. Alvarez-Cartelle",
+      "B. Capdevila",
+      "E. Lunghi",
+      "J. Matias"
+    ],
+    "published": "2026-05-07T16:59:46+00:00",
+    "summary": "In this paper we revisit, from a different perspective, a long-standing question: ``Is the systematic deficit observed in all branching ratios mediated by a $b\\to s \u03bc\u03bc$ transition due to New Physics, or to a hypothetical constant unknown universal hadronic contribution that mimics New Physics?'' The key observation that allows us to distinguish between these two possibilities is that non-perturbative contributions associated with $c\\bar c$ loops affect inclusive $B\\to X_s \\ell\\ell$ and exclusive $B\\to K^{(*)}\\ell\\ell$ modes differently. In inclusive decays, factorizable contributions are exactly determined from data on $e^+e^-\\to \\mathrm{hadrons}$, while non-factorizable corrections are described by resolved-photon contributions at low $q^2$ and by local power corrections at high $q^2$. In exclusive decays, by contrast, hypothetical charming-penguin effects, beyond those already included in current uncertainty estimates, could appear, in a worst-case scenario, as a constant, universal contribution that it seems, in principle, indistinguishable from genuine New Physics. We identify two observables, constructed from ratios of exclusive to inclusive modes, that can discriminate between a New Physics contribution and a constant hadronic contribution. Moreover, these ratios can be measured directly by LHCb, as they do not require any normalisation to $J/\u03c8K^{(*)}$ branching fractions from B factories. A preliminary evaluation of these observables with present data shows some preference for the New Physics interpretation. In a complementary test, a comparison between inclusive measurements and the corresponding sum of exclusive modes at high $q^2$ similarly disfavours an explanation based on a constant hadronic contribution. Finally, we provide projections for the new observables based on expected LHCb and Belle II measurements in the near future."
+  },
+  {
+    "title": "Dynamic Treatment on Networks",
+    "url": "http://arxiv.org/abs/2605.06564v1",
+    "arxiv_id": "2605.06564v1",
+    "authors": [
+      "Bengusu Nar",
+      "Jiguang Li",
+      "Veronika Ro\u010dkov\u00e1",
+      "Panos Toulis"
+    ],
+    "published": "2026-05-07T16:58:38+00:00",
+    "summary": "In networks, effective dynamic treatment allocation requires deciding both whom to treat and also when, so as to amplify policy impact through spillovers. An early intervention at a well-connected node can trigger cascades that change which nodes are worth targeting in the next period. Existing treatment strategies under network interference are largely static while dynamic treatment frameworks typically ignore network structure altogether. We integrate these perspectives and propose Q-Ising, a three-stage pipeline that (i) estimates network adoption dynamics via a Bayesian dynamic Ising model from a single observed panel, (ii) augments treatment adoption histories with continuous posterior latent states, and (iii) learns a dynamic policy via offline reinforcement learning. The Bayesian mechanism enables uncertainty quantification over dynamic decisions, yielding posterior ensemble policies with interpretable spillover estimates. We provide a finite-sample regret upper bound that decomposes into standard offline-RL uncertainty, network abstraction error, and first stage error in Ising state estimation. We apply our method to data from Indian village microfinance networks and synthetic stochastic block models under simulated heterogeneous susceptible-infected-susceptible (SIS) dynamics and demonstrate that adaptive targeting outperforms static centrality benchmarks."
+  },
+  {
+    "title": "Sequential Design of Genetic Circuits Under Uncertainty With Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2605.06552v1",
+    "arxiv_id": "2605.06552v1",
+    "authors": [
+      "Michal Kobiela",
+      "Diego A. Oyarz\u00fan",
+      "Michael U. Gutmann"
+    ],
+    "published": "2026-05-07T16:49:07+00:00",
+    "summary": "The design of biological systems is hindered by uncertainty arising from both intrinsic stochasticity of biomolecular reactions and variability across laboratory or experimental conditions. In this work, we present a sequential framework to optimize genetic circuits under both forms of uncertainty. By employing simulator models based on differential equations or Markov jump processes alongside a reinforcement learning (RL) policy-based approach, our method suggests experiments that adapt to unknown laboratory conditions while accounting for inherent stochasticity. While previous Bayesian methods address uncertainty through iterative experiment-inference-optimization cycles, they typically require computationally expensive inference and optimization steps after each experimental round, leading to delays. To overcome this bottleneck, we propose an amortized approach trained up-front across a distribution of possible uncertain parameters. This strategy sidesteps the need for explicit parameter inference during the design cycle, enabling immediate, observation-based adaptation. We demonstrate our framework on models for heterologous gene expression and a repressilator circuit, showing that it efficiently handles both molecular noise and cross-laboratory variability."
+  },
+  {
+    "title": "Diffusion-Based Posterior Sampling: A Feynman-Kac Analysis of Bias and Stability",
+    "url": "http://arxiv.org/abs/2605.06538v1",
+    "arxiv_id": "2605.06538v1",
+    "authors": [
+      "Matias G. Delgadino",
+      "Sebastien Motsch",
+      "Advait Parulekar",
+      "William Porteous",
+      "Sanjay Shakkottai"
+    ],
+    "published": "2026-05-07T16:37:29+00:00",
+    "summary": "Diffusion-based posterior samplers use pretrained diffusion priors to sample from measurement- or reward-conditioned posteriors, and are widely used for inverse problems. Yet their theoretical behavior remains poorly understood: even with exact prior scores, their outputs are biased, and in low-temperature regimes their discretizations can become unstable. We characterize this bias by introducing a tractable surrogate path connecting the true posterior to a standard Gaussian and comparing it to the sampler's path. Their density ratio satisfies a parabolic PDE whose reaction term measures the accumulated bias. A Feynman-Kac representation then expresses the Radon-Nikodym correction as an explicit path expectation, identifying which posterior regions are over- or under-sampled.   We apply this framework to DPS and STSL, a related sampler. For DPS, the correction is an Ornstein-Uhlenbeck path expectation coupling the data conditional covariance with the reward curvature, revealing where DPS over- or under-samples. Next, we reinterpret STSL as an auxiliary drift that steers trajectories toward low-uncertainty regions, flattening the spatially varying part of the DPS reaction term. Finally, we characterize early guidance-stopping, a common mitigation for low-temperature instabilities caused by forward-Euler integration of the vector field. Together, these results clarify sampler bias, explain existing correctives, and guide stable variant designs."
+  },
+  {
+    "title": "Delay-Robust Deep Reinforcement Learning for Ranging-Free Channel Access under Mobility in Underwater Acoustic Networks",
+    "url": "http://arxiv.org/abs/2605.06536v1",
+    "arxiv_id": "2605.06536v1",
+    "authors": [
+      "Huaisheng Ye",
+      "Xiaowen Ye",
+      "Liqun Fu"
+    ],
+    "published": "2026-05-07T16:36:24+00:00",
+    "summary": "Long propagation delays in underwater acoustic networks (UWANs) cause spatio-temporal uncertainty, constraining channel utilization in medium access control (MAC) protocols. Node mobility within autonomous underwater vehicle scenarios exacerbates these challenges by introducing dynamic propagation delays and varying spatial topologies. We present MobiU-MAC, a deep reinforcement learning (DRL)-based MAC protocol for mobile node access in UWANs that maximizes throughput via autonomous learning. MobiU-MAC incorporates CHILL-STER, a novel DRL algorithm optimized for UWANs that is both ranging-free and delay-robust. CHILL-STER employs a credit horizon-limited $\u03bb$-return (CHILL-Return) mechanism to achieve stable learning under asynchronous delayed rewards, while the companion spatio-temporal experience replay (STER) mechanism addresses topological changes arising from node mobility. This work also demonstrates theoretically that DRL attains optimal policy learning equivalent to a standard Markov decision process under long propagation delays without requiring ranging. Performance evaluations indicate that MobiU-MAC outperforms existing DRL-based MAC protocols for UWANs by leveraging the maximum system delay boundary without ranging overhead, supporting the effectiveness of the proposed theory and algorithm in complex underwater dynamic environments."
+  },
+  {
+    "title": "Market-Alignment Risk in Pricing Agents: Trace Diagnostics and Trace-Prior RL under Hidden Competitor State",
+    "url": "http://arxiv.org/abs/2605.06529v1",
+    "arxiv_id": "2605.06529v1",
+    "authors": [
+      "Peiying Zhu",
+      "Sidi Chang"
+    ],
+    "published": "2026-05-07T16:31:39+00:00",
+    "summary": "Outcome metrics can certify the wrong behavior. We study this failure in a two-hotel revenue-management simulator where Hotel A trains an agent against a fixed rule-based revenue-management competitor, Hotel B. A standard learning agent can obtain near-reference revenue per available room (RevPAR) while failing to learn market-like yield management: it sells too aggressively, undercuts, or collapses to modal price buckets. We diagnose this as a Goodhart-style failure under partial observability. Hotel A cannot observe the competitor's remaining inventory, booking curve, or pricing rule, so the same Hotel A-visible state maps to multiple plausible Hotel B prices. Deterministic value-based RL and deterministic copying collapse this unresolved uncertainty into shortcut behavior. We introduce a trace-level diagnostic protocol using RevPAR, occupancy, ADR, full price-bucket distributions, L1/JS distances, and seed-level confidence intervals. The verified repair is Trace-Prior RL: learn a distributional market prior from lagged market traces, then train a stochastic pricing policy with a RevPAR reward and a KL penalty to the learned prior. The final policy matches Hotel B's RevPAR, occupancy, ADR, and price distribution within seed-level uncertainty, while still optimizing Hotel A's own reward. We argue that the contribution is not a new optimizer and not a hotel-pricing leaderboard, but a reproducible failure-and-repair recipe for agentic systems where scalar rewards are easy to game and the intended behavior is only visible in traces. A key finding is that higher exact action accuracy can worsen aggregate trace alignment when the target is distributional."
+  },
+  {
     "title": "A Closed-Form Dual-Barrier CBF Safety Filter for Holonomic Robots on Incrementally Built Occupancy Grid Maps",
     "url": "http://arxiv.org/abs/2605.05182v1",
     "arxiv_id": "2605.05182v1",
