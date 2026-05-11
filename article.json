@@ -1,5 +1,141 @@
 [
   {
+    "title": "GRAPHLCP: Structure-Aware Localized Conformal Prediction on Graphs",
+    "url": "http://arxiv.org/abs/2605.08074v1",
+    "arxiv_id": "2605.08074v1",
+    "authors": [
+      "Peyman Baghershahi",
+      "Fangxin Wang",
+      "Debmalya Mandal",
+      "Sourav Medya"
+    ],
+    "published": "2026-05-08T17:56:09+00:00",
+    "summary": "Conformal prediction (CP) provides a distribution-free approach to uncertainty quantification with finite-sample guarantees. However, applying CP to graph neural networks (GNNs) remains challenging as the combinatorial nature of graphs often leads to insufficiently certain predictions and indiscriminative embeddings. Existing methods primarily rely on embedding-space proximity for localization, which can be unreliable for graphs and yield inefficient prediction sets. We propose GRAPHLCP, a proximity-based localized CP framework that explicitly incorporates graph topology and inter-node dependencies into localization and weighting. Our approach introduces a feature-aware densification step to mitigate locality bias in sparse graphs, followed by a Personalized PageRank-based kernel computation to model structural proximity. This enables topology-dependent anchor sampling and calibration weighting that captures both local and long-range dependencies. Extensive experiments on several regression and classification datasets demonstrate that GRAPHLCP guarantees marginal coverage with finite samples while efficiently attaining favorable test conditional coverage across various conditioning scenarios."
+  },
+  {
+    "title": "Uncertainty-Aware Structured Data Extraction from Full CMR Reports via Distilled LLMs",
+    "url": "http://arxiv.org/abs/2605.08045v1",
+    "arxiv_id": "2605.08045v1",
+    "authors": [
+      "Yi Yu",
+      "Parker Martin",
+      "Zhenyu Bu",
+      "Yixuan Liu",
+      "Yi-Yu Zheng",
+      "Orlando Simonetti",
+      "Yuchi Han",
+      "Yuan Xue"
+    ],
+    "published": "2026-05-08T17:35:41+00:00",
+    "summary": "Converting free-text cardiac magnetic resonance (CMR) reports into auditable structured data remains a bottleneck for cohort assembly, longitudinal curation, and clinical decision support. We present CMR-EXTR, a lightweight framework that converts free-text CMR reports into structured data and assigns per-field confidence for quality control. A teacher-student distillation pipeline enables fully offline inference while limiting manual annotation. Uncertainty integrates three complementary principles -- distribution plausibility, sampling stability, and cross-field consistency -- to triage human review. Experiments show that CMR-EXTR achieves 99.65% variable-level accuracy, demonstrating both reliable extraction and informative confidence scores. To our knowledge, this is the first CMR-specific extraction system with integrated confidence estimation. The code is available at https://github.com/yuyi1005/CMR-EXTR."
+  },
+  {
+    "title": "MPD$^2$-Router: Mask-aware Multi-expert Prior-regularized Dual-head Deferral Router in Glaucoma Screening and Diagnosis",
+    "url": "http://arxiv.org/abs/2605.08024v1",
+    "arxiv_id": "2605.08024v1",
+    "authors": [
+      "Wenxin Zhan"
+    ],
+    "published": "2026-05-08T17:10:57+00:00",
+    "summary": "Learning-to-defer (L2D) can make glaucoma screening safer by routing difficult/uncertain cases to humans, yet standard formulations overlook expert availability, heterogeneous readers behavior, workload imbalance, asymmetric diagnostic harm, case difficulty from morphology and deployment shift. We introduce MPD$^2$-Router, a mask-aware multi-expert deferral framework that recasts ophthalmic triage as constrained human--AI routing: whether to defer and to which available expert. It couples a dual-head deferral/allocation policy with mask-aware Gumbel--sigmoid gating that strictly enforces per-sample availability, and fuses uncertainty, morphology, image-quality, and OOD signals. Training uses an asymmetric cost-sensitive objective with an augmented-Lagrangian deferral budget, a group-specific distribution prior, and a rank-majorization JS regularizer that jointly prevent expert collapse without forcing uniform allocation. Across three cross-national glaucoma cohorts (REFUGE, CHAKSU, ORIGA) with a frozen REFUGE-trained backbone, MPD$^2$-Router substantially lowers clinical cost and improves MCC over AI-only at a moderate deferral rate. It is Pareto-optimal in F1--MCC--cost, robust under cross-domain shift, and yields balanced expert utilization."
+  },
+  {
+    "title": "BAMIFun: Bayesian Multiple Imputation for Functional Data",
+    "url": "http://arxiv.org/abs/2605.08018v1",
+    "arxiv_id": "2605.08018v1",
+    "authors": [
+      "Ziren Jiang",
+      "Lei Xuan",
+      "Eric F. Lock",
+      "Erjia Cui"
+    ],
+    "published": "2026-05-08T17:07:10+00:00",
+    "summary": "Missing data are pervasive in modern functional datasets, where trajectories are often sparsely or irregularly observed. Although Functional Principal Component Analysis (FPCA) is widely used to reconstruct incomplete curves, existing FPCA-based approaches typically employ single imputation, leading to overly optimistic inferences in downstream analyses. To address these challenges, we develop a novel Bayesian multiple imputation framework for functional data (BAMIFun). For single-level functional data, we impose a Bayesian low-rank model that incorporates penalized spline representations to enforce smoothness of eigenfunctions and derive an efficient Gibbs sampler algorithm for posterior computation. In addition, we demonstrate and validate how to properly account for the estimation uncertainties in downstream analysis. Furthermore, we extend the framework to multiway functional data using a low-rank Functional Tensor Singular Value Decomposition (FTSVD) model, enabling Bayesian multiple imputation in settings not supported by existing methods. Simulation studies show that, compared to existing methods, BAMIFun achieves accurate imputation while providing substantially improved coverage and more reliable downstream inference. Case studies using a physical activity dataset and an infant gut microbiome dataset further demonstrate the practical advantages of our proposed methods under severe missingness. Code for our algorithms is available at https://github.com/ZirenJiang/BAMIFun."
+  },
+  {
+    "title": "Uncertainty Principles and Maximum Entropic Force",
+    "url": "http://arxiv.org/abs/2605.07992v1",
+    "arxiv_id": "2605.07992v1",
+    "authors": [
+      "Jonas Mureika",
+      "Elias C. Vagenas"
+    ],
+    "published": "2026-05-08T16:49:17+00:00",
+    "summary": "We consider quantum gravity corrections to the maximum entropic force that arise from several gravitational uncertainty principles. These include the Generalized Uncertainty Principle (GUP), the Extended Uncertainty Principle (EUP), the Generalized Extended Uncertainty Principle (GEUP), and the Linear-Quadratic GUP (LQGUP). We find that the modified entropic force depends on the dimensionless parameters of the uncertainty principles and, thus, on the underlying quantum gravity theory. Furthermore, the entropic force, which is quantum gravity corrected in the framework of the extended uncertainty principles, also depends on the number of Planck areas that made the ``EUP area\"."
+  },
+  {
+    "title": "Uncertainty Quantification for Cardiac Shape Reconstruction with Deep Signed Distance Functions via MCMC methods",
+    "url": "http://arxiv.org/abs/2605.07987v1",
+    "arxiv_id": "2605.07987v1",
+    "authors": [
+      "Jan Verh\u00fclsdonk",
+      "Thomas Grandits",
+      "Francisco Sahli Costabal",
+      "Thomas Beiert",
+      "Simone Pezzuto",
+      "Alexander Effland"
+    ],
+    "published": "2026-05-08T16:45:11+00:00",
+    "summary": "Atlas-based approaches allow high-quality, patient-specific shape reconstructions of cardiac anatomy from sparse and/or noisy data such as point clouds. However, these methods are mainly prior-driven, so the impact of uncertainty can be large, limiting their clinical reliability. We propose a probabilistic framework for uncertainty-aware cardiac shape reconstruction that combines Deep Signed Distance Functions (DeepSDFs) with Markov Chain Monte Carlo (MCMC) sampling. Cardiac geometries are modeled implicitly as zero-level sets of a neural network conditioned on learned latent codes, enabling multi-surface reconstruction of the left and right ventricles. By interpreting the reconstruction loss as a log-likelihood, we perform Bayesian inference in the latent space to obtain both maximum a posteriori (MAP) and posterior-sampled reconstructions. Experiments on a public cardiac dataset show that our approach produces accurate reconstructions and well-calibrated uncertainty estimates."
+  },
+  {
+    "title": "The Limits of AI-Driven Allocation: Optimal Screening under Aleatoric Uncertainty",
+    "url": "http://arxiv.org/abs/2605.07979v1",
+    "arxiv_id": "2605.07979v1",
+    "authors": [
+      "Santiago Cortes-Gomez",
+      "Mateo Dulce Rubio",
+      "Carlos Patino",
+      "Bryan Wilder"
+    ],
+    "published": "2026-05-08T16:38:58+00:00",
+    "summary": "The rise of machine learning has shifted targeted resource allocation in policy and humanitarian settings toward algorithmic targeting based on predicted risk scores. This approach is typically cheaper and faster than traditional screening procedures that directly observe the latent vulnerability status through physical verification. Yet, even access to the true conditional vulnerability probability cannot eliminate misallocation: aleatoric uncertainty over individual vulnerability status is irreducible, and probabilistic targeting inevitably misallocates some resources. In this work we study how screening and algorithmic targeting should be optimally combined in a two-stage allocation framework where a screening stage observes true outcomes for a subset of units before a final allocation stage assigns the resource under a fixed coverage budget. We show that the optimal strategy screens units at the margin of algorithmic allocation, while directly targeting the highest-risk units. Furthermore, we empirically characterize when screening and algorithmic targeting act as complements or substitutes: efficiency gains from screening grow as the aleatoric uncertainty in the population increases. We illustrate our framework with applications in income-based social protection programs and humanitarian demining in Colombia, where the tension between screening costs and allocation efficiency is operationally consequential."
+  },
+  {
+    "title": "DVD: Discrete Voxel Diffusion for 3D Generation and Editing",
+    "url": "http://arxiv.org/abs/2605.07971v1",
+    "arxiv_id": "2605.07971v1",
+    "authors": [
+      "Zhengrui Xiang",
+      "Jiaqi Wu",
+      "Fupeng Sun",
+      "Heliang Zheng",
+      "Yingzhen Li"
+    ],
+    "published": "2026-05-08T16:32:17+00:00",
+    "summary": "We introduce Discrete Voxel Diffusion (DVD), a discrete diffusion framework to generate, assess, and edit sparse voxels for SLat (Structured LATent) based 3D generative pipelines. Although discrete diffusion has not generally displaced continuous diffusion in image-like generation, we show that it can be an effective first-stage prior for sparse voxel scaffolds. By treating voxel occupancy as a native discrete variable, DVD avoids continuous-to-discrete thresholding and provides a simple framework for voxel generation, uncertainty estimation, and editing. Beyond quality gains, DVD provides more interpretable generation dynamics through explicit categorical modeling. Furthermore, we leverage the predictive entropy as a robust uncertainty metric to identify ambiguous voxel regions and complicated samples, facilitating tasks such as data filtering and quality assessment. Finally, we propose a lightweight fine-tuning strategy using block-structured perturbation patterns. This approach empowers the model to inpaint and edit voxels within a single sampling round, requiring negligible auxiliary computation and no additional model evaluations."
+  },
+  {
+    "title": "Asymptotically Log-Optimal Bayes-Assisted Confidence Sequences for Bounded Means",
+    "url": "http://arxiv.org/abs/2605.07964v1",
+    "arxiv_id": "2605.07964v1",
+    "authors": [
+      "Valentin Kilian",
+      "Stefano Cortinovis",
+      "Fran\u00e7ois Caron"
+    ],
+    "published": "2026-05-08T16:27:50+00:00",
+    "summary": "Confidence sequences based on test martingales provide time-uniform uncertainty quantification for the mean of bounded IID observations without parametric distributional assumptions. Their practical efficiency, however, depends strongly on the choice of martingale updates, and many existing constructions do not exploit prior information about plausible data-generating distributions or mean values. We propose a Bayes-assisted framework that uses a Bayesian working predictive model to adaptively construct confidence sequences.For each candidate mean and time point, the predictive distribution selects, among valid one-step martingale factors, the update maximising predictive expected log-growth; validity is therefore preserved even when the prior or working model is misspecified. We prove that if the predictive distribution is Wasserstein-consistent, the resulting procedure is asymptotically log-optimal, matching the per-sample log-growth of an oracle procedure with access to the true distribution. We instantiate the framework using robust predictives based on Dirichlet-process mixtures and Bayesian exponentially tilted empirical likelihood. Experiments on synthetic data, sequential best-arm identification for LLM evaluation, and prediction-powered inference show that informative priors can substantially reduce confidence-sequence width and sampling effort while retaining anytime-valid coverage."
+  },
+  {
+    "title": "One World, Dual Timeline: Decoupled Spatio-Temporal Gaussian Scene Graph for 4D Cooperative Driving Reconstruction",
+    "url": "http://arxiv.org/abs/2605.07910v1",
+    "arxiv_id": "2605.07910v1",
+    "authors": [
+      "Yulong Chen",
+      "Xiaoyun Dong",
+      "Haoyu Zhang",
+      "Zongxian Yang",
+      "Lewei Xie",
+      "Xinke Li",
+      "Yifan Zhang",
+      "Kai Wang",
+      "Jianping Wang"
+    ],
+    "published": "2026-05-08T15:48:57+00:00",
+    "summary": "Reconstructing dynamic scenes from Vehicle-to-Infrastructure Cooperative Autonomous Driving (VICAD) data is fundamentally complicated by temporal asynchrony: vehicle and infrastructure cameras operate on independent clocks, capturing the same dynamic agent such as cars and pedestrians at different physical times. Existing Gaussian Scene Graph methods implicitly assume synchronized observations and assign a single pose per agent per frame, which is an assumption that breaks in cooperative settings, where the resulting gradient conflicts cause severe ghosting on dynamic agents. We identify this as a representation-level failure, not an optimization artifact: we prove that any single-timeline formulation incurs an irreducible photometric loss scaling quadratically with agent velocity and cross-source time offset. To resolve this, we propose Dust (DecoUpled Spatio-Temporal) Gaussian Scene Graph for 4D Cooperative Driving Reconstruction. DUST Gaussian Scene Graph shares a canonical Gaussian set per agent for appearance consistency, while maintaining decouple pose trajectories aligned to each source's true capture timestamps. We prove that this decoupling enables the pose-gradient kernel block-diagonal, eliminating cross-source interference entirely. To make Dust practical, we further introduce a static anchor-based pose correction pipeline that corrects spatio misalignment between vehicle and infrastructure annotations, and a pose-regularized joint optimization scheme that prevents trajectory jitter and drift during early training. On 26 sequences from V2X-Seq, DUST achieves state-of-the-art performance, improving dynamic-area PSNR by 3.2 dB over the strongest baseline and reducing Fr\u00e9chet Video Distance by 37.7%, with keeping robustness under larger temporal asynchrony. Code is available at https://anonymous.4open.science/r/DUST-6A55."
+  },
+  {
     "title": "When No Benchmark Exists: Validating Comparative LLM Safety Scoring Without Ground-Truth Labels",
     "url": "http://arxiv.org/abs/2605.06652v1",
     "arxiv_id": "2605.06652v1",
