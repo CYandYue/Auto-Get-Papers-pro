@@ -1,5 +1,133 @@
 [
   {
+    "title": "Mitigating residual foregrounds and systematic errors in SKA1-Low AA* EoR observations via Bayesian Gaussian Process Regression",
+    "url": "http://arxiv.org/abs/2605.10928v1",
+    "arxiv_id": "2605.10928v1",
+    "authors": [
+      "Samit Kumar Pal",
+      "Abhirup Datta",
+      "Aishrila Mazumder",
+      "Anshuman Tripathi"
+    ],
+    "published": "2026-05-11T17:57:39+00:00",
+    "summary": "The redshifted 21\\,cm line is an emerging tool in observational cosmology that can serve as a direct probe of the intergalactic medium throughout the cosmic timeline. However, the observation of the cosmological 21\\,cm signal from early epochs is extremely challenging in practice, regardless of the scale of interest and redshift. The presence of bright astrophysical foregrounds and residual systematic errors along the line of sight poses challenges for its detection. Machine-learning-based Gaussian process regression\\,(ML-GPR) has proven to be the most effective strategy for signal separation in LOFAR and NenuFAR observations to measure the 21\\,cm signal power spectrum from the Cosmic Dawn\\,(CD) and Epoch of Reionization\\,(EoR). In this work, we extend this framework to synthetic CD/EoR SKA1-Low observations to assess its robustness in mitigating residual foregrounds against instrumental and environmental systematic effects. We use our developed end-to-end realistic simulation pipeline (\\textsc{21cmE2E}) for SKA-Low observations. Our 4-hour tracking simulation includes extragalactic point sources, the AA* telescope configuration, primary beam response, and error models. The modelled errors incorporate residual antenna-based gain calibration errors, residual ionospheric phase errors, partial de-mixing of the out-of-field sources, and instrumental noise for 1000\\,hours of deep integration time. We compare different Bayesian GPR frameworks to assess their ability to suppress residual foreground contamination while minimizing signal loss and providing reliable uncertainty estimates. Our analysis demonstrates that the 21\\,cm signal can robustly recover within the $2\u03c3$ credible interval for almost all k-modes over the range of $0.06 \\leq k \\leq 1.0$~h Mpc$^{-1}$."
+  },
+  {
+    "title": "New perspective on cold fusion reactions: A microscopic description",
+    "url": "http://arxiv.org/abs/2605.10869v1",
+    "arxiv_id": "2605.10869v1",
+    "authors": [
+      "Yinu Zhang",
+      "Bo Han",
+      "Yueping Fang",
+      "Long Zhu"
+    ],
+    "published": "2026-05-11T17:19:39+00:00",
+    "summary": "A microscopic framework that combines the Hartree-Fock-Bogoliubov (HFB) approach with the fusion by diffusion (FBD) model is proposed to investigate the synthesis mechanism of superheavy nuclei (SHN). For the reaction $^{48}\\text{Ca}+^{208}\\text{Pb}$, the calculated evaporation-residue cross section (ERCS) reproduces the experimental data reasonably well. The method enables self-consistent extraction of the fusion injection point and inner barrier from HFB potential-energy surfaces (PES), thereby incorporating nuclear structure effects while eliminating phenomenological tuning at the fusion stage. For cold-fusion reactions, the PES features a hyperasymmetric valley driven by shell effects. This $^{208}$Pb anchored valley connects the entrance channel to compound nucleus formation and provides an exit channel for cluster decay. We further investigate the cold-fusion reactions $^{54}\\text{Cr}+^{208}\\text{Pb}$ and $^{58}\\text{Fe}+^{208}\\text{Pb}$, obtaining a near-exponential decrease of $P_{\\text{CN}}$ with compound-nucleus charge $Z$, consistent with established systematics. This approach demonstrates a self-consistent framework that can reduce uncertainties in the fusion stage of SHN production."
+  },
+  {
+    "title": "Transcoda: End-to-End Zero-Shot Optical Music Recognition via Data-Centric Synthetic Training",
+    "url": "http://arxiv.org/abs/2605.10835v1",
+    "arxiv_id": "2605.10835v1",
+    "authors": [
+      "Daniel Dratschuk",
+      "Paul Swoboda"
+    ],
+    "published": "2026-05-11T16:50:28+00:00",
+    "summary": "Optical Music Recognition (OMR), the task of transcribing sheet music into a structured textual representation, is currently bottlenecked by a lack of large-scale, annotated datasets of real scans. This forces models to rely on either few-shot transfer or synthetic training pipelines that remain overly simplistic. A secondary challenge is encoding non-uniqueness: in the popular Humdrum **kern format for transcribing music, multiple different text encodings can render into the same visual sheet music. This one-to-many mapping creates a harder learning task and introduces high uncertainty during decoding. We propose Transcoda, an OMR system built on (i) an advanced synthetic data generation pipeline, (ii) a normalization of the **kern encoding to enforce a unique normal form and (iii) grammar-based decoding to ensure the syntactic correctness of the output. This approach allows us to train a compact 59M-parameter model in just 6 hours on a single GPU that outperforms billion-parameter baselines. Transcoda achieves the best score among state of the art baselines on a newly curated benchmark of synthetically rendered scores at 18.46% OMR-NED (compared to 43.91% for the next-best system, Legato) and reduces the error rate on historical Polish scans to 63.97% OMR-NED (down from 80.16% for SMT++)."
+  },
+  {
+    "title": "Predicting 3D structure by latent posterior sampling",
+    "url": "http://arxiv.org/abs/2605.10830v1",
+    "arxiv_id": "2605.10830v1",
+    "authors": [
+      "Azmi Haider",
+      "Dan Rosenbaum"
+    ],
+    "published": "2026-05-11T16:47:25+00:00",
+    "summary": "The remarkable achievements of both generative models of 2D images and neural field representations for 3D scenes present a compelling opportunity to integrate the strengths of both approaches. In this work, we propose a methodology that combines a NeRF-based representation of 3D scenes with probabilistic modeling and reasoning using diffusion models. We view 3D reconstruction as a perception problem with inherent uncertainty that can thereby benefit from probabilistic inference methods. The core idea is to represent the 3D scene as a stochastic latent variable for which we can learn a prior and use it to perform posterior inference given a set of observations. We formulate posterior sampling using the score-based inference method of diffusion models in conjunction with a likelihood term computed from a reconstruction model that includes volumetric rendering. We train the model using a two-stage process: first we train the reconstruction model while auto-decoding the latent representations for a dataset of 3D scenes, and then we train the prior over the latents using a diffusion model. By using the model to generate samples from the posterior we demonstrate that various 3D reconstruction tasks can be performed, differing by the type of observation used as inputs. We showcase reconstruction from single-view, multi-view, noisy images, sparse pixels, and sparse depth data. These observations vary in the amount of information they provide for the scene and we show that our method can model the varying levels of inherent uncertainty associated with each task. Our experiments illustrate that this approach yields a comprehensive method capable of accurately predicting 3D structure from diverse types of observations."
+  },
+  {
+    "title": "Reasoning Is Not Free: Robust Adaptive Cost-Efficient Routing for LLM-as-a-Judge",
+    "url": "http://arxiv.org/abs/2605.10805v1",
+    "arxiv_id": "2605.10805v1",
+    "authors": [
+      "Wenbo Zhang",
+      "Lijinghua Zhang",
+      "Liner Xiang",
+      "Hengrui Cai"
+    ],
+    "published": "2026-05-11T16:30:20+00:00",
+    "summary": "Reasoning-capable large language models (LLMs) have recently been adopted as automated judges, but their benefits and costs in LLM-as-a-Judge settings remain unclear. Through controlled comparisons between reasoning and non-reasoning judges, we show that explicit reasoning substantially improves judgment accuracy on tasks requiring structured verification (e.g., math and coding), while offering limited or even negative gains on simpler evaluations and incurring significantly higher computational cost. These findings motivate that reasoning should be used selectively rather than universally, with awareness of possible distribution shift. We propose a Robust Adaptive Cost-Efficient Routing (RACER), which dynamically selects between reasoning and non-reasoning judges under a fixed budget by formulating routing as a constrained distributionally robust optimization problem. RACER explicitly accounts for distribution shift via a KL-divergence uncertainty set, admits an efficient primal--dual algorithm, and enjoys theoretical guarantees including uniqueness of the optimal policy and linear convergence. Extensive experiments show that RACER achieves superior accuracy--cost trade-offs under distribution shift."
+  },
+  {
+    "title": "An Uncertainty-Aware Resilience Micro-Agent for Causal Observability in the Computing Continuum",
+    "url": "http://arxiv.org/abs/2605.10718v1",
+    "arxiv_id": "2605.10718v1",
+    "authors": [
+      "Suvi De Silva",
+      "Alfreds Lapkovskis",
+      "Alaa Saleh",
+      "Sasu Tarkoma",
+      "Praveen Kumar Donta"
+    ],
+    "published": "2026-05-11T15:28:37+00:00",
+    "summary": "Grey failures in the computing continuum produce ambiguous overlapping symptoms that existing approaches fail to diagnose reliably, either due to a lack of causal awareness or acting under high epistemic uncertainty, risking destructive interventions. This paper presents an uncertainty-aware resilience micro-agent for causal observability (AURORA), a lightweight framework for diagnosing and mitigating grey failures in edge-tier environments. The framework employs parallel micro-agents that integrate the free-energy principle, causal do-calculus, and localized causal state-graphs to support counterfactual root-cause analysis within each fault's Markov blanket. Restricting inference to causally relevant variables reduces computational overhead while preserving diagnostic fidelity. AURORA further introduces a dual-gated execution mechanism that authorizes remediation only when causal confidence is high and predicted epistemic uncertainty is bounded; otherwise, it abstains from local intervention and escalates the diagnostic payload to the fog tier. Our experiments demonstrate that AURORA outperforms baselines, achieving a 0% destructive action rate, while maintaining 62.0% repair accuracy and a 3ms mean time to repair."
+  },
+  {
+    "title": "Heteroscedastic Diffusion for Multi-Agent Trajectory Modeling",
+    "url": "http://arxiv.org/abs/2605.10717v1",
+    "arxiv_id": "2605.10717v1",
+    "authors": [
+      "Guillem Capellera",
+      "Antonio Rubio",
+      "Luis Ferraz",
+      "Antonio Agudo"
+    ],
+    "published": "2026-05-11T15:26:14+00:00",
+    "summary": "Multi-agent trajectory modeling traditionally focuses on forecasting, often neglecting more general tasks like trajectory completion, which is essential for real-world applications such as correcting tracking data. Existing methods also generally predict agents' states without offering any state-wise measure of heteroscedastic uncertainty. Moreover, popular multi-modal sampling methods lack error probability estimates for each generated scene under the same prior observations, which makes it difficult to rank the predictions at inference time. We introduce U2Diffine, a unified diffusion model built to perform trajectory completion while simultaneously offering state-wise heteroscedastic uncertainty estimates. This is achieved by augmenting the standard denoising loss with the negative log-likelihood of the predicted noise, and then propagating the latent space uncertainty to the real state space using a first-order Taylor approximation. We also propose U2Diff, a faster baseline that avoids gradient computation during sampling. This approach significantly increases inference speed, making it as efficient as a standard generative-only diffusion model. For post-processing, we integrate a Rank Neural Network (RankNN) that enables error probability estimation for each generated mode, demonstrating strong correlation with ground truth errors. Our method outperforms state-of-the-art solutions in both trajectory completion and forecasting across four challenging sports datasets (NBA, Basketball-U, Football-U, Soccer-U), underscoring the effectiveness of our uncertainty and error probability estimation."
+  },
+  {
+    "title": "Neuromorphic Monocular Depth Estimation with Uncertainty Modeling",
+    "url": "http://arxiv.org/abs/2605.10675v1",
+    "arxiv_id": "2605.10675v1",
+    "authors": [
+      "Viktor Bergkvist",
+      "Felix Rydell",
+      "Per-Erik Forss\u00e9n",
+      "David Gustafsson",
+      "Johan Rideg"
+    ],
+    "published": "2026-05-11T14:55:35+00:00",
+    "summary": "Event cameras offer distinct advantages over conventional frame-based sensors, including microsecond-level temporal resolution, high dynamic range, and low bandwidth. In this paper, we predict per-pixel depth distributions from monocular event streams using deep neural networks. We estimate uncertainty using Gaussian, log-normal, and evidential learning frameworks. We compare six event representations: spatio-temporal voxel grids with 1, 5, 10, and 20 temporal bins, the Compact Spatio-Temporal Representation (CSTR), and Time-Ordered Recent Event (TORE) volumes. Our U-Net-based models are trained on synthetic data and then fine-tuned on real sequences. We evaluate performance using absolute relative error, root mean squared error, and the area under the sparsification error. Quantitative results show that the representations perform similarly, while 10 bin log-normal and 5 bin evidential learning perform best across metrics. Our experiments demonstrate that uncertainty estimation can be successfully integrated into event-based monocular depth estimation, and be used to indicate pixels with reliable depth."
+  },
+  {
+    "title": "Segment Anything with Robust Uncertainty-Accuracy Correlation",
+    "url": "http://arxiv.org/abs/2605.10603v1",
+    "arxiv_id": "2605.10603v1",
+    "authors": [
+      "Hongyou Zhou",
+      "Marc Toussaint",
+      "Ling Shao",
+      "Zihan Ye"
+    ],
+    "published": "2026-05-11T14:04:02+00:00",
+    "summary": "Despite strong zero-shot performance, SAM is unreliable under domain shift due to Mask-level Confidence Confusion (MCC), where a single IoU-based mask score fails to reflect pixel-wise reliability near boundaries. Motivated by the contrast between texture-biased shortcuts in neural networks and shape-centric processing in human vision, we model out-of-domain variation as appearance shifts and non-rigid deformations that jointly stress calibration. We propose Segment Anything with Robust Uncertainty-Accuracy Correlation (RUAC) for robust pixel-wise uncertainty estimation under appearance and deformation shifts. RUAC adds a lightweight uncertainty head, trains it with a collaborative style-deformation attack that jointly perturbs texture and geometry, and applies Uncertainty-Accuracy Alignment to ensure uncertainty consistently highlights erroneous pixels even under adversarial perturbations. Across 23 zero-shot domains, RUAC improves segmentation quality and yields more faithful uncertainty with stronger uncertainty-accuracy correlation. Project page: https://github.com/HongyouZhou/ruac.git."
+  },
+  {
+    "title": "Online Sharp-Calibrated Bayesian Optimization",
+    "url": "http://arxiv.org/abs/2605.10572v1",
+    "arxiv_id": "2605.10572v1",
+    "authors": [
+      "Marshal Arijona Sinaga",
+      "Julien Martinelli",
+      "Teemu Turpeinen",
+      "Samuel Kaski"
+    ],
+    "published": "2026-05-11T13:41:42+00:00",
+    "summary": "Bayesian optimization (BO) is a widely used framework for optimizing expensive black-box functions, commonly based on Gaussian process (GP) surrogate models. Its effectiveness relies on uncertainty quantification that is both sharp (informative) and well-calibrated along the BO trajectory. In practice, GP kernel hyperparameters are unknown and are refit online from sequentially collected (non-i.i.d.) data, which can yield miscalibrated or overly conservative uncertainty and lies outside the fixed-kernel assumptions of standard BO regret theory. We propose Online Sharp-Calibrated Bayesian Optimization (OSCBO), a BO algorithm that adaptively balances GP sharpness and calibration by casting hyperparameter selection as a constrained online-learning problem. We also show that OSCBO preserves sublinear regret bounds by leveraging the theoretical guarantees of the underlying online learning algorithm. Empirically, OSCBO performs competitively across synthetic and real-world benchmarks, ranking among the strongest methods in final simple regret while maintaining robust cumulative-regret behavior."
+  },
+  {
     "title": "GRAPHLCP: Structure-Aware Localized Conformal Prediction on Graphs",
     "url": "http://arxiv.org/abs/2605.08074v1",
     "arxiv_id": "2605.08074v1",
