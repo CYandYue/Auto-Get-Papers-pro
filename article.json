@@ -1,5 +1,122 @@
 [
   {
+    "title": "ORCE: Order-Aware Alignment of Verbalized Confidence in Large Language Models",
+    "url": "http://arxiv.org/abs/2605.12446v1",
+    "arxiv_id": "2605.12446v1",
+    "authors": [
+      "Chen Li",
+      "Xiaoling Hu",
+      "Songzhu Zheng",
+      "Jiawei Zhou",
+      "Chao Chen"
+    ],
+    "published": "2026-05-12T17:39:43+00:00",
+    "summary": "Large language models (LLMs) often produce answers with high certainty even when they are incorrect, making reliable confidence estimation essential for deployment in real-world scenarios. Verbalized confidence, where models explicitly state their confidence in natural language, provides a flexible and user-facing uncertainty signal that can be applied even when token logits are unavailable. However, existing verbalized-confidence methods often optimize answer generation and confidence generation jointly, which can cause confidence-alignment objectives to interfere with answer accuracy. In this work, we propose a decoupled and order-aware framework for verbalized confidence calibration. Our method first generates an answer and then estimates confidence conditioned on the fixed question--answer pair, allowing confidence optimization without directly perturbing the answer-generation process. To align confidence with correctness likelihood, we construct a sampling-based surrogate from multiple model completions and optimize rank-based reinforcement learning objectives that encourage responses with higher estimated correctness likelihood to receive higher verbalized confidence. Experiments on reasoning and knowledge-intensive benchmarks show that our method improves calibration and failure prediction performance while largely preserving answer accuracy. These results demonstrate that verbalized confidence can be more reliably aligned by decoupling confidence estimation from answer generation and optimizing the relative ordering of confidence across responses."
+  },
+  {
+    "title": "Optimal Scheduling of Dengue Vector Control",
+    "url": "http://arxiv.org/abs/2605.12441v1",
+    "arxiv_id": "2605.12441v1",
+    "authors": [
+      "Aram Vajdi",
+      "Lee W. Cohnstaedt",
+      "Caterina M. Scoglio",
+      "Heman Shakeri"
+    ],
+    "published": "2026-05-12T17:35:39+00:00",
+    "summary": "Dengue transmission is shaped by the population dynamics of the Aedes aegypti mosquito, making vector control a central strategy for disease mitigation. The impact of interventions such as larvicide, adulticide, and breeding-site reduction depends critically on their timing under fluctuating environmental conditions. We build on a high-fidelity, non-Markovian mechanistic model of the Aedes life cycle that captures stage-structured, temperature-dependent developmental delays, and mortality, and extend it to incorporate multiple vector control measures. Rather than using continuous abstract control amplitudes as in standard optimal control formulations, we introduce intervention-specific temporal profiles that better reflect operational practice. We then develop an adjoint-based gradient descent framework to compute the optimal timing of a sequence of interventions by minimizing the time-dependent dengue reproduction number, R0. Numerical simulations based on seasonal temperature data from Miami, Florida, show that appropriately timed combinations of interventions can substantially suppress transmission risk, with outcomes strongly influenced by seasonal temperature variation and intervention duration. We further propose embedding the resulting optimization framework within a Model Predictive Control architecture, yielding a closed-loop approach for real-time, surveillance-driven vector management under environmental and operational uncertainty."
+  },
+  {
+    "title": "Measurements of transverse-momentum dependent effects in semi-inclusive DIS at COMPASS",
+    "url": "http://arxiv.org/abs/2605.12423v1",
+    "arxiv_id": "2605.12423v1",
+    "authors": [
+      "Jan Matousek"
+    ],
+    "published": "2026-05-12T17:21:03+00:00",
+    "summary": "Its cornerstone were studies of hadron production in deep inelastic scattering (DIS), which can be interpreted in the transverse-momentum-dependent (TMD) factorisation framework, allowing to access the distributions of polarisation and transverse momentum of quarks within the nucleon in the language of TMD PDFs, and the hadronisation in terms of TMD fragmentation functions. The data collected with a liquid hydrogen target in 2016-2017 will soon bring new information on the transverse momentum and may allow for the first time to extract the transverse polarisation of quarks within an unpolarised nucleon described by the Boer-Mulders function. The unique data collected with a transversely polarised deuteron target have already improved the knowledge of the d-quark transversity (transverse counterpart of the helicity PDF), reducing the uncertainties by a factor of 2.5 at large Bjorken x, and are yet to yield a number of interesting results."
+  },
+  {
+    "title": "Novel Machine Learning Methods to Improve Z Pole Integrated Luminosity at Future Colliders",
+    "url": "http://arxiv.org/abs/2605.12407v1",
+    "arxiv_id": "2605.12407v1",
+    "authors": [
+      "Brendon Madison"
+    ],
+    "published": "2026-05-12T17:04:14+00:00",
+    "summary": "Future $e^+e^-$ colliders at the Z pole place strong demands of $\\frac{\u03b4L}{L}<10^{-4}$ on the integrated luminosity measurement. Small angle Bhabha scattering (SABS) remains the standard channel, while diphoton ($\u03b3\u03b3$) events provide a complementary measurement. This contribution summarizes recent work on two dominant uncertainties. First, we investigate backgrounds to the diphoton channel and find that SABS and low-invariant-mass neutral hadrons are the most significant backgrounds. A gradient boosted decision tree (BDTG) is used to classify events by particle ID. The classification results show the existing and upgraded forward tracker and luminosity calorimeter (LumiCal) designs reject neutral hadrons but only the LumiCal upgrade can reject SABS at $\\frac{\u03b4L}{L}<10^{-4}$. Second, we solve the beam deflection bias problem on an event-by-event basis using two machine learning algorithms. A BDTG and the newly written Adaptive Symbolic Memetic Regression (ASMR) are trained on beam deflection data. ASMR outperforms BDTG and provides a reduced uncertainty of $5\\times10^{-6}$ for beam deflection."
+  },
+  {
+    "title": "Semantic Reward Collapse and the Preservation of Epistemic Integrity in Adaptive AI Systems",
+    "url": "http://arxiv.org/abs/2605.12406v1",
+    "arxiv_id": "2605.12406v1",
+    "authors": [
+      "William Parris"
+    ],
+    "published": "2026-05-12T17:03:26+00:00",
+    "summary": "Recent advances in reinforcement learning from human feedback (RLHF) and preference optimization have substantially improved the usability, coherence, and safety of large language models. However, recurring behaviors such as performative certainty, hallucinated continuity, calibration drift, sycophancy, and suppression of visible uncertainty suggest unresolved structural issues within scalarized preference optimization systems.   We propose Semantic Reward Collapse (SRC): the compression of semantically distinct forms of evaluative dissatisfaction into generalized optimization signals. Under SRC, categories such as factual incorrectness, uncertainty disclosure, formatting dissatisfaction, latency, and social preference may become entangled within a shared reward topology despite representing fundamentally different epistemic classes.   We argue that adaptive reasoning systems operating under generalized evaluative pressure may drift toward suppression of visible epistemic failure rather than preservation of calibrated uncertainty integrity. These behaviors are framed strictly as optimization consequences rather than evidence of deception or anthropomorphic agency.   Drawing on institutional proxy collapse, metric gaming, software reliability engineering, and human learning theory, we propose that uncertainty disclosure and escalation behavior should be treated as protected epistemic conduct rather than globally penalized task incompletion.   Finally, we introduce Constitutional Reward Stratification (CRS), a domain-aware reward framework intended to preserve differentiated epistemic attribution within adaptive learning systems. We present CRS not as a validated solution, but as a testable governance-oriented research direction requiring further empirical investigation."
+  },
+  {
+    "title": "Impact of Calibration Systematics on Dark Energy Constraints from LSST Type Ia Supernovae",
+    "url": "http://arxiv.org/abs/2605.12401v1",
+    "arxiv_id": "2605.12401v1",
+    "authors": [
+      "Jonah Medoff",
+      "Christopher W. Stubbs",
+      "Dillon Brout"
+    ],
+    "published": "2026-05-12T17:01:03+00:00",
+    "summary": "The Vera C. Rubin Observatory's Legacy Survey of Space and Time (LSST) will deliver an unprecedented Type Ia supernova (SN) sample, making photometric calibration systematics a dominant source of uncertainty in dark energy constraints. We perform a comprehensive analysis of calibration systematic effects in LSST, quantifying how uncertainties in the LSST passbands propagate into biases in SN distance moduli and, consequently, the dark energy equation of state parameters. Specifically, we examine how the inferred values and uncertainties of $w_0$ and $w_a$ shift as a function of the amplitude of passband systematics. For linear passband tilts, we find that the best-fit ($w_0$,$w_a$) shifts by $\\sim$0.025$\u03c3$ and the $w_0-w_a$ contour area increases by $\\sim$5% for each 1%/100nm increase in tilt, while for quadratic passband tilts, our results are less conclusive and warrant further exploration. This analysis will help inform the calibration accuracy required for LSST to achieve its goals in constraining dark energy."
+  },
+  {
+    "title": "SEMIR: Semantic Minor-Induced Representation Learning on Graphs for Visual Segmentation",
+    "url": "http://arxiv.org/abs/2605.12389v1",
+    "arxiv_id": "2605.12389v1",
+    "authors": [
+      "Luke James Miller",
+      "Yugyung Lee"
+    ],
+    "published": "2026-05-12T16:52:02+00:00",
+    "summary": "Segmenting small and sparse structures in large-scale images is fundamentally constrained by voxel-level, lattice-bound computation and extreme class imbalance -- dense, full-resolution inference scales poorly and forces most pipelines to rely on fixed regionization or downsampling, coupling computational cost to image resolution and attenuating boundary evidence precisely where minority structures are most informative. We introduce SEMIR (Semantic Minor-Induced Representation Learning), a representation framework that decouples inference from the native grid by learning a task-adapted, topology-preserving latent graph representation with exact decoding. SEMIR transforms the underlying grid graph into a compact, boundary-aligned graph minor through parameterized edge contraction, node deletion, and edge deletion, while preserving an exact lifting map from minor predictions to lattice labels. Minor construction is formalized as a few-shot structure learning problem that replaces hand-tuned preprocessing with a boundary-alignment objective: minor parameters are learned by maximizing agreement between predicted boundary elements and target-specific semantic edges under a boundary Dice criterion, and the induced minor is annotated with scale- and rotation-robust geometric and intensity descriptors and supports efficient region-level inference via message passing on a graph neural network (GNN) with relational edge features. We benchmark SEMIR on three tumor segmentation datasets -- BraTS 2021, KiTS23, and LiTS -- where targets exhibit high structural variability and distributional uncertainty. SEMIR yields consistent improvements in minority-structure Dice at practical runtime. More broadly, SEMIR establishes a framework for learning task-adapted, topology-preserving latent representations with exact decoding for high-resolution structured visual data."
+  },
+  {
+    "title": "A Semi-Supervised Framework for Speech Confidence Detection using Whisper",
+    "url": "http://arxiv.org/abs/2605.12387v1",
+    "arxiv_id": "2605.12387v1",
+    "authors": [
+      "Adam Wynn",
+      "Jingyun Wang"
+    ],
+    "published": "2026-05-12T16:50:54+00:00",
+    "summary": "Automatic detection of speaker confidence is critical for adaptive computing but remains constrained by limited labelled data and the subjectivity of paralinguistic annotations. This paper proposes a semi-supervised hybrid framework that fuses deep semantic embeddings from the Whisper encoder with an interpretable acoustic feature vector composed of eGeMAPS descriptors and auxiliary probability estimates of vocal stress and disfluency. To mitigate reliance on scarce ground truth data, we introduce an Uncertainty-Aware Pseudo-Labelling strategy where a model generates labels for unlabelled data, retaining only high-quality samples for training. Experimental results demonstrate that the proposed approach achieves a Macro-F1 score of 0.751, outperforming self-supervised baselines, including WavLM, HuBERT, and Wav2Vec 2.0. The hybrid architecture also surpasses the unimodal Whisper baseline, yielding a 3\\% improvement in the minority class, confirming that explicit prosodic and auxiliary features provide necessary corrective signals which are otherwise lost in deep semantic representations. Ablation studies further show that a curated set of high confidence pseudo-labels outperforms indiscriminate large scale augmentation, confirming that data quality outweighs quantity for perceived confidence detection."
+  },
+  {
+    "title": "Tangent-Plane Evidential Uncertainty in Active Learning for Magnetic Interatomic Potentials",
+    "url": "http://arxiv.org/abs/2605.12353v1",
+    "arxiv_id": "2605.12353v1",
+    "authors": [
+      "Yang Cheng",
+      "Hongyu Yu",
+      "Hongjun Xiang"
+    ],
+    "published": "2026-05-12T16:29:44+00:00",
+    "summary": "Magnetic interatomic potentials need to account for coupled lattice and spin degrees of freedom, yet constructing reliable training sets remains costly because noncollinear first-principles labels are expensive. Active learning can mitigate this cost, provided that the uncertainty estimate is physically meaningful for the magnetic-response targets that drive spin reorientation. Here we extend the $\\mathrm{e}^2\\mathrm{IP}$ evidential framework to magnetic machine-learning interatomic potentials by formulating the projected spin-force likelihood and the corresponding epistemic uncertainty in the tangent plane orthogonal to the local spin direction. This construction prevents the uncertainty model from allocating probability mass to a radial spin component that is absent from the constrained-moment supervision. Using bulk BiFeO$_3$ and monolayer CrTe$_2$ as benchmark systems, we show that the resulting tangent-plane epistemic uncertainty indicator $U_{\\mathrm{epi}}^{\\mathrm{sf}}$ correlates strongly with prediction error and selects more informative configurations than random sampling, simultaneously improving energy, force, and projected spin-force accuracy. These results demonstrate a physically interpretable and data-efficient route for constructing uncertainty-aware magnetic machine-learning interatomic potentials."
+  },
+  {
+    "title": "From Model Uncertainty to Human Attention: Localization-Aware Visual Cues for Scalable Annotation Review",
+    "url": "http://arxiv.org/abs/2605.12303v1",
+    "arxiv_id": "2605.12303v1",
+    "authors": [
+      "Moussa Kassem Sbeyti",
+      "Joshua Holstein",
+      "Philipp Spitzer",
+      "Nadja Klein",
+      "Gerhard Satzger"
+    ],
+    "published": "2026-05-12T15:54:05+00:00",
+    "summary": "High-quality labeled data is essential for training robust machine learning models, yet obtaining annotations at scale remains expensive. AI-assisted annotation has therefore become standard in large-scale labeling workflows. However, in tasks where model predictions carry two independent components, a class label and spatial boundaries, a model may classify an object with high confidence while mislocalizing it. Existing AI-assisted workflows offer annotators no signal about where spatial errors are most likely. Without such guidance, humans may systematically underinspect subtly misplaced boxes. We address this by studying the effect of visualizing spatial uncertainty via a purpose-built interface. In a controlled study with 120 participants, those receiving uncertainty cues achieve higher label quality while being faster overall. A box-level analysis confirms that the cues redirect annotator effort toward high-uncertainty predictions and away from well-localized boxes. These findings establish localization uncertainty as a lever to improve human-in-the-loop annotation. Code is available at https://mos-ks.github.io/MUHA/."
+  },
+  {
     "title": "Mitigating residual foregrounds and systematic errors in SKA1-Low AA* EoR observations via Bayesian Gaussian Process Regression",
     "url": "http://arxiv.org/abs/2605.10928v1",
     "arxiv_id": "2605.10928v1",
