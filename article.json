@@ -1,5 +1,151 @@
 [
   {
+    "title": "FutureSim: Replaying World Events to Evaluate Adaptive Agents",
+    "url": "http://arxiv.org/abs/2605.15188v1",
+    "arxiv_id": "2605.15188v1",
+    "authors": [
+      "Shashwat Goel",
+      "Nikhil Chandak",
+      "Arvindh Arun",
+      "Ameya Prabhu",
+      "Steffen Staab",
+      "Moritz Hardt",
+      "Maksym Andriushchenko",
+      "Jonas Geiping"
+    ],
+    "published": "2026-05-14T17:59:28+00:00",
+    "summary": "AI agents are being increasingly deployed in dynamic, open-ended environments that require adapting to new information as it arrives. To efficiently measure this capability for realistic use-cases, we propose building grounded simulations that replay real-world events in the order they occurred. We build FutureSim, where agents forecast world events beyond their knowledge cutoff while interacting with a chronological replay of the world: real news articles arriving and questions resolving over the simulated period. We evaluate frontier agents in their native harness, testing their ability to predict world events over a three-month period from January to March 2026. FutureSim reveals a clear separation in their capabilities, with the best agent's accuracy being 25%, and many having worse Brier skill score than making no prediction at all. Through careful ablations, we show how FutureSim offers a realistic setting to study emerging research directions like long-horizon test-time adaptation, search, memory, and reasoning about uncertainty. Overall, we hope our benchmark design paves the way to measure AI progress on open-ended adaptation spanning long time-horizons in the real world."
+  },
+  {
+    "title": "Significant or Not? The Impact of Randomisation During Data Reduction on Confirming a New Pulsating Ultraluminous X-ray Source Candidate in Centaurus A",
+    "url": "http://arxiv.org/abs/2605.15137v1",
+    "arxiv_id": "2605.15137v1",
+    "authors": [
+      "Amy H. Knight",
+      "Timothy P. Roberts",
+      "Callum Potter",
+      "Alistair T. Pagan",
+      "Dominic J. Walton"
+    ],
+    "published": "2026-05-14T17:43:03+00:00",
+    "summary": "We report the discovery of a new candidate pulsating ultraluminous X-ray source (PULX) in NGC 5128 (Centaurus A). The candidate, 4XMM J132542.2-425943, is a transient source, identifiable as a clear X-ray point source for $\\sim 8$ months in 2014, during its only major recorded outburst. The source flux exceeded $10^{-12}$ erg cm$^{-2}$ s$^{-1}$ at the peak of the outburst. The long-term light curve of 4XMM J132542.2-425943 shows two further, less luminous detections in 2017 and 2024, but was otherwise in quiescence. This behaviour is similar to the class of pulsating transients with outbursts that reach the ultraluminous regime, which includes the well-studied Galactic PULX, Swift J0243.6+6124. However, 4XMM J132542.2-425943 displays a soft X-ray spectrum, making this source distinct from the existing population of PULXs, which typically show hard spectra below $10$ keV. We searched the 2014 XMM-Newton observations for X-ray pulsations, revealing coherent, sinusoidal X-ray pulsations at a frequency of $1.27$ Hz in one XMM-Newton observation (ObsID 0724060801), at a marginal significance. For this signal we measure a pulsed fraction, PF$\\approx~15 - 17~\\%$ and $\\dot{f}~\\sim~4~\\times~10^{-9}$ Hz s$^{-1}$. However, we find that the intrinsic randomisation employed by XMM-Newton's Science Analysis Software, XMM-SAS, during the data reduction procedure introduces considerable uncertainty in the strength of our marginal pulsations, which varies significantly between consecutive data reduction iterations. We explore the impact of this randomisation and demonstrate that it can generate widespread false positives and false negatives, which, in the context of PULX searches, may cause viable candidates to be unnecessarily discarded or vice versa."
+  },
+  {
+    "title": "Impact of stellar population models on the estimated physical properties of galaxies",
+    "url": "http://arxiv.org/abs/2605.15096v1",
+    "arxiv_id": "2605.15096v1",
+    "authors": [
+      "Bozhidara Stoyanova",
+      "M\u00e9d\u00e9ric Boquien",
+      "Paola Santini",
+      "Francesco Tombesi",
+      "Emiliano Merlin",
+      "Pietro Bergamini",
+      "V\u00e9ronique Buat",
+      "Denis Burgarella"
+    ],
+    "published": "2026-05-14T17:14:07+00:00",
+    "summary": "Accurate estimates of fundamental physical properties of galaxies, such as star formation rates (SFRs) or stellar masses, are essential for testing and constraining models of galaxy formation and evolution. Spectral energy distribution (SED) modeling has become the standard method for deriving these quantities. However, the influence of the underlying stellar population synthesis (SPS) models on the inferred parameters remains poorly quantified. This work investigates how the choice of SPS models affects the estimation of SFRs and stellar masses derived from SED modeling. Four widely used SPS models are applied to a sample of 17 230 galaxies with spectroscopic redshifts, selected from recently published Hubble Space Telescope and James Webb Space Telescope photometric catalogs. SEDs are modeled using the Code for Investigating GALaxy Emission. The analysis is performed in two steps: (i) estimating galaxy properties with each SPS model, and (ii) employing synthetic catalogs to assess the relative impact of model choice on the recovered parameters. Systematic differences are found among the models, with stellar mass estimates varying by up to ~ 0.6 dex and SFRs by up to ~ 0.4 dex between certain model pairs. The choice of stellar population model introduces significant systematic uncertainties in derived galaxy properties. This dependence should be accounted for when interpreting SED-based measurements and comparing results across different studies of galaxy evolution."
+  },
+  {
+    "title": "Separating Intrinsic Ambiguity from Estimation Uncertainty in Deep Generative Models for Linear Inverse Problems",
+    "url": "http://arxiv.org/abs/2605.15050v1",
+    "arxiv_id": "2605.15050v1",
+    "authors": [
+      "Yuxin Guo",
+      "Dongrui Deng",
+      "Pulkit Grover"
+    ],
+    "published": "2026-05-14T16:45:19+00:00",
+    "summary": "Recently, deep generative models have been used for posterior inference in inverse problems, including high-stakes applications in medical imaging and scientific discovery, where the uncertainty of a prediction can matter as much as the prediction itself. However, posterior uncertainty is difficult to interpret because it can mix ambiguity inherent to the forward operator with uncertainty propagated through inference. We introduce a structural decomposition of posterior uncertainty that isolates intrinsic ambiguity. A cascade formulation makes this ambiguity accessible for calibration analysis, enabling qualitative diagnostics and simulation-based calibration tests that reveal failure modes that remain hidden when models are selected by reconstruction quality alone. We first validate the approach on a Gaussian example with analytical posterior structure, then illustrate the decomposition on accelerated magnetic resonance imaging (MRI), and finally apply the calibration diagnostics to electroencephalography (EEG) source imaging."
+  },
+  {
+    "title": "The DESIRED electron temperature relations in star-forming regions of the local Universe",
+    "url": "http://arxiv.org/abs/2605.15048v1",
+    "arxiv_id": "2605.15048v1",
+    "authors": [
+      "M. Orte-Garc\u00eda",
+      "C. Esteban",
+      "J. Garc\u00eda-Rojas",
+      "J. E. M\u00e9ndez-Delgado",
+      "K. Z. Arellano-C\u00f3rdova",
+      "A. Z. Lugo-Aranda",
+      "L. Toribio San Cipriano",
+      "F. F. Rosales-Ortega",
+      "I. R. Mart\u00ednez-Hern\u00e1ndez",
+      "E. Reyes-Rodr\u00edguez"
+    ],
+    "published": "2026-05-14T16:40:20+00:00",
+    "summary": "Aims. We present a homogeneous observational study of electron temperature ($T_{\\rm e}$) relations between ionic species: $T_{\\rm e}$([N II]), $T_{\\rm e}$([O II]), $T_{\\rm e}$([O III]), $T_{\\rm e}$([S II]), $T_{\\rm e}$([S III]) and $T_{\\rm e}$([Ar III]), using 699 spectra of Galactic and extragalactic H II regions and local star-forming galaxies (SFGs). Methods. We use the DEep Spectra of Ionised REgions Database Extended (DESIRED-E), comprising more than 3000 spectra with direct $T_{\\rm e}$ determinations, selecting those with at least two $T_{\\rm e}$ diagnostics. We recompute electron density ($n_{\\rm e}$) and $T_{\\rm e}$ using updated atomic data and a consistent methodology. The resulting $T_{\\rm e}$--$T_{\\rm e}$ relations are analysed using orthogonal distance regression, quantifying total and intrinsic dispersions and comparing slopes with previous works and photoionisation models. Results. Relations involving low-ionisation $T_{\\rm e}$ diagnostics show large intrinsic dispersions, especially for $T_{\\rm e}$([O II]) and $T_{\\rm e}$([S II]), likely due to sensitivity to $n_{\\rm e}$ inhomogeneities, recombination contributions, and uncertainties. In contrast, relations using $T_{\\rm e}$([N II]) show lower dispersions, indicating that this diagnostic provides a more reliable estimate of the low-ionisation zone temperature when only higher-ionisation $T_{\\rm e}$ diagnostics are available, despite observational difficulties at low metallicity. Overall, slopes agree with model predictions, particularly for relations with low intrinsic dispersion, such as those involving $T_{\\rm e}$([N II]) and $T_{\\rm e}$([S III]). These results provide a robust empirical basis for estimating $T_{\\rm e}$ when limited diagnostics are available."
+  },
+  {
+    "title": "Quantifying and Mitigating Premature Closure in Frontier LLMs",
+    "url": "http://arxiv.org/abs/2605.15000v1",
+    "arxiv_id": "2605.15000v1",
+    "authors": [
+      "Rebecca Handler",
+      "Suhana Bedi",
+      "Nigam Shah"
+    ],
+    "published": "2026-05-14T16:02:28+00:00",
+    "summary": "Premature closure, or committing to a conclusion before sufficient information is available, is a recognized contributor to diagnostic error but remains underexamined in large language models (LLMs). We define LLM premature closure as inappropriate commitment under uncertainty: providing an answer, recommendation, or clinical guidance when the safer response would be clarification, abstention, escalation, or refusal. We evaluated five frontier LLMs across structured and open-ended medical tasks. In MedQA (n = 500) and AfriMed-QA (n = 490) questions where the correct choice had been removed, models still selected an answer at high rates, with baseline false-action rates of 55-81% and 53-82%, respectively. In open-ended evaluation, models gave inappropriate answers on an average of 30% of 861 HealthBench questions and 78% of 191 physician-authored adversarial queries. Safety-oriented prompting reduced premature closure across models, but residual failure persisted, highlighting the need to evaluate whether medical LLMs know when not to answer."
+  },
+  {
+    "title": "A Climate-Constrained Bayesian Inverse Method for JWST Rocky Exoplanet Eclipse Spectra: A Case Study of LTT 1445A b",
+    "url": "http://arxiv.org/abs/2605.14997v1",
+    "arxiv_id": "2605.14997v1",
+    "authors": [
+      "Nicholas Wogan",
+      "Natasha Batalha",
+      "Jegug Ih",
+      "Jacob Lustig-Yaeger",
+      "Kevin Stevenson"
+    ],
+    "published": "2026-05-14T16:00:04+00:00",
+    "summary": "Determining whether temperate rocky exoplanets orbiting M stars retain atmospheres is currently a central goal of exoplanet astronomy. To this end, the James Webb Space Telescope has begun searching for atmospheres on these worlds with MIRI secondary eclipse spectroscopy and photometry. Here, we develop a novel climate-constrained Bayesian inference framework that yields atmospheric pressure and composition constraints from these datasets, while accounting for planetary, stellar, and model uncertainties. Our approach fits observations with model spectra derived from self-consistent pressure-temperature profiles at radiative-convective equilibrium, thus maximizing the information extracted from the data and providing more robust inferences than retrievals that use parameterized pressure-temperature profiles. We demonstrate the framework on the existing MIRI LRS eclipse spectrum of LTT 1445A b (1.34 $R_\\oplus$ and $T_{\\mathrm{eq}} \\approx 431$ K). An atmosphere does not need to be invoked to explain the data, meaning a bare rock model produces an adequate fit. If the planet has an atmosphere, the $2\u03c3$ upper limits on surface partial pressures are $\\lesssim 1$ bar for an optically thin gas like O$_2$, N$_2$ or CO, $\\lesssim0.1$ bar for CO$_2$, $\\lesssim 10^{-3}$ bar for H$_2$O, and $\\lesssim 10^{-4}$ bar for SO$_2$. Scheduled MIRI F1500W observations could detect one of the thicker atmospheres permitted by the existing data (1 bar O$_2$ and 0.01 bar CO$_2$), if a precision of 20 ppm or better is achieved. This case study demonstrates that climate-constrained Bayesian inversion can turn rocky-planet eclipse spectra into the quantitative constraints necessary to test population-level atmospheric retention hypothesis, like the cosmic shoreline."
+  },
+  {
+    "title": "Efficient Online Conformal Selection with Limited Feedback",
+    "url": "http://arxiv.org/abs/2605.14953v1",
+    "arxiv_id": "2605.14953v1",
+    "authors": [
+      "Sreenivas Gollapudi",
+      "Kostas Kollias",
+      "Kamesh Munagala",
+      "Ali Sinop"
+    ],
+    "published": "2026-05-14T15:22:46+00:00",
+    "summary": "We address the problem of conformal selection, where an agent must select a minimal subset of options to ensure that at least one ``success'' is identified with a pre-specified target probability $\u03c6$. While traditional online conformal prediction focuses on maintaining validity for the observed sequence, minimizing the resource cost (efficiency) of such selections, especially under limited feedback, remains a significant challenge. In this work, we consider settings with the most limited ``bandit'' feedback, and demonstrate that the simple Adaptive Conformal Inference (ACI) update rule, when applied to the appropriate control parameter or dual variable, is both adversarially valid, ensuring the success target is met on average for any input sequence (and hence under distribution shifts), and stochastically efficient, achieving sublinear efficiency regret for $i.i.d.$ inputs against an appropriate stochastic benchmark. We show such guarantees under canonical models capturing bandit and semi-bandit feedback to the agent via a unifying algorithmic technique, and analytic framework involving Lyapunov functions. Our approach handles more complex settings than prior work, while requiring significantly less feedback, and our results provide a new theoretical bridge between efficient online learning with limited feedback and distribution-free uncertainty quantification."
+  },
+  {
+    "title": "A CUBS-Compatible Ultrasound Morphology and Uncertainty-Aware Baseline for Carotid Intima-Media Segmentation and Preliminary Risk Prediction",
+    "url": "http://arxiv.org/abs/2605.14949v1",
+    "arxiv_id": "2605.14949v1",
+    "authors": [
+      "Aueaphum Aueawatthanaphisut"
+    ],
+    "published": "2026-05-14T15:21:05+00:00",
+    "summary": "Carotid atherosclerosis is a major contributor to ischemic stroke and transient ischemic attack. Conventional ultrasound assessment is commonly based on intima-media thickness, plaque appearance, stenosis degree, and peak systolic velocity, but these morphology- and velocity-based indicators may not fully capture patient-specific vascular risk. This study presents AtheroFlow-XNet, a CUBS-compatible ultrasound morphology and uncertainty-aware learning baseline for carotid intima-media segmentation and preliminary risk prediction. Using the Carotid Ultrasound Boundary Study dataset, manual lumen-intima and media-adventitia boundary annotations were converted into dense intima-media masks for supervised segmentation. Clinical variables were incorporated into an auxiliary risk-prediction branch, and Monte Carlo dropout was used for uncertainty-aware inference. The model was evaluated using a patient-level train-validation-test split with 1,522 training images, 326 validation images, and 328 testing images. The proposed model achieved a Dice coefficient of 0.7930 for LI-MA mask segmentation, a segmentation loss of 0.2359, and an area under the receiver operating characteristic curve of 0.6910 for preliminary risk prediction. Qualitative results showed that predicted masks were generally aligned with manual annotations, while uncertainty maps highlighted ambiguous wall-boundary regions. These results suggest that ultrasound-derived carotid morphology can support automated wall analysis and uncertainty-aware interpretation. Since CUBS does not provide Doppler waveforms or CFD-derived hemodynamic biomarkers, this work should be interpreted as a reproducible morphology-driven baseline. Future work will incorporate Doppler-derived flow profiles, patient-specific vascular reconstruction, and CFD-based wall shear biomarkers."
+  },
+  {
+    "title": "FU-MPC: Frontier- and Uncertainty-Aware Model Predictive Control for Efficient and Accurate UAV Exploration with Motorized LiDAR",
+    "url": "http://arxiv.org/abs/2605.14920v1",
+    "arxiv_id": "2605.14920v1",
+    "authors": [
+      "Jianping Li",
+      "Pengfei Wan",
+      "Zhongyuan Liu",
+      "Yi Wang",
+      "Yiheng Chen",
+      "Xinhang Xu",
+      "Rui Jin",
+      "Boyu Zhou",
+      "Lihua Xie"
+    ],
+    "published": "2026-05-14T14:54:29+00:00",
+    "summary": "Efficient UAV exploration in unknown environments requires rapid coverage expansion while maintaining accurate and reliable localization, since safe navigation in complex scenes depends on consistent mapping and pose estimation. However, for conventional LiDAR-equipped UAVs, the observable region is tightly coupled with the UAV pose and motion. Expanding coverage often requires additional translational or rotational maneuvers, which can reduce exploration efficiency and increase the risk of localization degradation in geometrically challenging environments. Motorized rotating LiDARs provide a promising solution by actively adjusting the sensor viewing direction without changing the UAV motion, thereby introducing an additional sensing degree of freedom. Nevertheless, existing exploration systems rarely exploit this scanning freedom as an explicit decision variable linked to both exploration progress and localization quality. To address this gap, we develop a UAV platform equipped with an independently actuated rotating LiDAR and propose a hierarchical exploration framework. The global planner organizes frontiers into representative viewpoints and sequences them using topology-aware transition costs. Built upon this planner, FU-MPC serves as a local receding-horizon scan controller that optimizes LiDAR rotation along the predicted flight trajectory. The controller jointly considers frontier-aware exploration utility and direction-dependent localization uncertainty, while lightweight surrogate evaluation enables real-time onboard execution. Experiments in complex environments demonstrate that the proposed system improves exploration efficiency while maintaining robust localization performance compared with fixed-pattern scanning and uncertainty-only baselines. The project page can be found at https://kafeiyin00.github.io/FU-MPC/."
+  },
+  {
     "title": "ORCE: Order-Aware Alignment of Verbalized Confidence in Large Language Models",
     "url": "http://arxiv.org/abs/2605.12446v1",
     "arxiv_id": "2605.12446v1",
