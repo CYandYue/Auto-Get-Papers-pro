@@ -1,5 +1,136 @@
 [
   {
+    "title": "Robust Simulation Based Inference Through Robust Optimal Transport",
+    "url": "http://arxiv.org/abs/2605.18741v1",
+    "arxiv_id": "2605.18741v1",
+    "authors": [
+      "Peter Matthew Jacobs",
+      "Lekha Patel",
+      "Anirban Bhattacharya",
+      "Debdeep Pati"
+    ],
+    "published": "2026-05-18T17:57:07+00:00",
+    "summary": "When a statistical model $\\{P_\u03b8 : \u03b8\\in \u0398\\}$ lacks analytically tractable likelihoods, parametric statistical inference based on data generated from an unknown underlying distribution $P$ can still be performed as long as simulations from the model are possible. This approach is called Simulation Based Inference (SBI). Statistical models are rarely exactly correct (that is, $P \\notin \\{P_\u03b8: \u03b8\\in \u0398\\}$), and Robust SBI focuses on inferring a reasonable parameter even under model mis-specification. We focus on the setting where $P$ possesses potentially both geometric and Total Variation type discrepancies from $P_{\u03b8^*}$. For this problem, we use a Kullback-Liebler informed robust Optimal Transport divergence, motivated by Empirical Likelihood considerations. We introduce a stochastic sub-gradient ascent algorithm with a convergence guarantee for estimating the semi-discrete version of this robust Optimal Transport divergence, and design a parallelized SBI algorithm which employs the regular bootstrap on top of minimum semi-discrete robust Optimal Transport for parameter uncertainty quantification. We demonstrate mathematically why the divergence is robust under a joint geometric plus Total Variation type contamination and then illustrate the robustness of inferences on a complex benchmark SBI task."
+  },
+  {
+    "title": "Sensitivity analysis for causal mediation: bridge score, sharp sensitivity bounds, and calibration",
+    "url": "http://arxiv.org/abs/2605.18724v1",
+    "arxiv_id": "2605.18724v1",
+    "authors": [
+      "Yuki Ohnishi",
+      "Fan Li"
+    ],
+    "published": "2026-05-18T17:50:57+00:00",
+    "summary": "Causal mediation analysis decomposes the total treatment effect into a portion operating through a hypothesized mediator and a residual direct portion. Identification of natural direct and indirect effects typically rests on the mediator stage of sequential ignorability, which cannot be empirically verified and requires explicit sensitivity analysis. We introduce the \\emph{bridge score}, a low-dimensional vector formed from the two treatment-specific mediator densities at a common mediator value, and show that it is a balancing score for the mediator stage of sequential ignorability. Conditional on the bridge score, we then derive a sharp pointwise envelope on the unidentified mediator-outcome confounding function in terms of two interpretable latent confounding parameters. To make the bound operational for sensitivity analysis, we further introduce two calibration approaches. The first is benchmark calibration against an observed covariate, including a rank-based version that is invariant to monotone re-expressions of the benchmark; the second is residual budget calibration based on residual outcome variation. Finally, we show how the pointwise bound can be operationalized for inference through a scalar functional reduction and a Bayesian g-computation algorithm that propagates all sources of uncertainty into posterior draws of the mediation effect estimates."
+  },
+  {
+    "title": "Robust Optimization Under Objective Functional Uncertainty",
+    "url": "http://arxiv.org/abs/2605.18669v1",
+    "arxiv_id": "2605.18669v1",
+    "authors": [
+      "Yue Song",
+      "Yuxi Lu",
+      "Gang Li",
+      "Kairui Feng",
+      "Qi Liu"
+    ],
+    "published": "2026-05-18T17:11:00+00:00",
+    "summary": "This paper proposes a new robust optimization (RO) formulation namely the RO under objective functional uncertainty (ObRO). The ObRO adopts a min-max structure where the inner problem finds the worst-case objective function in a continuous function space to maximize the cost, and the outer problem finds the optimal decision in a Euclidean space to minimize the cost. A solution algorithm is designed to alternately generate the worst-case objective function at the current decision and the optimal decision for the current collection of objective functions. Using operator theory, we prove that this algorithm converges to the defined ``semi-global'' saddle point of the ObRO problem. In addition, we propose a numerical solver based on the piece-wise linearization (PWL) approximation of objective functions. The PWL approximate problem is proved to be numerically consistent with the original ObRO problem. The obtained results are applied to the degradation-aware battery charging scheduling in distribution networks."
+  },
+  {
+    "title": "Self-Supervised Conformal Prediction with Equivariant Bootstrapping for Image Uncertainty Quantification",
+    "url": "http://arxiv.org/abs/2605.18655v1",
+    "arxiv_id": "2605.18655v1",
+    "authors": [
+      "Henry J. Aldridge",
+      "Tob\u00edas I. Liaudat",
+      "Marcelo Pereyra",
+      "Jason D. McEwen"
+    ],
+    "published": "2026-05-18T17:00:40+00:00",
+    "summary": "Inverse problems are ubiquitous in modern scientific studies and involve recovering an underlying signal from noisy observations often transformed by a measurement operator. These problems are frequently ill-posed, particularly in imaging, leading to multiple plausible solutions and considerable uncertainty in reconstructed images. In fields like the physical and biological sciences, accurate uncertainty quantification (UQ) is critical for trustworthy scientific analyses and confident diagnoses. Current UQ methods for imaging often fall short; they can be inaccurate, or require unavailable or difficult-to-acquire ground truth data for calibration, which can introduce hidden biases due to distribution shifts between calibration and observed data. We introduce a UQ approach that leverages equivariant bootstrapping to generate heuristic coverages by exploiting data symmetries. We then refine these coverages through a conformal prediction calibration step, while crucially employing a self-supervised approach to avoid the need for ground truth calibration data. We demonstrate this method with weak lensing mass-mapping, where we aim to reconstruct the convergence field from shear measurements of distant galaxies weakly-lensed by gravitational fields. Mass-mapping in particular benefits from the self-supervised approach, as simulating calibration data is expensive and relies on specific cosmological models that could introduce biases in downstream cosmological inference tasks."
+  },
+  {
+    "title": "An Assessment of Human vs. Model Uncertainty in Soft-Label Learning and Calibration",
+    "url": "http://arxiv.org/abs/2605.18648v1",
+    "arxiv_id": "2605.18648v1",
+    "authors": [
+      "Maja Pavlovic",
+      "Silviu Paun",
+      "Massimo Poesio"
+    ],
+    "published": "2026-05-18T16:55:21+00:00",
+    "summary": "Central to human-aligned AI is understanding the benefits of human-elicited labels over synthetic alternatives. While human soft-labels improve calibration by capturing uncertainty, prior studies conflate these benefits with the implicit correction of mislabeled data (mode shifts), obscuring true effects of soft-labels. We present a controlled audit of soft-label learning across MNIST and a synthetic variant, re-annotating subsets to extract human uncertainty. By decoupling soft-label supervision from underlying label mode shifts, we show that while human soft-labels do provide accuracy gains, their larger value lies in acting as a regularizer that improves model calibration on difficult samples and promotes stable convergence across training runs. Dataset cartography reveals models trained on human soft-labels mirror human uncertainty, whereas those trained on synthetic labels fail to align with humans. Broadly, this work provides a diagnostic testbed for human-AI uncertainty alignment."
+  },
+  {
+    "title": "Stable Causal Discovery via Directed Acyclic Graph Aggregation",
+    "url": "http://arxiv.org/abs/2605.18633v1",
+    "arxiv_id": "2605.18633v1",
+    "authors": [
+      "Yunan Wu",
+      "Yue Wang",
+      "Chunlin Li",
+      "Chenglong Ye"
+    ],
+    "published": "2026-05-18T16:41:31+00:00",
+    "summary": "Directed Acyclic Graphs (DAGs) are central to uncovering causal structure in complex systems, yet learning a single DAG from data is often challenging: model uncertainty, finite samples, and a combinatorially large search space frequently yield unstable estimates. We propose DAGgr, a model averaging framework that aggregates multiple candidate DAGs into a single stable representation. Candidate graphs are weighted by their out-of-sample predictive likelihood across repeated data splits, and a thresholding rule on the resulting edge-importance scores guarantees that the aggregated graph is itself acyclic. We establish a finite-sample risk bound, prove that the procedure preserves acyclicity, and show that edge selection is consistent under mild conditions on the weights. Simulations across random, hub, and chain structures, together with an analysis of the Sachs et al. (2005) protein-signaling network, show that DAGgr matches or exceeds the best individual candidate while consistently outperforming bootstrap-aggregation baselines across structural recovery metrics."
+  },
+  {
+    "title": "Impact of sky localization uncertainty on ringdown inference",
+    "url": "http://arxiv.org/abs/2605.18595v1",
+    "arxiv_id": "2605.18595v1",
+    "authors": [
+      "Kallol Dey",
+      "Enrico Barausse",
+      "Marco Crisostomi",
+      "Roberto Trotta"
+    ],
+    "published": "2026-05-18T16:07:29+00:00",
+    "summary": "As gravitational-wave ringdown signals grow louder, quasinormal-mode inference depends increasingly on the treatment of extrinsic parameters. Standard analyses fix sky localization - and sometimes also polarization and inclination - to point estimates from a prior inspiral-merger-ringdown analysis, artificially breaking degeneracies and underestimating the true uncertainty of mode-amplitude values. We test two alternatives: uninformative priors on the extrinsic parameters, sampled jointly with the remnant mass, spin, mode amplitudes, and phases; and informed priors on sky position from the full signal posterior. The former yields wider marginal constraints on amplitude posteriors, and both avoid potential bias introduced by fixing the sky localization. In contrast, mode amplitude ratios remain consistent across approaches, making them a robust observable for Kerr spectroscopy. Our publicly available pipeline enables fast ringdown analyses capable of sampling all parameters, requiring tens of minutes on a laptop for a full inference. Applied to GW250114 and GW190521, our methods confirm the robust detection of the $(2,2,1)$ overtone in GW250114, and, for GW190521, find only mild evidence for the $(3,3,0)$ mode."
+  },
+  {
+    "title": "When Outcome Looks Right But Discipline Fails: Trace-Based Evaluation Under Hidden Competitor State",
+    "url": "http://arxiv.org/abs/2605.18580v1",
+    "arxiv_id": "2605.18580v1",
+    "authors": [
+      "Peiying Zhu",
+      "Sidi Chang"
+    ],
+    "published": "2026-05-18T15:58:34+00:00",
+    "summary": "Outcome-only evaluation can certify economically unsafe agents: a policy can hit a business KPI while violating deployable behavioral discipline. In hotel pricing with hidden competitor state, a learner can achieve plausible revenue per available room while failing to preserve the rate discipline of a rule-based revenue-management competitor.   We introduce discipline stability, a trace-based evaluation paradigm: define the benchmark behavior, restrict observations to the deployment regime, induce trace diagnostics from failure, separate mechanisms with ablations, and test transfer and deployment. Across a two-hotel benchmark and a compact hidden-budget bidding task, reward-only PPO variants miss trace alignment; revealing hidden state reduces label uncertainty; deterministic copy collapses uncertainty; and trace-prior or corrected history policies better preserve price or bid distributions. Pure behavior cloning is nearly enough for symmetric imitation, while Trace-Prior RL adds bounded adaptation under capacity asymmetry. The contribution is an evaluation and benchmark paradigm, not a new optimizer or a universal claim about MARL"
+  },
+  {
+    "title": "Astrophysics equation of state inference with Bayesian chiral effective field theory uncertainties",
+    "url": "http://arxiv.org/abs/2605.18560v1",
+    "arxiv_id": "2605.18560v1",
+    "authors": [
+      "Melissa Mendes",
+      "Hannah G\u00f6ttling",
+      "Anna Hensel",
+      "Isak Svensson",
+      "Kai Hebeler",
+      "Achim Schwenk",
+      "Nathan Rutherford",
+      "Anna Watts"
+    ],
+    "published": "2026-05-18T15:40:59+00:00",
+    "summary": "We investigate Bayesian chiral effective field theory ($\u03c7$EFT) uncertainties, which assign a statistical interpretation to equation of state (EOS) distributions near nuclear saturation density, n$_0$, as well as constraints from perturbative quantum chromodynamics (pQCD) to Bayesian EOS inference from LIGO/Virgo, NICER and pulsar mass observations. The tails of the $\u03c7$EFT uncertainties allow for broader pressure ranges in our priors, but large parts of these are excluded by the astrophysical observations, so that the EOS and the resulting mass-radius posteriors are still very consistent with our earlier work. Within our broad prior ranges, we observe a clear stiffening of the EOS at $n \\gtrsim 3 n_0$. Moreover, the impact of the pQCD constraints on the posterior EOS and mass-radius range is negligible due to the astrophysics constraints. Exploiting the strong correlation between pure neutron matter and matter in beta equilibrium, we infer the symmetry energy slope parameter $L$ from astrophysics. For the $68\\%$ credible interval, we obtain $L=42.6-52$ MeV and $L=44.2-56.7$ MeV using piecewise-polytrope and speed-of-sound high-density extensions, respectively. The $L$ posterior is mainly driven by the combination of GW170817 LIGO/Virgo and PSR J0740+6620, PSR J0437-4715, and PSR J0614-3329 NICER observations."
+  },
+  {
+    "title": "Federated Martingale Posterior Samping",
+    "url": "http://arxiv.org/abs/2605.18554v1",
+    "arxiv_id": "2605.18554v1",
+    "authors": [
+      "Boning Zhang",
+      "Matteo Zecchin",
+      "Mingzhao Guo",
+      "Dongzhu Liu",
+      "Osvaldo Simeone"
+    ],
+    "published": "2026-05-18T15:33:18+00:00",
+    "summary": "Federated Bayesian neural networks require fixing a prior on the model parameters together with a likelihood. Eliciting meaningful priors on the weight space of modern overparameterized models is notoriously difficult, and misspecification of either component can severely degrade accuracy and calibration. Motivated by the rapid progress of predictive models such as large language models, the martingale posterior, also known as predictive Bayes, replaces the prior--likelihood pair with a predictive distribution and recovers parameter uncertainty by repeatedly drawing predictive samples and refitting the model. A direct federated implementation, however, would require clients to share the local data sets. This letter proposes {federated martingale posterior} (FMP) sampling, a one-shot embarrassingly parallel protocol in which each client uploads a small set of trainable data embeddings and the server runs the predictive sampler centrally. Experiments on MNIST, CIFAR-10, and CIFAR-100 show that FMP closely matches the centralized counterpart and significantly improves calibration over consensus-style baselines."
+  },
+  {
     "title": "FutureSim: Replaying World Events to Evaluate Adaptive Agents",
     "url": "http://arxiv.org/abs/2605.15188v1",
     "arxiv_id": "2605.15188v1",
