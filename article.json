@@ -1,5 +1,149 @@
 [
   {
+    "title": "Stochastic trajectories and excursions in a double quantum dot system",
+    "url": "http://arxiv.org/abs/2605.20166v1",
+    "arxiv_id": "2605.20166v1",
+    "authors": [
+      "Guilherme Fiusa",
+      "Pedro E. Harunari",
+      "Alberto J. B. Rosal",
+      "John M. Nichol",
+      "Gabriel T. Landi"
+    ],
+    "published": "2026-05-19T17:51:11+00:00",
+    "summary": "We investigate the trajectory-level dynamics of a double quantum dot system using the newly developed formalism of stochastic excursions. This approach extends full counting statistics by enabling a filtering of complex trajectories into sub-trajectories, which provide access to the intricate correlations between thermodynamic currents and excursion times. Counting observables are the main object of study in the stochastic excursion framework. Those are defined as a linear combination of transition counts multiplied by their assigned weights within one excursion. For three main counting observables -- charge current, dynamical activity, and entropy production -- we compute averages and noise contributions and show how they provide insights into the operation of the double quantum dot system. At the trajectory level, we analyze outcome distributions for transport and connect the results with trade-offs between successful and unsuccessful events that shape overall performance. We further introduce state observables, which depend on the state visited rather than the transition itself, and discuss the population of the two dots, as well as their correlations. Finally, we discuss thermodynamics of precision through thermo-kinetic uncertainty relations, showing how current precision in different regimes is fundamentally constrained either by entropy production or by dynamical activity. Altogether, our work is a case study that highlights the utility of the excursion framework as a toolkit to analyze many quantities of interest and to uncover the structure of nonequilibrium fluctuations. Moreover, it also suggests new avenues for refining uncertainty relations and understanding transport in mesoscopic systems."
+  },
+  {
+    "title": "Interpretable Computer Vision for Defect Detection in X-ray Tomography of Aerospace SiC/SiC Composites",
+    "url": "http://arxiv.org/abs/2605.20159v1",
+    "arxiv_id": "2605.20159v1",
+    "authors": [
+      "Antonio Pe\u00f1a Corredor",
+      "Julien Lesseur",
+      "Romain Nunez",
+      "Paul Rivalland",
+      "Thomas Philippe"
+    ],
+    "published": "2026-05-19T17:46:49+00:00",
+    "summary": "Non-destructive testing of aerospace SiC/SiC composites via X-ray computed tomography (XCT) relies on expert visual assessment, with current workflows offering limited traceability for accept/reject decisions. Deep convolutional networks can automate defect detection, yet their black-box nature conflicts with the transparency that industrial inspection practice demands. To close this gap, we introduce p-ResNet-50, a convolutional framework extended with a prototype layer that couples high detection accuracy with case-based explanations. Six learned prototypes are explicitly aligned with expert-defined semantic categories-healthy matrix, matrix--air interfaces, pores, line-like defects, and mixed morphologies-so that every classification is traceable to a physically meaningful reference. Two novel regularisation terms, anchor-based and medoid-based, tether prototypes to expert-selected patches and prevent prototype collapse, addressing a known limitation of prototype networks. Latent-space analysis via UMAP delineates semantically coherent sub-domains and maps zones of uncertainty where misclassifications concentrate, giving inspectors an explicit picture of where the model is-and is not-reliable. The framework is validated on an XCT patch dataset of approximately 12,000 patches extracted from four defect-rich SiC/SiC laboratory specimens. Taking a black-box ResNet-50 as a baseline (ROC-AUC = 0.991), the prototype extension achieves comparable performance (accuracy 0.957 vs. 0.959; ROC-AUC 0.994 vs. 0.993) while trading a slight reduction in sensitivity for higher precision and specificity. Each decision is backed by representative evidence patches, and the model explicitly flags its uncertainty regions. Beyond defect mapping, the framework establishes a reusable methodology for embedding domain-expert knowledge into prototype networks, applicable to other XCT inspection scenarios requiring traceable, auditable decisions."
+  },
+  {
+    "title": "Federated Learning with Incomplete Data: When to Use Complete Cases and When to Weight",
+    "url": "http://arxiv.org/abs/2605.20125v1",
+    "arxiv_id": "2605.20125v1",
+    "authors": [
+      "Jesus E. Vazquez",
+      "Yicheng Shen",
+      "Jason Akulian",
+      "Chad Hochberg",
+      "Theodore J. Iwashyna",
+      "Elizabeth A. Stuart",
+      "Jiayi Tong"
+    ],
+    "published": "2026-05-19T17:12:37+00:00",
+    "summary": "Privacy constraints have driven the rise of federated learning (FL), which enables multi-site analyses without sharing individual participant data. We develop a framework for FL with missing data, identifying conditions under which the complete case (CC) estimator is preferred over the inverse probability weighting (IPW) estimator. For settings where the CC estimator fails, we introduce a calibrated weight estimation approach that combines candidate weighting models across sites and remains consistent if at least one is correctly specified. Consistency conditions are stated at the site level, ensuring that the federated estimator inherits validity from local properties. We derive a sandwich variance estimator that accounts for uncertainty in weight estimation, and illustrate the framework by evaluating risk factors for 90-day mortality among patients with pleural infections treated with intrapleural enzyme therapy."
+  },
+  {
+    "title": "Gravitational-wave constraints on $H_0$ are robust to (putative) redshift evolution in the binary black hole mass spectrum at current sensitivity",
+    "url": "http://arxiv.org/abs/2605.20112v1",
+    "arxiv_id": "2605.20112v1",
+    "authors": [
+      "Alessandro Agapito",
+      "Viola De Renzis",
+      "Michele Mancarella"
+    ],
+    "published": "2026-05-19T16:59:39+00:00",
+    "summary": "Spectral-siren cosmology constrains the Hubble constant $H_0$ using gravitational-wave observations of compact-binary coalescences. The method combines luminosity distances inferred from the waveform with redshift information statistically encoded in population features of the source-frame mass spectrum. Because the detector measures redshifted masses, structure in the intrinsic mass distribution acts as an internal ``ruler'', making the inference sensitive to assumptions about the population model. In particular, redshift evolution of the mass spectrum is widely discussed as a potential systematic for $H_0$ measurements. We revisit spectral-siren constraints with the GWTC-4.0 binary black hole catalog, explicitly allowing the main mass scales of a standard parametric mass model to evolve with redshift. We find no compelling evidence for evolution at current sensitivity. Allowing evolution produces a modest, non--statistically--significant shift of the $H_0$ posterior toward lower values, which we interpret with targeted posterior and event-level diagnostics. Importantly, the associated systematic uncertainty is subdominant to that induced by alternative redshift-independent descriptions of the mass spectrum, such as the number of spectral features and the functional form used to model them. Our results indicate that, at current sensitivity, spectral-siren constraints on $H_0$ are robust to redshift evolution of the mass spectrum within the flexibility explored here. Using injection studies, we show that this mild $H_0$ shift is reproduced when a non-evolving underlying population is analyzed with an evolving model, consistent with an over-flexible population description at the present signal-to-noise. The sign and magnitude of the shift can, however, depend on detector sensitivity and redshift reach as the population features become increasingly constrained directly by the data."
+  },
+  {
+    "title": "BalanceRAG: Joint Risk Calibration for Cascaded Retrieval-Augmented Generation",
+    "url": "http://arxiv.org/abs/2605.20084v1",
+    "arxiv_id": "2605.20084v1",
+    "authors": [
+      "Zijun Jia",
+      "Yuanchang Ye",
+      "Sen Jia",
+      "Yiyao Qian",
+      "Haoning Wang",
+      "Baojie Chen",
+      "Diyin Tang",
+      "Jinsong Yu",
+      "Zhiyuan Wang"
+    ],
+    "published": "2026-05-19T16:38:55+00:00",
+    "summary": "Large language models (LLMs) can enhance factuality via retrieval-augmented generation (RAG), but applying RAG to every query is unnecessary when the model-only answer is reliable. This motivates cascaded RAG: each query is first handled by an LLM-only branch, escalated to a RAG fallback only if the primary branch is uncertain, and abstained from when neither branch is sufficiently trustworthy. However, calibrating such cascades stage by stage may be conservative, since the final utility depends on joint uncertainty thresholding of LLM-only and RAG. In this work, we develop BalanceRAG to certify threshold pairs at a target risk level. Given uncertainty scores from the two branches, BalanceRAG frames each threshold pair as an operating point on a two-dimensional lattice and identifies safe operating points using sequential graphical testing. This enables risk-adaptive threshold calibration, controlling the system-level error rate among accepted points, while retaining more examples. Furthermore, BalanceRAG extends to multi-risk calibration, allowing retrieval usage to be bounded together with the selection-conditioned risk. Experiments on three open-domain question answering (QA) benchmarks across multiple LLM backbones demonstrate that BalanceRAG meets prescribed risk levels, preserves higher coverage and more accepted correct examples, and reduces unnecessary retrieval calls compared with always-on RAG."
+  },
+  {
+    "title": "CopT: Contrastive On-Policy Thinking with Continuous Spaces for General and Agentic Reasoning",
+    "url": "http://arxiv.org/abs/2605.20075v1",
+    "arxiv_id": "2605.20075v1",
+    "authors": [
+      "Dachuan Shi",
+      "Hanlin Zhu",
+      "Xiangchi Yuan",
+      "Wanjia Zhao",
+      "Kejing Xia",
+      "Wen Xiao",
+      "Wenke Lee"
+    ],
+    "published": "2026-05-19T16:28:53+00:00",
+    "summary": "Chain-of-thought (CoT) is a standard approach for eliciting reasoning capabilities from large language models (LLMs). However, the common CoT paradigm treats thinking as a prerequisite for answering, which can delay access to plausible answers and incur unnecessary token costs even when the model is able to identify an answer before extended thinking, a behavior known as performative reasoning. In this paper, we introduce CopT, a reformulated reasoning pipeline that reverses the usual order of thinking and answering. Instead of thinking before answering, CopT first elicits a draft answer and then invokes subsequent on-policy thinking conditioned on its own draft answer for reflection and correction. To assess whether the draft answer should be trusted, CopT recasts continuous embeddings as inference-time contrastive verifiers. Specifically, it contrasts the model's support for the same generated tokens under discrete-token inputs and continuous-embedding inputs, yielding a sequence-level reverse KL estimator for answer reliability. Our analysis shows that under certain assumptions, the expected estimate equals the mutual information between the unresolved latent state and the emitted answer token, explaining why it captures answer-relevant uncertainty rather than arbitrary uncertainty in the latent state. When the answer is deemed insufficiently reliable, CopT performs further on-policy thinking, where a second KL estimator dynamically controls draft-answer visibility, preserving useful partial information while reducing the risk of being misled by unreliable content. Across mathematics, coding, and agentic reasoning tasks, CopT improves peak accuracy by up to 23% and reduces token usage by up to 57% at comparable or higher accuracy, without any additional training. The code is available at https://github.com/sdc17/CopT."
+  },
+  {
+    "title": "Gaussian Process Eigenmodes for Statistical and Systematic Uncertainties in Template Fits",
+    "url": "http://arxiv.org/abs/2605.20048v1",
+    "arxiv_id": "2605.20048v1",
+    "authors": [
+      "Vincent Alexander Croft"
+    ],
+    "published": "2026-05-19T16:06:21+00:00",
+    "summary": "Template histograms are the foundation of statistical inference at the Large Hadron Collider. The HistFactory likelihood encodes template uncertainty through per-bin Barlow-Beeston gamma factors for Monte Carlo statistical error and through interpolation-based modifiers for systematic shape variations. These two mechanisms scale with the number of bins, which becomes problematic for multi-dimensional analyses and for templates constructed from limited Monte Carlo samples.   We propose the use of eigenmode decomposition for efficiently estimating statistical and systematic uncertainties when replacing histogram templates with smooth functional representations derived from log-Gaussian Cox process posteriors fitted to the Monte Carlo data. The posterior covariance, augmented by rank-1 updates for each systematic shape variation, provides a unified eigenmode basis that encodes both statistical and systematic template uncertainty. Truncating to the leading eigenmodes replaces the full set of per-bin gamma factors and interpolation parameters with a small number of Gaussian-constrained amplitudes. We prove that this construction contains Barlow-Beeston as a limiting case and that the Gaussian Process posterior variance is bounded above by the Barlow-Beeston variance at every bin."
+  },
+  {
+    "title": "When Critics Disagree: Adaptive Reward Poisoning Attacks in RIS-Aided Wireless Control System",
+    "url": "http://arxiv.org/abs/2605.20037v1",
+    "arxiv_id": "2605.20037v1",
+    "authors": [
+      "Deemah H. Tashman",
+      "Soumaya Cherkaoui"
+    ],
+    "published": "2026-05-19T15:59:43+00:00",
+    "summary": "Reward-poisoning attacks present a significant risk to learning-based wireless control systems. Given this, we propose a Disagreement-Guided Reward Poisoning (DGRP) adaptive attack on a Soft Actor-Critic (SAC) agent. In a Cognitive Radio Network (CRN) environment assisted by Reconfigurable Intelligent Surfaces (RIS), the SAC agent is tasked with maximizing the long-term secondary users' (SUs) rate by simultaneously optimizing the transmission power of the SU transmitter and the RIS phase shifts. DGRP corrupts rewards, particularly when the SAC dual critics exhibit substantial disagreement-especially in high-leverage, high-uncertainty states-resulting in distorted value estimations and guiding the policy towards suboptimal actions. Our findings demonstrate that DGRP substantially diminishes the performance improvements typically provided by RIS and degrades transmission quality. We further investigate key attack parameters and determine their impact on learning. In comparison to periodic-timing and exploration-triggered baselines, DGRP consistently causes greater damage, highlighting the necessity of considering disagreement-aware threats when evaluating the robustness of Deep Reinforcement Learning (DRL) in RIS-assisted networks."
+  },
+  {
+    "title": "FlexDraft: Flexible Speculative Decoding via Attention Tuning and Bonus-Guided Calibration",
+    "url": "http://arxiv.org/abs/2605.20022v1",
+    "arxiv_id": "2605.20022v1",
+    "authors": [
+      "Yaojie Zhang",
+      "Jianuo Huang",
+      "Junlong Ke",
+      "Yuhang Han",
+      "Yongji Long",
+      "Tianchen Zhao",
+      "Biqing Qi",
+      "Linfeng Zhang"
+    ],
+    "published": "2026-05-19T15:48:16+00:00",
+    "summary": "Speculative decoding accelerates memory-bound LLM inference without quality degradation by using a fast drafter to propose multiple candidate tokens and the target model to verify them in parallel. However, conventional sequential speculative decoding suffers from mutual waiting between drafting and verification, and repeated exchange of intermediate states further increases memory access overhead. Parallel speculative decoding addresses this limitation by performing drafting and verification within a single target forward pass, allowing future drafts to be prepared while current candidates are being verified. Although effective at small batch sizes, existing parallel speculative decoding methods either require costly continual pretraining with quality degradation or suffer from low acceptance rates. More importantly, this paradigm inherently suffers from uncertainty in both the bonus token and the accepted length, leading to draft verification mismatch and causing throughput gains to collapse at large batch sizes. To address these limitations, we introduce FlexDraft, a lossless speculative decoding framework that flexibly adapts to varying batch sizes through three key designs. (1) Attention Tuning enables block diffusion drafting by tuning only the attention projectors of the final few layers on mask tokens, while keeping the autoregressive path frozen to preserve the target distribution and produce high quality drafts with minimal trainable parameters. (2) Bonus-guided Calibration uses a lightweight MLP conditioned on the resolved bonus token to calibrate draft logits, mitigating draft verification mismatch caused by bonus token uncertainty. (3) Flex Decoding dynamically switches between parallel draft and verify at small batch sizes and sequential draft then verify at large batch sizes, and adjusts verification length based on draft confidence to eliminate redundant computation."
+  },
+  {
+    "title": "Estimating treatment duration effects via clone-censor-weight: a breast cancer case study",
+    "url": "http://arxiv.org/abs/2605.20003v1",
+    "arxiv_id": "2605.20003v1",
+    "authors": [
+      "Charlotte Voinot",
+      "No\u00e9mie Simon-Tillaux",
+      "Emma Torrini",
+      "Stefan Michiels",
+      "Bernard Sebastien",
+      "Cl\u00e9ment Berenfeld",
+      "Julie Josse"
+    ],
+    "published": "2026-05-19T15:34:49+00:00",
+    "summary": "In this work, we study the estimation of treatment duration effects in observational survival data, where treatment and covariate histories evolve over time and longer observed durations are only attainable among individuals who remain event-free and under follow-up, leading to immortal time bias under naive analyses. The cloning-censoring-weighting (CCW) framework provides a practical approach to emulate target trials of treatment duration strategies, but several methodological aspects remain insufficiently understood.   We focus on static treatment duration strategies under two settings of increasing complexity: baseline confounding only, and confounding with time-varying covariates. We formalize the assumptions underlying CCW, with particular emphasis on treatment admissibility, relaxed intervention rules, and the distinction between artificial and natural censoring. We then compare several estimation approaches after cloning and censoring, including inverse probability of censoring weighting (IPCW), the G-formula, and doubly robust estimators, through simulation studies assessing robustness, variability, and sensitivity to censoring model misspecification.   Finally, we apply the framework to a Breast Cancer cohort to emulate a target trial comparing 2 versus 5 years of adjuvant tamoxifen in early stage breast cancer. Due to the small number of events and limited support for the 2-year strategy, estimates are associated with substantial uncertainty. These findings highlight both the practical relevance and the limitations of CCW, and underscore the importance of sensitivity analyses in complex longitudinal observational settings."
+  },
+  {
     "title": "Robust Simulation Based Inference Through Robust Optimal Transport",
     "url": "http://arxiv.org/abs/2605.18741v1",
     "arxiv_id": "2605.18741v1",
