@@ -1,5 +1,121 @@
 [
   {
+    "title": "Goal-driven Bayesian Optimal Experimental Design for Robust Decision-Making Under Model Uncertainty",
+    "url": "http://arxiv.org/abs/2605.26093v1",
+    "arxiv_id": "2605.26093v1",
+    "authors": [
+      "Jinwoo Go",
+      "Xiaoning Qian",
+      "Byung-Jun Yoon"
+    ],
+    "published": "2026-05-25T17:53:18+00:00",
+    "summary": "Bayesian optimal experimental design (BOED) selects experiments to maximize information gain about model parameters. However, in decision-critical settings, reducing parameter uncertainty does not necessarily improve downstream decisions, as only specific parameter directions relevant to the objective truly matter. We propose GoBOED, a goal-driven BOED framework that directly optimizes experimental designs for a specified decision-making objective. GoBOED combines an amortized variational posterior surrogate with a differentiable convex decision layer, enabling gradient-based design optimization that is fully decision-focused. We theoretically show that GoBOED gradients are insensitive to parameter directions irrelevant to the decision objective, providing a formal justification for why goal-driven design achieves equivalent decision quality over a wider set of experimental designs than information-gain maximization. Empirically, across source localization, epidemic management, and pharmacokinetic control, GoBOED identifies designs that better align with downstream decision objectives and reveals that near-optimal design windows are substantially wider than those predicted by goal-agnostic BOED approaches."
+  },
+  {
+    "title": "Neuronal Stochastic Attention Circuit (NSAC) for Probabilistic Representation Learning",
+    "url": "http://arxiv.org/abs/2605.26061v1",
+    "arxiv_id": "2605.26061v1",
+    "authors": [
+      "Waleed Razzaq",
+      "Yun-Bo Zhao"
+    ],
+    "published": "2026-05-25T17:19:14+00:00",
+    "summary": "Reliable quantification of uncertainty estimates in continuous-time (CT) representation learning remains nascent, particularly within CT attention architectures. We introduce the Neuronal Stochastic Attention Circuit (NSAC), a novel biologically-inspired CT attention architecture that reformulates attention logit computation as the solution of an Ornstein-Uhlenbeck stochastic differential equation modulated by input-dependent, nonlinear interlinked gates derived from repurposed C.elegans Neuronal Circuit Policies (NCPs) wiring mechanism. It induces Gaussian distribution over logits that propagates principled stochasticity through logistic-normal distribution over attention weights to yield probabilistic output. A two-term objective function combining Gaussian negative log-likelihood with an epistemic-separation regularizer enforces higher predictive variance and enables joint quantification of aleatoric and epistemic uncertainty. Empirically, we implement NSAC in a diverse set of learning tasks including: (i) irregular CT function approximation; (ii) multivariate regression; (iii) long-range forecasting; (iv) Industry 4.0; and (v) the lane-keeping of autonomous vehicles. We observe that the NSAC remains competitive against several baselines in terms of accuracy and produces reasonably well-calibrated uncertainty estimates while being interpretable at the neuronal cell level."
+  },
+  {
+    "title": "Accelerating Bayesian inverse design in computational fluid dynamics using neural operators",
+    "url": "http://arxiv.org/abs/2605.26059v1",
+    "arxiv_id": "2605.26059v1",
+    "authors": [
+      "Bipin Tiwari",
+      "Omer San"
+    ],
+    "published": "2026-05-25T17:18:18+00:00",
+    "summary": "Bayesian inverse design provides a principled framework for inferring aerodynamic geometries from sparse flow observations while quantifying uncertainty. However, its practical use in computational fluid dynamics (CFD) is severely limited by the cost of repeated high-fidelity simulations required for gradient-based Markov chain Monte Carlo (MCMC) sampling. While surrogate models are commonly proposed to reduce this cost, their effect on posterior geometry and uncertainty, especially for shock-dominated flows, remains poorly understood. In this work, we demonstrate that neural operator surrogates can be embedded directly within the MCMC inference loop while preserving posterior structure. Using a fully Bayesian inverse formulation of quasi-one-dimensional nozzle flow, we demonstrate that geometry parameterization plays a decisive role in identifiability and posterior conditioning, with cubic B-splines yielding stable and physically meaningful uncertainty estimates. Building on this formulation, a Deep Operator Network trained on CFD-generated data is substituted for the CFD solver within a No-U-Turn Sampler, while keeping the likelihood model, priors, and sampling configuration unchanged. Across sparse to fully observed regimes, surrogate-based inference reproduces the posterior geometry and uncertainty trends of the CFD reference. As a result of surrogate integration, total inference time is reduced to under one second, corresponding to a speedup exceeding three orders of magnitude. In addition, a direct inverse neural operator is examined as a deterministic alternative for inverse design, enabling single-shot geometry reconstruction without posterior sampling. These results demonstrate that neural operator-accelerated Bayesian inference enables practical, uncertainty-aware inverse design workflows for aerodynamic applications."
+  },
+  {
+    "title": "Confidence and Calibration of Activation Oracles for Reliable Interpretation of Language Model Internals",
+    "url": "http://arxiv.org/abs/2605.26045v1",
+    "arxiv_id": "2605.26045v1",
+    "authors": [
+      "Federico Torrielli",
+      "Peter Schneider-Kamp",
+      "Lukas Galke Poech"
+    ],
+    "published": "2026-05-25T17:08:47+00:00",
+    "summary": "Activation oracles aim to make the activations of other models legible to humans and yield promising results compared to white-box interpretability techniques. However, uncertainty quantification (UQ) for the natural-language outputs of such activation oracles is so far understudied. Here, we investigate 6 different methods for estimating the confidence of activation oracles and evaluate how well-calibrated their confidence scores are. Our experiments on 6,000 samples per oracle (varying verbalizer and context prompts) reveal that bootstrap mode frequency is the best-calibrated method among those tested (ECE 5.7% vs. 25.5% for the answer-word log-probability on Qwen3-8B; 10.3% vs. 13.1% on Qwen3.6-27B), and that the log-prob baseline can serve as a fast triage signal at a fraction of the cost.   Code and the patched trainer are available at https://github.com/federicotorrielli/probabilistic_activation_oracles."
+  },
+  {
+    "title": "Robust Tracking of Curvature-Constrained Paths for Uncertain Dubins Systems",
+    "url": "http://arxiv.org/abs/2605.26043v1",
+    "arxiv_id": "2605.26043v1",
+    "authors": [
+      "Xingjian Xue",
+      "Sze Zheng Yong"
+    ],
+    "published": "2026-05-25T17:08:19+00:00",
+    "summary": "This paper presents a robust tracking controller for tracking curvature-constrained paths by vehicles/robots with uncertain Dubins dynamics. Although Dubins paths have been widely used in vehicular and robotic applications, robust and convergent tracking under model uncertainties remains understudied. To address this, we propose path tracking controllers based on sliding mode control, formulated in the transverse coordinate frame, which guarantee invariance and convergence of both lateral and heading errors to zero in the presence of bounded disturbances. Simulation results show that the proposed method reliably tracks paths despite disturbances and significantly outperforms existing methods based on sliding mode controllers."
+  },
+  {
+    "title": "A possible $\u03a3^*$ or $\u039b^*$ resonance with $J^P=3/2^-$ in $K^-p\\to K\u039e$ scattering",
+    "url": "http://arxiv.org/abs/2605.26015v1",
+    "arxiv_id": "2605.26015v1",
+    "authors": [
+      "Zheng-Li Luo",
+      "Jia-Jun Wu",
+      "Bing-Song Zou"
+    ],
+    "published": "2026-05-25T16:33:08+00:00",
+    "summary": "We analyze the $K^-p\\to K^+\u039e^-$ and $K^-p\\to K^0\u039e^0$ processes in the energy region $1.8<\\sqrt{s}<2.8$ GeV within an effective Lagrangian approach. The $\u039b(1800)$ and $\u03a3(2250)$ resonances, along with the ground states $\u03a3$ and $\u039b$, are included. Additionally, a possible $J^P=3/2^-$ $\u03a3^*$ or $\u039b^*$ resonance with a mass around 1.9 GeV and a width of approximately 200 MeV is introduced to describe the structure at 2.0 GeV in the total cross section and reproducing the threshold behavior. The two possible solutions corresponding to $\u03a3^*(3/2^-)$ and $\u039b^*(3/2^-)$ cannot be distinguished by the existing data. Predictions for the polarization of the final-state $\u039e$ and the cross section of $K^-n \\to K^0\u039e^-$ are compared with the experimental data, we find that the results of solution-II with $\u039b^*(3/2^-)$ are much better. We also discuss the possible interpretations of the introduced $3/2^-$ hyperon as a pentaquark candidate, e.g. an $S$-wave $K\u039e(1530)$ hadronic molecule. However, since the polarization data suffer from rather large uncertainties, more data inputs are needed in future experiments, for example, J-PARC, HIAF and JLab."
+  },
+  {
+    "title": "Statistical Inference for Stochastic Gradient Descent Beyond Finite Variance",
+    "url": "http://arxiv.org/abs/2605.26000v1",
+    "arxiv_id": "2605.26000v1",
+    "authors": [
+      "Jose Blanchet",
+      "Peter Glynn",
+      "Wenhao Yang"
+    ],
+    "published": "2026-05-25T16:18:39+00:00",
+    "summary": "Stochastic gradient descent (SGD) is a foundational algorithm for large-scale statistical learning and stochastic optimization. However, statistical inference based on SGD iterates remains challenging when stochastic gradients have infinite variance, as the relevant limiting distributions depend on unknown nuisance parameters. In this paper, we develop an efficient, model-agnostic methodology for constructing confidence regions from SGD trajectories that applies in both finite- and infinite-variance regimes. The procedure is based on a joint weak convergence result for the Polyak-Ruppert averaged estimator and an empirical second-moment normalizer constructed from stochastic gradients along the SGD trajectory. This joint limit yields a self-normalized statistic in which the leading tail-dependent scaling terms cancel. We then use a subsampling calibration scheme to estimate the relevant critical values, avoiding explicit estimation of tail indices, slowly varying functions, or stable-law parameters. The resulting confidence regions are straightforward to implement and are asymptotically valid under both the finite- and infinite-second-moment regimes. Simulation studies show reliable coverage in various settings, supporting the proposed method as a practical tool for uncertainty quantification in stochastic optimization."
+  },
+  {
+    "title": "Fuzzy PyTorch: Rapid Numerical Variability Evaluation for Deep Learning Models",
+    "url": "http://arxiv.org/abs/2605.25991v1",
+    "arxiv_id": "2605.25991v1",
+    "authors": [
+      "In\u00e9s Gonzalez-Pepe",
+      "Hiba Akhaddar",
+      "Tristan Glatard",
+      "Yohan Chatelain"
+    ],
+    "published": "2026-05-25T16:10:21+00:00",
+    "summary": "We introduce Fuzzy PyTorch, a framework for rapid evaluation of numerical variability in deep learning (DL) models. As DL is increasingly applied to diverse tasks, understanding variability from floating-point arithmetic is essential to ensure robust and reliable performance. Tools assessing such variability must be scalable, efficient, and integrate seamlessly with existing frameworks while minimizing code modifications. Fuzzy PyTorch enables this by integrating stochastic arithmetic into PyTorch through Probabilistic Rounding with Instruction Set Management, a novel library interfacing with Verificarlo, a numerical analysis compiler. The library offers stochastic rounding mode and a novel mode; up-down rounding. Comparative evaluations show Fuzzy PyTorch maintains model performance and achieves runtime reductions of 5x to 60x versus Verrou, a state-of-the-art tool. We further demonstrate scalability by running models from 1 to 341 million parameters, confirming applicability across small and large DL architectures. Overall, Fuzzy PyTorch provides an efficient, scalable, and practical solution for assessing numerical variability in deep learning, enabling researchers and practitioners to quantify and manage floating-point uncertainty without compromising performance or computational efficiency."
+  },
+  {
+    "title": "Conformalised imprecise inference for robust extrapolation under limited data",
+    "url": "http://arxiv.org/abs/2605.25882v1",
+    "arxiv_id": "2605.25882v1",
+    "authors": [
+      "Yu Chen",
+      "Scott Ferson"
+    ],
+    "published": "2026-05-25T14:11:42+00:00",
+    "summary": "Recent advances in uncertainty quantification increasingly emphasise the distinction between aleatory and epistemic uncertainty in machine learning, motivating the need for more unified frameworks. However, despite much progress in producing reliable predictions, existing methods often lack rigorous guarantees when generalising beyond the training domain. We propose a conformalised imprecise inference framework for robust extrapolation, which is model-agnostic and augments predictive models with imprecision and distance awareness. The proposed approach yields imprecise predictions (probability boxes) that remain valid under distributional shift, maintaining coverage while adaptively expanding uncertainty in extrapolation regimes. Experiments on synthetic and benchmark datasets demonstrate improved robustness and reliable coverage compared to standard probabilistic approaches, particularly under limited data."
+  },
+  {
+    "title": "Bayesian perspectives on exponential random graph models",
+    "url": "http://arxiv.org/abs/2605.25873v1",
+    "arxiv_id": "2605.25873v1",
+    "authors": [
+      "Alberto Caimo",
+      "Isabella Gollini"
+    ],
+    "published": "2026-05-25T14:00:56+00:00",
+    "summary": "Exponential random graph models (ERGMs) are a widely used framework for network data, enabling hypothesis testing on the structural mechanisms underlying observed networks. Bayesian ERGMs provide principled uncertainty quantification and enable the incorporation of prior knowledge through fully probabilistic modelling. However, computation remains challenging because the posterior is doubly intractable, with a likelihood normalising constant that depends on unknown parameters. This paper reviews Bayesian approaches to ERGM inference, categorising inference methods into three broad classes: auxiliary variable MCMC methods, adjusted pseudo-likelihood approaches, and variational methods, alongside dedicated treatment of model selection. We also discuss modelling extensions for missing data, longitudinal dynamics, populations of networks, weighted networks, highlighting applications across various scientific disciplines."
+  },
+  {
     "title": "Vapor-Cell-Induced Uncertainty in Rydberg Atom Measurements via the Electric-Field Volume-Integral-Equation Method",
     "url": "http://arxiv.org/abs/2605.23870v1",
     "arxiv_id": "2605.23870v1",
