@@ -1,5 +1,145 @@
 [
   {
+    "title": "Twins: Learn to Predict Unified Representations with Focal Loss",
+    "url": "http://arxiv.org/abs/2607.22531v1",
+    "arxiv_id": "2607.22531v1",
+    "authors": [
+      "Kaixiong Gong",
+      "Xin Cai",
+      "Bin Lin",
+      "Hao Wang",
+      "Yunlong Lin",
+      "Mingzhe Zheng",
+      "Bohao Li",
+      "Jian-Wei Zhang",
+      "Miles Yang",
+      "Zhao Zhong",
+      "Liefeng Bo",
+      "Xiangyu Yue"
+    ],
+    "published": "2026-07-24T17:59:39+00:00",
+    "summary": "Unified multimodal models seek a shared visual token space that supports both multimodal understanding and image generation. Discrete methods unify the interface via a shared codebook, whereas continuous pipelines often rely on two disparate representations -- semantic features (e.g., ViT) for understanding and low-level latents (e.g., VAE) for synthesis -- resulting in mismatched latent spaces. We propose Twins, a unified continuous token space formed by channel-wise concatenating ViT and VAE features on the same token grid, so the sequence length is unchanged and attention cost does not increase. However, jointly modeling Twins in a Diffusion Transformer exposes a severe optimization imbalance: the model fits the ViT component well but struggles to match the VAE latent distribution. We trace this imbalance to three sources of heterogeneity: frequency bias, intrinsic dimensionality, and condition-aligned vs condition-independent uncertainty. To address it, we adapt a focal regression objective for flow matching that upweights large-error VAE dimensions, better balancing optimization across the ViT and VAE components. On ImageNet, this yields up to 10.57 gFID gain over naive MSE loss without classifier-free guidance. Twins also performs competitively on multimodal understanding benchmarks and improves reconstruction fidelity, narrowing the gap between understanding- and generation-oriented representations."
+  },
+  {
+    "title": "Dysphagia Risk Stratification in Head and Neck Cancer via Two-Stage PRO-Clinical Stacking",
+    "url": "http://arxiv.org/abs/2607.22514v1",
+    "arxiv_id": "2607.22514v1",
+    "authors": [
+      "Siyuan Zhao",
+      "Eric Ababio Anyimadu",
+      "Zachary G. Brumm",
+      "Yue Ma",
+      "Clifton David Fuller",
+      "Xinhua Zhang",
+      "G. Elisabeta Marai",
+      "Guadalupe Canahuate"
+    ],
+    "published": "2026-07-24T17:34:26+00:00",
+    "summary": "Dysphagia is a debilitating late effect of head and neck cancer (HNC) treatment, yet timely identification of at-risk patients remains challenging in survivorship care. Definitive assessment relies on videofluoroscopic imaging, as captured by the Dynamic Imaging Grade of Swallowing Toxicity (CTCAE-DIGEST), which, while validated, requires specialized equipment, trained personnel, and significant patient burden, limiting its routine use in surveillance. Patient-reported outcomes (PROs), by contrast, are low-cost, scalable, and easily collected at any clinical encounter, making them an attractive alternative signal for identifying patients who may warrant further evaluation. However, a clear clinical framework for translating PRO responses into actionable interventions is still evolving. In particular, uncertainty remains regarding when a patient's self-reported symptom burden should prompt escalation of care.   This study addresses this gap by formulating a single-visit PRO-clinical prediction framework and introducing a clinically interpretable two-stage stacking model to predict swallowing impairment risk using PRO responses and structured clinical variables, without requiring videofluoroscopic imaging. The proposed framework quantifies the independent contributions of patient-reported symptoms and clinical factors within a unified and interpretable risk assessment model. Our findings demonstrate that individual MDADI responses contain predictive information beyond that captured by composite or global summary scores, while interpretability analyses reveal symptom patterns and clinical risk factors associated with swallowing impairment. Together, these results support the use of structured PRO-clinical integration as a practical, imaging-free approach for dysphagia risk stratification in HNC survivorship."
+  },
+  {
+    "title": "The V-fold jackknife for semiparametric inference: variance estimation, confidence intervals, and simultaneous confidence bands",
+    "url": "http://arxiv.org/abs/2607.22493v1",
+    "arxiv_id": "2607.22493v1",
+    "authors": [
+      "Yi Li",
+      "Ashkan Ertefaie",
+      "Mark van der Laan"
+    ],
+    "published": "2026-07-24T17:05:54+00:00",
+    "summary": "For decades, the bootstrap has been a default tool for statistical inference because of its broad applicability and minimal analytic requirements. Although its validity is well understood for smooth parametric estimators, its theoretical properties for many modern semiparametric and machine-learning estimators remain largely unstudied. Nevertheless, bootstrap procedures are often used routinely in such settings, even when their validity is unknown and their computational cost is substantial. We develop the $V$-fold jackknife as a computationally efficient and theoretically justified alternative for semiparametric inference. It requires only $V$ leave-fold-out refits and uses the empirical dispersion of jackknife pseudo-values to quantify uncertainty, without deriving or evaluating an influence function. For regular asymptotically linear estimators of pathwise differentiable parameters, we show that, for fixed $V$, the Studentized $V$-fold jackknife statistic converges to a $t$-distribution with $V-1$ degrees of freedom, giving valid confidence intervals even though the jackknife variance estimator does not converge in probability. When $V\\to\\infty$, we establish consistency of the variance estimator at rate $V^{-1/2}$, allowing $V$ to diverge slowly, for example at rate $\\log n$. We also develop simultaneous confidence bands based on the correct componentwise-Studentized limiting distribution. Finally, we extend the theory to generalized asymptotically linear estimators with diverging influence-function variance and slower-than-$\\sqrt n$ convergence; scale invariance of Studentization eliminates the need to know the effective convergence rate. Simulations on the average treatment effect, Kaplan--Meier survival curve, and highly adaptive lasso dose-response curves confirm reliable inference, including where influence-function-based standard errors are anti-conservative or unstable."
+  },
+  {
+    "title": "Selection effects in correlated observations with application to distance-ladder observations",
+    "url": "http://arxiv.org/abs/2607.22425v1",
+    "arxiv_id": "2607.22425v1",
+    "authors": [
+      "Will J. Percival"
+    ],
+    "published": "2026-07-24T15:48:15+00:00",
+    "summary": "For over a century, following the work of Eddington, Kapteyn, Malmquist and others, astronomers have wrestled with selection biases when making inferences from samples of objects. Typically, selection is performed on the same observations used to make the measurements of interest. However, selecting objects using one observable while analyzing another can also lead to a selection bias when the observables are correlated. Within a Bayesian framework, unmodelled selection effects correspond to a misspecified generative model. We derive the likelihood for truncated selection in correlated observables and demonstrate its usefulness by searching for residual selection effects of this form in Cepheid variable star brightness measurements used in recent distance-ladder measurements of the Hubble constant H0. We specifically look for the form of bias where the selection correction depends on the photometric uncertainties, which the Cepheid data can constrain while simultaneously measuring H0. We find only weak evidence for non-zero residual selection corrections, at a significance of (1.2sigma) to (1.9sigma), depending on the distance prior adopted. Including a single extra parameter to model the unknown cut-off lowers the recovered H0 by -0.7km/s/Mpc to -1.1km/s/Mpc, again depending on the distance prior. Allowing for a different selection for each host galaxy can decrease H0 further, although this becomes very sensitive to the distance prior applied. While introducing a new selection correction cannot by itself explain the Hubble tension, it may be a component of a multi-faceted solution that includes the choice of priors on distances and other effects."
+  },
+  {
+    "title": "First Lattice QCD Determination of Lepton-Flavor-Universality Ratios in Light-Meson Leptonic Decays",
+    "url": "http://arxiv.org/abs/2607.22358v1",
+    "arxiv_id": "2607.22358v1",
+    "authors": [
+      "Peter Boyle",
+      "Norman H. Christ",
+      "Xu Feng",
+      "Taku Izubuchi",
+      "Luchang Jin",
+      "Christopher T. Sachrajda",
+      "Xin-Yu Tuo"
+    ],
+    "published": "2026-07-24T14:39:37+00:00",
+    "summary": "The ratio of electronic to muonic leptonic decay widths, $R_{e/\u03bc}$, for the light mesons $\u03c0$ and $K$, provides a clean test of lepton flavor universality (LFU) and a sensitive probe of physics beyond the Standard Model. Its Standard-Model prediction is exceptionally precise, with the leading uncertainty associated with the structure-dependent (SD) radiative correction of $O(0.1\\%)$. As experiments such as PIONEER and NA62 aim for unprecedented precision, this SD correction has become an essential ingredient in precision experiment--theory comparisons. We present the first lattice QCD$+$QED calculation of this SD correction at the physical pion mass and in the continuum limit. We employ the infinite-volume reconstruction (IVR) method with Coulomb-gauge photons, significantly reducing both statistical errors and finite-volume effects. We obtain the Standard-Model predictions, $R_{e/\u03bc}=1.23501(10)\\times10^{-4}$ for $\u03c0$ and $R_{e/\u03bc}=2.47653(34)\\times10^{-5}$ for $K$. Our results reduce the hadronic uncertainty in $R_{e/\u03bc}$, provide the most precise Standard-Model predictions to date, and establish first-principles benchmarks for future high-precision tests of LFU."
+  },
+  {
+    "title": "Uncertainty-Aware Fusion for Resilient Distributed Radar Sensing",
+    "url": "http://arxiv.org/abs/2607.22357v1",
+    "arxiv_id": "2607.22357v1",
+    "authors": [
+      "Christian Eckrich",
+      "Maik Pfefferkorn",
+      "Rolf Findeisen",
+      "Abdelhak M. Zoubir",
+      "Vahid Jamali"
+    ],
+    "published": "2026-07-24T14:37:27+00:00",
+    "summary": "Distributed radar sensing enables safe and resilient operation in mobile robotic and vehicular systems by combining multiple local views of the scene. In this paper, we consider a moving agent equipped with a frequency modulated continuous wave (FMCW) radar that fuses its local measurements with those of surrounding static radar sensors to reduce the uncertainty in target state estimation. The benefit of sharing measurements over capacity-limited wireless links come at the expense of two competing degradation mechanisms: quantization distortion, which increases the effective noise floor, and latency, which causes the received information to age. A unified framework is thus needed to quantify how individual radars contribute to uncertainty reduction under limited communication resources. To this end, we derive the Cramer-Rao lower bound (CRLB) for the fused target state by combining local Fisher information matrices (FIMs) through coordinate transformations, incorporating distortion bounds from rate-distortion theory and information aging via a state transition model. We show that the resulting expression reveals a fundamental tradeoff between update rate and quantization fidelity governed by the available channel capacity. Our numerical simulations illustrate this tradeoff and demonstrate that a careful choice of system parameters (e.g., selected radar systems, quantization, update rate) is necessary for maximum uncertainty reduction."
+  },
+  {
+    "title": "Uncertainty Quantification for Free Energy Calculations by Generalized Hierarchical Bayesian Inference",
+    "url": "http://arxiv.org/abs/2607.22338v1",
+    "arxiv_id": "2607.22338v1",
+    "authors": [
+      "Martin Skorna",
+      "Adam Gottfried",
+      "Zuzana Janackova",
+      "Katarina Baxova",
+      "Pavel Jungwirth",
+      "Brennon L. Shanks"
+    ],
+    "published": "2026-07-24T14:14:42+00:00",
+    "summary": "Free energy calculations are routinely used to study molecular processes inaccessible to unbiased molecular dynamics, but their utility ultimately depends on knowing when and how much their predictions can be trusted. Uncertainty estimation is therefore essential for distinguishing genuine physical features of a free energy profile from artifacts arising from limited simulation data or inadequate sampling. Gaussian processes have emerged as a powerful framework for reconstructing free energy profiles together with predictive uncertainties. However, existing implementations typically condition on fixed hyperparameters and observation noise, preventing predictive uncertainties from adapting to the information content of the simulation data. Here, we develop a generalized hierarchical Gaussian process framework that accounts for these neglected sources of uncertainty. Applications to umbrella sampling and extended Lagrangian metadynamics of peptide-lipid membrane interactions demonstrate that the resulting uncertainty estimates track reconstruction errors across a wide range of sampling and data conditions."
+  },
+  {
+    "title": "A Hierarchical Likelihood Model for Non-linear Inverse Problems under Additive and Multiplicative Noise",
+    "url": "http://arxiv.org/abs/2607.22330v1",
+    "arxiv_id": "2607.22330v1",
+    "authors": [
+      "Nicolas Goeman",
+      "Pierre-Antoine Thouvenin",
+      "Pierre Chainais"
+    ],
+    "published": "2026-07-24T14:08:23+00:00",
+    "summary": "Ill-posed inverse problems are encountered in numerous applications, possibly characterized by a highly non-linear forward model, both additive and multiplicative sources of noise, and censored data. In the absence of ground truth, uncertainty quantification is crucial to assess estimation reliability. This motivates the use of a Bayesian model and stochastic inference methods such as Markov Chain Monte Carlo algorithms. Problems combining all these challenges often lead to a complex and potentially multimodal posterior distribution, difficult to handle in practice. Approximate approaches have been proposed in the literature by either neglecting a source of noise or by using a tractable approximation of the likelihood function. These approaches either lead to an inaccurate model, or may require a complex calibration of the approximate likelihood. This paper proposes to tackle such problems with a general hierarchical Bayesian model and an efficient MCMC algorithm. The proposed formulation bypasses the need for calibrating the hyperparameters of an approximate model and is more versatile. The proposed method is assessed on a challenging scenario encountered in astronomy using synthetic data, in a variety of noise and censoring configurations. Comparisons are conducted against two baselines and a state-of-the-art method applicable in this context. The proposed approach is general and yields state-of-the-art results in terms of point-wise estimates and computing costs, with superior predictive performance. Results in the supplementary material further complete this comprehensive and rigorous model study. This work can serve as a guide for practitioners to select the best likelihood model according to their specific application."
+  },
+  {
+    "title": "Geometric 2D Scene Graph Generation",
+    "url": "http://arxiv.org/abs/2607.22325v1",
+    "arxiv_id": "2607.22325v1",
+    "authors": [
+      "Christoph Jahn",
+      "Urs Waldmann",
+      "Bastian Goldluecke"
+    ],
+    "published": "2026-07-24T14:03:24+00:00",
+    "summary": "In production processes for consumer products, assembly instructions are essential not only for planning but also for executing the production process. Likewise in robotics, it is crucial for an assembly robot to understand how components fit together and can be assembled. To facilitate these tasks, we contribute a method for constructing scene graphs to represent and characterize assembly relationships between components. Our approach does not rely on semantic data and is capable of handling a very small dataset. To realize this, the output of a Faster R-CNN model is used to create geometric representations, which are then processed by a transformer architecture to generate an adjacency matrix. This matrix serves as input to a Siamese network that uses message passing based on an attentional graph convolutional network (aGCN) architecture to characterize the connections between the components. We validate our method on a study dataset of toy model components which can be assembled into transportation vehicles."
+  },
+  {
+    "title": "Ensemble Kinematic Ages for 1.5 Million LAMOST Stars",
+    "url": "http://arxiv.org/abs/2607.22309v1",
+    "arxiv_id": "2607.22309v1",
+    "authors": [
+      "Yuxi Lu",
+      "Marc H. Pinsonneault"
+    ],
+    "published": "2026-07-24T13:51:51+00:00",
+    "summary": "We present a framework for inferring stellar ages from spectroscopic stellar parameters, calibrated with ensemble kinematics by averaging over the median vertical action, $J_z$, for stars with similar atmospheric and chemical properties, yielding self-consistent age estimates across the Hertzsprung-Russell (HR) diagram. We refer to these ages as ensemble kinematic ages as the age scale is calibrated from the average kinematics of ensembles of stars with similar stellar parameters. Individual stellar kinematics are not used in assigning ages. We validate the method against subgiant ages, achieving an accuracy of ~30%, comparable to [C/N]-based estimates. We find a clear age-$J_z$ relations that enable age inference up to ~10 Gyr for both the high- and low-$\u03b1$ disks. Applying this framework to 1.5 million LAMOST stars, we derive ages for subgiants and giants with typical uncertainties of ~2 Gyr. The inferred ages agree well with literature age catalogs, with no significant systematic trends as a function of $\\log g$. We also demonstrate the potential of empirical isochrones to calibrate theoretical stellar models. We identify an old (~7 Gyr) population within the low-$\u03b1$ disk but draw no firm conclusions. Although ensemble kinematic ages are statistical and sensitive to selection effects, Galactic potential assumptions, and Galactic location, they provide a robust population-level tool for Galactic archaeology, complementing traditional age indicators and extending age estimates across the full HR diagram."
+  },
+  {
     "title": "UnDA: Unpaired Domain Alignment for Cross-Modal Knowledge Transfer in Medical Imaging",
     "url": "http://arxiv.org/abs/2607.21546v1",
     "arxiv_id": "2607.21546v1",
