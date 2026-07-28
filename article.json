@@ -1,5 +1,140 @@
 [
   {
+    "title": "Fluctuation theorems for autonomous work in the quantum regime",
+    "url": "http://arxiv.org/abs/2607.24690v1",
+    "arxiv_id": "2607.24690v1",
+    "authors": [
+      "Xiu-Hua Zhao",
+      "H. T. Quan"
+    ],
+    "published": "2026-07-27T17:32:45+00:00",
+    "summary": "Fluctuation theorems for work provide universal constraints on nonequilibrium fluctuations, yet their quantum generalizations often rely on externally prescribed classical driving protocols. While for classical systems, fluctuation theorems have been extended to autonomous work, where the dynamics of the work source is subject to the backaction of the system, their generalization to the quantum regime is constrained by the uncertainty principle. Here, we extend fluctuation theorems for autonomous work from the classical regime to the quantum regime. By performing successive projective measurements over the work source and the system, we derive Jarzynski-type and Crooks-type fluctuation theorems for autonomous inclusive work from initial mixed thermal states. These relations are analogous to fluctuation theorems for autonomous work in the classical regime and explicitly incorporate the fluctuations of the work source. However, quantum noncommutativity prevents a consistent reduction to the nonautonomous counterparts, even in the limit of a large work source and correspondingly negligible backaction. By contrast, under the exclusive work definition, the nonautonomous limit is recovered when the measured observable of the work source commutes with its bare Hamiltonian and the backaction of the system on the work source is negligible. Our results are illustrated with the Dicke model, where a single-mode radiation field and an ensemble of two-level atoms act as the system of interest and the work source, respectively."
+  },
+  {
+    "title": "Two-neutrino double-weak decays of $^{126}$Xe and $^{134}$Xe from different many-body methods",
+    "url": "http://arxiv.org/abs/2607.24684v1",
+    "arxiv_id": "2607.24684v1",
+    "authors": [
+      "C. Brase",
+      "L. Jokiniemi",
+      "E. Kauppinen",
+      "B. Romeo",
+      "J. Kotila",
+      "J. Men\u00e9ndez",
+      "A. Schwenk"
+    ],
+    "published": "2026-07-27T17:24:04+00:00",
+    "summary": "We calculate the nuclear matrix elements and corresponding half-lives for the two-neutrino double-electron capture of $^{126}$Xe and the two-neutrino double-beta decay of $^{134}$Xe. We use different many-body methods: the proton-neutron quasiparticle random-phase approximation, the nuclear shell model, the microscopic interacting boson model, and an effective field theory for heavy nuclei. For both nuclei, all our half-life predictions are generally consistent with each other when including theoretical uncertainties for each method. Interestingly, for all calculations the lower range of the predicted $^{134}$Xe half-life is shorter than $T^{2\u03bd}_{1/2} \\approx 2\\times10^{24}$\\,y, which may be within the reach of next-generation experiments. For $^{126}$Xe, our results typically predict one order of magnitude longer half-lives than those for $^{134}$Xe."
+  },
+  {
+    "title": "The Degree of Strategy-Proofness for Risk-Averse Committee Selection",
+    "url": "http://arxiv.org/abs/2607.24676v1",
+    "arxiv_id": "2607.24676v1",
+    "authors": [
+      "Dael Sinay",
+      "Rica Gonen"
+    ],
+    "published": "2026-07-27T17:17:19+00:00",
+    "summary": "The classic notion of strategyproofness implicitly assumes that a manipulating agent either possesses complete knowledge of what all other agents are going to report, or is willing to take the risk and act as if they know these reports. To capture the profound uncertainty of real-world voters, recent work introduced \\emph{risk-avoiding truthfulness (RAT)} and the \\emph{RAT-degree}, which quantifies the exact number of known reports required for a manipulation to be strictly safe. While the RAT-degree has been analyzed in settings such as single-winner elections, its implications for multi-winner voting remain unexplored. In this paper, we bridge this gap by extending the RAT-degree framework to approval-based committee (ABC) selection, a domain characterized by a fundamental tension between proportional representation and strategic robustness. Focusing on the prominent Proportional Approval Voting (PAV) rule, we investigate its susceptibility to safe subset manipulations. We establish tight bounds on its superset risk-avoiding strategy-proofness under dropping candidates, demonstrating that PAV is vulnerable to safe manipulation when the agent knows the exact ballots of $f = \\lceil n/k \\rceil$ other voters, but remains completely immune given knowledge of at most $f = \\lfloor \\frac{n}{k+1} \\rfloor - 1$ voters."
+  },
+  {
+    "title": "Recommended Second Virial Coefficients for Nitrogen and Oxygen",
+    "url": "http://arxiv.org/abs/2607.24634v1",
+    "arxiv_id": "2607.24634v1",
+    "authors": [
+      "Robert Hellmann",
+      "Giovanni Garberoglio",
+      "Allan H. Harvey"
+    ],
+    "published": "2026-07-27T16:31:08+00:00",
+    "summary": "We provide recommended values for the second virial coefficient, $B(T)$, and its uncertainty, for molecular nitrogen and oxygen. The temperature range covered is $20-3000$ K for nitrogen and $20-2000$ K for oxygen. The recommendations are based on tuning previously published state-of-the-art ab initio pair potentials so that the $B(T)$ calculated from the potentials match selected high-accuracy experimental data; for nitrogen the tuning utilizes values of $B$ derived from literature density data with greatly reduced uncertainty by analyzing the data with the aid of ab initio calculated higher virial coefficients. Quantum effects on $B$ are fully included with the path-integral Monte Carlo method. The resulting $B(T)$ have uncertainties similar to those of the best experimental data, but cover a much wider temperature range."
+  },
+  {
+    "title": "Attribution and Uncertainty Behavior of Learned Residual Gyro Correction for Gyro-Stellar Estimation",
+    "url": "http://arxiv.org/abs/2607.24608v1",
+    "arxiv_id": "2607.24608v1",
+    "authors": [
+      "Mariela De Lucas \u00c1lvarez",
+      "Melvin Laux",
+      "Arthur de Freitas Precht",
+      "Maurice Martin",
+      "Edoardo Caroselli",
+      "Frank Kirchner",
+      "Alexander Fabisch"
+    ],
+    "published": "2026-07-27T16:10:02+00:00",
+    "summary": "This work investigates uncertainty decomposition and explainability in a deep learning-based framework for gyroscope bias correction. A 1-D Convolutional Neural Network is trained to predict residual angular rate corrections from multi-sensor inputs, including gyroscope and star tracker measurements. The bias corrections are sent to a flight-representative Gyro-Stellar Estimator. The network produces both mean corrections and input-dependent (heteroscedastic) aleatoric uncertainty, while epistemic uncertainty is estimated via an ensemble of independently trained models.   The proposed approach is trained under nominal conditions and evaluated in both nominal and structured perturbations that include additive and temporally correlated noise. Gradient-based attribution methods are applied to both the correction and uncertainty outputs, enabling a decomposition of the evidence that drives state updates and uncertainty estimates. By aggregating attribution patterns across rotational axes and regimes, we reveal axis-specific behaviors and characterize how structured perturbations influence the collaboration between aleatoric and epistemic uncertainty.   Uncertainty analysis shows that aleatoric uncertainty increases with perturbation intensity, but the distributions overlap and the calibration is not consistent across regimes. On the other hand, epistemic uncertainty gives a clear signal that gets clearer as the distributional shift happens, showing that the models disagree more. These results show that aleatoric and epistemic uncertainty work well together and that epistemic uncertainty is better at distinguishing between nominal and perturbed operating conditions. The results provide insight into the behavior of hybrid learning-based state estimation components and motivate the use of uncertainty for downstream monitoring and fault detection."
+  },
+  {
+    "title": "Map Multi-Tool: A Map-Based Approach to Modeling Beam Systematics for Cosmic Microwave Background Experiments",
+    "url": "http://arxiv.org/abs/2607.24605v1",
+    "arxiv_id": "2607.24605v1",
+    "authors": [
+      "Cesiley L. King",
+      "Alec Hryciuk",
+      "Jeff McMahon",
+      "Johanna M. Nagy",
+      "John E. Ruhl"
+    ],
+    "published": "2026-07-27T16:06:14+00:00",
+    "summary": "Cosmic microwave background (CMB) experiments use simulations of instrumental systematic effects to ensure high-fidelity measurements of cosmological parameters. Quantifying the expected magnitude of these effects enables experiments to improve designs, set performance requirements, and understand potential measurement biases from residual systematics. Here we present a new simulation framework, called Map Multi-Tool (MMT), which models beam-related systematics for CMB instruments using a map-based approach. The pipeline convolves simulated sky realizations with distorted intensity and polarization beams, including leakage effects, to produce sky maps and power spectra. These outputs can then be used as inputs for cosmological parameter estimators. this framework enables efficient evaluation of such systematic effects. We demonstrate the capabilities of MMT with examples of non-ideal beams induced by electrical readout crosstalk and detector time constant response. The electrical crosstalk example considers eight different schemes for a time-division multiplexed readout architecture, and shows how they lead to different levels of angular power spectrum leakage for row-switching and inductive crosstalk. The detector time constant example demonstrates how associated uncertainties can alter CMB spectra at high multipoles and bias cosmological parameters. These examples illustrate some of MMT's broad capabilities to inform critical design and calibration decisions to mitigate systematic effects in CMB instruments."
+  },
+  {
+    "title": "Coherent Visualization of 2D Scalar Field Contour Ensembles With Probabilistic Latent Space Modeling",
+    "url": "http://arxiv.org/abs/2607.24596v1",
+    "arxiv_id": "2607.24596v1",
+    "authors": [
+      "Cenyang Wu",
+      "Runhao Lin",
+      "Qinhan Yu",
+      "Liang Zhou"
+    ],
+    "published": "2026-07-27T15:59:22+00:00",
+    "summary": "We present a new visualization method for contour ensembles through probabilistic modeling. We aim to improve the coherence between different visual representations, such as contour boxplots and density plots for a 2D scalar field ensemble. We model each ensemble member with a probabilistic representation in the latent space, i.e., a lower-dimensional representation of spatial data features, of a variational autoencoder (VAE). Thereafter, efficient data depth computation and uncertainty-aware clustering are supported based on a matrix of pair-wise similarity measurements of members. We estimate the underlying probability distribution by leveraging the power of VAE to create density plots that align more coherently with member distributions than existing methods. The effectiveness of our method is evaluated through numerical comparisons with existing techniques, and visualization examples of synthetic and real-world ensemble datasets."
+  },
+  {
+    "title": "D-Score: A Spectral Hidden-State Signal for Hallucination Detection in Large Language Models",
+    "url": "http://arxiv.org/abs/2607.24586v1",
+    "arxiv_id": "2607.24586v1",
+    "authors": [
+      "Bianca Raimondi",
+      "Davide Evangelista",
+      "Maurizio Gabbrielli",
+      "Elena Loli Piccolomini"
+    ],
+    "published": "2026-07-27T15:52:33+00:00",
+    "summary": "Large Language Models can produce fluent text that is false, unsupported by the available evidence, or inconsistent with information that appears to be internally represented by the model. We study hallucination detection from the geometry of hidden activations and introduce the D-Score, a simple spectral statistic computed from a single forward pass. For a fixed model, layer, and tolerance parameter, the D-Score counts how many singular directions of the hidden activation matrix have singular values that remain close to the leading one. We use this quantity as a hallucination score, classifying an input text as hallucinated when its D-Score is larger than a pre-defined quantity. The motivation is that, when a model processes a text that conflicts with information available in its own internal state, the hidden representation may encode both the asserted content and some form of counter-evidence, uncertainty, correction, or lack of support; this can make the hidden trajectory spread across additional singular directions. We formalize this intuition through a lightweight spectral argument and evaluate the resulting detector on FAVA-Annotation and RAGTruth. The experiments indicate that the D-Score is a strong hidden-state signal for hallucination detection, while requiring no external verifier, no retrieval step, and no multiple generations."
+  },
+  {
+    "title": "CADER: Confidence-Aware Dynamic Evidence Reasoning for Long-Video Understanding",
+    "url": "http://arxiv.org/abs/2607.24582v1",
+    "arxiv_id": "2607.24582v1",
+    "authors": [
+      "Jinlong Yang",
+      "Wenhao Zhang",
+      "Kuanwei Lin",
+      "Sijie Cheng"
+    ],
+    "published": "2026-07-27T15:49:42+00:00",
+    "summary": "Long-video understanding increasingly relies on large vision-language models and tool-augmented reasoning, but most systems apply the same inference procedure to every example regardless of difficulty. This uniform strategy invokes unnecessary tool-assisted processing for easy questions and provides limited control when difficult questions require fine-grained temporal evidence. We propose CADER (Confidence-Aware Dynamic Evidence Reasoning), a training-free framework for adaptive and reliable long-video reasoning. CADER first performs global reasoning over uniformly sampled frames and estimates answer confidence with a logit-margin signal, allowing high-confidence examples to exit early. For uncertain examples, CADER activates a second-stage tool-augmented loop that combines temporal cropping, lightweight semantic verification, and Relevance-Guided Resampling to progressively localize question-relevant evidence. This design treats tool use as a sample-level decision: a single global pass handles easy cases, while additional reasoning is reserved for examples where uncertainty suggests that more evidence is needed. Experiments on multiple VideoQA benchmarks show that CADER improves long-video reasoning while bypassing Stage~2 for high-confidence samples. Moreover, when applied to a backbone trained only with tool-free chain-of-thought supervision, CADER achieves competitive performance against specialized tool-augmented frameworks, suggesting a practical inference-time route for adaptive long-video reasoning."
+  },
+  {
+    "title": "Constraining young massive cluster properties with radio-continuum observations: The Arches cluster",
+    "url": "http://arxiv.org/abs/2607.24580v1",
+    "arxiv_id": "2607.24580v1",
+    "authors": [
+      "M. Cano-Gonz\u00e1lez",
+      "R. Sch\u00f6del",
+      "A. Alberdi",
+      "F. Najarro",
+      "J. Mold\u00f3n",
+      "M. P\u00e9rez-Torres",
+      "F. Nogueras-Lara"
+    ],
+    "published": "2026-07-27T15:49:14+00:00",
+    "summary": "The Arches cluster, located in the Galactic Centre (GC) is one of the best astrophysical laboratories to study the properties of massive stars and young massive clusters (YMCs). However, several fundamental parameters of the Arches cluster remain uncertain.   Our goal is to constrain key cluster parameters (cluster age, mass, and initial mass function, IMF) by comparing the observed stellar radio flux density distribution of the Arches cluster to those derived from a set of synthetic clusters.   We use the deep X-band (10 GHz) Very Large Array data from our previous radio continuum study of the Arches cluster. We model each simulated cluster with three parameters: age, mass, and IMF slope. We use three different stellar evolutionary models: GENEC, PARSEC, and MIST at two different metallicities, solar ($Z=0.014$) and super-solar ($Z=0.020$). We run Markov-chain Monte-Carlo simulations for each model/metallicity combination in order to explore parameter space.   All models and metallicities return preferred ages in the $2\\lesssim t_{\\rm age}/{\\rm Myr}\\lesssim 3$ range. We obtain an IMF slope of $\u03b1_{\\rm IMF}=-1.85^{+0.28}_{-0.20}$, averaged over all models, where uncertainties are dominated by the degeneracy between cluster mass and IMF slope. If we use the IMF slope from previous infrared studies as prior, the cluster mass distributions peak at $\\sim2.7\\times10^4\\, M_\\odot$ and we can establish a lower limit at $\\gtrsim2\\times10^4 M_\\odot$ for the Arches cluster mass.   Radio continuum observations of their most massive stars can be used to constrain YMC parameters. In the case of the Arches cluster, age can be determined regardless of prior spectroscopic information, which can be useful to characterise newly discovered YMCs in the GC. Our results support the idea that a top-heavy IMF may be preferred in the GC or in YMCs in general."
+  },
+  {
     "title": "Twins: Learn to Predict Unified Representations with Focal Loss",
     "url": "http://arxiv.org/abs/2607.22531v1",
     "arxiv_id": "2607.22531v1",
