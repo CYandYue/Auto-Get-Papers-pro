@@ -1,5 +1,125 @@
 [
   {
+    "title": "Robust quantum state certification and uncertainty principles for total influence",
+    "url": "http://arxiv.org/abs/2607.27184v1",
+    "arxiv_id": "2607.27184v1",
+    "authors": [
+      "Andrea Coladangelo",
+      "Jerry Li",
+      "Joseph Slote"
+    ],
+    "published": "2026-07-29T17:53:23+00:00",
+    "summary": "We show that nonadaptive single-qubit Pauli measurements suffice to test whether an unknown $n$-qubit state $\u03c1$ is $\\varepsilon$-close to or $O(\\varepsilon)$-far from an ideal target state $|\u03c8\\rangle$, for all but a $2^{-\u03a9(n)}$ fraction of target states. The test uses $O(\\varepsilon^{-2}\\log(1/\u03b4))$ copies of $\u03c1$ to achieve confidence $1-\u03b4$, which is information-theoretically optimal even among protocols with arbitrary joint measurements.   The main technical innovation is an uncertainty principle for weighted generalizations of the total influence of Boolean functions. As a simple example, the unweighted variant states that $\\mathbf{Inf}[f]+\\mathbf{Inf}[\\widehat{f}] = \u03a9(n)$, which is a natural hypercube analogue of the Heisenberg uncertainty principle (here $\\widehat{\\,\\cdot\\,}$ denotes the $2^{-n/2}$-normalized Fourier transform). The weighted case generalizes $\\mathbf{Inf}[\\,\\cdot\\,]$ and $\\mathbf{Inf}[\\,\\widehat{\\,\\cdot\\,}\\,]$ to Dirichlet energies associated with Glauber dynamics for certain dual measures on the cube."
+  },
+  {
+    "title": "Searching for signatures of inflationary massive fields in DESI Imaging data and Stage-V galaxy surveys",
+    "url": "http://arxiv.org/abs/2607.27175v1",
+    "arxiv_id": "2607.27175v1",
+    "authors": [
+      "Walter Riquelme",
+      "Santiago Avila",
+      "Lucas Pinol",
+      "Hui Kong",
+      "Anna Porredon"
+    ],
+    "published": "2026-07-29T17:47:24+00:00",
+    "summary": "We investigate the cosmological imprints of massive fields during inflation through primordial non-Gaussianity (PNG). When these fields are sufficiently light, they produce a signal in galaxy clustering, $\\propto f_{\\rm NL,\u0394}k^{\u0394-2}$ with $\u0394\\in(0,3/2]$, corresponding to a beyond-local PNG contribution to the scale-dependent bias. We use the angular correlation function to constrain $f_{\\rm NL,\u0394}$ and $\u0394$ using imaging data used for the targeting of the Dark Energy Spectroscopic Instrument (DESI). For the most aggressive systematics treatment, there is no evidence for local PNG, hence no constraint on $\u0394$. However, when considering a less aggressive treatment, a hint is found with $f_{\\rm NL}^{\\rm loc}=27^{+10}_{-9}$, consistent with previous analyses. For beyond-local PNG, that signal gives a preference for $f_{\\rm NL, \u0394}=5.12^{+6.13}_{-3.62}\\times10^{3}$ and $\u0394=0.91^{+0.25}_{-0.19}$. This preference is not robust under decontamination choices, likely driven by residual systematics, and we present it as a showcase for future constraints. Additionally, we forecast the sensitivity of upcoming Stage-V surveys, the Wide-field Spectroscopic Telescope (WST), the MUltiplexed Survey Telescope (MUST), and the Spectroscopic Stage 5 Experiment (Spec-S5), to constrain $\u0394$ using Lyman-break galaxies. Around the local limit, $\u0394^{\\rm fid}=0$, we find that they can reach uncertainties of $\u03c3(\u0394)\\simeq0.17-0.50$, depending on the survey, for a fiducial $f_{\\rm NL,\u0394}^{\\rm fid}=4$. The constraining power on $\u0394$ increases as we increase $f_{\\rm NL,\u0394}^{\\rm fid}$ and decreases for larger fiducial $\u0394$. Finally, we derive a relation between the detectability of $\u0394$ and the local PNG constraints, $\u03c3(f_{\\rm NL}^{\\rm loc})$. This provides a tool to estimate the survey sensitivity required to resolve massive-field signatures."
+  },
+  {
+    "title": "An Interpretable Low-Rank State-Space Model for Multi-Horizon Simulation of Large-Scale Regional Temperature Fields",
+    "url": "http://arxiv.org/abs/2607.27160v1",
+    "arxiv_id": "2607.27160v1",
+    "authors": [
+      "Varun Kotharkar",
+      "Michael L. Stein"
+    ],
+    "published": "2026-07-29T17:36:36+00:00",
+    "summary": "We propose an interpretable low-rank state-space model for conditional simulation of daily regional temperature fields. The central statistical question is whether empirical orthogonal functions (EOFs) can be treated as stable large-scale features of the field rather than only as sample-dependent basis vectors for dimension reduction. The framework represents the dominant temperature field through a small number of retained EOF coefficients, models their seasonal mean and variance structure, propagates the resulting low-dimensional state with stable multivariate dynamics, and uses structured innovations to represent the remaining uncertainty. The resulting reduced-rank model is interpretable, computationally efficient, and suitable for iterative ensemble generation. It is designed to support both inference on the structure of the retained temperature state and prediction through multi-horizon probabilistic field simulation."
+  },
+  {
+    "title": "Two-Filter Adaptive Gaussian Mixture Smoothing for Nonlinear Systems",
+    "url": "http://arxiv.org/abs/2607.27151v1",
+    "arxiv_id": "2607.27151v1",
+    "authors": [
+      "Benjamin Schneiderheinze",
+      "Andrea De Vittori",
+      "Keith A. LeGrand",
+      "Jill Bruer"
+    ],
+    "published": "2026-07-29T17:25:49+00:00",
+    "summary": "Space object tracking poses challenging estimation problems due to the significantly non-Gaussian distributions that can arise, particularly under highly nonlinear dynamics or during periods of measurement unavailability. Adaptive Gaussian mixture filters can dynamically adjust their mixture resolution to systematically approximate these non-Gaussian distributions, but challenging estimation problems can still produce highly uncertain or inaccurate estimates, especially during prolonged observation gaps. Smoothing algorithms can significantly improve filtered estimates by incorporating future measurement information for applications where immediacy is not required, but smoothing in nonlinear, non-Gaussian settings poses additional theoretical and computational challenges. This work develops a new recursive Bayesian smoothing algorithm for nonlinear systems that refines Gaussian mixture posteriors produced by a forward adaptive Gaussian mixture filter. A two-filter smoothing approach approximates the future measurement information by an information-form Gaussian mixture in the state variable. Techniques from nonlinear Gaussian mixture filtering including splitting, merging, and recursive measurement updating are also incorporated to improve the accuracy and computational efficiency of this approximation. The proposed smoother's estimation capabilities are demonstrated on space object tracking problems for Molniya and Earth-Moon halo orbits and shown to significantly reduce estimation error and uncertainty compared to the forward filter."
+  },
+  {
+    "title": "Cost-Sensitive Conformal Prediction and Human-in-the-Loop Abstention for Imbalanced High-Stakes Decision Support: A Multi-Domain Benchmark",
+    "url": "http://arxiv.org/abs/2607.27143v1",
+    "arxiv_id": "2607.27143v1",
+    "authors": [
+      "Manpreet Singh",
+      "Akshatha Srikantha",
+      "Shyamal Lakhanpal"
+    ],
+    "published": "2026-07-29T17:15:33+00:00",
+    "summary": "High-stakes decision systems in credit scoring, fraud detection, healthcare, and industrial safety require reliable uncertainty quantification under severe class imbalance and asymmetric error costs. Standard marginal conformal prediction (CP) provides valid overall coverage guarantees; however, we show that it severely under-covers rare, costly minority classes, with minority-class coverage dropping to as low as 0.5% on certain datasets. To characterize and address this limitation, we conduct a comprehensive benchmark comparing marginal CP, class-conditional (Mondrian) CP, and cost-controlled abstention mechanisms across 15 real-world imbalanced tabular datasets, 7 classification models, 3 probability calibration techniques, and 10 random seeds, resulting in 3,150 experimental runs. Our results show that Mondrian CP restores valid minority-class coverage, achieving an average minority-coverage improvement of 61.7 percentage points over marginal CP (p < 1e-80). Furthermore, combining Mondrian CP with cost-controlled abstention significantly reduces expected decision cost compared with standard decision boundaries, confidence-based rejectors, and risk-controlled rejectors under realistic human review budgets. We further quantify dataset-specific break-even thresholds at which deferring ambiguous instances to human experts becomes cost-effective. These findings provide practical guidance for deploying distribution-free, cost-aware uncertainty quantification in high-stakes decision support systems."
+  },
+  {
+    "title": "How Divorce Reforms Induced Married Couples to Supply More Labor",
+    "url": "http://arxiv.org/abs/2607.27142v1",
+    "arxiv_id": "2607.27142v1",
+    "authors": [
+      "Yedilkhan Baigabulov"
+    ],
+    "published": "2026-07-29T17:15:24+00:00",
+    "summary": "This paper studies the dynamic effects of divorce legislation on the labor supply behavior and welfare of married couples. Using U.S. household panel data, I examine the transition from the \"Title-based Regime\" (TBR) in the 1970s to the \"Equitable Distribution Regime\" (EDR) in the 1980s. Under the former regime, marital assets are split based on formal ownership rights, allowing spouses to commit ex ante to a future asset allocation in the event of divorce. The shift to EDR, where courts more equitably divide marital assets, interacted in two ways with household uncertainty. First, because the court chooses the division of assets, households can no longer commit to a future asset allocation. Second, because the court's decision is not fully predictable, the policy introduces a new source of uncertainty. For these reasons, EDR increased the incentives for both spouses to self-insure by working to accumulate precautionary savings during marriage. Using a staggered difference-in-differences design, I confirm empirically that both married men and women increased labor supply in response to the policy change, with the women's increase equal to 30% of the total rise in female labor force participation over the last 70 years. To rationalize and understand the welfare implications of the empirical evidence, I develop and estimate a dynamic model of household labor supply, savings, and divorce. I use the estimated model to show that EDR may have inadvertently reduced the welfare of both spouses even while married."
+  },
+  {
+    "title": "Tackling the uncertainty of the nuclear-polarization correction to the bound-electron $g$ factor by means of the nuclear Skyrme interaction",
+    "url": "http://arxiv.org/abs/2607.27096v1",
+    "arxiv_id": "2607.27096v1",
+    "authors": [
+      "Arnab Choudhury",
+      "Igor A. Valuev"
+    ],
+    "published": "2026-07-29T16:24:49+00:00",
+    "summary": "The Coulomb part of the leading-order nuclear-polarization correction to the bound-electron $g$ factor of hydrogenlike ions is investigated in a microscopic approach from the nuclear point of view. To this end, the effective Skyrme force is employed to model nucleon-nucleon interactions, with the energies and the reduced transition probabilities of collective nuclear excitations being obtained in the Hartree-Fock-based random-phase approximation. These nuclear parameters serve as input for the nuclear-polarization correction, evaluated via effective self-energy diagrams where the photon propagator is modified by a nuclear-polarization insertion. A diverse set of Skyrme parameterizations is probed for $^{40}\\text{Ca}^{19+}$, $^{60}\\text{Ni}^{27+}$, $^{90}\\text{Zr}^{39+}$, and $^{120}\\text{Sn}^{49+}$, and the results are compared to the common approach involving experimental nuclear data and estimates based on energy-weighted sum rules. As a result, tighter constraints on the theoretical uncertainties of the nuclear-polarization corrections are obtained, providing key input for high-precision measurements of the bound-electron $g$ factors of heavy hydrogenlike ions."
+  },
+  {
+    "title": "BayesAME: Bayesian Active Model Evaluation",
+    "url": "http://arxiv.org/abs/2607.27023v1",
+    "arxiv_id": "2607.27023v1",
+    "authors": [
+      "Paula Cordero Encinar",
+      "Taylan Cemgil",
+      "Arnaud Doucet",
+      "Virginia Aglietti",
+      "Silvia Chiappa"
+    ],
+    "published": "2026-07-29T15:20:39+00:00",
+    "summary": "Evaluating large generative models across benchmarks is time-consuming and computationally expensive. This drives the need for methods that can estimate full benchmark performance by evaluating models on only a subset of items, known as a coreset. Current literature mostly requires the practitioner to input a coreset size. However, when reliable performance estimation takes priority over efficiency, an evaluation method should also be capable of automatically determining a coreset size that reflects this priority. We introduce BayesAME, a sequential Bayesian framework specifically targeting automatic determination of the coreset size. BayesAME models performance as a random variable by defining a latent ability for each group of items sharing the same historical model performances, with a joint prior distribution encoding the belief that the target model behaves similarly to these historical models. The posterior distribution over these abilities is used to derive performance estimators, quantify performance uncertainty, and select items to add to the coreset via an information-gain criterion. The coreset is iteratively augmented until the performance estimate fluctuation and the performance uncertainty fall below their respective user-defined thresholds. We propose a multi-target extension that captures performance correlations across multiple target models to further reduce the coreset size. Through extensive experiments across diverse benchmarks, we demonstrate that BayesAME consistently outperforms sequential adaptations of existing methods. Crucially, our comprehensive analysis addresses recent skepticism in the literature, establishing that non-random coreset selection is advantageous over random selection. Finally, we highlight that leveraging continuous response log-likelihoods over traditional binary scores significantly enhances estimation accuracy."
+  },
+  {
+    "title": "Dynamic Storage Operation Under Uncertainty and the Reliability Externality: Implications for Capacity Investments",
+    "url": "http://arxiv.org/abs/2607.27021v1",
+    "arxiv_id": "2607.27021v1",
+    "authors": [
+      "Daniel Shen",
+      "Marija Ilic",
+      "John Parsons"
+    ],
+    "published": "2026-07-29T15:19:59+00:00",
+    "summary": "Energy storage is increasingly relied upon to meet short-term demand uncertainties from renewable variability and electrification. Unlike conventional generators, storage's contribution to reliability is policy-dependent and balances near-term arbitrage against future scarcity risk. We study how demand uncertainty alters such dynamic storage operation and how these operating decisions propagate into long-run investment outcomes. We formulate storage operation as an average-cost Markov decision process and embed the resulting stationary policies into a stylized capacity expansion framework. Demand uncertainty induces a precautionary storage policy which hedges against stochastic scarcity, leading to materially different post-storage demand distributions relative to perfect-foresight benchmarks. We additionally demonstrate that the reliability externality characteristic of electricity markets interacts with uncertainty in a manner that uniquely distorts both storage operation and investment."
+  },
+  {
+    "title": "Universality of dual mass-scaled fundamental modes in two-fluid neutron stars with mirror dark matter",
+    "url": "http://arxiv.org/abs/2607.27005v1",
+    "arxiv_id": "2607.27005v1",
+    "authors": [
+      "Hajime Sotani",
+      "Ankit Kumar"
+    ],
+    "published": "2026-07-29T15:00:16+00:00",
+    "summary": "Universal relations provide a particularly useful way to extract physical information from neutron star observables in the presence of various uncertainties by reducing the dependence on uncertain model parameters and microphysical inputs. In this study, we examine the oscillation frequencies of mirror dark matter admixed neutron stars using a two-fluid description, where the outer and inner fluids give rise to two distinct fundamental frequencies. We confirm that the universal relation between the mass-scaled fundamental frequency of the outer-fluid-led mode and the stellar compactness, established previously for self-interacting dark matter admixed neutron stars, also holds in the mirror dark matter scenario. However, this universal relation becomes less robust when metric perturbations are included, compared with the corresponding results in the Cowling approximation. We further find that the inner-fluid-led fundamental frequency can also be expressed as a compactness-dependent relation that is largely independent of the normal matter equation of state, provided that the dark matter mass fraction is fixed. These results suggest that the simultaneous detection of the two fundamental frequencies could provide a way to constrain the dark matter mass fraction, even when the equation of state of normal matter remains uncertain. Finally, we find that the Cowling approximation estimates the fundamental frequency associated with the outer fluid with an accuracy comparable to that found for standard neutron stars without dark matter, while it performs even better for the frequency associated with the inner fluid."
+  },
+  {
     "title": "Spend Experts Where You Are Unsure: Confidence-Adaptive Routing for Mixture-of-Experts LoRA",
     "url": "http://arxiv.org/abs/2607.26052v1",
     "arxiv_id": "2607.26052v1",
