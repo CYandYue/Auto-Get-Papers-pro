@@ -1,5 +1,163 @@
 [
   {
+    "title": "A Four-dimensional Model-agnostic Probe into the Astrophysical Origins of Binary Black Hole Subpopulations",
+    "url": "http://arxiv.org/abs/2607.28622v1",
+    "arxiv_id": "2607.28622v1",
+    "authors": [
+      "Anarya Ray",
+      "Vicky Kalogera"
+    ],
+    "published": "2026-07-30T17:59:19+00:00",
+    "summary": "There is strong evidence of multiple binary black hole~(BBH) subpopulations in the cumulative gravitational wave catalog by the LIGO-Virgo-KAGRA collaboration that likely originate through distinct evolutionary channels. The astrophysical interpretation of this complex underlying population is subject to theoretical uncertainties in treatments of binary stellar evolution, core collapse, and host environments. Due to a lack of robust predictions and the sheer diversity of plausible features, strongly modelled population analyses often lead to prior-driven conclusions. On the other hand, flexible alternatives are often difficult to scale in higher dimensions, which can lead to a loss of critical information on astrophysically meaningful correlations. In this \\textit{Letter}, we present the first data-driven reconstruction of the joint four-dimensional distribution of BBH primary masses, mass ratios, effective inspiral and effective precessing spin parameters, which yields novel model-agnostic constraints on the astrophysical origins of BBH subpopulations. We characterize four distinct subpopulations spanning different ranges of BBH masses and report new correlations in these specific mass ranges that are beyond the reach of strongly modeled parametrizations and lower-dimensional data-driven frameworks. Our results unveil novel insights into the abundances of specific subchannels of isolated binary evolution, dynamical assembly, and hierarchical mergers across various mass ranges in the astrophysical BBH population."
+  },
+  {
+    "title": "LISA Reconstruction Landscape for Metastable Cosmic Strings",
+    "url": "http://arxiv.org/abs/2607.28592v1",
+    "arxiv_id": "2607.28592v1",
+    "authors": [
+      "Satyabrata Datta",
+      "Rome Samanta"
+    ],
+    "published": "2026-07-30T17:45:00+00:00",
+    "summary": "We study reconstruction of stochastic gravitational-wave backgrounds from metastable cosmic strings with the Laser Interferometer Space Antenna (LISA). In the vacuum-tunneling benchmark, the network decays via zero-temperature nucleation of monopole pairs on the string worldsheet. Initially following cosmic-string scaling, loop production is suppressed after a decay time linked to efficient loop breaking and network collapse. This finite lifetime imprints an infrared tail and a transition toward a stable-string-like high-frequency plateau. Using synthetic LISA data with instrumental noise and unresolved astrophysical foregrounds, we perform Bayesian analysis in the $(G\u03bc,\u03ba_{\\rm CS})$ parameter space. We map detectability, uncertainties, correlations, and localization to distinguish background detection from parameter reconstruction. Reconstruction is governed by lifetime-dependent spectral features in the LISA band. When LISA samples the transition between tail and plateau, data contain amplitude and shape information, enabling recovery of string tension and metastability scale. Posteriors may remain correlated, reflecting an amplitude--lifetime trade-off, yet occupy a small parameter region. By contrast, featureless spectra constrain only limited parameter combinations or become prior dominated. High-SNR plateau-like spectra can retain partial sensitivity to $\u03ba_{\\rm CS}$ through residual lifetime dependence even when the transition is not prominent. Finally, we assess sensitivity to Galactic foreground modeling by comparing a flexible template with a reduced tanh template. Our results show where LISA can move beyond detection to probe the lifetime of the underlying string network."
+  },
+  {
+    "title": "Dark Matter Constraints from Small-Scale Cosmic Structure",
+    "url": "http://arxiv.org/abs/2607.28564v1",
+    "arxiv_id": "2607.28564v1",
+    "authors": [
+      "Ethan O. Nadler",
+      "Keir K. Rogers",
+      "Alex Drlica-Wagner"
+    ],
+    "published": "2026-07-30T17:30:04+00:00",
+    "summary": "Small-scale cosmic structure provides a powerful test of the fundamental nature of dark matter (DM). A wide range of DM models impact matter clustering on small scales, including warm, fuzzy, and (self-)interacting DM. In these scenarios, DM physics such as free-streaming, wave interference, and self/Standard Model interactions alter the abundance and internal structure of DM halos. Cosmological and astrophysical probes of nonlinear structure---including dwarf galaxies, strong lensing, the Lyman-$\u03b1$ forest, stellar streams, and high-redshift galaxies---are therefore sensitive to these effects. Here, we review DM constraints provided by small-scale structure, focusing on observables that probe scales smaller than $\\sim 1~\\mathrm{Mpc}$, which define the frontier of current measurements. We summarize how these constraints have been translated to limits on microphysical DM models, and we discuss key modeling uncertainties and observational systematics. Finally, we highlight the growing importance of probe combination and simulation-based inference for this field, and we overview upcoming observational facilities that will sharpen small-scale structure tests of DM physics."
+  },
+  {
+    "title": "Joint measurement of cosmic-ray muons and seismic w av es at laboratory scale",
+    "url": "http://arxiv.org/abs/2607.28547v1",
+    "arxiv_id": "2607.28547v1",
+    "authors": [
+      "J. Matsushima",
+      "M. Kodama",
+      "M. Y. Ali",
+      "F. Bouchaala",
+      "M. Kodama",
+      "H. K. M. Tanaka",
+      "T. Kin",
+      "H. Basiri",
+      "T. Yokota",
+      "M. Suzuki"
+    ],
+    "published": "2026-07-30T17:15:58+00:00",
+    "summary": "Current geophysical exploration methods face challenges in accurately determining gas saturation levels and elastic constants with adequate spatial resolution. Seismic wave velocity is a critical physical property in these techniques, but it introduces uncertainties because of its composite nature involving density and two elastic constants (e.g. bulk and shear modulus), which exhibit a trade off relationship. We propose a novel approach that integrates cosmic ray muon detection with seismic exploration to independently resolve P and S wave velocities into their constituent elastic constants and densities. First, we utilized a fluid substitution approach based on Gassmann s model to illustrate the benefits of incorporating density information in predicting gas saturation levels in pores. This supports the advantage of decomposing seismic wave velocity into density and two elastic constants. Second, to validate the applicability and performance of the proposed method, which involves separating seismic wave velocity into density and two types of elastic constants, muon and ultrasonic data were collected in laboratory experiments on two different targets: an acrylic block and an aluminium block. Upon muon observation, a relationship is established to convert muon flux into density length, considering the characteristics of the building housing the laboratory and the direction of muon arrival at specific positions within the building. Although there is potential for enhancing the accuracy of the derived physical properties such as density, bulk modulus, and shear modulus, the feasibility of this method has been successfully demonstrated at the laboratory scale."
+  },
+  {
+    "title": "Reliability-calibrated deep residual full-waveform inversion using geometry-invariant physics encoding: synthetic validation and zero-shot Marmousi-2 testing",
+    "url": "http://arxiv.org/abs/2607.28535v1",
+    "arxiv_id": "2607.28535v1",
+    "authors": [
+      "Deepak Kumar",
+      "Jayant Nath Tripathi",
+      "Laxmidhar Behera"
+    ],
+    "published": "2026-07-30T17:03:17+00:00",
+    "summary": "Neural networks that map seismic data directly to velocity models tend to memorize the acquisition geometry they were trained on, and their uncertainty estimates are rarely trustworthy once the data drift away from the training distribution. We describe a laptop-scale pipeline that addresses both problems. The network never sees shot gathers. Instead, variable acquisition geometries are mapped into a fixed model-space representation computed by classical physics operators: the starting model, a regularized classical inversion, two misfit-gradient images, and six illumination and wavenumber-coverage maps from fast-marching traveltimes. The learned component is not a replacement for FWI; it is a calibrated residual corrector applied to this physics-derived prior. A six-member heterogeneous ensemble with per-pixel variance heads is calibrated by physics-conditioned conformal prediction, giving finite-sample pixel-wise marginal coverage on the calibration distribution. Beyond that distribution, a held-out-shot physics audit simulates shots the inversion never used through samples of the predictive distribution and rescales interval width where their data-space coverage peaks; no ground truth is involved. On a corpus of 1000 synthetic models spanning six acquisition families, the ensemble reduces error by 38% relative to its classical prior and transfers to never-seen geometries without measurable degradation. Applied zero-shot to the full 17 km Marmousi-2 line, it lowers the error from 354 to 304 m/s while raw coverage collapses to 0.42; the audit restores coverage to 0.89-0.91 across eleven corruption conditions covering noise, wavelet error, and shot decimation, and its peak height cleanly separates physics mismatch from benign corruptions. Budget-matched gather-based baselines underperform substantially off their training acquisition. Code and checkpoints will be archived on Zenodo."
+  },
+  {
+    "title": "Uncertainty-Aware Tidal Disruption Event Classification : A Host-Agnostic Probabilistic Random Forest Approach",
+    "url": "http://arxiv.org/abs/2607.28510v1",
+    "arxiv_id": "2607.28510v1",
+    "authors": [
+      "Vysakh Anilkumar",
+      "Sjoert van Velzen",
+      "Marek Kowalski",
+      "Simeon Reusch"
+    ],
+    "published": "2026-07-30T16:49:06+00:00",
+    "summary": "The classification of Tidal Disruption Events in large-scale photometric surveys is challenging because deterministic machine learning models produce overconfident misclassifications under varying data quality and low signal-to-noise conditions. Existing lightcurve-based approaches fail to incorporate measurement uncertainties, consequently generating brittle outputs. We present a host-agnostic, uncertainty-aware classification framework using a Probabilistic Random Forest (PRF). Our pipeline extracts 11 characteristic features from nuclear transients in the ZTF alert stream, including rise and decay timescales, blackbody temperature evolution, and pre-transient variability metrics. Relying exclusively on photometric data without host galaxy information ensures effectiveness for the faint transient population expected from the Rubin Observatory. The PRF, which treats feature measurements as distributions, was evaluated against XGBoost through Leave-One-Out Cross-Validation. It yields higher stability and robustness for ambiguous candidates than XGBoost. The two classifiers occupy complementary regimes. XGBoost achieves higher recall in balanced and high-precision scenarios, where its rigid decision boundaries efficiently isolate TDE-like sources, while PRF rejects more false positives by penalizing sources with large feature uncertainties. Applying this framework to archival data identified 11 new candidate TDEs from the unclassified population and 3 potential photometric TDEs within existing training labels previously misclassified as supernovae or active galactic nuclei. This work demonstrates that TDEs can be reliably identified using photometric lightcurve features, providing a host-independent framework. Uncertainty-aware, probabilistic classifiers are essential for the Rubin era to prevent the overconfident misclassifications inherent in deterministic models at low signal-to-noise."
+  },
+  {
+    "title": "DB-Bench: Benchmarking Deblenders for LSST DESC Using the Blending ToolKit",
+    "url": "http://arxiv.org/abs/2607.28475v1",
+    "arxiv_id": "2607.28475v1",
+    "authors": [
+      "Aidan Berres",
+      "Grant Merz",
+      "Xin Liu",
+      "the LSST Dark Energy Science Collaboration"
+    ],
+    "published": "2026-07-30T16:28:19+00:00",
+    "summary": "Blending will be a major source of systematic uncertainty in downstream science analyses of LSST data. We benchmark the performance of several deblenders, leveraging the Blending ToolKit (BTK) to perform rigorous, end-to-end testing. This benchmark incorporates key deblending algorithms, including SourceExtractor, SCARLET, and DeepDISC, with the goal of comparing their effectiveness in handling blended galaxy images from LSST/Rubin simulations. A key focus is characterizing algorithm performance in the regime of unrecognized blends, where multiple galaxies are misidentified as a single object, as these cases introduce systematic biases that propagate into downstream cosmological analyses for galaxy surveys. By utilizing BTK's ability to create customized, reproducible blends, we systematically test these deblenders against different blending conditions, such as source separation and brightness. The toolkit's standardized evaluation metrics, including detection precision, segmentation accuracy, and source reconstruction, are comprehensive assessments of each algorithm's strengths and limitations. Each deblender has performance caveats that may impact their true performance in real survey conditions. We find that SCARLET has high segmentation and reconstruction performance, whereas DeepDISC has strong detection recall for faint and low-SNR sources, and SourceExtractor has accurate peak finding abilities but low segmentation and reconstruction performance. This benchmark provides valuable insights into the performance of existing deblenders and highlights areas for future development."
+  },
+  {
+    "title": "Quantum Steering and Nonlocal Correlations Between Non-Interacting Delocalized Electrons Under Rashba Spin-Orbit Interaction",
+    "url": "http://arxiv.org/abs/2607.28450v1",
+    "arxiv_id": "2607.28450v1",
+    "authors": [
+      "Zakaria Bouafia",
+      "Mostafa Mansour"
+    ],
+    "published": "2026-07-30T16:17:20+00:00",
+    "summary": "We investigate quantum steering and nonlocal correlations between two electrons in a two-dimensional electron gas (2DEG) as functions of Rashba spin-orbit interaction (RSOI) strength and inter-electron separation. We focus particularly on the Bi/Ag(111) system characterized by its strong RSOI ($\u03b1_0 = 3.05\\times10^{-11}$ eV~m), and we explore the influence of tuning intensity of RSOI and inter-electron distance on the dynamics of Bell nonlocality, uncertainty-induced nonlocality and steering. We find that, although increasing $\u03b1_R$ initially suppresses quantum correlations, all three metrics exhibit a non-monotonic recovery as functions of $\u03b1_R$, peaking near an optimal coupling strength $\u03b1_R = 4.32\\times10^{-11}$~eV~m across the range of inter-electron separations considered. This finding establishes RSOI as a critical control parameter for stabilizing quantum properties in two-dimensional electron gases against the decay of quantum correlations with inter-electron separation, and shows that the suppression and recovery of quantum resources within the Bi/Ag(111) system can be controlled by adjusting the inter-electron distance and carefully tuning the RSOI strength."
+  },
+  {
+    "title": "Hand-Object Interaction in the Age of Large Foundation Models:Reconstruction, Generation, and Embodied Transfer",
+    "url": "http://arxiv.org/abs/2607.28394v1",
+    "arxiv_id": "2607.28394v1",
+    "authors": [
+      "Weiquan Lin",
+      "Yu Deng",
+      "Shiyang Liu",
+      "Luping Xiao",
+      "Xu Tang",
+      "Junzhi Yu",
+      "Jiaolong Yang",
+      "Lei Zhang",
+      "Xingyu Chen"
+    ],
+    "published": "2026-07-30T15:48:16+00:00",
+    "summary": "Hand-object interaction (HOI) modeling remains challenging because it requires joint reasoning about hand articulation, object geometry, contact, semantics, and dynamics under severe visual uncertainty. Foundation models introduce transferable prior knowledge learned from large-scale cross-domain data, offering new ways to address these challenges beyond task-specific data and models. However, the rapidly growing literature remains fragmented, and existing studies typically describe these methods simply as ``using large models'' without systematically characterizing what knowledge is introduced, where it enters the HOI pipeline, or which HOI uncertainty it helps reduce. This survey presents the first systematic review of foundation-model priors for HOI. We organize the literature into six HOI tasks spanning reconstruction and generation. More importantly, we establish a taxonomy of eight foundation-model sub-priors grouped into geometric, semantic, and visual families. Geometric priors encompass shape retrieval, shape reconstruction, and spatial reconstruction; semantic priors include semantic grounding and language reasoning; and visual priors cover visual representation, image generation, and video generation. Based on this taxonomy, we systematically analyze how different priors are represented, injected, and adapted across HOI pipelines and tasks. Beyond how foundation models empower HOI, we further examine how HOI-derived knowledge is used in robot learning, including human-data pretraining, human-to-robot skill transfer, and HOI-to-robot data generation. Finally, we summarize datasets and evaluation protocols, and discuss limitations and future directions toward more generalizable HOI systems. To support long-term progress, we curate a live repository that continuously aggregates emerging methods and benchmarks."
+  },
+  {
+    "title": "Noise-aware emulation and cross-device validation of neutral atom analog quantum processing units",
+    "url": "http://arxiv.org/abs/2607.28364v1",
+    "arxiv_id": "2607.28364v1",
+    "authors": [
+      "Constantin Dalyac",
+      "Sergi Juli\u00e0-Farr\u00e9",
+      "Lucas Leclerc",
+      "Vittorio Vitale",
+      "Boris Albrecht",
+      "Lucas B\u00e9guin",
+      "Kemal Bidzhiev",
+      "Petru Borta",
+      "Cl\u00e9mence Briosne-Frejaville",
+      "Daniel J. Campbell",
+      "Dorian Claveau",
+      "Makrem Chatti",
+      "Antoine Cornillot",
+      "Julius de Hond",
+      "Anita Devi",
+      "Thomas Eritzpokhoff",
+      "Ga\u00e9tan Herc\u00e9",
+      "Fergus Hayes",
+      "Soufiane Kaghad",
+      "Arun Kumar Abhimanyu",
+      "Lucas Lassabli\u00e8re",
+      "Mauro Mendizabal",
+      "Anton Quelle",
+      "Julien Ripoll",
+      "Henrique Silv\u00e9rio",
+      "Joseph Vovrosh",
+      "Guillaume Villaret",
+      "Adrien Signoles",
+      "Alexandre Dauphin"
+    ],
+    "published": "2026-07-30T15:29:05+00:00",
+    "summary": "Analog quantum processors based on Rydberg atom arrays are a powerful platform for many-body quantum simulation, combinatorial optimization, and graph machine learning. As these devices become increasingly accessible, establishing confidence in their outputs requires predictive models that quantitatively connect microscopic hardware imperfections to empirical results. Here, we present a noise-aware emulation framework that propagates the dominant noise mechanisms throughout the full computation cycle to predict device behavior. We validate the framework by benchmarking two representative protocols, quantum annealing and post-quench dynamics, on three Pasqal quantum processors where classical simulations still provide ground truth. Across all three devices, the measured observables fall within the uncertainty envelopes predicted by the emulator. Beyond reproducing the data, the framework isolates which physical mechanism dominates in each operating regime, provides quantitative guidance for algorithm design and hardware improvements, and establishes a foundation for verifying analog processors in regimes beyond classical reach."
+  },
+  {
     "title": "Robust quantum state certification and uncertainty principles for total influence",
     "url": "http://arxiv.org/abs/2607.27184v1",
     "arxiv_id": "2607.27184v1",
