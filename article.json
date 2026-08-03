@@ -1,5 +1,138 @@
 [
   {
+    "title": "Emulating the nonlinear effects of modified gravity on the matter power spectrum for reconstruction",
+    "url": "http://arxiv.org/abs/2607.29683v1",
+    "arxiv_id": "2607.29683v1",
+    "authors": [
+      "Lanyang Yi",
+      "Kazuya Koyama",
+      "Qi Xiong",
+      "Gong-Bo Zhao"
+    ],
+    "published": "2026-07-31T17:59:05+00:00",
+    "summary": "Including nonlinear information from modified gravity (MG) brings more constraining power to the model-independent reconstruction of MG functions. However, the calculation of the nonlinear matter power spectrum with MGCAMB+ReACT is expensive in repeated likelihood evaluations, which limits the exploration of the high-dimensional parameter space. In this work, we construct a neural-network emulator for the nonlinear correction $R_{\\mathrm{MG}}(k,z)=P_{\\mathrm{MG}}^{\\mathrm{NL}}(k,z)/P_{\\mathrm{MG}}^{\\mathrm{L}}(k,z)$, which is trained with \\texttt{CosmoPower} on approximately $9\\times10^5$ samples and validated with representative spectra, an independent validation set, and MCMC tests with synthetic data. For $\u039b$CDM and moderate MG nonlinear corrections, the emulated power spectra agree with the reference predictions to within $1.5\\%$ over the full scale range considered. For the extreme nonlinear case, the same accuracy is retained for $k<0.8\\,\\mathrm{Mpc}^{-1}$. Over the independent validation set, the mean residual is close to zero, with the $2\u03c3$ scatter below $1\\%$ for $k<0.5\\,\\mathrm{Mpc}^{-1}$ and about $2\\%$ on smaller scales. The synthetic data MCMC analyses recover the input $\u039b$CDM cosmology and the GR limits of the reconstructed MG functions within the posterior uncertainties, showing the accuracy and reliability of the emulator for Stage-IV-like surveys. We also demonstrate three applications: using $R_{\\mathrm{MG}}$ to distinguish models with nearly degenerate linear power spectra, using the emulator for theory predictions for current photometric-survey $3\\times2$pt likelihoods, and forecasting DESI+CSST constraints with principal component analysis."
+  },
+  {
+    "title": "An optimal quadratic estimator for window-free cosmic shear power spectra",
+    "url": "http://arxiv.org/abs/2607.29652v1",
+    "arxiv_id": "2607.29652v1",
+    "authors": [
+      "Taisei Terawaki",
+      "Masahiro Takada"
+    ],
+    "published": "2026-07-31T17:29:15+00:00",
+    "summary": "The pseudo-$C_\\ell$ estimator recovers the true cosmic shear power spectrum by correcting for the survey window convolution while employing inverse-variance weighting based on intrinsic shape noise of source galaxies. However, this weighting scheme is optimal only on small angular scales where shape noise dominates. In this paper, we derive a quadratic estimator for the unwindowed cosmic shear power spectrum by maximizing the Gaussian likelihood of the pixelized galaxy-shape field using the full covariance matrix, which accounts for both sample variance and shape noise. By combining FFTs in the flat-sky approximation, the conjugate-gradient method, and Monte Carlo realizations of Gaussian ancillary fields, we substantially reduce the computational cost of estimating the Fisher matrix, a key ingredient of the estimator that requires repeated inverse-covariance matrix operations. Using Gaussian simulations of shape fields, we validate the method and demonstrate that it can recover the input $E$-mode power spectrum with statistically optimal precision across all angular scales. We then apply the method to shape fields generated from ray-tracing simulations for a $\u039b$CDM cosmology and show that, compared with the pseudo-$C_\\ell$ method, it reduces the statistical uncertainties in the $E$-mode power spectrum by 5--15\\% at multipoles of $\\ell \\lesssim 500$. We further demonstrate that the method significantly suppresses $E$- to $B$-mode leakage across the full multipole range. Our estimator therefore provides a statistically optimal approach for measuring cosmic shear power spectra from wide-area galaxy survey data."
+  },
+  {
+    "title": "Continuous Tuning of the Charge-Phase Uncertainty in a Josephson Junction",
+    "url": "http://arxiv.org/abs/2607.29636v1",
+    "arxiv_id": "2607.29636v1",
+    "authors": [
+      "Irena Padniuk",
+      "Xianzhe Zeng",
+      "Juan Carlos Cuevas",
+      "Joachim Ankerhold",
+      "Klaus Kern",
+      "Christian R. Ast"
+    ],
+    "published": "2026-07-31T17:14:46+00:00",
+    "summary": "Quantum mechanics constrains conjugate observables from being simultaneously measurable with arbitrary precision. In a Josephson junction, these are the transferred electric charge and the quantum-mechanical phase difference between the superconducting domains. Which of them fluctuates determines the supercurrent: a dissipative trickle of single Cooper pairs in one limit, a coherent dissipationless flow in the other. Bridging both regimes in one device remained elusive because the Josephson and charging energies are fixed at fabrication. Here, we use the tunable tunnel junction of a scanning tunneling microscope at millikelvin temperature to vary their ratio continuously over many orders of magnitude. In this way, we monitor the smooth transition between incoherent and coherent Cooper pair flow in a single junction, revealing the quantum-to-classical transition in a controlled way."
+  },
+  {
+    "title": "Late Time Dynamical Dark Energy and the CMB-Distance Ladder Tension",
+    "url": "http://arxiv.org/abs/2607.29562v1",
+    "arxiv_id": "2607.29562v1",
+    "authors": [
+      "George Efstathiou"
+    ],
+    "published": "2026-07-31T15:52:41+00:00",
+    "summary": "The traditional distance ladder measures the standardized peak absolute magnitude M^B of Type Ia supernovae (SNIa). According to the SH0ES collaboration, the distance ladder value of M^B is highly discrepant with the value inferred from the cosmic microwave background (CMB) assuming the LCDM cosmology. This CMB-distance ladder tension is insensitive to the actual late time expansion history of the Universe. To derive a value of the Hubble constant H_0, from M^B requires a cosmological model. However, the magnitude-redshift relation of SNIa provides tight constrains the expansion history. As a consequence, uncertainties in the conversion of M^B into H_0 have no significant impact on the CMB-distance ladder tension. The tentative claim by the Dark Energy Spectroscopic Instrument collaboration for late time evolution of the dark energy equation of state does not alter this conclusion."
+  },
+  {
+    "title": "TerraNova: A Foundation Model for the Anthropocene",
+    "url": "http://arxiv.org/abs/2607.29527v1",
+    "arxiv_id": "2607.29527v1",
+    "authors": [
+      "Carlos Rodriguez-Pardo",
+      "Massimo Tavoni"
+    ],
+    "published": "2026-07-31T15:27:26+00:00",
+    "summary": "A defining problem of the Anthropocene is to model the physical Earth and human societies as one coupled system, yet no learned representation spans their observational breadth. We argue the obstacle is geometric: the physical Earth is measured as continuous fields that ignore political borders, whereas societies are reported for administrative units. Earth-system foundation models serve the first geometry; coupling it to the second has required lossy averaging over borders. We introduce TerraNova, a foundation model trained on 1,024 physical and societal records in their native geometries: 512 gridded Earth-system fields and 512 national indicators. Dedicated encoders represent location, country, time and task, cross-modal transformers fuse them into a shared spatiotemporal state, and a hypernetwork generates a per-query decoder whose evidential head returns a predictive distribution. Two contrastive objectives couple the representation: a population-weighted alignment between each country and coordinates in its territory, and one to pretrained geospatial embeddings carrying image-derived semantics. Read out through that decoder, the representation is competitive with purpose-built geospatial encoders while spanning axes they do not represent (time, oceans and uncertainty) and supporting country-level capabilities. The frozen backbone reconstructs dense fields from sparse observations and adapts to unseen variables in minutes on consumer hardware."
+  },
+  {
+    "title": "A single atom emitting resonance fluorescence into a coherent beam, and its use for non-destructive atom thermometry",
+    "url": "http://arxiv.org/abs/2607.29515v1",
+    "arxiv_id": "2607.29515v1",
+    "authors": [
+      "Tom\u00e1\u0161 Lamich",
+      "Laura Zarraoa",
+      "Sondos Elsehimy",
+      "Morgan W. Mitchell",
+      "Romain Veyron"
+    ],
+    "published": "2026-07-31T15:16:53+00:00",
+    "summary": "Using a far-off-resonance optical dipole trap, we place a single neutral $^{87}$Rb atom in a weak, atom-resonant coherent beam, while also strongly illuminating it from an orthogonal direction to produce resonance fluorescence. The atom-modified coherent beam is then collected and its photon statistics analyzed. We observe first-order interference that can increase or decrease the beam flux, depending on the relative phase of the coherent beam and resonance fluorescence. This confirms predictions of Goncalves et al. [Phys. Rev. A 104, 013724]. The interference visibility is also shown to be a sensitive, time-resolved, non-destructive thermometer: by fitting the resulting photon count distributions, we infer the center-of-mass localization of the atom within the trap. With $1200$ atoms and integration time of $80\\mathrm{ms}$ per atom, we demonstrate temperature uncertainties of $4 %$ for $\\sim 30 \u03bc\\mathrm{K}$ temperatures at $\\sim 200\u03bc\\mathrm{s}$ time resolution."
+  },
+  {
+    "title": "Robust mean field control: an application to optimal execution under composite uncertainty",
+    "url": "http://arxiv.org/abs/2607.29514v1",
+    "arxiv_id": "2607.29514v1",
+    "authors": [
+      "Huafu Liao",
+      "Shuhui Liu",
+      "Chenchen Mou",
+      "Defeng Sun"
+    ],
+    "published": "2026-07-31T15:15:06+00:00",
+    "summary": "We provide a framework for robust mean field control problems that describe multi-dimensional optimal liquidation problems under uncertainty from both the underlying stochastic process and the deterministic model parameters. The verification results are established with Hamilton-Jacobi-Bellman-Isaacs (HJBI) equations where the variables are probability measures and the Hamiltonian nonlinearly involves the joint distribution of position and momentum. Using novel a priori estimates, we establish the well-posedness of the HJBI equations featuring general or quadratic Hamiltonians that are neither displacement convex nor concave in their momentum. The a priori estimates and well-posedness results are extended during their application to optimal liquidation problems, where we allow the Hamiltonian to have derivatives of linear growth and solve the constrained multi-dimensional linear quadratic optimal liquidation problem under composite uncertainty."
+  },
+  {
+    "title": "Homotopy-Aware Corridor Generation without Predefined Reference Paths",
+    "url": "http://arxiv.org/abs/2607.29513v1",
+    "arxiv_id": "2607.29513v1",
+    "authors": [
+      "Haoze Dong",
+      "Minghan Li",
+      "Meng Guo",
+      "Zhongkui Li"
+    ],
+    "published": "2026-07-31T15:15:04+00:00",
+    "summary": "Generating safe corridors is essential for collision-free robotic motion planning, yet most existing methods rely on predefined reference paths, which bias corridor geometry and implicitly limit the homotopy classes that can be explored. We propose a reference-path-free corridor generation framework on graphs of convex sets (GCS) that constructs corridors directly as sequences of convex sets, allowing corridor structure to emerge from the free-space representation rather than from a guiding path. To reason about similarity among corridors, we extend visibility-based deformation from paths to convex-set sequences, enabling the fusion of topologically redundant corridors while preserving distinct alternatives. To overcome the limited adaptability of existing GCS methods based on static global decompositions, we further develop an adaptive multi-scale GCS, in which a sampling-based fine-scale graph supports localized updates and a visibility-based coarse-scale graph enables compact global exploration. The two levels maintain topological consistency, allowing incremental updates without full graph reconstruction under environmental uncertainty. Numerical experiments characterize GCS construction, corridor generation, homotopy-aware exploration, and local updates, showing efficient graph construction, stable trajectory-level performance, and shorter-duration homotopy-aware trajectories than existing baselines. Hardware experiments on ground and aerial robots, including deployment with onboard localization, further validate the framework under translated and previously unknown obstacles."
+  },
+  {
+    "title": "DreamQAS: Learning a Decision-Useful World Model for VQE-Efficient Quantum Architecture Search",
+    "url": "http://arxiv.org/abs/2607.29491v1",
+    "arxiv_id": "2607.29491v1",
+    "authors": [
+      "Jiayang Niu",
+      "Yan Wang",
+      "Jie Li",
+      "Ke Deng",
+      "Azadeh Alavi",
+      "Muhammad Usman",
+      "Yongli Ren"
+    ],
+    "published": "2026-07-31T14:58:23+00:00",
+    "summary": "Reinforcement-learning-based quantum architecture search (RL-QAS) repeatedly optimizes a variational quantum eigensolver (VQE) after extending a circuit, although circuit construction and action legality are deterministic and known. We introduce DreamQAS, a model-based RL framework that preserves these exact circuit dynamics and learns only the expensive post-VQE feedback. A recurrent randomized-prior ensemble predicts an oracle-free score relative to an empirical energy frontier and supports multi-step imagined policy learning over explicit legal circuits. Ranking-based activation, uncertainty-aware pessimism and truncation, and selective real-VQE verification form a reliability-controlled learning loop. Under a common 15,000-episode budget and frozen evaluation for the RL methods, DreamQAS has the lowest mean frozen-policy energy error on four of five molecular tasks and the second-lowest on one. At fine-error targets reached by all seeds of both methods, it uses 1.6x to 2.0x fewer real VQE calls on four tasks and 10.6x fewer on BeH2-8q. Counterfactual action-ranking utility increases across all five tasks, with a mean increase of 0.346 and a 95 percent confidence interval of [0.185, 0.507], while direct greedy and beam use of the same model does not recover the gains of imagined policy learning. Ensemble disagreement also improves risk-coverage over random rejection on all three probed tasks. These results establish a world-model design for QAS whose value lies in decision-useful feedback rather than exact energy prediction."
+  },
+  {
+    "title": "Poverty Mapping: Data, Models and Applications",
+    "url": "http://arxiv.org/abs/2607.29457v1",
+    "arxiv_id": "2607.29457v1",
+    "authors": [
+      "Suoyi Tan",
+      "Mengning Wang",
+      "Yixiu Kong",
+      "Huimin Bai",
+      "Jianguo Liu",
+      "Dirk Brockmann",
+      "Yicheng Zhang",
+      "Xin Lu"
+    ],
+    "published": "2026-07-31T14:23:25+00:00",
+    "summary": "Poverty mapping is increasingly important for monitoring Sustainable Development Goal 1 (SDG 1) of the United Nations 2030 Agenda, which aims to end poverty in all its forms everywhere. Yet timely and fine-resolution poverty estimation remains difficult because conventional census- and survey-based approaches are costly, infrequent, and often sparse precisely where deprivation is most severe. As poverty emerges from complex socioeconomic systems shaped by human mobility, social interactions, infrastructure, and economic activities, emerging computational methods and nontraditional data sources have created new opportunities for poverty estimation and mapping. At the intersection of statistical physics, complex systems science, and data science, these approaches enable poverty estimation at finer spatial and temporal resolutions. This review summarizes the main concepts of poverty and the principal frameworks used to measure it, and examines recent advances on poverty estimation and mapping using satellite imagery, mobile phone data, social media data, and multisource data fusion. The review also discusses persistent challenges related to representativeness, transferability across regions, interpretability, and uncertainty quantification. Finally, the review clarifies both the analytical promise and the practical limits of contemporary poverty mapping."
+  },
+  {
     "title": "A Four-dimensional Model-agnostic Probe into the Astrophysical Origins of Binary Black Hole Subpopulations",
     "url": "http://arxiv.org/abs/2607.28622v1",
     "arxiv_id": "2607.28622v1",
