@@ -1,5 +1,141 @@
 [
   {
+    "title": "SDSS-V Local Volume Mapper (LVM): Dithered Data Cube Reconstruction with 3dcubegen",
+    "url": "http://arxiv.org/abs/2608.02597v1",
+    "arxiv_id": "2608.02597v1",
+    "authors": [
+      "H. J. Ibarra-Medel",
+      "A. Z. Lugo-Aranda",
+      "R. de J. Zerme\u00f1o",
+      "Sebasti\u00e1n F. S\u00e1nchez",
+      "Lesly Casta\u00f1eda-Carlos",
+      "J. Eduardo M\u00e9ndez-Delgado",
+      "K. Kreckel",
+      "Roeland P. van der Marel",
+      "R. Orozco-Duarte",
+      "Aida Wofford",
+      "Castalia Alenka Negrete",
+      "Irene Cruz-Gonz\u00e1lez",
+      "Carlos G. Rom\u00e1n-Z\u00fa\u00f1iga",
+      "Guillermo A. Blanc",
+      "Evelyn J. Johnston",
+      "Ivan Katkov",
+      "Alfredo J. Mej\u00eda-Narv\u00e1ez",
+      "Tony Wong",
+      "Oleg V. Egorov"
+    ],
+    "published": "2026-08-03T17:58:55+00:00",
+    "summary": "The Sloan Digital Sky Survey V (SDSS-V) Local Volume Mapper (LVM) is conducting an unprecedented wide-field integral field spectroscopic survey of the Milky Way, the Magellanic Clouds, and nearby galaxies using a strategy based on multiple dithered observations to achieve full spatial coverage, improved spatial sampling, and enhanced spectral depth. However, the scientific exploitation of these observations requires a robust methodology to combine the individual row-stacked spectra (RSS) into homogeneous three-dimensional data cubes. In this work, we present 3DCubeGen, a flexible and scalable reconstruction tool designed to combine multiple LVM dithers while preserving flux and propagating uncertainties. The method enables the coaddition of large datasets, improving the signal-to-noise ratio, enhancing spatial resolution, and increasing sensitivity to faint emission features, following and extending approaches previously implemented in integral field surveys such as CALIFA. We apply 3DCubeGen to a large set of LVM observations, including the Large and Small Magellanic Clouds and nearby galaxies, combining thousands of dithers corresponding to millions of spectra. The resulting data products demonstrate significant improvements in spatial sampling and spectral depth, enabling detailed studies of the ionised gas, stellar populations, and kinematics across extended regions. 3DCubeGen provides a robust and scalable solution for LVM data cube reconstruction and represents a key tool for exploiting the scientific potential of the SDSS-V Local Volume Mapper."
+  },
+  {
+    "title": "Testing for subgroup treatment effect consistency in the Cox model",
+    "url": "http://arxiv.org/abs/2608.02591v1",
+    "arxiv_id": "2608.02591v1",
+    "authors": [
+      "Lukas Koletzko",
+      "Holger Dette",
+      "Bj\u00f6rn Bornkamp",
+      "Frank Bretz",
+      "Zoe Kristin Lange"
+    ],
+    "published": "2026-08-03T17:57:22+00:00",
+    "summary": "An overall treatment effect in a clinical trial may inadequately represent particular patient subgroups, creating uncertainty about whether a population-level efficacy conclusion can legitimately be transferred to them. Conventional interaction tests only investigate whether subgroup-specific treatment effects are exactly equal or not, but cannot detect whether the differences are small enough to be clinically negligible. We develop a formal framework for assessing subgroup treatment effect consistency for time-to-event outcomes within the Cox proportional hazards model. Consistency is formulated as an equivalence problem based on the (weighted) treatment-by-subgroup interaction coefficient. We consider detecting consistency between two complementary subgroups and consistency of subgroup-specific treatment effects with the overall treatment effect. For each setting, we develop a conventional two one-sided tests procedure (TOST) and a new test motivated by optimal equivalence testing for normally distributed parameters. We prove the asymptotic validity of all procedures and show empirically that the new tests are more powerful than their TOST counterparts. Finally, we apply the new methodology to a case study motivated by the CANTOS cardiovascular outcomes trial."
+  },
+  {
+    "title": "Entanglement of flower states",
+    "url": "http://arxiv.org/abs/2608.02587v1",
+    "arxiv_id": "2608.02587v1",
+    "authors": [
+      "Samrat Sen",
+      "Ludovico Lami"
+    ],
+    "published": "2026-08-03T17:56:25+00:00",
+    "summary": "The mysterious nature of entanglement, one of the most prominent exquisitely quantum phenomena, is reflected in its intricate operational structure, with a hierarchy of classes of free operations that enable its manipulation at different levels of effectiveness. Here we use the class of 'flower states', parametrised by their (even) local dimension $2k$, to shine light on some aspects of this varied landscape. We compute all the main entanglement measures for flower states, uncovering a large gap between all forms of distillable entanglement, equal to 1 ebit independently of the local dimension, and the entanglement cost under local operations and classical communication (LOCC), known to be equal to $\\log\\big(2\\sqrt{k}\\big)$. Even under the strictly more powerful class of non-entangling (NE) operations, we show that their cost is still equal to $\\log\\big(1+\\sqrt{k}\\big)$, only about an ebit less than for LOCCs. This result, which we prove by calculating the recently introduced tempered entanglement negativity for these states, demonstrates the largest known 'irreversibility gap', i.e. the difference between distillable entanglement and entanglement cost, under NE operations, equal to $\u0398\\big(\\frac12 \\log d\\big)$, with $d$ being the local dimension. A notable consequence is that the celebrated squashed entanglement is not a monotone under NE operations. Finally, we compute the exact cost under LOCC operations for flower states; this is given by the Schmidt number, which turns out to be additive over multiple copies and equal to $\\min_{r|k} \\log\\left( r + \\frac{k}{r} \\right)$; for prime $k$ this reduces to $\\log(k+1)$, about twice the standard LOCC cost. These last results leverage the uncertainty relations over cyclic groups proved by Tao and Meshulam."
+  },
+  {
+    "title": "A Joint Bayesian Boolean Matrix Factorization with Application to Chromosomal Copy Number Alterations in Multiple Myeloma",
+    "url": "http://arxiv.org/abs/2608.02550v1",
+    "arxiv_id": "2608.02550v1",
+    "authors": [
+      "Adolphus Wagala",
+      "Samur Mehmet",
+      "Giovanni Parmigiani"
+    ],
+    "published": "2026-08-03T17:35:13+00:00",
+    "summary": "Boolean matrix factorization provides an interpretable framework for discovering latent binary patterns in high-dimensional data, yet existing methods typically analyze a single binary matrix or factorize multiple matrices independently, failing to exploit shared latent structure across related datasets. We propose Joint Bayesian Boolean Matrix Factorization (JBBMF), a model that simultaneously factorizes two related binary matrices through a shared latent Boolean pattern matrix and dataset-specific loading matrices. To capture dependence between paired datasets, we introduce a conditional prior linking the loading matrices, allowing latent factors to persist or change across conditions while preserving a common interpretable representation. The model combines Boolean matrix factorization with a Bernoulli observation model and conjugate priors, yielding closed-form full conditional distributions and an efficient Gibbs sampler for posterior inference,uncertainty quantification for latent factors, reconstructed matrices, and noise parameters. Simulation studies demonstrate that jointly modeling related binary datasets substantially improves recovery of shared latent factors compared with independently applying standard Boolean matrix factorization to each dataset, while maintaining high reconstruction accuracy. We apply JBBMF to paired chromosomal copy number alteration profiles from multiple myeloma patients collected at diagnosis and relapse. The analysis identifies recurrent chromosomal alteration signatures shared between disease stages and quantifies the uncertainty of these findings. \\texttt{JBBMF} offers a flexible and interpretable Bayesian model for the joint analysis of related binary datasets in genomics and other application domains."
+  },
+  {
+    "title": "Do I Even Need a Multilevel Model? Negligible Effect Significance Testing for Intraclass Correlation Coefficients",
+    "url": "http://arxiv.org/abs/2608.02535v1",
+    "arxiv_id": "2608.02535v1",
+    "authors": [
+      "Dayeon Lee",
+      "Gregory R. Hancock"
+    ],
+    "published": "2026-08-03T17:27:31+00:00",
+    "summary": "In applied research, the decision to utilize multilevel modeling (MLM) is commonly guided by comparing a point estimate of the unconditional intraclass correlation coefficient (ICC) against some recommended threshold (e.g., 0.05). This naive approach, however, fails to account for sampling uncertainty and provides no formal inferential justification for a decision. The current work introduces negligible effect significance testing (NEST; or equivalence testing) for the ICC, proposing a framework that performs this test using a pivotal quantity of the ICC based on the F statistic. Furthermore, we offer guidance to help researchers define \"negligible\" that utilizes the design effect to characterize a tolerable level of variance inflation. R code illustrating the proposed procedure is provided."
+  },
+  {
+    "title": "Uncertainty Is Not Enough: Value-of-Information Routing for Mixtures of LoRA Experts",
+    "url": "http://arxiv.org/abs/2608.02528v1",
+    "arxiv_id": "2608.02528v1",
+    "authors": [
+      "Tom Saliencro",
+      "Rohan Desai",
+      "Priya Nair",
+      "Maya Lindqvist",
+      "Daniel Whitmore"
+    ],
+    "published": "2026-08-03T17:24:27+00:00",
+    "summary": "Mixtures of low-rank adaptation experts increase parameter-efficient capacity by routing each input through a subset of adapters. Recent dynamic routers activate more experts when the router or prediction is uncertain. This rule silently equates uncertainty with useful additional computation: an uncertain example may contain complementary, unqueried expert evidence, but it may instead remain ambiguous after every expert agrees. We formulate routing as certified value-of-information allocation. VI-MoLE learns the counterfactual risk remaining after each expert prefix, converts these predictions into simultaneous upper-risk certificates on held-out calibration data, and spends a global adapter budget on the token--layer action with the largest certified marginal risk reduction per unit cost. A terminal certificate then decides whether to answer or abstain. Unlike an uncertainty gate, this procedure distinguishes present ambiguity from recoverable and residual risk. We prove simultaneous certificate validity, optimal greedy allocation under diminishing certified gains, and allocation regret under value-estimation error. The evaluation protocol tests matched-compute accuracy, certificate coverage, risk--coverage, distribution shift, and tail latency against fixed and dynamic MoE-LoRA routers."
+  },
+  {
+    "title": "Analytic Planning under Uncertainty with Moment Closure",
+    "url": "http://arxiv.org/abs/2608.02519v1",
+    "arxiv_id": "2608.02519v1",
+    "authors": [
+      "Shishir Sharma",
+      "Doina Precup"
+    ],
+    "published": "2026-08-03T17:17:00+00:00",
+    "summary": "Effective model-based reinforcement learning in stochastic environments requires planning that accounts for predictive uncertainty. Propagating full state distributions analytically offers a principled way to do this, but has traditionally required restrictive policy or reward structures to remain tractable. Consequently, modern deep reinforcement learning has largely retreated to either stochastic sampling, which introduces significant target variance, or deterministic point estimates that ignore predictive covariance entirely. We investigate whether distribution-aware planning is possible without these constraints. Using a quadratic action-value parameterization, we first reduce the Bellman backup to an expectation over the state-value function alone; the key idea is then a compatibility principle between the predictive transition distribution and the value function class, under which this expectation is analytic in the distribution's moments. We instantiate this principle with a Gaussian transition model paired with a radial-basis value function, yielding a closed-form backup that propagates both predictive mean and covariance. Empirically, our approach reduces target variance and yields well-calibrated predictive uncertainty under stochastic observations in continuous control, providing a principled framework for planning with learned distribution models."
+  },
+  {
+    "title": "Optimizing Minimax Regret in Uncertain MDPs with Small Sets of Policies",
+    "url": "http://arxiv.org/abs/2608.02509v1",
+    "arxiv_id": "2608.02509v1",
+    "authors": [
+      "Sterre Lutz",
+      "Dani\u00ebl Vos",
+      "Matthijs T. J. Spaan",
+      "Anna Lukina"
+    ],
+    "published": "2026-08-03T17:08:02+00:00",
+    "summary": "Sequential decision-making in real-world applications often involves uncertainty about the environment's model. Uncertain Markov decision processes (UMDPs) represent the possible environments as a set of MDPs with shared states and actions but potentially different transition probabilities and rewards. Optimizing a single policy across all possible MDPs may sacrifice performance, while preparing an individually optimized policy for every MDP may violate operational, regulatory, or interpretability constraints on the number of policies that can be prepared and deployed. We consider settings in which model uncertainty is resolved shortly before execution, allowing the most suitable policy to be selected from a limited set prepared in advance. We introduce $k$-adaptable policy synthesis, which optimizes such a set of $k$ policies under a minimax-regret objective. We prove that the problem is NP-hard and develop KAPS, an exact nested branch-and-bound algorithm with problem-specific bounds and heuristics. KAPS jointly optimizes which MDPs share a policy and the policies themselves. Experiments across various UMDP benchmarks show that the largest reduction in regret consistently occurs when increasing from one to two policies. In the single-policy setting, KAPS is competitive with existing methods in solution quality and proves optimality substantially more often."
+  },
+  {
+    "title": "Fermat Active Laplace Learning for Semi-Supervised Hyperspectral Image Classification",
+    "url": "http://arxiv.org/abs/2608.02483v1",
+    "arxiv_id": "2608.02483v1",
+    "authors": [
+      "Vutichart Buranasiri",
+      "James M. Murphy"
+    ],
+    "published": "2026-08-03T16:51:06+00:00",
+    "summary": "Two active learning algorithms for hyperspectral image (HSI) classification are proposed that combine density-aware Fermat distances with Poisson-reweighted harmonic label propagation. Our methods actively query points using an uncertainty-based acquisition function, extending Poisson ReWeighted Laplace Learning (PWLL). Our first algorithm, Fermat Active Laplace Learning (FALL), builds an affinity matrix using Fermat distances between all data points. Then, PWLL is run with a diagonal perturbation using the minimum-norm acquisition function. In contrast, Approximate FALL (A-FALL) computes Fermat distances between each data point and landmark pixels selected via farthest-point sampling and constructs the affinity matrix using landmark multidimensional scaling. After several query rounds, A-FALL selects the Fermat exponent $p$ using a leave-one-out cross-validation variant. FALL and A-FALL leverage Fermat distances and subsequent harmonic label propagation to provide a density-aware estimation of the data manifold, improving labeling accuracy. Experiments on Salinas A and Pavia show the effectiveness of FALL and the scalability of A-FALL to large HSI scenes."
+  },
+  {
+    "title": "Private Generative Bootstrap via Blocking",
+    "url": "http://arxiv.org/abs/2608.02480v1",
+    "arxiv_id": "2608.02480v1",
+    "authors": [
+      "Jinwon Sohn",
+      "Veronika Ro\u010dkov\u00e1"
+    ],
+    "published": "2026-08-03T16:47:14+00:00",
+    "summary": "With AI systems gaining more access to individuals' information, it is important to protect privacy when reporting statistical answers. Equally important is to privatize the reporting of uncertainty in such answers. To this end, we adopt a Bayesian likelihood-free framework and make simulation from the posterior private. In particular, we propose a new private instantiation of the Bayesian bootstrap using a blocking strategy. Rather than assigning idiosyncratic random weights to each individual, we randomly group individuals and assign a single weight to each group. By concealing individuals' contributions within a group, we fortify differential privacy gates. We harness amortized inference that decouples private learning from posterior sampling. A push-forward map from observation weights to posterior samples is learned privately by adding calibrated noise during training. Subsequent posterior draws require no additional privacy and computation budget. We call the resulting method the Private Generative Bayesian Bootstrap (PGBB). We establish a differential privacy guarantee, analyze convergence to the non-private blocked-bootstrap target, and quantify the discrepancy between the ordinary and blocked Bayesian-bootstrap posteriors. In addition, we derive data-free tuning of the block Dirichlet concentration parameter that restores posterior dispersion asymptotically. We also show a single fit of PGBB can support a family of loss-based decision rules simultaneously without additional privacy cost. In simulations and in applications to U.S. Census returns to schooling and U.S. natality birthweight quantiles, PGBB gives competitive private uncertainty quantification and improves over private Bayesian alternatives that require a specified data-generating model in common settings."
+  },
+  {
     "title": "Emulating the nonlinear effects of modified gravity on the matter power spectrum for reconstruction",
     "url": "http://arxiv.org/abs/2607.29683v1",
     "arxiv_id": "2607.29683v1",
