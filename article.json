@@ -1,5 +1,165 @@
 [
   {
+    "title": "Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility",
+    "url": "http://arxiv.org/abs/2608.04001v1",
+    "arxiv_id": "2608.04001v1",
+    "authors": [
+      "Mohsen Hariri",
+      "Weicong Chen",
+      "Nahal Shahini",
+      "Vikash Singh",
+      "Kai Ye",
+      "Amirhossein Samandar",
+      "Debargha Ganguly",
+      "Sreehari Sankar",
+      "Yanyan Zhang",
+      "Shouren Wang",
+      "Jerry Peng",
+      "Biyao Zhang",
+      "Michael Hinczewski",
+      "Vipin Chaudhary"
+    ],
+    "published": "2026-08-04T17:57:20+00:00",
+    "summary": "Large language models can solve substantially harder reasoning problems with more inference-time compute. The term \"test-time scaling,\" however, now covers diverse inference algorithms that extend deliberation along a single trajectory, sample completed candidates and aggregate them through voting or verification, or search over unfinished partial states. These algorithms differ in their statistical structure, compute accounting, and failure modes. Treating these procedures as interchangeable under a single scalar \"budget,\" or reporting accuracy without the inference protocol that produced it, makes results difficult to compare across studies. We develop a systematic account of test-time scaling along three axes. First, we formalize test-time scaling as budgeted inference over the implicit prefix tree of an autoregressive model and distinguish three structural regimes: single-trajectory sequential scaling, leaf-level scaling with terminal reduction, and prefix-level scaling. Second, we treat the evaluated object as the entire inference system and develop evaluation principles that separate end-to-end system performance from candidate-bank diagnostics. We introduce an evaluation profile whose coordinates and simple functionals recover or bound common repeated-sampling metrics, and prescribe protocol-matched reporting of compute and uncertainty. Third, we specify reproducibility requirements for inference protocols, distinguishing exact replay from distributional reproducibility and identifying the artifacts needed to support each. We also organize the open-weight reasoning ecosystem by model-side and interface mechanisms, apply these principles to broad-knowledge, symbolic-reasoning, and competition-mathematics benchmarks, and assemble over 2 billion full reasoning traces for release with progressively richer verifier and token-level signals."
+  },
+  {
+    "title": "Revised exclusion limits on doubly charged Higgs bosons from a reanalysis of the ATLAS multi-lepton search at $\\sqrt{s} = 13$,TeV",
+    "url": "http://arxiv.org/abs/2608.03988v1",
+    "arxiv_id": "2608.03988v1",
+    "authors": [
+      "Kirtiman Ghosh",
+      "Arun Kumar Nayak",
+      "Debabrata Sahoo"
+    ],
+    "published": "2026-08-04T17:51:14+00:00",
+    "summary": "The ATLAS search for pair-produced doubly charged Higgs bosons in multi-lepton final states using the full Run 2 dataset [Eur. Phys. J. C 83 (2023) 605] reports the strongest limits to date on the mass of doubly charged scalars, driven by an essentially background-free four-lepton channel. We show that the four-lepton signal efficiency implied by the auxiliary cutflow of that analysis exceeds a strict, mass-independent upper bound derived from the equal-branching-ratio assumption of the search, the leptonic $\u03c4$ branching fractions, and the ATLAS lepton reconstruction efficiencies. We show that this excess cannot be explained by hadronic $\u03c4$ or jet misidentification without invoking fake rates far above realistic values. We regenerate the signal independently and recompute the exclusion limit, using the corrected signal yields, the ATLAS background predictions and uncertainties, and the same $CL_s$ procedure implemented in pyhf. The resulting expected limit lies systematically above the ATLAS expected limit, by roughly a factor of two or more. This shifts the expected lower mass bound from $1065$ GeV to $\\sim950$ GeV in the left-right symmetric type-II seesaw model, and from $880$ GeV to $\\sim770$ GeV in the Zee--Babu model."
+  },
+  {
+    "title": "Prithvi-Precip: Integrating Satellite Observations into an Atmospheric AI Foundation Model for Precipitation Forecasting",
+    "url": "http://arxiv.org/abs/2608.03959v1",
+    "arxiv_id": "2608.03959v1",
+    "authors": [
+      "Simon Pfreundschuh",
+      "Christian D. Kummerow",
+      "Johannes Schmude",
+      "Sujit Roy",
+      "Rahul Ramachandran",
+      "Tsengdar Lee",
+      "Valentine Anantharaj",
+      "Katherine H. Breen"
+    ],
+    "published": "2026-08-04T17:25:22+00:00",
+    "summary": "Accurate precipitation forecasting remains one of the most challenging problems in weather prediction. While recent AI weather prediction (AIWP) systems have achieved substantial improvements in medium-range forecasting skill, precipitation often remains a secondary target and is commonly learned from reanalysis datasets that contain considerable uncertainty. In this work, we investigate two complementary strategies for improving AI-based precipitation forecasts. Building on the Prithvi-WxC foundation model, we develop Prithvi-Precip, a global precipitation forecasting system, and examine (1) the impact of training targets derived from satellite-based precipitation estimates rather than reanalysis fields and (2) the direct assimilation of satellite observations into the forecasting model.   We systematically evaluate key design choices for finetuning the Prithvi-WxC AI foundation model for precipitation forecasting. We find that autoregressive rollout training produces substantially more accurate forecasts than direct conditioning on forecast lead time. Using independent radar-based precipitation estimates for evaluation, we show that training on satellite-derived precipitation targets yields improved forecast accuracy relative to training on MERRA-2 precipitation fields. Furthermore, direct ingestion of satellite observations provides additional improvements at short lead times, with the largest gains occurring in tropical and subtropical regions.   Together, these advances enable Prithvi-Precip to substantially improve upon directly comparable precipitation forecasts from the Goddard Earth Observing System. Our results highlight the potential of improved precipitation targets and the direct integration of satellite observations as promising pathways for advancing medium-range AI precipitation forecasting."
+  },
+  {
+    "title": "A game theory for foundation models shows new paths to rational cooperation through similarity inference",
+    "url": "http://arxiv.org/abs/2608.03958v1",
+    "arxiv_id": "2608.03958v1",
+    "authors": [
+      "Alexander Meulemans",
+      "Maciej Wo\u0142czyk",
+      "Marissa A. Weis",
+      "Rajai Nasser",
+      "Roberta Rocca",
+      "Seijin Kobayashi",
+      "Guillaume Lajoie",
+      "Angelika Steger",
+      "Blake Richards",
+      "Marcus Hutter",
+      "James Manyika",
+      "Rif A. Saurous",
+      "Jo\u00e3o Sacramento",
+      "Blaise Ag\u00fcera y Arcas"
+    ],
+    "published": "2026-08-04T17:24:33+00:00",
+    "summary": "As autonomous agents powered by foundation models are increasingly integrated into social and economic systems, understanding the principles governing their collective behavior is essential for ensuring safety and cooperation. Classical game theory, the dominant framework for modeling rational interaction, is built upon the assumption of `decoupled agency,' where agents treat their own decision-making as independent of the environment and other actors. Modern AI agents, however, jointly predict their own future actions alongside external observations. Here, we report a striking finding: when interacting in stylized social dilemmas, foundation model agents engaging in optimal planning consistently converge to stable cooperation, directly contradicting classical game-theoretic predictions of mutual defection. To understand this phenomenon, we introduce the `embedded Bayesian agent,' a theoretical model for foundation model agents. By shifting from decoupled to embedded agency, these agents model themselves as part of the universe they inhabit, maintaining epistemic uncertainty about their own decision-making algorithms. We show that by inferring whether others are behaviorally similar, an embedded agent treats its own deliberation during planning as evidence: a decision to cooperate predicts a similar decision by a similar partner. We formalize this mechanism of similarity inference through the `embedded equilibrium,' a novel solution concept replacing the Nash equilibrium to provide a foundational game theory for the social behavior of modern AI agents."
+  },
+  {
+    "title": "A Robust Chance Constrained Approach to Surgery Scheduling",
+    "url": "http://arxiv.org/abs/2608.03931v1",
+    "arxiv_id": "2608.03931v1",
+    "authors": [
+      "Marco Caserta",
+      "Antonio Garc\u00eda Romero",
+      "Miguel Vaquero"
+    ],
+    "published": "2026-08-04T17:03:04+00:00",
+    "summary": "We study elective surgery scheduling under uncertain procedure durations. Schedules based on mean durations or fixed buffering rules may appear efficient ex ante but become fragile in execution, as early overruns propagate through the day and expose later surgeries to accumulated delay. We propose a robust chance-constrained framework that separates uncertainty quantification from schedule optimization. A buffer engine converts distributional information into reliability-dependent buffered durations, while the scheduling model jointly selects assignments, sequences, start times, and surgery-level reliability levels from a discrete menu. Reliability therefore becomes an endogenous scheduling decision rather than a fixed service-level parameter. The framework accommodates average-reliability, worst-day, and hard-target risk postures. Comparisons with common-reliability and uniform proportional-buffer benchmarks show that the menu derives its value from exploiting surgery-level heterogeneity, allocating protection where it has the greatest operational value while avoiding unnecessary conservatism. In a rolling-origin case study at HLA Moncloa Hospital in Madrid, covering 10 instances with 45 to 227 surgeries, the approach reduces delays exceeding 90 minutes by 97%, lowers the 95th-percentile delay by approximately 620 minutes, and reduces total overtime by 42% relative to a deterministic mean-based baseline. By allocating buffers according to uncertainty and operational exposure, the framework translates heterogeneous duration data and risk preferences into schedules that are more reliable in execution and less conservatively buffered than one-size-fits-all rules."
+  },
+  {
+    "title": "When and Where to Look: Adaptive Visual Evidence Scheduling for Efficient Long Video Understanding",
+    "url": "http://arxiv.org/abs/2608.03918v1",
+    "arxiv_id": "2608.03918v1",
+    "authors": [
+      "Ke Li",
+      "Jiayu Chen",
+      "Maoliang Li",
+      "Zihao Zheng",
+      "Hailong Zou",
+      "Hengyi Zhang",
+      "Xuanzhe Liu",
+      "Xiang Chen"
+    ],
+    "published": "2026-08-04T16:49:53+00:00",
+    "summary": "Efficient long-video understanding requires vision--language models (VLMs) to reason over a small number of frames selected as sparse visual evidence. Existing relevance-based methods rely on static one-shot selection with fixed frame budgets and candidate pools, while agent-based schedulers achieve adaptivity through costly multi-round reasoning and interactive search. We propose EcoFrame, a training-free framework for low-overhead query-adaptive visual evidence scheduling. EcoFrame leverages the VLM's inference feedback to determine when to increase the frame budget and where to search for additional candidate evidence. Specifically, entropy-gated budget scheduling uses output uncertainty to stop early when the current evidence is sufficient or progressively expand the frame budget otherwise. Meanwhile, attention-guided candidate proposal converts frame-level attention into a temporal prior, enabling dense local search in informative regions while preserving global coverage when attention is diffuse. Experiments on Video-MME, LongVideoBench, and MLVU demonstrate that EcoFrame achieves a better accuracy--efficiency trade-off across multiple VLM backbones. On Qwen2.5-VL, EcoFrame achieves an average accuracy of 64.4, surpassing BOLT at 63.5, while providing a $1.85\\times$ speedup over AKS and BOLT. Compared with the agent-based A.I.R., EcoFrame maintains comparable accuracy with up to a $13.5\\times$ inference speedup. Code will be available at https://github.com/AK-DREAM/EcoFrame."
+  },
+  {
+    "title": "From population norms to personalized trajectories: interpretable Bayesian forecasting for cognitive decline",
+    "url": "http://arxiv.org/abs/2608.03877v1",
+    "arxiv_id": "2608.03877v1",
+    "authors": [
+      "Maria Sahakyan",
+      "Brita Elvev\u00e5g"
+    ],
+    "published": "2026-08-04T16:16:21+00:00",
+    "summary": "The timing and rate of cognitive decline vary substantially between individuals, limiting the ability of fixed population-level thresholds to determine whether a new observation represents meaningful change for an individual. We developed Personalized Risk Inference via Sequential Monitoring (PRISM), an interpretable framework for individualized longitudinal forecasting of cognitive decline. PRISM estimates a personalized cognitive baseline from routinely collected demographic, health, and functional variables using an Explainable Boosting Machine, then updates this expectation through Bayesian inference with temporal decay as cognitive scores accrue. Decline is evaluated relative to an age-adjusted personal anchor, with uncertainty quantified through posterior probabilities. We evaluated PRISM in 30,664 adults from the Health and Retirement Study and externally validated it in 1,866 Alzheimer's Disease Neuroimaging Initiative participants. Forecasting performance was compared with demographic-norm and cumulative-average baselines, and discrimination with a linear mixed-effects model. PRISM identified emerging decline before study-defined cognitive worsening in 31% of sustained decliners in the Health and Retirement Study and 41% in the Alzheimer's Disease Neuroimaging Initiative, with median lead times of 6 and 2 years, respectively. By the time of worsening, 68% and 56% had been identified. PRISM also achieved lower forecasting error than demographic-norm and cumulative-average baselines and distinguished worsening from stable trajectories better than a linear mixed-effects model, particularly early in follow-up. PRISM enables earlier, interpretable, uncertainty-aware detection of cognitive decline relative to each individual's expected trajectory using routinely collected data. It may support closer monitoring and timely assessment when personal longitudinal history is limited."
+  },
+  {
+    "title": "UHP Detection: LVLMs have their Unique Hallucination Pattern in the Consistency Space",
+    "url": "http://arxiv.org/abs/2608.03817v1",
+    "arxiv_id": "2608.03817v1",
+    "authors": [
+      "Amir Mohammad Ezzati",
+      "Kiyan Rezaee",
+      "Bardiya Kariminia",
+      "Mohamad Amin Yousefi",
+      "Asal Mohammadjafari Mamaqani",
+      "Behrad Samimi",
+      "Mohammad Hossein Rohban"
+    ],
+    "published": "2026-08-04T15:25:30+00:00",
+    "summary": "Large vision--language models (LVLMs) demonstrate strong multimodal reasoning capabilities but remain prone to hallucination, where model predictions are not grounded in visual evidence. Existing black-box hallucination detection methods estimate uncertainty through a single consistency metric, implicitly assuming that model uncertainty can be adequately characterized by a single measure. However, hallucinations exhibit diverse manifestations of uncertainty across different behavioral probes, making a single measure insufficient to characterize their underlying behavior. We propose \\emph{Unique Hallucination Pattern (UHP) Detection}, a fully black-box framework that models hallucination as a structured uncertainty pattern defined by two axes: perturbation modality (image vs.\\ text) and logical polarity (a statement vs.\\ its negation). Their intersection produces four complementary consistency groups that capture distinct manifestations of model uncertainty, from which both within-group and between-group features are extracted to train a lightweight classifier. Through comprehensive experiments on AMBER and PhD across three LVLMs, UHP Detection consistently outperforms prior black-box and white-box baselines, with improvements of up to $+18.72\\%$ AUC-ROC and $+20.07\\%$ AUC-PR over the strongest black-box methods. Extensive ablation studies demonstrate that each consistency group contributes complementary information and that their combination forms a structured hallucination pattern. Furthermore, cross-dataset evaluation shows that this learned pattern generalizes across benchmarks, indicating that hallucination behavior reflects a model-specific consistency pattern. \\textbf{Code is publicly available at} https://github.com/amirezzati/uhpdet."
+  },
+  {
+    "title": "UNVaMP: Neural Knowledge Tracing with Variational Regularization of Latent Knowledge Dynamics",
+    "url": "http://arxiv.org/abs/2608.03811v1",
+    "arxiv_id": "2608.03811v1",
+    "authors": [
+      "Carson J. Cook",
+      "Ahmed J. Zerouali",
+      "Anthony Schmidt",
+      "Reginald Ziedzor",
+      "Paul Lin",
+      "Luke G. Eglington"
+    ],
+    "published": "2026-08-04T15:22:37+00:00",
+    "summary": "We introduce the Unified Neural Variational Measurement of Proficiency (UNVaMP) architecture, a knowledge tracing method that integrates observed student-item interactions with internal memory to produce evolving latent representations of student knowledge. These representations support accurate predictions of future responses while enabling explicit control over the smoothness of estimated learning trajectories. UNVaMP can be configured as either a purely neural model or a hybrid model that predicts responses through an interpretable measurement function over the latent space. We show that a pure neural configuration (UNVaMP-MLP) achieves the strongest predictive performance among compared models on three out of four datasets. Meanwhile, a hybrid configuration (UNVaMP-MIRT, using a 1PL MIRT measurement function) lags only slightly behind UNVaMP-MLP, indicating that the predictive cost of interpretability is modest.   Beyond predictive accuracy, UNVaMP provides the following: a principled mechanism for controlling volatility when estimating student latent variables, quantification of uncertainty over student knowledge state estimates, and flexible input specification that supports heterogeneous student-item interaction features. In addition, the hybrid UNVaMP-MIRT configuration generates interpretable moment-in-time student knowledge state estimates. Using an experimental dataset, we show that auxiliary inputs induce structured changes in the predictive behavior of UNVaMP-MIRT, consistent with sensitivity to underlying structure beyond response correctness. Furthermore, through a simulation study, we show that UNVaMP yields well-behaved knowledge state estimates under controlled measurement conditions. In total, these results indicate that UNVaMP is both useful for real-world education systems and capable of recovering underlying structure from student-item interactions."
+  },
+  {
+    "title": "Empirical behavioural heterogeneity shapes the dynamics of an agent-based land use model",
+    "url": "http://arxiv.org/abs/2608.03784v1",
+    "arxiv_id": "2608.03784v1",
+    "authors": [
+      "Ronja Hotz",
+      "Thomas Schmitt",
+      "Calum Brown",
+      "Yongchao Zeng",
+      "Mark Rounsevell"
+    ],
+    "published": "2026-08-04T15:04:51+00:00",
+    "summary": "Land use models often represent decision-makers as homogeneous and rational, overlooking socio-psychological diversity and potentially generating rapid, coordinated land use responses that contrast with observed land use patterns. Here, we integrate an empirical typology of European forestry practitioners into an agent-based land use model by translating survey-based behavioural profiles into cognitive parameters governing endogenous decision-making processes. We distinguish five practitioner types and parametrise heterogeneous agent populations according to the empirically observed distribution of these types. Using a stylised model landscape, we compare these heterogeneous populations against a homogeneous rational-choice baseline and single-type populations. Compared with the homogeneous rational-choice baseline, heterogeneous populations dampen synchronised responses to changing ecosystem service demand, producing more gradual land use dynamics and a higher prevalence of medium intensity management, that better reflect empirical land use patterns. Our experiments reveal that similar land use patterns can emerge through different behavioural mechanisms, while the behaviour of individual decision-making types depends strongly on the population context in which they are embedded. Together, these two findings show that individual behavioural responses and land use outcomes co-evolve rather than decision-making types mapping onto fixed management practices. Explicitly representing socio-psychological diversity can therefore improve the realism and policy-relevance of agent-based land-use models by capturing feedbacks between cognition, social interactions, and emergent land use dynamics. Empirical data may make this representation possible, but models can also use this capability to explore behavioural heterogeneity as a key source of uncertainty when data are absent."
+  },
+  {
     "title": "SDSS-V Local Volume Mapper (LVM): Dithered Data Cube Reconstruction with 3dcubegen",
     "url": "http://arxiv.org/abs/2608.02597v1",
     "arxiv_id": "2608.02597v1",
