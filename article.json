@@ -1,5 +1,133 @@
 [
   {
+    "title": "Diatomic molecular anions of alkali-metal and alkaline-earth-metal atoms",
+    "url": "http://arxiv.org/abs/2608.05067v1",
+    "arxiv_id": "2608.05067v1",
+    "authors": [
+      "Sana Akkari",
+      "Hela Ladjimi",
+      "Wissem Zrafi",
+      "Hamid Berriche",
+      "Marcin Gronowski",
+      "Micha\u0142 Tomza"
+    ],
+    "published": "2026-08-05T17:12:25+00:00",
+    "summary": "Studies of anions are inherently more challenging than investigations of neutrals and cations because of the diffuse and weakly bound character of an anionic electron. Here, we present a comprehensive computational examination of ground-state diatomic molecular anions composed of alkali-metal (Li, Na, K, Rb, Cs, Fr) and alkaline-earth-metal (Be, Mg, Ca, Sr, Ba, Ra) atoms. We study 21 alkali-metal diatomic anions in the X$^{2}\u03a3^{+}$ electronic state and 36 alkali-metal--alkaline-earth-metal diatomic anions in the X$^{1}\u03a3^{+}$ electronic state. The calculations employ a hierarchy of the coupled cluster methods, combined with large Gaussian basis sets and small-core relativistic energy-consistent pseudopotentials for heavier elements. We compute potential energy curves, permanent electric dipole moments, and static polarizabilities, and we assess convergence and uncertainties of our results. Additionally, using the multireference configuration interaction and equation-of-motion electron-attachment coupled cluster methods, we investigate excited electronic states of alkali-metal molecular anions, including valence-bound and dipole-bound states. We predict crossings between ground neutral and excited anionic states, which may enhance resonant electron attachment and subsequent anion dissociation. This finding may be relevant for experiments with mixtures of ultracold ground-state alkali-metal molecules and Rydberg atoms."
+  },
+  {
+    "title": "Provable Limits and Certified Deferral for Verbalized Uncertainty in Small Language Models",
+    "url": "http://arxiv.org/abs/2608.05064v1",
+    "arxiv_id": "2608.05064v1",
+    "authors": [
+      "Jianru Shen"
+    ],
+    "published": "2026-08-05T17:11:04+00:00",
+    "summary": "Small open-weight language models increasingly run in private, offline, and cost-sensitive settings, where the key deployment question is not only what a model answers but when it should defer to a human. We study whether verbalized confidence can support risk-controlled deferral, evaluating eleven instruction-tuned models from three families, 0.5B to 14B parameters, on ARC-Challenge and TruthfulQA with 25,168 local predictions. Three theoretical results delimit what calibration can provide: strictly monotone calibration preserves the risk-coverage frontier and error-detection AUROC; temperature scaling cannot calibrate models whose confidence stays above one half while accuracy falls below it; and a Clopper-Pearson procedure converts a 200-question calibration set into a finite-sample risk certificate under an i.i.d. deployment assumption. Empirically, eight of 22 model-task pairs hit the temperature-scaling infeasibility floor within one percentage point of the predicted bound. Platt scaling reduces ECE to as low as 0.02, yet certified autonomy at a 20% risk budget is granted to only three model-task pairs and to none at 10%. We also identify and repair an answer-ordering artifact in the multiple-choice form of TruthfulQA. Calibration gives confidence semantics; certified deferral determines when small models are safe to use."
+  },
+  {
+    "title": "Binary evolution at the extremes of mass-transfer efficiency: Contact, mergers, and population signatures",
+    "url": "http://arxiv.org/abs/2608.05001v1",
+    "arxiv_id": "2608.05001v1",
+    "authors": [
+      "Jan Henneco",
+      "Utkarsh R. Basu",
+      "Fabian R. N. Schneider"
+    ],
+    "published": "2026-08-05T16:09:45+00:00",
+    "summary": "Binary star evolution remains inherently uncertain, and several physical processes are not well understood. These open questions in binary physics come in addition to major uncertainties in single-star evolution, such as angular momentum transport and interior mixing. For example, the efficiency of mass transfer (MT) -- which is the fraction of transferred mass that is actually accreted -- is one of the main uncertainties in binary evolution. We present a grid of 1D binary evolution models with identical initial conditions to an earlier grid in which MT was limited by the spin-up of the accretors. Now we employ fully conservative MT, allowing for a one-to-one comparison between the two grids, and covering the full range from highly non-conservative to fully conservative MT. We explore how these two maximally different MT efficiencies change the occurrence and incidence of contact phases, stellar mergers and common envelope phases, and how they affect the present-day population of (post-)mass-transferring binaries. We find that fully conservative MT increases the incidence of contact systems by roughly a factor of 6 (from 11% to 62%), and the stellar merger incidence by more than a factor of 2 (from 16% to 38%). We also find the emergence of double-core CE phases, which are absent for lower MT efficiencies. Comparing two synthetic binary populations built using the two grids with observed Algol and stripped-star binaries reveals that even though conservative MT is favoured to reproduce the observed stripped-star binaries, the observed population of Algol binaries cannot be explained by a single MT efficiency. We conclude that the MT efficiency depends on the configuration of binary systems and cannot be described by a single value. Our work highlights the need for a better understanding of binary MT and indicates that current binary-star models are incomplete."
+  },
+  {
+    "title": "UG-UMRE: Uncertainty-Guided Modality Augmentation and Distributional Calibration for Unified Multimodal Relation Extraction",
+    "url": "http://arxiv.org/abs/2608.04949v1",
+    "arxiv_id": "2608.04949v1",
+    "authors": [
+      "Bo Kong",
+      "Liruiz Jia",
+      "Yi Liang",
+      "Chao Liu",
+      "Dongfang Han",
+      "Tianwei Yan",
+      "Yuan Liu",
+      "Shengquan Liu"
+    ],
+    "published": "2026-08-05T15:18:16+00:00",
+    "summary": "Unified Multimodal Relation Extraction (UMRE) aims to identify intra-modal and cross-modal relations between textual entities and visual objects. However, existing UMRE studies still encounter two critical issues: ignoring inherent aleatoric uncertainty causes noise propagation, and deep-seated heterogeneity between distinct modal distributions hinders alignment. To address these issues, we propose the Uncertainty-Guided UMRE Network (UG-UMRE). Specifically, we design an Uncertainty-Driven Unimodal Augmentation (UDUA) module, which models features as Gaussian distributions based on the Variational Information Bottleneck. By incorporating an uncertainty-aware self-supervised contrastive learning mechanism, UDUA effectively filters out noise while maintaining semantic consistency. Furthermore, we introduce the Joint Aleatoric Uncertainty Alignment (JAUA) module as a global semantic pre-calibration mechanism. JAUA leverages probabilistic distribution consistency to construct a shared latent space, eliminating the distributional gap by synchronizing cross-modal statistical properties, thereby laying a robust foundation for fine-grained interaction. Experiments on three benchmark datasets (UMRE, MORE, and MNRE) demonstrate that UG-UMRE achieves state-of-the-art performance. Further analysis validates the pluggable and effective performance of the proposed UDUA and JAUA modules."
+  },
+  {
+    "title": "SVI-DAG: A Structured Variational Inference Approach to Bayesian Causal Discovery",
+    "url": "http://arxiv.org/abs/2608.04930v1",
+    "arxiv_id": "2608.04930v1",
+    "authors": [
+      "Shrenik Zinage"
+    ],
+    "published": "2026-08-05T14:56:14+00:00",
+    "summary": "Bayesian causal discovery seeks to determine the posterior distribution of causal theories, which are interpreted as directed acyclic graphs (DAGs) that explain the observed data. The resulting posterior allows systematic reasoning regarding epistemic uncertainty within these theories. Nonetheless, finding such graphs is difficult due to identifiability problems and limited observational data. Furthermore, precisely approximating posterior over graphs is challenging given vast range of potential DAGs. Recent Bayesian approaches have addressed some of these challenges, yet they remain limited as they fail to encode dependencies between edges, and lack principled ways to incorporate domain knowledge as inductive biases during the search process. To overcome these limitations, we propose SVI-DAG, a structured variational inference approach to Bayesian causal discovery using observational data and prior beliefs that uses normalizing flows to model dependencies between edges, supporting expressive and multimodal posterior learning over DAGs. To mitigate mode seeking behaviour in evidence lower bound optimization and promote mode coverage, we use stein variational gradient descent to update the node potentials using a kernel in acyclicity space. We evaluate SVI-DAG against 5 state-of-the-art Bayesian DAG learning methods and demonstrate superior performance in uncertainty quantification while remaining competitive in terms of structural accuracy."
+  },
+  {
+    "title": "Enhancing Low Back Pain Assessment with Diffusion Models for Lumbar Spine MRI Segmentation",
+    "url": "http://arxiv.org/abs/2608.04906v1",
+    "arxiv_id": "2608.04906v1",
+    "authors": [
+      "Maria Monzon",
+      "Thomas Iff",
+      "Ender Konukoglu",
+      "Catherine R. Jutzeler"
+    ],
+    "published": "2026-08-05T14:35:27+00:00",
+    "summary": "This study introduces a diffusion-based framework for robust and accurate semantic segmentation of lumbar spine MRI scans from patients with low back pain (LBP), regardless of whether the scans are T1- or T2-weighted. We compared with advanced models for segmenting vertebrae, intervertebral discs (IVDs), and spinal canal using the SPIDER dataset. The results showed that SpineSegDiff achieved a segmentation performance comparable to that of the state-of-the-art non-diffusion nnUnet, particularly in improving the identification of degenerated IVDs. In addition, the uncertainty maps generated by our model provide valuable insights for clinical review, enhancing the robustness and reliability of the segmentation results. The potential of diffusion models to enhance the diagnosis and management of LBP through more precise analysis of pathological spine MRI is underscored by our findings."
+  },
+  {
+    "title": "Transforming Remanufacturing Automation with Large Language Models: A Forward-Looking Analysis with Case Studies",
+    "url": "http://arxiv.org/abs/2608.04854v1",
+    "arxiv_id": "2608.04854v1",
+    "authors": [
+      "Chang Liu",
+      "Sara Behdad",
+      "Prabhakar Pagilla",
+      "Xiao Liang",
+      "Minghui Zheng"
+    ],
+    "published": "2026-08-05T13:47:59+00:00",
+    "summary": "With growing concerns about resource scarcity and environmental degradation, remanufacturing of end-of-life (EoL) products within the circular economy is attracting increasing attention. Remanufacturing can preserve most of the original manufacturing value and materials while transforming EoL products into like-new condition. However, the variability and uncertainty of EoL products make remanufacturing highly dependent on human expertise. Recently, large language models (LLMs) have demonstrated remarkable capabilities in learning from massive, unstructured datasets, generating expert-level output across various tasks, and communicating with humans in natural language for interpretation. These advantages can align closely with the complex demands of remanufacturing, thereby mitigating the reliance on specialized expertise. However, their roles and research progress in this domain remain underexplored. In this paper, we present a forward-looking review and analysis of the role of LLMs in remanufacturing automation, grounded in a brief critical review of existing LLM-related studies relevant to remanufacturing. Building on this foundation, we introduce ReManGPT as a conceptual framework and use three representative case studies to illustrate selected modules of the framework in practical remanufacturing scenarios. We also analyze three representative remanufacturing applications, electric vehicle batteries, electronic waste, and electric motors, to illustrate how the proposed framework could address their domain-specific challenges. Finally, we discuss the current barriers to deploying this framework in practice and outline future research directions, including LLM-assisted human operation and language-action models for robotic automation."
+  },
+  {
+    "title": "Robust Control under Stationary Ambiguity",
+    "url": "http://arxiv.org/abs/2608.04832v1",
+    "arxiv_id": "2608.04832v1",
+    "authors": [
+      "Konrad J. Mueller",
+      "Amira Akkari",
+      "Ben Wood",
+      "Lukas Gonon"
+    ],
+    "published": "2026-08-05T13:34:00+00:00",
+    "summary": "Control policies optimized in simulation can perform poorly in the real system when the parameters $x$ of the simulator are estimated from limited data but the resulting parameter uncertainty is not represented inside the simulation. A common way to incorporate such ambiguity is to simulate each trajectory of the system under a randomly drawn value for $x$. Since the policy cannot observe the drawn value, it must initially choose controls that perform well across many possible parameter values. However, if the policy progressively observes the system, it can often gradually infer the value of $x$, so that ambiguity vanishes. Over time, the policy then specializes to its estimate of $x$ and loses its robustness. This is undesirable in many real systems, where latent factors are expected to shift. In financial markets, for example, a policy hedging a derivative payoff should remain robust to changes in the volatility regime. To induce such continual robustness, we propose training policies in simulators where ambiguity varies with the system's state but does not systematically decay over time. We formalize this requirement as stationary ambiguity: the simulator should induce a stationary filter process over the latent state. We show how to construct such simulators and demonstrate, on hedging problems, that policies trained under stationary ambiguity preserve robustness to latent factors over time, leading to strong performance on real market data. As a modeling principle, stationary ambiguity informs many simulator design decisions: which models make realistic simulators, how their parameters should be randomized, and how simulator and policy should be initialized. While our experiments focus on hedging, stationary ambiguity may also be useful for other sequential control problems driven by exogenous stochastic processes with shifting latent structure."
+  },
+  {
+    "title": "Intrinsic-Hybrid Latent Diffusion Models for Generative Modeling on Unknown Manifolds",
+    "url": "http://arxiv.org/abs/2608.04827v1",
+    "arxiv_id": "2608.04827v1",
+    "authors": [
+      "Yizhu Wang",
+      "Mu Niu",
+      "Xiaochen Yang"
+    ],
+    "published": "2026-08-05T13:28:08+00:00",
+    "summary": "We introduce the Intrinsic Hybrid Latent Diffusion Model (ILDM), a generative framework that integrates probabilistic dimensionality reduction with geometry-aware diffusion on unknown manifolds. While diffusion models (DMs) have achieved state-of-the-art results in high-dimensional data synthesis, they rely on large training datasets and ignore intrinsic geometric structure. Latent diffusion models (LDMs) address the high dimensionality by learning a latent space, but they typically impose a Euclidean structure, failing to capture the underlying manifold geometry, especially problematic in data-sparse regimes. ILDM addresses these limitations by interpreting the latent space as a chart of an unknown Riemannian manifold, with geometry and uncertainty quantified through a probabilistic decoder. The forward process is a hybrid diffusion that switches between Riemannian and Euclidean dynamics based on local uncertainty, where the Riemannian component is governed by a probabilistic metric tensor derived from the decoder. To learn the generative dynamics, we introduce an approximate denoising score matching method tailored to the hybrid diffusion setting, enabling a backward process defined by hybrid Langevin dynamics. Experiments on COIL-100, MNIST, and cardiac MRI datasets demonstrate that ILDM significantly improves generation quality, achieving lower FID and LPIPS scores compared to standard diffusion and latent diffusion models."
+  },
+  {
+    "title": "A Knowledge-Centric Communication For Autonomous Cislunar Networks",
+    "url": "http://arxiv.org/abs/2608.04817v1",
+    "arxiv_id": "2608.04817v1",
+    "authors": [
+      "Afan Ali",
+      "Daniel Benevides da Costa",
+      "Ali Arshad Nasir"
+    ],
+    "published": "2026-08-05T13:22:26+00:00",
+    "summary": "Future lunar infrastructure requires communication as a persistent service rather than a mission specific capability. Communication, digital twin, and artificial intelligence (AI) research have advanced autonomy independently while largely assuming that system state can eventually be reconciled with ground truth. Cislunar communication violates this assumption because propagation delay is fundamentally limited by the speed of light, visibility is governed by orbital geometry, and autonomous decisions often precede confirming observations. Here we introduce a knowledge-centric communication framework in which a digital twin continuously integrates delayed observations, communication physics, learned models, uncertainty quantification, and mission objectives into an evolving Operational Knowledge State. To quantify what is known, how uncertain it remains, and how current it is, we define two quantities over the fused Bayesian belief maintained for each communication link: \\emph{Knowledge Entropy}, the differential entropy of the posterior belief, and \\emph{Knowledge Freshness}, which generalizes Age of Information (AoI) from a single information stream to the temporal validity of the fused Operational Knowledge State. We prove that distributed knowledge fusion systematically improves operational knowledge by reducing uncertainty and demonstrate its importance for mission success through simulations and comparisons with flight data from the Longjiang-2 lunar micro-satellite."
+  },
+  {
     "title": "Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility",
     "url": "http://arxiv.org/abs/2608.04001v1",
     "arxiv_id": "2608.04001v1",
