@@ -1,5 +1,164 @@
 [
   {
+    "title": "HST imaging, pipeline modeling, and time-delay predictions of 2 triply-imaged and 15 quadruply-imaged lensed quasars",
+    "url": "http://arxiv.org/abs/2608.07470v1",
+    "arxiv_id": "2608.07470v1",
+    "authors": [
+      "William Sheu",
+      "Tommaso Treu",
+      "Adriano Agnello",
+      "Timo Anguita",
+      "Simon Birrer",
+      "Daniel Gilman",
+      "Xiaosheng Huang",
+      "Richard G. McMahon",
+      "Nicholas D. Morgan",
+      "Veronica Motta",
+      "Anna Nierenberg",
+      "Ioana Zelko"
+    ],
+    "published": "2026-08-07T17:59:29+00:00",
+    "summary": "The Hubble-Lema\u00eetre tension remains a significant challenge in modern cosmology, exhibiting a discrepancy between early-Universe cosmic microwave background measurements and local distance ladder observations. Strong lensing time-delay cosmography provides an independent, geometric probe of $H_0$ that can help resolve this discrepancy. Although hundreds of lensed quasars have been discovered, only a handful have been analyzed due to the resource-intensive follow-up required to measure precise time delays and break degeneracies. We present uniform gravitational lens modeling of 17 recently discovered lensed quasar systems (2 triply-imaged and 15 quadruply-imaged) to identify and prioritize the most promising candidates for future cosmological study. Using high-resolution near-infrared Hubble Space Telescope WFC3/IR F160W imaging (PID: 17916, PI: T. Treu), we perform uniform pipeline modeling with Lenstronomy. We constrain the mass and light profiles of the deflector galaxies, and assuming a fiducial cosmology, we predict their Fermat potential differences and expected time delays. Our pipeline successfully yields models and time-delay predictions for all 17 systems. Assuming ideal monitoring conditions, we estimate the total contribution from time-delay and Fermat potential modeling errors to the time-delay distance. From this, we classify the systems by estimated time-delay distance uncertainties: six \"excellent\" ($\\leq 3\\%$), five \"good\" ($3\\%$--$7\\%$), three \"suitable\" ($7\\%$--$12\\%$), and three \"impractical\" ($>12\\%$). We recommend prioritizing follow-up campaigns on the 11 \"excellent\" and \"good\" systems, which have the potential to deliver high-precision, independent constraints on $H_0$ to help resolve the Hubble-Lema\u00eetre tension."
+  },
+  {
+    "title": "ResidencyRL: Reinforcement Learning in Simulated Clinical Environments",
+    "url": "http://arxiv.org/abs/2608.07418v1",
+    "arxiv_id": "2608.07418v1",
+    "authors": [
+      "Valentin Li\u00e9vin",
+      "Samuel Schmidgall",
+      "Tim Strother",
+      "Alex Bijamov",
+      "Akshay Goel",
+      "Anil Palepu",
+      "Chunjong Park",
+      "Vahid Balazadeh",
+      "Min Woo Sun",
+      "Marius Guerard",
+      "Justin Chen",
+      "Dave Steiner",
+      "Vikram Dhillon",
+      "Ibrahim Azar",
+      "Akhil Mehta",
+      "Nicholas Spetsieris",
+      "Shilpan Shah",
+      "Maen Abdelrahim",
+      "Amit Dahiya",
+      "Yun Liu",
+      "Katherine Chou",
+      "Yossi Matias",
+      "Avinatan Hassidim",
+      "Dale R. Webster",
+      "Quoc V. Le",
+      "Raia Hadsell",
+      "Joelle Barral",
+      "Carey Radebaugh",
+      "Aleksandra Faust",
+      "Shekoofeh Azizi",
+      "Mike Schaekermann",
+      "Po-Hsuan Cameron Chen",
+      "Tao Tu",
+      "David Racz",
+      "Lin Yang"
+    ],
+    "published": "2026-08-07T17:04:41+00:00",
+    "summary": "In medical education, physicians convert academic knowledge into clinical expertise through residency: years of training across thousands of encounters, with diverse sources of feedback and progressively greater autonomy. Much of clinical reasoning relies on the patient encounter, a dialogue in which a clinician elicits history, refines diagnostic hypotheses, and decides management under uncertainty. While large language models (LLMs) excel on static medical benchmarks, methods to optimize the full sequence of clinical decisions remain underdeveloped. We present ResidencyRL, a reinforcement learning (RL) method for training clinical artificial intelligence (AI) agents through simulated multi-turn clinical encounters (up to 60 dialogue turns and 8 tool calls per trajectory). ResidencyRL pairs the policy agent with LLM simulators capable of complex, adversarial behaviors, training against a structured reward aligned to diagnostic accuracy, management quality, communication, documentation, and safety. On held-out evaluations, the ResidencyRL agent improves diagnostic accuracy by 7.0% under adversarial conditions (88.0% vs. 81.0%) and reduces missed red flag rates by 31%, demonstrating rigorous mitigation of premature closure. Blinded expert clinicians validated these gains, preferring the trained agent in 87.6% of side-by-side comparisons. The procedural competencies transfer to unseen benchmarks: the agent outperforms the base model across all six clinical axes of the AMIE multi-visit benchmark, and shows consistent directional improvements on AgentClinic and CRAFT-MD. Our findings demonstrate that sequential clinical decision-making can be effectively learned through multi-turn RL in simulation, yielding robust, generalizable capabilities, paving the way towards clinical mastery. Prospective validation with real-world workflows remains necessary to establish clinical utility."
+  },
+  {
+    "title": "Uncovering expert objectives in production planning via inverse optimization: An industrial case study",
+    "url": "http://arxiv.org/abs/2608.07398v1",
+    "arxiv_id": "2608.07398v1",
+    "authors": [
+      "Shivi Dixit",
+      "Rishabh Gupta",
+      "Adam Kelloway",
+      "John Wassick",
+      "Qi Zhang"
+    ],
+    "published": "2026-08-07T16:41:30+00:00",
+    "summary": "Production planning in the manufacturing industry often relies on the use of optimization models, but defining an appropriate objective function can be a challenge. In practice, planners must balance competing goals, manage uncertainty, and account for qualitative business preferences that are difficult to quantify. As a result, many optimization models fail to match expert behavior, limiting trust and adoption. In this work, we propose a data-driven inverse optimization framework to infer the objective function implicitly captured in expert planners' decisions. We formulate the production planning problem as a mixed-integer linear program, where the unknown objective function is represented as a weighted sum of hypothesized cost terms. A suboptimality-loss-based inverse optimization method is then applied to learn the objective weights from historical production plans. The proposed approach is applied to a real industrial case provided by Dow, where the inferred weights reveal that avoiding inventory shortages and maintaining consistent cycle lengths dominate the planners' decision-making. Time- and product-dependent extensions further improve predictive accuracy and uncover evolving priorities. Expert interviews confirm the practical validity of these insights. Overall, this study shows that inverse optimization can transform tacit human expertise into interpretable models, enabling more accurate and trusted decision-support tools for complex industrial systems."
+  },
+  {
+    "title": "KiDS-1000: Improved constraints on cosmology, intrinsic alignments and baryonic feedback from clipped cosmic shear",
+    "url": "http://arxiv.org/abs/2608.07377v1",
+    "arxiv_id": "2608.07377v1",
+    "authors": [
+      "Benjamin Giblin",
+      "Joachim Harnois-D\u00e9raps",
+      "Louise Paquereau",
+      "Catherine Heymans"
+    ],
+    "published": "2026-08-07T16:20:30+00:00",
+    "summary": "We present improved cosmological constraints from the fourth data release of the Kilo-Degree Survey (\"KiDS-1000\") using \"clipped\" shear correlation functions. Clipping filters the projected density field inferred from weak lensing data for the highest-density regions, allowing for two-point functions to extract additional cosmological information. We model, for the first time, the impact of systematics on clipped lensing statistics, including intrinsic alignments, baryonic feedback, photometric redshift uncertainties, and source-lens clustering. We train Gaussian process emulators on dark-matter-only and hydrodynamical $N$-body simulations to predict the cosmological and systematic dependence of both the clipped and conventional, \"unclipped\" shear correlation functions. We find that the combination of the clipped and unclipped probes improves the constraints on the free parameters of the $w$CDM model relative to the conventional approach, with a 16% tightening of the $S_8$ uncertainty and 24% for $w_0$. Our constraints, $\u03a9_{\\rm m} = 0.263^{+0.035}_{-0.038}$, $S_8=0.724^{+0.027}_{-0.027}$, and $w_0 = -1.24^{+0.26}_{-0.28}$, are consistent with the $\u039b$CDM model and with the cosmic shear analysis of Asgari et al. (2021) via a completely independent simulation- and emulator-based forward-modelling approach. We also find the complimentary information in the clipped statistic provides an upper limit on the baryon feedback strength, and improves the constraints on intrinsic alignments by 27%."
+  },
+  {
+    "title": "Sample Variance Cancellation for Future Spectroscopic Surveys",
+    "url": "http://arxiv.org/abs/2608.07339v1",
+    "arxiv_id": "2608.07339v1",
+    "authors": [
+      "James M. Sullivan",
+      "Martin White"
+    ],
+    "published": "2026-08-07T15:36:28+00:00",
+    "summary": "High-redshift spectroscopic galaxy surveys will be the scientific engines of the next generation of large-scale structure cosmology. The clustering signal of high redshift, star-forming Lyman-$\u03b1$ emitters (LAEs) will be of key importance for obtaining high-redshift constraints on the growth of structure and redshift-space distortions. The complex radiative transfer (RT) of Lyman-$\u03b1$ photons alters the symmetry group respected by the overdensity field constructed from these galaxies, and so the observed large-scale clustering of LAEs may have an angular dependence that differs significantly from that of linear theory, possibly biasing inference of cosmological parameters. While such an effect has been seen in simulations, its amplitude in nature and its detailed form remains unclear. In the restricted context of a linear, Gaussian model, we outline a procedure for pinning down the type and amplitude of such changes in angular dependence on large scales due to unknown RT or a more general unmodeled angular effect in the hypothetical scenario in which an observer is presented with LAE data containing such an effect. We show that if a second tracer without the modified angular dependence is available for cross correlation with the LAEs at the same redshifts (e.g., Lyman-break galaxies), then, with a high redshift survey of modest size, it is possible to rapidly identify: 1) the presence of a nontrivial angular functional form of radiative transfer (by a conditional field-level realization), 2) the functional form itself (with an optimal filter that we derive), and 3) the value of its amplitude with an uncertainty (via an adaptation of the standard quadratic estimator). Such sample-variance-cancellation strategies therefore provide a statistical solution to unknown astrophysical or systematic angular clustering dependence, including from RT."
+  },
+  {
+    "title": "Combination of Higgs boson measurements at $\\sqrt{s} =$ 13 TeV and their interpretations by the ATLAS experiment",
+    "url": "http://arxiv.org/abs/2608.07332v1",
+    "arxiv_id": "2608.07332v1",
+    "authors": [
+      " ATLAS Collaboration"
+    ],
+    "published": "2026-08-07T15:27:57+00:00",
+    "summary": "This paper presents combined measurements of Higgs boson production and decay using up to 140 fb$^{-1}$ of proton--proton collision data collected by the ATLAS experiment at the LHC at $\\sqrt{s} = 13$ TeV. The inclusive Higgs boson event rate relative to its Standard Model prediction is determined to be $0.990 ^{+0.053}_{-0.051} = 0.990 \\pm 0.027 \\text{ (stat.) } \\pm 0.024 \\text{ (exp.) } ^{+0.037}_{-0.035} \\text{ (sig. theo.) } ^{+0.016}_{-0.015} \\text{ (bkg. theo.)}$, separating statistical, experimental, signal-theory and background-theory uncertainty components. The signal theory uncertainty is the largest contribution, dominated by missing higher-order terms in QCD and the modelling of parton shower effects. Inclusive production cross-sections and decay branching ratios are measured, with sensitivities improved by up to 35% relative to the previous ATLAS publication. Production cross-sections for individual decay channels are also reported. The results are interpreted in terms of modifiers to Higgs boson couplings. The combination of single Higgs boson and Higgs boson pair production measurements yields $\u03ba_\u03bb= 1.3^{+3.1}_{-1.6}$ for the modifier to the Higgs boson self-coupling, with an interval of $[-1.5, 6.5]$ at 95% confidence level. The partial width in the $H\\to b\\bar{b}$ decay channel is used to obtain the first ATLAS determination of the running mass of the $b$-quark at the Higgs boson mass scale in the modified minimal subtraction scheme, found to be $m_b(m_H) = 2.73^{+0.27}_{-0.25}$ GeV. The total width of the Higgs boson is measured to be $\u0393_H = 3.6^{+2.1}_{-1.6}$ MeV based on its on- and off-shell production rates. The kinematics of Higgs boson production are probed within the framework of Simplified Template Cross-sections in 44 kinematic regions, and the results are interpreted in the context of Standard Model Effective Field Theory models."
+  },
+  {
+    "title": "Towards Assurance Closure in AI-Native Large-Scale Agile Software Development",
+    "url": "http://arxiv.org/abs/2608.07317v1",
+    "arxiv_id": "2608.07317v1",
+    "authors": [
+      "Ricardo Britto"
+    ],
+    "published": "2026-08-07T15:11:18+00:00",
+    "summary": "The AI-Native Manifesto envisions large-scale agile software development in which humans increasingly govern intent, risk, and exceptions while agents execute more of the engineering process. Realizing that end-state requires more than better code generation: it requires assurance closure, meaning that the system can establish what must be true, determine and obtain appropriate evidence, judge the credibility of that evidence, preserve its validity through change, and use the resulting uncertainty to bound agent authority. Existing work already provides many of the necessary mechanisms across formal methods, testing, simulation, assurance cases, digital twins, and runtime assurance. We identify six residual gaps in making the surrounding assurance reasoning sufficiently machine-operable, propose a high-level architecture with six corresponding capabilities built on a shared semantic assurance layer, and formulate four research questions to turn that architecture into dependable, human-on-the-loop, AI-native R&D."
+  },
+  {
+    "title": "Same Attention, Different Truths: Put Logit-Lens over Visual Attention to Detect and Mitigate LVLM Object Hallucination",
+    "url": "http://arxiv.org/abs/2608.07302v1",
+    "arxiv_id": "2608.07302v1",
+    "authors": [
+      "Zichuan Wang",
+      "Songlin Yang",
+      "Bo Peng",
+      "Zhenchen Tang",
+      "Yang Li",
+      "Beibei Dong",
+      "Jing Dong"
+    ],
+    "published": "2026-08-07T14:56:12+00:00",
+    "summary": "Large Vision-Language Models (LVLMs) often suffer from object hallucination, generating objects that are absent from the image. Prior work largely attributes this to insufficient visual attention. However, we find that both real and hallucinated objects receive equally strong visual attention in the model's mid-to-late layers, suggesting that the key issue may not be how much the model attends, but what it attends to and why. To this end, we decode the visual features of high-attention regions using Logit Lens, and observe that regions corresponding to real objects can be correctly decoded to the target object tokens, whereas those for hallucinated objects cannot. Building on this, we identify two hallucination mechanisms: (i) visual uncertainty, triggered by semantically similar or confusable regions; masking these regions eliminates the hallucination. (ii) contextual prior, triggered by strong co-occurrence priors; even when the initially attended region is masked, the hallucination persists and attention drifts to other regions. Based on these findings, we propose a simple yet effective training-free Detect-Mitigate framework comprising a Logit-Lens Consistency Check to detect hallucination and targeted remedies: High-Attention Regions Masking (HARM) for visual uncertainty hallucination, and Visual Evidence Enhanced Decoding (VEED) for contextual prior hallucination. Our approach achieves state-of-the-art results on multiple hallucination benchmarks. Code will be available."
+  },
+  {
+    "title": "Reading Copom's Tone: A Weighted LLM Framework for Hawkish-Dovish Sentiment, Forward Guidance, and Uncertainty",
+    "url": "http://arxiv.org/abs/2608.07251v1",
+    "arxiv_id": "2608.07251v1",
+    "authors": [
+      "Gabriel de Macedo Santos"
+    ],
+    "published": "2026-08-07T14:08:31+00:00",
+    "summary": "This paper documents an applied natural-language-processing framework for measuring the tone of Brazilian Monetary Policy Committee (Copom) statements. The project is explicitly inspired by iSent, Ita\u00fa's Central Bank sentiment classifier, particularly its sentence-level division of official communication into hawkish, dovish, neutral, and out-of-context classes. The implementation extends that idea in three directions. First, an LLM identifies short hawkish and dovish expressions and assigns each a 0-to-1 intensity weight. Second, the document index combines sentence counts with document-specific average signal intensities, producing a bounded score from -1 to 1. Third, a separate full-document layer measures forward-guidance direction, guidance explicitness, uncertainty level, and change in uncertainty. The empirical sample is restricted to communications dated August 2016 or later and contains 80 statements and 1,498 classified sentences from August 31, 2016 through August 5, 2026. Across this sample, 33.3% of sentences are hawkish, 18.0% dovish, 42.1% neutral, and 6.5% out of context. The average document score is +0.107, while the most hawkish reading is +0.570 in August 2021. The latest statement, dated August 5, 2026, scores +0.232, with eight hawkish, two dovish, and nine neutral sentences. Its structural overlay is more nuanced: guidance is directionally ambiguous but partly explicit, while uncertainty is classified as central and higher than at the prior meeting. Tone and the guidance-direction score have a contemporaneous Pearson correlation of 0.719. These are descriptive outputs, not a validated forecast of Selic decisions or DI returns. The main contribution is therefore methodological: a transparent, incremental, auditable system that separates rhetorical tone from policy guidance and uncertainty."
+  },
+  {
+    "title": "Conformal Fusion Under Missing Modalities",
+    "url": "http://arxiv.org/abs/2608.07183v1",
+    "arxiv_id": "2608.07183v1",
+    "authors": [
+      "Alireza Moayedikia"
+    ],
+    "published": "2026-08-07T12:57:16+00:00",
+    "summary": "Multimodal fusion architectures typically assume all modalities are available at inference, yet sensor failures, acquisition variability, and cost constraints routinely produce incomplete observations. Existing work treats modality absence as a prediction-accuracy problem, leaving a more basic question unanswered: whether a model's confidence estimates remain calibrated when an entire input stream is removed. We argue that missing-modality robustness and calibrated uncertainty are a single coupled property, and introduce Modality-Conditioned Conformal Fusion (MCCF), an architecture that addresses both at once. MCCF combines a multimodal bottleneck fusion backbone trained with modality dropout, per-modality evidential heads producing modality-decomposed Dirichlet distributions, and a Dempster-Shafer combination rule that fuses the per-modality evidence into a joint predictive distribution; an absent modality contributes vacuous evidence that is structurally ignored, so the fused uncertainty automatically reflects the reduced information without test-time imputation. A Mondrian conformal calibration module keyed on the modality-presence mask then provides finite-sample group-conditional coverage for every non-empty modality subset. MCCF is, to our knowledge, the first method with formal coverage guarantees under arbitrary modality availability through architectural integration rather than post-hoc recalibration, and the evidential decomposition yields per-modality vacuity scores that localise uncertainty to the absent modality responsible. Across a synthetic problem and three real multimodal benchmarks, MCCF holds its target coverage on every modality-presence subset, substantially narrows the coverage gap between full and partial modalities relative to a marginal split-conformal baseline, and imposes no measurable accuracy cost relative to temperature-scaled and evidential baselines."
+  },
+  {
     "title": "SPT-3G D1: Foreground-Robust Lensing Templates for Primordial Gravitational Wave Searches",
     "url": "http://arxiv.org/abs/2608.06343v1",
     "arxiv_id": "2608.06343v1",
