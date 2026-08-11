@@ -1,5 +1,136 @@
 [
   {
+    "title": "From Nonlinear Stochastic Differential Equations to Quantum Channels: The Kolmogorov--Lindblad Mapping",
+    "url": "http://arxiv.org/abs/2608.09903v1",
+    "arxiv_id": "2608.09903v1",
+    "authors": [
+      "Hsuan-Cheng Wu",
+      "Xiantao Li"
+    ],
+    "published": "2026-08-10T17:49:22+00:00",
+    "summary": "Nonlinear stochastic differential equations (SDEs) underlie molecular modeling and drug discovery, quantitative finance, stochastic learning, and uncertainty quantification. Their expectations, event probabilities, and time correlations are therefore natural targets for quantum computation, but nonlinear drift and averaging over noise realizations obstruct a direct quantum representation. We develop an exact \\emph{Kolmogorov--Lindblad mapping} (KLM) at the level of the probability law, encoded natively as a trace-one quantum density operator. For each Brownian realization, the pathwise density admits a half-density whose evolution is a stochastic Schr\u00f6dinger equation. Averaging the associated pure states yields a Lindblad equation for $\u0393(t)$ whose diagonal kernel is exactly the Fokker--Planck density, $p(t,x)=\u0393(t;x,x)$, with classical diffusion represented by decoherence through Hermitian jump operators. Statistical observables become quantum expectations without the unknown time-dependent normalization introduced by direct amplitude encoding of the density, and classical two-time correlations admit an exact quantum regression formula. A structure-preserving Galerkin projection retains the Lindblad form at finite dimension, placing classical SDEs and open quantum dynamics on the same quantum-native computational footing. Numerical experiments for double-well Langevin dynamics and noisy Lorenz--63 exhibit rapid convergence of statistical observables. KLM thus provides a mathematically controlled path from general nonlinear stochastic dynamics to quantum channels, while isolating function approximation and coherent operator access as the remaining determinants of algorithmic efficiency."
+  },
+  {
+    "title": "The Earth Moves, But So Does the Bias: Systematic Upward Bias of the Wasserstein (Earth Mover's) Distance and Permutation-Based Null Calibration",
+    "url": "http://arxiv.org/abs/2608.09863v1",
+    "arxiv_id": "2608.09863v1",
+    "authors": [
+      "Ho Ting",
+      " Hung"
+    ],
+    "published": "2026-08-10T17:21:15+00:00",
+    "summary": "The Earth Mover's Distance (EMD) is gaining increasing interest among political scientists for assessing similarity in preference distributions. However, there remains a risk of finite-sample upward bias induced by sampling variation in empirical probability measures, which is under-recognized by existing studies. This problem is especially severe in high-dimensional or sparse settings, including conjoint distributions that serve as an illustrative example in this paper. As political scientists are broadening their use cases of EMD, this paper calls on the discipline to handle the upward bias robustly. It cautions against interpreting standard bootstrap uncertainty bounds as a correction for the upward bias of empirical EMD. It proposes a permutation-based null calibration framework for more robust hypothesis testing. As a non-parametric approach, it frees researchers from making directional or distributional shape assumptions. While alternative estimators require these rigid assumptions to correct for upward bias, political science data often fails to meet them in practice. Through four sets of Monte Carlo simulations, this paper demonstrates the utility of this framework. The proposed approach also applies more generally to empirical comparisons of two probability distributions defined on a common metric space, provided that the ground distance between support points is substantively meaningful."
+  },
+  {
+    "title": "The Galactic Neutrino Sky: Predictions from Gamma-ray Source Populations",
+    "url": "http://arxiv.org/abs/2608.09849v1",
+    "arxiv_id": "2608.09849v1",
+    "authors": [
+      "Leo Seen",
+      "Ke Fang"
+    ],
+    "published": "2026-08-10T17:08:20+00:00",
+    "summary": "High-energy neutrino emission from the Galactic plane has been detected at a significance of $5.7\u03c3$, with a prominent excess toward the inner Galaxy. We show that this excess can be naturally explained by the spatial distribution of Galactic neutrino sources. By combining $\u03b3$-ray source catalogs spanning GeV-PeV energies and selecting candidate hadronic emitters, we construct ReGal-$\u03b3$, a template of resolved Galactic $\u03b3$-ray sources that may also produce high-energy neutrinos. Compared with models of Galactic diffuse emission, ReGal-$\u03b3$ predicts a neutrino intensity that is more strongly concentrated toward the inner Galaxy. Combined with models of diffuse cosmic-ray emission and unresolved $\u03b3$-ray sources, the template reproduces both the spectral energy distribution and the Galactic longitudinal count profile reported by IceCube without requiring additional renormalization of the emission models. We test this result using an independent $\u03b3$-ray source template constructed from different catalogs and find that our conclusion is robust against uncertainties in source modeling. Future measurements of the energy-dependent longitudinal and latitudinal neutrino distributions will provide tighter constraints on these models and help determine the spatial distribution of Galactic neutrino sources."
+  },
+  {
+    "title": "Alpha Particle Induced Collision Cascade Fusion",
+    "url": "http://arxiv.org/abs/2608.09831v1",
+    "arxiv_id": "2608.09831v1",
+    "authors": [
+      "Sandeep Puri",
+      "Noah D'Amico",
+      "Andrew Gillespie",
+      "Ian Jones",
+      "Cuikun Lin",
+      "Bo Zhao",
+      "R. V. Duncan"
+    ],
+    "published": "2026-08-10T16:49:57+00:00",
+    "summary": "We report experimental and computational investigations of a collision-cascade mechanism to induce deuterium-deuterium (D-D) fusion. Evidence of neutron production was observed from a pressurized deuterium target exposed to energetic alpha particles emitted by a $^{210}\\text{Po}$ source. A 5-mCi $^{210}\\text{Po}$ alpha source was placed within a chamber containing pressurized deuterium gas, and neutron emission was monitored for 18 h using two Mirion SN-S $^{3}\\text{He}$ neutron detectors. Alpha particles incident on pressurized deuterium gas produced an average excess of $\\sim$74 neutrons after background subtraction, corresponding to a fusion neutron rate of $\\sim$2.24 n/s. With LiD in the pressurized deuterium, the average excess increased to 268 neutrons, corresponding to 8.1 n/s. Since D-D fusion branches into two equally likely pathways, these correspond to a fusion rate near 4.5 and 16.2 fusions per second, respectively. MCNP simulations incorporating experimental geometry, source activity, and detector configuration predicted neutron yields within 5.4% of the measured values and reproduced the detector response within experimental uncertainty. The tight agreement between measured and simulated neutron counts suggests that energetic alpha-particle interactions within the deuterium may contribute to measurable D-D fusion reactions through the D(d,n)$^{3}\\text{He}$ channel."
+  },
+  {
+    "title": "ReliableNet: A Chance-Constrained Approach to Trustworthy Classification in Deep Learning",
+    "url": "http://arxiv.org/abs/2608.09768v1",
+    "arxiv_id": "2608.09768v1",
+    "authors": [
+      "Ange-Cl\u00e9ment Akazan",
+      "Ineza Remy Mugenga",
+      "Abebe Geletu",
+      "Jean Medard Ngnotchouye",
+      "Issa Karambal"
+    ],
+    "published": "2026-08-10T15:58:19+00:00",
+    "summary": "A prediction that is both confident and wrong is a critical reliability failure because it can bypass abstention and human review precisely when the model is mistaken. Empirical risk minimization (ERM) controls average loss but not this failure directly, while calibration, uncertainty estimation, conformal risk control, and selective prediction methods target related reliability properties rather than bounding the joint failure event during training. We propose ReliableNet, which constrains the Joint Confident-Wrong (JCW) probability, the probability that a prediction is simultaneously confident and incorrect, below a user-specified risk budget $\u03b1\\in(0,1)$. We formulate this as a chance-constrained ERM problem, use a conservative smooth inner approximation whose population feasibility implies the original JCW constraint. Across four tabular and two image datasets, ReliableNet is the only method certified within the JCW budget for every dataset and seed in distribution, when compared against baselines spanning ERM, post-hoc calibration, conformal risk control, and selective prediction. Under demographic, ambiguity, spurious-correlation, novel-class, and covariate shifts, it achieves the lowest empirical JCW among the compared methods while remaining very competitive in accuracy, coverage, calibration, and selective prediction. Risk-coverage results further indicate that ReliableNet achieves better selective ranking than the benchmark methods on most datasets. Overall, ReliableNet provides a principled approach to trustworthy classification."
+  },
+  {
+    "title": "Bayesian Node Edge Modeling of Road Crashes in Central Bogot\u00e1",
+    "url": "http://arxiv.org/abs/2608.09741v1",
+    "arxiv_id": "2608.09741v1",
+    "authors": [
+      "Danna Lesley Cruz Reyes",
+      "Cristian Harvey Ardila Bol\u00edvar"
+    ],
+    "published": "2026-08-10T15:37:17+00:00",
+    "summary": "Introduction: Crash counts on road segments and intersections exhibit differ- ent exposure and connectivity patterns that conventional analyses may obscure. Methodology: A Bayesian negative binomial node edge model was fitted to 8,169 road segments and 8,398 intersections in six central districts of Bogot\u00e1. Separate predictors represented road hierarchy, pavement, speed, signalization, intersection configuration, and land-use treatment. Model performance was examined through pre- dictive summaries and spatial diagnostics, while computational details are reported in the appendix. Results: Intersections with at least four incident segments and higher maximum incident speeds had higher expected crash counts. Land use treatment and signalized access intensity also showed posterior associations. Road hierarchy and signalization were the clearest segment-level factors; however, this component had weak raw scale predictive performance and numerical uncertainty for some pavement categories. Conclusion: Treating intersections and segments as distinct network elements provides an interpretable baseline for urban crash analysis, but the segment results require cautious interpretation and motivate spatially structured extensions."
+  },
+  {
+    "title": "Stochastic Multistage Constellation Reconfiguration Problem: Stochastic Dual Dynamic Integer Programming Approach",
+    "url": "http://arxiv.org/abs/2608.09738v1",
+    "arxiv_id": "2608.09738v1",
+    "authors": [
+      "Brycen D. Pearl",
+      "Hang Woon Lee"
+    ],
+    "published": "2026-08-10T15:37:01+00:00",
+    "summary": "Observation tasking is critical to satellite operations, enabling observation of planetary phenomena, orbital debris monitoring, and space domain awareness. To improve the effectiveness of satellite operations, orbital maneuverability is introduced as a leading-edge concept of operations within constellation reconfigurability for response to dynamic events. Previous investigations regarding constellation reconfigurability consist of deterministic mission environments, in which the formulations consider a priori knowledge of the environment; however, observation objectives inherently involve uncertainty at any given time. As such, scheduling satellite operations must account for uncertainties to ensure adequate observation tasking. In response, we present a stochastic variant of the Multistage Constellation Reconfiguration Problem (MCRP) which is solved using Stochastic Dual Dynamic Integer Programming (SDDiP). We additionally explore other stochastic problem-solving techniques for solution quality comparison. To demonstrate each solution method, two computational experiments with stochastic target properties are conducted. The first concerns random orbital targets, and the second concerns simulated hurricanes. The results of the experiments demonstrate the effectiveness of the SDDiP solution approach over other stochastic problem-solving methods. Overall, the stochastic MCRP accounts for target stochasticity while obeying visible time windows and maneuver feasibility."
+  },
+  {
+    "title": "Why the unrestricted weighted least squares should be routinely reported in medical meta-analyses",
+    "url": "http://arxiv.org/abs/2608.09718v1",
+    "arxiv_id": "2608.09718v1",
+    "authors": [
+      "T. D. Stanley",
+      "John P. A. Ioannidis",
+      "Maximilian Maier",
+      "Hristos Doucouliagos",
+      "Willem M. Otte",
+      "Franti\u0161ek Barto\u0161"
+    ],
+    "published": "2026-08-10T15:20:00+00:00",
+    "summary": "The unrestricted weighted least squares (UWLS) meta-analysis estimator of mean effect is an alternative to the conventional random-effects model (RE). It is a weighted least squares regression estimator that can be represented as a multiplicative random-effects model. UWLS has been shown to fit medical research better than RE as measured by AIC/BIC widely across Cochrane Database of Systematic Reviews (CDSR). The independence of UWLS's mean and heterogeneity estimators provide small-sample advantages that RE does not possess. Large small-sample biases and uncertainty in RE's heterogeneity variance estimates explain most of RE's relatively poor fit along with RE's boundary problem, where RE's heterogeneity variance is estimated to be zero. We prove that UWLS almost always has superior fit at RE's boundary with uncommon exceptions. UWLS has also been found to have generally superior statistical properties: bias, MSE, and coverage relative to RE across 1,665 simulation designs compiled from four published studies authored by different teams of researchers. A recent study in this journal replicated UWLS's superior goodness of fit widely across both the CDSR and a new set of simulations. Due to reporting and interpretation errors, this recent study calls for the continued use of RE as the default meta-analysis estimator with limited applications of UWLS. We address this recent study's concerns and show why UWLS should be routinely reported in medical meta-analyses."
+  },
+  {
+    "title": "A Gaussian Process framework for constraining the nuclear equation of state from microscopic calculations with correlated uncertainties",
+    "url": "http://arxiv.org/abs/2608.09678v1",
+    "arxiv_id": "2608.09678v1",
+    "authors": [
+      "Y. G. Lee",
+      "J. Kim",
+      "T. Zhao",
+      "C. Drischler"
+    ],
+    "published": "2026-08-10T14:50:15+00:00",
+    "summary": "We present constraints on the nuclear equation of state (EOS) from microscopic asymmetric matter calculations at zero temperature based on chiral nucleon-nucleon and three-nucleon interactions. The constraints include the saturation point, the isospin dependence of the incompressibility, and the symmetry energy, as well as the crust-core transition density of neutron-star matter. To quantify and propagate correlated uncertainties from noisy many-body calculations to derived observables, we introduce GPDiff, an efficient JAX-based Python package for multivariate Gaussian process (GP) regression with automatic differentiation. After training, GPDiff enables joint predictions of the EOS and derivatives of arbitrary order with respect to the input variables, including mixed partial derivatives. In this initial application, we analyze recent high-order many-body perturbation theory calculations of asymmetric matter up to about twice saturation density and explore nonstationary change-surface kernels, a class of input-dependent kernels, for modeling the EOS. GPDiff is broadly applicable to microscopic nuclear EOS calculations at zero and finite temperature and provides a versatile package for GP-based uncertainty quantification and inference of the nuclear EOS."
+  },
+  {
+    "title": "Thermal Design and Experimental Validation of a Water-Cooled Bimetallic Minichannel Beam Dump for High-Power Heavy-Ion Accelerators",
+    "url": "http://arxiv.org/abs/2608.09671v1",
+    "arxiv_id": "2608.09671v1",
+    "authors": [
+      "J. Song",
+      "N. Bultmann",
+      "M. Reaume",
+      "M. Patil",
+      "R. Quispe-Abad",
+      "W. Franklin",
+      "S. I. Eom",
+      "E. Wakai",
+      "M. Vargas Vallejo"
+    ],
+    "published": "2026-08-10T14:45:00+00:00",
+    "summary": "Efficient thermal management of beam-intercepting devices is essential for high-power heavy-ion accelerators,where intense and localized energy deposition can limit primary beam power and operational reliability. This work presents the thermal design and experimental validation of a water-cooled bimetallic minichannel beam dump developed for the Facility for Rare Isotope Beams (FRIB), a leading experimental nuclear physics facility. The design integrates three key thermal features: a tilted absorber geometry to reduce local heat flux, a CuCrZr/Al2219 bimetallic structure to enhance heat spreading while maintaining water-side compatibility, and 2-mm-wide minichannels to achieve high convective heat removal. A conjugate thermal model was developed to predict surface temperature, internal temperature gradients, bimetallic-interface temperature, coolant temperature rise,   and thermal margin under representative beam-loading conditions. The prototype was validated in vacuum ($\\approx$5$\\times 10^{-4}$ torr) using a 17-keV electron beam.   Surface temperatures were measured by infrared thermography, and internal temperatures were measured using embedded thermocouples.   The calculated surface temperature distributions were generally consistent with the measurements within the experimental uncertainty of 4$\\%$ in absolute temperature for central beam irradiation, while internal temperature measurements showed reasonable agreement within 15$\\%$, mainly due to uncertainties in thermocouple placement and beam-position calibration.   The validated model confirms that the minichannel beam dump can maintain absorber temperatures within the design limit under intermediate-power FRIB operating conditions.   These results demonstrate the effectiveness of bimetallic minichannel cooling for compact, high-heat-flux beam dump systems in heavy-ion accelerator facilities."
+  },
+  {
     "title": "HST imaging, pipeline modeling, and time-delay predictions of 2 triply-imaged and 15 quadruply-imaged lensed quasars",
     "url": "http://arxiv.org/abs/2608.07470v1",
     "arxiv_id": "2608.07470v1",
