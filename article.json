@@ -1,5 +1,133 @@
 [
   {
+    "title": "Capturing Uncertainty in Human Motion for Representation Learning in Soccer",
+    "url": "http://arxiv.org/abs/2608.11203v1",
+    "arxiv_id": "2608.11203v1",
+    "authors": [
+      "Yizhou Xu",
+      "Lars Bretzner",
+      "Tiesheng Wang",
+      "Atsuto Maki"
+    ],
+    "published": "2026-08-11T17:59:10+00:00",
+    "summary": "This paper presents a self-supervised representation learning framework for understanding 3D skeleton-based human motion in soccer, using future motion prediction as the learning objective. Since human motion is inherently uncertain, accounting for multiple plausible futures is essential for capturing the underlying motion dynamics and learning effective representations. To this end, we introduce a conditioning module for motion prediction that models a probabilistic distribution over discretized future motions in 3D Euclidean space, learning multimodality with explicit supervision from future trajectories. Experiments on large-scale soccer player tracking data show that our approach substantially improves motion prediction accuracy. Moreover, the learned representations effectively transfer to multiple soccer downstream applications, demonstrating strong cross-task generalization."
+  },
+  {
+    "title": "Bayesian inference on beta diversity via feature allocation models with imperfect detection",
+    "url": "http://arxiv.org/abs/2608.11180v1",
+    "arxiv_id": "2608.11180v1",
+    "authors": [
+      "Federica Stolf",
+      "Tommaso Rigon",
+      "David B. Dunson"
+    ],
+    "published": "2026-08-11T17:38:21+00:00",
+    "summary": "Beta diversity quantifies variation in species composition across ecological communities and is fundamental for understanding biodiversity patterns across space and environmental gradients. Statistical inference on beta diversity is challenging: species occurrence data are high dimensional, many species remain unobserved despite extensive sampling, and surveys are subject to imperfect detection. Existing approaches are typically based on empirical dissimilarity indices with limited uncertainty quantification or on models that rely on unrealistic exchangeability and perfect detection assumptions. We introduce a new class of Bayesian feature allocation models for partially exchangeable species occurrence data with imperfect detection. The framework combines latent feature allocation models with occupancy-based detection mechanisms, allowing heterogeneous species compositions across sites, explicitly accounting for false negatives, and accommodating the discovery of previously unobserved species. We develop coherent probabilistic inference for species sharing and beta diversity, deriving explicit posterior and predictive distributions for between-community heterogeneity, including the number of shared species across sites and the number expected under future sampling. These analytical results yield interpretable posterior summaries of compositional heterogeneity and facilitate scalable inference in high-dimensional biodiversity studies. Simulation studies and an application to global fungal biodiversity data demonstrate improved inference on species sharing and between-community diversity."
+  },
+  {
+    "title": "Risk-Aware Kinodynamic Motion Planning Under Uncertainty For Safe Navigation on Planetary Environments",
+    "url": "http://arxiv.org/abs/2608.11175v1",
+    "arxiv_id": "2608.11175v1",
+    "authors": [
+      "Sachin Sunil Kelkar",
+      "Tanmay Dokania",
+      "Yashwanth Kumar Nakka"
+    ],
+    "published": "2026-08-11T17:34:56+00:00",
+    "summary": "For autonomous space exploration, robotic agents need to perform motion planning in which environmental interactions may be unknown. Learning these interactions, such as terrain mechanics for wheeled robots, can introduce uncertainties that lead to risky motion plans and potentially hazardous operations or mission failures. Moreover, uncertainties induced by perception-based systems can exacerbate the problem of safe motion planning. In this letter, we address the problem of performing cost-optimal kinodynamic motion planning with risk awareness. We approach this in two steps. First, a sampling-based planner (AO-RRT) generates a dynamically feasible, risk-aware, and asymptotically cost-optimal trajectory. Second, we formulate motion planning as a nonlinear optimization problem and solve it using sequential convex programming (SCP), using the AO-RRT trajectory as an initial solution. By quantifying risk using conditional value-at-risk (CVaR), we demonstrate a reduction in risk by over $\\sim$97\\% across trajectories in simulation and hardware experiments."
+  },
+  {
+    "title": "CausalSplat: Towards Comprehensive Hierarchical Reasoning in 3D Gaussian Splatting",
+    "url": "http://arxiv.org/abs/2608.11150v1",
+    "arxiv_id": "2608.11150v1",
+    "authors": [
+      "Jiayu Ding",
+      "Meilu Song",
+      "Yun Chen",
+      "Wei Gao",
+      "Ge Li"
+    ],
+    "published": "2026-08-11T17:09:49+00:00",
+    "summary": "While 3D Gaussian Splatting (3DGS) has advanced open vocabulary scene understanding, existing methods remain confined to explicit queries. They struggle to interpret implicit intents, complex spatial constraints, and commonsense reasoning required for practical embodied interactions. To address this gap, we introduce the task of reasoning 3D Gaussian segmentation and construct two benchmarks, Causal-LERF and Causal-ScanNet. These benchmarks systematically evaluate commonsense, spatial, affordance, and counterfactual reasoning. Evaluations reveal that current state of the art methods perform poorly on these reasoning challenges. Therefore, we propose CausalSplat, a framework that integrates vision-language models with 3D scene graphs to disentangle explicit structural perception from implicit logical inference. Extensive experiments demonstrate that CausalSplat achieves state of the art performance on our reasoning benchmarks while showing strong generalizability on standard referring and open vocabulary 3D segmentation tasks. Project Page: https://jiayuding031020.github.io/CausalSplat"
+  },
+  {
+    "title": "Attention-Path Fragility as an Uncertainty Signal in Large Language Models",
+    "url": "http://arxiv.org/abs/2608.11138v1",
+    "arxiv_id": "2608.11138v1",
+    "authors": [
+      "Minsoo Kim",
+      "Sungyoung Ji",
+      "Kisung Moon",
+      "Ilyong Yoon"
+    ],
+    "published": "2026-08-11T16:59:02+00:00",
+    "summary": "We propose that a model's uncertainty about a token is reflected not only in the breadth of its output distribution but also in whether a confident prediction is \\emph{fragile} under perturbation of its attention pathways. We instantiate this as ASMI (Attention-Subnetwork Mutual Information), a training-free estimator that masks attention heads and measures the BALD mutual information among the resulting subnetworks, with a semantic-agreement kernel to discount surface-form disagreement. The signal is not a restatement of output confidence: on grounded QA an out-of-fold test shows it adds error-predictive information beyond single-pass confidence and entropy, concentrated in \\emph{confident-but-fragile} predictions, where acting on it roughly halves the retained error of a confidence filter. The distinctness is regime-graded, so ASMI predicts its own domain of applicability, strong where answers are routed through provided context and bounded by design where they are recalled from parametric knowledge. Sem-ASMI reads the signal from a single greedy response, without the stochastic generations the strongest baselines require, and ties or beats Semantic Entropy on ten of the twelve grounded benchmark-backbone settings. Across the same twelve settings, the best ASMI variant, typically the adaptive one reusing the ten samples already drawn for the baselines, ties or leads the strongest baseline in eight, significantly in three under a paired test. On parametric QA all variants revert to or below the zero-cost MSP baseline, exactly as predicted, and the estimates are near-deterministic across reruns. A head-level analysis shows that what tracks this boundary is not the presence of head-level fragility but whether that fragility couples to errors."
+  },
+  {
+    "title": "All You Need is not $\u03a9_\\mathrm{gw}$: Beyond the Mean of the Cross-Correlation Estimator when Searching for an Astrophysical Gravitational-Wave Background",
+    "url": "http://arxiv.org/abs/2608.11119v1",
+    "arxiv_id": "2608.11119v1",
+    "authors": [
+      "Haowen Zhong",
+      "Francesco Iacovelli",
+      "Vuk Mandic",
+      "Emanuele Berti"
+    ],
+    "published": "2026-08-11T16:26:47+00:00",
+    "summary": "Searches for the stochastic gravitational-wave background (SGWB) using ground-based detectors rely heavily on the cross-correlation estimator $\\bar C_f$, whose statistical properties determine the theoretical foundation for inference frameworks built on it. Past analyses usually assume Gaussianity of $\\bar C_f$, but this assumption has not been systematically tested for a background of astrophysical origin like the one produced by compact binary coalescences. In this work, we decompose $\\bar C_f$ into three physically motivated components: (1) the mean intensity, (2) the geometrical shot noise, and (3) the polarization leakage, and we compute 90\\% credible intervals for its cumulants up to fourth order for the binary black hole, binary neutron star, and neutron star-black hole populations by propagating local merger rate uncertainties. We find that for the upcoming LIGO O5 sensitivity, $\\bar C_f$ remains effectively Gaussian for all three populations, validating current Gaussian likelihood frameworks. For Cosmic Explorer (CE), however, the $\\bar C_f$ produced by binary black holes becomes non-Gaussian, with skewness and excess kurtosis of $0.31^{+0.04}_{-0.03}$ and $1.3^{+0.4}_{-0.3}$, respectively, in the most sensitive band over a one-year observation period. For binary neutron star and neutron star - black hole mergers, $\\bar C_f$ remains largely Gaussian even at CE. These results indicate that the Edgeworth expansion provides an adequate leading-order description of the non-Gaussianity expected in the next-generation era, while also motivating the development of more sophisticated statistical methods for a more accurate treatment."
+  },
+  {
+    "title": "Two-stage Odd Residual Flows for Mean-Preserving Probabilistic Time Series Forecasting",
+    "url": "http://arxiv.org/abs/2608.11114v1",
+    "arxiv_id": "2608.11114v1",
+    "authors": [
+      "Kiran Madhusudhanan",
+      "Christian Kl\u00f6tergens",
+      "Lars Schmidt-Thieme",
+      "Vijaya Krishna Yalavarthi"
+    ],
+    "published": "2026-08-11T16:22:47+00:00",
+    "summary": "Probabilistic forecasting plays an essential role in risk-sensitive decision-making, particularly in long-horizon settings. However, existing approaches often face a fundamental trade-off between distributional flexibility and accurate mean prediction. Traditional parametric methods, such as Mean Variance Estimation (MVE), can suffer from degraded point accuracy when trained under joint Negative Log-Likelihood (NLL) objectives, while modern-flexible generative models, including Normalizing Flows and Diffusion Models, typically rely on costly Monte Carlo sampling and may yield suboptimal mean estimates. To address this limitation, we propose Two-stage Odd Residual Flows (TORF), a framework that decouples mean forecasting from uncertainty estimation. In the first stage, a pre-trained deterministic model is used to produce an accurate mean prediction. In the second stage, a Restricted Normalizing Flow, with strictly odd functions learns flexible residual distributions around the point forecast, guaranteeing mean preservation from the first stage without sampling. Experiments show that TORF achieves state-of-the-art deterministic accuracy (NMAE) while providing strong density estimation performance (CRPS) on short and long-horizon forecasting."
+  },
+  {
+    "title": "Accelerated Discovery of Materials with Extreme Work Functions through Uncertainty-Aware Multi-Fidelity Screening",
+    "url": "http://arxiv.org/abs/2608.11062v1",
+    "arxiv_id": "2608.11062v1",
+    "authors": [
+      "Jun Meng",
+      "Ryan Jacobs",
+      "Rehan Kapadia",
+      "John Booske"
+    ],
+    "published": "2026-08-11T15:29:20+00:00",
+    "summary": "Work function plays a pivotal role in technologies ranging from energy conversion and electronics to catalysis. In this work, we integrated machine learning (ML) with multi-fidelity screening to develop a data-driven framework for accelerating the discovery of materials with extreme work functions. We augmented a previously published Random Forest (RF) model for work function to include prediction uncertainty calibration and domain of applicability assessment to enhance prediction robustness. By combining the augmented RF model with universal ML interatomic potential simulations and targeted ab initio calculations, we screened 5.5 million compounds from the GNoME and Alexandria databases. This workflow identified 209 surfaces with extreme low work functions below 2.0 eV and 227 surfaces with extreme high work functions above 6.0 eV, corresponding to 136 and 172 unique materials, respectively. The resulting candidates revealed trends consistent with established chemical principles, including the tendency of alkali- and alkaline-earth-terminated surfaces to exhibit low work functions. While it also uncovered less conventional motifs: lanthanide-rich surface terminations were strongly associated with extremely low work functions, whereas surfaces containing metalloids or phosphorus at the top layer were correlated with exceptionally high work functions. This work demonstrates a scalable strategy that leverages ML models and multi-fidelity computational efforts to accelerate the discovery of materials with extreme work functions for advanced electronic, energy-conversion, and catalytic applications."
+  },
+  {
+    "title": "Machine-learning surrogate models for nonlinear energetic-particle transport predictions in ITER",
+    "url": "http://arxiv.org/abs/2608.11058v1",
+    "arxiv_id": "2608.11058v1",
+    "authors": [
+      "Yashika Ghai",
+      "Donald A. Spong",
+      "Jacobo Varela",
+      "Luis Garcia"
+    ],
+    "published": "2026-08-11T15:25:07+00:00",
+    "summary": "Fast and accurate prediction of energetic-particle transport driven by Alfv\u00e9n eigenmode (AE) instabilities is essential for integrated modeling workflows used in the design and optimization of burning plasma fusion reactors. In this work, we develop machine-learning-based surrogate models for rapid prediction of energetic beam and alpha-particle transport fluxes, together with predictive uncertainty estimates, for an ITER steady-state scenario. Two complementary surrogate methodologies, Gaussian process (GP) regression and hierarchical neural networks (NNs), are trained using nonlinear FAR3d gyrofluid simulations of energetic-particle transport. A flux-variability analysis demonstrates that the selected plasma-state representation provides a sufficiently unique parameterization of the nonlinear transport response over most of the sampled feature space, thereby justifying the surrogate formulation. Both surrogate models reproduce the nonlinear transport fluxes with high predictive accuracy while reducing the computational cost of transport evaluation by approximately five to six orders of magnitude relative to direct nonlinear FAR3d simulations. Although the two approaches achieve comparable predictive accuracy, they exhibit distinct uncertainty characteristics: the GP provides more consistent global uncertainty estimates, whereas the NN more clearly distinguishes between different transport regimes. This work establishes a proof of concept for developing machine-learning surrogate models of energetic-particle transport that are sufficiently accurate and computationally efficient to be incorporated into future integrated modeling workflows."
+  },
+  {
+    "title": "Uncertainty-Aware Deep Learning for Genomics Applications: Insights from an Empirical Study",
+    "url": "http://arxiv.org/abs/2608.11054v1",
+    "arxiv_id": "2608.11054v1",
+    "authors": [
+      "Sepideh Saran",
+      "Mahsa Ghanbari",
+      "Uwe Ohler"
+    ],
+    "published": "2026-08-11T15:23:09+00:00",
+    "summary": "Deep learning models have emerged as the standard computational tool for a wide range of applications in genomics. Yet, uncertainty quantification (UQ) -- and more specifically, the reliability of different uncertainty estimates in this domain -- has received little systematic attention. This work presents an empirical analysis of UQ in deep learning models, focusing on genomics applications. In a series of experiments, we contrast Deep Ensembles, Bayesian Neural Networks, and Monte Carlo-dropout methods. We assess their ability to quantify uncertainty in different scenarios, accounting for common dataset characteristics in two genomic application areas and modalities: sequence-to-activity models, and single-cell expression analysis. Our systematic comparison framework provides guidelines for the applicability and reliability of UQ methods in genomics, highlighting their strengths and limitations in different scenarios. We show that Bayesian Neural Networks are better at capturing uncertainty caused by strong class imbalance and out-of-distribution data in genomics, despite their computational disadvantages. Moreover, we show how uncertainty scores can be used to select high-quality predictions in protein-RNA interactions."
+  },
+  {
     "title": "From Nonlinear Stochastic Differential Equations to Quantum Channels: The Kolmogorov--Lindblad Mapping",
     "url": "http://arxiv.org/abs/2608.09903v1",
     "arxiv_id": "2608.09903v1",
