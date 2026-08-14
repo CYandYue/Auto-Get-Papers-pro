@@ -1,5 +1,132 @@
 [
   {
+    "title": "Safety-Critical Control for Quadrotor UAVs via Decentralized Navigation Functions",
+    "url": "http://arxiv.org/abs/2608.13507v1",
+    "arxiv_id": "2608.13507v1",
+    "authors": [
+      "Omayra Yago Nieto",
+      "Alexandre Anahory Simoes",
+      "Leonardo Colombo"
+    ],
+    "published": "2026-08-13T17:32:55+00:00",
+    "summary": "We study safety-critical control for teams of quadrotor UAVs driven by decentralized navigation functions under learned model uncertainty. These functions generate fully actuated translational reference forces, while quadrotors can only produce thrust along their body-fixed vertical axes. We construct a thrust-attitude implementation of the induced navigation forces and quantify its error with respect to the fully actuated reference dynamics. An aggregated robust HOCBF-QP safety filter minimally modifies the nominal thrusts while guaranteeing pairwise collision avoidance with high probability."
+  },
+  {
+    "title": "Retrospective Statistical Inference",
+    "url": "http://arxiv.org/abs/2608.13439v1",
+    "arxiv_id": "2608.13439v1",
+    "authors": [
+      "Chong Gu"
+    ],
+    "published": "2026-08-13T16:25:59+00:00",
+    "summary": "In this article, we explore a new paradigm for statistical inference. The approach centers around the point estimate based on observed data, simulating replicates using the estimate as the truth to produce clones of the estimate, with inference deriving from the clone distribution. It avoids prospective finite-dimensional model assumptions, but it makes no probabilistic claims concerning the truth; it suggests an alternative system of uncertainty quantification that is operable in nonparametric function estimation. The procedures are demonstrated using examples of smoothing spline ANOVA models in nonparametric regression. The paradigm also applies in parametric regression, where the proposed inference closely resembles traditional inference operation-wise. Conceptual discussions are scattered throughout."
+  },
+  {
+    "title": "MANGO: An Autodiff Neutrino Oscillation Engine for Differentiable Analysis Pipelines",
+    "url": "http://arxiv.org/abs/2608.13429v1",
+    "arxiv_id": "2608.13429v1",
+    "authors": [
+      "Pierre Granger"
+    ],
+    "published": "2026-08-13T16:17:44+00:00",
+    "summary": "Computing neutrino oscillation probabilities is a solved problem; computing their derivatives is not. We present MANGO (MANGO: A Neutrino Gradient Oscillator), a composable oscillation engine in which every computed quantity is differentiable with respect to all inputs, including propagation geometry, detector depth, and individual Earth-shell densities. None of these quantities appear in traditional analytic probability formulas. The engine supports vacuum, constant-density, layered-PREM, arbitrary-profile, and adiabatic solar propagation, alongside front-ends for non-standard interactions, 3+N sterile states, decoherence, and non-unitary mixing. Because reverse-mode cost depends on output rather than input dimension, evaluating sensitivities incurs a constant 2.5-3x forward-pass overhead. As a result, calculating sensitivities for all 369 density, electron-fraction, and shell-radius parameters of a layered Earth costs no more than the 6 standard oscillation parameters. By maintaining exact sensitivity signals, MANGO allows gradients to flow continuously past the probability stage and through detector response, event weighting, binning, and likelihoods. We demonstrate this on a stylized Earth-tomography analysis. In a single pass, MANGO computes the marginalized uncertainty on a six-zone radial density model and, by differentiating through the inverse Fisher matrix, evaluates its sensitivity with respect to detector angular resolution. This provides an experimental-design metric unreachable using traditional analytic probability formulas. Three-flavor and layered-Earth probabilities match external benchmarks (OscProb, NuFast-Earth) to within 10^-9 to 10^-5, while all forward models, BSM limits, and differentiation paths are verified against exact analytic solutions and finite differences."
+  },
+  {
+    "title": "COBRA-DOSE: Copula-based Bayesian Model Averaging for Dose Selection",
+    "url": "http://arxiv.org/abs/2608.13423v1",
+    "arxiv_id": "2608.13423v1",
+    "authors": [
+      "Luke Hagar",
+      "Min Zhang",
+      "Ranjeny Thomas",
+      "Andrew J. Martin"
+    ],
+    "published": "2026-08-13T16:14:18+00:00",
+    "summary": "Early-phase clinical trials for dose selection typically enrol few patients and aim to identify doses that are both safe and promising for further study. While traditional approaches identify the maximum tolerated dose, modern trials for targeted therapies often seek the optimal biological dose, defined as the lowest dose achieving sufficient biological activity with acceptable safety. In immunology settings, assessment of biological activity is based on multiple biomarkers or clinical endpoints. Clinicians leading dose-selection efforts would thus benefit from transparent summaries of the probabilities of observing combinations of biomarker outcomes across doses. However, such inference is challenging in small samples where complex modelling assumptions are difficult to verify. To address this limitation, we propose COBRA-DOSE, a framework for posterior predictive inference based on two endpoints that models dependence via copulas and accounts for uncertainty in both marginal distributions and dependence structures through Bayesian model averaging. This approach avoids reliance on a single model and yields interpretable quantities for clinical decision making. We demonstrate the performance of COBRA-DOSE using DEN-181, a phase I immunology trial in rheumatoid arthritis. We also provide a general implementation of our approach through the CobraDose package in R."
+  },
+  {
+    "title": "CROP: Task Relevance via Counterfactuals for Selective On-Policy Distillation",
+    "url": "http://arxiv.org/abs/2608.13387v1",
+    "arxiv_id": "2608.13387v1",
+    "authors": [
+      "Enhan Li",
+      "Junhao He",
+      "Hongyang Du"
+    ],
+    "published": "2026-08-13T15:48:16+00:00",
+    "summary": "On-policy distillation (OPD) supervises a student language model on trajectories sampled from its current policy, but assigns equal credit to response tokens with unequal supervision value. Selective OPD addresses this limitation by allocating supervision non-uniformly across response tokens according to their estimated training value. Most existing criteria, however, focus primarily on optimization need, such as uncertainty or teacher-student disagreement, while task relevance, namely whether the supervision is tied to the semantic content of the current input, remains less directly characterized as a complementary dimension. To address this gap, we introduce Counterfactual Relevance for On-Policy Distillation (CROP), which operationalizes task relevance through a paraphrase-calibrated counterfactual sensitivity margin. For each source prompt, CROP constructs a validated original-paraphrase-counterfactual triplet, holds the student rollout fixed, and measures each response position by its sensitivity to a task-relevant condition change calibrated by its sensitivity to a meaning-preserving rewrite. Matched selection controls show that CROP identifies more useful supervision positions than random or lowest-relevance selection, while component comparisons confirm the value of both counterfactual sensitivity and paraphrase calibration. Across two teacher-student settings, CROP improves aggregate performance by 1.92 and 2.96 points over the strongest non-CROP selector. These results support task relevance as a complementary criterion for selective OPD and establish CROP as a model-internal, contrast-specific method for allocating token-level supervision."
+  },
+  {
+    "title": "Gravitational Wave Standard Sirens as Probes of Lorentz Violation in Bumblebee Gravity",
+    "url": "http://arxiv.org/abs/2608.13282v1",
+    "arxiv_id": "2608.13282v1",
+    "authors": [
+      "Ayan Banerjee",
+      "Bobur Turimov",
+      "Francisco Tello-Ortiz",
+      "Sulton Usanov",
+      "Farkhod Turaev"
+    ],
+    "published": "2026-08-13T14:16:46+00:00",
+    "summary": "Gravitational-wave standard sirens provide a direct measurement of luminosity distance and therefore offer a new way to test gravity over cosmological scales. We use this idea to forecast the sensitivity of the Einstein Telescope (ET) to Lorentz violation in Bumblebee gravity, and we examine how the forecast changes when Type~Ia supernova information is added. A timelike Bumblebee vacuum expectation value can affect the cosmic expansion and, when it evolves with redshift, the propagation amplitude of gravitational waves. We study a constant-field case and an evolving-field case using mock ET catalogues with $10^3$ events together with a Pantheon+-like supernova sample. The supernova data substantially improve the background parameters: in the constant-field case the uncertainties in $H_0$ and $\u03a9_m$ decrease by a factor of about $4.4$, while in the evolving-field case they decrease by factors of about $1.6$ and $6.2$, respectively. By contrast, the Lorentz-violating parameter $\\ell_0$ remains prior dominated, and the evolution index $\u03b2$ is constrained only by the gravitational-wave sector. The best forecast precision, $\u0394\\ell_0\\simeq0.028$, is about $4.7\\times10^{12}$ times weaker than the bound implied by GW170817. The principal result is therefore a quantified sensitivity gap rather than a forecast detection. We also express the prediction in the phenomenological $(\u039e,n)$ description of modified gravitational-wave propagation, allowing direct comparison with standard-siren studies of other gravity models."
+  },
+  {
+    "title": "How Do VLMs Behave When Blind or Misled? Behavioral Evaluation of VLMs on Scientific Figures",
+    "url": "http://arxiv.org/abs/2608.13267v1",
+    "arxiv_id": "2608.13267v1",
+    "authors": [
+      "Paul Osemudiame Oamen",
+      "Owusu-Banahene Osei",
+      "Ananya Mukherjee",
+      "Christian Greisinger",
+      "Steffen Eger",
+      "Pius Onobhayedo",
+      "Wei Zhao"
+    ],
+    "published": "2026-08-13T14:06:35+00:00",
+    "summary": "Existing vision-language model (VLM) benchmarks emphasize perception and reasoning accuracy (how well VLMs describe and reason about what they see in an image), with limited attention to behavioral reliability under uncertainty (how they behave when visual evidence is missing or misleading). We introduce SciFigBench, a diagnostic VLM benchmark for scientific figure understanding that jointly evaluates perception, reasoning, and behavioral reliability under uncertainty. It contains 250 figures with high-quality human annotations across three evaluation aspects, totaling 600+ hours of annotation effort. We further extend these figures via image transformations, reasoning questions, resistance probes, caption-bias probes, and confirmed selective-blur targets, producing over 34,000 evaluation setups for stress testing.   We further propose the Admittance-Resistance-Inductance (A-R-I) framework to evaluate whether models acknowledge insufficient evidence, resist misleading context, and infer cautiously from partial information. Our results reveal substantial behavioral differences among models. GPT-5.2 achieves the highest description quality (MQM 91.6) with strong reasoning accuracy (78.4%), yet hallucinates unreadable content in 96% of cases, whereas Gemini 3.1 Pro, a comparably capable model (MQM 90.2, reasoning 81.0%), admits uncertainty in 71% of such cases and achieves the strongest resistance score (0.91). These findings show that high perception and reasoning accuracy alone do not guarantee behavioral reliability, a dimension critical for deployment in scientific workflows."
+  },
+  {
+    "title": "Self-Referential Induction Increases Response Instability Relative to Unresolvable and Verifiable Questions in Large Language Models",
+    "url": "http://arxiv.org/abs/2608.13258v1",
+    "arxiv_id": "2608.13258v1",
+    "authors": [
+      "Paras Balani",
+      "Subhrakanta Panda"
+    ],
+    "published": "2026-08-13T13:58:26+00:00",
+    "summary": "Self-referential prompting has been shown to reliably induce large language models to produce first-person reports resembling subjective experience, but no prior work measures how consistent these reports are across repeated, independent trials, or how that consistency compares to the model's behavior on other kinds of open-ended questions. We measure response instability, defined as one minus the mean pairwise cosine similarity of sentence embeddings computed over a compressed core claim extracted from each response, for three groups of questions: self-referential prompts eliciting a subjective-experience report, unresolvable philosophical questions unrelated to self-reference, and questions with a verifiable correct answer. Using 30 independent responses per question (360 responses total, Gemini API, temperature 0.7) across four questions per group, we find that self-referential questions show the highest instability (0.343 +/- 0.047), unresolvable philosophy questions show intermediate and tightly clustered instability (0.192 +/- 0.008), and verifiable questions show the lowest instability (0.105 +/- 0.058). This provides a quantitative baseline for the induced subjective-experience report, showing that it occupies a distinct, less stable position in the model's output distribution than ordinary open-ended philosophical uncertainty."
+  },
+  {
+    "title": "Reliability analysis for BraTS-GoAT segmentation: a controlled robustness study of deep-ensemble uncertainty",
+    "url": "http://arxiv.org/abs/2608.13223v1",
+    "arxiv_id": "2608.13223v1",
+    "authors": [
+      "Riya Deepak Shet",
+      "Le Zhang"
+    ],
+    "published": "2026-08-13T13:27:21+00:00",
+    "summary": "Deep networks segment brain tumours accurately in-distribution, but can fail silently when the input differs from their training data. That risk is central to clinical deployment and is the premise of the BraTS-GoAT generalizability task. We ask not only how well a model segments, but whether its uncertainty knows when it is wrong. On BraTS-GoAT (Task 3) we train a 5-fold cross-validated nnU-Net baseline (one held-out prediction per case) and a 3-seed deep ensemble. Both are evaluated for calibration and error detection on a per-region relevant mask, aggregated per case. In-distribution the 3-seed ensemble improves modestly over the already strong single model on the same held-out split, with the clearest gain in calibration. The separation appears under shift. In a controlled robustness study using graded synthetic corruptions as a proxy for acquisition shift, the single model's confidence stays flat while its accuracy and calibration degrade. Inter-member disagreement instead rises steeply, about a quarter to a third above the clean condition, several times the single model's response. On the official validation leaderboard the 5-fold ensemble of those folds attains whole-tumour Dice 0.87. The generalization gap is concentrated on the harder regions, with a characteristic failure of missing small, satellite lesions on unseen cohorts. In the synthetic study, disagreement among the 3-seed members is a more sensitive case-level indicator of acquisition shift than single-model confidence. Its per-voxel error localisation weakens as severity grows. The contribution is a rigorous, honest reliability comparison rather than a claim that any one uncertainty method dominates."
+  },
+  {
+    "title": "Cosmography with DESI-DR1 Cosmic Chronometers: Direct H(z) measurements from Luminous Red Galaxy ages",
+    "url": "http://arxiv.org/abs/2608.13178v1",
+    "arxiv_id": "2608.13178v1",
+    "authors": [
+      "Carlos A. \u00c1lvarez",
+      "Marcos M. Cueli",
+      "Balakrishna S. Haridasu",
+      "Michele Moresco",
+      "Martina Torsello",
+      "Alessandro Bressan",
+      "Lumen Boco",
+      "Luigi Danese",
+      "Andrea Lapi"
+    ],
+    "published": "2026-08-13T12:44:32+00:00",
+    "summary": "Providing robust redshift estimates for almost 3 million luminous red galaxies (LRGs), the Dark Energy Spectroscopic Instrument (DESI) offers a unique opportunity to test the expansion rate of the Universe with independent approaches. We apply the cosmic chronometer method to derive new, independent constraints on the Hubble parameter at 0.3<z<1.2 from the differential age evolution of DESI LRGs. We select spectra applying spectroscopic cuts to ensure sample purity and remove contamination by star-forming objects, then build a robust sample of cosmic chronometers (CCs) by stacking to obtain stable, high signal-to-noise (S/N) spectra, which also serves as a democratic binning choice for the $t-z$ plane. Ages are estimated by measuring Lick indices on the stacked spectra and fitting them with a theoretical stellar population model. We obtain $t-z$ relations from which we derive $H(z)$ constraints via two independent approaches: a fit with a pivotal-redshift cosmography, and a direct estimate from the original CC method. The cosmographic fit yields posteriors for the kinematic parameters $\\{H_{z_0}, q_{z_0}, j_{z_0}\\}$ compatible with currently considered cosmologies, giving a precision-level estimate of $H(z)$. We provide the maximum-a-posteriori (MAP) $H(z)$ estimate, an array of the median confidence region in the $H-z$ plane, and its covariance matrix. We also leverage the redshift distributions of the $t-z$ relation for different velocity dispersion groups to obtain two independent local measurements using the discrete approximation $H(z) \\approx -\u0394z/[\u0394t (1+z)]$; the one from the reddest envelope of CCs gives $H(z \\approx 0.61) = 88.5^{+6.7}_{-12.6}$ (stat.) $\\pm 8.1$ (syst.) km s$^{-1}$ Mpc$^{-1}$. Systematic uncertainties for both the cosmographic and discrete $H(z)$ measurements come from a comprehensive analysis of all methodological choices in the data treatment."
+  },
+  {
     "title": "A Multiplicative Fourier Proof of the Length-Four Index Conjecture",
     "url": "http://arxiv.org/abs/2608.12310v1",
     "arxiv_id": "2608.12310v1",
