@@ -1,5 +1,129 @@
 [
   {
+    "title": "Decoding the Past: An Uncertainty-Aware Deep Learning Framework for Sex Attribution in Prehistoric Hand Stencils",
+    "url": "http://arxiv.org/abs/2608.14539v1",
+    "arxiv_id": "2608.14539v1",
+    "authors": [
+      "Karel Becerra",
+      "Boris Mederos",
+      "Dean Snow",
+      "Ram\u00f3n A. Mollineda"
+    ],
+    "published": "2026-08-14T17:51:30+00:00",
+    "summary": "Determining the biological sex of the individuals who created Upper Paleolithic hand stencils remains a challenging problem due to the absence of ground truth, population differences between contemporary and prehistoric groups, and the uncertainty introduced by image degradation. Traditional morphometric methods suffer from high structural overlap across sexes, poor cross-population generalizability, and subjective feature engineering. This study presents an uncertainty-aware deep learning framework for sex attribution in prehistoric hand stencils that explicitly models, propagates, and aggregates uncertainty throughout the analytical pipeline. The methodology combines dual image processing, dual contour extraction, structured silhouette augmentation, model architectural diversity, and ensemble-based decision aggregation. The pipeline generates twelve plausible silhouette realizations per stencil to capture boundary uncertainties, which are processed by two ensembles of ten deep neural networks each (EfficientNet-B3 and MobileViT-S) trained on 14,036 contemporary hand samples. Furthermore, a triangulated validation scheme integrates ensemble predictions with unsupervised 2D latent-space manifold mapping (UMAP + k-NN) and explainable AI spatial attributions (LayerCAM) to ensure anatomical consistency. On contemporary data, ensemble models achieve strong classification performance, with accuracies exceeding 88% in older age groups. When applied to prehistoric stencils, the framework produces both sex predictions and confidence measures of internal agreement, enabling the distinction between morphologically stable and ambiguous cases. Convergence across ensemble predictions, latent-space structure, and interpretability analyses shows that uncertainty can become a measurable component of archaeological inference, enabling robust and reproducible decoding of ancient rock art."
+  },
+  {
+    "title": "ATLAS. IV. A JWST+MUSE Demographic Study of Ly$\u03b1$ Profiles in Little Red Dots",
+    "url": "http://arxiv.org/abs/2608.14534v1",
+    "arxiv_id": "2608.14534v1",
+    "authors": [
+      "Yuta Kageura",
+      "Masami Ouchi",
+      "Hiroto Yanagisawa",
+      "Makoto Ando",
+      "Yuichi Harikane",
+      "Tomokazu Kiyota",
+      "Minami Nakane",
+      "Yoshiaki Ono",
+      "Yui Takeda"
+    ],
+    "published": "2026-08-14T17:49:40+00:00",
+    "summary": "We present an initial demographic study of Ly$\u03b1$ profiles in little red dots (LRDs) at $z=3$--9 using $R\\sim1000$--4000 spectroscopy. Our sample consists of 8 LRDs observed in the VLT/MUSE Deep and Wide surveys and 23 LRDs observed with JWST/NIRSpec grating spectroscopy from JADES, CANUCS, and GO programs including SPURS. We identify Ly$\u03b1$ emission in 5 MUSE LRDs and 9 JWST LRDs. Only two of them exhibit broad Ly$\u03b1$ emission (FWHM $>1000\\ \\mathrm{km\\ s^{-1}}$), both reported previously. The other Ly$\u03b1$-emitting LRDs show narrow Ly$\u03b1$ emission (FWHM $<1000\\ \\mathrm{km\\ s^{-1}}$), with FWHMs mostly in the range 300--600 $\\mathrm{km\\ s^{-1}}$, comparable to or slightly larger than those of high-redshift star-forming galaxies (100--500 $\\mathrm{km\\ s^{-1}}$). We measure the fraction of broad Ly$\u03b1$ emitters above a broad Ly$\u03b1$ luminosity threshold of $L_{\\mathrm{Ly}\u03b1,\\mathrm{broad}}=10^{42}\\ \\mathrm{erg\\ s^{-1}}$, obtaining $0.10^{+0.12}_{-0.07}$ for LRDs, about five times higher than the $2\u03c3$ upper limit of $<0.02$ for high-redshift star-forming galaxies. Although we reproduce the broad Ly$\u03b1$ component reported in a previous stacking analysis of eight LRDs, albeit with a large uncertainty, we find no evidence for broad Ly$\u03b1$ emission in either the larger JWST stack, after excluding the two individually detected broad Ly$\u03b1$ emitters, or the higher-resolution MUSE stack. These results suggest that broad Ly$\u03b1$ emission is not ubiquitous among LRDs. Instead, LRDs with broad Ly$\u03b1$ emission appear to represent a rare population that may correspond to a particular evolutionary stage, potentially associated with unusually strong outflows or other distinctive physical conditions."
+  },
+  {
+    "title": "Visualizing Uncertainty in Non-linear Projections with Ensembles",
+    "url": "http://arxiv.org/abs/2608.14513v1",
+    "arxiv_id": "2608.14513v1",
+    "authors": [
+      "Kai Nylund",
+      "Michael Correll",
+      "Lace Padilla"
+    ],
+    "published": "2026-08-14T17:32:26+00:00",
+    "summary": "Widely used non-linear dimensionality reduction (NLDR) methods such as UMAP and t-SNE are stochastic--repeated runs on the same data can produce different low-dimensional projections. In this paper, we explore two problems related to projection variability: on some datasets clusters, structure, and outliers may change run-to-run, and on others projections can be extremely stable when overfitting noise. To address the first problem, we propose visualizing the median of multiple NLDR outputs rather than relying on individual projections. To address the second, we perturb input data before creating consensus embeddings. We find that taking the median of multiple projections performs comparably to individual runs on multiple quality metrics, while increasing perturbation emphasizes global over local structure. We show through a set of exploratory visualizations that even relatively simple ensemble presentations can be used to better communicate the reliability of projection patterns."
+  },
+  {
+    "title": "Sensing-Aided Ordered Reliability Bits Guessing Random Additive Noise Decoding",
+    "url": "http://arxiv.org/abs/2608.14479v1",
+    "arxiv_id": "2608.14479v1",
+    "authors": [
+      "Yu Ge",
+      "Lukas Rapp",
+      "Ken R. Duffy",
+      "Muriel M\u00e9dard"
+    ],
+    "published": "2026-08-14T16:56:55+00:00",
+    "summary": "Integrated sensing and communication (ISAC) is a key enabler for future wireless systems, providing environmental information that can support tasks beyond conventional data transmission. However, its impact on channel decoding remains less explored. This paper studies sensing-aided ordered reliability bits guessing random additive noise decoding (ORBGRAND) over single-input single-output narrowband fading channels. Environmental information is used to construct a geometry-based prior for the channel coefficient, which is fused with pilot observations via linear minimum mean square error (LMMSE) estimation. The resulting posterior channel estimate and uncertainty are used to compute the log-likelihood ratios (LLRs) supplied to ORBGRAND, improving the reliability ordering that drives its noise-guessing process. Simulation results demonstrate improved block error rate and reduced average query complexity, with the largest gains in pilot-limited regimes."
+  },
+  {
+    "title": "Quantifying internal variability in large-ensemble climate data with the Wasserstein distance",
+    "url": "http://arxiv.org/abs/2608.14455v1",
+    "arxiv_id": "2608.14455v1",
+    "authors": [
+      "Yuki Yasuda",
+      "Shoichiro Kido"
+    ],
+    "published": "2026-08-14T16:41:05+00:00",
+    "summary": "Quantifying forced and internal variability in climate data is fundamental to detecting the climate change signal and assessing uncertainty in climate projections. We propose a metric that quantifies the relative magnitude of internal variability in single-model initial-condition large ensembles (SMILEs). We measure forced and internal variability by two 1-Wasserstein distances, a form of optimal transport cost. The proposed metric is the distance for internal variability divided by the sum of the two. Computing this ratio requires only sorting the samples and differencing the resulting quantiles, with no additional parameters. The metric reflects the entire distribution shape and applies to non-Gaussian variables, because the 1-Wasserstein distance quantifies the difference between any two probability distributions. We validate the metric with synthetic climate data from Gaussian, uniform, and lognormal distributions. Unlike the two existing metrics, the proposed metric gives stable estimates irrespective of the distribution shape and the presence of outliers, provided that the ensemble has about 40 members or more. We then apply the proposed and existing metrics to the 2 m air temperature and total precipitation of the Community Earth System Model Large Ensemble (CESM-LE) under two different forcing scenarios. All the metrics indicate that the relative contribution of internal variability decreases as the forcing increases, but the proposed metric shows this response most clearly. The 1-Wasserstein distance thus provides a simple and useful tool for analyzing large-ensemble datasets."
+  },
+  {
+    "title": "Knowing When to Stop: Bayesian Optimal Stopping for LLM Evaluations",
+    "url": "http://arxiv.org/abs/2608.14425v1",
+    "arxiv_id": "2608.14425v1",
+    "authors": [
+      "Toby D. Pilditch"
+    ],
+    "published": "2026-08-14T16:06:41+00:00",
+    "summary": "LLM evaluations often use fixed sampling budgets, testing every item the same number of times even after estimates are precise. We introduce optstop, a precision-based adaptive stopping framework that treats evaluation as a sequential measurement problem: keep sampling where uncertainty remains high, and stop where estimates are precise or stable enough. The framework builds on hierarchical Bayesian inference, supports binary, ordinal, and continuous outcomes, and keeps every benchmark item eligible for sampling, without requiring a calibrated item bank. It runs live or retrospectively, and includes a safeguard that samples more cautiously as measured performance approaches zero, where rare successes matter most. In an illustrative 200-item, 10-epoch evaluation, it removes 57%-97% of planned trials across nine validation settings, with overall conclusions equivalent to the full run. These results show that LLM evaluation compute can be allocated by uncertainty rather than by fixed repetition counts, with the magnitude of savings depending on evaluation design."
+  },
+  {
+    "title": "NNLO QCD corrections to $WW\u03b3$ production at the LHC",
+    "url": "http://arxiv.org/abs/2608.14419v1",
+    "arxiv_id": "2608.14419v1",
+    "authors": [
+      "Paolo Garbarino",
+      "Massimiliano Grazzini",
+      "Stefan Kallweit"
+    ],
+    "published": "2026-08-14T16:00:09+00:00",
+    "summary": "Triboson production processes are crucial to study quartic gauge-boson couplings. We present the computation of the radiative corrections to $WW\u03b3$ production at the next-to-next-to-leading order (NNLO) in QCD. The leptonic decays of the $W$ bosons and off-shell effects are fully included. The calculation is exact, apart from the finite part of the two-loop amplitudes, which is evaluated in a soft-photon approximation. We validate our approach by using $Z\u03b3$ production as a reference process, where we take advantage of the availability of the exact two-loop amplitudes to derive a conservative error estimate for our approximation, and then apply it to $WW\u03b3$ production. For typical selection cuts, at the centre-of-mass energy $\\sqrt{s}=13$ TeV, the NNLO corrections increase the next-to-leading order (NLO) result by about $16\\%$, and the perturbative uncertainties are reduced to the $\\pm4\\%$ level. The uncertainty from the soft approximation turns out to be at the few per mille level, largely subdominant compared to the residual perturbative uncertainties, both for the fiducial cross section and the most relevant differential distributions."
+  },
+  {
+    "title": "Uncertainty-Aware Jacobi Set Computation",
+    "url": "http://arxiv.org/abs/2608.14409v1",
+    "arxiv_id": "2608.14409v1",
+    "authors": [
+      "Daniel Kl\u00f6tzl",
+      "Daniel Weiskopf"
+    ],
+    "published": "2026-08-14T15:53:56+00:00",
+    "summary": "We present an uncertainty-aware Jacobi set computation method. In general, Jacobi sets are topological descriptors that capture the gradient alignments of two scalar fields, as, e.g., used for multi-field visualization. We adopt and reformulate an existing computational approach that relies on an edge-based identification of Jacobi set edges on a given triangulation. Our extension to uncertainty visualization builds upon a versatile, spatially coherent uncertainty model for pairs of scalar fields based on multivariate normal distributions. We propagate the uncertainty analytically, thereby lifting the original Jacobi set computation to uncertain inputs. Furthermore, we present an overlay of visual mappings specifically designed to show the Jacobi sets along with different facets of uncertainty information. Both the uncertainty model and uncertainty-aware method are validated against a Monte Carlo approach on an analytic dataset and applied to two use cases from fluid dynamics and weather ensembles."
+  },
+  {
+    "title": "Ten simple rules for non-visual, reproducible and accessible bioinformatics",
+    "url": "http://arxiv.org/abs/2608.14400v1",
+    "arxiv_id": "2608.14400v1",
+    "authors": [
+      "Jacqueline G. Kientsch",
+      "Stephan C. F. Neuhauss",
+      "Izaskun Mallona"
+    ],
+    "published": "2026-08-14T15:40:16+00:00",
+    "summary": "Bioinformatics workflows rely heavily on visual representations. Quality-control plots, cell embeddings, heatmaps, genome-browser tracks, and interactive dashboards are not merely illustrations, but instruments for making analytical decisions. For blind and low-vision researchers who use screen readers, braille displays, or audio-based interfaces, these create a barrier: the evidence used to justify an analysis is often encoded in visual form, while the underlying decision remains undocumented.   We argue that non-visual accessibility and computational reproducibility are closely aligned, as they both require analyses to be transparent and to record why decisions were made. We present ten simple rules for non-visual bioinformatics, covering plots as decision records, cautious use of AI-generated figure descriptions, accessible computing environments, text-first literate programming, structured data and metadata, compact object summaries, accessible publication formats, collaboration practices, shared community infrastructure, and accessibility as part of FAIR research. The intended audience is computational biologists and developers.   Using single-cell RNA-seq as a running example, we show that the accessible equivalent of a plot is a structured decision record. That is, a plot companion that goes beyond storing the underlying data by also stating the purpose of the analysis and the resulting quantitative evidence and uncertainty. We argue that treating accessibility in this way makes bioinformatics more inclusive and also more transparent and auditable."
+  },
+  {
+    "title": "Mind the Long Tail: Understanding the Difficulty of Delay Detection in Business Processes",
+    "url": "http://arxiv.org/abs/2608.14367v1",
+    "arxiv_id": "2608.14367v1",
+    "authors": [
+      "Keyvan Amiri Elyasi",
+      "Lukas Kirchdorfer",
+      "Heiner Stuckenschmidt"
+    ],
+    "published": "2026-08-14T15:08:14+00:00",
+    "summary": "The early detection of delayed cases in business processes is a critical capability for organizations. Predictive process monitoring (PPM) supports this task by using historical event logs to predict the remaining time of ongoing cases, enabling timely interventions to avoid missed deadlines and service level violations. Although remaining time prediction has advanced considerably through sophisticated deep learning architectures, little is known about the intrinsic difficulty of delay detection itself. Since performance is typically assessed using aggregate metrics, prior work provides limited insight into how models perform across the target distribution, especially on the operationally most critical cases with large delays. In this paper, we address this gap by analyzing the difficulty of delay detection. Across 14 event logs, we show that remaining times are typically strongly right-skewed, with only a small fraction of cases exhibiting large delays. Existing models capture the mode of this distribution well but perform poorly on high-delay cases. We further uncover pronounced heteroscedasticity, showing that predictive uncertainty increases with delay magnitude. Based on these findings, we evaluate approaches to mitigate the imbalance problem, but find only limited benefits, suggesting that the key underlying problem may not be imbalance but higher uncertainty associated with delayed cases. We show that this correlation can be exploited to substantially improve the identification of delayed cases. Overall, our work provides new insights into the sources of difficulty in delay detection and identifies uncertainty-aware modeling as a promising direction for future PPM research."
+  },
+  {
     "title": "Safety-Critical Control for Quadrotor UAVs via Decentralized Navigation Functions",
     "url": "http://arxiv.org/abs/2608.13507v1",
     "arxiv_id": "2608.13507v1",
