@@ -1,5 +1,141 @@
 [
   {
+    "title": "Q-based Variational Inverse Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2608.16888v1",
+    "arxiv_id": "2608.16888v1",
+    "authors": [
+      "Ondrej Bajgar",
+      "Peter Tisnikar",
+      "Alessandro Abate",
+      "Konstantinos Gatsis",
+      "Maike Osborne"
+    ],
+    "published": "2026-08-17T17:59:55+00:00",
+    "summary": "The development of safe and beneficial AI requires that systems can learn and act in accordance with human preferences. However, explicitly specifying these preferences by hand is often infeasible. Inverse reinforcement learning (IRL) addresses this challenge by inferring preferences, represented as reward functions, from expert behaviour. We introduce Q-based Variational IRL (QVIRL), a novel Bayesian IRL method that recovers a posterior distribution over rewards from expert demonstrations via primarily learning a variational distribution over optimal Q-values. Unlike previous approaches, QVIRL combines scalability with uncertainty quantification, important for safety-critical applications as well as active learning. We demonstrate QVIRL's strong performance in apprenticeship learning across various tasks, including gridworlds, Lunar Lander, the Highway Environment, and two ATARI games both with static expert data and with active learning. It is the first method for Bayesian IRL that demonstrates training from raw pixel observations."
+  },
+  {
+    "title": "Exploiting Movable-Element STARS for Rate Splitting Multiple Access",
+    "url": "http://arxiv.org/abs/2608.16866v1",
+    "arxiv_id": "2608.16866v1",
+    "authors": [
+      "Muhammad Asif",
+      "Asim Ihsan",
+      "Irfan Muhammad",
+      "Mohd Hamza Naim Shaikh",
+      "Muhammad Ayzed Mirza",
+      "Zhu Shoujin",
+      "Symeon Chatzinotas"
+    ],
+    "published": "2026-08-17T17:47:40+00:00",
+    "summary": "This paper investigates a movable-element simultaneously transmitting and reflecting reconfigurable intelligent surface (ME-STARS) assisted rate-splitting multiple access (RSMA) system under imperfect channel state information (CSI). Unlike conventional STARS with fixed element positions, the elements of ME-STARS can be repositioned within a predefined region, providing additional spatial degrees of freedom for improving the cascaded transmitter--STARS--user channels. To exploit this flexibility while accounting for CSI uncertainty, we formulate a robust sum-rate maximization problem that jointly optimizes the transmit beamforming, common-rate allocation, reflection and transmission coefficients, and ME-STARS element positions, subject to transmit-power, user-rate, minimum inter-element spacing, and movement-region constraints. The resulting problem is highly non-convex due to the strong coupling among the design variables and the position-dependent channels. To address this challenge, an iterative optimization framework is developed in which the transmit beamforming, STARS coefficients, and element positions are successively optimized through tractable convex reformulations. In particular, the element positions are updated sequentially using a majorization--minimization (MM) framework, where quadratic surrogate functions are constructed from the first- and second-order derivatives of the position-dependent channels while preserving the minimum inter-element spacing constraint. Simulation results demonstrate that the proposed ME-STARS design consistently outperforms the considered benchmark schemes. Moreover, the performance gains remain significant under increasing CSI uncertainty, highlighting the effectiveness of element repositioning for robust RSMA transmission."
+  },
+  {
+    "title": "FlexWorm: Primitive-augmented Hybrid Contact-motion Planning for Suction-based Multi-segment Deformable Robots",
+    "url": "http://arxiv.org/abs/2608.16853v1",
+    "arxiv_id": "2608.16853v1",
+    "authors": [
+      "Zili Tang",
+      "Tiecheng Guo",
+      "Qinyue Zhang",
+      "Meng Guo"
+    ],
+    "published": "2026-08-17T17:37:13+00:00",
+    "summary": "Multi-segment suction-based soft robots are promising for inspection and maintenance in confined or fragile environments, but existing approaches still depend heavily on manually designed gaits and environment-specific motion scripts. This work presents a planning framework for serial multi-segment soft robots with deformable body segments and boundary suction pads. The formulation targets full 3D navigation on complex surfaces and explicitly handles discrete adhesion switching and continuous body deformation under geometric, collision, and quasi-static feasibility constraints, while remaining agnostic to the specific actuation realization used to produce segment deformation. Its core, block-wise IK hybrid search (IKHS), performs best-first search over feasible adhesion transitions while solving inverse kinematics only on induced free blocks. On top of IKHS, primitive-augmented hybrid search (PaHS) uses a learned observation--primitive embedding to retrieve short validated motion segments for fast local proposal, with fallback to standard IKHS branching when retrieval fails. In simulation, the framework consistently outperforms controlled baselines in planning success, transition quality, and efficiency across diverse terrains. PaHS matches IKHS in success rate while substantially reducing planning time. Repeated hardware experiments on a pneumatic multi-segment soft robot further demonstrate executability and online recovery under actuation and adhesion uncertainty."
+  },
+  {
+    "title": "CaliBench: Are the Stochastic Dynamics of Video World Models Physically Calibrated?",
+    "url": "http://arxiv.org/abs/2608.16829v1",
+    "arxiv_id": "2608.16829v1",
+    "authors": [
+      "Jonathan Sadeghi",
+      "Jenny Seidenschwarz",
+      "Jesse Allardice",
+      "Sirish Srinivasan",
+      "Benjamin Graham",
+      "Jeffrey Hawke"
+    ],
+    "published": "2026-08-17T17:14:50+00:00",
+    "summary": "Video world models approximate the stochastic distribution of physical outcomes through generative sampling, but existing benchmarks score individual generations or compare distributions coarsely over a whole dataset, leaving the fine-grained aleatoric uncertainty of specific phenomena untested. We introduce CaliBench, which scores outcomes in a physically interpretable discrete space - a bin index, a die face, a suit, a colour - rather than a learned feature space such as in FID, so the distance from a known reference distribution is measured directly. We curate outcome spaces whose reference is known in closed form (binomial Galton boards, Bernoulli forks, uniform dice/cards/lottery, a skewed European-roulette colour), enabling an exact calibration test. We decompose performance into two orthogonal axes that a single accuracy metric conflates: scorability, the fraction of generations yielding a scoreable outcome, and calibration, the total variation distance from the reference on that sample. A chi-squared test assesses significance; as calibration is its null hypothesis it can evidence only miscalibration, and at N=32 per cell detects only large deviations. We apply it to nine scenes and six image-to-video models (WAN-2.7, SeeDance-2.0, HappyHorse-1.0, Veo 3.1, Runway Gen-4.5, Cosmos3-Super), 32 generations each. Models consistently concentrate probability mass on a few outcomes rather than reproducing the reference. Most scene-model combinations are significantly miscalibrated, in the extreme collapsing to one outcome, as Veo 3.1 does on dice. On roulette, generations often leave the ball ambiguously placed, giving several models low scorability. Performance varies by scene: no model dominates all nine. We release the protocol and a metric (mean normalised total variation, mnTV) for comparing new models against our results."
+  },
+  {
+    "title": "Battery-Swapping Station Operation Under Forecast Uncertainty: A Scenario-Based Stochastic MPC Framework",
+    "url": "http://arxiv.org/abs/2608.16820v1",
+    "arxiv_id": "2608.16820v1",
+    "authors": [
+      "Zhiyuan Guo",
+      "Siyang Gao",
+      "Zhichao Chen",
+      "Zhankun Sun",
+      "Jiaze Ma"
+    ],
+    "published": "2026-08-17T17:07:19+00:00",
+    "summary": "Battery-swapping stations (BSSs) can shorten electric-vehicle energy replenishment while using centrally managed battery inventories as flexible grid-connected storage. Realizing both benefits requires the station to schedule charging, grid discharge, and swapping service before future customer demand and electricity prices are known. This paper develops a forecast-aware rolling-horizon operating framework for this problem. A lightweight DLinear model predicts 24-hour price and demand trajectories, Stein variational gradient descent quantifies their uncertainty through representative scenarios, and a two-stage stochastic model predictive controller converts those scenarios into station decisions. The controller accounts for service shortfall, terminal readiness, a protected service buffer, and electrochemical degradation without assuming perfect future information. The application contribution is an implementable controller that coordinates the station's mobility-service and energy-storage roles. The methodological contribution is a modular forecast-to-control interface that separates the operational value of mean-forecast accuracy from that of uncertainty representation. In a 120-day closed-loop evaluation, DLinear-SVGD SMPC achieves the lowest cost among the implementable controllers. Relative to deterministic DLinear MPC, it reduces final cost by 1.2\\% and service-shortfall hours by 80.7\\%, with 99.10\\% of the evaluated hours free of shortfall."
+  },
+  {
+    "title": "Prediction market visualizations, betting, and uncertainty: A study of Reddit Posts and Comments",
+    "url": "http://arxiv.org/abs/2608.16814v1",
+    "arxiv_id": "2608.16814v1",
+    "authors": [
+      "Subham Sah",
+      "Alireza Karduni",
+      "Douglas Markant",
+      "Wenwen Dou"
+    ],
+    "published": "2026-08-17T17:04:33+00:00",
+    "summary": "Prediction market platforms present contracts about future events through visualizations that show probabilities, prices, trends, odds, and payout information. Although these visualizations often appear precise, they do not always show uncertainty directly. As a result, users infer uncertainty from market movement, visualization cues, and contextual information. In this paper, we examine how users interpret prediction market visualizations through a qualitative analysis of posts and comments from the Reddit community r/Kalshi. From an initial corpus of approximately 12,000 posts and 96,000 comments, we identified 360 posts containing prediction market visualizations and conducted a thematic analysis of annotated posts and related discussions. Our findings show that users infer uncertainty through several forms of interpretation: they interpret chart values, struggle with probability information displayed, bring in external knowledge, question credibility and liquidity, critique visualization design, and connecting visualized information to betting decisions."
+  },
+  {
+    "title": "Sharp $L^2$-Caffarelli--Kohn--Nirenberg and weighted Poincar\u00e9 inequalities on half-spaces and orthants and their stability",
+    "url": "http://arxiv.org/abs/2608.16803v1",
+    "arxiv_id": "2608.16803v1",
+    "authors": [
+      "Nguyen Lam",
+      "Yukta Lodha",
+      "Guozhen Lu",
+      "Ambar N. Sengupta"
+    ],
+    "published": "2026-08-17T16:59:36+00:00",
+    "summary": "Though the sharp $L^{2}$-Caffarelli--Kohn--Nirenberg (CKN) inequalities have been extensively studied in the entire Euclidean spaces, the corresponding problem on domains whose boundary contains the origin remains largely unexplored. We investigate the sharp $L^{2}$-CKN inequalities on half-spaces and orthants $\\mathbb R^{n}_{k,+}$ by computing explicitly the optimal constants, determining all possible extremal functions, and establishing exact identities for the deficits. Since the singular weights $|x|^{-2b}$ rule out the lifting argument that is available for the simpler Heisenberg Uncertainty Principle, we develop an approach based on the transformations $u(x)=|x|^{m}v(x)$ for an appropriately chosen $m$ combined with spherical harmonic decompositions and weighted identities. Moreover, we establish weighted Poincar\u00e9 inequalities associated with measures of the form \\[ e^{-\u03b4|x|^\u03c4}|x|^\u03b2\\bigl(\\prod_{i=n-k+1}^{n}x_i^{2}\\bigr)\\,dx, \\] together with their sharp constants, extremizers and stability estimates, which substantially extend those of the classical Gaussian Poincar\u00e9 inequality. On the full orthant, the linear modes cease to be admissible competitors, since all odd spherical harmonics are annihilated by the lifting; the first non-radial mode is then of degree two, and both the sharp constant and the manifold of optimizers change accordingly. Finally, we establish several stability estimates, and second-order stability estimates, of the CKN inequalities on the half-spaces and orthants throughout the full parameter range."
+  },
+  {
+    "title": "Revisiting Classifier-Free Guidance Methods in Latent Diffusion Models",
+    "url": "http://arxiv.org/abs/2608.16786v1",
+    "arxiv_id": "2608.16786v1",
+    "authors": [
+      "Artem Sergievskii",
+      "Artyom Turevich",
+      "Sergey Kastryulin"
+    ],
+    "published": "2026-08-17T16:40:54+00:00",
+    "summary": "Inference-time quality-enhancement methods are an effective and widely adopted means of improving diffusion models without expensive retraining. We study a family of training-free techniques conceptually rooted in Classifier-Free Guidance (CFG), most of which were originally proposed on older U-Net diffusion models and validated using metrics that assess image quality in isolation, without accounting for compositional alignment or semantic correspondence between the generated image and its associated text prompt. We re-evaluate eight such methods on two open-weight rectified-flow transformers under a fixed per-model protocol and three compositional-alignment benchmarks. No method consistently improves on CFG across the measured criteria. APG obtains several nominal best scores, but the corresponding gains often remain within the estimated evaluation uncertainty. Attention-perturbation methods provide isolated gains on SD3.5 Medium and more frequent degradations on FLUX.2 [klein] 4B Base, while CFG remains a competitive lower-cost baseline."
+  },
+  {
+    "title": "Fluid Antenna Array-Inspired Location-Posterior-Driven Subarray Sizing and Power Control for Two-Hop AF UAV Relaying",
+    "url": "http://arxiv.org/abs/2608.16770v1",
+    "arxiv_id": "2608.16770v1",
+    "authors": [
+      "Xuanyi Zhu",
+      "Jian Dang",
+      "Chen Zhao",
+      "Huaifeng Shi",
+      "Zaichen Zhang"
+    ],
+    "published": "2026-08-17T16:18:28+00:00",
+    "summary": "This paper develops fluid antenna array (FAA)-inspired subarray sizing and transmit-power design for a two-hop amplify-and-forward (AF) unmanned aerial vehicle (UAV) relay using progressively contracting user-location posteriors. A contiguous reconfigurable subarray is shared by first-hop reception and second-hop forwarding, such that its active size jointly determines the receive gain, forwarding gain, and beamwidth. By adaptively controlling the effective aperture, the proposed design exploits geometric reconfigurability to balance array gain against pointing robustness under location uncertainty. Projecting the position covariance onto the array direction yields a closed-form direction-limited size inversely proportional to directional uncertainty. Posterior samples are propagated through the two-hop rate model, and the subarray size and transmit power are then selected to minimize UAV power subject to a worst-user lower-tail rate requirement and hardware power limits. The planned configuration is further audited over instantaneous two-hop Rician channels at the true user positions. At t = 8 s, the proposed design saves 3.17 dB over full-array narrow-beam transmission on paired feasible geometries and achieves 60.0% service success at a 0.15-W budget, compared with 43.2% for a fixed eight-element subarray."
+  },
+  {
+    "title": "Beyond Uncertainty: Generalizable Failure Monitoring for Surgical Segmentation under Acquisition Degradation",
+    "url": "http://arxiv.org/abs/2608.16748v1",
+    "arxiv_id": "2608.16748v1",
+    "authors": [
+      "Hieu D. Pham",
+      "Dang P. M. Cao",
+      "Thanh Trung Huynh"
+    ],
+    "published": "2026-08-17T15:57:19+00:00",
+    "summary": "Surgical segmentation networks can fail silently under acquisition degradation: predicted masks may be wrong even when model confidence remains high. Existing deployment-time monitors rely primarily on uncertainty estimates and can therefore miss confident failures. We present TCSR-Monitor (Temporal Conformal Surgical Risk Monitor), a post-hoc failure-monitoring framework that combines confidence with observable shape, temporal-consistency, and image-quality cues. TCSR-Monitor wraps a frozen segmentation model, requires no model internals, and operates without ground truth at deployment. We also introduce a validation protocol to assess whether alarms remain credible under distribution shift. On EndoVis 2017, leave-one-corruption-out evaluation shows that TCSR-Monitor generalizes to unseen acquisition degradations and substantially outperforms confidence-based baselines. A circularity control confirms that it predicts segmentation failure rather than simply detecting corrupted images. Mondrian conformal calibration balances miss-rates across degradation severities, but a single global threshold still produces false alarms on up to 40% of correctly segmented frames at moderate corruption. Zero-shot transfer to SAM2 demonstrates feature portability, although entropy outperforms the transferred monitor at both evaluated thresholds. Overall, reliable monitoring under acquisition degradation benefits from complementary observable signals beyond confidence alone, but substantial false-alarm and transfer limitations remain."
+  },
+  {
     "title": "Decoding the Past: An Uncertainty-Aware Deep Learning Framework for Sex Attribution in Prehistoric Hand Stencils",
     "url": "http://arxiv.org/abs/2608.14539v1",
     "arxiv_id": "2608.14539v1",
