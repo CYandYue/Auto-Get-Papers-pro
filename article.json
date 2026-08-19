@@ -1,5 +1,128 @@
 [
   {
+    "title": "Scalable Heteroskedastic Gaussian Process Models for Large Inhomogeneous Datasets",
+    "url": "http://arxiv.org/abs/2608.18018v1",
+    "arxiv_id": "2608.18018v1",
+    "authors": [
+      "K. Potter",
+      "K. R. Moran",
+      "R. Ulrich",
+      "D. C. Stenning",
+      "D. Bingham",
+      "L. Castro",
+      "G. Wilson",
+      "C. A. Maldonado"
+    ],
+    "published": "2026-08-18T17:11:44+00:00",
+    "summary": "We introduce Heteroskedastic Normalized Vecchia Gaussian Processes (HetNV), a scalable framework for Gaussian process regression with input-dependent observation noise. HetNV combines Vecchia likelihood approximations on normalized inputs with residual-based nonparametric variance estimation. The latent mean is estimated via a Vecchia GP with observation-specific nugget variances, while the log noise variance is obtained by smoothing stabilized log-squared residual pseudo-responses that account for kriging uncertainty and current nugget estimates, using LOESS in one dimension and thin plate spline generalized additive models in two dimensions. The method alternates between mean and variance updates, avoiding latent-variable inference for the variance process. For fixed neighborhood size ($m$) and number of observations ($n$), the dominant per-iteration cost is the Vecchia update, scaling as $O(nm^2)$. Simulation studies show improved recovery of input-dependent uncertainty relative to homoskedastic Vecchia models while maintaining competitive mean prediction accuracy, with additional gains in two-dimensional mean estimation. An application to spacecraft plasma measurements demonstrates how locally adaptive uncertainty estimates influence downstream signal-detection decisions in large, noisy, heteroskedastic settings."
+  },
+  {
+    "title": "Physics-Informed Learning of Probabilistic Gegenbauer Reconstruction for Transport-Dominated Problems",
+    "url": "http://arxiv.org/abs/2608.18001v1",
+    "arxiv_id": "2608.18001v1",
+    "authors": [
+      "Lei Yan",
+      "Yan Jiang"
+    ],
+    "published": "2026-08-18T16:47:49+00:00",
+    "summary": "Transport-dominated problems remain challenging for data-driven methods, which often exhibit severe numerical oscillations near shocks or steep gradients due to globally supported basis functions or overly smooth hypothesis spaces. Gegenbauer reconstruction has shown promise in mitigating such oscillations, but its effectiveness critically depends on the reconstruction parameters, particularly the weight parameter $\u03bb$ and truncation order $m$. For data-driven models, variations in governing problems, training data, and model architectures make systematic parameter selection particularly challenging.   To address this issue, we propose a physics-informed machine-learning framework that predicts probability distributions over candidate Gegenbauer parameter pairs, enabling probabilistically weighted reconstruction while accounting for parameter uncertainty. A two-stage strategy is adopted, in which a general predictor is first pre-trained and then fine-tuned for target problems to balance accuracy and computational cost. The framework is evaluated for reduced-order and neural operator models, represented by POD-Galerkin and DeepONet, respectively. Numerical experiments on one- and two-dimensional transport-dominated problems show that the framework learns effective spatially adaptive parameter distributions. Compared with conventional reconstruction strategies, it reduces numerical errors by up to one to two orders of magnitude and achieves a more favorable accuracy--cost trade-off than problem-specific model retraining."
+  },
+  {
+    "title": "Transporting Trial Evidence Under Posterior Drift and Possible Hidden Confounding",
+    "url": "http://arxiv.org/abs/2608.17999v1",
+    "arxiv_id": "2608.17999v1",
+    "authors": [
+      "Xilin Mao",
+      "Bosen Cui",
+      "Yuhong Yang"
+    ],
+    "published": "2026-08-18T16:47:11+00:00",
+    "summary": "Randomized trials provide internally valid treatment-effect evidence, but trial participants may not represent the target population. In contrast, observational studies are often closer to the target population, but their treatment assignment may be affected by possible hidden confounding. We develop a robust posterior-drift framework for estimating the average treatment effect in an observational target population when exact conditional-effect transportability may fail. The framework represents observational conditional potential-outcome regressions as their randomized-trial counterparts plus source-specific drifts. The randomized trial serves as an internally valid anchor, while the observational study supplies the target covariate distribution and partial information about the target causal contrast. To account for possible hidden confounding, we consider a Rosenbaum-type uncertainty set induced by a sensitivity parameter on the generalized propensity score and estimate the drift through a minimax worst-case risk criterion. We derive efficiency results in auxiliary regimes, establish uniform concentration and near-optimality guarantees for the minimax estimator, and handle general parametric and smooth nonparametric drift classes. Simulations and an ACTG 175--WIHS application show that the proposed analysis yields more cautious and interpretable target-population effect estimates than exact-transportability analyses."
+  },
+  {
+    "title": "Judge, Retrieve, or Abstain: Uncertainty-Guarded LLM Judging with Provable Risk Guarantees",
+    "url": "http://arxiv.org/abs/2608.17994v1",
+    "arxiv_id": "2608.17994v1",
+    "authors": [
+      "Sher Badshah",
+      "Ali Emami",
+      "Hassan Sajjad"
+    ],
+    "published": "2026-08-18T16:42:02+00:00",
+    "summary": "Using LLMs as judges has become standard practice for evaluating model outputs at scale. This is particularly common for subjective, open-ended tasks such as assessing helpfulness or alignment, where no single reference answer exists. However, objective tasks introduce a distinct reliability challenge for reference-free LLM judging. In the absence of a reference answer, the judge evaluates factual correctness either through its parametric knowledge or through tool augmentation. Although the former enables efficient evaluation, the judge may hallucinate or lack sufficient evidence for its verdict. Conversely, tool augmentation can provide additional evidence but introduces extra computational cost and requires an appropriate mechanism to determine when and how that evidence should be used reliably. More importantly, neither approach alone provides formal control over the risk of accepted verdicts or guarantees their reliability at a specified level. We propose a risk-controlled framework that calibrates uncertainty thresholds on a held-out set so that the false discovery rate among accepted verdicts remains below a user-specified level~$\u03b1$ with high probability, using finite-sample Clopper--Pearson intervals. When the parametric mode is not sufficiently confident, the instance is routed to a retrieval-augmented mode, where the judge gathers web evidence and re-evaluates the instance under a second calibrated threshold. The finite-sample guarantee carries over to this two-threshold routing without additional assumptions. Across open-domain QA benchmarks and judges of varying scales, the framework maintains the target error rate while achieving substantially higher coverage than single-mode baselines."
+  },
+  {
+    "title": "Colour Blinded by the Noise",
+    "url": "http://arxiv.org/abs/2608.17976v1",
+    "arxiv_id": "2608.17976v1",
+    "authors": [
+      "Harriet Mason",
+      "Rachel Rogers",
+      "Alison Kleffner",
+      "Dianne Cook"
+    ],
+    "published": "2026-08-18T16:28:59+00:00",
+    "summary": "Uncertainty visualisation is important for data transparency, especially for map visualisations where data is often aggregated. Despite the importance of this area, studies evaluating uncertainty visualisation lack consensus and produce conflicting results. This work introduces a new evaluation approach for uncertainty visualisation that attempts to assess uncertainty as noise, rather than signal. We evaluate five methods of visualising uncertainty: standard choropleth maps, value/variance bivariate maps, value-suppressing uncertainty palettes, overlaid sampling, and pixelated sampling maps. Built on principles of implicit testing, we put an 'uncertainty visualisation' spin on the classic Ishihara colourblind test to create a novel test that is able to evaluate uncertainty as noise. We compare signal visibility to conventional hypothesis tests at various levels of group separation. By building our experimental design on top of established graphics theory, we isolate the plot components that facilitate successful signal suppression and establish foundational theory for the perception of uncertainty visualisation."
+  },
+  {
+    "title": "Adaptive Model Predictive Control for Ground Vehicles: Review and Demonstrative Implementation",
+    "url": "http://arxiv.org/abs/2608.17902v1",
+    "arxiv_id": "2608.17902v1",
+    "authors": [
+      "Chetana Gadgil",
+      "Mahendra Singh Tomar"
+    ],
+    "published": "2026-08-18T15:34:10+00:00",
+    "summary": "This paper reviews Adaptive Model Predictive Control (AMPC) methods for Autonomous Vehicles (AVs), focusing on control strategies that dynamically adapt to uncertainties and changing conditions in real-time. The critical role of Adaptive Model Predictive Control (AMPC) in addressing the challenges of autonomous vehicle control are discussed. For the scope of this paper, AMPC is defined as a class of Model Predictive Control (MPC) techniques that modify the system model, cost function, constraints, or prediction horizon, based on real-time data. Traditional MPC, while effective for constrained optimization, struggles with model inaccuracies, computational demands, and dynamic environments, necessitating AMPC methods. The review covers existing literature on Gain scheduled MPC, Online Model Estimation MPC, Weight Adaptive MPC, Horizon Adaptive MPC, Learning Based MPC, and Hybrid MPC that combines MPC with other control methods. In addition to the survey, a demonstrative simulation of an adaptive MPC controller is presented that illustrates practical aspects of weight and speed adaptation in trajectory tracking."
+  },
+  {
+    "title": "Exact and Heuristic Methods for $\u0393$-Robust Min-Max Problems",
+    "url": "http://arxiv.org/abs/2608.17876v1",
+    "arxiv_id": "2608.17876v1",
+    "authors": [
+      "Yasmine Beck"
+    ],
+    "published": "2026-08-18T15:08:45+00:00",
+    "summary": "Bilevel optimization is a powerful tool for modeling hierarchical decision-making processes, which arise in various real-world applications. Due to their nested structure, however, bilevel problems are intrinsically hard to solve, even if all variables are continuous and all parameters of the problem are exactly known. Further challenges arise if mixed-integer aspects and problems under uncertainty are considered. In this article, we summarize selected results from the author's dissertation. We study mixed-integer linear min-max problems with a $\u0393$-robust treatment of uncertain data, for which we present exact and heuristic solution approaches. The performance of the methods is assessed in a computational study on 560 instances of the knapsack interdiction problem. Our results show that the heuristic closes the optimality gap for a significant portion of the considered instances and often practically outperforms both heuristic and exact benchmark approaches."
+  },
+  {
+    "title": "Graph-Adaptive Horseshoe for Compositional Regression",
+    "url": "http://arxiv.org/abs/2608.17858v1",
+    "arxiv_id": "2608.17858v1",
+    "authors": [
+      "Satabdi Saha",
+      "Christine B. Peterson"
+    ],
+    "published": "2026-08-18T14:50:01+00:00",
+    "summary": "Compositional predictors, such as microbiome abundances, pose unique challenges in variable selection due to their unit-sum constraint and inherent dependencies. Existing approaches often rely on fixed association graphs derived from phylogenetic or ecological distances, which may not reflect outcome-relevant relationships. We propose GRACE (GRaph-Adaptive horseshoe for Compositional rEgression), a fully Bayesian framework that enforces compositional constraints, performs variable selection, and adaptively learns an outcome-driven shrinkage graph. GRACE achieves compositionality through a novel linear reparameterization of regression coefficients, while a structured horseshoe prior induces sparsity and smooths coefficients along the learned graph. Graph learning is accomplished via scaled beta2 priors on edge weights, providing both outcome-specific adaptation and posterior uncertainty quantification. We develop an efficient Gibbs sampler incorporating elliptical slice sampling to ensure scalability in high dimensions. Through extensive simulations, GRACE demonstrates competitive predictive accuracy and improved graph recovery compared with existing methods, particularly under graph misspecification. Application to oral microbiome data from the ORIGINS study identifies taxa associated with insulin resistance and yields an outcome-driven graph summarizing how those taxa relate to the outcome, a structure that differs substantially from phylogenetic or co-occurrence networks. These findings highlight that fixed predictor graphs useful for regularization may not faithfully represent outcome-relevant feature relationships, underscoring the need for adaptive, outcome-informed approaches in compositional regression."
+  },
+  {
+    "title": "Symbolic Regression for Interpretable Emulation of Proton Collective Flow in Intermediate-Energy Heavy-Ion Collisions",
+    "url": "http://arxiv.org/abs/2608.17828v1",
+    "arxiv_id": "2608.17828v1",
+    "authors": [
+      "Nicholas Cox",
+      "Xavier Grundler",
+      "Bao-An Li"
+    ],
+    "published": "2026-08-18T14:28:47+00:00",
+    "summary": "Symbolic regression provides an interpretable machine-learning approach for constructing explicit analytic relations between physical inputs and observables. In this work, we develop symbolic-regression emulators for the isospin-dependent Boltzmann-Uehling-Uhlenbeck (IBUU) transport model and compare their performance with deep neural network (DNN) emulators. Using the same transport-model data employed in our previous emulator studies, we show that symbolic regression can reproduce the proton mid-rapidity slope $F_1$ of transverse flow $v_1$ and elliptic flow $v_2$ with accuracy comparable to that of DNNs, while providing explicit analytic expressions and substantially faster prediction once trained. We further demonstrate the use of symbolic regression in the reverse direction by constructing analytic relations that predict the in-medium nucleon-nucleon cross-section modification factor $X$ from the flow observables. Although the symbolic-regression models require substantially longer training times and exhibit greater run-to-run variation than DNNs, their analytic form and rapid evaluation make them promising tools for future transport-model sensitivity and uncertainty analyses."
+  },
+  {
+    "title": "Machine learning assisted Bayesian calibration of an accelerator digital twin from orbit response data",
+    "url": "http://arxiv.org/abs/2608.17820v1",
+    "arxiv_id": "2608.17820v1",
+    "authors": [
+      "Christopher Kelly",
+      "Kevin A. Brown",
+      "Georg H. Hoffstaetter",
+      "Weijian Lin",
+      "Nathan M. Urban"
+    ],
+    "published": "2026-08-18T14:20:03+00:00",
+    "summary": "Digital twins of particle accelerators are used to plan and control operations and to design data collection campaigns. Accurate modeling typically requires knowledge of quantities that are hard to measure directly, e.g., magnet alignments, transfer functions relating power supply currents to magnetic fields, magnet nonlinearities, and stray fields. In this work we introduce multiplicative parameters to the quadrupole transfer functions to parametrize these effects. We use Bayesian methods to probabilistically estimate these parameters and their uncertainties by calibrating the Bmad digital twin to beam measurements performed at the AGS Booster at Brookhaven National Laboratory. The inference is computationally accelerated using a machine learning emulator of the physical accelerator digital twin trained to a perturbed-parameter ensemble of Bmad simulations. The result is a joint posterior distribution over the parameters constrained by the data, taking into account beam monitor errors. Incorporating estimates of the parameters into the digital twin is shown to result in a significant improvement in the quality of the model and provides error bars on the model parameters and predictions."
+  },
+  {
     "title": "Q-based Variational Inverse Reinforcement Learning",
     "url": "http://arxiv.org/abs/2608.16888v1",
     "arxiv_id": "2608.16888v1",
