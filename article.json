@@ -1,5 +1,148 @@
 [
   {
+    "title": "The Memory Hidden in Response Fluctuations: Trajectory-Level Fluctuation-Response Theory and Inequalities for Non-Markovian Jump Dynamics",
+    "url": "http://arxiv.org/abs/2608.20328v1",
+    "arxiv_id": "2608.20328v1",
+    "authors": [
+      "Jiming Zheng",
+      "Zhiyue Lu"
+    ],
+    "published": "2026-08-20T17:59:09+00:00",
+    "summary": "Modern experiments often record nonequilibrium dynamics as sequences of discrete events whose rates depend on the realized past. We develop a fluctuation-response theory for such non-Markovian jump processes directly on the observed event record. Memory can destroy a closed master equation for the state probabilities. Each transition count nevertheless obeys an exact stochastic equation. After the history-dependent mean event tendency is subtracted, the remaining random increment is a martingale increment--the part of the event that cannot be predicted from the past. Martingale increments associated with different transitions and different times are orthogonal. These increments form a complete orthogonal basis for the random deviation of any observable measured from the record, such as a current, occupation time, or event count. The coefficient of a given increment is the event-consequence kernel. It measures how that event changes the predicted final observable, relative to continuing without the event, for the particular history already realized. Multiplying this kernel by the event intensity gives the history-conditioned response to perturbing the corresponding transition rate. Thus, the intensity-normalized response is exactly the expansion coefficient of that event in the observable fluctuation. This identification yields exact finite-time and finite-frequency fluctuation-response relations. Averaging over histories leaves a nonnegative response-heterogeneity gap. The gap measures how strongly the consequence of the same event varies across histories and tests whether a proposed memory coordinate is response-sufficient. Finite-history versions can be estimated from spontaneous trajectories. Bounding the logarithmic rate sensitivity further gives response-kinetic uncertainty relations controlled by dynamical activity."
+  },
+  {
+    "title": "Imaging the vacuum fluctuations of a quantum field",
+    "url": "http://arxiv.org/abs/2608.20311v1",
+    "arxiv_id": "2608.20311v1",
+    "authors": [
+      "Yansheng Zhang",
+      "Feiyang Wang",
+      "Yi Jiang",
+      "Alexander C. Jenkins",
+      "Paul H. C. Wong",
+      "Christoph Eigen",
+      "Gehrig Carlse",
+      "Zoran Hadzibabic"
+    ],
+    "published": "2026-08-20T17:49:29+00:00",
+    "summary": "Heisenberg uncertainties lead to inevitable fluctuations in the measurement outcomes for quantum-mechanical observables. For quantum fields, these uncertainties result in random spatial structures in snapshots of a field, even when the field is in its ground (vacuum) state. Such `vacuum fluctuations' are at the heart of a wide range of phenomena, from spontaneous decay processes to the Casimir force and Hawking radiation. Their existence is a key manifestation of the quantumness of the physical world, but usually it is only their consequences that are directly observed. Here, we directly observe spatial vacuum fluctuations of a bosonic quantum field. Our experiments are based on a homogeneous planar atomic Bose--Einstein condensate. The condensate comprises two coherently coupled interacting components (spin states), and the quantum field describes its spin degrees of freedom. In the regime where the interactions dominate over the coherent coupling, our system emulates a (massive relativistic) sine-Gordon field. Images of the field reveal simultaneous fluctuations on different length scales, with scale-dependent amplitudes consistent with theoretical predictions for a vacuum state. Observing such fluctuations in the sine-Gordon limit opens many possibilities for laboratory simulations of relativistic fields in regimes that are presently not theoretically tractable."
+  },
+  {
+    "title": "CalcSeg: Confidence-aware 3D Latent Context Curriculum Learning For Myocardial Scar Segmentation From Single-Stack LGE-CMRs",
+    "url": "http://arxiv.org/abs/2608.20305v1",
+    "arxiv_id": "2608.20305v1",
+    "authors": [
+      "Nivetha Jayakumar",
+      "Hannah Kim",
+      "Amit R. Patel",
+      "Miaomiao Zhang"
+    ],
+    "published": "2026-08-20T17:45:33+00:00",
+    "summary": "Myocardial scar segmentation from single-stack late gadolinium-enhanced cardiac magnetic resonance (LGE-CMR) imaging has been a longstanding and clinically important challenge, particularly in the presence of low tissue contrast, diffuse, and small scar regions. These challenges are further intensified by the limited availability of 3D spatial context. This paper presents CalcSeg, a Confidence-aware latent context curriculum learning framework that leverages fused 3D feature representations from single-stack 2D LGE-CMR images for robust scar segmentation. Specifically, we introduce a dynamic semi-supervised curriculum learning strategy that progressively expands training from easier to more challenging scar cases using a learned confidence-aware scoring function. Such a function integrates errors in the predicted scar maps with quantified epistemic uncertainty and scar burden estimation to automatically assess sample difficulty without requiring manual labels. To compensate for the limited spatial context in single-stack acquisitions, we then develop a latent slice-wise self-attention to capture inter-slice dependencies and infer 3D spatial representations from sparse 2D inputs. We evaluate CalcSeg on multi-center clinical LGE-CMR datasets and benchmark against existing scar segmentation networks. Experimental results show that CalcSeg consistently outperforms all competing methods, particularly with substantial improvements on clinically challenging cases. Our code is released on Github."
+  },
+  {
+    "title": "Physical-Support Confidence Sets for Highly Coherent Dictionaries",
+    "url": "http://arxiv.org/abs/2608.20295v1",
+    "arxiv_id": "2608.20295v1",
+    "authors": [
+      "Guan-Ju Peng"
+    ],
+    "published": "2026-08-20T17:35:26+00:00",
+    "summary": "Sparse pursuit after dictionary learning can yield a precise atom support even when its physical interpretation is not justified by the calibration data, especially for highly coherent dictionaries where alternative calibration-compatible dictionaries may assign different physical meanings to the same selected support. We develop resolution-aware physical-support inference that jointly accounts for uncertainty in the learned dictionary and in the representation of a deployment signal. Our cross-dictionary confidence correspondence retains calibration-compatible dictionaries and deployment-compatible sparse representations, then projects the surviving explanations onto physical-support space. For local coherent-atom classes with separation scale s, once the deployment data resolve the coherent-block explanation and its atom support, the minimax physical resolution from N calibration signals satisfies $\u03b4_{\\mathrm{opt}}(N,s)\\asymp\\min\\{s,\\frac{1}{\\sqrt{N}s^2}\\}$, with relative resolution governed by the orientation-information scale $Ns^6$. Deployment replication improves physical localization only when orientation changes cannot be absorbed by adjusting the active coefficients. For computation, we introduce active endpoint bracketing (AEB), an adaptive finite-bank procedure that evaluates only candidates that can still affect the physical report and otherwise safely coarsens or abstains. Finite-bank experiments, including a four-region synthetic application, show that a point-valued plug-in selector can be physically overprecise, whereas AEB avoids unsupported refinement with fewer candidate evaluations."
+  },
+  {
+    "title": "Probabilistic kilonova prediction from gravitational wave inferred binary neutron star parameters",
+    "url": "http://arxiv.org/abs/2608.20262v1",
+    "arxiv_id": "2608.20262v1",
+    "authors": [
+      "Xiao-Fei Dong",
+      "Ik Siong Heng",
+      "Gavin P. Lamb",
+      "Chris Messenger",
+      "Nikhil Sarin",
+      "Benjamin Rayson",
+      "Nial R. Tanvir",
+      "Jessica Irwin",
+      "Thomas Wallace",
+      "Skye Rosetti",
+      "Bo Milvang-Jensen",
+      "Andrew J. Levan",
+      "Jens Hjorth"
+    ],
+    "published": "2026-08-20T16:57:05+00:00",
+    "summary": "Kilonovae provide a key electromagnetic window into binary neutron star mergers, revealing the properties of the merging system while probing r-process nucleosynthesis of the Universe. However, only a few kilonova candidates have been detected to date, with AT2017gfo being the only one associated with a gravitational wave event, GW170817. In this work, we present \\textsc{Genova}, a probabilistic framework for predicting kilonova spectra and light curves directly from gravitational wave posterior samples of binary neutron star mergers. This method uses a conditional normalising flow to learn the distribution of rest-frame spectra conditioned on the source-frame component masses, tidal deformabilities, viewing angle and time since merger. Other kilonova model parameters, such as ejecta opacities, are marginalised over during training, so that their effects are propagated into the predicted spectra as predictive uncertainty. In the self-consistency test, the flow model reproduces the median light curves with residuals typically below $\\sim 0.1$ mag, and the ratio of the predicted central 68\\% interval widths remains predominantly between $0.8$ and $1.4$ over $\\sim 0.4$--$8.0$ days. Comparisons with a physically distinct kilonova model show that the probabilistic prediction can remain informative beyond the model used for training. We apply \\textsc{Genova} to GW170817/AT2017gfo using multi-band observations, including newly re-reduced $Y$-, $J$-, $K_s$-band photometry from the Visible and Infrared Survey Telescope for Astronomy, which we present in this work. The resulting predictive intervals broadly encompass the observations while capturing both gravitational wave posterior uncertainty and the variation induced by marginalised kilonova model parameters."
+  },
+  {
+    "title": "From Kriging to Spatial AI: Fifty Years of Spatial Statistics for Complex Dependent Data",
+    "url": "http://arxiv.org/abs/2608.20260v1",
+    "arxiv_id": "2608.20260v1",
+    "authors": [
+      "Montserrat Fuentes",
+      "Veronica B. Patterson"
+    ],
+    "published": "2026-08-20T16:54:36+00:00",
+    "summary": "Spatial statistics has grown from kriging for spatial prediction into a broad framework for learning from complex dependent data. This article traces that development from random fields and spectral methods to Bayesian hierarchical models and scalable computation. It then connects these foundations to Spatial AI, where graph learning and neural networks are being adapted to spatially dependent data. The article introduces the main ideas behind kriging and nonstationarity and explains how data fusion and uncertainty quantification extend spatial inference to more complex settings. The central contribution is a unified account of how these developments lead naturally to new forms of Spatial AI. Rather than treating spatial statistics and machine learning as separate traditions, we show how both learn from dependence while preserving interpretable structure. We also examine how spatial geometry and physical knowledge can guide flexible representation learning and support scientifically meaningful prediction."
+  },
+  {
+    "title": "Adaptive RBFNN Control of Uncertain Bilateral Teleoperation Systems with Delay-Dependent LMI Stability Conditions",
+    "url": "http://arxiv.org/abs/2608.20182v1",
+    "arxiv_id": "2608.20182v1",
+    "authors": [
+      "Mohammadali Ghaemifar",
+      "Arshia Goshtasbi",
+      "Arian Hajizadeh",
+      "Armin Attarzadeh",
+      "Erfan Riazati"
+    ],
+    "published": "2026-08-20T15:37:43+00:00",
+    "summary": "Bilateral teleoperation requires stability despite uncertain master and slave dynamics and delayed communication channels. Existing radial basis function neural network (RBFNN) controllers mainly differ in uncertainty decomposition, while online adaptive parameters often increase with network size. This paper proposes a compact two-sided adaptive controller for a nonlinear bilateral teleoperator with constant forward and backward delays. Operator and environment impedances are incorporated into the manipulator dynamics, and each side uses only two scalar adaptive estimates: one for the ideal RBF weight norm and another for the combined effects of friction, approximation error, and disturbances. Both estimates are updated through sigma-modification, resulting in only two adaptive parameters regardless of the number of RBF nodes. A Lyapunov-Krasovskii functional integrating sliding-variable energy, estimation errors, and delay-dependent integral terms is developed. Free-weighting matrices based on sliding-surface identities provide delay-dependent matrix conditions that guarantee uniform ultimate boundedness of synchronization errors, sliding variables, and adaptive estimates. Simulations on two 2-degree-of-freedom (2-DOF) revolute manipulators with friction, external disturbance, and stepwise operator inputs demonstrate synchronization within approximately 2 s and reveal the trade-off between accuracy and control chattering."
+  },
+  {
+    "title": "Chameleon: Robust Defense Against Tor Website Fingerprinting via Many-to-Many Traffic Morphing",
+    "url": "http://arxiv.org/abs/2608.20160v1",
+    "arxiv_id": "2608.20160v1",
+    "authors": [
+      "Yuwen Cui",
+      "Kai Wei",
+      "Kehan Shen",
+      "Ning Wang",
+      "Zhuo Lu",
+      "Yao Liu",
+      "Guangjing Wang"
+    ],
+    "published": "2026-08-20T15:16:37+00:00",
+    "summary": "Website fingerprinting (WF) attacks can infer users' browsing activities from encrypted Tor traffic by exploiting side-channel features. Although many WF defenses have been proposed, we find that most existing defenses create learnable web trace mapping features. We further show that robustness against adversarial training does not necessarily imply robustness against defense-aware autoencoder (DAAE)-based attacks.   To address these limitations, we present Chameleon, a robust WF defense based on many-to-many randomized traffic morphing. Chameleon selects morphing candidates with high intra-class diversity and low inter-class disparity. Chameleon randomly maps each webpage trace to multiple candidates, and allows different webpages to share morphing targets, thereby increasing adversarial uncertainty. For practical Tor deployment, Chameleon introduces a radix-trie-based synchronization mechanism that enables pluggable transport (PT) endpoints to identify consistent morphing traces using packet-direction prefixes, together with trace mutation and normalized prefix matching to reduce overhead. We evaluate Chameleon against six state-of-the-art defenses and five WF attacks on three public datasets in closed- and open-world settings. Compared with Adaptive Tamaraw, Chameleon reduces adversarial-training-based attack accuracy by up to 36.74% while reducing bandwidth and time overhead by 34.12% and 60.38%, respectively. Under DAAE-based RF attacks on GTT23, Chameleon limits attack performance to 35.19% F1-score while Adaptive Tamaraw only limits it to 88.22% F1-score. In the real-world PT bridge evaluation, Chameleon substantially reduces the effectiveness of strong WF attacks while incurring only 16.25% time overhead."
+  },
+  {
+    "title": "G3Ego: Gaze-Guided Graphs for Egocentric Action Understanding",
+    "url": "http://arxiv.org/abs/2608.20157v1",
+    "arxiv_id": "2608.20157v1",
+    "authors": [
+      "Marko Haralovi\u0107",
+      "Akash Ramakrishnan",
+      "Estefania Talavera Martinez"
+    ],
+    "published": "2026-08-20T15:15:08+00:00",
+    "summary": "Egocentric action understanding is often addressed using large video models pretrained on extensive exocentric datasets. However, many first-person actions depend on a small number of hand-object interactions involving only a few relevant entities.   We propose G3Ego, a graph-based framework for egocentric action understanding that uses gaze as a structural cue to identify action-relevant entities in the scene. From sparsely sampled frames, G3Ego constructs action scene graphs from vision-language descriptions, grounded objects, and hand cues, and then prunes irrelevant entities using the camera wearer's gaze.   The resulting graph embeddings are temporally aggregated for action recognition and anticipation. Unlike prior work that uses gaze primarily as an auxiliary modality or attention signal, G3Ego incorporates gaze directly into graph construction, producing efficient and interpretable representations focused on action-relevant interactions.   Experiments on EGTEA Gaze+ and MECCANO show that G3Ego achieves competitive performance compared with video-based approaches and consistently improves Macro-F1 under class-imbalanced evaluation, while avoiding reliance on computationally expensive video pretraining. These results demonstrate the effectiveness of gaze-guided graph representations for egocentric action understanding."
+  },
+  {
+    "title": "Testing Statistical Isotropy in the FRB Sky Distribution: A Selection-Function-Aware Framework",
+    "url": "http://arxiv.org/abs/2608.20135v1",
+    "arxiv_id": "2608.20135v1",
+    "authors": [
+      "Bruno W. N. Ribeiro",
+      "Thais Lemos",
+      "Carlos A. P. Bengaly",
+      "Rodrigo Gon\u00e7alves",
+      "K. E. L. de Farias",
+      "L\u00e1zaro L. Sales",
+      "Amilcar R. Queiroz",
+      "Jailson Alcaniz"
+    ],
+    "published": "2026-08-20T15:00:29+00:00",
+    "summary": "We perform a test of statistical isotropy in the Universe using the sky distribution of fast radio bursts (FRBs), based on a compilation of $4066$ events detected by multiple surveys. Our method is based on the two-point angular correlation function $w(\u03b8)$ as in the Landy--Szalay estimator, together with a tomographic absolute-anisotropy statistic, and estimates their observational uncertainties from complementary jackknife and bootstrap resampling. Both estimators are confronted with hierarchical ensembles of isotropic mock catalogs that propagate the uncertainties of empirically reconstructed survey selection functions, as well as the Poisson fluctuations of the isotropic realizations. The significances are obtained from a covariance-aware, SVD-regularized $\u03c7^2$ statistic calibrated empirically against the mock ensemble, and we evaluate four nested scenarios that progressively incorporate a Galactic-plane mask and the survey selection functions. As for our results, we find that the raw FRB sky is strongly inconsistent with isotropy; Galactic masking alone reduces the tension by only a factor of $\\sim 3$, whereas the selection functions reduce it by nearly four orders of magnitude, showing that the apparent anisotropy is driven by the highly non-uniform sky coverage of the contributing surveys, overwhelmingly dominated by CHIME. Only when both effects are combined we obtain that the observed distribution is fully consistent with statistical isotropy. This result is independently corroborated by the absolute-anisotropy estimator, and is stable under variations of the analysis parameters. Therefore, we find that the FRB sky distribution is consistent with statistical isotropy, helping confirm one of the main predictions of the standard model scenario."
+  },
+  {
     "title": "L\u00e9vy Attention: Single-Pass Predictive Uncertainty for Continuous-Time Attention",
     "url": "http://arxiv.org/abs/2608.19171v1",
     "arxiv_id": "2608.19171v1",
