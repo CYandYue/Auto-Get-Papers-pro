@@ -1,5 +1,138 @@
 [
   {
+    "title": "Finding and using interpretable latents in a neutrino foundation model with sparse autoencoders",
+    "url": "http://arxiv.org/abs/2608.26090v1",
+    "arxiv_id": "2608.26090v1",
+    "authors": [
+      "Rapha\u00ebl Bonnet-Guerrini",
+      "Johann Ioannou-Nikolaides",
+      "Inar Timiryasov",
+      "Vincenzo Piuri"
+    ],
+    "published": "2026-08-26T17:53:00+00:00",
+    "summary": "We present a first application of sparse-autoencoder-based mechanistic interpretability to particle physics. Studying a neutrino foundation model pretrained on IceCube data and fine-tuned for direction reconstruction, we identify a validated atlas of physical concepts in the model representation, using a strict validation protocol consisting of held-out tests, matched nuisance controls, and replication across independent dictionary trainings. Causal interventions show that the direction head barely draws on this atlas. Motivated by this underused information, we train an uncertainty head on the same event-level representation to predict the model's angular reconstruction error. Unlike the direction head, it depends causally on quality and brightness features from the atlas. At $20\\%$ selection efficiency, this interpretable estimator improves the median angular resolution from $20.2^\\circ$ to $3.2^\\circ$. These results suggest that mechanistic interpretability can reveal learned latent physics encoded within a model's internal representation and help design downstream tasks that exploit it."
+  },
+  {
+    "title": "Gating Before Commitment: Anticipating Intent Divergence to Prevent Post-Interaction Decision Failures in Autonomous Driving",
+    "url": "http://arxiv.org/abs/2608.26074v1",
+    "arxiv_id": "2608.26074v1",
+    "authors": [
+      "Cong Xu",
+      "Ravi Sankar"
+    ],
+    "published": "2026-08-26T17:42:03+00:00",
+    "summary": "Intent misinterpretation during vehicle interactions causes recurring planning failures. We study a decision layer in which a language-guided intent module reads structured descriptors, computes a smoothed intent-geometry divergence score, and gates the planned maneuver before commitment, upstream of a corridor envelope. On a replayed off-road departure and four crash clips under a frozen, disclosed implementation, gating is the only layer that repairs the plan: on the main case it fires 72 ms after the drift onset but 161 ms before the corridor exit, keeping the trajectory in the corridor in all ten replays. The first calibration draws nine false triggers in 5.9 minutes, each from scoring uncertainty as half a conflict; a preregistered redesign treating uncertainty as abstention cuts this to 0.341 per minute. Two ablations bound the model's contribution: the full score detects fastest on four of five failures under the deployed eligibility, three of five against the unvetoed rule (000871 by one cycle; 000228 by a pre-onset fire on an uncertain stretch that five clips cannot classify as signal or coincidence; dropping the confidence term costs two detections), while on in-domain tracks at equal false positives the geometric rule more than triples its detection. The evidence supports the gating mechanism; the model's demonstrated roles are the fastest detection on these failures and an uncertainty veto on the geometric rule."
+  },
+  {
+    "title": "Beyond Local Surprise: Grounded Dialogue as Selective Belief Revision under Referential Uncertainty",
+    "url": "http://arxiv.org/abs/2608.26035v1",
+    "arxiv_id": "2608.26035v1",
+    "authors": [
+      "Ziming Liu",
+      "Bhanu Chaitanya Jasti",
+      "Ziyang Xu",
+      "Hongyu Wu",
+      "Yi Wu",
+      "Jiqun Liu"
+    ],
+    "published": "2026-08-26T17:13:46+00:00",
+    "summary": "When a speaker refers to a scene that the listener cannot directly see, the listener must decide whether to preserve its current understanding or revise it as new utterances arrive. Many language systems treat local mismatch as a cue for updating: divergence from the current understanding encourages adjustment. Yet conversational understanding may be more conservative, interpreting mismatching evidence relative to prior understanding rather than immediately revising it. We introduce a controlled, data-driven framework for turn-by-turn preserve/revise decisions in dialogue, where competing revision policies are learned under otherwise identical conditions. We compare four theory-driven revision strategies, each reflecting a different assumption about when listeners should preserve or revise. Two findings stand out. First, a mismatch-driven policy that updates solely based on local divergence reacts strongly to mismatch but destabilizes grounding and degrades retrieval. Second, an uncertainty-sensitive policy extends mismatch-based updating with accumulated evidence, preserving coherent understanding while maintaining strong retrieval performance. Surprisingly, coherent understanding emerges from a counterintuitive pattern: local mismatch promotes preservation, whereas accumulated uncertainty promotes revision, suggesting that listeners maintain prior understanding despite local mismatch and revise only when uncertainty sufficiently accumulates. This pattern is consistent with conceptual pact theory."
+  },
+  {
+    "title": "Benchmark Brown Dwarfs as Chemical Laboratories: Linking System Bulk Properties to Atmospheric Retrievals",
+    "url": "http://arxiv.org/abs/2608.26029v1",
+    "arxiv_id": "2608.26029v1",
+    "authors": [
+      "Vikt\u00f3ria Kecskem\u00e9thy",
+      "Ben Burningham",
+      "Fei Wang",
+      "Austin J. Rothermich",
+      "Jacqueline K. Faherty",
+      "Genaro Su\u00e1rez",
+      "Caprice L. Phillips",
+      "Melanie Rowland",
+      "Channon Visscher",
+      "Johanna M. Vos",
+      "Daniella C. Bardalez Gagliuffi"
+    ],
+    "published": "2026-08-26T17:09:36+00:00",
+    "summary": "We present the first atmospheric retrieval analysis of two compositional benchmark mid-L dwarfs -- SDSSJ141659.78+500626.4 and GJ 499 C -- using the \\textit{Brewster} retrieval framework, where the wide benchmark nature of these systems provides independent constraints on age and bulk composition from their stellar primaries. These targets were observed with JWST using NIRSpec Prism and MIRI LRS, providing low-resolution ($R$ $\\sim$ 100) spectra between 0.6--14.0 $\\mathrm\u03bc$m with high signal-to-noise ratios (SNR $\\sim$100 -- 600). For SDSSJ141659.78+500626.4, the retrieved cloud combination of a high-altitude enstatite slab and low-altitude iron deck clouds matches phase-equilibrium predictions based on the primary star's Mg/Si ratio. We retrieve a super-solar C/O = 0.71$^{+0.01}_{-0.01}$ and slightly metal-rich [M/H] = 0.22$^{+0.03}_{-0.03}$. This C/O ratio can only be reconciled with the value inferred for the primary if additional oxygen sequestration beyond the retrieved cloud mass is present, or if there are uncertainties in the adopted opacities or other model deficiencies. The inferred [C/H] and [O/H] are 0.31$\\pm$0.03 and 0.19$\\pm$0.03, respectively, which are consistent within the relatively large uncertainties of the host star abundances. For GJ 499 C, the retrieved silicon-monoxide and forsterite slab clouds are difficult to explain with simple phase-equilibrium assumptions, yielding Mg/Si $\\sim$ 1.9. We estimate C/O = 0.69$^{+0.02}_{-0.02}$ and [M/H] = 0.13$^{+0.04}_{-0.06}$. For both objects, the inferred radii of 0.85$^{+0.01}_{-0.01}$ $R_{\\mathrm{Jup}}$ and 1.00$^{+0.02}_{-0.02}$ $R_{\\mathrm{Jup}}$ and masses of 73.7$^{+4.9}_{-9.2}$ $M_{\\mathrm{Jup}}$ and 68.0$^{+8.5}_{-12.7}$ $M_{\\mathrm{Jup}}$ are consistent with evolutionary models and system ages, highlighting the plausibility of our results."
+  },
+  {
+    "title": "Atmospheric Newtonian noise in torsion-balance measurements of the gravitational constant $G$",
+    "url": "http://arxiv.org/abs/2608.26020v1",
+    "arxiv_id": "2608.26020v1",
+    "authors": [
+      "Jyotirmaya Mohanta",
+      "Yutaka Shikano"
+    ],
+    "published": "2026-08-26T17:01:30+00:00",
+    "summary": "Measurements of Newton's gravitational constant remain limited by environmental and apparatus-dependent systematics whose treatment is often less explicit than that of instrumental noise. Among these, atmospheric density fluctuations generate unshieldable gravity gradients that couple directly to torsion-balance observables as atmospheric Newtonian noise. Here, we develop a GUM-consistent framework for propagating this contribution through the torque estimator into the uncertainty budget of torsion-balance measurements. We derive closed-form spatial transfer functions for two benchmark geometries: a two-mass dumbbell, which provides an upper-coupling reference, and a perfectly symmetric cross, which serves as an idealized rejection limit and exposes the trade-off between suppressing low-order environmental coupling and preserving signal response. We also separate stationary correlated inputs from non-stationary baseline drift, using the Ornstein--Uhlenbeck process only as a benchmark for the former. Atmospheric pressure benchmarks indicate that the resulting background contribution is below present reference uncertainty levels, but can become relevant as systematic floors approach the part-per-million regime. This framework provides a practical route for incorporating site-specific environmental gravity gradients into future torsion-balance uncertainty budgets."
+  },
+  {
+    "title": "Uncertainty-Guided Latent Diffusion Models for Faithful Super Resolution",
+    "url": "http://arxiv.org/abs/2608.25998v1",
+    "arxiv_id": "2608.25998v1",
+    "authors": [
+      "Ren Wang",
+      "Yung-Yu Chuang"
+    ],
+    "published": "2026-08-26T16:47:08+00:00",
+    "summary": "The perception-distortion trade-off poses a fundamental challenge in single-image super-resolution (SR). Although diffusion-based SR methods excel at generating perceptually realistic images, achieving high fidelity remains a key limitation. Recent advances in diffusion-based SR have shown promise in improving fidelity, but these methods often compromise perceptual quality due to their high reliance on a high-fidelity image. To address this, we introduce UGDiff, a novel diffusion guidance paradigm designed to further improve the perception-distortion balance. In particular, we first estimate the reconstruction uncertainty of the latent features corresponding to a high-fidelity image. This uncertainty is then used to guide the diffusion process to selectively restore high-frequency details in high-uncertainty regions, while preserving fidelity elsewhere. Furthermore, our guidance method adaptively identifies the high-uncertainty regions by considering not only the estimated uncertainty but also the posterior variance of the diffusion sampler at each timestep. This relaxes the reliance on the high-fidelity image in the later stages of sampling, thereby achieving a better perception-distortion balance. Extensive experimental results demonstrate that our method performs favorably against state-of-the-art diffusion-based SR methods."
+  },
+  {
+    "title": "When Personality Meets Quantization: A Layer-wise MBTI Analysis of Quantized LLMs",
+    "url": "http://arxiv.org/abs/2608.25977v1",
+    "arxiv_id": "2608.25977v1",
+    "authors": [
+      "Yao Fu",
+      "Lijia Huang",
+      "Xiaomin Li",
+      "Runchao Li",
+      "Yu Yin",
+      "Kenneth A. Loparo"
+    ],
+    "published": "2026-08-26T16:32:50+00:00",
+    "summary": "Personality is increasingly important in large language models (LLMs), as it shapes users' trust, engagement, and emotional experiences. While the Myers--Briggs Type Indicator (MBTI) has emerged as a common framework for assessing LLMs' personality, existing studies focus primarily on full-precision models and evaluate only final outputs. They overlook the widespread deployment of quantized LLMs requiring low memory footprints, whose personality traits remain underexplored. In this work, we present a systematic MBTI analysis of open-source LLMs across multiple precisions, including mainstream 4-bit methods (GPTQ, AWQ) and extreme 2-bit settings (AQLM variants). Beyond output-level evaluation, we examine how personality emerges across layers through option-level entropy and confidence-gap dynamics, and introduce Uncertainty-Amplified Layer Decoding (UALD) to study decoding-induced personality drift at inference time. Our results reveal a key insight: LLMs' personality is not a static property, but an emergent, layer-dependent decision process sensitive to quantization, prompting, and decoding. Specifically, we find that (1) ENFJ remains dominant across model families and precisions; (2) 4-bit quantization largely preserves coarse personality structure, while 2-bit quantization disrupts fine-grained prompt consistency and cross-precision agreement; (3) personality decisions emerges in upper layers, following substantial ambiguity in early layers; and (4) inference decoding can shift personality, while personality-aligned conditioning improves robustness. These findings provide a new perspective on the behavioral reliability of quantized LLMs and highlight the importance of considering internal dynamics and inference strategies in personality-sensitive chatbot applications."
+  },
+  {
+    "title": "Quantitative Analysis of $\u03c9$-Regular Robust MDPs",
+    "url": "http://arxiv.org/abs/2608.25968v1",
+    "arxiv_id": "2608.25968v1",
+    "authors": [
+      "Ali Asadi",
+      "Krishnendu Chatterjee",
+      "Ehsan Kafshdar Goharshady",
+      "Mehrdad Karrabi",
+      "Alipasha Montaseri",
+      "Ali Shafiee"
+    ],
+    "published": "2026-08-26T16:26:13+00:00",
+    "summary": "Robust Markov Decision Processes (RMDPs) generalize classical MDPs by allowing uncertainty in transition probabilities and optimizing against their worst-case realization. We consider $(s,a)$-rectangular RMDPs with \\emph{linearly defined} uncertainty sets and study parity objectives, which are a canonical representation of $\u03c9$-regular objectives. An uncertainty set is linearly defined if it is described by linear inequalities over the transition distribution together with auxiliary variables, which capture the standard $L_1$ and $L_\\infty$ balls as well as general polytopic uncertainty sets.   The quantitative value is the supremum, over all agent policies, of the satisfaction probability guaranteed against the adversarial environment. Previous work studied the qualitative analysis, namely the almost-sure (resp. positive) problem that asks whether a single agent policy guarantees satisfaction with probability one (resp. positive probability) against every environment policy. In this work, we solve the exact quantitative problem.   Our contributions are threefold. First, we show that both the agent and the environment admit pure memoryless optimal policies. Second, we give a polynomial-time algorithm for quantitative parity on linearly defined robust Markov chains and use it as a subroutine in a policy-iteration algorithm for RMDPs. The algorithm combines quantitative one-step improvements with qualitative almost-sure improvements. Finally, we report experiments comparing our approach with the explicit reduction to stochastic games."
+  },
+  {
+    "title": "Optimized Multilevel Sampling Methods under Resource Constraints",
+    "url": "http://arxiv.org/abs/2608.25958v1",
+    "arxiv_id": "2608.25958v1",
+    "authors": [
+      "Niklas Baumgarten"
+    ],
+    "published": "2026-08-26T16:17:44+00:00",
+    "summary": "We present recent developments in multilevel sampling methods under resource constraints. Over the past 15 years, multilevel methods have become widely used for uncertainty quantification. However, scaling them to high-dimensional problems and high-performance computing (HPC) environments remains challenging. In this work, we discuss two algorithms designed to address these issues: the budgeted Multilevel Monte Carlo (MLMC) method and the Multilevel Stochastic Gradient Descent (MLSGD) method. We demonstrate their effectiveness on HPC systems under consideration of the available computational resources for applications in forward uncertainty quantification (UQ) and optimal control (OC) under uncertainty."
+  },
+  {
+    "title": "Continually learning neural-operator surrogate for three-dimensional airborne electromagnetic Bayesian inversion",
+    "url": "http://arxiv.org/abs/2608.25932v1",
+    "arxiv_id": "2608.25932v1",
+    "authors": [
+      "Jaehong Chung",
+      "Andrew Lockwood",
+      "Jef Caers"
+    ],
+    "published": "2026-08-26T15:43:10+00:00",
+    "summary": "Three-dimensional probabilistic inversion of time-domain airborne electromagnetic (AEM) data is limited by the cost of the forward solve. Even though one simulation takes only tens of seconds, a Bayesian inversion of a survey of millions of soundings requires of order $10^{10}$ forward evaluations. To address this, we develop a continually learning neural-operator surrogate of the three-dimensional AEM forward operator that replaces the solver inside the Bayesian inversion. We start from the point of view that regardless of what geological prior is specified, Maxwell's laws remain invariant. Secondly, we avoid the limitation of learning on a single prior by continual learning on consecutive priors, which means our surrogate becomes richer as it is applied in future case studies, either by the authors, or by the scientific community. We use a validity check built on ensemble disagreement to divert cases with measurements outside the training range to the solver. Driven by the surrogate, the identical Markov chain Monte Carlo sampler reproduces the full-solver posterior, and its credible intervals cover the truth within 2.6 percentage points. Applied to the 2013 Capricorn TEMPEST survey in Western Australia, the surrogate inverts over two million soundings in seconds, a computation infeasible for the solver. Testing the geological prior against the entire survey costs minutes. The framework delivers uncertainty-quantified conductivity imaging at survey scale, which we believe is essential to perform near real-time mineral-systems targeting with geophysics."
+  },
+  {
     "title": "Magnesium silicate condensation in sub-Neptune envelopes: the fundamental link between chemistry, structure, and observables",
     "url": "http://arxiv.org/abs/2608.24873v1",
     "arxiv_id": "2608.24873v1",
