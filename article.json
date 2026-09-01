@@ -1,5 +1,143 @@
 [
   {
+    "title": "Development and characterization of a wingless ICPC HPGe detector with thin amorphous-Ge contacts",
+    "url": "http://arxiv.org/abs/2608.31123v1",
+    "arxiv_id": "2608.31123v1",
+    "authors": [
+      "S. A. Panamaldeniya",
+      "K. M. Dong",
+      "D. M. Mei"
+    ],
+    "published": "2026-08-31T17:35:55+00:00",
+    "summary": "High-purity germanium (HPGe) detectors with thin amorphous-germanium (a-Ge) contacts can provide bipolar charge blocking and surface passivation while minimizing contact-related inactive thickness. We report the fabrication and characterization of a p-type inverted coaxial point-contact (ICPC) HPGe detector using thin a-Ge contacts in a wingless geometry that avoids the protective wing structure used in our previous prototype. The detector was fabricated from a USD-grown, zone-refined HPGe crystal and has a mass of 20.0~g. At 77~K, it exhibited picoampere-scale leakage current and an operational depletion voltage of approximately 440~V. Gamma-ray spectroscopy yielded energy resolutions of 1.75~keV FWHM at 59.5~keV and 3.19~keV FWHM at 662~keV. The calibrated charge-injection method gave an absolute capacitance of 0.496~pF, with an estimated method-level relative uncertainty of 6--8\\%, consistent with the 0.488~pF value obtained from electrostatic modeling with \\texttt{SolidStateDetectors.jl}. With a $^{241}$Am source positioned inside the detector bore, the detector showed a source-correlated excess current and a broad degraded-alpha continuum centered near 3558~keV, demonstrating sensitivity to near-surface interactions. Because the source encapsulation, intervening materials, and near-surface charge-collection response were not independently characterized, the continuum is not used to infer a unique dead-layer thickness or energy-loss mechanism. The principal result is successful fabrication and stable sub-pF operation of a 20-g wingless thin-contact ICPC prototype."
+  },
+  {
+    "title": "LLM Post-Training as Brownfield Maintenance: An Industrial Perspective on Dataware Engineering",
+    "url": "http://arxiv.org/abs/2608.31102v1",
+    "arxiv_id": "2608.31102v1",
+    "authors": [
+      "Gopi Krishnan Rajbahadur",
+      "Amir M. Ebrahimi",
+      "Boyuan Chen",
+      "Ahmed E. Hassan"
+    ],
+    "published": "2026-08-31T17:08:41+00:00",
+    "summary": "Industrial post-training is a brownfield regime. Teams inherit a deployed checkpoint and must land targeted improvements under fixed compute and mixture budgets without regressing the rest. The maintained artifact is increasingly dataware: behavior governed by a curated post-training mixture, updated via bounded mixture patches rather than clean-slate retraining. From an industrial code-generation improvement effort, we offer a maintainer's perspective on why this work is hard in practice, distilling three recurring challenges, zero-sum mixture design, yield as the binding metric, and end-to-end integration under uncertainty, and arguing that progress depends less on one-off recipes than on an engineering discipline for programming dataware. In our case study, interventions that raised the conversion of teacher distillation into usable training data increased accepted supervision by 2.84 times while using the same solution teacher and four solution attempts per candidate problem. In our primary evaluation, the yield-engineered patch improved CodeForces pass@1 by +2.59 points (+3.11 pass@3) and held-out LiveCodeBench v6 pass@1 by +6.11 (+8.05 pass@3), all statistically significant across 16 stochastic evaluations of each benchmark from one fixed checkpoint per condition, with internal AIME and MATH regression suites within tolerance."
+  },
+  {
+    "title": "Posterior Geometry and Identifiability in Multi-Response Bayesian Calibration",
+    "url": "http://arxiv.org/abs/2608.31047v1",
+    "arxiv_id": "2608.31047v1",
+    "authors": [
+      "Anton van Beek",
+      "Adam. M Boyce",
+      "Will J. Dawson",
+      "James B. Robinson"
+    ],
+    "published": "2026-08-31T16:24:21+00:00",
+    "summary": "Calibration under model misspecification is inherently ill-posed because calibration parameters and structural discrepancy are statistically confounded without additional assumptions. Bayesian formulations address this ambiguity through prior and covariance modeling choices, including multi-response observations and cross-source alignment. However, how these choices, together with output-dependent uncertainty, shape posterior geometry and practical parameter identifiability remains poorly understood. We present a latent-variable multi-response calibration model that combines empirical Bayes estimation of nuisance hyperparameters with a Fisher-information-based local Gaussian approximation of the calibration-parameter posterior. Closed-form expressions are derived for squared-exponential and Mat\u00e9rn covariance functions, revealing how multi-response correlations, latent alignment, and output-specific uncertainty influence local posterior geometry. Controlled numerical experiments show that additional responses provide complementary geometric constraints on calibration parameters, while noise modeling can improve uncertainty quantification by reducing overconfidence without necessarily improving parameter localization. A lithium-ion battery study further illustrates how the model distinguishes strongly from weakly constrained parameters. Together, these results establish expected-Fisher posterior geometry as a scalable diagnostic of local parameter identifiability in multi-response calibration."
+  },
+  {
+    "title": "The Auger Radio Infill SKALA Extension (ARISE): Science Case and Instrumentation (ARENA 2026)",
+    "url": "http://arxiv.org/abs/2608.31031v1",
+    "arxiv_id": "2608.31031v1",
+    "authors": [
+      "Frank G. Schr\u00f6der for the Pierre Auger Collaboration"
+    ],
+    "published": "2026-08-31T16:10:38+00:00",
+    "summary": "The Auger Radio Infill SKALA Extension (ARISE) at the Pierre Auger Observatory in Argentina was deployed in 2025 and measures cosmic-ray air showers in the energy region of the Galactic-to-extragalactic transition. ARISE is comprised of 18 SKALA-2 antennas featuring two polarization channels each, deployed within $100\\,$m of a surface detector station in the enhancement area of the Pierre Auger Observatory. This area of the surface array features a denser spacing of $433\\,$m between surface stations, each equipped with underground muon detectors. One of these surface detector stations provides a trigger for simultaneous readout of all ARISE antenna channels. The wide frequency range of ARISE, from $50$ to $350\\,$MHz, includes the sub-band of optimum signal-to-noise ratio for air-shower radio emission against the Galactic radio background. In combination with the dense antenna spacing, this enables a relatively low detection threshold, and ARISE aims at demonstrating full detection efficiency for near-vertical air showers above $100\\,$ PeV. As an advantage over the current radio detectors at Auger, which are more efficient for inclined air showers, this would enable low systematic uncertainties for physics analysis combining ARISE radio measurements with coincident measurements of the underground muon detectors in the same area. In this presentation, we will provide an overview over the ARISE instrumentation operating at the Pierre Auger Observatory and will outline the science goals."
+  },
+  {
+    "title": "First-principles determination of anomaly-induced pion decay beyond the chiral limit",
+    "url": "http://arxiv.org/abs/2608.31024v1",
+    "arxiv_id": "2608.31024v1",
+    "authors": [
+      "Tian Lin",
+      "Xu Feng",
+      "Lu-Chang Jin",
+      "Chuan Liu",
+      "Qi-Yuan Luo"
+    ],
+    "published": "2026-08-31T16:06:21+00:00",
+    "summary": "The two-photon decay of the neutral pion is fixed in the chiral limit by the Adler-Bell-Jackiw anomaly, while nonzero quark masses induce few-percent corrections that must be determined for precision tests of QCD beyond the chiral limit. Using the anomalous PCAC relation, we compute them in lattice QCD as deviations from the exact anomaly condition at $q^2=0$, thereby avoiding both four-point functions and the cancellation of chiral logarithms that limits conventional approaches. Because the correction is proportional to the light-quark masses, both statistical and systematic uncertainties are correspondingly suppressed, making a precision calculation feasible. On two nearly-physical domain-wall ensembles we achieve $\\sim1\\%$ statistical precision each for the decay width, obtaining $\u0393(\u03c0^0\\to\u03b3\u03b3)=8.09(22) eV$ after continuum extrapolation. The $2.3(1.4)\\%$ mass correction to the decay amplitude, positive and isospin-breaking dominated, provides the first ab initio confirmation of the $\u03c0^0$-$\u03b7$-$\u03b7'$ mixing enhancement."
+  },
+  {
+    "title": "SMG: Semantic Motion Graph for Monocular Dynamic Gaussian Splatting",
+    "url": "http://arxiv.org/abs/2608.31023v1",
+    "arxiv_id": "2608.31023v1",
+    "authors": [
+      "Haozheng Yu",
+      "Xinyu Yang",
+      "Rundong Luo",
+      "Jennifer J. Sun",
+      "Bharath Hariharan"
+    ],
+    "published": "2026-08-31T16:06:18+00:00",
+    "summary": "We study dynamic Gaussian Splatting from monocular videos. While recent advancements in dynamic Gaussian splatting offer a promising foundation for modeling dynamic scenes, they often overfit to the training views and fail under occlusion or complex scene motion due to the lack of reliable regularization signals in under-constrained regions. We propose Semantic Motion Graph (SMG), a novel approach models the Gaussian motion as the low-rank semantic motion. Our key insight is that the real-world scene motion is often structured by semantic coherence: regions that are spatially close and semantically related tend to exhibit consistent dynamics. To leverage this prior, we construct SMG to model structured motion of the scene. The Gaussian motion is driven by the motion of SMG nodes. We further observe that the uncertainty of Gaussian motion arises from both unreliable off-the-shelf priors and weakly constrained regions during optimization. SMG addresses this by using reliable graph nodes to guide the motion of nearby unreliable nodes. To evaluate dynamic Gaussian splatting under challenging real-world scenarios, we introduce a new multiview dataset collected under an ego-exo setup. Extensive experiments demonstrate that SMG achieves state-of-the-art performance on monocular dynamic Gaussian splatting across challenging real-world benchmarks. Project page: https://smg-gaussian.github.io/."
+  },
+  {
+    "title": "ALMA CO(2-1) Gas Dynamics in NGC 315: A Multi-Method Benchmark for Supermassive Black Hole Mass Measurement",
+    "url": "http://arxiv.org/abs/2608.31015v1",
+    "arxiv_id": "2608.31015v1",
+    "authors": [
+      "Dieu D. Nguyen",
+      "Benjamin D. Boizelle",
+      "Hai N. Ngo",
+      "Elena Gallo",
+      "Tuan N. Le",
+      "Sabine Thater",
+      "Tien H. T. Ho",
+      "Tinh Q. T. Le",
+      "Que T. Le",
+      "Sam Norcross",
+      "Xueyi Li",
+      "Huy G. Tong",
+      "Nghi K. N. Le",
+      "Huy M. B. Tran"
+    ],
+    "published": "2026-08-31T15:58:44+00:00",
+    "summary": "We present ALMA Cycle~7 \\cotwo\\ observations of the circumnuclear disk in NGC~315 at an angular resolution of $0\\farcs230\\times0\\farcs175$, improving on past measurements and resolving the sphere of influence (SOI) of the supermassive black hole (SMBH), whose mass has previously been estimated of $M_{\\rm BH}= \\left(2.08^{+0.33}_{-0.15}\\right) \\times 10^9$~M$_\\odot$ The high spatial resolution and sensitivity enable robust full-cube forward modeling of the molecular gas kinematics and a direct comparison of multiple independent gas-based dynamical modeling techniques. We apply standard Bayesian codes using both MCMC and nested sampling approaches, as well as a frequentist code to the same dataset, exploring systematic uncertainties associated with the stellar mass distribution, gas surface-brightness parameterization, and disk geometry. All methods yield consistent black hole masses, indicating that the inferred $M_{\\rm BH}$ is not strongly method-dependent. Combining the ensemble of independent molecular-gas-based models, we derive an ensemble median black hole mass of $M_{\\rm BH}/10^9\\,\\mathrm{M_\\odot} = 2.02^{+0.04}_{-0.05}$(stat)$^{+0.05}_{-0.04}$(sys), where the comparable contributions to the full error budget arise from modeling systematics rather than formal fitting uncertainties. Our $M_{\\rm BH}$ is consistent with the empirical $M_{\\rm BH}$--$\u03c3_\\star$ and $M_{\\rm BH}$--$L_{\\rm bulge}$ scaling relations, and lies 32\\% below an independent stellar-dynamical measurement, a discrepancy we discuss in the context of systematic differences between gas- and stellar-based methods. NGC~315 serves as a benchmark for quantifying molecular gas-dynamical $M_{\\rm BH}$ systematic uncertainties and for future cross-comparisons of gaseous and stellar dynamical approaches."
+  },
+  {
+    "title": "Adaptive Observer of Nonlinear One-Sided Lipschitz Systems Using Estimated State Regressors With Finite Excitation",
+    "url": "http://arxiv.org/abs/2608.30977v1",
+    "arxiv_id": "2608.30977v1",
+    "authors": [
+      "Hamid Taghavifar",
+      "Brian Delgado Aguilar"
+    ],
+    "published": "2026-08-31T15:36:49+00:00",
+    "summary": "For systems with unknown parameters, finite excitation and concurrent learning can potentially yield parameter convergence without persistent excitation but the regressor may still depend on inaccessible states, leading to regressor mismatch. In this paper, this problem is addressed for a class of nonlinear systems with one-sided Lipschitz properties and quadratically inner-bounded nonlinearities with bounded disturbances and linearly parametrized uncertainties. To this aim, an output-integral regression is utilized by using measured outputs and estimated states, and history-stack residual is explicitly bounded in terms of state-estimation error and disturbance. Furthermore, a perturbation bound between the estimated-state and true-state information matrices is derived. Additionally, an OSL-QIB LMI condition is applied for the observer design and a projected adaptive law is designed without needing exact output matching. Stability analysis's results indicate the proposed observer and parameter estimation outperform observers without history-stack learning term."
+  },
+  {
+    "title": "A Human-in-the-Loop Autonomous Agent for Industry Time Series Forecasting",
+    "url": "http://arxiv.org/abs/2608.30976v1",
+    "arxiv_id": "2608.30976v1",
+    "authors": [
+      "Xiaoyu Tao",
+      "Mingyue Cheng",
+      "Ze Guo",
+      "Bokai Pan",
+      "Qi Liu",
+      "Shijin Wang",
+      "Enhong Chen"
+    ],
+    "published": "2026-08-31T15:36:41+00:00",
+    "summary": "Real-world time-series forecasting is rarely a one-shot model invocation: practitioners must formulate tasks, connect data and models, incorporate domain expertise, assess prediction plausibility, and communicate uncertainty. Specialized forecasting models provide strong numerical predictions but usually operate in fixed pipelines, while general-purpose large language model (LLM) agents often lack forecasting-specific checks, constraints, and stopping rules. We present CastClaw, a human-in-the-loop autonomous forecasting system built through forecasting-oriented harness engineering. CastClaw connects data, specialized models, analytical tools, user input, and a versioned execution record in one runtime. Users specify the target, horizon, constraints, and hypotheses in natural language. Starting from a supplied or model-generated forecast, CastClaw checks temporal patterns and user constraints; when evidence is missing, it retrieves context, runs an analysis or another model, or asks the user. It then keeps, revises, or escalates the result under explicit stopping conditions. The output contains the final forecast and an execution report recording inputs, evidence, actions, and revisions. In this five-dataset electricity-price setting, CastClaw reports the lowest point-estimate MSE and MAE among 16 baselines. A Nord Pool case demonstrates the inspectable workflow. CastClaw was also validated offline on provincial electricity-load data from North China covering January--June 2026."
+  },
+  {
+    "title": "Learning Action Models with Conditional and Quantified Effects via Uncertainty-Guided Exploration",
+    "url": "http://arxiv.org/abs/2608.30955v1",
+    "arxiv_id": "2608.30955v1",
+    "authors": [
+      "Jeffrey Jewett",
+      "William Solow",
+      "Sandhya Saisubramanian"
+    ],
+    "published": "2026-08-31T15:23:43+00:00",
+    "summary": "Accurate action models are critical for effective planning. Existing action-model learning methods largely assume simple action representations or become computationally intractable when learning conditional and quantified effects. We present Online Hypothesis-Driven Conditional Action Model Learning (OHCAM), an online approach for learning action models with conditional and quantified effects from limited interactions with the environment. OHCAM maintains a belief over hypothesized action models and actively selects informative actions to reduce uncertainty by maximizing disagreement among competing hypotheses, while being robust to noisy observations. To enable scalability, OHCAM begins with a small set of simple action model hypotheses and expands to more complex conditions only when the current hypotheses become inconsistent with the data. Experiments on six benchmark planning domains demonstrate that OHCAM is sample efficient in learning action models that solve substantially more tasks than baselines, even with observation noise. We validate OHCAM on two tasks using a Kinova Gen3 robot, demonstrating the real-world applicability of our approach."
+  },
+  {
     "title": "A Formal Limitation on Learning Human Language From Textual Corpora",
     "url": "http://arxiv.org/abs/2608.28560v1",
     "arxiv_id": "2608.28560v1",
