@@ -1,5 +1,132 @@
 [
   {
+    "title": "Statistical Inference for Probability Barycenters and Kolmogorov Moments",
+    "url": "http://arxiv.org/abs/2609.02869v1",
+    "arxiv_id": "2609.02869v1",
+    "authors": [
+      "Manuela-Simona Cojocea"
+    ],
+    "published": "2026-09-02T17:52:14+00:00",
+    "summary": "A probability coordinate chart is a continuous strictly increasing bijection that transports observations to the open unit interval, where averaging is always well defined. For barycentric inference, the first coordinate moment is returned through the inverse chart. Higher initial coordinate moments similarly generate initial Kolmogorov moments by pullback, while centred coordinate moments remain on the probability scale. We develop inference for these quantities under fixed, intrinsic, and estimated charts.   For a fixed benchmark chart, the coordinate mean is the primary inferential object. Confidence intervals are constructed on the probability scale and then transported through the inverse chart, preserving the geometry and allowing asymmetry on the observation scale. Hoeffding's inequality also provides finite-sample distribution-free intervals.   The intrinsic case requires different treatment. The empirical cumulative distribution function is not an admissible chart, and its natural generalised plug-in construction collapses exactly to a middle order statistic. Feasible intrinsic inference therefore reduces to median inference. This self-induced functional is distinguished from the frozen oracle construction, which has a different asymptotic variance.   For estimated location-scale charts, the asymptotic expansion contains a calibration correction for the first-order effect of learning the chart from the same sample. This yields an influence-function variance estimator and a bootstrap procedure that recalibrates the chart in every resample. Joint covariance theory is developed for vectors of initial and centred coordinate moments, with initial Kolmogorov moments obtained by inverse-chart pullback. The framework separates variation on the probability scale, amplification by the inverse chart, and uncertainty from chart calibration."
+  },
+  {
+    "title": "Vortex pinning and the elastic response of neutron-star crusts II. Non-axisymmetric loading and Magnus mountains",
+    "url": "http://arxiv.org/abs/2609.02863v1",
+    "arxiv_id": "2609.02863v1",
+    "authors": [
+      "Elia Giliberti"
+    ],
+    "published": "2026-09-02T17:46:46+00:00",
+    "summary": "Pinned superfluid vortices transmit a Magnus force to the neutron-star crust. A non-axisymmetric component of the superfluid-lattice lag can therefore support a persistent mass quadrupole. We calculate the l=m=2 response of self-gravitating, radially stratified spherical stars with SLy4 and BSk21 backgrounds, using a local microscopic pinning cap and a density-dependent Coulomb-lattice shear modulus. For a 1.4 M_sun star at 100 Hz, the equilibrium-compression maxima are epsilon=2.67x10^-9 (SLy4) and 2.44x10^-9 (BSk21). The global quadrupole is strikingly insensitive to the shear prescription: replacing mu=0.01P by the Coulomb profile and strongly varying uncertain edge layers changes the result only at the percent level. The dominant internal sensitivity is instead compressional. A density-resolved compressional kernel increases through the inner crust and steepens close to the crust-core interface, particularly for BSk21, showing that the deep inner crust controls the EoS dependence of the mountain. A fixed-composition calculation is used only as a non-relaxed sensitivity diagnostic, not as the secular prediction. At a common true local velocity benchmark, our fiducial ellipticities remain more than an order of magnitude below the complementary two-component cylindrical calculation of Gangwar & Jones (2026). We argue that the comparison points to the relative superfluid-lattice degree of freedom as the natural next ingredient for a common spherical model. The main result is therefore physical rather than numerical: the Magnus-mountain scale is robust to shear microphysics, while the deep-crust compressional response sets the leading uncertainty of the one-displacement model."
+  },
+  {
+    "title": "The $H^*H^*V$ charge couplings from light-cone sum rules",
+    "url": "http://arxiv.org/abs/2609.02791v1",
+    "arxiv_id": "2609.02791v1",
+    "authors": [
+      "Chao Wang"
+    ],
+    "published": "2026-09-02T16:23:33+00:00",
+    "summary": "We present an updated and rigorous determination of the strong charge couplings $g_{H^*H^*V}$ (with $H \\in \\{D, B\\}$ and $V \\in \\{\u03c1, \u03c9, K^*, \u03c6\\}$) using the framework of light-cone sum rules (LCSR). The theoretical precision is significantly enhanced by establishing the leading-power hard-collinear factorization formula with next-to-leading-order (NLO) $\u03b1_s$ corrections, alongside the systematic inclusion of power-suppressed contributions up to the next-to-next-to-leading power (NNLP). Our numerical analysis demonstrates a subtle cancellation of the factorization-scale dependence at NLO and reveals highly stable Borel plateaus, yielding robust predictions for the couplings. By parameterizing the $\\mathcal{O}(1/m_{H^*})$ power corrections, we extract the universal static coupling $\u03b2= 0.73 \\pm 0.13$ and demonstrate that these charge couplings are remarkably insensitive to heavy-quark mass breaking effects. Finally, our investigation into SU(3) flavor symmetry breaking shows that its minute physical effects are currently overshadowed by uncertainties in the non-perturbative vector meson distribution amplitudes."
+  },
+  {
+    "title": "Conditional validity of quantum event classifiers under collider systematics and quantum estimation uncertainty",
+    "url": "http://arxiv.org/abs/2609.02781v1",
+    "arxiv_id": "2609.02781v1",
+    "authors": [
+      "Roberto Fern\u00e1ndez-Barrios",
+      "Iker Pastor-L\u00f3pez",
+      "Asier Gonz\u00e1lez-Santocildes",
+      "Pablo Garc\u00eda Bringas"
+    ],
+    "published": "2026-09-02T16:14:58+00:00",
+    "summary": "Claims about a deployed quantum machine-learning classifier can fail when target data shift or when finite-shot quantum evaluation randomizes the model itself. We develop an information-conditional, fail-closed auditing framework that returns supported, refuted or unresolved verdicts with anytime-valid per-claim error control under a declared sampling protocol. On a Higgs-to-tau-tau collider benchmark, stable classifier metrics do not guarantee valid signal-strength inference: at the studied finite-template statistics, the fixed-template profile can lose coverage, even in shift-free controls, when its templates are estimated independently and template-statistical uncertainty is not modeled explicitly. Across 30 frozen finite-shot quantum-kernel deployments, every realized Gram matrix is propagated through refitting, calibration and threshold selection; in the primary raw pipeline these perturbations leave ranking nearly unchanged yet move thresholded target metrics by about 0.02, flipping ideal-anchored claims, and the diagonal-loading sensitivity decomposes differently. Matched classical controls remove apparent quantum-specific nominal-performance and sensing effects. We claim no quantum advantage."
+  },
+  {
+    "title": "Incremental Pooled LLM Evaluation for Cost-Effective Retrieval Model Selection",
+    "url": "http://arxiv.org/abs/2609.02745v1",
+    "arxiv_id": "2609.02745v1",
+    "authors": [
+      "Max Nelson",
+      "Hanoz Bhathena",
+      "Aviral Joshi",
+      "Saket Sharma"
+    ],
+    "published": "2026-09-02T15:47:49+00:00",
+    "summary": "Selecting a retrieval model for a production RAG system requires reliable comparative evaluation, but obtaining relevance judgments at scale is expensive and difficult to repeat as new candidate systems arrive. We study pooled LLM evaluation, in which an LLM judges the union of documents retrieved by the current set of candidate systems, and the pool is then expanded incrementally as new systems are introduced by judging only the new documents they contribute. These judgments are reused to evaluate all systems on a common basis. We validate this approach on four retrieval benchmarks with 11 systems spanning dense, sparse, and hybrid configurations, and deploy it to compare 62 retrieval configurations for a financial news QA system. Pooled LLM rankings correlate strongly with gold-standard evaluation across datasets, and 97% of pairwise system orderings are preserved once bootstrap uncertainty in the qrels is taken into account. In production, document overlap yields 65-80% judgment reuse and up to 4.9x lower evaluation cost, allowing teams to benchmark new retrieval candidates without re-judging previously assessed documents. These results suggest pooled LLM evaluation is a practical and cost-effective workflow for incremental retrieval model selection in deployed systems."
+  },
+  {
+    "title": "Fundamental Limits of Adaptive Stabilization with an Unknown Growth Exponent",
+    "url": "http://arxiv.org/abs/2609.02740v1",
+    "arxiv_id": "2609.02740v1",
+    "authors": [
+      "Zhaobo Liu"
+    ],
+    "published": "2026-09-02T15:46:37+00:00",
+    "summary": "A basic question in adaptive control is how rapidly a discrete-time nonlinear plant with unknown parameters may grow while remaining stabilizable. When the nonlinear growth exponent is known and only a scalar coefficient is unknown, existing theory identifies 4 as the exact critical exponent for stabilizability. We determine how this critical exponent changes when the growth exponent is also unknown. For any positive disturbance bound, one feedback law stabilizes all plants in some neighborhood of a nominal parameter pair if and only if the nominal exponent is below $3\\sqrt{3}/2$. At equality, every compact parameter set whose exponents do not exceed this value remains stabilizable. If the exponent belongs to a known finite set, the critical exponent remains 4 for every nondegenerate compact coefficient interval. Hence finite exponent sets and arbitrarily short exponent intervals can have different critical exponents. Uncertainty in the growth rate therefore changes the range of growth that feedback can stabilize, not merely the size of the uncertainty set. The critical exponent remains $3\\sqrt{3}/2$ under a known positive state-dependent multiplier bounded above and away from zero. For a system whose coefficient and exponent are known functions of an unknown parameter, a compact parameter family is stabilizable when its exponents do not exceed this value. At an interior parameter point where the Jacobian of these functions has rank two and the exponent is at least this value, no compact neighborhood is stabilizable."
+  },
+  {
+    "title": "BuildOcc: A Large Language Model Occupant Agent Platform for Building Energy Research",
+    "url": "http://arxiv.org/abs/2609.02729v1",
+    "arxiv_id": "2609.02729v1",
+    "authors": [
+      "Wooyoung Jung"
+    ],
+    "published": "2026-09-02T15:40:33+00:00",
+    "summary": "Occupants are a primary source of uncertainty in building energy consumption and management, yet existing occupant behavior models cannot capture adaptive and reasoning responses considering the occupant's personal history, current context, and the type of energy signal being delivered. This study presents BuildOcc, an open-source Python platform that grounds large language model agents in the American Time Use Survey (ATUS), a nationally representative diary dataset covering 16,684 respondents. Through BuildOcc, each simulated occupant agent can be instantiated with a demographic persona drawn from ATUS population statistics, a memory stream that accumulates and reflects on timestep-level observations, and an activity scheduler that samples empirically from ATUS time-at-activity distributions. The platform exposes a three-layer interface - Python library, REST API, and Model Context Protocol server - so that any building energy tool (EnergyPlus, Home Assistant) can integrate behavioral intelligence without bespoke coupling code. A plugin registry lets the community add new occupant strata, custom schedulers, and alternative memory backends as separate installable packages. Two validation tiers show that ATUS-grounded sampling reproduces empirically calibrated activity distributions and that demographic priors propagate into persona-consistent agent reasoning across timesteps, establishing internal consistency across strata. BuildOcc provides the building energy community with a reusable, openly available implementation of the occupant behavioral layer. BuildOcc is openly released at https://doi.org/10.5281/zenodo.21192895 under the Apache License 2.0 and installable via pip install buildocc."
+  },
+  {
+    "title": "Neural operators approximate strongly continuous convex monotone semigroups",
+    "url": "http://arxiv.org/abs/2609.02727v1",
+    "arxiv_id": "2609.02727v1",
+    "authors": [
+      "Jonas Blessing",
+      "Philipp Schmocker",
+      "Alessandro Sgarabottolo"
+    ],
+    "published": "2026-09-02T15:38:52+00:00",
+    "summary": "We approximate strongly continuous convex monotone semigroups by learning their Chernoff-type one-step operators with neural operators. First, we introduce the general class of so-called Chernoff-neural operators and show in a universal approximation theorem that they can approximate the Chernoff one-step operators arbitrarily well. By using stability estimates between weighted H\u00f6lder spaces, the one-step approximation error can be propagated through the iterations which yields universal approximation of the corresponding semigroup. Second, we introduce the more specialized class of envelope-neural operators for envelope semigroups which allows us to derive quantitative approximation rates. Finally, we illustrate the effectiveness of these neural operators in several numerical examples arising from non-linear partial differential equations, stochastic optimal control and stochastic processes under model uncertainty."
+  },
+  {
+    "title": "Quantum amplitude estimation beyond power-of-two schedules",
+    "url": "http://arxiv.org/abs/2609.02715v1",
+    "arxiv_id": "2609.02715v1",
+    "authors": [
+      "Farrokh Labib"
+    ],
+    "published": "2026-09-02T15:20:50+00:00",
+    "summary": "Non-adaptive quantum amplitude estimation (QAE) fixes its Grover depths in advance, so every circuit can run in parallel, but it has so far needed more queries than the best adaptive methods. We show that most of this gap comes from two conventional choices: subspace-based post-processing and power-of-two depth ladders. We replace the first by the exact maximum-likelihood estimate, one matrix multiplication per batch of estimates, and the second by a geometric ladder with ratio $r \\approx 1.45$. The result is a fully parallel, deterministic-schedule estimator with total query complexity $2.8$-$3.1/\\varepsilon$ at 95% confidence for target errors from $3.5\\times 10^{-3}$ to $10^{-6}$. This matches the average-case complexity of chebAE, the best benchmarked adaptive method, within statistical uncertainty (with the lower point estimate at every scale tested), beats its maximum-observed complexity by $1.6\\times$, and needs a maximum sequential depth of only $0.21/\\varepsilon$ against chebAE's $2.9/\\varepsilon$. Relative to csAE, the best non-adaptive benchmark, the constants improve by 30-35% at 95% and $1.5$-$1.7\\times$ at 99% confidence. The optimal ratio has a simple origin. Doubling is the fastest depth growth at which the data can still tell neighboring candidate values apart, so power-of-two ladders sit at the edge of confusion and must buy reliability with extra shots; a slightly denser ladder checks every scale redundantly. An error-probability analysis reproduces the measured failure rates and locates the optimum. The likelihood formulation extends directly to noise-aware estimation, and uniformly scaling the capped ladder covers the depth-limited regime, realizing the optimal trade-off $M N_{\\mathrm{tot}} \\approx (0.4$-$0.6)/\\varepsilon^2$ within $\\sim 1.1\\times$ of the schedule's Cram\u00e9r-Rao limit."
+  },
+  {
+    "title": "The Hill sphere transits of Beta Pictoris c and the search for another 1981-like event",
+    "url": "http://arxiv.org/abs/2609.02708v1",
+    "arxiv_id": "2609.02708v1",
+    "authors": [
+      "V. E. C. Bakker",
+      "M. A. Kenworthy",
+      "R. Stuik",
+      "K. Zwintz",
+      "T. Guillot",
+      "S. Vach",
+      "J. Wang",
+      "J. Kammerer",
+      "W. Balmer",
+      "S. Lacour",
+      "S. Zieba",
+      "E. E. Mamajek",
+      "G. -D. Marleau",
+      "R. B. Kuhn",
+      "P. Kalas",
+      "Y. De Pra",
+      "E. J. W. de Mooij",
+      "N. Crouzet",
+      "M. Buttu",
+      "J. I. Bailey"
+    ],
+    "published": "2026-09-02T15:11:26+00:00",
+    "summary": "Beta Pictoris is a young and nearby planetary system hosting an edge-on debris disk and at least three gas-giant planets. Their circumplanetary environments could host exomoons and rings, a detection of which would be highly informative for moon and planet formation theories. A photometric fluctuation of about 4% was seen towards Beta Pictoris in 1981, indicating the transit of dust in the system, which could be associated with the Hill spheres of the two inner planets. We search for the origin of the 1981 event by searching for an analogous event in multi-epoch photometry from 2017 to 2023, and look for signs of circumplanetary material in transits of the Hill sphere of Beta Pictoris c. Observations from the BRITE satellite, and the bRing and ASTEP observatories are fitted to a model of the 1981 event to search for a similar event, and also search for a signal consistent with a circumplanetary disk transit using a simple flat disk model. No compelling evidence for a 1981 event during a Hill sphere primary transit is found, although we do find a candidate event around 2019 July 26. Due to the uncertainty in the time of closest projected separation of Beta Pictoris c, a search for a disk during the primary transit of 2018 could not be robustly determined, but bRing photometry for the second primary transit places an upper limit on the dust content of the Hill sphere of ~ $10^{22}$ grams of material. With no compelling detection of an event similar to that seen in 1981 during the transits of Beta Pictoris c in the photometric time series, we rule out the hypothesis that this event was related to the Hill spheres of Beta Pictoris c and Beta Pictoris b. Future observations of the next Hill sphere transit in 2028 can be realised with both ground-based observatories and with PLATO, whose first long duration science pointing will include Beta Pictoris."
+  },
+  {
     "title": "Understanding the superconducting proximity effect in semiconductors through quantum oscillations",
     "url": "http://arxiv.org/abs/2609.01593v1",
     "arxiv_id": "2609.01593v1",
