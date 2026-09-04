@@ -1,5 +1,162 @@
 [
   {
+    "title": "Robust PAC Learning of Concurrent Stochastic Games",
+    "url": "http://arxiv.org/abs/2609.04189v1",
+    "arxiv_id": "2609.04189v1",
+    "authors": [
+      "Angel Y. He",
+      "David Parker"
+    ],
+    "published": "2026-09-03T17:58:57+00:00",
+    "summary": "We introduce the first Probably Approximately Correct (PAC) learning framework for general-sum concurrent stochastic games (CSGs) with transition uncertainty, while addressing the challenge of Nash equilibrium (NE) existence. Our algorithm maintains data-driven $L^1$ confidence sets over transition kernels and solves a robust CSG to compute a social-welfare optimal $\\varepsilon$-NE, using a robust MDP-based exploration mechanism to drive joint state-action coverage. Crucially, we introduce a Nash margin characterisation that enables principled reasoning about equilibrium existence: the framework either returns an $\\varepsilon$-approximate NE whose social-welfare value is $\\varepsilon$-close to optimal, or provides a sound certificate that no exact NE exists. Under a minimum reachability condition $p_{\\mathrm{reach}}>0$ over relevant state-action pairs, the algorithm terminates after a polynomial number of trajectory samples, with sample complexity $\\widetilde{O}\\left( {R_{\\max}^2 H^4 |S|^2 |A| / (p_{\\mathrm{reach}} \\varepsilon^2)} \\right)$. Empirical results on benchmark CSGs demonstrate near-optimal performance, correct handling of equilibrium (non-)existence, and sample complexity consistent with theory."
+  },
+  {
+    "title": "Thermodynamic Concentration Inequalities: Controlling Uncertainty in Finite-Time and Small-Sample Thermodynamic Inference",
+    "url": "http://arxiv.org/abs/2609.04162v1",
+    "arxiv_id": "2609.04162v1",
+    "authors": [
+      "Rick Bebon",
+      "Alja\u017e Godec"
+    ],
+    "published": "2026-09-03T17:49:59+00:00",
+    "summary": "We derive nonasymptotic upper bounds on the probability that a generalized current of a geometrically ergodic diffusion observed for any amount of time, or its sample mean over any arbitrary sample size, deviates from the stationary mean by more than any given amount. The concentration-of-measure behavior of generalized currents is universally governed by the relaxation time of the underlying dynamics, the locally observed dissipation rate, and the intrinsic local fluctuations of the observable. We uncover stark qualitative and quantitative differences in fluctuations in and out of thermodynamic equilibrium. We further obtain refined inverse thermodynamic uncertainty relations, bounding the variance of generalized currents from above. We construct nonasymptotic confidence intervals for controlling uncertainty in thermodynamic inference from small data, i.e., from short trajectories and small samples, and provide the first quantitative answer to when a trajectory is sufficiently long and a sample is sufficiently large. As an illustration, we apply our results to currents observed on a two-dimensional Ornstein-Uhlenbeck process in and out of equilibrium and show how they can be used to rigorously detect broken detailed balance."
+  },
+  {
+    "title": "Epistemic Warrant for LLM Recommendations: Characterizing the Basis for Reliance When Ground Truth Is Unavailable",
+    "url": "http://arxiv.org/abs/2609.04127v1",
+    "arxiv_id": "2609.04127v1",
+    "authors": [
+      "Shai Vardi",
+      "Jo\u00e3o Sedoc"
+    ],
+    "published": "2026-09-03T17:25:20+00:00",
+    "summary": "Large language models are increasingly used to support organizational decisions, yet users often lack a principled basis for assessing whether to rely on a specific recommendation. Existing approaches typically evaluate broad model properties, such as reliability, uncertainty, or robustness, or focus on user trust, rather than the underlying basis for relying on an individual recommendation. Adapting theoretical foundations from epistemology, we introduce epistemic warrant, a decision-level construct that characterizes the stability of a model's preference and the scope over which that preference holds. We operationalize this construct through a four-tier reliance certificate for pairwise recommendations, distinguishing among unstable, context-dependent, locally supported, and broadly supported recommendations. We validate the construct using contemporary methodologies: known-groups tests successfully recover expert-prespecified warrant orderings, and stronger warrants systematically align with independent consensus from crowd workers. Furthermore, we demonstrate that epistemic warrant provides information distinct from verbalized confidence and is not readily explained by decision difficulty. Ultimately, this framework offers a theoretically grounded, implementable approach for characterizing the warrant of individual LLM recommendations when objective ground truth is unavailable."
+  },
+  {
+    "title": "Fast Computation of Nested Cross-Validation for Penalized Regression",
+    "url": "http://arxiv.org/abs/2609.04126v1",
+    "arxiv_id": "2609.04126v1",
+    "authors": [
+      "Shuyang Cao",
+      "Alex Stringer"
+    ],
+    "published": "2026-09-03T17:25:17+00:00",
+    "summary": "Cross-validation is a resampling procedure that provides a point estimate of generalization error for any predictive model. Cross-validation is widely used for model selection and evaluation. Uncertainty in the cross-validation estimate is challenging to quantify, and estimation of its variance is known to require multiple runs of the entire resampling procedure. Nested cross-validation computes a prediction interval for the generalization error for a given model and training dataset by resampling the entire cross-validation procedure but incurs extraordinary computational cost. We provide an efficient method for computing the nested cross-validation prediction interval using only a single model fit for some penalized regression models including ridge regression, spline smoothing, and some functional regression models. We characterize when our proposed method should be expected to out-perform resampling-based nested cross-validation in various scaling regimes as well as in finite samples. Experiments for functional principle components regression demonstrate non-trivial cases in which our proposed method improves run times substantially."
+  },
+  {
+    "title": "Consistency between cosmological and standard siren observations in evolving dark energy",
+    "url": "http://arxiv.org/abs/2609.04112v1",
+    "arxiv_id": "2609.04112v1",
+    "authors": [
+      "Macarena Lagos",
+      "William J. Wolf"
+    ],
+    "published": "2026-09-03T17:15:13+00:00",
+    "summary": "A scalar field non-minimally coupled to gravity can be the driver of cosmic acceleration. Such a non-minimal coupling (NMC) can produce a non-zero gravitational-wave (GW) friction function $\u03b1_M(z)$, which modifies the luminosity distance inferred from GW sources relative to its electromagnetic counterpart. We use a particular NMC scalar-tensor model, that explains time-varying dark energy in good alignment with DESI, to predict $\u03b1_M(z)$ and the expected GW/EM luminosity-distance ratio $D_L^{\\rm GW}/D_L^{\\rm EM}$, and map it onto two common parametrizations---the $c_M$ and the $(\u039e_0,n)$ models. We find $c_M = -0.5\\pm 0.2$ and $\u039e_0 = 0.88\\pm 0.05$, $n=3.2\\pm 0.3$, both consistent with GWTC-5 constraints at the $\\lesssim 1\u03c3$ level. This consistency is mostly driven by current large uncertainties in GW data, which lead to measurements consistent with both $\u039b$CDM and the NMC model. By contrast, the dark energy constraints derived from analyzing cosmological data, under the common parametric scalar-tensor model using $\u03b1_M(z)=c_M\u03a9_\u039b(z)/\u03a9_{\u039b0}$ and the CPL parametrized equation of state $w_0w_a$, are in $2.2\u03c3$ ($3.6\u03c3$) tension with the NMC predictions for the $c_M$ ($w_0w_a$) parameter. We confirm that, in order to avoid cosmological instabilities, this parametrized model imposes strong implicit priors that are incompatible with physically-motivated scalar-tensor models when dark energy is dynamical."
+  },
+  {
+    "title": "Model-assisted estimation with a training subsample: a two-phase sampling approach with design-based variance estimation",
+    "url": "http://arxiv.org/abs/2609.04082v1",
+    "arxiv_id": "2609.04082v1",
+    "authors": [
+      "Mar\u00eda Eugenia Ria\u00f1o"
+    ],
+    "published": "2026-09-03T16:50:24+00:00",
+    "summary": "When a flexible prediction model is fitted on a training subsample drawn from a probability sample, the model-assisted estimator actually reported arises from one realized partition, yet existing theory quantifies uncertainty only for partition-averaged, cross-fitted, or symmetrized versions of it. We represent the training subsample as a second phase of sampling and derive, exactly and for any algorithm, a two-term variance decomposition and the variance family linking the single-partition estimator to its Rao-Blackwellized average, whose design bias it shares. For tree-type predictors the second-phase variance is computable in closed form, and its share of total variance grows with tree complexity, explaining documented variance underestimation. We propose an analytic and a replication variance estimator, neither altering the point estimate, and evaluate them by simulation: budgeting the second phase restores near-nominal coverage at a small fraction of the cost of partition averaging."
+  },
+  {
+    "title": "Monitoring antiproton numbers with a CMOS detector in a dense-track environment",
+    "url": "http://arxiv.org/abs/2609.04078v1",
+    "arxiv_id": "2609.04078v1",
+    "authors": [
+      "C. Regenfus",
+      "P. Adrich",
+      "I. Belosevic",
+      "F. Benkel",
+      "M. Chung",
+      "P. Clad\u00e9",
+      "P. Comini",
+      "P. Crivelli",
+      "P. Debu",
+      "A. Douillet",
+      "S. Geffroy",
+      "S. Guellati-Khelifa",
+      "P. Guichard",
+      "P. -A. Hervieux",
+      "L. Hilico",
+      "P. Indelicato",
+      "S. Jonsell",
+      "J. -P. Karr",
+      "B. Kim",
+      "S. Kim",
+      "E. -S. Kim",
+      "N. Kuroda",
+      "B. Lee",
+      "L. Liszkay",
+      "D. Lunney",
+      "G. Manfredi",
+      "B. Mansouli\u00e9",
+      "V. Martimort",
+      "M. Matusiak",
+      "V. Nesvizhevsky",
+      "F. Nez",
+      "K. Park",
+      "N. Paul",
+      "E. Perez",
+      "P. P\u00e9rez",
+      "C. Roumegou",
+      "J. -Y. Rouss\u00e9",
+      "F. Schmidt-Kaler",
+      "K. Szymczyk",
+      "T. A. Tanaka",
+      "B. Tuchming",
+      "D. -P. van der Werf",
+      "D. Won",
+      "S. Wronka",
+      "P. Yzombard"
+    ],
+    "published": "2026-09-03T16:47:51+00:00",
+    "summary": "The production of antihydrogen by the GBAR experiment at AD/ELENA requires good knowledge of the number of incident keV antiprotons, which can be problematic. We have used a commercial CMOS digital camera mounted around the experimental vacuum chamber to determine antiproton numbers from ionising particles created in the annihilation process on the surface of microchannel plate detectors which are used for beam imaging. We show that the multiplicity of emerging charged particles is as expected for individual annihilations of antiprotons with nucleons at rest, taking into account the surrounding material budget. Most of those particles are in the minimal ionising regime, but can be detected with nearly 100% efficiency in the CMOS pixel detector, while due to the thin depletion layer the device is insensitive to background gammas. Thanks to the high granularity and small pixel size millions of antiproton annihilations can be reconstructed in a dense tracking environment over a large dynamic range with good resolution. From cluster length studies of non perpendicular tracks the thickness of the depletion zone and effective detection area was estimated. The cluster length also allows for a monitoring of track angles. Antiproton numbers are determined from the number of reconstructed clusters in the CMOS sensor by means of the covered solid angle relative to a calibration measurements with well known beam intensities at the most upstream location of the GBAR apparatus. Material effects on the emerging annihilation products were estimated by Monte Carlo (Geant4) calculations, while annihilation artefacts on the complex surface of a microchannel plate are cancelled out in this approach. This method minimises largely systematic uncertainties, leading to a final error of roughly 10% for the reconstruction of absolute antiproton numbers."
+  },
+  {
+    "title": "Subspace Inference Enables Efficient Active Reward Learning from Preferences",
+    "url": "http://arxiv.org/abs/2609.04066v1",
+    "arxiv_id": "2609.04066v1",
+    "authors": [
+      "Yutai Zhou",
+      "Erdem B\u0131y\u0131k"
+    ],
+    "published": "2026-09-03T16:39:55+00:00",
+    "summary": "Reinforcement learning from human feedback (RLHF) has emerged as a powerful yet sample-inefficient approach for learning reward models from human preferences, making active learning a critical component in synthesizing informative preference queries. However, effective uncertainty quantification required for active learning remains a key challenge for large neural network reward models. In this paper, we introduce PreferenceEKF, a sample-efficient approach that tracks reward model uncertainty by framing active preference learning as a sequential Bayesian filtering problem. Instead of relying on computationally prohibitive posterior inference over the full neural network parameter space, our method performs sequential inference via an extended Kalman filter within a low-dimensional parameter subspace, continuously updating the reward model posterior as new preference queries arrive. Our approach enables scalable sampling of neural network parameters to efficiently compute acquisition functions for active reward learning. Experiments on the D4RL and V-D4RL benchmarks demonstrate that our approach achieves better sample efficiency, runtime, scalability, and calibration compared to other Bayesian deep learning approaches, and the learned reward models lead to competitive offline reinforcement learning policy performance. This highlights the potential of scalable Bayesian methods for preference-based reward modeling in RLHF. Our code is available at https://github.com/yutaizhou/bnn_pref."
+  },
+  {
+    "title": "TQ4Q2.0 Fragmentation Functions for Fully Heavy Tetraquark Production",
+    "url": "http://arxiv.org/abs/2609.04049v1",
+    "arxiv_id": "2609.04049v1",
+    "authors": [
+      "Francesco Giovanni Celiberto"
+    ],
+    "published": "2026-09-03T16:22:20+00:00",
+    "summary": "We investigate the fragmentation dynamics underlying the production of fully heavy tetraquarks by means of the TQ4Q2.0 collinear FF set, covering scalar ($0^{++}$), axial-vector ($1^{+-}$), and tensor ($2^{++}$) configurations. The fragmentation inputs are determined within NRQCD factorization for the complete set of relevant partonic channels and are subsequently evolved across heavy-flavor thresholds through the HF-NRevo scheme. Perturbative uncertainties associated with fragmentation-scale variations are consistently propagated together with nonperturbative effects encoded in color-composite long-distance matrix elements. Attention is devoted to the axial-vector sector, whose fragmentation pattern makes it especially sensitive to intrinsic-charm contributions at LHC and FCC energies. TQ4Q2.0 therefore provides an uncertainty-aware framework for exploring fully heavy tetraquark production over a broad kinematic range and for connecting exotic-hadron spectroscopy with the partonic structure of the proton."
+  },
+  {
+    "title": "Toward Unified Robot Learning: Bridging Representation, Vision-Language-Action, and World Models",
+    "url": "http://arxiv.org/abs/2609.03927v1",
+    "arxiv_id": "2609.03927v1",
+    "authors": [
+      "Shaunak A. Mehta",
+      "Ananya Hazarika",
+      "Haochen Zhang",
+      "Fan Yang",
+      "Ryo Moriyama",
+      "Wenkai Li",
+      "Yash Patel",
+      "Kanata Suzuki"
+    ],
+    "published": "2026-09-03T14:40:16+00:00",
+    "summary": "For robots to operate reliably in real-world environments, they need to perceive their surroundings, act, and reason about the consequences of those actions. Rapid progress in the domains of representation learning, VLA models, and world models has significantly enhanced the capabilities of robot learning systems, enabling robots to work in increasingly complex environments. However, these paradigms are typically developed in isolation, resulting in fragmented systems that struggle with generalization, long-horizon temporal reasoning and planning, and deployment in unstructured environments. In this survey, we present a unified perspective on robot learning by organizing the existing methods along three complementary axes: understanding through representation learning, acting through VLA models, and reasoning through world models. We introduce a structured taxonomy that captures key design choices in environment representation, policy learning, and predictive modeling, and summarize the recent progress in these domains. Beyond classifying the existing works, we analyze how these components interact, discuss common limitations, and highlight emerging trends towards more integrated systems. Through this lens, we identify the challenges in the domain of robot learning, including uncertainty quantification, out-of-distribution generalization, cross-embodiment transfer, long-context understanding, and long-horizon planning. We argue that these challenges arise not only from limitations within individual components but also from the lack of integration across perception, action, and reasoning. Building on this analysis, we outline future directions towards unified, physically grounded, and probabilistic robot learning to develop robust robotic systems that maintain consistent internal representations and support decision making over extended interactions in real-world environments."
+  },
+  {
     "title": "Statistical Inference for Probability Barycenters and Kolmogorov Moments",
     "url": "http://arxiv.org/abs/2609.02869v1",
     "arxiv_id": "2609.02869v1",
