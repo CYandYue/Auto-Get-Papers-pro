@@ -1,5 +1,176 @@
 [
   {
+    "title": "Tracing the Cosmic Origins: Machine Learning Reconstruction of the Primordial Density Field from EoR Observations",
+    "url": "http://arxiv.org/abs/2609.05412v1",
+    "arxiv_id": "2609.05412v1",
+    "authors": [
+      "Anchal Saxena",
+      "P. Daniel Meerburg",
+      "Guochao Sun",
+      "Tzu-Ching Chang",
+      "Llu\u00eds Mas-Ribas"
+    ],
+    "published": "2026-09-04T17:58:34+00:00",
+    "summary": "Reconstructing the initial conditions of the Universe from late-time tracers would unlock cosmological information buried by non-linear structure formation and astrophysics. We reconstruct the initial density field at $z\\sim300$ from simulated 21-cm and CO(1-0) line-intensity maps at $z\\sim8$ generated with LIMFAST. Using a three-dimensional U-Net, we reconstruct the initial conditions and evaluate its impact on cosmological parameter constraints. The two tracers probe complementary environments: 21-cm emission traces neutral, low-density regions of the intergalactic medium, while CO traces overdense, star-forming regions. To emulate realistic observations, we model instrumental effects for SKA1-Low- and COMAP-ERA-like surveys, including finite angular resolution and thermal noise. We assess reconstruction performance through the cross-correlation coefficient between reconstructed and true initial density fields, $|C(k)|$. In the noiseless case, combining both tracers delivers the most accurate recovery across ionisation states, with $|C(k)| \\gtrsim$ 0.90 for $k \\lesssim$ 0.75 Mpc$^{-1}$. With observational effects, small-scale information is degraded, but combining tracers still achieves $|C(k)| \\gtrsim$ 0.70 for $k \\lesssim$ 0.3 Mpc$^{-1}$. To quantify information gain, we perform simulation-based inference of cosmological parameters from power-spectrum summaries before and after reconstruction. In both noiseless and noisy settings, reconstruction tightens parameter constraints: uncertainties on $\u03c3_8$ and $n_{\\rm s}$ improve by $\\sim2\\times$, with smaller but consistent gains for other parameters. This is further confirmed using Kullback-Leibler divergence diagnostics for an ensemble of observations. These results indicate that joint analysis of future 21-cm and CO surveys, combined with such reconstruction, can partially recover otherwise inaccessible cosmological information."
+  },
+  {
+    "title": "Dust Substructures and Line Perturbations driven by a Forming Planet in J16120",
+    "url": "http://arxiv.org/abs/2609.05366v1",
+    "arxiv_id": "2609.05366v1",
+    "authors": [
+      "Anibal Sierra",
+      "Andr\u00e9s F. Izquierdo",
+      "Paola Pinilla",
+      "Kan Chen",
+      "Myriam Benisty",
+      "Laura P\u00e9rez",
+      "Teresa Paneque-Carre\u00f1o",
+      "Carolina Agurto-Gangas",
+      "Jaehan Bae",
+      "John Carpenter",
+      "Luca Cieza",
+      "Dingshan Deng",
+      "Stefano Facchini",
+      "Camilo Gonz\u00e1lez-Ruilova",
+      "Nicol\u00e1s Kurtovic",
+      "Aleksandra Kuznetsova",
+      "Carlo F. Manara",
+      "James Miley",
+      "\u00c1lvaro Ribas",
+      "Giovanni Rosotti",
+      "Miguel Vioque"
+    ],
+    "published": "2026-09-04T17:11:12+00:00",
+    "summary": "Hints of planet formation have been independently reported within the gap of the disc around 2MASS J16120668-301027 from millimetre continuum, infrared, and H-alpha observations. In this work, we present new evidence for ongoing planet formation based on Atacama Large Millimeter/submillimeter Array (ALMA) Band 7 observations, detecting 0.87 mm dust continuum emission together with 12CO (J=3-2) and 13CO (J=3-2) line emission. Visibility modelling of the continuum data reveals an inner disc and two dust rings peaking at 23 and 75 au. The continuum morphology is better reproduced by an eccentric disc model (e approximately 0.1) than by an axisymmetric disc. We further investigate the gas kinematics through modelling of the 12CO channel maps. The residual line-width map shows a localised increase in velocity dispersion at the position of a previously reported circumplanetary disc candidate (deprojected radius approximately 32 au, position angle approximately 170 degrees) and along its orbit. This signal is spatially coincident with kink-like features and a transition from sub-Keplerian to super-Keplerian velocities. In addition, the velocity residual map exhibits an arc-like structure extending outward from the planet candidate, while the gas kinematics, despite substantial uncertainties, is consistent with inflow towards the candidate's orbital radius. The observed increase in velocity dispersion agrees with predictions from planet-disc interaction simulations, which produce enhanced turbulence both at the planet location and along its orbital path. Taken together, the continuum morphology and gas kinematic signatures provide compelling new evidence for ongoing planet formation within the disc gap."
+  },
+  {
+    "title": "Data-Driven Generator Transient Prediction for Digital Twin Decision Support",
+    "url": "http://arxiv.org/abs/2609.05356v1",
+    "arxiv_id": "2609.05356v1",
+    "authors": [
+      "Emad Sadeghi",
+      "Emerson Miller",
+      "Kerry Sado",
+      "Adel Nasiri"
+    ],
+    "published": "2026-09-04T17:02:26+00:00",
+    "summary": "This paper develops a calibrated transient forecasting surrogate model for generator digital twin (DT) decision support that evaluates planned active- and reactive power load commands before they are applied. The proposed event-conditioned Hankel Dynamic Mode Decomposition with Control (Hankel-DMDc) model combines delay-coordinate lifting, command-event memory features, and an event-weighted Hankel basis so that sparse load-transition dynamics influence the reduced representation and fitted dynamics. This design targets intervals where voltage/frequency deviations and recovery behavior determine whether a candidate load command keeps the system within acceptable limits. To provide operator-facing confidence information, a split-conformal calibration layer is applied to the frozen surrogate model to form event-conditioned joint prediction bands for voltage and frequency. The experimental results show event-window root-mean-square errors of 1.058 V and 0.155 Hz. For a nominal 90% target, the bands attain 90.17% pointwise joint voltage-frequency coverage, with mean band widths of 3.55 V and 0.566 Hz. A 50-s open-loop rollout is computed in 181 ms on a single CPU core, approximately 280 times faster than real time, with forecast accuracy evaluated over horizons up to 5 s. These results demonstrate a computationally efficient advisory framework for generator DTs that combines transient prediction with calibrated uncertainty."
+  },
+  {
+    "title": "Adaptation Needs in Robotic Systems: Assessing Behavior Trees and Their Enhancement",
+    "url": "http://arxiv.org/abs/2609.05331v1",
+    "arxiv_id": "2609.05331v1",
+    "authors": [
+      "Mehran Rostamnia",
+      "Gianluca Filippone",
+      "Ricardo Caldas",
+      "Patrizio Pelliccione"
+    ],
+    "published": "2026-09-04T16:36:28+00:00",
+    "summary": "Robotic systems increasingly operate in dynamic, uncertain, and open-ended environments, where design-time assumptions may no longer hold, and adaptation becomes necessary to maintain effective and safe operation. Behavior Trees (BTs) are widely used in robotic control architectures due to their modularity, readability, and reactivity. This raises a central question: are BTs sufficient to meet the adaptation needs of modern robotic systems?   This paper investigates this question through a literature-driven study complemented by empirical validation. First, we derive a classification of robotic adaptation needs from the literature, organizing them into six categories: Knowledge, Perception, Actuation, System, Mission, and Environment. Then, we analyze the capabilities and limitations of classical BTs with respect to these needs. Then, we characterize BT-based approaches for adaptation from the existing literature and organize them into four primary families, i.e., generation, extension, evolution, and refinement, including approaches that combine multiple families.   Our analysis shows that the modularity, flexibility, and reactivity of classical BTs are insufficient for adaptation needs involving runtime restructuring, reasoning under uncertainty, mission reinterpretation, learning, or integration with external knowledge and planning mechanisms. Enhanced BT approaches address several of these limitations, but to different extents and often with limitations of their own. Our findings relate adaptation needs to both the capabilities and limitations of classical and enhanced BTs, providing guidance on when classical BTs are sufficient, when enhanced mechanisms are needed, and which challenges remain or emerge for adaptive robotic control architectures."
+  },
+  {
+    "title": "Contrasting C/O ratios in Uranus and Neptune from disequilibrium chemistry: A clue to distinct evolutionary pathways?",
+    "url": "http://arxiv.org/abs/2609.05326v1",
+    "arxiv_id": "2609.05326v1",
+    "authors": [
+      "T. Briand",
+      "V. Hue",
+      "O. Mousis",
+      "T. Cavali\u00e9",
+      "T. Benest Couzinou",
+      "A. Schneeberger",
+      "M. D. Hofstadter"
+    ],
+    "published": "2026-09-04T16:23:01+00:00",
+    "summary": "The formation of Uranus and Neptune remains poorly constrained largely due to uncertain deep elemental abundances. Carbon monoxide (CO), a disequilibrium species in the upper troposphere, provides an indirect constraint on the deep oxygen abundance. We investigate the deep O/H and C/O ratios of the ice giants and their formation history by accounting for meridional variations in atmospheric structure and uncertainties in chemical kinetics. We extended a 1D thermochemical and diffusion model into a pseudo-2D model by including latitudinal variations in key model parameters. The O/H ratio was inferred by matching the modeled upper-tropospheric CO mole fractions to observations, and combined with the deep carbon abundance to derive the C/O ratio. For Uranus, varying tropospheric methane alone yielded O/H $\\sim [47-57] \\times$ protosolar, whereas allowing $K_{zz}$ to vary expanded the range to O/H $\\sim [62-177] \\times$ protosolar. For Neptune, the corresponding ranges are O/H $\\sim [182-215] \\times$ protosolar and O/H $\\sim [222-342] \\times$ protosolar, respectively, supporting lower oxygen enrichment in Uranus than Neptune. Chemical-network uncertainties have a more modest effect, amounting to at most $\\sim 10\\%$ of the retrieved oxygen ranges, comparable to the uncertainty associated with the measured CO abundance on Neptune, but larger on Uranus. We computed C/O latitudinal ranges and found C/O $\\sim [0.06-0.52]$ on Uranus and $\\sim [0.02-0.12]$ on Neptune. Comparison with a protoplanetary disk model suggests different formation or evolutionary pathways for the two planets. Our results highlight the dominant role of vertical mixing in constraining deep oxygen abundance and the importance of accounting for meridional variability and chemical uncertainties. This work also provides a framework for selecting the entry latitude of a future Uranus Orbiter and Probe mission."
+  },
+  {
+    "title": "Supernovae Unite: Host-Galaxy Mass Measurements of Type Ia Supernovae and Their Impact on Cosmology",
+    "url": "http://arxiv.org/abs/2609.05321v1",
+    "arxiv_id": "2609.05321v1",
+    "authors": [
+      "J. Lee",
+      "R. Camilleri",
+      "T. M. Davis",
+      "D. Rubin",
+      "K. Bechtol",
+      "L. Galbany",
+      "M. Sako",
+      "M. Sullivan",
+      "T. E. M\u00fcller-Bravo",
+      "D. Scolnic",
+      "M. Vincenzi",
+      "D. Brout",
+      "C. Lidman",
+      "A. M\u00f6ller",
+      "P. Shah",
+      "M. Acevedo",
+      "P. Armstrong",
+      "B. A. Bassett",
+      "R. C. Chen",
+      "H. T. Diehl",
+      "J. Frieman",
+      "K. Grech",
+      "B. Popovic",
+      "B. O. S\u00e1nchez",
+      "B. E. Tucker"
+    ],
+    "published": "2026-09-04T16:16:00+00:00",
+    "summary": "Current consensus suggests that Type Ia supernova (SN Ia) brightnesses post light-curve standardization correlate with their host-galaxy stellar masses, which must be accounted for to obtain accurate cosmological constraints. Vincenzi et al. (2025) showed that different host-galaxy stellar mass measurements for the same dataset can produce redshift-dependent differences of order $\\sim 0.01$ mag. We present internally consistent host-galaxy stellar masses remeasured using aperture photometry and spectral energy distribution (SED) fitting for SN-Unite, which combines the Pantheon+ and the Dark Energy Survey five-year (DES-SN5YR) samples into the largest SN Ia cosmology sample to date, with 2884 likely SNe Ia. We quantify the impact of photometry and SED fitting choices on SN-Unite cosmological parameters in Flat$w$CDM and find shifts well below statistical uncertainties. Our stellar masses differ from the Pantheon+ data release partly due to a redshift-dependent internal inconsistency within Pantheon+, while remaining largely consistent with DES-SN5YR (DES-Dovekie). When the Pantheon+ subsample of SN-Unite is combined with Baryon Acoustic Oscillations (BAO) and Cosmic Microwave Background (CMB) measurements, the significance for time-evolving dark energy increases from 2.6$\u03c3$ to 3.4$\u03c3$ based on the maximum \\textit{a posteriori} when our newly derived host-galaxy stellar masses replace the Pantheon+ data-release host-galaxy stellar masses, while DES-Dovekie remains virtually unchanged, consistent with the findings of Hoyt et al. (2026). By remeasuring the host-galaxy stellar masses using a consistent framework throughout the whole sample, we improve the robustness of the SN-Unite cosmological constraints against systematic differences in host-galaxy stellar mass measurements."
+  },
+  {
+    "title": "Adaptive Gated Deepfake Detection for Low-Resolution and Resource-Constrained Environments",
+    "url": "http://arxiv.org/abs/2609.05320v1",
+    "arxiv_id": "2609.05320v1",
+    "authors": [
+      "Vaishnavi Sen",
+      "Cody Laurie",
+      "Rashida Hasan"
+    ],
+    "published": "2026-09-04T16:14:57+00:00",
+    "summary": "Deepfake detection models often rely on high-quality inputs, fixed inference paths, and computationally expensive architectures, limiting their use in low-resolution and resource-constrained settings. This paper proposes AdaGate-DF, an adaptive gated deepfake detection framework that uses image-quality cues to route samples through a dual multi-exit system so high-quality images can exit earlier and save compute. We evaluated AdaGate-DF against MaD-CoRN, DefakeHop++, and ShuffleNetV2 on two benchmark datasets (Celeb-DF and FaceForensics++) under multiple configurations to test image resolution dependence and training and inference efficiency. On Celeb-DF, AdaGate-DF achieves an AUC of 0.9370, outperforming MaD-CoRN and DefakeHop++ while maintaining a low inference latency. Resolution-based testing shows consistent improvement as input resolution increases, reaching an AUC of 0.9708 at 384 by 384. The FaceForensics++ results highlight that AdaGate-DF remains effective under class imbalance, following competitive results with evaluated models. Overall, AdaGate-DF demonstrated a practical balance between detection performance, uncertainty-aware prediction, and computational efficiency for variable-quality deepfake detection."
+  },
+  {
+    "title": "Forecast-Ensemble-Based Active Binary-Threshold Query Design for Interval Data Assimilation",
+    "url": "http://arxiv.org/abs/2609.05307v1",
+    "arxiv_id": "2609.05307v1",
+    "authors": [
+      "Wataru Hashimoto",
+      "Kazumune Hashimoto",
+      "Haru Kuroki"
+    ],
+    "published": "2026-09-04T16:01:07+00:00",
+    "summary": "Data assimilation estimates the evolving state of a dynamical system by combining model forecasts with observations. While many conventional methods assume point-valued measurements, practical sensing systems may instead provide coarse information such as binary, ordinal, inequality, or interval-valued reports. Interval Data Assimilation (IDA) provides a principled framework for assimilating such information, but assumes that the observations to be assimilated are specified in advance. In many sensing settings, however, both where to query and what inequality to ask can be chosen, while only a limited number of queries can be issued. This raises a new observation-design problem: how should informative inequality queries be selected from the forecast uncertainty before their responses are known? We propose \\emph{Active Query Design for Interval Data Assimilation} (AQD-IDA), which uses the forecast ensemble to design binary threshold queries prior to the IDA update. AQD-IDA treats both the observation target and the threshold defining the inequality as design variables, thereby allowing the assimilation system to determine not only where to observe but also what question to ask. We develop query-selection criteria that account for forecast uncertainty, redundancy among queries, and anticipated reduction in posterior uncertainty. Experiments on Lorenz--96 and a spherical quasi-geostrophic model show that adaptive query design improves assimilation accuracy under a fixed binary-query budget, with joint observation-target--threshold selection outperforming fixed or separately designed queries. These results demonstrate that actively designing the information supplied to data assimilation can substantially increase the value of coarse observations."
+  },
+  {
+    "title": "Human-Human & Human-Robot Interaction Transformer (H2INT) for Robot Navigation in Dense and Uncertain Crowds",
+    "url": "http://arxiv.org/abs/2609.05300v1",
+    "arxiv_id": "2609.05300v1",
+    "authors": [
+      "Ao Shen",
+      "Kaixi Chen",
+      "Shiwei Liu",
+      "Fang Deng",
+      "Chen Chen"
+    ],
+    "published": "2026-09-04T15:53:56+00:00",
+    "summary": "Safe robot navigation in dense crowds requires reasoning about pedestrian motion and how it may change in response to a robot. However, many learning-based approaches generate pedestrian motion independently of the robot or assume uniform reciprocity, omitting an important source of interaction uncertainty. This paper presents a Human-Human & Human-Robot Interaction Transformer (H2INT), a reinforcement learning framework that retains robot-conditioned changes in pedestrian motion during policy learning while allowing responsiveness to vary across pedestrians. Responsiveness affects the crowd dynamics when the robot is visible but is not supplied as a policy input; the policy must instead infer its consequences from robot-centered relative positions. A two-stage gated Transformer progressively encodes human-human and human-robot relations, while a recurrent policy captures their temporal evolution. A curriculum gradually reduces pedestrian responsiveness to increase interaction difficulty. Simulation experiments demonstrate improved navigation safety and robustness over representative baselines across response conditions and crowd densities, and show transfer without retraining to structurally distinct crowd-flow layouts. Ablations support the hierarchical relational encoding and gated updates. Real-robot deployment further verifies that the learned policy can operate with sparse observations in a physical environment."
+  },
+  {
+    "title": "GUT: Quantifying and Optimizing the Reasoning Uncertainty of LLMs via Graph Complexity",
+    "url": "http://arxiv.org/abs/2609.05284v1",
+    "arxiv_id": "2609.05284v1",
+    "authors": [
+      "Shuang Liang",
+      "Xin-Yu Hu",
+      "Xiang-Jun Ou",
+      "Shao-Qun Zhang"
+    ],
+    "published": "2026-09-04T15:40:12+00:00",
+    "summary": "Recent years have witnessed great advances in the reasoning ability of Large Language Models (LLMs). However, the reasoning processes of LLMs often exhibit uncertainty, where LLMs often produce a proliferation of divergent branches at each reasoning step even when fed the same prompting inputs, and certain branches exhibit evidently incredible, even nonsensical, reasoning chains and results. In this paper, we propose the Graph-complexity-based UncerTainty (GUT) method for investigating the reasoning uncertainty of LLMs. The key idea of GUT is to characterize the potential branches of each reasoning chain with a directed acyclic graph, thereby ensuring that all potential branches are comprehensively covered within the graph space. Building upon this recognition, we further build two modules of GUT, that is, a Quantification (GUT-Q) module and an Optimization (GUT-O) module, for quantifying and reducing the reasoning uncertainty of LLMs, respectively. GUT-Q measures LLM reasoning uncertainty by approximating the reasoning space complexity with graph complexity. GUT-O implements uncertainty optimization by treating negative uncertainty as the reward function in reinforcement learning. Experimental results conducted on four LLMs and five datasets validate the effectiveness of GUT."
+  },
+  {
     "title": "Robust PAC Learning of Concurrent Stochastic Games",
     "url": "http://arxiv.org/abs/2609.04189v1",
     "arxiv_id": "2609.04189v1",
