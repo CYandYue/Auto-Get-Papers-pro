@@ -1,5 +1,176 @@
 [
   {
+    "title": "Sizing the Universe with DESI Galaxy Sizes: Plain Fundamentals of Fundamental-Plane Lensing",
+    "url": "http://arxiv.org/abs/2609.09151v1",
+    "arxiv_id": "2609.09151v1",
+    "authors": [
+      "Kun Xu",
+      "Jiaqi Wang",
+      "Ravi K. Sheth",
+      "J. Aguilar",
+      "S. Ahlen",
+      "F. Beutler",
+      "D. Bianchi",
+      "D. Brooks",
+      "A. Carnero Rosell",
+      "T. Claybaugh",
+      "A. de la Macorra",
+      "P. Doel",
+      "J. E. Forero-Romero",
+      "E. Gazta\u00f1aga",
+      "G. Gutierrez",
+      "K. Honscheid",
+      "C. Howlett",
+      "M. Ishak",
+      "J. Jimenez",
+      "S. Juneau",
+      "R. Kehoe",
+      "D. Kirkby",
+      "O. Lahav",
+      "M. Landriau",
+      "L. Le Guillou",
+      "M. Manera",
+      "A. Meisner",
+      "R. Miquel",
+      "J. Moustakas",
+      "S. Nadathur",
+      "J. A. Newman",
+      "W. J. Percival",
+      "F. Prada",
+      "I. P\u00e9rez-R\u00e0fols",
+      "C. Ravoux",
+      "G. Rossi",
+      "R. Ruggeri",
+      "E. Sanchez",
+      "C. Saulder",
+      "D. Schlegel",
+      "M. Schubnell",
+      "H. Seo",
+      "J. Silber",
+      "M. Siudek",
+      "G. Tarl\u00e9",
+      "B. A. Weaver",
+      "H. Zou"
+    ],
+    "published": "2026-09-08T17:59:25+00:00",
+    "summary": "Weak gravitational lensing provides a powerful way to map cosmic structure, but most current measurements rely on galaxy shape distortions from deep imaging surveys and are affected by systematics such as intrinsic alignments, photometric-redshift uncertainties and shape-measurement biases. Here we present a spectroscopic galaxy-galaxy lensing magnification measurement using Fundamental-Plane (FP) size residuals, $\u03b4_r\\equiv\u0394\\log_{10}R_\\mathrm{e}$, from 3.26 million DESI luminous red galaxy (LRG) sources behind DESI Bright Galaxy Survey lenses. The FP-like relation predicts the intrinsic sizes of LRGs from lensing-invariant quantities, including velocity dispersion $\u03c3_0$ and surface brightness $I_\\mathrm{e}$, with a scatter of about 0.06-0.07 dex. Lensing magnifies LRG sizes, giving the direct convergence response $\u03b4_r(\u03ba)=\u03ba/\\ln 10$, but we show that the full lensing response is modified by magnification bias, because fitting $R_\\mathrm{e}$ with $I_\\mathrm{e}$ inevitably induces a magnitude dependence in $\\bar\u03b4_r(m)$. After calibrating this response, we recover surface-density profiles with uncertainties comparable to those from individual Stage-III shear surveys using 5-20 million higher-redshift sources. The corresponding excess surface-density profiles agree with shear-based measurements. We further show that the estimator is robust to size-measurement uncertainties, with a convergence multiplicative bias only $\\simeq -0.2$ times the size bias. FP lensing therefore provides a clean, spectroscopic and complementary probe of cosmic structure."
+  },
+  {
+    "title": "NRHJSur3dq8: a spectral numerical-relativity surrogate family for non-eccentric aligned-spin binary-black-hole waveforms",
+    "url": "http://arxiv.org/abs/2609.09088v1",
+    "arxiv_id": "2609.09088v1",
+    "authors": [
+      "Vaishak Prasad"
+    ],
+    "published": "2026-09-08T17:34:19+00:00",
+    "summary": "We present NRHJSur3dq8, a family of numerical-relativity (NR) surrogates for non-eccentric aligned-spin binary-black-hole waveforms inspired by an action-angle parameterization. The model provides both the dynamics: the Hamiltonian values, azimuthal action $J_\u03c6(\u03a6)$, the orbital clock $\u03c4(\u03a6)$ as functions of its phasing, and the radiative pieces: the waveforms, their near-analytic derivatives, and modeling errors associated with each. The surrogated variables are conditioned into pieces that vary slowly on the radiation-reaction timescale, represented on shared $hp$-adaptive Chebyshev elements, and regressed across the intrinsic parameters with a Gaussian-process model. A time-parameterized merger-ringdown set of elements is attached where the adiabatic description breaks down. Leave-one-out validation of the central NRHJSur3dq8_AA flavor against NR reaches a $(2,2)$ unweighted mismatch of $1.3^{+32}_{-1.2}\\times10^{-6}$ and an all-mode mismatch of $2.3^{+59}_{-2.2}\\times10^{-6}$ over the full inspiral-merger-ringdown span. Sky-averaged and SNR-weighted over $32$ orientations per simulation, the released model's full-IMR in-sample mismatch against the NR simulations used for training is $8.9\\times10^{-7}$ to $2.8\\times10^{-5}$ across total masses $40$-$120\\,M_\\odot$. Waveforms are hybridized using post-Newtonian waveforms. Beyond accuracy, NRHJSur3dq8 provides two capabilities uncommon in NR surrogates: nearly analytic derivatives of the strain with respect to the physical parameters, and a calibrated Gaussian-process predictive uncertainty of the model. A full non-hybridized inspiral-merger-ringdown waveform evaluates in $12$ ms on a single CPU call. Batched evaluation amortizes this to $0.39$ ms per waveform at a batch of $4096$, measured at a starting frequency of $20$ Hz."
+  },
+  {
+    "title": "The size and mass distribution of cold classical TNOs for $5<H<13$",
+    "url": "http://arxiv.org/abs/2609.09063v1",
+    "arxiv_id": "2609.09063v1",
+    "authors": [
+      "Gary M. Bernstein",
+      "Wesley C. Fraser",
+      "Marielle R. Eduardo",
+      "William M. Grundy",
+      "Bryan Hilbert",
+      "Matthew J. Holman",
+      "Anastasia N. Morgan",
+      "Kevin J. Napier",
+      "John A. Stansberry",
+      "David E. Trilling"
+    ],
+    "published": "2026-09-08T17:17:45+00:00",
+    "summary": "The cold classical trans-Neptunian objects (CCs) are the only observable \\textit{in situ} population of planetesimal remnants believed to have escaped collisional grinding. Recent JWST observations make it possible to fit the differential absolute magnitude distribution $dN/dH$ of the CCs from $5<H_r<13,$ and infer the differential mass distribution $dN/dM$ across $\\ge5$ orders of magnitude in mass. We find $dN/dM$ well fit by a lognormal distribution, and equally well by a generalized $\u0393$ distribution or a double power law. The maximum fraction of the total CC mass per log interval in $M$ is in bodies near 75~km diameter, or $\\approx10^{-7.5}M_\\oplus.$ Extrapolation of the fitted $dN/dH$ functions to $H_r>13$ is unwise, as the different analytic forms diverge. It remains unclear if $dN/dH$ turns over at faint $H.$   The uncertainty in the total mass of the CC belt is dominated by uncertainty in the relation between $M$ and $H$. A calibration using CC binaries suggests a total CC mass of 1.7--2.7$\\times10^{-3}\\,M_\\oplus.$ A trend toward lower density and/or higher albedo for smaller bodies may be present in the data, and would lower the estimated total CC mass.   Qualitative comparison of the derived mass distribution to the results of numerical simulations of the streaming instability (SI) suggest the simulations produce $dN/dM$ distributions that are more sharply peaked, and steeper at the bright end, than the CCs. Such differences could be ascribed to inhomogeneous formation conditions in the classical belt that are not yet included in modeling. The variety and uncertainty of $dN/dM$ derived from state-of-the-art SI simulations currently preclude any definitive test of the SI hypothesis."
+  },
+  {
+    "title": "Efficient Quantile-Resolved Hosting Capacity Assessment on Nodal Level for Low-Voltage Grids",
+    "url": "http://arxiv.org/abs/2609.09060v1",
+    "arxiv_id": "2609.09060v1",
+    "authors": [
+      "Maximilian K\u00f6hler",
+      "Edwin Mora",
+      "Mathias Duckheim",
+      "Stefan Niessen"
+    ],
+    "published": "2026-09-08T17:16:23+00:00",
+    "summary": "Hosting capacity - the maximum additional capacity a network can accommodate without violating operational limits - is a key metric in distribution system planning and operation. Decisions on grid reinforcements and the deployment of flexibility management require not only the worst-case HC but also an understanding of the distribution of HC under different likelihoods in load and generation patterns. Quantile-resolved HC distributions provide this view by expressing HC as a function of an acceptable operational limit exceedance likelihood. Monte Carlo sampling is the established approach for computing such distributions but demands large computational resources. Approximations sacrifice either accuracy, the ability to capture uncertainty correlations, or scalability when assessing real-world networks. This paper introduces a computationally efficient method for calculating distributions for quantile-resolved HC. It uses a representation of load samples as multivariate normal distribution, propagated through a linearized power flow model. This allows for leveraging a re-parametrized AC-OPF problem for each hosting capacity quantile. Benchmarking against Monte Carlo-based methods on realistic LV networks demonstrates that the proposed method achieves comparable accuracy with a mean deviation of approx. 3%, while reducing computational time by orders of magnitude. For the exemplary networks the computational time decreases from 11 min to 2 s, and 38 h to 50 s, respectively. The method's scalability is also suitable for recalculation in 15-minute cycles encountered in DSO practice for e.g., real-time grid management."
+  },
+  {
+    "title": "Quadratic Point Estimate Method for Uncertainty Quantification with Dependent Non-Gaussian Inputs",
+    "url": "http://arxiv.org/abs/2609.09053v1",
+    "arxiv_id": "2609.09053v1",
+    "authors": [
+      "Minhyeok Ko",
+      "Konstantinos G. Papakonstantinou"
+    ],
+    "published": "2026-09-08T17:10:28+00:00",
+    "summary": "As an extension of the Point Estimate Method (PEM) to evaluate probabilistic moments of quantities of interest (QoI) in general $n$-dimensional spaces, the Quadratic Point Estimate Method (QPEM) has been recently developed. This new method is defined to fully represent up to fifth-order input moments in the Gaussian space, providing general analytical expressions for sample locations and weights, without requiring any numerical optimization. The QPEM can significantly improve the estimation accuracy of the output QoI moments, in relation to PEM-based methods whose numbers of sigma points grow linearly with the problem dimension, while at the same time having an affordable and competitive computational cost up to a considerable number of dimensions. The QPEM is further enhanced in this work by enabling copula integration into the framework, which enables effective modeling of the joint input probability density function by estimating marginals and the dependence structure of the involved random variables. The validity and efficient performance of the copula-based QPEM are showcased against numerous other sampling methods in various examples considering two practical scenarios: (i) when the joint dependence structure can be inferred from data, and (ii) when only marginal distributions and correlation matrices are known."
+  },
+  {
+    "title": "Sector-Resolved Bayesian Model Averaging for DESI-Era Cosmology",
+    "url": "http://arxiv.org/abs/2609.09045v1",
+    "arxiv_id": "2609.09045v1",
+    "authors": [
+      "Slava G. Turyshev"
+    ],
+    "published": "2026-09-08T17:07:23+00:00",
+    "summary": "We present a quotient-space Bayesian formulation for DESI-era anomaly interpretation. Given a pattern-labeled catalog with map \\(i\\mapsto \\Act(i)\\), the induced posterior \\(p(\\Act\\mid D)\\), sector inclusion probabilities \\(P_\u03b1\\), co-activation probabilities \\(P_{\u03b1\u03b2}\\), and grouped Bayes factors \\(B_\u03b1(D)\\) are exact summaries over predeclared physical activation events. Pairwise comparisons such as \\(\\lcdm\\) versus \\(\\wacdm\\) remain ordinary Bayes-factor tests between specified families; the quotient construction addresses the coarser question of which physical sector carries posterior support when different sectors are represented by unequal numbers of catalog elements. We derive a sector-resolved DESI-CMB-SN likelihood specification for late-time background, early-time ruler, supernova calibration, perturbation, and gravitational-wave propagation sectors. The construction includes an Alcock-Paczynski/isotropic-scale BAO decomposition, a pure-ruler projection, analytic marginalization of low-rank supernova calibration modes, Fisher-normalized sector priors, inactive-sector leakage tests, log-evidence uncertainty propagation, and prior/sector-partition diagnostics. The result is a quantitative procedure for reporting model-comparison support at the level of physically interpretable sectors."
+  },
+  {
+    "title": "Covariate Adjustment in Randomized Experiments: A Unified Framework for Decision and Practice",
+    "url": "http://arxiv.org/abs/2609.09039v1",
+    "arxiv_id": "2609.09039v1",
+    "authors": [
+      "Jiawei Fu",
+      "Donald P. Green"
+    ],
+    "published": "2026-09-08T17:03:57+00:00",
+    "summary": "Should researchers adjust for covariates in randomized experiments, and if so, how? The literature offers three distinct prescriptions: do not adjust because randomization guarantees unbiasedness; adjust for outcome-prognostic covariates to improve precision; or adjust for covariates imbalanced between treatment arms. These competing prescriptions create confusion and uncertainty. We develop a unified framework for decision and practice. Given available information, we show that the optimal correction is what we call ex-post bias. The only relevant criterion for adjustment is prognosticity for ex-post bias; neither raw covariate imbalance nor outcome prognosticity is sufficient by itself. We also show that correcting imbalance and improving precision are two sides of the same decision problem. We develop two estimation approaches, one of which recovers familiar adjustment estimators and provides a new theoretical justification for them. Simulations compare alternative covariate-selection and adjustment strategies. Overall, our framework provides a unified foundation for covariate adjustment in randomized experiments."
+  },
+  {
+    "title": "Answer-Distribution Trajectories: A Stochastic-Dynamics View of LLM Reasoning",
+    "url": "http://arxiv.org/abs/2609.09030v1",
+    "arxiv_id": "2609.09030v1",
+    "authors": [
+      "Mar Gonz\u00e0lez I Catal\u00e0",
+      "Haitz S\u00e1ez de Oc\u00e1riz Borde",
+      "Davide Murari",
+      "Carola-Bibiane Sch\u00f6nlieb",
+      "Pietro Li\u00f2",
+      "George Monta\u00f1ez"
+    ],
+    "published": "2026-09-08T16:58:40+00:00",
+    "summary": "Chain-of-thought reasoning provides a structured computation between a model's input and final answer. Yet it is often evaluated through endpoint accuracy, which ignores the path taken to reach that answer. An emerging line of work addresses this limitation using entropy profiles, which track how uncertainty evolves over the reasoning process but do not reveal which competing hypotheses account for that uncertainty. We introduce answer-distribution trajectories, a stochastic-dynamics-inspired representation that tracks the model's full predictive distribution over answers as reasoning unfolds. As a strictly finer representation than endpoint and entropy summaries, answer-distribution trajectories enable us to characterize a trace through a dynamical reasoning profile spanning exploration, revision, motion, and commitment, and to distinguish different dynamical mechanisms of reasoning success and failure. Across sixteen open-weight language models and four reasoning benchmarks, we show that traces with the same endpoint and similar entropy profiles can exhibit substantially different reasoning dynamics. We further find substantial variation in these dynamics both within and across models and tasks, with different objectives favoring different dynamical profiles. Additionally, we show that training and inference choices systematically reshape these profiles. Our results suggest that answer-distribution trajectories provide a rich framework for analysing and evaluating the dynamics of LLM reasoning."
+  },
+  {
+    "title": "Linearly Constrained Generalized Linear Models with Applications in Origin-Destination Estimation",
+    "url": "http://arxiv.org/abs/2609.09021v1",
+    "arxiv_id": "2609.09021v1",
+    "authors": [
+      "Likun Chou",
+      "Luis Carvalho"
+    ],
+    "published": "2026-09-08T16:52:52+00:00",
+    "summary": "We show that data censored by linear constraints can be fit within the generalized linear model (GLM) framework, recovering the expected latent counts together with their uncertainty in a single Fisher-scoring procedure. Our motivating application is origin-destination (OD) estimation in transportation studies, where the latent data are the OD trip demands and constraints are either origin and destination marginal counts per zone, as in OD matrix estimation, or observed link counts, as in network tomography. Casting the problem as a linearly constrained GLM lets us treat, within one model, three features that arise routinely in practice: unmatched constraints, trip predictors such as costs, and prior information such as diagonal dominance and seed counts. We demonstrate the methodology in synthetic and small scale studies and in a larger case study based on simulated data from the BO4Mob study."
+  },
+  {
+    "title": "Concentrate After Imagination: Text-Conditioned Evidence Grounding for Partially Relevant Video Retrieval",
+    "url": "http://arxiv.org/abs/2609.08999v1",
+    "arxiv_id": "2609.08999v1",
+    "authors": [
+      "Shuaiqi Cheng",
+      "Siyu You",
+      "Yanbi Wu",
+      "Yuxi Chen",
+      "Jiahao Zhang",
+      "Xuming Hu"
+    ],
+    "published": "2026-09-08T16:37:35+00:00",
+    "summary": "Partially Relevant Video Retrieval (PRVR) retrieves untrimmed videos when queries describe only short moments. Although recent methods improve local representations, uncertainty modeling, and global context, final ranking often still trusts the strongest local response; a coincidentally similar fragment can therefore produce an unsupported peak. We identify this failure as the query-agnostic concentration bottleneck and propose TRACE, a score-level evidence verification operator for PRVR. Given a query and global video registers, TRACE activates query-relevant registers, routes their support to frame-level evidence, and smoothly marginalizes alternative query-to-register-to-frame paths before localized temporal selection. Unlike representation-level feature fusion, TRACE uses this evidence only as a query-conditioned residual calibration of the original local score. On ActivityNet Captions, Charades-STA, and TVR, TRACE achieves the best SumR on all three benchmarks and improves the DreamPRVR backbone by 1.2, 1.1, and 1.5 points, respectively. Ablation, routing-corruption, hard-negative, and cross-backbone transfer analyses support the interpretation that the gains arise from query-conditioned evidence verification rather than a generic score offset."
+  },
+  {
     "title": "Tracing the Cosmic Origins: Machine Learning Reconstruction of the Primordial Density Field from EoR Observations",
     "url": "http://arxiv.org/abs/2609.05412v1",
     "arxiv_id": "2609.05412v1",
