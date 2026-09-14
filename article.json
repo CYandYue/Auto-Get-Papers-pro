@@ -1,5 +1,149 @@
 [
   {
+    "title": "Spacetime mitigation of logical errors",
+    "url": "http://arxiv.org/abs/2609.13108v1",
+    "arxiv_id": "2609.13108v1",
+    "authors": [
+      "Laurin E. Fischer",
+      "Ali Javadi-Abhari",
+      "Simon Martiel",
+      "Alireza Seif"
+    ],
+    "published": "2026-09-11T17:40:19+00:00",
+    "summary": "Error detection can suppress noise at a lower sampling cost than probabilistic error cancellation (PEC), but leaves residual logical errors. We combine the two approaches to mitigate these errors while lowering the cost of PEC. We introduce a spacetime Pauli-Lindblad representation and use it to construct the post-selected logical noise perturbatively from physical noise and syndrome information. Individually undetected faults contribute at first order, while detected faults with canceling syndromes generate higher-order terms coupling distinct spacetime locations. To reconcile the nonlinearity of post-selection with the linearity of PEC, we formulate the combined protocol in terms of unnormalized post-selected maps, with normalization performed only after averaging. On the ibm_aachen superconducting quantum processor, Clifford experiments validate the post-selected noise model and its perturbative scaling. We then demonstrate error detection with first-order PEC for transverse-field Ising dynamics using 22 data and 27 check qubits. The combined protocol recovers the mean magnetization within statistical uncertainty through six Trotter steps and reduces the inferred sampling overhead by up to a factor of 63 relative to PEC without post-selection."
+  },
+  {
+    "title": "$B_{(s)}\\to V M_X$ decays as probes of dark-matter scenarios of Belle II enhancement in $B\\to KM_X$ decays",
+    "url": "http://arxiv.org/abs/2609.13069v1",
+    "arxiv_id": "2609.13069v1",
+    "authors": [
+      "Alexander Berezhnoy",
+      "Wolfgang Lucha",
+      "Dmitri Melikhov"
+    ],
+    "published": "2026-09-11T17:04:27+00:00",
+    "summary": "Recently, we have shown that the hypothesis of the dark-matter (DM) origin of the Belle II excess events in $B\\to K M_X$ decays allows for a successful description of the data. The DM parameters (masses and couplings) in two DM scenarios with either scalar (S-scenario) or vector (V-scenario) mediator have been extracted with rather small uncertainty from fits to the $B\\to K M_X$ data. The same mechanism leads to a similar enhancement of the $B_s\\to (\u03b7,\u03b7',\u03c6) M_X$ decay rates. We present a detailed analysis of $B\\to K^* M_X$ and $B_s\\to \u03c6M_X$ decays and show that these decays provide a clear probe of the S- and V-scenarios: Compared to the Standard Model, in the S-scenario an enhancement by a factor $\\sim 1.6$ is expected, whereas the V-scenario leads to a much larger enhancement by a factor $\\sim 3.5$. For the $B\\to K^* M_X$ decays, we provide the expected number of events at Belle II for the sample for which a rather large enhancement of $B\\to K M_X$ decays compared to the Standard Model expectations has been reported."
+  },
+  {
+    "title": "Diffusion Models and Concept Formation",
+    "url": "http://arxiv.org/abs/2609.13047v1",
+    "arxiv_id": "2609.13047v1",
+    "authors": [
+      "Zekun Wang",
+      "Karthik Singaravadivelan",
+      "Christopher J. MacLellan"
+    ],
+    "published": "2026-09-11T16:43:48+00:00",
+    "summary": "Humans organize knowledge into a taxonomy of concepts with nested levels of abstraction and a \\emph{basic level} at which people recognize and name objects with the least cognitive effort. Cobweb is a classic cognitive account of this ability, an incremental learner that builds a probabilistic concept hierarchy by maximizing category utility. We argue that diffusion models, although designed for image synthesis, implicitly perform the same computation. The noisy marginals of a diffusion model are Gaussian smoothings of the data distribution, and the modes of these marginals form a hierarchy that corresponds to a Cobweb tree of probabilistic prototypes in four respects. Both are hierarchical density models, both are hierarchical-Bayesian models with Gaussian prototypes, both treat categorization as score-following that reduces uncertainty, and in both a basic level emerges. We locate this basic level for a diffusion model at an intermediate noise level, where recent analyses show that the reverse process commits to the class identity of a sample. The two models differ mainly in how they represent and learn the taxonomy. Cobweb learns a discrete tree incrementally, whereas a diffusion model encodes a continuous, interpolable hierarchy in a single learned score field fit to the data distribution. We test the correspondence on MNIST and Fashion-MNIST by recovering the diffusion hierarchy through mode-finding and comparing the basic levels of the two models. This reframes diffusion as a cognitive model of concept formation and offers Cobweb a continuous, scalable instantiation."
+  },
+  {
+    "title": "Distributed Stochastic Optimal Control for Pattern-Oriented Swarms",
+    "url": "http://arxiv.org/abs/2609.12959v1",
+    "arxiv_id": "2609.12959v1",
+    "authors": [
+      "Qingrui Zhang",
+      "Chenghao Yu",
+      "Feng Xue",
+      "Xintong Wang"
+    ],
+    "published": "2026-09-11T15:17:50+00:00",
+    "summary": "While offering significant promise for diverse applications, pattern-oriented swarms encounter multifaceted challenges in geometric control, self-organization, and safe navigation through dynamic environments. In this paper, we present a GRF-based stochastic optimal control framework to address these challenges within a unified probabilistic architecture. By extending the GRF into the temporal domain, the proposed framework casts collective coordination as a Bayesian inference task, enabling swarms to accommodate environmental uncertainty, satisfy non-convex constraints, and reconcile heterogeneous dynamics across diverse platforms. We develop an uncertainty- and safety-aware collision avoidance module for navigation in the presence of stochastic obstacle motion. The unscented transform is employed to propagate state uncertainty for both dynamic obstacles and neighboring agents, yielding principled confidence bounds for collision avoidance. In addition, density-guided pattern control is introduced, which encodes geometric patterns as implicit density fields. This representation decouples pattern specification from explicit agent-to-target assignments, thereby facilitating intrinsic self-healing and elastic reconfiguration in a distributed manner. The proposed framework is extensively evaluated through Monte Carlo simulations across diverse scenarios. Its model-agnostic nature is demonstrated on both quadrotor and fixed-wing UAV swarms, highlighting its generalizability across platforms with heterogeneous dynamics. Finally, the efficacy and robustness of the proposed method are validated through indoor experiments with a 15-quadrotor swarm and outdoor deployments involving 4 custom-built autonomous quadrotors. These experiments substantiate the proposed framework's capacity to maintain reliable geometric pattern transitions and safety-aware navigation within real-world environments."
+  },
+  {
+    "title": "XMST: An Extended Minimum Spanning Tree Framework with Objective Fracture-Scale Selection",
+    "url": "http://arxiv.org/abs/2609.12943v1",
+    "arxiv_id": "2609.12943v1",
+    "authors": [
+      "Mark Gallaway"
+    ],
+    "published": "2026-09-11T15:04:59+00:00",
+    "summary": "We present XMST, an extended minimum spanning tree framework for identifying spatially coherent stellar structures using an objective, data-driven fracture-scale criterion. XMST combines percolation analysis with Jenks Natural Breaks optimisation, restricting the MST edge-length distribution to the subcritical regime before determining the final fracture scale. The method was validated using 1000 controlled Monte Carlo realisations containing eight empirical stellar-association templates, including a deliberately overlapping pair. The Percolation-Jenks fracture scale was highly reproducible, with a median of 17.028 pc and a between-realisation standard deviation of 0.066 pc. The injected structures were recovered with a mean completeness of 0.9996 and mean purity of 0.7413, while alternative CDF and Mean Edge criteria selected substantially larger fracture scales and produced markedly lower purities.   Propagation of the published distance uncertainties through 10,000 additional XMST reconstructions produced a median absolute fracture-scale change of only 0.282 pc. Under these perturbations, mean completeness was 0.8605 and mean purity 0.7126, while 99.30 per cent of injected-template cases continued to satisfy the adopted detection criterion. Individual membership was less stable, with peripheral and locally sparse members showing lower persistence than structural cores. The deliberately overlapping pair was resolved spatially in only 15 of 1000 realisations; a reddening-based post-processing diagnostic increased this to 446, although with a corresponding completeness-purity trade-off. XMST therefore provides a robust method for identifying candidate stellar structures and their stable cores, while detailed outer membership and strongly overlapping populations require additional astrophysical information."
+  },
+  {
+    "title": "Beyond Accuracy: Uncertainty-Guided Boundary Refinement for Reliable Biomedical Image Segmentation",
+    "url": "http://arxiv.org/abs/2609.12892v1",
+    "arxiv_id": "2609.12892v1",
+    "authors": [
+      "Anima Kujur"
+    ],
+    "published": "2026-09-11T14:21:02+00:00",
+    "summary": "Accurate biomedical image segmentation requires not only high global overlap but also reliable delineation of clinically meaningful boundaries. In blood-smear microscopy, cytoplasm and nucleus contours provide the structural basis for downstream morphology analysis; however, deep segmentation models may remain uncertain or overconfident near ambiguous boundary regions even when achieving strong Dice scores. This work proposes a Reliability-Aware Boundary Refinement Network (RABR-Net), a two-stage framework for trustworthy image segmentation. A strong UNet++ EfficientNet-B4 base segmenter first produces initial class probabilities and logits. Predictive entropy, test-time augmentation variance, margin uncertainty, probability gradients, and soft boundary cues are then combined into a boundary-aware reliability representation. This representation guides a gated residual refiner that selectively corrects uncertain boundary pixels while preserving confident regions of the base prediction. The framework is evaluated using overlap accuracy, class-wise Dice, Boundary Dice, HD95/ASSD, calibration, risk--coverage analysis, robustness under image perturbations, qualitative correction maps, and paired statistical testing. On the held-out test set, the proposed method improves Dice from 0.9602 to 0.9614, Boundary Dice from 0.3448 to 0.3611, and HD95 from 3.0354 to 2.8274 compared with the cached base prediction. Statistical analysis confirms significant improvements in Dice, Boundary Dice, and HD95. Qualitative results show that the learned gate concentrates around uncertain cytoplasm and nucleus boundaries, and correction maps confirm localized boundary refinement. Although calibration does not automatically improve after refinement, the proposed framework provides an interpretable and reliability-focused strategy for boundary-sensitive biomedical image segmentation."
+  },
+  {
+    "title": "GenOR-Twin: A Semantic Middleware for Integrating Operational Discourse with Mathematical Optimization",
+    "url": "http://arxiv.org/abs/2609.12863v1",
+    "arxiv_id": "2609.12863v1",
+    "authors": [
+      "Rahimeh Neamatian Monemi",
+      "Shahin Gelareh",
+      "Lubin Cui",
+      "Nelson Maculan"
+    ],
+    "published": "2026-09-11T13:49:03+00:00",
+    "summary": "We introduce GenOR-Twin, a neuro-symbolic framework that bridges the translation gap between unstructured operational logs and rigorous mathematical optimization. Our architecture uniquely positions Large Language Models as semantic translators rather than direct solvers, ensuring that the system retains the feasibility guarantees of exact combinatorial methods. { \\color{red}We design a dynamic constraint injection mechanism (the runtime translation of qualitative disruption events into formal mathematical constraints) that allows the system to structurally modify the optimization problem's feasibility region in real-time based on qualitative human inputs. The resulting bidirectional coupling---where operational observations update the virtual model state and optimized decisions are reflected back into the Knowledge Graph---satisfies the synchronization requirement of a proper Digital Twin. The framework features an adaptive decision policy} that automatically selects between low-complexity schedule repair and full re-optimization by analyzing the available system slack. Finally, we demonstrate the generalization of this approach across six distinct optimization domains, {\\color{red}turning static models into resilient systems that adapt to the operational uncertainty and variability of real-world environments.}"
+  },
+  {
+    "title": "MedRoundsQA: A Persona and Difficulty Aware Evaluation for Multi-Turn Medical Consultations",
+    "url": "http://arxiv.org/abs/2609.12851v1",
+    "arxiv_id": "2609.12851v1",
+    "authors": [
+      "Youssef Mohamed",
+      "Ahmed Heakl",
+      "Qinrong Cui",
+      "Junhong Liang",
+      "Rafiq Ali",
+      "Bdour Babillie",
+      "Nazira Dunbayeva",
+      "Lang Gao",
+      "Omar Hussein",
+      "Ahmed Nada",
+      "Ahmed Mohamed Magdy Mohamed",
+      "Jinghui Liu",
+      "Salman Khan",
+      "Imran Razzak",
+      "Yuxia Wang",
+      "Xiuying Chen"
+    ],
+    "published": "2026-09-11T13:41:53+00:00",
+    "summary": "Medical benchmarks are dominated by single-turn, multiple-choice clinical cases that poorly reflect real consultations. Practically, clinicians elicit evidence interactively and patient communication varies widely. We introduce MedRoundsQA, a multi-turn diagnostic benchmark derived from 1,387 board-exam cases across 17 specialties. Each case is converted into a structured 24-slot clinical record, and then instantiated as controlled doctor-patient dual-agent dialogues under varying patient personas, with the underlying clinical content held fixed. We further classify cases by difficulty using model-based uncertainty to enable easy-to-hard analysis. Evaluations of fifteen LLM doctor agents show that (i) moving from a single-turn diagnosis on the standardized records to multi-turn consultations causes large degradations of roughly 13-39 points; (ii) more turns reliably improves question relevance, but diagnostic accuracy exhibits diminishing returns and typically plateaus after 6-12 turns; and (iii) patient persona differences can shift diagnosis accuracy by about 7-8 points (lowest to highest education), highlighting equity risks that single-turn benchmarks miss."
+  },
+  {
+    "title": "4D Parallelism Unlocks Exascale Bayesian Neural Networks for High-Fidelity Atmospheric Modeling",
+    "url": "http://arxiv.org/abs/2609.12815v1",
+    "arxiv_id": "2609.12815v1",
+    "authors": [
+      "Deifilia Kieckhefen",
+      "Juan Pedro Guti\u00e9rrez Hermosillo Muriedas",
+      "Lars Helge Heyen",
+      "Mathis Bode",
+      "Iida Hakulinen",
+      "Andreas Herten",
+      "Chelsea Maria John",
+      "Thorsten Kurth",
+      "Anni Moisala",
+      "Asena Karolin \u00d6zdemir",
+      "Kaleb Phipps",
+      "Oskar Taubert",
+      "Arvid Weyrauch",
+      "Markus G\u00f6tz",
+      "Charlotte Debus"
+    ],
+    "published": "2026-09-11T13:08:17+00:00",
+    "summary": "We present BEAST, the first-ever Bayesian Swin Transformer for atmospheric forecasting on 0.25$^\\circ$ global resolution able to accurately quantify both aleatoric and epistemic uncertainty. To overcome the associated computational bottlenecks, we devise an orthogonal 4D-parallelization scheme that introduces a unique domain-tensor-parallelism strategy and a novel uncertainty parallel method, enabling us to fully leverage GPU capacity and efficiently scale model training. For a 2.4-billion-parameter model, we achieve a peak performance of 3.96 EFLOP/s on 20,480 NVIDIA GH200 GPUs on the JUPITER supercomputer. We train BEAST as a 700-million-parameter model with 96 random weight samples on 384 nodes on 40 years of data for nearly one million gradient updates. This model achieves predictive skill scores competitive with state-of-the-art probabilistic atmospheric AI models and numerical models, and can predict extreme events with exceptional skill, while generating large ensembles 3 to 4 times faster than the current-best AI model. Our contribution unlocks the potential of high-fidelity uncertainty quantification in atmospheric AI models, heralding a new era for AI-based models in climate and Earth system sciences."
+  },
+  {
+    "title": "Associated $W$ + charm production: indications for PDF analysis",
+    "url": "http://arxiv.org/abs/2609.12800v1",
+    "arxiv_id": "2609.12800v1",
+    "authors": [
+      "Ville Alanko",
+      "Ilkka Helenius",
+      "Hannu Paukkunen"
+    ],
+    "published": "2026-09-11T12:58:06+00:00",
+    "summary": "The strange quark and antiquark contents of the proton remain weakly constrained compared to the other light quarks, particularly the asymmetry between the two. Production of a $W^\\mp$ boson in association with a charmed meson $D^{(*)\\pm}$ could provide additional constraints in future fits of parton distribution functions. We calculate this process in general-mass variable-flavor-number scheme at next-to-leading order in perturbative Quantum Chromodynamics. We investigate the production ratio between events with oppositely charged $W$ bosons, in which various theoretical uncertainties largely cancel while sensitivity to PDFs remains. We compare our predictions for this quantity with the recent ATLAS data at $\\sqrt{s} = 13$ TeV and find that CT18ANLO, which sets the strangeness asymmetry to zero, yields good agreement with the data while MSHT20NLO and NNPDF4.0NLO, which have positive strangeness asymmetry in the relevant range of momentum fraction $x$, show more tension with the data. An approximate PDF-level analysis of the production ratio indicates that this tension could be attributed to a too large strangeness asymmetry."
+  },
+  {
     "title": "Mathematical inverse problem for the world data inference of the parton distribution functions of the proton",
     "url": "http://arxiv.org/abs/2609.11896v1",
     "arxiv_id": "2609.11896v1",
