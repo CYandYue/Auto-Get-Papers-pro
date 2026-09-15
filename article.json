@@ -1,5 +1,136 @@
 [
   {
+    "title": "MessyMem: Learning-from-Doing Memory for Mobile Manipulation",
+    "url": "http://arxiv.org/abs/2609.15976v1",
+    "arxiv_id": "2609.15976v1",
+    "authors": [
+      "Anuva Banwasi",
+      "William Muckelroy",
+      "Priya Sundaresan",
+      "Linfeng Zhao",
+      "Jeannette Bohg",
+      "Cherie Ho"
+    ],
+    "published": "2026-09-14T17:56:49+00:00",
+    "summary": "Mobile manipulators deployed across many rooms and visits should improve with experience: after discovering that a cabinet is locked or finding an object in a drawer, the robot should reuse that knowledge rather than start each task from scratch. Yet today's robots often treat each task as new: compact scene representations omit interaction-derived knowledge, raw video histories are difficult to query, and VLM planners reason at inference time without persistently updating what the robot knows. We present MessyMem, a persistent memory system that enables mobile manipulators to learn from experience and reuse that knowledge across future tasks. It maintains a spatially grounded 3D scene graph of objects and locations, augments it with properties and outcomes learned through interaction, and links visual observations for fine-grained recall. We evaluate MessyMem in simulation and on a real mobile manipulator. In a continuous 25-task simulation spanning over 3 hours, MessyMem achieves 80.0% task progress, outperforming the strongest ablation by 14.8 percentage points and the strongest external baseline by 28.9 points, while retrieving task-relevant evidence from thousands of stored keyframes and over an hour into the past."
+  },
+  {
+    "title": "A Standard Ultraviolet Continuum Can Hide Supercritical Accretion in GN-z11",
+    "url": "http://arxiv.org/abs/2609.15967v1",
+    "arxiv_id": "2609.15967v1",
+    "authors": [
+      "Samik Mitra",
+      "Ramananda Santra"
+    ],
+    "published": "2026-09-14T17:54:11+00:00",
+    "summary": "The ultraviolet continuum from a high-redshift accreting black hole is routinely used to infer its mass. GN-z11 offers a sharp test of whether that inference is secure. A thin-disk fit to its continuum gives an Eddington mass of $M_{\\rm E}=1.12\\times10^{7}\\,\\Msun$, an order of magnitude above the $\\log(\\Mbh/\\Msun)=6.2\\pm0.3$ inferred from broad N~\\textsc{iv}. We show that this apparent tension is not imposed by the ultraviolet slope alone. We derive a closed-form criterion comparing the radius where observed photons are produced with the radius where a supercritical flow departs from efficient solution. For GN-z11, the criterion places the supercritical transition inside the ultraviolet-emitting region. Composite disks retaining the outer solution confirm this numerically, requiring $\\Mdot_{\\rm out}=3.1$--$4.4\\,\\Msun\\,\\mathrm{yr^{-1}}$ and placing $\\Rsph=(1.2$--$1.8)\\times10^{3}\\,\\rg$ inside $\\Ruv=(2.6$--$2.9)\\times10^{3}\\,\\rg$. Replacing the inner $\\sim10^{3}\\rg$ by a supercritical flow shifts the fitted slope by only $\u0394\\betaUV=+0.08$ to $+0.11$, comparable to uncertainties from standard spectral modelling. Reversing the radial ordering requires the effective transition to move outward by a factor $1.7$--$2.1$. Within our composite models, the measured slope constrains black-hole mass only to around $10^{6}\\,\\Msun$, an order of magnitude below the continuum Eddington mass. Continuum Eddington masses should therefore be treated as model-dependent bounds that assume global thin-disk efficiency. The same hierarchy appears in three additional JWST sources under the disk-dominated interpretation, where separation masses are only $4$--$6$\\% of continuum Eddington masses. This distinction can substantially weaken the seed-mass and early-growth demands inferred from ultraviolet continua at cosmic dawn for the first massive black holes."
+  },
+  {
+    "title": "Spatially-Indexed Longitudinal Distributional Outcome Regression for Environmental Monitoring",
+    "url": "http://arxiv.org/abs/2609.15961v1",
+    "arxiv_id": "2609.15961v1",
+    "authors": [
+      "Rahul Ghosal",
+      "Suman Majumder",
+      "Indranil Sahoo"
+    ],
+    "published": "2026-09-14T17:52:16+00:00",
+    "summary": "Characterizing longitudinal changes in region-specific distribution of environmental exposures, such as total nitrate (TNO$_3$) concentrations, is critical for understanding localized ecological risks that are otherwise obscured by standard mean-level modeling. However, modeling longitudinal distributional outcomes across spatial regions presents significant methodological challenges. The random objects are spatio-temporally dependent, and mathematical constraints are inherent to distributional representations, such as, monotonicity of quantile functions. To address this, we propose a novel spatially-indexed longitudinal distributional outcome regression model. The distributional coefficients corresponding to the fixed effects of covariates are modeled using Bernstein basis polynomials, while spatio-temporal random effects are flexibly captured via tensor product expansions of splines. We develop a scalable Markov Chain Monte Carlo (MCMC) algorithm to explicitly account for spatial dependencies, and introduce a fast two-stage projected-posterior approach to preserve the monotonicity of the predicted subject-specific quantile functions. Extensive simulation studies demonstrate that the proposed framework achieves superior estimation accuracy and predictive performance compared to standard non-spatial distributional outcome regression. We apply our methodology to predict monthly, site-specific distributions of TNO$_3$ concentrations across the contiguous United States. Accounting for spatial correlation provides substantially lower uncertainty in the estimated distributional effects and improves predictive performance over the non-spatial alternative, offering a robust, interpretable tool for spatio-temporal environmental monitoring."
+  },
+  {
+    "title": "Validating Inverse Fundamental-Plane IMBH Mass Estimates in the SKA/ngVLA Era",
+    "url": "http://arxiv.org/abs/2609.15960v1",
+    "arxiv_id": "2609.15960v1",
+    "authors": [
+      "Shahram Abbassi",
+      "Samik Mitra",
+      "Ramananda Santra"
+    ],
+    "published": "2026-09-14T17:51:52+00:00",
+    "summary": "The radio/X-ray/black-hole-mass Fundamental Plane (FP) is widely used to estimate masses of accreting intermediate-mass black hole (IMBH) candidates. Its inverse use is justified only when radio luminosity traces a compact jet core and X-rays arise from the same sub-Eddington hard-state accretion flow. We formulate an accretion-state validity criterion for inverse-FP masses using verified BH X-ray binary radio/X-ray tracks as the empirical reference. Using 424 detections from 21 BHXBs and candidates, we find that both standard and curved tracks are present and the luminosity at which radio/X-ray behavior changes is source dependent. A low X-ray Eddington ratio is therefore not, by itself, sufficient to establish inverse-FP validity. Within a scale-invariant jet/hot-flow framework, track steepening reduces the effective mass leverage of the inversion, while at much lower accretion rates uncertainties in the dominant emission mechanism and compact-core production can invalidate the underlying FP assumptions altogether. We apply the criterion to representative IMBH-relevant systems without fitting a new plane. NGC 4395 is low-Eddington but compact-radio deficient: its VLA-scale and VLBI jet-base luminosities imply formal inverse-FP mass underestimates of about 1.0 and more than 2.8 dex if the deficit is misread as a mass signal. Globular-cluster X-ray populations in NGC 1399 and NGC 4472 are source-identity limited: 71% and 67% lie below $L_{\\rm Edd}(10\\,M_\\odot)$, and the high-luminosity tail alone does not identify an IMBH accretor. The radio non-detection of the $\u03c9$ Centauri IMBH candidate constrains gas supply, accretion efficiency, and compact-core production rather than excluding the black hole. The resulting test defines which SKA/ngVLA-era radio cores can be converted into FP masses, and which instead constrain gas supply, source identity, or compact-core production."
+  },
+  {
+    "title": "Pilot Early, Commit Late: A Real-Options Model of Enterprise AI Adoption under Rapid Technological Progress",
+    "url": "http://arxiv.org/abs/2609.15919v1",
+    "arxiv_id": "2609.15919v1",
+    "authors": [
+      "Gaurav Tewari"
+    ],
+    "published": "2026-09-14T17:30:37+00:00",
+    "summary": "Artificial intelligence presents firms with an unusual timing problem. The technology frontier is improving rapidly, implementation is partly irreversible, and organization-specific capabilities are accumulated through action. This paper develops a two-period decision model of AI deployment under uncertainty in which a firm chooses among immediate deployment, a limited pilot, and waiting. Deployment earns current operating value but exposes the firm to architectural obsolescence; waiting preserves the option to adopt after the frontier is observed; a pilot sacrifices current operating value to build organization-specific learning without full commitment. The model yields five central timing results and a sixth comparative result on where learning occurs. First, a mean-preserving increase in frontier uncertainty raises the value of waiting and piloting but leaves immediate deployment unchanged when its payoff is affine in the frontier. Second, faster expected frontier progress can reduce the relative attractiveness of immediate deployment when deployed architecture captures only a limited share of future improvement. Third, a pilot dominates waiting exactly when the expected value of the capability it builds exceeds its cost. Fourth, sufficiently valuable organization-specific learning creates a nonempty region in which \"pilot early, commit late\" is optimal. Fifth, there is a closed-form modularity threshold above which immediate deployment dominates the best outside option. Sixth, production learning and pilot-specific learning affect the timing margin differently. A continuous-time extension recovers the standard result that uncertainty raises the adoption threshold while capability and modularity lower it. The paper separates deploying, experimenting, and waiting, and shows why rapid progress can rationally increase experimentation without justifying irreversible commitment."
+  },
+  {
+    "title": "Impact of uncertainties on the cosmic optical and infrared backgrounds on the propagation of astroparticles",
+    "url": "http://arxiv.org/abs/2609.15896v1",
+    "arxiv_id": "2609.15896v1",
+    "authors": [
+      "Lucas Gr\u00e9aux",
+      "Antonio Condorelli",
+      "Leonel Morejon",
+      "Karl-Heinz Kampert",
+      "Jonathan Biteau"
+    ],
+    "published": "2026-09-14T17:16:27+00:00",
+    "summary": "When propagating through the universe, gamma rays at very-high energy (VHE, E > 100 GeV) and ultra-high energy cosmic rays (UHECRs, E > 1 EeV) can interact with the optical, infrared and microwave photon fields that permeate the universe. These interactions result in a characteristic absorption imprint in the spectra of extragalactic gamma-ray sources at VHE, and in a change in the mass-composition of UHECRs. The study of both VHE gamma rays and UHECRs therefore requires precise knowledge of the intensity of the cosmic photon fields. In this work, we explore the impact of the current uncertainties on the optical and infrared photon fields on the propagation of astroparticles. We restrict the range of available models to those best matching the recent measurements, and compare the different reconstructions resulting from these models. We find that the knowledge on the cosmic background light is no longer the dominant source of uncertainties in understanding the phenomenology of astroparticle sources in the low redshift universe (z < 0.1), enabling robust spectral and composition inference with the next generation of both gamma-ray and UHECR measurements."
+  },
+  {
+    "title": "Goal-Oriented Communications for Physical AI: Design and Testbed",
+    "url": "http://arxiv.org/abs/2609.15895v1",
+    "arxiv_id": "2609.15895v1",
+    "authors": [
+      "Shutong Chen",
+      "Wenkai Zhang",
+      "Adnan Aijaz",
+      "Miao Guo",
+      "Yansha Deng"
+    ],
+    "published": "2026-09-14T17:16:23+00:00",
+    "summary": "Physical AI relies on frequently-updated, latency-sensitive video stream to perceive, reason, and interact with the physical world, resulting in strict latency requirements with much higher data volumes that existing 5G networks cannot support. Goal-oriented communication (GoC) offers as a promising approach to solve this challenge by transmitting only task-relevant semantic representations. However, existing GoC frameworks were mainly evaluated in the simulations while their effectiveness has never been validated in a practical deployment of physical AI application. In this work, we develop an end-to-end GoC testbed for Physical AI, which connects a PiPER robot arm equipped with an RGB-D camera and a 5G modem to an NVIDIA Jetson AGX Orin edge server through a 5G OpenAirInterface network. We propose and implement three GoC frameworks that transmit 3D bounding boxes, 2D scene graphs, and 3D scene graphs, as three types of semantic representations, respectively. They share the common functional modules designed for closed-loop Physical AI applications, including semantic extraction, full stack 5G transmission, language model inference, digital twin validation, and robotic control. Extensive experiments on our testbed show that our GoC frameworks reduce the task completion time by up to 52.6% and improve task success probability by up to 45%, compared to the traditional framework that periodically transmits the raw image data. These results validate the practical effectiveness of our GoC framework and pave the way for efficient and reliable Physical AI applications over future 6G networks. Project website: https://sites.google.com/view/goc-physical-ai-testbed."
+  },
+  {
+    "title": "Absolute frequency measurement of the $^{40}$Ca$^{+}$ clock transition using a GNSS link to the SI second",
+    "url": "http://arxiv.org/abs/2609.15844v1",
+    "arxiv_id": "2609.15844v1",
+    "authors": [
+      "M. Guevara-Bertsch",
+      "M. K. Joshi",
+      "M. I Hussain",
+      "R. Blatt",
+      "C. F. Roos"
+    ],
+    "published": "2026-09-14T16:39:54+00:00",
+    "summary": "We report the absolute frequency measurement of the $4s$ $ ^{2}S_{1/2}\\leftrightarrow 3d$ $^{2}D_{5/2}$ $^{40}$Ca$^{+}$ clock transition with respect to the SI second. To perform this measurement, a link between our laboratory in Innsbruck and the clocks realizing the Coordinated Universal Time at the Physikalisch-Technische Bundesanstalt (PTB) in Braunschweig was installed and characterized using the Global Navigation Satellite System GNSS. The comparison between our clock and the ones at PTB was done using the Precise Point Positioning technique. After the evaluation of the systematic shifts, the measured transition frequency is 411 042 129 776 401.2$\\pm$0.6 Hz with a fractional uncertainty of 1.5 $\\times$ 10$^{-15}$. The stability of the clock measurements was also corroborated by comparing two different calcium ion clock experiments, which share the clock laser source at our institute. Furthermore, after careful evaluation of the trap-drive induced ac magnetic fields, we estimate ac Zeeman shifts on the $D_{5/2}$ sublevels and reevaluate the Land\u00e9 g-factor of the $3d$ $^{2}D_{5/2}$ level to be g$_{5/2}= 1.200329(1)$."
+  },
+  {
+    "title": "Uncertainty-Guided Sparse Refinement for Action Chunking Transformer Policies",
+    "url": "http://arxiv.org/abs/2609.15840v1",
+    "arxiv_id": "2609.15840v1",
+    "authors": [
+      "Chenyang Wang",
+      "Yuntian Wang",
+      "Xiaoxiong Yang",
+      "Dingde Jiang",
+      "Siao Liu",
+      "Yang Liu"
+    ],
+    "published": "2026-09-14T16:37:35+00:00",
+    "summary": "Learning chunk-based visuomotor policies for long-horizon robot manipulation remains challenging. Recent action-chunking methods have shown promising performance by predicting temporally extended action sequences. However, their failures are often dominated by prediction errors at a small number of critical timesteps rather than uniformly poor predictions across the entire action chunk, making uniform refinement inefficient and insufficiently targeted. To address this bottleneck, we propose Uncertainty-Guided Refinement (UGR), a sparse refinement framework for chunk-based visuomotor policies. Specifically, UGR follows a coarse-to-refine design: it first predicts a full action chunk, estimates per-step temporal uncertainty from the coarse hidden states, and applies residual correction only to the most uncertain timesteps selected by a binary mask. The uncertainty branch is decoupled from the coarse action predictor, enabling clean attribution of the refinement gains to uncertainty-guided correction rather than additional predictor capacity. Extensive experiments on five dual-arm manipulation tasks from the RoboTwin benchmark show that UGR achieves the best success rate on four tasks, improves over the ACT baseline by up to 13% absolute, and outperforms both full-chunk and position-agnostic block refinement in ablation studies."
+  },
+  {
+    "title": "Block-modular grey-box identification of a short-stroke seawater-pump power take-off for wave energy: loss decomposition and multi-regime validation",
+    "url": "http://arxiv.org/abs/2609.15835v1",
+    "arxiv_id": "2609.15835v1",
+    "authors": [
+      "Mahdi Tayyebati",
+      "Amir Hamza Siddiqui",
+      "Mian Masoud",
+      "Kristian Glejb\u00f8l",
+      "Christian Berggreen"
+    ],
+    "published": "2026-09-14T16:31:33+00:00",
+    "summary": "Physically interpretable power take-off models support wave-energy development at every stage. For the seawater-pump class, few have been identified on a real machine and validated at the system level. This paper presents a block-modular grey-box model of a short-stroke seawater pump, identified from bench data alone. The pump decomposes into chamber, relief valve, piston seal and tip check valve, each structured by component physics, and the few parameters are identified block by block from terminal pressure, displacement, force and discharged-mass measurements, with a closed-cycle mass balance that decouples the degenerate seal and valve losses and closes to within 1% of the inflow. Over the sinusoidal campaign, the pressure-energised piston seal carries 84% of the lost mass and 97% of the lost energy, and the pump delivers about four-fifths of its input as high-pressure flow. Generalisation is demonstrated rather than assumed. With parameters fixed on ramps and sinusoids, the model reproduces 360 s sea-state records in free run to about 10% of range, captures 80% of several thousand peaks within 5 bar, transfers to a re-sprung valve on cracking strokes once its crack pressure is identified, follows thousand-cycle endurance records that drift below 0.1 bar, and reproduces the force and cycle-mean absorbed power, 0.1 to 5.7 kW, to a 4% median error. A practical-identifiability and uncertainty analysis confirms the terminal data resolve the retained parameters; thirty-seven repeated records set the experimental floor. The result is a compact, physically labelled model for design, energy assessment and model-based control of seawater-pump power take-offs."
+  },
+  {
     "title": "Spacetime mitigation of logical errors",
     "url": "http://arxiv.org/abs/2609.13108v1",
     "arxiv_id": "2609.13108v1",
