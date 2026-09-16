@@ -1,5 +1,124 @@
 [
   {
+    "title": "Stellar Ages of M Dwarf Hosts of Temperate Sub-Neptunes",
+    "url": "http://arxiv.org/abs/2609.17505v1",
+    "arxiv_id": "2609.17505v1",
+    "authors": [
+      "Lalitha Sairam",
+      "Nikku Madhusudhan"
+    ],
+    "published": "2026-09-15T17:44:39+00:00",
+    "summary": "Measuring M dwarf ages is a central challenge in stellar astrophysics. These stars evolve so slowly that isochrone fitting gives little constraint, requiring alternative methods based on rotation, activity, and kinematics. Reliable ages help constrain the formation and evolution of planetary systems around M dwarfs, including the temperate sub-Neptunes now being characterised with the James Webb Space Telescope (JWST). We present an age analysis of six nearby M dwarf planet hosts (TOI-732, TOI-736, TOI-270, TOI-1468, TOI-1231, and K2-18) using lithium absorption at 6708 \u00c5, rotation periods, and Galactic kinematics. The Li I 6708 \u00c5feature is absent above 3$\u03c3$ in all targets, implying substantial depletion and ages exceeding 200 Myr. Rotation periods of 39-145 days yield ages of 2.8-8.6 Gyr, calibrated against open cluster M dwarfs and including the intrinsic dispersion of the rotation-age relation. Kinematic ages span 0.8-13 Gyr with uncertainties of 4-6 Gyr. These are less precise per star but help identify outliers such as TOI-1231 (~13 Gyr) and K2-18 ( ~1-2 Gyr) and place the stars in Galactic context. Rotation yields age constraints 2-6 times tighter than kinematics where periods are measured, and comparable constraints where periods must be inferred from chromospheric activity. Combining multiple indicators enables more secure classification of these stars' evolutionary states, providing reference points for future comparative studies."
+  },
+  {
+    "title": "ENCP: Episode-Normalized Conformal Prediction for Vision-and-Language Navigation",
+    "url": "http://arxiv.org/abs/2609.17499v1",
+    "arxiv_id": "2609.17499v1",
+    "authors": [
+      "Vicky Feliren",
+      "A. Taufiq Asyhari",
+      "Muhamad Risqi U. Saputra"
+    ],
+    "published": "2026-09-15T17:42:15+00:00",
+    "summary": "Uncertainty estimation for Vision-Language-Navigation (VLN) models is a critical task since it can help identify ambiguous and unreliable predictions, enabling agents to make safer navigation decisions. As one of the most advanced uncertainty estimation frameworks, conformal prediction (CP) offers a promising approach for uncertainty estimation in VLN. However, given that VLN agent requires a sequence of steps, standard calibration in conformal prediction fails to provide coverage guarantee it promises over a dependent, variable-length VLN episode. To this end, we propose Episode-Normalized Conformal Prediction (ENCP), which rescales a nonconformity score by the policy's residual confidence and calibrates one maximum score per episode. Under exchangeable calibration and test episodes, this construction covers the ground truth at every step with probability at least $1 - \u03b1$, while allowing dependence among steps within an episode. Across four VLN policies and three nonconformity scores on R2R and REVERIE dataset, ENCP meets all reported empirical step-coverage targets on the seen-to-unseen evaluation. These results demonstrate that ENCP can provide model-agnostic uncertainty estimates, which might be useful for determining when a VLN agent should defer to a more capable predictor, including human assistance."
+  },
+  {
+    "title": "First-Crossing Reduction and Inference for No-Rescue Effects under Deterministic Rescue",
+    "url": "http://arxiv.org/abs/2609.17495v1",
+    "arxiv_id": "2609.17495v1",
+    "authors": [
+      "Shu Tamano"
+    ],
+    "published": "2026-09-15T17:37:27+00:00",
+    "summary": "Clinical protocols may require rescue medication when a patient's condition crosses a prespecified threshold. The outcome under continued non-rescue is then unobserved after first crossing, preventing point identification without extrapolation assumptions. In this paper, we develop sharp partial identification and inference for this hypothetical estimand while retaining the original no-rescue intervention. We show that bounding this mean reduces exactly to restricting conditional mean effects of withholding rescue at first-crossing histories. Building on this representation, restrictions on prespecified crossing-stratum averages yield three results. (i) A finite convex program gives sharp bounds without modeling post-crossing trajectories, attained by full-data laws that preserve the observed distribution. (ii) Confidence intervals incorporate sampling uncertainty and numerical error to cover the entire sharp set, including strata with no observed crossings. (iii) Under local feasibility conditions, sampling and numerical errors control endpoint accuracy even with zero-probability strata, whereas valid coverage requires no such conditions. Our experiments show that the stratum-average restrictions can yield narrower confidence intervals in larger samples, and that accounting for uncertainty in empty strata maintains valid coverage when rescue is rare."
+  },
+  {
+    "title": "Angle-of-Arrival Determination of Radio-Frequency Fields Using Stark-Shifted Rydberg-EIT Spectra",
+    "url": "http://arxiv.org/abs/2609.17459v1",
+    "arxiv_id": "2609.17459v1",
+    "authors": [
+      "Rajavardhan Talashila",
+      "Zoya Popovic",
+      "Nikunjkumar Prajapati",
+      "Noah Schlossberger",
+      "Christopher L. Holloway"
+    ],
+    "published": "2026-09-15T16:59:54+00:00",
+    "summary": "We demonstrate a method for determining the magnitude of the angle of arrival (AoA) of a linearly polarized radio-frequency (RF) field using the angle-dependent spectral amplitudes of AC Stark-shifted electromagnetically induced transparency (EIT) resonances. An off-resonant RF field produces distinct Stark shifts of the $|m_J|$ sublevels, while their relative excitation strengths depend strongly on the relative orientation of the RF and optical polarizations. Under the controlled polarization geometry considered here, this dependence enables determination of the AoA magnitude without requiring RF phase measurements or spatially separated sensing locations. We experimentally demonstrate the method at RF frequencies of 1.27 GHz, 2 GHz, 3 GHz, and 4 GHz using a subwavelength cesium vapor cell. Within the $20^\\circ-40^\\circ$ region of highest angular sensitivity, the estimated repeatability-based $1\u03c3$ AoA uncertainty ranges from approximately $0.6^\\circ$ to $2^\\circ$ across the investigated RF frequencies. A model combining Floquet-Shirley calculations of the RF-dressed Rydberg states with a coherent hyperfine-to-fine-structure optical excitation model qualitatively reproduces the experimental observations. These results establish a path toward compact, phase-independent AoA sensing using spatially localized Rydberg-atom spectroscopy."
+  },
+  {
+    "title": "Fast, optimal readout of a tethered optomechanical pressure sensor",
+    "url": "http://arxiv.org/abs/2609.17452v1",
+    "arxiv_id": "2609.17452v1",
+    "authors": [
+      "Stephen R. Chen",
+      "Yiliang Bao",
+      "John R. Lawall",
+      "Jason J. Gorman",
+      "Daniel S. Barker"
+    ],
+    "published": "2026-09-15T16:55:19+00:00",
+    "summary": "We demonstrate a fast readout method for tethered optomechanical pressure sensors. The fast readout method allows mechanical ring-down measurement rates that exceed the total mechanical damping rate $\u0393_t$. We model the uncertainty of our ring-down measurements with the Cram\u00e9r-Rao bound, including the effect of thermomechanical noise. Both our data and the Cram\u00e9r-Rao bound indicate that measurement rates on the order of the mechanical damping rate produce the lowest uncertainty. At low pressures, using the optimal measurement rate allows 10$\\times$ faster measurements or 3$\\times$ lower uncertainty compared to allowing our sensor to ring down to the thermomechanical noise floor. Our results allow tethered optomechanical pressure sensors to operate at rates comparable to commercially available pressure gauges, removing an obstacle to adoption of optomechanical pressure sensors in industrial settings."
+  },
+  {
+    "title": "Hamilton-Jacobi Reachability for Hybrid Systems: Unified Goal-Driven Control with Safety Guarantees",
+    "url": "http://arxiv.org/abs/2609.17430v1",
+    "arxiv_id": "2609.17430v1",
+    "authors": [
+      "Javier Borquez",
+      "Shuang Peng",
+      "Somil Bansal"
+    ],
+    "published": "2026-09-15T16:42:23+00:00",
+    "summary": "Hybrid dynamical systems provide a powerful modeling framework for robotic systems, particularly in contact-rich environments. However, ensuring safety and performance in such systems remains challenging due to the intricate coupling between continuous dynamics and discrete mode transitions. In this work, we extend classical Hamilton-Jacobi (HJ) reachability analysis, a formal verification method for continuous-time nonlinear systems, to hybrid dynamical systems. Our framework characterizes safe sets for hybrid systems through a generalized value function defined over both discrete and continuous states while accounting for control constraints and model uncertainty. We additionally provide a numerical algorithm to compute this value function.   Building on these safe sets, we propose two different mechanisms to integrate performance objectives. First, we introduce a hybrid least-restrictive safety filter that intervenes on both the discrete and continuous components of a nominal controller only when necessary to avoid unsafe states, thereby preserving nominal behavior whenever possible. Second, we formulate and compute hybrid backward reach-avoid tubes, enabling the simultaneous enforcement of safety and goal-reaching behavior, an extension not previously addressed within hybrid HJ reachability. This enables the synthesis of continuous and discrete control policies that guarantee both safety and task completion. We validate our framework through simulation studies and real-world experiments on a quadrupedal robot, demonstrating its effectiveness in hybrid mode planning and safety-critical applications."
+  },
+  {
+    "title": "Predictable Modelling and Analysis of Software-defined Vehicle Implementations",
+    "url": "http://arxiv.org/abs/2609.17392v1",
+    "arxiv_id": "2609.17392v1",
+    "authors": [
+      "Pavlo Tokariev",
+      "Yosri Ayari",
+      "Julien Deantoni"
+    ],
+    "published": "2026-09-15T16:27:51+00:00",
+    "summary": "Software-Defined Vehicles (SDVs) rely on middleware-based communication and hardware abstraction mechanisms that introduce temporal uncertainty affecting end-to-end timing guarantees. Previous work proposed probabilistic architectural models for early timing analysis, but the representativeness of these abstractions with respect to SDV implementations remained unclear. This paper presents an experimental framework combining probabilistic design-time timing analysis with a monitored Kuksa-based implementation. The same reaction-time analysis is applied both to simulation and implementation traces, enabling direct comparison between predicted and observed timing behaviour. We additionally introduce a comparison methodology separating conservative coverage from predictive fidelity of timing distributions. The results show that the proposed abstractions remain representative under different middleware load conditions while preserving conservative timing guarantees, supporting incremental timing verification approaches for SDV platforms."
+  },
+  {
+    "title": "Refining Timing Uncertainty from Logical Time Specification to Operation",
+    "url": "http://arxiv.org/abs/2609.17388v1",
+    "arxiv_id": "2609.17388v1",
+    "authors": [
+      "Pavlo Tokariev",
+      "Julien Deantoni"
+    ],
+    "published": "2026-09-15T16:26:37+00:00",
+    "summary": "Real-time and cyber-physical systems are developed through successive refinements from abstract requirements to platform deployments. While timing knowledge evolves throughout this process, existing stochastic real-time formalisms typically require uncertainty to be embedded from the outset or necessitate model reconstruction when new timing information becomes available, hindering iterative timing engineering. This paper presents a refinement-oriented timing specification framework built upon the Clock Constraint Specification Language (CCSL). It supports the progressive introduction of timing knowledge across three levels: logical timing relations, quantitative real-time constraints, and stochastic timing models. Instead of altering behavioural semantics, stochastic information is attached directly to timing quantities as a refinement. This enables implementation measurements and operational observations to be incorporated incrementally within a unified declarative framework. We implement our approach in an OCaml-based simulation tool and evaluate it on a simplified but representative Software-Defined Vehicle use case."
+  },
+  {
+    "title": "Goal-oriented probabilistic forecasting for dynamic PRB allocation in 5G networks",
+    "url": "http://arxiv.org/abs/2609.17297v1",
+    "arxiv_id": "2609.17297v1",
+    "authors": [
+      "Oier Larumbe-Lizarraga",
+      "Roberto Pereira",
+      "Cristian J. Vaca-Rubio"
+    ],
+    "published": "2026-09-15T15:08:36+00:00",
+    "summary": "Efficient physical resource block (PRB) allocation in 5G networks requires accurate demand forecasting. Conventional methods minimize symmetric error metrics (MAE, RMSE), ignoring the operational cost asymmetry where under-provisioning (service degradation) is far costlier than over-provisioning (wasted capacity). We propose a goal-oriented probabilistic forecasting framework that aligns model training with the operator's decision-making objectives. Specifically, we train DeepAR and Temporal Fusion Transformer (TFT) models using the Pinball Loss function and derive the optimal allocation quantile from the operator's cost matrix. Evaluation on a real beam-level 5G traffic dataset shows that the proposed approach reduces operational cost compared to MSE-trained baselines while maintaining calibrated uncertainty estimates. The framework enables dynamic PRB allocation that explicitly balances service reliability against resource efficiency."
+  },
+  {
+    "title": "GAUGE: A Formal Framework for Measuring Cryptographic Security under Heterogeneous Adversary Cost Models",
+    "url": "http://arxiv.org/abs/2609.17281v1",
+    "arxiv_id": "2609.17281v1",
+    "authors": [
+      "Bhanwar Gupta",
+      "Sanjeev Rana"
+    ],
+    "published": "2026-09-15T14:55:29+00:00",
+    "summary": "Standards bodies report cryptographic security as a single number of bits, but this value depends on the adversary cost model used to price time, memory, and quantum resources. Different conventions can therefore produce different rankings of cryptographic schemes. GAUGE represents security as a function over admissible cost models, called a security profile. Comparisons then become comparisons between profiles, and ranking reversals become an explicit structural property rather than a measurement error.   We formalize price functionals over a cone of adversary cost models, show that security profiles are piecewise-linear and concave, and prove a rating trilemma: when two profiles cross, no rating can simultaneously be faithful to underlying costs, total over comparable pairs, and independent of the chosen cost model. We provide a polynomial-time linear-programming procedure that certifies whether the ranking of two schemes is robust, reverses under admissible models, or is genuinely incomparable.   We extend GAUGE with a two-layer risk measure combining stochastic cryptanalytic decay with uncertainty over the appropriate cost model. We evaluate the framework on NIST post-quantum standards, classical anchors, and a 25-year chronology of cryptanalytic breaks. The analysis certifies a ranking reversal for ML-KEM-512 versus AES-128 from a 4-5% shift in memory pricing, and measures a lattice-sieving cost drift of 9.79 bits per year over eight years. A hybrid X25519 + ML-KEM-768 handshake reduces combined-break probability twenty-fold at a 2.3 kilobyte cost. The artifact reproduces all tables and figures in under seven seconds. GAUGE provides an explicit and auditable framework for reporting cryptographic security under competing cost models."
+  },
+  {
     "title": "MessyMem: Learning-from-Doing Memory for Mobile Manipulation",
     "url": "http://arxiv.org/abs/2609.15976v1",
     "arxiv_id": "2609.15976v1",
