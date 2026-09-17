@@ -1,5 +1,119 @@
 [
   {
+    "title": "Period-Inverted Blast-Radius Normalization for a Non-Ablating Hypersonic Reentry Source Using OSIRIS-REx Capsule Infrasound",
+    "url": "http://arxiv.org/abs/2609.19141v1",
+    "arxiv_id": "2609.19141v1",
+    "authors": [
+      "Elizabeth A. Silber"
+    ],
+    "published": "2026-09-16T17:59:24+00:00",
+    "summary": "Cylindrical blast wave theory relates infrasound from hypersonic sources to energy deposition through a characteristic blast radius R_0, yet the normalization constant k in the scaling R_0 = k (E_0/p_0)^(1/2) differs by up to 40% across the formulations examined here. This uncertainty affects period-based source characterization for elevated atmospheric sources relevant to infrasound monitoring. Using infrasound from the OSIRIS-REx Sample Return Capsule reentry on 24 September 2023, observed periods at 39 stations spanning source altitudes of 44-62 km are inverted through a weak-shock propagation model to obtain period-inverted blast radii R_0,obs without prescribing a blast-wave normalization. Combining R_0,obs with aerodynamic drag energy yields a median k = 0.396, with a modified-bootstrap 95% interval of 0.378-0.474 when the reported period-measurement uncertainties are included. This result is consistent with the Sakurai (1965) and Jones et al. (1968)/Plooster (1970) normalizations, while Few (1969) lies outside the reference confidence interval. However, station-level k values exhibit significant along-trajectory structure (Spearman r_s = -0.84, p < 0.001), indicating that k_med is an ensemble-effective normalization rather than a station-invariant constant. The Mach-diameter approximation R_0 ~ M d_m overestimates R_0 by a factor of ~3.4 for this effectively non-ablating source. A period-based relation, R_0 = 23.99 tau - 0.73 (R^2 = 0.991, MAPE = 2.3%), provides a rapid blast-radius estimator whose residuals show no detectable altitude dependence. These results provide inverse calibration constraints and practical period-based source-characterization relations for OSIRIS-REx-like non-ablating hypersonic entries, while highlighting the need for multi-event validation before broader application."
+  },
+  {
+    "title": "Quadratic G-BSDEs for bond pricing with endogenous short-rate feedback",
+    "url": "http://arxiv.org/abs/2609.19094v1",
+    "arxiv_id": "2609.19094v1",
+    "authors": [
+      "Jaehyun Kim",
+      "Hyungbin Park"
+    ],
+    "published": "2026-09-16T17:29:23+00:00",
+    "summary": "We study robust bond valuation with endogenous short-rate feedback under volatility uncertainty. Within the $G$-expectation framework, the dependence of the short rate on the bond price yields a nonlinear fixed-point problem, represented by a quadratic $G$-BSDE for the logarithmic price. Under suitable assumptions, we establish existence, uniqueness, comparison, and stability for bounded finite-horizon solutions. An additional strict monotonicity condition yields a unique bounded infinite-horizon solution and exponential convergence of finite-horizon approximations on compact time intervals. We apply these results to inverse short-rate design, constructing discount-rate coefficients that reproduce admissible smooth bond-price targets at a fixed maturity. For long maturities, we construct feedback rules under which the compensated logarithmic price converges exponentially to a prescribed bounded state-dependent profile, while the asymptotic yield equals a specified target."
+  },
+  {
+    "title": "Securing quantum error correction against misleading advice from AI agents",
+    "url": "http://arxiv.org/abs/2609.19090v1",
+    "arxiv_id": "2609.19090v1",
+    "authors": [
+      "A. Bar\u0131\u015f \u00d6zg\u00fcler"
+    ],
+    "published": "2026-09-16T17:26:54+00:00",
+    "summary": "Can an attacker turn influence over an artificial intelligence (AI) adviser into a harmful quantum error-correction update? We identify an ambiguity in passive syndrome records that obstructs recovery selection, then show how additional calibration measurements support certified recovery updates under uncertainty and drift. In an odd-distance square toric code with error-free preparation, syndrome measurements, and recovery operations, opposite coherent $X$ rotations produce identical passive syndrome-history distributions. Yet a fixed phase correction can help at one sign and harm at the other. A terminal logical measurement on known encoded calibration states supplies the missing sign information. A separate evaluator accepts an update only when calibration uncertainty and a justified drift bound certify improvement over the current recovery, without assuming that the adviser recommends correctly. In simulated advice attacks, calibration-confidence checks reject harmful proposals while retaining beneficial updates under honest advice. We derive sufficient limits on calibration age that require improvement through deployment. In matched simulations, a validated channel-specific bound retains more beneficial updates than the general bound after accounting for evaluation time, while preventing the tested harmful activations under the stated drift assumption. A separate surface-code experiment includes stochastic circuit faults and noise changing during acquisition. Deterministic controllers achieve at least as many beneficial updates with the same observations. Violating the drift assumption permits harmful acceptance in the toric experiment. The results identify information required for recovery selection, establish conditional guarantees against harmful updates, and quantify the recovery improvements forgone through conservative acceptance."
+  },
+  {
+    "title": "A General Kernel Framework for Non-CND Distance Measures Using |D|-Dimensional Sparse Landmark Embeddings",
+    "url": "http://arxiv.org/abs/2609.19083v1",
+    "arxiv_id": "2609.19083v1",
+    "authors": [
+      "Marcus M. Noack",
+      "Maher B. Alghalayini",
+      "Mark D. Risser"
+    ],
+    "published": "2026-09-16T17:23:50+00:00",
+    "summary": "Kernel methods, and Gaussian Processes (GPs) in particular, require a Hilbertian distance measure---one whose square is conditionally negative definite (CND)---to guarantee positive semi-definiteness (PSD) of the kernel matrix; a condition that fails for many natural input spaces, including smooth manifolds and spaces of probability distributions. We propose the Sparse Landmark Embedding (SLE) kernel, which eliminates this requirement entirely. Each input is embedded into a sparse feature vector via compactly supported bump functions centered at all |D| training points; applying any standard PSD kernel in this embedding space yields a kernel that is provably PSD for arbitrary distance measures. The compact support automatically controls embedding sparsity, keeping kernel matrices well-conditioned and computationally tractable despite the high ambient dimension. We provide theoretical guarantees on PSD, sparsity, stability, and universal approximation, and demonstrate, using geodesic and Wasserstein distances, that the SLE kernel matches or substantially exceeds domain-specific baselines in both predictive accuracy and uncertainty quantification."
+  },
+  {
+    "title": "Exact logical error rates for magic state cultivation",
+    "url": "http://arxiv.org/abs/2609.18922v1",
+    "arxiv_id": "2609.18922v1",
+    "authors": [
+      "Kwok Ho Wan",
+      "Ainhoa Zapirain"
+    ],
+    "published": "2026-09-16T16:58:36+00:00",
+    "summary": "We compute exactly the acceptance and logical error rates for the distance $d=3$ and $d=5$ magic state cultivation circuits from Clifft [arXiv:2604.27058] and SOFT [arXiv:2512.23037] using Pauli propagation and binary tensor contraction. Actual $T$ gates are studied, not the $S$-gate proxy used for sampling. The calculation includes every fault order at several circuit-level noise strengths ($p$). We provide a series expansion form to the logical error rates, through order $(p/(1-p))^{10}$. The analytical results recover the numerical values from Clifft and SOFT at both $d=3$ and $d=5$ to within their sampling uncertainty. Then, we show that the $d=3$ and $d=5$ circuits actually have fault distances of $d_{\\text{fault}}=2$ and $d_{\\text{fault}}=3$ respectively, explaining the similar distance degrading effects from the companion code of [Quantum 10, 2134 (2026)]."
+  },
+  {
+    "title": "Transverse Tau Spin Correlations and the Weak Electric Dipole Moment at Future $Z$ Factories",
+    "url": "http://arxiv.org/abs/2609.18892v1",
+    "arxiv_id": "2609.18892v1",
+    "authors": [
+      "Xin-Yu Du",
+      "Zi-Yue Zou",
+      "Xiao-Gang He",
+      "Keping Xie"
+    ],
+    "published": "2026-09-16T16:25:03+00:00",
+    "summary": "Tau spin correlations at the $Z$ pole probe CP violation with a sensitivity that depends strongly on the spin projection. For a fixed $Z$ sample, transverse moments avoid the chirality suppression of longitudinal and triple-product observables, enhancing the response by a factor $m_Z/2m_\u03c4=26$. Two transverse moments also select the axial tau charge, gaining $|a_\u03c4/v_\u03c4|=13.5$; the sign-weighted normal moment has a response $521$ times that of the triple product. These two transverse moments give single-parameter uncertainties no more than $14\\%$ above our calculated Cramer-Rao bound for independent single-pion measurements, approaching the best precision within this analysis. A five-moment fit with $5\\%$ off-peak luminosity yields statistical uncertainties of $4.5 (5.5)\\times10^{-7}$ and $2.7 (3.2)\\times10^{-6}$ on $\\operatorname{Re}\\widetilde{d}_\u03c4^W$ and $\\operatorname{Im}\\widetilde{d}_\u03c4^W$, respectively, at FCC-ee (CEPC), improving on ALEPH by three orders of magnitude. The electromagnetic-dipole uncertainty is $9.6 (12)\\times10^{-6}$ on $\\operatorname{Re}\\widetilde{d}_\u03c4^\u03b3$, two orders beyond Belle. These projections assume ideal angular reconstruction and constant form factors across the scan."
+  },
+  {
+    "title": "Time-Optimal Operation of a Load-Hoisting Gantry Crane",
+    "url": "http://arxiv.org/abs/2609.18872v1",
+    "arxiv_id": "2609.18872v1",
+    "authors": [
+      "Eric Mountain",
+      "Tarunraj Singh"
+    ],
+    "published": "2026-09-16T16:09:20+00:00",
+    "summary": "This paper addresses the problem of designing time-optimal control profiles for point-to-point control of a gantry crane moving in a two dimensional plane. It is assumed that the hoisting motor completes the hoisting maneuver at a constant rate and completes its transition in the same time that it takes for the cart to reach its terminal position. This results in a linear time-varying model and a closed form solution to the time-optimal control problem is shown to be parameterized with Bessel functions. A comprehensive analysis of the structure of the time-optimal control profile is studied by examining the switching function which illustrates the mechanism of introduction and decimation of switches in the bang-off-bang control profile. The variation of the number of switches in the optimal control profile is presented and a non-intuitive control profile structure is noted, one which initiates with a stationary cart, while the hoisting cable length is changed prior to the initiation of motion of the cart. To address the issue of uncertainties in the initial cable length, a model with the sensitivity of the system states with respect to the initial cable length is used to augment the system model and is used for the design of robust time-optimal controllers. Experimental results validate the time-optimal and robust time-optimal control profiles."
+  },
+  {
+    "title": "Physics-based prediction, uncertainty quantification and decision-making for IN718 crystallographic texture intensity across LPBF defocus regimes",
+    "url": "http://arxiv.org/abs/2609.18863v1",
+    "arxiv_id": "2609.18863v1",
+    "authors": [
+      "Yisheng Lu",
+      "John Riris",
+      "Jie Song",
+      "Yao Fu",
+      "Jie Chen"
+    ],
+    "published": "2026-09-16T16:02:37+00:00",
+    "summary": "Reliable prediction of crystallographic texture in laser powder bed fusion is critical for linking process conditions with anisotropic response and for qualification. However, black-box models may fail under shift and cannot distinguish weak data support from loss of physical validity. This study develops a two-stage physics-based model for <001> || BD (build direction) texture in Inconel 718. Stage 1 maps process variables to melting mode and melt pool geometry. Stage 2 predicts texture by combining an empirical physics model with a random-forest residual model. A k-nearest-neighbor weight attenuates residual corrections for poorly supported queries, while a study-specific areal beam-power-density criterion withholds predictions outside the adopted conduction envelope. Conformal intervals are evaluated on the retained physics-valid set, and SHAP and Sobol analyses assess residual sensitivity. Under a controlled leave-one-defocus-out evaluation, the physics anchor achieved R^2 = 0.778, against -0.001 for the black-box model and 0.750 for the gated hybrid. Under leave-one-group-out cross-validation, the gated hybrid reached R^2 = 0.592 against 0.538 for the black-box model. Retained-set coverage was 92.9% at a mean full width of 3.65 multiples of a uniform distribution (MUD) under grouped cross-validation and 100% at a width of 3.21 MUD under transfer to a withheld +80 mm defocus regime. An illustrative mapping produced a retained BD elastic-modulus span of 127-187 GPa. On nine conditions from a separately built sample set, the framework withheld three, attenuated three, and matched the measured ordering for the rest. Separating data applicability, physics validity, and predictive uncertainty into distinct decisions lets the framework transfer where an unconstrained model does not, and withhold predictions where no model class performs adequately."
+  },
+  {
+    "title": "Learning to Solve Two-Stage Stochastic Unit Commitment Problems with Quality Guarantees",
+    "url": "http://arxiv.org/abs/2609.18859v1",
+    "arxiv_id": "2609.18859v1",
+    "authors": [
+      "Andrea Fusco",
+      "Andrea Lodi",
+      "Lavanya Marla"
+    ],
+    "published": "2026-09-16T16:00:07+00:00",
+    "summary": "Two-stage stochastic Mixed-Integer Linear Programs are a canonical modeling tool to optimize power system operations under uncertainty, yet their extensive-form counterparts scale linearly with the number of scenarios and quickly become computationally prohibitive under day-ahead time constraints. We propose an Input Convex Neural Network architecture to learn a convex surrogate of the second-stage value function, enabling fast first-stage optimization while preserving convexity by construction. We couple the surrogate with a Neural-Benders correction loop that refines the first-stage solution a posteriori, recovering the exact optimum whether the network overestimates or underestimates the recourse cost, and certifying solution quality independently of surrogate accuracy. We evaluate the method on IEEE Stochastic Unit Commitment benchmarks (case9-case118) under both continuous and integer recourse. The proposed approach achieves solutions with zero optimality gap on the $K$-scenario instance across all test cases and scenario dimensions $K \\in \\{10, 50, 100\\}$, with speedups up to $214\\times$ over the Extensive Form in the integer setting. Solve times are stable across scenario realizations and compatible with day-ahead time windows on the tested benchmark instances."
+  },
+  {
+    "title": "Quantum Computing in Next-Gen Smart Grid Operations: A Comprehensive Review",
+    "url": "http://arxiv.org/abs/2609.18847v1",
+    "arxiv_id": "2609.18847v1",
+    "authors": [
+      "Md Habib Ullah"
+    ],
+    "published": "2026-09-16T15:53:38+00:00",
+    "summary": "The rapid proliferation of grid-edge distributed energy resources has significantly increased the operational complexity of modern power systems. Consequently, conventional computational techniques face growing scalability and computational-efficiency challenges in addressing large-scale optimization and control, uncertainty management, nonlinear dynamics, and combinatorial decision-making in smart grid operations. Quantum computing has therefore emerged as a promising computational paradigm that can complement classical methods in addressing selected computationally intensive problems. In this context, this paper presents a comprehensive structured review of quantum computing applications in smart grid operations. Following a transparent keyword-based literature search, the paper classifies and assesses existing studies across monitoring and estimation, system planning, operation and control, security, reliability and resilience, stability assessment, data-driven intelligence, and digital twin technologies. The paper also describes fundamental quantum-computing concepts and key algorithms, highlighting their relevance for power system applications. Furthermore, it reviews the current state of quantum hardware, software frameworks, simulators, cloud services, and emerging hardware-agnostic ecosystems that support cross-platform application development and deployment. The reviewed studies are examined by implementation environment, benchmarking practices, application scale, and evidence of computational advantage. Finally, the principal challenges associated with practical implementation are discussed, and future research directions are outlined. This paper provides a consolidated and evidence-calibrated perspective on the current state and future potential of quantum computing for next-generation smart grid operations."
+  },
+  {
     "title": "Stellar Ages of M Dwarf Hosts of Temperate Sub-Neptunes",
     "url": "http://arxiv.org/abs/2609.17505v1",
     "arxiv_id": "2609.17505v1",
