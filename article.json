@@ -1,5 +1,152 @@
 [
   {
+    "title": "PosteriorBench: From Point Estimates to Posterior Matching in Evaluating Generative Inverse Solvers",
+    "url": "http://arxiv.org/abs/2609.20794v1",
+    "arxiv_id": "2609.20794v1",
+    "authors": [
+      "Jiachen Yao",
+      "Zi-Siang Hsu",
+      "Xi Deng",
+      "Aditi Gupta",
+      "Xin Ju",
+      "Sally M Benson",
+      "Gege Wen",
+      "Anima Anandkumar"
+    ],
+    "published": "2026-09-17T17:54:12+00:00",
+    "summary": "Generative models are increasingly used to solve scientific inverse problems, but existing evaluations still focus primarily on whether a method can produce a single plausible reconstruction. This is insufficient for ill-posed problems, where multiple solutions may be consistent with the same sparse or noisy observations. In these settings, a method can achieve strong pointwise accuracy while still failing to capture the true posterior through mode collapse, overconfident uncertainty, or averaging incompatible solutions. We introduce PosteriorBench, a benchmark for evaluating the distributional accuracy of generative inverse solvers. PosteriorBench evaluates four physics-based inverse problems: Darcy flow inversion, Poisson source recovery, carbon capture and storage, and light transport material inference. For each task, we construct high-fidelity reference posteriors using computationally heavy but established procedures such as rejection sampling and Markov chain Monte Carlo, enabling direct assessment of whether solvers recover the full set of solutions rather than the single best sample. We pair these references with a five-metric posterior evaluation suite: posterior-mean error, posterior-standard-deviation error, maximum mean discrepancy, sliced Wasserstein distance, and radially averaged power-spectrum error. These metrics assess pointwise accuracy, marginal uncertainty, distributional alignment, and global frequency fidelity. The benchmark spans sparse sensing, low-resolution observations, nonlinear forward models, varying noise levels, and multimodal priors, with a unified pipeline for distribution matching and uncertainty quantification. Our experiments reveal substantial distribution-matching gaps across current solvers, while showing that neural operators improve resolution robustness, and guidance weights and generation noise are key to posterior-variance calibration."
+  },
+  {
+    "title": "A systematic search for long GRBs without supernovae: global properties and rate of events",
+    "url": "http://arxiv.org/abs/2609.20787v1",
+    "arxiv_id": "2609.20787v1",
+    "authors": [
+      "Yu-Han Yang",
+      "Eleonora Troja",
+      "Nicolas Monsalves",
+      "Massine El Kabir",
+      "Narjes Shahamat Dehsorkh",
+      "Hira Waseem"
+    ],
+    "published": "2026-09-17T17:52:57+00:00",
+    "summary": "Some long duration gamma-ray bursts (LGRBs) are not associated with bright supernovae (SNe), indicating that their explosion mechanism differs from the traditional collapsar channel. SN-less LGRBs are rare, thus it remains unclear whether they are sporadic outliers or a substantial component of the GRB population. In this work, we use two decades of Swift observations to conduct a systematic search for nearby ($z\\lesssim$0.35) LGRBs without a confirmed SN association. Our analysis reveals a heterogeneous population linked, in part, to star-forming or dusty environments and, in part, to quiescent galaxies. Through the analysis of their high-energy properties, afterglows, and environments, we identify a sample of LGRBs with robust SN limits and distance scales, more than doubling the number of candidate SN-less events. From our fiducial sample, we derive a volumetric rate, not corrected for beaming, of $R = (0.5 \\pm 0.2) {\\rm~Gpc^{-3}\\ yr^{-1}}$, comparable to the apparent rate of short duration GRBs (SGRBs) and standard LGRBs with SNe with luminosities $L \\gtrsim\\,10^{50}\\,{\\rm erg\\,s^{-1}}$. For plausible beaming factors, the inferred rate of SN-less LGRBs is consistent with several compact binary merger channels, although the allowed parameter space is already narrow if the entire population is attributed to a single progenitor channel. Owing to the small number of candidate events and the uncertainties in their distance scale, our sample leaves the low-luminosity tail unconstrained. A larger sample will be needed to determine whether they are the faint tail of known progenitor channels or evidence of a distinct route to relativistic explosions."
+  },
+  {
+    "title": "The Data Hospital: A Workflow-Based Concept for Explainable Research Data Quality Assistance",
+    "url": "http://arxiv.org/abs/2609.20782v1",
+    "arxiv_id": "2609.20782v1",
+    "authors": [
+      "Lennard Scheurer",
+      "Robert Porzel",
+      "Vinicius Carrillo Beber",
+      "Rainer Malaka"
+    ],
+    "published": "2026-09-17T17:50:30+00:00",
+    "summary": "Research data quality is multidimensional and purpose-dependent: it emerges from the interplay of data, intended use, contextual knowledge, documentation, intervention decisions, and traceability. This concept paper presents the Data Hospital, a human-in-the-loop control and interaction model for research data quality. Using a hospital metaphor, datasets are admitted, contextualized, assessed, reviewed in specialized stations, modified only through approved interventions, validated, documented, and made replayable where interventions are sufficiently specified. The concept combines deterministic profiling and inspectable evidence with optional evidence-bound explanation by Dr. Data and explicit user decisions. Preserved Raw Data and controlled working states separate observation from intervention. The contribution is not a new cleaning or imputation algorithm, but a ten-stage workflow that makes assessability, uncertainty, intervention authority, provenance, and process reproducibility visible. The prototype is an implementation-backed demonstrator rather than a released research artifact and illustrates selected parts of the concept through representational standardization, imputation, Patient File documentation, and replay. The paper concludes with a staged agenda for subsequent technical and user-centered evaluation."
+  },
+  {
+    "title": "GeoAAC: Geometry-Based Adaptive Action Chunking from Denoising Trajectories in VLA Policies",
+    "url": "http://arxiv.org/abs/2609.20776v1",
+    "arxiv_id": "2609.20776v1",
+    "authors": [
+      "Xin Chen",
+      "Sen Chen",
+      "Yujuan Ding",
+      "Jian Liu",
+      "Guoqing Wang",
+      "Wei Ye",
+      "Heng Tao Shen",
+      "Yi Bin"
+    ],
+    "published": "2026-09-17T17:48:07+00:00",
+    "summary": "Action chunking is widely used for action generation and execution in Vision-Language-Action (VLA) policies, yet existing approaches commonly use a fixed action horizon. During a rollout, different task stages may require different levels of action continuity, control precision, and closed-loop feedback, making a fixed horizon unable to accommodate changing control requirements. We propose \\textbf{GeoAAC}, a geometry-based adaptive action chunking method for flow-based VLA policies that adjusts the action horizon according to the reliability of the current action prediction. We show that the geometry of Flow Matching denoising trajectories provides process-level information for characterizing prediction reliability, with geometric variation across action prefixes remaining positively correlated with predictive uncertainty. GeoAAC uses this prefix-wise geometry to construct a horizon-wise geometric profile and adaptively determine the action horizon from a single generation without additional training. Experiments with GR00T N1.5 and \u03c00.5 on LIBERO, LIBERO-Pro, RoboCasa365, and real-world manipulation tasks show consistent improvements over fixed-action-horizon baselines and existing adaptive methods, including up to 8.7 percentage points in simulation and an increase in average real-world success rate from 53.3\\% to 74.4\\%."
+  },
+  {
+    "title": "Engineering Weak Universality with Quantum Dots",
+    "url": "http://arxiv.org/abs/2609.20755v1",
+    "arxiv_id": "2609.20755v1",
+    "authors": [
+      "Warre Missiaen",
+      "Michael Wimmer",
+      "Natalia Chepiga"
+    ],
+    "published": "2026-09-17T17:41:38+00:00",
+    "summary": "Quantum critical theories with continuously varying critical exponents remain challenging to access experimentally. Here, we propose quantum-dot architectures for realizing the quantum Ashkin-Teller and XYZ/eight-vertex models using resonator-mediated and direct Coulomb interactions, respectively. We focus on the Ashkin-Teller and eight-vertex critical lines, which are connected by a non-local duality relating local order parameters to topological string operators. The resulting platforms provide microscopic control over the parameters explicitly controlling critical exponents, with the Coulomb-based implementation enabling stronger interaction regimes. We demonstrate that continuously varying critical behavior can already be resolved in short chains. For experimentally realistic parameters, the accessible interaction range is expected to produce changes in the critical exponents of order $10\\%$ for the Ashkin-Teller model and substantially larger changes for the eight-vertex model. In both cases, the predicted variations lie well above the estimated measurement uncertainties."
+  },
+  {
+    "title": "HerHealthEval: Evaluating Multilingual and Register-Sensitive Understanding of Women's Health Communication",
+    "url": "http://arxiv.org/abs/2609.20684v1",
+    "arxiv_id": "2609.20684v1",
+    "authors": [
+      "Hassan Saeed Hassan Albattra",
+      "Mazen Mohammed Bahgat",
+      "Rahatara Ferdousi",
+      "Hana Essam Sayed Ahmed Amrya",
+      "Mariam Mousa"
+    ],
+    "published": "2026-09-17T16:53:47+00:00",
+    "summary": "Large language models are increasingly used in healthcare communication, yet most evaluations emphasize response quality while assuming that the user's concern has been interpreted correctly. We introduce HerHealthEval, a controlled evaluation framework for multilingual understanding of women's-health communication. For each clinical case, HerHealthEval provides matched versions in English, French, and Modern Standard Arabic using six communicative forms: canonical, clinical, layperson, indirect or hedged, emotionally concerned, and deliberately under-specified. The first five express the same underlying concern and retain the same clinical information, whereas the under-specified form intentionally omits relevant details to test whether the model recognizes that clarification is needed. We evaluate a multilingual instruction model and QLoRA-adapted variants on concern classification, risk calibration, clarification behavior, parse compliance, and cross-form consistency. Results reveal that aggregate accuracy and consistency can conceal safety-relevant failures. A multilingual adaptation model reaches 0.994 under-triage in French and Arabic under language-asymmetric risk supervision. A controlled re-adaptation using source-derived, language-invariant risk labels reduces under-triage to 0.572 and 0.558, respectively. These findings show that robust multilingual healthcare evaluation requires explicit testing of register variation, uncertainty handling, and the provenance and invariance of adaptation labels."
+  },
+  {
+    "title": "FunArt: Decoding Functional Structure and Articulation from Generative 3D Latents",
+    "url": "http://arxiv.org/abs/2609.20673v1",
+    "arxiv_id": "2609.20673v1",
+    "authors": [
+      "Dennis Rotondi",
+      "Abdelrhman Werby",
+      "Kai O. Arras"
+    ],
+    "published": "2026-09-17T16:48:05+00:00",
+    "summary": "To operate effectively in human environments, robots must identify articulated objects, segment their movable and interactive parts, and estimate their kinematic models. Existing articulated scene representations typically recover kinematics from observed interactions, while methods operating on static scans often decouple articulation from functional interactive elements. We present FunArt, a framework that constructs articulation-aware functional 3D scene graphs from posed RGB-D observations captured in a single static configuration. FunArt reconstructs object instances, converts their fused geometry directly into the O-Voxel representation of TRELLIS.2, and exploits its frozen, sparse-compression VAE as a structural prior. A lightweight query-based decoder combines compact object-level latents with dense, surface-aligned features to jointly segment movable parts and functional interactive elements while estimating motion type, axis, origin, and range. On the Articulate3D dataset, FunArt achieves state-of-the-art performance across movable-part segmentation, articulation estimation, and functional-element segmentation, both with and without ground-truth object input. In the end-to-end setting, it outperforms the strongest baselines by 1.5 AP_{50} points for movable parts, 2.8 AP_{50} points under joint origin-and-axis constraints, and 6.7 AP_{50} points for functional elements. These results demonstrate that generative 3D latents encode actionable structural cues that can initialize robotic perception and planning before physical interaction."
+  },
+  {
+    "title": "Local constraints on alcohol--thioalcohol analogs in G35.2N",
+    "url": "http://arxiv.org/abs/2609.20671v1",
+    "arxiv_id": "2609.20671v1",
+    "authors": [
+      "Xuefang Xu",
+      "Shanghuo Li",
+      "Qian Gou",
+      "Chunguo Duan",
+      "Laurent Pagani",
+      "Di Li",
+      "Jun Kang",
+      "Jiaxin Du",
+      "Jiaxiang Jiao"
+    ],
+    "published": "2026-09-17T16:46:39+00:00",
+    "summary": "The chemistry of sulfur-bearing complex organic molecules in dense star-forming environments remains uncertain, partly because the dominant sulfur reservoirs in dense gas and ices are poorly identified. Alcohol--thioalcohol pairs allow direct comparisons of structurally related O- and S-bearing molecules. We present ALMA Band 6 observations of CH$_3$OH/CH$_3$SH and C$_2$H$_5$OH/C$_2$H$_5$SH toward three spectral-extraction positions (MM3-pos, MM4-pos, and MM5-pos) in the MM3--MM5 region of G35.2N. Local thermodynamic equilibrium modeling yields column densities and abundance ratios. CH$_3$OH column densities were inferred from $^{13}$CH$_3$OH assuming $^{12}$C/$^{13}$C = 50 to mitigate optical-depth effects. CH$_3$OH, CH$_3$SH, and C$_2$H$_5$OH are robustly constrained at all three positions; C$_2$H$_5$SH is robustly constrained at MM3-pos and MM5-pos but remains tentative at MM4-pos. The corresponding adopted column-density ranges are $(1.8-2.7)\\times10^{18}$, $(1.7-2.6)\\times10^{16}$, $(5.7-8.5)\\times10^{16}$, and $(2.4-4.6)\\times10^{15}$ cm$^{-2}$. The CH$_3$OH/C$_2$H$_5$OH and CH$_3$OH/CH$_3$SH ratios are consistent across the positions within uncertainties, with nominal values of 31--32 and 100--110, respectively. Comparisons with chemically rich sources and warm-up chemical models show that CH$_3$OH/C$_2$H$_5$OH lies within the range measured elsewhere, whereas CH$_3$OH/CH$_3$SH exhibits greater source-to-source variation. The ethyl-level O/S comparison remains less certain because many literature C$_2$H$_5$SH measurements provide only lower limits. CH$_3$OH/CH$_3$SH is thus the best-constrained O/S alcohol--thioalcohol ratio in these data and provides an empirical probe of source-dependent sulfur-bearing organic chemistry. More sensitive C$_2$H$_5$SH observations are needed to test C$_2$H$_5$OH/C$_2$H$_5$SH."
+  },
+  {
+    "title": "SmellDiffusion: Diffusion-Based Quadruped Navigation with Olfactory Scene Graphs",
+    "url": "http://arxiv.org/abs/2609.20624v1",
+    "arxiv_id": "2609.20624v1",
+    "authors": [
+      "Faith Ogunwoye",
+      "Iana Zhura",
+      "Hajira Amjad",
+      "Timofei Kozlov",
+      "Didar Seyidov",
+      "Dmitrii Plotnikov",
+      "Fedor Fedorov",
+      "Dzmitry Tsetserukou"
+    ],
+    "published": "2026-09-17T16:09:04+00:00",
+    "summary": "A robot sent to a named gas leak must preserve gas identity, estimate the source, and navigate to the resulting goal. We present SmellDiffusion, a simulation pipeline that represents species-specific gas zones in an open-vocabulary olfactory scene graph and shares the selected goal between classical and diffusion planners. Its key components are a peak-local geometric gate for selective source correction and diffusion-based, gas-guided trajectory generation. Among 424 unique source-wind configurations in solved flow, 28 have a concentration peak displaced more than 0.5m from the source. A source-independent geometric gate, calibrated only on the training split and evaluated at the observed peak, detects 9 of 10 held-out displacements at 0.64 precision. Gating a precomputed forward-matching correction reduces mean error on the displaced cases from 1.468m to 0.592m (60%), using matching for only 14/204 cases. All-case mean error falls from 0.205m to 0.180m. All planners receive the same scene-graph source estimate as their goal. In a controlled comparison, best-of-ten diffusion achieves mean gas exposure comparable to gas-guided A* (0.0476 versus 0.0455). A single diffusion proposal takes 41.7ms, compared with 72.3ms for gas-guided A*, although best-of-ten sequential sampling increases total runtime. Plain A* also reaches the same goal and remains the fastest and shortest-path method. Six matched Gazebo runs give mean robot-to-source errors of 0.39m for A* and 0.31m for diffusion."
+  },
+  {
+    "title": "Coupled Orbital and Interior Evolution of Sub-Neptunes",
+    "url": "http://arxiv.org/abs/2609.20611v1",
+    "arxiv_id": "2609.20611v1",
+    "authors": [
+      "Ritika Sethi",
+      "Sarah Millholland",
+      "Tim Hallatt"
+    ],
+    "published": "2026-09-17T15:56:54+00:00",
+    "summary": "Recent observations have yielded the first measurements of young exoplanet demographics. Close-in sub-Neptune occurrence rates appear to rise from young ($10-100$ Myr) to intermediate (100 Myr $-$ 1 Gyr) ages and then decline sharply in the old ($\\gtrsim 1$ Gyr) Kepler field population. In this paper, we test whether these observations can be explained by the effects of planetary cooling, atmospheric mass loss, and tidal orbital migration, which we model through a fully coupled evolution framework. The orbital evolution is assumed to operate exclusively through high-eccentricity migration, in effort to estimate the maximum possible contribution from this migration channel. In reality, only a subset of planetary systems are expected to undergo HEM. We find that high-eccentricity migration rapidly populates the close-in sub-Neptune bin, producing a sharp rise in occurrence within the first $\\sim 15$ Myr. After this early phase, the occurrence evolves only weakly. While the modeled young to intermediate-age evolution is broadly consistent with the observed trend within the uncertainty limits, it does not support the idea of a sustained young-to-intermediate rise driven by tidal migration. It also fails to reproduce the sharp decline in occurrence seen from intermediate to old ages, motivating additional physics or formation channels to be included in future models."
+  },
+  {
     "title": "Period-Inverted Blast-Radius Normalization for a Non-Ablating Hypersonic Reentry Source Using OSIRIS-REx Capsule Infrasound",
     "url": "http://arxiv.org/abs/2609.19141v1",
     "arxiv_id": "2609.19141v1",
