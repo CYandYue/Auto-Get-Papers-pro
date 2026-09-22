@@ -1,5 +1,137 @@
 [
   {
+    "title": "MIGU: Multimodal Instruction Grounding under Uncertainty for Manipulation Planning",
+    "url": "http://arxiv.org/abs/2609.24995v1",
+    "arxiv_id": "2609.24995v1",
+    "authors": [
+      "Mingke Lu",
+      "Anxing Xiao",
+      "David Hsu"
+    ],
+    "published": "2026-09-21T17:58:22+00:00",
+    "summary": "Understanding natural human instructions is crucial for deploying robots in human-centric environments. We study multimodal instruction grounding, where language and gesture provide complementary but uncertain cues. We present MIGU, a modular framework that combines semantic and geometric evidence into a unified grounding belief and connects it to manipulation planning. MIGU constructs a 3D geometric likelihood by propagating viewing-direction and depth uncertainty through eye-finger geometry while accounting for hand-direction estimation error. A vision-language model (VLM) provides semantic priors over candidate objects and regions, which are combined with the geometric likelihood through Bayes-inspired fusion. The resulting belief supports behavior planning to either proceed directly to downstream planning or request clarification. Grounded targets then define goals for mobile manipulation and tabletop task-and-motion planning. On a real-world benchmark, MIGU outperforms all evaluated baselines, while ablations support the benefit of explicit multimodal uncertainty modeling. Project website: multimodal-instruction.github.io"
+  },
+  {
+    "title": "Residual Community Prototypes Under-Reject Held-Out Malware Families in FCG-MFD",
+    "url": "http://arxiv.org/abs/2609.24980v1",
+    "arxiv_id": "2609.24980v1",
+    "authors": [
+      "Junru Zhu",
+      "Yixin Yang",
+      "Xiaoqing Ding",
+      "Ruoyu Qi"
+    ],
+    "published": "2026-09-21T17:56:11+00:00",
+    "summary": "Open-set malware-family recognition must classify known families while rejecting families absent from training. We test whether Louvain-community summaries add rejection information beyond a graph neural network embedding and dimension-matched generic topology. The study uses a deduplicated, conflict-audited FCG-MFD corpus, five held-out families, and three optimization seeds. Community features are residualized against generic topology using known-family training data before nearest-prototype scoring. Residual community does not produce stable held-out-family rejection. Ranking effects reverse across families, the false-positive rate at 95 percent unknown recall worsens for every held-out family, and a validation-fitted threshold rejects only 4.48 percent of unknown samples. Accepted-known macro F1 improves in every family, but with five independent family units the exact two-sided sign-flip p-value is 0.0625, the smallest attainable value. The score remains associated with graph scale, while simple classifier uncertainty performs better on ranking, high-recall rejection, and OSCR. In this GIN/FCG-MFD setting, community-enriched prototypes change known-class geometry without creating a stable unknown margin. Graph open-set evaluations should pair structural features with matched topology controls, operational thresholds, and held-out-family analysis."
+  },
+  {
+    "title": "Elemental Abundances of Cool Stars: A Spectroscopic Framework Applied to Five Planet-Host Stars",
+    "url": "http://arxiv.org/abs/2609.24970v1",
+    "arxiv_id": "2609.24970v1",
+    "authors": [
+      "Nicole Gromek",
+      "Drew Weisserman",
+      "Ryan Cloutier",
+      "Alexandrine L'Heureux",
+      "Charles Cadieux"
+    ],
+    "published": "2026-09-21T17:54:24+00:00",
+    "summary": "Stellar elemental abundances provide important constraints on the chemical environments from which planets form. M and late-K dwarfs are prime targets for the characterization of small exoplanets, yet their complex spectra make accurate elemental abundance measurements challenging. In this work, we present a spectral synthesis-based framework to derive detailed abundances for cool stars from high-resolution, near-infrared spectra. We apply our framework to SPIRou YJHK spectra of five planet-host stars--GJ 9827, K2-18, TOI-1201, TOI-1685, and Barnard's Star--and derive abundances of C, O, Na, Mg, Al, Si, K, Ca, Ti, Cr, Mn, and Fe for all five stars, plus Sc, V, and Ni for a subset, with typical uncertainties of $\\lesssim 0.1$ dex. Our recovered metallicities and elemental abundances are broadly consistent with expected trends and previous literature analyses of these stars. We derive stellar ratios of C/O, Mg/Si, Fe/Mg, and Fe/O and find that all five systems are broadly consistent with solar ratios, with the exception of the metal-poor Barnard's Star ([M/H] $= -0.33 \\pm 0.06$ dex), which is substantially iron-poor ([Fe/H] $= -0.722 \\pm 0.085$ dex). Our results establish stellar chemical baselines for interior structure and atmospheric studies of these planetary systems with the Hubble Space Telescope (HST) and James Webb Space Telescope (JWST), while highlighting the remaining model-dependent limitations of precise abundance analyses for cool stars."
+  },
+  {
+    "title": "Learning to Drive on Mars: Visual Multimodal Traversability Estimation for Off-World Navigation",
+    "url": "http://arxiv.org/abs/2609.24952v1",
+    "arxiv_id": "2609.24952v1",
+    "authors": [
+      "Darren Chiu",
+      "Cole Wilson",
+      "Andrei Tumbar",
+      "Gaurav S. Sukhatme",
+      "Steven Myint"
+    ],
+    "published": "2026-09-21T17:45:18+00:00",
+    "summary": "Autonomous navigation on Mars requires vehicles to distinguish between traversable terrains across diverse and visually challenging environments. However, progress in learning-based navigation for off-world environments has been limited by the lack of large-scale datasets. Since landing in Jezero Crater, the Mars 2020 Perseverance rover has traversed terrain ranging from sandy dunes, rocky patches, and flat bedrocks. As a result, this paper presents a dataset spanning 500 sols and 45km of trajectories driven by both human operators and the onboard planner, ENav. Our dataset contains grayscale stereo image pairs, poses, accelerometer readings, rocker-bogie angles, and estimates of tilt and wheel slip. Building on this dataset, we introduce an uncertainty-aware traversability-estimation framework that learns terrain representations from multimodal driving experience. We compare our proposed method against existing approaches on the Mars 2020 dataset and show that our method achieves an AUROC of 0.874 and an F1 score of 0.758, outperforming the strongest baseline by 0.058 and 0.156, respectively, while also achieving the highest average precision and recall. Finally, we show that the visual representations can be integrated into path planners, such as ENav, on a physical rover test bed. Videos, code, and the M2020 dataset will be available at https://darren-chiu.github.io/learning-to-drive-on-mars."
+  },
+  {
+    "title": "Two-dimensional weak lensing shear for cluster mass, concentration, ellipticity and miscentering estimation",
+    "url": "http://arxiv.org/abs/2609.24948v1",
+    "arxiv_id": "2609.24948v1",
+    "authors": [
+      "Calum Murray",
+      "Martin Kilbinger",
+      "Constantin Payerne"
+    ],
+    "published": "2026-09-21T17:42:33+00:00",
+    "summary": "The effects of weak gravitational lensing induced by clusters of galaxies makes it possible to constrain their dark matter distribution. In general mass estimates from weak lensing are made by compressing the two-dimensional shear-field into one-dimension. In this work we build a forward model of the two-dimensional reduced-shear field around a galaxy cluster, including the non-Gaussian correlated large-scale structure from N-body simulations, the uncorrelated line-of-sight structure, cluster miscentering and ellipticity. We then use simulation-based inference to obtain posteriors on the cluster mass, concentration, miscentering and ellipticity from the full field. The two-dimensional approach leads to improvements on cluster mass constraints by up to 20\\%. We show that this is due to a better treatment of the spatially correlated noise across the shear field. There is also significant improvements on the cluster concentration and miscentering. Whilst improvements are also made to the estimation of cluster ellipticity, the constraints are still prior dependent for these individual cluster constraints. We also quantify the impact of the line-of-sight structure on the constraints. Neglecting it underestimates the mass uncertainty by up to a factor of $2$ for the most massive clusters."
+  },
+  {
+    "title": "Ruling out nucleonic direct Urca cooling in low-mass neutron stars using nuclear data",
+    "url": "http://arxiv.org/abs/2609.24940v1",
+    "arxiv_id": "2609.24940v1",
+    "authors": [
+      "Gabriele Montefusco",
+      "Pietro Klausner",
+      "Marco Antonelli",
+      "Caterina Ciampi",
+      "Diego Gruyer",
+      "Francesca Gulminelli"
+    ],
+    "published": "2026-09-21T17:39:18+00:00",
+    "summary": "Connecting nuclear experiments to neutron star composition requires controlling the extrapolation of experimental information beyond the densities probed in the laboratory. We combine a broad set of nuclear structure observables and INDRA-FAZIA isospin-transport data within a Bayesian inference of the dense matter equation of state (EoS). To limit uncontrolled extrapolation to high density, we employ a flexible asymptotically causal metamodel whose neutron star posteriors are comparable to those obtained with agnostic EoS models. The nuclear structure information is propagated through its full multidimensional distribution of correlated nuclear matter parameters, while the density-dependent INDRA-FAZIA likelihood is evaluated directly along each sampled metamodel symmetry energy curve. These two sources of laboratory information give compatible constraints on the symmetry energy, and their combination preserves agreement with finite nuclear observables. When combined with ab initio chiral effective field theory calculations and astrophysical observations, all these constraints substantially improve the determination of central proton fractions in low-mass neutron stars, while leaving larger uncertainties for massive stars. Within the adopted nucleonic metamodel, the reduced probability of large proton fractions strongly disfavors electronic direct-Urca onset at or below $1.4\\,M_\\odot$: its posterior probability falls from $\\sim20\\%$ with chiral and astrophysical constraints alone to below $1\\%$ when the laboratory information is included."
+  },
+  {
+    "title": "Pinocchio: Fast Uncertainty Estimates for Black-Box Language Models",
+    "url": "http://arxiv.org/abs/2609.24881v1",
+    "arxiv_id": "2609.24881v1",
+    "authors": [
+      "Kevin David Hayes",
+      "Arka Pal",
+      "Haosong Zhang",
+      "Tom Goldstein",
+      "Micah Goldblum"
+    ],
+    "published": "2026-09-21T16:48:50+00:00",
+    "summary": "In high-stakes decision-making applications of large language models (LLMs), practitioners require not only accurate LLMs but also uncertainty estimates for their predictions. Existing approaches to uncertainty estimation for LLMs require access to log-probabilities output by the model or require fine-tuning access. However, many industrial LLM products use closed-source API models, and many such API models like GPT do not return log-probabilities and may not allow fine-tuning. We introduce Pinocchio, an external calibrator that estimates the correctness of responses from black-box API models. Trained jointly on responses from seven LLMs, it achieves 0.862 AUROC predicting the correctness of held-out responses from those same models, and shows zero-shot transfer to thirteen unseen models across eight organizations. Our model needs only a single forward pass to generate an uncertainty estimate and requires no access to the target model's logits, weights, or internal states. A lightweight text only 0.8B checkpoint matches our largest model's AUROC. We release code for adding uncertainty estimation to existing repos in only two additional lines of code."
+  },
+  {
+    "title": "CAST: Collision-Aware Assembly with Construction Robots using Simultaneous Trajectory Estimation and Planning",
+    "url": "http://arxiv.org/abs/2609.24841v1",
+    "arxiv_id": "2609.24841v1",
+    "authors": [
+      "Karthik Shaji",
+      "Chisung Kim",
+      "John D'Amato",
+      "Edvard Bruun",
+      "Frank Dellaert"
+    ],
+    "published": "2026-09-21T16:20:57+00:00",
+    "summary": "Multi-robot systems have shown increasing viability in construction due to their ability to execute high-precision actions while reducing human exposure to hazardous tasks. However, these environments have high-dimensional configuration spaces and possess substantial collision-avoidance constraints, which include other robots, assembly objects, and workspace boundaries. We utilize a single factor graph for trajectory estimation and planning that incorporates measured robot states together with explicit collision and learned cable constraints. This supports changing workspaces and enables synchronized, high-dimensional robot motion planning while accounting for the stiff, vibration-induced uncertainty of heavy robotic systems. We demonstrate the success of our framework on the construction of a post-and-lintel structure using one robot arm as a timber gripper, and a second robot as a nail-fastener."
+  },
+  {
+    "title": "GRUET: Quantifying Uncertainty of Agentic Reasoning-and-Acting Processes",
+    "url": "http://arxiv.org/abs/2609.24831v1",
+    "arxiv_id": "2609.24831v1",
+    "authors": [
+      "Shuang Liang",
+      "Xin-Yu Hu",
+      "Shao-Qun Zhang"
+    ],
+    "published": "2026-09-21T16:15:35+00:00",
+    "summary": "Agents have attracted considerably increasing attention due to the power of executing both Reasoning and Acting (ReAct) in open and dynamic environments. The ReAct process typically exhibits a multi-turn trajectory in which one drives Large Language Models (LLMs) to generate both reasoning chains and task-specific actions in an interleaved manner. However, agents often suffer from significant uncertainty, where identical tasks yield divergent trajectories; trajectories with higher uncertainty often produce incomprehensible behaviors, severely undermining agent credibility. This work conjectures that such trajectory-level uncertainty frequently stems from cumulative turn-level reasoning uncertainty induced by LLMs; the latter often exhibits a collection of branches of divergent reasoning chains and their resulting actions. Built upon this, we present the Graph-based Reasoning UncErtainty in Trajectories (GRUET) method for the uncertainty quantification of ReAct, comprising turn-level reasoning uncertainty quantification and trajectory-level uncertainty aggregation; the former precisely quantifies reasoning uncertainty via modeling the reasoning space spanned by potential reasoning branches as a graph and then approximating the reasoning space complexity with graph complexity, while the latter employs simple aggregation strategies for quantifying the overall trajectory credibility. Empirical evaluations across nine LLMs and five benchmarks validate the effectiveness of our proposed GRUET in terms of selective generation performance, measured by AUROC, AUPRC, and AUARC."
+  },
+  {
+    "title": "The Generalized Uncertainty Principle. Massless QED Renormalization",
+    "url": "http://arxiv.org/abs/2609.24817v1",
+    "arxiv_id": "2609.24817v1",
+    "authors": [
+      "Ezequiel Valero",
+      "H\u00e9ctor Gisbert",
+      "Victor Ilisie"
+    ],
+    "published": "2026-09-21T16:07:16+00:00",
+    "summary": "The effective-field-theory interpretation of generalized uncertainty principle (GUP) deformations does not by itself establish whether their tree-level operator content is closed under renormalization. We investigate this question in massless GUP-deformed quantum electrodynamics at one loop and to first order in the deformation parameter. We compute the ultraviolet divergences of the relevant Green functions and determine the counterterm structure. Our central result is that, after eliminating redundant operators, renormalization requires only one independent physical counterterm beyond those associated with the tree-level theory: an axial-axial four-fermion interaction. The original deformation therefore admits a minimal radiative completion at this order. We derive the leading logarithmic running of the induced Wilson coefficient and discuss its operator-level correspondence with the contact interaction arising in Einstein-Cartan gravity."
+  },
+  {
     "title": "Multi-Epoch Stability in the Rotational Modulation of the Planetary-Mass Companion Ross 458C",
     "url": "http://arxiv.org/abs/2609.22072v1",
     "arxiv_id": "2609.22072v1",
