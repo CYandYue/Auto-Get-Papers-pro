@@ -1,5 +1,134 @@
 [
   {
+    "title": "Comparing phylogenetic trees of stars with spectral graph distances",
+    "url": "http://arxiv.org/abs/2609.26782v1",
+    "arxiv_id": "2609.26782v1",
+    "authors": [
+      "Theosamuele Signor",
+      "Matias Neto",
+      "Paula Jofr\u00e9",
+      "Sara Vitali",
+      "Xia Hua",
+      "Patricia B. Tissera",
+      "Claudia Aguilera-G\u00f3mez",
+      "Payel Das",
+      "Brian Tapia-Contreras",
+      "Robert M. Yates",
+      "Luis Mart\u00ed",
+      "Nayat S\u00e1nchez-Pi"
+    ],
+    "published": "2026-09-22T17:56:31+00:00",
+    "summary": "Phylogenetic trees offer a hierarchical representation of chemical similarities among stars, from which their evolutionary histories can, in principle, be reconstructed. Simulation-based work suggests that phylogenetic trees built under different chemical evolution scenarios carry distinguishable structural imprints, but whether existing methods can detect this signal in practice is unclear. We evaluate distance measures, both classical tree-based and graph-theoretical, for comparing phylogenetic trees, seeking measures robust to observational noise that separate trees built from populations with distinct chemical enrichment histories. We construct Neighbor-Joining trees from chemical abundance vectors of solar twins and of stars associated with the Milky Way (MW) disk, Gaia-Sausage-Enceladus (GSE), and the Sagittarius dwarf spheroidal galaxy (Sgr). Two benchmark tests assess stability under input perturbations within the same evolutionary history and discriminative power between distinct stellar populations used as proxies for different evolutionary histories. Tree metrics rapidly saturate under perturbations of order the typical uncertainty ($\\approx2\u03c3$, or $\\approx0.05$ dex per element) and fail to distinguish trees when leaf sets differ. In contrast, spectral distances vary smoothly with perturbation amplitude and provide a label-invariant method for comparing trees built from disjoint sets of stars. Among the spectral measures evaluated, the Laplacian spectral distance shows the most consistent separation across population pairs, while the normalized variant is weakest. Applied to MW, GSE, and Sgr stars, spectral measures recover a distance ordering consistent with their known chemical enrichment histories. This framework also provides a route to comparing observed enrichment histories against simulations to identify those that best reproduce the observed tree structure."
+  },
+  {
+    "title": "Optical Ion Clock with Engineered Immunity to Motion-Induced Frequency Shifts",
+    "url": "http://arxiv.org/abs/2609.26775v1",
+    "arxiv_id": "2609.26775v1",
+    "authors": [
+      "Mark Lide",
+      "Wesley Hardin",
+      "Christian Sanner"
+    ],
+    "published": "2026-09-22T17:54:38+00:00",
+    "summary": "Spectroscopic frequency shifts due to residual motion of the probed atoms significantly contribute to the uncertainty budgets of state-of-the-art optical ion clocks. For clock transitions with second-order Doppler and quadratic Stark shifts of opposite signs, it is possible to configure electrodynamic ion confinement such that these two shift effects become anticorrelated causing zero net shift. Here, we introduce a spectroscopic interrogation protocol which leads, for systems with unknown and varying motional energy gain rates, to first-order auto-suppression of corresponding frequency shifts without requiring the opposite-sign configuration. We experimentally demonstrate the proposed method on a new ytterbium ion optical clock probing the 467 nm electric octupole (E3) transition, where the combined fractional uncertainty contribution from motion-induced frequency shifts is reduced from $1.3\\times10^{-18}$ to $0.3\\times10^{-18}$. An interleaved optical frequency ratio measurement against ytterbium's electric quadrupole transition (E2) at 435 nm delivers an E3/E2 frequency ratio of $0.932 \\,829 \\,404 \\,530 \\,965 \\, 340 (39)$. Combined with previously published ratio data this leads to a limit for a potential fractional temporal variation of the fine-structure constant of $2.4 (2.7) \\times 10^{-19}/$yr, in agreement with existing bounds."
+  },
+  {
+    "title": "Type-Safe Is Not Error-Free: A Constrained Decision Head Follows the Option Name, Not the Rubric Bound to It",
+    "url": "http://arxiv.org/abs/2609.26758v1",
+    "arxiv_id": "2609.26758v1",
+    "authors": [
+      "Yu Sun",
+      "Junhao Xu"
+    ],
+    "published": "2026-09-22T17:38:12+00:00",
+    "summary": "Typed decision models are built for settings where model outputs are consumed directly by software. Instead of generating free-form text, they return a decision over a predefined set of options. By construction, every output conforms to the required schema. Yet this guarantee does not tell us whether the model interprets the options as intended. We study Jev and two Jev-like models with open weights by changing how option names are assigned to rubrics. Each option consists of an option name and a textual rubric that defines what the option means. We change only which option name is assigned to each rubric; the question, state, rubric wording, and set of option names remain exactly the same. On 1200 workflow decisions with task-specific rubrics, renaming the two options from 0/1 to no/yes changes 70.4 more answers per hundred (95% CI: [67.6, 73.1]) and shifts AUC from .94 to .23, revealing a systematic reversal in the decision ranking rather than simple uncertainty. The same operation has little effect with neutral option names. This pattern holds across all 4 predicates, where the effect is at least 7.4x larger than under the neutral control, and becomes stronger as the number of options increases. The effect also depends on the read-out geometry: a second model family that mean-pools over the full option span flips 4.1x less often. The hosted model exhibits the same behavior: the swap changes AUC from .8146 to .5806 and produces 24x as many answer flips as its test-retest floor. In contrast, replacing the option names with random character strings returns all model families to the neutral-control regime without reducing accuracy. The failure therefore depends on the semantic polarity of the option names rather than on the renaming operation itself. Across all conditions, the type-error rate remains 0%, even when decision accuracy degrades substantially."
+  },
+  {
+    "title": "Databases with Missing Values that are Governed by Missingness Mechanisms",
+    "url": "http://arxiv.org/abs/2609.26692v1",
+    "arxiv_id": "2609.26692v1",
+    "authors": [
+      "Leopoldo Bertossi",
+      "Farouk Toumani"
+    ],
+    "published": "2026-09-22T16:47:45+00:00",
+    "summary": "We address the problems of giving a semantics to a relational database (RDB) that has missing values (MVs). The causes for the latter are governed by a Missingness Mechanism that is modelled as a Bayesian Network (BN) that involves the DB attributes as variables. The BN is called a Missingness Graph (MG). Our approach considerable departs from the treatment of RDBs with NULL (values). The combination of the MG and the observed DB allows us to build a block-independent probabilistic DB. We identify two optimal classes of its possible worlds on which QA can be performed. Those classes jointly capture probabilistic uncertainty and statistical plausibility of the implicit imputation of MVs. We obtain tractability results for the computation of some optimal classes; and we also obtain complexity results that characterize the computational feasibility of our approach."
+  },
+  {
+    "title": "PROSWIN: Probabilistic Solar Wind Speed Forecasting Using Deep Distributional Regression From Solar Images",
+    "url": "http://arxiv.org/abs/2609.26683v1",
+    "arxiv_id": "2609.26683v1",
+    "authors": [
+      "Daniel Collin",
+      "Yuri Shprits",
+      "Luca Chiarabini",
+      "Stefan J. Hofmeister",
+      "Nadja Klein",
+      "Guillermo Gallego"
+    ],
+    "published": "2026-09-22T16:42:24+00:00",
+    "summary": "Accurately predicting fast solar wind conditions is challenging, as uncertainties are large and unquantified by traditional single-value prediction models. In particular, the risks of high-speed solar wind streams (HSSs), which can cause damage to technological infrastructure, cannot be reliably assessed without probabilistic forecasts. We present PROSWIN, a probabilistic machine learning model that forecasts the hourly solar wind speed (SWS) at Earth with a four-day lead time. The approach combines solar images and magnetograms using a deep neural network coupled to a distributional regression algorithm. Because standard error metrics underweight the relevance of HSS peaks, we further introduce the prediction score, a model-selection metric that jointly rewards timeline and HSS peak accuracy. On 14 years of data, our forecast achieves very well-calibrated uncertainties (<1% average deviation). Using the continuous ranked probability score (CRPS), a metric that assesses distributional accuracy, we obtain a timeline CRPS of 41.0 km/s, an HSS peak CRPS of 45.3 km/s, and a prediction score of 42.3 km/s. We find that the 171 \u00c5 channel is an important complement to the typically used 193 \u00c5 and 211 \u00c5 channels and that the prediction score for model selection improves the applicability of the model. Compared to selected models from the literature, ours is the only one that is accurate for both timeline and HSS peak values, rather than trading one off against the other. These results support the advantages of probabilistic over single-value solar wind models. The introduced methods are also transferable to other forecasting problems."
+  },
+  {
+    "title": "Distributed Proximal Stein Variational Gradient Descent Algorithm for Large-scale Bayesian Inference in Traveltime Tomography",
+    "url": "http://arxiv.org/abs/2609.26653v1",
+    "arxiv_id": "2609.26653v1",
+    "authors": [
+      "Akshay Vishwakarma",
+      "Kamal Aghazade",
+      "Ali Siahkoohi",
+      "Ali Gholami"
+    ],
+    "published": "2026-09-22T16:20:25+00:00",
+    "summary": "We present a distributed framework for large-scale Bayesian inverse problems governed by the eikonal equation, with a specific focus on seismic traveltime tomography. Traditional deterministic approaches often fail to provide the uncertainty quantification (UQ) necessary for ill-posed problems, while conventional Bayesian sampling methods such as Markov chain Monte Carlo (MCMC) suffer from the curse of dimensionality and slow convergence in high-dimensional model spaces. The proposed framework addresses these challenges through a three-tier computational strategy. First, we utilize the Fast Marching Method (FMM) to solve the eikonal equation, ensuring high numerical accuracy. Second, we reformulate the global tomographic objective into a decentralized consensus form, allowing the inversion to be decomposed into independent subproblems solved in parallel via the Alternating Direction Method of Multipliers (ADMM). This architecture eliminates the need for the explicit construction of large-scale sensitivity matrices, significantly reducing the memory footprint for 3D surveys. Finally, we integrate Stein Variational Gradient Descent (SVGD) within the ADMM workers to perform approximate posterior sampling. By evolving a set of model particles along a functional gradient direction that balances data-fitting forces with a repulsive kernel-based diversity force, we obtain an ensemble from which posterior summaries are computed. We derive a data-space Gauss-Newton update using the Woodbury matrix identity to further accelerate the particle evolution in large-scale 3D problems. Numerical experiments on complex 2D and 3D models demonstrate that the algorithm achieves stable convergence, produces high-fidelity velocity reconstructions, and provides posterior uncertainty maps."
+  },
+  {
+    "title": "The Delegation Blind Spot: Auditing Product Decisions from Agent Choices",
+    "url": "http://arxiv.org/abs/2609.26642v1",
+    "arxiv_id": "2609.26642v1",
+    "authors": [
+      "Shivam Gupta"
+    ],
+    "published": "2026-09-22T16:15:55+00:00",
+    "summary": "Successful agent execution need not identify which future product improvement its user would value. We present a decision-specific audit that maps a declared observation channel and product-value contrast to compatible intervals and witness populations. Its foundations are established identification and decision theory; the contribution is an executable measurement workflow and a controlled study of its limits. A frozen experiment makes 4,800 requests to two pinned model snapshots on shared synthetic tasks. All 36 conservative primary intervals remain unresolved despite different execution accuracy. An exploratory 2,400-call follow-up records supplied preferences and resolves three of nine comparisons per model. A deterministic extractor resolves seven of nine without model calls or calibration observations, exposing unnecessary uncertainty introduced by model-generated reports. A further 14,400 controlled multinomial simulations distinguish structural ambiguity from weak identification and finite calibration precision. We propose a source-labeled decision receipt and provide an offline viewer for inspecting the audit. These results motivate preserving decision-relevant structured input and diagnosing why a decision is unresolved before collecting more telemetry. The study contains no human participants or real customer outcomes. Full proofs, raw model provenance, controlled experiments, and reproducible analyses accompany the report."
+  },
+  {
+    "title": "Label-Efficient Learning for Ground-Based Sky-Image Classification: A Benchmark of Transfer Learning, Active Learning, and Pseudo-Labeling on GCD",
+    "url": "http://arxiv.org/abs/2609.26631v1",
+    "arxiv_id": "2609.26631v1",
+    "authors": [
+      "Esther Bou Dagher",
+      "Viktoriya Bu-Dager",
+      "Boguslaw Zegarlinski"
+    ],
+    "published": "2026-09-22T16:06:22+00:00",
+    "summary": "Accurate ground-based cloud classification is important for atmospheric monitoring, solar-energy forecasting, aviation weather assessment, and climate observation systems. However, reliable sky-image annotation is time-consuming, especially when cloud types are visually similar or mixed. We study the label efficiency of deep learning for ground-based cloud classification using the Ground-based Cloud Dataset (GCD). Rather than proposing a new architecture, we benchmark three practical strategies under limited annotation budgets: supervised transfer learning, uncertainty-based active learning, and high-confidence pseudo-labeling. An ImageNet-pretrained ResNet50 is used as a common frozen backbone, with experiments repeated over five random seeds for label budgets from $1\\%$ to $100\\%$ of the training labels. Supervised transfer learning is already highly label-efficient: test accuracy increases from $0.635 \\pm 0.018$ with $1\\%$ labels to $0.730 \\pm 0.002$ with $40\\%$ labels, approaching the full-label result of $0.735 \\pm 0.003$. Active learning and pseudo-labeling are competitive with supervised sampling and provide small improvements for some metrics and budgets, but neither gives a large or consistent aggregate gain. Diagnostic analyses show that accepted pseudo-labels are reliable, with accuracy from $0.946$ to $0.977$, but biased toward easier high-confidence sky-type groups. In contrast, uncertainty sampling preferentially queries visually challenging groups, including Mixed and the confusable Stratocumulus and Cumulonimbus groups, but these targeted acquisitions yield only modest gains. Overall, transfer learning substantially reduces annotation requirements for GCD, while simple active and semi-supervised strategies provide limited additional benefit over a strong supervised baseline."
+  },
+  {
+    "title": "Prediction-Aware Structured Resource Control for Partitioned IRS-Assisted Mobile IoT Uplinks With Semi-Blind Cascaded-Channel Acquisition",
+    "url": "http://arxiv.org/abs/2609.26601v1",
+    "arxiv_id": "2609.26601v1",
+    "authors": [
+      "Hediyeh Soltanizadeh",
+      "Ardavan Rahimian"
+    ],
+    "published": "2026-09-22T15:39:19+00:00",
+    "summary": "Intelligent reflecting surface (IRS)-assisted mobile Internet of Things uplinks require joint control of channel aging, costly cascaded channel state information (CSI) acquisition, and coupled IRS/radio resources. This investigation develops a unified prediction-aware deterministic framework for partitioned IRS-assisted massive multiple-input multiple-output (mMIMO) uplinks. Direct channels are recursively tracked, whereas cascaded channels are selectively refreshed by differential semi-blind acquisition reusing the same unknown data block across a minimum-reflection baseline and DFT-coded IRS states. Moreover, finite-block acquisition covariances initialize reduced-order beam-domain prediction, which propagates only unit-beam means online and retrieves age-dependent covariances from precomputed tables. A mixed-integer nonconvex formulation captures net throughput, fairness, outage, uncertainty, switching cost, and sliding-window IRS service. The causal controller integrates covariance-floor actionability, feasible equal-size granularity, residual-feasible ownership, isolated-beam one-sweep refinement, same-block fresh-payload accounting, and service-first allocation using recomputed uncertainty-aware ZF rates and bidirectional receiver-consistent risk. Analysis establishes service-feasibility preservation, effective-channel error bounds, distribution-free reliability, and polynomial online scaling. In unseen environments, the predicted acquisition floor matches the practical semi-blind error, actionable recalibration reduces the mean recalibration rate by 31.5%, and IRS-assisted control achieves a 14.09% mean net-rate gain over direct-only transmission. Receiver-consistent allocation improves realized rate, while ablations support equal-size partitioning and single-sweep refinement; zero post-action service violations occur under nominal, mobility, and load-stress conditions."
+  },
+  {
+    "title": "Data-driven Galaxy Population Prior for Photometric Redshifts",
+    "url": "http://arxiv.org/abs/2609.26594v1",
+    "arxiv_id": "2609.26594v1",
+    "authors": [
+      "Nikolas Frediani",
+      "Daniel Gruen",
+      "Luca Tortorelli",
+      "Jamie McCullough"
+    ],
+    "published": "2026-09-22T15:35:16+00:00",
+    "summary": "Stage-IV cosmological surveys rely on well-characterised photometric redshift distributions for constraining cosmological models, yet the projected weak lensing requirements are about an order of magnitude more accurate than current state-of-the-art methods. Any photometric redshift inference depends - explicitly or implicitly - on a prior over galaxy SEDs, luminosities, and redshifts. In this paper, we develop a purely data-driven approach for modelling the galaxy population prior based on learning the distribution of galaxy SEDs and evaluate its induced systematic uncertainties for photometric redshift calibration. Under controlled conditions, we build a template-free model for galaxy SEDs with minimal physical assumptions and assess how well it can reproduce the colour-redshift relation. We train a generative model on a realistic population of noisy mock galaxy spectra, simulated using the GalSBI-SPS galaxy population model, to learn the joint distribution of intrinsic spectra, luminosities, and redshifts. We employ a probabilistic autoencoder that compresses spectra into a low-dimensional latent space and performs neural density estimation with a normalising flow. The autoencoder can reconstruct the shape of galaxy spectra with Gaussian noise of standard deviation $\u03c3$ to $\\sim0.1\\,\u03c3$ of the ground truth, thereby building a model for noiseless SEDs from noisy spectra only. We construct colour-selected tomographic bins with a self-organising map and compare the predicted mean redshift. We find that deviations in each bin are smaller than the per-mille Stage-IV requirements, with $| \u0394\\langle z \\rangle |\\lesssim 0.0007 (1+z)$. This work serves as a proof-of-concept that generative models can learn the prior of galaxy observations accurately enough for upcoming surveys under controlled conditions."
+  },
+  {
     "title": "MIGU: Multimodal Instruction Grounding under Uncertainty for Manipulation Planning",
     "url": "http://arxiv.org/abs/2609.24995v1",
     "arxiv_id": "2609.24995v1",
