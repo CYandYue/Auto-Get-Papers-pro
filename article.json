@@ -1,5 +1,212 @@
 [
   {
+    "title": "A Search For Stellar-mass Black Holes Via Astrometric Microlensing II: 2012-2015 Keck Candidates",
+    "url": "http://arxiv.org/abs/2609.28420v1",
+    "arxiv_id": "2609.28420v1",
+    "authors": [
+      "Mace J. Huston",
+      "Jessica R. Lu",
+      "Casey Y. Lam",
+      "J. Nijaid Arredondo",
+      "Natasha S. Abrams",
+      "Shep Brooke",
+      "Sage H. Remulla",
+      "Eran Ofek",
+      "Michael S. Medford",
+      "Fatima Abdurrahman",
+      "Shrihan Agarwal",
+      "Edward Broadberry",
+      "Matthew Freeman",
+      "Matthew W. Hosek",
+      "Siyao Jia",
+      "Sean K. Terry",
+      "The OGLE Collaboration",
+      " :",
+      "Andrzej Udalski",
+      "Przemek Mroz",
+      "Radoslaw Poleski",
+      "Jan Skowron",
+      "Michal K. Szymanski",
+      "Igor Soszynski",
+      "Pawel Pietrukowicz",
+      "Szymon Kozlowski",
+      "Krzysztof Ulaczyk",
+      "Krzysztof A. Rybicki",
+      "Patryk Iwanek",
+      "Marcin Wrona",
+      "Mariusz Gromadzki",
+      "Mateusz J. Mroz",
+      "Michal Malkowski",
+      "The MOA Collaboration",
+      " :",
+      "Fumio Abe",
+      "David P. Bennett",
+      "Aparna Bhattacharya",
+      "Ian A. Bond",
+      "Kotaro Daimon",
+      "Ryusei Hamada",
+      "Yuki Hirao",
+      "Shuma Makida",
+      "Stela Ishitani Silva",
+      "Shota Miyazaki",
+      "Yasushi Muraki",
+      "Tutumi Nagai",
+      "Kansuke Nunota",
+      "Ryo Ogawa",
+      "Ryunosuke Oishi",
+      "Hideaki Ose",
+      "Greg Olmschenk",
+      "Clement Ranc",
+      "Nicholas J. Rattenbury",
+      "Yuki K. Satoh",
+      "Takahiro Sumi",
+      "Daisuke Suzuki",
+      "Takuto Tamaoki",
+      "Chihiro Ueda",
+      "Paul J. Tristram",
+      "Aikaterini Vandorou",
+      "Hibiki Yama"
+    ],
+    "published": "2026-09-23T17:25:35+00:00",
+    "summary": "The Milky Way is expected to host $\\sim$10$^8$ stellar-mass black holes with an uncertain binary fraction. The only proven method to detect isolated stellar mass black holes is gravitational microlensing. Here we report the results of a microlensing search for black holes with photometry and astrometry. By combining 10 years of seeing-limited photometry from OGLE and MOA with diffraction-limited photometry and astrometry from adaptive optics imagers at the W.~M.~Keck Observatory, we constrain lens masses for OGLE-2012-BLG-0169, OGLE-2014-BLG-0613/MOA-2015-BLG-041, OGLE-2015-BLG-0029/MOA-2015-BLG-170, and OGLE-2015-BLG-0211. Of the four long-duration microlensing events monitored, we ruled out black hole lenses in 3 events, which likely have stellar or white dwarf lenses. OGLE-2015-BLG-0211 remains a black hole candidate with a poorly constrained lens mass with a 1$\u03c3$ upper mass limit of 3.2$M_\\odot$ and a 3$\u03c3$ upper mass limit of 21.6$M_\\odot$. This event suffered from poor observing conditions and significant astrometric reference frame uncertainties, but its analysis may benefit from additional astrometric data in the upcoming Gaia Data Release 4. Of the six long-timescale ($t_E>100$ days) microlensing events from this work and previous studies, one black hole has been confirmed with a second not ruled out. We briefly examine Galactic model simulations and find that our result agrees with current expectations. Ultimately, we need a larger sample of isolated black holes to constrain their formation processes. This will be possible in the coming years with Rubin and Roman, as well as improved astrometry from JWST and large, ground-based telescopes equipped with adaptive optics."
+  },
+  {
+    "title": "Interstellar extinction of classical Cepheids from neighboring stars I. Methodology and application to 16 Galactic Cepheids",
+    "url": "http://arxiv.org/abs/2609.28406v1",
+    "arxiv_id": "2609.28406v1",
+    "authors": [
+      "Wilma Kiviaho",
+      "Pierre Kervella",
+      "Mika Juvela",
+      "Alexandre Gallenne",
+      "Nicolas Nardetto",
+      "Carine Babusiaux",
+      "Rosine Lallement",
+      "Vincent Hocd\u00e9",
+      "Garance Bras",
+      "Nancy Remage Evans",
+      "Antoine M\u00e9rand",
+      "Grzegorz Pietrzy\u0144ski",
+      "Gergely Hajdu",
+      "Henryka Netzel",
+      "Ricardo Salinas",
+      "Bogumi\u0142 Pilecki",
+      "Cezary Ga\u0142an",
+      "Fr\u00e9d\u00e9ric Arenou",
+      "Manon Bailleul",
+      "Katia Sivkova",
+      "Daniela Gonz\u00e1lez",
+      "Louise Breuval",
+      "Rajeev Singh Rathour",
+      "Brankica Apostolova"
+    ],
+    "published": "2026-09-23T17:09:45+00:00",
+    "summary": "Galactic Cepheid variable stars are fundamental calibrators of the cosmic distance scale through their Period-Luminosity (PL) relation. The high-precision parallaxes expected from Gaia Data Release 4 (DR4) will enable a calibration of the Milky Way PL relation with unprecedented precision. This will place stringent requirements on interstellar extinction corrections, which remain a dominant source of uncertainty. We strive to derive highly accurate extinction values for Galactic Cepheids. We present an innovative methodology relying on the analysis of neighboring field stars and apply it to a pilot sample of 16 Cepheids. We identify physically near field stars using Gaia DR3 astrometry. For these stars, we determine atmospheric parameters from medium- to high-resolution VLT/FLAMES spectroscopy. Fixing these parameters, we derive individual extinctions by fitting spectral energy distributions constructed from Gaia XP spectra and infrared photometry. We then reconstruct the three-dimensional distribution of extinction and interpolate extinction to the Cepheid position. We report extinction Av, total-to-selective extinction ratio Rv, and color excess E(B-V) for all 16 Cepheids. Our method achieves a mean precision of approximately 5%, improving upon typical literature values, with no significant systematic offset detected. We demonstrate that using field stars bypasses uncertainties associated with Cepheid variability and can provide robust extinction estimates for Galactic Cepheids."
+  },
+  {
+    "title": "Robustness Guarantees for Optimal RIS Placement in Self-Localization Under Placement Errors",
+    "url": "http://arxiv.org/abs/2609.28402v1",
+    "arxiv_id": "2609.28402v1",
+    "authors": [
+      "Mahdi Koloushani",
+      "Omid Rezaei",
+      "Seyed Mohammad Karbasi",
+      "Mohammad Mahdi Naghsh",
+      "Mohammad Mahdi Nayebi"
+    ],
+    "published": "2026-09-23T17:06:55+00:00",
+    "summary": "This paper studies the effect of Reconfigurable Intelligent Surface (RIS) placement errors on optimal RIS deployment for Time-of-Flight (ToF)-based self-localization. We consider a setup in which a source transmits a signal, receives the RIS-reflected echo, and estimates its own position from the corresponding ToF measurements. Under the conditions of moderate, i.i.d. Gaussian RIS position errors and i.i.d. Gaussian ToF noise, we demonstrate that the placement uncertainty manifests as a geometry-independent scaling factor in the Cram\u00e9r-Rao Bound (CRB). Consequently, we prove that the optimal RIS placement remains unchanged by the presence of RIS position errors. This result is established for A-, D-, and E-optimality criteria. Simulation results verify the analysis and show that optimized RIS deployments retain their advantage even in the presence of placement uncertainty."
+  },
+  {
+    "title": "Beyond a Scalar: Distributional Serving Interfaces for Watch-Time Prediction",
+    "url": "http://arxiv.org/abs/2609.28383v1",
+    "arxiv_id": "2609.28383v1",
+    "authors": [
+      "Xuan Liu",
+      "Jingbin Qian",
+      "Zhanyu Liu",
+      "Hefeng Zhou"
+    ],
+    "published": "2026-09-23T16:57:08+00:00",
+    "summary": "Watch time is the primary engagement signal in short video feeds, and its prediction directly affects ranking and exposure. Existing methods improve watch time prediction by correcting duration bias or modeling richer distributions, but most expose only an expected or debiased watch time at serving time. Even when video duration is available to later models, the interface gives only one estimate of watch time and no probabilities for completion, overplay, or other regions relevant to downstream tasks. To address this limitation, we propose the Distributional Serving Interface (DSI), which has a distribution provider, a compact, low-dimensional summary, and lightweight readouts tailored to each task. The provider learns a joint distribution over four watch states derived from watch ratio and their event times; rules based on video duration remove incompatible combinations, while a restoration loss preserves accuracy in seconds. The summary reduces this distribution to a small set of event probabilities, time scales relative to duration, and uncertainty statistics. After training the provider, we fix its parameters and train value and ranking readouts that combine the summary with raw context. Across KuaiRec, KuaiRand-1K, and WeChat21, the complete DSI system achieves the lowest MAE on all three datasets, beating the strongest result among nine baselines by 1.9% to 8.5%, and achieves the best XAUC on two. It also leads retrieval metrics that account for video duration when complete systems are compared. With matched readouts held constant, the summary retains information relevant to each task beyond a predicted mean paired with video duration. Using the same lightweight linear heads for each new target, it also performs best on two new watch-time targets and improves a separately logged engagement target, while a randomly initialized provider does not reproduce this gain."
+  },
+  {
+    "title": "LEAP-CBF: A Safety Filter for Uncertain Systems with Least-Effort Adversarial Potentials",
+    "url": "http://arxiv.org/abs/2609.28364v1",
+    "arxiv_id": "2609.28364v1",
+    "authors": [
+      "Oswin So",
+      "Eric Yu",
+      "Chuchu Fan"
+    ],
+    "published": "2026-09-23T16:36:11+00:00",
+    "summary": "Control barrier functions (CBF) are a popular safety filter to ensure safety for nonlinear dynamical systems. However, when the system is subject to uncertainties and disturbances, this requires the use of robust variants of CBFs, which can be difficult to construct and can be overly conservative, especially for high-dimensional systems under input constraints. In this work, we propose a new approach to solve these challenges by introducing Least-Effort Adversarial Potentials (LEAP), a certificate that quantifies the robustness of a given state against disturbances in terms of the effort required by the disturbance to cause failure. We show that LEAP is a CBF for the undisturbed system, but can also be used to construct a safety filter that is robust to disturbances whose cumulative effort is bounded. We propose a method for constructing LEAPs with on-policy deep reinforcement learning. Next, we demonstrate LEAPs in simulation on a variety of multi-agent systems with disturbances and uncertainties. Finally, hardware experiments on a quadruped and quadrotors validate that LEAPs are well suited to tackle the disturbances and uncertainties from real-world robotic systems."
+  },
+  {
+    "title": "Entropy applications in cosmology: spacetime thermodynamics, holographic dark energy, entropic gravity and beyond - a review",
+    "url": "http://arxiv.org/abs/2609.28331v1",
+    "arxiv_id": "2609.28331v1",
+    "authors": [
+      "Emmanuel N. Saridakis",
+      "Giuseppe Gaetano Luciano",
+      "Andreas Lymperis",
+      "Eirini C. Telali"
+    ],
+    "published": "2026-09-23T16:10:35+00:00",
+    "summary": "Entropy has emerged as a key concept at the intersection of gravity, quantum theory, and cosmology, revealing deep connections between geometry, information, and thermodynamics. The realization that black holes are thermodynamic systems, characterized by an entropy proportional to their horizon area, has provided evidence that spacetime itself may possess a microscopic structure. Since then, entropy has acquired a central role across quantum field theory, holography, quantum gravity, and cosmology. In this review, we present a unified account of entropy in gravitational and cosmological contexts. We first survey entropy in gravitational systems, focusing on black-hole thermodynamics, entropy bounds, the holographic principle, entanglement entropy, and the area law, together with the main corrections and generalizations arising from quantum field theory, generalized uncertainty principles, modified statistics, and extended theories of gravity. We then discuss three conceptually distinct ways in which entropy is employed in cosmology. The first is through the spacetime-thermodynamics conjecture, in which gravitational dynamics emerge from thermodynamic relations applied to cosmological horizons, and generalized entropy forms consequently lead to modified cosmological evolution. The second is the holographic approach, in which entropy bounds constrain the vacuum energy of the Universe, giving rise to the holographic dark energy scenario and its various extensions. The third is entropic gravity, where gravity is interpreted as an emergent phenomenon of entropic origin, leading to interesting cosmological phenomenology. By reviewing the theoretical foundations and cosmological implications of these entropic frameworks, we aim to clarify the role of entropy, discuss open issues and outline directions toward a deeper thermodynamic and informational understanding of gravity and cosmology."
+  },
+  {
+    "title": "Visual Tripwires: Anticipating Failure in Deep Vision Systems",
+    "url": "http://arxiv.org/abs/2609.28099v1",
+    "arxiv_id": "2609.28099v1",
+    "authors": [
+      "Anoushka Harit",
+      "Rehan Zuberi",
+      "William Prew",
+      "Florian Markowetz"
+    ],
+    "published": "2026-09-23T13:29:26+00:00",
+    "summary": "Deep vision systems remain vulnerable to corruption, occlusion, and distribution shift despite strong benchmark performance. Existing reliability methods typically evaluate uncertainty at individual time steps and do not explicitly model how a system progresses toward failure. We introduce Visual Tripwires, a predictive reliability framework that uses temporal instability in model behaviour to anticipate impending failure. Our central hypothesis is that predictive degradation develops progressively through measurable changes in latent representations, prediction trajectories, and attention structure. Visual Tripwires captures these changes using representation drift, prediction oscillation, trajectory curvature, and attention entropy. A lightweight tripwire predictor aggregates these signals over a temporal window to estimate the probability of failure within a future prediction horizon. Experiments across multiple datasets, architectures, and progressive perturbation settings show that the proposed instability signals emerge before predictive degradation and provide earlier and more accurate failure warnings than conventional uncertainty estimation methods. These results demonstrate that temporal instability contains useful information about future model reliability and provides a practical basis for early warning in deep vision systems."
+  },
+  {
+    "title": "Recursive Uncertainty-Gated Image Registration for Learning-based Algorithms",
+    "url": "http://arxiv.org/abs/2609.28081v1",
+    "arxiv_id": "2609.28081v1",
+    "authors": [
+      "Clara Rodrigo Gonz\u00e1lez",
+      "Oscar Bates",
+      "Fu Siong Ng",
+      "Meng-Xing Tang"
+    ],
+    "published": "2026-09-23T13:22:32+00:00",
+    "summary": "Conventional image registration algorithms are robust to domain shifts and achieve low errors, but they are slow and computationally expensive. Deep-learning methods are efficient at inference-time, but face challenges in out-of-domain samples. We propose Recursive Uncertainty-Gated Image Registration (RUGI), an algorithm for iteratively refining deformation fields predicted by learning-based registration models. At each iteration, the registration model predicts an incremental deformation, and a gating map modulates the update. Refinements are hence concentrated in regions that remain difficult to register. We explore two gating strategies: a learned uncertainty-based approach and an image residual error approach. We evaluate RUGI on cardiac MRI and echocardiography datasets and show consistent improvements over single-step inference. Ablation experiments demonstrate that iterative refinement alone improves registration, but informative spatial gating provides a significant additional benefit. The error-gated variant of RUGI can also be applied directly to existing pretrained models; applied to VoxelMorph, TransMorph, and CycleMorph, it yields MSE reductions of 27-37% with no modification to the original training procedure. The improvements in registration performance are reflected in decreased errors in ejection fraction estimation relative to ground truths. These results demonstrate that spatially selective iterative refinement provides an effective strategy to improve registration accuracy at inference-time."
+  },
+  {
+    "title": "Relative Discharge Stage (RDS) Classification: A Practical Indicator of Battery Discharge Progress",
+    "url": "http://arxiv.org/abs/2609.27986v1",
+    "arxiv_id": "2609.27986v1",
+    "authors": [
+      "Khoa Tran",
+      "Tri Le",
+      "Hung-Cuong Trinh",
+      "Hung Tran-Nam"
+    ],
+    "published": "2026-09-23T12:14:14+00:00",
+    "summary": "Accurate remaining discharge time (RDT) prediction is challenging in real-world battery applications because future load profiles are unknown and highly dynamic. To address the uncertainty of continuous RDT regression, this paper introduces Relative Discharge Stage (RDS), a battery-management indicator that represents the remaining discharge condition using five interpretable classes: Normal, Good, Moderate, Low, and Recharge Required. Unlike state of charge (SOC), which reflects the current charge level, RDS characterizes the remaining discharge process without requiring future-current information during inference. A physics-informed RDS classification framework is proposed, combining SOC estimation with lightweight temporal learning. The SOC-estimation component includes second-order ECM state and terminal-voltage prediction, hysteresis and OCV temperature correction, core-temperature estimation, and AEKF state correction, supported by OCV evaluation, online STC-ECM parameter adaptation, and pretrained neural residual-voltage correction. The measured current, terminal voltage, surface temperature, and estimated SOC are arranged into a sliding observation window and processed by a lightweight temporal convolutional network. Experiments on two public lithium-ion battery datasets demonstrate robust RDS classification, with accuracy exceeding 80% under varying load and thermal conditions."
+  },
+  {
+    "title": "Uncertainty prediction in composite quantum chemistry approaches",
+    "url": "http://arxiv.org/abs/2609.27750v1",
+    "arxiv_id": "2609.27750v1",
+    "authors": [
+      "Jakub Lang",
+      "Kacper Raczko",
+      "Micha\u0142 Lesiuk"
+    ],
+    "published": "2026-09-23T12:00:52+00:00",
+    "summary": "In this work, we consider the problem of uncertainty estimation of the results obtained through theoretical calculations using a composite quantum chemistry scheme. Each component of the composite scheme carries its own individual uncertainty, originating principally from a finite size of the basis set used in the calculations. Of practical interest is the total uncertainty, i.e. the uncertainty of the sum of all components. We first show that the conventional error propagation rules that treat each component as a statistically uncorrelated variable are not well-justified in practice. To remedy this, we propose a method of estimating the total uncertainty of the composite scheme which does not rely on the assumption that the components are independent. It is formulated as a series of random walks with different starting values that represent the uncertainty of each component of the composite scheme. This method is first applied to two example composite schemes for the water dimer and the nitrogen molecule that illustrate its most salient features and allow for a deeper analysis. Next, the method is tested for a larger set of interaction energies from the S66 dataset for which trustworthy reference data are available and the error can be assessed unambiguously. It is shown that the method provides reliable and reasonably tight uncertainty estimates at an arbitrary predefined confidence level required in a given application. While the focus of the paper is on composite schemes, we believe that the general idea can be useful more broadly in computational chemistry and physics."
+  },
+  {
     "title": "Comparing phylogenetic trees of stars with spectral graph distances",
     "url": "http://arxiv.org/abs/2609.26782v1",
     "arxiv_id": "2609.26782v1",
