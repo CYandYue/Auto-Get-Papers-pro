@@ -1,5 +1,131 @@
 [
   {
+    "title": "A 1/64 spectral gap for surfaces with $\u03b4=1/2$",
+    "url": "http://arxiv.org/abs/2609.30261v1",
+    "arxiv_id": "2609.30261v1",
+    "authors": [
+      "Alex Cohen",
+      "Semyon Dyatlov"
+    ],
+    "published": "2026-09-24T17:59:34+00:00",
+    "summary": "We show that any convex co-compact hyperbolic surface with exponent of convergence of Poincar\u00e9 series $\u03b4\\in (\\frac25,\\frac{14}{27})$ has an essential spectral gap of size $\u03b2=\\tfrac78(\\tfrac12-\u03b4)+\\tfrac{1}{32}\u03b4-\u03b5$ for any $\u03b5>0$. In particular, for $\u03b4=\\frac12$ this becomes $\u03b2=\\tfrac{1}{64}-\u03b5$. We show existence of the gap by proving a new Fractal Uncertainty Principle, using a two-ends Furstenberg theorem of O'Regan-Wu-Yi [arXiv:2607.08461]."
+  },
+  {
+    "title": "Leveraging Movable-Element STARS for RSMA-SWIPT Under Practical System Imperfections",
+    "url": "http://arxiv.org/abs/2609.30172v1",
+    "arxiv_id": "2609.30172v1",
+    "authors": [
+      "Muhammad Asif",
+      "Asim Ihsan",
+      "Irfan Muhammad",
+      "Zhu Shoujin",
+      "Mikael Gidlund",
+      "Symeon Chatzinotas"
+    ],
+    "published": "2026-09-24T17:23:32+00:00",
+    "summary": "We study a robust multiuser framework for simultaneous wireless information and power transfer (SWIPT), where rate-splitting multiple access (RSMA) is integrated with a movable-element simultaneously transmitting and reflecting surface (ME-STARS). By allowing the STARS elements to change their positions in addition to controlling the reflection and transmission coefficients, the proposed architecture provides additional spatial flexibility for improving the cascaded channels toward users in both regions. Meanwhile, RSMA is employed to manage multiuser interference, while power-splitting receivers enable simultaneous information decoding and energy harvesting. The system design further accounts for channel state information (CSI) uncertainty, residual transceiver hardware impairments (HIs), and the nonlinear characteristics of practical energy-harvesting circuits. Accordingly, a robust sum-rate maximization problem is formulated by jointly designing the BS precoders, common-rate allocation, ME-STARS reflection/transmission coefficients, power-splitting (PS) ratios, and movable-element positions. The resulting formulation is highly non-convex because the movable-element positions affect the cascaded channels non-linearly and are tightly coupled with the remaining design variables. To obtain a tractable solution, the joint design is decomposed into active beamforming, passive beamforming, movable-element positioning, and PS-ratio optimization blocks, which are updated iteratively through suitable convex reformulations. Numerical results show that the proposed framework delivers higher sum rates than the considered benchmark schemes, exhibits robust behavior under CSI uncertainty and residual HIs, and achieves stable convergence across the considered system configurations."
+  },
+  {
+    "title": "CERIDWEN: Fast and Flexible GPU-Accelerated Stellar Population Inference",
+    "url": "http://arxiv.org/abs/2609.30145v1",
+    "arxiv_id": "2609.30145v1",
+    "authors": [
+      "Amanda Stoffers",
+      "Sandro Tacchella",
+      "Benjamin D. Johnson"
+    ],
+    "published": "2026-09-24T17:11:02+00:00",
+    "summary": "JWST has increased both the number of high-redshift galaxies with high-quality spectral energy distributions (SEDs) and their information content. In parallel, wide-area surveys from Euclid, Rubin's LSST, and Roman will increase galaxy samples by orders of magnitude. Analysing these datasets requires stellar-population models that are both flexible and computationally efficient. We present CERIDWEN, a GPU-native SED fitting framework written in JAX, with an end-to-end differentiable forward model spanning stellar populations, nebular emission, dust attenuation and emission, and projection into the observer frame. Its vectorised, compiled architecture lets nested sampling replace a batch of live points in parallel on the GPU, which makes flexible stellar-population models tractable under full Bayesian inference. Automatic differentiation also provides exact gradients for the gradient-based samplers in the package. We jointly infer time-dependent chemical-enrichment histories instead of a single stellar metallicity, and demonstrate non-parametric star-formation histories (SFHs) with $\\sim$120 age bins. Using $\u03b1$-enhanced stellar libraries from FSPS, CERIDWEN can sample stellar [$\u03b1$/Fe] jointly with [Fe/H], mass, and SFH, so that the joint posterior represents the [Fe/H]-[$\u03b1$/Fe] degeneracy explicitly. In controlled mocks, CERIDWEN recovers parameters with well-calibrated posterior uncertainties, while fits to real JWST observations reproduce posteriors from the established Prospector framework: on a single GPU, CERIDWEN completes a fit in a median sampling time of $\\sim$4 min, $\\sim$134$\\times$ faster per fit than equivalent CPU-based Prospector runs. CERIDWEN therefore makes full Bayesian inference practical for larger galaxy samples and more flexible stellar-population models, reducing computational constraints on the physical complexity explored in SED fitting."
+  },
+  {
+    "title": "Residual Correlation as a Diagnostic for Joint-Uncertainty Gains from GP Coregionalisation",
+    "url": "http://arxiv.org/abs/2609.30085v1",
+    "arxiv_id": "2609.30085v1",
+    "authors": [
+      "Fangqin Zhou",
+      "Joaquin Vanschoren"
+    ],
+    "published": "2026-09-24T16:33:59+00:00",
+    "summary": "In multi-target regression, correlated targets are often coupled through multi-output Gaussian processes with an intrinsic model of coregionalisation (GP-ICM), assuming that sharing statistical strength improves overall performance. In practice, the benefits are inconsistent. Across the settings studied, we find that the main benefit of coregionalisation is joint uncertainty quantification rather than point prediction. Raw target correlation does not predict when coupling helps; in the separable GP-ICM settings studied here, residual correlation, the cross-target dependence left unexplained by independent per-target predictors, is the strongest predictor of joint-uncertainty gains.   We introduce a lightweight diagnostic, $D_{\\rm logdet}=-\\frac{1}{2}\\log\\det R_{\\rm res}$, which represents the idealised joint negative log-likelihood (NLL) gain from modelling a full rather than diagonal residual covariance and is computable from independent GPs alone. Across a controlled synthetic study, 16 multi-target benchmarks, and frozen transformer and convolutional neural network representations for keypoint regression, point prediction remains largely unchanged ($\u0394R^2\\approx 0$). In contrast, $D_{\\rm logdet}$ strongly predicts observed ICM NLL improvements ($\u03c1_s=-0.83$, $p<0.001$), outperforming heuristics such as the feature-to-sample ratio. We also propose Residual-ICM, which preserves independent marginal variances while adding residual-correlation structure to the joint covariance. Residual-ICM achieves the best average joint NLL among the compared methods, while the diagnostic indicates when covariance coupling is likely to be useful. The diagnostic is specific to global Gaussian residual dependence, the structure captured by separable coregionalisation."
+  },
+  {
+    "title": "Reachability-Based Formal Verification of Graph Neural Networks with Node and Edge Features",
+    "url": "http://arxiv.org/abs/2609.30079v1",
+    "arxiv_id": "2609.30079v1",
+    "authors": [
+      "Anne M. Tumlin",
+      "Ben Wooding",
+      "Zhenxuan Shao",
+      "Diego Manzanas Lopez",
+      "Tyler Derr",
+      "Taylor T. Johnson"
+    ],
+    "published": "2026-09-24T16:29:32+00:00",
+    "summary": "Graph neural networks (GNNs) have become a prominent approach for developing fast, topology-aware surrogates in electric power systems, supporting tasks such as power flow (PF) analysis, optimal power flow (OPF) estimation, and cascading failure analysis (CFA). Despite this growing use, formally verifying GNN-based models remains challenging, with existing methods limited in scope. We extend the neural network verification (NNV) framework to graph-structured inputs through GraphStar sets, a generalization of Star sets that captures uncertainty over both node and edge features. This extension enables the propagation of linear message-passing operations and the sound approximation of ReLU nonlinearities for GNN architectures, including graph convolutional network (GCN) and graph isomorphism network with edge features (GINE) layers. We evaluate GNNV across three power system tasks, PF, OPF, and CFA, on the IEEE-24, IEEE-39, and IEEE-118 test cases, as well as two standard graph classification benchmarks, ENZYMES and PROTEINS. Our results show that GNNV provides tighter robustness guarantees than CORA on graph classification models with ReLU-based activations and, for the first time, delivers edge-aware robustness guarantees for GINE-based PF and OPF models under joint node and edge perturbations."
+  },
+  {
+    "title": "Nuclear Norm-Regularized Bayesian Matrix Completion",
+    "url": "http://arxiv.org/abs/2609.30078v1",
+    "arxiv_id": "2609.30078v1",
+    "authors": [
+      "Calvin Tolbert"
+    ],
+    "published": "2026-09-24T16:29:25+00:00",
+    "summary": "Matrix completion, the problem of estimating missing entries in a matrix from noisily observed ones, underlies a diverse array of problems such as recommender systems and counterfactual outcome estimation in panel data. Many algorithms address the problem using regularized least squares, often with the nuclear norm as a regularizer, but this method yields a point estimate with no built-in uncertainty quantification. A Bayesian formulation is a natural alternative, and if the noise variance is known, the nuclear norm-based prior yields a log-concave posterior. Unfortunately, in practice, the noise variance will not be known a priori, so for a fully Bayesian approach, a prior must be imposed on it. We give the first sampler for this model with an explicit non-asymptotic guarantee: polynomial in the matrix dimensions and in the reciprocal of the target accuracy. Our technique is to discretize the distribution of the noise precision onto a grid and build a categorical posterior via thermodynamic integration. This extension is not specific to matrix completion and may be useful in other non-log-concave sampling problems where the non-log-concavity is restricted to a single variable and the joint distribution of the remaining variables is nonsmooth. Our contribution is a feasibility result: we show that a polynomial-time Bayesian sampler for this model exists at all, and the resulting complexity, while polynomial, is not intended as a deployable algorithm at current problem scales."
+  },
+  {
+    "title": "Mathematical Modelling of Within-Host HIV Dynamics with Cytotoxic Immune Response and Antiretroviral Therapy",
+    "url": "http://arxiv.org/abs/2609.29972v1",
+    "arxiv_id": "2609.29972v1",
+    "authors": [
+      "Maxim Polyakov",
+      "Yulia Chernikova"
+    ],
+    "published": "2026-09-24T15:23:24+00:00",
+    "summary": "We develop and analyse a mechanistic ODE model of within-host HIV dynamics that includes uninfected CD4$^+$ T cells, latently and productively infected cells, free virions, and cytotoxic immune effectors. Antiretroviral therapy is described by two time-dependent efficacy functions that separately reduce new infections and virion production. We show that solutions remain non-negative and bounded, identify the infection-free and endemic equilibria, and derive the basic reproduction number together with the local stability condition for the infection-free state. We also obtain treatment-dependent suppression thresholds and an analytical estimate of when this threshold is crossed as treatment efficacy declines. Numerical simulations consider untreated infection, ART initiation, periodic variation in efficacy, and progressive loss of treatment effect. Without therapy, the model approaches a state of persistent infection. ART reduces viral load and promotes recovery of the CD4$^+$ T-cell population, while the latent reservoir persists under the parameter set considered. Periodic changes in treatment efficacy produce sustained forced oscillations. These results connect the analytical threshold conditions with the treatment-dependent dynamics of the model and provide a basis for future calibration, sensitivity analysis, uncertainty quantification, and extensions informed by clinical data."
+  },
+  {
+    "title": "Rapid Uncertainty Quantification on a Latent Field using Fisher Information",
+    "url": "http://arxiv.org/abs/2609.29969v1",
+    "arxiv_id": "2609.29969v1",
+    "authors": [
+      "Karl Daningburg",
+      "A. E. Lovell",
+      "Arvind T. Mohan",
+      "R. O'Shaughnessy"
+    ],
+    "published": "2026-09-24T15:22:17+00:00",
+    "summary": "Many inverse problems in physics infer an unobserved field from measurements connected to it through a governing equation. We combine Fisher information with a differentiable solver to quantify uncertainty in both the inferred field and its predicted observables, using a local Gaussian approximation without sampling the full parameter posterior. Applied to nuclear optical potentials, the method distinguishes features constrained by scattering measurements from those whose uncertainty remains set by the prior. Our flexible model improves agreement with held-out cross sections and achieves nearly nominal coverage with narrower predictive intervals than an established Bayesian optical model."
+  },
+  {
+    "title": "Not All Confusion Is Equal: A Source-Aware Uncertainty Diagnosis for Fine-Grained Aircraft Detection",
+    "url": "http://arxiv.org/abs/2609.29959v1",
+    "arxiv_id": "2609.29959v1",
+    "authors": [
+      "Hai Huang",
+      "Helmut Mayer"
+    ],
+    "published": "2026-09-24T15:17:34+00:00",
+    "summary": "Fine-grained object detectors are commonly evaluated with confusion matrices, which show where the model is confused but not why, nor whether the confusion can be reduced. We argue that confusion can be attributed to distinct, separable sources, each quantitatively measurable, turning a passive measurement into actionable guidance. We present $A^2E^2$, a diagnostic tool that decomposes the sources of confusion along two axes, $\\{$aleatoric, epistemic$\\} \\times \\{$within-class, between-class$\\}$, giving a $2\\times2$ taxonomy that enumerates the source types. Each quadrant is measured by its own quantity, computed in one of three places (input geometry, output-space disagreement, and the bias-parameter posterior), so the two epistemic sources are separated by construction rather than by an empirical correlation. On fine-grained aircraft detection, the four quadrants become four named sources with their own remedy verdict: affinity (geometric similarity, irreducible from size alone), heterogeneity (geometrically heterogeneous sub-variants, pointing to re-labeling rather than more data), contested (an insufficiently trained but learnable boundary, improvable), and collapsed (a class starved of data, reducible). After attributing the confusion to a specific reducible source, we apply a targeted intervention and verify experimentally that it reduces the diagnosed source specifically while leaving the irreducible sources unchanged. $A^2E^2$ thus turns confusion measurement into a concrete, validatable and actionable \"diagnosis\" in which the same off-diagonal mass can carry opposite causes and opposite remedies. We also state this framework's limits, including which sources are only partially identifiable on this specific dataset and why."
+  },
+  {
+    "title": "Improving Calibration of Black-Box Radiology AI Using Test-Time Augmentation",
+    "url": "http://arxiv.org/abs/2609.29931v1",
+    "arxiv_id": "2609.29931v1",
+    "authors": [
+      "Nathan Le",
+      "Magdalini Paschali",
+      "Arogya Koirala",
+      "Andrew Johnston",
+      "Zhongnan Fang",
+      "David B. Larson",
+      "Akshay S. Chaudhari",
+      "Camila Gonzalez"
+    ],
+    "published": "2026-09-24T15:00:01+00:00",
+    "summary": "Radiology AI systems increasingly inform clinical decisions such as triage, follow-up imaging, and treatment planning. For these decisions to be made safely, model outputs must be well calibrated, meaning predicted probabilities accurately reflect true risk. Many standard techniques for improving calibration, such as MC Dropout and Deep Ensembles, require access to model parameters or retraining. However, proprietary clinical AI systems operate as black boxes, preventing access to the model's internals. To that end, we propose a model-agnostic framework for improving calibration of black-box models using clinically grounded test-time augmentation (TTA). Our framework applies geometric and physics-inspired 3D CT perturbations and learns probability-level aggregation strategies without access to model internals or the original training data. Across pulmonary embolism and intracranial hemorrhage detection tasks, DualTTA achieved the strongest overall calibration among TTA methods, reducing the Expected Calibration Error by 54% (0.239 -> 0.109) and 43% (0.051 -> 0.029), respectively, while requiring only input-output access. Additionally, DualTTA outperformed uncertainty estimation techniques that require access to model internals, such as Temperature Scaling, MC Dropout, and Deep Ensembles, in most calibration metrics. These results demonstrate that learned TTA aggregation can improve the calibration of clinical AI systems, providing a practical approach for improving the reliability of black-box medical AI."
+  },
+  {
     "title": "A Search For Stellar-mass Black Holes Via Astrometric Microlensing II: 2012-2015 Keck Candidates",
     "url": "http://arxiv.org/abs/2609.28420v1",
     "arxiv_id": "2609.28420v1",
