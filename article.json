@@ -1,5 +1,190 @@
 [
   {
+    "title": "GraphWrit3R: End-to-End 3D Scene Graph Writing",
+    "url": "http://arxiv.org/abs/2609.31595v1",
+    "arxiv_id": "2609.31595v1",
+    "authors": [
+      "Luka Milivojevic",
+      "Nikola Popovic",
+      "Sayan Deb Sarkar",
+      "Sebastian Koch",
+      "Iro Armeni",
+      "Luc Van Gool",
+      "Danda Pani Paudel"
+    ],
+    "published": "2026-09-25T17:52:39+00:00",
+    "summary": "3D scene graphs provide a structured representation of complex environments by encoding objects, their semantic attributes, and the spatial and functional relationships between them. Current approaches for 3D scene graph generation suffer from several fundamental limitations. They rely on complex multi-stage pipelines with explicit intermediate representations, making systems fragile and prone to error propagation. They assume access to ground-truth object annotations during inference, which deviates from real-world scenarios. They depend on proprietary models, hindering open-source deployment, or incur prohibitively slow inference. We present GraphWrit3R, a simple end-to-end method that takes a 3D point cloud, Gaussian Splats, or a combination of both as input, and directly outputs a complete scene graph as a structured JSON script. The graph lists all objects, their semantic attributes, and the relationships between them, while avoiding all of the above mentioned limitations. The choice of multiple input modalities is purely for versatility, allowing a single set of weights to handle diverse scenarios. Point cloud inputs are encoded via Sonata and Gaussian Splat inputs via Chorus, with both modalities projected onto a shared voxel grid and fused through a novel per-voxel contrastive alignment loss before being decoded by a large language model. As a natural consequence of the LLM, GraphWrit3R also supports open-vocabulary querying. On the 3DSSG benchmark, our method achieves state-of-the-art performance on object class, predicate, and triplet recall, outperforming methods that rely on ground-truth object annotations during inference. We further provide qualitative results and analyze different input modality configurations, contrastive loss formulations, and token fusion strategies."
+  },
+  {
+    "title": "Optimal stability hierarchies of the Heisenberg Uncertainty Principle for solenoidal fields and of the second order Caffarelli--Kohn--Nirenberg inequalities",
+    "url": "http://arxiv.org/abs/2609.31579v1",
+    "arxiv_id": "2609.31579v1",
+    "authors": [
+      "Anh Do",
+      "Tuan Duong",
+      "Nguyen Lam",
+      "Guozhen Lu",
+      "Van Hoang Nguyen"
+    ],
+    "published": "2026-09-25T17:39:05+00:00",
+    "summary": "In 2018, V. Maz'ya proposed 75 open problems in analysis and PDEs. One of them is about the best constant for the Heisenberg Uncertainty Principle for solenoidal vector fields motivated by questions in hydrodynamics. This was answered by Cazacu, Flynn and Lam in dimension two and subsequently by Hamamoto in all dimensions $N\\ge3$ by establishing sharp inequalities with explicit constants. Nevertheless, the much harder stability problem remains open in all dimensions. The first main result in this paper is to establish a sharp stability hierarchy by proving that its deficit controls the distance to the set of extremals, with the sharp stability constant $\\frac12(N-\\sqrt{N^2-4N+12})$ for $N\\ge4$ and $1$ for $N=3$, together with chains of remainder terms measuring the distance to explicit larger families of poloidal and toroidal fields. The second main result is the second order $L^2$-Caffarelli--Kohn--Nirenberg inequality with the weights $|x|^{-2a}$ and $|x|^{-2b}$ on the line $1+a+b=0$, for which we obtain the stability constant $\\frac12\\min\\{4(1+a),\\sqrt{(N+2a)^2+4N-4}-(N+2a)\\}$. This CKN inequality is sharp whenever the second number is the smaller one. We develop a novel method: the fourth order one-dimensional problems attached to the spherical modes are transformed, by a Fourier--Hankel transform of real order, into first order inequalities whose sharp stability is that of weighted Gaussian Poincar\u00e9 inequalities. The inverse transform produces the extremals in terms of Kummer's function. As a byproduct of our new approach, we also obtain substantially simpler proofs, with sharp remainder terms and equality cases, of Hamamoto's one-dimensional inequality and of his sharp uncertainty principle for solenoidal fields."
+  },
+  {
+    "title": "Uncertainty and Explainability in Deep Rough Volatility: A Neural Information-Theoretic Posterior Approach",
+    "url": "http://arxiv.org/abs/2609.31570v1",
+    "arxiv_id": "2609.31570v1",
+    "authors": [
+      "Damiano Brigo",
+      "Rapha\u00ebl Huser",
+      "Dan Leonte"
+    ],
+    "published": "2026-09-25T17:34:56+00:00",
+    "summary": "Deep learning has substantially accelerated the calibration of complex stochastic-volatility models, but neural point calibration alone does not capture the uncertainty remaining after an implied-volatility (IV) surface has been observed. We develop a simulation-based inference framework for rough Heston (rHeston) calibration that learns the posterior distribution of the model parameters conditional on an IV surface. Using neural ratio estimation, we obtain calibrated posterior samples that can be propagated through heteroscedastic neural surrogate pricers for path-dependent exotic options. The resulting posterior-predictive distributions combine residual parameter uncertainty with conditional surrogate uncertainty and yield uncertainty-aware price intervals.   We further introduce Hellinger-SHAP, an information-theoretic explainability method for posterior inference. Rather than attributing a single parameter point estimate, it applies local-background Kernel SHAP to a posterior-information functional measuring contraction from the prior to the posterior. This identifies maturity--moneyness regions associated with posterior information gain for individual rHeston parameters. In a simulation study, posterior-predictive intervals provide calibrated or conservative coverage across forward-start, barrier, and realized-variance claims, while point plug-in prices can be materially unreliable for selected contract regimes. Together, the UQ and XAI analyses provide a transparent framework for uncertainty-aware neural calibration and downstream exotic pricing under the specified prior-predictive model."
+  },
+  {
+    "title": "Mind the second gap: The impact of gaps on noise and signal parameter inference",
+    "url": "http://arxiv.org/abs/2609.31550v1",
+    "arxiv_id": "2609.31550v1",
+    "authors": [
+      "Ollie Burke",
+      "Federico Pozzoli",
+      "Martina Muratore",
+      "Jonathan R. Gair"
+    ],
+    "published": "2026-09-25T17:19:33+00:00",
+    "summary": "Gravitational-wave data is never analysed without some conditioning: filtering and tapering act multiplicatively on the noise, destroying the stationarity on which the Whittle likelihood --- the backbone of nearly all gravitational-wave inference --- rests. The problem is particularly evident for LISA, where gaps are expected to overlap almost all signals and the noise must be estimated jointly with those astrophysical signals. We provide an analytical and numerical framework to assess the impact of noise mis-modelling when signal and noise parameters are inferred jointly in the presence of gaps. From a Fisher-matrix formalism verified against Bayesian inference, we obtain closed forms for the model uncertainties, their maximum-likelihood estimates and the true scatter in the latter, for various approximations to the likelihood. The Fisher-based linear formalism is extended through the Godambe--White curvature to the non-linear regime that severe mis-modelling produces. We survey gap families from long, well-tapered interruptions to short, high-rate ones, injecting massive black-hole binaries. Except in the case of frequent gaps, we show that the windowed covariance is well approximated by its leading diagonal --- the window convolved with the power spectral density --- for the estimation of both signal and noise parameters. By omitting the convolution, the signal sector remains unbiased but the noise parameters, in particular the optical-metrology noise which is dominant at high frequency, is displaced by over an order of magnitude in power. At the highest glitch rates the diagonal approximation stays accurate yet loses an order of magnitude in precision. To remedy this, we propose an exact time-domain likelihood of the surviving samples which can be efficiently (and accurately solved) via preconditioned conjugate gradient methods."
+  },
+  {
+    "title": "Structured Reasoning Agentic Framework for Interpretable Critical View of Safety Assessment",
+    "url": "http://arxiv.org/abs/2609.31524v1",
+    "arxiv_id": "2609.31524v1",
+    "authors": [
+      "Qing Xu",
+      "Yuxiang Luo",
+      "Zhen Chen"
+    ],
+    "published": "2026-09-25T17:01:56+00:00",
+    "summary": "Surgical scene understanding is critical for computer-assisted intervention, yet laparoscopic cholecystectomy remains challenged by the complex anatomy of the hepatocystic triangle and the risk of bile duct injury. Existing methods for Critical View of Safety (CVS) assessment typically treat it as a holistic prediction task, mapping visual features directly to criterion-level labels. This black-box paradigm lacks explicit reasoning about anatomical relationships, limiting both interpretability and compositional generalization. To address this, we propose ReasonCVS, a structured reasoning agentic framework empowered by Vision-Language Models (VLMs) that decomposes CVS assessment into explicit, fine-grained anatomical verification. Specifically, we devise an Anatomical Scene Graph Abstraction (ASGA) that organizes anatomical entities and their spatial relationships into a structured representation. To operationalize this, we introduce a Rationale-Aware Reasoning Agent, powered by a Large Language Model (LLM) fine-tuned via rationale distillation. Functioning as a strict central decision-maker, it invokes VLM-driven Sub-criterion Verifier as a specialized perceptual tool to parse the graph and independently evaluate individual sub-criteria. Through calibrated soft reasoning, this agent synthesizes the tool-gathered distributed observations, yielding a final verdict alongside a traceable clinical rationale. Extensive experiments on the Endoscapes-CVS201 benchmark demonstrate that ReasonCVS achieves superior performance (68.1\\% mAP) over state-of-the-art while providing interpretable, criterion-level explanations for reliable surgical assessment."
+  },
+  {
+    "title": "Retrainable physics-integrated neural differentiable modeling of sintering across material systems",
+    "url": "http://arxiv.org/abs/2609.31518v1",
+    "arxiv_id": "2609.31518v1",
+    "authors": [
+      "Zeping Chen",
+      "Ani Aprahamian",
+      "Khachatur V. Manukyan",
+      "Tengfei Luo"
+    ],
+    "published": "2026-09-25T16:56:17+00:00",
+    "summary": "Sintering is widely used to manufacture ceramics, but coupled densification and grain growth, material-dependent kinetics, and sparse measurements complicate predictive modeling and process design. We present Sinter-PiNDiff, a retrainable physics-integrated neural differentiable framework for predicting density and grain-size evolution. Two neural networks learn densification and grain-growth coefficients within coupled rate equations, while a smooth saturation factor attenuates densification near theoretical density. The same governing structure, network architecture, and training procedure were fitted independently to published data for MgO, Al-doped ZnO, and CaO-doped ThO2. Tests at held-out temperatures and compositions yielded the lowest mean error in all twelve material-metric comparisons against multilayer perceptron and residual network baselines. For MgO, Al-doped ZnO, and CaO-doped ThO2, respectively, density normalized root-mean-square errors were 14.6%, 10.8%, and 14.4%, and grain-size errors using the same metric were 8.6%, 12.1%, and 19.3%. Removing evolving density from both neural-network inputs increased density and grain-size trajectory errors in all three systems and ten of twelve aggregate errors, supporting density-dependent kinetic feedback. Deep ensembles estimated model disagreement, but empirical coverage showed that the uncertainty bands were not calibrated and did not capture all model-data discrepancies. These results establish Sinter-PiNDiff as a retrainable framework for sparse-data prediction and uncertainty-informed selection of sintering conditions."
+  },
+  {
+    "title": "Tolerable Inflation, Intolerable Uncertainty",
+    "url": "http://arxiv.org/abs/2609.31512v1",
+    "arxiv_id": "2609.31512v1",
+    "authors": [
+      "Eric Vansteenberghe"
+    ],
+    "published": "2026-09-25T16:52:38+00:00",
+    "summary": "Numerical inflation targets anchor beliefs. Across euro-area and US professional forecasts, inflation swaps and options, and realized inflation, uncertainty about inflation is compressed at the announced number and kinks exactly there. This paper identifies a cost of the same design that, to our knowledge, has not been shown before, and that appears in second moments only. Within the workhorse New Keynesian model, tolerating part of the inflation a supply shock produces is optimal, yet the optimal tolerated share is not identified: optimal look-through and an unwarranted drift of the effective target are observationally equivalent in the inflation history, so a central bank cannot demonstrate that a warranted deviation is warranted, ex post as much as in real time. Agents holding finite, heterogeneous patience then generate predictive variance that is flat below the target and rises linearly with the expected overshoot above it -- an observational-equivalence bill, zero at the announced number and accumulating with the point-years inflation spends above it. The first-order benefit of the number stands; what the cost changes is how inflation uncertainty must be measured. The distance from target explains 70% of the variation in professional forecast variance, and the bill lies within that component; Normalized Uncertainty -- to our knowledge the first such correction -- removes it. The purge changes inference substantially: on French loan-level data, raw dispersion is unrelated to corporate loan rates, while one standard deviation of the purged measure is associated with rates 89 basis points higher, and cross-country growth and time-series results shift similarly. Conventional measures of inflation uncertainty partly record inflation's distance from its anchor rather than uncertainty about the outlook."
+  },
+  {
+    "title": "UQ-LOB: Uncertainty-Aware Limit Order Book Mid-Price Forecasting",
+    "url": "http://arxiv.org/abs/2609.31491v1",
+    "arxiv_id": "2609.31491v1",
+    "authors": [
+      "Derrick Gilchrist Edward Manoharan",
+      "Eljas Linna",
+      "Kestutis Baltakys",
+      "Hao Dong",
+      "Juho Kanniainen"
+    ],
+    "published": "2026-09-25T16:33:23+00:00",
+    "summary": "Forecasting short-horizon mid-price movements from limit order book (LOB) data is central to algorithmic trading, yet most deep LOB forecasters are point predictors: they output a direction or a displacement, but never indicate which of their forecasts can be trusted. We introduce UQ-LOB, a lightweight, encoder-agnostic uncertainty quantification module that attaches to any pretrained LOB encoder and, in the spirit of attentive neural processes, conditions each forecast on a context set of recently completed windows whose outcomes are already realised. The UQ-regression variant outputs a calibrated Gaussian over the future tick displacement, while the UQ-classification variant outputs a categorical distribution over down/up/stationary. Both expose a scalar confidence (predicted signal-to-noise ratio or class probability) that supports selective prediction. On 5.2 billion LOB events across seven cryptocurrency assets and horizons of 5, 10 and 15 seconds, UQ-regression attains near-nominal 68% interval coverage, and restricting to the most confident 10% of predictions raises directional macro F1 by 0.11-0.15 for UQ-regression and 0.05-0.11 for UQ-classification, at every horizon. On large, economically meaningful moves, the tightest confidence tier reaches a directional F1 of 0.88 (down) and 0.83 (up) at the 5-second horizon."
+  },
+  {
+    "title": "Game Arena: Strategic LLM Evaluation in Competitive Environments",
+    "url": "http://arxiv.org/abs/2609.31473v1",
+    "arxiv_id": "2609.31473v1",
+    "authors": [
+      "Bovard Doerschuk-Tiberi",
+      "Yao Yan",
+      "Justin Chiu",
+      "Hann Wang",
+      "Timothy Chung",
+      "Martyna Plomecka",
+      "John Schultz",
+      "Jon Lipovetz",
+      "Clayton Drazner",
+      "Yuchen Zhuang",
+      "Jaimie Hwang",
+      "Nate Keating",
+      "Riley Jones",
+      "Andrew Lee",
+      "Oran Kelly",
+      "Ian Gemp",
+      "Michael Aaron",
+      "Laurel Prince",
+      "Kate Larson",
+      "Jeff Moser",
+      "Harrison Jobe",
+      "Chad Woodford",
+      "Siqi Liu",
+      "Andrew Wang",
+      "Bo Chang",
+      "Christopher D'Mello",
+      "Diane Chaleff",
+      "Addison Howard",
+      "Johnny Yip",
+      "Chuck Sugnet",
+      "Antonio Gulli",
+      "Meghan O'Connell",
+      "Will Cukierski",
+      "Nenad Tomasev",
+      "Dima Yeroshenko",
+      "Kinjal Parekh",
+      "Roxanne Daniel",
+      "Marc Lanctot",
+      "Domino Weir",
+      "Elsa Dong",
+      "Daniel Hennes",
+      "Melissa Nalubwama",
+      "Robert Fraser",
+      "Ryan Trostle",
+      "Jun Peng",
+      "Tom Mason",
+      "Lloyd Hightower",
+      "Chiamaka Chukwuka",
+      "Yuexiang Zhai",
+      "Phoebe Kirk",
+      "Yi Su",
+      "Yuting Han",
+      "Jie Ren",
+      "Chris Prichard",
+      "Sahand Sharifzadeh",
+      "Karim Hakimzadeh",
+      "DJ Sterling",
+      "Meg Risdal",
+      "Kate Olszewska",
+      "Ya Xu",
+      "Orhan Firat",
+      "Minmin Chen"
+    ],
+    "published": "2026-09-25T16:20:55+00:00",
+    "summary": "We introduce Kaggle Game Arena, an open and ever-expanding platform to evaluate large language models (LLMs) through competitive games. Different from static benchmarks, game arena enables models to play head-to-head matchups in structured environments where the gameplay strength naturally increases as models evolve, preventing performance saturation. This technical report details the infrastructure behind Game Arena and describes the three pilot game environments: Chess, Poker, and Werewolf. These environments span perfect information, imperfect information, and multiplayer game settings, enabling a systematic study of models' strategic planning, adaptation, and robustness under uncertainty. For each game, we provide a detailed description of the environment, evaluation metrics, and results from running full competitions across models. Through robust infrastructure and large-scale ground-truth based evaluation, Game Arena ensures reproducibility, transparency and generalizability to new games and variants over time."
+  },
+  {
+    "title": "Uncertainty-Aware Federated Learning for Infant Movement Analysis",
+    "url": "http://arxiv.org/abs/2609.31463v1",
+    "arxiv_id": "2609.31463v1",
+    "authors": [
+      "Edmond S. L. Ho"
+    ],
+    "published": "2026-09-25T16:13:48+00:00",
+    "summary": "Infant movement analysis provides valuable biomarkers for the early identification of neurodevelopmental disorders. Recent advances in deep learning have enabled automated analysis of infant movements from video-derived skeletal representations, achieving performance comparable to expert assessment for tasks such as General Movement Assessment (GMA). However, most existing approaches rely on centralized training, requiring data from multiple institutions to be collected and stored at a single site. Such assumptions are often impractical in clinical settings due to privacy, governance, and data-sharing constraints. To address these challenges, we present, to the best of our knowledge, the first federated learning framework for automated infant movement analysis and General Movement Assessment using skeletal motion data. As a clinically relevant use case, the proposed framework is evaluated on fidgety movement classification. To quantify model confidence, Monte Carlo (MC) Dropout is employed to estimate predictive uncertainty during inference. Building upon this, we propose an Uncertainty-Aware Federated Averaging (UA-FedAvg) strategy that incorporates predictive entropy derived from MC-Dropout into the federated aggregation process, enabling client contributions to be adjusted according to their predictive uncertainty. Experiments were conducted using a cross-subject evaluation protocol under a three-client federated learning setting. Results demonstrate that federated learning substantially improves classification performance compared with independently trained local models while achieving performance approaching that of centralized training. Furthermore, UA-FedAvg and its variant incorporating validation loss generally outperform conventional FedAvg across the evaluated data-split configurations."
+  },
+  {
     "title": "A 1/64 spectral gap for surfaces with $\u03b4=1/2$",
     "url": "http://arxiv.org/abs/2609.30261v1",
     "arxiv_id": "2609.30261v1",
