@@ -1,5 +1,170 @@
 [
   {
+    "title": "Covariant Contrastive Learning for Uncertainty-Aware Anomaly Detection",
+    "url": "http://arxiv.org/abs/2609.35755v1",
+    "arxiv_id": "2609.35755v1",
+    "authors": [
+      "Shelley Tong",
+      "Philip Harris",
+      "Gaia Grosso"
+    ],
+    "published": "2026-09-28T17:59:02+00:00",
+    "summary": "Machine-learning-based anomaly detection (AD) offers a promising, model-agnostic alternative to traditional LHC analyses, allowing to search for many signals at once. Recent advances in representation learning motivate the use of neural embeddings to map high-dimensional physics observables into low-dimensional latent spaces better suited to statistical inference. However, the propagation of systematic uncertainty in embedded spaces remains poorly understood, severely limiting the application of these methods to real LHC analyses. We address this gap with a machine learning strategy that uses a likelihood-based regularization to improve the structure of embedded spaces. Building on previous work using supervised contrastive learning for physics-aware embeddings, our approach trains them jointly with a downstream parameterized classification task that incorporates continuous uncertainties as nuisance parameters. This method returns a latent space that covaries predictably with systematic shifts, and a model of such distortions that can be exploited in the downstream statistical test for anomaly detection. Using simulated CMS Level-1 trigger data, we show that our method successfully models continuous uncertainties in a 4D latent space with a linear parametric downstream classifier, improving both the interpretability and robustness of the statistical anomaly detection task. This framework offers a general way to study and control systematic uncertainties in latent spaces, opening the way to a new scalable statistical analysis workflow for anomaly detection at the LHC, and other high energy physics experiments."
+  },
+  {
+    "title": "Fast radio burst - persistent radio source systems II. A faint PRS associated with the nearby FRB 20181030A?",
+    "url": "http://arxiv.org/abs/2609.35730v1",
+    "arxiv_id": "2609.35730v1",
+    "authors": [
+      "D. Pelliciari",
+      "G. Bernardi",
+      "B. Margalit",
+      "B. D. Metzger",
+      "C. Nanci",
+      "L. Bruno",
+      "M. Pilia",
+      "L. Beduzzi",
+      "C. Spingola",
+      "C. Stanghellini",
+      "P. Esposito",
+      "A. Geminardi",
+      "M. Giroletti"
+    ],
+    "published": "2026-09-28T17:51:36+00:00",
+    "summary": "Persistent radio sources (PRSs) are the continuum counterparts of fast radio bursts (FRBs), the latter being extragalactic transients of millisecond duration and Jy-level flux density. An FRB-PRS system is thought to be a flaring magnetar surrounded by an highly magnetized, baryon-loaded nebula. We aim to constrain the size of 20181030A-S1, a new PRS candidate, potentially associated with the repeating FRB 20181030A. The latter is localized with $\\sim 1'$ uncertainties in the outskirts of NGC 3252, which is a spiral galaxy at a luminosity distance of $20$ Mpc. We report very long baseline interferometric (VLBI) observations using the European VLBI Network at $1.7$ GHz of this PRS candidate at an angular resolution of $20$ milliarcseconds. Our observations reveal the presence of an unresolved radio source (20181030A-S1) at the position of the PRS candidate, confirming its compactness at milli-arcsecond angular scales. A fit to the position of the point-source yields a peak flux density of $280 \\pm 30$ $\u03bc$Jy and a transverse physical size constrained to be $R < 0.5$ pc at $68\\%$ confidence level (CL). This flux density converts to a spectral luminosity of $(9 \\pm 1) \\times 10^{25}$ erg s$^{-1}$ Hz$^{-1}$, $\\sim 3$ orders of magnitude lower than confirmed PRSs, making 20181030A-S1 the closest and faintest PRS candidate known. Its low luminosity and modest rotation measure are consistent with the $L_\u03bd-$rotation measure (RM) relation followed by confirmed FRB--PRS systems, supporting a common physical origin in magnetar-powered nebulae. We show how a magnetized wind nebula powered by an initially weak ($B_\\star \\simeq 10^{15}$ G) and young ($t_{\\rm age} \\simeq 15 - 150$ yrs) magnetar can account for both the observed spectral luminosity and RM of the system. Other possible origin scenarios for 20181030A-S1, in the case in which it is unrelated to the FRB source, are also discussed."
+  },
+  {
+    "title": "Fast radio burst - persistent radio source systems I. A 1.2 GHz search and catalog definition",
+    "url": "http://arxiv.org/abs/2609.35729v1",
+    "arxiv_id": "2609.35729v1",
+    "authors": [
+      "D. Pelliciari",
+      "L. Bruno",
+      "G. Bernardi",
+      "M. Pilia",
+      "P. Esposito",
+      "L. Beduzzi",
+      "A. Geminardi",
+      "O. Smirnov"
+    ],
+    "published": "2026-09-28T17:51:28+00:00",
+    "summary": "We present new $1.26$ GHz observations of 24 fast radio bursts (FRBs; 9 repeaters and 11 one-offs), conducted with the upgraded Giant Meter Wave Radio Telescope (uGMRT) at arc-second angular scale resolution, and combined them with literature data to construct an extended sample of 75 sources with either persistent luminosity measurements or upper limits. Our catalog is complete down to a $10^{29}$ erg s$^{-1}$ Hz$^{-1}$ luminosity threshold, which corresponds to the value of the first-discovered PRS, associated with FRB 20121102. We detect compact radio emission in six FRB fields, two of which are previously known PRSs and four are new candidates. The four new candidates are associated with three new repeating FRBs and one apparently one-off source. We computed the PRS occurrence using the whole catalog of 75 FRBs and found that PRSs more luminous than $10^{29}$ erg s$^{-1}$ Hz$^{-1}$ are rare. Unless otherwise stated, all uncertainties and upper limits are reported at the $95\\%$ confidence level (CL). If we only consider confirmed PRSs, we find an occurrence of $f_{\\rm all} = 0.06^{+0.09}_{-0.03}$, while including PRS candidates as well yields $f_{\\rm all} = 0.14^{+0.22}_{-0.08}$. We also compute the PRS occurrence in the two classes of FRBs: repeating and non-repeating. In the conservative case, i.e., when none of the new PRS candidates are considered to be associated with their FRBs, we find no preferred association between the PRSs and FRB class, with an occurrence of $f_{\\rm r} = 0.14^{+0.20}_{-0.09}$ for the sample of repeating FRBs and $f_{\\rm nr} \\leq 0.12$ for the sample of one-off sources. In the inclusive case, i.e., when all the new candidates are considered confirmed PRSs, we find $f_{\\rm r} = 0.27^{+0.21}_{-0.14}$ and $f_{\\rm nr} = 0.03^{+0.14}_{-0.02}$, with marginal ($90\\%$ CL) evidence that PRSs are preferably associated with repeating FRBs."
+  },
+  {
+    "title": "Correcting stellar contamination in transmission spectroscopy with contemporaneous monitoring: Application to GJ 1214 b",
+    "url": "http://arxiv.org/abs/2609.35721v1",
+    "arxiv_id": "2609.35721v1",
+    "authors": [
+      "\u00d2. Porqueras-Le\u00f3n",
+      "M. Perger",
+      "J. C. Morales",
+      "I. Ribas",
+      "J. Blanco-Pozo",
+      "H. Tabernero",
+      "E. Herrero",
+      "E. Pall\u00e9",
+      "H. Parviainen",
+      "F. Murgas",
+      "C. Rodr\u00edguez-L\u00f3pez",
+      "P. H. Hauschildt",
+      "A. Schweitzer",
+      "N. -E. N\u00e8mec",
+      "D. Baroch",
+      "N. R. C. Gomes",
+      "G. Anglada-Escud\u00e9",
+      "J. Aceituno",
+      "N. Narita",
+      "A. Fukui",
+      "M. Mori",
+      "Y. Smolyarova"
+    ],
+    "published": "2026-09-28T17:48:12+00:00",
+    "summary": "Transmission spectroscopy has emerged as an essential tool for characterising the atmospheres of transiting exoplanets. However, stellar surface inhomogeneities contaminate transmission spectra, posing a major challenge to high-precision observations such as those from the James Webb Space Telescope (JWST). We develop and apply methods to correct for stellar contamination, improving the accuracy of exoplanet atmospheric characterisation. We obtained coordinated multi-band photometry and high-resolution spectroscopy around JWST observations of GJ 1214 b and applied two frameworks: (i) a StarSim inversion, which infers stellar activity parameters from the monitoring data and propagates them to corrections; and (ii) UnSPOTTER, in which neural networks trained on StarSim simulations learn the mapping from monitoring data to corrections. Both frameworks agree within uncertainties and indicate that the JWST observations of GJ 1214 occurred at a favourable rotation phase with low stellar contamination. For UnSPOTTER, the inferred corrections can be constrained at approximately 15 ppm across the JWST wavelength range, implying post-correction residuals of the same order. If the same system were observed near activity maximum, the predicted contamination would be strongly chromatic and affect atmospheric retrievals, highlighting the importance of coordinated monitoring and robust activity correction techniques. The two approaches are complementary but serve different roles. The inversion yields physically interpretable parameters and surface maps, whereas UnSPOTTER marginalises over surface-configuration degeneracies and provides tighter predictive corrections within its validated simulation domain. Our pipeline can be generalised to other active stars: with multi-band and multi-technique monitoring around JWST visits, it can provide activity forecasts for scheduling and activity corrections."
+  },
+  {
+    "title": "A Unified Uncertainty Representation for Graph Neural Networks via Doubly-Spectral Stochastic Expansion",
+    "url": "http://arxiv.org/abs/2609.35703v1",
+    "arxiv_id": "2609.35703v1",
+    "authors": [
+      "Fred Xu",
+      "Thomas Markovich",
+      "Florence Regol",
+      "Yizhou Sun"
+    ],
+    "published": "2026-09-28T17:42:52+00:00",
+    "summary": "Reliable deployment of graph neural networks requires calibration, out-of-distribution (OOD) detection, and robustness to distribution shift, yet existing methods address these needs with separate models and   objectives. We model uncertain node embeddings as random graph signals: graph Fourier filters capture structural variation, and a scalar orthogonal-polynomial chaos coordinate captures latent stochastic   variation. The resulting doubly-spectral stochastic (DSS) expansion supplies task-matched readouts from one representation: the mean coefficient encodes class evidence for the energy-based OOD score, the   higher-order coefficients encode structured logit variation, and quadrature averaging over the chaos coordinate defines the single predictive distribution used for prediction and calibration. A capacity theorem   shows that, under a full-rank feature assumption, a restricted subfamily matches the chaos coefficients of any Gaussian-latent random graph signal, with exponentially decaying truncation error under a growth   condition; the task-level claims are established empirically. DSS-GNN has two deployment modes: standalone, or as a residual branch beside a deterministic encoder (DSS-Hybrid). Standalone DSS-GNN achieves the   lowest Brier score among the compared uncertainty-aware baselines on all 14 node classification benchmarks without post-hoc correction; DSS-Hybrid achieves the best AUROC on most node-OOD settings, competitive   cross-graph OOD detection, and the strongest shifted accuracy on all 7 GOOD concept-shift benchmarks under standard empirical risk minimization (ERM). Cross-evaluating both modes on all three tasks shows that   each remains effective on the other's tasks, with documented exceptions, and yields explicit deployment guidance."
+  },
+  {
+    "title": "QuanReview: Offline, Auditable Reconciliation of Human and LLM Span Annotations",
+    "url": "http://arxiv.org/abs/2609.35685v1",
+    "arxiv_id": "2609.35685v1",
+    "authors": [
+      "Matteo Musacchio",
+      "Juan Cruz Giner Pulero",
+      "Isabel Casta\u00f1eda",
+      "Naomi Couriel",
+      "Yelena Mejova",
+      "Mariano G. Beir\u00f3",
+      "Kyriaki Kalimeri"
+    ],
+    "published": "2026-09-28T17:33:14+00:00",
+    "summary": "Structured span annotations, such as quantities with their units, uncertainty modifiers, and event classes, are expensive to create and hard to keep trustworthy once language models enter the loop. We present QuanReview, an open-source system for auditing and correcting such annotation layers. QuanReview aligns two annotation streams over the same documents at character level, resolves unambiguous cases by an explicit and logged policy, and routes candidate conflicts to a browser-based adjudication interface where reviewers accept either side, build field-level hybrids, or flag items for re-annotation. A campaign manager assigns documents to multiple annotators with configurable redundancy, computes agreement at document and span level, auto-merges unanimous documents, and exports the corrected layer in the original file format, so that it can replace the original annotation files directly. Applied to a 4,457-record humanitarian benchmark and an LLM extraction stream, the system fully auto-merged 8% of documents, applied automatic policy decisions to a further 1,513 records, and concentrated human attention on 3,131 candidate conflicts, a mean of 5.4 per reviewed document."
+  },
+  {
+    "title": "Accelerating massive ensembles of ordinary differential equations",
+    "url": "http://arxiv.org/abs/2609.35661v1",
+    "arxiv_id": "2609.35661v1",
+    "authors": [
+      "Lawrence Berry",
+      "Will Handley",
+      "Oliver Hahn",
+      "Nils Sch\u00f6neberg"
+    ],
+    "published": "2026-09-28T17:22:30+00:00",
+    "summary": "Solving large ensembles of small, independent ordinary differential equations (ODEs) is a common task in computational science and engineering, arising for example in Bayesian parameter estimation, Monte Carlo uncertainty quantification, and the integration of uncoupled physical systems such as the linearised Einstein-Boltzmann equations of cosmology. Modern graphics processing units (GPUs) with thousands of cores are well suited to such parallel workloads, but realising this potential requires careful attention to GPU-specific architectural constraints. We present modax, a Python library of GPU-accelerated ODE solvers specifically optimised for solving large ensembles of low-dimensional, independent problems. Our solvers are compatible with the JAX ecosystem but are written in a low-level, thread-based programming paradigm better suited to ensembles of highly divergent trajectories than their pure-JAX counterparts. Benchmarks on the Lorenz, Robertson and van der Pol lattice systems compare modax against diffrax, DiffEqGPU$.$jl and torchdiffeq across ensemble size, dimensionality, and trajectory divergence. Our explicit Tsit5 solver achieves 30x speed-up over diffrax on Lorenz systems, and our implicit Rodas5P solver achieves over 700x speed-up on Robertson systems, demonstrating the superiority of linearly implicit Rosenbrock-Wanner methods on GPUs. Our implicit solver scales well to higher dimensions thanks to the use of sparsity-exploiting techniques and data structures. We conclude by applying modax to three examples from the field of cosmology - Bayesian parameter estimation from primordial abundances, Monte Carlo uncertainty quantification of the global 21cm signal, and the computation of uncoupled Fourier modes in the primordial power spectrum - and demonstrate significant efficiency improvements in our ability to model physical phenomena described by low-dimensional (<200D) ODEs."
+  },
+  {
+    "title": "Guided Uncertainty-Aware Robust Domain Transfer",
+    "url": "http://arxiv.org/abs/2609.35654v1",
+    "arxiv_id": "2609.35654v1",
+    "authors": [
+      "Xin Xiong",
+      "Zijian Guo",
+      "Tianxi Cai"
+    ],
+    "published": "2026-09-28T17:20:38+00:00",
+    "summary": "Artificial intelligence models deployed as clinical decision support tools often suffer substantial performance degradation over time and across institutions due to covariate shift, concept drift, and cross-system heterogeneity. Fully retraining complex models is frequently infeasible, particularly in EHR settings where labeled outcome data are scarce and regulatory constraints limit model modification. We propose GUARD (Guided and Uncertainty-Aware Robustness to Domain shift), a unified statistical framework for updating an existing deployed model using limited labeled target data and multiple heterogeneous source populations while guarding against future distributional shifts. GUARD formulates robust multi-source transfer learning as a semi-supervised, adversarial optimization problem anchored at the current model, and employs double machine learning with cross-fitting to obtain debiased, efficient estimates that leverage abundant unlabeled target covariates. It then constructs an uncertainty-aware, guided group DRO estimator that combines source and target information while accounting for sampling variability in the source models. Our framework jointly provides principled robustness to domain shift, efficient semi-supervised estimation, and valid statistical inference for multi-source transfer of clinical prediction models. We demonstrate the utility of GUARD via extensive simulation experiments and a real world application to predicting future disease activity in rheumatoid arthritis from EHR data spanning more than a decade. GUARD recalibrates a pretrained model with only a small number of labeled records per year and remains accurate over multi-year horizons where target-only and standard transfer estimators degrade sharply."
+  },
+  {
+    "title": "Simplex Diffusion Models",
+    "url": "http://arxiv.org/abs/2609.35553v1",
+    "arxiv_id": "2609.35553v1",
+    "authors": [
+      "Justin Deschenaux",
+      "Alexandre Galashov",
+      "Andrew Campbell",
+      "Li Kevin Wenliang",
+      "James Thornton",
+      "Arnaud Doucet",
+      "Valentin De Bortoli"
+    ],
+    "published": "2026-09-28T16:26:29+00:00",
+    "summary": "Diffusion models have revolutionized generative modeling for continuous data through the gradual refinement of a belief state. This iterative refinement has not yet carried over to discrete diffusion models, which discard uncertainty at intermediate steps through categorical sampling (information collapse). We propose Simplex Diffusion Models (SDMs), a framework that lifts the diffusion process to the probability simplex to represent beliefs over categories. SDMs admit probability paths with closed-form reverse transitions and can be trained with a simple cross-entropy loss. Contrary to earlier proposals such as Dirichlet Flow Matching which requires integrating an ordinary differential equation, we introduce a DDIM-like sampler with a tunable level of stochasticity. Because SDMs operate on samples on the simplex, they can carry uncertainty across denoising steps, which mitigates information collapse. On OpenWebText, SDMs are competitive with strong Discrete Diffusion baselines, achieving $17.0$ GenPPL at $5.46$ unigram entropy in 64 sampling steps, close to real validation data. Even without Self-Conditioning (SC), SDMs outperform masked and uniform diffusion (with SC or predictor-corrector sampling) on code generation (TinyGSM, $T=0.1$; $49.0\\%$ vs. $45.8\\%$). Distilled down to 8 steps, SDMs solve $32.1\\%$ of GSM8K problems, more than distilled Discrete Diffusion models with 128 steps ($21.4\\%$)."
+  },
+  {
+    "title": "Privacy-Aware ISAC for Full-Duplex Monostatic Systems Using Movable Antennas",
+    "url": "http://arxiv.org/abs/2609.35534v1",
+    "arxiv_id": "2609.35534v1",
+    "authors": [
+      "Yasas Savinda",
+      "Mohammadali Mohammadi",
+      "Himal A. Suraweera",
+      "Henk Wymeersch"
+    ],
+    "published": "2026-09-28T16:17:05+00:00",
+    "summary": "This work investigates sensing privacy in full-duplex (FD) monostatic integrated sensing and communication (ISAC) systems with movable antennas (MAs). The proposed approach jointly optimizes beamforming and antenna trajectories to create a deceptive dummy DD-bin response at a passive sensing eavesdropper (Eve), while satisfying a true-bin sensing-quality requirement at the base station (BS). The resulting problem is highly non-convex. {To address this, a stage-wise alternating local-search framework is developed to obtain suboptimal solutions. Within this framework, we maximize the worst-case margin between dummy and true delay-Doppler (DD)-bin detector-oriented SINR surrogates over a discretized uncertainty region for Eve, incorporating detector-aligned dummy-bin refinement and true-bin preservation.} Simulation results show that the proposed MA-enabled design suppresses Eve's true-target DD-bin selection and increases dummy-bin selection probability compared with benchmark schemes, while maintaining reliable BS sensing performance."
+  },
+  {
     "title": "GraphWrit3R: End-to-End 3D Scene Graph Writing",
     "url": "http://arxiv.org/abs/2609.31595v1",
     "arxiv_id": "2609.31595v1",
