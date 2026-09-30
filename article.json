@@ -1,5 +1,147 @@
 [
   {
+    "title": "How Thermodynamically Accessible are Quaternary Mixed-Metal Chalcohalides?",
+    "url": "http://arxiv.org/abs/2609.38125v1",
+    "arxiv_id": "2609.38125v1",
+    "authors": [
+      "Pascal Henkel",
+      "G. Krishnamurthy Grandhi",
+      "Jarno Laakso",
+      "David Rovira Ferrer",
+      "Edgardo Saucedo",
+      "Jingrui Li",
+      "Paola Vivo",
+      "Miguel A. L. Marques",
+      "Patrick Rinke"
+    ],
+    "published": "2026-09-29T17:51:53+00:00",
+    "summary": "Quaternary mixed-metal chalcohalides (MMCHs) are a promising mixed-anion semiconductor family, but their thermodynamic accessibility remains largely unexplored. We combine density functional theory with the Alexandria Materials Database to carry out a rapid and reliable evaluation of the thermodynamic accessibility of 54 M(II)$_2$M(III)Ch$_2$X$_3$ compounds. All evaluated MMCHs are predicted to be thermodynamically unstable, but a considerable fraction of MMCHs lie within computational uncertainty of the convex hull. Their predicted decomposition follows five distinct reaction pathways, most commonly into M(III)$_2$Ch$_3$, M(II)X$_2$, and M(II)Ch. Solution processing of six Sn-based MMCHs supports our analysis. Notably, this includes the first synthesis of the previously unreported Sn$_2$InS$_2$Br$_3$ in a multiphase film. Our approach identifies convex hull proximity and competing phase formation as key constraints on MMCH synthetic accessibility during solution processing, thereby guiding future MMCH exploration."
+  },
+  {
+    "title": "From Routing Signals to Selective Review: Visual regrounding in MoE VLMs",
+    "url": "http://arxiv.org/abs/2609.38111v1",
+    "arxiv_id": "2609.38111v1",
+    "authors": [
+      "Hongzhu Guo",
+      "Mohsen Fayyaz",
+      "Nanyun Peng"
+    ],
+    "published": "2026-09-29T17:49:07+00:00",
+    "summary": "Vision-language models (VLMs) may accept false visual premises, answering questions about a target object's color, count, location, or state even when it is absent. We call this reliability-critical behavior a target-absence grounding failure. Existing visual-grounding detectors primarily rely on generated responses, hidden states, or uncertainty measures. We present the first framework to leverage internal routing decisions in Mixture-of-Experts (MoE) VLMs to detect target absence before generation and guide selective correction. We extract target-token routing probabilities from Qwen3-VL-30B-A3B-Instruct and Gemma-4-26B-A4B-it, train a separate L2-regularized linear detector for each model, and use its predictions to selectively invoke a target-aware review prompt. Using routing alone, the Qwen and Gemma detectors achieve ROC-AUCs of 0.9988 and 0.9956 on GQA-Inpaint and retain 0.8095 and 0.7781 on the external OBER dataset, respectively. The resulting routing-gated policy improves end-to-end accuracy on GQA-Inpaint and OBER by +22.25% and +12.17% for Qwen, and by +13.42% and +1.39% for Gemma, without modifying model weights. Further analysis shows that the signal is localized to the target-object token, emerges in early MoE layers, and is distributed across partially substitutable experts. Although cross-dataset threshold shifts require recalibration, false-positive review causes limited harm overall, suggesting that intervention risk can be controlled through joint selection of the detector threshold and review prompt. Overall, we show that routing probabilities alone preserve actionable information about visual perception, allowing computation already produced by an MoE VLM to support low-cost detection and selective visual regrounding."
+  },
+  {
+    "title": "Tail-Influence Sampling for CVaR Policy Evaluation",
+    "url": "http://arxiv.org/abs/2609.38096v1",
+    "arxiv_id": "2609.38096v1",
+    "authors": [
+      "Pauline Bourigault",
+      "Xiaotong Ji",
+      "Matthieu Zimmer",
+      "Rasul Tutunov",
+      "Haitham Bou-Ammar"
+    ],
+    "published": "2026-09-29T17:44:00+00:00",
+    "summary": "Policies with similar mean returns can differ sharply in rare failures, yet estimating lower-tail conditional value-at-risk (CVaR) accurately can require many costly rollouts. When different conditional components of a stochastic workflow can be queried separately, we ask how to allocate a fixed evaluation budget to estimate a fixed policy's CVaR most accurately. We derive a tail influence for each queryable conditional law that aggregates how its uncertainty affects CVaR across every Bellman reuse. Its variance yields the fixed-design efficiency bound and the oracle Neyman allocation. Tail-Influence Sampling (TIS) estimates these influence scales from a pilot model and reallocates fresh queries toward kernels that matter most for the tail; a visitation-anchored variant protects against pilot underallocation. Under fixed dimension and a positive quantile margin, TIS attains oracle asymptotic variance and first-order MSE including pilot cost, while the anchored variant is within a factor two of the oracle. We also characterize an exact-grid regime in which tail- and mean-optimal allocations coincide. On CliffWalking, TIS reduces MSE by 41% versus learned occupancy and 76% versus complete rollouts at the same charged transition budget. In frozen language-model review workflows, anchored TIS beats an equally regularized mean-influence blend in 23 of 24 MMLU-Pro settings and reaches 2.4-3.4$\\times$ lower MSE than rollouts on six-call FinQA reviews."
+  },
+  {
+    "title": "Probability is Not Enough: Exploring and Counting Divergent Tokens for Reasoning Uncertainty Quantification in LLMs",
+    "url": "http://arxiv.org/abs/2609.38070v1",
+    "arxiv_id": "2609.38070v1",
+    "authors": [
+      "Feiyang Li",
+      "Shengjing Liu",
+      "Qi Zhan",
+      "Sijie Cheng",
+      "Weiqing Wang",
+      "Hongwen Chen",
+      "Yuxuan Yang",
+      "Wen Wang",
+      "Yile Wang",
+      "Hui Huang"
+    ],
+    "published": "2026-09-29T17:33:36+00:00",
+    "summary": "As the chain-of-thought reasoning capabilities of large language models improve, evaluating and calibrating their reasoning confidence is becoming increasingly important for quantifying the uncertainty of their answers. Current methods for estimating the confidence of large language models are generally based on probabilities of selected key tokens, but the underlying mechanism remains unclear. Our pilot study finds that replacing selected token probabilities with coarse substitutes can also improve calibration, motivating us to further explore effective signals of model confidence. We introduce Divergent Token Confidence (DTC), a framework that estimates confidence by counting tokens at which two models strongly disagree during decoding. DTC identifies these divergent tokens using the Jensen-Shannon divergence between next-token distributions evaluated along the same reasoning trajectory. We find that their count is almost negatively associated with answer accuracy, thereby serving as a simple yet effective signal for uncertainty quantification. DTC supports both white-box and black-box evaluation using auxiliary models, without explicit training and affecting the generation process. Experiments across multiple model families and six mathematical benchmarks demonstrate improved calibration over probability-based and verbalized baselines. Under white-box evaluation, the count-only estimator achieves an average expected calibration error of 13.0%, compared with 32.7%-42.4% for standard full-sequence confidence methods. In black-box settings, it also improves calibration over the original verbalized scores. For example, mean expected calibration error falls from 32.1%-40.2% to 13.7%-16.3% on DeepSeek-V3.2. These findings provide new insights for improving reasoning uncertainty quantification in large language models. The code is released at https://github.com/szu-tera/DTC.git."
+  },
+  {
+    "title": "Bayesian Constraints on Bosonic Dark Matter in Neutron Stars within a Covariant Density-Functional Equation-of-State Ensemble",
+    "url": "http://arxiv.org/abs/2609.38055v1",
+    "arxiv_id": "2609.38055v1",
+    "authors": [
+      "Davood Rafiei Karkevandi",
+      "Alexander Ayriyan",
+      "Armen Sedrakian"
+    ],
+    "published": "2026-09-29T17:24:19+00:00",
+    "summary": "We investigate neutron stars admixed with repulsively self-interacting bosonic dark matter (DM) using current multi-messenger observations. The dark component is modeled as a complex scalar field coupled to baryonic matter only through gravity, allowing dark-core and dark-halo configurations. To quantify baryonic equation-of-state (EOS) uncertainties, we combine a three-dimensional scan over $(m_\u03c7,\u03bb,F_\u03c7)$ with 27 DDME2-based covariant density-functional EOSs spanning $L_{\\rm sym}=30,50,70$ MeV and $-600\\le Q_{\\rm sat}\\le 1000$ MeV. The models are confronted in a Bayesian framework with NICER mass--radius measurements from the Amsterdam and Maryland/Illinois analyses and the GW170817 tidal-deformability constraint. After Bayesian evidence weighting over the EOS ensemble, the EOS-relevant dark-sector scale $\u03bc_\u03c7\\equiv m_\u03c7/\u03bb^{1/4}$ is localized around 250 MeV for both NICER data sets. In the $(m_\u03c7,\u03bb)$ parameterization, the marginalized boson-mass posterior peaks at $m_\u03c7\\simeq300$--$330$ MeV, while $\u03bb$ remains broadly distributed. Since the bosonic EOS depends on $m_\u03c7$ and $\u03bb$ only through $\u03bc_\u03c7$, their separate marginals are conditional on the adopted independent priors. The inferred DM fraction is more data-set dependent, with posterior modes near 4% for Maryland/Illinois and 12% for Amsterdam. Bosonic DM also shifts the inferred $Q_{\\rm sat}$ from negative toward intermediate and positive values, whereas the response of $L_{\\rm sym}$ is weaker. This indicates a model-dependent trade-off between DM-induced compactification and the high-density stiffness of baryonic matter. These constraints remain conditional on the selected EOS family and the assumption of a common effective $F_\u03c7$ for all sources."
+  },
+  {
+    "title": "Prompts Live on an Arc: Gaussian Curricula in Fisher--Rao Coordinates for Rollout-Efficient GRPO",
+    "url": "http://arxiv.org/abs/2609.38018v1",
+    "arxiv_id": "2609.38018v1",
+    "authors": [
+      "Mei Okonkwo",
+      "Pixel Nomand",
+      "Julian Berg",
+      "Elena Voss",
+      "Lena Park",
+      "Marcus Hale",
+      "Adrian Cho",
+      "Sofia Reyes"
+    ],
+    "published": "2026-09-29T17:02:27+00:00",
+    "summary": "Group relative policy optimization (GRPO) learns only from prompts whose sampled responses disagree: a group that is entirely correct or entirely incorrect has zero reward variance, contributes no gradient, and still consumes its rollouts. Prompt-selection methods reduce this waste by steering sampling toward intermediate pass rates, but they choose the target, its width, and the uncertainty model heuristically, in raw pass-rate or logit coordinates. We show that GRPO comes with a natural coordinate for pass rates: the arc length $\u03c8=\\arcsin\\sqrt{p}$ on the Bernoulli Fisher--Rao manifold. In arc length, the expected GRPO update is uniform up to two boundary ramps; the probability of a zero-variance group is bounded by two Gaussian boundary layers of width $1/\\sqrt{2G}$; pass-rate evidence has constant noise; and the gradients of the pass@$k$ and pass$^k$ objectives are Gaussians whose center and width follow from $k$ in closed form. A prompt curriculum for GRPO is therefore a Gaussian in arc length, and choosing its center amounts to choosing the objective. We turn this observation into ARCUS, a drop-in sampler that tracks every prompt with a Kalman filter in arc length, scores prompts by an objective-matched Gaussian kernel times the predicted probability of an informative group, keeps only informative groups for the unchanged GRPO update, and paces the target toward the hardest objective whose predicted yield stays within a small slack of the best. Across six mathematical reasoning benchmarks and three backbones, ARCUS improves the average accuracy of GRPO by 2.8--2.9 points and that of dynamic sampling by 1.1--1.2 points, while generating 48--57\\% fewer rollouts than dynamic sampling."
+  },
+  {
+    "title": "Toward Principled Generative Data Assimilation of Turbulent Flows from Sparse Observations",
+    "url": "http://arxiv.org/abs/2609.37983v1",
+    "arxiv_id": "2609.37983v1",
+    "authors": [
+      "Baris Turan",
+      "Zhuoran Liu",
+      "Heng Xiao"
+    ],
+    "published": "2026-09-29T16:46:26+00:00",
+    "summary": "Turbulent flows are highly chaotic, which makes their instantaneous states difficult to predict. Data assimilation aims to reduce this predictive uncertainty by synthesizing the predictions of a physical solver with partial observations of the system. Traditional data assimilation methods such as ensemble and variational approaches can incur substantial computational cost through evaluations of high-fidelity solvers and, for variational methods, adjoint calculations. Recently, generative diffusion models have been explored in the solution of inverse problems in fluid mechanics, demonstrating their potential for data assimilation. However, existing diffusion-based methods often use free parameters instead of the prescribed observation-error covariance to control the balance between the prior and likelihood, departing from the Bayesian formulation of data assimilation. We propose a framework for principled generative data assimilation in which observations are assimilated in the clean-state space and the prescribed observation-error covariance enters explicitly through an ensemble Kalman update. In the Lorenz-63 system, the proposed method yields a lower trajectory error and equation residual than the other diffusion-based posterior sampling methods considered, although its ensemble underestimates the posterior uncertainty. In two-dimensional Rayleigh-B\u00e9nard convection, the generated fields recover the statistics of the direct numerical simulation reference at large scales, with deviations confined to the smaller scales. These results suggest that the framework can produce physically plausible turbulent flow fields, indicating its potential for more challenging turbulent flow applications."
+  },
+  {
+    "title": "Orbital stability, relativistic precession, and QPO constraints for constant-curvature black holes in $f(R)$ gravity",
+    "url": "http://arxiv.org/abs/2609.37962v1",
+    "arxiv_id": "2609.37962v1",
+    "authors": [
+      "Kourosh Nozari",
+      "Sara Saghafi",
+      "Khadijeh Salahshour",
+      "Mois\u00e9s Bravo-Gaete"
+    ],
+    "published": "2026-09-29T16:33:47+00:00",
+    "summary": "We analyze circular-orbit stability, epicyclic resonances, relativistic precession, and quasi-periodic-oscillation (QPO) constraints in the constant-curvature vacuum sector of metric $f(R)$ gravity. The Schwarzschild--(anti-)de~Sitter and Kerr--(anti-)de~Sitter backgrounds are characterized by curvature $R_0$ satisfying the algebraic trace equation. We derive stationary-coordinate-time orbital and epicyclic frequencies and determine stable timelike circular-orbit domains. Positive curvature confines stable motion between innermost and outermost stable circular orbits, which merge at a critical curvature, and permits two resonance radii for suitable frequency ratios. Negative curvature allows stable motion to arbitrarily large radii, with $\u03a9_\u03b8/\u03a9_r\\rightarrow1/2$, compared with unity in the asymptotically flat limit. We determine the $3{:}2$, $2{:}1$, and $3{:}1$ resonance branches and signed nodal precession, recovering the Lense--Thirring limit. We also evaluate angular-momentum-weighted rigid-flow precession and viscous alignment, with the outermost stable orbit bounding positive-curvature flows. A Bayesian Markov chain Monte Carlo analysis combining the simultaneous GRO J1655--40 QPO triplet with an independent dynamical-mass measurement yields $R_0M^2=-5.57^{+12.94}_{-16.15}\\times10^{-4}$ at $68\\%$ credibility, conditional on the geodesic relativistic-precession prescription and adopted time normalization. Kerr remains allowed, with negligible fit improvement from nonzero curvature. Doubling the mass uncertainty broadens the curvature interval by approximately $2.1$; removing the mass likelihood reveals an extended, prior-dependent degeneracy. This is therefore a joint QPO and dynamical-mass constraint, with no significant evidence for departure from Kerr."
+  },
+  {
+    "title": "Blind directions of linear response and the limits of finite-perturbation bounds on efficiency fluctuations",
+    "url": "http://arxiv.org/abs/2609.37940v1",
+    "arxiv_id": "2609.37940v1",
+    "authors": [
+      "Badr Farih"
+    ],
+    "published": "2026-09-29T16:20:57+00:00",
+    "summary": "Thermodynamic uncertainty relations bound the fluctuations of time-antisymmetric currents. Stochastic efficiency is not one: a ratio of two odd quantities, it is even under path reversal, and for the conventional ratio $-W/Q_h$ no moment exists. We work with the exergetic ratio $\u03b7=W/(W+T_0S)$, whose moments exist, and ask how much of its variance a finite perturbation of the dynamics can certify when linear response cannot. The question is specific to nonlinear observables: for every current, and every observable linear in transition counts and residence times, the multiparameter Cram\u00e9r-Rao bound over rate and site perturbations already equals the variance. For $\u03b7$ it does not. The Cram\u00e9r-Rao bound vanishes on a hyperplane of perturbation directions, while the Barankin multi-point bound, applied to tilted path measures, stays positive there and recovers 75% of the variance of $\u03b7$ in a three-state motor model where every linear-response bound is zero. The Gram matrix of tilted Markov-jump path measures is a Feynman-Kac matrix exponential whose potential is the Hellinger integrand of the jump intensities, and the cost of a perturbation is its $\u03c7^2$ divergence, which no dissipation bound controls. The bound captures 1.25-1.57 times the best linear-response bound, and the gain persists on networks of up to sixteen states. For an Ornstein-Uhlenbeck process the construction is exactly solvable: the optimal tilt scales as $T^{-1/2}$ and three test points nearly reach the supremum. Two limits are established. The gain is a short-window effect that disappears as the counts become Gaussian, and the bound cannot be turned into inference: coarse measurements bound $\u03c7^2$ only from below. The construction is a computational instrument for a model in hand, not an uncertainty relation."
+  },
+  {
+    "title": "Generated Query Expansion Still Helps Strong Sparse Retrieval: A Controlled Study with SPLADE-v3",
+    "url": "http://arxiv.org/abs/2609.37911v1",
+    "arxiv_id": "2609.37911v1",
+    "authors": [
+      "Ryan C. Barron",
+      "Cade W. Trotter",
+      "Maksim E. Eren",
+      "Kim \u00d8. Rasmussen",
+      "Liz D. Miller",
+      "Benjamin J. Migliori"
+    ],
+    "published": "2026-09-29T16:07:06+00:00",
+    "summary": "Scientific queries are often brief, while relevant papers use specialized vocabulary. Generated query expansion can bridge this mismatch, but earlier work suggests that its value shrinks as the underlying retriever becomes stronger. We test the four generated formats of term lists, a pseudo-document, multiple pseudo-references, and corpus-steered text all together with SPLADE-v3 on NFCorpus, TREC-COVID, and SciDocs. Every condition searches the same frozen document index and follows the same query-side integration rule and 256-dimension budget, isolating the effect of the added content. All twelve method-collection comparisons improve aggregate nDCG@10, with best relative gains of 4.81%, 8.92%, and 9.47%. Eleven remain significant after Holm correction. The gain persists in 103 of 114 interpolation settings, including every setting that assigns at least 30% of the mixture weight to the original query. Shuffled-text and non-contextual lexical-bag controls also remain above baseline in all 24 aggregate comparisons, showing that the added vocabulary carries most of the benefit. A corpus-induced typed concept graph, by contrast, produces no consistent gain, and its relation, depth, validation, random, and gating controls do not rescue it. Generated vocabulary can therefore complement a strong learned sparse retriever, provided that the original query remains strongly represented."
+  },
+  {
     "title": "Covariant Contrastive Learning for Uncertainty-Aware Anomaly Detection",
     "url": "http://arxiv.org/abs/2609.35755v1",
     "arxiv_id": "2609.35755v1",
