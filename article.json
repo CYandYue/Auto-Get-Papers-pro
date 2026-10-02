@@ -1,5 +1,141 @@
 [
   {
+    "title": "Linear Programming Representations and Strongly Polynomial Algorithms for Robust Markov Decision Processes",
+    "url": "http://arxiv.org/abs/2610.02131v1",
+    "arxiv_id": "2610.02131v1",
+    "authors": [
+      "Han Zhong",
+      "Yinyu Ye"
+    ],
+    "published": "2026-10-01T17:41:29+00:00",
+    "summary": "We study linear programming (LP) representations and strongly polynomial algorithms for robust Markov decision processes (RMDPs) with rational polyhedral state-action rectangular uncertainty in rewards and transitions. By encoding a finite sequence of robust policy-iteration steps, we construct a single LP whose optimal solutions recover the robust optimal value and all optimal stationary randomized policies. At fixed discount, the LP has polynomial dimension and encoding length and can be constructed in strongly polynomial time. We also develop a general complexity analysis of robust policy iteration that combines the cost of minimizing over uncertainty sets with the number of iterations needed to evaluate a policy. For a fixed discount factor, we use this analysis to improve the known complexity bounds for $\\ell_1$ and $\\ell_\\infty$ RMDPs and establish new strongly polynomial bounds for general interval, weighted $\\ell_1$, and Wasserstein RMDPs, as well as turn-based stochastic games with these uncertainty sets."
+  },
+  {
+    "title": "A Comparative Explainability Framework for DeBERTa-v3 in Zero-Shot Medical Abstract Classification",
+    "url": "http://arxiv.org/abs/2610.02116v1",
+    "arxiv_id": "2610.02116v1",
+    "authors": [
+      "Javier Diaz Esteban-Herreros",
+      "David Mu\u00f1oz-Valero",
+      "Raquel Mart\u00ednez-Espa\u00f1a",
+      "Jose M. Juarez",
+      "Juan Moreno-Garcia"
+    ],
+    "published": "2026-10-01T17:34:02+00:00",
+    "summary": "A comparative explainability framework is presented to audit DeBERTa-v3 under zero-shot classification of medical abstracts. The work addresses the disagreement problem in Explainable Artificial Intelligence, where different attribution methods produce divergent explanations for the same input and prediction. A natural language inference engine is implemented over the Medical Abstracts corpus with five enriched hypotheses per diagnostic category and a balanced sample of one thousand texts per class. Five explanation methods are compared: SHAP and LIME as model-agnostic approaches, occlusion and Input x Gradient as deep-learning-specific approaches, and Attention x Gradient as a transformer-specific approach. Explanations are standardized through top-token attribution, and pairwise agreement is quantified using the Jaccard index. High predictive accuracy is achieved across well-defined clinical domains, whereas performance degrades under high semantic ambiguity. Explanatory stability directly mirrors predictive certainty, exhibiting strong convergence in univalent categories and a marked drop under diagnostic uncertainty. Furthermore, qualitative error auditing uncovers three systemic failure mechanisms: lexical hypersensitivity, semantic overlap, and loss of attribution coherence. The results support the combined use of several explanation methods and quantitative agreement metrics when auditing transformer-based models in medical text classification, and suggest prioritizing specific clinical ontologies over broad diagnostic labels."
+  },
+  {
+    "title": "Randomized Matvec Lower Bounds for Simplex-Based Matrix Games",
+    "url": "http://arxiv.org/abs/2610.02095v1",
+    "arxiv_id": "2610.02095v1",
+    "authors": [
+      "Wendao Wu",
+      "Cong Fang"
+    ],
+    "published": "2026-10-01T17:24:53+00:00",
+    "summary": "We prove randomized matrix-vector query lower bounds for two normalized matrix-game geometries: a Euclidean unit ball against a probability simplex, with row norms at most one, and two probability simplices, with entries of absolute value at most one. Each query returns $(Ax,A^\\top y)$ for arbitrary real vectors. The algorithm must return a feasible pair with full saddle-point gap at most $\\varepsilon$, with probability at least $2/3$ on every admissible matrix. For sufficiently small $\\varepsilon$, the worst-case query complexities are $\u03a9(\\varepsilon^{-2/3}/(\\log^2(1/\\varepsilon)\\log\\log(1/\\varepsilon)))$ for ball-simplex games and $\u03a9(\\varepsilon^{-2/3}/(\\log^{7/3}(1/\\varepsilon)\\log\\log(1/\\varepsilon)))$ for simplex-simplex games. The hard instances have dimensions of order $\\varepsilon^{-2/3}$ and $\\varepsilon^{-2/3}/\\log^{1/3}(1/\\varepsilon)$, respectively, and the bounds extend to larger dimensions. These lower bounds match the deterministic upper bounds of Karmarkar, O'Carroll, and Sidford up to logarithmic factors. The proof extracts a fresh Gaussian core after adaptive two-sided queries and uses uncertainty in its smallest singular value to establish linear-system solve hardness. Two reductions transfer this hardness to matrix games by converting a small full gap into a small residual, with an additional logarithmic normalization loss only for simplex-simplex games."
+  },
+  {
+    "title": "Bayesian Image Reconstruction with Spatially Variant PSFs in X-ray Astronomy",
+    "url": "http://arxiv.org/abs/2610.02062v1",
+    "arxiv_id": "2610.02062v1",
+    "authors": [
+      "Vincent Eberle",
+      "Matteo Guardiani",
+      "Margret Westerkamp",
+      "Philipp Arras",
+      "Philipp Frank",
+      "Julia Stadler",
+      "Torsten En\u00dflin"
+    ],
+    "published": "2026-10-01T17:03:48+00:00",
+    "summary": "X-ray observatories introduce unwanted instrumental effects into photon count data that must be accurately accounted for. In particular, the spatially variant point spread function (PSF) and shot noise pose a non-trivial inverse problem. We apply Bayesian inference grounded in information field theory (IFT) combined with a fast spatially variant PSF representation to infer the posterior mean and uncertainty of the X-ray flux under a minimal set of physically motivated prior assumptions, thereby removing or reducing these instrumental effects. First, ignoring spatial PSF variability, the IFT-based deconvolution is benchmarked on a synthetic example against three variants of the Richardson-Lucy (RL) algorithm using SSIM, RMSE, and NLL as evaluation metrics. Second, the ability of an interpolated patch-based convolution scheme to accurately represent the complex, spatially variant Chandra PSF is assessed on simulated PSF data. Finally, deblurring and spatially variant PSF representation are combined and applied to real Chandra observations of the supernova remnant Cassiopeia A. The IFT-based deconvolution outperforms all tested RL variants on the synthetic benchmark. The patch-based convolution scheme accurately recovers the complex structure of the Chandra PSF. Applied to Cassiopeia A, the reconstructed image appears visually sharper than the exposure-corrected data, and the data residuals are consistent with pure noise, indicating an accurate model of both the instrument and the sky. A comparison with a highly resolved reference dataset confirms this impression. The presented framework enables the removal of spatially variant PSFs from noisy data and opens avenues for future work on cross-calibration between multiple observations or different X-ray instruments, building on the principled uncertainty quantification inherent to the Bayesian framework."
+  },
+  {
+    "title": "Distributionally Robust Schr\u00f6dinger Bridge",
+    "url": "http://arxiv.org/abs/2610.02043v1",
+    "arxiv_id": "2610.02043v1",
+    "authors": [
+      "Jinhwan Sul",
+      "Panagiotis Theodoropoulos",
+      "Vincent Pacelli",
+      "Jaemoo Choi",
+      "Evangelos Theodorou"
+    ],
+    "published": "2026-10-01T16:54:34+00:00",
+    "summary": "Schr\u00f6dinger bridge (SB) learns stochastic transport between prescribed initial and target distributions. When the initial distribution shifts at test time, the learned dynamics can fail to recover the target distribution. We introduce the Distributionally Robust Schr\u00f6dinger Bridge (DRSB), which learns a single controller that accounts for uncertainty in the initial distribution. The DRSB objective consists of control energy and a KL penalty between the resulting terminal distribution and the target distribution. DRSB seeks a single controller that minimizes the worst-case value of this objective as the initial distribution varies within an ambiguity set around the nominal distribution. We derive an exact variational formulation of this objective and connect its fixed-terminal-cost subproblem to stochastic optimal control and distributionally robust optimization. This formulation motivates an alternating algorithm that updates the adversarial initial distribution, estimates the terminal log-density ratio, and trains the controller. We develop Wasserstein and Sinkhorn variants using stochastic control optimality conditions to approximate the gradients required for adversarial updates. Experiments on two-dimensional transport tasks and image-to-image translation show improved robustness to input perturbations relative to standard SB, with a tradeoff in nominal performance. On Gaussian mixture transport, Sinkhorn DRSB also achieves lower mean sliced Wasserstein distance than fixed-level noise augmentation at both tested unseen noise levels."
+  },
+  {
+    "title": "BLT*: Informed Belief Localization Trees for Uncertainty-Aware Planning on Digital Twins",
+    "url": "http://arxiv.org/abs/2610.01972v1",
+    "arxiv_id": "2610.01972v1",
+    "authors": [
+      "Elliot Preston-Krebs",
+      "Abhishek Goudar",
+      "Timothy D. Barfoot"
+    ],
+    "published": "2026-10-01T16:21:29+00:00",
+    "summary": "We present Informed Belief Localization Trees* (Informed BLT*), a sampling-based belief space planning (BSP) algorithm that scales to large outdoor digital twins with point-cloud observations. We adapt RRT* and Informed RRT* to belief space using the $2$-Wasserstein ($W_2$) metric. Assuming isotropic Gaussian beliefs, sampled belief states can be connected efficiently while accounting for available information and probabilistic collision constraints. This enables steering and rewiring without repeatedly propagating observations, and allows previously computed measurement information to be reused. We present a framework to generate semantically labelled digital twins for planning in real-world environments with point-cloud-based localization. Experiments in simulated environments and digital twins show faster initial solution discovery in most maps with competitive cost convergence."
+  },
+  {
+    "title": "A rubric landscape for evaluating clinical reasoning in large language models: what exists, what is missing, and what needs to be combined",
+    "url": "http://arxiv.org/abs/2610.01938v1",
+    "arxiv_id": "2610.01938v1",
+    "authors": [
+      "Zhangshu Joshua Jiang",
+      "Zina Ibrahim",
+      "James T. Teo"
+    ],
+    "published": "2026-10-01T16:07:12+00:00",
+    "summary": "Exam-style accuracy does not establish whether large language models (LLMs) reason well over clinical records. We define clinical reasoning as integrating and updating evidence across time and sources to form, revise and justify a patient's problem representation and a defensible plan.   This structured narrative review maps three literatures: medical education assessment instruments, clinical LLM benchmarks published from 2023 onwards, and general-domain methods for evaluating long-form generation. We examine six dimensions: problem representation, temporal synthesis, differential and management reasoning, counterfactual reasoning, calibrated uncertainty, and reasoning faithfulness. Preprints are included and flagged.   No single instrument covers all six dimensions. Problem representation and differential or management reasoning are reasonably covered, although reliability varies by instrument and setting. TIMER-Eval targets temporal synthesis, and ER-Reason assesses sequential diagnostic belief updating. Dedicated uncertainty and counterfactual evaluations are emerging, but their applicability to longitudinal free-text reasoning remains limited. Factual completeness is well theorised in general-domain evaluation, with early clinical evidence of important omissions. Faithfulness remains the weakest dimension, with one identified clinical causal-ablation study on multiple-choice questions.   Existing tools should be combined through binary rubric items, separate completeness and correctness scores, case-specific importance weighting with non-compensable safety caps, temporal order-consistency checks, and chance-corrected reliability reporting. Further design work is needed for calibrated uncertainty, counterfactual reasoning and faithfulness over longitudinal free-text records. This review provides a design rationale, not a validated instrument."
+  },
+  {
+    "title": "LACHESIS: Robust stellar parameters through Bayesian model averaging of isochrone grids",
+    "url": "http://arxiv.org/abs/2610.01931v1",
+    "arxiv_id": "2610.01931v1",
+    "authors": [
+      "Jose I. Vines",
+      "Austin T. Ware"
+    ],
+    "published": "2026-10-01T16:02:01+00:00",
+    "summary": "Accurate stellar parameters underpin much of astrophysics, from exoplanetary systems to Galactic archaeology. For isolated field stars, masses and especially ages are usually inferred from stellar evolution models, yet these inferences depend on the chosen model grid, and the systematic differences between grids can rival the statistical uncertainties of any single pipeline. We present LACHESIS, a Python package that determines stellar masses, radii, and ages from photometry and spectroscopy while explicitly accounting for the systematic uncertainty from the choice of model grid. We interpolate five independent isochrone grids in [Fe/H], log age, and equivalent evolutionary phase conditioned on the data, sample each with nested sampling, and combine the per-grid posteriors by Bayesian model averaging, weighting each grid by its Bayesian evidence. We validate LACHESIS against a benchmark of Kepler asteroseismic dwarfs and subgiants. Masses are recovered with a robust scatter of ~4% and radii to ~2%, with negligible radius bias (<1%) and a small ~3% mass systematic. Age is recovered with a robust scatter of 30% that depends strongly on evolutionary state; the grid-to-grid systematic contributes a ~9% floor, a subdominant but real term that a single-grid fit omits. Model averaging is better calibrated than selecting a single grid: its credible intervals approach nominal coverage once the reference uncertainty is included, and cover near the nominal rate in injection tests even when the generating model lies outside the ensemble. By marginalizing over an ensemble of stellar model grids, LACHESIS folds the choice-of-grid systematic directly into the posterior, so the reported uncertainties no longer reflect only within-grid data noise. This delivers homogeneous, well-characterized masses, radii, and ages for exoplanet hosts and stellar population studies."
+  },
+  {
+    "title": "MapLightning: Online Vectorized HD Map Construction with 1D Map Tokens",
+    "url": "http://arxiv.org/abs/2610.01905v1",
+    "arxiv_id": "2610.01905v1",
+    "authors": [
+      "Shen Zheng",
+      "Anurag Ghosh",
+      "Mani Ramanagopal",
+      "Srinivasa Narasimhan"
+    ],
+    "published": "2026-10-01T15:50:17+00:00",
+    "summary": "Online vectorized HD map construction is essential for scaling safe autonomous driving and requires accurate, real-time inference. Prior methods typically rely on dense bird's-eye-view (BEV) grids as the intermediate representation. We propose \\textit{MapLightning}, which replaces the dense BEV grid with a compact set of 1D learnable map tokens. To construct map tokens from image features, we choose self-attention over vanilla cross-attention because it enables joint interactions and contextual aggregation among image and map tokens. Our transformer-based mapper concatenates map and image tokens, applies full self-attention, discards the image tokens, and retains the updated map tokens for decoding. This design offers three advantages. First, our representation is efficient, using fewer tokens, consuming less memory, and running faster. Second, the lightweight design allows the map decoder to use full rather than deformable cross-attention for better global context. Third, unlike BEV-based methods, our network does not use camera projection parameters, making it robust to camera-extrinsic perturbations. MapLightning uses up to 16.7$\\times$ fewer intermediate tokens than dense BEV-based methods and achieves state-of-the-art accuracy and efficiency on nuScenes and Argoverse~2. Its lightweight variant surpasses MapTRv2 by +10.1 mAP on nuScenes and +16.2 mAP on Argoverse~2, while delivering 1.73$\\times$ faster inference (40+ FPS) with 53\\% less memory. We further show improvements on uncertainty-aware map construction and downstream trajectory prediction. Code and models will be released."
+  },
+  {
+    "title": "Cosmological inference from a joint DESI DR1 full-shape power spectrum and bispectrum analysis",
+    "url": "http://arxiv.org/abs/2610.01836v1",
+    "arxiv_id": "2610.01836v1",
+    "authors": [
+      "Caroline Guandalin",
+      "Prakhar Bansal",
+      "Pedro Carrilho",
+      "Alejandro Aviles",
+      " Mike",
+      " Wang",
+      "Marcos Pellejero-Iba\u00f1ez",
+      "Aaditya Sarma",
+      "Jaide Swanson",
+      "Marco Bonici",
+      "Florian Beutler",
+      "Arnaud de Mattia",
+      "Hee-Jong Seo"
+    ],
+    "published": "2026-10-01T15:07:29+00:00",
+    "summary": "The galaxy bispectrum directly probes the non-linear gravitational evolution of large-scale structure (LSS) and can break parameter degeneracies that remain in power-spectrum analyses. We present a joint full-shape cosmological analysis of three luminous red galaxy (LRG) redshift bins and the quasar (QSO) sample from the first Data Release (DR1) of the Dark Energy Spectroscopic Instrument (DESI). We model the redshift-space power spectrum at one loop and the tree-level bispectrum within the Effective Field Theory of LSS. The bispectrum is decomposed in the Tripolar Spherical Harmonics basis, for which the convolution with the survey window function can be formulated as a direct linear transformation of the theoretical multipoles. Our power-spectrum constraints are in good agreement with the official DESI DR1 full-modelling results. We investigate the impact of including the bispectrum in the inference, finding that the monopole substantially improves the constraints on the cold dark matter density and amplitude of matter fluctuations by 9-18% and 8-20%, respectively, in the individual-tracer analyses. The corresponding reductions are 15% and 10% for the combined LRG sample, and 6% and 4% when all tracers are combined. In a restricted test using the first LRG bin, the bispectrum quadrupole changes the marginalised uncertainties by only a few percent. Extending the analysis to $w_0w_a$CDM substantially broadens the cosmological posteriors, while the bispectrum produces only a mild change in the allowed dark-energy parameter region, which remains sensitive to the adopted prior ranges. Our results demonstrate the potential of higher-order clustering statistics to improve cosmological constraints, while providing a framework for incorporating the bispectrum into full-shape analyses of current and future spectroscopic galaxy surveys."
+  },
+  {
     "title": "Uncertainty-Guided UAV Spectrum Cartography with Deep-Unfolded Online Tensor Decomposition",
     "url": "http://arxiv.org/abs/2609.40280v1",
     "arxiv_id": "2609.40280v1",
