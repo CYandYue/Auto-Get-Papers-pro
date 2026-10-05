@@ -1,5 +1,135 @@
 [
   {
+    "title": "Higgsino dark matter compatible with the LUX-ZEPLIN high-energy nuclear-recoil event and IceCube constraints",
+    "url": "http://arxiv.org/abs/2610.03692v1",
+    "arxiv_id": "2610.03692v1",
+    "authors": [
+      "Katherine Freese",
+      "Dionysios P. Theodosopoulos"
+    ],
+    "published": "2026-10-02T17:52:54+00:00",
+    "summary": "We examine Higgsino dark matter (DM) as a potential explanation of the $248~\\mathrm{keV}$ nuclear-recoil event of interest reported by the LUX-ZEPLIN (LZ) experiment, taking into account IceCube constraints on DM annihilation in the Sun. In the nearly pure Higgsino limit, two neutral Majorana states separated by a small mass splitting $\u03b4$ are connected by an off-diagonal coupling to the $Z$ boson, providing a natural realization of inelastic DM. Using a likelihood analysis, we identify 90\\% confidence regions compatible with the LZ event and consistent with the null results of IceCube searches, both with and without including a constraint from the absence of events in the LZ high-energy sideband. In our LZ analysis, we consider the DM distribution in the Standard Halo Model alone as well as possible enhancements of the high-speed tail induced by the Large Magellanic Cloud (LMC). We present four variants of bounds from IceCube on Higgsino dark matter, depending on various assumptions on cooling channels in the Sun, motivated by severe theoretical uncertainties about Higgsino-nucleon elastic scattering (unimportant for direct detection but crucial for IceCube bounds). Whereas the thermal Higgsino with a mass of $1.1~\\mathrm{TeV}$ remains only marginally compatible with both the LZ event and the IceCube limits when the LMC-induced high-speed tail is included and both elastic cooling in the Sun and the LZ high-energy sideband constraint are neglected, higher mass Higgsinos are excellent candidates for the LZ event in light of IceCube constraints. Depending on the halo distribution, cooling interactions, and whether the LZ high-energy sideband is included, the compatible regions in the Higgsino parameter space $(m_\u03c7,\u03b4)$ extend from masses of $\\sim2~\\mathrm{TeV}$ to hundreds of TeV or higher, with mass splittings ranging approximately from $350$ to $525~\\mathrm{keV}$."
+  },
+  {
+    "title": "Third-Order Logarithmic Resummation for Jet-Vetoed Higgs Production",
+    "url": "http://arxiv.org/abs/2610.03687v1",
+    "arxiv_id": "2610.03687v1",
+    "authors": [
+      "Samuel Abreu",
+      "Jonathan R. Gaunt",
+      "Pier Francesco Monni",
+      "Luca Rottoli",
+      "Robert Szafron"
+    ],
+    "published": "2026-10-02T17:51:35+00:00",
+    "summary": "Jet vetoes are central to precision measurements of Higgs-boson properties at the Large Hadron Collider, where they are used to suppress backgrounds containing hard QCD radiation. We present the first prediction for the Higgs jet-vetoed cross section at the third logarithmic order in QCD, consistently combining the next-to-next-to-next-to-leading order calculation with state-of-the-art next-to-next-to-next-to-leading logarithmic resummation. At phenomenologically relevant veto scales ($p_T^{\\rm v}\\sim30$ GeV) and jet radii ($R=0.4$), the resummation increases the fixed-order prediction by about $3\\%$, and their combination leads to a residual perturbative uncertainty of approximately $3\\%$. Our results mark a milestone in the precise description of jet-vetoed Higgs-production at hadron colliders, reaching the level of precision relevant for the high-luminosity phase of the LHC."
+  },
+  {
+    "title": "Pivot-SD: Efficient Self-Distillation for Masked Diffusion Language Models",
+    "url": "http://arxiv.org/abs/2610.03665v1",
+    "arxiv_id": "2610.03665v1",
+    "authors": [
+      "Seo Hyun Kim",
+      "Sunwoo Hong",
+      "Younwoo Choi",
+      "Chen-Hao Chao",
+      "Se-Young Yun",
+      "Rahul G. Krishnan"
+    ],
+    "published": "2026-10-02T17:37:51+00:00",
+    "summary": "Masked diffusion language models (dLMs) offer a promising parallel alternative to autoregressive models for complex reasoning. However, they face a distinct credit-assignment challenge, since a few commitments during denoising sharply reduce the uncertainty over the remaining masked positions and shape much of the response. Most post-training recipes for dLMs do not use this signal to decide which tokens to train on: they typically train on the final text or assign rewards to whole denoising steps, rather than selecting the individual commitments that shape the response. We introduce Pivot-SD, an efficient offline self-distillation framework that supervises only these high-impact commitments (pivots). Pivot-SD selects pivots using an information-gain metric measuring uncertainty reduction over the remaining masked positions. Pivots from successful trajectories are trained with cross-entropy, and pivots from failed trajectories with targeted unlikelihood, leaving the rest of the failed trajectory untouched. Using only 200 questions and four rollouts each, Pivot-SD improves LLaDA-8B-Instruct over full-sequence SFT and budget-matched diffusion RL baselines across math and code benchmarks."
+  },
+  {
+    "title": "Lie Algebraic Uncertainty Relations",
+    "url": "http://arxiv.org/abs/2610.03661v1",
+    "arxiv_id": "2610.03661v1",
+    "authors": [
+      "Xiaoli Hu",
+      "Naihuan Jing",
+      "Jian Zhang",
+      "Yunlong Xiao"
+    ],
+    "published": "2026-10-02T17:36:57+00:00",
+    "summary": "Uncertainty relations express the fundamental incompatibility of quantum observables, yet optimal state-independent bounds are known analytically in only a few cases. Here we introduce a covariance-based formulation of quantum uncertainty that yields an infinite family of relations for both Hermitian observables and non-Hermitian operators. For operators forming a basis of a Lie algebra, we derive the optimal bound in closed form from the algebra and its representation, replacing optimization over quantum states with a direct algebraic calculation. Within each weight space, uncertainty takes a fixed value, turning the inequality into a conservation law. These results show how commutation relations and their realization on a quantum state jointly determine the minimum quantum uncertainty associated with incompatible operators. By connecting uncertainty to symmetry and representation theory, the framework offers a route to uncovering intrinsic limits on quantum information processing through its underlying Lie algebra."
+  },
+  {
+    "title": "Amortized Structured Stochastic Variational Inference for Gaussian Process Latent Variable Models",
+    "url": "http://arxiv.org/abs/2610.03647v1",
+    "arxiv_id": "2610.03647v1",
+    "authors": [
+      "Maksym Tretiakov",
+      "Sarah Lucie Filipp",
+      "Vincent Fortuin",
+      "Ruth Misener",
+      "Ruby Sedgwick",
+      "James Odgers"
+    ],
+    "published": "2026-10-02T17:32:05+00:00",
+    "summary": "Many machine learning methods aim to approximate the lower-dimensional manifold on which the data lives. A desirable feature of such methods is that they should capture the epistemic uncertainty of this learned manifold. One model that achieves this is the Gaussian Process Latent Variable Model, in which a Gaussian Process (GP) mapping from the latent space provides an estimate of the uncertainty of the manifold. However, the effectiveness of this uncertainty estimation is limited by the mean-field variational approximation between the GP inducing points and the latent variables. In this work, we apply Amortized Structured Stochastic Variational Inference to allow the variational posterior for the latent space to be conditionally dependent on the value of the inducing points. We demonstrate that this more flexible variational posterior improves several metrics relating to the reconstruction of points on the data manifold."
+  },
+  {
+    "title": "CORNAV: Construction-Aware Reasoning for Robot Navigation on Active Worksites",
+    "url": "http://arxiv.org/abs/2610.03622v1",
+    "arxiv_id": "2610.03622v1",
+    "authors": [
+      "Parastoo Ali Pour",
+      "Deepak Prakash Kumar",
+      "Tommy Zhou",
+      "Pramod Khargonekar",
+      "Mohammad Abdullah Al Faruque"
+    ],
+    "published": "2026-10-02T17:19:05+00:00",
+    "summary": "The construction industry faces persistent labor shortages, low productivity that costs the global economy over $1.6 trillion annually, and one of the highest injury rates among major industries. These factors motivate the use of autonomous robots to improve efficiency and worker safety. Existing language-grounded navigation systems, however, rely on semantic scene understanding alone and lack access to construction-specific context such as architectural plans, evolving work schedules, and safety constraints. As a result, they localize permanent building features unreliably and cannot safely navigate active jobsites. We present CORNAV, a blueprint-grounded, schedule-aware navigation framework that operates from 2D CAD drawings and project schedules without requiring a Building Information Model. CORNAV aligns architectural blueprints against hierarchical open-vocabulary 3D scene graphs to ground object queries, converts project schedules into time-varying navigation constraints, and validates requests through an LLM-based safety module that escalates hazardous zones before planning. An A* planner then enforces mandatory exclusion zones while preferentially avoiding higher-risk areas. Across an indoor office and a real construction site, blueprint grounding raises task success from 13.0% to 72.2% over semantic retrieval alone, schedule awareness eliminates all hard-zone violations, and the safety module correctly rejects hazardous requests arising from mislabeled project schedules."
+  },
+  {
+    "title": "Optimality of delayed reward attainment under uncertainty",
+    "url": "http://arxiv.org/abs/2610.03506v1",
+    "arxiv_id": "2610.03506v1",
+    "authors": [
+      "Chuwei Wang",
+      "Alexander Vladimirsky",
+      "Anastasia Bizyaeva"
+    ],
+    "published": "2026-10-02T16:03:32+00:00",
+    "summary": "Decision making under uncertainty requires balancing the value of additional information against the cost of delaying the decision until that information becomes available. This challenge is especially prevalent for embodied decisions such as those faced by animals moving between food sources and robots selecting navigation targets, where movement through space shapes both the quality of information and the cost of acting. We consider a version of this problem, where the decision is on choosing among rewards of uncertain value, and those rewards can only be attained through changing the decision maker's state sufficiently. Our focus is on interactions between reward learning and state evolution, restated as a deterministic optimal control problem with two terminal alternatives, one with a known reward and the other learned gradually through noisy observations. We demonstrate that delayed reward attainment is often optimal in a variety of systems, especially so when the alternatives are initially difficult to distinguish and the cost of waiting is relatively low. For a subset of problems, we also derive sufficient conditions that allow shortening the planning horizon a priori, guaranteeing that further observations would not affect the value function. Finally, when observation quality depends on the state, we show that it is often optimal for a controller to evolve the state strategically toward more informative sensing locations before making a decision, in line with the behavior broadly observed in biological and engineered systems."
+  },
+  {
+    "title": "Single-Pass Uncertainty Heads for Claim-Level Hallucination Detection in Persian Medical Language Models",
+    "url": "http://arxiv.org/abs/2610.03482v1",
+    "arxiv_id": "2610.03482v1",
+    "authors": [
+      "Mehrdad Ghassabi",
+      "Pedram Rostami",
+      "Hamidreza Baradaran Kashani",
+      "Sadra Hakim",
+      "Audrina Ebrahimi"
+    ],
+    "published": "2026-10-02T15:50:46+00:00",
+    "summary": "Hallucination detection is particularly important for medical language models, but repeated-sampling approaches are expensive and existing uncertainty-head resources do not directly transfer to a new backbone and language. We adapt the LLM Uncertainty Head (LUH) framework to Aya-Expanse-8B-based Persian medical models, using Gaokerena-V and Gaokerena-R as two previously developed backbones. We first examine response variability on a 168-question Iranian medical entrance examination and observe substantially lower five-run consistency for Gaokerena-V than for Aya-Expanse-8B, whereas Gaokerena-R is comparable to Aya-Expanse-8B. We then construct two paired claim-level hallucination datasets directly in Persian, containing 1,600 responses for each backbone, and train lightweight claim-level heads on frozen backbone attention maps and token probabilities. On held-out test splits, the heads obtain PR-AUCs of 0.4820 and 0.4652, corresponding to 2.30 and 2.66 times their respective random baselines, and ROC-AUCs of 0.7852 and 0.7810. The heads require neither retrieval nor repeated sampling at inference time. These results provide an initial study of single-pass claim-level uncertainty estimation for Persian medical language models; the test splits are small and the labels are automatically generated."
+  },
+  {
+    "title": "Minimax entropy production for arbitrary processes",
+    "url": "http://arxiv.org/abs/2610.03478v1",
+    "arxiv_id": "2610.03478v1",
+    "authors": [
+      "Mahran Yousef",
+      "Ben Ansbacher",
+      "David H. Wolpert"
+    ],
+    "published": "2026-10-02T15:48:46+00:00",
+    "summary": "For any physical process, varying the initial distribution over its states will change the resulting expected entropy production (EP). An initial distribution that minimizes the EP of a particular process is called the prior of that process. Varying the microphysical details of the process will change its prior.We consider the following question: if an engineer wants to design a system to implement a given map, what prior should they design into the system to minimize the EP for the worst-case actual distribution? We derive the closed-form solution to this problem when the map is deterministic. We also show that for stochastic maps, a worst-case actual distribution can always be chosen to be a point mass on a single state, and that the associated minimax prior resembles a Boltzmann-Gibbs equation, and can be found by a globally convergent numerical algorithm. We also show that the associated minimax mismatch cost is the maximum uncertainty about the input that remains after observing the output. Finally, we extend the analysis to the continuous-time regime, showing that the minimax instantaneous mismatch-cost diverges, while the corresponding finite-time minimax mismatch cost has a universal short-time scaling set by the largest escape rate of the dynamics."
+  },
+  {
+    "title": "When Is Accuracy Evidence? A Unified Theory of Generalisation, Validation, and Information Fusion",
+    "url": "http://arxiv.org/abs/2610.03465v1",
+    "arxiv_id": "2610.03465v1",
+    "authors": [
+      "JM Gorriz"
+    ],
+    "published": "2026-10-02T15:40:28+00:00",
+    "summary": "K-fold cross-validation (CV) is widely used as evidence of out-of-sample performance, although folds are neither independent experiments nor equally informative under heterogeneous data. Cross Upper-Bound Validation (CUBV) replaces point-wise CV accuracy by conservative upper bounds on true risk. Here we generalise CUBV through a single exponential framework in which the moment-generating function of the generalisation gap is controlled by a cumulant envelope gamma(lambda). This yields a family of risk bounds covering Hoeffding-, Bernstein-, dependency-aware, PAC-Bayesian, and heterogeneous source-fusion settings. For K-fold CV, dependence between fold-wise gaps is modelled through a joint sub-Gaussian proxy matrix. Under equicorrelation, this gives an effective number of folds, Keff = K/[1+(K-1)rho], showing that increasing K does not necessarily increase statistical evidence when folds are strongly dependent. The framework is also extended to posterior distributions over predictors and weighted multi-source fusion, where weights are selected by minimising an upper bound on future risk rather than empirical error alone. Experiments with trained linear classifiers on heterogeneous multimodal Gaussian mixtures compare K-fold CV with full-sample resubstitution plus risk correction. Bounds are evaluated by coverage and tightness. In low-dimensional small-sample settings, K-fold partitioning can increase uncertainty because individual folds under-represent minority modes, while corrected resubstitution can remain valid and tighter; this effect disappears as sample size increases. Overall, gamma-CUBV separates observed performance, uncertainty, dependence, model complexity, and confidence into explicit terms, providing a unified route from CV scores to risk statements and a principled validation criterion for heterogeneous small-sample applications such as neuroimaging."
+  },
+  {
     "title": "Linear Programming Representations and Strongly Polynomial Algorithms for Robust Markov Decision Processes",
     "url": "http://arxiv.org/abs/2610.02131v1",
     "arxiv_id": "2610.02131v1",
