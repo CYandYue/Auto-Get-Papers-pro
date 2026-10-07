@@ -1,5 +1,128 @@
 [
   {
+    "title": "Conformal Prediction Sets Quantify Information Gain: A Theoretical Perspective",
+    "url": "http://arxiv.org/abs/2610.08785v1",
+    "arxiv_id": "2610.08785v1",
+    "authors": [
+      "Kevin Zhang",
+      "Stephen Bates"
+    ],
+    "published": "2026-10-06T17:59:11+00:00",
+    "summary": "Conformal prediction is a popular tool for uncertainty quantification that outputs prediction sets with finite-sample coverage guarantees. While prediction set size is commonly used as a heuristic measure of uncertainty, the information-theoretic basis for this interpretation remains poorly understood. In this work, we provide such a foundation using a decision-theoretic generalization of entropy tailored to set-valued prediction. In particular, we introduce a family of generalized information measures based on the size and coverage of conformal prediction sets. Notably, Shannon mutual information admits an exact integral representation in terms of these measures. We then show that, in standard classification settings, the reduction in conformal set size from additional information (i) is sandwiched between calibration-dependent members of this family and (ii) obeys a data processing inequality, both up to finite-sample calibration and model error terms. Together, our results formally relate conformal prediction to classical information-theoretic quantities and justify using set-size reduction as an information gain metric. Empirically, we validate our theory across 11 classification settings and show that set-size reduction and Shannon mutual information can rank features differently in a greedy feature selection experiment."
+  },
+  {
+    "title": "Principal Surface Fault Rupture Hazard: Moving Beyond Aggregate Displacement Metrics",
+    "url": "http://arxiv.org/abs/2610.08763v1",
+    "arxiv_id": "2610.08763v1",
+    "authors": [
+      "Saba Marmarchinia",
+      "Grigorios Lavrentiadis"
+    ],
+    "published": "2026-10-06T17:50:48+00:00",
+    "summary": "Structures crossing active faults are subjected to permanent ground deformation that can impose severe demands on infrastructure. Although probabilistic fault displacement hazard analysis (PFDHA) has advanced considerably, existing principal fault displacement models use aggregate displacement, implicitly assuming that overlapping rupture strands contribute simultaneously to site demand. This assumption is suitable for regional hazard characterization but does not represent finite structural dimensions, where only a subset of ruptures may intersect a structure. This study presents a probabilistic framework that reformulates aggregate principal displacement into a rupture-level representation for infrastructure-specific hazard assessment. Using the Fault Displacement Hazard Initiative (FDHI) database of 75 surface-rupturing earthquakes, principal rupture strands are reconstructed from mapped rupture geometries and displacement observations using event- and segment-based coordinate systems. The framework models three quantities: (1) the number of overlapping principal ruptures, (2) partitioning of aggregate displacement among individual rupture strands while preserving the aggregate displacement budget, and (3) the spatial distribution of rupture strands relative to the primary fault trace. These components are integrated into a generalized PFDHA formulation accounting for earthquake magnitude, style of faulting, rupture curvature, structural footprint, and fault-trace location uncertainty. Benchmark fault-crossing applications demonstrate the framework's ability to estimate the probability that individual rupture strands intersect a structure and the associated displacement demand. The framework provides a physically consistent extension of aggregate-based models and a basis for infrastructure-specific PFDHA that explicitly accounts for rupture geometry and finite crossing dimensions."
+  },
+  {
+    "title": "Coronal Mass Ejections from the Young Sun: Deceleration-Powered Solar Energetic Particles as a Self-Extinguishing Forcing of the Early Earth",
+    "url": "http://arxiv.org/abs/2610.08758v1",
+    "arxiv_id": "2610.08758v1",
+    "authors": [
+      "Olga A. Panasenco"
+    ],
+    "published": "2026-10-06T17:48:52+00:00",
+    "summary": "At $\\sim$3.9~Ga (stellar age $\\sim$0.6~Gyr), the young Sun was far more magnetically active than today. It launched $\\sim$$10^2$ large, fast coronal mass ejections (CMEs) per year into a denser, more magnetized wind. We follow these eruptions to Earth's atmosphere with a semi-analytic model chain. We find that a CME launched at $v_0\\sim3\\text{--}4\\e{3}\\unit{km\\,s^{-1}}$ dissipates $\u0394E_k\\sim6\\e{25}\\unit{J}$ as it decelerates, an amount set only by its launch and final speeds. Diffusive shock acceleration converts $\\sim$10\\% of this energy into solar energetic particles (SEPs), whose deposition depth depends mainly on a spectral break energy $E_b$. We show that the stronger field moves the Alfv\u00e9n surface, inside which the magnetic field controls the wind, from $\\sim$10--25$\\,\\Rsun$ to $\\sim$40--60$\\,\\Rsun$, so CME shocks deliver over ten times the particle fluence of flares. Because the forcing is powered by deceleration, it follows the measured wind history ($\\dot M\\propto t^{-2.3}$) and declines as $\\sim t^{-3}$. It was $\\sim$50--100 times stronger at 3.9~Ga than at 2~Ga and several hundred times today's level. This decline, strongest when the Sun was faintest, is what greenhouse solutions of the faint young Sun (FYS) problem usually impose by hand. The magnitude is small: SEP-driven $\\mathrm{N_2O}$ adds at most a few $\\unit{W\\,m^{-2}}$ to a 20--40$\\unit{W\\,m^{-2}}$ greenhouse requirement, and only if a fractal organic haze extends its lifetime. Counting energy deposited below a survival level near 1~hPa, we find the particles fix $\\sim$$4\\e{10}$--$4\\e{11}\\unit{mol\\,N\\,yr^{-1}}$, which could supply prebiotic feedstock to surface pools. The largest uncertainties are $E_b$, the event rate, the survival depth, and the $\\mathrm{N_2O}$ lifetime."
+  },
+  {
+    "title": "No-Disturbance-without-Uncertainty generates the Quantum set in the simplest Bell scenario",
+    "url": "http://arxiv.org/abs/2610.08749v1",
+    "arxiv_id": "2610.08749v1",
+    "authors": [
+      "Ravishankar Ramanathan"
+    ],
+    "published": "2026-10-06T17:44:02+00:00",
+    "summary": "Characterizing the set of quantum nonlocal correlations through information-theoretic constraints is a central problem in quantum foundations. We show that the convex hull of no-signalling behaviors in a bipartite Bell experiment satisfying a common-overlap no-disturbance-without-uncertainty condition is exactly the finite-dimensional quantum set whenever one party has two binary measurements and the other has an arbitrary finite number of settings, each with an arbitrary finite number of outcomes. In the simplest binary input-output Bell scenario, this characterizes the full eight-dimensional set of quantum behaviors, including the local marginals. The proof constructs a quantum realization directly from the conditional probabilities and no-signalling. The characterization also reduces optimization of any linear Bell expression in these scenarios to maximization over a one-parameter family of second-order cone programs. The results establish a connection between local uncertainty-disturbance constraints and quantum nonlocality, mediated by no-signalling and shared classical randomness."
+  },
+  {
+    "title": "Halo Mass Function Constraints on Early Galaxy and AGN Populations in the JWST Era",
+    "url": "http://arxiv.org/abs/2610.08731v1",
+    "arxiv_id": "2610.08731v1",
+    "authors": [
+      "Elan Yogeswaren",
+      "Robert Schaefer"
+    ],
+    "published": "2026-10-06T17:33:12+00:00",
+    "summary": "The discovery by the James Webb Space Telescope (JWST) of massive galaxies and luminous active galactic nuclei (AGN) at high redshift provides an increasingly sensitive test of the connection between cosmological structure formation and the astrophysical processes that make dark matter halos observable. We develop a framework connecting the linear matter power spectrum to the mass variance, peak height, halo mass function (HMF), cumulative halo abundance, and observable galaxy and AGN populations. We use the Sheth-Tormen (ST) HMF as the baseline and compare it with an illustrative Bolshoi-Klypin-calibrated modification (KST) to quantify the sensitivity of predictions to the calibration of the HMF against cosmological N-body simulations. We apply the framework to three complementary tests: the baryonic and stellar mass reservoir available to massive galaxies, the abundance of halos capable of hosting luminous AGN, and the rest frame ultraviolet luminosity function of high redshift galaxies. Because the most massive systems occupy the rare, high peak tail of the halo distribution, modest changes in inferred host mass, baryonic conversion efficiency, black-hole occupation or duty cycle, and HMF calibration can produce large changes in predicted abundances. The ST-KST comparison shows that uncertainty in the high redshift halo population can materially affect the inferred host supply, particularly toward large z (10). Comparison with representative JWST massive galaxy, AGN, and UV luminosity function measurements demonstrates that matching the properties of an individual source is not sufficient for population consistency; the corresponding host halos must also exist in adequate numbers. Current observations provide increasingly stringent quantitative stress tests of both cosmological halo abundances and the baryonic and black hole physics at cosmic dawn."
+  },
+  {
+    "title": "Agreement Is Not Validity: Cross-Model LLM Consensus in Diagnosing Student Failure Modes in K-12 Math Tutoring Dialogue",
+    "url": "http://arxiv.org/abs/2610.08703v1",
+    "arxiv_id": "2610.08703v1",
+    "authors": [
+      "Clayton Cohn",
+      "Joyce Fonteles",
+      "Kirk Vanacore",
+      "Gianni Mazza",
+      "Candida Crawford",
+      "Tom Hooper",
+      "Gautam Biswas",
+      "Rene Kizilcec"
+    ],
+    "published": "2026-10-06T17:16:03+00:00",
+    "summary": "In K-12 mathematics tutoring, student-tutor dialogue provides rich evidence of learners' problem-solving processes and sources of difficulty. Learning analytics research increasingly relies on large language models (LLMs) to extract such information from dialogue for a variety of downstream tasks, including knowledge tracing, behavioral modeling, and diagnosis of student reasoning errors. However, the validity of these model-generated interpretations remains insufficiently understood. In this exploratory study, we examine the validity of LLM classifications of five student failure modes in mathematics tutoring dialogue using an operational diagnostic codebook: uncertainty, misattribution, operator selection, conceptual gap, and procedural slip. Across models, human-LLM agreement was moderate (kappa = .524-.597), while cross-model agreement was substantially higher (kappa = .755-.781; alpha = .769). These findings show that cross-model agreement can create a misleading appearance of correctness, challenging the assumption that consensus among LLMs constitutes evidence of valid learner interpretation. For learning analytics, the implication is clear: scalable labeling is useful only if the inferred constructs are valid, and model consensus cannot substitute for independent evidence of that validity."
+  },
+  {
+    "title": "Probabilistic Counterfactual Inference for Discrete Outcomes in Gaussian-Process Causal Models",
+    "url": "http://arxiv.org/abs/2610.08689v1",
+    "arxiv_id": "2610.08689v1",
+    "authors": [
+      "Juliette Sinnott",
+      "Amir-Hossein Karimi",
+      "Mohammad Kohandel"
+    ],
+    "published": "2026-10-06T17:06:22+00:00",
+    "summary": "Counterfactual inference in Gaussian-process structural causal models (GP-SCMs) has been developed primarily for continuous endogenous variables, limiting applicability to causal graphs that contain discrete child nodes with continuous parents. We introduce a unified probabilistic framework for counterfactual inference with heterogeneous variable types by pairing GP predictors with explicit exogenous noise mechanisms. For discrete outcomes, we derive exact conditional noise-abduction procedures using a uniform threshold for binary variables, a Gumbel-max race for nominal categories, and a latent Gaussian cut-point model for ordinal ones. In each case, we propagate abducted noise through interventions while accounting for posterior uncertainty in the GP latent functions, and prove that the resulting mechanisms reproduce the fitted model's observational and interventional distributions. On synthetic SCMs with known ground-truth counterfactuals, we evaluate estimation accuracy, consistency, and robustness to coupling misspecification. A key finding is that applying a categorical coupling to ordinal data inflates counterfactual error roughly threefold even when observational fit remains comparable, and that this error does not diminish with more data. As the training set grows, the fitted structural equation converges to the truth while the counterfactual error flattens onto a floor. In the reverse direction, forcing a false order onto nominal data instead degrades the fitted equation itself. The choice of coupling must therefore be justified on structural grounds rather than read off the fit."
+  },
+  {
+    "title": "Fast Non-Parametric Heteroscedastic Imitation Learning With Geometric Priors",
+    "url": "http://arxiv.org/abs/2610.08650v1",
+    "arxiv_id": "2610.08650v1",
+    "authors": [
+      "Maximilian M\u00fchlbauer",
+      "Arne Sachtler",
+      "Markus Knauer",
+      "Cem K\u00fc\u00e7\u00fckgen\u00e7",
+      "Yanlong Huang",
+      "Alin Albu-Sch\u00e4ffer",
+      "Jo\u00e3o Silv\u00e9rio"
+    ],
+    "published": "2026-10-06T16:36:41+00:00",
+    "summary": "When learning probabilistic policies from human demonstrations, data-efficient learning and fast adaptations to new scenarios are key requirements. One popular way to achieve intuitive and reliable adaptations is through non-parametric, typically kernel-based, methods. However, existing solutions either fail to account for the geometry of manifolds common in robotics, limiting data efficiency, or, when geometry-aware, provide unreliable uncertainty estimates or require retraining to adapt. We propose a non-parametric approach leveraging geometric priors in scenarios of data scarcity and heteroscedastic uncertainties for probabilistic modeling. We utilize the method to formulate policies based on time or robot state, where non-separable diagonal kernels allow capturing uncertainty relations between degrees of freedom for same-sized in- and outputs. Fast updates, requiring less than 3 ms for a trajectory involving both position and orientation are possible through an optimized formulation. Our approach supports both manifold-valued input and manifold-valued output with large orientation changes. Using task parameterization, adaptation to different object poses is easily possible. We evaluate the approach on a set of toy examples and on real robot manipulation tasks both in autonomous execution and in shared control scenarios."
+  },
+  {
+    "title": "Random Feature Gaussian Process Attention: Linear-Time Probabilistic Attention with Calibrated Uncertainty",
+    "url": "http://arxiv.org/abs/2610.08578v1",
+    "arxiv_id": "2610.08578v1",
+    "authors": [
+      "Amir Mohammad Mahfoozi",
+      "Zi Yang",
+      "Ying Li",
+      "Michael Minyi Zhang"
+    ],
+    "published": "2026-10-06T15:51:29+00:00",
+    "summary": "Transformers provide a state-of-the-art modeling framework, yet poor calibration limits their reliability in safety-critical applications. A promising direction addresses this issue by interpreting attention as a Gaussian process (GP) posterior, which enables principled uncertainty calibration but incurs cubic complexity in sequence length due to the inversion of the kernel; although decoupled GP variants reduced the cost to quadratic, the computation remains prohibitive in practice. In this paper, we propose the plug-and-play random Fourier feature Gaussian process attention (RFF-GPA) module, which represents the attention as a GP with a stationary kernel approximated by random Fourier features. This low-rank approximation results in linear-time complexity for approximating the posterior mean and variance, making it far more scalable compared to previous work. Empirical results on multiple real-world datasets show that our attention module improves calibration while maintaining predictive accuracy, and simultaneously reduces computational complexity to linear in the sequence length."
+  },
+  {
+    "title": "Have I Seen Enough? Frozen Video-Language Models Encode Evidence Readiness",
+    "url": "http://arxiv.org/abs/2610.08560v1",
+    "arxiv_id": "2610.08560v1",
+    "authors": [
+      "Dan Ben-Ami",
+      "Kobi Cohen",
+      "Chaim Baskin"
+    ],
+    "published": "2026-10-06T15:43:04+00:00",
+    "summary": "Streaming video-language models must decide not only what to answer, but whether the evidence needed for the current question has arrived. Existing systems learn that decision as a separate trigger; we ask whether an unmodified model already computes it. We show that frozen VideoLLMs carry a linearly readable evidence-readiness signal, labelled from timestamped evidence rather than from model output. It decodes in all seven models of a shared byte-identical evaluation (AUROC 0.733-0.905 under the strictest not-ready sampling, where a fitted clock is near chance), and a probe fitted without any of a benchmark family's footage still reads that family. It is question-conditioned: on byte-identical windows, changing only the question reverses the readout on 66.1% of pairs, while every question-blind control is at chance by construction. The model can answer incorrectly and still encode readiness: AUROC remains 0.722 among wrong answers. Readiness also beats uncertainty estimators and their supervised combination on latency-matched answer selection, and tracks independent human judgments more closely than confidence. Released streaming triggers are also linear readouts, yet a trained trigger read on its own base model's activations is approximately orthogonal to readiness and decodes it far less accurately than a probe. We turn the readout into Readiness Gating, an answer-timing policy that improves accuracy by up to +9.75 pp at matched video duration with negligible computational overhead. How much it gains varies with the accuracy headroom the task makes available: across 26 configurations the gain tracks that headroom, and an intervention that moves it over identical pixels moves the gain with it."
+  },
+  {
     "title": "Testing Refracted Gravity with the kinematics of stacked galaxy clusters",
     "url": "http://arxiv.org/abs/2610.06841v1",
     "arxiv_id": "2610.06841v1",
