@@ -1,5 +1,129 @@
 [
   {
+    "title": "Standard estimators cannot represent fault-tolerant workloads at measured error rates: evaluated, evidence-based uncertainty for quantum resource estimation",
+    "url": "http://arxiv.org/abs/2610.10490v1",
+    "arxiv_id": "2610.10490v1",
+    "authors": [
+      "Furqan Nasir",
+      "Sher Jeel Ahmad"
+    ],
+    "published": "2026-10-07T17:45:18+00:00",
+    "summary": "Estimates of the quantum resources needed to run fault-tolerant algorithms are almost always reported as single numbers, even though they rest on uncertain hardware parameters and on cost models that disagree. We present an open, tool-agnostic framework that propagates evidence-based priors over fault-tolerant hardware parameters through five surface-code cost models, adds correlated-input sensitivity analysis, and evaluates the resulting intervals with a pre-registered three-layer protocol. Applied to RSA-2048, ECC-256, AES-256, and a Hubbard-model simulation on a superconducting surface-code architecture, it produces three coupled findings that together undermine the single-number convention. Propagating the error rates hardware has actually demonstrated, whose median across five large-array devices is about 4 x 10^-3 rather than the conventional 10^-3, widens the 90% physical-qubit interval to roughly forty times and lifts its median about 4.6 times above the conventional point estimate. Against the same inputs, five independently structured cost models, including two third-party estimators (the Azure Quantum Resource Estimator and Qualtran) that agree with each other to within about ten percent, disagree by a stable factor of two, a structural uncertainty that no single tool reveals. Most consequentially, both third-party estimators exceed their representable envelope for 80 to 100 percent of the evidence-based parameter space, and the AES-256 gate count overflows one tool's counter outright, so these workloads cannot be represented at measured error rates at all. The optimistic convention conceals every one of these effects. The uncertainty machinery we use is standard. The contribution is its evidence-based application, the pre-registered evaluation, and the finding that standard tools break down precisely where hardware operates."
+  },
+  {
+    "title": "RoboQuest: Generalist Physical Agents that Search, Inspect and Test",
+    "url": "http://arxiv.org/abs/2610.10388v1",
+    "arxiv_id": "2610.10388v1",
+    "authors": [
+      "Liu Renhang",
+      "Navonil Majumder",
+      "Tej Deep Pala",
+      "Soujanya Poria"
+    ],
+    "published": "2026-10-07T16:46:45+00:00",
+    "summary": "Recent advances in multimodal foundation models have made them capable generalist physical agents for a range of manipulation tasks. However, successful operation in an unfamiliar environment may require an agent to seek task-relevant information through interaction when it is absent from the observations: it may need to determine where a relevant object is, inspect an unobserved property, or discover the effect of an unfamiliar tool. We thus introduce RoboQuest, a benchmark for goal-directed embodied exploration, where agents must actively acquire task-relevant information through physical interaction, use the resulting evidence to adapt subsequent actions, and autonomously decide when to commit to task completion. RoboQuest comprises ten mobile manipulation tasks centered on three forms of uncertainty: search, manipulation-based inspection, and interactive testing. We evaluate five frontier multimodal agents through a common visuomotor interface, as well as a $\u03c0_{0.5}$ policy fine-tuned on the full-episode demonstrations we release. The best agent succeeds in only 23\\% of the episodes, and the fine-tuned policy almost never succeeds. Isolated tests of the execution skills the tasks are built from, with the hidden information supplied, show that the agents can carry out most of the required actions, and our failure analysis attributes only a minority of the failures to execution. Our failure analysis further finds that the agents often stop exploring too early as they make decisions before observing the required evidence for task completion. We also find that agents rarely prevent or repair the disturbances caused by their exploration. Moreover, learning by trial and error remains difficult for most models."
+  },
+  {
+    "title": "ROSE (Red-giant Oscillations Spectra Estimator): A Modular Machine-Learning Framework for Automated Asteroseismic Characterisation. I. $\u03bd_{\\max}$ and $\u0394\u03bd$ from TESS",
+    "url": "http://arxiv.org/abs/2610.10312v1",
+    "arxiv_id": "2610.10312v1",
+    "authors": [
+      "Nipun Ghanghas",
+      "Dinil B. Palakkatharappil",
+      "Rafael A. Garcia",
+      "Shravan Hanasoge"
+    ],
+    "published": "2026-10-07T16:06:46+00:00",
+    "summary": "Space-based photometry from Kepler and TESS has delivered oscillation spectra for hundreds of thousands of red giants, and PLATO and the Roman Galactic Bulge Time-Domain Survey will add more. We present ROSE, a modular machine-learning framework for automated asteroseismic characterisation of red giants, and apply two of its modules to the frequency of maximum oscillation power, $\u03bd_{\\rm max}$, and the large frequency separation, $\u0394\u03bd$. Each module is a neural network bundled with its own preprocessing transform and output binning, so that each parameter is measured in the representation that displays it most effectively: $\u03bd_{\\rm max}$ from the power-density spectrum, and $\u0394\u03bd$ from the power spectrum of the power spectrum taken over a window centred on $\u03bd_{\\rm max}$. Both are trained only on synthetic spectra generated at a one-year baseline and both return probability distributions rather than point estimates. This enables us to retrieve asymmetric uncertainty and a reliability index. Validating against held-out synthetic spectra, Kepler spectra at the training resolution and TESS continuous-viewing-zone giants, we obtain robust dispersions of 1.4, 3.3 and 4.4% in $\u03bd_{\\rm max}$ and 0.35, 0.61 and 1.3% in $\u0394\u03bd$, with the $\u03bd_{\\rm max}$ uncertainties close to their nominal coverage. The fully automated pipeline was applied to 274,721 TESS red-giant candidates observed for at least ten sectors, the framework returning reliable $\u03bd_{\\rm max}$ for 56,224 stars and reliable $\u0394\u03bd$ for 39,939, taking 8 ms per star. The sample follows $\u0394\u03bd= 0.278 \u03bd_{\\rm max}^{0.757}$ with a scatter of 6.2%, and the red-clump phase stands out as a distinct overdensity, although neither module is provided an evolutionary label or asked to produce one."
+  },
+  {
+    "title": "PairAudit: Guiding Human Review with Graph Tokens under Distribution Shift",
+    "url": "http://arxiv.org/abs/2610.10260v1",
+    "arxiv_id": "2610.10260v1",
+    "authors": [
+      "Jiran Tao",
+      "Binyan Jiang"
+    ],
+    "published": "2026-10-07T15:35:02+00:00",
+    "summary": "Intrusion detectors can confidently misclassify attacks that were not seen during training. Human review can correct these errors, but only a limited number of cases can be checked. Uncertainty-based review may overlook confident errors, while anomaly scores alone do not show whether changing the review plan will correct more errors. We introduce PairAudit to find overlooked errors and improve review under a fixed budget. Its graph tokens capture prediction patterns across connected nodes. Rather than building another predictor through feature aggregation, PairAudit uses unusual relational patterns to uncover potential errors in existing predictions. Human feedback then helps decide whether these findings justify changing review priorities. Experiments across security tasks show that PairAudit corrects more errors on average than uncertainty-based review, including more errors on unseen attacks. These gains account for all review costs and do not require retraining the detector."
+  },
+  {
+    "title": "Benchmarking Modular Optimization Strategies for Parameterized Quantum Circuits",
+    "url": "http://arxiv.org/abs/2610.10254v1",
+    "arxiv_id": "2610.10254v1",
+    "authors": [
+      "Carla Cotea",
+      "Stefan Balauca",
+      "Andreea Arusoaie"
+    ],
+    "published": "2026-10-07T15:32:48+00:00",
+    "summary": "Training parameterized quantum circuits requires balancing optimization progress with limited evaluation budgets and the statistical uncertainty of near-term quantum hardware. We present a modular benchmarking framework that separates quantum search-direction estimation from classical parameter-update rules, allowing their interactions and sensitivities to be examined independently. We evaluate a suite of gradient-based, stochastic, and derivative-free optimizers across combinatorial optimization using the Quantum Approximate Optimization Algorithm (QAOA), supervised quantum machine learning using Iris classification and a quantum convolutional neural network (QCNN) for binary MNIST classification, and quantum chemistry using the variational quantum eigensolver (VQE) for molecular hydrogen. By separating objective evaluations from sample-circuit costs under finite-shot simulation and physical execution on a 156-qubit processor, we compare optimizer behavior across workloads with different parameter counts and measurement requirements. Four selected simulator and hardware case studies report terminal and best observed objectives separately, alongside post-training classifier accuracies. The comparisons include selected MaxCut and hydrogen trajectories and illustrate workload-dependent objective changes and evaluation costs, while the simulator benchmark compares both peak and mean performance across three seeds. The hardware runs do not establish an optimizer ranking or isolate a causal effect of device noise."
+  },
+  {
+    "title": "A Probabilistic Perspective on Wasserstein-Based Evidential Uncertainty for Out-of-Distribution Segmentation",
+    "url": "http://arxiv.org/abs/2610.10116v1",
+    "arxiv_id": "2610.10116v1",
+    "authors": [
+      "Arnold Brosch",
+      "Abdelrahman Eldesokey",
+      "Michael Felsberg",
+      "Kira Maag"
+    ],
+    "published": "2026-10-07T14:03:45+00:00",
+    "summary": "Semantic segmentation networks operate on a fixed set of classes and therefore fail when out-of-distribution (OOD) objects appear during deployment, a critical limitation for safety-critical applications such as autonomous driving. Reliably identifying OOD objects requires well-calibrated epistemic uncertainty, yet common softmax-based confidence scores remain overconfident, while Bayesian alternatives such as Monte Carlo dropout or deep ensembles require costly repeated forward passes. Evidential Deep Learning (EDL) offers an efficient alternative by modeling class probabilities as a Dirichlet distribution learned from a single deterministic forward pass. Existing EDL formulations rely on Euclidean objectives that push predictions towards the simplex vertices, encouraging overconfidence rather than preserving uncertainty for unfamiliar inputs. We instead employ Wasserstein-based objectives, which respect the geometry of the probability simplex, and study the influence of the Wasserstein order on segmentation accuracy and OOD detection within a unified evidential framework. We evaluate this framework on a convolutional (DeepLabV3+) and a transformer-based (SegFormer) architecture on the SegmentMeIfYouCan benchmark, including LostAndFound, RoadObstacle21, RoadAnomaly21, and Fishyscapes. Our results show the optimal Wasserstein order is architecture-dependent: second-order objectives dominate on the convolutional backbone, third-order objectives on the transformer backbone, and our framework surpasses comparable baselines on most metrics, with a single deterministic forward pass."
+  },
+  {
+    "title": "Tactile Reconstruction of Contact Task Frames and Forces for Hybrid Force/Motion Control",
+    "url": "http://arxiv.org/abs/2610.10020v1",
+    "arxiv_id": "2610.10020v1",
+    "authors": [
+      "Antonio Rapuano",
+      "Simone Orelli",
+      "Barbara Bazzana",
+      "Antonio Franchi",
+      "Alessandro De Luca"
+    ],
+    "published": "2026-10-07T13:09:20+00:00",
+    "summary": "Hybrid force/motion control requires knowledge of the interaction force and of a task frame defining the force- and motion-controlled directions. These quantities are usually obtained from force/torque sensing or model-based residuals, often assuming also a nominal environment model. This work addresses the online estimation of the contact force and a possibly time-varying task frame using only soft optical tactile sensing, under the assumption of locally planar contact with a negligible contact moment. The proposed method maps a single image of the deformed elastomer of a soft optical tactile sensor to observable contact variables: indentation depth, two surface-to-sensor tilt angles, and 3D contact force, each with a per-sample uncertainty estimate. The mapping is learned through a self-labeling acquisition procedure, in which a manipulator imposes controlled contacts while an auxiliary Force/Torque sensor is used offline to provide ground-truth labels. The tactile measurement is then fused with robot proprioceptive data in an Extended Kalman Filter, producing a continuously updated estimate of the contact task frame and of the interaction force. Control experiments with a DigiTac sensor mounted on a UR10 manipulator demonstrate closed-loop contact force regulation against a flat rigid board in linear and angular motion by a human operator, with touch as the only exteroceptive feedback."
+  },
+  {
+    "title": "MUNITE: Unified Multimodal Latent Inference for Any-to-Any Multimodal Generation",
+    "url": "http://arxiv.org/abs/2610.09866v1",
+    "arxiv_id": "2610.09866v1",
+    "authors": [
+      "Kyeongmin Yeo",
+      "Minhyuk Sung"
+    ],
+    "published": "2026-10-07T11:27:35+00:00",
+    "summary": "We introduce MUNITE, a latent-variable framework for flexible any-to-any multimodal generation that treats encoding and latent generation as the same inference problem under different amounts of observed evidence. Given any subset of modalities, MUNITE models the conditional distribution over the latent representation associated with the complete observation. Full observation recovers deterministic encoding, no observation recovers the latent marginal, and intermediate subsets define conditional latent inference, all within a single conditional flow model. A shared latent sample captures variation that must remain consistent across generated targets, while modality-specific generative decoders model the remaining uncertainty independently. To learn these conditional distributions from incomplete training examples, we extend conditional flow matching through self-distillation: predictions conditioned on richer available observations supervise the same model conditioned on smaller subsets at the same intermediate latent state. When the richer-evidence trajectory follows the exact conditional flow, this provides the same expected learning signal as full-target denoising. Across PolyMNIST-D-Q, FFHQ64, and image-text-audio, MUNITE achieves competitive or better generation quality and source-target alignment, with higher joint-generation coherence. In particular, it attains the highest coherence in all one-to-many and unconditional image-text-audio comparisons, showing the effectiveness of unified latent inference across diverse multimodal settings."
+  },
+  {
+    "title": "Self-Evolve With a Reference:Anchored Training of Tool-Integrated Agents",
+    "url": "http://arxiv.org/abs/2610.09856v1",
+    "arxiv_id": "2610.09856v1",
+    "authors": [
+      "Wenjie Liao",
+      "Liangjie Zhao",
+      "Zehong Cao"
+    ],
+    "published": "2026-10-07T11:13:35+00:00",
+    "summary": "Self-evolving tool-integrated agents learn from tasks and feedback generated within their own training loop. A Curriculum Agent generates tasks, while an Executor Agent learns from self-consistency signals through reinforcement learning. However, relying solely on the current Executor for feedback has two limitations: group-relative advantages vanish under full consensus, while uncertainty-based curriculum rewards favor disagreement without showing whether the generated tasks support further learning. These limitations motivate an additional reference beyond the current Executor. We propose \\textit{AnchorLoop}, which introduces a frozen copy of the previous iteration's Executor as a historical reference and reuses it on both sides of the training loop. For the Executor, the anchor provides a cross-reference advantage that evaluates current outputs against both current and historical majority answers. For the Curriculum, it provides an agreement-based reference based on differences in sampled majority agreement. Since the Executor and anchor have identical parameters during Curriculum training, this comparison serves as a proxy for task selection rather than evidence of inter-version improvement or correctness. Across 13 reasoning benchmarks, AnchorLoop improves over Agent0 by 2.5\\% on mathematical reasoning and 2.8\\% on general reasoning tasks. It also maintains higher effective-advantage variance and continues improving in later iterations as the unanchored baseline shows diminishing gains. These results demonstrate the benefit of introducing a lightweight historical reference into self-evolving tool-integrated agents without external task or answer supervision."
+  },
+  {
+    "title": "Stream-Based Active Learning with Cooperative Neural Networks for Data-Efficient Partial Inverse Design: An Automotive Glass Run Channel Case Study",
+    "url": "http://arxiv.org/abs/2610.09848v1",
+    "arxiv_id": "2610.09848v1",
+    "authors": [
+      "Agung Nugraha",
+      "Hyerin Kwon",
+      "Heungjun Im",
+      "Gian Antariksa",
+      "Jihwan Lee"
+    ],
+    "published": "2026-10-07T11:07:22+00:00",
+    "summary": "Inverse design in engineering often runs into a simple problem. Each labeled training sample must be produced through expensive simulation, so building a large dataset is slow and costly. This study addresses that problem for partial inverse design, where only some design variables are specified and the rest must be inferred to reach a target performance value. We propose CoNN-AL, a framework for data-efficient partial inverse design that adds stream-based active learning to the Cooperative Neural Network with Denoising Autoencoder (CoNN-DAE). The model estimates predictive uncertainty through Monte Carlo dropout and uses it to decide, in real time, which incoming candidate samples are worth labeling, so the limited labeling budget is spent on the most informative designs. We validate the framework on a real-world automotive glass run channel dataset of more than 900,000 unique simulated designs. With only 20,000 actively selected labels, about 2.3% of the training pool, CoNN-AL reaches R-squared values of 0.967 to 0.982 across all missing-variable levels, approaching the upper-bound models trained on far more data. It reaches R-squared of at least 0.95 with 30 to 40% fewer labels than random sampling at the more difficult missing-variable levels and, at the most challenging level, is the only strategy in this study to reach R-squared of 0.98. Together with this work, we publicly release the dataset to support future research on data-driven design."
+  },
+  {
     "title": "Conformal Prediction Sets Quantify Information Gain: A Theoretical Perspective",
     "url": "http://arxiv.org/abs/2610.08785v1",
     "arxiv_id": "2610.08785v1",
