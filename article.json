@@ -1,5 +1,148 @@
 [
   {
+    "title": "Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration",
+    "url": "http://arxiv.org/abs/2610.12470v1",
+    "arxiv_id": "2610.12470v1",
+    "authors": [
+      "Jusuk Lee",
+      "Sungha Kim",
+      "Yeonsoo Park",
+      "Jonguk Cheon",
+      "Yoonkyo Jung",
+      "Yongjun You",
+      "H. Jin Kim",
+      "Jia-Bin Huang",
+      "Furong Huang",
+      "Youngseok Jang",
+      "Seungjae Lee"
+    ],
+    "published": "2026-10-08T17:59:58+00:00",
+    "summary": "While learning dexterous manipulation from a single human video offers a promising alternative to costly robot demonstrations, many recent methods predominantly imitate demonstrated motions. Such strict motion matching often limits generalization to initial object poses, goal poses, and grasps not shown in the video. Alternatively, discovering a policy via reinforcement learning (RL) allows for broad generalization, but without prior guidance, it struggles with high-dimensional exploration in complex, multi-stage tasks. To address these coupled generalization and exploration challenges, we present Dex-One2Many, a real-to-sim-to-real framework that learns a generalizable dexterous manipulation policy from a single human video. Our key insight is to abstract the video into sequential scene graphs that guide RL, enabling efficient exploration while preserving broad generalizability. The graphs serve as generative constraints for sampling diverse reset states and provide dense rewards for each stage. Because the graphs constrain relations rather than exact poses, these reset states cover object poses and grasps beyond the video, while initializing each stage from them with dense rewards keeps exploration short and guided. Trained entirely in simulation, Dex-One2Many transfers zero-shot to a real multi-fingered hand. Across five tool-use and manipulation tasks, Dex-One2Many exceeds baselines by 6.5% in seen configurations, while its robust generalization widens this gap to 71% in unseen scenarios."
+  },
+  {
+    "title": "Control-Ready Uncertainty for Trajectory Diffusion",
+    "url": "http://arxiv.org/abs/2610.12431v1",
+    "arxiv_id": "2610.12431v1",
+    "authors": [
+      "Zhiwei Xue",
+      "Jia Yue Kam",
+      "Jinhang Qiu",
+      "Yifeng Cheng",
+      "Ege Gursoy",
+      "Jiaming Wang",
+      "Vincent Bonnet",
+      "Harold Soh"
+    ],
+    "published": "2026-10-08T17:57:01+00:00",
+    "summary": "Diffusion models can represent complex, multimodal trajectory distributions, but extracting uncertainty from them typically requires costly Monte Carlo sampling. This limits their use in real-time control, where robots must rapidly assess risk and maintain safety margins. We introduce Score-Curvature for Online Precision Estimation (SCOPE), a lightweight module that augments diffusion trajectory models with control-ready uncertainty. SCOPE learns a structured precision matrix around each nominal trajectory by distilling score-curvature information and producing calibrated Gaussian tubes with low overhead and without repeated Monte Carlo sampling. These tubes provide per-timestep covariance estimates that can be used both as predicted occupancy for moving agents and as adaptive exploration guides for robot control. We evaluate SCOPE with mode-conditioned multimodal diffusion backbones in pedestrian forecasting, crowd navigation, Maze2D control, and real-world Franka Panda manipulation. Across these settings, SCOPE provides fast uncertainty estimation, which leads to better closed-loop performance. Project page: https://zackaxue.github.io/SCOPE-project-page/"
+  },
+  {
+    "title": "Accurate but Not Humble: Evaluating Epistemic Humility in LLM Agents under Knowledge Conflict",
+    "url": "http://arxiv.org/abs/2610.12360v1",
+    "arxiv_id": "2610.12360v1",
+    "authors": [
+      "Kaiser Sun",
+      "Bernal Jimenez Gutierrez",
+      "Hongjun Liu",
+      "Jingyu Zhang",
+      "Jie Gao",
+      "Mark Dredze",
+      "Daniel Khashabi"
+    ],
+    "published": "2026-10-08T17:25:06+00:00",
+    "summary": "When retrieved evidence contradicts an agent's prior beliefs, does it revise its answer, acknowledge uncertainty, or persist with an incorrect conclusion? Existing evaluations of agentic systems focus primarily on task success, offering limited insight into how agents handle such conflicts. We propose to evaluate agents on epistemic humility (EH): the agent's willingness to recognize, act on, and communicate uncertainty during task execution. We operationalize EH through three trajectory-level behavioral dimensions: Identify, Solve, and Escalate (ISE). Through knowledge conflict, situations where the backbone language model's parametric knowledge contradicts the evidence it encounters, or where two contextual sources disagree, we evaluate two conflict settings: (1) controlled conflict and (2) naturally occurring conflict during multi-step agentic execution, each paired with matched no-conflict controls. Evaluating four agents, we find that higher task accuracy does not necessarily correspond to greater epistemic humility: some high-accuracy configurations recognize conflicts during execution but do not communicate unresolved uncertainty in their incorrect final answers. Trajectory-level analysis further reveals that agents frequently detect conflicts in early steps of execution but fail to maintain or resolve them in later steps. Finally, we show that model-level interventions can improve EH, but often at the cost of task accuracy, suggesting that epistemic humility emerges from the interaction among the backbone model, agent harness, and evaluation environment."
+  },
+  {
+    "title": "Subspace Uncertainty and Sharp Sampling Thresholds on the Boolean Cube",
+    "url": "http://arxiv.org/abs/2610.12358v1",
+    "arxiv_id": "2610.12358v1",
+    "authors": [
+      "Thomas Weinberger"
+    ],
+    "published": "2026-10-08T17:23:25+00:00",
+    "summary": "We study Gaussian regression under squared population $L_2$ loss in a known $m$-dimensional subspace of degree-at-most-$k$ functions on the $d$-dimensional Boolean cube. Random inputs can undersample regions essential for prediction, delaying the parametric rate even when the model is known.   For fixed $q_0<1/2$, $1\\le k\\le q_0d$, and sufficiently large fixed $A$, the worst-subspace sample threshold for minimax error $A\u03c3^2(m+t)/n$ with confidence $1-e^{-t}$, $t\\ge\\log4$, is \\[ N=(m+t)\\exp\\{E_{d,k}+O(k^{1/3})\\}, \\quad E_{d,k}=d\u03a8(k/d), \\] where $\u03a8(q)=\\log2-\\mathsf H(\\tfrac12-\\sqrt{q(1-q)})$ and $\\mathsf H$ is binary entropy with natural logarithms. The upper bound holds for every feasible $m$; the matching lower bound holds when $m\\le\\binom d{\\lfloor k^{1/3}\\rfloor}$ or $t\\ge m$.   We sharpen the Polyanskiy--Samorodnitsky uncertainty principle in two respects. First, for fixed leakage $\u03c1\\in(0,1)$, the smallest set carrying a fraction $1-\u03c1$ of a nonzero degree-at-most-$k$ polynomial's energy has probability $\\exp\\{-E_{d,k}+O_{\u03c1,q_0}(k^{1/3})\\}$. An Airy-kernel construction proves that the remainder cannot be $o(k^{1/3})$ in general. Second, we construct a subspace of dimension $\\binom d{\\lfloor k^{1/3}\\rfloor}$ such that every function in the subspace has at least a fraction $1-\u03c1$ of its energy on the same set, whose probability is at most $\\exp\\{-E_{d,k}+C_{\u03c1,q_0}k^{1/3}\\}$. For sufficiently large $k$, this set is a Hamming ball.   A striking consequence is an exponential cost of noise: the parametric rate can require $(m+t)4^k\\exp\\{-O(k^{1/3})\\}$ samples, whereas $O((m+t)2^k)$ suffice for noiseless identification. As $k\\to\\infty$ with $k/d\\to0$, the noisy threshold is $(m+t)\\exp\\{2k+o(k)\\}$."
+  },
+  {
+    "title": "Asymptotically Vanishing Excitation Without Loss of Parameter Convergence",
+    "url": "http://arxiv.org/abs/2610.12353v1",
+    "arxiv_id": "2610.12353v1",
+    "authors": [
+      "Parham Oveissi",
+      "Ankit Goel"
+    ],
+    "published": "2026-10-08T17:21:18+00:00",
+    "summary": "Parameter convergence in recursive identification requires persistent excitation, which is typically enforced with a probing signal that degrades performance if retained indefinitely. Regulating the probing amplitude with the one-step prediction error is insufficient, since a small prediction error does not imply parameter convergence. This paper proposes a self-regulating excitation law that scales the probing amplitude with the associated covariance matrix, so that the excitation vanishes only as fast as the estimator's own measure of remaining parameter uncertainty allows. The key idea is that the excitation amplitude must decay more slowly than the covariance measure, the largest eigenvalue of the covariance matrix in this work, for parameter convergence to be preserved. Under the proposed excitation law, the excitation amplitude and the covariance measure are shown to jointly converge to zero while the parameter estimate converges to the true parameter, with the excitation vanishing more slowly than the covariance measure throughout. A scalar exponent in the law trades the rate of covariance decay against the amount of excitation retained. Numerical results confirm both properties."
+  },
+  {
+    "title": "A Structural Theory of Cognitive Representation and Problem Solving,Contexts, Invariance, and the Knowledge Space",
+    "url": "http://arxiv.org/abs/2610.12306v1",
+    "arxiv_id": "2610.12306v1",
+    "authors": [
+      "Antal Jakov\u00e1c",
+      "Andr\u00e1s Telcs"
+    ],
+    "published": "2026-10-08T16:54:16+00:00",
+    "summary": "Learning and problem solving depend critically on the structure of internal representations. While many modern data-driven artificial systems achieve strong predictive performance, their learned representations often lack explicit structure for expressing abstraction, invariance, and task-relevant regularities. We propose a minimal structural framework in which representational operations relevant to problem solving, such as context formation, invariance recognition, representative selection, abstraction, and procedural reuse, are made explicit. The central notion is that of a \\emph{context}, formalized as a partition of a subset of an underlying state space, which fixes the distinctions, granularity, and form in which a problem can be posed. Within this setting, invariance recognition and representative selection are treated as fundamental representational operations. The framework is realized as a Knowledge Space composed of two coupled graph structures: a Concept Graph that hosts constructed and refined concepts, and a Procedure Graph that encodes typed operations over representations. Together, these structures provide a minimal cognitive-representational algebra for operating on representations without assuming sophisticated inference, learning, control, perception, or motor mechanisms. Using simple illustrative examples and a finite weak-solver demonstration, we show that appropriate representational organization can simplify the form and scope of admissible regularities, even when problem solving is carried out by a fixed and limited solver. The contribution of the paper is structural rather than algorithmic: it identifies representational prerequisites for abstraction, invariance, and procedural reuse in problem solving, and states explicit success and failure conditions for the weak-solver setting."
+  },
+  {
+    "title": "Cavity Characterization for the Princeton Axion Search",
+    "url": "http://arxiv.org/abs/2610.12298v1",
+    "arxiv_id": "2610.12298v1",
+    "authors": [
+      "Nate Otto",
+      "Jianyang Fu",
+      "Joelle-Marie Begin",
+      "Saptarshi Chaudhuri",
+      "Roman Kolevatov",
+      "Lyman Page",
+      "Joe Wiedemann"
+    ],
+    "published": "2026-10-08T16:49:56+00:00",
+    "summary": "The Princeton Axion Search (PXS) targets the mass window $0.8\\text{--}2.1~\u03bc\\text{eV}$ (corresponding to frequencies $200\\text{--}500~\\text{MHz}$) at DFSZ sensitivity. The experiment, a haloscope, will use a cylindrical copper-plated aluminum cavity of $700~\\text{mm}$ diameter and $1022~\\text{mm}$ height, immersed in a $5~\\text{T}$ solenoidal magnetic field. A $152~\\text{mm}$ diameter tuning rod spanning the height of the cavity rotates to tune the primary mode resonance from $390\\text{--}480~\\text{MHz}$, the frequency range for initial operations. We deduce the electric and magnetic field mode patterns using a combination of dielectric and metallic bead perturbations on the empty cavity. The measured mode frequencies and the $\\text{TM}_{010}$ field profile, as a function of tuning rod position, are in excellent agreement with simulations. We describe the effect of fabrication and assembly imperfections, including the bowing of end plates and tilt of the tuning rod. The welded seams and end-cap joints are demonstrated to not significantly degrade $Q$. We combine measurement and simulation to assess an uncertainty on form factor across the full tuning range. Our results validate PXS's cavity architecture and inform future searches for sub-$\u03bc\\text{eV}$ axions, in which large-volume high-$Q$ structures are required to reach QCD sensitivity."
+  },
+  {
+    "title": "Machine Learning Meets High-Energy Nuclear Physics: From Pattern Recognition to Physics-Integrated Discovery",
+    "url": "http://arxiv.org/abs/2610.12293v1",
+    "arxiv_id": "2610.12293v1",
+    "authors": [
+      "Xun Chen",
+      "Weiyao Ke",
+      "Yu-Gang Ma",
+      "Long-Gang Pang",
+      "Kai Zhou"
+    ],
+    "published": "2026-10-08T16:47:33+00:00",
+    "summary": "Machine learning (ML) in high-energy nuclear physics (HENP) is entering a new stage in which physical knowledge is incorporated more directly into data analysis, simulation, and physics inference. This mini-review focuses on developments that have matured in the past several years. Whereas earlier applications emphasized event classification, pattern recognition, and surrogate models for selected observables, recent work has moved toward physics-integrated workflows: calibrated Bayesian extraction of QCD matter properties, dense-matter equation-of-state inference from heavy-ion and neutron-star data, generative event modeling, neural unfolding of weak physical signals, differentiable inverse solvers, gauge-equivariant and diffusion-based lattice-field samplers, and neural reconstruction of model functions in holographic QCD. We survey recent applications of ML in heavy-ion collisions, neutron-star physics, lattice QFT, and holographic or continuum QCD. The emphasis is not on ML architectures alone, but on how they enter concrete physics workflows, how physical constraints such as symmetries, conservation laws, causality, thermodynamic stability, and topology are imposed, and how uncertainty quantification and validation determine whether an AI-assisted result can support a reliable physics conclusion."
+  },
+  {
+    "title": "Bosonic Contribution to Parity-Violating M\u00f8ller Scattering at NNLO",
+    "url": "http://arxiv.org/abs/2610.12287v1",
+    "arxiv_id": "2610.12287v1",
+    "authors": [
+      "Lisong Chen",
+      "Jens Erler",
+      "Ayres Freitas",
+      "Juhun Kwak"
+    ],
+    "published": "2026-10-08T16:43:56+00:00",
+    "summary": "We calculate the dominant bosonic two-loop virtual electroweak corrections to parity-violating M\u00f8ller scattering at low energies. The electron effective weak charge is extracted from the polarization asymmetry, retaining all contributions that are enhanced by $(1-4\\sin^2\u03b8_W)^{-1}$ or $\\ln^2(M_{W,Z}^2/Q^2)$ relative to the tree-level contribution. Analytical results are obtained using the expansion by regions method in the low-energy limit $Q^2\\ll M_{W,Z}^2$. Within this approximation, the dominant two-loop bosonic corrections shift the electron effective weak charge (or equivalently the polarization asymmetry) by $0.3\\%$. We examine the origin of the leading contributions to this result and assess the remaining theoretical uncertainty from purely bosonic contributions for the MOLLER experiment to about 0.1%."
+  },
+  {
+    "title": "Unlocking the Regulatory Genome by ARGUS: An Evidence-Constrained Agentic Framework for Interpreting Single Nucleotide Variants",
+    "url": "http://arxiv.org/abs/2610.12281v1",
+    "arxiv_id": "2610.12281v1",
+    "authors": [
+      "Pratik Dutta",
+      "Matthew B. Obusan",
+      "Max Chao",
+      "Rekha Sathian",
+      "Nimisha Papineni",
+      "Ramana V. Davuluri"
+    ],
+    "published": "2026-10-08T16:38:32+00:00",
+    "summary": "Over 90% of disease-associated variants from genome-wide association studies fall in noncoding regulatory regions, yet their functional interpretation remains a central open problem in genomic medicine. Large language models prompted to interpret such variants routinely hallucinate transcription factor (TF) binding changes, fabricate experimental support, and assign biological significance to statistically negligible signals. We present ARGUS (Agentic Regulatory Genomics for an Uncertainty-aware Scientist), which strictly separates deterministic biological computation from LLM-mediated reasoning. ARGUS wraps 458 DNABERT-based TF binding models in a hypothesis-directed investigation loop where a planner selects evidence sources based on current uncertainty, a verifier deterministically interprets each observation, and intermediate results change the investigation path. On variant rs6983267 at the 8q24 cancer risk locus, the same planner produces four divergent trajectories for four TFs. FOXA1 is rescued in 3 steps when real ADASTRA allele-specific binding data (15 experiments, FDR = 0.030) reveals a model false negative masked by saturation. KLF6 traverses 8 steps across ADASTRA, JASPAR motif analysis, and ENCODE cCRE regulatory annotation before abstaining due to mixed indirect evidence. RAD21 abstains in 8 steps after ADASTRA returns a coverage-qualified but nonsignificant allelic test (5 experiments, FDR = 0.65), and SP1, which shares FOXA1's saturated retained prediction, abstains because no direct experimental evidence exists at this locus. All observations come from real ADASTRA, JASPAR, and ENCODE cCRE queries; none are simulated. A comparison of fixed-priority and LLM-mediated planning shows that the LLM planner reaches identical verdicts with fewer tool calls by declining evidence that cannot resolve the claim under test."
+  },
+  {
     "title": "Standard estimators cannot represent fault-tolerant workloads at measured error rates: evaluated, evidence-based uncertainty for quantum resource estimation",
     "url": "http://arxiv.org/abs/2610.10490v1",
     "arxiv_id": "2610.10490v1",
