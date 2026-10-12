@@ -1,5 +1,139 @@
 [
   {
+    "title": "Adiabatic evolution of hadronic neutron stars",
+    "url": "http://arxiv.org/abs/2610.13926v1",
+    "arxiv_id": "2610.13926v1",
+    "authors": [
+      "Domenico Logoteta",
+      "Francesco Zeno Constanzo",
+      "Ignazio Bombaci",
+      "Sebastiano Bernuzzi",
+      "Albino Perego",
+      "David Radice"
+    ],
+    "published": "2026-10-09T17:54:56+00:00",
+    "summary": "In this paper we compute several structural properties of static and rotating neutron stars, considering both rigid and differential rotation. To this end, we use a finite-temperature beta-stable equation of state (EOS) extending the zero-temperature hadronic EOS derived by Fortin et al. (2017). We account for the formation of hyperons and the presence of a neutrino-trapped component. Our goal is to provide insights into the long-term evolution of a protoneutron star (PNS) formed after a core-collapse supernova (CCSN) or a remnant resulting from a binary neutron star merger (BNSM). The EOS is derived using a relativistic mean-field quantum many-body theory within the Hartree approximation. Coupling constants are determined using experimental data on hypernuclei and hypernuclear matter to better account for uncertainties in hyperon single-particle potentials. Our EOS models reproduce the typical features of cold neutron stars and PNSs for nucleonic and hyperonic compositions. In particular, they are consistent with measured masses (2.01 M_sun and 2.14 M_sun for PSR J0348+0432 and PSR J0740+6620) and dimensionless tidal deformabilities from GW170817. Thermal contributions act differently depending on composition and rotation state. Finally, our evolutionary scheme provides a simple way to interpret the long-term evolution of BNSM remnants or PNSs from CCSNe, complementing dynamical simulations unable to cover full evolutionary timescales."
+  },
+  {
+    "title": "When VLMs Destroy What They Know: Spatial Representations Fall Below Lexical Priors",
+    "url": "http://arxiv.org/abs/2610.13910v1",
+    "arxiv_id": "2610.13910v1",
+    "authors": [
+      "Shubh Garg",
+      "Chen Shani"
+    ],
+    "published": "2026-10-09T17:50:03+00:00",
+    "summary": "Vision-Language Models (VLMs) increasingly analyze and reason about images, yet it remains unclear whether their internal representations faithfully encode the structured relations required for such reasoning. We introduce EICS (Evaluation-Invariant Concept Stability), a metric for testing whether representations consistently encode concepts under controlled one-concept interventions, and CASP-VL (Causally controlled Spatial Perturbations for Vision-Language models), a benchmark of causally controlled spatial perturbations derived from Visual Genome scene graphs. Across multiple VLM architectures, we find that spatial relations are represented substantially less faithfully than lexical information, even when the same models score well above chance on compositional benchmarks. Further analysis shows that the relation is identifiable at the predicate's own tokens but is lost when the sentence is aggregated into a global representation, whether through the (EOS) token or by mean pooling. These findings reveal a systematic failure invisible to output-based evaluation: VLMs do not preserve, in the representation used downstream, relational information that is present in their own input."
+  },
+  {
+    "title": "Revisiting Tabular Deep Regression: Objectives and the Limits of Global Early Stopping",
+    "url": "http://arxiv.org/abs/2610.13909v1",
+    "arxiv_id": "2610.13909v1",
+    "authors": [
+      "Danil Rudenko",
+      "Georgii Bulgakov",
+      "Nikolay Kartashev",
+      "Ivan Rubachev",
+      "Daniil Krasylnikov",
+      "Artem Babenko"
+    ],
+    "published": "2026-10-09T17:49:32+00:00",
+    "summary": "While deep learning models for tabular data have recently received significant research attention, the choice of objective functions for regression tasks remains an understudied degree of freedom. Several lines of research offer alternatives to the standard Mean Squared Error (MSE), but differences in datasets, backbones, and evaluation protocols make their practical benefits difficult to compare. In this work, we address this gap by performing a systematic re-evaluation of regression objectives across a broad collection of established tabular datasets and multiple neural backbones. Our comparison reveals that many proposed objectives provide limited or inconsistent gains over a properly tuned MSE baseline, while quantile loss yields consistent aggregate improvements over MSE across the tested backbones. We then identify a limitation that remains even with this strong objective: regions with different levels of target noise can reach their best predictive performance at different training epochs. Consequently, a single global early-stopping checkpoint can impose a compromise between uncertainty regions, even when the objective can represent heteroskedastic target distributions. Motivated by this limitation, we introduce a heteroskedasticity-aware extension of quantile loss that uses input-dependent label smoothing as a potential remedy and improves over quantile loss on several backbones. Overall, our results provide a modern empirical picture of regression objectives for tabular deep learning and highlight how differences in optimal stopping times across uncertainty regions can limit the effectiveness of global early stopping. The code is available at https://github.com/yandex-research/tabular-regression."
+  },
+  {
+    "title": "Complete four-loop pressure of cold QED",
+    "url": "http://arxiv.org/abs/2610.13873v1",
+    "arxiv_id": "2610.13873v1",
+    "authors": [
+      "Aapeli K\u00e4rkk\u00e4inen",
+      "Pablo Navarrete",
+      "Mika Nurmela",
+      "Kaapo Sepp\u00e4nen",
+      "Samuel Abreu",
+      "Maximilian Delto",
+      "Aleksi Kurkela",
+      "Risto Paatelainen",
+      "Aleksi Vuorinen"
+    ],
+    "published": "2026-10-09T17:21:49+00:00",
+    "summary": "Extending the weak-coupling expansion of the pressure of a cold and dense ultrarelativistic electron gas to next-to-next-to-next-to-leading order (N3LO) in the gauge coupling has remained an open problem since the classic N2LO result of Freedman and McLerran, published in 1977. Here, we present the full N3LO pressure, the first thermodynamic quantity determined to this order in a physical gauge theory. The pressure exhibits good perturbative convergence and weak renormalization-scale dependence even at sizable couplings, while a Bayesian analysis of missing higher-order contributions indicates uncertainties that can exceed those inferred from scale variation alone."
+  },
+  {
+    "title": "Impact of ab initio E1 strength on neutron capture rates along the nickel isotopic chain",
+    "url": "http://arxiv.org/abs/2610.13868v1",
+    "arxiv_id": "2610.13868v1",
+    "authors": [
+      "Francesca Bonaiti",
+      "Joanna E. Sobczyk"
+    ],
+    "published": "2026-10-09T17:18:37+00:00",
+    "summary": "Nucleosynthesis simulations of the r-process require neutron capture rates for neutron-rich nuclei, many of which lie beyond experimental reach. Predicting these rates relies on theoretical calculations of the low-energy electric dipole (E1) strength near the neutron threshold. We present the first ab initio computation of the E1 strength along the nickel isotopic chain, for $^{58}$Ni and the even-even isotopes $^{68-80}$Ni. The E1 strength is obtained with the Lorentz integral transform coupled-cluster (LIT-CC) method, extended to axially symmetric reference states to reach open-shell nuclei, using two- and three-nucleon interactions from chiral effective field theory. The approach is benchmarked against the measured photoabsorption cross section of $^{58}$Ni and the E1 strength of $^{68}$Ni. Along the chain we find low-lying E1 strength above the neutron threshold that grows with neutron number. Including it in the reaction code TALYS enhances the neutron capture rates forming $^{68-78}$Ni between 3 and 10 GK, with an effect that increases with temperature and neutron number and an uncertainty dominated by the inversion of the integral transform. For $^{80}$Ni, where strong pygmy dipole strength lies just above threshold, the enhancement sets in already around 0.5 GK. Together, these results open the way to ab initio input for neutron capture rates along isotopic chains far from stability."
+  },
+  {
+    "title": "SLICE: Sequential Likelihood-Free Inference via Conformal E-Values",
+    "url": "http://arxiv.org/abs/2610.13855v1",
+    "arxiv_id": "2610.13855v1",
+    "authors": [
+      "Stefano Cortinovis",
+      "Laura Battaglia",
+      "Fran\u00e7ois Caron"
+    ],
+    "published": "2026-10-09T17:04:51+00:00",
+    "summary": "Many scientific models can be simulated but have intractable likelihoods, making frequentist uncertainty quantification difficult. We construct exact anytime-valid confidence sequences for the parameters of such models. At each observation, fresh simulations from each candidate null conformalize a positive predictable score into a conditional e-value; their product is a test martingale, which we invert over the parameter. Validity holds for any such score, whatever its accuracy. We show that the oracle likelihood-ratio score maximizes expected log growth, which motivates approximating it with an amortized neural ratio estimator. On synthetic benchmarks, an audit of model routing in an LLM API, and microlensing data, the resulting confidence sequences stay valid under continuous monitoring, where fixed-sample methods do not, and neural scores remain competitive with exact likelihood ratios and application-specific scores."
+  },
+  {
+    "title": "From Pixels to Privacy-Sensitive Features: An Information-Theoretic Framework for Reconstruction Bounds",
+    "url": "http://arxiv.org/abs/2610.13768v1",
+    "arxiv_id": "2610.13768v1",
+    "authors": [
+      "Henry Bourne",
+      "Robert F. Allison"
+    ],
+    "published": "2026-10-09T15:52:39+00:00",
+    "summary": "What can an adversary recover from a model trained with DP-SGD? Its $(\\varepsilon,\u03b4)$ guarantee does not answer this question directly. We derive a distortion bound that can be computed before training and applies even to an adversary who observes the parameter trajectory during training, knows every other training record and the population distribution from which the training records are drawn. The analyst may choose the representation in which error is measured, allowing the bound to target the aspects of reconstruction that are privacy-sensitive in a given application. Our information-theoretic framework separates two contributions: the information about a record revealed by training, measured through conditional mutual information, and the uncertainty already present in the data distribution, measured through source entropy. Rate-distortion theory combines them into a lower bound on the expected error of every reconstruction attack. For DP-SGD, the leakage bound depends only on the sampling rates and noise multipliers, while the source entropy is lower-bounded from a sample with finite-sample confidence. An orthogonal block construction keeps the resulting bound informative for high-dimensional images. We instantiate the framework in pixel space and in LPIPS feature space, obtaining, to our knowledge, the first lower bound on reconstruction distortion measured directly by LPIPS. On a range of image datasets the bounds establish non-trivial unavoidable expected reconstruction error within heuristically recommended privacy-budget ranges and beyond. Experiments compare the bounds with strong reconstruction attacks and identify the principal sources of the remaining slack."
+  },
+  {
+    "title": "How Well Do Prior-Data Fitted Networks Amortize Bayesian Inference?",
+    "url": "http://arxiv.org/abs/2610.13764v1",
+    "arxiv_id": "2610.13764v1",
+    "authors": [
+      "Manuel H\u00fclskamp",
+      "Julius Kobialka",
+      "Emanuel Sommer",
+      "Thomas Nagler",
+      "David R\u00fcgamer"
+    ],
+    "published": "2026-10-09T15:49:24+00:00",
+    "summary": "Prior-data fitted networks (PFNs) are trained to approximate the Bayesian posterior predictive distribution (PPD) of a synthetic prior, yet results about the approximation quality are surprisingly thin. Taking an empirical risk minimization perspective, we decompose the deployment error of PFNs into prior, context, and amortization error, and measure the latter against a reference PPD under a realistic prior. Results show that PFNs generally recover the targeted PPD very well. Nevertheless, we find that parts of the residual amortization error persist, especially in \\textit{rare} settings under the prior pretraining distribution, even when scaling the model size, which manifests in disagreement between independently pretrained PFNs and leaves uncertainty about the predictor at inference time. As a remedy, we study multiple types of Bayesian model averages and find that these can consistently reduce this uncertainty and improve predictions up to full-size TabICLv2 models."
+  },
+  {
+    "title": "Turbulence modes in molecular clouds in M33: a challenging test of the Brunt-Federrath framework",
+    "url": "http://arxiv.org/abs/2610.13726v1",
+    "arxiv_id": "2610.13726v1",
+    "authors": [
+      "Raffaele Rani",
+      "Ayu Konishi",
+      "Kazuyuki Muraoka",
+      "Toby J. T. Moore",
+      "David J. Eden",
+      "Karan Fernandes",
+      "Yueh-Ning Lee",
+      "Shih-Ping Lai"
+    ],
+    "published": "2026-10-09T15:22:51+00:00",
+    "summary": "Understanding the turbulent structure of molecular clouds is essential for linking galactic environment to the regulation of star formation. Although Galactic molecular clouds have been studied extensively, extending turbulence-mode analysis beyond the Milky Way remains challenging because of the limited spatial resolution and dynamic range of extragalactic observations. We assess the applicability of the Brunt \\& Federrath (2014; BF14) framework to molecular clouds in M33. We apply BF14 to 128 $^{13}$CO(2-1) clouds, selecting a primary quality-controlled sample of 54 clouds and a more restrictive 25-cloud subsample defined using a stricter extraction-padding criterion (PAD=2) for quantitative analysis.Tests of cloud and noise power spectra, Fourier-space cutoffs, extraction padding, and Monte Carlo uncertainties demonstrate that the retained spatial frequencies are dominated by astrophysical signal and that the inferred turbulence-mode fractions are robust against reasonable analysis choices. Both samples yield consistent distributions of the solenoidal fraction, with mean values of $R \\simeq 0.22$ for both samples and median values of $R \\simeq 0.18$ and $0.17$, respectively, indicating that compressive motions dominate the turbulent energy budget. No strong systematic variations of $R$ are found with galactocentric distance or tracers of recent star formation. These results demonstrate that, despite the challenging spatial resolution of current extragalactic molecular-line observations, the BF14 framework can be applied reliably to nearby galaxies using spectroscopic observations alone. To our knowledge, this constitutes the first application of the full BF14 formalism to extragalactic molecular-cloud observations."
+  },
+  {
+    "title": "A machine-learning method for the estimation of the background from jets misidentified as hadronic tau lepton decays",
+    "url": "http://arxiv.org/abs/2610.13634v1",
+    "arxiv_id": "2610.13634v1",
+    "authors": [
+      " CMS Collaboration"
+    ],
+    "published": "2026-10-09T14:14:57+00:00",
+    "summary": "Backgrounds arising from quark- and gluon-initiated jets misidentified as hadronically decaying tau leptons constitute a major experimental challenge for analyses involving tau leptons. The MUltivariate Fake-Factor INference (MUFFIN) approach, a machine-learning-based method for estimating this background directly from observed events, is presented. Boosted decision tree reweighting is used to learn multidimensional, per-object correction factors directly from observed data, thereby modelling the jet to hadronic tau lepton misidentification probability across the kinematic and topological phase space without relying on low-dimensional parametrisations. Performance studies are presented using proton-proton collision data collected by the CMS experiment at the CERN LHC at $\\sqrt{s}$ = 13.6 TeV, corresponding to an integrated luminosity of 62.4 fb$^{-1}$. Compared to low-dimensional parametrisation methods, improved modelling of key kinematic observables is achieved, particularly in regions of high $p_\\mathrm{T}$. The improved modelling leads to a reduction of up to 70% in the systematic uncertainty associated with jets being misidentified as hadronically decaying tau leptons. The MUFFIN method provides a robust and scalable method for background estimation in precision measurements and searches for beyond-the-standard-model physics involving tau lepton final states."
+  },
+  {
     "title": "Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration",
     "url": "http://arxiv.org/abs/2610.12470v1",
     "arxiv_id": "2610.12470v1",
