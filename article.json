@@ -1,5 +1,131 @@
 [
   {
+    "title": "CoWear: Towards Collaborative Wearable Inertial Localization with Multiple Smart Devices",
+    "url": "http://arxiv.org/abs/2610.20596v1",
+    "arxiv_id": "2610.20596v1",
+    "authors": [
+      "Zhuoyuan She",
+      "Zhanpeng Zhang",
+      "Yapeng Chen",
+      "Jiale Wang",
+      "Xin Xie",
+      "Ming Xia"
+    ],
+    "published": "2026-10-14T17:59:19+00:00",
+    "summary": "Consumer smart devices observe the same human motion from different body locations, yet existing inertial-localization benchmarks rarely provide synchronized heterogeneous wearables with device-specific motion ground truth. We present CoWear, a dataset and reference framework for collaborative inertial localization using a smartphone, smartwatch, and smart glasses. The dataset contains over 30 participants, over 300 walking sessions, and more than 30 hours and 100 km of aggregate device trajectories, with each device individually tracked by motion capture. To enable collaboration across distinct body motions, we train role-specific estimators to predict the displacement of a common reference device over synchronized temporal windows. Their predictions are transformed to the world frame using gyroscope integration and fused according to learned uncertainty. Experiments using phone, glasses, and watch as reference targets show that multi-device fusion consistently improves both displacement and trajectory rollout accuracy over individual-device estimation. CoWear provides a dataset and reproducible baseline for studying collaborative inertial localization across heterogeneous consumer wearables."
+  },
+  {
+    "title": "Top-Quark Mass Scheme Uncertainties in Higgs Boson Pair Production via Gluon Fusion",
+    "url": "http://arxiv.org/abs/2610.20551v1",
+    "arxiv_id": "2610.20551v1",
+    "authors": [
+      "Clara Del Pio",
+      "Sebastian Ja\u015bkiewicz",
+      "Rebecca von Kuk",
+      "Robert Szafron"
+    ],
+    "published": "2026-10-14T17:42:40+00:00",
+    "summary": "We investigate theoretical uncertainties arising from the choice of the top-quark mass scheme in Higgs boson pair production via gluon fusion. First, we implement the resummation of the top-quark mass logarithms obtained for the $gg\\to HH$ amplitude at high energy and study its phenomenological impact on cross sections. Second, we formulate a threshold-aware treatment of the top-quark mass based on short-distance mass definitions, combining an MSR description near the top-pair threshold with an $\\overline{\\mathrm{MS}}$ treatment in the high-energy regime. Within the dynamical prescription, the combined mass-scheme variation of the SM inclusive NLO cross section at $\\sqrt{s}=14$ TeV is $^{+5.2\\%}_{-0.2\\%}$. This estimate provides an alternative to the conventional OS-$\\overline{\\mathrm{MS}}$ envelope."
+  },
+  {
+    "title": "A Two-Level Clinical Novelty Prioritization Framework for Disease Trajectories Discovered from Longitudinal Electronic Health Records",
+    "url": "http://arxiv.org/abs/2610.20512v1",
+    "arxiv_id": "2610.20512v1",
+    "authors": [
+      "Jin-Jia Zheng",
+      "Vincent S. Tseng"
+    ],
+    "published": "2026-10-14T17:14:29+00:00",
+    "summary": "Graph-based analysis of electronic health records (EHRs) yields disease-trajectory catalogs, but structural support does not establish semantic novelty. We present a two-level framework to prioritize 99,527 branching motifs previously discovered by an upstream patient-disjoint, train-only MIMIC-IV v3.1 pipeline and frozen after validation-based catalog selection. The framework separates path-level and node-to-endpoint semantic sparsity from reliability-adjusted clinical priority. Three deterministic textualizations per motif or node-target pair were embedded with BAAI/bge-small-en-v1.5 and calibrated against 166,972 pre-2023 PubMed references using mean top-20 cosine distance. Positive recombination occurred in 8.63% of motifs and had negligible effect on global ranking, whereas specificity and support/GNN reliability terms changed clinical-priority ordering. Robustness analyses across neighbor counts, templates, encoders, generic-label taxonomies, score settings, PrimeKG, and corrected density-based RND showed that broad ordering was more stable than hard top-k membership. A semantic-dose analysis did not support a monotonic relation between score and forecasting benefit after endpoint and token-count adjustment (1.96 days per SD; 95% CI, -0.75 to 4.68). In the frozen catalog-q90 high-semantic subgroup, branch-enhanced forecasting reduced conditional event-time MAE by 20.1 days (95% CI, 13.3-27.0) and sMAPE by 2.37 percentage points (95% CI, 1.81-2.93), while discrimination and endpoint-ranking differences were inconclusive. Corrected RND showed low tail agreement with the primary score (Spearman rho = 0.430; q90 Jaccard = 0.125) despite a similar aggregate timing association. These findings support representation-aware, uncertainty-aware literature-relative prioritization of discovered trajectories rather than causal discovery or clinician-adjudicated novelty."
+  },
+  {
+    "title": "Measurement of electromagnetic transition form factors in two-photon collisions at BESIII",
+    "url": "http://arxiv.org/abs/2610.20511v1",
+    "arxiv_id": "2610.20511v1",
+    "authors": [
+      "Max Lellmann"
+    ],
+    "published": "2026-10-14T17:13:44+00:00",
+    "summary": "The muon anomalous magnetic moment, $a_\u03bc= (g-2)_\u03bc/2$, shows a sizeable discrepancy between Standard Model (SM) predictions and direct measurements, hinting at either New Physics or limitations in modeling low-energy strong interactions. As the uncertainty in the SM predictions currently exceeds the experimental uncertainty by a substantial margin, further improvements in theoretical precision are essential to clarify the origin of this discrepancy.   The SM theoretical uncertainty is dominated by hadronic processes. The hadronic light-by-light (HLbL) scattering contribution relies on highly accurate data for hadron production via two-photon fusion. Operating at $\\sqrt{s}=3.773\\,\\text{GeV}$ with over $20\\,\\text{fb}^{-1}$ of integrated luminosity, the BESIII experiment is ideally suited to probe these processes at small momentum transfers. By precisely measuring channels like $e^+e^-\\to e^+ e^-\u03c0^0$ and $e^+e^-\\to e^+ e^-\u03c0^0\u03c0^0$, BESIII provides the critical experimental input necessary to sharpen the SM prediction and clarify the true nature of the $a_\u03bc$ anomaly."
+  },
+  {
+    "title": "Cartesian and Curvilinear Anharmonic Frequencies and Intensities: Perturb-then-Diagonalize Polyad Transport and Adiabatic Discrete-Variable Representation",
+    "url": "http://arxiv.org/abs/2610.20488v1",
+    "arxiv_id": "2610.20488v1",
+    "authors": [
+      "Vincenzo Barone"
+    ],
+    "published": "2026-10-14T17:01:19+00:00",
+    "summary": "Anharmonic intensities reveal vibrational coupling that band positions alone cannot determine. We derive explicit second-order infrared transition moments in curvilinear normal coordinates, including kinetic metric derivatives and transport through variational resonance polyads. The vibrational perturbation-to-second-order-then-diagonalization (VP2TD) treatment covers fundamentals, overtones, three-quantum transitions, and hot bands. A general computational platform combines Extended Symmetry-Adapted Local Coordinates (ESALCs), using Cartesian (ESALC-C) or internal (ESALC-I) primitives, with interchangeable quantum-chemical programs and parallel finite differences. Independent oscillator matrices verify the intensity equations; a molecular water check reproduces second-order amplitudes within $8.4\\times10^{-8}$ atomic units. Comparisons with established tools reproduce a formaldehyde Fermi polyad within 0.163 cm$^{-1}$ and 0.061 km mol$^{-1}$ and water Raman activities within $10^{-7}$ Angstrom$^6$. For 29 matched formaldehyde rotational line pairs, the predicted hot-to-fundamental intensity ratio, using the measured lower-state energy, is consistent with the nuclear-spin-corrected median: the differences are 3.9% (ESALC-I) and 3.8% (ESALC-C), compared with a 15% uncertainty estimate for individual measured line intensities. Common analytic reference derivatives ensure identical harmonic observables, while internal coordinates reduce and localize intermode anharmonic couplings. Rotation-vibration constants extend the same tensor treatment. An integrated adiabatic discrete-variable representation treats large-amplitude motions, and finite-level partition functions provide anharmonic thermochemistry."
+  },
+  {
+    "title": "Controller- and Communication-Aware Flexibility Margins for Electric Distribution Networks",
+    "url": "http://arxiv.org/abs/2610.20484v1",
+    "arxiv_id": "2610.20484v1",
+    "authors": [
+      "Saif R. Kazi",
+      "Kaarthik Sundar"
+    ],
+    "published": "2026-10-14T16:55:41+00:00",
+    "summary": "This paper develops a framework for quantifying operational flexibility in radial electric distribution systems under coupled active- and reactive-load uncertainty. Flexibility is defined as the largest scaling of a prescribed uncertainty set that can be accommodated while satisfying network and actuator limits under a given control architecture. We consider a one-sided Euclidean set for robust demand-growth capability, with a direct extension to bidirectional variations. Under LinDistFlow, controllable distributed resources and feeder-head exchange with the upstream grid jointly balance active-power disturbances, while local Volt/VAR feedback regulates reactive power. The resulting affine closed-loop disturbance response admits exact second-order-cone robust counterparts. For fixed Volt/VAR gains, a convex reformulation jointly optimizes the flexibility margin and active-power participation factors, including feeder-head participation. A sparse load-to-generator feedforward map further captures communication constraints. Numerical studies on the Iowa-240 feeder demonstrate how the amount of control authority and communication structure shape the achievable flexibility margin."
+  },
+  {
+    "title": "Improved Precipitation Variability in the Community Atmosphere Model through Implementation of a Neural-Network Deep Convection Scheme",
+    "url": "http://arxiv.org/abs/2610.20405v1",
+    "arxiv_id": "2610.20405v1",
+    "authors": [
+      "Xavier J. Levine",
+      "Griffin Mooers",
+      "Jack W. Atkinson",
+      "Marat F. Khairoutdinov",
+      "Janni Yuval",
+      "Dominic Orchard",
+      "Paul A. O'Gorman"
+    ],
+    "published": "2026-10-14T16:05:59+00:00",
+    "summary": "Conventional deep convection schemes remain a primary source of uncertainty in global climate models, yet replacing them with data-driven alternatives while maintaining physical consistency and numerical stability is an open challenge. We present a hybrid configuration of the Community Atmosphere Model version 6 (CAM6), in which a fully connected deep neural network replaces the Zhang-McFarlane deep convection scheme (ZM), while radiation, turbulence, and other cloud processes are left unchanged. The network is trained on output from a storm-resolving global model - the global System for Atmospheric Modeling (gSAM) - using a coarse-graining approach to derive subgrid-scale convective fluxes and tendencies. This data-driven parameterization is ported to CAM6 and found to run stably for more than a decade while conserving energy and moisture. It produces a broadly realistic climatology without retuning the remaining parameterizations. Relative to the default Zhang-McFarlane scheme, the neural network parameterization substantially improves some long-standing model deficiencies. In particular, the biases in light precipitation and extreme precipitation are markedly reduced, and the diurnal cycle of tropical land precipitation shifts from a spurious midday peak over many regions to the observed late-afternoon peak. These results support targeted ML-based convection schemes as a viable path toward reducing systematic model errors in next-generation climate models."
+  },
+  {
+    "title": "Look Before You Restore: Learning to Predict Before Acting for Agentic Image Restoration",
+    "url": "http://arxiv.org/abs/2610.20384v1",
+    "arxiv_id": "2610.20384v1",
+    "authors": [
+      "Xu Zhang",
+      "Jun Wan",
+      "Lefei Zhang",
+      "Liangpei Zhang"
+    ],
+    "published": "2026-10-14T15:50:31+00:00",
+    "summary": "Agents for mixed-degradation image restoration typically learn what a tool does to an image only after running it: failed calls waste computation and harmful outputs go unnoticed until too late. We propose PreActIR, an agentic restoration framework that predicts tool consequences before execution. For each candidate tool, a tool-conditioned world model forecasts changes in residual degradation, image quality, and fidelity, together with the risk of harm and the uncertainty of the prediction. The agent executes the top-ranked candidate, and an independent verifier commits or rolls back its output before the agent replans from the observed state. PreActIR also audits whether performance is limited by the selector or by the candidate space, and studies targeted tool adaptation as a controlled way to expand that space. In a controlled evaluation that fixes the candidate pool, verifier, and budget and employs reference-annotated degradation states, PreActIR uses 42.5% fewer real tool calls and 63.4% fewer rejected calls than reactive, execute-then-evaluate trial and error, while improving Y-PSNR by 0.92 dB."
+  },
+  {
+    "title": "Excited-State Effects in Nucleon Sigma Terms from a Variational Analysis",
+    "url": "http://arxiv.org/abs/2610.20362v1",
+    "arxiv_id": "2610.20362v1",
+    "authors": [
+      "Constantia Alexandrou",
+      "Giannis Koutsou",
+      "Yan Li",
+      "Srijit Paul",
+      "Ferenc Pittler"
+    ],
+    "published": "2026-10-14T15:37:26+00:00",
+    "summary": "We investigate excited-state effects in nucleon sigma-terms in lattice QCD using twisted-mass clover-improved fermion ensembles. We study correlation functions with nucleon and multihadron nucleon-$\u03c3$-meson interpolating operators. The analysis is performed using three gauge ensembles, including one ensemble simulated with two degenerate light, a strange, and a charm quark with quark masses tuned to approximately their physical value. We solve the generalized eigenvalue problem that arises from the matrix of correlators and show that the three-point function for the light sigma-term obtained using the optimal linear combination of interpolating operators has substantially reduced time dependence without loss of statistical precision. We apply Laplace filtering and investigate residual excited-state contributions in the extraction of $\u03c3_{\u03c0N}$. Using the same optimal linear combination of correlators as for $\u03c3_{\u03c0N}$ for the strange sigma-term we also observe suppressed excited state contributions over an extended range of source--sink time separations. For the charm sigma-term, we observe negligible time dependence within the large statistical uncertainties, and these improvements show no significant effect."
+  },
+  {
+    "title": "Argument Graph Uncertainty: Quantifying Uncertainty from the Logical Structure of Reasoning Chains",
+    "url": "http://arxiv.org/abs/2610.20328v1",
+    "arxiv_id": "2610.20328v1",
+    "authors": [
+      "Simon Baur",
+      "Sumire Honda",
+      "Wojciech Samek",
+      "Jackie Ma"
+    ],
+    "published": "2026-10-14T15:13:00+00:00",
+    "summary": "Reliable uncertainty estimation is essential for deploying large language models in high-stakes reasoning tasks, yet most existing approaches rely on expensive sampling strategies or shallow token-level signals that ignore the internal logical structure of model outputs. We introduce Argument Graph Uncertainty, a post-hoc framework for multiple choice question tasks, that estimates model confidence directly from the logical structure of a single chain-of-thought reasoning trace. Our method uses either a lightweight instruction-tuned model or a simple deterministic rule to segment the reasoning chain into propositional units, then applies a NLI model to infer relational edges and construct two complementary argument graphs over these segments. The resulting edge scores are aggregated into a Dirichlet posterior over answer options, whose concentration yields calibrated uncertainty estimates reflecting both local step-to-step coherence and global logical consistency across the reasoning trace. Evaluated on GPQA, MMLU-Pro and TruthfulQA, our method consistently surpasses token-based and consistency-based uncertainty baselines across multiple reasoning models. We further demonstrate through extensive combination analyses that argument graph uncertainty captures an orthogonal signal to existing approaches, making it a complementary component in uncertainty ensembles. Crucially, our framework requires no additional calls to the evaluated model and relies entirely on small, efficient auxiliary models, producing fully interpretable, per-node uncertainty attributions at low computational cost."
+  },
+  {
     "title": "Jeva: System One Models from First Principles",
     "url": "http://arxiv.org/abs/2610.18773v1",
     "arxiv_id": "2610.18773v1",
