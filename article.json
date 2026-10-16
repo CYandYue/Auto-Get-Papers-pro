@@ -1,5 +1,150 @@
 [
   {
+    "title": "$^6$He structure from semiclassical 3D models based on $\\textit{ab initio}$ spatial correlations",
+    "url": "http://arxiv.org/abs/2610.22365v1",
+    "arxiv_id": "2610.22365v1",
+    "authors": [
+      "Mengyao Huang",
+      "Tobias Frederico",
+      "Peng Yin",
+      "James P. Vary"
+    ],
+    "published": "2026-10-15T17:59:12+00:00",
+    "summary": "We construct semiclassical 3D models based on $\\textit{ab initio}$ no-core shell model calculated two-body spatial correlations, which represent the preferred spatial configuration of nucleons for the ground state of $^6$He. We demonstrate that the presence of the two valence neutrons distorts and flattens the $\u03b1$ core in $^6$He, marking a clear departure from the tetrahedral configuration of free $^4$He, and that the two valence neutrons and the center of mass of the $\u03b1$ cluster ($\u03b1$-CM) are roughly located at the three distinct vertices of an equilateral triangle. We compute the geometric parameters that commonly characterize $^6$He structure, 1) $\u03b8_{nn}$, the opening angle of the two valence neutrons with respect to $\u03b1$-CM, and 2) $r_{nn}$, the root-mean-square separation between the two valence neutrons. Refining the model with uncertainty estimation, we obtain $\u03b8_{nn}= 58.5^{+5.4}_{-6.2}$ degrees and $r_{nn}= 4.12^{+0.37}_{-0.43}$ fm, agreeing with those calculated via a phenomenologically modified continuum-discretized coupled-channels method, while an interferometry experiment obtained a marginally higher $r_{nn}$."
+  },
+  {
+    "title": "Robust Reinforcement Learning for Dynamic Treatment Regimes under Model and Measurement Uncertainty",
+    "url": "http://arxiv.org/abs/2610.22336v1",
+    "arxiv_id": "2610.22336v1",
+    "authors": [
+      "Chengze Xie",
+      "Xuan Wang",
+      "Ying Ding",
+      "Hairong Wang",
+      "Yan Li"
+    ],
+    "published": "2026-10-15T17:54:13+00:00",
+    "summary": "We develop a robust reinforcement learning (RL) framework for learning adaptive treatment policies that generalize across patients and remain reliable under errors in the measured biomarker and shifts in the disease dynamics. By modeling the patient as a hidden context, we address generalization and robustness in a unified manner through robust contextual Markov decision processes. Applying our framework to adaptive therapy for metastatic prostate cancer in a simulator calibrated to clinical data, we obtain generalizable and robust policies that substantially outperform the existing adaptive therapy method. In particular, we attain robustness with almost no loss of performance when the biomarker is accurate and the disease evolves as anticipated, and find that the resulting policy Pareto-dominates the existing method across a diverse array of scenarios. Our findings suggest that robust RL holds great promise as a principled methodology for learning reliable adaptive treatment policies."
+  },
+  {
+    "title": "ARC-SORT: Adaptive, Robust, Compensated Multi-Object Tracking with Interacting Multiple Models",
+    "url": "http://arxiv.org/abs/2610.22306v1",
+    "arxiv_id": "2610.22306v1",
+    "authors": [
+      "Girish Kumar Adari"
+    ],
+    "published": "2026-10-15T17:49:09+00:00",
+    "summary": "Multi-object tracking in sports broadcasts is hard for two reasons: athletes move fast and change direction abruptly, and the camera pans and zooms at the same time. We present ARC-SORT (Adaptive, Robust, Compensated SORT), a tracking-by-detection tracker that trains nothing and runs in real time. Its design rule: the tracker measures its own uncertainty, and that measurement decides how it acts. An Interacting Multiple Model (IMM) Kalman filter gives every track a predictive covariance, and we turn it into a per-track search region: the less reliable the motion prediction, the larger the region in which a detection may match (uncertainty-adaptive Expansion IoU, EIoU). On identical inputs, this continuous coupling is what matters: the same covariance used as a hard Mahalanobis gate hurts at every threshold we swept, and richer covariance summaries add nothing measurable. When two tracks cross, the assignment cost itself reports whether the decision was close. ARC-SORT keeps such pairs under review and applies at most one corrective identity swap once post-crossing appearance evidence shows the first decision was wrong; this adds +1.0 HOTA (higher order tracking accuracy) on both the SportsMOT and DanceTrack test sets at under a millisecond per frame. For players who leave the frame for seconds, motion extrapolation carries no information, so our offline re-identification drops the usual motion gate and links tracklets by appearance alone. ARC-SORT reaches 81.82 HOTA on the SportsMOT test set with the fewest identity switches of the 69 leaderboard entries as of August 2026 and tied-third multi-object tracking accuracy (MOTA, 97.09), and 62.1 HOTA on DanceTrack test with the same association settings. On Deep-EIoU's public detections and embeddings it reaches 80.31 HOTA, +3.1 over Deep-EIoU. It runs at about 50 frames per second on a laptop RTX 3060 GPU. Code will be released."
+  },
+  {
+    "title": "Asking Smarter Questions: Targeted Active Preference Learning for Underspecified Rewards",
+    "url": "http://arxiv.org/abs/2610.22285v1",
+    "arxiv_id": "2610.22285v1",
+    "authors": [
+      "Helena Merker",
+      "Nick Walker",
+      "Andreea Bobu"
+    ],
+    "published": "2026-10-15T17:41:46+00:00",
+    "summary": "Reward learning typically assumes the human's input covers everything that matters for the task. In practice, humans can only attend to so much at once, so their teaching naturally captures some features---or aspects of the task---better than others. Prior work has shown how the robot can identify which features were poorly supervised directly from its teaching data. But the current solution is to ask the human to try again, putting the burden on someone who already struggled to convey those features. We propose shifting this burden to the robot. Our key insight is that the same information that tells the robot what it doesn't know can help it ask better questions. Preference queries offer a low-effort channel for resolving this uncertainty, but only if the robot knows where to direct them and the human knows what to attend to when answering. We act on this insight in two ways: we build an informed prior that targets preference queries at the features that need resolving, and we accompany each query with an explanation that focuses the human's attention on exactly those features. In simulation, the informed prior beats the standard active preference learning baseline by up to $30.8\\%$ in the low-query regime, where reducing human effort matters most. In a user study, the informed prior and explanations each significantly improve reward recovery and amplify each other."
+  },
+  {
+    "title": "LEASH: Uncertainty-Aware Weak-to-Strong Escalation and Oversight for Computer-Use Agents",
+    "url": "http://arxiv.org/abs/2610.22280v1",
+    "arxiv_id": "2610.22280v1",
+    "authors": [
+      "Qingni Wang",
+      "Changdae Oh",
+      "Yuzhe Yang",
+      "Sharon Li",
+      "Jiachen Yang",
+      "Ang Li",
+      "Xin Eric Wang"
+    ],
+    "published": "2026-10-15T17:40:12+00:00",
+    "summary": "Computer-use agents increasingly tackle long-horizon tasks, where running a frontier model at every step is expensive and a small open-weight model alone often fails. Weak-to-strong escalation offers a middle ground where a weak agent acts by default and hands control to a strong one only when needed. The core challenge is deciding when to escalate, which requires an uncertainty signal cheap enough to check at every step. However, even after handoff, the strong agent can still get lost, but a black-box API that the strong agent is usually served exposes no internals to monitor. To this end, we propose LEASH, a training-free framework that unleashes the strong agent only when the weak agent's latent uncertainty signals it is needed, and keeps it on a leash afterward. LEASH has three layers: (1) initial task uncertainty for early routing, (2) step-level uncertainty for runtime escalation, and, after handoff, (3) a shadow observer for continued oversight of the strong black-box agent. Here, we use latent uncertainty as a fuel for all three layers. Specifically, we compare the weak model's hidden states with those from its past successful and failed trajectories, and a state that looks more like the failures signals higher uncertainty. During weak-agent execution, our uncertainty estimator reuses activations already produced during action generation, so it needs no extra forward pass or dedicated monitor training. Experiments on OSWorld across four contemporary model backbones show that LEASH consistently improves over standalone weak agents and outperforms random escalation by 6.55--11.94 points at matched escalation rates. With Qwen3.5-35B-A3B, LEASH achieves 73.66% task success at $0.4117 per task, matching always-on Claude Opus 5 (72.90%) while reducing inference cost by 19.2%."
+  },
+  {
+    "title": "Stability Analysis in IBR-Dominated Grids: Model-Based and Data-Driven Methodologies",
+    "url": "http://arxiv.org/abs/2610.22227v1",
+    "arxiv_id": "2610.22227v1",
+    "authors": [
+      "Federico Cecati",
+      "Yang Wu",
+      "Florian D\u00f6rfler",
+      "Marco Liserre",
+      "Xiongfei Wang",
+      "Elisabetta Tedeschi"
+    ],
+    "published": "2026-10-15T17:06:49+00:00",
+    "summary": "Stability issues in converter-dominated grids have a multifold nature, where static, small-signal and large-signal phenomena can influence each other. Capturing the interplay among these different stability aspects requires a rethinking of conventional modeling and analysis tools for power systems. As a further complication, Intellectual Property protection among manufacturers and system operators makes detailed converters and grid models unattainable. This motivates the use of data-driven approaches for stability analysis and control, nevertheless achieving an insightful representation of static, small-signal and large-signal phenomena from data still leaves many open questions. This paper discusses model-based and data-driven methodologies for stability analysis of converter-dominated grids. The instability mechanisms of static, small-signal and large-signal phenomena are conceptually explained, and the capability of different modeling and analysis tools to investigate them is examined. The effectiveness of data-driven methodologies to analyze instability phenomena in their multifold nature is debated, and the challenges on data completeness, model generalization under untrained conditions, physical interpretability, and uncertainty awareness are discussed."
+  },
+  {
+    "title": "The hadronic-vacuum-polarization contribution to the muon anomalous magnetic moment in isospin-symmetric lattice QCD with twisted-mass fermions",
+    "url": "http://arxiv.org/abs/2610.22224v1",
+    "arxiv_id": "2610.22224v1",
+    "authors": [
+      "C. Alexandrou",
+      "S. Bacchio",
+      "A. De Santis",
+      "A. Evangelista",
+      "J. Finkenrath",
+      "R. Frezzotti",
+      "G. Gagliardi",
+      "M. Garofalo",
+      "N. Kalntis",
+      "B. Kostrzewa",
+      "V. Lubicz",
+      "L. Maio",
+      "F. Margari",
+      "F. Pittler",
+      "S. Romiti",
+      "F. Sanfilippo",
+      "C. Schneider",
+      "S. Simula",
+      "N. Tantalo",
+      "C. Urbach",
+      "U. Wenger"
+    ],
+    "published": "2026-10-15T17:03:50+00:00",
+    "summary": "We present a lattice-QCD calculation of the leading-order hadronic-vacuum-polarization (HVP) contribution to the anomalous magnetic moment of the muon in isospin-symmetric QCD. We employ the gauge configurations generated by the Extended Twisted Mass Collaboration (ETMC) with $N_f = 2 + 1 + 1$ flavors of Wilson-clover twisted-mass quarks at four lattice spacings and at values of the quark-mass parameters matching the definition of isospin-symmetric QCD given in the FLAG review 2024 and in the 2025 edition of the Muon $g-2$ Theory Initiative White Paper (WP25). After retuning the simulation parameters to precisely match these two definitions of isospin-symmetric QCD, and after carrying out an extrapolation to the continuum limit based on the data at lattice spacings $a \\simeq 0.049, 0.057, 0.068$ and $0.079$~fm, and spatial lattice sizes up to $L \\simeq 7.7$~fm, we obtain $a_\u03bc^{\\rm HVP, FLAG}(\\rm{iso}) = (720.0 \\pm 6.9) \\times 10^{-10}$ and $a_\u03bc^{\\rm HVP, WP25}(\\rm{iso}) = (714.8 \\pm 7.4) \\times 10^{-10}$. Our results, which have a relative uncertainty of about $1 \\%$, agree well with the corresponding determinations by other lattice groups. After adding to our determination of $a_\u03bc^{\\rm HVP, WP25}(\\rm{iso})$ the leading isospin-breaking corrections provided in the WP25, namely $a_\u03bc^{\\rm HVP, WP25}({\\rm IB}) = 0.1(3.4)\\times 10^{-10}$, we obtain for the full HVP the value $a_\u03bc^{\\rm HVP}= (714.9 \\pm 8.1)\\times 10^{-10}$. This result translates into a Standard Model prediction for the muon anomalous magnetic moment that is fully consistent with the latest result by the Fermilab Muon $g-2$ experiment and strengthens the tension between lattice QCD and data-driven (pre-CMD3) dispersive determinations."
+  },
+  {
+    "title": "Mutual Information in High-Dimensional Neural Coding",
+    "url": "http://arxiv.org/abs/2610.22206v1",
+    "arxiv_id": "2610.22206v1",
+    "authors": [
+      "Zimo Li",
+      "Yuchang Tian",
+      "Matthew P. Leighton",
+      "Christopher W. Lynn"
+    ],
+    "published": "2026-10-15T16:55:19+00:00",
+    "summary": "Estimating mutual information in large neural populations is limited by the exponential growth of possible neural response patterns. Here we apply a Monte Carlo framework to make this problem tractable by sampling from a conditionally independent population model fit from single-neuron responses. The estimator accurately recovers analytical ground truth, corrects finite-data bias, and scales to empirical recordings containing 100 to 10,000 neurons from visual cortex, hippocampus, and retina. Across systems, stimulus uncertainty decays exponentially with population size, revealing a simple scaling law for high-dimensional neural codes."
+  },
+  {
+    "title": "Dark Matter in the Galaxy: Insights from the Dynamics of Stellar Streams",
+    "url": "http://arxiv.org/abs/2610.22202v1",
+    "arxiv_id": "2610.22202v1",
+    "authors": [
+      "Mohammad Ayaz",
+      "Priya Hasan"
+    ],
+    "published": "2026-10-15T16:52:34+00:00",
+    "summary": "Dark matter constitutes most of the matter in the Universe, yet its fundamental nature and distribution remain poorly understood. Stellar streams, formed through the tidal disruption of globular clusters and dwarf galaxies, provide powerful tracers of the Milky Way's gravitational potential and dark matter halo. In this review, we examine how stellar stream morphology and kinematics can constrain the halo's structure, shape, and substructure. We discuss key observational signatures, including stream gaps, spurs, and perturbations, and investigate five prominent streams: Sagittarius, GD-1, Palomar 5, Orphan-Chenab, and Cetus Polar. We summarize analytical, statistical, and Bayesian methods used to model stellar streams and infer dark matter properties, highlighting challenges arising from parameter degeneracies, incomplete observations, progenitor uncertainties, and time-dependent perturbations, particularly those associated with the Large Magellanic Cloud. Finally, we discuss how upcoming astrometric and photometric surveys, together with improved dynamical modelling, may strengthen constraints on the Milky Way's dark matter distribution and help distinguish between cold, warm, and self-interacting dark matter scenarios."
+  },
+  {
+    "title": "Robust Multi-Agent Pursuit with Preemptive Communication via Reachability-Based Control Barrier Functions",
+    "url": "http://arxiv.org/abs/2610.22198v1",
+    "arxiv_id": "2610.22198v1",
+    "authors": [
+      "Madison Book",
+      "Justin Bradley"
+    ],
+    "published": "2026-10-15T16:50:41+00:00",
+    "summary": "Safe multi-agent coordination typically assumes what real-world, deployed, resource-constrained robots cannot provide: continuous, perfect state sharing. Robust control strategies must be complemented with robust communication strategies to deliver resilient deployments. In this work, we propose a unified control/communication strategy that provides safe control to guarantee inter-agent safety under intermittent communication and demonstrate its effectiveness in a pursuit-evasion scenario. Each agent computes the reachable set of neighboring agents based on the last state information received, then solves for a safe control input based on control barrier functions to ensure agents avoid collision. We prove that inter-agent collision avoidance is guaranteed provided communication staleness remains bounded. As the reachable set inflates between state transmissions, each agent reasons about when to preemptively transmit its state information to neighboring agents based on novel metrics characterizing uncertainty risk and kinematic risk. We implement and simulate a variety of pursuit-evasion scenarios and show that preemptive communication reduces messages by 77.5% compared to periodic and event-triggered baselines with zero collisions."
+  },
+  {
     "title": "CoWear: Towards Collaborative Wearable Inertial Localization with Multiple Smart Devices",
     "url": "http://arxiv.org/abs/2610.20596v1",
     "arxiv_id": "2610.20596v1",
