@@ -1,5 +1,175 @@
 [
   {
+    "title": "DiscoveryRSI: Recursively Learning to Discover Valuable Hypotheses",
+    "url": "http://arxiv.org/abs/2610.23839v1",
+    "arxiv_id": "2610.23839v1",
+    "authors": [
+      "Jianyuan Zhong",
+      "Chenwei Wu",
+      "Zhaochen Yu",
+      "Xixian Jiang",
+      "Xuewei Li",
+      "Hao Xiao",
+      "Xilin Dai",
+      "Junyang Wang",
+      "Jiaru Zou",
+      "Zhiqing Cui",
+      "Boyuan Zheng",
+      "Jing Xiong",
+      "Zhen Zhang",
+      "Qiang Gao",
+      "Michael Morley",
+      "Luis Nakayama",
+      "Qiang Xu",
+      "Liyue Shen",
+      "Tao Gui",
+      "Leo Anthony Celi",
+      "James Zou",
+      "Zhenfei Yin",
+      "Yingcheng Wu",
+      "Ling Yang"
+    ],
+    "published": "2026-10-16T17:56:35+00:00",
+    "summary": "Scientific discovery requires developing worthwhile hypotheses into practical investigations, yet learning from this evolving research process remains challenging. We introduce an operational definition of valuable and testable research hypotheses: evidence-grounded claims about consequential uncertainties, coupled with feasible investigations, explicit decision criteria, and alternative explanations. Our DiscoveryRSI framework develops hypothesis trees through multi-agent evolutionary search, compiles selected investigations into executable Harbor tasks, and recursively learns through three mechanisms: hypothesis credit optimization attributes scientific assessments to documented research contributions; harness replay identifies productive strategies and recurring failures to refine research workflows; and rediscovery applies accepted improvements to new investigations, generating further experience for subsequent learning. We also introduce DFM-Bench, which provides comprehensive assessment of hypothesis quality and cumulative research progress at the levels of hypotheses, revisions, development paths and research runs. Across four life-science domains, automated evaluation shows that hypothesis quality rises from 4.86 for the base model to 5.39 after two rounds of self-improvement, with the large gains in falsifiability and data resolvability. We further validate hypothesis quality through expert review, comparing our DiscoveryRSI-27B with other research agents. Preliminary human assessments show that DiscoveryRSI-27B scores higher than GPT-6 Luna on hypothesis importance and whether claims are plausible and evidence-bounded. DiscoveryRSI-27B achieved a 6.3% rate of hypothesis correspondence with research published after the model cutoff, largely outperform GPT-6 with 2.5% and Claude Opus 5 with 2.3%, while delivering greater human-rated improvement along research paths."
+  },
+  {
+    "title": "Active Learning for Interatomic Potentials: A Review of Uncertainty-Driven Data Efficiency",
+    "url": "http://arxiv.org/abs/2610.23776v1",
+    "arxiv_id": "2610.23776v1",
+    "authors": [
+      "Ilya V. Chepkasov",
+      "Alexander V. Shapeev",
+      "Alexander G. Kvashnin"
+    ],
+    "published": "2026-10-16T17:11:07+00:00",
+    "summary": "Developing a machine learning interatomic potential (MLIP) that is accurate for the specific conditions under which it will be applied, rather than simply for the predefined configurations chosen by the model developer, is a significant challenge in atomistic simulation. Active learning (AL) addresses this challenge by closing the loop between candidate generation, data selection, reference calculation, and model updating. Here, we survey more than seventy studies, with an emphasis on work from 2020 to 2026, to understand how active learning has evolved from a niche, on-the-fly training technique for query-by-committee and Gaussian process force fields into a diverse family of data-efficient strategies. he reviewed examples include on-the-fly molecular dynamics, active data selection for fine-tuning pretrained models, kernel- and representation-based acquisition using frozen pretrained models, and reaction-aware sampling for chemical systems far from equilibrium. We explore the use of active learning in elemental and alloy mechanics, hydrogen and ion diffusion, ferroelectrics and effective Hamiltonians of functional materials, reactive and photochemical dynamics, high-entropy and compositionally disordered materials, as well as generative and autonomous material discovery pipelines. Drawing on a growing body of critical, methodologically self-aware literature, we also show that this achievement carries systematic caveats. Uncertainty estimates are not interchangeable across model architectures and are frequently the least reliable exactly where they matter most. We close by discussing the outlook for standardized, uncertainty-calibrated, and observable-targeted active-learning workflows in the foundation-model era."
+  },
+  {
+    "title": "The pressure of the gluon plasma at $\\mathcal{O}(g_s^6)$, perturbatively",
+    "url": "http://arxiv.org/abs/2610.23676v1",
+    "arxiv_id": "2610.23676v1",
+    "authors": [
+      "Mikael Chala",
+      "Luis Gil",
+      "Javier L\u00f3pez Miras"
+    ],
+    "published": "2026-10-16T16:06:23+00:00",
+    "summary": "We determine the four-loop hard-scale matching correction to the pressure of the gluon plasma at high temperature. This result completes the long-standing calculation through $\\mathcal{O}(g_s^6)$, where $g_s$ is the strong coupling. Our result agrees, within uncertainties, with the value obtained in arXiv:1204.6184 by fitting the perturbative series to continuum-extrapolated lattice data, thereby providing the first direct test of the weak-coupling expansion at this order."
+  },
+  {
+    "title": "On the possibilities and limitations of LLM-based multi-agent systems for multi-criteria decision-making in healthcare operations management",
+    "url": "http://arxiv.org/abs/2610.23673v1",
+    "arxiv_id": "2610.23673v1",
+    "authors": [
+      "Marco Boresta",
+      "Tommaso Giovannelli",
+      "Sepehr Namirad",
+      "Giulia Riccardi"
+    ],
+    "published": "2026-10-16T16:05:15+00:00",
+    "summary": "Multi-criteria models for healthcare operations need weights that express how stakeholders trade off patient waiting time, provider workload, and operating cost, but these weights are difficult to quantify. Teams of large language model (LLM) agents, each prompted to represent a stakeholder, have been used to supply them. We propose a framework for assessing the reliability of LLM-generated preferences as inputs to multi-objective optimization and quantifying how their uncertainty affects decisions. We study explicit preferences by asking agents to rate the importance of the criteria in an outpatient appointment scheduling problem, and implicit preferences by inferring trade-offs from the agents' pairwise choices between emergency department configurations. The computational experiments show that the explicit preferences respond to the clinic's operating conditions and differ across roles, but deliberation among the agents can erase these differences, whereas simple averaging preserves them. The pairwise choices used to reveal the agents' implicit preferences depend largely on which option is presented first, and we find limited evidence that a statistical model using contextual information alongside presentation order predicts the agents' choices on new comparison pairs better than a model using presentation order alone. We then formulate robust weighted-sum optimization models to account for preference uncertainty. In most cases, these models select different schedules or configurations from those obtained using average preference weights. These results indicate that LLM-generated preferences need an audit of this kind before they are used as optimization weights in healthcare decision support."
+  },
+  {
+    "title": "A Hectospec Spectroscopic Census of Kinematic Members in the Orion Nebula Cluster",
+    "url": "http://arxiv.org/abs/2610.23636v1",
+    "arxiv_id": "2610.23636v1",
+    "authors": [
+      "Jes\u00fas Hern\u00e1ndez",
+      "Ezequiel Manzo-Mart\u00ednez",
+      "Luc\u00eda Adame",
+      "Sergio S\u00e1nchez-Sanju\u00e1n",
+      "Nuria Calvet",
+      "David Fernandez",
+      "Cesar Briceno",
+      "Javier Serna",
+      "Giovanni Pinz\u00f3n",
+      "Lucia Martinez",
+      "Tom Megeath",
+      "John J. Tobin",
+      "Carlos Rom\u00e1n-Zu\u00f1iga",
+      "Karina Mauc\u00f3",
+      "Corina Zepeda",
+      "Andrea Bonilla-Barroso",
+      "Maria Gracia Batista",
+      "Javier Ballesteros-Paredes",
+      "Lori Allen",
+      "Luisa Zamudio-Ruvalcaba",
+      "Fabian Ahumada",
+      "Alejandro Alfonso",
+      "Johana Contreras",
+      "Jhordan Pe\u00f1a"
+    ],
+    "published": "2026-10-16T15:39:21+00:00",
+    "summary": "We present a comprehensive spectroscopic census of the Orion Nebula Cluster (ONC), based primarily on low-resolution optical spectroscopy obtained with MMT/Hectospec. We derive spectral types, youth indicators, and accretion diagnostics for 1513 stars located in the ONC region, enabling the identification and characterization of pre-main-sequence stars. We combine these measurements with a kinematic membership analysis based on Gaia Data Release 3 astrometry to identify and confirm cluster members. Using these combined diagnostics, we identify and characterize 780 bona fide T Tauri stars associated with the ONC. In addition, we construct a census of protoplanetary discs using infrared photometry obtained with the IRAC and MIPS instruments aboard the Spitzer Space Telescope. We further derive stellar masses, ages, and extinctions using the MassAge code, which combines photometric and spectroscopic inputs with stellar evolutionary models, and employs a Monte Carlo approach for uncertainty propagation. The resulting homogeneous catalogue of ONC members provides spectroscopic characterizations, kinematic membership constraints, disc diagnostics, and self-consistent estimates of stellar physical parameters. This dataset offers a refined view of the stellar population of the ONC and provides a robust foundation for investigating its kinematic structure, age distribution, and protoplanetary disc population."
+  },
+  {
+    "title": "Wake effects in a 100 GW North Sea offshore wind scenario: a model intercomparison under year-round weather conditions",
+    "url": "http://arxiv.org/abs/2610.23624v1",
+    "arxiv_id": "2610.23624v1",
+    "authors": [
+      "Jhon J. Qui\u00f1ones",
+      "Diego Siguenza-Alvarado",
+      "Peter Baas",
+      "Pim Van Dorp",
+      "Majid Bastankhah",
+      "Remco A. Verzijlbergh"
+    ],
+    "published": "2026-10-16T15:32:57+00:00",
+    "summary": "Large-scale offshore wind development will intensify wake interactions between wind farm clusters in the North Sea, increasing uncertainty in regional energy estimates. We assess HARMONIE-AROME mesoscale simulations, ASPIRE large-eddy simulations (LES), and three engineering wake models based on Jensen, Bastankhah Gaussian, and TurbOPark formulations for a 100.7 GW 2050 offshore wind scenario. We find that LES and mesoscale simulations accurately represent observed local free-stream wind conditions. Moreover, all engineering wake models predict higher mean wind speeds than LES in every month, with biases reaching 0.60-0.70 m/s at 10-40 km downstream. These differences also vary systematically with atmospheric regime: the Bastankhah Gaussian model remains positively biased across wind speed and stability conditions, whereas Jensen and TurbOPark shift from underprediction in unstable and near-neutral conditions to overprediction in stable conditions at 8-12 m/s. These results show that agreement in annual capacity factor can conceal substantial differences across space, time, and atmospheric regime, highlighting the importance of including sensitivity to model formulation in regional wind energy assessments."
+  },
+  {
+    "title": "Deconstructing Multi-Task Active Learning: The Paradox of Gradient Conflict and Orthogonal Decomposition",
+    "url": "http://arxiv.org/abs/2610.23623v1",
+    "arxiv_id": "2610.23623v1",
+    "authors": [
+      "Juho Jung",
+      "Seongjae Kang",
+      "Jinyoung Han"
+    ],
+    "published": "2026-10-16T15:32:37+00:00",
+    "summary": "Existing multi-task active learning (MTL-AL) methods predominantly rely on linear scalarization of heterogeneous objectives such as uncertainty, diversity, and gradient conflict. We argue that this entangled formulation is fundamentally limited, as linear combination fails to capture Pareto-optimal trade-offs under conflicting objectives. We propose a shift from combination to deconstruction and introduce a principled framework that rethinks MTL-AL along three orthogonal dimensions. First, we identify the Conflict Paradox: although the optimization literature treats gradient conflict as interference to be suppressed, penalizing conflict when ranking candidates is measurably worse than not scoring it at all. We therefore decouple the two concerns: the acquisition function does not score conflict, and the resulting interference is resolved by gradient surgery during training. Second, we introduce Orthogonal Decomposition, separating acquisition into Informativeness and Exploration. This two-stage process, informativeness filtering followed by coverage maximization, prevents \"diversity dilution\" by excluding uninformative outliers before enforcing diversity. Third, we propose Cross-Task Mutual Information (CTMI), a covariance-based statistic of cross-task dependency computed from MC-dropout task entropies. Extensive experiments on COCO, Cityscapes, and NYUv2, including comparisons against recent MTL-AL and data-selection baselines, demonstrate consistent improvements over state-of-the-art methods, highlighting that structural rethinking of acquisition yields larger gains than incremental heuristic design. Code is available at https://github.com/Juho-Jung/multitask_active_learning_official."
+  },
+  {
+    "title": "Foundation-Model-Driven 3D Scene Graphs for Mobile Manipulation",
+    "url": "http://arxiv.org/abs/2610.23622v1",
+    "arxiv_id": "2610.23622v1",
+    "authors": [
+      "Dominic Maggio",
+      "Lorenzo Shaikewitz",
+      "Aryan Naveen",
+      "Kris Hauser",
+      "Luca Carlone"
+    ],
+    "published": "2026-10-16T15:32:09+00:00",
+    "summary": "Geometric and Semantic Foundation models are becoming increasingly popular tools for generating spatial maps for robots. Recent work (e.g., FOUND-IT) has leveraged these tools to construct real-time, task-driven, and open-set 3D scene graphs from a single uncalibrated camera. However, while classical robot mapping techniques have undergone extensive system demonstrations, limited work has been done to develop both the fundamental and the systems wide advancements needed to integrate these new types of robot spatial memory into a full, useable autonomy pipeline. In this paper, we bridge this gap, and in doing so we also evaluate the effectiveness and limitations of this type of 3D memory. Towards this end, we integrate FOUND-IT into a mobile manipulator platform and demonstrate it is well-suited to support multiple objectives such as object change detection, support for multiple mapping sessions, determination of navigable paths, and directly support object grasping for the task of scene re-arrangement. Furthermore, we provide nuanced insights into the effectiveness and limitations of a monocular, foundation-model-driven 3D scene graph construction system using observations from rigorous on-robot experiments. Code is available at https://github. com/MIT-SPARK/FOUND-IT."
+  },
+  {
+    "title": "Trajectory-Triggered Sparse Collaborative Decoding",
+    "url": "http://arxiv.org/abs/2610.23613v1",
+    "arxiv_id": "2610.23613v1",
+    "authors": [
+      "Amit Ranjan Trivedi",
+      "Sruthikesh Surineni",
+      "Kyong Ho Lee",
+      "Mohit Mittal",
+      "Steven Li",
+      "Rex Hill"
+    ],
+    "published": "2026-10-16T15:24:05+00:00",
+    "summary": "Dense assistance methods such as speculative decoding repeatedly verify draft tokens with a target model, keeping target computation coupled to generation. We study sparse collaborative decoding, where a draft model generates most tokens and a target model is invoked only for short corrective segments. The key problem is deciding when to call the target. We show that local uncertainty is a weak trigger: entropy, negative log-likelihood, logit margin, top-$k$ mass, and velocity features give near-chance failure prediction, with AUC 0.50-0.53. In contrast, aggregate trajectory-shape features over the draft confidence path reach AUC 0.86 using a lightweight logistic predictor trained only from draft correctness labels. This induces a trigger-timing tradeoff: early calls have more leverage but weaker evidence, while later calls have stronger evidence but less ability to redirect the trajectory. Used online, learned sparse collaborative decoding improves over the best open-loop schedule by +5.3 to +20.0 accuracy points across five GSM8K draft-target pairs. On MATH-500, it gains 7.0-13.5 points when early prediction and target competence align, but loses when either is weak. On StrategyQA, it improves over open-loop by 5.0-8.3 points, showing transfer beyond arithmetics."
+  },
+  {
+    "title": "Bayesian Geophysical Inversion using Stein Mixture Variational Inference for Multimodal or Complex Solutions",
+    "url": "http://arxiv.org/abs/2610.23603v1",
+    "arxiv_id": "2610.23603v1",
+    "authors": [
+      "Xuebin Zhao",
+      "Andrew Curtis"
+    ],
+    "published": "2026-10-16T15:19:26+00:00",
+    "summary": "Bayesian geophysical inversion provides a probabilistic framework to estimate subsurface properties, in which uncertainties are represented by a so-called posterior probability density function (pdf). Estimating this pdf is computationally challenging when it is high dimensional or complex, particularly if it may be multimodal. We introduce Stein mixture variational inference (SMVI) for efficient Bayesian geophysical inversion with multimodal or complex posterior solutions. The method combines parametric variational inference with Stein variational gradient descent (SVGD). In SMVI, the posterior pdf is approximated by a mixture (sum) of distributions, in which component distributions are optimised jointly using the SVGD update rule. This construction combines computational efficiency with the flexibility to represent a range of plausible Earth models and allows components to be updated in parallel. Here, SMVI is first tested on two synthetic seismic inverse problems, demonstrating that SMVI can recover non-Gaussian, complex and multimodal posterior solutions accurately and efficiently. Then, we apply SMVI to real seismic data by performing Love wave tomography of the British Isles, and obtain inversion results that are consistent with previous Monte Carlo solutions. Around the East Irish Sea sedimentary basins, SMVI captures bimodal uncertainty associated with ambiguity in basin boundary locations, revealing alternative subsurface structures compatible with the observations. These results indicate that SMVI generalises various previous variational methods, and provides a practical and effective framework for quantifying complex uncertainties and supporting geological interpretation of seismic images."
+  },
+  {
     "title": "$^6$He structure from semiclassical 3D models based on $\\textit{ab initio}$ spatial correlations",
     "url": "http://arxiv.org/abs/2610.22365v1",
     "arxiv_id": "2610.22365v1",
