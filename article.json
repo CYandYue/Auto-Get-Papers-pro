@@ -1,5 +1,131 @@
 [
   {
+    "title": "Birthday Estimators Are Uniformly Optimal for Renyi Entropy",
+    "url": "http://arxiv.org/abs/2610.28581v1",
+    "arxiv_id": "2610.28581v1",
+    "authors": [
+      "Maciej Sk\u00f3rski"
+    ],
+    "published": "2026-10-20T17:37:30+00:00",
+    "summary": "Collisions are a basic probe of unknown distributions, used for testing and for counting substructures in graphs, and they underlie R\u00e9nyi entropy, a fundamental measure of uncertainty with applications in cryptography, machine learning, physics, and biology. Motivated by this, we study the natural birthday estimator.   We prove Bernstein-type concentration for it and show that it is minimax optimal, uniformly and jointly in alphabet size, order, accuracy, and confidence, with no sample splitting, clipping, or median aggregation.   This, in particular, settles the sample complexity of integer-order R\u00e9nyi entropy estimation up to absolute constants in all regimes, closing the gap between the best known upper and lower bounds.   Our concentration bound rests on a sensitivity analysis of collision count, and the matching lower bound on a sharp analysis of detecting a hidden spike in a plateau distribution."
+  },
+  {
+    "title": "Binary Discrete Diffusion: Candidate-Set Diffusion for Logic and Planning Tasks",
+    "url": "http://arxiv.org/abs/2610.28543v1",
+    "arxiv_id": "2610.28543v1",
+    "authors": [
+      "Rodrigo Casado Noguerales",
+      "Dimitri von R\u00fctte",
+      "Bernhard Sch\u00f6lkopf",
+      "Thomas Hofmann",
+      "Aran Raoufi"
+    ],
+    "published": "2026-10-20T17:11:48+00:00",
+    "summary": "Discrete diffusion models iteratively denoise a noisy sequence of categorical data such as text, enabling any-order generation with self-correction and in-filling capabilities. This makes them promising candidates for reasoning, planning, and constrained-generation tasks like coding and math. Yet masked and uniform diffusion erase a token's identity in a single corruption event, so their noisy states cannot explicitly represent partially resolved uncertainty in which several alternatives remain plausible. We close this gap with Binary Discrete Diffusion, a family of continuous-time discrete-diffusion processes whose noisy state is a set of candidate tokens per position, represented as a binary membership vector. Binary diffusion changes candidate sets through additions and removals, allowing information to be lost and recovered gradually while the diffusion state itself represents partial uncertainty. On Sudoku-Extreme, Boxoban, and graph coloring, the symmetric formulation of binary diffusion consistently outperforms strong, well-tuned masked and uniform baselines under matched architectures and controlled training, sampling, and tuning budgets, with its largest gains on the hardest instances, while remaining competitive on language modeling (Text8, TinyStories, OpenWebText). These results support candidate sets as an effective intermediate representation for iterative reasoning and show that the corruption kernel can materially change the computation learned by the reverse model."
+  },
+  {
+    "title": "Toward opportunistic coronary artery calcium assessment from dual-layer dual-energy chest radiography using deep learning: a simulation study",
+    "url": "http://arxiv.org/abs/2610.28448v1",
+    "arxiv_id": "2610.28448v1",
+    "authors": [
+      "Linxi Shi",
+      "Akyl Swaby",
+      "Kaitlin Hellier",
+      "Praveen Bharathi",
+      "Scott Hsieh",
+      "Dominik Fleischmann",
+      "Shiva Abbaszadeh",
+      "Adam S. Wang"
+    ],
+    "published": "2026-10-20T16:09:34+00:00",
+    "summary": "Background: Coronary artery calcium (CAC) predicts cardiovascular risk. Dual-energy (DE) chest radiography may enable accessible opportunistic CAC assessment by separating calcifications from overlapping bone.   Purpose: To evaluate multi-task deep learning for CAC localization and CT-referenced score prediction and assess projection, image representation, and exposure effects.   Methods: This retrospective simulation study used 550 calcium-scoring CT exams with reference CAC masks and Agatston scores. Dual-layer DE radiographs were simulated with a physics-based detector model. A modified nnU-Net jointly predicted CAC localization and scores from continuous probability maps. Comparisons included AP, 45\u00b0, and lateral views; lateral single-energy (SE), DE bone, and high-pass filtered DE bone images; and dose-matched models at 70, 50, and 24 mAs. Patient-level splitting reserved 10% for independent testing; five-fold models provided averaged inference. Metrics included Dice and AUC at CAC thresholds >0, >100, >400, and >1000, with bootstrap uncertainty and paired DeLong tests with Holm-Bonferroni correction.   Results: Lateral views achieved Dice 0.34 versus 0.23 (AP) and 0.22 (45\u00b0), with AUCs for CAC >100 of 0.86, 0.81, and 0.77, respectively; AUC differences were not significant after correction. Lateral DE bone outperformed SE (Dice: 0.33 vs. 0.19; AUC for CAC >100: 0.86 vs. 0.64), with significant AUC advantages at >100, >400, and >1000. High-pass filtering added little classification benefit. Dice decreased with exposure, while AUC differences across doses were not significant.   Conclusions: Simulation results support lateral dual-layer DE bone imaging for opportunistic CAC assessment, with significant advantages over SE. Physical and clinical validation is needed."
+  },
+  {
+    "title": "Exact Covariance Structure and Efficient Computation for L-Comoments",
+    "url": "http://arxiv.org/abs/2610.28387v1",
+    "arxiv_id": "2610.28387v1",
+    "authors": [
+      "Palakorn Seenoi",
+      "Jeong-Soo Park"
+    ],
+    "published": "2026-10-20T15:37:45+00:00",
+    "summary": "L-moments are useful summary statistics and so have been widely employed in statistical analysis. L-comoments provide a multivariate generalization of L-moments. Joint finite-sample covariance structure, which represents the sampling uncertainty, of L-comoments is less well understood than that of univariate L-moments. We thus derive exact finite-sample covariance formulas for sample L-comoments using explicit conditional U-statistic kernels. We further construct an asymptotic projection estimator and an unbiased estimator of the finite-sample covariance matrix and develop positive-definite corrections. An efficient rank-prefix algorithm evaluates the full unbiased covariance estimator in $O(n^2)$ time without enumerating disjoint subsets. Numerical experiments demonstrate substantial computational savings. The results provide a basis for first-order covariance approximations for L-comoment ratios and for subsequent multivariate L-moment estimation."
+  },
+  {
+    "title": "What I Disbelieve: Quantifying Belief With Negative Ranking Functions",
+    "url": "http://arxiv.org/abs/2610.28357v1",
+    "arxiv_id": "2610.28357v1",
+    "authors": [
+      "Hanbin Go",
+      "Britt Anderson"
+    ],
+    "published": "2026-10-20T15:21:34+00:00",
+    "summary": "A challenge in exploring the psychology of human uncertainty is its measurement and quantification. Prior work has focused almost exclusively on probability, while the formal theories developed in philosophy are rarely tested. We tested Wolfgang Spohn's ranking theory, a normative account in which belief is graded by ordinal ranks of disbelief that combine by minimization rather than addition, as a descriptive model of human belief. Across six experiments, participants assigned ranks of disbelief to propositions involving personal experience, chance devices, sequential learning, and an Ellsberg urn. Ranks were reliable and, through the theory's two-sided rank function, distinguished belief, disbelief, and suspension of judgment. Participants respected the Law of Negation, never disbelieving both a proposition and its complement, in every task except a lottery. Disjunctions did not follow the theory's Law of Disjunction. Instead of taking the minimum rank of the disjuncts, participants averaged them. In a learning task, ranks aligned more closely than did subjective probabilities with objective probabilities. In an Ellsberg Urn scenario, the paradoxical behavior seen with betting was markedly reduced by ranks. We conclude that human belief has the bipolar, negation-respecting structure that ranking theory proposes, but combines disjuncts by averaging rather than by minimization. As a clear account of human belief dynamics with metrics that can be reliably measured, Ranking Theory provides a valuable framework for investigating and contrasting probabilistic and non-probabilistic accounts of human belief."
+  },
+  {
+    "title": "Economic resources, sporting efficiency and uncertainty: a global test on the 2026 FIFA world cup",
+    "url": "http://arxiv.org/abs/2610.28344v1",
+    "arxiv_id": "2610.28344v1",
+    "authors": [
+      "Thierno Thioune",
+      "Babacar Mbaye Ndiaye"
+    ],
+    "published": "2026-10-20T15:11:28+00:00",
+    "summary": "A related paper (arXiv:2610.06967) developed a stochastic optimization framework in which football performance combines GDP/population-based potential with a latent mean-reverting efficiency process. The framework was applied to a cross-section of the 24 national teams participating in AFCON 2025. This paper applies the same methodology to the full 48-team 2026 FIFA World Cup, extending the analysis beyond Africa without modifying the underlying model. Using GDP, population, FIFA ranking data, and complete tournament outcomes, it evaluates the framework against a global sample spanning all six confederations. Two findings emerge. First, GDP and population explain only 9 percent of single-tournament performance variance, compared with 33 percent for FIFA points. This gap is consistent with the model's distinction between systematic performance and match-specific idiosyncratic shocks. Second, using the less noisy FIFA-points measure, the African pattern persists globally: Morocco, Senegal, Argentina, Croatia, Portugal, and Uruguay emerge as leading GDP-relative over-performers. Conversely, several major economies, including the United States, Germany, Japan, and South Korea, underperform their GDP-implied potential. As in the related paper, we interpret the residual as a symmetric, non-structurally identified conditional performance residual, rather than an SFA-consistent efficiency estimate. We also quantify the extent to which its cross-country variance mechanically reflects the underlying performance measure. The GDP-rank/simulated-performance-rank correlation is robust to the choice of the model's unidentified dynamic parameters across a wide grid."
+  },
+  {
+    "title": "DeclineCraft: A RAG Abstention Benchmark for Jointly Measuring Combined Retrieval and Parametric Knowledge",
+    "url": "http://arxiv.org/abs/2610.28340v1",
+    "arxiv_id": "2610.28340v1",
+    "authors": [
+      "Atharva Thakur",
+      "Abulhair Saparov",
+      "Bruno Ribeiro"
+    ],
+    "published": "2026-10-20T15:07:19+00:00",
+    "summary": "Reliable retrieval-augmented generation (RAG) requires recognizing when neither retrieved documents nor parametric knowledge supports an answer. We introduce DeclineCraft, a dynamic abstention benchmark whose unanswerable questions target Minecraft feature additions after a corpus cut-off, with audits of possible parametric exposure. Later cut-offs support evaluation of future models. Across 27 LLMs, we measure Correct Abstention Rate (CAR; how often models acknowledge insufficient knowledge on unanswerable questions), Answerable Attempt Rate and Answer Accuracy. We find that (1) single-shot retrieval significantly raises CAR in 38 of 40 configurations (model and thinking setting) versus no retrieval. (2) Iterative RAG, in which the model self-assesses its context and can request up to two further retrieval rounds, significantly lowers CAR versus single-shot RAG in 30 of 40 configurations (mean 46.4%), with little change in Answer Accuracy (68.5% to 69.3%). Adding query rewriting and reranking to hybrid (dense & sparse) retrieval lowers CAR for all 12 models tested. (3) Larger models answer more accurately (Spearman $\u03c1= +0.60$ with total parameters), but neither model size nor release date shows a significant association with CAR. (4) Without retrieval, enabling thinking on the same weights lowers CAR significantly for 8 of 13 models (by 14% points on average), and the responses shift from acknowledged uncertainty to premise denial."
+  },
+  {
+    "title": "RECAP: Representation-Based Calibration with Amortized Pooling for Frequentist Simulation-Based Inference",
+    "url": "http://arxiv.org/abs/2610.28332v1",
+    "arxiv_id": "2610.28332v1",
+    "authors": [
+      "Runshi Tang",
+      "Genevera I. Allen"
+    ],
+    "published": "2026-10-20T15:01:34+00:00",
+    "summary": "Simulation-based inference enables uncertainty quantification in broad contexts when a simulation model is available but when a test statistic's sampling distribution is not tractable. But, frequentist calibration in this setting can be costly over high-dimensional parameter spaces. In this paper, we introduce RECAP (REpresentation-based Calibration with Amortized Pooling), a general framework for frequentist simulation-based inference. RECAP exploits low-dimensional structure in how the null distribution varies with parameters and is particularly useful when the parameter dimension is high or when different parameter configurations have redundant or compensating effects. RECAP pools simulated scores according to a representation that preserves this distribution exactly or approximately, allowing distant parameter values to share calibration information. Representations may be derived from model structure or learned independently. Empirical quantiles of the pooled scores then yield tests and confidence sets, for which we establish theoretical coverage guarantees. In the simulation studies, we show that RECAP has lower coverage error than existing approaches and power close to that of the point-wise oracle, while maintaining the computational benefits of amortized calibration. An application to population genomics illustrates learned low-dimensional calibration and interpretable uncertainty quantification."
+  },
+  {
+    "title": "Reinforced Iterative Learning Control for elastic joint arms: Guaranteed cross-trajectory generalization under model uncertainties",
+    "url": "http://arxiv.org/abs/2610.28329v1",
+    "arxiv_id": "2610.28329v1",
+    "authors": [
+      "Yuri De Santis",
+      "Michele Pierallini",
+      "Franco Angelini",
+      "Manolo Garabini"
+    ],
+    "published": "2026-10-20T15:00:55+00:00",
+    "summary": "Trajectory tracking for compliant robots is challenging due to nonlinear dynamics and modeling uncertainties, often requiring learning-based methods to avoid explicit parameter identification. Iterative Learning Control (ILC) ensures theoretically high precision and preserves the passive compliance of the robot. However, traditional ILC requires a separate learning phase for each new trajectory. Conversely, Reinforcement Learning (RL) generalizes to new trajectories, but practically suffers from high sample complexity and limited tracking precision. This work proposes Reinforced Iterative Learning Control (RILC) that combines the strengths of both approaches to achieve fast adaptation and guaranteed tracking convergence across diverse trajectories. By establishing a concurrent coupling between the two controllers, RILC overcomes the high initial errors and slow adaptation of traditional ILC, enabling high-performance tracking from the very first trials. In this architecture, ILC provides high-quality samples, while RL contributes as a generalizing best-effort policy across iterations. Additionally, a theoretical proof is presented to show that the RL component preserves ILC stability and, under specific conditions, can also reduce the error bound asymptotically. The efficacy of this framework is demonstrated through simulation and experiments on an underactuated 4-degree-of-freedom serial elastic robot using different trajectories and modeling mismatches."
+  },
+  {
+    "title": "Uncertainty-Aware Distributed Radio Map Estimation in Decentralized Wireless Networks",
+    "url": "http://arxiv.org/abs/2610.28293v1",
+    "arxiv_id": "2610.28293v1",
+    "authors": [
+      "Dong Yang",
+      "Zhuoyu Yao",
+      "Yue Wang",
+      "Songyang Zhang",
+      "Yingshu Li",
+      "Zhi Tian",
+      "Zhipeng Cai"
+    ],
+    "published": "2026-10-20T14:40:50+00:00",
+    "summary": "Federated learning based radio map estimation (RME) approaches rely on frequent exchange of high-dimensional model updates and often require a central server for collaboration coordination and update aggregation. This incurs prohibitively high communication overhead, rendering them impractical for bandwidth-constrained mobile and wireless edge networks. Moreover, in practical mobile sensing scenarios, sparse and unevenly collected measurements lead to estimation uncertainty, which is critical for guiding RME and collaboration among distributed nodes. To address these challenges, this paper proposes an uncertainty-aware distributed radio map estimation (UA-D-RME) framework for decentralized networks. In UA-D-RME, each node locally infers a probabilistic model from its sparse measurements to estimate both its local radio map and the associated estimation uncertainty. Instead of exchanging raw data or model updates, neighboring nodes communicate only low-dimensional statistical information, including radio map and uncertainty measures over their overlapping monitoring areas. An uncertainty-aware statistical consensus mechanism is then developed to iteratively align probabilistic models in neighborhood by ensuring consistency on estimation confidence. Theoretical analysis establishes the convergence of the proposed consensus mechanism and characterizes the distributed generalization performance of the proposed UA-D-RME method. Experiments on urban radio map datasets verify that UA-D-RME achieves desired reconstruction accuracy comparable to the centralized RME benchmark while reducing communication costs and without exchanging raw measurements."
+  },
+  {
     "title": "CoopUQ: Robust Multi-Robot Social Navigation via Uncertainty-Aware Cooperative Forecasting",
     "url": "http://arxiv.org/abs/2610.26852v1",
     "arxiv_id": "2610.26852v1",
