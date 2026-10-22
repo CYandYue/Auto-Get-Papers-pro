@@ -1,5 +1,160 @@
 [
   {
+    "title": "Machine Learning-Enabled Wireless Power Transfer: A Task-Oriented Review of Structural Optimization, State and Parameter Estimation, and Adaptive Control",
+    "url": "http://arxiv.org/abs/2610.30101v1",
+    "arxiv_id": "2610.30101v1",
+    "authors": [
+      "Denghao Luo",
+      "Yiheng Jiang",
+      "Jiaqi Zhao",
+      "Yuan Gao",
+      "Changsong Cai",
+      "Weiyi Huang",
+      "Yun Zhang"
+    ],
+    "published": "2026-10-21T17:48:23+00:00",
+    "summary": "Wireless power transfer (WPT) systems must maintain efficient and safe energy delivery under variations in geometry, coupling, load, alignment, and operating conditions. Machine-learning methods are increasingly applied to accelerate structural design, estimate operating parameters and states, and support adaptive control and scheduling. This review develops a task-oriented framework organized around three interconnected domains: structural design and optimization, parameter and state estimation, and control and optimization. Supervised learning, reinforcement learning, and hybrid or physics-informed methods are compared in terms of data requirements, dependence on physical models, information sources, computational requirements, accuracy, online response, application scope, and optimization objectives. Supervised learning provides rapid surrogate modeling, regression, and classification when representative labeled data are available. Reinforcement learning addresses sequential control and scheduling but introduces challenges in reward design, safe exploration, and simulation-to-reality transfer. Hybrid methods integrate physical knowledge with data-driven models to improve data efficiency and physical consistency. The principal barriers to engineering deployment include limited and biased datasets, weak out-of-distribution generalization, insufficient physical consistency, unsafe online adaptation, embedded-resource constraints, and the absence of standardized benchmarks. Future research should prioritize uncertainty-aware and physics-informed learning, safe simulation-to-reality transfer, lightweight edge deployment, distributed coordination, reproducible evaluation, and digital-twin-assisted development."
+  },
+  {
+    "title": "When Standardization Spreads Factor Variation Across the Spectrum",
+    "url": "http://arxiv.org/abs/2610.30082v1",
+    "arxiv_id": "2610.30082v1",
+    "authors": [
+      "Tanyang Zhou",
+      "Yanqing Yin"
+    ],
+    "published": "2026-10-21T17:32:01+00:00",
+    "summary": "Standardizing variables by their sample standard deviations is routine in multivariate analysis and removes marginal scale differences before dependence is assessed. The resulting correlation matrix captures both dominant common components and dependence beyond them. A central inferential difficulty arises because the same random sample variances normalize the entire spectrum. In spiked covariance models, the sampling errors of leading and residual eigenvalues can become asymptotically independent. Sample standardization fundamentally changes this behavior and can preserve their dependence, allowing strong factors to remain a major source of uncertainty even after the leading eigenvalues are excluded. To obtain valid inference for both residual and full spectrum statistics, we establish their joint sampling law for sample correlation matrices with diverging spikes. The theory reveals exact trace compensation and statistic dependent transitions between asymptotic independence and dependence as the spikes grow. It leads to tests of an identity correlation matrix under strong factors and a feasible two sample comparison of residual spectral concentration. A sex balanced HapMap analysis illustrates the substantial effect of factor variation on residual spectrum inference."
+  },
+  {
+    "title": "International atomic clock comparison achieving $5\\times 10^{-18}$ uncertainty",
+    "url": "http://arxiv.org/abs/2610.29980v1",
+    "arxiv_id": "2610.29980v1",
+    "authors": [
+      "A. Tofful",
+      "M. Filzinger",
+      "T. Schmidt",
+      "A. Amy-Klein",
+      "E. Benkler",
+      "E. Cantin",
+      "C. Chardonnet",
+      "E. A. Curtis",
+      "H. Denker",
+      "B. Dutta",
+      "J. -O. Gaudron",
+      "W. Huang",
+      "J. Kronj\u00e4ger",
+      "A. Kuhl",
+      "R. Le Targat",
+      "B. Lipphardt",
+      "O. Lopez",
+      "S. Mukherjee",
+      "A. L. Parke",
+      "B. Pointard",
+      "P. -E. Pottie",
+      "P. J. Regan",
+      "M. Risaro",
+      "M. Schioppo",
+      "M. Steinel",
+      "J. Tunesi",
+      "X. Zhang",
+      "R. M. Godun",
+      "N. Huntemann"
+    ],
+    "published": "2026-10-21T16:26:08+00:00",
+    "summary": "Two single-ion optical clocks, located in the United Kingdom and in Germany, are compared remotely via a 2220\\,km long optical fiber link. Both clocks are based on the ${}^2S_{1/2} (F=0)\\leftrightarrow {}^2F_{7/2} (F=3)$ electric octupole (E3) transition in $^{171}\\text{Yb}^+$. Using more than $10^6$ seconds of measurement data, we determine a fractional frequency difference of $1.0(4.8)\\times 10^{-18}$, demonstrating agreement of the independently developed systems. To our knowledge, this constitutes the first international clock comparison reaching a fractional uncertainty below $5\\times 10^{-18}$, an important milestone towards an anticipated optical redefinition of the SI second. The measurement uncertainty is dominated by that of the relativistic redshift correction between the two sites, which includes time-varying gravity potential differences. We exploit the large baseline between the two clocks to search for violations of Lorentz invariance. In the absence of statistically significant modulations, we improve constraints on the Robertson-Mansouri-Sexl parameter $\u03b1$ by approximately a factor of five in the uncertainty, and provide limits on corresponding parameters within the Standard-Model Extension framework."
+  },
+  {
+    "title": "NTL amplification in a SuperCDMS-style detector fabricated from a University of South Dakota-grown germanium crystal",
+    "url": "http://arxiv.org/abs/2610.29973v1",
+    "arxiv_id": "2610.29973v1",
+    "authors": [
+      "Dongming Mei",
+      "Gerardo Gonzalez",
+      "William Baker",
+      "Mark Platt",
+      "Nader Mirabolfathi"
+    ],
+    "published": "2026-10-21T16:23:33+00:00",
+    "summary": "Neganov-Trofimov-Luke (NTL) amplification enables eV-sub-keV detection thresholds for low-mass dark-matter and coherent elastic neutrino-nucleus scattering experiments. We evaluated two University of South Dakota (USD)-grown germanium crystals fabricated as SuperCDMS-style four-channel athermal-phonon detectors and operated near 10 mK. The crystals had electrically active impurity concentrations near $10^10~\\mathrm^-3$ and etch-pit densities of $300$-$7000~\\mathrm^-2$. Contact-free biasing produced no resolvable amplification. However, after depositing a 600 nm aluminum bias contact, Detector~2 exhibited clear voltage-dependent NTL gain. The reconstructed channel-B energy increased from approximately 3.9 keV at 0 V to 34.9 keV at 40 V, corresponding to an 8.9-fold enhancement. Statistical centroid uncertainties were below 0.3%, while low-bias fits yielded effective prompt- and NTL-phonon response coefficients of $(6.77\\pm0.82)%$ and $(4.77\\pm0.20)%$, respectively, excluding systematic uncertainties. These results demonstrate the feasibility of USD-grown germanium for SuperCDMS-style high-voltage phonon detectors and highlight the importance of both crystal quality and contact fabrication in achieving NTL amplification."
+  },
+  {
+    "title": "Constraining Dynamical Dark Energy with Tomographic Galaxy and CMB Weak Lensing Through Higher-Order Statistics",
+    "url": "http://arxiv.org/abs/2610.29937v1",
+    "arxiv_id": "2610.29937v1",
+    "authors": [
+      "Shu-Fan Chen",
+      "J. Colin Hill",
+      "Zolt\u00e1n Haiman"
+    ],
+    "published": "2026-10-21T16:08:47+00:00",
+    "summary": "Tomographic weak gravitational lensing probes cosmic structure growth and geometry, making it a powerful probe of dynamical dark energy. We forecast information beyond the lensing power spectrum from non-Gaussian statistics of tomographic galaxy and CMB lensing convergence maps. Using the $\\texttt{DDELenS}$ suite of ray-traced $N$-body simulations, we build Gaussian process emulators for power spectra, Minkowski functionals, moments, peak and minima counts, and the wavelet scattering transform, varying $\u03a9_m$, $\u03c3_8$, $w_0$, and $w_a$. We consider Rubin-like galaxy lensing and Simons Observatory-like CMB lensing over $15{,}000\\,\\mathrm{deg}^2$, and validate the analysis using a withheld fiducial cosmology, analytical power-spectrum forecasts, and Gaussian random-field null tests. As an initial step, we neglect baryonic effects and intrinsic alignments and approximate galaxy sources as discrete redshift planes. Using all source redshifts at $z_s=\\{0.5, 1, 1.5, 2, 2.5, 1100\\}$, combining all five non-Gaussian statistics reduces uncertainties on $w_0$ and $w_a$ by $24.3\\%$ and $28.0\\%$, and on $\u03a9_m$ and $\u03c3_8$ by $41.9\\%$ and $45.8\\%$, relative to the power-spectrum-only baseline. The resulting $w_0$ and $w_a$ uncertainties are $34.7\\%$ and $48.7\\%$ smaller than current DESI+DES constraints. If the DESI+DES best-fit values remain unchanged, this precision would increase the significance of the departure from $\u039b$CDM from $3.0\u03c3$ to $5.2\u03c3$, compared with $3.8\u03c3$ from the power spectrum alone, assuming a Gaussian posterior and unchanged $w_0$--$w_a$ correlation. Minkowski functionals and moments provide comparable constraining power, while combining them with the other summaries gives the strongest constraints. Broad galaxy-lensing redshift coverage is particularly important for dynamical dark energy, while CMB lensing provides complementary information."
+  },
+  {
+    "title": "ToM2Vec: Continuous Theory-of-Mind Tokens for Multi-Agent Coordination",
+    "url": "http://arxiv.org/abs/2610.29934v1",
+    "arxiv_id": "2610.29934v1",
+    "authors": [
+      "Nithin Sivakumaran",
+      "Ali Payani",
+      "Hyunji Lee",
+      "Mohit Bansal",
+      "Elias Stengel-Eskin"
+    ],
+    "published": "2026-10-21T16:05:54+00:00",
+    "summary": "Forming an accurate theory-of-mind (ToM) is key to successful multi-agent collaboration and requires reasoning under uncertainty to capture multiple possible partner states. This is hard to do in the text representation space native to large language model (LLM) agents, which more easily describe a single partner state. To address this challenge, we introduce ToM2Vec, which learns to form abstract theories-of-mind in a rich latent space via a fixed budget of continuous reasoning tokens. During training, supervision for these tokens comes from the partner's actual thoughts, which the ToM tokens are trained to abstract and match. At test-time, ToM tokens are generated by each agent and act as conditioners for that agent's thoughts and actions. Across several environments covering collaborative, competitive, and mixed-motive settings (Overcooked-AI, multiparty negotiation, Decrypto, Hanabi, and Collab Escape/Capture), we evaluate ToM2Vec's ability to support multi-agent interactions and collaboration, finding consistent improvements over the base model and a variety of competitive trained and prompted baselines. We show that latent reasoning is critical, with performance dropping when reasoning is expressed in text. Moreover, we show that ToM2Vec training generalizes to partner model families not seen at train-time, including a proprietary model (GPT-5.4). In our analysis, we provide evidence that the latent tokens encode a ToM, rather than task-specific information: ToM2Vec's tokens improve the agent's ability to directly answer questions about partner beliefs, desires, and next actions."
+  },
+  {
+    "title": "Worst-Case Finite-Horizon Analysis of Perturbed LQR via Performance Estimation Problem",
+    "url": "http://arxiv.org/abs/2610.29910v1",
+    "arxiv_id": "2610.29910v1",
+    "authors": [
+      "Anthony Couthures",
+      "Gianluca Bianchin",
+      "Julien M. Hendrickx"
+    ],
+    "published": "2026-10-21T15:49:58+00:00",
+    "summary": "We propose an exact formulation to quantify the finite-horizon robustness of a Linear Quadratic Regulator (LQR) subject to norm-bounded Linear Time-Invariant (LTI) parametric uncertainties, using the Performance Estimation Problem (PEP) framework. Originally developed for optimization, this method allows us to reformulate the worst-case performance search as a rank-constrained Semidefinite Program (SDP). By applying operator interpolation, this formulation retains the sequence variables, allowing the worst-case to be explicitly reconstructed when a rank-one solution is found. This approach also opens new possibilities for the finite-horizon certification of broader system classes, such as data-driven models or nonlinear components. Using this framework, we observe that finite-horizon LTI perturbations do not simply follow asymptotic strategies. Instead, they align slowly decaying invariant manifolds with specific initial conditions to drive transient growth, causing a bifurcation in the worst-case behavior as the horizon length changes. Finally, we show numerically that our performance bounds sit between the upper bounds of Integral Quadratic Constraint (IQC) relaxations and a lower bound derived from a pseudospectral heuristic."
+  },
+  {
+    "title": "Tractable Inference with Kolmogorov-Arnold Networks",
+    "url": "http://arxiv.org/abs/2610.29909v1",
+    "arxiv_id": "2610.29909v1",
+    "authors": [
+      "Juan Diego Toscano",
+      "Sascha Ranft",
+      "Zhiwei Gao",
+      "Li-Lian Wang",
+      "George Em Karniadakis"
+    ],
+    "published": "2026-10-21T15:49:10+00:00",
+    "summary": "Machine-learning surrogates in computational science often require not only accurate predictions but also expectations, variances, conserved integrals, and normalization constants. Conventional neural networks, including Kolmogorov--Arnold networks (KANs), generally evaluate these quantities through Monte Carlo sampling or multidimensional quadrature, making repeated inference costly, particularly in high dimensions. We introduce KANs with Tractable Operators for Uncertainty and Constraints (TOUCKANs), whose finite-degree polynomial outer functions yield a decomposable sum--product representation. Under factorizing input measures, expectations and higher moments then reduce algebraically to deterministic recursions over one-dimensional leaf integrals. Independent and shared inner-block variants form a parameter-efficiency hierarchy, and a universal-approximation proof for its most restricted member extends to the complete class. The same deterministic operators allow conserved integrals and normalization to be imposed throughout training. Across uniform and Gaussian benchmarks through 50 dimensions, deterministic mean and variance errors remained below the median fixed-budget Monte Carlo errors in every case. TOUCKANs also conserved Cahn--Hilliard mass to machine precision and imposed normalization and orthogonality through deterministic moments, enabling joint computation of the lowest four Schr\u00f6dinger eigenpairs in two, three, and five dimensions. TOUCKANs therefore connect KAN approximation with tractable probabilistic circuits, making statistical operators and integral constraints directly available within an expressive neural surrogate."
+  },
+  {
+    "title": "Pilot Decontamination via Data-aided Channel Tracking in Cell-free Massive MIMO",
+    "url": "http://arxiv.org/abs/2610.29883v1",
+    "arxiv_id": "2610.29883v1",
+    "authors": [
+      "Varad Deshpande",
+      "Ribhu Chopra",
+      "Kumar Appaiah"
+    ],
+    "published": "2026-10-21T15:29:22+00:00",
+    "summary": "As cell-free massive MIMO emerges as a promising technology for future wireless networks, robust channel estimation becomes increasingly important. Channel estimation relies on pilot transmissions, and with increasing number of users, pilot reuse inevitably introduces contamination that degrades channel estimation and symbol detection. This limitation is compounded by rapidly evolving channels, which render the estimates obsolete over time. To address both the problems, viz. pilot contamination and channel aging without additional pilot overhead, we propose a Kalman filter-based data-aided channel tracking strategy. By leveraging the symbol estimates as virtual pilots, the proposed approach successively refines the channel estimates over time. Unlike the conventional Kalman filter model, here, the observation model depends on symbol estimates, introducing symbol uncertainty that gets coupled with channel uncertainty. This requires a careful calculation of the innovation covariance matrices. Additionally, we discuss a stochastic-gradient-descent based tracking approach with low computational complexity. Extensive simulations are used to demonstrate that successive refinement progressively decontaminates the channel estimate, achieving lower channel estimation error and improved spectral efficiency."
+  },
+  {
+    "title": "Stochastic Nonlinearities Improve Uncertainty Estimation",
+    "url": "http://arxiv.org/abs/2610.29875v1",
+    "arxiv_id": "2610.29875v1",
+    "authors": [
+      "Mohammad Sarhangzadeh",
+      "Amirreza M. Shebly",
+      "Doruk Oner"
+    ],
+    "published": "2026-10-21T15:26:12+00:00",
+    "summary": "Reliable uncertainty estimation is important across visual recognition tasks, providing information about the confidence and reliability of model predictions. Many uncertainty estimation methods obtain predictive diversity through mechanisms that can suppress intermediate features, perturb the input, or require substantial additional computation. Stochastic activation functions, where network units randomly select between multiple nonlinearities during a forward pass, have previously been used to improve optimization behavior, mitigate limitations of fixed ReLU activations, and increase output diversity. In this work, we reframe stochastic activation switching as a lightweight mechanism for uncertainty estimation. The proposed method samples between nonlinear activation functions, inducing predictive diversity while keeping intermediate feature pathways active. This enables uncertainty estimation from a single trained model without the training cost of ensembles, task-specific uncertainty heads, or architectural redesign. We evaluate the proposed approach across classification, semantic segmentation, and out-of-distribution detection using convolutional and transformer-based architectures on diverse datasets. Across these settings, stochastic activation switching improves uncertainty quality while preserving competitive primary-task performance, showing that stochastic nonlinearities provide an effective and information-preserving source of predictive variation for visual recognition."
+  },
+  {
     "title": "Birthday Estimators Are Uniformly Optimal for Renyi Entropy",
     "url": "http://arxiv.org/abs/2610.28581v1",
     "arxiv_id": "2610.28581v1",
