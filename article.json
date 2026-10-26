@@ -1,5 +1,156 @@
 [
   {
+    "title": "Optimal collective investment under regulatory uncertainty",
+    "url": "http://arxiv.org/abs/2610.32959v1",
+    "arxiv_id": "2610.32959v1",
+    "authors": [
+      "An Chen",
+      "Christian Laudag\u00e9",
+      "Shihao Zhu"
+    ],
+    "published": "2026-10-23T17:50:55+00:00",
+    "summary": "We study optimal collective investment subject to a Value-at-Risk (VaR)-type constraint that accounts for uncertainty about future regulatory requirements. The constraint incorporates several possible wealth thresholds and imposes a minimum weighted average probability of meeting them. We characterize the optimal terminal wealth, which combines regions of constant wealth at regulatory thresholds with Merton-type investment regions. Unlike a classical VaR constraint with only one threshold, our formulation generates protection against several thresholds. For two possible thresholds, we identify when both are protected and when protection concentrates on the larger one. Numerical results show that the regulatory constraint can substantially reshape the optimal payoff and generate large welfare losses relative to unconstrained investment when the required compliance probability is high, even the smaller wealth threshold is high, or initial capital is limited. In heterogeneous investor pools, welfare losses depend strongly on the composition of the risk aversions and the Pareto weights governing risk sharing. Losses are particularly pronounced when highly risk-averse investors dominate the pool. Moreover, investors with smaller capital contributions can bear disproportionately large shares of the total welfare loss, while larger contributors may bear less than their capital-proportional share. Thus, regulatory uncertainty not only reduces aggregate welfare but can also create substantial disparities in how its costs are distributed among investors."
+  },
+  {
+    "title": "The renormalization of the shell-model neutrinoless double-beta decay operator starting from effective field theory at next-to-next-to-leading order",
+    "url": "http://arxiv.org/abs/2610.32947v1",
+    "arxiv_id": "2610.32947v1",
+    "authors": [
+      "S. L. Lyu",
+      "U. Carusone",
+      "G. De Gregorio",
+      "N. Itaco",
+      "L. Coraggio"
+    ],
+    "published": "2026-10-23T17:40:04+00:00",
+    "summary": "This paper is the continuation of a previous study, where shell-model calculations of the matrix elements for the neutrinoless double-beta decay were performed within a fully-consistent framework, starting from expressions of the nuclear Hamiltonian and decay operators which have been derived through chiral perturbation theory. The decays under our investigation are those involving 48Ca, 76Ge, and 82Se, as in our earlier analyses of electroweak nuclear decays with Hamiltonians and operators derived within effective field theory. In this work we focus on perturbative properties of the chiral expansion of the decay operator, namely in assessing the weight of terms beyond the leading order on the nuclear matrix elements of medium-mass candidates. To this end, we have constructed effective shell-model decay operators starting from two-body currents up to next-to-next-to-leading order and, for the first time, we introduce for nuclei of experimental interest contributions of the three-body current operators, which emerge at next-to-next-to-next-to-leading order of the chiral perturbation theory. Our investigation is aimed to evaluate the theoretical uncertainties affecting the calculated nuclear matrix elements of the neutrinoless double-beta decay, by conjugating the estimate of the inaccuracy related to the finiteness of the degrees of freedom of the nuclear model and the truncation of the chiral expansion of the decay operator."
+  },
+  {
+    "title": "Complete Multi-Band Structural Characterization for 10 Million Galaxies in the Hyper Suprime-Cam Wide Survey using Deep Learning",
+    "url": "http://arxiv.org/abs/2610.32913v1",
+    "arxiv_id": "2610.32913v1",
+    "authors": [
+      "Milind Sarkar",
+      "Aritra Ghosh",
+      "Andrew Connolly",
+      "C. Megan Urry",
+      "Andrew Coli",
+      "Joshua S. Speagle",
+      "Rhythm Shimakawa",
+      "Charles Willard",
+      "Diego Lockyer"
+    ],
+    "published": "2026-10-23T17:17:09+00:00",
+    "summary": "Galaxy structure is wavelength-dependent, as different photometric bands trace distinct stellar populations and structural components. We present per-galaxy Bayesian posterior distributions of the bulge-to-total light ratio ($L_B/L_T$), effective radius ($R_e$), and flux ($F$) in the $g$, $r$, and $i$ bands for nearly $10$ million galaxies across $\\sim$1400\\,deg$^2$ of the Hyper Suprime-Cam Subaru Strategic Program (HSC-SSP) Wide survey at $z \\leq 0.75$ and $m < 23$. To our knowledge, this is the largest multi-band catalog of bulge--disk structural parameters with per-galaxy posteriors. $\\sim$3.9 million of the above galaxies have full multi-band coverage. Measurements are generated using the Galaxy Morphology Posterior Estimation Network (\\gampen{}), a Bayesian deep-learning framework. We demonstrate that we can adapt \\gampen{} from previously-trained single-band models to the new bands by using transfer learning on only $\\sim$0.5\\% of our dataset. Despite this extremely small training set, \\gampen{} successfully reproduces light-profile fitting measurements and its output posteriors are extremely well-calibrated with $\\lesssim6\\%$ mean deviation. This approach offers a scalable pathway to structural parameter measurements with robust uncertainties for Rubin, Euclid, and Roman data, which we will pursue in forthcoming work. While structural measurements remain robust across most bands and redshift ranges, performance degrades significantly for the $g$-band at $z \\gtrsim 0.5$, where it increasingly probes rest-frame ultraviolet emission; these measurements are therefore excluded from the public release. This public catalog will enable large-scale statistical studies of morphological color gradients, wavelength-dependent galaxy structure, and galaxy evolution."
+  },
+  {
+    "title": "The ALMA Survey of Gas Evolution of PROtoplanetary disks (AGE-PRO): Evolution of dust properties from multi-wavelength observations",
+    "url": "http://arxiv.org/abs/2610.32906v1",
+    "arxiv_id": "2610.32906v1",
+    "authors": [
+      "Camila Pulgar\u00e9s",
+      "Laura M. P\u00e9rez",
+      "Carolina Agurto-Gangas",
+      "Lilian Luo",
+      "Paola Pinilla",
+      "Anibal Sierra",
+      "Miguel Vioque",
+      "Nicol\u00e1s Kurtovic",
+      "Rossella Anania",
+      "John Carpenter",
+      "Lucas Cieza",
+      "Dingshan Deng",
+      "Camilo Gonz\u00e1lez-Ruilova",
+      "Michiel R. Hogerheijde",
+      "James Miley",
+      "Ke Zhang"
+    ],
+    "published": "2026-10-23T17:09:11+00:00",
+    "summary": "Understanding the evolution of solids in protoplanetary discs is important to comprehend the formation of giant planets cores and terrestrial planets. The ALMA Large Program AGE-PRO studied key disc properties in a survey of 30 protoplanetary discs across three evolutionary stages: the embedded phase (0.5-1 Myr), the middle-age phase (1-3 Myr), and the end of the disc lifetime (2-6 Myr). Preliminary dust properties were estimated using 1.3 mm observations, but a multi-wavelength analysis provides a better constraint of important properties such as the dust disc mass, the dust temperature, and the maximum grain size. We present new ALMA 3.1 mm and 1.5 mm (Bands 3 and 5) continuum observations of the complete survey of 30 AGE-PRO discs. We fitted the observed visibilities and derived radial brightness profiles, spatially resolving 20 discs from the AGE-PRO sample at the two studied wavelengths. A multi-wavelength modelling was performed including also the radial profiles from the 1.3 mm observations. Our results replicate trends obtained from the single wavelength analysis: the dust disc size seems to be constant over age and the dust disc mass decreases with time, with a factor $\\sim$10-40 uncertainty from opacity assumptions. This result implies much lower gas-to-dust mass ratios for the discs in our sample than previously reported. In addition, the derived spectral indices are consistent with optically thick emission in a large fraction of the AGE-PRO discs, in particular for the Ophiuchus and Lupus discs."
+  },
+  {
+    "title": "When Human Corrections Travel: Safety in Federated VLA Adaptation",
+    "url": "http://arxiv.org/abs/2610.32888v1",
+    "arxiv_id": "2610.32888v1",
+    "authors": [
+      "Vigneshwaran Subbaraju",
+      "Obaidullah Zaland",
+      "Monowar Bhuyan"
+    ],
+    "published": "2026-10-23T16:56:03+00:00",
+    "summary": "Vision-language-action (VLA) policies can adapt to local human intervention, while federated learning can combine distributed robot experience without pooling raw records. We examine their prospective intersection: sharing adaptations derived from diverse human corrections across tasks, environments, people, and robot embodiments. Corrections differ in modality, safety semantics(urgency, behavioral scope, etc.), and privacy sensitivity. A shared update that improves mean task success may suppress a rare safety intervention or produce an unsafe response on another robot. We argue for three requirements: preserve the context and uncertainty of multimodal corrections when deciding what to share; assess candidate updates in each receiving robot's closed loop before deployment; and evaluate leakage alongside retention of safety-critical evidence. Immediate, legible defensive behavior remains necessary during human interaction. We offer counterexamples and a falsifiable evaluation agenda, not experimental results."
+  },
+  {
+    "title": "A Foundation Model for Policy In-Context Longitudinal Causal Effect Estimation",
+    "url": "http://arxiv.org/abs/2610.32863v1",
+    "arxiv_id": "2610.32863v1",
+    "authors": [
+      "Wenxin Chen",
+      "Kyra Gan",
+      "Mingyu Lu",
+      "Zilin Jing",
+      "Fei Wang",
+      "Hoifung Poon",
+      "Tristan Naumann",
+      "Peniel Argaw"
+    ],
+    "published": "2026-10-23T16:34:49+00:00",
+    "summary": "Longitudinal causal effect estimation is complicated by time-varying confounding and treatment-confounder feedback loops. Existing methods generally require data-specific nuisance-model fitting, and many are tailored to prespecified treatment sequences or prediction horizons, leading to time-consuming computation at deployment. We introduce *Policy In-Context Longitudinal causal Effect estimation with Prior-data Fitted Networks* (**PICLE-PFN**), the first foundation model for longitudinal causal effect estimation that supports *dynamic* treatment policies. PICLE-PFN represents target policies through in-context history-decision demonstrations, providing a unified interface for a broad class of treatment policies. Pretrained over synthetic data sampled from longitudinal structural causal models, PICLE-PFN amortizes causal effect estimation across datasets, policies, and horizons. Given a new observational dataset and target policy, it directly predicts conditional average potential outcomes (CAPOs) in one forward pass without task-specific training or hyperparameter tuning. Across synthetic and semi-synthetic longitudinal benchmarks, PICLE-PFN achieves competitive RMSE and substantially improved uncertainty calibration with a fraction of deployment runtime, compared to state-of-the-art conventional estimators trained and tuned separately for each dataset."
+  },
+  {
+    "title": "The Galactic Center Gamma-Ray Excess and the Look-Elsewhere Effect",
+    "url": "http://arxiv.org/abs/2610.32845v1",
+    "arxiv_id": "2610.32845v1",
+    "authors": [
+      "Isabel S. Sands",
+      "Philip F. Hopkins"
+    ],
+    "published": "2026-10-23T16:19:38+00:00",
+    "summary": "The origin of the excess of GeV gamma-rays in the Milky Way's galactic center observed by Fermi-LAT has been an open question for nearly two decades. The two leading interpretations of this signal are that it is produced either by annihilating dark matter (DM), or arises from unresolved point sources, such as a novel population of millisecond pulsars. In both scenarios, uncertainties and limitations in the modeling of galactic diffuse gamma-ray emission, such as the steady-state approximation of cosmic ray (CR) propagation and assumption of an axisymmetric distribution of CRs, complicate the interpretation of the galactic center excess (GCE). Simulations with full magnetohydrodynamics (MHD) and CR transport can provide a new avenue for understanding the astrophysical phenomena that drive galactic diffuse gamma-ray emission. We utilize MHD simulations of Milky Way analogs with time-dependent, spectrally-resolved CR transport to reconstruct diffuse gamma-ray emission. Comparing instantaneous emission to a time-averaged baseline, we find residuals up to several times larger than the Fermi GCE, with a wide range of spectral shapes and spatial morphologies. At some simulation snapshots, the spectrum and morphology of the residuals resemble the Fermi GCE. Our results suggest that the Fermi GCE may be a manifestation of the look-elsewhere effect- a transient fluctuation in diffuse emission from stellar sources, observed at an inopportune moment- and motivate the development of new Fermi-LAT analysis templates that account for time-dependent CR transport."
+  },
+  {
+    "title": "Tensor Networks for Materials Simulation and Quantum Chemistry",
+    "url": "http://arxiv.org/abs/2610.32754v1",
+    "arxiv_id": "2610.32754v1",
+    "authors": [
+      "Saeed S. Jahromi",
+      "Augustine Kshetrimayum",
+      "Roman Rausch",
+      "Sukhbinder Singh",
+      "Roman Orus"
+    ],
+    "published": "2026-10-23T15:00:06+00:00",
+    "summary": "Predicting the properties of correlated materials and molecules often requires a many-body description that goes beyond single-particle and mean-field approximations. Tensor networks address this challenge by exploiting the entanglement structure of quantum states to construct compact, systematically improvable representations. Although developed largely for idealized model Hamiltonians, these methods are increasingly being integrated into material-specific calculations. This Perspective introduces their underlying principles and examines how network geometry, bond-dimension truncation, and approximate contraction determine the accuracy and computational reach of these approaches. We survey applications across regimes of increasing complexity, ranging from ground-state properties of quantum magnets and itinerant-fermion systems to excitation spectra, nonequilibrium dynamics, finite-temperature and open systems, and molecular electronic structure. We then examine four routes connecting these methods to real materials, including experimentally constrained models, downfolded Hamiltonians, dynamical mean-field theory with tensor network impurity solvers, and quantum embedding. Throughout, we evaluate the maturity of existing capabilities and their principal limitations, synthesizing this assessment into a practical method-selection guide. We argue that reliable materials predictions require quantifying uncertainties introduced at each stage, from constructing material-specific Hamiltonians to extracting experimentally accessible observables. Finally, we identify the algorithmic advances and reproducible computational practices needed to establish tensor networks as a routine tool for predictive materials science and quantum chemistry."
+  },
+  {
+    "title": "Sparse Bayesian Neural Networks via Sticky Piecewise Deterministic Markov Processes",
+    "url": "http://arxiv.org/abs/2610.32753v1",
+    "arxiv_id": "2610.32753v1",
+    "authors": [
+      "August Arnstad",
+      "Geir Olve Storvik",
+      "Filippo Pagani",
+      "Leiv R\u00f8nneberg"
+    ],
+    "published": "2026-10-23T15:00:01+00:00",
+    "summary": "There is growing evidence that the performance of a neural network depends largely on a small subset of its weights, which are typically identified by training a dense network and pruning it afterwards. Within a Bayesian framework, pruning can be directly incorporated through a spike-and-slab prior, providing a proper treatment of the uncertainties involved, both with respect to pruning and to parameter uncertainty. In Bayesian neural networks (BNNs), sampling by MCMC is notoriously hard. We demonstrate that modern Monte Carlo methods based on piecewise deterministic Markov processes (PDMPs) can be used to sample posteriors of BNNs asymptotically exact whenever numerically constructed rate bounds hold. Spike-and-slab priors can be incorporated through sticky versions of the PDMPs, setting weights exactly to zero during sampling. We examine the predictive performance and convergence of the samplers, and show that sparse BNNs sampled this way can be more robust to input noise than dense ones."
+  },
+  {
+    "title": "The Butterfly Defects: Tracing Cooperation in LLM Agent Networks",
+    "url": "http://arxiv.org/abs/2610.32726v1",
+    "arxiv_id": "2610.32726v1",
+    "authors": [
+      "Maria Sampani",
+      "Maria Lymperaiou",
+      "Angeliki Dimitriou",
+      "Giorgos Filandrianos",
+      "Chrysoula Zerva",
+      "Giorgos Stamou"
+    ],
+    "published": "2026-10-23T14:46:57+00:00",
+    "summary": "As large language models (LLMs) increasingly operate as interconnected agents, a fundamental question emerges: does individual cooperation translate into collective cooperation? We investigate this question through the Iterated Prisoner's Dilemma (IPD), moving from dyadic interactions to homogeneous and heterogeneous networks of open-weight LLMs. Our findings reveal that cooperation is highly sensitive to model composition and seemingly minor linguistic changes. Models that cooperate with identical peers can shift toward defection in mixed populations. A simple uncertainty cue can increase or decrease cooperation, redistribute costs, and affect unexposed agents several hops away. Even reversing action-label order can dramatically alter behavior, with uncertainty framing sometimes amplifying this sensitivity. Together, these findings challenge the notion of cooperation as a stable model-level property, revealing how strategic behavior depends on interaction partners, network positions, and the language used to frame decisions."
+  },
+  {
     "title": "Sound-Horizon-Agnostic Forecast for Constraints on $H_0$ and $\u03a3m_\u03bd$ from BAO, CMB Lensing, Supernovae and LSST-like Galaxy Lensing",
     "url": "http://arxiv.org/abs/2610.31660v1",
     "arxiv_id": "2610.31660v1",
