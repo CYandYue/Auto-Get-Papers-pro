@@ -1,5 +1,134 @@
 [
   {
+    "title": "Bodyseismography (BSG): Theoretical Foundation and Numerical Modeling",
+    "url": "http://arxiv.org/abs/2610.35844v1",
+    "arxiv_id": "2610.35844v1",
+    "authors": [
+      "WenZhan Song",
+      "Yuanyuan Zhang",
+      "Yuyan Wu",
+      "Sahas Biddappa",
+      "Yida Zhang",
+      "Jiayu Chen",
+      "Zixuan Zeng",
+      "Yixuan Li",
+      "Jiahui Li",
+      "Fei Dou",
+      "Zhenlin An",
+      "Hae Young Noh"
+    ],
+    "published": "2026-10-26T17:55:58+00:00",
+    "summary": "Bodyseismography (BSG) records cardiovascular vibrations transmitted through the body and a supporting bed, enabling contactless assessment of cardiac mechanics. Relating these vibrations to hemodynamic features requires separating cardiac excitation from the effects of body and bed transmission. We develop a source-transmission-measurement framework that couples myocardial contraction and vascular recoil to directional BSG observations. The theory connects stroke volume, cardiac output, and blood pressure to observation and target Jacobians, establishes a local first-order target-observability criterion, and characterizes how additional sensing axes reduce ambiguities under specified source and transmission uncertainties. Numerical modeling combines four-chamber cardiac mechanics, cardiac-to-body excitation, and calibrated body-bed operators. Across 27 participants, a multilayer finite-element model with calibrated frequency correction achieves median Pearson correlation coefficients of 0.865 for the vertical channel and 0.682 for the planar-sum channel in matched-window waveform reconstruction. Controlled stroke-volume perturbations show that transmission reshapes feature sensitivity, including a reversal of the vertical feature association in 8 of 27 participant-specific transfer models. These analytical and numerical studies explain how cardiovascular sources and mechanical propagation jointly shape triaxial BSG and provide a physical basis for relating directional vibration features to hemodynamic changes."
+  },
+  {
+    "title": "Does VGGT Know What It Does Not Know?",
+    "url": "http://arxiv.org/abs/2610.35806v1",
+    "arxiv_id": "2610.35806v1",
+    "authors": [
+      "Adityan Thirumani Srinivasan",
+      "David Nordstr\u00f6m"
+    ],
+    "published": "2026-10-26T17:37:39+00:00",
+    "summary": "Feed-forward 3D reconstruction models such as VGGT regress cameras and geometry in a single forward pass, but they report no uncertainty for the camera poses they predict: an incorrect relative pose looks no different from a correct one. We ask whether the frozen model nonetheless knows when its pose is wrong. On HardMatch, a benchmark of 1,000 deliberately difficult image pairs on which VGGT fails on 35% of pairs, a linear probe on VGGT's frozen features predicts pose failure on held-out categories with ROC-AUC 93.5%, compared with 79.7% for VGGT's own point-map confidence and 77.7% for a classifier trained on all of VGGT's outputs. The probe catches failures VGGT is confident about, lets a downstream system abstain on the pairs it distrusts, and transfers without retraining to rotation failures on PhotoTourism and ScanNet-1500, beyond what co-visibility explains. This knowledge is absent from the per-image encoder: it is computed partway through the layers that fuse the two views, and the same holds for a second model, $\u03c0^3$. In essence, we find that VGGT knows more about its own failures than it reports."
+  },
+  {
+    "title": "Learning When to Commit: Schedule Distillation for Fast Diffusion Language Models",
+    "url": "http://arxiv.org/abs/2610.35804v1",
+    "arxiv_id": "2610.35804v1",
+    "authors": [
+      "Aidar Myrzakhan",
+      "Zhiqiang Shen"
+    ],
+    "published": "2026-10-26T17:35:58+00:00",
+    "summary": "Diffusion large language models (dLLMs) can generate multiple tokens in parallel, but often require many decoding rounds to complete a response. Efficient generation depends not only on which tokens are easy to predict, but also on how committing to them helps predict the remaining positions. A highly predictable token may provide little useful context, while revealing a less predictable token can help several other positions become predictable sooner. We propose dSpark, a new schedule distillation-based framework for learning when to commit tokens for faster diffusion language generation. To achieve this, we construct unmasking schedules that prioritize tokens whose reveal makes other positions easier to predict, reducing uncertainty earlier in decoding. We then distill these schedules into the model to enable faster parallel sampling, with a KL-divergence regularizer to help preserve generation quality. We extensively evaluate our approach across mathematical reasoning and code generation tasks. On GSM8K, our method achieves remarkable 10.12$\\times$ and 5.12$\\times$ speedups over the various baselines on LLaDA-8B-Instruct and Dream-7B-Instruct, respectively, while maintaining superior task performance. Our code is available at https://github.com/VILA-Lab/dSpark."
+  },
+  {
+    "title": "The neutrino fog for inelastic dark matter",
+    "url": "http://arxiv.org/abs/2610.35789v1",
+    "arxiv_id": "2610.35789v1",
+    "authors": [
+      "C. S. Amarasinghe"
+    ],
+    "published": "2026-10-26T17:28:12+00:00",
+    "summary": "We characterize the behavior of the neutrino fog for inelastic dark matter scattering on xenon. The inelastic scattering kinematics reshape the recoil spectrum of the signal and produce a qualitatively different neutrino fog landscape. In some regions of the inelastic parameter space the fog is completely absent for future xenon experiments at any scale, while in other regions the fog is dispelled only to reappear at larger exposures. We find that multiple background sources with uncertain normalizations can make the onset of the fog jump discontinuously with the dark matter mass and mass splitting, while the discovery limit varies smoothly. We also describe a mechanism by which reduced uncertainties on neutrino rates may have the unintuitive effect of raising neutrino floors derived from the fog opacity."
+  },
+  {
+    "title": "Existence and uniqueness of solutions for a random PDE-ODE model describing glioma invasion and radiotherapy",
+    "url": "http://arxiv.org/abs/2610.35763v1",
+    "arxiv_id": "2610.35763v1",
+    "authors": [
+      "Martina Conte",
+      "Sandesh Athni Hiremath",
+      "Christina Surulescu"
+    ],
+    "published": "2026-10-26T17:08:50+00:00",
+    "summary": "We study a stochastic model for the growth and invasion of glioma cells in the anisotropic brain tissue, also incorporating effects of radiotherapeutic interventions and associated uncertainties. The PDE-ODE model couples glioma and healthy tissue dynamics in a nonlinear manner and explicitly includes treatment-related stochasticity through random depletion terms. The macroscopic system has been obtained by an upscaling procedure from a microscopic description in [1]. We prove the existence and uniqueness of local strong solutions to the corresponding stochastic system. The analysis addresses challenges arising from the nonlinear coupling, anisotropic diffusion, taxis mechanisms, and stochastic treatment effects, providing a first rigorous step toward the mathematical understanding of stochastic continuum models for glioma invasion and therapy response."
+  },
+  {
+    "title": "LUCID: Local Understanding of Covariate Importance with Conditional Density Estimation",
+    "url": "http://arxiv.org/abs/2610.35740v1",
+    "arxiv_id": "2610.35740v1",
+    "authors": [
+      "Yixiao Wang",
+      "Srikar Katta",
+      "Jon Donnelly",
+      "Emanuele Borgonovo",
+      "Cynthia Rudin"
+    ],
+    "published": "2026-10-26T16:57:07+00:00",
+    "summary": "Computing local-level variable importance (VI) is critical for understanding machine learning models. Local permutation-based VI metrics offer a simple yet powerful approach, measuring how much a model's output changes when perturbing its inputs. However, existing perturbation strategies often ignore feature dependence or account for it only through restricted approximations. Perturbing a feature without fully respecting this dependence can generate unrealistic counterfactuals, thereby evaluating the model in regions unsupported by the observed data distribution. We address this gap by introducing a new model-agnostic local VI metric and estimator, Local Understanding of Covariate Importance with conditional Density estimation (LUCID). LUCID perturbs features of interest using plausible values drawn from the full conditional distribution given the remaining observed features. We establish theoretical connections between LUCID and existing VI measures, and provide an estimator with convergence guarantees and uncertainty quantification. Finally, we demonstrate LUCID's stable performance and practical utility across simulated and real-world examples."
+  },
+  {
+    "title": "From Self-Confidence to Statistical Accuracy: Scaling Human-in-the-Loop Evaluation with Direct and LLM-Assisted Auditing",
+    "url": "http://arxiv.org/abs/2610.35698v1",
+    "arxiv_id": "2610.35698v1",
+    "authors": [
+      "Harine Choi",
+      "Chenchen Kuai",
+      "Zihao Li",
+      "Jiwan Jiang",
+      "Yunlong Zhang",
+      "Zhiwen Fan",
+      "Zhengzhong Tu",
+      "Yang Zhou"
+    ],
+    "published": "2026-10-26T16:25:11+00:00",
+    "summary": "For large language models (LLMs) and multimodal large language models (MLLMs), model-reported self-confidence is often miscalibrated, yet it may still be useful for efficient evaluation. At the same time, LLM-as-a-judge offers a scalable alternative to direct human auditing, but its practical benefit depends on calibration quality and inference cost.   This paper develops a unified statistical framework for both evaluation routes under alternative sampling strategies. For direct auditing, confidence-stratified sampling is used to recover population accuracy from partially verified outputs without requiring calibrated confidence. Finite-sample uncertainty is characterized, and the analysis shows how highly uneven confidence strata affect audit efficiency and label allocation. For judge-assisted evaluation, the judge is modeled through sensitivity and false-positive rate, yielding an error-corrected estimator with calibration uncertainty. The two routes are then compared through human-label and total-cost efficiency boundaries.   Experiments on MMLU-Pro and MMMU-Pro show that miscalibrated self-confidence can still support statistically valid stratified auditing. Under highly imbalanced confidence distributions, proportional allocation substantially reduces estimation error relative to equal-per-stratum allocation. For judge-assisted evaluation, only a small subset of target--verifier pairs satisfies the idealized human-label efficiency condition, and automated inference costs can further limit potential savings. These findings clarify the statistical and economic conditions under which confidence-guided auditing and automated verification are useful."
+  },
+  {
+    "title": "Self-Confirming Equilibrium under Model Misspecification",
+    "url": "http://arxiv.org/abs/2610.35692v1",
+    "arxiv_id": "2610.35692v1",
+    "authors": [
+      "Riccardo Formenti"
+    ],
+    "published": "2026-10-26T16:21:37+00:00",
+    "summary": "We study the steady states of games played recurrently within large anonymous populations of players who receive partial ex-post feedback about the play of their opponents. Departing from the classical Bayesian account, players do not trust their conjectures as a correct description of the strategic environment but consider them as approximations of a reality that is only partially modeled and partially observed. We introduce games with feedback and uncertainty attitudes, in which the normal-form structure is enriched with a profile of feedback functions and, for each player, a preference functional that encodes aversion to misspecification and to ambiguity. The induced misspecification sensitive criterion contains the variational, maxmin, and smooth-ambiguity evaluations as special cases and collapses to expected utility when beliefs are unambiguous and the player is neutral to misspecification. The appropriate steady-state notion for such games is the Self-Confirming Equilibrium under Model Misspecification (SCEM), which requires each player to best respond to a set of structured conjectures that the feedback generated by equilibrium play cannot falsify. In contrast with the classical theory and with its ambiguity-averse extensions, mixed-strategy Nash Equilibria need not be self-confirming. We therefore develop a companion notion of Robust Nash Equilibrium (R-NE), in which every supported action remains optimal under a variational evaluation. Robust Nash equilibria refine SCEM, exist whenever the statistical distances are continuous, thereby delivering existence of SCEM, and coincide with the latter under fully informative feedback. Under observationally consistent divergences and observable payoffs, R-NE and SCEM reduce, respectively, to Nash equilibrium and Self-Confirming Equilibrium under Ambiguity (SCEA), which generalizes smooth self-confirming equilibrium."
+  },
+  {
+    "title": "Supply Chain Information Sharing among Competitors: Profit-Based Participation under Market Shocks",
+    "url": "http://arxiv.org/abs/2610.35681v1",
+    "arxiv_id": "2610.35681v1",
+    "authors": [
+      "Batuhan Celik",
+      "Bahar Cavdar",
+      "Jennifer Pazour"
+    ],
+    "published": "2026-10-26T16:18:48+00:00",
+    "summary": "Sharing information can help coordinate supply chain decisions in response to market shocks. Yet, firms must weigh these benefits against the risk of strengthening competitors. We study when competing firms voluntarily join an information-sharing platform to exchange information about market shocks while retaining operational autonomy. Firms differ in information capabilities and decide whether to participate before private signals are realized, creating stochastic information asymmetry. We model participation and quantity decisions as a two-stage dynamic game with incomplete information. For two horizontal competitors, we derive closed-form equilibrium participation strategies that reveal how information power and production efficiency shape participation. Numerical analysis examines more complex supply chain networks. We find that supply chain characteristics impact participation and the level of information asymmetry is a key factor in the equilibrium platform profiles. Firms with similar information power may benefit from joining forces to reduce their competitive disadvantage against higher information power competitors. Cost-inefficient firms may be less willing to participate because their competitors can exploit shared information, and uncertainty can serve as a competitive shield by restricting the actions of more efficient competitors. However, when several competitors join the platform, a cost-inefficient firm may also choose to participate to avoid an informational disadvantage."
+  },
+  {
+    "title": "Provably Efficient Q-learning for Robust Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2610.35656v1",
+    "arxiv_id": "2610.35656v1",
+    "authors": [
+      "Yuchen Jiao",
+      "Gen Li"
+    ],
+    "published": "2026-10-26T16:03:25+00:00",
+    "summary": "Standard reinforcement learning (RL) algorithms based on Markov Decision Processes (MDPs) are vulnerable to sim-to-real gaps. To address this issue, distributionally robust RL algorithms based on robust MDPs (RMDPs) have been proposed, for ensuring that agents can perform reliably to unpredictable conditions in real-world environments. Despite of the rich literature, \\revision{an efficient model-free method is still lacking} for robust RL, particularly for Markovian data, which is more relevant in practical applications. In this work, we take a step towards settling this problem by proposing a sample efficient (asynchronous Q-learning) algorithm for robust RL. In particular, consider a $\u03b3$-discounted infinite-horizon RMDP with state space $\\mathcal{S}$ and action space $\\mathcal{A}$, where the uncertainty set is specified by the total variation (TV) distance with uncertainty level $\u03c3$. Assuming access to a single trajectory of Markovian samples induced by a behavior policy and the nominal transition kernel, the sample complexity of the proposed Q-learning algorithm --- to achieve an entrywise $\\varepsilon$-approximation of the optimal Q-function --- is bounded by $$ \\frac{1}{\u03bc_{\\mathsf{min}}\\varepsilon^2(1-\u03b3)^3\\max\\{1-\u03b3,\u03c3\\}} + \\frac{t_{\\mathsf{mix}}}{\u03bc_{\\mathsf{min}}(1-\u03b3)} $$ up to logarithmic factors. Here, $t_{\\mathsf{mix}}$ and $\u03bc_{\\mathsf{min}}$ denote the mixing time and the minimum state-action occupancy probability of the sample trajectory, respectively. This result is nearly minimax optimal, with an additional factor of $\\frac{1}{1-\u03b3}$. Moreover, it achieves a significant improvement over existing bounds."
+  },
+  {
     "title": "Optimal collective investment under regulatory uncertainty",
     "url": "http://arxiv.org/abs/2610.32959v1",
     "arxiv_id": "2610.32959v1",
