@@ -1,5 +1,134 @@
 [
   {
+    "title": "Improving cosmological distance measurements at high redshift using Lyman-Alpha forest BAO reconstruction",
+    "url": "http://arxiv.org/abs/2610.37664v1",
+    "arxiv_id": "2610.37664v1",
+    "authors": [
+      "Boryana Hadzhiyska",
+      "Roger de Belsunce"
+    ],
+    "published": "2026-10-27T17:59:31+00:00",
+    "summary": "The Dark Energy Spectroscopic Instrument (DESI) measures baryon acoustic oscillations (BAO) in the Lyman-$\u03b1$ (Lyman-alpha) forest and provides a robust probe of the expansion history in the matter-dominated era. Yet, non-linear structure formation broadens and shifts the BAO peak. To undo these effects, we extend standard Zel'dovich reconstruction, routinely applied to galaxy surveys, to the Lyman-alpha forest. We validate our methodology on large-volume idealized Lyman-alpha forest mocks painted on top of the \\textsc{AbacusSummit} $N$-body simulations, using linear control variates to suppress sample variance and thereby reduce the error bars by a factor of up to $\\approx \\sqrt{50}$. In fully sampled periodic boxes, reconstruction halves the radial BAO damping scale and reduces the uncertainties on the radial ($\\apar$) and transverse ($\\aperp$) scaling parameters by $\\approx25\\%$ and $\\approx15\\%$, respectively. It also reduces the non-linear shift from $\u0394\\apar=+0.3\\%$ to $+0.10\\pm0.07\\%$, while $\\aperp$ remains unbiased. To make this approach readily applicable to observational data, we demonstrate the impact of a survey mask with a DESI-like density of $50\\,\\mathrm{deg}^{-2}$. For this mask, we compare two approaches to estimate the displacement field: either directly from the Lyman-alpha forest or using an external tracer with a number density of $\\bar n \\simeq 10^{-3}\\,h^3\\mathrm{Mpc}^{-3}$, such as Lyman-break galaxies and Lyman-$\u03b1$ emitters---both key targets for DESI-II. Both approaches give comparable gains and reduce the uncertainties on $\\apar$ and $\\aperp$ by $\\approx 27\\%$ and $\\approx 10\\%$, respectively, with mild improvements for futuristic high-density surveys with $160\\,\\mathrm{deg}^{-2}$. Correspondingly, the figure of merit improves by factors of $1.66$ for fully sampled boxes, $1.65$ for a DESI-like, and $1.76$ for a high-density survey."
+  },
+  {
+    "title": "KPPax: preprocess differentiable kinetic ODE for machine learning in atmospheric chemistry",
+    "url": "http://arxiv.org/abs/2610.37655v1",
+    "arxiv_id": "2610.37655v1",
+    "authors": [
+      "Wenqing Peng",
+      "Michael Boy",
+      "Zhi-Song Liu"
+    ],
+    "published": "2026-10-27T17:58:40+00:00",
+    "summary": "Atmospheric chemical mechanisms are commonly distributed in the language of the Kinetic PreProcessor (KPP), which generates efficient Fortran or C code but does not fit into the differentiable programming frameworks in which machine-learning models are developed. We present KPPax, a kinetic preprocessor that generates differentiable, just-in-time compiled, and vectorisable chemistry code in JAX from mechanisms written in the KPP language. KPPax evaluates the rate law with sparse operations in log space, which keeps it differentiable, and integrates the stiff system with the implicit solvers and the forward- and reverse-mode adjoints of the \\texttt{diffrax} library, so that exact sensitivities are obtained without hand-derived adjoint code. We demonstrate two applications with the POLLU benchmark mechanism. In the first, the Fisher information matrix computed from an automatically differentiated Jacobian predicts, before any fit, which of the 25 rate coefficients a flow-tube-like design can identify, and noisy synthetic estimation confirms the predicted uncertainties of the nine identifiable rate coefficients to within about 30\\% while revealing clusters of fast reactions of which only ratios are constrained. In the second, a neural-network correction of an emission inventory is trained offline on per-scenario 4D-Var retrievals and then fine-tuned online through the chemical model, which reduces the error of the biogenic correction by a factor of 2.4--5 and recovers information on low-temperature emissions that the individual retrievals lose. KPPax makes KPP mechanisms directly usable for parameter estimation and hybrid physics--machine-learning modelling."
+  },
+  {
+    "title": "Measuring the magnetization profiles of galaxy groups and clusters",
+    "url": "http://arxiv.org/abs/2610.37646v1",
+    "arxiv_id": "2610.37646v1",
+    "authors": [
+      "Kritti Sharma",
+      "Vikram Ravi",
+      "Elisabeth Krause"
+    ],
+    "published": "2026-10-27T17:56:29+00:00",
+    "summary": "Magnetic fields are vital in determining the physical conditions of baryons in massive halos. They are, however, notoriously difficult to observe. This impacts problems from our understanding of galaxy formation, to the observed deficit in the amplitude of thermal Sunyaev-Zel'dovich (tSZ) power spectrum that affects cosmological inferences. Although Faraday rotation measures (RMs) offer a direct probe of magnetic fields, it weights magnetic fields by the free-electron density. Several probes of free electrons, including fast radio burst (FRB) dispersion measures (DMs) and kinematic SZ (kSZ) effect, are now maturing into precision tools. We combine RM$^2$ stacks from SPICE-RACS around DESI galaxy groups and ROSAT clusters with optical depth profiles constrained jointly by the FRB DM-redshift relation and the kSZ effect, and obtain 95% upper limits on the rms line-of-sight magnetic field of $<3.9$-$11.6~\u03bc$G ($<2.3$-$6.4~\u03bc$G) in groups (clusters) for a 10~kpc coherence length. Combining these with thermal pressure profiles inferred from tSZ-shear cross-correlations, we obtain 95% lower limits on the plasma $\u03b2$ of $>0.31$ ($>11$) in groups (clusters). Although current constraints are only limits, we forecast a first detection with larger datasets from the Deep Synoptic Array (DSA). We present the first forecast of the DSA RM grid density ($\\sim365$ RMs deg$^{-2}$), which when combined with 10$^4$ FRBs would measure the field in groups to $3$-$13\\%$ precision, compared to current constraints of $38$-$75\\%$. Although the interpretation of current measurements remains challenging owing to depolarization along turbulent halo sightlines and the unknown coherence length, larger samples and DSA/Square Kilometer Array observations may resolve these uncertainties by measuring polarization-fraction profiles and the RM structure function using extended radio sources, respectively."
+  },
+  {
+    "title": "On-the-fly Estimation of Quantum-Corrected Thermodynamics in LAMMPS",
+    "url": "http://arxiv.org/abs/2610.37586v1",
+    "arxiv_id": "2610.37586v1",
+    "authors": [
+      "Robert Ramji",
+      "Ilya Mazalov",
+      "Ricardo Buarque",
+      "Alexandria Do",
+      "Xiaoxu Ruan",
+      "Tod A. Pascal"
+    ],
+    "published": "2026-10-27T17:25:45+00:00",
+    "summary": "We present a native implementation of the Two/Three-Phase Thermodynamics (xPT, $x \\in \\{2,3\\}$) method within the LAMMPS molecular dynamics framework, termed FixXPT. xPT is an approach for obtaining absolute, quantum-corrected thermodynamics (entropy, enthalpy, free energy, heat capacity, diffusivity) from the density of states function, obtained from the velocity autocorrelation function of an equilibrium trajectory. FixXPT addresses non-trivial integration challenges, including atom reordering, compute scheduling, FFT backends, unit systems, and partitioning of atomic velocities into molecular modes. Two autocorrelators are provided: a Wiener-Khinchin FFT correlator with one cumulative window-end operation, and an in-line multi-tau correlator whose memory footprint grows only logarithmically with the window length, removing the principal scaling bottleneck for long analysis windows. The velocity history of each window is distributed across the MPI ranks, so the memory the fix adds to a node stays nearly constant as ranks are added and its cost falls with the number of GPUs. Replaying identical velocity frames through FixXPT and the stand-alone pyxPT post-processor reproduces every thermodynamic observable of well-sampled groups to within 0.1 to 0.5% across the full analysis-mode matrix; sparsely populated ionic species agree within their statistical uncertainty, and the multi-tau VACF converges monotonically to the FFT result as its buffer grows, from 0.8% to 0.1% drift across a 16-fold buffer sweep. The code is distributed as a drop-in LAMMPS package."
+  },
+  {
+    "title": "Escape of mass for finite-area hyperbolic surfaces",
+    "url": "http://arxiv.org/abs/2610.37573v1",
+    "arxiv_id": "2610.37573v1",
+    "authors": [
+      "Alex Cohen",
+      "Zhenhao Li",
+      "Zhongkai Tao"
+    ],
+    "published": "2026-10-27T17:18:11+00:00",
+    "summary": "Let $M$ be a noncompact finite-area hyperbolic surface. We give a lower bound for the $L^2$ norm of eigenfunctions and Eisenstein series in a compact part of the surface. This extends a result of Soundararajan [arXiv:0901.4060] to the nonarithmetic setting. The crucial components of the proof are a long-time Egorov's theorem designed for this setting, a nonlinear uncertainty principle of Cohen--Dyatlov [arXiv:2609.30261], and an application of Weyl's method for exponential sums."
+  },
+  {
+    "title": "When uncertainty quantification fails: structural vulnerabilities and corrections for selective prediction under clinical class imbalance",
+    "url": "http://arxiv.org/abs/2610.37561v1",
+    "arxiv_id": "2610.37561v1",
+    "authors": [
+      "Walter Endrizzi",
+      "Flavio Ragni",
+      "Raffaele Marchesi",
+      "Stefano Bovo",
+      "Monica Moroni",
+      "Giuseppe Jurman",
+      "Venet Osmani"
+    ],
+    "published": "2026-10-27T17:08:31+00:00",
+    "summary": "Background. Selective prediction systems improve the safety of clinical artificial intelligence by deferring ambiguous cases to human experts while automating high-confidence decisions. However, this safety mechanism relies entirely on the premise that uncertainty scores accurately reflect clinical ambiguity. In prognostic tasks characterized by severe class imbalance, where the clinical outcome of interest is a minority, this assumption breaks down. Standard uncertainty measures cease to capture clinically aligned ambiguity; instead, they become a proxy for class membership, systematically penalizing minority patients regardless of their individual predictive clarity.   Results. Across 56 synthetic conditions and three neurodegenerative cohorts spanning severe class imbalance to near-balanced conditions (multiple sclerosis, Parkinson's Disease, Alzheimer's Disease), our framework consistently maintained bounded, balanced risk across trajectories. In contrast, global metrics either collapsed minority Sensitivity or protected the minority at the expense of majority patients. Applying CCR with standard entropy fails to protect the minority because it breaks within-class monotonicity when tau=0.5. Combining CCR with threshold-aware metrics restores strict monotonicity, correctly identifies ambiguous patients, and safely mitigates minority exclusion.   Conclusions. Under clinical class imbalance, standard uncertainty quantification measures dataset sparsity rather than clinical ambiguity, creating a systemic illusion of safety. This bias is a correctable structural flaw. Clinical pipelines deploying selective prediction under imbalance should adopt threshold-aligned uncertainty measures and class-stratified evaluation. This reduces class-specific risk imbalance, supporting safer selective prediction under the evaluated conditions without silently excluding the most vulnerable patients."
+  },
+  {
+    "title": "Nonlinear uncertainty principle",
+    "url": "http://arxiv.org/abs/2610.37549v1",
+    "arxiv_id": "2610.37549v1",
+    "authors": [
+      "Alex Cohen",
+      "Semyon Dyatlov"
+    ],
+    "published": "2026-10-27T17:00:00+00:00",
+    "summary": "We prove an uncertainty principle for subsets of $\\mathbb R$ under weak branching assumptions. We impose a nonlinearity condition on the phase; without it our uncertainty principle fails e.g. for arithmetic progressions. The key ingredient in the proof is Shmerkin's nonlinear projection theorem. This paper is a part of a work in progress, but it is released earlier than the rest of that paper since it is also used in a paper of Cohen-Li-Tao. It also has an overlap with our recent paper [arXiv:2609.30261]; see the end of the introduction for more details."
+  },
+  {
+    "title": "Constructing Data-Driven Budgeted Uncertainty Sets for Robust Optimization",
+    "url": "http://arxiv.org/abs/2610.37537v1",
+    "arxiv_id": "2610.37537v1",
+    "authors": [
+      "Jamie Fairbrother",
+      "Marc Goerigk",
+      "Qiongyan Zeng"
+    ],
+    "published": "2026-10-27T16:54:41+00:00",
+    "summary": "In robust optimization, budgeted uncertainty sets offer a popular trade-off between modeling flexibility and computational tractability. Data that is observed in practice is often discrete in nature, which creates the need for tools to construct budgeted uncertainty sets based on observed data. This paper presents a principled approach for this purpose, which ensures that any solution found through the robust problem with respect to the constructed budgeted uncertainty set offers an approximation guarantee with respect to the optimal value of the problem with discrete data. Our approach is purely based on the geometry of data and can be applied to any nominal optimization problem. We discuss the problem of evaluating budgeted uncertainty sets, and how to construct them using exact and heuristic methods. In computational experiments, we show that it is possible to construct sets with little computation time that offer guarantees that are close to optimality."
+  },
+  {
+    "title": "The Structure Gap: When More Data Cannot Replace Structured Reasoning",
+    "url": "http://arxiv.org/abs/2610.37523v1",
+    "arxiv_id": "2610.37523v1",
+    "authors": [
+      "Kheer Sagar Patel",
+      "Mojtaba Soltanalian"
+    ],
+    "published": "2026-10-27T16:45:22+00:00",
+    "summary": "A persistent belief in modern AI is that sufficiently large learners trained on sufficiently much data can make explicit domain knowledge optional. This paper examines a limitation of that belief. We define structure-encoded problems: tasks whose input-output map is determined, or sharply constrained, by known structure such as a solver, symmetry group, graph, physical law, measurement operator, grammar, combinatorial search space, or optimization objective. For such tasks, the central question is not expressivity--a dense neural network may contain the desired map--but finite-data identification, extrapolation, and certification. We introduce the structure gap: the finite-resource gap between a method that receives the governing structure and a learner that receives only examples. The strongest useful form of the claim is asymptotic rather than absolute: structure-agnostic learning may approach a structured solver as coverage grows, but every finite dataset can leave residual uncertainty that the structure resolves by construction. We prove this exactly for a Gaussian inverse problem: the known-operator Wiener solver attains Bayes risk, while the dense empirical learner in the correct linear class has persistent expected excess risk. We also prove a cell-coverage lower bound and an unobserved-orbit non-identifiability result. Controlled experiments in known-operator inversion, sparse recovery, and graph reachability with size extrapolation instantiate the mechanisms. When validated structure is available, it can constrain the hypothesis space before learning begins, leaving learning to address components the structure does not specify."
+  },
+  {
+    "title": "Recovering Non-Maxwellian Velocity Distribution Functions from Collective Thomson Scattering Spectra Using Generalized Basis Representations",
+    "url": "http://arxiv.org/abs/2610.37516v1",
+    "arxiv_id": "2610.37516v1",
+    "authors": [
+      "Greg A. Baker",
+      "Bradyn Klein",
+      "Kristopher Wright",
+      "Vedang Bhelande",
+      "Zhaoyan Sun",
+      "Rayner Sutardja",
+      "Samuel R. Totorica",
+      "Derek B. Schaeffer"
+    ],
+    "published": "2026-10-27T16:37:30+00:00",
+    "summary": "Thomson scattering (TS) is a key diagnostic for inferring plasma parameters from scattered power spectra, but its interpretation depends strongly on assumptions about the underlying velocity distribution functions (VDFs). Conventional analyses typically assume Maxwellian distributions, which can be invalid in high-energy-density and laboratory astrophysics plasmas where collisionless, multi-population dynamics produce non-thermal features. In such cases, Maxwellian models may reproduce observed spectra while yielding inaccurate or misleading plasma parameters. We present a generalized TS analysis framework that represents species-specific VDFs in flexible, physically motivated bases and so reconstructs complex, non-equilibrium distributions. To explore the resulting high-dimensional parameter space, we build the forward model from differentiable operations and optimize the VDF parameters by gradient descent. We apply the method to synthetic TS spectra generated from particle-in-cell simulations of a collisionless shock with interacting hydrogen and carbon populations. Immediately upstream of the shock, where the plasma is most non-thermal, the flexible bases cut the mean normalized ion VDF residual from 38.7% for a Maxwellian model to 20.3% and 20.5%, with correspondingly improved time-resolved plasma parameters. We also introduce a systematic method of uncertainty quantification that reveals degeneracies between ion species, highlighting the importance of both flexible VDF modeling and a statistical mapping of the solution space for this inherently ill-posed inversion problem."
+  },
+  {
     "title": "Bodyseismography (BSG): Theoretical Foundation and Numerical Modeling",
     "url": "http://arxiv.org/abs/2610.35844v1",
     "arxiv_id": "2610.35844v1",
