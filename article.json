@@ -1,5 +1,134 @@
 [
   {
+    "title": "Field-level inference under pressure: the information content of the thermal Sunyaev-Zel'dovich field",
+    "url": "http://arxiv.org/abs/2610.40617v1",
+    "arxiv_id": "2610.40617v1",
+    "authors": [
+      "Carmen Embil Villagra",
+      "Adrian E. Bayer",
+      "William R. Coulton",
+      "Alina Sabyr",
+      "Francisco Villaescusa-Navarro",
+      "Blake D. Sherwin",
+      "Anthony Challinor",
+      "J. Colin Hill",
+      "Nicholas Battaglia"
+    ],
+    "published": "2026-10-29T17:54:55+00:00",
+    "summary": "The thermal Sunyaev--Zel'dovich (tSZ) field is highly non-Gaussian and contains cosmological information that cannot be fully captured by its angular power spectrum. In this work, we investigate the information content of this field using a convolutional neural network (CNN), and compare to simple and interpretable summary statistics, in a simulation-based inference (SBI) framework. We perform the first field-level analysis of the tSZ field, using a suite of $10{,}000$ simulated Compton-$y$ maps, where we jointly vary the cosmological parameters $\u03a9_c$ and $\u03c3_8$ (the density fraction for cold dark matter and the matter clustering amplitude, respectively) and two parameters describing the amplitude and shape of the electron pressure profile, $P_0$ and $\u03b2$, that aim to capture astrophysical uncertainties. We consider both noiseless simulations and simulations including realistic Simons Observatory (SO) noise after component separation. We use SBI to compare the constraints obtained from the CNN with those from the three Minkowski functionals (MFs), individually and in combination, as well as the angular power spectrum. This is the first application of SBI to the MFs of the tSZ field. We find that the CNN provides tighter constraints than conventional summary statistics in the noiseless case. However, at SO-like noise levels, the combination of MFs and the power spectrum recovers constraints comparable to those obtained with the CNN. Our results highlight the potential of these interpretable summary statistics, as well as field-level inference, for extracting information from the tSZ field, motivating efforts toward their application to real data."
+  },
+  {
+    "title": "The Conditional CMB Visibility of High-Redshift X-Ray Cavities in Galaxy clusters",
+    "url": "http://arxiv.org/abs/2610.40610v1",
+    "arxiv_id": "2610.40610v1",
+    "authors": [
+      "Ramananda Santra",
+      "Samik Mitra"
+    ],
+    "published": "2026-10-29T17:53:12+00:00",
+    "summary": "At high redshift, the cosmic microwave background (CMB) both cools relativistic leptons and provides seed photons for inverse-Compton (IC) X-ray emission. These two effects link the particle content of a bubble directly to the soft X-ray depression used to identify a cavity. We derive a physical criterion connecting lepton cooling, bubble volume, enthalpy evolution, and 0.5--2 keV X-ray visibility, while separating intrinsic filling of the X-ray depression from detector-dependent cavity recovery. For uncooled electron populations described by a power law with spectral index $s=2.5$, minimum Lorentz factor $100\\leq\u03b3_{\\min}\\leq1000$, and maximum Lorentz factor $\u03b3_{\\max}=10^5$, the measured atmosphere of the testbed high-redshift cluster SPT-CL J2215$-$3537 requires 0.6--1.2\\% of the pressure in radiating leptons to fill the soft-band deficit. Across the full tested ranges of $s$, $\u03b3_{\\min}$, and atmospheric properties, the required fraction is 0.2--3.7\\%. Complete loss of this component reduces the enthalpy by less than 3\\% relative to an otherwise identical adiabatic bubble at the same pressure. A low-cutoff control with $\u03b3_{\\min}=10$ and $s=3$ instead requires 18.9\\%, identifying the poorly constrained low-energy spectrum as the main physical uncertainty. For a fixed atmosphere and spectrum, the required fraction scales as $(1+z)^{-4}$. The declining-pressure tracks show that the X-ray deficit can cross the adopted detection threshold while the enthalpy deficit remains below 0.4\\%; the time of this transition depends on the assumed pressure history. Thus, high-redshift cavity visibility depends on both the surrounding atmosphere and the pressure-carrying particle spectrum. This criterion provides the physical basis for an instrument-specific recovery analysis."
+  },
+  {
+    "title": "Optimal Policy With Noisy Sufficient Statistics",
+    "url": "http://arxiv.org/abs/2610.40582v1",
+    "arxiv_id": "2610.40582v1",
+    "authors": [
+      "Jos\u00e9 Luis Montiel Olea",
+      "Mikkel Plagborg-M\u00f8ller",
+      "Christian K. Wolf"
+    ],
+    "published": "2026-10-29T17:45:46+00:00",
+    "summary": "We study how policy-makers should set $k$ policy instruments so as to best hit $m$ (perhaps dynamic) targets, in a linear-quadratic model where there is statistical uncertainty about the causal effects of the policies. Plugging the estimated effects into \"sufficient statistics\" optimal policy formulas, as commonly done in the literature, can result in infinite risk. In fact, maintaining the status quo regardless of the data is uniquely minimax-optimal when $m>1$, and uniquely minimax-regret-optimal when $m,k>1$. Nevertheless, we recommend that policy-makers adopt a simple, dampened version of the popular plug-in rule, as in Fisher (1962) and Brainard (1967). Not only does this cautious rule outperform doing nothing over most of the parameter space, its worst-case risk is also close to the minimax value in empirically relevant models. Policy-makers should use causal effect estimates from an unbiased but dispersed estimator (such as a local projection) rather than from a moderately biased but precise estimator (such as a vector autoregression)."
+  },
+  {
+    "title": "An Empirically Calibrated [C II] Luminosity-Halo Mass Relation for Line Intensity Mapping",
+    "url": "http://arxiv.org/abs/2610.40550v1",
+    "arxiv_id": "2610.40550v1",
+    "authors": [
+      "Oliver Jeong",
+      "Martin White"
+    ],
+    "published": "2026-10-29T17:38:33+00:00",
+    "summary": "Millimeter-wave line intensity mapping aims to observe the high-redshift universe through the 158 $\u03bc$m fine-structure line of [C II], the brightest far-infrared line of star-forming galaxies. Whether a [C II] experiment at $z>4$ measures the clustering of large-scale structure, which carries rich cosmological information, rather than the shot noise of the emitters depends on the amplitude and the shape of the [C II] power spectrum. Forecasts often build the power spectrum from a halo mass--luminosity relation, $L(M_h)$, chained from scaling relations measured in other regimes or read off simulations, without a quantified uncertainty. We instead calibrate a double power-law $L(M_h,z)$ on [C II] data alone: the mean [C II] intensity from tomographic cross-correlation at $0.4<z<4.2$ and the luminosity-function measurements and limits at $z\\simeq0$ and $4.3\\lesssim z\\lesssim8$. The four parameters of the double power law are fitted at $z=4.5$ and $5.5$ separately, with no assumption about their evolution, and then jointly across $0<z<7$, and we examine how the uncertainty depends on the modeling assumptions. The shape of the power spectrum is settled by the existing data. The clustering peak stands a factor of $45\\,(23$-$93)$ and $64\\,(38$-$112)$ above the shot-noise floor at $z=4.5$ and $5.5$, and the two cross at $k_c\\simeq0.37$ and $0.44\\,h$Mpc$^{-1}$. The amplitude is known less well, the clustering power to $0.5-0.6$ dex and the shot noise to $0.7-0.9$ dex. The results show that the signal comes from halos accessible by current galaxy surveys, those that host the Lyman-break galaxies and Ly$\u03b1$ emitters at these redshifts. The luminosity-weighted bias is relatively high, with values of $4-5$."
+  },
+  {
+    "title": "Accurate MRI-free PET Quantification and Reliability Assessment via CT-to-MRI Synthesis and Conformal Prediction",
+    "url": "http://arxiv.org/abs/2610.40478v1",
+    "arxiv_id": "2610.40478v1",
+    "authors": [
+      "Jungwoo Seo",
+      "Seung Yun Choi",
+      "Kun Ho Lee",
+      "Seun Jeon",
+      "Byoung Seok Ye",
+      "Jiook Cha"
+    ],
+    "published": "2026-10-29T17:11:19+00:00",
+    "summary": "Standardized uptake value ratio (SUVR) quantification of amyloid PET commonly relies on a subject-specific T1-weighted MRI, yet a usable MRI is not always available. We therefore combined CT-to-MRI synthesis with conformal prediction for MRI-free PET quantification with reliability assessment. A slice-consistent Brownian Bridge Diffusion Model was strengthened with multi-dataset training and data-source conditioning to enrich the anatomical prior learned from MRI, and with expanded multi-slice CT context to exploit the through-plane continuity of subject-specific anatomy in CT. Synthetic MRI was used for FreeSurfer-based anatomical parcellation and PET quantification, while deep-ensemble uncertainty was calibrated with conformal prediction to estimate a plausible range for the corresponding real MRI-based SUVR. On $^{11}$C-PiB PET from OASIS-3, the proposed method achieved the highest synthesis and parcellation fidelity among the compared methods. Mean cortical SUVR from the proposed synthetic MRI agreed closely with the real MRI-based reference (MAE $0.016 \\pm 0.015$, Pearson $r = 0.9987$) and yielded the same amyloid-positivity classification as the real MRI in all 87 test subjects at the prespecified cut-off. Conformal prediction achieved empirical coverage close to the prespecified levels, and at 90% target coverage, 85 of 87 subjects had prediction intervals that supported an unambiguous amyloid-positivity decision. Zero-shot evaluation on an independent external cohort showed that the proposed CT-to-MRI model could support PET quantification without retraining, although conformal calibration required target-cohort recalibration to recover the intended coverage. These findings support CT-to-MRI-based MRI-free PET quantification as a promising approach for providing accurate SUVR measurements and an explicit assessment of their reliability."
+  },
+  {
+    "title": "Influence of $\u0394$ resonances in hyperonic neutron stars on gravitational-wave inspiral signatures",
+    "url": "http://arxiv.org/abs/2610.40441v1",
+    "arxiv_id": "2610.40441v1",
+    "authors": [
+      "Athira S.",
+      "Vivek Baruah Thapa",
+      "Monika Sinha"
+    ],
+    "published": "2026-10-29T16:56:31+00:00",
+    "summary": "The composition of dense matter in neutron star interiors remains uncertain, with the possible appearance of the non-strange $\u0394$ resonances providing an important source of theoretical uncertainty. In this work, we investigate the gravitational wave signatures of hyperonic neutron stars containing $\u0394$ baryons within a density-dependent relativistic mean-field framework based on the DDME2 parametrization. Within this framework, the baryons interact among themselves via mesons. For $\u0394$ baryons, the interaction is uncertain to date. We investigate how variations of the scalar and vector $\u0394-$meson couplings, subject to \\(x_{\u03c3\u0394}-x_{\u03c9\u0394}=0.2\\), modify the tidal properties and inspiral gravitational-wave signals. We find that the allowed variation in the $\u0394-\u03c3$ coupling leads to substantial changes in the tidal properties of the neutron stars, which in turn leave distinct imprints on the gravitational-wave waveforms, particularly in their frequency evolution, accumulated phase, and strain amplitude. These waveform differences arise through changes in tidal deformability and are not unique signatures of $\u0394$ resonances. Future gravitational-wave observations may therefore constrain the $\u0394-$meson couplings within the adopted dense-matter framework, subject to degeneracies with alternative EOS models."
+  },
+  {
+    "title": "A Pretrained Model for Bayesian Filtering in Heterogeneous Dynamical Systems",
+    "url": "http://arxiv.org/abs/2610.40437v1",
+    "arxiv_id": "2610.40437v1",
+    "authors": [
+      "Ke Fan",
+      "Wen Wu",
+      "Haitao Su",
+      "Yilin Wang",
+      "Yuan Zhou",
+      "Chao Zhang"
+    ],
+    "published": "2026-10-29T16:56:08+00:00",
+    "summary": "Filtering has not yet had its foundation-model moment: state estimation is still dominated either by online Bayesian filtering algorithms that require known dy- namics as inputs, or by learning-based neural filters trained from scratch for a single system or parametric family. The core challenge is structural heterogene- ity: dynamical systems differ in their governing dynamics, physical scales, and noise levels, precluding a shared representation space for a reusable filter. To bridge this gap, we introduce FilterFM, the first pretrained model for Bayesian filtering that estimates latent states across heterogeneous dynamical systems with a single checkpoint. FilterFM employs a hierarchical two-level observation se- quence encoder and a prior-to-posterior state-reconstruction module that together handle varying observation and state dimensions across heterogeneous systems, while modeling state uncertainty via quantile prediction. Trained on a mixture of heterogeneous filtering tasks, FilterFM exhibits superior in-domain performance, delivering significant gains in estimation accuracy, runtime efficiency, and noise robustness compared to existing baselines. Beyond in-domain performance, it marks the first model to successfully enable zero-shot filtering on unseen dynamics, bridging the generalization gap in state estimation. Furthermore, we uncover clear scaling behaviors in foundation-model-based Bayesian filtering, which combined with comprehensive component ablation studies, validate the structural optimality of our design and broaden the generalization scope for this research field."
+  },
+  {
+    "title": "Yoga biomechanics through energy optimization: diverse kinematics and low-dimensional kinetics",
+    "url": "http://arxiv.org/abs/2610.40436v1",
+    "arxiv_id": "2610.40436v1",
+    "authors": [
+      "Sriram Sekaripuram Muralidhar",
+      "Manoj Srinivasan"
+    ],
+    "published": "2026-10-29T16:54:43+00:00",
+    "summary": "Yoga is widely practiced for improving physical and mental health, yet the biomechanical demands of individual yoga poses remain poorly characterized. Existing experimental studies typically examine only a small number of poses or muscles, limiting their ability to guide pose selection for rehabilitation or exercise prescription. Here we present a computational framework for predicting whole-body joint torques and contact forces from two-dimensional images of yoga poses. The framework combines manual pose digitization, a sagittal-plane MuJoCo human model, and constrained metabolic energy minimization subject to static equilibrium. We applied the framework to 55 sagittally symmetric yoga poses from Light on Yoga, generating a dataset of joint kinematics, contact locations, and predicted joint torques and contact forces. These poses collectively span nearly the full physiological range of motion of the major joints while exhibiting a wide range of predicted joint torques, with the greatest average demands on the lower extremities and lumbar region. Principal component analysis revealed a striking contrast between kinematics and kinetics: nearly all ten dimensions were required to represent the joint-angle data, whereas the first three principal components captured over 90% of the variance in joint torques. Thus, yoga poses exhibit substantial diversity in body configurations but comparatively low-dimensional patterns of predicted joint loading. Predicted joint torque rankings were also largely insensitive to uncertainty in the relative weighting of joint metabolic costs. This framework enables systematic biomechanical analysis of yoga poses and provides a foundation for quantitatively evaluating their mechanical demands and informing future rehabilitation strategies."
+  },
+  {
+    "title": "Optimal Path Planning with Localization constraints",
+    "url": "http://arxiv.org/abs/2610.40429v1",
+    "arxiv_id": "2610.40429v1",
+    "authors": [
+      "Chinmay Mundane",
+      "Manav Mishra",
+      "PB Sujit"
+    ],
+    "published": "2026-10-29T16:51:33+00:00",
+    "summary": "This paper studies UAV path planning in areas where GPS signals are not present. Because these drones can easily get lost when they don't have GPS, they must rely on dead reckoning and occasionally pass near cellular towers, which act as landmarks to reset and fix their position. The goal is to find the shortest path from a start to a goal location while keeping the estimation uncertainty within a given bound. To solve this problem, we propose a localization-constrained A* planner that treats uncertainty as a hard constraint during search. The robot state and covariance are propagated using an Extended Kalman Filter (EKF), and only paths that satisfy the covariance limit are considered. We also show that the proposed method does not affect heuristic used in A* and remains admissible and consistent, ensuring optimality among all feasible paths. Extensive Monte Carlo simulations and PyBullet quadrotor test show that the proposed method finds shorter and more reliable paths compared to RRT* and PRM, while always satisfying the uncertainty constraint."
+  },
+  {
+    "title": "Uncertainty-aware Feedback Loop Diagnosis: integrating reinforcement learning and conformal prediction for reliable wafer defect classification",
+    "url": "http://arxiv.org/abs/2610.40421v1",
+    "arxiv_id": "2610.40421v1",
+    "authors": [
+      "Aleksandr Dekhovich",
+      "Carlas Smith",
+      "Oleg Soloviev"
+    ],
+    "published": "2026-10-29T16:45:29+00:00",
+    "summary": "Semiconductor manufacturing is a complex, multi-step process that requires both high precision and low operating costs. Therefore, detecting defects in a high-volume setting is an important component of wafer map analysis for reliable production. However, most state-of-the-art deep learning approaches require a full scan of the surface, which hinders the development of high-throughput inspection systems. To address this problem, we propose Uncertainty-aware Feedback Loop Diagnosis (UFLD), a novel algorithm that employs reinforcement learning for adaptive measurement acquisition and provides a prediction uncertainty level after each step, stopping the process once sufficient information is obtained. Unlike existing methods that rely on ensemble models or auxiliary confidence estimation deep learning models, UFLD utilizes a more parameter-efficient conformal prediction framework to determine the optimal stopping time. The proposed UFLD reduces acquisition time by about $40\\%$ and achieves $98.4\\%$ inspection accuracy, without requiring an additional learned confidence-estimation network. We validated our approach on the MixedWM38 dataset, demonstrating its advantages over existing adaptive acquisition procedures and standard convolutional neural networks."
+  },
+  {
     "title": "Improving cosmological distance measurements at high redshift using Lyman-Alpha forest BAO reconstruction",
     "url": "http://arxiv.org/abs/2610.37664v1",
     "arxiv_id": "2610.37664v1",
