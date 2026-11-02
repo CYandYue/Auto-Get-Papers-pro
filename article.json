@@ -1,5 +1,158 @@
 [
   {
+    "title": "Model-Independent Assessments of Tidal Alignment and Density-Weighting Dependence in Galaxy Intrinsic Alignments",
+    "url": "http://arxiv.org/abs/2610.42151v1",
+    "arxiv_id": "2610.42151v1",
+    "authors": [
+      "Paul Rogozenski",
+      "Sukhdeep Singh",
+      "Jonathan Blazek",
+      "Rachel Mandelbaum",
+      "Hung-Jin Huang",
+      "Ananth Tenneti"
+    ],
+    "published": "2026-10-30T17:59:45+00:00",
+    "summary": "Intrinsic alignments (IA) of galaxies are an important source of systematic uncertainty in weak gravitational lensing measurements and also serve as a test for models of galaxy formation and evolution. These galaxy alignments are usually modeled assuming that the IA are sourced by the tidal fields around the galaxies. However, galaxy properties, like their proximity to other galaxies and their mass, provide alignment contributions beyond the tidal field. In this work, we perform novel model-agnostic tests to determine the impact of density-weighting on the IA of galaxies using data from the IllustrisTNG cosmological hydrodynamical simulation and SDSS-III (BOSS). We show that the primary effect of density-weighting is an increase of the alignment amplitude at large scales, whereas the small-scale impact is sample-dependent. We also assess the tidal alignment paradigm for IllustrisTNG galaxies using two-point correlation functions of galaxy shapes, tidal fields, and the sampled background tidal field of the simulation box. We find, given the precision of our measurements, that central galaxies align linearly to the underlying (non-linear) tidal field well into the 1-halo regime."
+  },
+  {
+    "title": "Regret-Optimal Wasserstein-Robust Linear Regression",
+    "url": "http://arxiv.org/abs/2610.42109v1",
+    "arxiv_id": "2610.42109v1",
+    "authors": [
+      "Sloan Nietert",
+      "Daniel Kuhn"
+    ],
+    "published": "2026-10-30T17:47:58+00:00",
+    "summary": "Distributionally robust optimization (DRO) minimizes worst-case risk under distributional uncertainty, but its decisions can be suboptimal in terms of their excess risk, or regret. We study this gap for multivariate least-squares regression, assuming that the observed source law and unknown target law differ by an adversarial 2-Wasserstein perturbation of size $\\varepsilon$. We first identify the asymptotic complexity of robust decision-making in the $\\varepsilon \\to 0$ limit, characterized by a problem-specific condition number $\u03ba$. Here, a wide spectrum of simple algorithms, including DRO, achieve the instance-optimal rate of $O(\u03ba\\varepsilon^2)$. For fixed $\\varepsilon > 0$, we prove that DRO still achieves the minimax rate if the problem has bounded residual effective rank. On the other hand, we identify significant failure modes where DRO is provably suboptimal by dimension-dependent factors. Fortunately, we prove that two alternative procedures, minimax regret optimization (MRO) and spectral-norm regularization (SNR), attain the minimax rate. We derive an exact convex reformulation of MRO and an accelerated proximal algorithm for SNR, along with high-probability finite-sample guarantees. We support these theoretical results with numerical experiments separating the performance of MRO and SNR from DRO."
+  },
+  {
+    "title": "Tests of equivalence principle violation in doubly coupled dark energy",
+    "url": "http://arxiv.org/abs/2610.42056v1",
+    "arxiv_id": "2610.42056v1",
+    "authors": [
+      "Yannick Kegel",
+      "Ziyang Zheng",
+      "Luca Amendola"
+    ],
+    "published": "2026-10-30T17:18:53+00:00",
+    "summary": "Recent work has shown that a simple form of coupled dark energy with a constant coupling produces a good fit to the DESI data. In this scenario, dark matter, but not baryons, couples to a scalar field, thereby violating the weak equivalence principle (EP). We first generalize the coupled dark energy model by adding a nonminimal coupling between the scalar field and gravity, and dub the resulting model \"doubly coupled dark energy\". We then construct a parameter $E_P$ in this model that quantifies EP violation on cosmological scales and can be measured with large galaxy surveys in a model-independent way. Finally, we forecast constraints on the couplings for present and future spectroscopic galaxy surveys, namely DESI, Euclid, and SKA Phase 2 (SKA2). To keep the analysis as general as possible, we leave the initial power spectrum shape and the galaxy bias free to vary in several bins. Among these surveys, SKA2 could provide the tightest constraint on the coupling strength in the coupled dark energy scenario, with a relative $1\u03c3$ uncertainty of $22\\%$. The constraints weaken when both couplings are varied, but can be further improved by increasing the number of galaxies detected."
+  },
+  {
+    "title": "Know When the Equation Is Wrong: Structural Uncertainty for LLM-Guided Symbolic Regression under Extrapolation",
+    "url": "http://arxiv.org/abs/2610.42024v1",
+    "arxiv_id": "2610.42024v1",
+    "authors": [
+      "Mostafa Cham",
+      "Bayu Adhi Tama",
+      "Jianwu Wang"
+    ],
+    "published": "2026-10-30T16:54:16+00:00",
+    "summary": "Large language models (LLMs) can help discover mathematical equations from data, but most LLM-guided symbolic regression methods focus on a single best equation without quantifying uncertainty over alternative functional forms. This is challenging because distinct equations can fit the observed data similarly while producing substantially different extrapolations. Our experiments on the LLM-SRBench dataset show that standard conformal intervals achieve nominal in-distribution coverage but frequently fail under extrapolation. To tackle this challenge, we introduce LLM-SR-UQ, a framework that retains competing equation structures and uses their disagreement to characterize uncertainty about the underlying functional form. We extend the standard fixed-width conformal approach to quantify structural intervals, which measure disagreement among candidate equations and identify where prediction intervals should widen. Extensive experiments show our framework substantially improves coverage attainment by incorporating structural disagreement while preserving in-distribution coverage. Our approach also shows good generalizability when it is applied to other symbolic-regression methods."
+  },
+  {
+    "title": "Risk Assessment of Fair Multi-Period Dynamic Operating Envelopes under Uncertainty",
+    "url": "http://arxiv.org/abs/2610.42014v1",
+    "arxiv_id": "2610.42014v1",
+    "authors": [
+      "Pedro Salom\u00e3o Quessongo",
+      "Daniel Gebbran",
+      "Wilhiam de Carvalho",
+      "Clodomiro Unsihuay-Vila"
+    ],
+    "published": "2026-10-30T16:50:01+00:00",
+    "summary": "Dynamic operating envelopes (DOEs) can allocate time-varying export capacity to distributed energy resources (DERs), and while they are not intended to make operations immune to voltage violations, they should guide operations to mostly remain inside expected values under changing regimes and residual forecast errors. However, although recent literature proposed many different techniques for implementing DOEs, there is sparse discussion of analyzing and quantifying the risk of using more or less conservative DOEs under uncertain operating regimes. Having this gap in mind, this paper develops a risk-oriented extension of a previously established fair distributed multi-period optimal power flow (OPF) framework, where fair or technical DOEs are fixed as first-stage decisions and the OPF leverages battery energy storage and renewable curtailment as recourse under regime uncertainties. An independent nonlinear AC power flow then computes a resulting ensemble, which is summarized by (i) voltage-violation probability, severity, and a persistence metric for consecutive out-of-band hours, (ii) curtailment and Jain and Gini indices, and (iii) model deviations. Different probability situations are assessed, ranging from uniform, sunny-heavy, night-peak-heavy, and adversarial, which separate the envelope design from the assumed operating distribution. An optional outer loop allows for fine-tuning a fairness--efficiency parameter under explicit violation and persistence budgets. The combination of the outer loop and the overall framework, which quantifies how often and how severely operating limits are exceeded, creates an auditable methodology mixing equitable export allocation, distributed recourse, and AC risk assessment for active distribution network operators, and this framework is assessed using up to 1000 Monte Carlo scenarios per mixture and DOE design."
+  },
+  {
+    "title": "Chronos-2: A foundation model for multivariate time series forecasting",
+    "url": "http://arxiv.org/abs/2610.41956v1",
+    "arxiv_id": "2610.41956v1",
+    "authors": [
+      "Abdul Fatir Ansari",
+      "Oleksandr Shchur",
+      "Jaris K\u00fcken",
+      "Andreas Auer",
+      "Boran Han",
+      "Pedro Mercado",
+      "Syama Sundar Rangapuram",
+      "Huibin Shen",
+      "Lorenzo Stella",
+      "Xiyuan Zhang",
+      "Mononito Goswami",
+      "Shubham Kapoor",
+      "Danielle C. Maddix",
+      "Pablo Guerron",
+      "Florian Saupe",
+      "Markus Reichstein",
+      "Tony Hu",
+      "Junming Yin",
+      "Nick Erickson",
+      "Prateek Mutalik Desai",
+      "Hao Wang",
+      "Huzefa Rangwala",
+      "George Karypis",
+      "Yuyang Wang",
+      "Michael Bohlke-Schneider"
+    ],
+    "published": "2026-10-30T16:08:23+00:00",
+    "summary": "Accurate forecasting with uncertainty quantification is critical in a variety of scientific applications ranging from epidemiology and economics to energy systems and earth sciences. Yet most forecasting models still need to be developed and trained separately for each domain-specific dataset. Time series foundation models (TSFMs) aim to remove this limitation and enable the application of the same model across domains through large-scale pretraining. However, most existing TSFMs treat each time series independently and therefore cannot model interactions among time series and external drivers. Here, we introduce Chronos-2, a foundation model for zero-shot forecasting that models the interactions between multivariate time series and heterogeneous covariates, which commonly arise in scientific applications. The model infers relationships among time series directly from historical context and generates probabilistic forecasts without task-specific treatment. Across various benchmarks, Chronos-2 achieves state-of-the-art accuracy on average by improving skill scores by 5.2 percentage points relative to the strongest baselines and increasing win rates by 10 percentage points. Chronos-2 is also computationally efficient, generating forecasts for 100 time series in under one second on a single mid-range GPU, 50x and 1000x faster end-to-end than the best task-specific point and probabilistic forecasters, respectively. In addition, we demonstrate its effectiveness in diverse scientific settings -- including infectious-disease forecasting, macroeconomic modeling, carbon-flux prediction, and runoff simulation -- where the model matches or surpasses specialized methods developed for each domain. These results show that a single pretrained model can capture structure shared across temporal systems."
+  },
+  {
+    "title": "B-ExposNet: Bayesian Deep Learning for EMF Exposure Mapping with Uncertainty Quantification",
+    "url": "http://arxiv.org/abs/2610.41913v1",
+    "arxiv_id": "2610.41913v1",
+    "authors": [
+      "Yukun Liu",
+      "Shanshan Wang",
+      "Paul Lagouanelle",
+      "Yarui Zhang",
+      "Joe Wiart"
+    ],
+    "published": "2026-10-30T15:47:29+00:00",
+    "summary": "Electromagnetic field exposure in urban environments is highly variable, and conventional exposure maps provide a deterministic estimate, without considering its uncertainty. To address the gap, this paper proposes B-ExposNet, a Bayesian neural network for spatial exposure estimation with uncertainty quantification. B-ExposNet extends ExposNet by treating the weights of regression head as random variables, inferred by variational inference, so that the model provides probabilistic estimates from posterior predictive distribution. The method is evaluated on drive-test measurement campaigns conducted in three French cities, and compared with conventional method such as universal Kriging, in both predictive accuracy and the quality of the estimated uncertainty. On the test region, B-ExposNet achieves a mean absolute percentage error of 28.19\\% and a continuous ranked probability score of 0.198~V/m, improving on canonical methods in both accuracy and uncertainty quantification."
+  },
+  {
+    "title": "Laboratory study of mineral dust optical properties extending in the far-infrared spectral range",
+    "url": "http://arxiv.org/abs/2610.41907v1",
+    "arxiv_id": "2610.41907v1",
+    "authors": [
+      "Perla Alalam",
+      "Herv\u00e9 Herbin",
+      "Denis Petitprez",
+      "Sylvie Gosselin",
+      "Valentine Bizet",
+      "Paola Formenti",
+      "Pasquale Sellitto",
+      "Claudia Di Biagio"
+    ],
+    "published": "2026-10-30T15:43:54+00:00",
+    "summary": "Mineral dust is one of the most abundant atmospheric aerosol types and remains a major source of uncertainty in estimates of aerosol radiative forcing. This uncertainty is particularly important in the far-infrared (FIR) spectral region, where the optical properties of natural mineral dust, especially its complex refractive index (CRI), remain poorly known. Previous measurements have commonly relied on pellet- or film-based methods, which can alter particle size, shape, and vibrational modes, inducing errors in the CRI determination. In this study, we present a laboratory investigation on six natural mineral dust samples with contrasting compositions and originated from major dust source regions worldwide, including Arizona, Atacama, China, Niger, Saudi Arabia, and Tunisia. Suspended dust aerosols were generated under controlled dry conditions and characterized using extinction spectroscopy from the infrared 250 to 4000 cm^-1 (2.5 to 40 micrometers) to the Ultraviolet-Visible (UV-Vis) from 10000 to 40000 cm^-1 (0.25 to 1 micrometer) spectral range, combined with particle size distribution measurements. The real and imaginary parts of the CRI were retrieved for all six samples, revealing a significant absorption and pronounced spectral variability in the FIR. These variations should be accounted for in remote sensing and dust radiative effect studies."
+  },
+  {
+    "title": "Statistical Foundations of Reinforcement Learning: A Non-Asymptotic Perspective",
+    "url": "http://arxiv.org/abs/2610.41903v1",
+    "arxiv_id": "2610.41903v1",
+    "authors": [
+      "Yuxin Chen",
+      "Yuejie Chi",
+      "Jianqing Fan",
+      "Gen Li",
+      "Yuting Wei",
+      "Yuling Yan"
+    ],
+    "published": "2026-10-30T15:39:38+00:00",
+    "summary": "Reinforcement learning (RL) embodies a foundational paradigm for sequential decision-making in the face of uncertainty. The rapid growth of model complexity in emerging applications has significantly amplified the challenges of achieving data-efficient RL, particularly in sample-starved scenarios where data collection may be costly, time-consuming, or even high-stakes. Consequently, understanding and improving the data efficiency of RL algorithms has become a central problem of both fundamental theoretical interest and practical importance.   Despite decades of research, the statistical underpinnings of RL remained remarkably underdeveloped until relatively recently, particularly in the finite-sample regimes most relevant to modern practice. Over the past few years, there has been a surge of activity advancing the frontiers of non-asymptotic statistical RL theory, drawing on ideas from high-dimensional statistics and probability, information theory, and statistical learning theory. In this monograph, we present a non-asymptotic treatment for RL based on tabular Markov decision processes, focusing on three canonical sampling mechanisms --- RL with a generative model, online RL, and offline RL --- together with two algorithmic paradigms: model-based and model-free approaches. Centered around non-asymptotic sample complexity analysis, our treatment emphasizes minimax-optimal algorithm design, particularly methods that attain statistical optimality without significant burn-in costs, as well as sharp statistical characterizations of several widely used RL algorithms. Whenever possible, we provide largely self-contained analyses together with intuitive explanations. We also briefly discuss several extensions, such as robust RL, competitive multi-agent RL, federated RL, uncertainty quantification, and RL from human feedback."
+  },
+  {
+    "title": "On approximate support versions of Donoho--Stark uncertainty principles for $k$-Hadamard operators",
+    "url": "http://arxiv.org/abs/2610.41902v1",
+    "arxiv_id": "2610.41902v1",
+    "authors": [
+      "Rami Ayoush"
+    ],
+    "published": "2026-10-30T15:39:12+00:00",
+    "summary": "In this paper we present results related to Donoho--Stark type uncertainty principles that were proved in the article \"The uncertainty principle: variations on a theme\" by Wigderson and Wigderson for $k$-Hadamard operators in the finite-dimensional setting. Namely, the authors showed that Donoho-Stark principles can be generalized to versions for approximate supports with respect to norms $\\ell^{p}$ for $p=1$ and $p=2$. In the second case they assumed the so-called speciality condition, namely that a suitable matrix satisfies $A^{*}A = kI$. First we show that such theorems cannot be generalized to $p>1$ if matrices are not special $k$-Hadamard. Next we prove Donoho-Stark type principle for special $k$-Hadamard operators for $\\ell^{p}$ norms within the range $1\\leq p\\leq 2$. Finally, we show that such theorems are false for $p>2$ even in the presence of the speciality condition."
+  },
+  {
     "title": "Field-level inference under pressure: the information content of the thermal Sunyaev-Zel'dovich field",
     "url": "http://arxiv.org/abs/2610.40617v1",
     "arxiv_id": "2610.40617v1",
