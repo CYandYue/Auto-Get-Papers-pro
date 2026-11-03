@@ -1,5 +1,137 @@
 [
   {
+    "title": "The Giant Planet Mass Function Across Stellar Mass and Metallicity: Massive Stars Make Massive Planets",
+    "url": "http://arxiv.org/abs/2611.03613v1",
+    "arxiv_id": "2611.03613v1",
+    "authors": [
+      "Judah Van Zandt",
+      "Brendan Bowler"
+    ],
+    "published": "2026-11-02T18:47:54+00:00",
+    "summary": "Although giant planet occurrence correlates with stellar mass and metallicity, it remains unclear whether these properties also shape the companion mass distribution. We investigate this question using 719 FGKM stars from the California Legacy Survey and companion true-mass constraints from radial velocities and Hipparcos-Gaia astrometry. Our hierarchical occurrence analysis accounts for survey completeness and companion parameter uncertainties over giant planet and brown dwarf masses of M_c=0.4-50 M_Jup and semi-major axes of a=0.1-10 AU. We find that, compared to the rate among our full sample of 0.19 +/- 0.02 planets per star in this interval, giant planet occurrence is significantly enhanced around stars with high mass (M_star>1 M_sun; 0.39 (+0.06/-0.05) planets per star) and high metallicity ([Fe/H]>0.0; 0.30 (+0.04/-0.03) planets per star). We find evidence at the 2-3 sigma level that the planet mass function shape varies with stellar mass, with higher characteristic planet masses around stars with M_star>1 M_sun than around lower-mass hosts, based on differences in both the CDFs of fitted models and constraints on model shape parameters. For the full sample, occurrence declines above a few Jupiter masses and is consistent with either a plateau below ~3 M_Jup or a peak near 1-2 M_Jup. The brown dwarf desert begins at a companion-to-host mass ratio of 0.013-0.02. These results suggest that stellar properties influence not only the frequency of giant companions but also their characteristic masses. Within the core accretion framework, this shift could reflect larger gas reservoirs around more massive stars or earlier core formation in metal-rich disks, allowing greater gas accretion before disk dispersal."
+  },
+  {
+    "title": "Evaluating Uncertainty Calibration in Probabilistic Time Series Foundation Models",
+    "url": "http://arxiv.org/abs/2611.03592v1",
+    "arxiv_id": "2611.03592v1",
+    "authors": [
+      "Thomas Decker",
+      "Volker Tresp"
+    ],
+    "published": "2026-11-02T18:34:50+00:00",
+    "summary": "Time series foundation models (TSFMs) are increasingly used for probabilistic forecasting across diverse domains, yet the reliability of their uncertainty estimates remains poorly understood. In this work, we study uncertainty calibration in probabilistic TSFMs from a broader methodological and empirical perspective. We introduce a taxonomy of how TSFMs represent predictive uncertainty and develop a fine-grained evaluation framework for calibration in multi-horizon forecasting that distinguishes pooled, horizon-wise, and stronger conditional notions of calibration. Using this framework, we conduct a comprehensive empirical evaluation of popular TSFMs across diverse datasets and show that current models exhibit distinct and systematic patterns of miscalibration that standard metrics often obscure. We further analyze common post-hoc recalibration methods and characterize which forms of calibration they can improve and which tend to persist. Our results provide practical guidance for evaluating and improving uncertainty calibration in TSFMs and highlight important limitations of current practice."
+  },
+  {
+    "title": "TAMPAgent: Agentic Belief-Space Planning for Mobile Manipulation",
+    "url": "http://arxiv.org/abs/2611.03584v1",
+    "arxiv_id": "2611.03584v1",
+    "authors": [
+      "Utkarsh A. Mishra",
+      "Alperen Degirmenci",
+      "Yongxin Chen",
+      "Danfei Xu",
+      "Tucker Hermans",
+      "Caelan Garrett"
+    ],
+    "published": "2026-11-02T18:32:18+00:00",
+    "summary": "Open-world robotic mobile manipulation requires acting in physical environments with only partial information. While recent Large Vision-Language Model (LVLM) agents show strong open-world reasoning capabilities, existing architectures that rely on direct tool calling struggle with geometric uncertainty and thus are limited to fully-observable tabletop environments. In contrast, Task and Motion Planning (TAMP) systems can solve long-horizon tasks under partial observability but incur high computational costs and require closed worlds. We propose \\textbf{TAMPAgent}, an agentic planning framework that unifies the reasoning of LVLMs with the structured constraint satisfaction of TAMP systems. We endow an LVLM agent with a belief-space planning model operating over an extensible API of perception, planning, and control tools. The agent formulates a partial task plan composed of parameterized observation and execution actions, which is subsequently completed using classical search algorithms. After extracting the plan's geometric constraints, the agent leverages its tool API to bind valid parameter values, satisfying feasibility requirements and producing an executable motion plan. Upon execution, the agent continuously updates its belief history and repeats this closed-loop process by interleaving observation and manipulation actions. Evaluated across complex household mobile manipulation tasks on Rainbow Y1 and Unitree G1 platforms, TAMPAgent significantly outperforms direct tool-calling agentic baselines, demonstrating that integrating TAMP constraint satisfaction into agentic planning loops is essential for unstructured, partially observable environments."
+  },
+  {
+    "title": "Multiprobe strategies for Kinematic Lensing with the Roman Space Telescope High Latitude Wide Area Survey",
+    "url": "http://arxiv.org/abs/2611.03497v1",
+    "arxiv_id": "2611.03497v1",
+    "authors": [
+      "Yu-Hsiu Huang",
+      "Jiachuan Xu",
+      "Tim Eifler",
+      "Elisabeth Krause",
+      "Spencer Everett",
+      "Fabian Hervas-Peters",
+      "Pranjal R. S.",
+      "Eric Huff",
+      "Yan Xiang Lai"
+    ],
+    "published": "2026-11-02T17:37:43+00:00",
+    "summary": "In its latest design, the High Latitude Wide Area Survey (HLWAS) Medium Tier comprises overlapping photometric and spectroscopic data across 2,300 square degrees. This dataset enables Kinematic Lensing (KL), a Weak Lensing (WL) technique that exploits galaxy kinematics to control for shape noise, the dominant statistical limitation of traditional WL. We present several simulated analyses quantifying the expected cosmological science return of a Roman KL analysis with the latest design of the HLWAS: We explore KL prospects with early Roman data from the Deep Tier fields and from the early Medium Tier fields; we demonstrate the impact of different roll-angle choices on the KL performance; we benchmark KL against traditional WL; we introduce a KL-based multiprobe analysis that jointly models KL, galaxy clustering, and galaxy-galaxy lensing. In these analyses, we consider systematics, including photometric uncertainties, shear calibration bias, galaxy bias, and baryonic feedback. Our results show that KL alone achieves a dark energy figure of merit (FoM) of 22.54, which is more than a factor of two improvement over a corresponding WL analysis. The KL multiprobe approach improves the full-survey FoM to 34.58, even assuming conservative scale cuts in the clustering and galaxy-galaxy lensing. For the HLWAS roll-angle strategy, we find that the current plan of 4 passes with rotations of approximately 0, 10, 170, 180 degrees are near optimal for KL."
+  },
+  {
+    "title": "Fracture-Bench: A Controlled Benchmark Suite for Machine Learning Surrogates in Phase-Field Fracture Mechanics",
+    "url": "http://arxiv.org/abs/2611.03473v1",
+    "arxiv_id": "2611.03473v1",
+    "authors": [
+      "Meenu Krishnan U.",
+      "Maryam Hakimzadeh",
+      "Indrashish Saha",
+      "Meer Mehran Rashid",
+      "Lori Graham-Brady",
+      "Somdatta Goswami"
+    ],
+    "published": "2026-11-02T17:13:22+00:00",
+    "summary": "Machine-learning surrogates are increasingly proposed to replace phase-field fracture simulations in many-query tasks such as uncertainty quantification, inverse analysis and design. Little controlled evidence shows which architectures are reliable, for which fracture problems and how far beyond their training data. We introduce Fracture-Bench, an open benchmark of two phase-field datasets with fixed splits, common test metrics and a description of each dataset's physical regime. Dataset~1 contains 1,000 AT2 simulations of multiple cracks growing from a notched hole in a hyperelastic plate under random non-uniform biaxial boundary displacements (44 load steps, $128\\times128$ grid). Dataset~2 contains 4,000 PF-CZM simulations of a pre-cracked plate with two inclusions, each ten times stiffer or more compliant than the matrix ($128\\times256$ grid). We train a Fourier neural operator (FNO), DeepONet, Latent DeepONet, a UNet and a conditional diffusion model on identical splits and compare one test metric per dataset, training time, inference time and model size. On Dataset~1, FNO and Latent DeepONet attain mean test errors of order $10^{-6}$, about ten times lower than UNet and DeepONet. On Dataset~2, the diffusion model is most accurate, with about one sixth of the UNet error, but requires \\SI{706}{s} per prediction versus \\SI{6}{ms} for UNet. For all architectures, most of the error occurs in the final load steps, after crack localization. Dataset~2 contains initial cracks less than one grid cell apart that produce qualitatively different paths. Architecture rankings therefore depend on the task, and errors averaged over densely sampled inputs reveal little about near-bifurcation cases. Data, codes, splits, regime descriptors and generalization splits are public, with a protocol for adding under-represented regimes such as mixed-mode, three-dimensional and experimentally paired fracture."
+  },
+  {
+    "title": "A Bayesian Framework for Safe Optimal Control of Unknown Systems from Input-Output Data",
+    "url": "http://arxiv.org/abs/2611.03466v1",
+    "arxiv_id": "2611.03466v1",
+    "authors": [
+      "Robert Lefringhausen",
+      "Annalena Daniels",
+      "Michael Fink",
+      "Sandra Hirche"
+    ],
+    "published": "2026-11-02T17:09:06+00:00",
+    "summary": "As control engineering is applied to increasingly complex systems, learning-based control, which uses empirical data to reduce the reliance on first-principles models, has emerged as a promising paradigm. However, such approaches must cope with nonlinear and stochastic dynamics, the absence of state measurements, and scarce data, while ensuring safe operation under constraints, which requires rigorous uncertainty quantification. Whereas existing methods treat these challenges in isolation, this article proposes a Bayesian framework that jointly addresses them. A prior in state-space form is updated from input-output data using particle Markov chain Monte Carlo methods, yielding a representation of joint uncertainty over dynamics and latent states. Building on this representation, a validation procedure is developed that provides probabilistic guarantees for constraint satisfaction under arbitrary causal control laws. For control synthesis, a formulation penalizing the conditional value-at-risk of the constraint function is proposed, together with an adaptive calibration mechanism that adjusts the performance-robustness trade-off to achieve a desired robustness level. The probability of successful certification is characterized theoretically. The framework is extended to a receding-horizon setting, where posterior updates from new measurements allow the controller to progressively reduce uncertainty and improve performance. The approach is demonstrated on the optimal control of a vertical farm."
+  },
+  {
+    "title": "Penalize the Common Trade: A Collision-Aware Layer for Learned Portfolios",
+    "url": "http://arxiv.org/abs/2611.03453v1",
+    "arxiv_id": "2611.03453v1",
+    "authors": [
+      "Eric Benhamou",
+      "Jean-Jacques Ohana",
+      "Beatrice Guez",
+      "Ethan Setrouk",
+      "Chamyl Saadi",
+      "Thomas Jacquot"
+    ],
+    "published": "2026-11-02T16:59:38+00:00",
+    "summary": "Different learning systems can make nearly the same trade when they share data, objectives, or representations. The market then sees decision concentration even if the models look diverse. We call exposure to this shared direction a signal collision. A linear-impact game shows the basic externality: each allocator chooses too much common exposure because it does not bear the full price effect imposed on others. An overlap-dependent toll recovers the social choice, and a feedback model gives the exact gain at which return-responsive allocation becomes unstable. We also state the restrictive spectral conditions under which a leading eigenportfolio can reveal the collision direction. These results motivate a simple post-model layer: subtract a penalty for loading on the recent common return mode before forming the portfolio. In a frozen panel of ten liquid cross-asset ETFs, 760 completed weeks from January 2012 through July 2026, and exact self-financing costs of 10 basis points per dollar traded, this layer changes maximum drawdown from 23.6% to 14.1%, volatility from 12.6% to 10.7%, and excess-return Sharpe from 0.664 to 0.667. A volatility-matched momentum diagnostic still draws down 19.9%. Paired stationary-bootstrap uncertainty is wide: the 95% interval for drawdown improvement is $[-3.3,18.4]$ percentage points and includes zero. The result establishes a reproducible risk-control association and specifies the holdings-and-flow validation needed to attribute the common direction to AI crowding. AI-use disclosure. Generative AI tools, including OpenAI Codex, assisted manuscript preparation. For this preprint version, Codex assisted with LaTeX editing, author and venue metadata, compilation, and layout checks."
+  },
+  {
+    "title": "Toward Uncertainty-Aware, Physics-Grounded Human World Models",
+    "url": "http://arxiv.org/abs/2611.03428v1",
+    "arxiv_id": "2611.03428v1",
+    "authors": [
+      "Yufei Zhang",
+      "Zijun Cui"
+    ],
+    "published": "2026-11-02T16:50:52+00:00",
+    "summary": "A robot that acts around people needs a world model of the human: a belief over the person's body state and a dynamics model that predicts where that state goes next. This abstract argues that two published components form exactly these two halves, and specifies how to couple them. KNOWN [1] reconstructs the 3D human body while estimating both aleatoric and epistemic uncertainty in real time (11.6 ms per frame); its aleatoric term identifies unreliable observations, its epistemic term identifies inputs from low-density regions of the training data, and refinement driven by the epistemic term reduces the error on such inputs from 81.3 to 70.3 mm. PhysMoP [2] predicts future body configuration by solving the Euler-Lagrange equations of the body with learned dynamics terms, reducing the 80 ms prediction error from 9.6 to 2.1 mm on Human3.6M and from 12.1 to 0.7 mm on 3DPW. We define the interface between the two, propose three mechanisms by which KNOWN's uncertainty enters PhysMoP, and specify an evaluation protocol on in-the-wild video. No new experimental results are reported here."
+  },
+  {
+    "title": "bacontrees: An extensible framework for Bayesian Context Trees in R",
+    "url": "http://arxiv.org/abs/2611.03408v1",
+    "arxiv_id": "2611.03408v1",
+    "authors": [
+      "Victor Freguglia",
+      "Thiago Paulichen"
+    ],
+    "published": "2026-11-02T16:34:40+00:00",
+    "summary": "Context tree models, or variable-length Markov chains, describe symbolic sequences whose dependence structure varies with context length. Bayesian formulations of these models enable uncertainty quantification and regularization through priors on tree structures and transition probabilities. Despite their theoretical appeal, practical implementations have been fragmented and model-specific.   The bacontrees package for R provides a unified framework for Bayesian Context Trees by defining core data structures and a consistent interface for building, modifying and manipulating trees. Rather than implementing a single inference method, bacontrees offers the computational foundation upon which diverse Bayesian and frequentist algorithms can be developed.   This separation of representation and inference promotes reproducibility and facilitates experimentation with new modeling strategies. The package aims to support applications in information theory, linguistics, and other domains where context-based probabilistic modeling is central."
+  },
+  {
+    "title": "Non-Coherent Over-the-Air Distributed Consensus: Algorithm Design and Power Control Optimization",
+    "url": "http://arxiv.org/abs/2611.03378v1",
+    "arxiv_id": "2611.03378v1",
+    "authors": [
+      "Yuhang Deng",
+      "Zheng Chen",
+      "Erik G. Larsson"
+    ],
+    "published": "2026-11-02T16:20:54+00:00",
+    "summary": "Non-coherent over-the-air (NCOTA) aggregation offers a scalable and communication-efficient approach to distributed average consensus in wireless networks, without requiring instantaneous channel state information (CSI) or phase alignment. However, persistent aggregation errors pose fundamental challenges in achieving exact average consensus under nominal distributed averaging protocols. In this paper, we develop an NCOTA consensus framework that accommodates row-stochastic mixing, without requiring the conventional average-preservation property of doubly stochastic mixing matrices. Building on a distributed optimization formulation of average consensus, we propose a decentralized projected gradient descent with row-stochastic mixing (DPGD-RS) algorithm and establish its mean-square convergence to the exact average of the agents' initial states. We further derive a closed-form upper bound on the mean-square consensus error, characterizing the effects of aggregation uncertainty, network connectivity, and mixing imbalance. Guided by this analysis, we propose a spectral-reshaping power control (SR-PC) scheme that jointly optimizes transmit powers and receive-scaling factors to accelerate convergence by balancing aggregation accuracy and network mixing. Numerical results validate the theoretical convergence guarantees and demonstrate that the proposed power control scheme significantly accelerates convergence compared with full-power transmission and spectral-radius-minimization benchmarks."
+  },
+  {
     "title": "Model-Independent Assessments of Tidal Alignment and Density-Weighting Dependence in Galaxy Intrinsic Alignments",
     "url": "http://arxiv.org/abs/2610.42151v1",
     "arxiv_id": "2610.42151v1",
