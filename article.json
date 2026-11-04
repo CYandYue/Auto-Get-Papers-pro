@@ -1,5 +1,122 @@
 [
   {
+    "title": "SBi3PCF: cosmology with Dark Energy Survey Year 3 cosmic shear",
+    "url": "http://arxiv.org/abs/2611.05367v1",
+    "arxiv_id": "2611.05367v1",
+    "authors": [
+      "David Gebauer",
+      "Anik Halder",
+      "Zhengyangguang Gong",
+      "Cora Uhlemann"
+    ],
+    "published": "2026-11-03T18:56:57+00:00",
+    "summary": "We present the first cosmic shear data analysis of the integrated 3-point correlation function (i3PCF), a higher-order weak lensing statistic, and the first simulation-based inference (SBI) analysis of a three-point cosmic shear correlation function on survey data. Using SBi3PCF, our previously developed SBI framework for the i3PCF, we jointly constrain the $w$CDM parameter space with the cosmic shear 2-point correlation functions $\u03be_\\pm$ (2PCFs) and the i3PCFs $\u03b6_\\pm$ from the Dark Energy Survey Year 3 (DES Y3) weak lensing shape catalogue, from which we detect $\u03b6_\\pm$ with a signal-to-noise ratio of 12.8. Our forward model is built on the CosmoGridV1 N-body simulations and includes the survey mask, shape noise, intrinsic alignment, baryonic feedback, photometric redshift uncertainty and shear calibration bias. The analysis was carried out blind, with all choices frozen, and only unblinded once coverage tests, tests of the accuracy of the learned likelihoods, and internal consistency tests had been passed. For the joint $\u03be_\\pm$ + $\u03b6_\\pm$ analysis we obtain $\u03a9_m = 0.272^{+0.038}_{-0.033}$, $S_8 = 0.784^{+0.024}_{-0.021}$ and $w_0 = -1.04^{+0.25}_{-0.19}$. Adding $\u03b6_\\pm$ improves the figure of merit in the $\u03a9_m$-$S_8$-$w_0$ parameter space by a factor of $1.59$ over $\u03be_\\pm$ alone, as predicted by simulated i3PCF analyses. This gain comes from third-order information on angular scales $\\geq 15'$ and aperture radii $\\geq 50'$, a regime where baryonic effects are subdominant. The constraints are consistent with the other DES Y3 analyses of the same catalogue and with independent lensing analyses, and differ by at most $2.4\u03c3$ from CMB and BAO data (Planck 2018 + BAO, in $\u03a9_m$-$S_8$-$w_0$). This shows that $\u03b6_\\pm$ can be analysed on cosmological survey data with a fully simulation-based approach, an important step towards Stage-IV surveys."
+  },
+  {
+    "title": "Bright Siren Cosmology Beyond Fisher: DALI Forecasts for Third-Generation Gravitational Wave Observatories",
+    "url": "http://arxiv.org/abs/2611.05338v1",
+    "arxiv_id": "2611.05338v1",
+    "authors": [
+      "Mayara H. Pacheco",
+      "Josiel M. S. de Souza",
+      "Odylio D. Aguiar",
+      "M\u00e1rcio E. S. Alves"
+    ],
+    "published": "2026-11-03T18:39:14+00:00",
+    "summary": "In this work we assess non-Gaussian extensions of Fisher forecasting based on the Derivative Approximation for Likelihoods (DALI). We simulate ensembles of bright siren catalogs for third-generation observatories, adopting a Cosmic Explorer (CE) and a triangular Einstein Telescope (ET) network, frequency-domain inspiral waveforms, and selection-motivated priors for counterpart detection. We reconstruct approximate likelihoods using Fisher and the first DALI correction (Doublet), and propagate the inferred distance information to cosmological inference in a w0waCDM model. We find that the Doublet approximation provides tighter cosmological constraints than the Fisher approximation, reducing the inferred uncertainties by approximately a factor of two in agreement with non-approximate likelihood (called Exact) results. For our GW network onfiguration, 300 bright-siren detections up to z=1 yield an H0 precision of ~2.7% with the Doublet approximation, compared with ~2.5% for the exact likelihood. The adopted non-Gaussian GW priors induce a systematic displacement of the inferred luminosity distances from the fiducial values, which is also present in the exact GW reconstruction and propagates into the cosmological parameters. Compared with the exact cosmological likelihood, the Doublet results differ by only ~10% on average in the parameter uncertainties, compared with ~195% for the traditional Fisher approximation. The Doublet approximation also substantially reduces the computational cost, by a factor of ~55 for the GW analysis and by ~12 for cosmological likelihood evaluations, yielding an estimated reduction of ~55 in the total computational cost of the combined analysis. Our results show the potential of DALI-based approximations to provide accurate and computationally efficient tools for forecasting in bright siren cosmology."
+  },
+  {
+    "title": "Post-stratified importance sampling",
+    "url": "http://arxiv.org/abs/2611.05238v1",
+    "arxiv_id": "2611.05238v1",
+    "authors": [
+      "Yuling Yao",
+      "Sergei Tikhonov"
+    ],
+    "published": "2026-11-03T17:21:46+00:00",
+    "summary": "Importance sampling is a building block of modern statistical computing, but the weighted estimate is prone to high or infinite variance. Moreover, its empirical standard error is often unreliable, leaving importance sampling without practical uncertainty quantification. Motivated by multilevel regression and poststratification (MRP) in survey sampling, we propose post-stratified importance sampling (PIS) for estimating target expectations from proposal draws. PIS reformulates arbitrarily high-dimensional weighting into two one-dimensional probabilistic modeling problems: regression for the conditional mean given the importance ratio and marginal density estimation for the importance ratio. Different modeling choices yield a family of PIS estimators, encompassing ordinary importance sampling as a special case. We develop a model-based implementation that combines one-dimensional Gaussian process regression for the conditional mean and score-informed heavy-tailed density estimation for the marginal law, using both the observed weights and the available density evaluations. We study the oracle gains of PIS and establish consistency under general and model-specific conditions. Simulations and applications to cross-validation demonstrate improvements in estimation accuracy and uncertainty quantification."
+  },
+  {
+    "title": "Learning curves in natural and artificial systems",
+    "url": "http://arxiv.org/abs/2611.05224v1",
+    "arxiv_id": "2611.05224v1",
+    "authors": [
+      "Dmitry A. Novikov"
+    ],
+    "published": "2026-11-03T17:10:57+00:00",
+    "summary": "A general mathematical model of experience formation is considered, in which the learning level is defined as the probability that the next value of the uncertainty factor has already been mastered and not forgotten. Within this model the shape of the learning curve is derived, and it turns out to be determined primarily by the distribution of situation occurrence: a uniform distribution yields an exponential curve, whereas a power-law distribution yields a power-law curve whose exponent equals the ratio of the distribution exponent to that same exponent increased by one. Both mechanisms generating power-law curves, established earlier in the analysis of debugging, assembly and repair activities, are shown to have been independently rediscovered in deep learning theory as the \"frequency\" and \"spectral\" mechanisms of scaling laws for artificial neural networks, while the exponential curves of machine learning (contraction operators, strongly convex optimization, stationary reinforcement) are generated by the same constancy of the contraction coefficient that was revealed half a century earlier in models of radioactive decay, the first-order lag element, and others. A solution is given for the problem of choosing a training distribution that differs from the deployment distribution. A methodological consequence is discussed: three distinct mechanisms generate curves indistinguishable in shape, so an observed learning curve does not allow one to judge the \"internal\" structure of the learning system."
+  },
+  {
+    "title": "Macrocanonical Generator Networks: Data-Efficient Neural Surrogates for Amortized Physics Simulation",
+    "url": "http://arxiv.org/abs/2611.05157v1",
+    "arxiv_id": "2611.05157v1",
+    "authors": [
+      "Niall Jeffrey",
+      "Benjamin D. Wandelt"
+    ],
+    "published": "2026-11-03T16:30:49+00:00",
+    "summary": "Many scientific simulations are computationally expensive, limiting their use in simulation-based inference, uncertainty quantification, and decision making. We introduce macrocanonical generator networks, a framework for learning fast, data-efficient neural surrogates for amortized simulation of stationary physical processes by matching multiscale statistics of a target process. Inspired by microcanonical maximum-entropy synthesis, which matches feature statistics per sample by inner-loop optimization, our approach instead trains a neural generator to satisfy the same constraints in expectation, preserving physically realistic sample-to-sample fluctuations. We prove that gradient-descent training induces preconditioned gradient-descent dynamics in sample space that inherit the symmetry-preservation properties of the microcanonical gradient descent of Bruna and Mallat, amortizing its per-sample inner-loop optimization into a single training run after which every sample is generated in one forward pass. We further show that residual generator parameterizations initialized near the identity, trained with a small learning rate, preserve entropy locally during early optimization and mitigate mode collapse. Experiments on cosmology and fluid simulations show that macrocanonical generators recover realistic samples from extremely small training sets, in some cases a single training example, while generating new realizations more than $10^6$ times faster per sample than the reference simulator and more than $10^3$ times faster than microcanonical gradient descent. The trained generators can be reused for downstream pretraining, including simulation-based inference, providing a data-efficient route to multi-fidelity scientific machine learning workflows."
+  },
+  {
+    "title": "Information content of the Gamow Teller Resonance: Bayesian inference with self-consistent Skyrme models",
+    "url": "http://arxiv.org/abs/2611.05153v1",
+    "arxiv_id": "2611.05153v1",
+    "authors": [
+      "Zidu Lin",
+      "Gianluca Col\u00f2",
+      "Andrew W. Steiner",
+      "Amber Stinson"
+    ],
+    "published": "2026-11-03T16:28:53+00:00",
+    "summary": "Many important charge-exchange weak processes, such as beta decays, double beta decays, and neutrino-nucleus and neutrino-nucleon reactions, are closely related to the spin- and isospin-dependent nuclear force, yet few of them can be precisely measured, or even observed, in terrestrial experiments. The Gamow-Teller resonance (GTR) in finite nuclei is one of the few experimental probes of this spin-isospin force. In a companion letter, we obtained the probability distribution of the Landau-Migdal parameter $G'_0$, which characterizes the main part of the spin-isospin force, from GTR measurements using Bayesian inference. In this follow-up work, we quantitatively study the correlations emerging from this Bayesian analysis. From the posterior, we identify two standard Skyrme parameterizations (nuSky*) that reproduce, in a unified manner, ground-state observables of finite nuclei, the salient features of the GTR, and the bulk properties of neutron-star matter. Since collective excitations in finite nuclei and in neutron-star matter are related, we use the Skyrme interactions sampled from the posterior to constrain the axial-current, charged-current neutrino-nucleon reaction rates in hot and dense compact-star matter, as the first astrophysical application of this study. The GTR-informed calculations substantially reduce the spread of the neutrino opacity; nevertheless, significant uncertainties remain due to the poorly constrained symmetry energy at sub-saturation densities. Constraining this quantity on top of a well-constrained spin-isospin interaction would pave the way towards a systematic determination of neutrino interactions in dense matter."
+  },
+  {
+    "title": "Correlation Probabilistic Sophistication",
+    "url": "http://arxiv.org/abs/2611.05110v1",
+    "arxiv_id": "2611.05110v1",
+    "authors": [
+      "Yi-Chun Chen",
+      "Soo Hong Chew",
+      "Xinhan Zhang"
+    ],
+    "published": "2026-11-03T16:02:47+00:00",
+    "summary": "We study binary choice under uncertainty when the comparison between two acts can depend on the joint distribution of their realized outcomes. This motivates correlation probabilistic sophistication (CPS), a subjective reduction principle that extends both probabilistic sophistication and Fishburn's nontransitive subjective expected utility. We show how simultaneous event exchangeability elicits a unique solvable finitely additive subjective probability and reduces binary comparisons of acts to induced joint laws. Under convex range, the induced domain coincides with the full finite joint-law domain, allowing the transfer of correlation-utility representations from risk and, under completeness and Strong Independence, correlation expected utility with a skew-symmetric comparison kernel. Under completeness and transitivity, CPS collapses to ordinary probabilistic sophistication. We further extend the framework to multiple small worlds, allowing correlation sensitivity to vary with the source of uncertainty."
+  },
+  {
+    "title": "Enabling risk and reliability analysis in next-generation computational tools via multifidelity methods",
+    "url": "http://arxiv.org/abs/2611.05087v1",
+    "arxiv_id": "2611.05087v1",
+    "authors": [
+      "Anirban Chaudhuri",
+      "Karen Willcox"
+    ],
+    "published": "2026-11-03T15:45:44+00:00",
+    "summary": "Risk and reliability analysis are fundamental to the design, assessment, and operation of safety-critical complex systems; however, their integration into next-generation computational tools is constrained by the cost of uncertainty quantification with expensive computational models. The computational challenge is particularly prohibitive for tail-sensitive quantities, such as probabilities of failure, conditional values-at-risk, and buffered probabilities of failure, where accurate estimation can require a large number of model evaluations. Multifidelity methods provide a framework for addressing this computational bottleneck by combining information from models of varying accuracy and cost while retaining the predictive accuracy of the high-fidelity model. This review summarizes the state of the art in methods that enable scalable risk and reliability analysis using multifidelity control variates, multifidelity importance sampling, and multifidelity active learning."
+  },
+  {
+    "title": "From Random Advection to Transport Noise and the LU Framework for the Navier--Stokes Equations",
+    "url": "http://arxiv.org/abs/2611.05050v1",
+    "arxiv_id": "2611.05050v1",
+    "authors": [
+      "Arnaud Debussche",
+      "B\u00e9renger Hug",
+      "Etienne M\u00e9min"
+    ],
+    "published": "2026-11-03T15:16:55+00:00",
+    "summary": "We consider the incompressible Navier--Stokes equations in a smooth bounded domain in dimension two or three, with Dirichlet boundary conditions, when the velocity is advected by a rapidly varying stationary Markov process $\\eps^{-1}m(t/\\eps^2)$. The fast field may be spatially inhomogeneous. We prove that, when $\\eps\\to0$, the laws of the large-scale velocities are tight and that their limit points are martingale solutions of the stochastic Navier--Stokes equations with transport noise in the form of the location uncertainty framework. The limiting equation contains in particular a noise which is described in terms of the covariance of the fast advection. Under a symmetry assumption on the temporal correlations of the fast field, the noise is Stratonovich and an advection by the It\u00f4--Stokes drift appears. The proof relies on perturbed test functions, which we use both for the uniform energy bounds and for the identification of the limit. We have to adapt this method and add the Stokes operator to the Poisson equation associated to the fast advection in order to use fewer regularity assumptions and obtain correctors which satisfy the boundary conditions."
+  },
+  {
+    "title": "On Revolutionizing Power Systems: Suitability of Quantum Computing-Ready Pipelines for Stochastic Unit Commitment Optimization",
+    "url": "http://arxiv.org/abs/2611.05030v1",
+    "arxiv_id": "2611.05030v1",
+    "authors": [
+      "Ying-Yi Hong",
+      "Dylan Josh Domingo Lopez"
+    ],
+    "published": "2026-11-03T15:05:19+00:00",
+    "summary": "Modern unit commitment (UC) scenarios, particularly those involving uncertainties from demand fluctuations and renewable energy sources, pose significant challenges to traditional optimization methods due to the large search spaces they encompass. This paper proposes a quantum computing-ready optimization pipeline for deterministic and stochastic UC, integrating classical, quantum-inspired, quantum annealing, and hybrid quantum-classical solvers across test systems, including the IEEE 118-bus system. A novel Quadratic Unconstrained Binary Optimization (QUBO) reformulation accommodates generator scaling and 24-hour scheduling horizons with compact Boolean logic penalties for startup, cooldown, and spinning reserve constraints. A divide-and-conquer strategy and Quantum Computing Monte Carlo (QCMC) simulation address scalability across 27,730 uncertainty scenarios, reducing compilation time by up to two orders of magnitude. Experimental results demonstrate the pipeline's ability to achieve efficient, scalable, and accurate UC optimization under uncertainty: the hybrid quantum method approach matches the classical baseline, reduces stochastic UC runtime from 40.76 to 14.79 hours, and characterizes pure quantum annealing as limited to small systems with 0.22% to 2.18% encoding errors and constraint violations. These results provide an analysis of the scalability and computational practicality of hybrid quantum optimization for generator scheduling in UC."
+  },
+  {
     "title": "The Giant Planet Mass Function Across Stellar Mass and Metallicity: Massive Stars Make Massive Planets",
     "url": "http://arxiv.org/abs/2611.03613v1",
     "arxiv_id": "2611.03613v1",
