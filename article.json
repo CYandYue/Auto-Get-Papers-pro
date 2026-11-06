@@ -1,5 +1,125 @@
 [
   {
+    "title": "BeAR: The Bern Atmospheric Retrieval code - A GPU-accelerated framework for low-resolution, high-resolution, and joint retrievals of exoplanet atmospheres",
+    "url": "http://arxiv.org/abs/2611.08489v1",
+    "arxiv_id": "2611.08489v1",
+    "authors": [
+      "Esther Wang",
+      "Daniel Kitzmann",
+      "H. Jens Hoeijmakers",
+      "Joost P. Wardenier",
+      "Helena Lecoq-Molinos"
+    ],
+    "published": "2026-11-05T18:59:48+00:00",
+    "summary": "We present BeAR, the Bern Atmospheric Retrieval code and successor of Helios-r, and its new high-resolution cross-correlation framework for emission and transmission spectra. BeAR performs joint retrievals by adding the log-likelihoods of high- and low-resolution data computed from the same model atmosphere. The framework implements established cross-correlation log-likelihoods, with the line-depth scaling either fitted analytically or sampled as a free parameter, their per-pixel generalization, fast model filtering, and model re-injection adapted to this filtering. The forward model and likelihood run entirely on a graphics processing unit (GPU). One forward model takes about 1 ms on an NVIDIA GH200, allowing millions of models per minute on a GPU cluster. In separate retrievals of Gemini South/IGRINS and JWST/NIRSpec dayside spectra of the hot Jupiter WASP-77Ab, BeAR reproduces published abundances, C/O ratios, and metallicities to within 1.5 sigma, the preference for 13CO, and the thermal structure and line contrast to within 1 sigma. The joint retrieval confirms a sub-solar metallicity and a near-solar C/O ratio. A full IGRINS retrieval with 17 free parameters takes 27 to 42 minutes on a single NVIDIA GeForce RTX 5080 or about 14 minutes on eight RTX 4090 GPUs. Injection--recovery tests show that the posteriors underestimate the uncertainties of abundance ratios by about a factor of two."
+  },
+  {
+    "title": "Quantum Knowledge Distillation: State-of-the-art, Applications and Open Problems",
+    "url": "http://arxiv.org/abs/2611.08461v1",
+    "arxiv_id": "2611.08461v1",
+    "authors": [
+      "Aldana Al-Sulaiti",
+      "Kuan-Cheng Chen",
+      "Muhammad Bilal Akram Dastagir",
+      "Ahmed Farouk",
+      "Saif Al-Kuwari"
+    ],
+    "published": "2026-11-05T18:53:05+00:00",
+    "summary": "Knowledge distillation transfers predictions, representations, or other supervisory information between learning models and is increasingly investigated in quantum machine learning. Its applications extend beyond compression to cross-architecture transfer, circuit approximation, distributed learning, and classical deployment of models trained using quantum-derived supervision. This survey reviews these approaches using two complementary classification axes: teacher-student configuration and the role of quantum resources in the distillation process. Quantum-inspired methods are discussed separately from methods that simulate quantum computations classically or execute them on quantum hardware. We explain how measurement probabilities, expectation values, classical readouts, state overlaps, and circuit-level objectives support different transfer mechanisms. We then critically assess the presented results against baseline design, execution conditions, uncertainty, and resource costs. The evidence shows that distillation can improve selected quantum students, but benefits are task- and architecture-dependent, and several studies find negligible gains or even performance degradation. Evaluations on physical quantum hardware remain limited, with some testing individual quantum components rather than complete learning pipelines. Heterogeneous protocols and incomplete resource reporting prevent general conclusions about practical quantum advantage. We identify priorities for controlled benchmarking, noise-aware learning, reproducible evaluation, and efficient transfer between quantum and classical models."
+  },
+  {
+    "title": "Conformal Prediction for Time-Dependent PDEs",
+    "url": "http://arxiv.org/abs/2611.08409v1",
+    "arxiv_id": "2611.08409v1",
+    "authors": [
+      "Joshua Stiller",
+      "Annika Schneider",
+      "Eyke H\u00fcllermeier"
+    ],
+    "published": "2026-11-05T18:15:42+00:00",
+    "summary": "Uncertainty quantification is crucial in scientific machine learning, where models inform safety-critical tasks such as flood forecasting, financial risk management, and thermal control in machines. Conformal prediction provides distribution-free coverage guarantees, but in time-dependent settings common to physics and engineering, these guarantees can break down, leading to systematic undercoverage. We study this problem in the context of surrogate models for time-dependent physical systems described by partial differential equations. We prove that in a function space setting, distributions at arbitrarily close times can be mutually singular, making exact coverage guarantees impossible. We further show that in discretized settings, the total variation distance between distributions often saturates exponentially fast with the grid resolution, mandating restrictions on the spatial discretization to ensure coverage. Finally, for certain settings, we show how to use principled weighted conformal prediction to obtain finite-sample coverage guarantees over growing time horizons."
+  },
+  {
+    "title": "Recalibration-Aware Optimization of ZEFOZ Operating Points in $^{167}\\mathrm{Er}^{3+}:\\mathrm{Y}_2\\mathrm{SiO}_5$ for Quantum Memories",
+    "url": "http://arxiv.org/abs/2611.08396v1",
+    "arxiv_id": "2611.08396v1",
+    "authors": [
+      "Shashank Srivastava"
+    ],
+    "published": "2026-11-05T18:08:14+00:00",
+    "summary": "Erbium-doped solids like $^{167}\\mathrm{Er}^{3+}:\\mathrm{Y}_2\\mathrm{SiO}_5$ have properties that make them suitable for quantum-network memories, however, their unquenched effective electronic spin causes rapid magnetic decoherence. Operating at Zero First-Order Zeeman (ZEFOZ) points allows us to mitigate this, where we evaluate the ZEFOZ landscape for Site-2 $^{167}\\mathrm{Er}^{3+}$ by incorporating a full-Hessian spin-Hamiltonian treatment with the anisotropic magnetic-field covariance derived from the native $^{89}\\mathrm{Y}$ crystal lattice directly. Operating-point screening criteria were adopted to devise a Pareto-optimal frontier of four transition pairs to balance modeled Y-only magnetic pure-dephasing lifetimes ($T_{\u03c6,Y}^{(2)}$) against microwave control authority. The $\u03b5_{14}\\leftrightarrow\u03b5_{15}$ transition exhibits the longest modeled Y-bath-induced quadratic pure-dephasing time, $T_{\u03c6,Y}^{(2)}>2.2\\times10^5~\\mathrm{s}$, while the $\u03b5_{12}\\leftrightarrow\u03b5_{13}$ transition stood out, achieving a Rabi frequency coefficient of $1.248 \\times 10^5~\\mathrm{Hz/mT}$. An assumption-based Hamiltonian-uncertainty analysis demonstrates that while uncompensated deviations shift the ZEFOZ condition away from its nominal magnetic-field coordinate, the shifted operating points can be recovered via numerical vector-field recalibration. The Pareto-optimal coordinates were mathematically recovered for all sampled Hamiltonian perturbations, and the $84.1^{\\mathrm{st}}$-percentile field relocations ranged from $10.95$ to $27.97~\\mathrm{mT}$. The intended operation near $10~\\mathrm{mK}$ must be taken into account for the suppression of Er-induced spectral diffusion through electronic-spin polarization, while the extended Y-bath pure-dephasing timescales also remain conditional on the adopted temporal-correlation model."
+  },
+  {
+    "title": "MOMASPLAT: Dynamic Novel-View Demonstration Augmentation for Mobile Manipulation",
+    "url": "http://arxiv.org/abs/2611.08372v1",
+    "arxiv_id": "2611.08372v1",
+    "authors": [
+      "Sateesh Kumar",
+      "Arnav Balaji",
+      "Arpit Bahety",
+      "Skand Peri",
+      "Georgios Pavlakos",
+      "Roberto Mart\u00edn-Mart\u00edn"
+    ],
+    "published": "2026-11-05T17:50:35+00:00",
+    "summary": "Visuomotor policies trained through imitation learning are highly sensitive to changes in camera viewpoint. This is particularly problematic for mobile manipulation (MoMa), where robots rarely execute manipulation from the exact same base pose used during demonstration collection due to navigation uncertainty, localization drift, and environmental constraints. Recent approaches use novel-view synthesis (NVS) to augment demonstrations with unseen viewpoints, but they assume static scenes and therefore fail to re-render the manipulated object during the post-contact interaction phase, leaving the most critical parts of the demonstration unaugmented. We present MOMASPLAT, a novel-view demonstration augmentation framework for mobile manipulation that synthesizes full manipulation trajectories from unseen robot base poses, including dynamic object interactions. Our key insight is that standard MoMa data collection naturally provides the multiview observations needed to reconstruct both the static scene and the manipulated object in 3D. MOMASPLAT combines 3D Gaussian Splatting, feed-forward 3D foundation models, and kinematics-based action retargeting to separately reconstruct the scene and manipulated object, render them from novel viewpoints, and generate geometrically consistent synthetic demonstrations paired with transformed actions. We evaluate MOMASPLAT on five real-world mobile manipulation tasks involving both rigid and articulated objects across three scenes, and validate the fidelity of its synthesized demonstrations against ground truth in simulation. MOMASPLAT substantially improves robustness to unseen base poses, more than doubling the average success rate of the strongest baseline and maintaining non-trivial success at large base displacements where all baselines fail, while reducing the need for largescale real-world data collection."
+  },
+  {
+    "title": "Radio-to-Pose Information for Gauge-Drift Correction in Cooperative Localization",
+    "url": "http://arxiv.org/abs/2611.08361v1",
+    "arxiv_id": "2611.08361v1",
+    "authors": [
+      "Aditya Iyer",
+      "Andy Ye",
+      "Akshay Narayan",
+      "Nora Ayanian"
+    ],
+    "published": "2026-11-05T17:41:02+00:00",
+    "summary": "Cooperative localization uses odometry and inter-robot measurements to estimate the motion of a robot team. These measurements describe only relative geometry, but the team's estimated position and orientation can drift together over time, i.e., gauge drift. In this work, we study correction of this gauge drift using a radio attenuation map registered in the same world coordinate frame used for robot poses. Specifically, we propose Radio-to-Pose Information (RPI), an interface that converts power residuals and their pose derivatives into a Gaussian information matrix and vector pair. RPI builds on the insight that received power is sensitive to shared displacement in the world map. The pose estimator uses the interface together with odometry and inter-robot measurements to update poses and minimize uncertainty. We characterize the shared motions detectable from the map and observed links. For an uncertain shared map, RPI keeps correlations across robots and time and reproduces joint Gaussian pose estimates and covariances. Across $1000$ simulated Gaussian trials, RPI matches the results of joint estimation. Across 32 paired trials with a registered map, RPI reduces common-position RMSE from $0.542$m to $0.140$m in a $50\\times50$m arena compared with a baseline that uses radio only to weight relative measurements."
+  },
+  {
+    "title": "Exploring the limit of partonic collectivity in small collision systems at the LHC",
+    "url": "http://arxiv.org/abs/2611.08327v1",
+    "arxiv_id": "2611.08327v1",
+    "authors": [
+      " ALICE Collaboration"
+    ],
+    "published": "2026-11-05T17:19:41+00:00",
+    "summary": "The existence of a partonic phase in small collision systems has been investigated previously through measurements of the elliptic flow ($v_{2}$) of mesons ($\u03c0^{\\pm}$, K$^{\\pm}$, and K$_{S}^{0}$) and baryons ($\\rm{p}(\\overline{\\rm{p}})$, $\u039b(\\overline\u039b)$) in high-multiplicity p-Pb collisions at $\\sqrt{s_{\\rm NN}} = 5.02$ TeV and pp collisions at $\\sqrt{s} = 13$ TeV recorded by ALICE. The results have revealed a grouping and splitting behavior of $v_{2}$ for baryons and mesons at intermediate transverse momentum ($p_{\\rm{T}}$), establishing that partonic collectivity, as observed in heavy-ion collisions, is also present in these systems. In this Letter, the $p_{\\rm{T}}$-differential $v_{2}$ of various hadronic species is investigated in p-Pb collisions for the multiplicity intervals $N_{\\rm ch} \\geq 50$, $25 \\leq N_{\\rm ch} < 50$, and $15 \\leq N_{\\rm ch} < 25$, as well as in pp collisions for $25 \\leq N_{\\rm ch} < 50$ and $15 \\leq N_{\\rm ch} < 25$. Here, $N_{\\rm ch}$ is the efficiency-corrected number of charged particles produced in the kinematic region of $|\u03b7|< 0.8$ and $0.2 < p_{\\rm T} < 3.0$ GeV/$c$. The characteristic mass dependence of $v_{2}$, as well as the grouping and splitting patterns among identified particles, are examined. The results in both p-Pb and pp collisions with $N_{\\rm ch} \\geq 25$ are consistent with the development of partonic collectivity. In the low-multiplicity region, $15 \\leq N_{\\rm ch} < 25$, the baryon-to-meson $v_{2}$ splitting, as quantified by the baryon-to-meson $v_2$ ratios, remains broadly consistent with that at higher multiplicities. However, its significance decreases to $\\sim2\u03c3$ in p-Pb collisions and to less than $1\u03c3$ in pp collisions owing to the sizable experimental uncertainties. These measurements constitute the first steps towards identifying the limits of partonic flow in small collision systems at the LHC."
+  },
+  {
+    "title": "Accelerating Safe Reinforcement Learning with Massive Parallelism",
+    "url": "http://arxiv.org/abs/2611.08273v1",
+    "arxiv_id": "2611.08273v1",
+    "authors": [
+      "Joonyoung Lim",
+      "Younghwan Yoo"
+    ],
+    "published": "2026-11-05T16:43:57+00:00",
+    "summary": "We investigate the problem of scaling safe reinforcement learning (safe RL) to massively parallel training regimes, where a large number of environments are exe- cuted with short rollout horizons. Although this setting improves data throughput and wall-clock efficiency, it creates a mismatch with constrained Markov decision processes (CMDPs), whose safety constraints are defined over full-episode cost returns. We address this mismatch by analyzing staggered environment resets as a phase-mixture distribution over short trajectory segments. This analysis charac- terizes the bias induced by phase coverage and motivates a phase-aggregated cost estimator that reconstructs episode-level cost estimates from short rollout batches. We further incorporate finite-sample uncertainty and distribution mismatch into a constraint-tightening framework, yielding a scalable Safe RL method compatible with on-policy optimization. Using an MJX-based implementation of Safety Gym, our experiments show that the proposed method achieves performance comparable to non-massively parallel implementations while substantially reducing wall-clock training time."
+  },
+  {
+    "title": "Signals, Evidence, and Context: User Scrutiny in Real-World LLM Conversations",
+    "url": "http://arxiv.org/abs/2611.08232v1",
+    "arxiv_id": "2611.08232v1",
+    "authors": [
+      "Ahana Biswas",
+      "Yu-Ru Lin"
+    ],
+    "published": "2026-11-05T16:16:08+00:00",
+    "summary": "Large language models (LLMs) often present synthesized answers without making their supporting evidence easy to inspect. We study how features of these answers relate to users' subsequent accepting, checking, and challenging in 489,283 assistant-user response pairs from ShareChat and WildChat. Broad attribution language appears in 31.9% of qualifying responses, compared with explicit URLs in 1.33%, revealing a gap between claims of grounding and preserved inspectable support. Attribution, uncertainty, and other response cues generally accompany both checking and challenging; only uncertainty shows a small statistically distinguishable pooled association favoring checking. Within Technical Help, uncertainty favors checking relative to challenging; refusals and reasoning traces favor challenging in Seeking Information. Scrutiny is concentrated in some conversations, while its apparent turn-to-turn persistence becomes much smaller when conversation-level differences and response ordering are examined separately. These results suggest that supporting verification requires attention to what evidence can be inspected, which question a user is trying to resolve, and the history of the interaction."
+  },
+  {
+    "title": "Fourier inequalities and sign uncertainty II",
+    "url": "http://arxiv.org/abs/2611.08224v1",
+    "arxiv_id": "2611.08224v1",
+    "authors": [
+      "Roni Edwin"
+    ],
+    "published": "2026-11-05T16:10:57+00:00",
+    "summary": "Building on our earlier work, we present an $L^2$-$L^1$ inequality for radial Fourier eigenfunctions, relating this to the sign uncertainty principle of Bourgain, Clozel and Kahane. We also propose a generalisation of the aforementioned uncertainty principle."
+  },
+  {
     "title": "Cross-Moment Consistency and the Fifth Adler Coefficient in Hadronic Tau Decays",
     "url": "http://arxiv.org/abs/2611.06824v1",
     "arxiv_id": "2611.06824v1",
