@@ -1,5 +1,143 @@
 [
   {
+    "title": "FlowMoP: Stochastic Multi-Person Motion Prediction",
+    "url": "http://arxiv.org/abs/2611.09882v1",
+    "arxiv_id": "2611.09882v1",
+    "authors": [
+      "Aadya Agrawal",
+      "Ho Kei Cheng",
+      "Alexander Schwing"
+    ],
+    "published": "2026-11-06T18:56:41+00:00",
+    "summary": "Predicting the future motion of multiple people is inherently stochastic: the same observed history admits many plausible continuations depending on intent, coordination, and social context. Yet the dominant paradigm in multi-person 3D motion prediction remains deterministic, with existing methods producing a fixed number of outputs per agent. In contrast, we present a conditional flow matching framework that jointly generates diverse future motions for multiple agents, modeling both global trajectories and root-relative poses. A B-spline reparameterization compresses the generative state space while enforcing temporal smoothness, and a dual-stream transformer conditions each agent's predictions on observed neighbor motion for interaction-aware forecasting. Our method achieves state-of-the-art performance on CMU-Mocap (UMPM) and 3DPW, outperforming deterministic baselines on joint position error, pose error, and final displacement error despite producing a full predictive distribution. We additionally establish the first motion prediction baseline on WorldPose, a large-scale professional soccer dataset, where social conditioning demonstrably concentrates predictive uncertainty along interaction-constrained directions."
+  },
+  {
+    "title": "GRAC: Graph-Based Retrieval-Augmented Captioning for Surgical Scene Description",
+    "url": "http://arxiv.org/abs/2611.09866v1",
+    "arxiv_id": "2611.09866v1",
+    "authors": [
+      "Rochak Dhakal",
+      "Chen Zhao",
+      "Soup Cobb",
+      "Xin Qian",
+      "Xiaofeng Yang",
+      "Weihua Zhou"
+    ],
+    "published": "2026-11-06T18:47:23+00:00",
+    "summary": "Purpose: Surgical operative reports support procedural documentation, surgical training, performance assessment, and workflow review. However, extracting meaningful information often requires extensive manual review and clinical expertise. Automated surgical scene descriptions could reduce this burden by leveraging recurring surgical activities and prior knowledge.   Methods: We propose GRAC (Graph-Based Retrieval-Augmented Captioning), a framework that represents surgical scenes as graphs capturing relationships among instruments, actions, and anatomical structures. Given an input scene graph, GRAC learns to retrieve relevant graph-caption pairs from training data. It compares instrument-tissue interactions between retrieved examples and the input scene, using comparison features to condition retrieved-caption representations during generation.   Results: On the EndoVis-18 benchmark, GRAC achieved a CIDEr-D of 5.88, compared with 4.23 for SGT and 3.36 for the strongest conventional Transformer baseline. Exact instrument-action-target triplet-set accuracy reached 52.6%, compared with 32.7% for SGT and 26.2% for the strongest conventional baseline. These results demonstrate improvements in language quality and factual agreement. On TORS, GRAC achieved a CIDEr-D of 5.06, compared with 3.80 for the strongest baseline.   Conclusion: GRAC demonstrates that combining structured surgical scene representations with retrieved examples improves surgical scene captioning and produces more contextually meaningful descriptions."
+  },
+  {
+    "title": "Ensemble Individual Mode Frequency Modeling of Kepler Giants - Extending the IACgrid towards the red-giant branch",
+    "url": "http://arxiv.org/abs/2611.09835v1",
+    "arxiv_id": "2611.09835v1",
+    "authors": [
+      "D. H. Grossmann",
+      "S. Mathur",
+      "P. G. Beck",
+      "D. Godoy-Rivera",
+      "B. Liagre",
+      "R. A. Garcia",
+      "L. S. Schimak",
+      "D. B. Palakkatharappil",
+      "M. H. Pinsonneault",
+      "F. Perez Hernandez"
+    ],
+    "published": "2026-11-06T18:22:43+00:00",
+    "summary": "Precise stellar parameters, in particular ages, are vital for understanding the formation and history of the Milky Way. Usually, this is achieved by fitting stellar evolution models to observational constraints such as spectroscopic and astrometric parameters. Adding global asteroseismic properties to the classical parameters (global seismic modeling) breaks some degeneracies and improves the results. However, this approach has its limitations, with red-giant random age uncertainties usually $\\sim$ 20-50%, and often lacking proper quantification of the systematics. We aim to extend seismic modeling to include individual mode frequencies for red-giant branch stars, increasing the number of evolved solar-like oscillators with precise stellar parameters (ages, masses, and radii), and allowing us to quantify the systematics in global seismic modeling. We developed a grid of stellar evolutionary models and computed the individual oscillation frequencies, including a figure of merit to find the best-fitting model. We validate our methodology on a sample of red giants with individual frequency modeling from the literature, finding our masses, radii, and ages in close agreement. We then apply our method to around 100 Kepler red-giant branch stars of near-solar mass and metallicity, which previously have only been modeled with global seismic parameters. We obtain random average uncertainties of 3.4%, 1.3%, and 13.2%, for stellar masses, radii, and ages, respectively. We find that ages from individual mode frequency modeling are significantly, 14% on average, larger than those from global seismic mass-constrained modeling. The modeled luminosities agree within 1.0% with those derived from Gaia parallaxes. We conclude that modeling individual mode frequencies improves age precision by a factor of two for red-giant branch stars, providing stronger constraints for galactic archaeology."
+  },
+  {
+    "title": "The Cost of Coverage: Conformalising Native Forecast Uncertainty for GB Wind Power",
+    "url": "http://arxiv.org/abs/2611.09815v1",
+    "arxiv_id": "2611.09815v1",
+    "authors": [
+      "Carl Somers"
+    ],
+    "published": "2026-11-06T18:02:38+00:00",
+    "summary": "Uncertainty bands on wind forecasts help inform reserve sizing and commitments, but often fail to deliver their stated coverage. We apply conformal prediction to native bands to see what it adds and what it costs, comparing six forecasters, from ARIMA to a tabular foundation model, at two wind farms in Great Britain (GB) under operational conditions. We show that calibration repairs empirical marginal coverage with little or no Winkler Score penalty, but this apparent success conceals under-coverage in high winds. Calibrating by forecast wind regime turns marginal coverage into regime-level coverage, cutting day-ahead out-of-band volume in high winds by over 40% relative to pooled calibration while narrowing bands overall."
+  },
+  {
+    "title": "Forecasting Fundamental-Plane Tests of Intermediate-mass Black Holes in Radio-selected Dwarf Galaxies",
+    "url": "http://arxiv.org/abs/2611.09720v1",
+    "arxiv_id": "2611.09720v1",
+    "authors": [
+      "Ramananda Santra",
+      "Samik Mitra",
+      "Shahram Abbassi"
+    ],
+    "published": "2026-11-06T16:59:46+00:00",
+    "summary": "A radio/X-ray Fundamental Plane (FP) test of an intermediate-mass black hole is informative only when the compact radio emission, hard X-rays, accretion state, and host association refer to the same accretor. We used published VLA, VLBA, \\textit{Chandra}, and \\textit{HST} observations of a radio-selected dwarf-galaxy sample to determine when present nondetections are constraining and what observations are required for a stronger test. The VLBA follow-up reveals that compactness alone does not establish association with the target dwarf, while for the best nuclear candidates the radio component relevant to the FP has not yet been isolated on the intermediate physical scales between the VLA and VLBA measurements. We therefore recast the FP as a forward question: for an assumed black-hole mass, how likely is a given radio observation to detect the compact core? The calculation includes intrinsic FP scatter, X-ray uncertainties, the radio spectral index, the accretion state, and source size relative to the beam. The existing VLBA nondetections have low completeness across the adopted intermediate-mass range and do not provide useful black-hole mass upper limits. Meaningful tests require deeper resolution-matched radio imaging, recovery of intermediate-scale structure, and contemporaneous measurements of the intrinsic hard-X-ray component. Because the calculation returns a mass-dependent detection function for each source, the same framework can be applied to larger dwarf-galaxy samples to quantify survey completeness and build selection functions for population studies of low-mass black holes."
+  },
+  {
+    "title": "A Generalized Bayesian Approach to Clustering with Dimension Reduction",
+    "url": "http://arxiv.org/abs/2611.09698v1",
+    "arxiv_id": "2611.09698v1",
+    "authors": [
+      "Shen Jia",
+      "Weipeng Huang",
+      "Geng Yang",
+      "Eoin Gallagher",
+      "Tin Lok James Ng"
+    ],
+    "published": "2026-11-06T16:42:29+00:00",
+    "summary": "Generalized Bayes product partition models provide a probabilistic counterpart to loss-based clustering. They update a prior over partitions through an exponentiated clustering loss rather than a likelihood, so allocation uncertainty can be quantified without a full generative model for the data. However, their performance depends on the space in which the loss is evaluated. For high-dimensional observations, a squared Euclidean loss on the raw features can be dominated by irrelevant coordinates or fail to reflect cluster structure lying near a nonlinear low-dimensional manifold. We propose an extension in which an autoencoder and the partition are learned together, so that the space in which the clustering loss is evaluated is shaped by the clustering itself. Our generalized posterior combines a reconstruction loss, which keeps the low-dimensional representation faithful to the observed data, with a within-cluster sum of squares in the latent representation, which encourages cluster separation. Posterior computation alternates between Gibbs sampling over partitions and gradient-based updates of the autoencoder network, with the learning rate estimated jointly. We illustrate the approach through simulation studies and applications to four benchmark datasets."
+  },
+  {
+    "title": "SURE:Spatiotemporal Uncertainty Representation for Efficient Vision-Language-Action Learning",
+    "url": "http://arxiv.org/abs/2611.09684v1",
+    "arxiv_id": "2611.09684v1",
+    "authors": [
+      "Jingye Zhang",
+      "Choo Sin Wai",
+      "Dake Zhong",
+      "Zhifang Liu",
+      "Yuhong Zhang",
+      "Siyao Xiao",
+      "Guorui Song",
+      "Guocun Wang",
+      "Dongbin Zhang",
+      "Peng Jiao",
+      "Haoqian Wang"
+    ],
+    "published": "2026-11-06T16:32:49+00:00",
+    "summary": "Vision-language-action (VLA) policies have become a promising paradigm for end-to-end robot control, but their effectiveness still depends heavily on large volumes of demonstration data. In manipulation tasks, this dependence is compounded by structured spatiotemporal uncertainty in the action space: multiple nearby actions or trajectories may successfully solve the same task, while semantically equivalent demonstrations often unfold at different speeds. Standard pointwise supervision treats each demonstrated action as an exact target, imposing an unnecessary learning burden under such uncertainty. We present SURE, a data-efficient VLA training framework that explicitly models both spatial and temporal uncertainty. SURE augments a VLA backbone with a lightweight transposed-convolutional probabilistic action decoder that captures spatial uncertainty through local correlations among neighboring action bins. It further introduces Soft-DTW alignment supervision to accommodate local timing variations between predicted and demonstrated action chunks. Together, these two components reduce sensitivity to demonstrator-specific poses and execution timing, enabling more data-efficient action learning. We evaluate SURE on LIBERO, RoboTwin 2.0, and real-world manipulation tasks. Even with only 10% of the demonstration data or 20% of the training steps, SURE achieves manipulation success rates that match or surpass baseline VLAs."
+  },
+  {
+    "title": "Autonomous Particle Image Velocimetry Using Zero-Shot Sim-to-Real Reinforcement Learning",
+    "url": "http://arxiv.org/abs/2611.09679v1",
+    "arxiv_id": "2611.09679v1",
+    "authors": [
+      "Chang Rajani",
+      "Luke Sebastien Marsden",
+      "Stephan Kunz",
+      "Claudio Mucignat",
+      "Ivan Lunati"
+    ],
+    "published": "2026-11-06T16:27:25+00:00",
+    "summary": "Particle image velocimetry (PIV) reconstructs a flow field from the motion of tracer particles but the reconstruction quality is bounded by how well the flow structure of interest is resolved in the images. The acquisition position is typically fixed by the operator before the measurement. We cast camera placement as a sequential decision-making problem and train a reinforcement learning agent to control a 6-DoF manipulator equipped with a camera, enabling it to locate, frame and resolve a hydrofoil wake in a water tunnel. The agent commands the camera pose and observes the scene only through the velocity field and uncertainty estimated from time-separated image pairs. It is trained entirely in a photorealistic simulation of our water tunnel, with wakes generated by Computational Fluid Dynamics (CFD) simulations of hydrofoils with varying profiles, positions and angles of attack. After zero-shot transfer to the real water tunnel, the policy reliably locates and frames the wakes of randomly placed hydrofoils. It resolves the wake at a higher resolution than a fixed camera view and with lower error in the measured flow statistics, in roughly half the time of a full scan and with far fewer image pairs."
+  },
+  {
+    "title": "Cavity-QED Molecular Dynamics: An eT-i-PI Interface for Ab Initio Cavity Born-Oppenheimer Dynamics and Joint Nuclear-Photon Path-Integral Sampling",
+    "url": "http://arxiv.org/abs/2611.09667v1",
+    "arxiv_id": "2611.09667v1",
+    "authors": [
+      "Giuseppe Cassone"
+    ],
+    "published": "2026-11-06T16:19:33+00:00",
+    "summary": "Simulating molecules in quantum electrodynamic (QED) cavities requires a consistent description of electronic response, nuclear motion, and electromagnetic-field fluctuations. Here, I present Cavity-QED Molecular Dynamics, an interface connecting eT and i-PI for atomistic simulations of finite molecular systems coupled to a single photon mode. The code evaluates a self-consistent cavity Born-Oppenheimer Hartree-Fock (CBO-HF) energy surface and supports classical-nuclei dynamics under canonical (NVT) and microcanonical (NVE) ensembles, as well as canonical joint nuclear-photon path-integral sampling including nuclear quantum effects (NQEs). A fixed-displacement gradient correction provides nuclear and photon forces consistent with the same energy surface as the photon coordinate evolves independently. OpenMP threading, concurrent bead evaluations, and analysis utilities support practical simulations. Water-monomer benchmarks assess both dynamical propagation and equilibrium sampling. Energy-derivative checks and NVE timestep tests demonstrate consistent force evaluation and integration, while path integral molecular dynamics (PIMD) simulations with PILE-L thermostatting reproduce analytic finite-bead photon second moments, including their centroid and internal contributions, within sampling uncertainties. At the tested parameters, cavity coupling produces a small but statistically resolved increase in photon fluctuations, while changes in mean molecular geometry remain within sampling uncertainty. The resulting Cavity-QED Molecular Dynamics framework enables controlled investigations of how coupled quantum fluctuations of matter and the electromagnetic field influence molecular equilibrium properties within the CBO-HF approximation, providing a foundation for future studies of cavity-modified hydrogen bonding, vibrational spectra, and molecular polaritonic phenomena."
+  },
+  {
+    "title": "RainFlow: Flow Matching for Infrared-Only Quantitative Precipitation Estimation",
+    "url": "http://arxiv.org/abs/2611.09663v1",
+    "arxiv_id": "2611.09663v1",
+    "authors": [
+      "Matthieu Meignin",
+      "C\u00e9cile Mallet",
+      "Nicolas Viltard"
+    ],
+    "published": "2026-11-06T16:09:25+00:00",
+    "summary": "Geostationary infrared imagers observe precipitating systems every 10 to 15 minutes over large areas, but they sense cloud tops rather than the rain beneath. Their brightness temperatures constrain surface rain only weakly, so retrievals trained by regression return a smooth estimate that misses heavy rain and carries no measure of uncertainty. We treat infrared-only retrieval as conditional generation and introduce RainFlow, a flow-matching model that generates ensembles of rain fields from MSG/SEVIRI infrared observations, in a direct and a residual variant. Evaluated against radar over metropolitan France for a full year, the generated members are realistic rain fields, with the observed dry areas, heavy rain and spatial structure, and the ensemble mean is as accurate as a deterministic baseline. Used as probabilities, the ensembles locate heavy rain at scales where the baseline has no skill, and their spread captures most of the retrieval error, with only slight underdispersion. Trained with a time-sampling density that favours the noise end of the generative trajectory, the two variants reach similar skill. The direct variant depends strongly on this choice of density, whereas the residual variant is nearly insensitive to it. Evaluating the generated rain as a function of brightness temperature shows that the ensembles reproduce how rain depends on it over most of the range. It also isolates the remaining gap, an underestimate of both the amount and the variability of rain under the coldest cloud tops, which scores computed over all pixels do not reveal."
+  },
+  {
     "title": "BeAR: The Bern Atmospheric Retrieval code - A GPU-accelerated framework for low-resolution, high-resolution, and joint retrievals of exoplanet atmospheres",
     "url": "http://arxiv.org/abs/2611.08489v1",
     "arxiv_id": "2611.08489v1",
