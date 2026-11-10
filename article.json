@@ -1,5 +1,152 @@
 [
   {
+    "title": "A regularization-independent Information Criterion for correlated data",
+    "url": "http://arxiv.org/abs/2611.12877v1",
+    "arxiv_id": "2611.12877v1",
+    "authors": [
+      "Davide Laudicina"
+    ],
+    "published": "2026-11-09T18:58:14+00:00",
+    "summary": "We generalize the Akaike Information Criterion (AIC) to allow model and data subset selection when regularized fits are performed on correlated data. While the standard generalization to regularized fits is inherently dependent on the type of regularization applied to the data covariance matrix, our definition, the RIAIC, is, on average, regularization-independent. The regularization-independence is achieved by defining the new Information Criterion as an estimator of the model-dependent contribution to the correlated Kullback--Leibler divergence. The Bayesian extension is derived as well. We test the new criterion on lattice QCD data by performing regularized fits and show that it reproduces the selection properties of the standard correlated AIC, with fluctuations which are compatible with the expected statistical uncertainties. These results enable the application of subset and model selection techniques to cases where regularizations are applied to the covariance matrix of the fitted dataset."
+  },
+  {
+    "title": "Safe Performance-aware Online Input Design",
+    "url": "http://arxiv.org/abs/2611.12822v1",
+    "arxiv_id": "2611.12822v1",
+    "authors": [
+      "Diyou Liu",
+      "Mohammad Khosravi"
+    ],
+    "published": "2026-11-09T18:23:15+00:00",
+    "summary": "In this paper, we propose an input design framework for the safe online excitation and identification of uncertain linear systems without requiring informative initial data. The objective is to actively excite the system and collect sufficiently informative input-output data while maintaining safe operation and satisfactory control performance. Achieving this objective is challenging due to the potential conflict between the excitation required for learning and the safety and performance requirements, particularly when limited prior knowledge of the system is available. Inspired by the dual control principle, the proposed scheme balances exploitation for control performance with exploration for model improvement. A Bayesian learning approach is employed to update the model uncertainty online, starting from a conservative initial uncertainty set. As informative data are collected, the uncertainty set contracts, enabling progressively less conservative operation. To reduce the online computational burden, the resulting program is reformulated into a computationally tractable form. Furthermore, an online ellipsoidal terminal set with non-increasing conservatism is designed to guarantee the recursive feasibility of the proposed scheme. Numerical experiments are conducted to demonstrate the effectiveness of the proposed framework, particularly in terms of uncertainty reduction and control performance."
+  },
+  {
+    "title": "Coupled dark energy and apparent phantom crossing: a potential-independent lower bound",
+    "url": "http://arxiv.org/abs/2611.12792v1",
+    "arxiv_id": "2611.12792v1",
+    "authors": [
+      "Domenico Sapone",
+      "Esteban Arratia"
+    ],
+    "published": "2026-11-09T17:59:27+00:00",
+    "summary": "Baryon acoustic oscillation measurements from the Dark Energy Spectroscopic Instrument (DESI), combined with the cosmic microwave background (CMB) and type Ia supernovae, prefer a dark energy whose equation of state was below $-1$ in the past and is above $-1$ today. A canonical scalar field cannot cross this line, but it can appear to do so if it is coupled to dark matter, and we ask how strong this coupling must be, for any potential. We show that the apparent crossing requires the dark matter to lose a minimum fraction of its mass after recombination, fixed by the expansion history $H(z)$. For a constant coupling $\u03b2=d\\ln m/d\u03c6$, the mass can change only as fast as the field moves, and the speed of the field is itself set by $H(z)$, so that the coupling must be larger than a minimum value $\u03b2_{\\rm min}[H(z)]$. This bound holds for any potential, applies to the largest value of the coupling when the coupling depends on the field, and is reached exactly when the field comes to rest within the observed range. For the DESI DR2 best fits, the dark matter must lose about 5-7% of its mass by $z\\simeq 0.8$, which requires $\u03b2_{\\rm min}=0.047$-$0.058$; including the uncertainties of the data, the public DESI DR2 chains give the 95% lower limit $|\u03b2|>0.025$-$0.038$. We also apply the bound to published fits of coupled quintessence: all of them respect it, and those with a constant coupling reproduce only a shallow version of the crossing. Since the coupling cannot be smaller than $\u03b2_{\\rm min}$, two known effects of the coupling have a minimum size: an extra attraction between dark matter particles of at least a few tenths of a per cent of gravity, and a lensing signal at least a few per cent weaker than the clustering of dark matter would suggest."
+  },
+  {
+    "title": "MarsNet: Learning the Martian Atmosphere from Observations Alone",
+    "url": "http://arxiv.org/abs/2611.12787v1",
+    "arxiv_id": "2611.12787v1",
+    "authors": [
+      "Sebastian Mengwall",
+      "J. Michael Battalio"
+    ],
+    "published": "2026-11-09T17:57:01+00:00",
+    "summary": "We present MarsNet, a machine-learned model of the Martian atmosphere trained only on observations. Existing reanalyses assimilate spacecraft retrievals into general circulation models (GCMs), so where observations are sparse their fields largely reflect the model. We therefore use extant reanalyses only for evaluation. MarsNet alternates a two-hour forecast with an update that assimilates the observations of each window, and both steps are learned jointly. Because the Martian record is too sparse for an unrestricted network, learning is confined within a fixed physical structure: the state is in physical units, the forecast uses physical tendencies of fixed form and learned strength, and the update is a bounded Kalman update. MarsNet is trained on Mars Years (MY) 24--31 and evaluated on independent observations. On three seasons of MGS radio-occultation temperatures assimilated by no dataset, MarsNet matches or improves on the three reanalyses in the lowest three scale heights, with a near-surface root-mean-square error (RMSE) of 4.2 K against 4.4--5.4 K, but is less accurate aloft. The model's surface pressures are the most accurate of the four products (RMSE 10 Pa against Curiosity in MY32, compared with 20--46 Pa). On withheld Mars Climate Sounder profiles of MY32, its temperatures beat an observed climatology and persistence, including in ten-sol forecasts without new observations, and its stated uncertainty is close to calibrated. Much of the temperature skill is present before training and appears to come from the structure and tables fitted to the observations, while training mainly improves the surface pressures, at some cost to dust. The model cycles stably through nine Mars years, and the influence of each observation can be traced. Its speed makes experiments on the observing record practical, and it offers an independent reference for GCMs and reanalyses."
+  },
+  {
+    "title": "A possible signature of neutrino spin precession in the J-PARC muon $g-2$ experiment",
+    "url": "http://arxiv.org/abs/2611.12749v1",
+    "arxiv_id": "2611.12749v1",
+    "authors": [
+      "S. Carneiro",
+      "F. C. Sobrinho"
+    ],
+    "published": "2026-11-09T17:31:42+00:00",
+    "summary": "We examine a possible signature of the neutrino angular-momentum contribution to the muon magnetic anomaly measurement in the J-PARC E34 experiment. In previous papers we argued that the angular momentum carried by the unobserved neutrino pair may leave an uncertainty in the anomaly inferred from the time modulation of detected positrons. At Fermilab the highly relativistic muons make the forward-emission approximation suitable for this estimate. The lower muon momentum at J-PARC requires the decay kinematics to be treated explicitly. We integrate the longitudinal momentum of the neutrino pair using the positron energy distribution and asymmetry derived from the theoretical weak-decay spectrum, and the same event-counting weight $N(E)A(E)$ is employed for both experiments. For positron energies between $1.5$ and $2.9$ GeV at Fermilab and between $200$ and $275$ MeV at J-PARC, the proposed correction is smaller at J-PARC by $0.415\\pm0.176$ ppm, when the most optimistic E34 precision is assumed. The expected difference amounts to $2.36$ standard deviations if the future measurement is centred on this value. The calculation thus identifies an experimental comparison which may test the proposed effect independently of the hadronic contribution to the Standard Model prediction. We also examine the possibility of testing the effect by comparing measurements at two different muon momenta. With a fixed positron energy threshold of 200 MeV, the maximum sensitivity is obtained at a muon beam energy of 245 MeV. The predicted difference relative to the nominal J-PARC configuration has significance of $4.88\u03c3$ for the most optimistic experimental sensitivity."
+  },
+  {
+    "title": "Unpolarized proton PDF with physical quark masses and large momenta",
+    "url": "http://arxiv.org/abs/2611.12730v1",
+    "arxiv_id": "2611.12730v1",
+    "authors": [
+      "Xiang Gao",
+      "Andrew Hanlon",
+      "Jinchen He",
+      "Xiangyu Jiang",
+      "Swagato Mukherjee",
+      "Peter Petreczky",
+      "Qi Shi",
+      "Yong Zhao"
+    ],
+    "published": "2026-11-09T17:16:44+00:00",
+    "summary": "We present a lattice quantum chromodynamics (QCD) calculation of the proton isovector ($u-d$) unpolarized parton distribution function (PDF) at physical sea and valence quark masses, using Coulomb-gauge-fixed quark bilinears within the large-momentum effective theory framework. The calculation is performed on a (2+1)-flavor ensemble with a lattice spacing of $a=0.076$ fm and proton momenta up to $2.3$ GeV. We combine kinematically enhanced nucleon interpolating operators, the Coulomb-gauge method, and high-statistics measurements to improve the signal quality at large momenta and quark separations. We use the static regularization-independent momentum subtraction and hybrid schemes to renormalize the bare matrix elements. The light-cone PDF in the $\\overline{\\rm MS}$ scheme is obtained from the quasi-PDF through next-to-leading-order (NLO) perturbative matching supplemented by next-to-leading-logarithmic renormalization-group resummation. With reduced uncertainties, the resulting PDF is consistent with our previous calculation on a similar lattice ensemble with $a=0.06$~fm and a valence pion mass of 300 MeV. Notably, despite the reduced uncertainties, the agreement with the phenomenological PDF persists over the longitudinal momentum fraction range $0.25\\lesssim|x|\\lesssim0.75$, where the lattice calculation is expected to be reliable. This agreement is further supported by a comparison in coordinate space, where our short-distance lattice matrix elements are consistent with those obtained from the phenomenological PDF through NLO matching. In particular, we observe close agreement in the imaginary part for the first time. Together, these results represent an encouraging step toward precision benchmarking of lattice QCD calculations of PDFs."
+  },
+  {
+    "title": "Safe Reinforcement Learning for Multi-Turn Clinical Agents: When Dense Rewards Beat Outcome Rewards",
+    "url": "http://arxiv.org/abs/2611.12728v1",
+    "arxiv_id": "2611.12728v1",
+    "authors": [
+      "Brendan P. Murphy",
+      "Agustina Saenz"
+    ],
+    "published": "2026-11-09T17:14:40+00:00",
+    "summary": "Reinforcement learning with verifiable rewards is increasingly used to improve language model reasoning, yet its effects on sequential decision procedures remain poorly understood. We study this problem in clinical multi-turn agents that must decide what information to request, when to stop gathering evidence, and which action to take. We introduce three controlled environments: medication refill triage, acute diagnostic work-up, and dosing titration, each with hidden clinical states, query costs, exact adaptive oracles, and deterministic outcome verifiers. Across these tasks, outcome-only group relative policy optimization often improves aggregate reward while producing undesirable procedures, including premature commitment, one-question collapse, and failures on rare high-risk cases. In diagnostics, assigning dense credit to questions that reduce uncertainty improves held-out value and moderate-case support across three training seeds relative to outcome-only reinforcement learning, without the high-risk seed collapse observed under outcome-only training. Separating exploration from exploitation further increases high-risk support at its best checkpoint, but at the cost of excessive information gathering on low-acuity cases. Additional experiments show that the optimal strength of process credit is task-dependent; that after a supervised warmup that already gathers carefully, reinforcement learning raises aggregate reward by trimming questions while degrading high-risk performance; and that reinforcement learning does not reliably repair rare behavior gaps inherited from biased supervised data. Verifiable final outcomes are therefore insufficient for training reliable multi-turn agents: reward design must account for the procedure used to reach an answer, and evaluation must distinguish adaptive information gathering from reward-exploiting shortcuts."
+  },
+  {
+    "title": "Hidden Tails: Certifying Tail-Risk Claims under Selective Labels",
+    "url": "http://arxiv.org/abs/2611.12713v1",
+    "arxiv_id": "2611.12713v1",
+    "authors": [
+      "El Mustapha Mansouri"
+    ],
+    "published": "2026-11-09T17:03:22+00:00",
+    "summary": "Historical decisions determine which outcomes are observed, potentially concealing a predictor's largest errors. Even unlimited data from the same observation process can therefore leave population tail risk unresolved. Here we derive sharp bounds on conditional value-at-risk, the average loss in a specified upper tail, for binary outcomes and bounded losses. These bounds span exactly the risks compatible with the observations and a stated limit on how outcome odds differ between observed and hidden cases at the same covariate values. Under stated regularity conditions, calibrated statistical certificates cover these ranges simultaneously across candidate predictors, supporting risk limits and model comparisons while separating statistical uncertainty from persistent ambiguity. For a fixed predictor and loss threshold, we derive a minimum-cost allocation for reducing excess-loss ambiguity by prioritizing hidden outcomes according to ambiguity removed per unit cost. This allocation treats audited population contributions as known and retains the original sensitivity bounds separately for audited and still-hidden outcomes. In controlled masking experiments with known loan repayments, recovering about 16% of hidden labels removes a median 61% of estimated fixed-threshold ambiguity, compared with 16% for random recovery. These results connect population tail-risk claims to the available evidence and identify where additional outcomes can sharpen their assessment."
+  },
+  {
+    "title": "A four-step validation protocol for radiomic survival analysis in small cohorts: a body composition case study",
+    "url": "http://arxiv.org/abs/2611.12682v1",
+    "arxiv_id": "2611.12682v1",
+    "authors": [
+      "Mariela Talavera-Mu\u00f1oz",
+      "Cecilia Diana-Albelda",
+      "Miguel Antonio Sampedro-Nu\u00f1ez",
+      "Victor Rodriguez-Laval",
+      "Jesus Bescos",
+      "\u00c1lvaro Garc\u00eda-Mart\u00edn"
+    ],
+    "published": "2026-11-09T16:46:25+00:00",
+    "summary": "Gastroenteropancreatic neuroendocrine tumors (GEP-NET) lack prognostic biomarkers, and computed tomography (CT)-based body composition radiomics at the third lumbar vertebra (L3) is a promising candidate. Small cohorts make high-dimensional radiomic models prone to overfitting and single-split evaluations variable and optimistic.   This methodological study proposes a four-step validation protocol for radiomic survival analysis in small cohorts: (1) false discovery rate (FDR)-corrected feature selection, (2) a dual-path comparison of prior feature selection versus embedded regularization, (3) repeated nested cross-validation (CV) and (4) a negative control with Gaussian noise features. In 78 GEP-NET patients, 535 radiomic features from five L3 compartments were used to evaluate five survival models with Harrell's concordance index (C-index), time-dependent area under the curve (AUC) and integrated Brier score (IBS).   Step 1 selected at least one feature in 18% of outer folds under noise (nominal level 20%) versus 84% with radiomic features. The dual-path comparison showed no consistent difference between strategies. Repeated nested CV reduced variability across seeds (41% median reduction in C-index standard deviation), but not enough to distinguish models. The nested CV C-index exceeded chance by 0.07-0.15 with radiomic features but not clearly under noise (0.40-0.42 with prior feature selection, 0.47-0.55 with embedded regularization). Frequently selected features tentatively linked greater subcutaneous fat, skeletal muscle compactness and texture to better prognosis.   These findings suggest a modest prognostic signal in L3 radiomics, with considerable uncertainty that the protocol quantifies. The protocol may transfer to other small-cohort radiomic survival studies. Code: https://github.com/marielatalaveram/radiomics-survival-validation-protocol."
+  },
+  {
+    "title": "Amplitudes separation and strong-electromagnetic phases determination in the $\\boldsymbol{J/\u03c8}$ decays into baryon-antibaryon pairs",
+    "url": "http://arxiv.org/abs/2611.12673v1",
+    "arxiv_id": "2611.12673v1",
+    "authors": [
+      "Chiara Alice",
+      "Antonio Amoroso",
+      "Matteo Barbagiovanni",
+      "Monica Bertani",
+      "Diego Bettoni",
+      "Fabrizio Bianchi",
+      "Alberto Bortone",
+      "Damiano Cabiati",
+      "Alessandro Calcaterra",
+      "Gianluigi Cibinetto",
+      "Fabio Cossio",
+      "Marco Destefanis",
+      "Francesca De Mori",
+      "Emma Di Fiore",
+      "Luciano Fava",
+      "Sara Garbolino",
+      "Isabella Garzia",
+      "Michela Greco",
+      "Marco Maggiora",
+      "Simonetta Marcello",
+      "Federico Matias Melendi",
+      "Giulio Mezzadri",
+      "Piero Patteri",
+      "Simone Pacetti",
+      "Angelo Rivetti",
+      "Manuel Dionisio Da Rocha Rolo",
+      "Francesco Rosini",
+      "Marco Scodeggio",
+      "Stefano Sosio",
+      "Stefano Spataro",
+      "Umberto Zarantonello"
+    ],
+    "published": "2026-11-09T16:40:35+00:00",
+    "summary": "We extract the relative phase between strong and electromagnetic amplitudes of the decays of a vector charmonium into spin-$1/2$ baryon-antibaryon pairs. Starting from a flavour-SU(3) effective Lagrangian with vector and tensor currents, we construct a parametrization in terms of partial waves coefficients. The electric and magnetic phases, the phase of the integrated complex overlap and the effective rate angle are derived from the same source amplitudes. We retain two possible solutions and both of them describe the scalar $\u03a3^+\\bar\u03a3^-$ scan phase within its uncertainty, while presenting tension with several electric-magnetic production phases."
+  },
+  {
     "title": "FlowMoP: Stochastic Multi-Person Motion Prediction",
     "url": "http://arxiv.org/abs/2611.09882v1",
     "arxiv_id": "2611.09882v1",
