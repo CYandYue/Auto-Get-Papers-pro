@@ -1,5 +1,149 @@
 [
   {
+    "title": "Bayesian inverse problems and epidemic-threshold uncertainty for a heterogeneous SIS reaction-diffusion model",
+    "url": "http://arxiv.org/abs/2611.14468v1",
+    "arxiv_id": "2611.14468v1",
+    "authors": [
+      "Duc-Lam Duong"
+    ],
+    "published": "2026-11-10T18:32:19+00:00",
+    "summary": "We study Bayesian inference of persistence from early observations of a heterogeneous susceptible--infected--susceptible (SIS) reaction--diffusion model with standard incidence. We show that the leading prevalence dynamics depend on the unknown coefficients only through the difference between the transmission and recovery rates and the infected diffusivity. The same pair determines the principal eigenvalue whose sign governs persistence, so early prevalence can inform the threshold even when the individual rates remain uncertain. We prove global weak well-posedness and quantitative parameter stability for the SIS system and use the resulting observation-map estimates to establish Bayesian well-posedness. For an initial infection of size $\\varepsilon$, we derive a uniform second-order expansion that describes how the separate rates enter prevalence. Incidence depends explicitly on transmission at leading order. When the noise standard deviation is proportional to $\\varepsilon$, we prove $O(\\varepsilon)$ convergence in Hellinger distance of the nonlinear posteriors to their low-prevalence limits for both prevalence alone and joint prevalence and incidence data. We bound the principal eigenvalue using the growth rate of the infected $L^2$ norm between two times. This rate gives a lower bound for the full nonlinear system, and the upper bound separates spatial transients from nonlinear saturation. Uniform spectral estimates and bounds on infection size and measurement error give sufficient conditions for persistence and extinction. We also bound the error in posterior persistence probabilities under forward and eigenvalue approximation, accounting for posterior mass near the threshold. Numerical examples illustrate threshold inference and the predicted \\(O(\\varepsilon)\\) convergence of the nonlinear posteriors to their low-prevalence limits in Hellinger distance."
+  },
+  {
+    "title": "Accurate predictions of properties of energetic materials with tabular foundation models",
+    "url": "http://arxiv.org/abs/2611.14462v1",
+    "arxiv_id": "2611.14462v1",
+    "authors": [
+      "Vagn Krister Nes Glomsrud",
+      "Mathias Bynke",
+      "Lars Henry Berge Olsen",
+      "Dennis Christensen"
+    ],
+    "published": "2026-11-10T18:29:37+00:00",
+    "summary": "We use TabPFN, a recently developed tabular foundation model, to predict three properties of energetic materials: impact sensitivity, decomposition temperature and crystal density. Without any hyperparameter tuning, TabPFN outperforms the best published models for all three properties. It also substantially outperforms a wide range of established machine-learning models, including tuned gradient boosting (XGBoost), random forests and Gaussian processes. This holds both when the models are given hand-crafted molecular descriptors and when they are given learned representations from Chemprop's message-passing neural network. In particular, for all three properties, TabPFN applied to Chemprop's own embedding is more accurate than Chemprop's predictions. TabPFN is also among the fastest models we consider, more than an order of magnitude faster than XGBoost. As TabPFN predicts the entire distribution of the target rather than just a single value, it offers built-in uncertainty quantification, which we compare with the empirical distributions of compounds with repeated measurements. Finally, we interpret the predictions using Shapley values, which rank the features by their importance."
+  },
+  {
+    "title": "A first application of split conformal prediction for dose prediction in knowledge-based radiotherapy planning",
+    "url": "http://arxiv.org/abs/2611.14438v1",
+    "arxiv_id": "2611.14438v1",
+    "authors": [
+      "Rapha\u00ebl Brodeur",
+      "Anne-Sophie Charest",
+      "Louis Archambault"
+    ],
+    "published": "2026-11-10T18:10:47+00:00",
+    "summary": "Radiation therapy treatment planning is a labour-intensive process prone to inter-expert variability. Deep learning (DL) dose prediction can accelerate this process, but most DL models do not quantify their reliability. In this study, we construct prediction intervals for DL-based radiotherapy dose prediction using split conformal prediction (CP), a model-agnostic and distribution-free method for uncertainty quantification that provides finite-sample coverage guarantees. We propose patient-level nonconformity scores obtained by aggregating voxelwise scores. Specifically, we formulate a maximum aggregation construction, which guarantees simultaneous coverage of the true dose in all voxels of a future patient with at least a user-defined probability, and a quantile-based construction, which guarantees, with the same probability lower bound, that a future patient attains a prescribed minimum level of voxel coverage. We also investigate groupwise calibration for region-specific guarantees and predictive uncertainty scaling for locally adaptive prediction intervals. The methods are evaluated on head-and-neck cases using a deep ensemble model. The proposed constructions achieved empirical coverage consistent with the nominal levels. Maximum aggregation led to conservative prediction intervals, whereas quantile aggregation produced narrower intervals. Groupwise calibration and uncertainty scaling reduced interval widths in some anatomical regions, while providing region-specific guarantees and local adaptivity. This is the first application of split CP to radiotherapy dose prediction. The explicit patient-level coverage guarantees offer a more interpretable characterisation of prediction reliability than raw uncertainty estimates. Split CP could help clinicians assess the reliability of model predictions and identify cases requiring further review."
+  },
+  {
+    "title": "DnNP: Denoising Input Uncertainty in Neural Processes",
+    "url": "http://arxiv.org/abs/2611.14424v1",
+    "arxiv_id": "2611.14424v1",
+    "authors": [
+      "Fatemeh Tohidian",
+      "Chengzhi Shi",
+      "Soomi Lee",
+      "Matthew Elia",
+      "Amy Mueller",
+      "Stratis Ioannidis",
+      "Jennifer Dy"
+    ],
+    "published": "2026-11-10T18:00:37+00:00",
+    "summary": "Neural Processes (NPs) are flexible meta-learning models capable of uncertainty quantification across diverse applications. However, the standard NP framework assumes access to noise-free inputs. This is unrealistic in many practical settings, where sensor noise or measurement errors are unavoidable. This discrepancy between model assumptions and real-world data can significantly degrade prediction quality and uncertainty estimates. We introduce Denoising Neural Processes (DnNPs), a principled extension of the NP framework that explicitly models input uncertainty. We train DnNPs via variational inference. DnNPs jointly learn to denoise corrupted inputs and perform meta-learning, making them robust to noisy training data. We demonstrate DnNPs' effectiveness on both synthetic and real-world datasets, showing consistent improvements in prediction and uncertainty quantification compared to standard NPs. On PM2.5 spatial interpolation from real-world air quality sensors, DnNP reduces RMSE by up to 30% and NLL by up to 73% relative to standard NPs. We also provide theoretical grounding: we show that the Bayes-optimal predictor under noisy inputs belongs to the DnNP model class, and that plug-in models with fixed observation variance incur an irreducible KL divergence gap that DnNP provably avoids."
+  },
+  {
+    "title": "Good Practices for Measuring the Interfacial Dzyaloshinskii-Moriya Interaction by Brillouin Light Scattering and Magneto-Optical Kerr Effect",
+    "url": "http://arxiv.org/abs/2611.14405v1",
+    "arxiv_id": "2611.14405v1",
+    "authors": [
+      "Marco Madami",
+      "Silvia Tacchi",
+      "Adriano Di Pietro",
+      "Alessandro Magni",
+      "Giovanni Gandini",
+      "Christian Rinaldi",
+      "Giovanni Carlotti",
+      "Gianfranco Durin",
+      "Johannes Hertel",
+      "Maximilian Lederer",
+      "Christopher H. Marrows",
+      "Vito Puliafito",
+      "Michaela Kuepferling"
+    ],
+    "published": "2026-11-10T17:48:48+00:00",
+    "summary": "The interfacial Dzyaloshinskii-Moriya interaction (iDMI) is a key ingredient for stabilizing chiral magnetic states, such as skyrmions and chiral domain walls, which are key building blocks for next-generation spintronic technologies. Despite its importance, the quantitative determination of the iDMI constant, $D$, is often plagued by significant discrepancies. This paper establishes a set of good practices for measuring iDMI using two primary techniques: Brillouin Light Scattering (BLS) and the Magneto-Optical Kerr Effect (MOKE). Through the analysis of Co/Pt-based heterostructures, this work provides a comprehensive roadmap for measurement procedures, data evaluation, and uncertainty analysis. Our analysis highlights the crucial role of magnetic parameters used to extract the iDMI constant and propagation of their uncertainties, and the measurement model for enhancing measurement reliability. The proposed methodology provides a practical framework for improving the consistency and reproducibility of iDMI measurements across different laboratories and experimental techniques."
+  },
+  {
+    "title": "Improved Myelin Water Fraction Estimation and Uncertainty Mapping in Multicomponent T2 Relaxometry via NNLS Bootstrap Aggregation",
+    "url": "http://arxiv.org/abs/2611.14395v1",
+    "arxiv_id": "2611.14395v1",
+    "authors": [
+      "Erick J Canales-Rodr\u00edguez",
+      "Thomas Yu",
+      "Juan Manuel G\u00f3rriz",
+      "Santiago Galdo-\u00c1lvarez",
+      "Tobias Kober",
+      "Tom Hilbert",
+      "Gian Franco Piredda",
+      "Miguel \u00c1ngel Rivas-Fern\u00e1ndez"
+    ],
+    "published": "2026-11-10T17:43:51+00:00",
+    "summary": "Estimating the myelin water fraction (MWF) from multicomponent T2 relaxometry requires solving an ill-conditioned inverse problem, making estimates sensitive to noise. Regularization can improve stability but may introduce bias. Conventional NNLS-based methods also provide point estimates without directly quantifying voxelwise variability. To address these limitations, we propose the non-negative least squares Bootstrap Barycenter (NNLS-BB), combining residual resampling with repeated NNLS reconstruction. We average spectra and derived parameters across bootstrap replicates and use their standard deviations to characterize sensitivity to signal perturbations. The method requires neither an explicit spectral regularization penalty nor a training dataset. NNLS-BB was evaluated on 40,000 simulated voxels with signal-to-noise ratios of 50-1000, against conventional NNLS, two regularized NNLS methods, and a model-informed machine-learning (MIML) method. Scan-rescan repeatability was assessed across 20 white-matter regions in two independent cohorts comprising 13 healthy participants. NNLS-BB achieved the lowest MWF mean absolute error and root mean squared error in all simulated noise regimes. Mean absolute error decreased by 36-41% relative to conventional NNLS, alongside lower error dispersion. Compared with Bayes-Reg-$D^{-1}$ and MIML, NNLS-BB achieved comparable dispersion but substantially lower bias, although MIML reconstructed the full spectrum more accurately. In vivo, NNLS-BB yielded the lowest regional scan-rescan dispersion and highest mean correlation in both cohorts. Bootstrap standard-deviation maps provided complementary information about parameter variability. These results support residual-bootstrap aggregation for improving MWF estimation while providing voxelwise variability maps from a single acquisition."
+  },
+  {
+    "title": "Uncertainty-Aware Hybrid Offline Reinforcement Learning with Online Action Selection Enabled by Sparse Gaussian-Process Critics",
+    "url": "http://arxiv.org/abs/2611.14374v1",
+    "arxiv_id": "2611.14374v1",
+    "authors": [
+      "Marco Chan",
+      "Christos Evripidou",
+      "Liqiu Dong",
+      "Benoit Chachuat",
+      "Mehmet Mercang\u00f6z"
+    ],
+    "published": "2026-11-10T17:30:34+00:00",
+    "summary": "Start-ups and grade changes remain largely operator-driven, while developing and maintaining dynamic models for model-based control requires substantial engineering effort. Hybrid Offline Learning and Online Optimisation (HOFLON) uses one-step offline reinforcement learning to select actions from historical transition data. In its original implementation, the online objective combines the predicted return from a tree-ensemble critic with an adversarial-autoencoder (AAE) penalty for unfamiliar state-action pairs. We examine the effect of this penalty and replace the critic and AAE with a sparse variational Gaussian-process (sGP) critic. Actions maximise $\u03bc- \u03ba\u03c3$, an uncertainty-adjusted estimate of the return from one action followed by the historical operating practice. On the HOFLON polymerisation-reactor benchmark, removing the AAE from HOFLON led to 4 failed start-ups in 15 runs over five critics. At its published weight, the variation in the AAE penalty is four orders of magnitude smaller than the variation in the tree-ensemble critic. Nevertheless, it changes actions when the predicted returns of competing candidates are nearly equal, and paired runs with and without the penalty diverged from the first move. With a Mat\u00e9rn-5/2 sGP critic, $\u03ba= 0$ led to failure in 13 of 15 runs, whereas with $\u03ba= 3$ none of 15 runs (five critics, three noise realisations) failed. The median and lowest returns were 13,464 and 13,398 (HOFLON: 13,393 and 12,411). A squared-exponential sGP critic with learned inducing inputs needed $\u03ba\\geq 3$ to remain within the empirical data support in steady state, and then settled with a temperature offset of 2.0 K."
+  },
+  {
+    "title": "Resolved $Q_1^q$-$Q_{7\u03b3}$ interference in $\\bar{B}\\to X_s\u03b3$ at NLO: Hard matching and radiative charm-loop jet function for $m_c \\to 0$",
+    "url": "http://arxiv.org/abs/2611.14318v1",
+    "arxiv_id": "2611.14318v1",
+    "authors": [
+      "Riccardo Bartocci",
+      "Philipp B\u00f6er",
+      "Kevin Brune",
+      "Tobias Hurth"
+    ],
+    "published": "2026-11-10T16:45:28+00:00",
+    "summary": "We study next-to-leading-order (NLO) QCD corrections to the subleading-power resolved-photon contribution to $\\bar{B}\\to X_s\u03b3$ arising from the interference of the current-current operator $Q_1^q$ and the electromagnetic dipole operator $Q_{7\u03b3}$. This contribution is among the main sources of theoretical uncertainty in Standard Model predictions for the decay rate. Using a factorisation theorem in soft-collinear effective theory for the kinematic endpoint region, $m_b-2E_\u03b3=\\mathcal{O}(\u039b_{\\rm QCD})$, we determine all previously unknown perturbative ingredients at NLO in the limit of a vanishing charm-quark mass, $m_c\\to0$. Specifically, we compute the $m_c$-independent one-loop hard-matching coefficients, derive their renormalisation-group equations, and obtain accurate analytic approximations to their solutions by retaining the first two terms in a $1/N_c$ expansion. Our second main result is the two-loop correction to the radiative charm-loop jet function, including its full dependence on the collinear momentum fraction. Combining these results with the known $\\mathcal{O}(\u03b1_s)$ correction to the quark jet function and the one-loop renormalisation of the subleading shape function $g_{17}$, previously computed by some of us, we provide the first complete NLO description of this resolved contribution in the massless-charm limit. This leaves the $m_c$ dependence of the radiative charm-loop jet function as the remaining ingredient for a phenomenological analysis within renormalisation-group-improved perturbation theory."
+  },
+  {
+    "title": "SHINE: Shear inference environment - Generative forward modelling for radio weak gravitational lensing",
+    "url": "http://arxiv.org/abs/2611.14301v1",
+    "arxiv_id": "2611.14301v1",
+    "authors": [
+      "Ezequiel Centofanti",
+      "Benjamin Remy",
+      "Emma Ay\u00e7oberry",
+      "Fran\u00e7ois Lanusse",
+      "Jean-Luc Starck",
+      "Samuel Farrens"
+    ],
+    "published": "2026-11-10T16:34:44+00:00",
+    "summary": "Next-generation radio interferometers, such as SKA, will observe the radio sky with unprecedented sensitivity and resolution enabling weak gravitational lensing studies using radio data, which not only complement optical observations but also probe higher redshifts. However, traditional shear estimation methods, based on measuring the ellipticity of observed galaxies, are not directly applicable to radio interferometric data. Interferometric observations are acquired in the Fourier domain, where galaxy images are delocalised, making shape measurements non-trivial. Furthermore, deconvolution methods such as CLEAN can introduce systematic errors when converting observations to the image domain, biasing shear estimates. To address these challenges, we propose a cosmic shear inference method based on forward generative modelling, which avoids explicit shape measurements. Our forward model simulates galaxy images, applies the shear transformation and, by including the instrumental response of the radio interferometer, simulates the visibilities of observed galaxies, with the likelihood explicitly defined in Fourier space. Using Monte Carlo sampling algorithms, we estimate the posterior distribution of the cosmic shear conditioned on a set of galaxy observations that share a common shear. We obtain unbiased shear estimates with sub-percent accuracy when applied to parametric galaxy simulations. We compare our method to state-of-the-art shear estimators, demonstrating a reduction in uncertainty of up to 3 times and no apparent multiplicative bias. We then show that applying this parametric model to COSMOS galaxies with realistic morphologies introduces a bias in the shear estimate over 10\u03c3. Finally, we demonstrate that, by incorporating a generative forward model based on an autoencoder architecture trained on real galaxy images, we can mitigate this bias to below the 2\u03c3 level."
+  },
+  {
+    "title": "Concentration-Based Probabilistic Reachability for Linear Systems under Multiplicative Uncertainty and Additive Noise",
+    "url": "http://arxiv.org/abs/2611.14259v1",
+    "arxiv_id": "2611.14259v1",
+    "authors": [
+      "Kaouther Moussa",
+      "Kaito Ito",
+      "Hideaki Ishii"
+    ],
+    "published": "2026-11-10T16:05:42+00:00",
+    "summary": "This paper investigates probabilistic reachability for discrete-time linear stochastic systems subject to bounded multiplicative uncertainty and potentially unbounded additive noise. To address the conservatism of reachable sets constructed solely from covariance information, we develop two complementary approaches based on sub-Gaussian and sub-exponential matrix moment-generating-function characterizations. The sub-Gaussian approach relies on a worst-case envelope over the uncertainty support, whereas the sub-exponential approach exploits expectation-based propagation of the matrix variance proxy. Both approaches are used to construct probabilistic reachable sets with explicit probability guarantees, considering ellipsoidal confidence regions and half-space bounds. For the latter, we derive a necessary and sufficient condition under which the sub-exponential chance-constraint margin is no larger than its sub-Gaussian counterpart. Numerical results show that the proposed bounds can be less conservative than those based on the covariance, and illustrate the complementary nature of the two approaches across probability levels."
+  },
+  {
     "title": "A regularization-independent Information Criterion for correlated data",
     "url": "http://arxiv.org/abs/2611.12877v1",
     "arxiv_id": "2611.12877v1",
