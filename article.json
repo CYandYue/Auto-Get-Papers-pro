@@ -1,5 +1,122 @@
 [
   {
+    "title": "Fictitious Play When Agents Are Not Expected-Utility Maximizers: A Geometric Analysis in $2$-Action Games",
+    "url": "http://arxiv.org/abs/2611.17286v1",
+    "arxiv_id": "2611.17286v1",
+    "authors": [
+      "Hao Liang",
+      "Solaleh Mohammadi",
+      "Kaiqing Zhang"
+    ],
+    "published": "2026-11-12T18:52:14+00:00",
+    "summary": "Fictitious play (FP) is one of the earliest and most fundamental learning procedures in games, where each agent independently chooses a best response to the empirical distribution of opponents' past actions by maximizing the expected payoff with respect to it. However, learning agents may not always be expected-utility maximizers: they may use nonlinear evaluation functionals to account for the uncertainty induced by the opponents, e.g., via risk measures. In this work, we study nonlinear fictitious play (NL-FP), in which each pure action is evaluated by a general, possibly nonlinear functional of the payoff distribution induced by the opponent's empirical belief. To analyze NL-FP, we first identify a single-crossing property (SCP) of evaluation functionals that preserves the classical geometry of FP in $2\\times2$ games. Furthermore, we conduct a novel geometric analysis of the convergence behavior of NL-FP in $2\\times2$ games, even when the SCP fails. Beyond $2\\times2$ games, we show that the convergence of NL-FP in $2\\times n$ ($n\\ge3$) games may fail even for continuous-time NL-FP, when the two-action player uses conditional value-at-risk (CVaR) in a $2\\times3$ game. In addition, we identify a finite-crossing condition that ensures convergence of the selected continuous-time dynamics and the discrete-time iterates in general $2\\times n$ games, which also provides new insights into the global landscape of continuous-time classical FP in such games."
+  },
+  {
+    "title": "Non-interferometric tests of gravitational decoherence models with mechanical oscillators",
+    "url": "http://arxiv.org/abs/2611.17260v1",
+    "arxiv_id": "2611.17260v1",
+    "authors": [
+      "Sandro Donadi",
+      "Iarley P. Lobo",
+      "Matteo Fadel"
+    ],
+    "published": "2026-11-12T18:43:12+00:00",
+    "summary": "Phenomenological models of quantum-gravity-induced decoherence can leave observable effects even in experiments that do not rely on interferometric measurements. We study three such models, based respectively on deformed relativistic symmetries, stochastic metric fluctuations, and a stochastic generalized uncertainty principle, all of which induce decoherence in the momentum basis. For a free particle, the models preserve momentum distribution and mean energy but produce position diffusion and momentum-space decoherence with model-specific momentum dependences. For a harmonic oscillator, the noncommutativity of the collapse operators with the oscillator Hamiltonian results in anomalous heating, with the three models leading to qualitatively different energy dynamics. The first gives heating at a constant rate, the second at a rate proportional to the kinetic energy, which can lead to exponential growth, and the third at a rate growing cubically with excitation. We further derive the stationary position power spectral density and show that all three models produce the same leading-order excess lineshape in the weak-noise regime, distinct from that of force noise. Comparing with existing mechanical platforms, we find that displacement-noise measurements can already constrain the fluctuation time of the first model below the Planck time, while occupation measurements could improve the bounds on the second model by up to fourteen orders of magnitude over those from ground-state heating of levitated particles. Summing the heating over all phonon modes of a solid, the residual heat release of low-temperature experiments constrains the first model far below the Planck time and the second at the Planck time. Our results establish heating and continuous measurements as complementary non-interferometric probes of gravity-related decoherence."
+  },
+  {
+    "title": "FanCyqlone: A Parallelized Solver for Multi-Horizon Optimal Control",
+    "url": "http://arxiv.org/abs/2611.17221v1",
+    "arxiv_id": "2611.17221v1",
+    "authors": [
+      "Matisse Teuwen",
+      "Pieter Pas",
+      "Mathijs Schuurmans",
+      "Panagiotis Patrinos"
+    ],
+    "published": "2026-11-12T18:19:04+00:00",
+    "summary": "Multi-horizon optimal control aims to select optimal control sequences simultaneously for several possible future scenarios, ensuring consistency at the first stage. While this enables advanced model predictive control schemes that explicitly handle prediction uncertainty, solving these problems tends to be costly. We introduce FanCyqlone, a linear solver that exploits parallelism across both time steps and scenario branches. The method builds on Cyqlone to compute the contribution of each branch and combines these results through a shared root problem. We integrate FanCyqlone into QPALM to develop FanCyQPALM, a solver for multi-horizon optimal control problems with general linear stage-wise constraints. We compare its performance with state-of-the-art solvers on spring-mass and quadruped control benchmarks."
+  },
+  {
+    "title": "Three-body dynamics of the Roper resonance",
+    "url": "http://arxiv.org/abs/2611.17139v1",
+    "arxiv_id": "2611.17139v1",
+    "authors": [
+      "Jinzi Wu",
+      "Michael D\u00f6ring",
+      "Maxim Mai"
+    ],
+    "published": "2026-11-12T17:29:13+00:00",
+    "summary": "The enigmatic Roper resonance is notoriously difficult to determine in lattice QCD. Its quantum numbers, $J^P=1/2^+$, allow for two pions and a nucleon in relative $S$-waves. This absence of a centrifugal barrier leads to strong three-body $\u03c0\u03c0N$ effects on top of the two-body $\u03c0N$ channel -maybe the reason why the Roper is obscured in lattice QCD close to physical masses. Guided by unitarity, an amplitude is constructed in which three-body states are populated through channels in $f_0(500)N(939)1/2^+$, $\u03c0\u0394(1232)3/2^+$, and $\u03c0N(1440)1/2^+$ configurations. The latter channel is required by unitarity in the presence of nucleon exchange, and it contains the nucleon as a bound state, generating the $\u03c0N$ channel automatically. With the sub-channels matching the corresponding two-body amplitudes from experiment and nucleon properties, the $P_{11}$ amplitude from SAID is fitted, allowing for an accurate determination of the Roper poles close to the complex $\u03c0\u0394$ threshold. The Roper poles and residues are, for the first time, determined by explicitly including this and other non-analyticities in combination with strict two- and three-body unitarity. Contour deformation allows for a direct pole search. Systematic uncertainties from the parametrization dependence are quantified. The result for the Roper $S$-matrix pole is $\\sqrt{s_R}/{\\rm MeV} =1346\\pm 2^{+6}_{-3} - i(81\\pm 2^{+7}_{-8})$. The amplitude developed here will serve as the central input for a quantization condition that allows for future determinations of the Roper resonance from lattice QCD."
+  },
+  {
+    "title": "Augmented Dynamical Sampling under unmodeled Forcing",
+    "url": "http://arxiv.org/abs/2611.17137v1",
+    "arxiv_id": "2611.17137v1",
+    "authors": [
+      "Juan Giribet",
+      "Serena Feldberg"
+    ],
+    "published": "2026-11-12T17:28:31+00:00",
+    "summary": "We study recovery of an initial state from dynamical samples of a trajectory driven by unknown additive forcing. Measurements against both the original sensors and their images under the adjoint nominal evolution yield one-step residuals that cancel the initial state exactly. These residuals separate forcing estimation from initial-state reconstruction. For a centered Gaussian forcing model with fixed covariance parameters, we combine Gaussian conditioning with canonical dual-frame reconstruction and derive an exact unconditional second-moment identity, including the correlation between the forcing-estimation error and the measurement noise. We also obtain high-probability bounds and identify the irreducible forcing uncertainty through a conditional covariance in the geometry induced by the prior. A hierarchy of augmented sensor systems separates the role of sampling depth in forcing visibility from that of the observation horizon in nominal observability. An image-transport experiment and finite-dimensional and periodic-convolution experiments illustrate the residual correction and the separate roles of sampling depth and observation horizon."
+  },
+  {
+    "title": "Optimal Single-History Tokenization Disambiguation for Provably Secure Linguistic Steganography",
+    "url": "http://arxiv.org/abs/2611.17091v1",
+    "arxiv_id": "2611.17091v1",
+    "authors": [
+      "Feng Jiang"
+    ],
+    "published": "2026-11-12T16:54:18+00:00",
+    "summary": "Provably secure linguistic steganography assumes that the receiver recovers the sender's tokens, but a text channel delivers only text, and ambiguous tokenizations break extraction. Existing fixes change the distribution, synchronize whole pools of tokens at a capacity that collapses with large vocabularies, or track several token histories. We prove that if extraction is exact and error-free across full-support language models, a single-history receiver is confined to a prefix-free candidate set at every step -- even if it reads the entire future text and the sender constrains later steps -- and must therefore give up the stop entropy, the entropy of deciding whether each prefix token ends there. Fixing these stop decisions on the prefix forest with shared randomness yields coin projection: a closed-form scheme that attains the bound, works with any distribution coder in one model call per token, preserves ordinary sampling, and refines SyncPool for every key. Across English, Chinese and Japanese, ambiguous text is rare (at most 11 in 1,000 tokens), yet the stop entropy at word and morpheme prefixes takes 7.2-9.0% of the entropy at every step; SyncPool's further loss comes from space and single-byte UTF-8 hubs that merge subtrees while carrying almost no stop uncertainty. Coin projection keeps 91-93% of the string entropy for the coder at every vocabulary size; with the full vocabulary, it turns 2.16-6.85 times as much entropy into message bits as SyncPool and recovers every completed message."
+  },
+  {
+    "title": "On-the-Fly Gaussian Process Reconstruction of the Galaxy Redshift Distribution for 3$\\times$2pt Cosmology",
+    "url": "http://arxiv.org/abs/2611.17085v1",
+    "arxiv_id": "2611.17085v1",
+    "authors": [
+      "Jip de Buck",
+      "Guadalupe Ca\u00f1as-Herrera",
+      "Henk Hoekstra",
+      "Angus H. Wright"
+    ],
+    "published": "2026-11-12T16:50:55+00:00",
+    "summary": "The joint analysis of weak gravitational lensing, photometric galaxy clustering, and their cross-correlation, the so-called 3$\\times$2pt analysis, is one of the primary probes Stage-IV surveys will use to constrain the dark-energy equation of state. Its accuracy depends critically on the calibration of the underlying photometric redshift distributions, $n(z)$, whose residual uncertainties can bias cosmological inference. However, conventional parametric nuisance models may not adequately capture the full range of plausible $n(z)$ uncertainties. We therefore present a cosmological inference framework that instead reconstructs $n(z)$ on the fly using Gaussian Processes (GPs), replacing per-bin shift-and-width parameterisations by a non-parametric, data-driven model. We validate the method on synthetic Euclid-like 3$\\times$2pt data vectors representative of Euclid Data Release 1, sampling GP hyperparameters jointly with cosmological and nuisance parameters to reliably propagate $n(z)$ uncertainties into the posterior distributions. We find that the dependence of the inferred parameters on the adopted $n(z)$ model is markedly stronger in $w_0w_a$CDM than in $\u039b$CDM. Opening the dark-energy sector both amplifies the biases induced by a given $n(z)$ treatment and changes which $n(z)$ reconstruction the data prefer, so that a model validated in $\u039b$CDM does not automatically remain adequate once $w_0$ and $w_a$ are free. Our results thus indicate that Stage-IV surveys should define $n(z)$ uncertainty marginalisation requirements separately in cosmologies beyond $\u039b$CDM to ensure unbiased dark-energy constraints."
+  },
+  {
+    "title": "Discrete unique continuation for Schr\u00f6dinger equations",
+    "url": "http://arxiv.org/abs/2611.17073v1",
+    "arxiv_id": "2611.17073v1",
+    "authors": [
+      "Torunn S. Jensen",
+      "Didier Pilod",
+      "Jo\u00e3o P. G. Ramos"
+    ],
+    "published": "2026-11-12T16:45:40+00:00",
+    "summary": "We study discrete unique continuation for one-dimensional Schr\u00f6dinger equations. We prove that if a solution vanishes at the points $\\pm n^\u03b1$ at time $0$ and at the points $\\pm n^\u03b2$ at time $1$, it must vanish identically in two main cases: the case of a Schr\u00f6dinger equation with a real potential that is uniformly of Gevrey class $\u03c3\\ge 0$ in space, provided that $\\max\\{1,\u03c3\\}\\big(\u03b1/(1-\u03b1)+\u03b2/(1-\u03b2)\\big)<1$, and in the case of the cubic nonlinear Schr\u00f6dinger equation, provided that $\u03b1/(1-\u03b1)+\u03b2/(1-\u03b2)<1$.   Unlike previous results for logarithmically spaced zeros, our methods do not rely on complex analysis. We first show that, whenever $\u03b1+\u03b2<1$, the zeros force the solution to lie in the Schwartz class at all times. We then convert the zeros into gaussian decay at the two times, by combining energy estimates for iterations of the vector field $\u0393=x+2it\\partial_x$ with techniques from Fourier uniqueness problems, and conclude with the Morgan-type uncertainty principle of Escauriaza, Kenig, Ponce and Vega."
+  },
+  {
+    "title": "Capacity-Constrained Delayed Feedback for Online Conformal Risk Control",
+    "url": "http://arxiv.org/abs/2611.17059v1",
+    "arxiv_id": "2611.17059v1",
+    "authors": [
+      "Bowen Wang",
+      "Osvaldo Simeone"
+    ],
+    "published": "2026-11-12T16:37:20+00:00",
+    "summary": "Online conformal risk control (OCRC) enables reliable uncertainty quantification in machine learning by converting model outputs into prediction sets with long-term risk guarantees. These guarantees, however, hinge on the assumption that the loss of each round is revealed immediately and losslessly. In practice, feedback may be delayed, and limited resources may prevent tracking all pending predictions, causing some feedback to be lost. To address this challenge, we develop capacity-aware OCRC (CA-OCRC), a framework that jointly determines how to allocate limited tracking feedback capacity and how to construct prediction sets. CA-OCRC is based on a randomized tracking policy that samples a proxy delay to decide whether, and for how long, feedback for the current round is tracked. CA-OCRC updates the prediction sets via inverse probability weighting, compensating for the possibility of feedback lost due to delays and limited tracking capacity. We analyze risk bounds for both arbitrary and stochastic delays, revealing a trade-off between receiving more feedback and avoiding capacity saturation. Building on these bounds, we optimize the proxy delay distribution, showing scaling laws for the tracking capacity that ensure the same long-term risk as OCRC with unlimited feedback. Experiments on medical imaging, natural language processing, computer vision, and wireless communications show the effectiveness of CA-OCRC as compared to existing OCRC mechanisms."
+  },
+  {
+    "title": "Robust Control Design for LTI Systems with Sampling-Time Jitter",
+    "url": "http://arxiv.org/abs/2611.17046v1",
+    "arxiv_id": "2611.17046v1",
+    "authors": [
+      "Dieter Schwarzmann",
+      "Jan Lunze"
+    ],
+    "published": "2026-11-12T16:30:03+00:00",
+    "summary": "Sampling-time jitter makes a sampled-data control loop time-varying, so standard LTI robust-control synthesis does not apply directly. This paper reformulates dynamic output feedback design under bounded, unmeasured sample-to-sample jitter as a robust-control problem. The exact zero-order-hold model is decomposed into a nominal time-invariant plant and a memoryless, time-varying uncertainty block with a norm bound representing the sampling-time jitter. As the block is memoryless, the operator small-gain condition for the time varying loop reduces to a standard robustness test with a matrix norm bound. It is shown that the same test also guarantees uniform exponential stability for every admissible jitter sequence. Embedding the decomposition into a generalized plant with performance channels serves two synthesis objectives with standard robust-control tools: Robust stability with optimized nominal performance through structured H-inf synthesis, and robust performance through mu synthesis with constant scalings. A numerical example shows that jitter can destabilize a control loop with a nominal H-inf controller, whereas both robust designs remain stable and the robust-performance design is less sensitive to jitter at the cost of nominal performance."
+  },
+  {
     "title": "Bayesian inverse problems and epidemic-threshold uncertainty for a heterogeneous SIS reaction-diffusion model",
     "url": "http://arxiv.org/abs/2611.14468v1",
     "arxiv_id": "2611.14468v1",
