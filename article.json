@@ -1,5 +1,154 @@
 [
   {
+    "title": "Patient-specific Modeling of the Tricuspid Valve from 3D Transesophageal Echocardiography",
+    "url": "http://arxiv.org/abs/2611.18522v1",
+    "arxiv_id": "2611.18522v1",
+    "authors": [
+      "Davide Tondi",
+      "Vijay K. Dubey",
+      "Collin E. Haese",
+      "Colton J. Kostelnik",
+      "Mrudang Mathur",
+      "Sumedh Seetharam",
+      "Amin Silvani",
+      "Alison M. Pouch",
+      "Jakob Christoph Voran",
+      "Felix Kreidel",
+      "Marnie Goldmann",
+      "Adrian Buganza Tepole",
+      "William D. Meador",
+      "Marcin Malinowski",
+      "Magda Piekarska",
+      "Austin Goodyke",
+      "Issam D. Moussa",
+      "Matthew R. Summers",
+      "Robyn Fong",
+      "Matthew M. Duda",
+      "Kelly C. Higa",
+      "William Hiesinger",
+      "Tomasz A. Timek",
+      "Jan N. Fuhg",
+      "Emiliano Votta",
+      "Manuel K. Rausch"
+    ],
+    "published": "2026-11-13T18:37:48+00:00",
+    "summary": "Purpose: Image-based patient-specific simulations of the tricuspid valve (TV) could support repair planning. However, clinical images incompletely resolve the chordal anatomy and cannot directly determine tissue properties, which hinders the development of such models. We developed and evaluated a framework that simulates the TV from clinical images and addresses these limitations using measurements on explanted human valves. Methods: We reconstructed ten functionally competent human TVs from 3D transesophageal echocardiography. Following manual segmentation, we automatically built finite element models with synthetic chordae and with leaflet thickness, chordal insertion density, and tissue properties informed by ex vivo human measurements. Next, we used shape matching and force-based chordal-length adjustment to simulate valve closure. We also assessed inter-observer segmentation variability and sensitivity to chordal insertion density, leaflet stiffness, leaflet thickness, and chordal size and material properties. Results: Per-valve median geometric errors were 0.61-1.13 mm relative to the morphed references and 0.55-0.95 mm relative to the image-derived surfaces. Coaptation covered 20-42% of the leaflet area, and median leaflet stresses ranged from 7.6 to 16.9 kPa. Inter-observer variability in segmentation most strongly affected coaptation area. Of the population-based inputs, insertion density and leaflet stiffness most affected geometric error. Thickness primarily affected stress, whereas chordal size and material properties had limited effects. Conclusion: Clinical echocardiography, supplemented with ex vivo human tissue data, enabled patient-specific simulation of ten human TVs. This framework provides a foundation for investigating valve mechanics and developing repair-planning tools, while sensitivity analyses identify priorities for model refinement and uncertainty assessment."
+  },
+  {
+    "title": "Disturbance-Aware Informative Planning in Spatiotemporal Environments",
+    "url": "http://arxiv.org/abs/2611.18505v1",
+    "arxiv_id": "2611.18505v1",
+    "authors": [
+      "Kaleb Ben Naveed",
+      "Haejoon Lee",
+      "Anouck Girard",
+      "Dimitra Panagou"
+    ],
+    "published": "2026-11-13T18:22:50+00:00",
+    "summary": "Autonomous robots are widely used for persistent monitoring of spatiotemporal environments, where quantities of interest (QoI) change across space and time and require repeated measurements. In practice, robot motion can be affected by external disturbances that vary across the environment. When such external disturbances are not considered in trajectory optimization, it can lead to inaccurate predictions of robot motion and, consequently, the information acquired about the QoI during execution. However, estimating disturbances throughout the environment can be inefficient, as disturbances in regions with little overlap with monitoring trajectories have limited impact on monitoring performance. We therefore propose a two-stage informative planning framework for unknown, spatially varying but time-invariant disturbances, combining informed disturbance sampling with disturbance-aware trajectory optimization. First, we identify where QoI measurements are needed and generate alternative paths to these locations using the environment geometry. We then prioritize disturbance measurements based on their expected reduction of disturbance uncertainty along these paths. Second, rather than optimizing information acquisition based on nominal robot motion, we incorporate the learned disturbance belief into trajectory optimization to account for its effects on robot motion and information acquisition. Across four simulation scenarios, the proposed method reduces disturbance-learning time by 25.0--52.3 percent compared with environment-wide estimation and identifies paths that appear costly under nominal dynamics but become preferable when disturbances are considered."
+  },
+  {
+    "title": "Black-Box Uncertainty Quantification for Large Language Models via Ensemble-of-Ensembles",
+    "url": "http://arxiv.org/abs/2611.18453v1",
+    "arxiv_id": "2611.18453v1",
+    "authors": [
+      "Wang Ma",
+      "Debarun Bhattacharjya",
+      "Junkyu Lee",
+      "Nhan H Pham",
+      "Harsha Kokel",
+      "Qiang Ji"
+    ],
+    "published": "2026-11-13T17:26:39+00:00",
+    "summary": "Reliable use of large language models (LLMs) requires uncertainty estimates that separate ambiguity intrinsic to a prompt from genuine knowledge gaps. Bayesian and deep-ensemble methods deliver this aleatoric/epistemic decomposition in principle, but are computationally prohibitive at LLM scale and require white-box access. Existing black-box methods, in contrast, summarize to a single scalar that cannot make the distinction. We introduce a two-level ensemble that bridges this gap. Stochastic decoding of a fixed prompt forms the inner ensemble; meaning-preserving semantic perturbations of the prompt form the outer ensemble. Variability is measured in a continuous embedding space, and the law of total covariance gives an exact within-/between-perturbation decomposition to estimate aleatoric and epistemic uncertainty (AU/EU); it requires only black-box sampling access. On top of this estimator, we contribute three theoretical results that ground the framework: (i) a finite-sample bias identity for nested Monte Carlo with a closed-form bias-corrected epistemic estimator; (ii) a Bayesian bridge bounding the gap between perturbation-population AU/EU and Bayesian targets; and (iii) a separation result identifying a class of failure modes that any consistency-only black-box method provably misses while perturbation-based EU detects. Across five short QA benchmarks and four instruction-tuned LLMs spanning two families and two scales, our estimator is competitive with strong white-box baselines, and at a matched generation budget it matches leading black-box methods on error ranking while decomposing AU and EU; controlled paired interventions show that AU and EU respond selectively to distinct, actionable sources of failure: prompt ambiguity and model knowledge gaps; and a long-form pilot on the NQ long-answer split shows the framework extends to claim-level factuality without retraining."
+  },
+  {
+    "title": "CS-MPC: Contraction-Certified Sampling-Based MPC for Nonlinear Systems Under Uncertainty",
+    "url": "http://arxiv.org/abs/2611.18390v1",
+    "arxiv_id": "2611.18390v1",
+    "authors": [
+      "Yashwanth Kumar Nakka"
+    ],
+    "published": "2026-11-13T16:33:06+00:00",
+    "summary": "We present contraction-certified sampling-based model predictive control (CS-MPC) for tracking and safety of nonlinear robotic systems under parametric uncertainty, disturbances, and safety constraints that are revealed online. CS-MPC uses a contraction-certified tracking feedback inside every sampled rollout, which concentrates the rollouts around the reference, and an execution layer that verifies the applied input using a quantile-tightened discrete-time control barrier function condition. We derive a verification procedure for nonlinear contraction of the feedback-closed dynamics, and we prove a finite-sample stochastic stability bound and a mission-level probabilistic safety guarantee. We validate CS-MPC in simulation on a rover, a quadrotor, and an asteroid landing. When compared with standard model predictive path integral (MPPI) control, CS-MPC attains the same tracking error with 7 to 20 times fewer rollouts for the rover, and a 2 to 4 times lower tracking error for the quadrotor, with no safety violations in 200 Monte Carlo missions."
+  },
+  {
+    "title": "A systematic comparison of physics-informed neural networks and mechanistic models for epidemic modeling and forecasting",
+    "url": "http://arxiv.org/abs/2611.18389v1",
+    "arxiv_id": "2611.18389v1",
+    "authors": [
+      "Martina Rama",
+      "Yuhan Li",
+      "Bruno Lepri",
+      "Nicola Perra",
+      "Michele Tizzoni"
+    ],
+    "published": "2026-11-13T16:32:42+00:00",
+    "summary": "Physics-Informed Neural Networks (PINNs) have recently been applied to epidemic modeling and forecasting with promising results. These methods integrate mechanistic knowledge with data-driven learning. Yet, their comparative performance against well-established, and simpler epidemic models is underexplored. Here, we conduct a systematic comparison of a PINN-based framework and a stochastic mechanistic model. Both approaches share the same age-structured SEIRD core and rolling-window forecasting pipeline, in a deliberately minimal setting. We evaluate their retrospective fits and probabilistic forecasts in two synthetic scenarios and the first COVID-19 wave in London. Interestingly, while PINNs underperform in synthetic scenarios, they achieve better performance on real data. Furthermore, PINNs provide narrower uncertainty intervals and sharper estimation of parameters in synthetic scenarios. Our findings confirm PINNs as a promising tool in epidemiology. At the same time, the results reaffirm the value of simpler approaches such as traditional compartmental models, and promote additional benchmarking studies."
+  },
+  {
+    "title": "The directions of science: How we search the unknown",
+    "url": "http://arxiv.org/abs/2611.18349v1",
+    "arxiv_id": "2611.18349v1",
+    "authors": [
+      "Nicola Cinardi"
+    ],
+    "published": "2026-11-13T15:58:09+00:00",
+    "summary": "Science is producing knowledge at unprecedented scale, while artificial intelligence promises to accelerate the generation of hypotheses, analyses, and scientific outputs further. Yet increasing the volume of research does not necessarily expand the range of directions science effectively explores. We argue that science can be understood as a collective search process in which finite resources are allocated across an evolving space of possible research trajectories. Careers, funding, organization, publication, attention, and technology act as interacting selection mechanisms that shape this allocation. This Perspective distinguishes the visible diversity of scientific activity from its effective diversity: apparently different researchers, institutions, or projects need not provide genuinely different routes of exploration or evaluation. Our principal contribution is to introduce cross-stage dependence, which occurs when selection processes operating at different stages of science are not fully independent in the grounds through which they favour scientific trajectories. We hypothesize that, under uncertainty, repeated filtering through overlapping criteria, information, prior selections, or technological infrastructure can reduce the capacity of science to maintain plausible alternatives and redirect effort when evidence changes their relative promise. Artificial intelligence makes this problem increasingly consequential because it can simultaneously expand scientific search capacity and participate across multiple stages of production and selection. The challenge is therefore not simply to produce more knowledge, but to preserve sufficiently distinct routes of exploration, verification and correction while retaining the ability to change direction."
+  },
+  {
+    "title": "Learning Word-Level Explanations of Text Reuse in Latin Literature with Little Annotation",
+    "url": "http://arxiv.org/abs/2611.18319v1",
+    "arxiv_id": "2611.18319v1",
+    "authors": [
+      "Julian Schelb",
+      "Michael Wittweiler",
+      "Marie Revellio"
+    ],
+    "published": "2026-11-13T15:33:43+00:00",
+    "summary": "Detecting an intertextual reference is only the first step; philologists also need to know how a later author reworked the source. We explain a reuse pair word by word: each word of the reusing passage is first aligned to its source word, then labeled with the operation that transformed it, such as a copy, a change of inflection, or a substitution. Such word-level operations are expensive to annotate, and only a few corpora annotated at this level exist for text reuse in Latin literature. We describe a procedure that needs only a limited number of annotations: synthetic pairs, built by applying known operations to Latin text, train a first model, and active learning chooses the pairs an annotator corrects. Among several architectures, a model that links and labels together performs best: a pointer network that, for every reuse word, chooses a source word and names the operation in the same step. We show that with active learning, 200 pairs chosen by uncertainty are enough for the model to match one trained on every annotated pair of the 1,490 references of the Loci Similes benchmark. We release our code, word-level predictions for all references, and an interactive demo."
+  },
+  {
+    "title": "Towards an improved understanding of $a_1$ and $a_2$ transition form factors",
+    "url": "http://arxiv.org/abs/2611.18306v1",
+    "arxiv_id": "2611.18306v1",
+    "authors": [
+      "Hannah Sch\u00e4fer"
+    ],
+    "published": "2026-11-13T15:26:27+00:00",
+    "summary": "The isovector axial-vector and tensor meson states $a_1$ and $a_2$ have garnered interest in the last years since they appear as intermediate states in the hadronic light-by-light (HLbL) scattering contribution to $(g-2)_\u03bc$. Their dynamical behaviour including their transition form factors is poorly understood to this day, which also affects the uncertainty budget of the HLbL contribution. In order to improve the situation, we construct the $a_1$ and $a_2$ as resonances in the $\u03c1\u03c0$ system, which allows us to express the relevant amplitudes in terms of known form factors and properties of the resonances. With this, we aim to obtain a phenomenologically well motivated parameterisation of the transition form factors built from the general principles of analyticity, unitarity, and crossing symmetry."
+  },
+  {
+    "title": "PROOF: Perceptive Robustness via Out-of-Distribution Fallback for Legged Locomotion",
+    "url": "http://arxiv.org/abs/2611.18305v1",
+    "arxiv_id": "2611.18305v1",
+    "authors": [
+      "Siyuan Wang",
+      "Dongjie Zhu",
+      "Jinxuan Lu",
+      "Wenjun Xu",
+      "Jiankun Wang"
+    ],
+    "published": "2026-11-13T15:26:14+00:00",
+    "summary": "Vision-based perceptive locomotion has enabled legged robots to achieve agile and terrain-aware locomotion across complex environments. However, the reliability of such systems heavily depends on visual observations, which are inherently susceptible to occlusion, reflective surfaces, and illumination variations, often resulting in catastrophic locomotion failures under degraded perception conditions. In this paper, we present PROOF (Perceptive Robustness via Out-of-Distribution Fallback for Legged Locomotion), a perceptive locomotion framework that enables robust locomotion under severe visual disturbances. Our method adopts a two-stage teacher-student learning paradigm that explicitly models perception reliability: the teacher learns both perception-driven and proprioceptive fallback behaviors, while the student predicts exteroceptive features with uncertainty and suppresses them under out-of-distribution inputs. We evaluate our method on a Unitree Go2 quadruped equipped with a RealSense D435 depth camera in real-world settings. Under normal visual conditions, our method enables the robot to successfully perform high-dynamic parkour maneuvers, including traversing large gaps, elevated platforms, and narrow beam terrains. Under severe visual degradation, such as heavy occlusion and strong illumination changes, the robot continues to maintain stable and robust locomotion performance."
+  },
+  {
+    "title": "Chip-Based Discrete-Modulated Continuous-Variable Quantum Key Distribution with Uncertainty-Principle-Based Composable Security",
+    "url": "http://arxiv.org/abs/2611.18288v1",
+    "arxiv_id": "2611.18288v1",
+    "authors": [
+      "Jiale Mi",
+      "Yiming Bian",
+      "Zhengyu Li",
+      "Xuesong Xu",
+      "Song Yu",
+      "Yichen Zhang",
+      "Hong Guo"
+    ],
+    "published": "2026-11-13T15:14:15+00:00",
+    "summary": "Continuous-variable quantum key distribution offers a promising platform for scalable quantum networks through its compatibility with standard telecommunications technology and photonic integration. High-order discrete modulation facilitates practical implementation while approaching the key-rate performance of ideal Gaussian modulation, but its finite-size composable security analysis entails substantial computational overhead. Here, we develop an uncertainty-principle-based security framework that enables finite-size composable key-rate evaluation against collective attacks for constellations up to 256-QAM. By introducing a heterodyne-measured ancillary mode into the entanglement-based source description, we incorporate additional source correlations into the security analysis that allow the Heisenberg uncertainty principle alone to provide a tight bound for the unknown correlations in a covariance matrix characterizing the whole system. Matrix symmetrization further reduces the key-rate optimization to a one-dimensional search, while subsequent mode reduction yields an analytical lower bound requiring no numerical search. Experimental demonstrations using 256-QAM on discrete-component and silicon-photonic-receiver platforms achieve finite-size composable secret key rates of 17.436 and 0.519 Mbps, respectively, over a 50 km fiber link. This approach facilitates the practical deployment of high-speed, real-time and compact quantum key distribution systems. Beyond quantum key distribution, the principle of tightening uncertainty-constrained bounds via source-mode expansion offers a paradigm for exploring the information-theoretic properties of complex non-Gaussian systems."
+  },
+  {
     "title": "Fictitious Play When Agents Are Not Expected-Utility Maximizers: A Geometric Analysis in $2$-Action Games",
     "url": "http://arxiv.org/abs/2611.17286v1",
     "arxiv_id": "2611.17286v1",
