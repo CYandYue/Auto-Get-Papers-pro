@@ -1,5 +1,130 @@
 [
   {
+    "title": "Compositions of Exoplanetary Debris Shaped by Milky Way Stellar Abundance Patterns",
+    "url": "http://arxiv.org/abs/2611.21583v1",
+    "arxiv_id": "2611.21583v1",
+    "authors": [
+      "Isabella L. Trierweiler",
+      "Kendra Nguyen",
+      "Lou Baya Ould Rouis",
+      "Pratik Gandhi",
+      "Laura K. Rogers",
+      "Carey M. Lisse",
+      "Malena Rice",
+      "Damanveer S. Grewal",
+      "Edward Young"
+    ],
+    "published": "2026-11-16T18:53:24+00:00",
+    "summary": "Galactic chemical evolution (GCE) predicts large-scale variations in exoplanet compositions with host star elemental abundances, reflecting the Milky Way's history of star formation and elemental enrichment from stellar feedback. We investigate the impact of GCE on the compositions of exoplanetary bodies using polluted white dwarfs (WDs), which probe the bulk elemental abundances of planetary debris. Using a literature sample of 70 polluted WDs, we calculate iron mass fractions for the accreted bodies and compare these to tracers of the WD progenitor's initial abundances, including age and kinematics. We demonstrate predicted trends using a sample of main sequence stars, and we show that these are generally reflected in the polluted WD sample. In particular, H-dominated WDs show preferentially larger iron mass fractions amongst younger and less dynamically excited systems. This trend is weaker amongst He-dominated WDs, and we show that this may be attributed to uncertainties in their observed phases of accretion. Continuing to combine WD pollution compositions with stellar parameters and kinematics could be a valuable way to constrain large-scale versus local drivers of planetary compositions."
+  },
+  {
+    "title": "Exploring Low-Regret Energy System Transition Pathways with Modeling to Generate Alternatives",
+    "url": "http://arxiv.org/abs/2611.21531v1",
+    "arxiv_id": "2611.21531v1",
+    "authors": [
+      "Hendrik Schricker",
+      "Maria Louise Schmitt",
+      "Philipp Kleusberg",
+      "Valentin Dinges",
+      "Benedikt Schuler",
+      "Frederike Kuperjans",
+      "Boyung J\u00fcrgens",
+      "Niklas von der Assen"
+    ],
+    "published": "2026-11-16T18:22:52+00:00",
+    "summary": "Long-term planning of energy system transitions is complex due to interdependent investment decisions and uncertain market and policy conditions. Stochastic optimization models account for this uncertainty by identifying a single optimal hedging strategy. However, the flexibility in technology choice and investment timing, i.e., the transition flexibility, usually remains unexplored. Modeling to generate alternatives (MGA) explores near-optimal solution spaces but has not been coupled with stochastic optimization to quantify the transition flexibility. We explore the low-regret pathway space, i.e., all transition pathways that stay within a chosen regret tolerance in every scenario. We introduce a termination criterion for MGA that bounds the exploration error in high-dimensional solution spaces and measure how far each pathway decision, once taken, narrows the capacity ranges of the others. We apply the method to an industrial energy system in Germany. The pathway that minimizes the worst-case regret keeps it at 2.2%, compared with up to 30.9% for perfect-foresight pathways. The transition flexibility increases most at low regret tolerances. At 3.5%, the capacity ranges are on average about 60% as wide as at the highest regret tolerance of 10%. A large share of these capacity ranges is surplus capacity, i.e., capacity installed in addition to, not instead of, other capacity. Surplus capacity is largely not operated but, once installed, narrows the other capacity ranges more strongly than operated capacity. Exploring the low-regret pathway space, rather than reporting a single optimal pathway, therefore is the more informative basis for planning energy system transitions under uncertainty."
+  },
+  {
+    "title": "Beyond Leaderboard Ranks: Selecting Software Engineering Agents Under Budget Constraints",
+    "url": "http://arxiv.org/abs/2611.21515v1",
+    "arxiv_id": "2611.21515v1",
+    "authors": [
+      "Srinath Srinivasan",
+      "Tim Menzies"
+    ],
+    "published": "2026-11-16T18:10:37+00:00",
+    "summary": "Teams that adopt LLM agents for issue resolution must decide which agent to pay for, and how much to spend finding out. Leaderboard ranks give weak evidence for this decision. Accuracy differences may be statistically unresolved, reported costs may be inconsistent, and evaluating candidate agents can itself be expensive. We investigate budget-constrained agent selection using 58,197 run--task records extracted from the Holistic Agent Leaderboard (HAL), focusing on SWE-bench and six additional benchmarks.   Across seven benchmarks, 27 of 35 steps along the accuracy--cost Pareto frontiers are statistically unresolved. On SWE-bench, a run costing $34.16 trails the $170.78 leader by 14.6 percentage points, but the available tasks cannot statistically distinguish their accuracy. Reported costs also differ from standardized token-based estimates by up to 11.7x, while selective task evaluation can bias estimates of full-benchmark execution cost.   We therefore compare evaluation strategies under explicit evaluation budgets and deployment-cost caps. Under advance knowledge of task costs, successive halving reaches our uncertainty-aware selection target on SWE-bench using 6.6% of exhaustive evaluation spend, achieving the lowest cost on six of seven benchmarks and tying on the seventh. Its advantage narrows when task costs are unknown before execution or exact-best selection is required.   Our findings motivate decision-oriented agent evaluation that accounts for accuracy uncertainty, validates execution costs, and compares complex selection methods against simple adaptive allocation."
+  },
+  {
+    "title": "Detection-Efficient Watermarking for Vision--Language Agents via Risk-Constrained Strength Allocation",
+    "url": "http://arxiv.org/abs/2611.21488v1",
+    "arxiv_id": "2611.21488v1",
+    "authors": [
+      "Dumindu Samaraweera",
+      "Prashant Shekhar"
+    ],
+    "published": "2026-11-16T17:56:12+00:00",
+    "summary": "Vision--language agents generate descriptions, decisions, and instructions that may be reused by users, downstream agents, and automated workflows, creating a need for provenance mechanisms that support content authenticity and post-deployment auditing without unnecessarily degrading response quality. We present a risk-aware semantic watermarking framework that combines predictive uncertainty with a zero-shot multimodal relevance-risk proxy to allocate watermark strength during decoding. A single risk penalty $\u03bb$ exposes a continuous operating frontier, allowing deployment-time selection of a detection--quality trade-off without model retraining. At a selected operating point, mean watermark strength is reduced by approximately 59.4\\% relative to fixed-strength watermarking, while perplexity change falls from 0.3634 to 0.1689 and clean/paraphrased ROC-AUC reaches 0.9552/0.9459. A matched-strength analysis shows that this advantage reflects the allocation policy rather than lower average intervention: at comparable mean strength, risk-constrained allocation achieves substantially higher ROC-AUC than fixed, entropy-only, and criticality-only policies, identifying it as detection-efficient rather than quality-dominant. We further show that threshold calibration on finite samples produces substantial false-positive-rate drift, motivating calibration variance reporting as standard practice for auditable provenance."
+  },
+  {
+    "title": "A conditional quadrature method of moments for populations of oblate spheroidal particles",
+    "url": "http://arxiv.org/abs/2611.21487v1",
+    "arxiv_id": "2611.21487v1",
+    "authors": [
+      "Mohamed Amine Bouguezzoul",
+      "Bianca Viggiano",
+      "Bruno Blais",
+      "Fabian Denner"
+    ],
+    "published": "2026-11-16T17:56:09+00:00",
+    "summary": "Non-spherical particle populations are encountered in numerous industrial processes, where particle size, shape, and velocity jointly influence transport, breakage, and classification dynamics. The resulting coupled distributions of geometric and kinematic particle properties evolve within a high-dimensional phase space whose accurate representation remains a significant challenge. We present a conditional quadrature method of moments (CQMOM) for oblate spheroidal particles described by a five-dimensional phase space that includes their size, aspect ratio, and velocity. The dimensionality of the problem is reduced by assuming that the particles continuously adopt their drag-maximizing orientation. In the solution algorithm, the resulting conditional quadrature representation of the particle phase space is combined with a Strang splitting of the continuous and discontinuous mathematical operators governing the moment transport. We verify this CQMOM framework against Monte Carlo simulations of the same particle model for representative test cases of increasing complexity, including drag, breakage, recoil, and attrition, at different Stokes numbers. With two nodes per coordinate, the particle number, the mean size, and the mean aspect ratio agree with the Monte Carlo solution within its statistical uncertainty, and the velocity statistics to within 7 %. Time-step and quadrature resolution studies identify the conditional velocity quadrature as the main source of the remaining deviations, for which we discuss potential remedies. Overall, the results demonstrate that the conditional quadrature representation preserves the geometric-kinematic correlations of the particle population in a five-dimensional phase space, at a cost more than 60 times lower than that of a single Monte Carlo realization."
+  },
+  {
+    "title": "Input-to-State Stability in Distributed Adaptive Identification of Nonlinear Systems without Input Sharing",
+    "url": "http://arxiv.org/abs/2611.21483v1",
+    "arxiv_id": "2611.21483v1",
+    "authors": [
+      "Moh Kamalul Wafi"
+    ],
+    "published": "2026-11-16T17:53:31+00:00",
+    "summary": "This paper studies continuous-time distributed adaptive identification of unknown nonlinear systems over directed communication networks without requiring source or neighboring inputs to be shared. Each sensing node reconstructs the source state while adapting local estimates of the unknown linear and nonlinear dynamics using only locally available information and neighboring state estimates. A network-level error representation is derived to characterize the interaction among the communication topology, observer dynamics, parameter uncertainty, and nonlinear mismatch. Norm-based, structured Lyapunov, and robust LMI conditions are established to guarantee that the resulting coupling operator is Hurwitz. Unlike the corresponding discrete-time formulation, the proposed continuous-time adaptive laws do not require normalization. A Lyapunov analysis establishes boundedness of the adaptive parameters and asymptotic convergence of the estimation and source-tracking errors in the unperturbed case. Input-to-state stability is further established under bounded predictor mismatch and source disturbances. Numerical studies over star, cyclic, and path topologies support the theoretical results and demonstrate approximately linear computational scaling with the number of sensing nodes."
+  },
+  {
+    "title": "Kinetic Monte Carlo modeling of ammonium formate NH$_4^+$HCOO$^-$ and ammonium cyanate NH$_4^+$OCN$^-$ in interstellar ices",
+    "url": "http://arxiv.org/abs/2611.21433v1",
+    "arxiv_id": "2611.21433v1",
+    "authors": [
+      "Joseph Salaris",
+      "Robin Toonen",
+      "Rens Waters",
+      "Herma Cuppen"
+    ],
+    "published": "2026-11-16T17:21:42+00:00",
+    "summary": "JWST observations have revealed evidence for NH$_4^+$ in the ices of the Chamaeleon I dark molecular cloud, with HCOO$^-$ and OCN$^-$ likely counter ions. Laboratory experiments have demonstrated that ammonium formate and ammonium cyanate can form through acid-base reactions involving NH$_3$ at cryogenic temperatures. The formation of these two ammonium salts are simulated to investigate their formation in dark-cloud ices and assess their sensitivity to uncertainties in the chemical reaction network, including the recently considered HOCO-mediated pathway for CO$_2$ formation, as well as variations in the cosmic-ray ionization rate, cloud collapse timescale and density, and elemental depletion. Our modeling framework consists of microscopic kinetic Monte Carlo (KMC) simulations of grain-surface chemistry augmented by UCLCHEM gas-phase and physical cloud evolution simulations. The microscopic KMC method provides for explicit simulation of the location, movement and reaction of ice species, making it particularly well-suited to model acid-base chemistry of NH$_4^+$-salt formation, occurring within the ice mantle over extended timescales. The simulations produce the canonical ice-evolution sequence, with an initially H$_2$O-rich ice followed by a layer dominated by CO and CO$_2$. Salt production is dominated by NH$_4^+$HCOO$^-$, which is found to form predominantly during the H$_2$O-rich stage as its production is limited by the availability of NH$_3$. NH$_4^+$OCN$^-$ is found to form later at the interface between the H$_2$O- and CO-rich ice when the formation of its precursor acid HNCO is enabled. Despite the variations explored, the total NH$_4^+$ abundance, particularly relative to H$_2$O, remains remarkably robust and consistent with the observed abundance. Depending on the variation, a redistribution between counterions HCOO$^-$ and OCN$^-$ is observed."
+  },
+  {
+    "title": "Geometry of squeezed states. The phase-space metric, relative vacua and cosmology",
+    "url": "http://arxiv.org/abs/2611.21426v1",
+    "arxiv_id": "2611.21426v1",
+    "authors": [
+      "Alejandro Corichi",
+      "Jer\u00f3nimo Cortez"
+    ],
+    "published": "2026-11-16T17:15:30+00:00",
+    "summary": "Geometry enters quantum theory in two places. The space of quantum states carries a symplectic form, which generates unitary evolution, and a metric, which governs uncertainties and transition probabilities. The classical phase space acquires a metric of its own when a vacuum is chosen: quantizing a linear system amounts to choosing a compatible complex structure, equivalently a compatible metric $g$. We take this second metric as the primary object and show that it plays, on phase space, the role that the quantum metric plays on the space of states: fluctuations of linear observables are $g$-norms of Hamiltonian vector fields, and along coherent states $g/2\\hbar$ \\emph{is} the quantum metric. Squeezed states then have a simple description. A squeezed vacuum is the vacuum of another metric, and squeezing is a property of a pair of metrics, a relative vacuum, whose invariants are the eigenvalues $e^{\\pm2r_i}$ of $L=g_0^{-1}g$. We work out the harmonic oscillator in detail, including why a rotated squeezed state no longer minimizes the product of the displayed uncertainties. Quadratic evolution deforms the metric, and only the part of the generator that is self-adjoint with respect to the reference changes the $r_i$, at a rate we give exactly. For fields, a vacuum is unitarily implementable relative to a reference exactly when it lies at finite distance from it in the space of vacua. For a massless field in de Sitter space we revisit the two canonical charts compared by Grain and Vennin: relative to the reference of the standard squeezing formalism the Bunch--Davies state has $\\sinh r_k=1/(2|k\u03b7|)$, and relative to the vacuum that a radiation era beginning at time $\u03b7$ would select it has $\\sinh r_k=1/(2k^2\u03b7^2)$. The second comparison squeezes twice as fast and is unitarily implementable; the first is not."
+  },
+  {
+    "title": "Rethinking Entropic Uncertainty: How measuring without a trace leads to longer keys",
+    "url": "http://arxiv.org/abs/2611.21417v1",
+    "arxiv_id": "2611.21417v1",
+    "authors": [
+      "Philipp Kleinpa\u00df"
+    ],
+    "published": "2026-11-16T17:06:34+00:00",
+    "summary": "In recent years, the entropic uncertainty relation (EUR) has been one of the most prominent tools to obtain tight key rates secure against general coherent attacks for a broad class of quantum key distribution (QKD) protocols. Despite its success, the fundamental question of how to incorporate the statistics of more than two mutually unbiased bases (MUBs) directly into the EUR is yet to be answered. Here, we introduce a simple yet powerful shift of perspective: Instead of the usual tripartition into the systems of Alice, Bob and Eve, we treat Alice and Bob as one joint system and introduce an additional register as the third system. This register contains the results of appropriately chosen virtual measurements that leave no trace in the real branch of the protocol, but act as a conditioning on the counterfactual phase error measurements. We show that this allows us to obtain tight key rates for QKD protocols using an arbitrary number of MUBs directly and natively from the EUR. Moreover, we demonstrate that this approach has a much broader relevance beyond the inclusion of multiple MUBs, allowing for improvements in many existing security proofs and the treatment of previously unexplored aspects for a wide range of protocols."
+  },
+  {
+    "title": "Shaping AI's Beliefs Before It Generates: Human Sense of Agency in Creative AI",
+    "url": "http://arxiv.org/abs/2611.21405v1",
+    "arxiv_id": "2611.21405v1",
+    "authors": [
+      "Zi Wang",
+      "Mahima Pushkarna"
+    ],
+    "published": "2026-11-16T16:58:58+00:00",
+    "summary": "AI systems for creative media generation expand human capabilities yet risk diminishing human agency. A core problem is anchoring, where the user's thinking becomes anchored to a polished, generated artifact, shifting the user's role from active authoring to reactive editing. We propose pre-generation belief controls that can empower creators to inspect, revise, and steer the AI's interpretation before any media is generated, so that the initial anchor is set by the human. We formalize four design principles and instantiate them in the Proactive Co-Creator (PaCC), a system for early-stage conceptual ideation and prototyping that proactively surfaces its assumptions and uncertainty through clarifications, belief graphs, and media attributes, inviting users to shape the AI's beliefs before generating the final outcome. Using PaCC as a design probe in a small-scale, single-arm exploratory user study, we observed that participants reported directionally positive sense of agency and process control relative to their familiar prompt-based AI tools, noting that surfaced assumptions helped them think through details they had overlooked, whereas their feelings about ownership and authorship diverged"
+  },
+  {
     "title": "Patient-specific Modeling of the Tricuspid Valve from 3D Transesophageal Echocardiography",
     "url": "http://arxiv.org/abs/2611.18522v1",
     "arxiv_id": "2611.18522v1",
