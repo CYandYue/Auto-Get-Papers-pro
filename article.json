@@ -1,5 +1,138 @@
 [
   {
+    "title": "On Evaluating User Simulators for Interactive Agents",
+    "url": "http://arxiv.org/abs/2611.24892v1",
+    "arxiv_id": "2611.24892v1",
+    "authors": [
+      "Hengguang Zhou",
+      "I-Hung Hsu",
+      "Li Chen",
+      "Priyanshi Shrivastava",
+      "Anastasios Angelopoulos",
+      "Wei-Lin Chiang",
+      "Ion Stoica",
+      "Cho-Jui Hsieh"
+    ],
+    "published": "2026-11-18T18:34:23+00:00",
+    "summary": "User simulators offer a scalable way to evaluate interactive agents, but how to assess their quality remains underexplored. In particular, it is unclear whether existing user simulator evaluation frameworks reliably detect meaningful failures in simulated user behavior. This uncertainty makes it difficult to interpret simulator evaluation. To understand what a high benchmark score tells us about simulator quality, we (meta-)evaluate the metrics themselves. To instantiate this meta-evaluation, we deliberately perturb simulated replays to induce failures such as altered goals, omitted constraints, premature stopping, and acceptance of broken work, then test whether the metrics penalize these failures. Evaluation methods from three prior studies detect only 5-6 of the 10 perturbations; their combined scores even favor populations instructed to accept broken work over unmodified controls. Motivated by these gaps, we propose a new evaluation suite that combines utility of user simulators for evaluating agents and two measures of fidelity to real users: population-level fidelity assesses collective interaction patterns, while trace-level fidelity assesses the preservation of individual users' goals, constraints, and persona. Under the same detection criterion, our evaluation suite detects all 10 perturbations. Evaluating six user simulators on 351 real multi-turn sessions in which 348 distinct users across 23 languages and agents work together to create and refine artifacts such as full-stack web apps, games, design assets, and automated workflows, we find that population-level measures can miss when a simulated user pursues the wrong goal, ignores a constraint, or behaves out of character, highlighting the need to assess fidelity at comprehensive granularities."
+  },
+  {
+    "title": "Teleoperated Haircutting with Delay Compensation and Passivity-Based Control for Unilateral Internet Teleoperation under Real Communication Uncertainties",
+    "url": "http://arxiv.org/abs/2611.24883v1",
+    "arxiv_id": "2611.24883v1",
+    "authors": [
+      "Viridiana Luna-Zempoalteca",
+      "Zhendai Huang",
+      "Rosalba Galvan-Guerra",
+      "Antonio Rosales",
+      "Xiaoli Liu",
+      "Shuai Li"
+    ],
+    "published": "2026-11-18T18:28:34+00:00",
+    "summary": "Robotic haircutting requires accurate motion execution and reliable communication to safely reproduce the operator's commands. Internet-based teleoperation is a key enabling technology to remotely perform precise manipulation tasks such as haircutting. However, communication uncertainties, including variable transmission delays and packet jitter, degrade synchronization between the master and slave systems and affect tracking performance. This paper presents a unilateral Internet teleoperation framework for robotic haircutting that takes into account experimentally measured communication uncertainties. Three delay-compensation techniques, namely Zero-Order Hold (ZOH), First-Order Hold (FOH), and Low-Pass Filtering (LPF), are evaluated together with a classical proportional-derivative (PD) controller and a passivity-based synchronization controller. Unlike conventional studies based on synthetic delay models, the proposed framework is validated using communication data acquired from a real cloud-based teleoperation platform, where both packet delay and effective delay are characterized. The results demonstrate that combining delay-compensation techniques with passivity-based synchronization improves the robustness of unilateral Internet teleoperation under realistic communication uncertainties, providing a reliable control framework for robotic haircutting applications."
+  },
+  {
+    "title": "A Homogeneous Benchmark of Exoplanet Mass-Radius Relations",
+    "url": "http://arxiv.org/abs/2611.24812v1",
+    "arxiv_id": "2611.24812v1",
+    "authors": [
+      "Ailar Alizadehsabegh",
+      "Soroush Sarabi",
+      "Atila Poro"
+    ],
+    "published": "2026-11-18T17:46:21+00:00",
+    "summary": "The mass-radius ($M$-$R$) relation is fundamental to inferring the bulk composition and internal structure of exoplanets. However, published relations remain difficult to compare directly because studies adopt different planetary samples, fitting procedures, and evaluation metrics. We construct a homogeneous, quality-controlled benchmark of 963 exoplanets with dynamically measured masses and transit radii from the NASA Exoplanet Archive. We compare empirical power laws, probabilistic models, and machine-learning (ML) regressors using point accuracy, interval coverage, and probabilistic calibration. On the full test set, a multi-feature random forest has the lowest root-mean-square error, 0.329~dex in $\\log_{10} M$ versus 0.368~dex for a fitted two-parameter power law ($p = 0.007$ unadjusted; $p = 0.059$ after Holm correction across 13 comparisons). Radius-only ML models perform comparably to the single power law. In three ranges of the measured radius, several methods improve on the power law below 1.6 $R_\\oplus$, but none does between 1.6 and 4 $R_\\oplus$. Including stellar and orbital covariates significantly improves predictions only for low-mass planets ($M < 4.4\\,M_\\oplus$), although this result is sensitive to missing covariate data and weakens when the training and test sets are separated by host star. Within their calibrated radius domains, the published empirical and probabilistic relations remain highly competitive. Finally, a first-order variance decomposition shows that formal measurement uncertainties account for only $\\sim$3\\% of the residual variance (0.067 of 0.401~dex), and the remaining $\\sim$0.396~dex arises from compositional diversity, selection effects, and model approximation error."
+  },
+  {
+    "title": "ReCoCo: From Patches to Compositions for Visual Representation Learning",
+    "url": "http://arxiv.org/abs/2611.24806v1",
+    "arxiv_id": "2611.24806v1",
+    "authors": [
+      "Juan Guti\u00e9rrez",
+      "Saman Zadtootaghaj",
+      "Jos\u00e9 Luis Blanco-Murillo",
+      "Sara Atito"
+    ],
+    "published": "2026-11-18T17:45:04+00:00",
+    "summary": "Self-supervised learning has produced powerful visual representations, yet learning strong dense features remains challenging. While consistency between augmented views provides strong image-level supervision, extending this principle to local visual content is less straightforward. Existing approaches often match individual patches across views or identify coherent regions, introducing uncertainties in correspondence estimation and assumptions about how visual content should be grouped. We introduce ReCoCo (Regional Composition Consistency), a principled approach that extends cross-view consistency to the regional level without requiring such correspondences or semantic grouping. ReCoCo represents the content shared between augmented views through compositions of their patch-level predictions over learned visual prototypes. By aligning these compositions, the model learns from regions containing multiple visual concepts without requiring them to be separated beforehand. ReCoCo integrates naturally with teacher-student self-distillation and introduces no additional learned parameters. Extensive experiments demonstrate substantial improvements in frozen-feature segmentation, clustering, and regional retrieval while maintaining competitive image-level recognition, alleviating the trade-off between dense and global representation quality."
+  },
+  {
+    "title": "Asteroseismology of AI Velorum: a prototype of high-amplitude delta Scuti stars",
+    "url": "http://arxiv.org/abs/2611.24796v1",
+    "arxiv_id": "2611.24796v1",
+    "authors": [
+      "Przemys\u0142aw Walczak",
+      "Jadwiga Daszy\u0144ska-Daszkiewicz",
+      "Wojciech Niewiadomski",
+      "Wojciech Szewczuk"
+    ],
+    "published": "2026-11-18T17:40:58+00:00",
+    "summary": "AI Velorum is exceptional among high-amplitude \u03b4Scuti (HADS) stars because of its multimode pulsations. Despite being an excellent target for asteroseismology, this prototype star has not been studied in detail.   We determine the stellar parameters, age, and evolutionary stage of AI Vel, constrain envelope convection and convective core overshooting, and test three opacity data sets: OPAL, OP, and OPLIB.   We analysed TESS photometry, ground-based Str\u00f6mgren photometry, and HARPS spectroscopy. Modes were identified using photometric and spectroscopic methods, and empirical values of the non-adiabatic f-parameter were derived for both radial modes. Seismic modelling was performed within a Bayesian framework supported by Monte Carlo simulations.   We confirm the radial nature of the two dominant modes and identify one non-radial mode as most likely an axisymmetric dipole or quadrupole mode. Within the explored parameter space, only OPAL models reproduce the observed position of AI Vel in the HR diagram, whereas OP and OPLIB models are too cool and underluminous. All seismic models favour inefficient envelope convection (mixing-length parameter alpha_{mlt}\\lesssim 0.5). Including the non-radial mode substantially reduces the formal posterior uncertainties, but the ambiguity in its identification introduces additional model-dependent uncertainties. AI Vel is an evolved, slowly rotating star in the hydrogen shell-burning phase.   Our results demonstrate the diagnostic power of combining pulsation frequencies with empirical f-parameters. The preference for OPAL opacities is consistent with results for several other HADS and SX Phoenicis stars but does not imply a general superiority of OPAL opacities."
+  },
+  {
+    "title": "4D-TEMPO: Differentiable 4D-STEM ptychography via fast Physics Optimizers",
+    "url": "http://arxiv.org/abs/2611.24776v1",
+    "arxiv_id": "2611.24776v1",
+    "authors": [
+      "Ramani Duraiswami",
+      "Yichao Zhang"
+    ],
+    "published": "2026-11-18T17:23:50+00:00",
+    "summary": "Electron ptychography recovers atomic structure from 4D-STEM data: diffraction patterns at multiple positions of a scanned probe. Current codes reconstruct an image and read atoms off it, or fit atoms under an $L_1$ loss; neither gives per-atom uncertainty. We propose 4D-TEMPO, a differentiable physical renderer that fits the atoms, the microscope, and the detector directly to the recorded electron counts under a Poisson likelihood. The output is a list of atoms, each a Gaussian primitive with a 3D position, a thermal width, and a model-conditional error bar from the Fisher information. The Fisher information also conditions the solver, gives the dose (electrons per \u00c5$^2$) each parameter needs, and separates calibration from imaging. On a simulated WSe$_2$ bilayer, starting from the published reconstruction, fitted atoms cut in-plane error by a third (3.2 vs. 4.8 pm) and depth error by 40-61% against its 3D peaks. Depth comes from multiple scattering into the dark field, the faint counts outside the direct beam. The two layers, $10\\times$ closer than the depth of field, separate; per-atom depth then follows the layer geometry. When the model is well specified, the bars are calibrated (69% of position coordinates within $1\u03c3$). On experimental WSe$_2$, fitted atoms predict held-out patterns better than the three published codes we test. With free probe modes where atoms are incomplete, the same likelihood predicts best on all three held-out benchmarks, matches every WSe$_2$ baseline in 5 min against up to 20.5 h, and passes torchslice at its released setting 180$\\times$ sooner on PrScO$_3$. Per-atom error bars, planned doses, and fast reconstruction point to low-dose, real-time 3D imaging of beam-sensitive and dynamic materials."
+  },
+  {
+    "title": "Inferring Neural Activity Changes under Recording Uncertainty with Transformers and Variational Inference",
+    "url": "http://arxiv.org/abs/2611.24767v1",
+    "arxiv_id": "2611.24767v1",
+    "authors": [
+      "Nilson Chapagain",
+      "Pooja Chapagain"
+    ],
+    "published": "2026-11-18T17:18:12+00:00",
+    "summary": "A difference in recorded firing rate across days may reflect a change in neuronal activity, missed spikes or recording a different neuron. We present a statistical approach that combines neuron tracking with Bayesian estimates of stationary mean recorded firing rates. Bounds under assumed differences in spike detection connect recorded rates to biological rate changes. We assess recording loss and uncertainty in rate changes in simulations, and count-model fit in recordings. We also compare two transformer estimators with Gaussian and flow variational inference under a shared temporal negative-binomial model. Flow variational inference agrees most closely with reference posteriors, while predictive performance varies across mice. Rate-change intervals contain true simulated changes less often than intended. In UnitMatch recordings from five mice, some inferred changes remain supported when spike detection is allowed to differ between days; others depend on equal detection. These interpretations require a correct neuron match. The approach identifies which inferred rate changes remain supported under specified recording assumptions and where uncertainty limits interpretation."
+  },
+  {
+    "title": "Pole parameters of the $f_2(1270)$ and $f_2'(1525)$ from a coupled-channel analysis of the radiative $J/\u03c8$ multipoles",
+    "url": "http://arxiv.org/abs/2611.24694v1",
+    "arxiv_id": "2611.24694v1",
+    "authors": [
+      "Igor Danilkin",
+      "David Baron",
+      "Emilie Passemar",
+      "Marc Vanderhaeghen"
+    ],
+    "published": "2026-11-18T16:21:23+00:00",
+    "summary": "We determine the pole parameters of $f_2(1270)$ and $f_2'(1525)$ from the combined fit to the isoscalar $D$-wave $\u03c0\u03c0$ phase shift, the $\u03c0\u03c0\\to K\\bar K$ modulus, and the BESIII $J/\u03c8\\to\u03b3\u03c0^0\u03c0^0$ and $\u03b3K_SK_S$ data: all three $2^{++}$ multipoles $E1$, $M2$ and $E3$, and the $M2$-$E1$ phases. The hadronic amplitude is a two-channel $K$-matrix with two poles and all parameters free, so that no resonance information is taken from the Particle Data Group. The radiative decay amplitudes are written as a coupled-channel Muskhelishvili-Omn\u00e8s representation, with the Omn\u00e8s matrix generated by that hadronic amplitude. The left-hand cuts, which carry the production dynamics, are approximated by a linear subtraction polynomial in the physical region. The model-independent kinematic constraints among the $J=2$ helicity amplitudes are implemented explicitly. The fit describes all $358$ points with $\u03c7^2/N=1.29$ and gives $\\sqrt{s_p}=(1267.5\\pm1.3\\pm2.6)-i\\,\\frac{1}{2}\\,(175.5\\pm2.4\\pm7.4)\\ \\mathrm{MeV}$ for the $f_2(1270)$ and $(1514.8\\pm2.8\\pm1.5)-i\\,\\frac{1}{2}\\,(80.4\\pm3.4\\pm4.8)\\ \\mathrm{MeV}$ for the $f_2'(1525)$, where the first uncertainty is statistical, from a parametric bootstrap with the data errors rescaled by $\\sqrt{\u03c7^2/N}$ of each set, and the second systematic, from $17$ variations of the analysis."
+  },
+  {
+    "title": "Fluctuations and Correlations of Conserved Charges in Isobar Collisions at $\\sqrt{s_{NN}}$ = 200 GeV with the STAR Detector",
+    "url": "http://arxiv.org/abs/2611.24673v1",
+    "arxiv_id": "2611.24673v1",
+    "authors": [
+      "Changfeng Li",
+      "Hanwen Feng"
+    ],
+    "published": "2026-11-18T16:10:29+00:00",
+    "summary": "We report measurements of second-order cumulants and correlations of experimentally accessible baryon number, electric charge, and strangeness proxies in Ru+Ru and Zr+Zr collisions at $\\sqrt{s_{NN}} = 200$~GeV with the STAR experiment. The results exhibit similar centrality dependences in the two isobar systems within uncertainties. The baryon-strangeness correlation $C_{BS}$ is compared with lattice-QCD and UrQMD calculations. Motivated by recent lattice-QCD predictions for QCD matter in an external magnetic field, several ratios of conserved-charge correlations are studied as functions of centrality. In peripheral collisions, the measured ratios exhibit the same ordering as the lattice-QCD prediction. A qualitatively similar hierarchy is also found in UrQMD, although the model underpredicts the observed peripheral-to-central enhancement. These results motivate further quantitative studies of possible magnetic-field contributions and other sources of the observed centrality dependence."
+  },
+  {
+    "title": "Towards modelling redshift uncertainties in the photometric void size function",
+    "url": "http://arxiv.org/abs/2611.24642v1",
+    "arxiv_id": "2611.24642v1",
+    "authors": [
+      "Pierre Boccard",
+      "Giovanni Verza",
+      "Giulia Degni",
+      "Nico Schuster",
+      "Gideon McFarland",
+      "Katayoon Ghaemi",
+      "Pauline Vielzeuf",
+      "Alice Pisani"
+    ],
+    "published": "2026-11-18T15:48:29+00:00",
+    "summary": "We present an extension of the theoretical formalism for the Void Size Function (VSF) to incorporate photometric redshift uncertainties, combining the excursion set with the theory of Lagrangian density peaks. Photometric redshift scatter induces anisotropic line-of-sight smoothing of the density field, which modifies the variance of the field and suppresses the abundance of large voids. We model this effect by damping the variance of the smoothed density field in the theoretical model, and we test it on AbacusSummit halo lightcones with true redshifts and with mock photometric redshifts generated with a Gaussian scatter. The predicted damping of the variance agrees with the one measured in the halo distribution to 1% and the suppression of the VSF due to photometric redshift scatter is well reproduced by the modified model, with recalibrated barrier parameters, for sigma_z <= 0.015 and for voids larger than 40 Mpc/h (about 2.5 mean tracer separations). This work is a first step towards modelling the VSF in modern photometric surveys such as the Vera C. Rubin Observatory Legacy Survey of Space and Time and the Euclid mission."
+  },
+  {
     "title": "Near Resonance, Less Ordered: Radius and Mass Ordering in Compact Multi-planet Systems",
     "url": "http://arxiv.org/abs/2611.23217v1",
     "arxiv_id": "2611.23217v1",
