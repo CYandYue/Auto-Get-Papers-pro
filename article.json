@@ -1,5 +1,139 @@
 [
   {
+    "title": "BRUCE (Bayesian Rio Urban Climate Estimator): spatiotemporal interpolation of air temperature from heterogeneous sensor networks for operational heat monitoring",
+    "url": "http://arxiv.org/abs/2611.26612v1",
+    "arxiv_id": "2611.26612v1",
+    "authors": [
+      "Ayrton Sena Gouveia",
+      "Rafael Santos de Oliveira",
+      "Lucas Menezes-Silva",
+      "Maira Alejandra Moreno Castillo",
+      "Felipe de Carvalho Vommaro Marincola",
+      "Jo\u00e3o Henrique de Ara\u00fajo Morais",
+      "Val\u00e9ria Saraceni",
+      "Gislani Mateus Oliveira Aguilar",
+      "Caroline Dias Ferreira",
+      "Oswaldo Gon\u00e7alves Cruz"
+    ],
+    "published": "2026-11-19T18:57:20+00:00",
+    "summary": "Accurate characterization of intra-urban temperature variability is essential for heat-health surveillance, yet official monitoring networks are too sparse to resolve fine-scale gradients, particularly in Global South cities. We present BRUCE, a Bayesian hierarchical spatiotemporal model, fitted with the Integrated Nested Laplace Approximation (INLA) and a Stochastic Partial Differential Equation (SPDE) spatial component, that fuses four heterogeneous temperature sources for Rio de Janeiro, Brazil: official weather stations, low-cost IoT sensors, citizen-science personal weather stations and ERA5-Land reanalysis. The model accounts for class- and station-specific measurement bias and estimates a continuous spatial field that evolves day to day through an autoregressive (AR1) structure. Fitted independently to nine monthly windows (January, June, November; 2023--2025), the elevation coefficient was significant in all windows and of consistent magnitude in eight ($-$1.08 to $-$1.38 \\textdegree{}C per SD). In leave-region-out cross-validation against LCZ4r, accuracy was comparable (RMSE differences within station-level bootstrap uncertainty in all three windows), while BRUCE produced predictions at every held-out station, including those where LCZ4r is masked, and preserved finer-scale spatial structure than LCZ4r's discrete zone classification. Applied to 241 primary care territories, BRUCE's posterior exceedance probabilities allowed 96 to be classified with high confidence (model-based classifications), whereas a constant-width interval derived from LCZ4r cross-validation errors supported confident classification of none. The framework offers a statistically principled, operationally viable basis for intra-urban heat monitoring in data-heterogeneous settings."
+  },
+  {
+    "title": "Thermal-Guided Ensemble Reinforcement Learning for Regime-Adaptive Short-Term GPU Power Forecasting in AI Data Centers",
+    "url": "http://arxiv.org/abs/2611.26527v1",
+    "arxiv_id": "2611.26527v1",
+    "authors": [
+      "Yuanshuo Zhang",
+      "Ying Zhang",
+      "Ziying Wang",
+      "Fanping Sui"
+    ],
+    "published": "2026-11-19T18:09:46+00:00",
+    "summary": "AI data centers (AIDCs) introduce bursty and regime-dependent load patterns, posing significant challenges for reliable energy management and predictive grid control. To address these challenges, this letter proposes a thermal-guided ensemble reinforcement learning framework for probabilistic AIDC load forecasting. A soft actor-critic (SAC) agent with a simplex-preserving policy adaptively weights LSTM, TCN, and Transformer predictors at every time step based on their realized errors. A thermal-guided neural correction estimates the ensemble residual, while a sensitivity-projection regularizer enforces the non-negative sensitivity of power to GPU utilization and temperature. The corrected ensemble output is further processed by a Bayesian probabilistic layer to produce predictive distributions and quantify forecasting uncertainty. Case studies on 1-second MIT Supercloud telemetry show that the proposed method reduces the normalized mean absolute error to about 1% across all computing regimes, compared with 4-11% for deep learning-based and ensemble learning benchmarks, and converges faster with narrower prediction intervals than a DRL ensemble without thermal guidance."
+  },
+  {
+    "title": "$Z\u03b3$ production in gluon fusion at NLO+NLL",
+    "url": "http://arxiv.org/abs/2611.26520v1",
+    "arxiv_id": "2611.26520v1",
+    "authors": [
+      "Chinmoy Dey",
+      "Niraj Koirala",
+      "M. C. Kumar",
+      "Vaibhav Pandey"
+    ],
+    "published": "2026-11-19T17:59:41+00:00",
+    "summary": "We study the production of $Z\u03b3$ in gluon fusion at hadron colliders at the next-to-leading-order (NLO) in QCD. At the $13.6$ TeV LHC, we find that these NLO corrections are found to enhance the leading-order (LO) cross section by about $83$\\% and reduce the conventional seven-point scale uncertainty from $22.3$\\% at LO to $15.2$\\% at NLO. We further perform the threshold resummation at next-to-leading-logarithmic (NLL) accuracy and match to the fixed order NLO results. We have presented the production cross section for various center of mass energies at the LHC. We find that this NLL resummation enhances the NLO production cross section by about $23$\\%. We also give the invariant mass distribution up to $Q=1000$ GeV for $13.6$ TeV LHC. In this case, the resummation reduces the seven-point scale uncertainty from $25\\%$ at NLO to about $16$\\% at NLO+NLL for $Q=1000$ GeV. We also present the uncertainties due to the strong coupling constant and the parton distribution functions in our results. We further estimate the contribution of the top quark in our predictions, using the Born Improved Theory (BIT)."
+  },
+  {
+    "title": "Constraints and biases: impact of light-cone effects on power spectrum and bispectrum forecasts",
+    "url": "http://arxiv.org/abs/2611.26488v1",
+    "arxiv_id": "2611.26488v1",
+    "authors": [
+      "Chris Addis",
+      "Chris Clarkson",
+      "Dionysios Karagiannis"
+    ],
+    "published": "2026-11-19T17:44:18+00:00",
+    "summary": "Next-generation galaxy surveys will map large-scale structure over unprecedented volumes, bringing two goals within reach: constraining primordial non-Gaussianity (PNG) and detecting relativistic effects on the largest scales. On these scales, relativistic and wide-separation (light-cone) effects share the scale dependence of local-type PNG, so they must be modelled to avoid biased inferences and to recover the true uncertainties. We present joint power spectrum and bispectrum forecasts that include these effects, with a multi-tracer bispectrum covariance including the odd-parity multipoles and leading non-Gaussian terms. Neglecting light-cone effects biases local-type $f_{\\rm NL}$ by $\\sim2\u03c3$ for a Euclid-like H$\u03b1$ survey and $>10\u03c3$ for a MegaMapper-like LBG survey, mostly through lensing; wide-separation and local relativistic effects contribute $<1\u03c3$. With these corrections included, marginalising over the evolution and magnification biases without informative priors increases the uncertainty on local-type $f_{\\rm NL}$ by $\\sim60\\%$ for a Euclid-like power spectrum and by $\\sim50\\%$ for a joint power spectrum and bispectrum analysis of the even multipoles. However, the odd-parity multipoles of the single-tracer bispectrum and the multi-tracer power spectrum, which are sensitive to leading-order relativistic corrections, break most of this degeneracy. Non-local shapes are less affected; for these, a bright-faint split of the MegaMapper-like survey improves the joint constraints on the equilateral and orthogonal shapes by a factor of $\\sim2$. Finally, local relativistic effects should be detectable at SNR $\\sim13$, with a bright-faint split of a DESI-like BGS survey, provided the magnification bias is known to a few per cent, but only marginally, SNR $\\lesssim2.5$, for the higher-redshift surveys, and not with the single-tracer bispectrum dipole."
+  },
+  {
+    "title": "Neural Conditional Gaussian Model: Efficient Data Assimilation with Sequential Uncertainty Quantification for Nonlinear Dynamics",
+    "url": "http://arxiv.org/abs/2611.26463v1",
+    "arxiv_id": "2611.26463v1",
+    "authors": [
+      "Chuanqi Chen",
+      "Nan Chen"
+    ],
+    "published": "2026-11-19T17:25:51+00:00",
+    "summary": "Data assimilation (DA) in partially observed nonlinear systems requires repeated estimation of both hidden states and their uncertainty. Conventional nonlinear filtering can be computationally expensive and often relies on an explicit dynamical model. In this paper, we develop the Neural Conditional Gaussian Model (Neural CGM), a data-driven dynamical model that maps unobserved physical states into a learned latent space, where the dynamics of the latent states follow a conditional Gaussian structure. This structure allows closed-form DA updates in the latent space, while nonlinear encoder-decoder mappings retain the flexibility needed to represent complex dynamics in physical space. A key feature of Neural CGM is its treatment of uncertainty in DA. The latent posterior mean and covariance are mapped to the physical variables through a Gaussian decoder that combines local moment propagation with learned nonlinear corrections. The resulting physical-space posterior statistics depend on the sequentially updated latent distribution rather than on a separate post-processing estimate. The same statistics enter a Gaussian negative log-likelihood during training, so both the posterior mean and uncertainty affect the learned model. Because Neural CGM learns the dynamical model itself, it can also be used for state forecasting and simulation without explicit knowledge of the governing equations. Numerical experiments on benchmark nonlinear dynamical systems show accurate state estimation and forecasting while substantially reducing online assimilation cost relative to conventional nonlinear DA methods. Neural CGM is therefore suited to repeated state estimation, uncertainty quantification, and prediction from partial observations."
+  },
+  {
+    "title": "Bayesian optimization on amortized search space",
+    "url": "http://arxiv.org/abs/2611.26459v1",
+    "arxiv_id": "2611.26459v1",
+    "authors": [
+      "Tristan Fauvel",
+      "Federico Pavone",
+      "Titouan Guillou",
+      "Pau Redon Mu\u00f1oz",
+      "Chlo\u00e9 Geoffroy"
+    ],
+    "published": "2026-11-19T17:22:39+00:00",
+    "summary": "In real-world black-box optimization problems, a mechanistic simulator is often available that approximately predicts the behavior of the system as a function of the parameters being optimized. Here, we show how an amortized inverse map of such a simulator can be used in Bayesian optimization to restrict the search space while using a Gaussian process kernel that is aware of the original problem geometry. This allows for efficiently leveraging the low intrinsic dimensionality of the optimization problem. We characterize its approximation bias and information gain, and derive an intrinsic-dimension-dependent regret rate under additional geometric and Gaussian Process assumptions. We illustrate the method with an application to drug dosing personalization in Parkinson's disease. We use, as a simulator, a pharmacokinetic/pharmacodynamic (PK/PD) model of a drug, a mechanistic model calibrated on population data with quantified parameter uncertainty. A dosing neural network is trained offline against the model, amortizing the map from patient PK/PD parameters to the regimen predicted to be optimal, and online Bayesian optimization then searches over this learned, low-dimensional representation rather than over raw dosages. Numerical simulations demonstrate the improved performance of our method in this application, as well as under simulator misspecification."
+  },
+  {
+    "title": "Decision Fusion in Wireless Networks: A Tutorial and Survey of Classical and Learning-Based Methods",
+    "url": "http://arxiv.org/abs/2611.26442v1",
+    "arxiv_id": "2611.26442v1",
+    "authors": [
+      "Mohamed Abdelkader",
+      "Arafat Al-Dweik",
+      "Sobia Jangsher",
+      "Hamad Yahia",
+      "Shihab Jimaa"
+    ],
+    "published": "2026-11-19T17:14:43+00:00",
+    "summary": "Decision fusion combines local decisions from distributed sensors to support reliable detection of phenomena in wireless networks. The effectiveness of decision fusion depends on sensing accuracy, reporting-channel reliability, and available communications and computation resources. This article surveys decision-fusion techniques for wireless sensor networks and emerging communication systems, bringing together their theoretical foundations and practical implementation requirements. We review network architectures and hard, soft, and quantized reporting strategies, and examine statistical, learning-based, game-theoretic, and heuristic fusion approaches. Advanced fusion techniques, including relay-aware combining, link-adaptive regeneration, branch selection, and likelihood approximations, are discussed with emphasis on their assumptions, information requirements, and limitations. The survey examines tradeoffs among detection performance, computational complexity, communications overhead, energy consumption, and latency. The tradeoffs are considered across representative sensing applications and emerging technologies, including massive machine-type communication, ultra-reliable low-latency communication, uncrewed aerial vehicle-assisted networks, and the massive Internet of Things. The reviewed literature highlights the importance of jointly considering sensing quality, reporting reliability, and fusion processing when selecting a suitable strategy. Finally, we identify research directions in resource-aware optimization, uncertainty calibration, and robust learning-based fusion under heterogeneous data, missing reports, and changing wireless conditions. Particular attention is given to convergence, generalization, and the costs of training and inference."
+  },
+  {
+    "title": "Risk-Controlled Test-Time Adaptation for Vision-Language-Action Models",
+    "url": "http://arxiv.org/abs/2611.26438v1",
+    "arxiv_id": "2611.26438v1",
+    "authors": [
+      "Zixuan Liu",
+      "Hashem Haghbayan",
+      "Zizhan Zheng",
+      "Siavash Khajavi"
+    ],
+    "published": "2026-11-19T17:12:48+00:00",
+    "summary": "Retrieval-augmented vision-language-action (VLA) models enable efficient test-time adaptation by leveraging expert demonstrations as additional context without updating model parameters. However, even when retrieved demonstrations are relevant to the current task, the VLA may fail to effectively utilize the retrieved information, ultimately leading to task failure. To address this challenge, we propose R2-VLA, a risk-controlled retrieval-augmented VLA framework that enables reliable test-time adaptation by satisfying a user-specified task success rate requirement with minimal expert assistance. Specifically, R2-VLA learns an uncertainty predictor that estimates the uncertainty of the VLA's predicted actions given the retrieved demonstrations, guiding when to act autonomously or request expert assistance. We further introduce a task-level risk-control procedure that calibrates the uncertainty threshold to satisfy a user-specified task-failure risk requirement. Moreover, R2-VLA continually incorporates expert corrections into its retrieval memory to improve future adaptation while preserving the prescribed task-level risk guarantee. Experiments across three VLA backbones and four LIBERO benchmark suites demonstrate that R2-VLA improves average task success by 9.2--11.2 percentage points, achieving the desired target with fewer expert requests. These results highlight the effectiveness of connecting the usefulness of retrieved demonstrations with task-level risk control to enable successful robotic manipulation."
+  },
+  {
+    "title": "Exact Bayesian layers via characteristic functions",
+    "url": "http://arxiv.org/abs/2611.26426v1",
+    "arxiv_id": "2611.26426v1",
+    "authors": [
+      "William H. W. Thompson",
+      "Guillaume St-Onge",
+      "Laurent H\u00e9bert-Dufresne",
+      "Jean-Gabriel Young"
+    ],
+    "published": "2026-11-19T17:04:30+00:00",
+    "summary": "Bayesian neural networks provide principled uncertainty estimates, but training them with Monte Carlo sampling can be expensive. Sampling-free variational inference algorithms make training Bayesian neural networks feasible, but existing approaches assume a Gaussian output distribution, which can be inaccurate in applied problems. Here, we introduce CF-Prop, an uncertainty propagation method that uses characteristic functions to compute the exact output distribution of a Bayesian ReLU layer, without any sampling, even in non-Gaussian settings. Because CF-Prop propagates characteristic functions, the evidence lower bound---the objective of variational training---can be computed in closed form for a broad class of likelihoods, including the Gaussian, Poisson, and Gamma. This allows to implement an efficient resulting variational inference algorithm, CF-VI. On CIFAR-100, CF-VI achieves the lowest calibration error of any tested method, improving on the next best method by about 35%. On a heavy-tailed insurance claim dataset, CF-VI accurately captures tail uncertainty that is severely underestimated by both other sampling-free methods and Monte Carlo methods."
+  },
+  {
+    "title": "Future avenues for precision oscillation measurements with compact movable reactors",
+    "url": "http://arxiv.org/abs/2611.26418v1",
+    "arxiv_id": "2611.26418v1",
+    "authors": [
+      "Matheus Hostert",
+      "Stephan A. Meighen-Berger",
+      "Maxim Pospelov"
+    ],
+    "published": "2026-11-19T17:01:51+00:00",
+    "summary": "No planned neutrino experiment is expected to surpass Daya Bay's precision on $\\thone$. Doing so requires innovative strategies to reduce statistical and systematic uncertainties. In this study, we consider a futuristic program with a movable reactor antineutrino source placed within short distances ($L\\lesssim 3\\,\\km$) from the Jiangmen Underground Neutrino Observatory (JUNO) detector. Due to the large fiducial mass of JUNO, even a relatively small reactor can produce a statistically significant number of events over a few years to probe the $\\lesssim 8.7\\% \\,\\nuebar$ disappearance set by $\\thone$. We consider two possibilities: a $\\mathcal{O}(20\\mwth)$ microreactor in alcoves of the access tunnel to the underground laboratory, and a $\\mathcal{O}(400 \\mwth)$ unit on the surface. In both cases the reactor is observed by a small flux monitor detector near the source, while JUNO measures the antineutrino flux at two baselines, suppressing correlated flux and detector systematics. Using the measured Daya Bay per-isotope spectra and its covariance, we model a high-assay low-enriched uranium (HALEU) core for the microreactor and a low-enriched uranium (LEU) core for the surface unit, and discuss various potential sources of systematic uncertainties and their impact on the precision of $\\thone$. The underground microreactor could improve on JUNO's reach by a factor of three to four, to $\\relsth \\simeq 4\\%$ over a decade, while the surface reactor would reach the present global-fit precision, $\\relsth=2.5\\%$, in about three years, provided the emission rate is monitored across reactor relocations to the sub-percent level."
+  },
+  {
     "title": "On Evaluating User Simulators for Interactive Agents",
     "url": "http://arxiv.org/abs/2611.24892v1",
     "arxiv_id": "2611.24892v1",
