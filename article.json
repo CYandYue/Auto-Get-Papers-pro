@@ -1,5 +1,161 @@
 [
   {
+    "title": "The Simons Observatory: Analysis of methods for polarization calibration of multiple instruments",
+    "url": "http://arxiv.org/abs/2611.31235v1",
+    "arxiv_id": "2611.31235v1",
+    "authors": [
+      " The Simons Observatory Collaboration",
+      "Anto I. Lonappan",
+      "Patricia Diego-Palazuelos",
+      "Carlos Herv\u00edas-Caimapo",
+      "Kam Arnold",
+      "Susanna Azzoni",
+      "Carlo Baccigalupi",
+      "Matteo Billi",
+      "Erminia Calabrese",
+      "Yuji Chinone",
+      "Matthew Chu",
+      "Mark Devlin",
+      "Josquin Errard",
+      "Nicholas Galitzki",
+      "Bradley R. Johnson",
+      "Brian Keating",
+      "Andr\u00e9a Landais",
+      "Toshiya Namikawa",
+      "Federico Nati",
+      "Giuseppe Puglisi",
+      "Christian L. Reichardt",
+      "Kevin Wolz"
+    ],
+    "published": "2026-11-23T18:59:30+00:00",
+    "summary": "Cosmic birefringence, the rotation of the CMB linear polarization plane across the Universe, is a powerful test of parity-violating physics beyond the Standard Model. Static isotropic rotation, however, is limited by an instrument's absolute polarization-angle calibration. We present a method for transferring absolute calibration between Simons Observatory (SO) instruments, validated on map-level simulations of the Large Aperture Telescope (LAT) and Small Aperture Telescopes (SATs) with lensed CMB polarization, polarized Galactic foregrounds, correlated instrumental noise, and polarization-angle miscalibration. We develop two pipelines: a joint LAT+SAT likelihood transferring calibration through their overlap, and the Minami-Komatsu foreground-based method, which separates cosmic birefringence from instrumental miscalibration using Galactic dust polarization without an external angle prior. We derive a general variance budget showing that calibration transfer improves sensitivity only when the combined reference and overlap transfer uncertainties remain below the receiving instrument's calibration uncertainty. While transfer does not lower the absolute-angle floor for isotropic $\u03b2$, it anchors the receiving instrument's multipole range. The relative-angle uncertainty is $\\sim 0.1^\\circ$ for $\\ell_{\\max}^{\\mathrm{SAT}}=300$, improving to $\\sim 0.04^\\circ$ at $\\ell_{\\max}^{\\mathrm{SAT}}=600$, subject to SAT beam and transfer-function control. Finally, for $\u03b2=0.3^\\circ$, we show how the LAT's $\\ell$-range distinguishes scale-independent dark-energy rotation from scale-dependent axion dark-matter models via $C_\\ell^{EB}$."
+  },
+  {
+    "title": "Language Models Steer on Injected Uncertainty Tokens, but Fail to Self-Monitor In Situ",
+    "url": "http://arxiv.org/abs/2611.31228v1",
+    "arxiv_id": "2611.31228v1",
+    "authors": [
+      "Daniel Theron"
+    ],
+    "published": "2026-11-23T18:58:52+00:00",
+    "summary": "Prompting language models to verbalize stepwise numerical confidence during generation is an increasingly popular approach for triggering backtracking and error correction in agentic reasoning. This strategy presupposes two capabilities: (1) in-situ monitoring fidelity (does confidence drop when an error occurs?) and (2) downstream steering control (does an uncertainty token causally steer the model to repair its error?). We evaluated four open-weights models (Qwen2.5-7B, Llama-3.1-8B, Mistral-7B, and Phi-4, 14.7B) across 15,200 math benchmark attempts, isolating 2,017 reasoning errors within each model's capability frontier. Applying 27,568 counterfactual continuations across these failure points, we demonstrate a consistent decoupling between monitoring and control.   On monitoring, all four models fail to detect their own errors. Verbalized confidence does not distinguish mistake steps from sound reasoning, yielding near-chance within-position AUROCs between 0.500 and 0.561. Even at a model's first reasoning error, trajectory confidence remains saturated at 95.1% to 99.9%, with noticeable drops ($\\ge 10$ points) appearing on fewer than 9% of errors in Llama and under 1.6% in the other three models. In contrast, models respond readily to external uncertainty: injecting a low-confidence tag (10%) at the error step significantly increases downstream correction across all models (+3.7 to +22.5 points over format-matched 95% certainty; all $p \\le 0.0022$), reaching up to 38.5% under active rethinking instructions. However, injecting doubt onto already-correct steps causes models to discard valid reasoning, reducing solve rates by up to 22.8 points. Inference-time self-correction is thus bottlenecked by in-situ error detection rather than downstream repair capacity: models readily steer toward recovery when prompted with doubt, yet fail to self-monitor during generation."
+  },
+  {
+    "title": "VLT, Keck, and Gemini characterization of the temporarily captured flyby 2026 QQ$_8$",
+    "url": "http://arxiv.org/abs/2611.31213v1",
+    "arxiv_id": "2611.31213v1",
+    "authors": [
+      "Bryce T. Bolin",
+      "Leo Y. Alcorn",
+      "David J. Tholen",
+      "Brian C. Lemaux",
+      "Eunchong Kim",
+      "Leila Alamos",
+      "Jennie L. Berghuis",
+      "Henri M. J. Boffin",
+      "Boris H\u00e4u\u00dfler",
+      "Anni Kasikov",
+      "Jen Miller",
+      "Thallis Pessi",
+      "Mat\u00edas Rodr\u00edguez-Henr\u00edquez",
+      "Elyar Sedaghati",
+      "Andrew W. Stephens",
+      "Matt Wahl"
+    ],
+    "published": "2026-11-23T18:55:36+00:00",
+    "summary": "Very Large Telescope, Keck I, and Gemini North photometry of 2026 QQ$_8$ on November 7-21 gives Sloan Digital Sky Survey-equivalent colors $g-r=0.594^{+0.056}_{-0.053}$, $g-i=0.840^{+0.066}_{-0.065}$, and $i-z=-0.104^{+0.067}_{-0.057}$ mag. Apollo 17 basalt slabs 75075,197 and 71055,239 fit the colors (reduced $\u03c7^2$ of 0.57 and 0.89). The Bus-DeMeo Sq- and K-type templates give reduced $\u03c7^2=0.87$ and 0.90, respectively. The colors permit both an Sq-like asteroid and exposed lunar basalt. With revised Keck timing uncertainties, 71 positions (August 19-November 21) give an outward acceleration of $(1.363\\pm0.090)\\times10^{-10}$ au day$^{-2}$ at 1 au, implying an area-to-mass ratio of $(6.02\\pm0.40)\\times10^{-4}$ m$^2$ kg$^{-1}$ for a unit radiation-pressure coefficient. For pre-encounter analogues, NEOMOD3 assigns source probabilities of 78.8% to the $\u03bd_6$ resonance and 20.6% to Jupiter's 3:1 resonance. For a sphere with $H=31.37\\pm0.34$, the diameter, density, and mass are ($1.44^{+0.28}_{-0.23}$ m, $1.73^{+0.36}_{-0.30}$ g cm$^{-3}$, $2.73^{+1.19}_{-0.82}\\times10^3$ kg) for the Sq albedo ($p_V=0.243\\pm0.039$), ($1.62^{+0.28}_{-0.24}$ m, $1.54^{+0.29}_{-0.24}$ g cm$^{-3}$, $3.43^{+1.30}_{-0.94}\\times10^3$ kg) for NEOMOD3 ($p_V=0.191$), and ($2.49^{+0.42}_{-0.36}$ m, $1.00^{+0.19}_{-0.16}$ g cm$^{-3}$, $8.09^{+3.06}_{-2.22}\\times10^3$ kg) for lunar slabs ($p_V=0.081$). With radiation pressure, nominal capture lasts 224.96 days (April 26-December 7). Sun-Earth corotating geocentric longitude advances 0.76 turns, classifying 2026 QQ$_8$ as a temporarily captured flyby. Its three-dimensional corotating path tangent turns 1.33 revolutions. After 10,000 yr, about 800 of 1,000 clones survive in each model, with about 200 colliding with Earth. The paired survival difference (radiation pressure plus gravity minus gravity only) is ~2 percentage points."
+  },
+  {
+    "title": "Decoupling Faults from Uncertainty: Message-Efficient Byzantine Agreement with Local Predictions",
+    "url": "http://arxiv.org/abs/2611.31202v1",
+    "arxiv_id": "2611.31202v1",
+    "authors": [
+      "Naama Ben-David",
+      "Tomer Shalit"
+    ],
+    "published": "2026-11-23T18:49:02+00:00",
+    "summary": "Byzantine Agreement protocols are traditionally designed under worst-case uncertainty about which processes are faulty, coupling the adversary's corruption budget $t$ with the system's epistemic uncertainty. Recent work showed that auxiliary failure predictions can improve round complexity, but cannot improve communication complexity when prediction errors are unconstrained. In this paper, we initiate a theoretical study of the complementary question: how much can Byzantine Agreement benefit when each process is guaranteed a local bound on its prediction error?   We study this question through the local $k$-error prediction model, in which each process receives a local classification vector differing from the ground truth in at most $k$ positions. The predictions need not be common, and honest processes may hold substantially different views about whom to trust.   Under this promise model -- where correctness relies on the local error bound holding -- we present a synchronous Byzantine Agreement algorithm requiring $n \\ge t + 4k + 1$, where $n$ is the total number of processes, $t$ is the maximum number of failures, and $k$ is the local error bound per honest process. In the regime where local uncertainty is small ($k \\ll t$), our protocol decouples communication from the total fault budget $t$: in an execution where the actual maximum prediction error is $s \\le k$ and the actual number of failures is $f \\le t$, the protocol terminates in $O(s+1)$ rounds and sends $O((f+k)ks + nk)$ honest messages, achieving $o(n^2)$ communication when $t = \u0398(n)$ and $k = o(\\sqrt{n})$. Finally, we show that it is not possible to solve Byzantine Agreement in the local $k$-error prediction model with fewer than $\u03a9(nk)$ honest messages."
+  },
+  {
+    "title": "Know When to Abstain: Conformal Confidence Estimation for Text-to-SQL",
+    "url": "http://arxiv.org/abs/2611.31190v1",
+    "arxiv_id": "2611.31190v1",
+    "authors": [
+      "Avinash Kumar Singh",
+      "Bhaskarjit Sarmah",
+      "Stefano Pasquali"
+    ],
+    "published": "2026-11-23T18:42:54+00:00",
+    "summary": "Text-to-SQL systems often return queries that execute successfully but answer the wrong question. Detecting these errors at deployment is hard because execution correctness is defined against a gold query, which exists only in labeled data. We formulate confidence estimation for Text-to-SQL as probabilistic query validation under a latent correctness variable that is observable at calibration time through gold-SQL execution and latent at deployment. Our estimator separates generation from validation. A generator LLM writes and executes the query, and a different critic LLM judges the query and its execution result. The critic's validation and execution-grounded alignment scores are fused with the generator's verbalized confidence, token-level uncertainty, and SQL-structural features in a Random Forest, using two sequential LLM calls. Two calibration steps give finite-sample guarantees. A Learn-then-Test threshold ensures, with probability $1-\u03b4$, that the error rate among accepted queries stays below a user-chosen budget. A conformal p-value bounds the false abstention rate. On Spider we use GPT-OSS-120B as generator and Gemma-4-31B as critic. The estimator obtains an AUARC of 0.899. Without abstention, 22.6% of queries are wrong. With a 15% risk budget ($\u03b4=0.1$), a threshold is certified on all 10 resampled splits, and the system accepts 52.4% of queries on average with 9.1% observed error. Five different critic models give similar results. In a controlled comparison on Spider with Olmo-3-32B as generator, the estimator obtains an AUARC of 89.5, compared with 81.2 for the strongest logit-based baseline. Applied to BIRD without retraining, the confidence scores remain informative (AUROC 0.72, against 0.79 on Spider), but the risk guarantee does not transfer, as expected without exchangeability."
+  },
+  {
+    "title": "Probabilistic, facility-specific prioritisation of temperate exoplanets for atmospheric characterisation with JWST and the ELT",
+    "url": "http://arxiv.org/abs/2611.31181v1",
+    "arxiv_id": "2611.31181v1",
+    "authors": [
+      "Effy Viridis"
+    ],
+    "published": "2026-11-23T18:36:47+00:00",
+    "summary": "Deciding which temperate exoplanets to observe first matters for JWST transit spectroscopy and for planned ELT reflected-light instruments, yet signal-to-noise metrics ignore habitability and similarity indices ignore observability. We present an open Monte Carlo framework (UHI v6.1) that builds probabilistic priority lists separately for each facility and composition class, never as a single ranking. For each of 6,112 planets in the NASA Exoplanet Archive, 10,000 draws carry catalogue uncertainties through climate, cumulative stellar-XUV atmospheric retention, per-draw rocky, Hycean or gas-rich classes, and a JWST (transiting) or ELT/PCS (non-transiting) detection model, giving each planet a survival probability, a conditional score and a top-N probability. At $5\u03c3$, 255 rocky and 71 Hycean candidates remain viable. A Saltelli--Sobol analysis of 32 assumptions ($N = 512$) shows that the location and width of the XUV shoreline dominate the rocky lists, with total-order indices of 0.22 and 0.12 at $5\u03c3$ (0.25 and 0.14 at $3\u03c3$), and all ten leading indices have 95% bootstrap half-widths below 0.05. For Hycean planets most outputs are degenerate and the analysis does not converge, so that branch is reported as indicative. Membership of these lists is limited mainly by whether a planet survives the habitability vetoes: at $5\u03c3$, 3 of the nominal JWST and 4 of the nominal ELT rocky top-10 targets enter the top 10 in at least half of all draws, yet every one of them stays in the top 10 in more than half of the draws in which it survives. Code, per-planet posterior summaries, sensitivity tables and maps are public, so observers can rerun the lists under their own instrument assumptions and see which inputs would most change a target's priority."
+  },
+  {
+    "title": "Emulator-enabled calibration and uncertainty quantification of $\u03b2$-decay calculations within the energy density functional theory",
+    "url": "http://arxiv.org/abs/2611.31141v1",
+    "arxiv_id": "2611.31141v1",
+    "authors": [
+      "Yukiya Saito",
+      "Ante Ravli\u0107",
+      "Witold Nazarewicz"
+    ],
+    "published": "2026-11-23T18:11:07+00:00",
+    "summary": "Predictions of $\u03b2$-decay half-lives of neutron-rich nuclei and their uncertainties critically impact our understanding of the astrophysical rapid neutron capture process. To provide quantified predictions within nuclear energy density functional theory, as customarily done, we perform Bayesian calibrations of two coupling constants: the isoscalar proton-neutron pairing strength and the isovector spin-density coupling. We apply an E-optimal experimental design for choosing the calibration sets. We employ the proton-neutron finite-amplitude method with Skyrme energy density functionals using emulators of half-lives and Gamow--Teller resonance energies. The calculated $Q_\u03b2$ values are fine-tuned to experimental values. The contributions to the half-life uncertainty from the theory error, $Q_\u03b2$ values, and the parameter uncertainty are all accounted for in the Bayesian framework. Our predictions for the even-even $N=126$ isotones provide the shortest half-lives for neutron-rich nuclei among the existing theoretical models, which would affect the flow of heavy-element nucleosynthesis. The proposed framework allows quantified theoretical uncertainties to be propagated to astrophysical observables such as abundance patterns and electromagnetic emission."
+  },
+  {
+    "title": "Data-Driven Identification of Uncertainty Sets with Conformance Guarantees",
+    "url": "http://arxiv.org/abs/2611.31127v1",
+    "arxiv_id": "2611.31127v1",
+    "authors": [
+      "Laura L\u00fctzow",
+      "Mykel J. Kochenderfer",
+      "Matthias Althoff"
+    ],
+    "published": "2026-11-23T18:00:06+00:00",
+    "summary": "Formal verification and controller synthesis require accurate models. Conformance relations specify the required accuracy of a model such that properties established for the model carry over to the target system. Existing methods for establishing them from measured data are typically restricted to a single relation, a specific model class, or a downstream verification algorithm. We present ConfID, a unified framework that establishes reachset, trace, and simulation conformance with respect to measured traces by identifying uncertainty sets for a given, possibly nonlinear nominal model. Unmodeled effects are thus captured by nondeterminism rather than by refining the nominal dynamics. For all three conformance relations, the identification is a linear program that minimizes the size of the reachable sets; only its constraints depend on the relation. We further derive distribution-free bounds on the probability that the identified models are conformant for unseen behaviors. Experiments on simulated and real-world data evaluate the models identified for the three relations, confirm the guarantees, and show that these models cover unseen behaviors more reliably than baselines, with comparable or smaller sets."
+  },
+  {
+    "title": "RUIBench: What Makes a Good Robot-Use Interface?",
+    "url": "http://arxiv.org/abs/2611.31115v1",
+    "arxiv_id": "2611.31115v1",
+    "authors": [
+      "Yanzhe Chen",
+      "Zhijun Cao",
+      "Zechen Bai",
+      "Wenzheng Zeng",
+      "Kevin Yuchen Ma",
+      "Yiqi Lin",
+      "Guoqiang Liang",
+      "Xiaokang Liu",
+      "Ke Sun",
+      "Kevin Qinghong Lin",
+      "Mike Zheng Shou"
+    ],
+    "published": "2026-11-23T17:52:55+00:00",
+    "summary": "Foundation models can reason about complex physical tasks, yet translating this intelligence into reliable robot execution remains challenging. We argue that a critical, often overlooked factor is the robot-use interface (RUI), which determines how agents express and execute physical actions. To systematically study its impact, we introduce RUIBench, comprising 30 manipulation tasks across five suites spanning world knowledge, in-context learning, discovery, dynamic interaction, and contact-rich manipulation. We further develop RUIKit, a unified framework that crosses six action abstractions with two interaction forms, yielding 13 interfaces under shared perception and control. In simulation, changing only the RUI shifts a frontier agent's success rate from 45% to 81%, and that of a fine-tuned 4B model from 13% to 47%. Our analysis reveals that effective interfaces reduce unnecessary decisions while preserving essential feedback, with their benefits shaped by agent behavior and physical uncertainty. We further uncover a verification gap, where agents frequently declare success despite observable failures, revealing the need for task-level verification beyond individual actions. Together, these findings establish RUI design as a critical factor in embodied agent reliability."
+  },
+  {
+    "title": "A hybrid effective field theory description of diffuse baryons",
+    "url": "http://arxiv.org/abs/2611.31069v1",
+    "arxiv_id": "2611.31069v1",
+    "authors": [
+      "Ryan Raikman",
+      "Kiyoshi Masui",
+      "James M. Sullivan",
+      "Josh Borrow"
+    ],
+    "published": "2026-11-23T17:24:58+00:00",
+    "summary": "Galaxy feedback mechanisms that displace baryonic gas on large scales are a dominant uncertainty in many cosmological analyses. Measurements that directly probe the baryonic component, such as Fast Radio Burst Dispersion Measure (FRB DM) and the kinetic Sunyaev-Zeldovich effect, can therefore be used to place constraints on feedback and inform other analyses, such as weak lensing. Thus far, analytic methods to model the effects of feedback are either limited to large scales, missing the regime of high signal-to-noise, or have many parameters, weakening constraining power. We propose a Hybrid Effective Field Theory (HEFT) approach, relying on the full gravitational displacement field computed in an $N$-body simulation. We account for feedback via a Lorentzian suppression with a single effective parameter, $c_f^2$. To describe the diffuse baryon field, we extend the arguments by Andrew et al. (arXiv:2604.25828), leveraging most baryons being in a diffuse state to reduce a full bias expansion to just the linear bias, $b_{1,d}^L$. With just these two parameters, we fit the diffuse gas power spectrum in most variants of the FLAMINGO suite of cosmological simulations at percent-level accuracy out to $k=1\\,h/\\mathrm{Mpc}$ at redshift $z=0.5$ and $k=1.5\\,h/\\mathrm{Mpc}$ at $z=1$. Further, by fitting the diffuse gas power spectrum including terms argued to be negligible, we show that their contribution is minimal. Applying this prescription for diffuse electron gas enables constraints on both cosmology and astrophysics without the need to marginalize over many unknown parameters."
+  },
+  {
     "title": "Soft--hard Bayesian inference in heavy-ion collisions",
     "url": "http://arxiv.org/abs/2611.27971v1",
     "arxiv_id": "2611.27971v1",
