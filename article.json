@@ -1,5 +1,132 @@
 [
   {
+    "title": "From dispersal to patrol: the extracellular matrix shapes an annealing-like search by Drosophila embryonic macrophages",
+    "url": "http://arxiv.org/abs/2611.33097v1",
+    "arxiv_id": "2611.33097v1",
+    "authors": [
+      "Nickolay Korabel",
+      "Tom H. Millard",
+      "Thomas Andrew Waigh"
+    ],
+    "published": "2026-11-24T18:32:45+00:00",
+    "summary": "Hemocytes, the macrophages of Drosophila, disperse through the embryo and then patrol its tissues, moving along basement membranes that they help to build. Because the persistence (H) and amplitude (D) of hemocyte motion vary along each track, it is difficult to describe how movement changes during development and how it depends on basement membrane composition. We analysed trajectories, obtained by selective plane illumination microscopy, of hemocytes in control embryos and in embryos deficient in the basement membrane components laminin (LanB1-deficient) or collagen IV (collagen-deficient). A physics-informed neural network estimates H and D in short windows, each with a calibrated uncertainty. From them we construct an effective diffusivity Deff, defined for any anomalous diffusion as the diffusivity of the unpredictable part of the motion. Its error is uncorrelated with that of H and acts as an effective temperature. Cells decelerate during development by cooling (falling Deff) and forgetting (falling H). Control cells cool gradually while staying persistent. LanB1-deficient cells cool further, forget, lose the coupling between speed and persistence and become nearly Brownian. Collagen-deficient cells cool but keep most of their persistence. Hemocyte movement thus resembles an annealed search, in which laminin, rather than collagen IV, keeps patrolling cells persistent."
+  },
+  {
+    "title": "Uncertainty-Aware Candidate Generation for Entity Linking in Cyber Threat Intelligence",
+    "url": "http://arxiv.org/abs/2611.33086v1",
+    "arxiv_id": "2611.33086v1",
+    "authors": [
+      "Nasser Alkhulaifi",
+      "Direnc Pekaslan",
+      "Christian Wagner"
+    ],
+    "published": "2026-11-24T18:23:14+00:00",
+    "summary": "Entity Resolution (ER) pipelines often collapse ambiguity into early hard decisions: upstream Named Entity Recognition (NER) selects a single span and type, and downstream Entity Linking (EL) treats that choice as ground truth. This discards valuable information about the ambiguity of the underlying data (e.g., span boundary disagreement and type confusion), leading to brittle systems that fail unpredictably when faced with uncertainty in inputs. Therefore, this work presents a proof-of-concept for uncertainty-aware ER that treats uncertainty as native data that should be preserved and exploited throughout ER pipelines. We (i) capture uncertainty signals in the NER stage and (ii) leverage these signals into the EL stage to improve candidate retrieval under ambiguity. Using a BERT-based NER model augmented with two auxiliary span-boundary prediction heads, we apply Monte Carlo (MC) dropout at inference time to derive three mention-level proxy signals: the MC-averaged start-boundary probability, the MC-averaged end-boundary probability, and De Luca-Termini fuzzy entropy computed over the Begin-Inside-Outside (BIO) predictive distribution. These signals are used to adapt the fuzzy cutoff in candidate generation (CG) for EL. Because CG is treated as a blocking step, we evaluate retrieval recall. On the AnnoCTR dataset linked to the MITRE ATTCK knowledge base, the boundary-aware and dual-signal fuzzy linking approaches improve Recall@10 from 0.6186 to 0.7966. The contribution lies not in an end-to-end optimised ER pipeline but in establishing uncertainty preservation as a viable and beneficial component of ER pipelines, enabling downstream EL to make better-informed decisions under uncertainty."
+  },
+  {
+    "title": "Pragmatic Deeply Debiased ML",
+    "url": "http://arxiv.org/abs/2611.33069v1",
+    "arxiv_id": "2611.33069v1",
+    "authors": [
+      "Victor Chernozhukov",
+      "Chengchun Shi"
+    ],
+    "published": "2026-11-24T18:07:07+00:00",
+    "summary": "Debiased machine learning (DML) combines a fitted outcome regression with weighted residuals to remove first-order regularization bias when estimating parameters such as average treatment effects, yet a second-order bias remains whenever regression and weighting errors align. For linear regression functionals, we target this second-order bias by training a strong learner to predict first-stage residuals from many covariates, yielding a one-dimensional (or low-dimensional) working model whose bias contribution is estimated on an independent sample. To complement this targeted search, we also analyze general kernel-based corrections, including covariate partitions and smoothers. We prove that deeply debiased ML is algebraically identical to ordinary DML evaluated with a post-hoc regression update that adjusts each scored observation using kernel-weighted residuals from the remaining evaluation observations. In our empirical and simulation studies, strong initial DML learners often leave the second-order correction small relative to sampling uncertainty, in which case the correction serves as a diagnostic check alongside sensitivity bounds for any remaining misspecification bias."
+  },
+  {
+    "title": "U-Statistics-Powered LLM Reasoning",
+    "url": "http://arxiv.org/abs/2611.33064v1",
+    "arxiv_id": "2611.33064v1",
+    "authors": [
+      "Shijin Gong",
+      "Kai Ye",
+      "Victor Chernozhukov",
+      "Xinyu Zhang",
+      "Chengchun Shi"
+    ],
+    "published": "2026-11-24T18:05:01+00:00",
+    "summary": "Since its introduction by DeepSeek, group relative policy optimization (GRPO) has been widely adopted for training large reasoning models and agents, spurring a proliferation of its variants. Yet the group size, a crucial hyperparameter in these GRPO-type algorithms, remains largely chosen by trial and error. Exploiting the U-statistic structure of GRPO's policy gradient, we recast the selection of the group size as a classical statistical problem of variance ratio estimation. This problem is particularly challenging when the denominator of the ratio is small, rendering naive plug-in estimators unstable. To address this challenge, we propose a pessimistic ratio estimator that accounts for the denominator's estimation uncertainty. We characterise the statistical properties of this estimator across three sample-size regimes. Empirically, using %a jackknife-based pessimistic rule on synthetic tasks from Reasoning Gym and real-world benchmarks covering both mathematical reasoning and code generation, we show that our adaptive group size selection reduces the mean squared error of the resulting policy gradient and improves policy optimisation over fixed-group-size baselines, with modest additional computational cost."
+  },
+  {
+    "title": "Linear Probes Can Guide: Training-Free Control of Representation Generators",
+    "url": "http://arxiv.org/abs/2611.33037v1",
+    "arxiv_id": "2611.33037v1",
+    "authors": [
+      "Pengwei Wang",
+      "Jos\u00e9 Morano",
+      "Botond Fazekas",
+      "Hrvoje Bogunovi\u0107"
+    ],
+    "published": "2026-11-24T17:48:54+00:00",
+    "summary": "Representation-space generative models, such as Representation Autoencoders (RAEs), leverage pretrained vision foundation models (VFMs) primarily to accelerate training and improve sample fidelity. Yet VFMs are more than reconstruction tokenizers, as they feature rich representation spaces that are highly organized and linearly readable. We observe that this removes a key obstacle of post-hoc guidance: by linearity of expectation, a clean probe applied to an ideal denoiser's prediction yields the exact posterior mean of the probe scores at any noise level. This regime, which we call Semantic Mean-Space, turns semantic guidance into a Bayesian linear inverse problem, bypassing the need for training-time conditioning. With this foundation, we propose LiSM, a unified framework for Linear Guidance in Semantic Mean-Space. To validate the framework, we developed and adapted different solvers, and characterized them based on how they estimate probe-space uncertainty and propagate the correction through the representation. In addition, we propose Fit-Path, a solver designed to achieve strong global and local control. Our results in four control setups (class, attributes, foreground, and keypoints) show that LiSM methods, and Fit-Path in particular, provide effective, lightweight control across global and local tasks, outperforming noise-aware and pixel-space guidance."
+  },
+  {
+    "title": "Towards Realistic Evaluation of Uncertainty Quantification for LLM-Based Recommender Systems",
+    "url": "http://arxiv.org/abs/2611.33036v1",
+    "arxiv_id": "2611.33036v1",
+    "authors": [
+      "Hao Wu",
+      "Sipeng Chen",
+      "Weikai Li",
+      "Tianyi Chen",
+      "Qiancheng Yang",
+      "Hang Zhou",
+      "Yizhou Sun",
+      "Wei Wang",
+      "Xiao Luo"
+    ],
+    "published": "2026-11-24T17:48:54+00:00",
+    "summary": "Large language models (LLMs) provide a flexible interface for recommendation systems. However, their issued rankings require reliable instance-level uncertainty monitoring. In this scenario, comparing uncertainty quantification (UQ) methods becomes challenging because LLM rankers lack a standard item-classification head. Their scores may depend on option labels, prompts, generation procedures, and the available user and item evidence. Existing methods derive uncertainty from different sources and apply it at different stages of the recommendation process. Some methods evaluate an issued ranking, whereas others use uncertainty to change the ranking itself, making direct comparison difficult. Here we introduce a fixed-ranking benchmark which evaluates eight heterogeneous UQ signals as record-level monitors under a shared output contract. We evaluate these signals across four recommendation datasets and two LLM backbones under a shared fixed-ranking protocol. From the results, we draw three main observations. First, UQ method ordering changes across backbones even on the same reference instances. Second, ranking-aligned Top10Mass provides the strongest scalar Error@10 detection in several evaluation conditions, reflecting effective cutoff-aligned monitoring, while its advantage narrows for popularity-tail targets. Third, scalar UQ signals are weak at identifying which control has the larger clipped NDCG@10 difference, whereas source-specific signals, including Perturbation Rank Instability and simple listwise distances, provide stronger paired-control agreement, reflecting their sensitivity to the two controlled evidence sources. These findings motivate us to evaluate ranking-failure detection, robustness across recommendation conditions, and responses to controlled evidence changes as distinct properties of UQ."
+  },
+  {
+    "title": "Best Arm Identification with Unknown Post-Action Context Distribution",
+    "url": "http://arxiv.org/abs/2611.33024v1",
+    "arxiv_id": "2611.33024v1",
+    "authors": [
+      "Amir Mohammad Abouei",
+      "Mohammad Shahverdikondori",
+      "Emad Emamjomeh",
+      "Negar Kiyavash"
+    ],
+    "published": "2026-11-24T17:39:34+00:00",
+    "summary": "We study best arm identification (BAI) with post-action context in the fixed-confidence setting. After choosing an action, the learner observes a post-action context together with a reward whose distribution depends only on this context. Incorporating such intermediate information can substantially reduce the sample complexity of identifying the best arm. While Shahverdikondori et al. (2026a) analyzed the case where the distribution of contexts given actions is known, we address the more challenging and practically relevant case where this distribution is unknown. We derive an instance-dependent sample complexity lower bound and propose a Track-and-Stop algorithm that matches it asymptotically with access to an optimization oracle. Our stopping rule uses a new concentration inequality that jointly controls uncertainty in the context distributions and reward means, removing the factor of two incurred by separate concentration bounds. Implementing the algorithm generally requires solving nonconvex optimization problems. We propose a convex relaxation with instance-dependent approximation guarantees, including asymptotic tightness on hard Gaussian instances. Experiments demonstrate that exploiting post-action context reduces the sample complexity relative to baselines that ignore it, even when the context distributions are unknown."
+  },
+  {
+    "title": "From Safety-Driven Redundancy to Value-Driven Architecture: An ODD-Based Rationalization Framework for Level 4 Autonomous Vehicles",
+    "url": "http://arxiv.org/abs/2611.32960v1",
+    "arxiv_id": "2611.32960v1",
+    "authors": [
+      "Tiago Sim\u00e3o Ferreira",
+      "Farzad Fallahi"
+    ],
+    "published": "2026-11-24T16:58:06+00:00",
+    "summary": "Level 4 autonomous vehicles require fault-tolerant architectures that preserve critical driving functions under sensing, computing, communication, power, and actuation failures. As these systems progress toward industrial scalability, architectural complexity, validation burden, integration effort, and lifecycle cost become increasingly relevant. This study proposes an Operational Design Domain (ODD)-based, safety-constrained systems-engineering framework for architecture rationalization. ODD-specific capabilities, physical fault assumptions, post-fault operational policies, and spatial sensing requirements are propagated through an integrated safety-feasibility gate. Architecture transformations, including removal, relocation, functional reassignment, and consolidation, are evaluated only within the resulting safety-feasible design space, followed by lifecycle-cost sensitivity and robust multiobjective Pareto analysis. A generic, synthetically parameterized Level 4 architecture is used as a demonstrative computational case study. Within this modeled design space, direct ablation showed limited rationalization potential, whereas directional redistribution and functional consolidation generated a broader set of safety-feasible candidates. Under the illustrative lifecycle-cost model, the best nominal candidate achieved a 5.55% normalized cost reduction and remained cost-reducing across all 5,000 sampled points in the prescribed uncertainty domain. The analysis identified 15 non-dominated architecture-policy solutions representing seven physical transformations. The results support capability-based, policy-conditioned, and lifecycle-aware architecture rationalization under the stated assumptions, with safety retained as a non-compensatory feasibility constraint. The reported transformations are design candidates rather than validated production architectures."
+  },
+  {
+    "title": "Exact local queries for pseudo-marginal Markov chains",
+    "url": "http://arxiv.org/abs/2611.32955v1",
+    "arxiv_id": "2611.32955v1",
+    "authors": [
+      "Zihan Xu"
+    ],
+    "published": "2026-11-24T16:56:01+00:00",
+    "summary": "Local queries of a Markov chain can depend on past updates outside the queried components. For pseudo-marginal chains with Gaussian graph priors, we construct decision certificates from finite historical parameter ranges to settle updates before all neighbouring records are resolved. Under shared random inputs and exact arithmetic, the executor recovers the reference parameters, auxiliary variables and likelihood estimates for any prespecified finite query sequence. We bound conditional expected work, including likelihood evaluation, historical range construction and execution management. On specified path and grid families, we fix per-node history lengths and all other parameters in the work bounds. As graph size grows, expected incremental work stays bounded for certificate execution and grows linearly for the specified cached pointwise evaluator answering the same query. In controlled experiments, certificate execution is faster than pointwise and parallel Picard execution for sparse queries, whereas Picard is faster than certificate execution for full queries. We apply the method to positron emission tomography and Gaussian process classification of Landmine data. For a fixed numerical tomography posterior, certificate execution completes all queries of regional mean distribution volume within budget, while full execution completes none from the same initial cache. In Landmine, posterior summaries of the difference in log length scales between two sites agree across pseudo-marginal and ancillary augmentation samplers within estimated Monte Carlo uncertainty. Certificate execution resolves almost every scheduled update over the full query sequence."
+  },
+  {
+    "title": "Beyond Expected Value: PPO with Distributional Critics for Systematic Conservation Planning",
+    "url": "http://arxiv.org/abs/2611.32948v1",
+    "arxiv_id": "2611.32948v1",
+    "authors": [
+      "Ana Maria Quintero Ossa",
+      "Daniele Silvestro",
+      "James Rudd-Jones",
+      "Maria Perez-Ortiz"
+    ],
+    "published": "2026-11-24T16:52:05+00:00",
+    "summary": "Systematic conservation planning must allocate limited protection budgets sequentially under ecological and climatic uncertainty. Static tools cannot adapt as conditions change, and policies optimised only for expected outcomes can fail on the worst-case trajectories climate change makes increasingly likely. CAPTAIN was the first framework to cast this as sequential reinforcement learning, but its gradient-free Evolution Strategies (ES) optimiser lacks per-timestep credit assignment. We replace ES with Proximal Policy Optimisation (PPO) via a Plackett-Luce solution to CAPTAIN's non-differentiable action space, and replace its scalar critic with an Implicit Quantile Network (IQN) modelling the full return distribution. A matched-granularity comparison shows decision granularity, not the optimiser, drives most of the ecological gain, so the real contribution is training efficiency and extensibility to risk-sensitive objectives. On a New Zealand marine dataset, it matches or exceeds ES's outcomes at a fraction of the training cost, offering a template for future work ES's black-box design could not support"
+  },
+  {
     "title": "The Simons Observatory: Analysis of methods for polarization calibration of multiple instruments",
     "url": "http://arxiv.org/abs/2611.31235v1",
     "arxiv_id": "2611.31235v1",
