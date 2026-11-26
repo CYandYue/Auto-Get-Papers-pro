@@ -1,5 +1,133 @@
 [
   {
+    "title": "Diverse Alternative Reasoning Traces for Hard Math Problems",
+    "url": "http://arxiv.org/abs/2611.34928v1",
+    "arxiv_id": "2611.34928v1",
+    "authors": [
+      "Lukas Aichberger",
+      "Adam Golinski",
+      "Arno Blaas",
+      "Arwen Bradley",
+      "Jacob Springer",
+      "Mehrdad Farajtabar",
+      "Michael Kirchhof",
+      "Sinead Williamson"
+    ],
+    "published": "2026-11-25T18:59:11+00:00",
+    "summary": "Post-training large language models (LLMs) for mathematical reasoning often relies on accepted traces whose final answers pass a verifier. For hard math problems, however, such traces can be rare under independent Monte Carlo (MC) sampling. To address this, we propose Diverse Alternative Reasoning Traces (DART), a trace-mining method that starts from a rejected trace, decomposes it into reasoning steps, and ranks them by position-weighted uncertainty. It then generates deliberately distinct alternative candidates for highly ranked steps using reference-answer guidance and a meta-thought before completing the resulting traces. On greedy-unsolved DeepMath-103K problems, DART recovers 37% more problems than MC sampling at a matched number of generated traces. Its estimated generation cost per recovered problem is nearly identical, while its cost per accepted trace is 30% lower. Post-training Llama-3.1-8B-Instruct on traces mined by DART achieves the highest point estimate in five of six evaluations across MATH-500 and AIME benchmarks. These results demonstrate that revisiting rejected traces with DART can expand problem coverage and provide effective post-training data."
+  },
+  {
+    "title": "Adaptive Control Barrier Functions for Nonlinear Singularly Perturbed Systems",
+    "url": "http://arxiv.org/abs/2611.34866v1",
+    "arxiv_id": "2611.34866v1",
+    "authors": [
+      "Prashanth Krishnamurthy",
+      "Farshad Khorrami"
+    ],
+    "published": "2026-11-25T18:31:54+00:00",
+    "summary": "Control barrier functions (CBFs) have emerged as a flexible and efficient approach for enforcing dynamic safety constraints. In this paper, we consider a class of uncertain nonlinear systems with singular perturbations and develop an adaptive CBF framework for such systems to enforce safety constraints on both the slow and fast subsystems in the overall singularly perturbed nonlinear system with uncertain parameters. We first develop a robustness property showing that if an adaptive controller for the slow subsystem satisfies the slow CBF condition with an appropriate safety margin, then for sufficiently small values of the singular perturbation parameter $\\varepsilon$, the slow subsystem remains within an $O(\\varepsilon)$-neighborhood of its safe set. We then consider the more general case of safety constraints on both the fast and slow subsystems and provide conditions under which joint slow-fast safety is achieved despite the parametric uncertainties. The reduced-order slow model and the slow and fast CBF conditions are evaluated using an online parameter estimate and the parameter mismatch between the estimated and true reduced-order models is addressed via a state-dependent robustness margin in the CBF inequalities. To illustrate the proposed framework, we present simulation studies for two systems with parametric uncertainties: a synthetic two-time-scale fourth-order example system and a unicycle with a fast turn-rate actuator and an obstacle avoidance safety constraint."
+  },
+  {
+    "title": "Model Weights, Airlocks and Sandboxes: A Call for Technical Validation of Re-identification Tests under the EDPB Anonymisation Guidelines",
+    "url": "http://arxiv.org/abs/2611.34859v1",
+    "arxiv_id": "2611.34859v1",
+    "authors": [
+      "Rickard Br\u00e4nnvall",
+      "Henrik Forsgren",
+      "Erik Ylip\u00e4\u00e4",
+      "Aslak Felin",
+      "Michael Popoff",
+      "Susanne Stenberg"
+    ],
+    "published": "2026-11-25T18:28:20+00:00",
+    "summary": "The Guidelines 02/2026 on anonymisation of the European Data Protection Board (EDPB), published for consultation in July 2026, assess anonymity relative to the entities that may access data. They bring AI models into scope and call for testing, but do not say how a re-identification test should be designed or validated, or how far its result counts as evidence. Building on our reply to the consultation, we describe a framework based on a secure processing environment whose outputs are reviewed before release (an airlock), and distinguish forms of release and three types of evidence: formal, empirical and indirect. We raise seven open questions, each with a scenario, and examine their technical side in three settings: the release of model weights (the trained parameters of a machine learning model), review at an airlock, and regulatory sandboxes, in which an authority supervises development and testing. In each setting the assessment depends on how far a test result can be relied on, since a failed re-identification attempt may mean only that the test was too weak. Drawing on measurement practice in other regulated fields, we call for re-identification tests to be validated as measurement methods, with stated detection limit, bias and uncertainty."
+  },
+  {
+    "title": "Lattice gauge theory computation of $1/m_Q$ and $1/m_Q^2$ corrections to the quarkonium potential",
+    "url": "http://arxiv.org/abs/2611.34836v1",
+    "arxiv_id": "2611.34836v1",
+    "authors": [
+      "Michael Eichberg",
+      "Marc Wagner"
+    ],
+    "published": "2026-11-25T18:15:38+00:00",
+    "summary": "We compute the static quark-antiquark potential and its $1/m_Q$ and $1/m_Q^2$ corrections, i.e.\\ the $1/m_Q$ potential and all $1/m_Q^2$ potentials, which can be expressed in terms of correlators of two field strength insertions, in SU(3) lattice gauge theory and provide parameterizations for quark-antiquark separations $0.2 \\, \\text{fm} \\lesssim r \\lesssim 0.7 \\, \\text{fm}$. The field strength insertions in generalized Wilson loops are renormalized using gradient flow, which also leads to small statistical uncertainties. All potentials are extrapolated to zero flow time and, in contrast to previous lattice studies, to the continuum, using three lattice spacings and four flow times. The spin dependent potentials are matched to the $\\overline{\\text{MS}}$ scheme at NLO and provided at $\u03bc= 3 \\, \\text{GeV}$. They can easily be converted to specific heavy quark masses, e.g.\\ for Born-Oppenheimer effective field theory studies of quarkonium."
+  },
+  {
+    "title": "Not all world models can doubt: how training objective and architecture shape epistemic uncertainty in JEPA and RSSM world models",
+    "url": "http://arxiv.org/abs/2611.34830v1",
+    "arxiv_id": "2611.34830v1",
+    "authors": [
+      "Simon Baur",
+      "Wojciech Samek",
+      "Jackie Ma"
+    ],
+    "published": "2026-11-25T18:11:49+00:00",
+    "summary": "World models predict how an environment responds to actions, so that candidate actions can be evaluated before execution. Executed actions, or decisions, taken in this manner are only as reliable as the model's predictive capabilities, and predictions in turn are only reliable within the model's experience. Epistemic uncertainty (EU) is the signal that marks where that experience ends. In this work we offer an extensive empirical study on how training objectives and architectures shape epistemic uncertainty of world models. More precisely, we present a controlled comparison of post-hoc EU (last-layer Laplace and ensembles) between two dominant models of different paradigms: 1) LeWorldModel (LeWM): A joint-embedding predictive architecture (JEPA), which predicts the next embedding without a decoder, and 2) DreamerV3: A recurrent state-space model (RSSM), which reconstructs the observation from a recurrent latent state. In ten simulated visual-control environments, we follow a controlled state perturbation of the environment state through every stage of the models up to the final EU estimate. We find that the RSSM attenuates the state perturbation through two mechanisms before it reaches an estimator on the predictor feature. Its recurrent update averages over context, so a change in a single frame reaches the state at a fraction of its size and recovers only as the change persists. Its reconstruction objective weights an entity by the pixels it covers, so a small object can be lost due to the training objective. The JEPA has neither mechanism and passes the change through all stages to the uncertainty. We further show that this translates to gaps in five uncertainty related downstream tasks, from unfamiliar-state detection to uncertainty-penalised planning: the RSSM uncertainty misses deviations that its own posterior registers, whereas the JEPA uncertainty reports what its model sees."
+  },
+  {
+    "title": "A Rellich-type inequality for the sphere",
+    "url": "http://arxiv.org/abs/2611.34822v1",
+    "arxiv_id": "2611.34822v1",
+    "authors": [
+      "Ali Barki",
+      "Shubham Gupta",
+      "Yaozhong W. Qiu"
+    ],
+    "published": "2026-11-25T18:05:52+00:00",
+    "summary": "We prove a Rellich-type inequality of the form $$\\int |(\u0394+ 1)u|^2dx \\geq C_d \\int \\frac{|u|^2}{(1 - |x|^2)^2}dx $$ for smooth functions $u$ compactly supported in the unit ball in $\\mathbb{R}^d$ for $d \\geq 1$. The obtained constant is asymptotically sharp up to the first three orders, as $d \\rightarrow \\infty$. We also show that in the complement of the ball, the inequality holds only in dimension one, and does not hold true with a positive $C_d>0$ for $d \\geq 2$. The motivation is that if $\\hat{u}$ denotes the Fourier transform of $u$, then the inequality is associated with the uncertainty principle $$ \\left(\\int |u|^2dx\\right)^2 \\lesssim \\int (1-|x|^2)^2|u|^2dx \\int (1 - |\u03be|^2)^2|\\hat{u}|^2 d\u03be,$$ which says that a function cannot be simultaneously concentrated on a sphere in both space and frequency. This is in analogy with the classical Hardy inequality together with the Heisenberg uncertainty principle."
+  },
+  {
+    "title": "QED corrections to neutron and nuclear $\u03b2$-decay at order $\u03b1^2$",
+    "url": "http://arxiv.org/abs/2611.34804v1",
+    "arxiv_id": "2611.34804v1",
+    "authors": [
+      "Zehua Cao",
+      "Richard J. Hill",
+      "Ryan Plestid",
+      "Peter Vander Griend"
+    ],
+    "published": "2026-11-25T17:55:15+00:00",
+    "summary": "We compute two-loop QED corrections to neutron and nuclear beta decay, including full electron mass dependence and real radiation contributions. The result for the neutron, $\u03b4_{R,\\,\\rm static}= ( 29.199 \\pm 0.001 )\\times 10^{-3}$, implies a factor $\\sim 70 $ reduction in the uncertainty of the low-energy radiative corrections compared to previous results obtained in the large energy/small electron-mass limit, $m_e/(m_n-m_p) \\to 0$. For superallowed nuclear decays we find that the $Z$-independent order $\u03b1^2$ corrections range from $(0.1-0.5) \\times 10^{-4}$ i.e., of roughly the expected size and comparable to current uncertainty estimates."
+  },
+  {
+    "title": "Anytime-Valid Sequential Verification for Sensing-Efficient Robot Navigation under Perception Uncertainty",
+    "url": "http://arxiv.org/abs/2611.34764v1",
+    "arxiv_id": "2611.34764v1",
+    "authors": [
+      "Saad Korchi",
+      "Abderrahim Waga"
+    ],
+    "published": "2026-11-25T17:32:43+00:00",
+    "summary": "When a robot navigates an unfamiliar grid, noisy sensor readings can make it hard to tell whether the cells along its next move are free. Additional scans can reduce that uncertainty, but a fixed scan count spends the same sensing effort at every position. In a static-grid simulation, a sequential rule uses a Gaussian likelihood ratio to determine when the cells newly covered by the robot's footprint have enough evidence of free space. On 324 held-out scenarios from 18 public maps, the sequential gate and a four-scan reference chosen on validation data both completed every mission without an observed collision. With their respective validation-selected routing weights, the gate averaged 123.15 scans per episode versus 224.13 for the reference, a reduction of 45.05% (95% map-stratified bootstrap interval: 42.21--48.95%). In a retrospective check on the same scenarios with routing weights held equal, the reductions were 43.91% and 43.37% at the two tested weights, with all missions completed. On 216 scenarios from 12 previously unused maps, allocating more of the same certification error budget near the initial start--goal rectangle cut the sequential gate's scan count by a further 11.58%. The spatial variant completed 206 missions versus 208 for the original gate and increased computation time. The collision bound depends on the assumed observation model and footprint geometry. In a stress test with persistent per-cell bias, the original gate completed 0 of 54 missions."
+  },
+  {
+    "title": "How Well Do Vision-Language Scene Graphs Serve as Memory for Embodied Question Answering?",
+    "url": "http://arxiv.org/abs/2611.34745v1",
+    "arxiv_id": "2611.34745v1",
+    "authors": [
+      "Divyansh Pandey",
+      "Shubh Garg",
+      "Vedant Khandelwal",
+      "Niyati Rawal",
+      "Amit Sheth"
+    ],
+    "published": "2026-11-25T17:23:01+00:00",
+    "summary": "Embodied QA needs memory, but answer accuracy mixes retained evidence, reading errors and question priors. For a simulated multi-room scene-graph pipeline we define answerability: the fraction of questions a fixed rule-based reader answers correctly from the graph alone. The baseline recovers 24.1% of visible object types and its room labels flicker. Four targeted repairs double recall, raise answerability from 27.2% to 37.4%, and improve retrained QA from 71.4% to 75.9%, yet better object F1 can lower answerability. A question-type prior beats this reader on every predicted graph. In one real-video test, graph memory lowers accuracy. These exploratory findings favour scoring retained evidence alongside accuracy."
+  },
+  {
+    "title": "A general-purpose electron density model for molecular chemistry",
+    "url": "http://arxiv.org/abs/2611.34732v1",
+    "arxiv_id": "2611.34732v1",
+    "authors": [
+      "Paolo Pegolo",
+      "Joseph W. Abbott",
+      "Michele Ceriotti"
+    ],
+    "published": "2026-11-25T17:15:36+00:00",
+    "summary": "Universal machine-learning potentials predict molecular structure and stability at the accuracy of quantum mechanics, for a fraction of the cost. Properties derived instead from knowledge of the electronic structure give profound insights into chemical reactivity, but are not accessible with the same ease or transferability. We train PET-rho-OMol25, a model of the ground-state electron density and spin polarization of molecular systems on four million OMol25 structures in multiple charge and spin states. The model makes predictions for entire proteins in a few seconds on a single GPU, and enables estimation of important diagnostics of molecular structure and reactivity, such as vibrational Stark measurements, halogen $\u03c3$-holes, hydrogen-bond basicities and core-level shifts, as well as spin density for redox chemistry and magnetism. PET-rho-OMol25 has an accuracy close to density-functional theory, with its least reliable predictions flagged by its built-in uncertainty estimator, for most properties and classes of compounds. It can be used as a drop-in replacement for electronic-structure calculations of the density, making insightful analyses available for larger and more complex structures."
+  },
+  {
     "title": "From dispersal to patrol: the extracellular matrix shapes an annealing-like search by Drosophila embryonic macrophages",
     "url": "http://arxiv.org/abs/2611.33097v1",
     "arxiv_id": "2611.33097v1",
